@@ -129,12 +129,12 @@ function renderHeroArticle() {
     
     const excerpt = heroArticle.subheadline || heroArticle.body?.slice(0, 200) + '...';
     const readTime = Math.ceil((heroArticle.body?.length || 500) / 1000);
-    const imageUrl = heroArticle.imageUrl || `https://source.unsplash.com/1200x630/?${heroArticle.category}`;
+    const imageUrl = heroArticle.imageUrl || `https://picsum.photos/seed/${heroArticle.category}/1200/630`;
     
     heroElement.innerHTML = `
         <div class="hero-image-container">
             <img src="${imageUrl}" alt="${heroArticle.headline}" class="hero-img" loading="eager" 
-                 onerror="this.src='https://source.unsplash.com/1200x630/?${heroArticle.category}'">
+                 onerror="this.src='https://picsum.photos/seed/${heroArticle.id || 'hero'}/1200/630'">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
@@ -177,13 +177,13 @@ function renderArticles() {
     articlesGrid.innerHTML = articles.map(article => {
         const excerpt = article.subheadline || article.body?.slice(0, 120) + '...';
         const readTime = Math.ceil((article.body?.length || 500) / 1000);
-        const imageUrl = article.imageUrl || `https://source.unsplash.com/600x400/?${article.category}`;
+        const imageUrl = article.imageUrl || `https://picsum.photos/seed/${article.id || article.category}/600/400`;
         
         return `
             <article class="article-card" onclick="window.open('${article.sourceUrl}', '_blank')">
                 <div class="article-image-container">
                     <img src="${imageUrl}" alt="${article.headline}" class="article-img" loading="lazy"
-                         onerror="this.src='https://source.unsplash.com/600x400/?${article.category}'">
+                         onerror="this.onerror=null; this.src='https://picsum.photos/seed/${article.id}/600/400'">
                 </div>
                 <div class="article-content">
                     <span class="category-badge ${article.category}">${article.category}</span>
