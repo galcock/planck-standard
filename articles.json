@@ -1,27 +1,135 @@
 {
-  "lastUpdated": "2026-02-20T23:33:19.882Z",
+  "lastUpdated": "2026-02-20T23:48:14.732Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771630320181-7wui",
+      "id": "ps-1771631219220-x3he",
       "slug": "trump-says-he-is-weighing-limited-military-strike-on-iran",
       "headline": "Trump Says He Is Weighing Limited Military Strike on Iran",
-      "subheadline": "The president's remarks come as Tehran's foreign minister says a draft nuclear agreement could be ready within days.",
-      "body": "President Donald Trump said Friday he is considering a limited military strike against Iran, escalating pressure on Tehran even as both sides signal that a negotiated deal to curtail Iran's nuclear program remains within reach.\n\nThe statement, made in response to a reporter's question, followed earlier suggestions from administration officials that a strike was on the table. On Thursday, Trump said the world would learn \"over the next, probably, 10 days\" whether diplomats would secure an agreement or the United States would resort to military force. Iran's Foreign Minister Abbas Araghchi responded Friday by saying Tehran is preparing \"a draft of a possible agreement\" to be delivered to U.S. Special Envoy Steve Witkoff in the coming days. The two sides have already held talks in Geneva, with both describing progress.\n\nThe diplomatic maneuvering is unfolding against a backdrop of rapidly intensifying military posturing. The United States has been building up forces in the region for weeks, deploying the USS Gerald R. Ford — the world's largest warship — along with the USS Abraham Lincoln carrier strike group, additional destroyers, combat ships, and fighter jets. Satellite imagery indicates Iran has reinforced its own military installations, and Supreme Leader Ayatollah Ali Khamenei has posted messages on social media warning American forces. \"A warship is a dangerous piece of military hardware,\" Khamenei wrote, acknowledging and implicitly threatening the U.S. naval presence.\n\nTrump's rhetoric, however, comes with well-established caveats. The president frequently declines to reveal his intentions, telling one reporter Thursday, \"I'm not going to talk to you about that,\" before adding, \"We're going to make a deal or get a deal one way or the other.\" His public statements have not always translated into action — though they sometimes have. Last July, Operation Midnight Hammer saw U.S. forces strike Iranian nuclear facilities just one day after White House Press Secretary Karoline Leavitt read a statement suggesting negotiations were still possible. U.S. officials have reportedly presented Trump with a broad range of military options, including plans for a campaign lasting several weeks.\n\nA prolonged conflict with Iran would pose domestic risks for the administration. Polls show rising disapproval of Trump's handling of the economy and immigration, and a multi-week military engagement could alienate segments of his base that were drawn to his promises of avoiding costly foreign entanglements. A short, contained strike — similar to last year's one-day operation or the swift capture of Venezuelan leader Nicolás Maduro in January — would carry less political liability. For now, both the military buildup and the diplomatic channel remain active, leaving the outcome squarely in the hands of a president who prizes unpredictability as a strategic asset.",
+      "subheadline": "The remarks come as Iran's foreign minister says a draft nuclear agreement could be delivered to U.S. envoys within days.",
+      "body": "President Donald Trump said Friday that he is considering a limited military strike against Iran, escalating pressure on Tehran as nuclear negotiations enter what both sides describe as a critical phase. The statement, made in response to a reporter's question, follows remarks a day earlier in which Trump said the world would learn within \"probably 10 days\" whether a deal would materialize or the United States would resort to force.\n\nThe diplomatic and military tracks are advancing in parallel. Iranian Foreign Minister Abbas Araghchi said Friday that Tehran is preparing a draft agreement and plans to deliver it to U.S. Special Envoy Steve Witkoff in the coming days. The two sides have held talks in Geneva, with both characterizing the discussions as productive. The United States and its European allies suspect Iran is progressing toward the development of a nuclear weapon — a charge Tehran has consistently denied.\n\nMeanwhile, the Pentagon has been steadily expanding its military footprint near Iran. The USS Gerald R. Ford, the world's largest warship, appears to be heading toward the region, and the USS Abraham Lincoln carrier strike group is also being deployed, joining an expanding force of destroyers, combat ships, and fighter jets. Satellite imagery indicates Iran has reinforced its own military installations, and Supreme Leader Ayatollah Ali Khamenei has posted social media messages warning the United States about its naval buildup.\n\nTrump's public posture on Iran carries significant ambiguity. He frequently reminds reporters that he prefers to keep adversaries guessing about his intentions. On Thursday, he snapped at a journalist who asked about potential strikes: \"I'm not going to talk to you about that. We're going to make a deal or get a deal one way or the other.\" U.S. officials have reportedly presented the president with a wide range of military options, including scenarios for a campaign lasting several weeks. Notably, last year's Operation Midnight Hammer — in which U.S. forces struck Iranian nuclear facilities — was launched even as the White House was publicly discussing the possibility of successful negotiations.\n\nAny military action would come at a politically fraught moment for the administration. Polls show rising disapproval of Trump's handling of immigration and the economy, and a prolonged conflict with Iran risks alienating elements of his base that were drawn to his promises of avoiding protracted foreign entanglements. Unlike the single-day strike last year or the swift operation to capture Venezuelan leader Nicolás Maduro in January, a multi-week campaign against Iran would represent a far more consequential commitment of American military power.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Trump",
         "Iran",
         "military strike",
-        "nuclear deal",
+        "nuclear negotiations",
         "Middle East",
         "U.S. foreign policy"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1a63/live/ac7525e0-0ea4-11f1-8fa9-a78fde43271a.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-20T23:32:00.181Z"
+      "publishedAt": "2026-02-20T23:46:59.220Z"
+    },
+    {
+      "id": "ps-1771631235709-l70k",
+      "slug": "physics-guided-ai-framework-designs-photonic-metasurfaces-fr",
+      "headline": "Physics-Guided AI Framework Designs Photonic Metasurfaces from Target Specs",
+      "subheadline": "MxDiffusion embeds Maxwell's equations directly into a diffusion model, outperforming purely data-driven approaches",
+      "body": "A research team spanning multiple institutions has developed a novel AI framework called MxDiffusion that bakes the fundamental laws of electromagnetism directly into a generative diffusion model, enabling the rapid inverse design of photonic metasurfaces — nanostructured surfaces that manipulate light in precisely engineered ways.\n\nThe work, posted to the arXiv preprint server on February 18 by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, addresses a persistent challenge in nanophotonics: given a desired optical response, how do you work backward to determine the physical structure that produces it? Traditional computational approaches such as finite-difference time-domain simulations are accurate but computationally expensive, while purely data-driven machine learning methods often fail when asked to generalize beyond their training data. MxDiffusion attempts to bridge both worlds through a two-stage architecture. The first diffusion model is trained using a loss function derived explicitly from Maxwell's equations, embedding physical constraints into the generative process itself. The second model then translates this physically consistent intermediate representation into a final structural geometry, yielding designs with substantially higher fidelity than conventional AI-only pipelines.\n\nThe researchers validated MxDiffusion on two representative test cases: gold nanostructures patterned on silica substrates and a highly tunable bandpass filter based on phase-change materials. In both scenarios, the physics-aware framework consistently outperformed a standard data-driven diffusion model benchmark. The advantages were especially pronounced for out-of-training-distribution design targets — optical responses the model had never seen during training — and for highly constrained resonance conditions where small structural variations produce large spectral shifts.\n\nThe significance of the approach lies in its generality. Metasurfaces have rapidly emerged as one of the most versatile platforms in modern photonics, with applications ranging from flat lenses and holographic displays to biosensors and thermal emitters. Designing these structures typically requires iterating through enormous parameter spaces, a process that can take days or weeks using brute-force simulation. By combining the expressiveness of diffusion models — the same class of generative AI behind image generators like Stable Diffusion — with hard physical laws, MxDiffusion points toward a design paradigm where physics-informed AI could dramatically accelerate the development cycle for next-generation optical devices.\n\nThe authors frame MxDiffusion as a general physics-guided inverse design paradigm, suggesting the strategy of embedding governing equations into generative models could extend well beyond photonics to other domains of engineering and applied physics where inverse problems are similarly intractable.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "photonics",
+        "metasurfaces",
+        "diffusion models",
+        "inverse design",
+        "Maxwell's equations",
+        "nanophotonics",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1762278804698-fc25d03b69e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.16851",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-20T23:47:15.709Z"
+    },
+    {
+      "id": "ps-1771631249960-28a2",
+      "slug": "massive-study-links-air-pollution-directly-to-alzheimer-s-ri",
+      "headline": "Massive Study Links Air Pollution Directly to Alzheimer's Risk",
+      "subheadline": "Research tracking 27.8 million Medicare beneficiaries finds fine particulate pollution harms the brain independently of other chronic diseases",
+      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the damage appears to bypass the body's other organ systems, acting directly on the brain. That is the central finding of a sweeping national cohort study published February 17 in PLOS Medicine, one of the largest investigations to date into the environmental roots of dementia.\n\nA team led by Yanling Deng of Emory University analyzed health records from more than 27.8 million U.S. Medicare beneficiaries aged 65 and older, spanning nearly two decades from 2000 to 2018. By cross-referencing fine particulate matter (PM2.5) exposure levels with new Alzheimer's diagnoses — while controlling for pre-existing chronic conditions — the researchers sought to untangle a question that has long vexed the field: does air pollution raise dementia risk indirectly, by fueling conditions like hypertension, stroke, and depression that are themselves linked to cognitive decline, or does it harm the brain through a more direct pathway?\n\nThe answer, according to the data, tilts decisively toward the latter. Neither hypertension nor depression meaningfully amplified the pollution-related Alzheimer's risk, suggesting that dirty air does not need an intermediary disease to inflict neurological damage. There was one notable exception: individuals with a history of stroke showed a somewhat stronger association between pollution exposure and Alzheimer's onset, pointing to an important intersection between environmental and vascular risk factors that could identify particularly vulnerable populations.\n\nThe implications extend well beyond the clinic. Alzheimer's disease currently affects an estimated 57 million people worldwide, and no approved therapy can halt or reverse its progression. If ambient air quality is confirmed as a modifiable risk factor with a direct neurological mechanism, then pollution reduction policies — already justified on cardiovascular and respiratory grounds — could become a frontline public health strategy for protecting cognitive health in aging societies. The study was funded by the National Institutes of Health.\n\nResearchers cautioned that observational data cannot prove causation, and further work is needed to elucidate the biological pathways by which inhaled fine particles may reach and damage brain tissue. Still, the sheer scale of the Medicare dataset and the consistency of the findings add substantial weight to a growing body of evidence that the air millions of older Americans breathe every day may be quietly eroding their cognitive futures.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "air pollution",
+        "PM2.5",
+        "dementia",
+        "public health",
+        "Medicare",
+        "Emory University"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-20T23:47:29.960Z"
+    },
+    {
+      "id": "ps-1771631263089-obf5",
+      "slug": "ukrainian-man-gets-five-years-for-helping-north-koreans-infi",
+      "headline": "Ukrainian Man Gets Five Years for Helping North Koreans Infiltrate U.S. Companies",
+      "subheadline": "Oleksandr Didenko managed over 870 stolen identities and ran 'laptop farms' to disguise workers' true locations",
+      "body": "A federal court has sentenced Oleksandr Didenko, a 29-year-old Ukrainian national, to five years in prison for orchestrating an identity theft operation that enabled North Korean workers to fraudulently obtain employment at dozens of American companies — funneling wages back to Pyongyang to help finance its nuclear weapons program.\n\nDidenko, a Kyiv resident, operated a website called Upworksell that served as a marketplace where overseas workers, including North Koreans, could purchase or rent stolen U.S. identities to pass employment screening. According to the Department of Justice, he handled more than 870 stolen identities through the platform before the FBI seized the site in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States, where he pleaded guilty.\n\nBeyond the identity marketplace, prosecutors revealed that Didenko also arranged so-called \"laptop farms\" — locations in California, Tennessee, and Virginia where paid participants hosted racks of open laptops in their homes. The setup allowed North Korean workers to remotely connect to the machines, making it appear they were physically present in the United States while performing their jobs. The workers typically filled remote developer and software engineering roles, positions that also granted them access to sensitive corporate systems and proprietary data.\n\nThe conviction is the latest in a growing wave of federal prosecutions targeting individuals who facilitate North Korean IT worker schemes. Security researchers, including those at CrowdStrike, have characterized these infiltrators as a \"triple threat\" — simultaneously violating U.S. sanctions, exfiltrating confidential company data, and later extorting victim organizations by threatening to release stolen corporate secrets. CrowdStrike reported a sharp increase in such infiltration attempts over the past year.\n\nThe broader scheme reflects Pyongyang's increasingly creative efforts to circumvent international sanctions that have locked North Korea out of the global financial system. Beyond fraudulent employment, North Korean operatives have been known to impersonate recruiters and venture capitalists to target high-net-worth individuals, particularly in the cryptocurrency sector, by tricking them into granting remote access to their computers. The Didenko sentencing sends a signal that U.S. authorities are aggressively pursuing not only the North Korean operatives themselves but the international enablers who make these schemes possible.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "North Korea",
+        "cybersecurity",
+        "identity theft",
+        "sanctions",
+        "FBI",
+        "IT workers"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
+      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-20T23:47:43.089Z"
+    },
+    {
+      "id": "ps-1771631277484-ghw1",
+      "slug": "blue-owl-offloads-1-4b-loan-portfolio-to-pensions-own-insure",
+      "headline": "Blue Owl Offloads $1.4B Loan Portfolio to Pensions, Own Insurer",
+      "subheadline": "Alternative asset manager tapped North America's largest pension funds and its affiliated insurance unit to meet fund redemption deadline",
+      "body": "Blue Owl Capital sold a $1.4 billion portfolio of private loans to four buyers — three of North America's largest pension funds and its own insurance asset management arm — as the firm raced to return capital to investors in one of its private credit funds ahead of a looming redemption deadline.\n\nThe transaction underscores the growing entanglement between alternative asset managers, institutional pension capital, and affiliated insurance platforms in the rapidly expanding private credit market. Blue Owl, which has built itself into one of the sector's most prominent players, turned to a mix of external and internal buyers to liquidate the loan book, a maneuver that highlights both the depth of institutional demand for private debt and the potential conflicts that arise when firms sell assets to entities they control.\n\nThe sale to Blue Owl's own insurance asset manager is likely to draw particular scrutiny. Asset managers that also operate or advise insurance affiliates have faced mounting regulatory attention over concerns that captive insurers can serve as convenient warehouses for assets that might otherwise be difficult to move. Regulators and ratings agencies have increasingly questioned whether such arrangements adequately protect policyholders and whether pricing reflects true arm's-length terms.\n\nFor the pension funds involved, the deal represents an opportunity to acquire seasoned private credit assets at a time when many institutional allocators are actively increasing their exposure to the asset class. Pension systems across North America have been shifting portfolios toward private markets in search of higher yields and diversification away from publicly traded fixed income, a trend that has accelerated as private credit has expanded to fill lending gaps left by traditional banks.\n\nBlue Owl Capital, publicly traded on the New York Stock Exchange, has amassed significant scale in direct lending and other alternative credit strategies. The firm's ability to orchestrate a $1.4 billion secondary sale to meet investor redemptions suggests both robust demand for its loan assets and the operational complexity of managing liquidity in funds that invest in inherently illiquid instruments. The transaction serves as a case study in how private credit managers navigate the tension between long-duration assets and investors' periodic need for cash.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Blue Owl Capital",
+        "private credit",
+        "pension funds",
+        "insurance",
+        "alternative assets",
+        "loan sales"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1641914568078-3b6e1aa2d987?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Qmx1ZSUyME93bCUyMENhcGl0YWwlMjBwcml2YXRlJTIwY3JlZGl0fGVufDB8MHx8fDE3NzE2Mjk0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-20/blue-owl-sold-private-loans-to-pension-giants-and-own-insurer",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-20T23:47:57.484Z"
+    },
+    {
+      "id": "ps-1771631294643-u2jg",
+      "slug": "supreme-court-strikes-down-trump-tariffs-in-6-3-ruling",
+      "headline": "Supreme Court Strikes Down Trump Tariffs in 6-3 Ruling",
+      "subheadline": "Bitcoin briefly surged past $68,000 before retreating, while stocks posted more durable gains amid stagflationary economic data",
+      "body": "The U.S. Supreme Court on Friday declared President Donald Trump's sweeping tariff regime unconstitutional in a landmark 6-3 decision, ruling that the executive branch had exceeded its authority in imposing levies of unprecedented \"magnitude and scope.\" The decision sent immediate shockwaves through financial markets, though the reactions diverged sharply between asset classes.\n\nBitcoin jumped roughly 2% on the news, briefly climbing above $68,000, before sellers overwhelmed the move within minutes, pushing the cryptocurrency back below $67,000. The rapid reversal underscored a persistent pattern in digital asset markets, where rallies have been consistently met with swift profit-taking. The broader CoinDesk 20 Index fared somewhat better, rising 2.5% on the day, with tokens including BNB, Dogecoin, Cardano, and Solana posting modest gains. Equities, by contrast, showed more staying power — the Nasdaq Composite rose 0.6% to a session high following the ruling.\n\nThe court's majority opinion cited the lack of any historical precedent for a president invoking the statute in question to impose tariffs, concluding that the \"breadth of authority\" claimed by the administration extended beyond the executive's \"legitimate reach.\" The ruling effectively dismantles a central pillar of Trump's trade policy, though the president responded almost immediately by issuing a fresh 10% global levy, signaling the White House intends to find alternative legal pathways to maintain trade barriers.\n\nCompounding market uncertainty, the Commerce Department released economic data Friday morning that painted a stagflationary picture. U.S. GDP grew just 1.4% in the fourth quarter of 2025, contributing to a full-year expansion of only 2.2% — the slowest annual growth since the pandemic year of 2020. Meanwhile, core personal consumption expenditure prices rose 3% year-over-year, hotter than the 2.9% economists had forecast and an acceleration from the prior 2.8% reading. Art Hogan, chief market strategist at B. Riley Wealth, called the data a \"messy message\" that reinforces the Federal Reserve's inclination to hold steady on interest rates.\n\nFor crypto markets specifically, the combination of a historic judicial rebuke of presidential trade authority and worsening economic fundamentals appeared to roughly cancel each other out. Bitcoin, which has logged its worst first 50 trading days of any year on record, remained range-bound near $67,000 as traders weighed whether the Supreme Court's intervention would ultimately reduce macro uncertainty or simply trigger a new phase of policy improvisation from the White House.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Supreme Court",
+        "Trump tariffs",
+        "Bitcoin",
+        "stagflation",
+        "GDP",
+        "crypto markets",
+        "trade policy"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-20T23:48:14.643Z"
     },
     {
       "id": "ps-1771630335224-y7zr",
@@ -64,27 +172,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010825.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-20T23:32:32.356Z"
-    },
-    {
-      "id": "ps-1771630367857-mmmj",
-      "slug": "ukrainian-sentenced-to-five-years-for-helping-north-koreans-",
-      "headline": "Ukrainian Sentenced to Five Years for Helping North Koreans Land U.S. Tech Jobs",
-      "subheadline": "Oleksandr Didenko ran a stolen-identity marketplace and 'laptop farms' that funneled wages to Pyongyang's weapons program",
-      "body": "A federal court has sentenced 29-year-old Ukrainian national Oleksandr Didenko to five years in prison for operating a stolen-identity marketplace that enabled North Korean workers to fraudulently secure employment at dozens of American companies — with earnings ultimately flowing back to fund Pyongyang's nuclear weapons program.\n\nDidenko, a Kyiv resident first charged in 2024, ran a website called Upworksell that allowed overseas workers, including North Koreans, to purchase or rent the identities of U.S. citizens for use in job applications. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform before the FBI seized it in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States, where he pleaded guilty.\n\nBeyond the identity marketplace, prosecutors said Didenko also orchestrated so-called \"laptop farms\" — paying individuals in California, Tennessee, and Virginia to host racks of open laptops in their homes. The setup allowed North Korean workers to remotely connect and perform their duties as though they were physically located in the United States, bypassing the geographic red flags that might otherwise alert employers. The workers typically posed as remote software developers or technical engineers.\n\nThe conviction is the latest in a growing wave of prosecutions targeting what security researchers have called a \"triple threat\" to Western businesses. North Korean IT worker schemes simultaneously violate international sanctions, create vectors for sensitive corporate data theft, and open companies up to extortion when operatives threaten to release stolen secrets. CrowdStrike reported a sharp increase in such infiltrations last year, warning that the tactic has become a significant and systematic revenue stream for a regime largely cut off from the global financial system.\n\nU.S. officials have signaled that cracking down on these facilitation networks is a priority. North Korea's IT worker operations are part of a broader portfolio of cybercrime and social engineering campaigns — including impersonating venture capitalists and recruiters to target high-net-worth individuals and cryptocurrency holders. The Didenko case underscores how the schemes depend not just on North Korean operatives themselves, but on an international supply chain of enablers willing to provide the infrastructure that makes the fraud possible.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "cybersecurity",
-        "North Korea",
-        "identity theft",
-        "sanctions",
-        "FBI",
-        "IT worker fraud"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
-      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-20T23:32:47.857Z"
     },
     {
       "id": "ps-1771630382999-1l2h",
@@ -130,28 +217,6 @@
       "publishedAt": "2026-02-20T23:33:19.791Z"
     },
     {
-      "id": "ps-1771629458551-4n39",
-      "slug": "massive-study-ties-air-pollution-directly-to-alzheimer-s-ris",
-      "headline": "Massive Study Ties Air Pollution Directly to Alzheimer's Risk",
-      "subheadline": "Research tracking 27.8 million Medicare beneficiaries finds fine particulate matter harms the brain independent of other chronic diseases",
-      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the link appears to run directly through the brain rather than through intermediate conditions like hypertension or depression, according to one of the largest studies ever conducted on the subject.\n\nPublished February 17 in the open-access journal PLOS Medicine, the research led by Yanling Deng of Emory University drew on Medicare records spanning nearly two decades, from 2000 to 2018, covering more than 27.8 million Americans aged 65 and older. The team cross-referenced participants' pollution exposure levels with new Alzheimer's diagnoses while controlling for the presence of chronic conditions long suspected of mediating the pollution-dementia connection. The results were striking: higher pollution exposure correlated with greater Alzheimer's incidence, and the pathway appeared to be largely independent of conditions such as high blood pressure and depression.\n\nOne notable exception emerged. Individuals with a history of stroke showed a meaningfully stronger association between pollution exposure and Alzheimer's risk, suggesting that prior vascular damage to the brain may create a heightened vulnerability to airborne particulate matter. The finding highlights what the authors describe as \"an important intersection between environmental and vascular risk factors\" — a compounding of threats that could help clinicians identify patients who need the most aggressive preventive interventions.\n\nThe study's scale gives it unusual statistical power, but its observational design means it cannot prove that air pollution directly causes Alzheimer's. Still, the consistency of the signal across such a large and diverse population bolsters a growing body of evidence implicating fine particulate matter — particles smaller than 2.5 micrometers, known as PM2.5 — in neurodegenerative disease. Alzheimer's currently affects roughly 57 million people worldwide, and no disease-modifying treatment has yet proven broadly effective, making prevention strategies critically important.\n\nThe research, funded by the National Institutes of Health, carries clear policy implications. If the direct neurological pathway holds up under further scrutiny, cleaner air regulations could become one of the most cost-effective public health tools for slowing dementia rates in aging populations. For the roughly one in six Americans over 65 living in counties that exceed federal PM2.5 standards, the findings add urgency to longstanding debates over air quality enforcement.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "air pollution",
-        "PM2.5",
-        "dementia",
-        "public health",
-        "Medicare",
-        "Emory University"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-20T23:17:38.551Z"
-    },
-    {
       "id": "ps-1771629471199-m977",
       "slug": "tesla-fails-to-overturn-243-million-autopilot-crash-verdict",
       "headline": "Tesla Fails to Overturn $243 Million Autopilot Crash Verdict",
@@ -191,27 +256,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/blue-owl-sold-loans-to-pensions-own-insurance-arm-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-20T23:18:07.912Z"
-    },
-    {
-      "id": "ps-1771629504020-obmq",
-      "slug": "bitcoin-briefly-surges-past-68k-after-supreme-court-kills-tr",
-      "headline": "Bitcoin Briefly Surges Past $68K After Supreme Court Kills Trump Tariffs",
-      "subheadline": "Crypto's fleeting rally contrasts with more durable stock gains as stagflationary economic data clouds the outlook",
-      "body": "Bitcoin spiked roughly 2% above $68,000 on Friday after the U.S. Supreme Court struck down President Donald Trump's sweeping tariff regime in a landmark 6-3 ruling, but the cryptocurrency surrendered its gains within minutes, sliding back to approximately $67,000. The rapid reversal underscored a persistent pattern in digital asset markets, where even catalytic news events have struggled to sustain upward momentum.\n\nThe Supreme Court's decision declared that Trump had exceeded his executive authority in imposing the tariffs, noting that no president had previously invoked the relevant statute \"to impose any tariffs, let alone tariffs of this magnitude and scope.\" The majority opinion cited the \"lack of historical precedent\" combined with the sweeping \"breadth of authority\" claimed by the administration as evidence the levies extended beyond the president's legitimate reach. Despite the ruling, Trump reportedly moved quickly to impose a fresh 10% global levy, injecting fresh uncertainty into markets.\n\nWhile crypto's rally proved ephemeral, equities showed more staying power. The Nasdaq Composite climbed 0.6% to session highs following the decision, suggesting traditional markets viewed the rollback of tariffs as a more straightforwardly positive development. The broader CoinDesk 20 Index rose 2.5% on the day, with altcoins including BNB, Cardano's ADA, Dogecoin, and Solana posting stronger gains than bitcoin itself.\n\nAdding to the uncertain macro backdrop, the Commerce Department reported Friday that the U.S. economy grew just 1.4% in the fourth quarter of 2025, while full-year growth of 2.2% marked the slowest annual expansion since 2020. Core personal consumption expenditure prices, the Federal Reserve's preferred inflation gauge, rose 3% year-over-year — hotter than the 2.9% economists had anticipated and up from 2.8% in the prior period. Art Hogan, chief market strategist at B. Riley Wealth, described the data as delivering \"a messy message of both hotter than expected inflation, and slower than anticipated growth,\" reinforcing the Federal Reserve's likely inclination to hold rates steady.\n\nThe convergence of a historic Supreme Court ruling, fresh tariff threats, and stagflationary signals leaves bitcoin in what traders described as a likely rangebound posture absent further macro shocks. Bitcoin has logged its worst performance in the first 50 days of a calendar year on record, trading near $67,968 as of Friday afternoon — a far cry from the optimism that characterized crypto markets entering 2026.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Supreme Court",
-        "Trump tariffs",
-        "stagflation",
-        "cryptocurrency",
-        "Federal Reserve"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-20T23:18:24.020Z"
     },
     {
       "id": "ps-1771628587025-cyz7",
@@ -257,27 +301,6 @@
       "publishedAt": "2026-02-20T22:47:05.265Z"
     },
     {
-      "id": "ps-1771627685971-hai5",
-      "slug": "blue-owl-offloads-1-4b-loan-portfolio-to-pensions-own-insure",
-      "headline": "Blue Owl Offloads $1.4B Loan Portfolio to Pensions, Own Insurer",
-      "subheadline": "Alternative asset manager tapped three major North American pension funds and its insurance arm to meet fund redemption deadline",
-      "body": "Blue Owl Capital sold a $1.4 billion portfolio of private loans to four buyers — three of North America's largest pension funds and its own insurance asset management unit — as the firm raced to return capital to investors in one of its private credit funds ahead of a looming deadline.\n\nThe transaction highlights both the growing appetite among institutional investors for private credit assets and the increasingly complex web of interconnected buyers within the alternative asset management industry. Pension funds have been steadily increasing their allocations to private credit in recent years, drawn by the higher yields such instruments offer relative to publicly traded fixed-income securities. For Blue Owl, the sale provided a mechanism to generate liquidity in an asset class that is inherently illiquid, allowing it to meet its obligations to fund investors seeking redemptions.\n\nThe involvement of Blue Owl's own insurance asset management arm in the purchase raises questions that have become familiar across the alternative investment landscape. Large asset managers including Apollo Global Management and KKR have built or acquired insurance platforms that serve as captive pools of capital, effectively creating in-house buyers for the private credit and other illiquid assets they originate. While such arrangements can provide stability and a reliable source of demand, they also invite scrutiny over potential conflicts of interest and whether transactions between affiliated entities occur at arm's length.\n\nBlue Owl Capital, which manages roughly $250 billion in assets, has built a significant private credit business alongside its flagship strategies in technology lending and GP stakes investing. The firm has expanded aggressively through acquisitions and new fund launches, positioning itself as one of the faster-growing players in the alternative asset management space. Private credit more broadly has ballooned into a roughly $1.7 trillion market globally, with managers under increasing pressure to demonstrate they can provide liquidity to investors even when underlying loan assets lack active secondary markets.\n\nThe deal underscores a broader trend in which pension funds and insurers are effectively absorbing assets that private credit funds need to cycle out of their portfolios, creating a secondary ecosystem that keeps capital flowing through the alternative lending market. Whether that ecosystem proves resilient under stress remains one of the key unanswered questions for the industry.",
-      "category": "business",
-      "importance": 6,
-      "tags": [
-        "Blue Owl Capital",
-        "private credit",
-        "pension funds",
-        "insurance",
-        "alternative assets",
-        "loan sales"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1636315198196-0b01d9c984a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxCbHVlJTIwT3dsJTIwQ2FwaXRhbCUyMHByaXZhdGUlMjBjcmVkaXR8ZW58MHwwfHx8MTc3MTYyNzY4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-20/blue-owl-sold-private-loans-to-pension-giants-and-own-insurer",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-20T22:48:05.971Z"
-    },
-    {
       "id": "ps-1771626777547-t2v2",
       "slug": "russian-fuel-tanker-headed-for-cuba-tests-trump-sanctions-re",
       "headline": "Russian Fuel Tanker Headed for Cuba Tests Trump Sanctions Regime",
@@ -298,28 +321,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-20/cuba-bound-tanker-carrying-russian-fuels-to-test-trump-blockade",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-20T22:32:57.547Z"
-    },
-    {
-      "id": "ps-1771625840292-wph1",
-      "slug": "physics-guided-ai-framework-tackles-inverse-photonic-design",
-      "headline": "Physics-Guided AI Framework Tackles Inverse Photonic Design",
-      "subheadline": "MxDiffusion embeds Maxwell's equations directly into a diffusion model, outperforming purely data-driven approaches for metasurface engineering",
-      "body": "A team of researchers has developed a hybrid AI framework called MxDiffusion that integrates the fundamental laws of electromagnetism directly into a generative diffusion model, achieving markedly higher accuracy in the notoriously difficult task of designing photonic metasurfaces from desired optical properties.\n\nThe work, posted to the arXiv preprint server on February 18 by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, addresses a central challenge in nanophotonics: given a target optical response — such as a specific reflectance spectrum or bandpass filter profile — determine the physical nanostructure that produces it. This inverse design problem is computationally expensive when tackled with traditional electromagnetic solvers and has increasingly attracted machine-learning approaches. But purely data-driven models often struggle with designs that fall outside their training distributions or require tightly constrained resonance conditions.\n\nMxDiffusion overcomes these limitations through a two-stage generation strategy. In the first stage, a diffusion model is trained using a loss function derived explicitly from Maxwell's equations, embedding physical consistency into the intermediate representations it produces. A second diffusion model then maps those physically grounded representations to final structural geometries. By anchoring the generative process in electromagnetic theory rather than relying solely on learned statistical patterns, the framework maintains fidelity even when asked to produce structures unlike anything in its training data.\n\nThe researchers validated MxDiffusion on two representative photonic systems: gold nanostructures patterned on a silica substrate and a highly tunable bandpass filter based on phase-change material. In both cases, the physics-aware framework consistently outperformed a conventional data-driven diffusion model benchmark. The improvements were most pronounced for out-of-distribution design targets and for devices requiring precise resonance engineering — precisely the scenarios where data-only methods tend to falter.\n\nThe approach represents a broader trend in computational physics toward hybrid strategies that combine the flexibility of modern generative AI with the rigor of established physical laws. If the results hold up under peer review, MxDiffusion could accelerate the design pipeline for optical devices ranging from advanced sensors and telecommunications filters to flat optics and energy-harvesting surfaces, reducing dependence on expensive full-wave electromagnetic simulations while retaining their physical accuracy.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "photonics",
-        "metasurfaces",
-        "diffusion models",
-        "inverse design",
-        "Maxwell's equations",
-        "nanophotonics",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1622548283559-4dbd130508e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.16851",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-20T22:17:20.292Z"
     },
     {
       "id": "ps-1771625889964-4e8j",
