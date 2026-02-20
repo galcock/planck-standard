@@ -3,6 +3,7 @@
 // ===================================
 
 let allArticles = [];
+let originalArticles = []; // Keep original for reset
 let currentCategory = 'all';
 let currentArticle = null;
 
@@ -16,7 +17,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     initializeCategoryFilters();
     initializeMobileCategory();
     
-    // Check for article in URL hash
     if (window.location.hash.startsWith('#article/')) {
         const slug = window.location.hash.replace('#article/', '');
         showArticle(slug);
@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 });
 
-// Handle back/forward navigation
 window.addEventListener('hashchange', () => {
     if (window.location.hash.startsWith('#article/')) {
         const slug = window.location.hash.replace('#article/', '');
@@ -44,13 +43,24 @@ async function loadArticles() {
     try {
         const response = await fetch(`articles.json?t=${Date.now()}`);
         const data = await response.json();
-        allArticles = data.articles.sort((a, b) => 
+        originalArticles = data.articles.sort((a, b) => 
             new Date(b.publishedAt) - new Date(a.publishedAt)
         );
+        allArticles = [...originalArticles];
+        console.log('Loaded', allArticles.length, 'articles');
+        console.log('Categories:', [...new Set(allArticles.map(a => a.category))]);
     } catch (error) {
-        console.error('Failed to load articles:', error);
+        console.error('Failed to load:', error);
         allArticles = [];
+        originalArticles = [];
     }
+}
+
+function getFilteredArticles() {
+    if (currentCategory === 'all') {
+        return [...allArticles];
+    }
+    return allArticles.filter(a => a.category === currentCategory);
 }
 
 function renderAll() {
@@ -65,7 +75,7 @@ function renderAll() {
 // ===================================
 
 function showArticle(slug) {
-    const article = allArticles.find(a => a.slug === slug || a.id === slug);
+    const article = originalArticles.find(a => a.slug === slug || a.id === slug);
     if (!article) {
         window.location.hash = '';
         return;
@@ -75,13 +85,14 @@ function showArticle(slug) {
     document.body.classList.add('article-view');
     
     const mainContent = document.querySelector('.main-content');
+    const existingView = document.querySelector('.article-detail');
+    if (existingView) existingView.remove();
+    
     const articleView = document.createElement('div');
     articleView.className = 'article-detail';
     articleView.innerHTML = `
         <article class="article-full">
-            <button class="back-btn" onclick="window.location.hash=''">
-                ← Back to News
-            </button>
+            <button class="back-btn" onclick="window.location.hash=''">← Back to News</button>
             
             <header class="article-header">
                 <span class="category-badge ${article.category}">${article.category}</span>
@@ -96,7 +107,7 @@ function showArticle(slug) {
             </header>
             
             <div class="article-hero-image">
-                <img src="${article.imageUrl}" alt="${article.headline}" loading="eager">
+                <img src="${article.imageUrl}" alt="${article.headline}">
             </div>
             
             <div class="article-body">
@@ -104,19 +115,14 @@ function showArticle(slug) {
             </div>
             
             <footer class="article-footer">
-                <p class="source-credit">Source: <a href="${article.sourceUrl}" target="_blank" rel="noopener">${article.sourceName}</a></p>
+                <p class="source-credit">Source: <a href="${article.sourceUrl}" target="_blank">${article.sourceName}</a></p>
             </footer>
         </article>
     `;
     
-    // Hide main content, show article
     mainContent.style.display = 'none';
     mainContent.parentNode.insertBefore(articleView, mainContent.nextSibling);
-    
-    // Scroll to top
     window.scrollTo(0, 0);
-    
-    // Update page title
     document.title = `${article.headline} | Planck Standard`;
 }
 
@@ -124,28 +130,19 @@ function hideArticle() {
     document.body.classList.remove('article-view');
     const articleView = document.querySelector('.article-detail');
     if (articleView) articleView.remove();
-    
-    const mainContent = document.querySelector('.main-content');
-    mainContent.style.display = 'block';
-    
+    document.querySelector('.main-content').style.display = 'block';
     document.title = 'Planck Standard | The Measure of What Matters';
+    currentArticle = null;
 }
 
 function formatArticleBody(body) {
     if (!body) return '<p>Article content not available.</p>';
-    
-    // Split into paragraphs and wrap in <p> tags
     return body.split(/\n\n+/).map(p => `<p>${p.trim()}</p>`).join('');
 }
 
 function formatDate(timestamp) {
-    const date = new Date(timestamp);
-    return date.toLocaleDateString('en-US', { 
-        month: 'long', 
-        day: 'numeric', 
-        year: 'numeric',
-        hour: 'numeric',
-        minute: '2-digit'
+    return new Date(timestamp).toLocaleDateString('en-US', { 
+        month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit'
     });
 }
 
@@ -158,19 +155,16 @@ function openArticle(slug) {
 // ===================================
 
 function initializeThemeToggle() {
-    const themeToggle = document.getElementById('themeToggle');
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const toggle = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme') || 'dark';
+    document.body.classList.toggle('light-mode', saved === 'light');
+    document.body.classList.toggle('dark-mode', saved === 'dark');
     
-    document.body.classList.toggle('light-mode', savedTheme === 'light');
-    document.body.classList.toggle('dark-mode', savedTheme === 'dark');
-    
-    if (themeToggle) {
-        themeToggle.addEventListener('click', () => {
-            const isLight = document.body.classList.toggle('light-mode');
-            document.body.classList.toggle('dark-mode', !isLight);
-            localStorage.setItem('theme', isLight ? 'light' : 'dark');
-        });
-    }
+    toggle?.addEventListener('click', () => {
+        const isLight = document.body.classList.toggle('light-mode');
+        document.body.classList.toggle('dark-mode', !isLight);
+        localStorage.setItem('theme', isLight ? 'light' : 'dark');
+    });
 }
 
 // ===================================
@@ -178,29 +172,49 @@ function initializeThemeToggle() {
 // ===================================
 
 function initializeCategoryFilters() {
-    document.querySelectorAll('.nav-link').forEach(link => {
+    const navLinks = document.querySelectorAll('.nav-link[data-category]');
+    console.log('Found nav links:', navLinks.length);
+    
+    navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+            e.stopPropagation();
+            
+            const category = link.dataset.category;
+            console.log('Category clicked:', category);
+            
+            // Update active states
+            navLinks.forEach(l => l.classList.remove('active'));
             link.classList.add('active');
-            currentCategory = link.dataset.category;
-            document.getElementById('mobileCategory').value = currentCategory;
-            renderArticles();
+            
+            // Update current category
+            currentCategory = category;
+            
+            // Sync mobile dropdown
+            const mobileSelect = document.getElementById('mobileCategory');
+            if (mobileSelect) mobileSelect.value = category;
+            
+            // Re-render
+            renderAll();
         });
     });
 }
 
 function initializeMobileCategory() {
     const select = document.getElementById('mobileCategory');
-    if (select) {
-        select.addEventListener('change', (e) => {
-            currentCategory = e.target.value;
-            document.querySelectorAll('.nav-link').forEach(l => {
-                l.classList.toggle('active', l.dataset.category === currentCategory);
-            });
-            renderArticles();
+    if (!select) return;
+    
+    select.addEventListener('change', (e) => {
+        currentCategory = e.target.value;
+        console.log('Mobile category:', currentCategory);
+        
+        // Sync desktop nav
+        document.querySelectorAll('.nav-link[data-category]').forEach(l => {
+            l.classList.toggle('active', l.dataset.category === currentCategory);
         });
-    }
+        
+        renderAll();
+    });
 }
 
 // ===================================
@@ -209,21 +223,24 @@ function initializeMobileCategory() {
 
 function renderBreakingTicker() {
     const ticker = document.querySelector('.ticker-text');
-    if (ticker && allArticles[0]) {
-        ticker.textContent = allArticles[0].headline;
+    const filtered = getFilteredArticles();
+    if (ticker && filtered[0]) {
+        ticker.textContent = filtered[0].headline;
     }
 }
 
 function renderHeroArticle() {
-    const hero = allArticles.find(a => a.importance >= 8) || allArticles[0];
-    if (!hero) return;
+    const filtered = getFilteredArticles();
+    const hero = filtered.find(a => a.importance >= 7) || filtered[0];
+    if (!hero) {
+        document.getElementById('heroArticle').innerHTML = '<p class="no-articles">No articles in this category.</p>';
+        return;
+    }
     
     const el = document.getElementById('heroArticle');
-    if (!el) return;
-    
     el.innerHTML = `
         <div class="hero-image-container">
-            <img src="${hero.imageUrl}" alt="${hero.headline}" class="hero-img" loading="eager">
+            <img src="${hero.imageUrl}" alt="${hero.headline}" class="hero-img">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
@@ -237,7 +254,6 @@ function renderHeroArticle() {
             </div>
         </div>
     `;
-    
     el.onclick = () => openArticle(hero.slug || hero.id);
     el.style.cursor = 'pointer';
 }
@@ -246,13 +262,11 @@ function renderArticles() {
     const grid = document.getElementById('articlesGrid');
     if (!grid) return;
     
-    let articles = allArticles.slice(1);
-    if (currentCategory !== 'all') {
-        articles = articles.filter(a => a.category === currentCategory);
-    }
+    const filtered = getFilteredArticles();
+    const articles = filtered.slice(1); // Skip hero
     
     if (articles.length === 0) {
-        grid.innerHTML = '<p class="no-articles">No articles in this category.</p>';
+        grid.innerHTML = '<p class="no-articles">No more articles in this category.</p>';
         return;
     }
     
@@ -279,7 +293,7 @@ function renderTrending() {
     const list = document.getElementById('trendingList');
     if (!list) return;
     
-    const trending = [...allArticles]
+    const trending = [...originalArticles]
         .sort((a, b) => (b.importance || 5) - (a.importance || 5))
         .slice(0, 5);
     
@@ -288,9 +302,7 @@ function renderTrending() {
             <span class="trending-rank">${i + 1}</span>
             <div class="trending-content">
                 <h4>${a.headline}</h4>
-                <div class="trending-meta">
-                    <span class="category-badge small ${a.category}">${a.category}</span>
-                </div>
+                <span class="category-badge small ${a.category}">${a.category}</span>
             </div>
         </a>
     `).join('');
@@ -301,7 +313,6 @@ function formatTimeAgo(timestamp) {
     const mins = Math.floor(diffMs / 60000);
     const hours = Math.floor(diffMs / 3600000);
     const days = Math.floor(diffMs / 86400000);
-    
     if (mins < 60) return `${mins}m ago`;
     if (hours < 24) return `${hours}h ago`;
     return `${days}d ago`;
@@ -314,7 +325,7 @@ function formatTimeAgo(timestamp) {
 document.querySelector('.search-btn')?.addEventListener('click', () => {
     const q = prompt('Search articles:');
     if (q?.trim()) {
-        const results = allArticles.filter(a => 
+        const results = originalArticles.filter(a => 
             a.headline.toLowerCase().includes(q.toLowerCase()) ||
             a.body?.toLowerCase().includes(q.toLowerCase())
         );
@@ -323,7 +334,7 @@ document.querySelector('.search-btn')?.addEventListener('click', () => {
             currentCategory = 'all';
             renderAll();
         } else {
-            alert('No results found');
+            alert('No results');
         }
     }
 });
@@ -334,7 +345,7 @@ document.querySelector('.newsletter-form')?.addEventListener('submit', (e) => {
     e.target.reset();
 });
 
-// Auto-refresh every 5 min
+// Auto-refresh
 setInterval(async () => {
     await loadArticles();
     if (!currentArticle) renderAll();
