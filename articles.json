@@ -1,53 +1,226 @@
 {
-  "lastUpdated": "2026-02-20T17:41:39.091Z",
-  "count": 34,
+  "lastUpdated": "2026-02-20T17:46:37.466Z",
+  "count": 39,
   "articles": [
     {
-      "id": "ps-1771609194785-vq7t",
+      "id": "ps-1771609493073-xbz4",
+      "slug": "supreme-court-strikes-down-trump-tariffs-in-major-rebuke-of-",
+      "headline": "Supreme Court Strikes Down Trump Tariffs in Major Rebuke of Presidential Power",
+      "subheadline": "A 6-3 majority rules Congress alone holds tariff authority, upending a central pillar of Trump's trade agenda",
+      "body": "The U.S. Supreme Court delivered a landmark blow to President Donald Trump's second-term economic strategy on Friday, ruling 6-3 that his sweeping global tariffs exceeded presidential authority and that only Congress holds the constitutional power to impose such trade levies.\n\nThe majority opinion found that the International Emergency Economic Powers Act of 1977, the legal foundation Trump had used to justify his expansive tariff regime, did not delegate the kind of broad trade powers the administration claimed. The decision represents the most significant judicial check on Trump's aggressive use of executive authority since he returned to office, after months in which the court largely allowed his initiatives on immigration and federal restructuring to proceed while legal challenges developed.\n\nThe practical consequences are sweeping. Trump can no longer impose or threaten triple-digit tariffs unilaterally through social media posts or executive orders. Any future tariffs will require detailed government agency reports, face limits on scope and duration, and demand significantly longer lead times — fundamentally changing the dynamic that allowed last year's dramatic \"Liberation Day\" tariffs to roil global markets. The ruling also raises the thorny question of whether the administration must refund tariff revenue collected over the past year, an issue the court left to lower courts. Justice Brett Kavanaugh, writing in dissent, warned the refund process would likely be a \"mess.\"\n\nThe geopolitical implications may prove equally significant. America's trading partners, who have been negotiating under the threat of sudden and punishing tariff escalation, may now adopt harder bargaining positions knowing the president's unilateral leverage has been sharply curtailed. Trump's top trade adviser, Jamieson Greer, said last month the White House had \"a lot of different options\" if the tariffs were struck down, but analysts note these alternatives are far more constrained. Seeking explicit congressional authorization appears unlikely given narrow Republican majorities in both chambers and looming midterm elections in which tariff-related consumer costs have already become a political liability for GOP candidates.\n\nThe ruling sets the stage for an uncomfortable encounter on Tuesday, when Trump delivers his State of the Union address to a joint session of Congress — traditionally with Supreme Court justices seated in the front row. The president, who spent months warning that such a decision would constitute an \"economic and national security disaster,\" will face the very justices who dismantled one of the central pillars of his economic program. With additional high-profile executive power cases — including challenges to ending birthright citizenship and dismissing a Federal Reserve governor — still working through the courts, Friday's decision may signal further judicial constraints ahead.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Supreme Court",
+        "Trump tariffs",
+        "trade policy",
+        "executive power",
+        "IEEPA",
+        "US Congress"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/f90b/live/b382ce60-0e76-11f1-9acc-6bf6c7adf476.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2jqgdn719o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-20T17:44:53.073Z"
+    },
+    {
+      "id": "ps-1771609508844-zhlq",
+      "slug": "new-ai-framework-embeds-maxwell-s-equations-into-diffusion-m",
+      "headline": "New AI Framework Embeds Maxwell's Equations Into Diffusion Models for Photonic Design",
+      "subheadline": "MxDiffusion uses a two-stage physics-guided approach that outperforms purely data-driven methods for metasurface engineering",
+      "body": "A team of researchers has introduced MxDiffusion, a novel framework that integrates fundamental electromagnetic theory directly into generative AI models to design photonic metasurfaces — engineered nanostructures that manipulate light in precisely controlled ways. The work, posted to arXiv on February 18, represents a significant step toward bridging the gap between physics-based simulation and machine learning in nanophotonics.\n\nDeveloped by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, MxDiffusion tackles one of the central challenges in photonic engineering: the inverse design problem. Rather than simulating how a given structure interacts with light, inverse design starts with desired optical properties and works backward to determine what physical geometry would produce them. This is a notoriously difficult optimization problem, and purely data-driven AI approaches often struggle when asked to design structures outside their training data or under tightly constrained resonance conditions.\n\nThe key innovation lies in the framework's two-stage architecture. The first diffusion model is trained using a loss function derived explicitly from Maxwell's equations — the foundational laws governing electromagnetic wave behavior. This embeds physical consistency into the generative process from the outset, producing an intermediate representation that respects the governing physics. A second diffusion model then translates this physically grounded representation into a final structural geometry with what the authors describe as significantly higher fidelity than conventional approaches.\n\nThe team validated MxDiffusion on two representative applications: gold nanostructures patterned on silica substrates and a tunable bandpass filter based on phase-change materials. In both cases, the physics-aware framework consistently outperformed a standard data-driven diffusion model benchmark. The improvements were most pronounced for out-of-distribution design targets — scenarios where the desired optical response falls outside the range of examples the model was trained on — suggesting the Maxwell's equation-based loss function provides genuine physical generalization rather than mere pattern matching.\n\nThe results carry broad implications for the rapidly growing field of AI-assisted photonic design. Metasurfaces are finding applications across telecommunications, sensing, imaging, and energy harvesting, but the design space for these structures is vast and computationally expensive to explore through traditional simulation. By grounding generative models in fundamental physics, MxDiffusion offers a paradigm that could accelerate the discovery of novel photonic devices while maintaining the physical validity that engineers and fabricators require. The authors position the framework as a general physics-guided inverse design strategy applicable beyond the specific cases demonstrated.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "photonics",
+        "metasurfaces",
+        "diffusion models",
+        "inverse design",
+        "Maxwell's equations",
+        "nanophotonics",
+        "AI for physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1643409469689-465a03873d69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.16851",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-20T17:45:08.844Z"
+    },
+    {
+      "id": "ps-1771609524735-az59",
+      "slug": "massive-study-links-air-pollution-directly-to-alzheimer-s-ri",
+      "headline": "Massive Study Links Air Pollution Directly to Alzheimer's Risk",
+      "subheadline": "Research spanning 27.8 million Medicare beneficiaries suggests fine particulate matter harms the brain independent of other chronic diseases",
+      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease, and the pathway appears to run directly through the brain rather than through intermediate conditions like hypertension or depression, according to one of the largest studies ever conducted on the subject.\n\nPublished February 17 in the open-access journal PLOS Medicine, the research — led by Yanling Deng of Emory University — drew on Medicare records from more than 27.8 million Americans aged 65 and older, tracked between 2000 and 2018. The team cross-referenced participants' cumulative exposure to fine particulate matter (PM2.5) with new Alzheimer's diagnoses, while accounting for pre-existing chronic conditions that might confound the results. The scale of the dataset makes it among the most statistically powerful investigations into the pollution-dementia nexus to date.\n\nScientists have long known that air pollution elevates risk for cardiovascular disease, stroke, and depression — all of which are themselves associated with cognitive decline. A central question has been whether polluted air drives Alzheimer's indirectly by first causing those conditions, or whether it inflicts damage on neural tissue on its own. The Emory team's analysis points strongly toward the latter. Hypertension and depression did not meaningfully amplify the pollution-related Alzheimer's risk, suggesting they are not major mediating pathways. Stroke history, however, did appear to compound vulnerability, indicating that individuals with prior vascular brain injury may face an outsized threat from contaminated air.\n\nThe findings carry significant public health implications. Alzheimer's disease currently affects an estimated 57 million people worldwide, and no approved therapy can halt or reverse its progression. Identifying modifiable environmental risk factors — particularly one as pervasive as air pollution — offers a rare lever for population-level prevention. The authors noted that their results \"highlight an important intersection between environmental and vascular risk factors\" and suggest that cleaner air policies could serve as a meaningful strategy for protecting cognitive health in aging populations.\n\nThe study, funded by the National Institutes of Health, adds to a growing body of evidence that PM2.5 particles — tiny enough to cross the blood-brain barrier — may trigger neuroinflammation and accelerate the buildup of amyloid plaques characteristic of Alzheimer's. With the U.S. Environmental Protection Agency continuing to debate tighter particulate matter standards, the research provides fresh ammunition for advocates pushing stricter air quality regulation as a matter not just of respiratory health, but of brain health as well.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "air pollution",
+        "PM2.5",
+        "dementia",
+        "public health",
+        "Medicare"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-20T17:45:24.735Z"
+    },
+    {
+      "id": "ps-1771609538012-n4e4",
+      "slug": "ukrainian-sentenced-to-five-years-for-funneling-stolen-ids-t",
+      "headline": "Ukrainian Sentenced to Five Years for Funneling Stolen IDs to North Korean IT Workers",
+      "subheadline": "Oleksandr Didenko handled over 870 stolen U.S. identities through a website that helped North Koreans infiltrate American companies",
+      "body": "A U.S. federal court has sentenced Oleksandr Didenko, a 29-year-old Ukrainian national from Kyiv, to five years in prison for operating an identity theft ring that enabled North Korean workers to fraudulently secure jobs at dozens of American companies. The earnings from those positions were funneled back to Pyongyang, where prosecutors say they helped finance the regime's internationally sanctioned nuclear weapons program.\n\nDidenko ran a website called Upworksell that allowed overseas workers — including North Koreans — to purchase or rent stolen identities belonging to U.S. citizens. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform before the FBI seized it in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States and pleaded guilty.\n\nBeyond identity brokering, Didenko also orchestrated so-called \"laptop farms\" — rooms stacked with open computers hosted at the homes of paid accomplices in California, Tennessee, and Virginia. The setup allowed North Korean operatives to remotely perform their work while appearing to be physically located in the United States, evading the geographic scrutiny that might otherwise flag their true origins.\n\nThe conviction is the latest in a growing wave of prosecutions tied to North Korea's sprawling IT worker infiltration schemes. Security researchers have characterized these operatives as a \"triple threat\" to Western businesses: they violate U.S. sanctions, exfiltrate sensitive corporate data, and in some cases extort victim companies by threatening to release stolen secrets. CrowdStrike reported last year that it has observed a sharp increase in North Korean workers embedding themselves at companies, typically in remote software development and engineering roles.\n\nThe schemes represent one of several strategies Pyongyang employs to generate revenue while cut off from the global financial system by international sanctions. North Korean actors have also been known to impersonate recruiters and venture capitalists in social engineering campaigns targeting high-net-worth individuals, particularly in the cryptocurrency sector. The Didenko case underscores the elaborate, multinational infrastructure that underpins these operations — and the broadening law enforcement effort to dismantle them.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "North Korea",
+        "cybersecurity",
+        "identity theft",
+        "IT workers",
+        "sanctions",
+        "FBI",
+        "DOJ"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
+      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-20T17:45:38.012Z"
+    },
+    {
+      "id": "ps-1771609553746-74rh",
+      "slug": "supreme-court-strikes-down-trump-s-global-tariffs-stocks-ral",
+      "headline": "Supreme Court Strikes Down Trump's Global Tariffs, Stocks Rally",
+      "subheadline": "Landmark ruling delivers the president's most significant legal setback since returning to office, rattling trade policy",
+      "body": "The U.S. Supreme Court has invalidated President Donald Trump's sweeping global tariff regime, handing the administration its most consequential legal defeat since Trump began his second term and sending equity markets sharply higher on the news.\n\nThe ruling effectively dismantles the centerpiece of Trump's economic agenda — a broad set of import duties that had reshaped trade flows and drawn fierce opposition from business groups, trading partners, and legal scholars who questioned the president's unilateral authority to impose such measures. While the full text of the Court's opinion and its precise legal reasoning were not immediately detailed in initial reports, the decision strikes at the heart of executive power over trade policy, a domain where presidents have enjoyed wide latitude for decades.\n\nMarkets responded swiftly to the news. U.S. stocks climbed as investors recalculated the outlook for corporate earnings, supply chains, and consumer prices — all of which had been significantly affected by the tariffs since their implementation. Companies with heavy exposure to international trade and imported goods stood to benefit most from the removal of the duties, which had raised costs across sectors from manufacturing to retail. The rally underscored just how central tariff uncertainty had become to market sentiment.\n\nThe decision carries sweeping implications beyond Wall Street. Trading partners that had imposed retaliatory measures may now face pressure to roll back their own duties, potentially de-escalating trade tensions that have weighed on global growth. At the same time, the ruling raises fundamental questions about the future of U.S. trade policy and the legal mechanisms available to any president seeking to adjust tariffs without explicit congressional authorization.\n\nThe White House is expected to respond forcefully to the decision, which limits one of the administration's primary tools for reshaping the country's economic relationships. Legal and policy analysts will be closely scrutinizing the opinion for its broader implications on the separation of powers and the extent to which Congress may need to reassert its constitutional authority over trade. For now, markets are betting that the end of the tariff era — at least in its current form — is a net positive for the U.S. economy.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "Supreme Court",
+        "tariffs",
+        "Trump",
+        "trade policy",
+        "stock market",
+        "SCOTUS"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1677628258888-941fd1179a66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxTdXByZW1lJTIwQ291cnQlMjB0YXJpZmZzfGVufDB8MHx8fDE3NzE2MDk1NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/stocks-rise-as-scotus-strikes-down-trump-tariffs-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-20T17:45:53.746Z"
+    },
+    {
+      "id": "ps-1771609567625-j086",
+      "slug": "dubai-launches-secondary-market-for-tokenized-real-estate-on",
+      "headline": "Dubai Launches Secondary Market for Tokenized Real Estate on XRP Ledger",
+      "subheadline": "Over $5 million in property-backed tokens now tradable as Dubai pursues $16 billion tokenization roadmap by 2033",
+      "body": "Dubai's Land Department and tokenization infrastructure firm Ctrl Alt have opened a secondary market for blockchain-based real estate tokens, marking a significant step in the emirate's plan to tokenize $16 billion worth of property over the next eight years.\n\nThe announcement on Friday makes roughly 7.8 million tokens — representing fractional ownership in ten Dubai properties collectively valued at over $5 million — eligible for resale on a regulated trading platform. Transactions are recorded on the XRP Ledger blockchain and secured through Ripple Custody, with every trade automatically synchronized to Dubai's official land registry. The system employs a secondary compliance layer called Asset-Referenced Virtual Assets (ARVAs) to govern who can trade and under what conditions, ensuring regulatory alignment with existing property law.\n\nThe secondary market represents the second phase of a pilot program the Dubai Land Department launched last year as part of a broader roadmap to tokenize 7% of the city's real estate market by 2033. The first phase involved building a platform — developed in partnership with Prypco and Ctrl Alt — to issue title deed tokens directly on-chain. This next stage is designed to stress-test market infrastructure, investor protections, and the legal mechanics of transferring property rights via blockchain.\n\nProponents of real estate tokenization argue that blockchain rails can dramatically accelerate settlement times and reduce friction in ownership transfers, potentially transforming how property changes hands globally. Deloitte projected last year that $4 trillion in real estate could be tokenized by 2035, representing 27% annual growth. Yet the market remains nascent, and significant hurdles persist. An EY report flagged uneven regulation across jurisdictions and thin secondary trading volumes as key obstacles that could limit liquidity and dampen investor confidence.\n\nDubai's aggressive push into tokenized property stands in contrast to more cautious approaches elsewhere. U.S. real estate billionaire Barry Sternlicht has publicly expressed willingness to tokenize assets but cited American regulatory barriers as a blocking factor. For Dubai, the initiative is part of a broader strategy to position itself as a global hub for digital asset innovation — one where government agencies are not merely permitting blockchain experimentation but actively building the infrastructure to support it.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Dubai",
+        "real estate tokenization",
+        "XRP Ledger",
+        "Ripple",
+        "blockchain",
+        "real world assets",
+        "Dubai Land Department"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/8120f19a9e4ab07a954184d8a19c7b3decd072de-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/20/dubai-unveils-secondary-market-for-usd5-million-tokenized-real-estate-via-xrp-ledger",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-20T17:46:07.625Z"
+    },
+    {
+      "id": "ps-1771609582985-0nw0",
+      "slug": "emerging-market-assets-rally-after-supreme-court-strikes-dow",
+      "headline": "Emerging-Market Assets Rally After Supreme Court Strikes Down Trump Tariffs",
+      "subheadline": "Currencies reversed earlier losses and equities extended gains as the ruling removed a key overhang on global trade",
+      "body": "Emerging-market stocks and currencies surged on Friday after the U.S. Supreme Court ruled President Donald Trump's sweeping global tariffs unconstitutional, removing one of the most significant sources of uncertainty that had weighed on developing economies for months.\n\nThe landmark decision triggered an immediate reversal in currency markets, where earlier losses tied to rising geopolitical tensions over Iran gave way to broad-based gains. Equity benchmarks across emerging markets extended their upward momentum as traders repriced the outlook for global trade flows, which had been under sustained pressure since the tariffs were first imposed.\n\nThe ruling represents a watershed moment for the global trading system. Trump's tariff regime had imposed punitive duties on imports from a wide range of countries, hitting export-dependent emerging economies particularly hard. Nations across Asia, Latin America, and Eastern Europe had seen reduced demand for their goods, weakened currencies, and capital outflows as investors sought safer havens. The Supreme Court's decision to overturn the measures on constitutional grounds effectively dismantles a central pillar of the administration's trade policy and restores a degree of predictability that markets had been craving.\n\nFor emerging-market investors, the implications extend beyond the immediate relief rally. The removal of tariff risk could reignite capital inflows into developing-world assets, which had been suppressed by the uncertain trade environment. Commodity-exporting nations stand to benefit from the prospect of more robust global demand, while manufacturing hubs that had seen supply chains rerouted away from tariff-affected corridors may recapture lost business. Currency strategists noted that the reversal of earlier losses suggested positioning had been heavily skewed toward defensive trades, amplifying the snap-back once the ruling was announced.\n\nThe decision, however, does not eliminate all headwinds facing emerging markets. Tensions surrounding Iran had driven oil prices higher earlier in the session, and geopolitical risks remain elevated across several regions. Analysts cautioned that while the tariff overhang has been lifted, the path forward will depend on whether the administration seeks alternative trade measures and how quickly global supply chains adjust to the restored policy landscape.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "emerging-markets",
+        "supreme-court",
+        "tariffs",
+        "trade-policy",
+        "Trump",
+        "currencies",
+        "equities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1690832254474-ea345767ecff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxlbWVyZ2luZy1tYXJrZXRzJTIwc3VwcmVtZS1jb3VydHxlbnwwfDB8fHwxNzcxNjA5NTgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-20/em-stocks-currencies-decline-as-iran-tensions-build-oil-spikes",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-20T17:46:22.985Z"
+    },
+    {
+      "id": "ps-1771609597447-9ksp",
+      "slug": "nasa-sets-march-6-launch-for-first-crewed-moon-mission-in-50",
+      "headline": "NASA Sets March 6 Launch for First Crewed Moon Mission in 50 Years",
+      "subheadline": "Artemis II will send four astronauts around the far side of the Moon on a 10-day voyage, following a successful fueling test",
+      "body": "NASA has locked in March 6 as the earliest launch date for Artemis II, the first crewed mission to the Moon since the Apollo era, after completing a critical fueling rehearsal of its massive Space Launch System rocket at Kennedy Space Center in Florida.\n\nThe 10-day mission will carry four astronauts — Americans Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian Space Agency astronaut Jeremy Hansen — on a trajectory around the far side of the Moon and back to Earth. The crew will pass within 6,500 to 9,500 kilometers of the lunar surface, marking humanity's farthest venture into deep space. NASA officials said the astronauts entered quarantine on Friday following the successful \"wet dress rehearsal,\" in which the 98-meter-tall rocket was fully loaded with propellant and taken through a complete countdown sequence.\n\nThe rehearsal's success came after a rocky first attempt in early February, which was cut short by a hydrogen fuel leak at the launch pad. NASA's Lori Glaze told reporters Friday that engineers had resolved issues with seals and filters, and that the rocket was fueled within the planned timeline on the second try. \"Every night I look up at the Moon and I see it and I get real excited because I can feel she's calling us and we're ready,\" Glaze said at a press conference.\n\nThe crew will spend their first day orbiting Earth inside the Orion capsule — a minibus-sized spacecraft perched atop the SLS rocket — before firing toward the Moon on a four-day transit. After flying past the lunar far side, they will begin a four-day return journey culminating in a splashdown in the Pacific Ocean. The SLS has flown only once before, during the uncrewed Artemis I mission in November 2022.\n\nA successful Artemis II would set the stage for Artemis III, the mission intended to put boots on the lunar surface for the first time since Apollo 17 in December 1972. NASA has targeted 2028 for that landing, though the timeline remains under pressure. SpaceX holds the contract to build the Artemis III lunar lander using its Starship vehicle, but persistent development delays have prompted NASA to ask both SpaceX and Jeff Bezos's Blue Origin for accelerated plans. The urgency is partly geopolitical: China is targeting a crewed lunar landing by 2030, and both nations have their sights on the Moon's south pole as the prime location for future permanent bases.",
+      "category": "science",
+      "importance": 9,
+      "tags": [
+        "NASA",
+        "Artemis II",
+        "Moon",
+        "Space Launch System",
+        "crewed spaceflight",
+        "lunar exploration"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/041d/live/dd9135c0-0e80-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c86y1g6wde3o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-20T17:46:37.447Z"
+    },
+    {
+      "id": "ps-1771608664870-a5o7",
+      "slug": "uk-man-faces-48-charges-for-allegedly-drugging-wife-facilita",
+      "headline": "UK Man Faces 48 Charges for Allegedly Drugging Wife, Facilitating Rapes Over Years",
+      "subheadline": "Twelve other men, aged 28 to 73, are co-defendants in a case involving allegations dating back to the early 2000s",
+      "body": "A man in his sixties from Stockport, Greater Manchester, has been charged with 48 offenses for allegedly drugging his wife into unconsciousness and orchestrating her sexual assault by multiple men over a period spanning more than two decades, according to proceedings at Manchester Minshull Street Crown Court.\n\nThe husband, who cannot be named for legal reasons, faces counts including conspiracy to rape, sexual assault by penetration, and conspiracy to administer a substance with intent to commit a sexual offense. Twelve other men, ranging in age from 28 to 73, are co-defendants in the case, which involves allegations stretching back to the early 2000s. The woman is alleged to have been unconscious during the assaults.\n\nAt a hearing this week, seven of the 13 defendants — including the husband — pleaded not guilty to all charges. Five defendants were not asked to enter pleas at this stage. One man pleaded guilty to conspiracy to commit rape, conspiracy to administer a substance with intent, conspiracy to commit sexual assault by penetration, and one count of committing sexual assault by penetration. Members of the victim's family were present in the public gallery during the proceedings.\n\nThe case bears striking parallels to the landmark French trial of Dominique Pelicot, who was convicted in December 2024 of drugging his wife Gisèle and recruiting dozens of men to rape her over nearly a decade. That case prompted widespread public outrage and a national reckoning in France over sexual violence and consent laws. Legal observers note that the Manchester case, while involving fewer co-defendants, covers a potentially longer timeframe of alleged abuse.\n\nA further hearing is scheduled for March, with a full trial set to begin on September 1. The trial is expected to last approximately 12 weeks. Greater Manchester Police and HM Courts and Tribunals Service are overseeing the case as it moves toward trial.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "sexual assault",
+        "UK crime",
+        "Manchester",
+        "rape charges",
+        "criminal trial"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/3f1a/live/dcd53690-0e71-11f1-9acc-6bf6c7adf476.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cqxde27ep5qo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-20T17:31:04.870Z"
+    },
+    {
+      "id": "ps-1771608680835-p41q",
       "slug": "police-search-former-prince-andrew-s-homes-after-historic-ar",
       "headline": "Police Search Former Prince Andrew's Homes After Historic Arrest",
-      "subheadline": "Andrew Mountbatten-Windsor remains under investigation for allegedly sharing confidential trade intelligence with Jeffrey Epstein",
-      "body": "British police spent Friday searching two residences connected to Andrew Mountbatten-Windsor, the former Prince Andrew, one day after arresting the 66-year-old on suspicion of misconduct in public office — making him the first member of the royal family to be placed under arrest in nearly four centuries.\n\nThames Valley Police detained Mountbatten-Windsor at 8 a.m. Thursday — his birthday — at his temporary residence on the Sandringham estate, holding him for nearly 11 hours at a nearby police station before releasing him. Officers concluded their search of Wood Farm, his current Sandringham residence, on Friday but continued combing through Royal Lodge, the 30-room Windsor Castle–adjacent property where he lived for decades until King Charles III evicted him earlier in February and stripped him of all royal titles and honors in October 2025. Unmarked vans, believed to be police vehicles, were observed entering the Royal Lodge grounds throughout the morning.\n\nAt the center of the investigation are allegations that Mountbatten-Windsor passed classified trade information to the late convicted sex offender Jeffrey Epstein while serving as a U.K. trade envoy. Emails released last month by the U.S. Department of Justice appear to show him forwarding confidential government reports on official visits to Hong Kong, Vietnam, and Singapore — in one instance, just five minutes after receiving the document. A separate email allegedly shows him sharing a confidential brief on investment opportunities related to the reconstruction of Helmand Province, Afghanistan. The former prince has consistently denied wrongdoing but has not addressed the most recent allegations stemming from the so-called Epstein files.\n\nLegal experts cautioned that the road ahead will be complex. Criminal defense lawyer Sean Caulfield of Hodge Jones & Allen noted that misconduct in public office is \"notoriously difficult to prove,\" in part because there is no settled legal definition of what constitutes a \"public officer.\" The Crown Prosecution Service will ultimately decide whether to charge Mountbatten-Windsor, who remains eighth in line to the throne, by applying its standard two-stage test weighing the realistic prospect of conviction against the public interest.\n\nThe arrest has been widely characterized as one of the gravest crises to confront the House of Windsor in its century-long history, rivaling the 1936 abdication of Edward VIII and the 1997 death of Princess Diana. King Charles III issued a brief statement saying \"the law must take its course\" while declining further comment. Separately, police forces across the U.K. are conducting their own Epstein-related investigations, including reviews of flight logs at airports large and small. Thursday's arrest was unrelated to the sex trafficking allegations made by the late Virginia Giuffre, though her family expressed a bittersweet sense of vindication at the news.",
+      "subheadline": "Andrew Mountbatten-Windsor held for nearly 11 hours on suspicion of sharing confidential trade secrets with Jeffrey Epstein",
+      "body": "British police conducted extensive searches of two properties linked to Andrew Mountbatten-Windsor on Friday, one day after the former prince was arrested on suspicion of misconduct in public office — marking the first arrest of a member of the royal family in nearly four centuries.\n\nThames Valley Police detained the 66-year-old at 8 a.m. Thursday — his birthday — at his temporary residence on King Charles III's Sandringham estate, holding him for nearly 11 hours at a nearby police station before releasing him. Officers have since completed their search of Wood Farm, his current accommodation on the Sandringham grounds, but continued combing through Royal Lodge, the 30-room Windsor residence from which he was evicted earlier this month after his brother stripped him of all royal titles and honors in October. Unmarked vans, believed to be police vehicles, were observed entering the Royal Lodge grounds throughout Friday morning.\n\nThe investigation centers on allegations that Mountbatten-Windsor passed confidential government information to the late convicted sex offender Jeffrey Epstein while serving as a U.K. trade envoy. Emails released last month by the U.S. Department of Justice appear to show him forwarding official reports on diplomatic visits to Hong Kong, Vietnam, and Singapore — one sent just five minutes after he received it. A separate communication allegedly contained a confidential brief on investment opportunities tied to reconstruction in Afghanistan's Helmand Province. Mountbatten-Windsor has consistently denied any wrongdoing but has not addressed the most recent allegations stemming from the so-called Epstein files.\n\nLegal experts cautioned that the road to any prosecution remains uncertain. Criminal defense lawyer Sean Caulfield noted that misconduct in public office is \"notoriously difficult to prove,\" beginning with the threshold question of whether Andrew's trade envoy role legally constitutes that of a public officer. The Crown Prosecution Service will ultimately decide whether to bring charges, applying a two-stage test weighing the realistic prospect of conviction and the public interest. Mountbatten-Windsor, who remains eighth in line to the throne, has not been charged.\n\nThe arrest represents one of the gravest crises to confront the House of Windsor in its century-long history, drawing comparisons to the abdication of Edward VIII in 1936 and the death of Princess Diana in 1997. It is the first arrest of a royal since King Charles I, whose detention precipitated the English Civil War and his eventual execution. King Charles III issued a brief statement saying \"the law must take its course\" but declined further comment. Separately, police forces across the U.K. are conducting their own investigations into Epstein's ties to Britain, including reviews of flight logs at multiple airports. The trafficking allegations previously made by the late Virginia Giuffre were not part of Thursday's arrest, though they remain under separate review.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Prince Andrew",
         "Jeffrey Epstein",
         "British monarchy",
-        "UK police",
-        "misconduct in public office"
+        "misconduct in public office",
+        "Thames Valley Police",
+        "King Charles III"
       ],
       "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7109x3997+0+540/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F58%2Fc6fe821d489780cf6485e6cf85aa%2Fap26051383066859.jpg",
       "sourceUrl": "https://www.npr.org/2026/02/20/g-s1-110915/uk-former-prince-andrew-epstein-investigation",
       "sourceName": "NPR News",
-      "publishedAt": "2026-02-20T17:39:54.785Z"
+      "publishedAt": "2026-02-20T17:31:20.835Z"
     },
     {
-      "id": "ps-1771609208244-5ol1",
-      "slug": "tesla-fails-to-overturn-243-million-autopilot-crash-verdict",
-      "headline": "Tesla Fails to Overturn $243 Million Autopilot Crash Verdict",
-      "subheadline": "Federal judge rejects automaker's bid to reverse jury finding in fatal 2019 Florida crash involving driver assistance system",
-      "body": "A federal judge has denied Tesla's motion to overturn a $243 million jury verdict that found the automaker partially liable for a fatal 2019 crash in Florida involving its Autopilot driver assistance system, dealing a significant blow to the company's legal defense of the technology.\n\nHon. Judge Beth Bloom ruled on February 20 that Tesla's arguments for overturning the verdict were effectively recycled from earlier stages of the litigation. \"The grounds for relief that Tesla relies upon are virtually the same as those Tesla put forth previously during the course of trial and in their briefings on summary judgment — arguments that were already considered and rejected,\" Bloom wrote in her decision. She added that Tesla failed to present new arguments or controlling law sufficient to alter the jury's findings.\n\nThe underlying case stems from a 2019 crash in Florida that killed Naibel Benavides and critically injured Dillon Angulo. In August 2025, a jury determined that while the driver bore two-thirds of the responsibility for the collision, Tesla was liable for the remaining third. In a notable detail, the jury chose to assess punitive damages exclusively against Tesla — not the driver — signaling that jurors believed the automaker's conduct warranted punishment beyond compensatory relief. Tesla's legal team had argued that the driver was primarily at fault and had contributed to causing the crash.\n\nThe ruling carries broader implications for Tesla as it continues to market and expand its driver assistance and autonomous driving technologies. The company faces a growing docket of lawsuits related to Autopilot and its more advanced Full Self-Driving system, with plaintiffs alleging the technology can lull drivers into a false sense of security. The $243 million verdict remains one of the largest financial penalties levied against Tesla over its automated driving features.\n\nThe decision also arrives at a pivotal moment for the autonomous vehicle industry more broadly, as regulators and courts grapple with how to assign liability when advanced driver assistance systems are engaged during crashes. For Tesla, which has staked much of its future valuation on autonomous driving capabilities, the legal and reputational costs of such verdicts could mount as the technology reaches more vehicles on the road.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Tesla",
-        "Autopilot",
-        "autonomous driving",
-        "liability",
-        "lawsuit"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/12/tesla-autopilot-2.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-20T17:40:08.244Z"
-    },
-    {
-      "id": "ps-1771609223749-r1bu",
-      "slug": "supreme-court-strikes-down-trump-tariffs-in-landmark-6-3-rul",
-      "headline": "Supreme Court Strikes Down Trump Tariffs in Landmark 6-3 Ruling",
-      "subheadline": "Chief Justice Roberts says president lacked authority to impose sweeping tariffs under emergency powers law",
-      "body": "The U.S. Supreme Court on Friday declared President Donald Trump's sweeping tariff regime unconstitutional, ruling 6-3 that the president exceeded his authority by using the International Emergency Economic Powers Act (IEEPA) to impose broad levies on foreign imports. The decision represents the most significant judicial rebuke of Trump's economic agenda and raises immediate questions about the fate of more than $130 billion already collected from importers.\n\nChief Justice John Roberts, writing for the majority, held that Trump lacked peacetime authority to deploy IEEPA as a vehicle for tariff policy. \"When Congress grants the power to impose tariffs, it does so clearly and with careful constraints,\" Roberts wrote. \"It did neither here.\" The majority opinion emphasized that the extraordinary breadth of the tariff program — which at various points imposed levies of 10% to 145% on goods from dozens of countries — demanded explicit congressional authorization that simply did not exist. Justices Clarence Thomas, Samuel Alito, and Brett Kavanaugh dissented.\n\nThe ruling dismantles the centerpiece of Trump's trade agenda, which he launched shortly after his inauguration by executive order. The tariffs initially set a floor of 10% on most imported goods, with far steeper rates targeting specific nations. Chinese imports faced duties as high as 145%, though those were later reduced. Goods from Canada and Mexico were taxed at 25%, with Canada's rate eventually climbing to 35%. The fluctuating levies rattled American businesses and global supply chains, ultimately prompting the legal challenge that reached the high court.\n\nJustice Kavanaugh's dissent flagged what he called a looming fiscal crisis. The government may now be obligated to refund billions of dollars to importers who paid the tariffs, he warned, even though many of those costs were passed along to consumers. \"The Court says nothing today about whether, and if so how, the government should go about returning the billions of dollars that it has collected from importers,\" Kavanaugh wrote. As of December, the tariffs had generated more than $130 billion in federal revenue — money whose disposition now hangs in legal limbo.\n\nThe decision is notable in the broader context of the court's relationship with the Trump administration. In roughly two dozen prior cases, the justices had largely sided with Trump's assertions of executive power, though most of those rulings came on the court's emergency docket and were procedural in nature. The tariff case, by contrast, received full briefing and expedited oral arguments, giving the court its first substantive opportunity to check presidential authority. On Friday, a majority that included both liberal justices and key conservatives chose to do exactly that.",
+      "id": "ps-1771608697450-zv83",
+      "slug": "supreme-court-declares-trump-tariffs-unconstitutional-in-6-3",
+      "headline": "Supreme Court Declares Trump Tariffs Unconstitutional in 6-3 Ruling",
+      "subheadline": "Chief Justice Roberts says president lacked authority to impose sweeping trade levies under emergency powers law",
+      "body": "The U.S. Supreme Court struck down President Donald Trump's sweeping tariff regime on Friday, ruling 6-3 that his use of the International Emergency Economic Powers Act (IEEPA) to impose trade levies on foreign imports was unconstitutional. The decision represents the most significant judicial rebuke of Trump's economic agenda and raises immediate questions about the fate of more than $130 billion already collected from importers.\n\nChief Justice John Roberts, writing for the majority, held that Trump lacked peacetime authority to deploy IEEPA as a vehicle for tariff policy. \"When Congress grants the power to impose tariffs, it does so clearly and with careful constraints,\" Roberts wrote. \"It did neither here.\" The majority opinion emphasized that the extraordinary breadth of Trump's tariff actions — which at various points imposed levies of 10% or more on goods from most trading partners, up to 145% on Chinese imports, and 25% to 35% on goods from Canada and Mexico — demanded clear congressional authorization that simply did not exist in the statute. Justices Clarence Thomas, Samuel Alito, and Brett Kavanaugh dissented.\n\nThe ruling lands squarely on Trump's signature economic initiative. After taking office, the president justified the tariffs by declaring national emergencies over persistent trade imbalances and the flow of fentanyl into the United States. His legal team argued during oral arguments last year that IEEPA granted broad presidential discretion to respond to such threats. The court disagreed. The volatile, shifting nature of the tariff regime — with rates rising and falling unpredictably across countries — had already rattled American businesses and prompted the legal challenges that ultimately reached the high court.\n\nJustice Kavanaugh's dissent flagged the enormous practical consequences of the ruling, warning that the government may now be obligated to refund billions of dollars to importers, even though many had already passed those costs along to consumers. The majority opinion, Kavanaugh noted pointedly, offered no guidance on how such a massive unwinding should proceed. As of December, tariff revenue had exceeded $130 billion.\n\nThe decision marks a striking departure from the court's recent posture toward presidential power. In roughly two dozen prior cases, the justices had sided with the administration on its emergency docket, allowing contested policies to proceed while lower courts examined them. The tariff case was different — the court ordered full briefing and expedited arguments, signaling from the outset that it intended to render a definitive judgment. Friday's ruling delivered exactly that, setting up a likely confrontation between the administration and Congress over the future of U.S. trade policy and the mechanics of returning billions in collected duties.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -56,119 +229,57 @@
         "Trump",
         "IEEPA",
         "trade policy",
-        "constitutional law"
+        "constitutional law",
+        "John Roberts"
       ],
       "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5566x3131+0+290/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2Fcf%2F7c45362d4c27b4b4b49332deefa4%2Fgettyimages-2157829281-23.jpg",
       "sourceUrl": "https://www.npr.org/2026/02/20/nx-s1-5672383/supreme-court-tariffs",
       "sourceName": "NPR News",
-      "publishedAt": "2026-02-20T17:40:23.749Z"
+      "publishedAt": "2026-02-20T17:31:37.450Z"
     },
     {
-      "id": "ps-1771609240132-pieh",
-      "slug": "supreme-court-strikes-down-trump-tariffs-in-major-rebuke-of-",
-      "headline": "Supreme Court Strikes Down Trump Tariffs in Major Rebuke of Presidential Power",
-      "subheadline": "A 6-3 majority rules Congress alone holds tariff authority, upending a central pillar of Trump's trade agenda",
-      "body": "The U.S. Supreme Court delivered a sweeping blow to President Donald Trump's trade agenda on Friday, ruling 6-3 that his imposition of global tariffs exceeded presidential authority and that the power to levy such duties belongs to Congress alone.\n\nThe majority found that the International Emergency Economic Powers Act (IEEPA) of 1977, the legal basis Trump had invoked for his sweeping tariff regime, did not delegate the kind of expansive trade authority the president claimed. The decision represents the most significant judicial check on Trump's second-term exercise of executive power, coming after months in which the court largely allowed the administration to press forward on immigration enforcement and federal workforce restructuring while legal challenges proceeded.\n\nThe ruling's practical consequences are immediate and far-reaching. Trump can no longer impose or threaten triple-digit tariffs unilaterally — the kind of rapid-fire trade actions that defined his \"Liberation Day\" tariff announcement and roiled global markets. Alternative legal pathways for imposing tariffs remain available but require detailed government agency reports, carry limits on scope and duration, and demand significantly longer lead times. The decision also raises the prospect that the administration may need to refund tariff revenue collected over the past year, though the court left that question to lower courts. Justice Brett Kavanaugh, in dissent, warned the refund process would likely be a \"mess.\"\n\nThe geopolitical implications may prove equally significant. Trump had wielded the threat of tariffs as his primary lever in bilateral negotiations with trading partners worldwide. With that tool now constrained, foreign governments may feel emboldened to take harder lines in trade talks with Washington. Trade adviser Jamieson Greer said last month that the White House had \"a lot of different options\" if the tariffs were struck down, insisting tariffs would remain part of U.S. trade policy. But analysts note those alternatives are far more limited in speed and scope.\n\nThe president could seek explicit congressional authorization for new tariff powers, but slim Republican majorities in both chambers and approaching midterm elections make that path politically treacherous. Many GOP lawmakers in competitive districts had faced constituent anger over rising consumer costs tied to tariffs. The ruling sets up a charged moment on Tuesday, when Trump delivers his State of the Union address before a joint session of Congress — with the justices who curtailed his authority traditionally seated in the front row.",
+      "id": "ps-1771608732948-3ku0",
+      "slug": "supreme-court-strikes-down-trump-s-ieepa-tariffs-upending-tr",
+      "headline": "Supreme Court Strikes Down Trump's IEEPA Tariffs, Upending Trade Policy",
+      "subheadline": "Ruling finds president overstepped authority; half of current import taxes now in legal limbo as administration scrambles for alternatives",
+      "body": "The U.S. Supreme Court ruled Friday that President Donald Trump exceeded his constitutional authority by imposing sweeping double-digit tariffs under a 1970s emergency statute, a decision that throws roughly half of the federal government's current import tax revenue into question and forces the White House to reconsider the centerpiece of its trade agenda.\n\nThe case centered on tariffs levied under the International Emergency Economic Powers Act (IEEPA), a statute that never explicitly mentions the word \"tariff.\" Those IEEPA-based duties account for approximately half of the roughly $30 billion per month the government has been collecting in import taxes — a figure roughly four times higher than pre-Trump levels. The remaining tariffs, imposed under different legal authorities, were not challenged in the case and remain in effect.\n\nThe economic fallout from the now-invalidated tariffs has been substantial. Research by Harvard economist Gita Gopinath, a former International Monetary Fund official, and University of Chicago's Brent Neiman found that nearly all tariff costs have been borne by U.S. importers rather than foreign suppliers, contradicting the president's repeated claims. Some businesses absorbed the hit through reduced margins; others passed costs to consumers in the form of higher prices. China's share of U.S. imports fell from 12% in 2024 to roughly 8% by September 2025 as companies scrambled to reroute supply chains to lower-tariff countries.\n\nThe administration has signaled it will attempt to replace the struck-down tariffs using alternative legal authorities, but those come with significant constraints. Section 122 of the Trade Act of 1974 caps tariffs at 15% for no more than 150 days. Sections 301 and 232 of other trade statutes require formal fact-finding investigations before duties can be imposed, a process Trump largely bypassed with IEEPA. Notably, those alternatives would not permit measures like the 50% tariff Trump placed on Brazilian imports last July in response to the prosecution of former President Jair Bolsonaro — a punitive action against a country with which the United States actually runs a trade surplus.\n\nMeanwhile, Trump's promise that high tariffs would revive American manufacturing has gone unfulfilled. U.S. factories shed 108,000 jobs in 2025, and the Institute for Supply Management has reported persistently weak sentiment among factory managers, many of whom depend on imported components. The ruling now confronts an administration already facing underwater economic approval ratings with a choice: aggressively reimpose tariffs through narrower legal channels and risk further consumer backlash, or quietly moderate a trade policy that has yet to deliver its promised industrial renaissance. Refunds to importers who paid the illegal duties are expected to be complex but manageable, with the customs agency indicating it will waive filing deadlines to ensure eligible businesses can reclaim payments.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Supreme Court",
         "tariffs",
         "Trump",
-        "trade policy",
         "IEEPA",
-        "executive power",
-        "Congress"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/f90b/live/b382ce60-0e76-11f1-9acc-6bf6c7adf476.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2jqgdn719o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-20T17:40:40.132Z"
-    },
-    {
-      "id": "ps-1771609251857-q6gi",
-      "slug": "uk-man-faces-48-charges-for-allegedly-drugging-wife-recruiti",
-      "headline": "UK Man Faces 48 Charges for Allegedly Drugging Wife, Recruiting Men to Rape Her",
-      "subheadline": "Twelve co-defendants also charged in case spanning over two decades; trial set for September in Manchester",
-      "body": "A man in his 60s from Stockport, Greater Manchester, has been charged with 48 criminal counts for allegedly drugging his wife into unconsciousness and facilitating her sexual assault by multiple men over a period stretching back to the early 2000s.\n\nThe husband, who cannot be named for legal reasons, faces charges including conspiracy to rape, sexual assault by penetration, and conspiracy to administer a substance with the intent to commit a sexual offense. Twelve other men, ranging in age from 28 to 73, are co-defendants in the case. All 13 appeared at Manchester Minshull Street Crown Court, where seven — including the husband — entered not guilty pleas to all charges. Five defendants were not asked to enter pleas at this stage. One man pleaded guilty to conspiracy to commit rape, conspiracy to administer a substance with intent, conspiracy to commit sexual assault by penetration, and one count of committing sexual assault by penetration.\n\nMembers of the woman's family were present in the public gallery during the hearing. The case bears striking parallels to the high-profile French trial of Dominique Pelicot, who was convicted in December 2024 of drugging his wife Gisèle and recruiting dozens of strangers to rape her over nearly a decade. That case sent shockwaves across Europe and prompted renewed calls for legal reforms around consent and drug-facilitated sexual violence.\n\nA further hearing is scheduled for March, with the full trial set to begin on September 1. Prosecutors estimate the proceedings will last approximately 12 weeks, reflecting the breadth and complexity of the allegations, which span more than two decades and involve numerous alleged perpetrators.\n\nGreater Manchester Police and HM Courts and Tribunals Service are overseeing the case. The scale of the charges — and the alleged long-term, systematic nature of the abuse — is expected to draw significant public attention as the trial approaches.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "sexual assault",
-        "UK crime",
-        "Manchester",
-        "drug-facilitated rape",
-        "criminal trial"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/3f1a/live/dcd53690-0e71-11f1-9acc-6bf6c7adf476.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cqxde27ep5qo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-20T17:40:51.857Z"
-    },
-    {
-      "id": "ps-1771609268030-j8va",
-      "slug": "supreme-court-strikes-down-trump-tariffs-ruling-president-ex",
-      "headline": "Supreme Court Strikes Down Trump Tariffs, Ruling President Exceeded Authority",
-      "subheadline": "Decision affects roughly half of all import taxes collected monthly; administration vows to find alternative legal paths",
-      "body": "The U.S. Supreme Court ruled Friday that President Donald Trump overstepped his constitutional authority by using a 1970s emergency statute to impose sweeping double-digit tariffs on imports from nearly every country in the world, a landmark decision that throws the administration's trade policy into disarray and could trigger billions of dollars in refunds to American businesses.\n\nThe case centered on Trump's use of the International Emergency Economic Powers Act (IEEPA), a law originally designed for national security emergencies that never mentions the word \"tariff.\" Tariffs imposed under IEEPA account for roughly half of the approximately $30 billion the federal government has been collecting in import duties each month — about four times the pre-Trump baseline. The ruling leaves the other half of Trump's tariff regime, enacted under different legal authorities, intact for now.\n\nThe economic toll of the tariff campaign has been substantial. Research by Harvard economist Gita Gopinath and University of Chicago's Brent Neiman found that nearly all tariff costs have fallen on U.S. importers rather than foreign suppliers, contradicting the president's repeated claims. American manufacturers, far from experiencing the promised renaissance, shed 108,000 jobs in 2025. China's share of U.S. imports fell from 12% in 2024 to roughly 8% by last September, as businesses scrambled to reroute supply chains — but the reshoring Trump envisioned has not materialized. \"Morale is very low across manufacturing in general,\" one factory manager told the Institute for Supply Management in December.\n\nThe administration has pledged to replace the invalidated tariffs using alternative legal authorities, but those options come with significant constraints. Section 122 of the Trade Act of 1974 caps tariffs at 15% for no more than 150 days. Sections 301 and 232 of other trade statutes require formal fact-finding investigations before tariffs can be imposed, a process that could take months. Neither pathway would easily permit measures like the 50% levy Trump placed on Brazilian imports last July over grievances unrelated to trade.\n\nThe question of refunds loomed large during oral arguments, with Justice Amy Coney Barrett calling the prospect potentially \"a mess.\" But veteran tariff attorney Robert Leo said the process, while cumbersome, is manageable because tariff payments are computerized, and the customs agency has indicated it will waive deadlines that might otherwise disqualify importers from recouping funds. With the president's economic approval ratings already underwater and voter frustration over affordability running high, the ruling places the White House in a difficult position — caught between Trump's self-described belief in tariffs as a negotiating tool and the political reality that higher consumer prices have become a significant liability.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Supreme Court",
-        "tariffs",
-        "Trump",
         "trade policy",
-        "IEEPA",
-        "economy",
-        "manufacturing"
+        "manufacturing",
+        "economy"
       ],
       "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7510x4224+0+265/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2Fd5%2F3cc85e62416592dceed10837f040%2Fgettyimages-2237629655.jpg",
       "sourceUrl": "https://www.npr.org/2026/02/20/nx-s1-5677609/tariffs-economy-trump-supreme-court",
       "sourceName": "NPR News",
-      "publishedAt": "2026-02-20T17:41:08.031Z"
+      "publishedAt": "2026-02-20T17:32:12.948Z"
     },
     {
-      "id": "ps-1771609283854-zu9y",
+      "id": "ps-1771608223355-59yq",
       "slug": "u-s-military-buildup-near-iran-reaches-critical-mass-as-seco",
       "headline": "U.S. Military Buildup Near Iran Reaches Critical Mass as Second Carrier Deploys",
-      "subheadline": "Pentagon positions forces capable of sustaining weeks-long bombing campaign while Trump remains noncommittal on use of force",
-      "body": "The United States military presence in the Middle East has reached what analysts describe as a critical threshold, with a second aircraft carrier moving into the Mediterranean and 50 additional fighter jets arriving in the region — a force posture that goes well beyond what would be needed simply to pressure Iran at the negotiating table.\n\nAccording to NPR reporting on February 20, the buildup now appears capable of sustaining a military campaign lasting weeks, though President Donald Trump has not committed to the use of force. The administration's stated objective is to compel Iran to effectively dismantle its nuclear program and make additional concessions — demands Tehran has long refused. Alex Vatanka, an Iran expert at the Middle East Institute, said Iranian leadership anticipates a potential military conflict with the United States that would exceed last summer's 12-day war with Israel but fall short of the scale of the 2003 U.S. invasion of Iraq.\n\nThe military escalation comes alongside a dramatic diplomatic push on another Middle East front. At the inaugural meeting of the Board of Peace — a body Trump created to oversee ceasefire implementation in Gaza — the administration unveiled plans for high-end condominiums and skyscrapers along Gaza's coastline. Trump announced that member states have pledged $7 billion toward reconstruction, with the United States committing an additional $10 billion. The president has signaled ambitions for the board to address global conflicts beyond Gaza, raising alarm among some world leaders who fear it could sideline the United Nations and undermine the international body's role as a platform for smaller nations in major diplomatic resolutions.\n\nThe twin developments underscore the administration's willingness to reshape both the military and diplomatic architecture of the Middle East simultaneously. The concentration of naval and air power near Iran represents one of the most significant U.S. force deployments to the region in years, yet Trump has offered little public clarity on what specific outcomes would satisfy Washington or what red lines might trigger military action. That ambiguity, analysts suggest, is itself a form of pressure — but one that carries substantial risk of miscalculation on both sides.\n\nMeanwhile, the Board of Peace's ambitious reconstruction vision for Gaza has drawn scrutiny from international observers who question whether luxury development plans reflect the needs of a population that has endured months of devastating conflict. The $17 billion in combined pledges signals serious financial commitment, but the political implications of an American-led alternative to established multilateral institutions may prove more consequential than the dollar figures suggest.",
+      "subheadline": "Pentagon positions forces capable of sustained bombing campaign while Trump remains noncommittal on use of force",
+      "body": "The United States has amassed military assets in the Middle East sufficient to sustain a weeks-long bombing campaign against Iran, with a second aircraft carrier moving into the Mediterranean and 50 additional fighter jets arriving in the region, according to NPR reporting on February 20.\n\nThe buildup significantly exceeds what military analysts say would be needed simply to pressure Tehran during nuclear negotiations, raising questions about the administration's endgame. President Trump has declined to specify his objectives but has demanded that Iran effectively dismantle its nuclear program and make additional concessions — terms Tehran has historically rejected. Alex Vatanka, an Iran expert at the Middle East Institute, told NPR that Iranian leadership anticipates a military conflict with the United States larger than last summer's 12-day war with Israel, though not on the scale of the 2003 Iraq invasion.\n\nThe military escalation comes as Trump simultaneously pursues an expansive diplomatic agenda through his newly created Board of Peace, which held its inaugural meeting on February 19. The administration used the occasion to unveil ambitious development plans for Gaza's coastline, including high-end condominiums and skyscrapers. Trump announced that member states have pledged $7 billion for Gaza's reconstruction, with the United States committing an additional $10 billion. The board, initially formed to oversee the Gaza ceasefire, is being positioned as a vehicle for addressing multiple global conflicts — a scope that has alarmed some world leaders who fear it could sideline the United Nations. Critics warn that the world's most powerful nation establishing an alternative multilateral framework threatens to undermine the U.N.'s role as a platform where smaller countries participate in international decision-making.\n\nThe dual developments — military brinkmanship with Iran and a bold reimagining of postwar Gaza — underscore the administration's willingness to reshape Middle Eastern geopolitics through both hard and soft power simultaneously. With Iran showing no signs of capitulating to American demands and the Board of Peace generating international unease, the coming weeks could prove pivotal for regional stability and the broader international order. The situation also arrives against the backdrop of significant domestic and allied tensions, including the unprecedented arrest of King Charles' brother Andrew Mountbatten-Windsor on suspicion of sharing sensitive government information, which British authorities continue to investigate.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "U.S. military",
         "Middle East",
-        "Gaza",
         "Board of Peace",
+        "Gaza",
         "Trump",
         "nuclear negotiations"
       ],
       "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7755x4362+0+404/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2Fcc%2F4f9efaaf4862a0d8ccf034d96f78%2Fgettyimages-2261210029.jpg",
       "sourceUrl": "https://www.npr.org/2026/02/20/g-s1-110892/up-first-newsletter-iran-us-military-board-of-peace-former-prince-andrew-arrest-kennedy-center",
       "sourceName": "NPR News",
-      "publishedAt": "2026-02-20T17:41:23.854Z"
-    },
-    {
-      "id": "ps-1771609299002-dg2h",
-      "slug": "nasa-sets-march-6-launch-for-artemis-ii-crewed-lunar-mission",
-      "headline": "NASA Sets March 6 Launch for Artemis II Crewed Lunar Mission",
-      "subheadline": "Four astronauts will fly around the far side of the Moon in humanity's deepest space voyage in over 50 years",
-      "body": "NASA has locked in March 6 as the earliest launch date for Artemis II, the mission that will send four astronauts around the Moon for the first time since the Apollo era, following a successful fueling rehearsal of the agency's massive Space Launch System rocket at Kennedy Space Center in Florida.\n\nThe 10-day mission will carry astronauts Reid Wiseman, Victor Glover, and Christina Koch of NASA, along with Canadian Space Agency astronaut Jeremy Hansen, on a trajectory around the far side of the Moon — reaching distances of 6,500 to 9,500 kilometers above the lunar surface. It will mark the farthest any human has traveled into space. The crew entered quarantine on Friday in preparation for launch, after NASA officials confirmed that a \"wet dress rehearsal\" — a full fueling and countdown simulation — had proceeded without the hydrogen leak that cut short a first attempt in early February. \"Every night I look up at the Moon and I see it and I get real excited because I can feel she's calling us and we're ready,\" said NASA's Lori Glaze at a Friday press conference, noting that seal and filter issues from the earlier test had been resolved.\n\nThe crew will ride atop the 98-meter SLS rocket, strapped into the Orion capsule — a pressurized space roughly the size of a minibus that will serve as their home for the duration of the flight. After spending the first day in Earth orbit for systems checks, the astronauts will begin a four-day transit to the Moon, conduct observations and imaging during a flyby of the far side, and then return over four days for a splashdown in the Pacific Ocean. The SLS has flown only once before, during the uncrewed Artemis I mission in November 2022.\n\nArtemis II is designed as the critical stepping stone to Artemis III, which aims to land astronauts on the lunar surface — the first such landing since Apollo 17 in December 1972. NASA has targeted 2028 for that milestone, though the timeline remains under significant pressure. SpaceX holds the contract to build the Artemis III lunar lander using a variant of its Starship rocket, but persistent development delays have prompted NASA to request an accelerated plan from both SpaceX and Jeff Bezos's Blue Origin.\n\nThe urgency is geopolitical as well as scientific. China has announced plans to land astronauts on the Moon by 2030 and has been making steady progress toward that goal. Both nations have their sights set on the lunar south pole, where water ice could sustain long-term habitation, setting up what amounts to a new-generation space race for the most strategically valuable real estate beyond Earth.",
-      "category": "science",
-      "importance": 9,
-      "tags": [
-        "NASA",
-        "Artemis II",
-        "Moon mission",
-        "SLS",
-        "space exploration",
-        "lunar flyby"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/041d/live/dd9135c0-0e80-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c86y1g6wde3o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-20T17:41:39.002Z"
+      "publishedAt": "2026-02-20T17:23:43.355Z"
     },
     {
       "id": "ps-1771608073029-l1cr",
