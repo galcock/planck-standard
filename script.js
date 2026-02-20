@@ -4,6 +4,7 @@
 
 let allArticles = [];
 let currentCategory = 'all';
+let currentArticle = null;
 
 // ===================================
 // INITIALIZATION
@@ -14,11 +15,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     initializeThemeToggle();
     initializeCategoryFilters();
     initializeMobileCategory();
-    renderAll();
+    
+    // Check for article in URL hash
+    if (window.location.hash.startsWith('#article/')) {
+        const slug = window.location.hash.replace('#article/', '');
+        showArticle(slug);
+    } else {
+        renderAll();
+    }
+});
+
+// Handle back/forward navigation
+window.addEventListener('hashchange', () => {
+    if (window.location.hash.startsWith('#article/')) {
+        const slug = window.location.hash.replace('#article/', '');
+        showArticle(slug);
+    } else {
+        hideArticle();
+        renderAll();
+    }
 });
 
 // ===================================
-// LOAD ARTICLES FROM JSON
+// LOAD ARTICLES
 // ===================================
 
 async function loadArticles() {
@@ -28,7 +47,6 @@ async function loadArticles() {
         allArticles = data.articles.sort((a, b) => 
             new Date(b.publishedAt) - new Date(a.publishedAt)
         );
-        console.log(`Loaded ${allArticles.length} articles`);
     } catch (error) {
         console.error('Failed to load articles:', error);
         allArticles = [];
@@ -40,6 +58,99 @@ function renderAll() {
     renderHeroArticle();
     renderArticles();
     renderTrending();
+}
+
+// ===================================
+// ARTICLE DETAIL VIEW
+// ===================================
+
+function showArticle(slug) {
+    const article = allArticles.find(a => a.slug === slug || a.id === slug);
+    if (!article) {
+        window.location.hash = '';
+        return;
+    }
+    
+    currentArticle = article;
+    document.body.classList.add('article-view');
+    
+    const mainContent = document.querySelector('.main-content');
+    const articleView = document.createElement('div');
+    articleView.className = 'article-detail';
+    articleView.innerHTML = `
+        <article class="article-full">
+            <button class="back-btn" onclick="window.location.hash=''">
+                ← Back to News
+            </button>
+            
+            <header class="article-header">
+                <span class="category-badge ${article.category}">${article.category}</span>
+                <h1>${article.headline}</h1>
+                <p class="article-subhead">${article.subheadline || ''}</p>
+                <div class="article-meta-full">
+                    <span>${formatDate(article.publishedAt)}</span>
+                    <span>•</span>
+                    <span>${Math.ceil((article.body?.length || 500) / 1000)} min read</span>
+                    ${article.tags ? `<span>•</span><span class="tags">${article.tags.slice(0,3).join(', ')}</span>` : ''}
+                </div>
+            </header>
+            
+            <div class="article-hero-image">
+                <img src="${article.imageUrl}" alt="${article.headline}" loading="eager">
+            </div>
+            
+            <div class="article-body">
+                ${formatArticleBody(article.body)}
+            </div>
+            
+            <footer class="article-footer">
+                <p class="source-credit">Source: <a href="${article.sourceUrl}" target="_blank" rel="noopener">${article.sourceName}</a></p>
+            </footer>
+        </article>
+    `;
+    
+    // Hide main content, show article
+    mainContent.style.display = 'none';
+    mainContent.parentNode.insertBefore(articleView, mainContent.nextSibling);
+    
+    // Scroll to top
+    window.scrollTo(0, 0);
+    
+    // Update page title
+    document.title = `${article.headline} | Planck Standard`;
+}
+
+function hideArticle() {
+    document.body.classList.remove('article-view');
+    const articleView = document.querySelector('.article-detail');
+    if (articleView) articleView.remove();
+    
+    const mainContent = document.querySelector('.main-content');
+    mainContent.style.display = 'block';
+    
+    document.title = 'Planck Standard | The Measure of What Matters';
+}
+
+function formatArticleBody(body) {
+    if (!body) return '<p>Article content not available.</p>';
+    
+    // Split into paragraphs and wrap in <p> tags
+    return body.split(/\n\n+/).map(p => `<p>${p.trim()}</p>`).join('');
+}
+
+function formatDate(timestamp) {
+    const date = new Date(timestamp);
+    return date.toLocaleDateString('en-US', { 
+        month: 'long', 
+        day: 'numeric', 
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit'
+    });
+}
+
+function openArticle(slug) {
+    window.location.hash = `article/${slug}`;
 }
 
 // ===================================
@@ -67,102 +178,73 @@ function initializeThemeToggle() {
 // ===================================
 
 function initializeCategoryFilters() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    
-    navLinks.forEach(link => {
+    document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            navLinks.forEach(l => l.classList.remove('active'));
+            document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
             link.classList.add('active');
             currentCategory = link.dataset.category;
-            
-            // Sync mobile dropdown
-            const mobileSelect = document.getElementById('mobileCategory');
-            if (mobileSelect) mobileSelect.value = currentCategory;
-            
+            document.getElementById('mobileCategory').value = currentCategory;
             renderArticles();
         });
     });
 }
 
 function initializeMobileCategory() {
-    const mobileSelect = document.getElementById('mobileCategory');
-    if (mobileSelect) {
-        mobileSelect.addEventListener('change', (e) => {
+    const select = document.getElementById('mobileCategory');
+    if (select) {
+        select.addEventListener('change', (e) => {
             currentCategory = e.target.value;
-            
-            // Sync desktop nav
-            const navLinks = document.querySelectorAll('.nav-link');
-            navLinks.forEach(l => {
+            document.querySelectorAll('.nav-link').forEach(l => {
                 l.classList.toggle('active', l.dataset.category === currentCategory);
             });
-            
             renderArticles();
         });
     }
 }
 
 // ===================================
-// BREAKING NEWS TICKER
+// RENDER FUNCTIONS
 // ===================================
 
 function renderBreakingTicker() {
-    const tickerText = document.querySelector('.ticker-text');
-    if (!tickerText) return;
-    
-    const latestArticle = allArticles[0];
-    if (latestArticle) {
-        tickerText.textContent = latestArticle.headline;
+    const ticker = document.querySelector('.ticker-text');
+    if (ticker && allArticles[0]) {
+        ticker.textContent = allArticles[0].headline;
     }
 }
 
-// ===================================
-// RENDER HERO ARTICLE
-// ===================================
-
 function renderHeroArticle() {
-    const heroArticle = allArticles.find(a => a.importance >= 8) || allArticles[0];
-    if (!heroArticle) return;
+    const hero = allArticles.find(a => a.importance >= 8) || allArticles[0];
+    if (!hero) return;
     
-    const heroElement = document.getElementById('heroArticle');
-    if (!heroElement) return;
+    const el = document.getElementById('heroArticle');
+    if (!el) return;
     
-    const excerpt = heroArticle.subheadline || heroArticle.body?.slice(0, 200) + '...';
-    const readTime = Math.ceil((heroArticle.body?.length || 500) / 1000);
-    const imageUrl = heroArticle.imageUrl || `https://picsum.photos/seed/${heroArticle.category}/1200/630`;
-    
-    heroElement.innerHTML = `
+    el.innerHTML = `
         <div class="hero-image-container">
-            <img src="${imageUrl}" alt="${heroArticle.headline}" class="hero-img" loading="eager" 
-                 onerror="this.src='https://picsum.photos/seed/${heroArticle.id || 'hero'}/1200/630'">
+            <img src="${hero.imageUrl}" alt="${hero.headline}" class="hero-img" loading="eager">
             <div class="hero-overlay"></div>
         </div>
         <div class="hero-content">
-            <span class="category-badge ${heroArticle.category}">${heroArticle.category}</span>
-            <h2>${heroArticle.headline}</h2>
-            <p class="hero-excerpt">${excerpt}</p>
+            <span class="category-badge ${hero.category}">${hero.category}</span>
+            <h2>${hero.headline}</h2>
+            <p class="hero-excerpt">${hero.subheadline || ''}</p>
             <div class="article-meta">
-                <span>${formatTimeAgo(heroArticle.publishedAt)}</span>
+                <span>${formatTimeAgo(hero.publishedAt)}</span>
                 <span>•</span>
-                <span>${readTime} min read</span>
-                <span>•</span>
-                <span class="source-name">${heroArticle.sourceName}</span>
+                <span>${Math.ceil((hero.body?.length || 500) / 1000)} min read</span>
             </div>
         </div>
     `;
     
-    heroElement.style.cursor = 'pointer';
-    heroElement.onclick = () => window.open(heroArticle.sourceUrl, '_blank');
-    heroElement.classList.add('fade-in');
+    el.onclick = () => openArticle(hero.slug || hero.id);
+    el.style.cursor = 'pointer';
 }
 
-// ===================================
-// RENDER ARTICLES GRID
-// ===================================
-
 function renderArticles() {
-    const articlesGrid = document.getElementById('articlesGrid');
-    if (!articlesGrid) return;
+    const grid = document.getElementById('articlesGrid');
+    if (!grid) return;
     
     let articles = allArticles.slice(1);
     if (currentCategory !== 'all') {
@@ -170,126 +252,90 @@ function renderArticles() {
     }
     
     if (articles.length === 0) {
-        articlesGrid.innerHTML = `<p class="no-articles">No articles in this category yet.</p>`;
+        grid.innerHTML = '<p class="no-articles">No articles in this category.</p>';
         return;
     }
     
-    articlesGrid.innerHTML = articles.map(article => {
-        const excerpt = article.subheadline || article.body?.slice(0, 120) + '...';
-        const readTime = Math.ceil((article.body?.length || 500) / 1000);
-        const imageUrl = article.imageUrl || `https://picsum.photos/seed/${article.id || article.category}/600/400`;
-        
-        return `
-            <article class="article-card" onclick="window.open('${article.sourceUrl}', '_blank')">
-                <div class="article-image-container">
-                    <img src="${imageUrl}" alt="${article.headline}" class="article-img" loading="lazy"
-                         onerror="this.onerror=null; this.src='https://picsum.photos/seed/${article.id}/600/400'">
+    grid.innerHTML = articles.map(article => `
+        <article class="article-card" onclick="openArticle('${article.slug || article.id}')">
+            <div class="article-image-container">
+                <img src="${article.imageUrl}" alt="${article.headline}" class="article-img" loading="lazy">
+            </div>
+            <div class="article-content">
+                <span class="category-badge ${article.category}">${article.category}</span>
+                <h3>${article.headline}</h3>
+                <p class="article-excerpt">${article.subheadline || ''}</p>
+                <div class="article-meta">
+                    <span>${formatTimeAgo(article.publishedAt)}</span>
+                    <span>•</span>
+                    <span>${Math.ceil((article.body?.length || 500) / 1000)} min</span>
                 </div>
-                <div class="article-content">
-                    <span class="category-badge ${article.category}">${article.category}</span>
-                    <h3>${article.headline}</h3>
-                    <p class="article-excerpt">${excerpt}</p>
-                    <div class="article-meta">
-                        <span>${formatTimeAgo(article.publishedAt)}</span>
-                        <span>•</span>
-                        <span>${readTime} min</span>
-                    </div>
-                </div>
-            </article>
-        `;
-    }).join('');
+            </div>
+        </article>
+    `).join('');
 }
 
-// ===================================
-// RENDER TRENDING
-// ===================================
-
 function renderTrending() {
-    const trendingList = document.getElementById('trendingList');
-    if (!trendingList) return;
+    const list = document.getElementById('trendingList');
+    if (!list) return;
     
     const trending = [...allArticles]
         .sort((a, b) => (b.importance || 5) - (a.importance || 5))
         .slice(0, 5);
     
-    trendingList.innerHTML = trending.map((article, index) => `
-        <a href="${article.sourceUrl}" target="_blank" class="trending-item">
-            <span class="trending-rank">${index + 1}</span>
+    list.innerHTML = trending.map((a, i) => `
+        <a href="#article/${a.slug || a.id}" class="trending-item">
+            <span class="trending-rank">${i + 1}</span>
             <div class="trending-content">
-                <h4>${article.headline}</h4>
+                <h4>${a.headline}</h4>
                 <div class="trending-meta">
-                    <span class="category-badge small ${article.category}">${article.category}</span>
-                    <span>${formatTimeAgo(article.publishedAt)}</span>
+                    <span class="category-badge small ${a.category}">${a.category}</span>
                 </div>
             </div>
         </a>
     `).join('');
 }
 
-// ===================================
-// UTILITIES
-// ===================================
-
 function formatTimeAgo(timestamp) {
-    const now = new Date();
-    const past = new Date(timestamp);
-    const diffMs = now - past;
-    const diffMins = Math.floor(diffMs / 60000);
-    const diffHours = Math.floor(diffMs / 3600000);
-    const diffDays = Math.floor(diffMs / 86400000);
+    const diffMs = Date.now() - new Date(timestamp);
+    const mins = Math.floor(diffMs / 60000);
+    const hours = Math.floor(diffMs / 3600000);
+    const days = Math.floor(diffMs / 86400000);
     
-    if (diffMins < 1) return 'Just now';
-    if (diffMins < 60) return `${diffMins}m ago`;
-    if (diffHours < 24) return `${diffHours}h ago`;
-    if (diffDays < 7) return `${diffDays}d ago`;
-    
-    return past.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    if (mins < 60) return `${mins}m ago`;
+    if (hours < 24) return `${hours}h ago`;
+    return `${days}d ago`;
 }
 
 // ===================================
-// SEARCH
+// SEARCH & NEWSLETTER
 // ===================================
 
-const searchBtn = document.querySelector('.search-btn');
-if (searchBtn) {
-    searchBtn.addEventListener('click', () => {
-        const query = prompt('Search articles:');
-        if (query && query.trim()) {
-            const results = allArticles.filter(a => 
-                a.headline.toLowerCase().includes(query.toLowerCase()) ||
-                (a.body && a.body.toLowerCase().includes(query.toLowerCase()))
-            );
-            
-            if (results.length > 0) {
-                allArticles = results;
-                currentCategory = 'all';
-                renderAll();
-            } else {
-                alert(`No articles found for "${query}"`);
-            }
+document.querySelector('.search-btn')?.addEventListener('click', () => {
+    const q = prompt('Search articles:');
+    if (q?.trim()) {
+        const results = allArticles.filter(a => 
+            a.headline.toLowerCase().includes(q.toLowerCase()) ||
+            a.body?.toLowerCase().includes(q.toLowerCase())
+        );
+        if (results.length) {
+            allArticles = results;
+            currentCategory = 'all';
+            renderAll();
+        } else {
+            alert('No results found');
         }
-    });
-}
+    }
+});
 
-// ===================================
-// NEWSLETTER
-// ===================================
+document.querySelector('.newsletter-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Thanks for subscribing!');
+    e.target.reset();
+});
 
-const newsletterForm = document.querySelector('.newsletter-form');
-if (newsletterForm) {
-    newsletterForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const email = e.target.querySelector('input[type="email"]').value;
-        alert(`Subscribed: ${email}`);
-        e.target.reset();
-    });
-}
-
-// ===================================
-// AUTO-REFRESH (every 5 minutes)
-// ===================================
-
+// Auto-refresh every 5 min
 setInterval(async () => {
     await loadArticles();
-    renderAll();
+    if (!currentArticle) renderAll();
 }, 5 * 60 * 1000);

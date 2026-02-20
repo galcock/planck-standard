@@ -670,3 +670,129 @@ body.light-mode .theme-toggle .moon-icon { display: none; }
         gap: 1.5rem;
     }
 }
+
+/* ===================================
+   ARTICLE DETAIL VIEW
+   =================================== */
+
+.article-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    background: var(--bg-tertiary);
+    color: var(--text-primary);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: var(--accent-blue);
+    color: white;
+}
+
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.article-header h1 {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+
+.article-subhead {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.article-meta-full {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-tertiary);
+}
+
+.article-meta-full .tags {
+    color: var(--accent-blue);
+}
+
+.article-hero-image {
+    margin: 2rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.article-hero-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.article-body {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.article-body p {
+    margin-bottom: 1.5rem;
+}
+
+.article-body p:first-child::first-letter {
+    font-size: 3.5rem;
+    font-weight: 700;
+    float: left;
+    line-height: 1;
+    margin-right: 0.5rem;
+    color: var(--accent-blue);
+}
+
+.article-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--bg-tertiary);
+}
+
+.source-credit {
+    font-size: 0.9rem;
+    color: var(--text-tertiary);
+}
+
+.source-credit a {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .article-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .article-subhead {
+        font-size: 1rem;
+    }
+    
+    .article-body {
+        font-size: 1rem;
+    }
+    
+    .article-body p:first-child::first-letter {
+        font-size: 2.5rem;
+    }
+}
