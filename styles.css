@@ -291,7 +291,12 @@ body.light-mode .theme-toggle .moon-icon { display: none; }
 .category-badge.tech { background: var(--tech); color: white; }
 .category-badge.business { background: var(--business); color: white; }
 .category-badge.markets { background: var(--markets); color: white; }
-.category-badge.breaking { background: var(--breaking); color: white; }
+.category-badge.breaking { background: var(--breaking); color: white; font-weight: 700; }
+
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
 
 .category-badge.small {
     padding: 0.15rem 0.5rem;

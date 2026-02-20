@@ -50,31 +50,33 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <div class="logo">
+                <a href="#" class="logo" onclick="window.location.hash=''; location.reload();">
                     <h1>PLANCK STANDARD</h1>
                     <p class="tagline">The measure of what matters</p>
-                </div>
+                </a>
                 
                 <!-- Desktop Nav -->
                 <nav class="nav-main nav-desktop">
                     <a href="#" class="nav-link active" data-category="all">All</a>
-                    <a href="#" class="nav-link" data-category="physics">Physics</a>
-                    <a href="#" class="nav-link" data-category="science">Science</a>
+                    <a href="#" class="nav-link" data-category="breaking">Breaking</a>
                     <a href="#" class="nav-link" data-category="tech">Tech</a>
                     <a href="#" class="nav-link" data-category="business">Business</a>
                     <a href="#" class="nav-link" data-category="markets">Markets</a>
+                    <a href="#" class="nav-link" data-category="science">Science</a>
+                    <a href="#" class="nav-link" data-category="physics">Physics</a>
                 </nav>
                 
                 <div class="header-actions">
                     <!-- Mobile Category Dropdown -->
                     <div class="mobile-category-wrapper">
                         <select id="mobileCategory" class="mobile-category-select">
-                            <option value="all">All Categories</option>
-                            <option value="physics">Physics</option>
-                            <option value="science">Science</option>
+                            <option value="all">All</option>
+                            <option value="breaking">Breaking</option>
                             <option value="tech">Tech</option>
                             <option value="business">Business</option>
                             <option value="markets">Markets</option>
+                            <option value="science">Science</option>
+                            <option value="physics">Physics</option>
                         </select>
                     </div>
                     
