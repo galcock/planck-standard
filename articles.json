@@ -1,28 +1,134 @@
 {
-  "lastUpdated": "2026-02-20T19:18:48.505Z",
+  "lastUpdated": "2026-02-20T19:33:45.229Z",
   "count": 40,
   "articles": [
     {
-      "id": "ps-1771615052293-t2ki",
+      "id": "ps-1771615948501-4j62",
       "slug": "nasa-targets-march-6-launch-for-first-crewed-moon-mission-in",
       "headline": "NASA Targets March 6 Launch for First Crewed Moon Mission in 50 Years",
-      "subheadline": "Artemis II will send four astronauts farther into space than any human has traveled, circling the Moon's far side",
-      "body": "NASA has confirmed a March 6 launch date for the Artemis II mission, which will send four astronauts around the Moon in humanity's deepest venture into space, following a successful fueling test of the massive Space Launch System rocket at Kennedy Space Center in Florida.\n\nThe 10-day mission will carry three American astronauts — Reid Wiseman, Victor Glover, and Christina Koch — along with Canadian astronaut Jeremy Hansen on a trajectory around the far side of the Moon, passing between 6,500 and 9,500 kilometers above the lunar surface. It will mark the first crewed lunar voyage since Apollo 17 in 1972, and the crew entered quarantine on Friday in preparation. \"Every night I look up at the Moon and I see it and I get real excited because I can feel she's calling us and we're ready,\" said NASA's Lori Glaze at a press conference announcing the date.\n\nThe launch confirmation came after a successful \"wet dress rehearsal\" — a full fueling and countdown simulation — on the agency's second attempt. An earlier rehearsal in early February was cut short by a hydrogen fuel leak at the launch pad, but Glaze said issues with seals and filters had been resolved. The 98-meter-tall SLS rocket has flown only once before, during the uncrewed Artemis I mission in November 2022. The crew will ride in the Orion capsule perched atop the rocket, living in a space roughly the size of a minibus for the duration of the mission, which will conclude with a splashdown in the Pacific Ocean.\n\nArtemis II is designed as the critical precursor to Artemis III, which aims to land astronauts on the lunar surface — the first such landing in more than half a century. NASA has set a target of 2028 for that milestone, though the timeline remains under pressure. SpaceX holds the contract to build the Artemis III lunar lander using its Starship vehicle, but persistent delays have prompted NASA to request an accelerated plan from Elon Musk's company. The agency has also asked Jeff Bezos's Blue Origin to develop a competing fast-track proposal.\n\nThe urgency is geopolitical as well as scientific. China is steadily advancing toward its own crewed lunar landing by 2030, with both nations eyeing the Moon's south pole as the prime location for future bases. A successful Artemis II flight would represent a decisive step in reasserting American presence beyond low Earth orbit and set the stage for what promises to be a new era of lunar competition.",
+      "subheadline": "Artemis II will send four astronauts around the far side of the Moon on a 10-day voyage, the furthest humans have ever traveled in space",
+      "body": "NASA has confirmed a March 6 launch date for Artemis II, the mission that will send astronauts around the Moon for the first time since the Apollo era, following a successful fueling test of its massive Space Launch System rocket at Kennedy Space Center in Florida.\n\nThe 10-day mission will carry a crew of four — Americans Reid Wiseman, Victor Glover, and Christina Koch, along with Canadian astronaut Jeremy Hansen — around the far side of the Moon and back to Earth. At distances of 4,000 to 6,000 miles above the lunar surface, the voyage will mark the furthest humans have ever traveled into space. The crew entered quarantine on Friday in preparation for the flight, which will begin with a day orbiting Earth before a four-day transit to the Moon, a flyby of its far side, and a four-day return culminating in a Pacific Ocean splashdown.\n\nThe launch date was set after a second \"wet dress rehearsal\" on Thursday — a critical test in which the 322-foot SLS rocket is fully loaded with propellant and taken through a simulated countdown. An initial attempt in early February was cut short by a hydrogen fuel leak at the launch pad, but NASA officials said the issues with seals and filters had been resolved. \"Yesterday we were able to fully tank the SLS rocket within the planned timeline,\" said Lori Glaze, a senior NASA official, at a Friday press conference. \"The excitement for Artemis II is really, really starting to build.\"\n\nThe SLS has flown only once before, during the uncrewed Artemis I mission in November 2022. For Artemis II, its four crew members will ride inside the Orion capsule — a minibus-sized spacecraft mounted atop the rocket — where they will live, work, and sleep while dedicating several hours to studying and photographing the lunar surface. If successful, the mission will validate the hardware and procedures needed for Artemis III, which aims to land astronauts on the Moon's surface by 2028.\n\nThat timeline, however, remains ambitious. SpaceX, which holds the contract to build the Artemis III lunar lander using its Starship rocket, has faced development delays, prompting NASA to request an accelerated plan. The agency has also asked Jeff Bezos's Blue Origin to propose a faster alternative. The urgency is partly geopolitical: China is targeting a crewed lunar landing by 2030, and both nations have their sights set on the Moon's south pole as the prime location for future bases. More than half a century after Apollo 17 astronaut Harrison Schmitt last walked on the lunar surface in December 1972, the new space race is accelerating.",
       "category": "science",
       "importance": 9,
       "tags": [
         "NASA",
         "Artemis II",
         "Moon mission",
-        "space exploration",
-        "SLS rocket",
-        "SpaceX",
-        "lunar landing"
+        "Space Launch System",
+        "lunar exploration",
+        "SpaceX"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/041d/live/dd9135c0-0e80-11f1-801d-ed3cff6bf876.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y1g6wde3o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-20T19:17:32.293Z"
+      "publishedAt": "2026-02-20T19:32:28.501Z"
+    },
+    {
+      "id": "ps-1771615966194-r7uh",
+      "slug": "physics-guided-ai-framework-tackles-inverse-photonic-design",
+      "headline": "Physics-Guided AI Framework Tackles Inverse Photonic Design",
+      "subheadline": "MxDiffusion embeds Maxwell's equations directly into diffusion models to generate metasurface structures from target optical properties",
+      "body": "A research team spanning Georgia Tech, Oregon State University, and Idaho National Laboratory has introduced a novel framework called MxDiffusion that marries the generative power of diffusion models with the foundational physics of Maxwell's equations to solve one of photonics' most persistent challenges: designing nanostructures that produce specific optical behaviors.\n\nThe inverse design problem — starting from a desired optical response and working backward to determine the physical structure that produces it — has long vexed researchers because the mapping from properties to geometry is inherently non-unique and computationally expensive. Purely data-driven machine learning approaches have shown promise but often falter when asked to generalize beyond their training data or satisfy stringent physical constraints. MxDiffusion, detailed in a preprint posted to arXiv on February 18 by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, addresses this limitation through a two-stage generative strategy. The first diffusion model is trained with a loss function derived directly from Maxwell's equations, embedding electromagnetic physics into the generation process rather than treating it as a post-hoc check. The second stage then translates this physically consistent intermediate representation into final structural geometry with what the authors describe as significantly higher fidelity than conventional approaches.\n\nThe team validated MxDiffusion on two representative photonic design problems: gold nanostructures patterned on silica substrates, and a highly tunable bandpass filter based on phase-change materials. In both cases, the physics-aware framework outperformed a standard data-driven diffusion model benchmark. The advantages were most pronounced in precisely the scenarios where purely statistical methods tend to struggle — out-of-training-distribution design targets and tightly constrained resonance conditions, where physical consistency becomes critical.\n\nThe work sits at the intersection of two rapidly advancing fields: generative AI and nanophotonic engineering. Metasurfaces — ultrathin arrays of nanostructures that manipulate light in engineered ways — are increasingly important for applications ranging from compact optical sensors and augmented reality displays to advanced telecommunications and LiDAR systems. The ability to rapidly and reliably design these structures from desired specifications could substantially accelerate development timelines across these industries.\n\nThe authors position MxDiffusion as a general paradigm rather than a solution tailored to specific device types, suggesting the approach could extend to other domains where physical laws provide strong inductive priors for generative models. The framework represents a growing trend in scientific machine learning: rather than treating neural networks as black boxes trained on data alone, researchers are finding that encoding known physics into model architectures and training objectives yields more robust, generalizable, and trustworthy results.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "photonics",
+        "metasurfaces",
+        "diffusion models",
+        "inverse design",
+        "Maxwell's equations",
+        "nanophotonics",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1707581600235-e741bc6614c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8cGhvdG9uaWNzJTIwbWV0YXN1cmZhY2VzfGVufDB8MHx8fDE3NzE2MTA1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.16851",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-20T19:32:46.194Z"
+    },
+    {
+      "id": "ps-1771615980441-osj5",
+      "slug": "massive-medicare-study-links-air-pollution-directly-to-alzhe",
+      "headline": "Massive Medicare Study Links Air Pollution Directly to Alzheimer's Risk",
+      "subheadline": "Emory University research on 27.8 million older Americans suggests fine particulate pollution harms the brain directly, not just through related illnesses",
+      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the damage appears to stem primarily from pollution's direct assault on the brain rather than through intermediary chronic conditions, according to one of the largest studies ever conducted on the subject.\n\nPublished February 17 in the open-access journal PLOS Medicine, the research led by Yanling Deng of Emory University examined medical records from 27.8 million U.S. Medicare beneficiaries aged 65 and older over an 18-year period spanning 2000 to 2018. The team cross-referenced participants' air pollution exposure levels with new Alzheimer's diagnoses while controlling for the presence of other chronic health conditions, including hypertension, stroke, and depression — all of which are independently linked to dementia risk.\n\nThe central finding challenges a longstanding hypothesis that air pollution might elevate Alzheimer's risk indirectly, by first contributing to conditions like high blood pressure or depression that themselves raise the likelihood of cognitive decline. Instead, the Emory researchers found that neither hypertension nor depression meaningfully amplified the pollution-related Alzheimer's risk, pointing to a more direct neurological mechanism. One notable exception emerged: individuals with a history of stroke showed a somewhat stronger association between pollution exposure and Alzheimer's onset, suggesting that prior vascular damage to the brain may create heightened vulnerability to airborne particulate matter.\n\nAlzheimer's disease, the most prevalent form of dementia, currently affects an estimated 57 million people worldwide, a figure expected to climb sharply as global populations age. The study's scale — drawing on nearly two decades of data from tens of millions of older adults — lends considerable statistical power to its conclusions. The research was funded by the National Institutes of Health through grants supporting principal investigators Kyle Steenland and Yang Liu.\n\nThe implications extend beyond clinical neuroscience into public health policy. If fine particulate pollution directly degrades brain health in aging populations, then air quality regulations could serve as a meaningful lever for reducing dementia rates at the population level. The authors emphasized that their findings highlight \"an important intersection between environmental and vascular risk factors,\" underscoring the need for targeted protections for stroke survivors and other high-risk groups living in polluted environments. As regulatory debates over particulate matter standards continue in the United States and abroad, this research adds a powerful neurological dimension to the case for cleaner air.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "air pollution",
+        "PM2.5",
+        "dementia",
+        "public health",
+        "Medicare",
+        "Emory University"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-20T19:33:00.441Z"
+    },
+    {
+      "id": "ps-1771615994504-8ik8",
+      "slug": "ukrainian-sentenced-to-five-years-for-helping-north-koreans-",
+      "headline": "Ukrainian Sentenced to Five Years for Helping North Koreans Land US Tech Jobs",
+      "subheadline": "Oleksandr Didenko handled over 870 stolen American identities through a website that funneled wages back to Pyongyang's weapons program",
+      "body": "A federal court has sentenced 29-year-old Ukrainian national Oleksandr Didenko to five years in prison for operating an identity theft platform that enabled North Korean workers to fraudulently obtain employment at dozens of American companies, with earnings ultimately flowing back to fund Pyongyang's nuclear weapons program.\n\nDidenko, a Kyiv resident originally charged in 2024, ran a website called Upworksell that allowed overseas workers — including North Korean operatives — to purchase or rent stolen U.S. identities for the purpose of securing employment with American firms. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform. The FBI seized Upworksell in 2024 and redirected its traffic to government servers. Polish authorities subsequently arrested Didenko, who was extradited to the United States and pleaded guilty.\n\nBeyond the identity marketplace, prosecutors said Didenko also facilitated so-called \"laptop farms\" — rooms filled with open laptops hosted at residences in California, Tennessee, and Virginia. These setups allowed North Korean workers to remotely access machines as though they were physically located in the United States, maintaining the illusion of domestic employment. The arrangement is a hallmark of an increasingly sophisticated North Korean scheme that security researchers have labeled a \"triple threat\": the operatives violate U.S. sanctions, steal sensitive corporate data, and later extort victim companies to prevent disclosure of proprietary information.\n\nThe conviction is the latest in a growing wave of prosecutions targeting individuals who facilitate North Korea's IT worker infiltration campaigns. CrowdStrike reported last year that it had observed a sharp increase in North Korean operatives embedding themselves at Western companies, typically in remote software development and engineering roles. The regime relies on such schemes to generate revenue while locked out of the global financial system by international sanctions. North Korean operatives have also been known to impersonate recruiters and venture capitalists to compromise high-profile targets, particularly in the cryptocurrency sector.\n\nThe case underscores the expanding intersection of cybercrime, sanctions evasion, and national security, as U.S. law enforcement intensifies efforts to dismantle the networks that allow a sanctioned state to quietly extract millions from the American technology sector.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "North Korea",
+        "cybersecurity",
+        "identity theft",
+        "sanctions evasion",
+        "FBI",
+        "IT workers"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
+      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-20T19:33:14.504Z"
+    },
+    {
+      "id": "ps-1771616009979-h8l1",
+      "slug": "trump-announces-10-global-tariff-hours-after-supreme-court-s",
+      "headline": "Trump Announces 10% Global Tariff Hours After Supreme Court Strikes Down Previous Levies",
+      "subheadline": "President invokes Section 122 authority to reimpose sweeping trade barriers, declares all national security tariffs remain in effect",
+      "body": "President Donald Trump moved swiftly on Friday to reimpose broad trade barriers on imports, announcing a 10% tariff on goods from all countries just hours after the U.S. Supreme Court struck down his administration's earlier global tariff regime.\n\nSpeaking at a White House press conference, Trump said the new levy — imposed under Section 122 of the Trade Act — would apply on top of tariffs already in place, representing a significant escalation in the administration's trade policy. He simultaneously declared that all national security tariffs authorized under Section 232, as well as existing Section 301 tariffs targeting specific countries, remain in full force and effect.\n\nThe announcement marks a dramatic legal and economic pivot. The Supreme Court's ruling earlier Friday had appeared to deal a decisive blow to the administration's sweeping tariff agenda, invalidating the legal basis under which the earlier global duties had been imposed. By invoking Section 122 — a provision that grants the president authority to impose temporary tariffs of up to 15% for 150 days to address large and serious balance-of-payments deficits — Trump is effectively daring legal challengers to mount a fresh round of litigation while keeping trade barriers intact in the interim.\n\nThe strategy signals that the administration has no intention of retreating from its protectionist posture despite judicial setbacks. Section 122 has rarely been invoked in modern trade policy and could face its own constitutional challenges, but it provides a near-term mechanism to maintain pressure on trading partners. Combined with the reaffirmation of Section 232 tariffs on metals and other goods deemed critical to national security, and Section 301 tariffs originally aimed at China over intellectual property practices, the cumulative tariff burden on importers remains substantial.\n\nMarkets and trade partners will now be watching closely for the specific implementation timeline and whether the administration views the Section 122 authority as a bridge to more permanent measures. The move raises immediate questions about consumer prices, supply chain planning, and the likelihood of retaliatory action from major trading partners already strained by years of escalating U.S. trade restrictions.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "tariffs",
+        "Trump",
+        "Supreme Court",
+        "trade policy",
+        "Section 122",
+        "global trade"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1740393068414-d1fc73159b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHx0YXJpZmZzJTIwVHJ1bXB8ZW58MHwwfHx8MTc3MTYxNjAwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/trump-to-impose-10-global-tariff-after-scotus-ruling-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-20T19:33:29.979Z"
+    },
+    {
+      "id": "ps-1771616025115-yrp7",
+      "slug": "supreme-court-strikes-down-trump-tariffs-in-6-3-ruling",
+      "headline": "Supreme Court Strikes Down Trump Tariffs in 6-3 Ruling",
+      "subheadline": "Bitcoin briefly surged past $68,000 before retreating, while stocks posted more durable gains on the landmark decision",
+      "body": "The U.S. Supreme Court on Friday ruled 6-3 that President Donald Trump's sweeping tariff regime exceeded presidential authority, delivering a landmark rebuke to the administration's trade policy and sending immediate ripples through financial markets.\n\nThe court found that no president had ever invoked the underlying statute to impose tariffs \"of this magnitude and scope,\" writing that the \"lack of historical precedent\" combined with the \"breadth of authority\" claimed by the president suggested the tariffs extended beyond the executive's \"legitimate reach.\" The decision effectively dismantles a trade framework that has weighed on U.S. economic growth for months.\n\nMarket reactions diverged sharply by asset class. Bitcoin jumped roughly 2% to above $68,000 within moments of the ruling, but the rally evaporated almost immediately, with the cryptocurrency sliding back below $67,000 — a pattern that has become frustratingly familiar to crypto traders, where even modest gains are met with swift selling pressure. Equities proved more resilient, with the Nasdaq Composite climbing 0.6% to a session high as investors appeared to view the removal of tariffs as a more straightforward positive for corporate earnings and trade flows.\n\nThe ruling landed on a day already shadowed by troubling economic data. The Commerce Department reported that U.S. GDP grew just 1.4% in the fourth quarter of 2025, contributing to a full-year growth rate of 2.2% — the weakest annual expansion since the pandemic year of 2020. At the same time, core personal consumption expenditure prices rose 3% year-over-year, exceeding the expected 2.9% and accelerating from the prior reading of 2.8%. The combination of slowing growth and sticky inflation — the hallmarks of stagflation — complicates the Federal Reserve's path forward. Art Hogan, chief market strategist at B. Riley Wealth, characterized the data as delivering \"a messy message\" that \"confirms the current Fed bias to take their time with monetary policy.\"\n\nThe Supreme Court's decision now raises urgent questions about what comes next for U.S. trade policy. While the ruling removes a major source of economic uncertainty, the stagflationary backdrop suggests the damage from months of elevated tariffs may linger. For crypto markets specifically, bitcoin's inability to sustain even a tariff-relief rally underscores the persistent selling pressure that has dogged digital assets in 2026, with the leading cryptocurrency logging its worst first 50 days of any year on record.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "Supreme Court",
+        "Trump tariffs",
+        "bitcoin",
+        "stagflation",
+        "US economy",
+        "trade policy"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-20T19:33:45.115Z"
     },
     {
       "id": "ps-1771615067827-0xzj",
@@ -64,113 +170,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010825.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-20T19:18:03.468Z"
-    },
-    {
-      "id": "ps-1771615097804-csov",
-      "slug": "ukrainian-sentenced-to-five-years-for-helping-north-koreans-",
-      "headline": "Ukrainian Sentenced to Five Years for Helping North Koreans Land U.S. Tech Jobs",
-      "subheadline": "Oleksandr Didenko handled over 870 stolen American identities through a website that enabled Pyongyang-linked workers to infiltrate dozens of companies",
-      "body": "A federal court has sentenced Oleksandr Didenko, a 29-year-old Ukrainian national, to five years in prison for operating an identity theft ring that enabled North Korean workers to fraudulently secure employment at dozens of American companies — funneling wages back to Pyongyang's sanctioned nuclear weapons program.\n\nDidenko, a Kyiv resident, ran a website called Upworksell that sold and rented stolen U.S. identities to overseas workers, including North Koreans seeking remote technical positions at American firms. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform before the FBI seized it in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States, where he pleaded guilty to the charges originally brought in 2024.\n\nBeyond identity brokering, Didenko also orchestrated so-called \"laptop farms\" — paying individuals in California, Tennessee, and Virginia to host racks of open laptops in their homes. The setup allowed North Korean operatives to remotely access the machines, making it appear as though they were physically working within the United States. The arrangement is a hallmark of an increasingly sophisticated North Korean IT worker scheme that security researchers have flagged as a growing national security concern.\n\nCybersecurity firm CrowdStrike reported last year that it has observed a sharp increase in North Korean operatives infiltrating Western companies, typically posing as remote software developers and engineers. Security researchers have characterized these workers as a \"triple threat\": they violate U.S. sanctions, steal sensitive corporate data, and later extort victim companies by threatening to release proprietary information. The schemes represent one of several revenue streams the North Korean regime relies on to circumvent international financial sanctions, alongside crypto theft and social engineering campaigns targeting high-net-worth individuals.\n\nThe sentencing is the latest in a series of convictions tied to Pyongyang's IT worker operations, which U.S. law enforcement has made an enforcement priority. The case underscores the scale of the challenge facing American companies, particularly in the tech sector, where remote hiring practices can be exploited by adversarial state actors operating through intermediaries spread across multiple countries.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "North Korea",
-        "cybersecurity",
-        "identity theft",
-        "sanctions",
-        "FBI",
-        "remote work fraud"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
-      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-20T19:18:17.804Z"
-    },
-    {
-      "id": "ps-1771615113517-9tc9",
-      "slug": "trump-announces-10-global-tariff-hours-after-supreme-court-s",
-      "headline": "Trump Announces 10% Global Tariff Hours After Supreme Court Strikes Down Prior Levies",
-      "subheadline": "President invokes Section 122 authority to reimpose sweeping trade barriers, reaffirms national security and Section 301 tariffs",
-      "body": "President Donald Trump moved swiftly on Friday to reimpose a 10% tariff on all imports into the United States, invoking a different legal authority just hours after the Supreme Court struck down his administration's previous global tariff regime. The new levy, imposed under Section 122 of the Trade Act of 1974, will apply on top of existing duties already in force.\n\nSpeaking at a White House press conference, Trump declared that all national security tariffs imposed under Section 232 — which covers steel, aluminum, and other strategically sensitive goods — as well as existing Section 301 tariffs targeting Chinese trade practices, remain in full force and effect. The announcement signals the administration's determination to maintain an aggressive trade posture despite the high court's rebuke.\n\nThe Supreme Court's ruling earlier Friday had invalidated the broad global tariffs the Trump administration had previously erected, dealing what many trade analysts viewed as a significant legal blow to the president's trade agenda. But by pivoting to Section 122 — a provision that grants the president authority to impose temporary tariffs of up to 15% for 150 days to address large and serious balance-of-payments deficits — the administration is attempting to preserve much of its tariff architecture under a separate statutory framework.\n\nThe legal durability of the new approach remains uncertain. Section 122 has rarely been invoked and carries built-in time constraints that could limit its effectiveness as a long-term trade tool. Legal scholars and trade attorneys are expected to scrutinize whether current economic conditions meet the statute's balance-of-payments threshold, potentially teeing up another round of litigation. The provision was originally designed as an emergency measure, not a foundation for sustained trade policy.\n\nMarkets and trading partners now face the prospect of continued tariff uncertainty. The 10% blanket duty, layered on top of the Section 232 and Section 301 tariffs that survived the court's ruling, means effective rates on many imported goods will remain elevated. For major U.S. trading partners — including the European Union, Japan, and South Korea — the rapid reimposition underscores that the administration views tariffs as a central pillar of economic policy, regardless of which legal mechanism underpins them.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "tariffs",
-        "Supreme Court",
-        "Trump",
-        "trade policy",
-        "Section 122",
-        "global trade"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1767471615996-0e452267d949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHx0YXJpZmZzJTIwU3VwcmVtZSUyMENvdXJ0fGVufDB8MHx8fDE3NzE2MTUxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/trump-to-impose-10-global-tariff-after-scotus-ruling-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-20T19:18:33.517Z"
-    },
-    {
-      "id": "ps-1771615128428-jxox",
-      "slug": "bitcoin-briefly-surges-past-68k-after-supreme-court-voids-tr",
-      "headline": "Bitcoin Briefly Surges Past $68K After Supreme Court Voids Trump Tariffs",
-      "subheadline": "Crypto's fleeting rally contrasts with sustained stock gains as stagflationary economic data clouds the outlook",
-      "body": "Bitcoin spiked roughly 2% above $68,000 on Friday after the U.S. Supreme Court struck down President Donald Trump's tariff regime in a landmark 6-3 ruling, but the cryptocurrency surrendered those gains within minutes, settling back near $67,000 as sellers once again overwhelmed any hint of upside momentum.\n\nThe high court's decision declared that no president had ever invoked the underlying statute to impose tariffs of such \"magnitude and scope,\" concluding that Trump's trade levies extended beyond the executive's \"legitimate reach.\" The ruling sent equities higher in a more durable fashion — the Nasdaq climbed 0.6% to a session high — while Bitcoin's rapid round-trip underscored a persistent pattern in crypto markets, where even modest rallies are met with immediate selling pressure.\n\nCompounding the uncertain macro picture, a batch of economic data released earlier Friday painted a stagflationary portrait of the U.S. economy. The Commerce Department reported that GDP grew just 1.4% in the fourth quarter of 2025, while core personal consumption expenditure prices rose 3% year-over-year, above the consensus forecast of 2.9% and the prior reading of 2.8%. On an annual basis, the economy expanded 2.2% in 2025, the weakest pace since the pandemic year of 2020.\n\n\"Today's economic data delivered a messy message of both hotter than expected inflation, and slower than anticipated growth,\" said Art Hogan, chief market strategist at B. Riley Wealth. He noted that the mixed signals reinforce the Federal Reserve's inclination to proceed cautiously with any changes to monetary policy, a stance that has weighed on risk assets including crypto for much of 2026.\n\nBitcoin's inability to hold gains on what would ordinarily be considered a bullish catalyst — the removal of tariffs widely blamed for stoking inflation and dampening growth — highlights the fragile sentiment gripping digital asset markets. The leading cryptocurrency has logged its worst performance in the first 50 days of any year on record, and traders appear reluctant to build positions amid persistent macroeconomic headwinds and the Fed's higher-for-longer interest rate posture. At last check, Bitcoin was trading near $67,733, up less than 1% on the day.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Supreme Court",
-        "Trump tariffs",
-        "stagflation",
-        "crypto markets",
-        "Federal Reserve"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-20T19:18:48.428Z"
-    },
-    {
-      "id": "ps-1771614164761-wfz5",
-      "slug": "new-ai-framework-embeds-maxwell-s-equations-into-diffusion-m",
-      "headline": "New AI Framework Embeds Maxwell's Equations Into Diffusion Models for Photonic Design",
-      "subheadline": "MxDiffusion outperforms purely data-driven approaches by encoding electromagnetic physics directly into the generative process",
-      "body": "A research team spanning Georgia Tech, Oregon State University, and Idaho National Laboratory has unveiled MxDiffusion, a generative AI framework that integrates Maxwell's equations directly into diffusion models to design photonic metasurfaces — marking a significant step toward physics-aware machine learning in nanophotonics.\n\nThe framework, detailed in a preprint posted to arXiv on February 18, tackles one of the field's persistent challenges: inverse design, the problem of working backward from desired optical properties to determine the physical structure that produces them. Traditional data-driven AI models can generate plausible designs but often falter when targets fall outside their training data or involve tightly constrained resonance conditions. MxDiffusion addresses this by splitting the generative process into two stages. The first diffusion model is trained with a loss function derived from Maxwell's equations, embedding fundamental electromagnetic constraints into the generation pipeline. The second model then translates this physically consistent intermediate representation into a final structural geometry, achieving what the authors describe as significantly higher fidelity than conventional approaches.\n\nSujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai validated their framework on two representative test cases: gold nanostructures patterned on silica substrates and a tunable bandpass filter based on phase-change materials. In both scenarios, MxDiffusion consistently outperformed a purely data-driven diffusion model benchmark. The performance gap was most pronounced for out-of-distribution design targets — precisely the regime where data-driven methods tend to break down and where physics-informed constraints provide the greatest advantage.\n\nThe work reflects a broader trend in computational physics and engineering toward hybrid approaches that combine the flexibility of modern generative AI with the rigor of established physical laws. Photonic metasurfaces — engineered nanostructures that manipulate light in ways natural materials cannot — are increasingly important for applications ranging from telecommunications filters and sensors to augmented reality displays and LiDAR systems. The ability to rapidly and reliably design these structures from target specifications could accelerate development timelines across multiple industries.\n\nThe authors frame MxDiffusion as a general paradigm rather than a solution tailored to specific devices, suggesting the two-stage physics-guided strategy could extend to other domains where physical laws are well characterized but inverse design remains computationally expensive. Whether the approach scales to more complex, multi-objective design problems — and how it compares against other emerging physics-informed neural network architectures — will likely be key questions as the field evaluates its practical impact.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "photonics",
-        "metasurfaces",
-        "diffusion models",
-        "inverse design",
-        "Maxwell's equations",
-        "physics-informed AI",
-        "nanophotonics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1622548283559-4dbd130508e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.16851",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-20T19:02:44.761Z"
-    },
-    {
-      "id": "ps-1771614179364-09e2",
-      "slug": "massive-study-links-air-pollution-directly-to-alzheimer-s-ri",
-      "headline": "Massive Study Links Air Pollution Directly to Alzheimer's Risk",
-      "subheadline": "Analysis of 27.8 million Medicare beneficiaries suggests fine particulate matter harms the brain independently of other chronic diseases",
-      "body": "Long-term exposure to fine particulate air pollution is associated with a meaningfully higher risk of developing Alzheimer's disease — and the mechanism appears to involve direct damage to the brain rather than indirect pathways through other chronic conditions, according to one of the largest studies ever conducted on the subject.\n\nPublished February 17 in the open-access journal PLOS Medicine, the research drew on medical records from more than 27.8 million U.S. Medicare beneficiaries aged 65 and older, tracked between 2000 and 2018. Led by Yanling Deng of Emory University, the team cross-referenced participants' pollution exposure levels with new Alzheimer's diagnoses while controlling for the presence of conditions commonly associated with dementia, including hypertension, stroke, and depression. The central finding: higher pollution exposure corresponded to greater Alzheimer's incidence, and that relationship held even after accounting for these comorbidities — suggesting that airborne fine particles are harming the brain on their own terms.\n\nThe study also identified a notable vulnerability among stroke survivors, who showed a somewhat stronger association between pollution exposure and Alzheimer's onset. That finding points to a troubling intersection of environmental and vascular risk factors, where individuals with prior cerebrovascular damage may be less equipped to withstand the neurological toll of polluted air. Hypertension and depression, by contrast, did not appear to amplify the pollution-Alzheimer's connection in any meaningful way.\n\nAlzheimer's disease currently affects an estimated 57 million people worldwide and remains the most prevalent form of dementia. While scientists have long flagged air pollution — particularly fine particulate matter known as PM2.5 — as a risk factor, the question of whether pollution acts on the brain directly or primarily through intermediary conditions had remained unresolved. The Emory team's analysis, funded by the National Institutes of Health, offers some of the strongest evidence to date that the direct pathway dominates.\n\nThe implications extend beyond clinical neuroscience into public health policy. If fine particulate pollution is independently driving Alzheimer's risk in aging populations, then stricter air quality standards could serve as a frontline strategy for reducing dementia rates — a prospect that carries particular urgency as the global population ages and air pollution remains stubbornly high in many regions. The authors emphasized that their findings \"highlight an important intersection between environmental and vascular risk factors\" and underscore the cognitive stakes of the air people breathe every day.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "air pollution",
-        "PM2.5",
-        "dementia",
-        "public health",
-        "Medicare",
-        "Emory University"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-20T19:02:59.364Z"
     },
     {
       "id": "ps-1771614223694-n35u",
