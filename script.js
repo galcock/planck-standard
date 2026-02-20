@@ -350,3 +350,24 @@ setInterval(async () => {
     await loadArticles();
     if (!currentArticle) renderAll();
 }, 5 * 60 * 1000);
+
+// Footer category links
+function filterCategory(cat) {
+    currentCategory = cat;
+    window.scrollTo(0, 0);
+    
+    // Update nav
+    document.querySelectorAll('.nav-link').forEach(l => {
+        l.classList.toggle('active', l.dataset.category === cat);
+    });
+    
+    // Update mobile
+    const select = document.getElementById('mobileCategory');
+    if (select) select.value = cat;
+    
+    renderAll();
+}
+
+// Make it global
+window.filterCategory = filterCategory;
+window.openArticle = openArticle;

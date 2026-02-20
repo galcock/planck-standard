@@ -5,34 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Planck Standard | The Measure of What Matters</title>
-    <meta name="title" content="Planck Standard | The Measure of What Matters">
-    <meta name="description" content="Breaking news and deep analysis in physics, science, technology, business, and markets. Powered by AI, curated for humans.">
+    <title>Planck Standard | Breaking News, Tech, Business & Markets</title>
+    <meta name="title" content="Planck Standard | Breaking News, Tech, Business & Markets">
+    <meta name="description" content="Breaking news and in-depth coverage of technology, business, markets, and science. Premium journalism, AI-curated for what matters.">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://planckstandard.com">
-    <meta property="og:title" content="Planck Standard">
-    <meta property="og:description" content="AI-powered news for the intellectually curious.">
+    <meta property="og:title" content="Planck Standard | The Measure of What Matters">
+    <meta property="og:description" content="Breaking news and in-depth coverage of technology, business, markets, and science.">
     <meta property="og:image" content="https://planckstandard.com/og-image.png">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://planckstandard.com">
-    <meta property="twitter:title" content="Planck Standard">
-    <meta property="twitter:description" content="AI-powered news for the intellectually curious.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://planckstandard.com">
+    <meta name="twitter:title" content="Planck Standard">
+    <meta name="twitter:description" content="Breaking news and in-depth coverage. The measure of what matters.">
 
-    <!-- Favicons - PNG for universal support -->
+    <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#0a0a0f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -40,9 +41,9 @@
 <body class="dark-mode">
     <!-- Breaking News Ticker -->
     <div class="breaking-ticker" id="breakingTicker">
-        <div class="ticker-label">BREAKING</div>
+        <div class="ticker-label">LIVE</div>
         <div class="ticker-content">
-            <span class="ticker-text">Loading latest news...</span>
+            <span class="ticker-text">Loading latest headlines...</span>
         </div>
     </div>
 
@@ -50,7 +51,7 @@
     <header class="header">
         <div class="container">
             <div class="header-content">
-                <a href="#" class="logo" onclick="window.location.hash=''; location.reload();">
+                <a href="/" class="logo" onclick="event.preventDefault(); window.location.hash=''; window.location.reload();">
                     <h1>PLANCK STANDARD</h1>
                     <p class="tagline">The measure of what matters</p>
                 </a>
@@ -63,29 +64,27 @@
                     <a href="#" class="nav-link" data-category="business">Business</a>
                     <a href="#" class="nav-link" data-category="markets">Markets</a>
                     <a href="#" class="nav-link" data-category="science">Science</a>
-                    <a href="#" class="nav-link" data-category="physics">Physics</a>
                 </nav>
                 
                 <div class="header-actions">
                     <!-- Mobile Category Dropdown -->
                     <div class="mobile-category-wrapper">
-                        <select id="mobileCategory" class="mobile-category-select">
-                            <option value="all">All</option>
+                        <select id="mobileCategory" class="mobile-category-select" aria-label="Select category">
+                            <option value="all">All News</option>
                             <option value="breaking">Breaking</option>
                             <option value="tech">Tech</option>
                             <option value="business">Business</option>
                             <option value="markets">Markets</option>
                             <option value="science">Science</option>
-                            <option value="physics">Physics</option>
                         </select>
                     </div>
                     
-                    <button class="search-btn" aria-label="Search">
+                    <button class="search-btn" aria-label="Search articles">
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
-                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                         <svg class="sun-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg>
@@ -106,31 +105,28 @@
                 <section class="articles-section">
                     <!-- Hero Article -->
                     <article class="hero-article" id="heroArticle">
-                        <div class="loading-placeholder">Loading articles...</div>
+                        <div class="loading-state">
+                            <div class="loading-spinner"></div>
+                            <p>Loading headlines...</p>
+                        </div>
                     </article>
 
                     <!-- Articles Grid -->
-                    <div class="articles-grid" id="articlesGrid">
-                        <!-- Populated by JavaScript -->
-                    </div>
+                    <div class="articles-grid" id="articlesGrid"></div>
                 </section>
 
                 <!-- Sidebar -->
                 <aside class="sidebar">
-                    <!-- Trending -->
                     <div class="sidebar-section">
                         <h3 class="sidebar-title">Trending Now</h3>
-                        <div class="trending-list" id="trendingList">
-                            <!-- Populated by JavaScript -->
-                        </div>
+                        <div class="trending-list" id="trendingList"></div>
                     </div>
 
-                    <!-- Newsletter -->
                     <div class="sidebar-section newsletter-section">
                         <h3 class="sidebar-title">Stay Informed</h3>
                         <p class="newsletter-desc">Get the day's most important stories delivered to your inbox.</p>
-                        <form class="newsletter-form">
-                            <input type="email" placeholder="your@email.com" required>
+                        <form class="newsletter-form" id="newsletterForm">
+                            <input type="email" placeholder="your@email.com" required aria-label="Email address">
                             <button type="submit">Subscribe</button>
                         </form>
                     </div>
@@ -145,23 +141,24 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3>PLANCK STANDARD</h3>
-                    <p>Powered by AI. Curated for humans.</p>
+                    <p>Premium news coverage. AI-curated for humans.</p>
                 </div>
                 
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4>Categories</h4>
-                        <a href="#" data-category="physics">Physics</a>
-                        <a href="#" data-category="science">Science</a>
-                        <a href="#" data-category="tech">Tech</a>
-                        <a href="#" data-category="business">Business</a>
-                        <a href="#" data-category="markets">Markets</a>
+                        <h4>Sections</h4>
+                        <a href="#" onclick="filterCategory('breaking')">Breaking News</a>
+                        <a href="#" onclick="filterCategory('tech')">Technology</a>
+                        <a href="#" onclick="filterCategory('business')">Business</a>
+                        <a href="#" onclick="filterCategory('markets')">Markets</a>
+                        <a href="#" onclick="filterCategory('science')">Science</a>
                     </div>
                     <div class="footer-column">
-                        <h4>About</h4>
-                        <a href="#">Our Mission</a>
-                        <a href="#">How It Works</a>
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
                         <a href="#">Contact</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +169,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
     <script src="script.js"></script>
 </body>
 </html>
