@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Planck Standard | AI-Powered News for Physics, Science, Tech, Business & Markets</title>
+    <meta name="title" content="Planck Standard | AI-Powered News for Physics, Science, Tech, Business & Markets">
+    <meta name="description" content="The measure of what matters. Breaking news and deep analysis in physics, science, technology, business, and markets. Powered by AI, curated for humans.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://planckstandard.com">
+    <meta property="og:title" content="Planck Standard">
+    <meta property="og:description" content="AI-powered news for the intellectually curious.">
+    <meta property="og:image" content="https://planckstandard.com/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://planckstandard.com">
+    <meta property="twitter:title" content="Planck Standard">
+    <meta property="twitter:description" content="AI-powered news for the intellectually curious.">
+    <meta property="twitter:image" content="https://planckstandard.com/og-image.png">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/svg+xml" href="favicon-light.svg" media="(prefers-color-scheme: light)">
+    <link rel="apple-touch-icon" href="apple-touch-icon.svg">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "Planck Standard",
+      "url": "https://planckstandard.com",
+      "logo": "https://planckstandard.com/logo.svg",
+      "description": "AI-powered news for physics, science, technology, business, and markets",
+      "sameAs": [
+        "https://twitter.com/planckstandard",
+        "https://linkedin.com/company/planckstandard"
+      ]
+    }
+    </script>
+</head>
+<body class="dark-mode">
+    <!-- Breaking News Ticker -->
+    <div class="breaking-ticker" id="breakingTicker">
+        <div class="ticker-label">BREAKING</div>
+        <div class="ticker-content">
+            <span class="ticker-text"></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>PLANCK STANDARD</h1>
+                    <p class="tagline">The measure of what matters</p>
+                </div>
+                
+                <nav class="nav-main">
+                    <a href="#" class="nav-link active" data-category="all">All</a>
+                    <a href="#" class="nav-link" data-category="physics">Physics</a>
+                    <a href="#" class="nav-link" data-category="science">Science</a>
+                    <a href="#" class="nav-link" data-category="tech">Tech</a>
+                    <a href="#" class="nav-link" data-category="business">Business</a>
+                    <a href="#" class="nav-link" data-category="markets">Markets</a>
+                    <a href="#" class="nav-link" data-category="breaking">Breaking</a>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="search-btn" aria-label="Search">
+                        <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <svg class="sun-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        <svg class="moon-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Articles Section -->
+                <section class="articles-section">
+                    <!-- Hero Article -->
+                    <article class="hero-article" id="heroArticle">
+                        <!-- Populated by JavaScript -->
+                    </article>
+
+                    <!-- Articles Grid -->
+                    <div class="articles-grid" id="articlesGrid">
+                        <!-- Populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <!-- Trending -->
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title">Trending Now</h3>
+                        <div class="trending-list" id="trendingList">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Markets Snapshot -->
+                    <div class="sidebar-section">
+                        <h3 class="sidebar-title">Markets Snapshot</h3>
+                        <div class="markets-widget">
+                            <div class="market-item">
+                                <span class="market-label">S&P 500</span>
+                                <span class="market-value up">5,847.21 <small>+0.8%</small></span>
+                            </div>
+                            <div class="market-item">
+                                <span class="market-label">NASDAQ</span>
+                                <span class="market-value up">18,456.33 <small>+1.2%</small></span>
+                            </div>
+                            <div class="market-item">
+                                <span class="market-label">Bitcoin</span>
+                                <span class="market-value up">$252,340 <small>+5.3%</small></span>
+                            </div>
+                            <div class="market-item">
+                                <span class="market-label">Gold</span>
+                                <span class="market-value down">$2,023 <small>-0.3%</small></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sidebar-section newsletter-section">
+                        <h3 class="sidebar-title">Stay Informed</h3>
+                        <p class="newsletter-desc">Get the day's most important stories delivered to your inbox.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="your@email.com" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>PLANCK STANDARD</h3>
+                    <p>Powered by AI. Curated for humans.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow</h4>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">RSS</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Planck Standard. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
