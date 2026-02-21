@@ -1,27 +1,133 @@
 {
-  "lastUpdated": "2026-02-21T01:33:10.671Z",
+  "lastUpdated": "2026-02-21T01:48:10.193Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771637518003-hzw5",
-      "slug": "trump-signals-possible-limited-military-strike-against-iran",
-      "headline": "Trump Signals Possible Limited Military Strike Against Iran",
-      "subheadline": "President raises prospect of force as Tehran says it will present draft nuclear agreement within days",
-      "body": "President Donald Trump said Friday he is weighing a limited military strike against Iran, escalating pressure on Tehran even as both sides report progress in diplomatic negotiations over Iran's nuclear program.\n\nThe remarks came just a day after Trump told reporters the world would learn \"over the next, probably, 10 days\" whether a nuclear deal would materialize or the United States would resort to military action. When pressed Thursday for specifics on potential operations, Trump was characteristically evasive: \"We're going to make a deal or get a deal one way or the other.\" The comments follow weeks of significant U.S. military buildup in the region, including the deployment of the USS Gerald R. Ford — the world's largest warship — along with the USS Abraham Lincoln carrier strike group, additional destroyers, combat ships, and fighter jets.\n\nThe diplomatic track, however, remains active. Iranian Foreign Minister Abbas Araghchi said Friday that Tehran is preparing \"a draft of a possible agreement\" to be delivered to U.S. Special Envoy Steve Witkoff within days. The two sides have already held talks in Geneva, with both describing the discussions as productive. The United States and its European allies have long suspected Iran of advancing toward nuclear weapons capability, a charge Tehran has consistently denied.\n\nTensions are visible on both sides. Satellite imagery shows Iran reinforcing military facilities, and Supreme Leader Ayatollah Ali Khamenei has posted social media messages directly addressing U.S. naval deployments near Iranian waters. \"The US President constantly says that the US has sent a warship toward Iran. Of course, a warship is a dangerous piece of military hardware,\" Khamenei wrote. U.S. officials have reportedly presented Trump with a broad spectrum of military options, including scenarios for a campaign lasting several weeks, though no precise objective has been publicly defined.\n\nAnalysts note that Trump has previously used public deadline-setting as a strategic feint. Last July, during Operation Midnight Hammer — a U.S. strike on Iranian nuclear facilities — White House officials were still publicly discussing the possibility of successful negotiations the day before missiles hit their targets. A protracted military engagement would carry domestic political risks for the administration. Polls show rising disapproval of Trump's handling of the economy and immigration, and an extended conflict could alienate elements of his base that were drawn to his promises of avoiding costly foreign entanglements, distinguishing any new operation from the single-day strike last year or the swift capture of Venezuelan leader Nicolás Maduro in January.",
+      "id": "ps-1771638418486-vhat",
+      "slug": "trump-says-he-is-weighing-limited-military-strike-on-iran",
+      "headline": "Trump Says He Is Weighing Limited Military Strike on Iran",
+      "subheadline": "The remarks come as Tehran's foreign minister says a draft nuclear agreement could be delivered to Washington within days",
+      "body": "President Donald Trump said Friday he is considering a limited military strike against Iran, ratcheting up pressure on Tehran as nuclear negotiations enter what both sides describe as a critical phase. The statement, made in response to a reporter's question at the White House, follows days of escalating rhetoric and a significant buildup of American naval power near the Persian Gulf.\n\nThe threat of force comes even as diplomatic channels remain active. Iran's Foreign Minister Abbas Araghchi said Friday that Tehran is preparing a draft agreement proposal to be delivered to U.S. Special Envoy Steve Witkoff within days. The two sides have been meeting in Geneva, Switzerland, with officials on both sides characterizing the talks as productive. Washington and its European allies suspect Iran is advancing toward nuclear weapons capability — an allegation Tehran has consistently denied.\n\nThe Pentagon has been steadily reinforcing its regional posture. The USS Gerald R. Ford, the world's largest warship, appears to be heading toward the area, while the USS Abraham Lincoln carrier strike group is also deploying alongside additional destroyers, combat ships, and fighter jets. Satellite imagery has revealed that Iran, too, has been fortifying military installations. Supreme Leader Ayatollah Ali Khamenei has posted messages on social media warning U.S. forces, calling warships \"dangerous\" military hardware.\n\nTrump said Thursday the world would learn \"over the next, probably, 10 days\" whether a deal would materialize or the U.S. would resort to military action, though he declined to specify what a strike's objectives would be. U.S. officials have reportedly presented him with a broad spectrum of options, including scenarios for a campaign lasting several weeks. Trump has a track record of using public deadlines as misdirection — notably ahead of last July's Operation Midnight Hammer, when American forces struck Iranian nuclear facilities even as White House officials were still publicly discussing the prospect of successful negotiations.\n\nA prolonged military confrontation with Iran would carry domestic political risks for the administration. Polls show growing disapproval of Trump's handling of immigration and the economy, and a multi-week conflict could alienate segments of his MAGA base that were drawn to his promises of avoiding foreign entanglements. Unlike the single-day strike last summer or the swift operation to capture Venezuelan leader Nicolás Maduro in January, an extended campaign against Iran would test the limits of public patience at a moment when the administration is already contending with the fallout from a Supreme Court ruling striking down its sweeping tariff regime.",
       "category": "breaking",
       "importance": 9,
       "tags": [
+        "Trump",
         "Iran",
-        "Donald Trump",
         "military strike",
         "nuclear negotiations",
         "Middle East",
-        "US foreign policy"
+        "U.S. foreign policy"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1a63/live/ac7525e0-0ea4-11f1-8fa9-a78fde43271a.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-21T01:31:58.003Z"
+      "publishedAt": "2026-02-21T01:46:58.486Z"
+    },
+    {
+      "id": "ps-1771638434589-3524",
+      "slug": "physics-guided-ai-framework-cracks-inverse-photonic-design-p",
+      "headline": "Physics-Guided AI Framework Cracks Inverse Photonic Design Problem",
+      "subheadline": "MxDiffusion embeds Maxwell's equations directly into a diffusion model, outperforming purely data-driven approaches for metasurface engineering",
+      "body": "A research team spanning Georgia Tech, Oregon State University, and Idaho National Laboratory has introduced a novel generative AI framework that bakes the fundamental laws of electromagnetism directly into a diffusion model, yielding markedly more accurate designs for photonic metasurfaces — the nanoscale structures that manipulate light in ways natural materials cannot.\n\nThe framework, called MxDiffusion, tackles one of the thorniest challenges in nanophotonics: the inverse design problem. Given a desired set of optical properties — a specific spectral response or resonance condition, for instance — the system works backward to generate a physical nanostructure that would produce exactly those properties. While purely data-driven machine learning approaches have made strides on this front, they often falter when asked to design structures outside their training distributions or to hit tightly constrained resonance targets. MxDiffusion addresses this limitation through a two-stage architecture. The first diffusion model is trained using a loss function derived explicitly from Maxwell's equations, embedding the physics of electromagnetic wave propagation into the generative process itself. The second model then translates the physically consistent intermediate representation into a final structural geometry with what the authors describe as significantly higher fidelity.\n\nSujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai validated MxDiffusion on two representative test cases: gold nanostructures patterned on silica substrates and a tunable bandpass filter based on phase-change materials. In both scenarios, the physics-aware framework consistently outperformed a conventional data-driven diffusion model benchmark, with the performance gap widening for out-of-distribution design targets — precisely the regime where practical design tools are most needed.\n\nThe work arrives at a moment when photonic metasurfaces are attracting intense interest for applications ranging from ultra-thin optical lenses and holographic displays to biosensors and next-generation telecommunications components. The ability to rapidly and reliably generate novel nanostructure designs from target specifications could substantially accelerate the development pipeline for these technologies. Traditional design methods, including brute-force electromagnetic simulations and topology optimization, can require hours or days of computation per structure; generative models promise to compress that timeline dramatically.\n\nThe researchers frame MxDiffusion as a general paradigm rather than a tool limited to specific material systems, suggesting the same physics-guided strategy could extend to acoustic metamaterials, thermal emitters, and other domains governed by well-characterized physical laws. The preprint, posted to arXiv on February 18, 2026, has not yet undergone peer review.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "photonics",
+        "metasurfaces",
+        "diffusion models",
+        "inverse design",
+        "Maxwell's equations",
+        "nanophotonics",
+        "AI for physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1722778610349-e3c02e277ec2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.16851",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-21T01:47:14.589Z"
+    },
+    {
+      "id": "ps-1771638448077-as3b",
+      "slug": "massive-study-ties-air-pollution-directly-to-alzheimer-s-ris",
+      "headline": "Massive Study Ties Air Pollution Directly to Alzheimer's Risk",
+      "subheadline": "Research on 27.8 million Medicare recipients suggests fine particulate matter harms the brain independent of other chronic conditions",
+      "body": "Long-term exposure to fine particulate air pollution is associated with an elevated risk of Alzheimer's disease — and the damage appears to bypass the body's other chronic ailments to act directly on the brain, according to one of the largest studies ever conducted on the topic.\n\nResearchers led by Yanling Deng at Emory University analyzed health records from more than 27.8 million U.S. Medicare beneficiaries aged 65 and older, spanning nearly two decades of data from 2000 to 2018. Published February 17 in the open-access journal PLOS Medicine, the study sought to answer a question that has lingered in environmental health research: does air pollution raise Alzheimer's risk indirectly — by fueling conditions like hypertension, stroke, and depression that are themselves linked to dementia — or does it strike the brain on its own?\n\nThe answer, the Emory team found, points predominantly toward a direct pathway. After carefully controlling for chronic comorbidities, higher exposure to fine particulate matter (PM2.5) remained independently linked to increased Alzheimer's incidence. Neither hypertension nor depression meaningfully amplified the pollution-related risk. However, the researchers identified one notable exception: individuals with a prior history of stroke showed a somewhat stronger association between pollution exposure and Alzheimer's diagnosis, suggesting that vascular damage may leave the brain more susceptible to environmental insults.\n\nThe implications extend well beyond the laboratory. Alzheimer's disease afflicts approximately 57 million people worldwide, and with aging populations expanding across developed nations, identifying modifiable risk factors has become a public health imperative. The study's authors argue that the findings bolster the case for stricter air quality standards as a tangible strategy for protecting cognitive health. \"Our findings suggest that individuals with a history of stroke may be particularly vulnerable to the harmful effects of air pollution on brain health, highlighting an important intersection between environmental and vascular risk factors,\" the researchers wrote.\n\nThe study, funded by the National Institutes of Health, adds to a growing body of evidence connecting ambient air pollution to neurodegeneration. While the observational design cannot establish causation definitively, the sheer scale of the Medicare cohort and the consistency of results across subgroups lend considerable weight to the conclusion that cleaner air could be one of the most consequential — and achievable — interventions against the global dementia crisis.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "air pollution",
+        "PM2.5",
+        "dementia",
+        "public health",
+        "Medicare"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-21T01:47:28.077Z"
+    },
+    {
+      "id": "ps-1771638461209-0ajf",
+      "slug": "ukrainian-sentenced-to-five-years-for-enabling-north-korean-",
+      "headline": "Ukrainian Sentenced to Five Years for Enabling North Korean IT Worker Scheme",
+      "subheadline": "Oleksandr Didenko ran a stolen-identity marketplace that helped DPRK operatives infiltrate dozens of U.S. companies",
+      "body": "A U.S. federal court has sentenced 29-year-old Ukrainian national Oleksandr Didenko to five years in prison for operating a stolen-identity marketplace that enabled North Korean workers to fraudulently secure employment at dozens of American companies — funneling wages back to Pyongyang's sanctioned nuclear weapons program.\n\nDidenko, a Kyiv resident originally charged in 2024, ran a website called Upworksell that allowed overseas workers, including North Koreans, to purchase or rent the identities of U.S. citizens for the purpose of passing employment checks at American firms. The Department of Justice said Didenko handled more than 870 stolen identities through the platform before the FBI seized it in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States and pleaded guilty.\n\nBeyond the identity theft operation, prosecutors said Didenko paid individuals to host so-called \"laptop farms\" — rooms filled with open, internet-connected laptops — at residences in California, Tennessee, and Virginia. The setup allowed North Korean operatives to remotely access machines that appeared to be located inside the United States, completing their work assignments without raising geographic red flags with employers.\n\nThe conviction is part of a growing wave of prosecutions targeting facilitators of North Korea's sprawling IT worker infiltration campaign. Security researchers have characterized these operatives as a \"triple threat\" to Western businesses: they violate U.S. sanctions, steal sensitive corporate data, and in some cases extort victim companies by threatening to release proprietary information. CrowdStrike reported last year that it has observed a sharp increase in the number of North Korean workers embedding themselves in companies, typically in remote software engineering and developer roles.\n\nThe scheme reflects the increasingly creative methods the North Korean regime employs to generate revenue while locked out of the global financial system by international sanctions. Beyond fraudulent employment, Pyongyang-linked actors are known to impersonate recruiters and venture capitalists to target high-net-worth individuals and cryptocurrency holders. The Didenko case underscores the international scope of the problem — and the willingness of U.S. authorities to pursue facilitators across borders to disrupt the pipeline.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "cybersecurity",
+        "North Korea",
+        "identity theft",
+        "sanctions",
+        "FBI",
+        "IT workers"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
+      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-21T01:47:41.209Z"
+    },
+    {
+      "id": "ps-1771638475280-gqqb",
+      "slug": "paramount-skydance-clears-key-u-s-antitrust-hurdle-for-77-9b",
+      "headline": "Paramount Skydance Clears Key U.S. Antitrust Hurdle for $77.9B Warner Deal",
+      "subheadline": "Hart-Scott-Rodino waiting period expires, but DOJ could still move to block the mega-merger",
+      "body": "Paramount Skydance announced Friday that it faces \"no statutory impediment\" in the United States to completing its proposed $77.9 billion acquisition of Warner Bros. Discovery, after a critical antitrust review milestone passed without government intervention.\n\nThe company said it had fully complied with the U.S. Department of Justice's second-request review process under the Hart-Scott-Rodino Act, and that the subsequent 10-day waiting period expired on Thursday. The clearance removes one of the most significant regulatory gateposts standing between the two entertainment giants and what would be among the largest media mergers in history.\n\nHowever, legal experts caution that the expiration of the waiting period does not constitute implicit approval from federal regulators. The Justice Department has, on multiple occasions in the past, filed lawsuits to block mergers well after HSR waiting periods have lapsed. The distinction is an important one: the waiting period merely prevents companies from closing prematurely, while the government retains authority to challenge anticompetitive combinations at any point.\n\nThe proposed deal would unite two of Hollywood's most storied portfolios under a single corporate umbrella. Paramount's library — spanning franchises from \"Mission: Impossible\" to \"Star Trek\" — would merge with Warner Bros. Discovery's vast holdings, which include HBO, CNN, the DC Comics universe, and a deep bench of film and television assets. The combination would create an entertainment conglomerate positioned to compete more aggressively with streaming-era rivals like Disney, Netflix, and Apple.\n\nStill, the sheer scale of the transaction and the degree of consolidation it represents in an already concentrated media landscape mean regulatory scrutiny is far from over. Analysts note that the Justice Department's antitrust division has shown increased willingness in recent years to challenge large horizontal mergers, and the deal could still face opposition from state attorneys general or encounter hurdles in foreign jurisdictions. For now, the clearing of the HSR process marks a meaningful step forward — but the path to a closed deal remains lined with uncertainty.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Paramount",
+        "Warner Bros Discovery",
+        "Skydance",
+        "mergers and acquisitions",
+        "antitrust",
+        "media consolidation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1625685124246-529a036f3142?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxQYXJhbW91bnQlMjBTa3lkYW5jZSUyMENsZWFycyUyMEtleSUyMEFudGl0cnVzdCUyMEh1cmRsZXxlbnwwfDB8fHwxNzcxNjMyMTgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/paramount-regulatory-waiting-period-for-warner-bid-ends-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-21T01:47:55.280Z"
+    },
+    {
+      "id": "ps-1771638490087-99o5",
+      "slug": "sec-lets-broker-dealers-count-stablecoins-as-capital-in-majo",
+      "headline": "SEC Lets Broker-Dealers Count Stablecoins as Capital in Major Policy Shift",
+      "subheadline": "A quiet FAQ update slashes the 'haircut' on stablecoin holdings from 100% to just 2%, putting them on par with money market funds.",
+      "body": "The U.S. Securities and Exchange Commission has effectively transformed stablecoins from a balance-sheet liability into working capital for broker-dealers, burying what industry observers are calling a seismic policy change in a few new lines on an FAQ page.\n\nThe update, made this week to the SEC's \"Broker Dealer Financial Responsibilities\" FAQ, instructs regulated firms that they need only apply a 2% haircut to stablecoin holdings when calculating regulatory capital. Under the previous interpretation, broker-dealers faced a de facto 100% haircut — meaning stablecoins like Circle's USDC and Tether's USDT counted for nothing in capital calculations and were effectively penalized on balance sheets. Now firms can recognize 98% of those holdings as capital, placing stablecoins on equivalent footing with money market funds.\n\nThe practical consequences could be far-reaching. Broker-dealers — ranging from retail platforms like Robinhood to Wall Street giants like Goldman Sachs — rely on net capital calculations to determine their capacity for trading, custody, and settlement activities. With stablecoins suddenly counting as capital rather than dead weight, these firms gain substantially more flexibility to provide liquidity, custody tokenized securities, and facilitate crypto trading. \"Holding them was a financial penalty. That's over,\" wrote Tonya Evans, a crypto education executive and Digital Currency Group board member, on social media. Larry Florio, deputy general counsel at Ethena Labs, emphasized the breadth of the impact: \"Everywhere from Robinhood to Goldman Sachs run on these calculations.\"\n\nThe change is the latest in a string of informal policy adjustments emerging from the SEC's Crypto Task Force, led by Commissioner Hester Peirce, who said the new guidance \"will make it feasible for broker-dealers to engage in a broader range of business activities relating to tokenized securities and other crypto assets.\" Peirce added that she wants to explore how existing SEC rules could be formally amended to account for payment stablecoins — an acknowledgment that the current approach has limits.\n\nThose limits are significant. As informal staff guidance rather than a codified rule, the change carries no binding legal weight and could be reversed by future SEC leadership with minimal procedural friction. Digital Chamber CEO Cody Carbone noted that while the guidance \"helps reduce uncertainty for firms seeking to operate compliantly,\" it does not create new rules. This fragility is a central reason the crypto industry continues to push Congress for legislation such as the GENIUS Act, which would establish a durable statutory framework for stablecoins rather than leaving policy subject to the shifting preferences of presidential appointees.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "SEC",
+        "stablecoins",
+        "broker-dealers",
+        "crypto regulation",
+        "tokenized finance",
+        "net capital rule"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/a0b9c77ef2096d8c4905fefac8edbe280eb49ff3-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/20/sec-makes-quiet-shift-to-brokers-stablecoin-holdings-that-may-pack-big-results",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-21T01:48:10.087Z"
     },
     {
       "id": "ps-1771637532795-9ynq",
@@ -63,92 +169,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010825.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-21T01:32:28.563Z"
-    },
-    {
-      "id": "ps-1771637561719-94vp",
-      "slug": "ukrainian-man-sentenced-to-five-years-for-enabling-north-kor",
-      "headline": "Ukrainian Man Sentenced to Five Years for Enabling North Korean IT Worker Scheme",
-      "subheadline": "Oleksandr Didenko managed over 870 stolen U.S. identities through a website that helped North Korean operatives infiltrate American companies",
-      "body": "A federal court has sentenced 29-year-old Ukrainian national Oleksandr Didenko to five years in prison for operating an identity theft platform that enabled North Korean workers to fraudulently secure employment at dozens of U.S. companies — funneling wages back to Pyongyang's sanctioned nuclear weapons program.\n\nDidenko, a Kyiv resident first charged in 2024, ran a website called Upworksell that allowed overseas workers, including North Korean operatives, to purchase or rent stolen identities belonging to U.S. citizens. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform. The FBI seized Upworksell in 2024 and redirected its traffic to government servers. Polish authorities subsequently arrested Didenko, who was extradited to the United States and pleaded guilty.\n\nBeyond selling stolen identities, Didenko also facilitated so-called \"laptop farms\" — paying individuals in California, Tennessee, and Virginia to receive and host open laptops in their homes. These setups allowed North Korean workers to remotely access U.S.-based machines, creating the appearance that they were physically located in America while performing their jobs. The arrangement is a hallmark of an increasingly sophisticated scheme that security researchers have flagged as a growing threat to Western businesses.\n\nCybersecurity firm CrowdStrike reported a sharp increase last year in North Korean operatives infiltrating companies, typically as remote software developers or technical engineers. Security researchers have characterized these workers as a \"triple threat\" — violating U.S. sanctions, stealing sensitive corporate data, and later extorting victim companies by threatening to release proprietary information. The schemes represent one of several revenue channels the North Korean regime relies on while effectively locked out of the global financial system by international sanctions. North Korean actors have also been known to impersonate recruiters and venture capitalists to target high-net-worth individuals, particularly in the cryptocurrency sector.\n\nThe conviction is the latest in a series of successful prosecutions targeting individuals who facilitate North Korea's IT worker operations. As the scope of these schemes continues to expand, U.S. law enforcement agencies face mounting pressure to disrupt the networks that connect sanctioned regimes with unsuspecting American employers — a challenge that blurs the lines between cybersecurity, national security, and workforce fraud.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "North Korea",
-        "cybersecurity",
-        "identity theft",
-        "sanctions",
-        "FBI",
-        "IT workers"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
-      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-21T01:32:41.719Z"
-    },
-    {
-      "id": "ps-1771637577064-3gsl",
-      "slug": "paramount-skydance-clears-us-antitrust-hurdle-for-77-9b-warn",
-      "headline": "Paramount Skydance Clears US Antitrust Hurdle for $77.9B Warner Bros. Bid",
-      "subheadline": "Hart-Scott-Rodino waiting period expires, but DOJ could still move to block the landmark media merger",
-      "body": "Paramount Skydance announced Friday that a key U.S. antitrust review milestone has been met in its proposed $77.9 billion acquisition of Warner Bros. Discovery, removing one significant regulatory obstacle from what would be the largest entertainment industry deal in decades.\n\nThe company said it has fully complied with the Justice Department's second-request review process under the Hart-Scott-Rodino Act, with the mandatory 10-day waiting period expiring on Thursday. In a statement, Paramount Skydance said there is now \"no statutory impediment\" in the United States to closing the transaction. The second-request process is a deeper dive by regulators that goes beyond the initial antitrust filing, typically requiring companies to produce extensive internal documents and data about competitive dynamics in their markets.\n\nHowever, the expiration of the waiting period does not guarantee smooth sailing. Legal experts note that the Justice Department retains the authority to challenge mergers even after the HSR waiting period has passed. The department has, on multiple occasions, filed lawsuits to block transactions well after the statutory review window closed. A deal of this magnitude — combining two of Hollywood's most storied studios along with vast libraries of intellectual property, streaming platforms, and linear television networks — would draw intense scrutiny over potential impacts on competition in content production, distribution, and advertising markets.\n\nThe proposed combination would reshape the entertainment landscape, uniting Paramount's portfolio — which includes CBS, Showtime, and the Paramount+ streaming service — with Warner Bros. Discovery's assets spanning HBO, CNN, the Warner Bros. film studio, and the Max streaming platform. Skydance Media, the production company led by David Ellison, has been the driving force behind the Paramount side of the transaction. If completed, the merged entity would rival Walt Disney Co. and Netflix Inc. in scale across both traditional and streaming media.\n\nWhile the U.S. regulatory step represents meaningful progress, the deal likely faces additional review from international competition authorities. Market participants and industry observers will be watching closely for any signals from the Justice Department about whether it intends to take further action before the companies attempt to finalize the merger.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Paramount",
-        "Warner Bros Discovery",
-        "Skydance",
-        "media merger",
-        "antitrust",
-        "Hart-Scott-Rodino"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1598753177679-dfe841a7e134?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxQYXJhbW91bnQlMjBTa3lkYW5jZSUyMENsZWFycyUyMEFudGl0cnVzdCUyMEh1cmRsZXxlbnwwfDB8fHwxNzcxNjMzMDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-20/paramount-regulatory-waiting-period-for-warner-bid-ends-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-21T01:32:57.064Z"
-    },
-    {
-      "id": "ps-1771637590581-h9f9",
-      "slug": "sec-lets-broker-dealers-count-stablecoins-as-regulatory-capi",
-      "headline": "SEC Lets Broker-Dealers Count Stablecoins as Regulatory Capital",
-      "subheadline": "A quiet FAQ update applies just a 2% haircut to stablecoin holdings, putting them on par with money market funds",
-      "body": "The U.S. Securities and Exchange Commission has effectively reclassified stablecoins as viable regulatory capital for broker-dealers, a change that could reshape how Wall Street firms engage with digital assets and tokenized securities. The shift, disclosed through a modest addition to an FAQ page on the agency's website, allows firms from Robinhood to Goldman Sachs to count 98% of their stablecoin holdings toward capital requirements.\n\nPreviously, broker-dealers faced what amounted to a 100% haircut on stablecoin holdings — meaning tokens like Circle's USDC and Tether's USDT were effectively zeroed out in capital calculations. Holding stablecoins was, in practical terms, a financial penalty. Under the new guidance, published February 20, those assets receive just a 2% haircut, placing them on equal footing with money market funds on a firm's balance sheet. The change means broker-dealers can now more easily provide liquidity, facilitate settlement, and custody tokenized securities.\n\n\"While this guidance does not create new rules, it helps reduce uncertainty for firms seeking to operate compliantly under current securities laws,\" said Cody Carbone, CEO of the Digital Chamber. SEC Commissioner Hester Peirce, who leads the agency's Crypto Task Force, said the update \"will make it feasible for broker-dealers to engage in a broader range of business activities relating to tokenized securities and other crypto assets.\" Peirce added that she wants to explore how existing SEC rules could be formally amended to account for payment stablecoins.\n\nThe move is the latest in a series of informal policy adjustments the SEC has made since its Crypto Task Force began operating under the Trump administration, relying on staff guidance, industry correspondence, and FAQ updates rather than formal rulemaking. That approach carries an inherent fragility: informal guidance lacks the legal weight of codified rules and can be reversed just as easily as it was issued. The SEC has signaled work on formal crypto regulations in recent months, but the rulemaking process typically stretches over many months or even years.\n\nThat vulnerability is precisely why crypto industry advocates continue pressing Congress for legislation. The GENIUS Act, introduced last year, would establish a statutory framework for stablecoins that would survive changes in agency leadership. Until such legislation passes, however, the industry's regulatory footing rests largely on the kind of quiet bureaucratic updates that just reshaped how every registered broker-dealer in the United States can treat billions of dollars in stablecoin holdings.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "SEC",
-        "stablecoins",
-        "broker-dealers",
-        "crypto regulation",
-        "tokenized securities",
-        "USDC",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/a0b9c77ef2096d8c4905fefac8edbe280eb49ff3-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/20/sec-makes-quiet-shift-to-brokers-stablecoin-holdings-that-may-pack-big-results",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-21T01:33:10.582Z"
-    },
-    {
-      "id": "ps-1771636651587-nztr",
-      "slug": "massive-medicare-study-ties-air-pollution-directly-to-alzhei",
-      "headline": "Massive Medicare Study Ties Air Pollution Directly to Alzheimer's Risk",
-      "subheadline": "Research spanning 27.8 million older Americans suggests fine particulate matter harms the brain directly, not just through related illnesses",
-      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the damage appears to bypass the body's other organ systems, striking the brain directly. That is the central finding of a sweeping new study analyzing data from nearly 28 million Medicare beneficiaries, published February 17 in the open-access journal PLOS Medicine.\n\nLed by Yanling Deng of Emory University, the research team examined records from 27.8 million Americans aged 65 and older enrolled in Medicare between 2000 and 2018. By cross-referencing pollution exposure levels with new Alzheimer's diagnoses while controlling for chronic health conditions, the researchers sought to answer a long-standing question in environmental neuroscience: does air pollution raise dementia risk indirectly — by fueling conditions like hypertension, stroke, and depression that are themselves linked to cognitive decline — or does it assault the brain on its own?\n\nThe answer, according to the data, tilts decisively toward the latter. While scientists have long recognized that fine particulate matter, known as PM2.5, contributes to cardiovascular and respiratory disease, the Emory analysis found that neither hypertension nor depression meaningfully amplified the pollution-Alzheimer's connection. The one notable exception was stroke: individuals with a prior stroke history showed a somewhat stronger association between pollution exposure and subsequent Alzheimer's diagnosis, suggesting that vascular damage to the brain may create a compounding vulnerability.\n\nThe implications are substantial. Alzheimer's disease affects roughly 57 million people worldwide and remains without a cure, making prevention strategies critically important. If fine particulate pollution acts as a direct neurotoxin rather than merely a contributor to intermediary conditions, then air quality regulation becomes not just a respiratory health measure but a frontline cognitive health intervention. The findings add scientific weight to arguments for stricter emissions standards, particularly in communities with aging populations.\n\nThe study, funded by the National Institutes of Health, is among the largest ever conducted on the relationship between environmental pollution and dementia. Its authors emphasized that the results \"highlight an important intersection between environmental and vascular risk factors\" and point to cleaner air as a viable strategy for lowering dementia rates nationwide. With the U.S. Environmental Protection Agency facing ongoing debate over PM2.5 standards, the research arrives at a politically consequential moment for air quality policy.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "air pollution",
-        "PM2.5",
-        "dementia",
-        "Medicare",
-        "public health",
-        "Emory University"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-21T01:17:31.587Z"
     },
     {
       "id": "ps-1771635795030-gr5c",
@@ -212,28 +232,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/20/tesla-loses-bid-to-overturn-243m-autopilot-verdict/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-21T00:02:47.941Z"
-    },
-    {
-      "id": "ps-1771631235709-l70k",
-      "slug": "physics-guided-ai-framework-designs-photonic-metasurfaces-fr",
-      "headline": "Physics-Guided AI Framework Designs Photonic Metasurfaces from Target Specs",
-      "subheadline": "MxDiffusion embeds Maxwell's equations directly into a diffusion model, outperforming purely data-driven approaches",
-      "body": "A research team spanning multiple institutions has developed a novel AI framework called MxDiffusion that bakes the fundamental laws of electromagnetism directly into a generative diffusion model, enabling the rapid inverse design of photonic metasurfaces — nanostructured surfaces that manipulate light in precisely engineered ways.\n\nThe work, posted to the arXiv preprint server on February 18 by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, addresses a persistent challenge in nanophotonics: given a desired optical response, how do you work backward to determine the physical structure that produces it? Traditional computational approaches such as finite-difference time-domain simulations are accurate but computationally expensive, while purely data-driven machine learning methods often fail when asked to generalize beyond their training data. MxDiffusion attempts to bridge both worlds through a two-stage architecture. The first diffusion model is trained using a loss function derived explicitly from Maxwell's equations, embedding physical constraints into the generative process itself. The second model then translates this physically consistent intermediate representation into a final structural geometry, yielding designs with substantially higher fidelity than conventional AI-only pipelines.\n\nThe researchers validated MxDiffusion on two representative test cases: gold nanostructures patterned on silica substrates and a highly tunable bandpass filter based on phase-change materials. In both scenarios, the physics-aware framework consistently outperformed a standard data-driven diffusion model benchmark. The advantages were especially pronounced for out-of-training-distribution design targets — optical responses the model had never seen during training — and for highly constrained resonance conditions where small structural variations produce large spectral shifts.\n\nThe significance of the approach lies in its generality. Metasurfaces have rapidly emerged as one of the most versatile platforms in modern photonics, with applications ranging from flat lenses and holographic displays to biosensors and thermal emitters. Designing these structures typically requires iterating through enormous parameter spaces, a process that can take days or weeks using brute-force simulation. By combining the expressiveness of diffusion models — the same class of generative AI behind image generators like Stable Diffusion — with hard physical laws, MxDiffusion points toward a design paradigm where physics-informed AI could dramatically accelerate the development cycle for next-generation optical devices.\n\nThe authors frame MxDiffusion as a general physics-guided inverse design paradigm, suggesting the strategy of embedding governing equations into generative models could extend well beyond photonics to other domains of engineering and applied physics where inverse problems are similarly intractable.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "photonics",
-        "metasurfaces",
-        "diffusion models",
-        "inverse design",
-        "Maxwell's equations",
-        "nanophotonics",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1762278804698-fc25d03b69e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxwaG90b25pY3MlMjBtZXRhc3VyZmFjZXN8ZW58MHwwfHx8MTc3MTYwOTUwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.16851",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-20T23:47:15.709Z"
     },
     {
       "id": "ps-1771631277484-ghw1",
