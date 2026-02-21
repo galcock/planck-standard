@@ -1,27 +1,133 @@
 {
-  "lastUpdated": "2026-02-21T02:48:06.522Z",
+  "lastUpdated": "2026-02-21T03:03:13.341Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771642013844-qsx1",
-      "slug": "trump-signals-possible-military-strike-on-iran-as-diplomacy-",
-      "headline": "Trump Signals Possible Military Strike on Iran as Diplomacy Teeters",
-      "subheadline": "President publicly weighs limited military action while Tehran says it will deliver a draft nuclear agreement within days",
-      "body": "President Donald Trump said Friday he is considering a limited military strike against Iran, ratcheting up pressure on Tehran even as both sides reported progress in nuclear negotiations held in Switzerland.\n\nThe remarks came just a day after Trump warned the world would learn \"over the next, probably, 10 days\" whether a deal would materialize or the United States would resort to military force. Iranian Foreign Minister Abbas Araghchi responded by saying Tehran is preparing a draft agreement to hand to U.S. Special Envoy Steve Witkoff in the coming days, suggesting diplomatic channels remain open despite the escalating rhetoric.\n\nThe United States has been significantly expanding its military footprint near Iran in recent weeks. The USS Gerald R. Ford — the world's largest warship — appears to be heading toward the region, joining the USS Abraham Lincoln carrier strike group along with additional destroyers, combat ships, and fighter jets. Satellite imagery indicates Iran has reinforced its own military installations in response, and Supreme Leader Ayatollah Ali Khamenei has posted messages on social media warning American forces. The buildup marks one of the most significant U.S. force concentrations in the Middle East in years, underscoring the gravity of the standoff over Iran's nuclear program, which Washington and European allies suspect is advancing toward weapons capability — a charge Tehran has consistently denied.\n\nTrump's public posture, however, must be weighed against his well-documented tendency to use provocative statements as negotiating leverage. U.S. officials have reportedly presented him with a wide spectrum of military options, potentially spanning a weeks-long campaign, though no specific objectives have been articulated. Notably, Trump employed a similar strategy before Operation Midnight Hammer last July, when U.S. forces struck Iranian nuclear facilities even as White House officials were still publicly discussing the prospect of successful talks. The day before that strike, Press Secretary Karoline Leavitt read a statement from Trump suggesting a decision was still weeks away.\n\nA prolonged military engagement with Iran would carry significant domestic political risks for the administration. Polls already show growing disapproval of Trump's handling of immigration and the economy, and a multi-week conflict could alienate parts of his MAGA base, which was drawn to his campaign pledge to end costly foreign entanglements. Unlike last year's single-day strike or the swift operation to capture Venezuelan leader Nicolás Maduro in January, an extended confrontation with Tehran would test the administration's ability to sustain public support on multiple fronts simultaneously — particularly as it contends with fallout from the Supreme Court's major ruling against its tariff program.",
+      "id": "ps-1771642917295-9d04",
+      "slug": "trump-signals-possible-limited-military-strike-against-iran",
+      "headline": "Trump Signals Possible Limited Military Strike Against Iran",
+      "subheadline": "President floats military action even as Tehran says a draft nuclear agreement could be ready within days",
+      "body": "President Donald Trump said Friday he is weighing a limited military strike on Iran, ratcheting up pressure on Tehran at a moment when both sides claim diplomatic progress toward a deal on Iran's nuclear program.\n\nThe remarks came just hours after senior administration officials had floated the possibility of military action, and one day after Trump told reporters the world would learn \"over the next, probably, 10 days\" whether negotiations would succeed or the United States would resort to force. Iranian Foreign Minister Abbas Araghchi responded by announcing that Tehran is preparing a draft agreement to be delivered to U.S. Special Envoy Steve Witkoff within days, following recent talks in Geneva that both sides characterized as productive.\n\nThe diplomatic maneuvering is unfolding against a significant American military buildup in the region. The USS Gerald R. Ford — the world's largest warship — appears to be heading toward the Persian Gulf, joining the USS Abraham Lincoln carrier strike group alongside additional destroyers, combat ships, and fighter jets. Satellite imagery indicates Iran has reinforced its own military installations in response, and Supreme Leader Ayatollah Ali Khamenei has issued social media warnings directed at U.S. forces. The United States and its European allies suspect Iran is edging toward nuclear weapons capability, a charge Tehran has consistently denied.\n\nTrump's public posture, however, does not always forecast concrete action, and the president has a well-documented preference for strategic ambiguity. \"I'm not going to talk to you about that,\" he told a reporter Thursday when pressed on military plans. That pattern proved consequential last July, when the administration was still publicly discussing the prospect of successful negotiations the day before Operation Midnight Hammer struck Iranian nuclear facilities. U.S. officials have reportedly presented Trump with a broad menu of military options, including scenarios for a campaign lasting several weeks — though no specific objective has been publicly identified.\n\nA protracted conflict with Iran would carry domestic political risk for the administration. Polls already show rising disapproval of Trump's handling of immigration and the economy, and a drawn-out military engagement could fracture parts of his base that were attracted by promises to avoid costly foreign entanglements. Last year's single-day strike and the swift operation to capture Venezuelan leader Nicolás Maduro in January were contained enough to avoid sustained backlash, but a multi-week campaign would test that political calculus in a fundamentally different way.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
-        "Trump",
+        "Donald Trump",
         "military strike",
-        "nuclear negotiations",
+        "nuclear program",
         "Middle East",
-        "U.S. foreign policy"
+        "US foreign policy"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1a63/live/ac7525e0-0ea4-11f1-8fa9-a78fde43271a.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cdxzk4gvzp0o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-21T02:46:53.844Z"
+      "publishedAt": "2026-02-21T03:01:57.296Z"
+    },
+    {
+      "id": "ps-1771642931068-sjpa",
+      "slug": "new-ai-framework-embeds-maxwell-s-equations-into-diffusion-m",
+      "headline": "New AI Framework Embeds Maxwell's Equations Into Diffusion Models for Photonic Design",
+      "subheadline": "MxDiffusion uses a two-stage physics-guided approach to generate metasurface structures from target optical properties",
+      "body": "Researchers have developed a hybrid AI framework called MxDiffusion that integrates Maxwell's equations directly into a generative diffusion model, enabling significantly more accurate inverse design of photonic metasurfaces — nanostructured surfaces engineered to manipulate light in precise ways.\n\nThe work, posted to the arXiv preprint server on February 18 by a team including Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, addresses a persistent challenge in nanophotonics: given a desired set of optical properties, how does one efficiently determine the physical structure that produces them? Traditional purely data-driven machine learning approaches can struggle with this inverse problem, particularly when target specifications fall outside the training data distribution or involve tightly constrained resonance conditions.\n\nMxDiffusion tackles this through a two-stage generation strategy. In the first stage, a diffusion model is trained using a loss function derived from Maxwell's equations — the fundamental laws governing electromagnetic wave behavior. This embeds physical constraints directly into the generative process, producing an intermediate representation that is physically consistent. A second diffusion model then maps this representation to a final structural geometry, achieving what the authors describe as significantly higher fidelity than approaches relying on data alone.\n\nThe team validated the framework on two representative applications: gold nanostructures patterned on silica substrates and a highly tunable bandpass filter based on phase-change materials. In both cases, MxDiffusion consistently outperformed a conventional data-driven diffusion model benchmark. The advantages were most pronounced for out-of-distribution design targets — scenarios where purely statistical models tend to falter because they lack the underlying physics to generalize beyond their training examples.\n\nThe approach reflects a broader trend in computational physics and engineering toward physics-informed machine learning, where neural networks are constrained or guided by known physical laws rather than learning entirely from data. For photonic metasurface design, which has applications spanning telecommunications, sensing, imaging, and energy harvesting, such frameworks could substantially accelerate the development cycle by reducing reliance on computationally expensive electromagnetic simulations. The authors position MxDiffusion as a general paradigm for physics-guided inverse design, suggesting the two-stage architecture could extend to other domains where fundamental equations are well established but the design space is vast.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "photonics",
+        "metasurfaces",
+        "diffusion models",
+        "inverse design",
+        "Maxwell's equations",
+        "physics-informed AI",
+        "nanophotonics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1715464881502-2f5a2f2066ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8cGhvdG9uaWNzJTIwbWV0YXN1cmZhY2VzfGVufDB8MHx8fDE3NzE2MTA1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.16851",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-21T03:02:11.068Z"
+    },
+    {
+      "id": "ps-1771642946673-xsxy",
+      "slug": "massive-study-links-air-pollution-directly-to-alzheimer-s-ri",
+      "headline": "Massive Study Links Air Pollution Directly to Alzheimer's Risk",
+      "subheadline": "Analysis of 27.8 million Medicare recipients suggests fine particulate matter harms the brain directly, not just through related illnesses",
+      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the damage appears to bypass the body's other organ systems to strike the brain directly. That is the central finding of a sweeping new study covering nearly 28 million older Americans, published February 17 in PLOS Medicine.\n\nResearchers led by Yanling Deng at Emory University analyzed Medicare records from more than 27.8 million beneficiaries aged 65 and older, spanning the years 2000 to 2018. By cross-referencing pollution exposure levels with new Alzheimer's diagnoses while controlling for chronic health conditions, the team sought to answer a question that has nagged the field for years: does air pollution raise dementia risk indirectly — by fueling conditions like hypertension, stroke, and depression that are themselves linked to cognitive decline — or does it damage the brain on its own?\n\nThe answer, according to the data, tilts decisively toward direct harm. Neither hypertension nor depression meaningfully amplified the pollution-Alzheimer's connection. However, individuals with a prior history of stroke did show heightened vulnerability, pointing to what the authors describe as \"an important intersection between environmental and vascular risk factors.\" The finding suggests that while pollution's primary mechanism of action appears to be neurological, a compromised cerebrovascular system may lower the brain's defenses against airborne toxins.\n\nAlzheimer's disease affects roughly 57 million people worldwide and remains the most common form of dementia. Despite decades of research, effective treatments remain limited, placing greater urgency on identifying modifiable risk factors. The Emory study, funded by the National Institutes of Health, adds to a growing body of evidence positioning air quality as one such lever. Earlier research published in 2025, covering nearly 30 million people across multiple studies, reached broadly similar conclusions about the link between PM2.5 exposure and cognitive decline.\n\nThe practical implication is straightforward but consequential: cleaner air may be one of the most scalable strategies available for reducing dementia rates in aging populations. With regulatory debates over particulate matter standards ongoing in the United States and elsewhere, the study provides fresh epidemiological weight to the argument that air quality policy is also brain health policy.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "air pollution",
+        "PM2.5",
+        "dementia",
+        "public health",
+        "Medicare"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-21T03:02:26.673Z"
+    },
+    {
+      "id": "ps-1771642961190-o6f9",
+      "slug": "ukrainian-national-sentenced-to-five-years-for-enabling-nort",
+      "headline": "Ukrainian National Sentenced to Five Years for Enabling North Korean IT Worker Scheme",
+      "subheadline": "Oleksandr Didenko managed over 870 stolen U.S. identities through a website that helped funnel wages to Pyongyang's weapons program",
+      "body": "A federal court has sentenced Oleksandr Didenko, a 29-year-old Ukrainian national, to five years in prison for orchestrating an identity theft operation that enabled North Korean workers to fraudulently obtain employment at dozens of American companies — with their earnings ultimately flowing back to fund Pyongyang's nuclear weapons program.\n\nDidenko, a Kyiv resident, operated a website called Upworksell that served as a marketplace where overseas workers, including North Koreans, could purchase or rent stolen identities belonging to U.S. citizens. According to the Department of Justice, Didenko handled more than 870 stolen identities through the platform before the FBI seized the site in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States and pleaded guilty to the charges.\n\nThe operation extended beyond digital identity fraud. Prosecutors said Didenko also paid individuals in California, Tennessee, and Virginia to host so-called \"laptop farms\" — rooms filled with racks of open laptops that allowed North Korean workers to remotely access U.S.-based machines, creating the appearance they were physically present in the country while performing their jobs. The arrangement enabled the workers to pass as legitimate American employees at the companies that hired them.\n\nThe conviction is the latest in a growing series of federal prosecutions targeting what cybersecurity researchers have called North Korea's \"IT worker\" infiltration campaigns. CrowdStrike, the cybersecurity firm, reported a sharp increase last year in North Korean operatives embedding themselves in Western companies, typically in remote software development and engineering roles. Security researchers have characterized these workers as a \"triple threat\" — violating U.S. sanctions, exfiltrating sensitive corporate data, and subsequently extorting victim companies to prevent public disclosure of stolen information.\n\nThe scheme represents one prong of a broader North Korean strategy to generate revenue while locked out of the global financial system by international sanctions. Pyongyang-linked actors have also been documented impersonating recruiters and venture capitalists to target high-net-worth individuals, particularly in the cryptocurrency sector, in efforts to gain access to their devices and digital wallets. The Department of Justice's aggressive pursuit of facilitators like Didenko signals an escalating federal crackdown on the support networks that make these operations possible.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "North Korea",
+        "cybersecurity",
+        "identity theft",
+        "sanctions",
+        "FBI",
+        "IT workers"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
+      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-21T03:02:41.190Z"
+    },
+    {
+      "id": "ps-1771642976081-qtoq",
+      "slug": "mexico-canada-dodge-10-us-tariff-but-usmca-threat-persists",
+      "headline": "Mexico, Canada Dodge 10% US Tariff But USMCA Threat Persists",
+      "subheadline": "Supreme Court ruling offers short-term relief to North American trade partners, but deeper structural risks remain",
+      "body": "Mexico and Canada have secured an exemption from the 10% universal tariff levied by the United States following a Supreme Court decision that struck down several of President Donald Trump's trade measures, but the two countries still face significant uncertainty over the future of the trilateral trade agreement that underpins North American commerce.\n\nThe high court's ruling, which invalidated a number of Trump's tariff actions, provided immediate relief to America's two largest trading partners. However, analysts and trade officials warn that the reprieve may be temporary. The United States-Mexico-Canada Agreement, or USMCA, which replaced NAFTA in 2020 and governs roughly $1.8 trillion in annual trade among the three nations, faces its own set of looming risks that could prove far more consequential than the levies the court just struck down.\n\nThe USMCA includes a mandatory review clause that allows any of the three countries to withdraw with six months' notice. The Trump administration has repeatedly signaled dissatisfaction with aspects of the agreement, particularly around automotive rules of origin, agricultural market access, and what it characterizes as insufficient enforcement of labor and environmental standards. Any renegotiation or termination of the deal could send shockwaves through supply chains that have become deeply integrated across North American borders over the past three decades.\n\nFor Mexico, the stakes are especially acute. The country has become the United States' largest trading partner, surpassing China in 2023, with bilateral goods trade exceeding $800 billion annually. Canada, meanwhile, remains heavily dependent on cross-border energy and automotive trade. Both nations have invested heavily in manufacturing infrastructure predicated on the assumption of stable, preferential trade access to the American market.\n\nWhile the Supreme Court's intervention has removed one layer of trade friction, the broader trajectory of U.S. trade policy continues to inject uncertainty into North American economic planning. Business groups in all three countries are closely watching for signals from the White House on whether it intends to push for significant changes to the USMCA framework — a move that could reshape the continent's economic architecture.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "USMCA",
+        "tariffs",
+        "US trade policy",
+        "Mexico",
+        "Canada",
+        "Supreme Court"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1740313498505-89024211b126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxVU01DQSUyMHRhcmlmZnN8ZW58MHwwfHx8MTc3MTY0Mjk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-21T03:02:56.081Z"
+    },
+    {
+      "id": "ps-1771642993261-kddh",
+      "slug": "bitcoin-briefly-rallies-then-retreats-after-supreme-court-vo",
+      "headline": "Bitcoin Briefly Rallies Then Retreats After Supreme Court Voids Trump Tariffs",
+      "subheadline": "Crypto's fleeting 2% pop contrasts with more durable stock market gains as stagflation fears weigh on sentiment",
+      "body": "Bitcoin surged past $68,000 on Friday before rapidly giving back its gains after the U.S. Supreme Court struck down President Donald Trump's tariff regime in a landmark 6-3 ruling, underscoring the persistent fragility of crypto market rallies amid deepening macroeconomic uncertainty.\n\nThe nation's highest court declared that Trump's sweeping tariffs exceeded presidential authority, writing that the \"lack of historical precedent\" combined with the \"breadth of authority\" claimed by the president indicated the levies extended beyond the executive's \"legitimate reach.\" Bitcoin responded with an immediate 2% jump above $68,000, but sellers materialized within minutes, pushing the price back below $67,000 — a pattern that has become characteristic of crypto trading in recent months, where even modest upside triggers rapid profit-taking.\n\nThe cryptocurrency's inability to hold gains stood in sharp contrast to equities, where the Nasdaq rose 0.6% to session highs following the ruling. The divergence highlights a growing skepticism among digital asset traders, with bitcoin having logged its worst first 50 trading days of any year on record. The broader CoinDesk 20 Index managed a 2.5% gain on the day, led by BNB, Cardano's ADA, Dogecoin, and Solana, though traders suggested prices would likely remain range-bound absent a significant macro catalyst.\n\nCompounding the uncertain backdrop, the Commerce Department reported Friday that the U.S. economy grew just 1.4% in the fourth quarter of 2025, while core personal consumption expenditure prices rose 3% year-over-year — hotter than the 2.9% economists had forecast and up from 2.8% in the prior reading. On an annual basis, economic growth came in at 2.2%, the weakest since the pandemic year of 2020. Art Hogan, chief market strategist at B. Riley Wealth, characterized the data as delivering \"a messy message of both hotter than expected inflation, and slower than anticipated growth,\" reinforcing the Federal Reserve's cautious stance on future rate adjustments.\n\nThe Supreme Court decision introduces fresh uncertainty into an already complex macro landscape. While the ruling removes one source of economic drag — Trump reportedly responded by imposing a new 10% global levy — market participants appear to be weighing whether the legal and political turmoil surrounding trade policy will ultimately benefit or further destabilize risk assets like bitcoin, which traded near $67,740 in late afternoon trading.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Supreme Court",
+        "Trump tariffs",
+        "stagflation",
+        "cryptocurrency",
+        "Federal Reserve"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-21T03:03:13.261Z"
     },
     {
       "id": "ps-1771642029775-27p7",
@@ -44,28 +150,6 @@
       "publishedAt": "2026-02-21T02:47:09.775Z"
     },
     {
-      "id": "ps-1771642043168-fk9j",
-      "slug": "massive-medicare-study-links-air-pollution-directly-to-alzhe",
-      "headline": "Massive Medicare Study Links Air Pollution Directly to Alzheimer's Risk",
-      "subheadline": "Emory University researchers find fine particulate pollution harms the brain directly, not just through related chronic diseases",
-      "body": "Long-term exposure to fine particulate air pollution is associated with a significantly higher risk of developing Alzheimer's disease — and the link appears to run directly through the brain rather than through intermediate conditions like hypertension or depression, according to a sweeping new study of nearly 28 million older Americans.\n\nThe research, led by Yanling Deng of Emory University and published February 17 in the open-access journal PLOS Medicine, drew on Medicare records spanning 2000 to 2018 for 27.8 million beneficiaries aged 65 and older. Scientists have long known that air pollution contributes to chronic conditions such as hypertension, stroke, and depression — all of which are themselves linked to dementia. The central question driving the study was whether dirty air raises Alzheimer's risk indirectly, by fueling those illnesses, or whether it damages the brain through a more direct biological pathway.\n\nThe answer, based on the team's analysis, tilts decisively toward the latter. After carefully controlling for the presence of chronic comorbidities, the researchers found that neither hypertension nor depression meaningfully amplified the pollution-related risk of Alzheimer's. One notable exception emerged: individuals with a prior history of stroke showed a somewhat stronger association between pollution exposure and subsequent Alzheimer's diagnosis, suggesting that vascular damage to the brain may create heightened vulnerability to environmental insults.\n\nThe implications are substantial. Alzheimer's disease affects roughly 57 million people worldwide and remains without a cure. If fine particulate matter — commonly produced by vehicle exhaust, industrial emissions, and wildfires — can independently drive neurodegeneration, then air quality policy becomes a lever for public health intervention against dementia. The study's authors emphasized that their findings \"highlight an important intersection between environmental and vascular risk factors\" and point to cleaner air as a tangible strategy for protecting cognitive health in aging populations.\n\nThe research was funded by the National Institutes of Health. While the study is observational and cannot prove causation, its sheer scale and methodological rigor — accounting for a broad array of confounding health conditions across nearly two decades of data — make it one of the most powerful investigations to date into the environmental roots of Alzheimer's disease. For the millions of older adults living in areas with elevated pollution levels, the findings add urgency to ongoing efforts to tighten air quality standards.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "air pollution",
-        "PM2.5",
-        "dementia",
-        "public health",
-        "Medicare",
-        "Emory University"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/industrial-pollution-woman-children-future.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010836.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-21T02:47:23.168Z"
-    },
-    {
       "id": "ps-1771642057531-m4bi",
       "slug": "anthropic-and-openai-backers-clash-in-ai-policy-battle-over-",
       "headline": "Anthropic and OpenAI Backers Clash in AI Policy Battle Over NY Congress Seat",
@@ -86,49 +170,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/20/anthropic-funded-group-backs-candidate-attacked-by-rival-ai-super-pac/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-21T02:47:37.531Z"
-    },
-    {
-      "id": "ps-1771642071494-e7zu",
-      "slug": "mexico-canada-dodge-new-10-us-tariff-but-usmca-review-looms-",
-      "headline": "Mexico, Canada Dodge New 10% US Tariff but USMCA Review Looms Large",
-      "subheadline": "Supreme Court strikes down many Trump tariffs, but White House pivots to alternative trade authority amid uncertainty",
-      "body": "Mexico and Canada have been granted an exemption from the new 10 percent levy President Donald Trump imposed on foreign goods Friday, but the reprieve may prove short-lived as a broader renegotiation of the trilateral trade pact governing North American commerce draws closer.\n\nThe exemption came after hours of confusion following a landmark U.S. Supreme Court decision that struck down many of the president's existing tariffs. Trump responded by announcing the 10 percent levy under a different legal authority, leaving trading partners and markets scrambling to assess the implications. It was not until later in the day that the White House confirmed goods shipped under the United States-Mexico-Canada Agreement would remain exempt from the new charge.\n\nThe episode underscores the fragility of the trade architecture binding North America's three largest economies. The USMCA, which replaced the original NAFTA agreement during Trump's first term, faces a mandatory review process that could open the door to sweeping changes in tariff treatment, rules of origin, and market access provisions. Trade analysts have warned that any renegotiation carries significant downside risk for manufacturers, agricultural exporters, and supply chains that have been built around the assumption of duty-free flows across the continent.\n\nFor Mexico and Canada, the immediate relief is tempered by the realization that the White House retains both the willingness and — through alternative statutory mechanisms — the legal tools to impose new trade barriers rapidly. The Supreme Court's intervention eliminated one pathway for tariffs but did not foreclose others, and the speed with which the administration pivoted to a replacement levy signals that protectionist trade policy remains a central pillar of the president's economic agenda.\n\nBusiness groups on both sides of the border are now watching closely for signals about the scope of any USMCA renegotiation and whether the current exemption will hold as negotiations unfold. With supply chains already strained by years of policy whiplash, the stakes for North American commerce remain as high as ever.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "USMCA",
-        "tariffs",
-        "US trade policy",
-        "Mexico",
-        "Canada",
-        "Supreme Court"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inckbPZUiBI4/v0/1200x769.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-21/mexico-canada-get-exemption-to-10-us-levy-but-usmca-risk-looms",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-21T02:47:51.494Z"
-    },
-    {
-      "id": "ps-1771642086426-arrb",
-      "slug": "supreme-court-strikes-down-trump-tariffs-in-6-3-ruling",
-      "headline": "Supreme Court Strikes Down Trump Tariffs in 6-3 Ruling",
-      "subheadline": "Bitcoin briefly surged past $68,000 before retreating, while stagflationary economic data clouded the outlook further",
-      "body": "The U.S. Supreme Court declared President Donald Trump's tariff regime unconstitutional on Friday in a landmark 6-3 decision, ruling that the sweeping trade levies exceeded presidential authority. The decision immediately rippled through financial markets, though crypto assets struggled to hold their gains.\n\nThe court found that no president had ever invoked the underlying statute to impose tariffs \"of this magnitude and scope,\" and that the \"lack of historical precedent\" combined with the \"breadth of authority\" claimed by the administration suggested the tariffs extended beyond the president's \"legitimate reach.\" The ruling effectively dismantles a trade policy framework that has weighed on global markets for months, though Trump responded by imposing a fresh 10% global levy in apparent defiance of the court's decision.\n\nBitcoin jumped roughly 2% on the ruling, briefly clearing $68,000, but the rally evaporated within minutes as sellers stepped in — a pattern that has become characteristic of crypto markets in recent months. By late afternoon, BTC had slipped back below $67,000, hovering near $68,002 as broader crypto markets posted modest gains. The CoinDesk 20 Index rose 2.5%, with BNB, Cardano, and Solana among the leaders. Equities fared somewhat better: the Nasdaq climbed 0.6% to a session high and appeared to hold its gains more convincingly than digital assets.\n\nThe Supreme Court ruling landed alongside a troubling batch of economic data that painted a stagflationary picture. The Commerce Department reported that U.S. GDP grew just 1.4% in the fourth quarter of 2025, while full-year growth of 2.2% marked the slowest pace since the pandemic year of 2020. Meanwhile, core personal consumption expenditure prices — the Federal Reserve's preferred inflation gauge — rose 3% year-over-year, exceeding the consensus estimate of 2.9% and accelerating from the prior reading of 2.8%.\n\n\"Today's economic data delivered a messy message of both hotter than expected inflation, and slower than anticipated growth,\" said Art Hogan, chief market strategist at B. Riley Wealth. He noted that the conflicting signals reinforce the Fed's inclination to hold rates steady, leaving markets in an uneasy limbo between constitutional upheaval in trade policy and an economy showing signs of strain. For crypto traders, the combination of macro uncertainty and persistent selling pressure suggests range-bound conditions may persist absent a decisive catalyst.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "Supreme Court",
-        "Trump tariffs",
-        "Bitcoin",
-        "stagflation",
-        "US economy",
-        "Federal Reserve",
-        "cryptocurrency"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/31baab3948c5b1f8a4e57e1789ccfd534d92a939-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/20/bitcoin-pops-then-drops-as-supreme-court-strikes-down-trump-tariffs",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-21T02:48:06.426Z"
     },
     {
       "id": "ps-1771641184676-9ng0",
@@ -173,28 +214,6 @@
       "publishedAt": "2026-02-21T02:33:19.593Z"
     },
     {
-      "id": "ps-1771639337065-1l3x",
-      "slug": "physics-guided-ai-framework-tackles-inverse-photonic-design",
-      "headline": "Physics-Guided AI Framework Tackles Inverse Photonic Design",
-      "subheadline": "MxDiffusion embeds Maxwell's equations directly into diffusion models, outperforming purely data-driven approaches",
-      "body": "A research team spanning Georgia Tech, Oregon State University, and Idaho National Laboratory has unveiled MxDiffusion, a novel framework that fuses the physics of Maxwell's equations with generative AI to design photonic metasurfaces — engineered nanostructures that manipulate light in ways natural materials cannot.\n\nThe approach, detailed in a preprint posted to arXiv on February 18, addresses a long-standing bottleneck in nanophotonics: the inverse design problem. Rather than simulating how a given structure interacts with light, inverse design starts with desired optical properties and works backward to determine the geometry that produces them. Traditional computational methods are slow and often fail to explore the vast space of possible designs, while purely data-driven machine learning models can generate physically implausible solutions. MxDiffusion, developed by Sujoy Mondal, Taehyuk Park, Sudipta Biswas, Alan X. Wang, and Wenshan Cai, tackles both limitations through a two-stage diffusion model architecture.\n\nIn the first stage, a diffusion model is trained using a loss function derived directly from Maxwell's equations, the fundamental laws governing electromagnetic wave behavior. This step forces the AI to internalize physical constraints rather than merely memorizing statistical patterns in training data. The second stage then translates this physics-consistent intermediate representation into a final structural geometry with what the authors describe as significantly higher fidelity than conventional approaches. The team validated MxDiffusion on two test cases: gold nanostructures patterned on silica substrates and a tunable bandpass filter based on phase-change materials — a class of compounds that switch between crystalline and amorphous states, enabling reconfigurable optical devices.\n\nThe results are particularly striking for scenarios that challenge purely data-driven models. MxDiffusion consistently outperformed a conventional diffusion model benchmark when tasked with out-of-training-distribution targets — design specifications the model had never encountered during training — and for highly constrained resonance conditions where precise spectral control is essential. These are precisely the regimes where physics-agnostic models tend to falter, generating structures that look plausible statistically but violate electromagnetic constraints.\n\nThe work represents a broader trend in computational physics: embedding known physical laws into machine learning architectures rather than treating them as black boxes. For photonics, where metasurface applications range from ultra-thin lenses and holographic displays to biosensors and telecommunications filters, faster and more reliable inverse design tools could accelerate the translation of laboratory concepts into manufactured devices. The authors frame MxDiffusion as a general paradigm applicable beyond the two demonstrated cases, suggesting its physics-guided strategy could extend to other domains where governing equations are well established but design spaces remain intractably large.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "photonics",
-        "metasurfaces",
-        "diffusion models",
-        "inverse design",
-        "Maxwell's equations",
-        "nanophotonics",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1723909776959-7b0cc2fc94f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8cGhvdG9uaWNzJTIwbWV0YXN1cmZhY2VzfGVufDB8MHx8fDE3NzE2MTA1NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.16851",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-21T02:02:17.065Z"
-    },
-    {
       "id": "ps-1771639352930-1a9e",
       "slug": "ancient-oxygen-breathing-microbes-may-explain-the-rise-of-co",
       "headline": "Ancient Oxygen-Breathing Microbes May Explain the Rise of Complex Life",
@@ -214,27 +233,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260220010825.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-21T02:02:32.930Z"
-    },
-    {
-      "id": "ps-1771638461209-0ajf",
-      "slug": "ukrainian-sentenced-to-five-years-for-enabling-north-korean-",
-      "headline": "Ukrainian Sentenced to Five Years for Enabling North Korean IT Worker Scheme",
-      "subheadline": "Oleksandr Didenko ran a stolen-identity marketplace that helped DPRK operatives infiltrate dozens of U.S. companies",
-      "body": "A U.S. federal court has sentenced 29-year-old Ukrainian national Oleksandr Didenko to five years in prison for operating a stolen-identity marketplace that enabled North Korean workers to fraudulently secure employment at dozens of American companies — funneling wages back to Pyongyang's sanctioned nuclear weapons program.\n\nDidenko, a Kyiv resident originally charged in 2024, ran a website called Upworksell that allowed overseas workers, including North Koreans, to purchase or rent the identities of U.S. citizens for the purpose of passing employment checks at American firms. The Department of Justice said Didenko handled more than 870 stolen identities through the platform before the FBI seized it in 2024 and redirected its traffic to government servers. Polish authorities arrested Didenko, who was subsequently extradited to the United States and pleaded guilty.\n\nBeyond the identity theft operation, prosecutors said Didenko paid individuals to host so-called \"laptop farms\" — rooms filled with open, internet-connected laptops — at residences in California, Tennessee, and Virginia. The setup allowed North Korean operatives to remotely access machines that appeared to be located inside the United States, completing their work assignments without raising geographic red flags with employers.\n\nThe conviction is part of a growing wave of prosecutions targeting facilitators of North Korea's sprawling IT worker infiltration campaign. Security researchers have characterized these operatives as a \"triple threat\" to Western businesses: they violate U.S. sanctions, steal sensitive corporate data, and in some cases extort victim companies by threatening to release proprietary information. CrowdStrike reported last year that it has observed a sharp increase in the number of North Korean workers embedding themselves in companies, typically in remote software engineering and developer roles.\n\nThe scheme reflects the increasingly creative methods the North Korean regime employs to generate revenue while locked out of the global financial system by international sanctions. Beyond fraudulent employment, Pyongyang-linked actors are known to impersonate recruiters and venture capitalists to target high-net-worth individuals and cryptocurrency holders. The Didenko case underscores the international scope of the problem — and the willingness of U.S. authorities to pursue facilitators across borders to disrupt the pipeline.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "cybersecurity",
-        "North Korea",
-        "identity theft",
-        "sanctions",
-        "FBI",
-        "IT workers"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/laptop-farm-upscale.jpeg?resize=1200,802",
-      "sourceUrl": "https://techcrunch.com/2026/02/20/ukrainian-man-jailed-for-identity-theft-that-helped-north-koreans-get-jobs-at-us-companies/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-21T01:47:41.209Z"
     },
     {
       "id": "ps-1771634872111-tyjb",
