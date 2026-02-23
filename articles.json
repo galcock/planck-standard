@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-23T19:33:54.208Z",
+  "lastUpdated": "2026-02-23T19:48:41.251Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771875155639-252r",
+      "id": "ps-1771876040274-2ern",
       "slug": "lord-mandelson-led-away-by-police-from-london-home",
       "headline": "Lord Mandelson Led Away by Police From London Home",
-      "subheadline": "Former UK ambassador to US escorted by plain-clothes officers amid probe into alleged Epstein-linked information sharing",
-      "body": "Lord Peter Mandelson was led away from his Camden residence in north London on Monday afternoon by police officers, in a dramatic escalation of an investigation into his alleged ties to convicted sex offender Jeffrey Epstein.\n\nPlain-clothes officers escorted the 72-year-old former Labour grandee from his home and placed him in the back of an unmarked vehicle, according to footage broadcast by the BBC. Mandelson, who served as Britain's ambassador to the United States before stepping down earlier this year, has been under investigation over allegations that he shared market-sensitive government information with Epstein during his time as a government minister.\n\nThe peer, who held multiple senior cabinet positions under Tony Blair's government and was a key architect of the New Labour project, has not made public statements in recent weeks regarding the Epstein files. However, the BBC reported that his consistent position has been that he did not act criminally and was not motivated by financial gain in any interactions with Epstein.\n\nThe investigation centers on whether Mandelson passed sensitive government intelligence to Epstein that could have been used for financial advantage in markets. The allegations emerged from a broader examination of Epstein's extensive network of contacts among political and business elites on both sides of the Atlantic. Epstein, a financier who was convicted of sex trafficking, died in a New York jail cell in 2019 in what was ruled a suicide.\n\nMandelson's detention marks one of the highest-profile law enforcement actions connected to the ongoing fallout from the Epstein scandal, which has ensnared prominent figures across politics, finance, and royalty. The scene of a former senior diplomat and one of the most influential figures in modern British politics being escorted from his home by police is certain to reverberate through Westminster, where Mandelson's network of relationships spans decades of Labour Party leadership. No formal charges have been announced, and it remains unclear whether Mandelson has been arrested or is being questioned voluntarily.",
+      "subheadline": "Former UK ambassador to the US escorted by plain-clothes officers amid Epstein-linked investigation",
+      "body": "Lord Peter Mandelson was led away from his home in Camden, north London, on Monday afternoon by police officers, in a dramatic escalation of an investigation into allegations that he shared market-sensitive government information with the late financier Jeffrey Epstein.\n\nThe 72-year-old former Labour cabinet minister and ex-British ambassador to the United States was seen being escorted from his residence by plain-clothes officers and placed in the back of an unmarked vehicle. The circumstances of the encounter — whether it constituted a formal arrest or a voluntary interview — were not immediately clarified by authorities.\n\nMandelson, one of the most prominent figures in modern British politics and a key architect of the New Labour project under Tony Blair, has been under investigation over claims that he passed commercially sensitive government intelligence to Epstein during his time as a minister. The allegations have added a significant British dimension to the sprawling international fallout from the Epstein scandal, which has implicated powerful figures across politics, finance, and entertainment on both sides of the Atlantic.\n\nAccording to the BBC, Mandelson has not made public statements in recent weeks regarding the Epstein files, though his consistent position has been that he did not act in any criminal manner and was not motivated by financial gain. He served as British ambassador to the United States from 2024 until earlier this year, a posting that itself drew controversy given the swirling allegations.\n\nThe scene outside Mandelson's Camden home marks a striking moment in British public life. A former European Commissioner, twice-resigned cabinet minister, and life peer in the House of Lords, Mandelson has long been one of the most influential — and polarizing — operators in UK politics. The investigation's progression will be closely watched both in Westminster and Washington, where his diplomatic tenure gave him extensive access to senior American officials during a particularly turbulent period in transatlantic relations.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -20,7 +20,111 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4201/live/779ea380-10e0-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/c5y627gx8gko?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-23T19:32:35.639Z"
+      "publishedAt": "2026-02-23T19:47:20.274Z"
+    },
+    {
+      "id": "ps-1771876058211-zqai",
+      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
+      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
+      "subheadline": "UBio-MolFM achieves quantum-level precision for biomolecular simulations of up to 1,500 atoms, a key bottleneck in computational biology",
+      "body": "A team of eleven researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to solve one of computational biology's most persistent challenges: simulating large biological systems with quantum-mechanical accuracy without prohibitive computational costs.\n\nPublished on the arXiv preprint server on February 13, the work by Lin Huang, Arthur Jiang, XiaoLi Liu, and colleagues introduces a framework built on three interlocking innovations. The first is UBio-Mol26, a large-scale dataset tailored to biological molecules and constructed through a \"two-pronged strategy\" that combines bottom-up enumeration of molecular fragments with top-down sampling from native protein environments, handling systems of up to 1,200 atoms. The second is E2Former-V2, an equivariant transformer architecture that scales linearly with system size — a critical property for biological applications — while capturing the long-range physical interactions that govern molecular behavior. The team reports up to roughly four times higher inference throughput on large-system benchmarks compared to existing approaches. The third component is a three-stage curriculum learning protocol that progressively trains the model, starting with energy initialization and advancing through energy-force consistency before focusing on force-level supervision.\n\nThe central tension the model addresses is well known in the field: quantum-mechanical calculations provide the gold-standard accuracy needed to understand molecular machinery, but they scale so poorly with system size that applying them to biologically relevant molecules — proteins, peptide chains, solvated ions — has been effectively impossible at realistic scales. Machine learning force fields have emerged as a promising workaround, but most struggle with generalization to out-of-distribution systems or fail to reproduce macroscopic observables that matter to biologists and drug designers.\n\nUBio-MolFM's benchmarks span both microscopic forces and macroscopic properties, including liquid water structure, ionic solvation thermodynamics, and peptide folding dynamics. The authors report that the model achieves ab initio-level fidelity on biomolecular systems containing up to approximately 1,500 atoms — well into the range relevant for studying protein fragments and drug-target interactions. Crucially, this performance holds for systems the model was not explicitly trained on, suggesting genuine transferability.\n\nThe work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend of foundation models — large, pretrained architectures originally popularized in language processing — migrating into the physical sciences. If the claims withstand peer review and independent reproduction, UBio-MolFM could accelerate molecular dynamics studies in drug discovery, enzyme engineering, and the fundamental understanding of how biological molecules fold and function at atomic resolution.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "molecular simulation",
+        "foundation models",
+        "computational biology",
+        "quantum chemistry",
+        "machine learning force fields"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655890954744-32aefd2e7bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bW9sZWN1bGFyJTIwc2ltdWxhdGlvbiUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTg0MDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-23T19:47:38.211Z"
+    },
+    {
+      "id": "ps-1771876077493-yuue",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-protecting-agains",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Protecting Against COVID, Flu, and Pneumonia",
+      "subheadline": "Mouse study shows a single intranasal vaccine can shield against viruses, bacteria, and allergens for months by supercharging lung immunity",
+      "body": "Researchers at Stanford Medicine have demonstrated that a single nasal spray vaccine can protect mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — for at least three months, according to a study published February 19 in the journal Science. The work represents a striking departure from conventional vaccine design and, if validated in humans, could eventually replace multiple seasonal shots with a single inhaled dose.\n\nThe experimental formulation, designated GLA-3M-052-LS+OVA, does not target any specific pathogen. Instead, it mimics the chemical signals immune cells use during infection, forging a sustained link between the body's rapid-response innate immune system and its slower but more precise adaptive defenses. Senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, said the approach was inspired by a 2023 finding from his lab showing that the decades-old tuberculosis vaccine, BCG, kept innate immune cells in mouse lungs active for months — far longer than the typical days-long window — thanks to cytokine signals from T cells drawn into the tissue.\n\nIn the new study, led by postdoctoral scholar Haibo Zhang, mice that received three intranasal doses survived exposure to SARS-CoV-2 while unvaccinated animals suffered severe weight loss and often died. Vaccinated mice showed a 700-fold reduction in lung viral levels and mounted adaptive immune responses in as little as three days, compared with two weeks in unvaccinated controls. The vaccine also protected against Staphylococcus aureus and Acinetobacter baumannii — two common hospital-acquired bacterial infections — and suppressed the allergic airway response triggered by house dust mite proteins, a frequent cause of asthma.\n\nThe breadth of protection stems from the vaccine's unconventional mechanism. Rather than presenting a piece of a specific pathogen for the immune system to memorize, the formulation includes toll-like receptor agonists that activate innate sentinels in the lungs, paired with a harmless egg protein called ovalbumin that recruits T cells to sustain the heightened state of readiness. Pulendran described the effect as a \"double whammy\" — innate defenses crush most invaders on contact, and any that slip through encounter an adaptive response primed to mobilize at unprecedented speed.\n\nThe team plans to move into Phase I human safety trials as a next step. Pulendran estimates that two nasal spray doses may suffice for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the results translate from mice to humans, the implications extend well beyond convenience: such a vaccine could serve as a rapid-deployment shield against novel pandemic viruses before pathogen-specific shots can be manufactured. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccine",
+        "nasal spray",
+        "Stanford Medicine",
+        "respiratory disease",
+        "innate immunity",
+        "COVID-19",
+        "universal vaccine"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-23T19:47:57.493Z"
+    },
+    {
+      "id": "ps-1771876090926-dg52",
+      "slug": "chinese-hackers-exploited-ivanti-vpn-backdoor-to-breach-119-",
+      "headline": "Chinese Hackers Exploited Ivanti VPN Backdoor to Breach 119 Organizations",
+      "subheadline": "Bloomberg investigation reveals how private equity cost-cutting weakened cybersecurity at the enterprise software giant",
+      "body": "Chinese state-linked hackers planted a secret backdoor in Pulse Secure VPN software and used it to compromise 119 organizations, including European and U.S. military contractors, according to a Bloomberg investigation published Sunday. The breach, which Ivanti discovered in February 2021 after acquiring Pulse Secure, had not been previously reported at this scale.\n\nThe hackers exploited the hidden backdoor to gain access to dozens of companies and government agencies that relied on Pulse Secure's widely deployed VPN appliances for secure remote access. Cybersecurity firm Mandiant was reportedly aware of the intrusions and alerted Ivanti that threat actors had used the vulnerability to penetrate defense industry networks on both sides of the Atlantic. Neither Ivanti nor Mandiant responded to requests for comment.\n\nThe Bloomberg report draws a direct line between the breach's severity and the cost-cutting measures imposed after private equity firm Clearlake Capital Group acquired Ivanti in 2017. Particularly damaging were rounds of layoffs in 2022 that eliminated employees with deep institutional knowledge of the company's products and their security architectures. The pattern mirrors what happened at Citrix, a rival remote-access provider that experienced similar cybersecurity deterioration after Elliott Investment Management and Vista Equity Partners took the company private in a 2022 deal.\n\nThe Pulse Secure incident proved to be a harbinger. Ivanti's VPN products have been at the center of at least two additional major cyberattacks since. In early 2024, the U.S. Cybersecurity and Infrastructure Security Agency took the extraordinary step of ordering all federal agencies to disconnect their Ivanti VPN appliances within 48 hours after discovering that hackers were actively exploiting zero-day vulnerabilities unknown even to the vendor. In 2025, Ivanti again warned customers that attackers were leveraging a critical flaw in its Connect Secure product to breach corporate networks.\n\nThe revelations raise uncomfortable questions about the role of private equity in enterprise software security. As firms acquire technology companies and pursue aggressive cost reduction, the resulting erosion of engineering talent and security expertise can create vulnerabilities that ripple across thousands of downstream customers — including those in the most sensitive corners of government and defense. With VPN appliances serving as the front door to corporate and government networks, the stakes of underinvestment in their security could hardly be higher.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "cybersecurity",
+        "Ivanti",
+        "China",
+        "VPN",
+        "private equity",
+        "hacking"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/ivanti-getty-smaller-zero-day.jpeg?w=1083",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-23T19:48:10.926Z"
+    },
+    {
+      "id": "ps-1771876105709-e5bm",
+      "slug": "s-p-500-drops-as-ai-concerns-rattle-financials-and-software-",
+      "headline": "S&P 500 Drops as AI Concerns Rattle Financials and Software Stocks",
+      "subheadline": "Nvidia bucks the trend ahead of earnings while Trump's new across-the-board import levy adds to market uncertainty",
+      "body": "U.S. equities slid on Monday as a fresh wave of anxiety over artificial intelligence's impact on financial and software companies sent the S&P 500 lower, compounding unease from President Donald Trump's announcement of a new across-the-board levy on U.S. imports that left traders scrambling to assess the implications for global trade.\n\nThe selloff was broad-based, with financial stocks and software makers bearing the brunt of the downturn. Investors appeared to reassess the near-term benefits of AI adoption for sectors that have been among the technology's most vocal champions, raising questions about whether lofty valuations in those corners of the market are justified by actual revenue gains. The uncertainty marks a shift from the relentless optimism that has surrounded AI-linked equities for much of the past two years.\n\nNvidia Corp. proved a notable exception, with shares rising ahead of the chipmaker's closely watched earnings report due Wednesday. The company, whose graphics processors remain the backbone of AI training infrastructure, continues to command investor confidence even as doubts surface about downstream beneficiaries of the technology. Nvidia's results are expected to offer a critical read on the pace of AI infrastructure spending by hyperscale cloud providers and enterprise customers.\n\nAdding to the market's woes, Trump's latest tariff action introduced a new layer of complexity to an already fraught global trade environment. The across-the-board import levy, details of which remained somewhat unclear to market participants on Monday, threatens to raise costs for American businesses and consumers while potentially inviting retaliatory measures from trading partners. The move injected fresh volatility into currency and commodity markets alongside equities.\n\nThe convergence of AI skepticism and trade policy uncertainty underscores the fragile sentiment underpinning U.S. markets, which have rallied sharply on technology-driven optimism over recent quarters. With Nvidia's earnings on deck and the full scope of the new tariff regime still coming into focus, traders face a pivotal week that could set the tone for risk appetite heading into March.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "S&P 500",
+        "artificial intelligence",
+        "Nvidia",
+        "tariffs",
+        "financial stocks",
+        "market selloff"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1716436330152-a58390897652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8UyUyNlAlMjA1MDAlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzE4NzYxMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/s-p-500-falls-on-tariff-questions-nvidia-gains-before-earnings",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-23T19:48:25.709Z"
+    },
+    {
+      "id": "ps-1771876121162-bt8o",
+      "slug": "crypto-com-secures-federal-approval-to-launch-national-trust",
+      "headline": "Crypto.com Secures Federal Approval to Launch National Trust Bank",
+      "subheadline": "The OCC's conditional charter adds the exchange to a growing wave of crypto firms seeking federal regulatory oversight",
+      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, the latest in a rapid succession of crypto firms moving to bring their institutional services under a unified federal framework.\n\nThe planned entity, formally named Foris Dax National Trust Bank and operating as Crypto.com National Trust Bank, would function as a limited-purpose institution — offering custody, staking, and trade settlement for digital assets without accepting deposits or issuing loans. The bank would also service assets on Crypto.com's proprietary Cronos blockchain. Crypto.com filed its application with the OCC in October and, while the conditional approval is not a final green light, it represents a meaningful regulatory milestone for the Singapore-headquartered exchange.\n\nThe federal charter is significant because it supersedes Crypto.com's existing state-level custodial arrangement. The company currently operates Crypto.com Custody Trust Co. under regulation by New Hampshire's banking department, but a national charter consolidates those services under a single federal umbrella — a distinction that matters considerably to institutional clients. Issuers of exchange-traded funds, asset managers, and other large-scale market participants typically prefer custodians with national-level oversight, which simplifies compliance obligations and streamlines operational workflows across state lines.\n\nCrypto.com is far from alone in pursuing this path. The approval places the exchange alongside an expanding cohort of digital asset companies that have secured similar conditional OCC charters in recent months. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all received conditional approvals for national trust bank charters. Just last week, Stripe's stablecoin subsidiary Bridge also won initial approval. The pattern suggests a broader regulatory shift under the current OCC toward accommodating crypto-native firms within the traditional banking oversight structure, rather than leaving them fragmented across state regulatory regimes.\n\nThe wave of federal trust bank applications comes at a turbulent moment for crypto markets. Bitcoin was trading near $64,226 on Sunday, while Ethereum hovered around $1,855, and Bitcoin ETFs have experienced $3.8 billion in outflows over a historic five-week streak. Against that backdrop, the push by major crypto firms to secure federal legitimacy signals an industry increasingly focused on institutional infrastructure — even as retail sentiment cools.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Crypto.com",
+        "OCC",
+        "crypto regulation",
+        "national trust bank",
+        "digital asset custody"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-23T19:48:41.162Z"
     },
     {
       "id": "ps-1771875171498-gi2l",
@@ -44,50 +148,6 @@
       "publishedAt": "2026-02-23T19:32:51.498Z"
     },
     {
-      "id": "ps-1771875190697-1fb0",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
-      "subheadline": "Experimental universal vaccine supercharges innate lung immunity, offering months of broad protection against viruses, bacteria, and allergens",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — marking what could be a fundamental shift in how vaccines are designed. The findings were published February 19 in the journal Science.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new formulation works by hijacking the communication signals between immune cells to keep the lungs' broad-spectrum innate defenses on sustained high alert. The approach links innate and adaptive immunity into a coordinated response that persisted for at least three months in the study. Mice given three intranasal doses showed a 700-fold reduction in viral levels when challenged with SARS-CoV-2, and all vaccinated animals survived exposures that killed unvaccinated counterparts. The vaccine also protected against Staphylococcus aureus and Acinetobacter baumannii — two dangerous hospital-acquired infections — and suppressed allergic reactions to house dust mite proteins, a common trigger for asthma.\n\nThe work builds on a 2023 discovery by the same group, led by senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford. That earlier study revealed how the BCG tuberculosis vaccine, given to roughly 100 million newborns each year, provides unexplained cross-protection against unrelated infections. Pulendran's team found that T cells recruited to the lungs release cytokines that activate toll-like receptors on innate immune cells, sustaining a defensive posture that normally fades within days. The new vaccine, designated GLA-3M-052-LS+OVA, was engineered to synthetically replicate those signals. It includes a harmless egg protein, ovalbumin, to draw T cells into the lungs and maintain the heightened state. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, conducted the mouse experiments.\n\nPulendran described the mechanism as a \"double whammy\": the bolstered innate response dramatically cuts pathogen levels on contact, while any microbes that slip through face an adaptive immune response that activates in as little as three days — roughly four times faster than in unvaccinated animals. \"The lung immune system is so ready and so alert that it can launch virus-specific T cells and antibodies in an extraordinarily short length of time,\" Pulendran said.\n\nThe team is now preparing for a Phase I human safety trial. Pulendran estimates that two nasal spray doses could be sufficient for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the approach translates from mice to humans, a single annual nasal spray administered each fall could theoretically replace separate shots for influenza, COVID-19, and RSV while also offering a first line of defense against novel pandemic pathogens. \"I think nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said. The significant caveat remains that many promising mouse-model results do not survive the leap to human physiology, and years of clinical testing lie ahead.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "universal vaccine",
-        "nasal spray vaccine",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory infections",
-        "COVID-19",
-        "Bali Pulendran"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T19:33:10.697Z"
-    },
-    {
-      "id": "ps-1771875205099-tnpj",
-      "slug": "chinese-hackers-exploited-ivanti-vpn-backdoor-to-breach-119-",
-      "headline": "Chinese Hackers Exploited Ivanti VPN Backdoor to Breach 119 Organizations",
-      "subheadline": "Bloomberg investigation reveals how private equity cost-cutting eroded cybersecurity at the enterprise software firm",
-      "body": "Chinese state-linked hackers planted a secret backdoor in Pulse Secure VPN software and used it to infiltrate 119 organizations, including European and U.S. military contractors, according to a Bloomberg investigation published this week. The previously unreported 2021 breach adds to a growing pattern of security failures at Ivanti, the enterprise software company that acquired Pulse Secure.\n\nThe intrusion was discovered internally by Ivanti in February 2021, Bloomberg reported, citing the company's then-chief security officer and other sources. Cybersecurity firm Mandiant was also reportedly aware of the compromises, having alerted Ivanti that hackers had exploited the vulnerability to penetrate defense contractors on both sides of the Atlantic. The identities of the 119 affected organizations have not been disclosed. Neither Ivanti nor Mandiant responded to requests for comment.\n\nThe Bloomberg report draws a direct line between the breach and cost-cutting measures imposed after private equity firm Clearlake Capital Group acquired Ivanti in 2017. Particularly damaging, the investigation found, were rounds of layoffs in 2022 that eliminated employees with deep institutional knowledge of the company's products and their security architecture. The pattern mirrors troubles at Citrix, another enterprise remote-access provider that experienced critical security incidents after its 2022 acquisition by Elliott Investment Management and Vista Equity Partners triggered significant workforce reductions.\n\nIvanti's VPN products have been at the center of at least two additional major security incidents since the 2021 breach. In early 2024, the U.S. Cybersecurity and Infrastructure Security Agency took the extraordinary step of ordering all federal agencies to disconnect their Ivanti VPN appliances within 48 hours after discovering that hackers were actively exploiting vulnerabilities the company itself had not yet identified. In 2025, Ivanti again warned customers that attackers were leveraging a critical flaw in its Connect Secure product to compromise corporate networks.\n\nThe revelations raise broader questions about the cybersecurity consequences of private equity consolidation in the enterprise software sector. As firms like Clearlake, Elliott, and Vista acquire technology companies and pursue aggressive cost optimization, security researchers and government officials have increasingly warned that slashing engineering and security teams can create systemic vulnerabilities — particularly when the affected products serve as gateways into sensitive government and corporate networks. With VPN appliances functioning as the front door to thousands of organizations worldwide, the stakes of underinvestment in their security extend far beyond any single company's balance sheet.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "cybersecurity",
-        "Ivanti",
-        "China",
-        "VPN",
-        "private equity",
-        "hacking",
-        "Pulse Secure"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/ivanti-getty-smaller-zero-day.jpeg?w=1083",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T19:33:25.099Z"
-    },
-    {
       "id": "ps-1771875221234-iw99",
       "slug": "stocks-slide-as-ai-profit-fears-and-tariff-uncertainty-rattl",
       "headline": "Stocks Slide as AI Profit Fears and Tariff Uncertainty Rattle Markets",
@@ -108,47 +168,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-22/dollar-trades-within-range-amid-tariff-uncertainty-markets-wrap",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T19:33:41.234Z"
-    },
-    {
-      "id": "ps-1771875234089-vi94",
-      "slug": "crypto-com-secures-federal-approval-to-launch-national-trust",
-      "headline": "Crypto.com Secures Federal Approval to Launch National Trust Bank",
-      "subheadline": "The OCC's conditional charter positions the exchange to offer institutional custody under a unified federal framework",
-      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, joining a rapidly expanding cohort of digital asset firms seeking legitimacy through traditional banking charters.\n\nThe planned institution, formally named Foris Dax National Trust Bank and operating as Crypto.com National Trust Bank, would function as a limited-purpose entity focused exclusively on custody, staking, and trade settlement for digital assets — including those on the company's proprietary Cronos blockchain. It would not accept deposits or issue loans. Crypto.com filed its application with the OCC in October and, while the conditional approval is not final, it represents a decisive regulatory milestone for the Singapore-headquartered exchange.\n\nThe federal charter addresses a practical gap in Crypto.com's institutional business. The company already operates Crypto.com Custody Trust Co. under New Hampshire's state banking department, but a national trust charter consolidates those services under a single federal umbrella. That distinction matters significantly for exchange-traded fund issuers, asset managers, and other institutional clients who favor custodians with nationally standardized oversight, which simplifies compliance workflows and reduces jurisdictional friction.\n\nCrypto.com's approval is part of a broader wave of OCC conditional charters granted to crypto firms in recent months. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all received similar nods. Last week, Stripe's stablecoin subsidiary Bridge secured its own initial approval to form a national trust bank. The pattern reflects a marked shift in the U.S. regulatory posture toward digital assets, with federal agencies increasingly willing to bring crypto enterprises into established banking frameworks rather than relying on a patchwork of state-level supervision.\n\nThe trend carries broader implications for the industry's institutional maturation. As more firms obtain federal charters, the custody infrastructure underpinning crypto markets moves closer to the standards expected by pension funds, sovereign wealth vehicles, and major asset managers. For Crypto.com, the charter positions it to compete more directly with established financial custodians at a time when the boundaries between traditional finance and digital assets continue to blur.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Crypto.com",
-        "OCC",
-        "crypto custody",
-        "national trust bank",
-        "regulation",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T19:33:54.090Z"
-    },
-    {
-      "id": "ps-1771873352024-r7d2",
-      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
-      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
-      "subheadline": "UBio-MolFM achieves quantum-level precision in molecular simulations of systems up to 1,500 atoms",
-      "body": "A team of researchers has unveiled a universal molecular foundation model that could transform computational biology by resolving one of the field's most persistent trade-offs: the tension between quantum-mechanical accuracy and the ability to simulate large biological systems.\n\nThe model, called UBio-MolFM, was detailed in a preprint posted to arXiv on February 13 by Lin Huang, Jia Zhang, and nine co-authors. It combines a purpose-built biomolecular dataset, a novel equivariant transformer architecture, and a three-stage training curriculum to achieve what the authors describe as \"ab initio-level fidelity\" on biomolecular systems containing up to approximately 1,500 atoms — a scale that encompasses meaningful biological structures like folding peptides and solvated ions.\n\nAt the heart of the framework are three interlocking innovations. First, UBio-Mol26, a large dataset constructed through a \"two-pronged strategy\" that merges systematic bottom-up molecular enumeration with top-down sampling drawn from native protein environments, covering systems of up to 1,200 atoms. Second, E2Former-V2, a linear-scaling equivariant transformer that employs what the team calls Equivariant Axis-Aligned Sparsification and Long-Short Range modeling to capture non-local physical interactions while delivering up to four times higher inference throughput on large-system benchmarks compared to existing approaches. Third, a curriculum learning protocol that progressively trains the model from energy initialization through energy-force consistency to force-focused supervision, a sequence designed to overcome persistent energy offset problems that have plagued earlier machine-learning potentials.\n\nThe researchers validated UBio-MolFM against both microscopic and macroscopic observables, including liquid water structure, ionic solvation free energies, and peptide folding dynamics. These tests are significant because they go beyond the energy and force prediction benchmarks that dominate the field, instead probing whether the model produces physically realistic behavior in molecular dynamics simulations — the ultimate proving ground for any interatomic potential.\n\nThe work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend in which foundation model architectures originally developed for language and vision are being adapted for scientific simulation. If the results hold up under independent scrutiny, UBio-MolFM could provide computational biologists with a practical tool for studying biomolecular processes at quantum accuracy without the prohibitive computational cost of traditional ab initio methods — potentially accelerating drug design, enzyme engineering, and the fundamental understanding of molecular life.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "molecular dynamics",
-        "foundation models",
-        "computational biology",
-        "quantum chemistry",
-        "machine learning potentials"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1745922968123-1573f7f0d8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bW9sZWN1bGFyJTIwZHluYW1pY3MlMjBmb3VuZGF0aW9uJTIwbW9kZWxzfGVufDB8MHx8fDE3NzE4NzMzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T19:02:32.024Z"
     },
     {
       "id": "ps-1771873399000-0yyu",
@@ -410,27 +429,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/oil-companies-get-supreme-court-hearing-on-climate-change-suits",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T15:33:34.776Z"
-    },
-    {
-      "id": "ps-1771859905695-nqf9",
-      "slug": "s-p-500-slides-as-trump-imposes-new-15-import-levy-after-cou",
-      "headline": "S&P 500 Slides as Trump Imposes New 15% Import Levy After Court Rebuke",
-      "subheadline": "President responds to Supreme Court tariff ruling with fresh across-the-board duties; Nvidia bucks trend ahead of earnings",
-      "body": "U.S. equities fell on Monday after President Donald Trump moved swiftly to replace his earlier trade measures with a new blanket 15% tariff on all imports, a direct response to the Supreme Court's decision striking down his previous sweeping tariff regime. The pivot injected fresh uncertainty into global trade policy and sent the S&P 500 lower across broad sectors.\n\nThe new levy, announced shortly after the high court's ruling, effectively replaces the prior tariff structure that justices deemed unconstitutional with a uniform duty that the administration appears to believe rests on firmer legal footing. Markets, however, showed little appetite for another round of trade disruption, with selling pressure intensifying through the session as investors weighed the economic implications of yet another shift in U.S. commercial policy.\n\nNvidia Corp. stood out as a notable exception to the day's downward drift, with shares climbing ahead of the chipmaker's quarterly earnings report due Wednesday. The AI bellwether has become a key sentiment barometer for the technology sector, and investors appeared willing to position for a strong result even amid the broader market turbulence. Nvidia's performance underscored how mega-cap tech names continue to serve as a refuge during periods of macroeconomic uncertainty.\n\nThe session highlighted the whipsaw dynamic that has defined markets since tariffs returned to the center of U.S. economic policy. Each new development — whether judicial, legislative, or executive — has forced traders to rapidly reprice risk across equities, fixed income, and currencies. Monday's action suggested that even a court defeat for the White House would not meaningfully reduce trade uncertainty, given the administration's willingness to quickly pivot to alternative mechanisms.\n\nAnalysts cautioned that the 15% across-the-board rate, while lower than some of the targeted duties it replaces, could still weigh on corporate margins and consumer prices in the months ahead. With Nvidia's earnings on deck and trade policy still in flux, investors face a week loaded with catalysts that could set the market's near-term direction.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "S&P 500",
-        "tariffs",
-        "Supreme Court",
-        "Nvidia",
-        "trade policy",
-        "Trump"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1627862931663-43edc649f7d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bWFya2V0c3xlbnwwfDB8fHwxNzcxODU5MDI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/s-p-500-falls-on-tariff-questions-nvidia-gains-before-earnings",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T15:18:25.695Z"
     },
     {
       "id": "ps-1771859920553-sdsm",
