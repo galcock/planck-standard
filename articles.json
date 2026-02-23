@@ -1,26 +1,133 @@
 {
-  "lastUpdated": "2026-02-23T18:48:33.543Z",
+  "lastUpdated": "2026-02-23T19:03:31.510Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771872433058-4gsv",
-      "slug": "peter-mandelson-led-away-by-police-from-london-home",
-      "headline": "Peter Mandelson Led Away by Police From London Home",
-      "subheadline": "Former UK ambassador to the US escorted by plain-clothes officers amid investigation into Epstein-linked allegations",
-      "body": "Lord Peter Mandelson was led away from his Camden home in north London on Monday afternoon by police officers, in a dramatic escalation of an investigation into his alleged ties to convicted sex offender Jeffrey Epstein.\n\nPlain-clothes officers escorted the 72-year-old former Labour grandee from the property and placed him in the back of an unmarked vehicle, according to footage broadcast by the BBC. Mandelson, who served as Britain's ambassador to the United States before stepping down earlier this year, has been under investigation over allegations that he shared market-sensitive government information with Epstein while serving as a cabinet minister.\n\nThe arrest marks a significant moment in the long-running fallout from the Epstein files, which have implicated a number of prominent political and business figures on both sides of the Atlantic. Mandelson, a key architect of New Labour and one of the most influential figures in modern British politics, held multiple senior government roles under Tony Blair, including Secretary of State for Business and European Commissioner for Trade.\n\nMandelson has not publicly addressed the Epstein-related allegations in recent weeks, though sources familiar with his position told the BBC that he has consistently maintained he did not act criminally and was not motivated by financial gain. No formal charges have been announced, and it remains unclear whether Monday's police action constitutes a formal arrest or an invitation for questioning under caution.\n\nThe development sends shockwaves through the British political establishment at a time when the governing Labour Party is already navigating internal leadership tensions and broader questions about its direction under Prime Minister Keir Starmer. Mandelson, who was elevated to the House of Lords as Baron Mandelson of Foy, has long been regarded as one of the most connected and controversial figures in UK politics, having twice resigned from the cabinet before later returning to government. His legal team had not issued a statement as of Monday evening.",
+      "id": "ps-1771873337198-9jwp",
+      "slug": "lord-mandelson-led-away-by-police-from-london-home",
+      "headline": "Lord Mandelson Led Away by Police From London Home",
+      "subheadline": "Former UK ambassador to the US escorted by plain-clothes officers amid Epstein-linked investigation",
+      "body": "Lord Peter Mandelson was escorted from his home in Camden, north London, by police on Monday afternoon, in a dramatic development linked to an ongoing investigation into his alleged ties to convicted sex offender Jeffrey Epstein.\n\nPlain-clothes officers led the 72-year-old former Labour minister from his residence and placed him in the back of an unmarked vehicle, according to footage broadcast by the BBC. Mandelson, who served as Britain's ambassador to the United States until earlier this year, has been under investigation over allegations that he shared market-sensitive government information with Epstein during his time as a cabinet minister.\n\nThe precise nature of Monday's police action — whether it constituted a formal arrest or was carried out under other powers — has not been publicly confirmed by authorities. Lord Mandelson has not commented publicly in recent weeks on the Epstein files, though the BBC reported that his consistent position has been that he did not act criminally and was not motivated by financial gain.\n\nMandelson is one of the most prominent figures in modern British political history, having served as a key architect of New Labour alongside Tony Blair in the 1990s. He held multiple cabinet positions, including Secretary of State for Business, and later served as European Commissioner for Trade before being elevated to the House of Lords. His appointment as ambassador to Washington under the current Labour government led by Sir Keir Starmer was itself controversial, given longstanding questions about his relationship with Epstein.\n\nThe Epstein case has continued to send shockwaves through political establishments on both sides of the Atlantic. Thousands of pages of documents related to Epstein's network have been released in stages, implicating a range of high-profile figures in various capacities. Monday's events mark a significant escalation in the UK dimension of the scandal, raising urgent questions about whether charges may follow and what political fallout may ensue for the Labour government that appointed Mandelson to one of Britain's most senior diplomatic posts.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Peter Mandelson",
         "Jeffrey Epstein",
         "UK politics",
-        "Labour Party",
-        "police investigation"
+        "police",
+        "Labour Party"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4201/live/779ea380-10e0-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/c5y627gx8gko?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-23T18:47:13.058Z"
+      "publishedAt": "2026-02-23T19:02:17.198Z"
+    },
+    {
+      "id": "ps-1771873352024-r7d2",
+      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
+      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
+      "subheadline": "UBio-MolFM achieves quantum-level precision in molecular simulations of systems up to 1,500 atoms",
+      "body": "A team of researchers has unveiled a universal molecular foundation model that could transform computational biology by resolving one of the field's most persistent trade-offs: the tension between quantum-mechanical accuracy and the ability to simulate large biological systems.\n\nThe model, called UBio-MolFM, was detailed in a preprint posted to arXiv on February 13 by Lin Huang, Jia Zhang, and nine co-authors. It combines a purpose-built biomolecular dataset, a novel equivariant transformer architecture, and a three-stage training curriculum to achieve what the authors describe as \"ab initio-level fidelity\" on biomolecular systems containing up to approximately 1,500 atoms — a scale that encompasses meaningful biological structures like folding peptides and solvated ions.\n\nAt the heart of the framework are three interlocking innovations. First, UBio-Mol26, a large dataset constructed through a \"two-pronged strategy\" that merges systematic bottom-up molecular enumeration with top-down sampling drawn from native protein environments, covering systems of up to 1,200 atoms. Second, E2Former-V2, a linear-scaling equivariant transformer that employs what the team calls Equivariant Axis-Aligned Sparsification and Long-Short Range modeling to capture non-local physical interactions while delivering up to four times higher inference throughput on large-system benchmarks compared to existing approaches. Third, a curriculum learning protocol that progressively trains the model from energy initialization through energy-force consistency to force-focused supervision, a sequence designed to overcome persistent energy offset problems that have plagued earlier machine-learning potentials.\n\nThe researchers validated UBio-MolFM against both microscopic and macroscopic observables, including liquid water structure, ionic solvation free energies, and peptide folding dynamics. These tests are significant because they go beyond the energy and force prediction benchmarks that dominate the field, instead probing whether the model produces physically realistic behavior in molecular dynamics simulations — the ultimate proving ground for any interatomic potential.\n\nThe work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend in which foundation model architectures originally developed for language and vision are being adapted for scientific simulation. If the results hold up under independent scrutiny, UBio-MolFM could provide computational biologists with a practical tool for studying biomolecular processes at quantum accuracy without the prohibitive computational cost of traditional ab initio methods — potentially accelerating drug design, enzyme engineering, and the fundamental understanding of molecular life.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "molecular dynamics",
+        "foundation models",
+        "computational biology",
+        "quantum chemistry",
+        "machine learning potentials"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1745922968123-1573f7f0d8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bW9sZWN1bGFyJTIwZHluYW1pY3MlMjBmb3VuZGF0aW9uJTIwbW9kZWxzfGVufDB8MHx8fDE3NzE4NzMzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-23T19:02:32.024Z"
+    },
+    {
+      "id": "ps-1771873369927-h80l",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-shielding-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Shielding Against COVID, Flu, and Pneumonia",
+      "subheadline": "Mouse study demonstrates a single intranasal vaccine can protect against viruses, bacteria, and allergens for months",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — marking what could be a pivotal shift away from pathogen-specific immunization strategies that have defined vaccinology for more than two centuries.\n\nThe findings, published February 19 in the journal Science, showed that mice receiving three intranasal doses of the vaccine were shielded from coronaviruses, hospital-acquired bacterial infections including Staphylococcus aureus and Acinetobacter baumannii, and even house dust mite allergens for at least three months. Unvaccinated mice suffered severe weight loss, lung inflammation, and frequently died, while vaccinated animals survived with minimal illness and viral loads reduced by 700-fold. The study was led by postdoctoral scholar Haibo Zhang and senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, works by a fundamentally different mechanism than conventional immunizations. Rather than presenting the immune system with a fragment of a specific pathogen — the approach pioneered by Edward Jenner in the 1790s and used in every major vaccine since — it mimics the chemical signals that immune cells exchange during infection. This strategy bridges the body's innate and adaptive immune systems into a coordinated, long-lasting defensive posture. The formulation includes synthetic molecules that stimulate toll-like receptors on innate immune cells, along with a harmless egg protein that recruits T cells into the lungs to sustain the heightened alert state. Pulendran described the result as a \"double whammy\": the primed innate system dramatically suppresses initial pathogen levels, while the adaptive system launches virus-specific antibodies and T cells in as little as three days — roughly four times faster than in unvaccinated animals.\n\nThe work builds on a 2023 discovery by Pulendran's group showing that the BCG tuberculosis vaccine, given to approximately 100 million newborns each year, can provide unexplained cross-protection against unrelated infections. That earlier research revealed that T cells recruited to the lungs send cytokine signals that keep innate immune cells activated for months rather than the typical few days. The new vaccine was engineered to replicate that mechanism synthetically. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said of the concept of a single vaccine defending against unrelated pathogens.\n\nThe team plans to advance toward Phase I human safety trials as the next step. Pulendran estimates that two nasal spray doses may suffice for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the approach translates successfully, it could simplify seasonal vaccination — replacing multiple annual shots — and provide rapid frontline defense against novel pandemic viruses before pathogen-specific vaccines can be developed.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccine",
+        "nasal spray",
+        "Stanford Medicine",
+        "respiratory disease",
+        "innate immunity",
+        "COVID-19",
+        "universal vaccine"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-23T19:02:49.927Z"
+    },
+    {
+      "id": "ps-1771873383936-q9np",
+      "slug": "chinese-hackers-exploited-ivanti-vpn-backdoor-to-breach-119-",
+      "headline": "Chinese Hackers Exploited Ivanti VPN Backdoor to Breach 119 Organizations",
+      "subheadline": "Newly revealed 2021 compromise raises fresh questions about private equity's role in degrading cybersecurity at critical infrastructure firms",
+      "body": "Chinese state-linked hackers planted a secret backdoor in Pulse Secure VPN software and used it to infiltrate 119 organizations, including European and U.S. military contractors, according to a Bloomberg investigation published this week. The previously unreported breach, discovered internally by Ivanti in February 2021, adds to a growing pattern of security failures at the enterprise software company that have had far-reaching consequences for government agencies and corporations worldwide.\n\nPulse Secure, acquired by Ivanti as a subsidiary, provided VPN appliances to dozens of companies and government bodies. According to the report, which cited Ivanti's then-chief security officer and other sources, the hackers exploited the implanted backdoor to move laterally across the networks of organizations relying on the same VPN product. Cybersecurity firm Mandiant was reportedly aware of the intrusions and alerted Ivanti that the vulnerability had been weaponized against defense contractors on both sides of the Atlantic. Neither Ivanti nor Mandiant responded to requests for comment.\n\nThe revelations cast a harsh spotlight on the role of private equity ownership in undermining security at critical technology providers. After Clearlake Capital Group acquired Ivanti in 2017, the company underwent multiple rounds of cost-cutting — most notably in 2022 — that eliminated employees with deep institutional knowledge of the company's products and their security architecture. The pattern mirrors what happened at Citrix, another major remote-access vendor, which experienced similar layoffs and a subsequent wave of cybersecurity incidents after its 2022 acquisition by Elliott Investment Management and Vista Equity Partners.\n\nIvanti's VPN products have been at the center of at least two additional major security events since the 2021 breach. In early 2024, the U.S. Cybersecurity and Infrastructure Security Agency issued an emergency directive ordering all federal agencies to disconnect Ivanti VPN appliances within 48 hours after discovering that hackers were actively exploiting previously unknown vulnerabilities. The following year, Ivanti disclosed yet another critical flaw in its Connect Secure product that attackers were using to compromise corporate customers.\n\nThe cumulative toll of these incidents raises urgent questions for policymakers and enterprise customers about the security implications of private equity consolidation in the technology sector. When cost-cutting erodes the institutional expertise needed to maintain secure software, the consequences extend well beyond a single company's balance sheet — potentially compromising national security infrastructure and the sensitive networks of hundreds of organizations that depend on these products.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "cybersecurity",
+        "Ivanti",
+        "China",
+        "VPN",
+        "private equity",
+        "hacking",
+        "Pulse Secure"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/ivanti-getty-smaller-zero-day.jpeg?w=1083",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-23T19:03:03.936Z"
+    },
+    {
+      "id": "ps-1771873399000-0yyu",
+      "slug": "abbott-launches-20-billion-bond-sale-to-fund-exact-sciences-",
+      "headline": "Abbott Launches $20 Billion Bond Sale to Fund Exact Sciences Acquisition",
+      "subheadline": "The massive debt offering ranks among the largest US investment-grade bond sales of 2026, financing Abbott's push into cancer screening",
+      "body": "Abbott Laboratories is tapping the US investment-grade bond market with a $20 billion debt offering to finance its acquisition of Exact Sciences Corp., marking one of the largest corporate bond sales of the year.\n\nThe blockbuster issuance underscores the scale of Abbott's strategic bet on cancer screening, a rapidly growing segment of the diagnostics industry. Exact Sciences, best known for its Cologuard colorectal cancer screening test, has established itself as a leader in non-invasive cancer detection — a market that has expanded significantly as healthcare systems shift toward earlier diagnosis and prevention. The deal represents a major portfolio expansion for Abbott, which already operates one of the world's largest medical device and diagnostics businesses.\n\nBond offerings of this magnitude are relatively rare in the US high-grade market and typically attract intense investor interest due to the scarcity of large, liquid issues from top-rated corporate borrowers. Abbott's strong investment-grade credit profile is expected to support favorable pricing, though the sheer size of the deal will test market appetite at a time when corporate debt issuance has been robust across sectors.\n\nThe acquisition of Exact Sciences fits a broader trend of large healthcare conglomerates consolidating innovative diagnostics and screening companies. As precision medicine and early detection technologies become central to modern healthcare delivery, established players like Abbott have increasingly looked to M&A to secure footholds in high-growth niches rather than building capabilities organically. The deal would give Abbott a dominant position in at-home and lab-based cancer screening, complementing its existing portfolio spanning glucose monitors, rapid diagnostics, and cardiovascular devices.\n\nFinancial terms of the underlying acquisition were not immediately detailed in full, but the $20 billion bond component signals a transaction of considerable size. Investors and analysts will be closely watching the pricing and demand dynamics of the offering as a barometer of broader credit market conditions heading into the spring.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Abbott Laboratories",
+        "Exact Sciences",
+        "bond sale",
+        "mergers and acquisitions",
+        "healthcare",
+        "cancer screening",
+        "corporate debt"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTg3MTYwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/abbott-laboratories-kicks-off-bond-sale-for-exact-sciences-deal",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-23T19:03:19.000Z"
+    },
+    {
+      "id": "ps-1771873411414-u8u3",
+      "slug": "crypto-com-secures-federal-approval-to-launch-national-trust",
+      "headline": "Crypto.com Secures Federal Approval to Launch National Trust Bank",
+      "subheadline": "The OCC's conditional charter positions the exchange to offer institutional-grade custody under a unified federal framework",
+      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, joining a rapidly expanding cohort of digital asset firms seeking legitimacy through traditional banking charters.\n\nThe planned institution, formally named Foris Dax National Trust Bank and operating as Crypto.com National Trust Bank, would function as a limited-purpose entity — offering custody, staking, and trade settlement services for digital assets without accepting deposits or issuing loans. The bank would handle assets including those on Crypto.com's proprietary Cronos blockchain. The company originally filed its application with the OCC in October.\n\nThe federal charter represents a meaningful upgrade from Crypto.com's existing custody arrangement. The exchange currently operates Crypto.com Custody Trust Co., a qualified custodian regulated by New Hampshire's banking department. A national trust charter consolidates those services under a single federal umbrella — a distinction that carries significant weight with institutional clients such as ETF issuers and asset managers, who typically favor custodians operating under national oversight for streamlined compliance.\n\nCrypto.com's approval arrives amid a broader wave of crypto firms pursuing OCC charters. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all received similar conditional approvals. Just last week, Stripe's stablecoin subsidiary Bridge secured initial approval to form its own national trust bank. The trend signals a maturing industry increasingly willing to operate within federally supervised structures rather than relying on a patchwork of state-level regulations.\n\nThe conditional approval, while not final, marks a critical milestone in a multi-step process. Crypto.com must still satisfy remaining OCC requirements before the bank can begin operations. Nevertheless, the growing roster of conditionally approved firms suggests U.S. regulators are actively facilitating a pathway for crypto companies to integrate into the country's financial infrastructure — a notable shift that could reshape how institutional capital flows into digital assets.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Crypto.com",
+        "OCC",
+        "crypto custody",
+        "national trust bank",
+        "regulation",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-23T19:03:31.414Z"
     },
     {
       "id": "ps-1771872449029-zzrd",
@@ -41,30 +148,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17702",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-23T18:47:29.029Z"
-    },
-    {
-      "id": "ps-1771872465767-1r3z",
-      "slug": "stanford-team-develops-universal-nasal-spray-vaccine-for-cov",
-      "headline": "Stanford Team Develops Universal Nasal Spray Vaccine for COVID, Flu, and Pneumonia",
-      "subheadline": "Mouse study shows a single intranasal vaccine can slash viral loads 700-fold and protect against unrelated pathogens for months",
-      "body": "Researchers at Stanford Medicine have demonstrated that a single nasal spray vaccine can protect mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — for at least three months, according to findings published February 19 in the journal Science.\n\nThe experimental vaccine, designated GLA-3M-052-LS+OVA, represents a fundamental departure from conventional immunization. Rather than training the immune system to recognize a specific pathogen, the formulation supercharges the lungs' innate immune defenses while simultaneously recruiting adaptive immune cells that sustain heightened vigilance for months. In vaccinated mice, viral loads were reduced 700-fold compared to unvaccinated controls, and the adaptive immune system mounted pathogen-specific antibody and T-cell responses in as little as three days — roughly one-quarter the time normally required. All vaccinated mice survived challenges with SARS-CoV-2 and related coronaviruses, while unvaccinated animals experienced severe weight loss, lung inflammation, and frequent death.\n\nThe breadth of protection surprised even the researchers. Beyond coronaviruses, vaccinated mice resisted infection by Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired pneumonias — for approximately three months. In a further test, mice exposed to house dust mite protein, a trigger for allergic asthma, showed dramatically reduced allergic responses and maintained clear airways. \"I think what we have is a universal vaccine against diverse respiratory threats,\" said senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford.\n\nThe work builds on Pulendran's 2023 discovery that the BCG tuberculosis vaccine, given to roughly 100 million newborns annually, confers mysterious cross-protection against unrelated infections. His team traced the mechanism to T cells in the lungs that secrete cytokines activating toll-like receptors on innate immune cells, keeping them in a state of readiness far beyond their usual lifespan of days. The new vaccine was engineered to replicate that signaling cascade synthetically, using a combination of toll-like receptor stimulants and ovalbumin, a harmless egg protein that draws T cells into lung tissue.\n\nHuman testing is the next milestone. Pulendran said a Phase I safety trial is being planned, and he estimates that with adequate funding, a universal respiratory vaccine could reach clinical availability within five to seven years. If the approach translates to humans — where he believes two nasal spray doses may suffice — it could simplify seasonal vaccination and provide a rapid-deployment tool against future pandemic viruses. The study's lead author is Haibo Zhang, a postdoctoral scholar in Pulendran's laboratory.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "universal vaccine",
-        "respiratory disease",
-        "innate immunity",
-        "COVID-19",
-        "influenza",
-        "pneumonia"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T18:47:45.767Z"
     },
     {
       "id": "ps-1771872481299-gnt5",
@@ -110,27 +193,6 @@
       "publishedAt": "2026-02-23T18:48:18.358Z"
     },
     {
-      "id": "ps-1771872513458-es01",
-      "slug": "crypto-com-secures-federal-approval-for-national-trust-bank-",
-      "headline": "Crypto.com Secures Federal Approval for National Trust Bank Charter",
-      "subheadline": "The OCC's conditional approval positions the exchange to offer institutional-grade custody under a unified federal framework.",
-      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, marking a significant expansion of the exchange's institutional ambitions and adding to a surge of crypto firms seeking federal banking charters.\n\nThe planned entity, formally named Foris Dax National Trust Bank and operating as Crypto.com National Trust Bank, would function as a limited-purpose institution focused exclusively on trust services. It would not accept deposits or make loans. Instead, the bank would provide custody, staking, and trade settlement services for digital assets — including those on the company's proprietary Cronos blockchain. Crypto.com filed its application with the OCC in October and already operates a state-regulated custodian, Crypto.com Custody Trust Co., under New Hampshire's banking department. The federal charter would consolidate those offerings under a single national regulatory umbrella.\n\nThe distinction matters primarily for institutional clients. Exchange-traded fund issuers, asset managers, and other large-scale market participants generally prefer custodians operating under federal oversight, which simplifies compliance and reduces the patchwork of state-level regulatory obligations. A national trust charter effectively provides a standardized framework that can serve clients across all 50 states without requiring separate state licenses — a meaningful operational advantage in an industry where regulatory fragmentation has long been a barrier to institutional adoption.\n\nCrypto.com's approval is part of a broader wave of federal crypto banking charters that has accelerated in recent months. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all received similar conditional approvals from the OCC. Just last week, Stripe's stablecoin subsidiary Bridge secured its own initial approval to form a national trust bank. The pattern suggests a decisive shift in U.S. regulatory posture toward accommodating digital asset firms within the traditional banking framework rather than keeping them at arm's length.\n\nThe conditional approval is not final — Crypto.com must still satisfy additional requirements before the bank can begin operations. But the OCC's willingness to grant preliminary clearance signals that the path to full authorization is well within reach. For the broader crypto industry, the steady accumulation of federal charters represents a maturation of the sector's regulatory infrastructure, potentially laying the groundwork for deeper institutional participation in digital asset markets at a time when Bitcoin ETFs have seen $3.8 billion in outflows over the past five weeks and major tokens remain under significant price pressure.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Crypto.com",
-        "OCC",
-        "crypto custody",
-        "national trust bank",
-        "federal regulation",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T18:48:33.458Z"
-    },
-    {
       "id": "ps-1771871606382-ofy0",
       "slug": "novo-nordisk-s-next-gen-obesity-drug-falls-short-of-eli-lill",
       "headline": "Novo Nordisk's Next-Gen Obesity Drug Falls Short of Eli Lilly Rival",
@@ -151,28 +213,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/novo-new-obesity-shot-falls-short-of-lilly-rival-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T18:33:26.382Z"
-    },
-    {
-      "id": "ps-1771870707934-rud3",
-      "slug": "chinese-hackers-exploited-ivanti-vpn-backdoor-to-breach-119-",
-      "headline": "Chinese Hackers Exploited Ivanti VPN Backdoor to Breach 119 Organizations",
-      "subheadline": "Newly revealed 2021 breach highlights how private equity cost-cutting weakened cybersecurity at major VPN provider",
-      "body": "Chinese state-linked hackers planted a secret backdoor in Pulse Secure VPN software and used it to compromise 119 organizations, including European and U.S. military contractors, according to a Bloomberg investigation published this week. The previously unreported breach, discovered by Ivanti in February 2021, adds a critical chapter to the troubled cybersecurity history of one of the world's most widely used enterprise VPN providers.\n\nIvanti acquired Pulse Secure as a subsidiary, and the compromised VPN appliances were deployed across dozens of companies and government agencies worldwide. Cybersecurity firm Mandiant was reportedly aware of the intrusions and alerted Ivanti that hackers had exploited the vulnerability to penetrate defense contractors on both sides of the Atlantic. Neither Ivanti nor Mandiant has responded to requests for comment on the revelations.\n\nThe report draws a direct line between the breach and the cost-cutting measures imposed after private equity firm Clearlake Capital Group acquired Ivanti in 2017. Bloomberg documented multiple rounds of layoffs, particularly severe in 2022, that gutted the ranks of employees with deep institutional knowledge of the company's products and their security architecture. The pattern mirrors what happened at Citrix, another major remote-access provider that suffered repeated cybersecurity failures after its 2022 acquisition by Elliott Investment Management and Vista Equity Partners.\n\nThe Pulse Secure compromise was far from an isolated incident for Ivanti. The company's VPN products have been at the center of at least two additional major cyberattacks since 2021. In early 2024, the U.S. Cybersecurity and Infrastructure Security Agency took the extraordinary step of ordering all federal agencies to disconnect their Ivanti VPN appliances within 48 hours after discovering that hackers were actively exploiting zero-day vulnerabilities unknown to Ivanti itself. The following year, Ivanti warned customers that attackers were leveraging yet another critical flaw in its Connect Secure product to breach corporate networks.\n\nThe cascade of Ivanti security failures has become a case study in the unintended consequences of private equity ownership of critical cybersecurity infrastructure. As enterprises and government agencies increasingly rely on VPN appliances to secure remote access, the revelation that a single backdoor enabled the compromise of more than a hundred organizations raises urgent questions about supply chain security — and whether financial engineering and workforce reductions are fundamentally incompatible with maintaining the integrity of products that sit at the perimeter of sensitive networks.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "cybersecurity",
-        "Ivanti",
-        "VPN",
-        "China",
-        "private equity",
-        "hacking",
-        "Pulse Secure"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/ivanti-getty-smaller-zero-day.jpeg?w=1083",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T18:18:27.934Z"
     },
     {
       "id": "ps-1771870723172-hft3",
@@ -264,26 +304,6 @@
       "publishedAt": "2026-02-23T18:03:27.707Z"
     },
     {
-      "id": "ps-1771868855939-k2vk",
-      "slug": "ai-foundation-model-bridges-quantum-accuracy-and-biological-",
-      "headline": "AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
-      "subheadline": "UBio-MolFM achieves quantum-level precision for biomolecular simulations of up to 1,500 atoms, potentially transforming computational biology",
-      "body": "A team of researchers has unveiled a universal foundation model that promises to resolve one of computational biology's most stubborn trade-offs: the tension between quantum-mechanical accuracy and the ability to simulate large biological systems. The model, called UBio-MolFM, was detailed in a preprint posted to arXiv on February 13.\n\nMolecular simulations have long served as a \"computational microscope\" for probing the inner workings of living systems, but researchers have been forced to choose between precise quantum-mechanical calculations — feasible only for small molecules — and coarser methods that can handle the thousands of atoms found in proteins and other biomolecular structures. UBio-MolFM, developed by Lin Huang, Jia Zhang, and nine collaborators, attacks this problem on three fronts simultaneously.\n\nThe first innovation is UBio-Mol26, a large dataset tailored specifically for biological molecules. Built using what the authors call a \"Two-Pronged Strategy,\" the dataset combines systematic bottom-up enumeration of molecular configurations with top-down sampling from native protein environments, covering systems of up to 1,200 atoms. The second is E2Former-V2, an equivariant transformer architecture that scales linearly with system size rather than quadratically, as many attention-based models do. By integrating techniques the team dubs Equivariant Axis-Aligned Sparsification and Long-Short Range modeling, the architecture captures non-local physical interactions while delivering up to roughly four times higher inference throughput on large-system benchmarks. The third component is a three-stage curriculum learning protocol that progressively trains the model — first on energies, then on energy-force consistency, and finally with force-focused supervision — to avoid systematic energy offsets that have plagued earlier machine-learning potentials.\n\nThe researchers validated UBio-MolFM against a demanding suite of tests spanning both microscopic forces and macroscopic observables, including the structure of liquid water, ion solvation behavior, and peptide folding dynamics. The model achieved what the authors describe as \"ab initio-level fidelity\" on large, out-of-distribution biomolecular systems containing up to approximately 1,500 atoms — a scale that would be prohibitively expensive for direct quantum-mechanical computation.\n\nIf the results hold up under independent scrutiny, UBio-MolFM could significantly accelerate drug discovery, protein engineering, and fundamental biophysics research by making quantum-accurate simulations practical for realistically sized biological molecules. The work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend of foundation models migrating from language and vision into the physical sciences.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "molecular simulation",
-        "foundation models",
-        "computational biology",
-        "quantum mechanics",
-        "machine learning potentials"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1725758575836-338d8ac83592?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bW9sZWN1bGFyJTIwc2ltdWxhdGlvbiUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTg0MDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T17:47:35.939Z"
-    },
-    {
       "id": "ps-1771867102918-am4l",
       "slug": "mexico-reveals-operation-that-captured-its-most-wanted-carte",
       "headline": "Mexico Reveals Operation That Captured Its Most-Wanted Cartel Leader",
@@ -368,27 +388,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092255.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-23T16:03:48.986Z"
-    },
-    {
-      "id": "ps-1771862660236-t1i0",
-      "slug": "abbott-launches-20-billion-bond-sale-to-fund-exact-sciences-",
-      "headline": "Abbott Launches $20 Billion Bond Sale to Fund Exact Sciences Acquisition",
-      "subheadline": "The massive debt offering ranks among the largest of 2026 as revived M&A activity drives record corporate bond issuance",
-      "body": "Abbott Laboratories is tapping the U.S. bond market for approximately $20 billion to finance its acquisition of Exact Sciences Corp., the cancer-screening company, in what stands as one of the year's largest corporate debt offerings.\n\nThe bond sale, announced on February 23, underscores the resurgence of large-scale mergers and acquisitions after several years of corporate caution. The deal to acquire Exact Sciences — a Madison, Wisconsin-based company best known for its Cologuard colorectal cancer screening test — would significantly expand Abbott's diagnostics portfolio and position the healthcare conglomerate as a dominant force in early cancer detection. Abbott, already a major player in medical devices, diagnostics, and nutritional products, appears to be betting heavily that precision screening technologies will become a central pillar of modern healthcare.\n\nThe timing of the offering appears strategically favorable. Borrowing costs remain at historically low levels, giving Abbott an opportunity to lock in attractive rates on a massive debt load. Analysts, including those at Goldman Sachs, have forecast that 2026 could see record corporate bond issuance as companies move aggressively to finance deals that were shelved during periods of higher interest rates and economic uncertainty. A $20 billion raise in a single transaction places Abbott's offering in rare company, comparable to the mega-financings that have historically accompanied transformative acquisitions in the pharmaceutical and healthcare sectors.\n\nThe broader M&A revival has been a defining theme of early 2026. After years of restrained dealmaking driven by elevated rates and regulatory scrutiny, corporate boardrooms are once again pursuing large-scale combinations. Healthcare has emerged as a particularly active sector, with companies racing to acquire capabilities in diagnostics, genomics, and precision medicine. Abbott's move to absorb Exact Sciences fits squarely within that trend, marrying the former's global distribution and manufacturing scale with the latter's innovative screening technologies.\n\nFor the investment-grade bond market, the Abbott offering represents a significant test of investor appetite. Demand for high-quality corporate debt has been robust in recent months, but a $20 billion sale will require broad participation from institutional buyers. If the deal prices successfully, it could embolden other large acquirers to bring their own financings to market, further fueling what is shaping up to be a landmark year for corporate bond issuance.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Abbott Laboratories",
-        "Exact Sciences",
-        "bond sale",
-        "mergers and acquisitions",
-        "corporate bonds",
-        "healthcare"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHA6Fmh2FZ6M/v1/1200x800.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/abbott-laboratories-kicks-off-bond-sale-for-exact-sciences-deal",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T16:04:20.236Z"
     },
     {
       "id": "ps-1771860814776-zw4f",
