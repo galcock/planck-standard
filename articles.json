@@ -1,28 +1,135 @@
 {
-  "lastUpdated": "2026-02-23T16:48:38.263Z",
+  "lastUpdated": "2026-02-23T17:03:53.816Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771865240001-6ol5",
+      "id": "ps-1771866153007-217j",
       "slug": "25-national-guard-members-killed-as-mexico-erupts-after-drug",
       "headline": "25 National Guard Members Killed as Mexico Erupts After Drug Lord's Death",
       "subheadline": "Jalisco New Generation Cartel unleashes violence across 20 states following capture and killing of leader 'El Mencho'",
-      "body": "At least 25 members of Mexico's National Guard have been killed in a sweeping wave of cartel violence that erupted across the country after the death of Nemesio Oseguera Cervantes, the feared leader of the Jalisco New Generation Cartel known as \"El Mencho,\" Mexico's security minister confirmed Monday.\n\nEl Mencho, long considered Mexico's most wanted man and the subject of a $15 million U.S. bounty, was captured Sunday by Mexican special forces in the town of Tapalpa in Jalisco state after authorities tracked a romantic partner he was meeting. He was critically wounded during a firefight between his bodyguards and military commandos and died while being transported to Mexico City. Six of his security guards were killed in the operation, and three Mexican military personnel were injured.\n\nThe cartel's retaliation was immediate and far-reaching. Members of the CJNG launched coordinated attacks across at least 20 Mexican states, commandeering and torching buses and vehicles to block roads, scattering nails and spikes across highways, and setting fire to dozens of banks and local businesses. Residents in affected towns were ordered to shelter in their homes as streets emptied. In addition to the 25 National Guard casualties, security secretary Omar Garcia Harfuch said a prison guard, a member of the state prosecutor's office, and 30 members of El Mencho's criminal organization were killed in the ensuing chaos.\n\nPresident Claudia Sheinbaum praised the military operation that led to El Mencho's death and said her administration's priority is restoring peace and security nationwide. Mexico deployed 2,500 soldiers to the western part of the country to reinforce security, according to Defence Secretary Ricardo Trevilla. Sheinbaum said road blockades had been cleared by Monday morning, though the scale of destruction to infrastructure and businesses remains significant.\n\nMexico's defence ministry confirmed that the operation was carried out entirely by Mexican forces — the army, National Guard, and Air Force — though it acknowledged that \"complementary information\" from the United States helped locate the drug lord. No U.S. forces participated directly. The CJNG, which El Mencho built into one of the most powerful and violent criminal organizations in the Western Hemisphere, now faces an uncertain leadership vacuum — a development that security analysts warn could trigger prolonged factional violence as rivals and lieutenants compete for control of the cartel's vast drug trafficking empire.",
+      "body": "At least 25 members of Mexico's National Guard have been killed in a sweeping wave of cartel violence that engulfed more than 20 states following the death of Nemesio Oseguera Cervantes, the country's most wanted drug lord known as \"El Mencho,\" Mexico's security minister confirmed Monday.\n\nEl Mencho, who led the feared Jalisco New Generation Cartel (CJNG), was captured Sunday by Mexican special forces after they tracked a romantic partner he was meeting in the town of Tapalpa, Jalisco state. He was critically wounded in a firefight between his bodyguards and military commandos, and died while being transported to Mexico City. Six of his security guards were killed in the operation, while three Mexican military personnel were injured. The U.S. State Department had offered a $15 million reward for information leading to his capture, and Mexico's Defence Ministry acknowledged that \"complementary information\" from the United States aided the operation, though officials confirmed no American forces participated directly.\n\nThe cartel's response was immediate and devastating. Members of the CJNG launched coordinated attacks across towns and cities where the organization operates, blocking roads with spike strips, commandeering and torching buses, and setting fire to dozens of banks and local businesses. Residents in many towns were ordered to shelter in their homes as streets emptied. Security Secretary Omar Garcia Harfuch reported that beyond the 25 National Guard deaths, a prison guard, a member of the state prosecutor's office, and 30 members of El Mencho's criminal organization were also killed in the unrest.\n\nMexico deployed 2,500 soldiers to the western part of the country to restore order, Defence Secretary Ricardo Trevilla announced Monday. President Claudia Sheinbaum praised the military operation that led to El Mencho's death and said roadblocks had been cleared by Monday morning, pledging that her priority remains guaranteeing peace and security nationwide.\n\nThe scale of the violence underscores the CJNG's reach and the dangerous power vacuum that the death of a major cartel leader can create. El Mencho built the Jalisco cartel into one of Mexico's most powerful criminal organizations, rivaling the Sinaloa Cartel in both territorial control and narcotics trafficking capacity. His killing marks one of the most significant blows against organized crime in Mexico in years, but the retaliatory bloodshed illustrates the steep and immediate costs such operations can exact on the country's security forces and civilian population.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Mexico",
         "El Mencho",
-        "Jalisco New Generation Cartel",
+        "CJNG",
         "drug cartel",
         "National Guard",
-        "Claudia Sheinbaum",
+        "Jalisco",
         "organized crime"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/e39e/live/a5ab2ba0-10cb-11f1-b4d3-abf57a569766.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lp7xwql4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-23T16:47:20.001Z"
+      "publishedAt": "2026-02-23T17:02:33.007Z"
+    },
+    {
+      "id": "ps-1771866170233-t7rz",
+      "slug": "foundation-model-bridges-quantum-accuracy-and-biological-sca",
+      "headline": "Foundation Model Bridges Quantum Accuracy and Biological Scale in Molecular Simulation",
+      "subheadline": "UBio-MolFM achieves ab initio-level fidelity on biomolecular systems up to 1,500 atoms with 4x faster inference",
+      "body": "A team of researchers has unveiled a universal molecular foundation model that tackles one of computational biology's most stubborn bottlenecks: the inability to simultaneously achieve quantum-mechanical accuracy and simulate systems at biologically relevant scales. The model, called UBio-MolFM, was detailed in a preprint posted to arXiv on February 13.\n\nMolecular simulation has long served as a \"computational microscope\" for probing the machinery of life, but scientists have been forced to choose between high-fidelity quantum calculations — feasible only for small molecular systems — and coarser approximations that can handle larger biological structures. UBio-MolFM, developed by Lin Huang, Arthur Jiang, Jia Zhang, and colleagues, aims to dissolve that trade-off through three interlocking technical advances.\n\nThe first is UBio-Mol26, a large dataset purpose-built for biological systems using what the authors call a \"Two-Pronged Strategy.\" This approach combines systematic bottom-up molecular enumeration with top-down sampling drawn from native protein environments, covering systems containing up to 1,200 atoms. The second innovation is E2Former-V2, a linear-scaling equivariant transformer architecture that employs Equivariant Axis-Aligned Sparsification and Long-Short Range modeling to capture non-local physical interactions. In the team's benchmarks on large systems, this architecture delivers roughly four times the inference throughput of comparable methods. The third component is a three-stage curriculum learning protocol that progressively trains the model — first on energy initialization, then energy-force consistency, and finally force-focused supervision — to correct systematic energy offsets that plague conventional approaches.\n\nThe researchers validated UBio-MolFM across both microscopic and macroscopic observables, including liquid water structure, ionic solvation free energies, and peptide folding dynamics. The model demonstrated ab initio-level fidelity on biomolecular systems containing up to approximately 1,500 atoms — well beyond the training distribution — suggesting strong generalization capabilities. These out-of-distribution results are particularly significant because they indicate the model can be applied to novel biological systems without retraining.\n\nThe work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend of foundation models migrating from language and vision tasks into the physical sciences. If the results hold up under independent scrutiny, UBio-MolFM could substantially accelerate drug discovery, protein engineering, and other fields that depend on accurate molecular simulations at biological scale. The authors describe their tool as \"ready-to-use\" for next-generation computational biology, though the preprint has not yet undergone formal peer review.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "molecular simulation",
+        "foundation model",
+        "computational biology",
+        "quantum mechanics",
+        "machine learning",
+        "biomolecular systems"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1675627452821-476b9e185a5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8bW9sZWN1bGFyJTIwc2ltdWxhdGlvbiUyMGZvdW5kYXRpb24lMjBtb2RlbHxlbnwwfDB8fHwxNzcxODI2NTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-23T17:02:50.233Z"
+    },
+    {
+      "id": "ps-1771866187937-3vg4",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
+      "subheadline": "Experimental universal vaccine supercharges lung immunity for months, protecting against viruses, bacteria, and even allergens",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — by fundamentally rethinking how vaccines work. The findings, published February 19 in Science, mark a significant advance toward a long-sought universal respiratory vaccine.\n\nRather than training the immune system to recognize a specific pathogen, the vaccine — currently designated GLA-3M-052-LS+OVA — mimics the chemical signals immune cells exchange during infection, keeping the lungs' innate defenses on high alert for months. In the study, mice given three intranasal doses remained protected against SARS-CoV-2 and other coronaviruses for at least three months. Vaccinated animals showed a 700-fold reduction in viral levels compared to unvaccinated controls, which experienced severe weight loss, extensive lung inflammation, and frequently died. The vaccine also accelerated the adaptive immune response from the typical two-week timeline down to roughly three days.\n\nThe approach represents a departure from 230 years of vaccine design rooted in antigen specificity — the principle behind everything from Edward Jenner's smallpox inoculation to modern mRNA COVID-19 shots. \"It's becoming increasingly clear that many pathogens are able to quickly mutate,\" said senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford. \"Like the proverbial leopard that changes its spots, a virus can change the antigens on its surface.\" The new strategy sidesteps this problem entirely by bolstering the body's broad-spectrum innate immunity rather than targeting any single viral protein.\n\nThe vaccine's protective reach proved remarkably wide. Beyond coronaviruses, vaccinated mice resisted Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired infections — for approximately three months. In a further surprise, mice exposed to house dust mite proteins, a common trigger for allergic asthma, showed dramatically reduced allergic responses and maintained clear airways, while unvaccinated animals developed mucus-clogged lungs. The work builds on Pulendran's 2023 discovery that the tuberculosis vaccine's cross-protective effects stemmed from T cells sending cytokine signals that sustained innate immune activation far beyond its usual lifespan of days.\n\nHuman trials are the next milestone. Pulendran said a Phase I safety study is being planned, and he estimates that with adequate funding, a universal respiratory vaccine could reach patients within five to seven years. A two-dose nasal spray regimen is expected to be sufficient for humans. If the results translate from mice to people, a single fall-season nasal spray could potentially replace annual flu shots, COVID-19 boosters, and pneumonia vaccines while also offering a frontline defense against future pandemic pathogens. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's laboratory, conducted the study alongside collaborators at Stanford.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "universal vaccine",
+        "nasal spray vaccine",
+        "Stanford Medicine",
+        "innate immunity",
+        "respiratory disease",
+        "COVID-19",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-23T17:03:07.937Z"
+    },
+    {
+      "id": "ps-1771866203038-7yaw",
+      "slug": "pentagon-threatens-anthropic-with-supply-chain-risk-label-ov",
+      "headline": "Pentagon Threatens Anthropic With 'Supply Chain Risk' Label Over AI Limits",
+      "subheadline": "Defense Secretary Hegseth summons CEO Dario Amodei to discuss military applications of Claude amid escalating standoff",
+      "body": "The U.S. Department of Defense is escalating a confrontation with Anthropic, summoning CEO Dario Amodei to the Pentagon on Tuesday to deliver what sources describe as an ultimatum over the military's use of the company's Claude AI system. Defense Secretary Pete Hegseth is reportedly prepared to designate Anthropic a \"supply chain risk\" — a classification normally reserved for foreign adversaries — if the company does not relent on restrictions it has placed on its technology.\n\nThe dispute centers on Anthropic's refusal to permit the DoD to deploy Claude for mass surveillance of American citizens and for weapons systems that operate without human oversight. Anthropic, which has positioned itself as the safety-conscious leader among frontier AI companies, signed a $200 million contract with the Pentagon last summer but drew firm lines around certain use cases that it considers ethically unacceptable. Those boundaries are now being directly challenged by the defense establishment.\n\nTensions between the two sides became public following the January 3 special operations raid that resulted in the capture of Venezuelan President Nicolás Maduro. Claude was reportedly used during that operation, but the episode exposed deep disagreements over the scope of permissible military applications. According to Axios, which first reported the meeting, a source characterized Hegseth's message to Amodei as stark: cooperate fully or face expulsion from the defense ecosystem.\n\nThe consequences of a supply chain risk designation would be severe for Anthropic. Beyond voiding the company's existing $200 million contract, the label would compel other Pentagon partners and contractors to drop Claude from their systems entirely, potentially cutting Anthropic off from one of the most lucrative and strategically important customer bases in the AI industry. However, it remains unclear whether Hegseth is prepared to follow through — replacing Anthropic's capabilities would represent a significant undertaking for the Defense Department at a time when it is rapidly integrating AI across operations.\n\nThe standoff marks a pivotal moment in the relationship between the U.S. government and the AI industry. While competitors like OpenAI and Google have pursued defense partnerships with fewer public reservations, Anthropic has staked its reputation on a safety-first approach. Amodei now faces a choice that could define not only his company's trajectory but also the broader norms governing how advanced AI systems are deployed in military and intelligence contexts.",
+      "category": "tech",
+      "importance": 9,
+      "tags": [
+        "Anthropic",
+        "Pentagon",
+        "Claude",
+        "Dario Amodei",
+        "Pete Hegseth",
+        "AI military",
+        "defense",
+        "AI safety"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2260256117.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-23T17:03:23.038Z"
+    },
+    {
+      "id": "ps-1771866218121-vy5y",
+      "slug": "paypal-draws-takeover-interest-as-prolonged-stock-decline-cu",
+      "headline": "PayPal Draws Takeover Interest as Prolonged Stock Decline Cuts Valuation",
+      "subheadline": "The digital payments giant has seen its market value nearly halved, making it an attractive acquisition target, sources say",
+      "body": "PayPal Holdings Inc. has become the subject of takeover interest from potential acquirers after a steep and sustained decline in its share price erased roughly half the company's market value, according to people with knowledge of the situation.\n\nThe digital payments company, once a Wall Street darling that commanded a valuation north of $300 billion at its pandemic-era peak, has struggled in recent years to fend off intensifying competition from Apple Pay, Block's Cash App, and a host of buy-now-pay-later services. The prolonged slump has left PayPal trading at a fraction of its former highs, apparently catching the eye of suitors who see deep value in a platform that still processes hundreds of billions of dollars in annual payment volume and counts hundreds of millions of active accounts worldwide.\n\nThe identity of the interested parties and the stage of any discussions remain unclear. A deal for PayPal would rank among the largest technology acquisitions ever attempted, given the company's market capitalization still sits in the tens of billions of dollars. Any transaction would also likely face significant regulatory scrutiny, particularly in the United States and European Union, where antitrust enforcers have taken a harder line on consolidation in the fintech sector.\n\nPayPal has been working to reinvigorate growth under CEO Alex Chriss, who took the helm in late 2023 with a mandate to streamline operations, cut costs, and refocus the company's product strategy. The company has rolled out new features aimed at boosting engagement among its massive user base and improving margins, but investors have remained skeptical that the turnaround can restore the explosive growth trajectory of earlier years.\n\nThe emergence of acquisition interest adds a new dimension to PayPal's narrative at a time when the broader fintech landscape is undergoing rapid consolidation. Whether any approach leads to a formal bid remains to be seen, but the news underscores how dramatically the market's perception of PayPal has shifted — from an untouchable growth stock to a potential takeout candidate trading at a steep discount to its historical valuation.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "PayPal",
+        "mergers-and-acquisitions",
+        "fintech",
+        "digital-payments",
+        "takeover"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1641350625112-3b1d73c71418?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxQYXlQYWwlMjBtZXJnZXJzLWFuZC1hY3F1aXNpdGlvbnN8ZW58MHwwfHx8MTc3MTg2NDQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/paypal-attracts-takeover-interest-after-stock-slump",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-23T17:03:38.121Z"
+    },
+    {
+      "id": "ps-1771866233714-c0um",
+      "slug": "crypto-com-secures-federal-approval-for-national-trust-bank-",
+      "headline": "Crypto.com Secures Federal Approval for National Trust Bank Charter",
+      "subheadline": "The OCC's conditional nod for Foris Dax National Trust Bank adds Crypto.com to a growing wave of crypto firms seeking federal oversight.",
+      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, a move that would bring its institutional custody services under a unified federal framework. The planned entity, Foris Dax National Trust Bank — operating under the name Crypto.com National Trust Bank — would function as a limited-purpose institution focused on digital asset custody, staking, and trade settlement rather than traditional deposit-taking or lending.\n\nThe approval, announced on February 23, represents a strategic upgrade for the Singapore-headquartered exchange, which already operates a state-regulated qualified custodian through New Hampshire's banking department. A national trust charter carries significant weight with institutional clients such as ETF issuers and asset managers, who typically favor custodians operating under federal oversight for the compliance simplicity it affords. The bank would also service assets on Crypto.com's proprietary Cronos blockchain.\n\nCrypto.com filed its OCC application in October and now joins an accelerating procession of crypto-native firms pursuing federal bank charters. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all secured similar conditional approvals. Just last week, Stripe's stablecoin subsidiary Bridge received its own initial nod for a national trust bank. The pattern suggests a broader industry pivot toward operating within established regulatory frameworks rather than relying on a patchwork of state-level licenses.\n\nThe conditional approval is not yet final — the OCC must grant definitive authorization before the bank can commence operations — but it marks a substantive regulatory milestone. For the broader digital asset industry, the clustering of these approvals signals that federal regulators are increasingly willing to accommodate crypto firms within the national banking system, provided they confine their activities to trust and custody functions rather than full-service banking.\n\nThe development arrives against a turbulent market backdrop, with Bitcoin ETFs experiencing a historic $3.8 billion outflow streak over five weeks and Bitcoin itself stabilizing near $65,400 after a sharp overnight selloff. For Crypto.com, the federal charter positions the firm to capture institutional business even as retail sentiment wavers, potentially differentiating it from competitors still navigating fragmented state regulatory regimes.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Crypto.com",
+        "OCC",
+        "crypto custody",
+        "national trust bank",
+        "federal regulation",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-23T17:03:53.714Z"
     },
     {
       "id": "ps-1771865255920-8ixd",
@@ -44,93 +151,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17702",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-23T16:47:35.920Z"
-    },
-    {
-      "id": "ps-1771865273782-rjcl",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-targeting-covid-f",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Targeting COVID, Flu, and Pneumonia",
-      "subheadline": "Experimental intranasal vaccine supercharges the lungs' innate immune defenses, protecting mice for months against unrelated pathogens",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a broad spectrum of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — in what could represent a paradigm shift in vaccine design. The findings were published February 19 in the journal Science.\n\nUnlike conventional vaccines, which train the immune system to recognize a specific piece of a pathogen, the new formulation works by amplifying the lungs' own innate immune defenses and keeping them in a heightened state of readiness for months. In the mouse study, three intranasal doses reduced SARS-CoV-2 viral levels in the lungs by 700-fold, and all vaccinated animals survived exposures that killed unvaccinated counterparts. Protection lasted at least three months and extended to bacterial pathogens Staphylococcus aureus and Acinetobacter baumannii — common causes of hospital-acquired infections — as well as house dust mite allergens that trigger asthmatic reactions.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, builds on work by senior author Bali Pulendran and lead author Haibo Zhang that began in 2023, when the team discovered how the century-old tuberculosis vaccine confers unexpected cross-protection against unrelated infections. They found that T cells recruited to the lungs send cytokine signals that keep innate immune cells activated far longer than their usual lifespan of days. The new formulation synthetically replicates those signals while including a harmless egg protein, ovalbumin, that draws T cells into the lungs to sustain the response. The result is what Pulendran called a \"double whammy\": a persistent innate barrier that slashes pathogen levels, backed by an adaptive immune response that can mobilize virus-specific antibodies and T cells in as few as three days — roughly four times faster than in unvaccinated animals.\n\nThe approach directly addresses one of vaccinology's most persistent frustrations: pathogen mutation. Because the vaccine does not target any specific viral or bacterial surface protein, it could theoretically maintain efficacy even as pathogens evolve — eliminating the need for annual reformulation of flu shots and COVID-19 boosters. \"It's becoming increasingly clear that many pathogens are able to quickly mutate,\" Pulendran said. \"Like the proverbial leopard that changes its spots, a virus can change the antigens on its surface.\"\n\nSignificant hurdles remain before the technology reaches patients. The results have been demonstrated only in mice, and Pulendran's team plans to move into Phase I human safety trials as the next step. He estimates that two nasal spray doses could suffice for humans and that, with adequate funding, a universal respiratory vaccine could reach the market within five to seven years. If the approach translates successfully, a single fall-season nasal spray could one day replace multiple annual vaccinations while offering a rapid-deployment defense against novel pandemic viruses.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccines",
-        "nasal spray",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory disease",
-        "COVID-19",
-        "influenza",
-        "universal vaccine"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T16:47:53.782Z"
-    },
-    {
-      "id": "ps-1771865287623-oxel",
-      "slug": "pentagon-threatens-to-blacklist-anthropic-over-military-ai-l",
-      "headline": "Pentagon Threatens to Blacklist Anthropic Over Military AI Limits",
-      "subheadline": "Defense Secretary Hegseth summons CEO Dario Amodei to discuss Claude's use in surveillance and autonomous weapons",
-      "body": "The U.S. Department of Defense is threatening to designate Anthropic a \"supply chain risk\" — a classification normally reserved for foreign adversaries — after the AI company refused to permit its Claude model to be used for mass domestic surveillance and fully autonomous weapons systems. Defense Secretary Pete Hegseth has summoned Anthropic CEO Dario Amodei to the Pentagon on Tuesday to discuss the standoff, according to a report from Axios.\n\nThe confrontation marks one of the most dramatic clashes yet between the federal government and a leading AI company over the ethical boundaries of military technology. Anthropic signed a $200 million contract with the Department of Defense last summer, and Claude was reportedly deployed during the January 3 special operations raid that led to the capture of Venezuelan president Nicolás Maduro — an episode that brought simmering tensions between the two sides into public view. Now, a source familiar with the matter told Axios that Hegseth plans to deliver an ultimatum: cooperate with the Pentagon's demands or face exclusion from defense work entirely.\n\nA supply chain risk designation would carry severe consequences for Anthropic. The label would void the company's existing contract and compel other Pentagon partners and contractors to drop Claude from their operations, potentially cutting Anthropic off from one of the most lucrative and strategically important segments of the AI market. The designation has historically been applied to entities like Huawei and Kaspersky, making its use against a San Francisco-based AI startup unprecedented.\n\nWhether Hegseth is prepared to follow through remains an open question. Replacing Anthropic's capabilities would represent a significant undertaking for the Defense Department, which has increasingly integrated large language models into intelligence analysis, logistics, and operational planning. Anthropic's Claude is widely regarded as one of the most capable and safety-focused AI systems available, and the company has built its brand around responsible development — a philosophy now placing it in direct conflict with the administration's vision for military AI.\n\nThe showdown has broader implications for the entire AI industry. Other leading developers, including OpenAI and Google DeepMind, will be watching closely to see whether the government can compel compliance on use cases that cross ethical red lines their companies have drawn. The outcome could reshape the relationship between Silicon Valley and the Pentagon for years to come.",
-      "category": "tech",
-      "importance": 9,
-      "tags": [
-        "Anthropic",
-        "Pentagon",
-        "Claude",
-        "Dario Amodei",
-        "Pete Hegseth",
-        "military AI",
-        "defense policy",
-        "AI ethics"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2260256117.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T16:48:07.623Z"
-    },
-    {
-      "id": "ps-1771865303539-sh4r",
-      "slug": "paypal-draws-takeover-interest-as-prolonged-stock-decline-er",
-      "headline": "PayPal Draws Takeover Interest as Prolonged Stock Decline Erodes Valuation",
-      "subheadline": "The digital payments giant has seen nearly half its market value evaporate, making it an acquisition target",
-      "body": "PayPal Holdings Inc. has attracted interest from potential acquirers following a steep decline in its share price that has erased roughly half the company's market capitalization, according to people with knowledge of the matter.\n\nThe digital payments company, once among the most celebrated fintech success stories, has seen its valuation compressed dramatically from its pandemic-era highs as competition intensified across the payments landscape. Rivals including Apple Pay, Block's Cash App, and a wave of buy-now-pay-later services have steadily chipped away at PayPal's dominance in online checkout and peer-to-peer transfers. The prolonged slump has now apparently made the San Jose, California-based company look attractive to parties exploring a potential deal.\n\nDetails remain scarce regarding the identity of interested parties or how advanced any discussions may be. A transaction involving PayPal would rank among the largest technology acquisitions in recent memory, given the company's scale — it processes hundreds of billions of dollars in payment volume annually and operates across roughly 200 markets worldwide. Any deal would also likely face intense regulatory scrutiny from antitrust authorities in the United States and abroad, particularly given heightened attention to consolidation in the financial technology sector.\n\nPayPal has been working to reinvigorate growth under CEO Alex Chriss, who took the helm in September 2023 with a mandate to streamline operations and refocus the company's strategic direction. The company has pursued cost-cutting measures, invested in artificial intelligence-driven commerce tools, and sought to deepen its relationships with merchants. Yet investor sentiment has remained tepid, with the stock struggling to regain meaningful ground despite these restructuring efforts.\n\nThe emergence of takeover interest underscores a broader dynamic playing out across the technology sector, where once-highflying companies that have fallen out of favor with public market investors are increasingly seen as value opportunities by strategic buyers and private equity firms flush with capital. Whether any approach materializes into a formal bid remains uncertain, but the reported interest signals that major players see enduring value in PayPal's vast user base, global infrastructure, and brand recognition — assets that may be worth considerably more than the current stock price suggests.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "PayPal",
-        "mergers-and-acquisitions",
-        "fintech",
-        "digital-payments",
-        "takeover"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1648091854674-59abf26bbf39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxQYXlQYWwlMjBtZXJnZXJzLWFuZC1hY3F1aXNpdGlvbnN8ZW58MHwwfHx8MTc3MTg2NDQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/paypal-attracts-takeover-interest-after-stock-slump",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T16:48:23.539Z"
-    },
-    {
-      "id": "ps-1771865318146-gfx1",
-      "slug": "crypto-com-secures-occ-approval-for-federal-crypto-custodian",
-      "headline": "Crypto.com Secures OCC Approval for Federal Crypto Custodian Bank",
-      "subheadline": "The exchange joins a wave of crypto firms winning national trust bank charters as federal oversight of digital assets expands",
-      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, marking another milestone in the growing convergence between cryptocurrency firms and the traditional banking system. The approval, announced on February 23, positions the exchange to offer institutional custody, staking, and trade settlement services under a unified federal framework.\n\nThe new entity, formally named Foris Dax National Trust Bank and operating as Crypto.com National Trust Bank, will function as a limited-purpose institution — meaning it will not accept deposits or make loans. Instead, it will focus on custody and related digital asset services, including those built on Crypto.com's proprietary Cronos blockchain. The company already operates a qualified custodian, Crypto.com Custody Trust Co., regulated by New Hampshire's banking department, but the national charter represents a significant upgrade in regulatory standing.\n\nThe distinction matters considerably for institutional clients. Exchange-traded fund issuers, asset managers, and other large financial players typically prefer custodians operating under federal oversight, which simplifies compliance across state lines and provides a more standardized regulatory environment. By consolidating its custody operations under the OCC's authority, Crypto.com is positioning itself to compete more effectively for this institutional business.\n\nCrypto.com filed its OCC application in October, and while the conditional approval is not yet final, it represents a substantial step in the review process. The exchange is far from alone in pursuing this path. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all secured similar conditional approvals for national trust bank charters. Just last week, Stripe's stablecoin subsidiary Bridge also won initial approval to form a national trust bank. The cluster of approvals signals a broader regulatory posture under the current administration that is encouraging crypto firms to formalize their operations within existing federal banking structures rather than operating through a patchwork of state-level licenses.\n\nThe wave of national trust bank charters comes during a turbulent period for crypto markets. Bitcoin was trading near $65,400 on the day of the announcement, amid a broader market downturn that has seen Bitcoin ETFs shed $3.8 billion over five consecutive weeks of outflows. For Crypto.com and its peers, securing federal legitimacy may prove to be a strategic hedge — building institutional credibility that could prove valuable regardless of which direction prices move next.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Crypto.com",
-        "OCC",
-        "crypto regulation",
-        "custody",
-        "national trust bank",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T16:48:38.146Z"
     },
     {
       "id": "ps-1771863453817-54dp",
@@ -239,27 +259,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/abbott-laboratories-kicks-off-bond-sale-for-exact-sciences-deal",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T16:04:20.236Z"
-    },
-    {
-      "id": "ps-1771861670715-7xoj",
-      "slug": "foundation-model-bridges-quantum-accuracy-and-biological-sca",
-      "headline": "Foundation Model Bridges Quantum Accuracy and Biological Scale in Molecular Simulation",
-      "subheadline": "UBio-MolFM achieves ab initio-level fidelity on biomolecular systems up to 1,500 atoms with 4x faster inference",
-      "body": "A team of researchers has unveiled a universal molecular foundation model that claims to resolve one of computational biology's most persistent challenges: achieving quantum-mechanical accuracy at the scale of real biological systems. The model, called UBio-MolFM, was detailed in a preprint posted to arXiv on February 13.\n\nMolecular simulations have long served as a \"computational microscope\" for studying the machinery of life, but scientists have been forced to choose between the precision of quantum-mechanical calculations and the ability to model systems large enough to be biologically relevant. UBio-MolFM, developed by Lin Huang, Arthur Jiang, XiaoLi Liu, and colleagues, tackles this trade-off head-on through three interlocking technical innovations that together push the boundaries of what foundation models can achieve in chemical physics.\n\nAt the core of the work is UBio-Mol26, a large-scale dataset purpose-built for biological applications. The dataset was constructed using what the authors call a \"Two-Pronged Strategy\" — combining systematic bottom-up enumeration of molecular fragments with top-down sampling from native protein environments containing up to 1,200 atoms. This approach ensures the training data captures both fundamental chemical interactions and the complex environments found in real biomolecules. The model's architecture, dubbed E2Former-V2, is an equivariant transformer that scales linearly with system size. It employs two key mechanisms — Equivariant Axis-Aligned Sparsification and Long-Short Range modeling — to capture non-local physical interactions while delivering up to approximately four times higher inference throughput on large-system benchmarks compared to existing approaches.\n\nThe third innovation is a carefully designed three-stage curriculum learning protocol. Training progresses from energy initialization through energy-force consistency, culminating in force-focused supervision — a sequence designed to mitigate persistent energy offset problems that have plagued prior molecular machine learning models. Benchmarking across both microscopic and macroscopic observables, including liquid water structure, ionic solvation free energies, and peptide folding dynamics, the team reports that UBio-MolFM achieves ab initio-level fidelity on out-of-distribution biomolecular systems containing up to roughly 1,500 atoms.\n\nThe implications extend well beyond academic benchmarks. If the results hold up under broader scrutiny, a model capable of delivering quantum-level accuracy on biologically sized systems could accelerate drug discovery, protein engineering, and the study of enzymatic mechanisms — domains where the gap between simulation fidelity and system complexity has long been a bottleneck. The work sits at the intersection of chemical physics, biological physics, and artificial intelligence, underscoring the increasingly central role that foundation models are playing in the physical sciences.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "molecular simulation",
-        "foundation models",
-        "computational biology",
-        "quantum chemistry",
-        "machine learning",
-        "biomolecular systems"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655891709727-1506dff4af97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtb2xlY3VsYXIlMjBzaW11bGF0aW9uJTIwZm91bmRhdGlvbiUyMG1vZGVsc3xlbnwwfDB8fHwxNzcxODM5MTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T15:47:50.715Z"
     },
     {
       "id": "ps-1771860814776-zw4f",
