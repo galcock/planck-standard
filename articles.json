@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-23T22:18:49.888Z",
+  "lastUpdated": "2026-02-23T22:33:45.713Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771885045185-xsdf",
+      "id": "ps-1771885943420-mf7d",
       "slug": "lord-mandelson-arrested-over-alleged-leak-of-market-sensitiv",
       "headline": "Lord Mandelson Arrested Over Alleged Leak of Market-Sensitive Info to Epstein",
-      "subheadline": "Metropolitan Police detained the former UK ambassador to the US at his London home on suspicion of misconduct in public office",
-      "body": "Lord Peter Mandelson, the veteran Labour figure and former British ambassador to the United States, was arrested Monday at his Camden home in north London on suspicion of misconduct in public office, the Metropolitan Police confirmed.\n\nThe arrest stems from an investigation launched earlier this month into allegations that Mandelson, 72, passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a government minister. Officers from the Met's central specialist crime division led Mandelson from his residence in plain clothes and transported him in an unmarked vehicle to a police station for questioning. Search warrants were also executed at two addresses in Camden and Wiltshire.\n\nThe allegations emerged after the U.S. Department of Justice released a cache of documents last month that included email exchanges between Mandelson and Epstein. Among them, a 2009 email appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures, including an \"asset sales plan.\" Other correspondence reportedly discussed a tax on bankers' bonuses and confirmed an imminent eurozone bailout package the day before its public announcement in 2010. Mandelson has not commented publicly on the Epstein files in recent weeks, though the BBC reported his position is that he did not act criminally and was not motivated by financial gain. Consultations between police and the Crown Prosecution Service are ongoing.\n\nThe arrest compounds a political crisis for Prime Minister Sir Keir Starmer, who appointed Mandelson as ambassador to Washington in February 2025 only to sack him in September after Downing Street said new information about the depth of his relationship with Epstein had surfaced. Starmer has accused Mandelson of having \"lied\" during his vetting process, and the government has pledged to release documents related to the appointment in early March — though some materials are now being withheld at police request. Conservative leader Kemi Badenoch called the arrest \"the defining moment of Sir Keir's premiership,\" saying the image of the prime minister's own diplomatic appointee being led away by police would endure for years.\n\nMandelson, a central architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, also faces pressure from U.S. lawmakers who have urged him to testify before a congressional investigation into Epstein. His arrest marks an extraordinary fall for a figure who has shaped British politics for four decades and who, until months ago, held one of the country's most prestigious diplomatic posts.",
+      "subheadline": "Metropolitan Police detain former UK ambassador to the US on suspicion of misconduct in public office",
+      "body": "Lord Peter Mandelson was arrested Monday at his Camden, north London, home on suspicion of misconduct in public office, the Metropolitan Police confirmed. Officers from the Met's central specialist crime division led the 72-year-old from his residence and transported him to a police station for questioning.\n\nThe arrest stems from an investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein. The allegations emerged after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Among the materials, a 2009 email appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown about policy measures, including an \"asset sales plan.\" He also allegedly discussed a tax on bankers' bonuses and appeared to confirm an imminent eurozone bailout package the day before it was publicly announced in 2010. Search warrants were executed at two addresses in Wiltshire and Camden as part of the operation.\n\nMandelson, a central architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, was appointed British ambassador to the United States in February 2025. He was dismissed from that post in September after Downing Street said new information had surfaced regarding the depth of his relationship with Epstein. The BBC reported that Mandelson's position is that he has not acted criminally and was not motivated by financial gain, though he has not commented publicly on the Epstein files in recent weeks.\n\nThe arrest carries significant political ramifications for Prime Minister Sir Keir Starmer's government. Conservative leader Kemi Badenoch called the detention \"the defining moment of Sir Keir's premiership,\" describing the image of a former top diplomatic appointee being led away by police as one that would endure for years. The government has said it expects to release documents related to Mandelson's ambassadorial appointment in early March, though consultations between police and the Crown Prosecution Service are ongoing. Chief Secretary to the Prime Minister Darren Jones told MPs that certain records from the vetting process would be withheld from the initial release due to Met Police interest.\n\nMandelson also faces pressure from across the Atlantic, where U.S. politicians have urged him to testify before a congressional investigation into Epstein's network. The case now poses a dual legal and diplomatic challenge, threatening to overshadow the Starmer government's agenda while raising questions about the vetting failures that allowed Mandelson's appointment to proceed.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -21,7 +21,117 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c563/live/f144c580-10e4-11f1-b4ca-a9a29eb10e90.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-23T22:17:25.185Z"
+      "publishedAt": "2026-02-23T22:32:23.420Z"
+    },
+    {
+      "id": "ps-1771885960589-vyen",
+      "slug": "foundation-model-bridges-quantum-accuracy-and-biological-sca",
+      "headline": "Foundation Model Bridges Quantum Accuracy and Biological Scale in Molecular Simulation",
+      "subheadline": "UBio-MolFM achieves ab initio-level fidelity on biomolecular systems up to 1,500 atoms with 4x faster inference",
+      "body": "A team of researchers has unveiled a universal foundation model that addresses one of computational biology's most persistent challenges: achieving quantum-mechanical precision at the scale of real biological systems. The model, called UBio-MolFM, can simulate biomolecular systems containing up to roughly 1,500 atoms while maintaining accuracy comparable to first-principles quantum calculations — a feat that has long eluded the field.\n\nPresented in a preprint posted to arXiv on February 13, the work by Lin Huang, Jia Zhang, and nine co-authors introduces three interlocking technical advances. First, the team constructed UBio-Mol26, a large dataset tailored to biological molecules using what they call a \"Two-Pronged Strategy\" that combines bottom-up enumeration of molecular building blocks with top-down sampling from native protein environments, covering systems of up to 1,200 atoms. Second, they developed E2Former-V2, an equivariant transformer architecture that scales linearly with system size rather than quadratically, achieving up to approximately four times higher inference throughput on large-system benchmarks through novel sparsification and long-short range modeling techniques. Third, a three-stage curriculum learning protocol systematically trains the model from energy initialization through force-focused supervision, resolving a notorious problem of energy offset artifacts.\n\nThe practical significance lies in UBio-MolFM's performance on realistic biological observables. The researchers report that the model accurately reproduces the structure of liquid water, the thermodynamics of ionic solvation, and peptide folding dynamics — properties that emerge from complex many-body interactions and are notoriously difficult for machine-learned potentials to capture simultaneously. Critically, these results held even for large, out-of-distribution systems the model had not encountered during training, suggesting genuine generalization rather than memorization.\n\nAll-atom molecular simulation has long served as what researchers call a \"computational microscope\" for understanding life's machinery, from drug binding to protein misfolding in disease. But practitioners have been forced to choose between quantum-mechanical methods that are accurate but computationally prohibitive beyond a few hundred atoms, and classical force fields that scale well but miss essential quantum effects. UBio-MolFM's linear-scaling architecture and biological training data represent a meaningful step toward dissolving that trade-off.\n\nThe authors describe the model as a \"robust, ready-to-use tool\" for next-generation computational biology, spanning chemical physics, biological physics, and artificial intelligence. If its claimed accuracy and scalability hold up under independent scrutiny, UBio-MolFM could accelerate simulations across drug discovery, protein engineering, and materials design — domains where quantum-level fidelity at biological scale has remained an elusive goal.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "molecular simulation",
+        "foundation model",
+        "computational biology",
+        "quantum mechanics",
+        "machine learning",
+        "biomolecular systems"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1659034638756-778a03d1e27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtb2xlY3VsYXIlMjBzaW11bGF0aW9uJTIwZm91bmRhdGlvbiUyMG1vZGVsfGVufDB8MHx8fDE3NzE4NDgxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-23T22:32:40.590Z"
+    },
+    {
+      "id": "ps-1771885977240-iisu",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-against-covid-flu",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Against COVID, Flu, and Pneumonia",
+      "subheadline": "Experimental intranasal vaccine supercharges lung immunity for months, protecting mice from viruses, bacteria, and allergens alike",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a remarkably broad array of respiratory threats — including SARS-CoV-2, bacterial pneumonia, and even common allergens — for up to three months, according to findings published February 19 in the journal Science.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, represents a fundamental departure from conventional vaccine design. Rather than training the immune system to recognize a specific pathogen, the formulation mimics the chemical signals that immune cells use during active infections, effectively placing the lungs' innate defense system on sustained high alert. Senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, said the approach challenges 230 years of vaccine orthodoxy. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said of the idea that a single vaccine could defend against unrelated pathogens simultaneously.\n\nThe results in mice were striking. Animals that received three intranasal doses showed a 700-fold reduction in viral levels in the lungs when challenged with SARS-CoV-2. All vaccinated mice survived exposure, while unvaccinated animals suffered severe weight loss, extensive lung inflammation, and frequently died. The vaccine also accelerated the adaptive immune response — virus-specific T cells and antibodies mobilized in as little as three days, compared to the typical two weeks in unvaccinated mice. Protection extended beyond coronaviruses to Staphylococcus aureus and Acinetobacter baumannii, two bacteria responsible for dangerous hospital-acquired infections. In a further surprise, vaccinated mice exposed to house dust mite proteins — a common trigger for allergic asthma — showed markedly reduced allergic reactions and maintained clear airways.\n\nThe work builds on a 2023 discovery by Pulendran's group that explained how the tuberculosis vaccine BCG confers unexplained protection against unrelated infections. That study revealed that adaptive immune T cells recruited to the lungs send cytokine signals that keep innate immune cells activated for months rather than the usual days. The new vaccine was engineered to replicate that mechanism synthetically, using toll-like receptor stimulants paired with a harmless egg protein, ovalbumin, which draws T cells into lung tissue and sustains the heightened innate response.\n\nThe lead author, postdoctoral scholar Haibo Zhang, and the team now plan to advance toward a Phase I human safety trial. Pulendran estimates that two nasal spray doses could be sufficient for people and, with adequate funding, envisions a universal respiratory vaccine reaching clinical availability within five to seven years. If the approach translates from mice to humans, it could simplify seasonal vaccination into a single autumn nasal spray covering influenza, COVID-19, RSV, bacterial pneumonia, and common allergens — while also providing a rapid-deployment tool against future pandemic viruses.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccines",
+        "nasal spray vaccine",
+        "Stanford Medicine",
+        "respiratory disease",
+        "innate immunity",
+        "COVID-19",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-23T22:32:57.240Z"
+    },
+    {
+      "id": "ps-1771885991642-ag38",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation attacks",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a revelation that arrives as Washington weighs whether to tighten or loosen export controls on advanced chips bound for China.\n\nThe alleged campaign generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the Chinese labs specifically targeted Claude's most advanced features, including agentic reasoning, tool use, and coding. The three companies operated at vastly different scales: MiniMax accounted for roughly 13 million of the exchanges, focused on agentic coding and orchestration; Moonshot AI generated 3.4 million exchanges aimed at reasoning and computer vision capabilities; and DeepSeek was tracked across more than 150,000 exchanges that appeared designed to improve foundational logic and alignment — particularly around navigating policy-sensitive content.\n\nThe accusations amplify a growing chorus of concern from American AI companies about intellectual property theft by Chinese competitors. OpenAI sent a memo to House lawmakers earlier this month making similar allegations against DeepSeek, which burst onto the global stage a year ago with its open-source R1 reasoning model that rivaled U.S. frontier systems at a fraction of the cost. DeepSeek is reportedly preparing to release its V4 model, which may surpass both Claude and ChatGPT in coding benchmarks.\n\nAnthropic tied the distillation campaigns directly to the chip export debate, arguing that executing extraction at this scale \"requires access to advanced chips\" and therefore reinforces the case for maintaining strict controls. The Trump administration last month allowed U.S. companies including Nvidia to resume exports of advanced AI processors like the H200 to China — a move critics say bolsters Beijing's computing infrastructure at a pivotal moment. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings should compel Washington to refuse chip sales to implicated firms. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he said.\n\nBeyond commercial concerns, Anthropic raised national security implications, warning that models built through illicit distillation are unlikely to retain safety guardrails designed to prevent misuse in bioweapons development, cyberattacks, or surveillance. The company called for a coordinated industry and policy response and said it would invest in defenses to make distillation attacks harder to execute. None of the three accused Chinese companies had publicly responded at the time of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-23T22:33:11.642Z"
+    },
+    {
+      "id": "ps-1771886008068-erb0",
+      "slug": "ibm-suffers-worst-single-day-drop-since-2000-after-anthropic",
+      "headline": "IBM Suffers Worst Single-Day Drop Since 2000 After Anthropic Cobol Announcement",
+      "subheadline": "Anthropic's Claude Code tool threatens IBM's lucrative legacy mainframe business by promising to modernize decades-old Cobol systems",
+      "body": "Shares of International Business Machines Corp. plunged on Monday in the company's steepest single-day decline in more than a quarter century, triggered by an announcement from artificial intelligence startup Anthropic that its Claude Code tool can assist in modernizing Cobol — the decades-old programming language that has long underpinned IBM's mainframe computing empire.\n\nThe selloff, IBM's worst since 2000, underscores how rapidly generative AI is reshaping competitive dynamics even in corners of the technology industry that have remained largely unchanged for decades. Cobol, which dates back to the 1950s, still powers critical systems across banking, insurance, government, and healthcare — sectors that have relied heavily on IBM mainframes and the specialized consulting services required to maintain them. IBM has built a durable revenue stream around the reality that few modern programmers know Cobol, making clients dependent on expensive legacy support contracts.\n\nAnthropic's claim that Claude Code can help translate, refactor, and modernize Cobol codebases strikes directly at this dependency. If AI tools can reliably automate the migration of Cobol systems to modern programming languages and cloud-native architectures, the economic moat surrounding IBM's mainframe business could erode significantly. The company's Infrastructure segment, which includes mainframe hardware and related software, generated billions in annual revenue and has been a cornerstone of IBM's strategy even as it pivoted toward hybrid cloud and AI under CEO Arvind Krishna.\n\nThe market reaction reflects broader investor anxiety about how generative AI could disrupt entrenched technology incumbents. While IBM itself has invested heavily in AI — including its watsonx platform — the prospect of a rival startup commoditizing one of its most defensible business lines rattled shareholders. Analysts have long viewed Cobol modernization as a massive but slow-moving opportunity; Anthropic's announcement suggests the timeline may be compressing faster than expected.\n\nIBM has not yet issued a public response to Anthropic's announcement. The San Francisco-based AI company, backed by major investors including Google and Salesforce, has been aggressively expanding the capabilities of its Claude models into software engineering tasks, positioning the technology as a tool for enterprise-grade code transformation. Monday's market reaction suggests investors are taking that ambition seriously.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "IBM",
+        "Anthropic",
+        "Cobol",
+        "AI",
+        "mainframe",
+        "Claude Code",
+        "legacy modernization"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1672233358780-ed92c20e00e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxzdWZmZXJzJTIwd29yc3QlMjBzaW5nbGVkYXl8ZW58MHwwfHx8MTc3MTg4MzMwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/ibm-shares-plunge-as-anthropic-touts-cobol-modernization-efforts",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-23T22:33:28.068Z"
+    },
+    {
+      "id": "ps-1771886025621-2yks",
+      "slug": "bitcoin-slides-to-64-000-as-ai-disruption-fears-hammer-ibm-d",
+      "headline": "Bitcoin Slides to $64,000 as AI Disruption Fears Hammer IBM, Drag Markets",
+      "subheadline": "Anthropic's COBOL automation announcement triggers 11% IBM plunge, spreading contagion to crypto and equities",
+      "body": "A fresh wave of artificial intelligence disruption anxiety swept through global markets on Monday, sending Bitcoin tumbling 5% to $64,000 and dragging major stock indices down more than 1% after Anthropic revealed that its Claude platform can automate the modernization of legacy COBOL code — a business long dominated by IBM's consulting empire.\n\nIBM shares cratered 11.2% in Monday's session after Anthropic detailed how its Claude Code tool can streamline the laborious process of analyzing and updating COBOL systems, which the AI company said handle roughly 95% of ATM transactions in the United States and underpin critical infrastructure across finance, airlines, and government. The work of converting these aging codebases has historically required, in Anthropic's words, \"armies of consultants spending years mapping workflows\" — a description that maps squarely onto IBM's lucrative services business. With the pool of engineers fluent in the decades-old programming language shrinking rapidly, AI-driven automation could collapse what has been a durable revenue stream.\n\nThe fallout extended well beyond IBM. The Dow Jones Industrial Average, S&P 500, and Nasdaq Composite each declined more than 1%, continuing a pattern of AI-triggered selloffs that have become an almost daily occurrence in the software and enterprise services sectors. The Kobeissi Letter, a widely followed market commentary, noted that \"it's becoming increasingly clear how pivotal the times we are in right now truly are.\"\n\nCryptocurrency markets, which have traded in tight correlation with software equities in recent months, bore significant collateral damage. Bitcoin fell to $64,000, while Ethereum and Solana posted similarly steep losses. Publicly traded crypto-adjacent companies including Coinbase, Strategy (formerly MicroStrategy), Circle, and Galaxy Digital all shed between 4% and 7%. Many major tokens now sit within striking distance of their February 5 panic lows, underscoring the fragility of recent support levels. Bitcoin ETFs have already hemorrhaged $3.8 billion over a historic five-week outflow streak.\n\nIn a notable divergence, Bitcoin mining companies that have pivoted toward AI infrastructure — effectively positioning themselves on the winning side of the disruption — traded in the green. IREN gained 5%, Cipher Mining rose 3.4%, CleanSpark added 1.5%, and Hut 8 ticked up 0.7%. Precious metals also served as a haven, with gold surging 3.2% to $5,243 per ounce and silver jumping 6.5% to $87.69, reinforcing a flight-to-safety dynamic as investors reassess which business models can survive an accelerating AI revolution.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "IBM",
+        "Anthropic",
+        "AI disruption",
+        "COBOL",
+        "crypto selloff",
+        "stock market",
+        "gold"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-23T22:33:45.621Z"
     },
     {
       "id": "ps-1771885060238-jj4s",
@@ -44,51 +154,6 @@
       "publishedAt": "2026-02-23T22:17:40.238Z"
     },
     {
-      "id": "ps-1771885078437-wt3v",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
-      "subheadline": "The experimental universal vaccine supercharges innate lung immunity, slashing viral levels 700-fold and lasting months",
-      "body": "Researchers at Stanford Medicine have developed a nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — in findings published February 19 in the journal Science.\n\nThe experimental vaccine, designated GLA-3M-052-LS+OVA, represents a fundamental departure from conventional vaccine design. Rather than training the immune system to recognize a specific pathogen, the formulation mimics the chemical signals that immune cells exchange during an active infection, keeping the lungs' innate defenses on sustained high alert. In vaccinated mice that received three doses, SARS-CoV-2 levels in the lungs dropped 700-fold compared with unvaccinated animals, and the protection persisted for at least three months. All vaccinated mice survived viral challenge, while unvaccinated animals experienced severe weight loss, extensive lung inflammation, and frequent death.\n\nThe approach builds on a 2023 discovery by the same group, led by senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford. That earlier work revealed how the tuberculosis vaccine BCG generates unexpected cross-protection against unrelated infections: T cells drawn into the lungs release cytokines that activate toll-like receptors on innate immune cells, sustaining a broad defensive state that normally fades within days. The new vaccine was engineered to synthetically reproduce that mechanism. It includes a harmless egg protein called ovalbumin to recruit T cells into the lungs, where they maintain the heightened innate response. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, helped design and test the formulation.\n\nBeyond viruses, the team demonstrated that the vaccine defended mice against hospital-acquired bacterial infections caused by Staphylococcus aureus and Acinetobacter baumannii for roughly three months. In a more surprising result, vaccinated mice exposed to house dust mite proteins — a common trigger for allergic asthma — showed dramatically reduced allergic responses and maintained clear airways, while unvaccinated animals developed mucus buildup and strong inflammatory reactions. Pulendran described the vaccine's dual mechanism as a \"double whammy\": sustained innate immunity neutralizes most threats immediately, while any pathogens that slip through encounter an adaptive immune response that mobilizes in just three days rather than the typical two weeks.\n\nThe findings remain preclinical, and the path to human use involves significant hurdles. Pulendran said the next milestone is a Phase I safety trial in people, where he anticipates two nasal spray doses may be sufficient. With adequate funding, he estimates a universal respiratory vaccine could reach the public within five to seven years. If the results translate from mice to humans, a single fall nasal spray could theoretically replace annual flu shots, COVID boosters, and pneumonia vaccines while offering a rapid-deployment defense against novel pandemic viruses — a prospect that, as Pulendran acknowledged, \"nobody was seriously entertaining\" could ever be possible.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "universal vaccine",
-        "nasal spray vaccine",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory infections",
-        "COVID-19",
-        "influenza"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T22:17:58.437Z"
-    },
-    {
-      "id": "ps-1771885095047-cb6k",
-      "slug": "anthropic-alleges-chinese-ai-labs-used-24-000-fake-accounts-",
-      "headline": "Anthropic Alleges Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign",
-      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of orchestrating a large-scale effort to extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically sensitive moment.\n\nThe San Francisco-based company said the three labs created more than 24,000 fraudulent accounts and generated upwards of 16 million exchanges with Claude, employing a technique known as distillation to systematically harvest the model's most advanced capabilities. Distillation is a legitimate training method when applied to a company's own models, but Anthropic alleges the Chinese firms effectively used it to reverse-engineer Claude's strengths in agentic reasoning, tool use, and coding — areas where the model is considered most competitive.\n\nThe scope varied significantly across the three firms. MiniMax accounted for the largest volume, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from Claude's latest release in real time. Moonshot AI, which recently launched its Kimi K2.5 open-source model and a coding agent, was linked to 3.4 million exchanges targeting reasoning, computer vision, and agent development. DeepSeek's activity was smaller in volume — around 150,000 exchanges — but appeared aimed at foundational logic and alignment, particularly around generating responses to policy-sensitive queries that might otherwise be censored.\n\nThe allegations land squarely in the middle of a heated policy debate over U.S. AI chip exports to China. The Trump administration last month allowed companies like Nvidia to resume selling advanced chips such as the H200 to Chinese buyers, a move critics argue undermines efforts to maintain America's AI edge. Anthropic explicitly connected the distillation campaign to the export control debate, arguing that the scale of extraction these labs performed \"requires access to advanced chips\" and that restricting chip sales would curtail both direct training and illicit distillation efforts. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, called the revelations unsurprising but significant, saying they provide \"even more compelling reasons to refuse to sell any AI chips\" to the companies involved.\n\nBeyond commercial concerns, Anthropic raised national security alarms, warning that models built through unauthorized distillation are unlikely to retain safety guardrails designed to prevent misuse in areas like bioweapons development, offensive cyber operations, and disinformation campaigns. The company called for a coordinated response involving AI developers, cloud providers, and policymakers. None of the three accused companies had publicly responded to the allegations at the time of reporting.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T22:18:15.047Z"
-    },
-    {
       "id": "ps-1771885112378-f25o",
       "slug": "ibm-suffers-worst-single-day-drop-in-25-years-as-ai-scare-tr",
       "headline": "IBM Suffers Worst Single-Day Drop in 25 Years as AI 'Scare Trade' Sweeps Markets",
@@ -109,49 +174,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/software-payments-shares-tumble-after-citrini-post-on-ai-risks",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T22:18:32.378Z"
-    },
-    {
-      "id": "ps-1771885129796-lgih",
-      "slug": "crypto-and-stocks-slide-as-anthropic-s-cobol-breakthrough-ha",
-      "headline": "Crypto and Stocks Slide as Anthropic's COBOL Breakthrough Hammers IBM",
-      "subheadline": "Bitcoin drops to $64,000 and IBM plunges 11% after Claude AI threatens a key legacy consulting business",
-      "body": "Artificial intelligence disruption claimed another corporate casualty on Monday as IBM shares cratered 11.2% following Anthropic's announcement that its Claude Code platform can automate COBOL modernization — a lucrative consulting business that has long been a cornerstone of IBM's revenue. The fallout dragged major stock indices and cryptocurrency markets sharply lower.\n\nAnthrop's revelation struck at the heart of a massive legacy software ecosystem. COBOL, a decades-old programming language, still underpins an estimated 95% of U.S. ATM transactions and powers hundreds of billions of lines of production code across finance, airlines, and government. With the original developers long retired and few universities still teaching the language, modernizing these systems has historically required expensive, years-long consulting engagements — the kind of work that has been IBM's bread and butter. Anthropic's claim that Claude Code can automate the exploration and analysis phases that consume most of that effort represents a direct threat to that business model.\n\nThe IBM selloff rippled across broader markets, compounding what has become a recurring pattern of AI-driven disruption battering the software sector and adjacent industries. The Dow, S&P 500, and Nasdaq all fell more than 1%. Cryptocurrency markets, which have traded in tight correlation with software stocks in recent months, suffered particularly steep declines. Bitcoin tumbled 5% over 24 hours to approximately $64,000, while Ethereum and Solana posted similar losses. Crypto-adjacent equities including Coinbase, Strategy, Circle, and Galaxy Digital dropped between 4% and 7%, with several major tokens approaching the lows hit during the February 5 panic.\n\nNot everything was in the red, however. Bitcoin miners that have pivoted toward AI infrastructure — including IREN, Cipher Mining, CleanSpark, and Hut 8 — posted gains ranging from 0.7% to 5%, underscoring how the AI revolution is creating winners even as it destroys incumbent business models. Precious metals also surged as investors sought safety, with gold climbing 3.2% to $5,243 per ounce and silver jumping 6.5% to $87.69.\n\nThe session underscored the accelerating pace at which AI advances are reshaping market dynamics. \"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" noted The Kobeissi Letter. For crypto investors, the key concern is whether the tight coupling between digital assets and technology stocks will persist — and whether Bitcoin's slide toward its early-February lows signals a broader capitulation or a buying opportunity as AI continues to redraw the competitive landscape across industries.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "IBM",
-        "Anthropic",
-        "COBOL",
-        "Bitcoin",
-        "AI disruption",
-        "crypto selloff",
-        "stock market"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T22:18:49.796Z"
-    },
-    {
-      "id": "ps-1771884215879-car6",
-      "slug": "ibm-suffers-worst-single-day-drop-since-2000-after-anthropic",
-      "headline": "IBM Suffers Worst Single-Day Drop Since 2000 After Anthropic Cobol Announcement",
-      "subheadline": "Anthropic's Claude Code tool threatens IBM's lucrative legacy mainframe modernization business",
-      "body": "Shares of International Business Machines Corp. plunged on Monday in the company's steepest single-session decline in more than a quarter century, rattled by an announcement from artificial intelligence startup Anthropic that its Claude Code tool can assist in modernizing Cobol — the decades-old programming language deeply intertwined with IBM's mainframe business.\n\nThe selloff, IBM's worst trading day since 2000, underscores how quickly AI-driven disruption can reshape investor sentiment around even the most entrenched enterprise technology franchises. Cobol, which dates back to the late 1950s, remains the backbone of mission-critical systems across banking, insurance, government, and healthcare — sectors where IBM has long derived substantial revenue from maintaining and gradually modernizing legacy infrastructure. The company's consulting and infrastructure divisions have built entire business lines around the complexity and institutional knowledge required to manage Cobol environments running on IBM mainframes.\n\nAnthropic's claim that Claude Code can accelerate Cobol modernization efforts strikes at the heart of that value proposition. If AI tools can reliably translate, refactor, or replace Cobol code at scale, it could compress timelines and reduce the dependency on specialized — and increasingly scarce — Cobol programmers, many of whom are nearing retirement. For IBM, which has positioned itself as the indispensable partner for organizations navigating this transition, the threat is existential to a meaningful revenue stream rather than to the company as a whole, but markets clearly treated the news with severity.\n\nThe scale of Monday's decline reflects broader anxieties about how generative AI may erode the moats of legacy technology providers. IBM has been investing heavily in its own AI capabilities, most notably through its WatsonX platform, but the Anthropic announcement suggests that well-funded AI-native competitors may be able to leapfrog incumbents in specific, high-value domains. Cobol modernization alone represents an estimated tens of billions of dollars in global IT spending, making it a prize worth contesting.\n\nNeither IBM nor Anthropic immediately provided additional detail on the scope or reliability of Claude Code's Cobol capabilities. Investors will be watching closely for IBM's response, particularly any demonstration that its own AI tools can match or exceed what Anthropic has promised — and whether Monday's dramatic repricing proves to be an overreaction or an early signal of structural disruption ahead.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "IBM",
-        "Anthropic",
-        "Cobol",
-        "AI disruption",
-        "mainframe modernization",
-        "Claude Code"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxidXNpbmVzc3xlbnwwfDB8fHwxNzcxODgxNTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/ibm-shares-plunge-as-anthropic-touts-cobol-modernization-efforts",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T22:03:35.879Z"
     },
     {
       "id": "ps-1771882405605-c1oa",
@@ -217,26 +239,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/us-treasuries-gain-as-traders-weigh-impact-of-tariff-ruling",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T20:48:29.044Z"
-    },
-    {
-      "id": "ps-1771878755697-ell8",
-      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
-      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
-      "subheadline": "UBio-MolFM achieves quantum-level precision in molecular simulations of systems up to 1,500 atoms with 4x faster inference",
-      "body": "A team of researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to overcome one of computational biology's most persistent challenges: achieving quantum-mechanical accuracy in simulations of large biological systems without sacrificing speed or scale.\n\nPublished on arXiv on February 13, the work by Lin Huang, Arthur Jiang, XiaoLi Liu, and colleagues introduces a framework built on three interlocking innovations. At its core is UBio-Mol26, a large-scale dataset of biomolecular configurations spanning systems of up to 1,200 atoms, assembled through what the authors call a \"Two-Pronged Strategy\" that combines systematic enumeration of molecular fragments with sampling from native protein environments. This dual approach aims to give the model broad coverage of the chemical space relevant to biology while preserving physical realism.\n\nThe model's computational backbone is E2Former-V2, a linear-scaling equivariant transformer architecture that employs two key techniques — Equivariant Axis-Aligned Sparsification and Long-Short Range modeling — to capture the non-local physical interactions that govern biomolecular behavior. According to the researchers, these design choices deliver up to roughly four times higher inference throughput compared to existing approaches in large-system benchmarks, a critical advantage for simulations that must track thousands of atomic interactions simultaneously.\n\nTraining follows a three-stage curriculum learning protocol that progressively refines the model's predictions, beginning with energy initialization, advancing to energy-force consistency, and culminating in force-focused supervision. This staged approach addresses a well-known problem in machine-learned potentials: systematic energy offsets that can distort simulation results over long timescales. The team validated UBio-MolFM against both microscopic observables — atomic forces — and macroscopic properties including liquid water structure, ionic solvation thermodynamics, and peptide folding dynamics. The model demonstrated ab initio-level fidelity on out-of-distribution biomolecular systems containing up to approximately 1,500 atoms.\n\nThe significance of the work lies in its potential to democratize high-accuracy molecular simulation for biological research. Traditional quantum-mechanical calculations become computationally prohibitive beyond a few hundred atoms, forcing researchers to choose between accuracy and biological relevance. Classical force fields can handle larger systems but miss crucial quantum effects. UBio-MolFM occupies the increasingly contested middle ground where machine learning promises to deliver quantum precision at classical cost — a capability that could reshape drug discovery, protein engineering, and our fundamental understanding of molecular biology. The model is described as \"ready-to-use,\" suggesting the authors intend it as a practical tool rather than a proof of concept, though independent validation will be essential before widespread adoption in the computational biology community.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "molecular dynamics",
-        "foundation models",
-        "computational biology",
-        "quantum chemistry",
-        "machine learning potentials"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655890954739-c5782b4a8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtb2xlY3VsYXIlMjBkeW5hbWljcyUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTgzNjQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T20:32:35.697Z"
     },
     {
       "id": "ps-1771877842879-zern",
