@@ -1,7 +1,136 @@
 {
-  "lastUpdated": "2026-02-23T20:18:43.497Z",
+  "lastUpdated": "2026-02-23T20:33:44.159Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771878738694-v4td",
+      "slug": "lord-mandelson-arrested-over-alleged-leak-of-market-sensitiv",
+      "headline": "Lord Mandelson Arrested Over Alleged Leak of Market-Sensitive Info to Epstein",
+      "subheadline": "Metropolitan Police detain former UK ambassador to the US on suspicion of misconduct in public office",
+      "body": "Lord Peter Mandelson, the veteran Labour figure and former British ambassador to the United States, was arrested Monday at his north London home on suspicion of misconduct in public office, the Metropolitan Police confirmed.\n\nOfficers from the Met's central specialist crime division detained the 72-year-old at his Camden residence and transported him to a police station for interview. Search warrants were simultaneously executed at two addresses in Camden and Wiltshire. The arrest stems from an investigation launched earlier this month into allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister under Prime Minister Gordon Brown.\n\nThe allegations emerged after the U.S. Department of Justice released a cache of documents last month that included emails between Mandelson and Epstein. One 2009 email appears to show Mandelson sharing a Downing Street adviser's assessment of policy measures, including an \"asset sales plan.\" Other communications reportedly reference a tax on bankers' bonuses and appear to confirm an imminent eurozone bailout package the day before its public announcement in 2010. Mandelson has not commented publicly on the Epstein files in recent weeks, though the BBC reported his position is that he acted lawfully and was not motivated by financial gain. Consultations between police and the Crown Prosecution Service are ongoing.\n\nThe arrest marks a dramatic escalation in a scandal that has already claimed Mandelson's diplomatic career. Appointed as Britain's ambassador to Washington in February 2025, he was dismissed in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. Prime Minister Keir Starmer has accused Mandelson of having \"lied\" during his vetting process, and the government has pledged to release documents it says will substantiate that claim. However, Chief Secretary to the Prime Minister Darren Jones told Parliament Monday that certain records from the vetting process would be withheld from the initial release due to Metropolitan Police interest in the material.\n\nConservative leader Kemi Badenoch seized on the arrest as a defining indictment of Starmer's leadership, calling him \"weak\" and declaring that the image of his former ambassador being led away by police would endure for years. U.S. lawmakers have separately urged Mandelson to testify before a congressional investigation into Epstein's network. A key architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, Mandelson now faces what may be the most consequential crisis of a political career that has weathered multiple previous scandals.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Peter Mandelson",
+        "Jeffrey Epstein",
+        "UK politics",
+        "Metropolitan Police",
+        "misconduct in public office",
+        "Keir Starmer"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c563/live/f144c580-10e4-11f1-b4ca-a9a29eb10e90.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-23T20:32:18.694Z"
+    },
+    {
+      "id": "ps-1771878755697-ell8",
+      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
+      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
+      "subheadline": "UBio-MolFM achieves quantum-level precision in molecular simulations of systems up to 1,500 atoms with 4x faster inference",
+      "body": "A team of researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to overcome one of computational biology's most persistent challenges: achieving quantum-mechanical accuracy in simulations of large biological systems without sacrificing speed or scale.\n\nPublished on arXiv on February 13, the work by Lin Huang, Arthur Jiang, XiaoLi Liu, and colleagues introduces a framework built on three interlocking innovations. At its core is UBio-Mol26, a large-scale dataset of biomolecular configurations spanning systems of up to 1,200 atoms, assembled through what the authors call a \"Two-Pronged Strategy\" that combines systematic enumeration of molecular fragments with sampling from native protein environments. This dual approach aims to give the model broad coverage of the chemical space relevant to biology while preserving physical realism.\n\nThe model's computational backbone is E2Former-V2, a linear-scaling equivariant transformer architecture that employs two key techniques — Equivariant Axis-Aligned Sparsification and Long-Short Range modeling — to capture the non-local physical interactions that govern biomolecular behavior. According to the researchers, these design choices deliver up to roughly four times higher inference throughput compared to existing approaches in large-system benchmarks, a critical advantage for simulations that must track thousands of atomic interactions simultaneously.\n\nTraining follows a three-stage curriculum learning protocol that progressively refines the model's predictions, beginning with energy initialization, advancing to energy-force consistency, and culminating in force-focused supervision. This staged approach addresses a well-known problem in machine-learned potentials: systematic energy offsets that can distort simulation results over long timescales. The team validated UBio-MolFM against both microscopic observables — atomic forces — and macroscopic properties including liquid water structure, ionic solvation thermodynamics, and peptide folding dynamics. The model demonstrated ab initio-level fidelity on out-of-distribution biomolecular systems containing up to approximately 1,500 atoms.\n\nThe significance of the work lies in its potential to democratize high-accuracy molecular simulation for biological research. Traditional quantum-mechanical calculations become computationally prohibitive beyond a few hundred atoms, forcing researchers to choose between accuracy and biological relevance. Classical force fields can handle larger systems but miss crucial quantum effects. UBio-MolFM occupies the increasingly contested middle ground where machine learning promises to deliver quantum precision at classical cost — a capability that could reshape drug discovery, protein engineering, and our fundamental understanding of molecular biology. The model is described as \"ready-to-use,\" suggesting the authors intend it as a practical tool rather than a proof of concept, though independent validation will be essential before widespread adoption in the computational biology community.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "molecular dynamics",
+        "foundation models",
+        "computational biology",
+        "quantum chemistry",
+        "machine learning potentials"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655890954739-c5782b4a8211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtb2xlY3VsYXIlMjBkeW5hbWljcyUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTgzNjQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-23T20:32:35.697Z"
+    },
+    {
+      "id": "ps-1771878774114-q1pt",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
+      "subheadline": "The experimental universal vaccine supercharges innate lung immunity, providing broad protection for months without targeting specific pathogens",
+      "body": "Researchers at Stanford Medicine have demonstrated a nasal spray vaccine in mice that provides months-long protection against a remarkably broad range of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — representing what could be a fundamental shift away from the pathogen-specific approach that has defined vaccinology for over two centuries.\n\nThe study, published February 19 in the journal Science, showed that mice receiving three intranasal doses of the experimental vaccine were shielded from SARS-CoV-2 and related coronaviruses, hospital-acquired bacterial infections including Staphylococcus aureus and Acinetobacter baumannii, and house dust mite allergens for at least three months. Vaccinated animals showed a 700-fold reduction in viral levels in their lungs compared to unvaccinated controls, all survived viral challenge, and maintained clear airways when exposed to allergens. Unvaccinated mice suffered severe weight loss, lung inflammation, and frequently died.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, works by a mechanism fundamentally different from conventional immunizations. Rather than presenting the immune system with a piece of a specific pathogen — the strategy pioneered by Edward Jenner in the 1790s and employed in every major vaccine since — the formulation mimics the cytokine signals that T cells use to keep innate immune cells in a state of heightened readiness. It includes a harmless egg protein, ovalbumin, that draws T cells into the lungs to sustain this alert state. The result is an immune system so primed that it can mount a full adaptive response, including pathogen-specific antibodies and T cells, in as few as three days — compared to the roughly two weeks required in an unvaccinated animal. Senior author Bali Pulendran, professor of microbiology and immunology at Stanford, called the effect a \"double whammy\" of persistent innate defense backed by rapid adaptive reinforcement.\n\nThe work builds on Pulendran's 2023 research into the BCG tuberculosis vaccine, which is administered to approximately 100 million newborns annually and has long been observed to reduce infant mortality from unrelated infections. His team discovered that T cells recruited to the lungs were sending sustained signals to innate immune cells via toll-like receptors, keeping them activated far beyond the typical few days. The new vaccine was engineered to synthetically replicate that cross-protective mechanism.\n\nPulendran said the next step is a Phase I human safety trial, and he estimates that with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. He envisions a product requiring just two nasal spray doses that could replace multiple annual shots for seasonal illnesses while providing a standing defense against novel pandemic threats. \"Imagine getting a nasal spray in the fall months that protects you from all respiratory viruses including COVID-19, influenza, respiratory syncytial virus and the common cold, as well as bacterial pneumonia,\" Pulendran said. Significant hurdles remain — mouse immune responses do not always translate to humans — but the breadth and durability of protection observed in the study has drawn attention as one of the most promising universal vaccine candidates to date.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccines",
+        "nasal spray vaccine",
+        "Stanford Medicine",
+        "respiratory diseases",
+        "innate immunity",
+        "universal vaccine",
+        "COVID-19"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-23T20:32:54.114Z"
+    },
+    {
+      "id": "ps-1771878791492-rfqq",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Extract Claude's Capabilities",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges via distillation as export control debates intensify",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a revelation that lands squarely in the middle of a heated Washington debate over AI chip exports to China.\n\nThe three labs allegedly conducted more than 16 million exchanges with Claude using a technique known as distillation, which involves feeding queries to a more powerful model and using its outputs to train a smaller, cheaper one. Anthropic said the campaigns specifically targeted Claude's most advanced features: agentic reasoning, tool use, and coding ability. The scope varied by company. MiniMax accounted for the largest share with roughly 13 million exchanges focused on agentic coding and tool orchestration, and Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from Claude's latest release in real time. Moonshot AI generated approximately 3.4 million exchanges targeting reasoning, coding, computer vision, and agent development — shortly before releasing its Kimi K2.5 open-source model and a coding agent. DeepSeek's campaign was smaller at around 150,000 exchanges but appeared focused on foundational logic and alignment, particularly around circumventing content policy restrictions.\n\nThe accusations echo concerns raised earlier this month by OpenAI, which sent a memo to House lawmakers alleging that DeepSeek had used distillation to replicate its products. DeepSeek gained international attention a year ago with its R1 reasoning model, which rivaled American frontier systems at dramatically lower cost. The company is reportedly preparing to release DeepSeek V4, which may outperform both Claude and ChatGPT in coding benchmarks.\n\nAnthropic is framing the distillation campaigns as both a competitive and national security threat, arguing that models built through illicit extraction are unlikely to retain the safety guardrails that U.S. labs engineer to prevent misuse in areas like bioweapons development and cyberattacks. The company also drew a direct line to export control policy, asserting that distillation at the scale it observed \"requires access to advanced chips\" — a pointed argument given that the Trump administration last month permitted U.S. companies including Nvidia to resume exporting advanced AI chips like the H200 to China. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, said the findings confirm what many in the security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of US frontier models. Now we know this for a fact,\" he said, arguing the evidence strengthens the case against any chip sales to the implicated companies.\n\nAnthropic said it is investing in technical defenses to make distillation attacks harder to execute and easier to detect, but called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three Chinese companies had publicly responded to the allegations at the time of reporting.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "national security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-23T20:33:11.492Z"
+    },
+    {
+      "id": "ps-1771878806794-lw4v",
+      "slug": "treasuries-surge-as-trump-tariff-escalation-drives-flight-to",
+      "headline": "Treasuries Surge as Trump Tariff Escalation Drives Flight to Safety",
+      "subheadline": "Investors pile into government bonds as renewed trade war rhetoric rattles equity markets and stokes global uncertainty",
+      "body": "U.S. Treasury bonds rallied sharply on February 23 as investors fled riskier assets in response to President Donald Trump's pledge to intensify his trade war agenda, triggering a broad flight to safety across global financial markets.\n\nThe move into government debt came as equity markets sold off on the renewed tariff threat, with traders reassessing the economic outlook in light of escalating trade tensions. Treasuries, long regarded as the premier safe-haven asset during periods of geopolitical and economic stress, attracted heavy buying as market participants sought shelter from the volatility rippling through stock markets worldwide.\n\nThe bond rally underscores the extent to which trade policy has reasserted itself as a dominant force in financial markets. Trump's commitment to pressing forward with tariffs injected fresh uncertainty into an environment already grappling with questions about global growth, inflation trajectories, and central bank policy paths. The resulting risk-off sentiment pushed yields lower across the curve as demand for government securities surged.\n\nFor bond investors, the dynamic presents a familiar tension: tariffs carry both inflationary potential — by raising the cost of imported goods — and deflationary risk, by dampening economic activity and business investment. In the near term, markets appear to be pricing the latter concern more heavily, betting that the drag on growth from trade barriers will outweigh any upward pressure on prices. That calculus has implications for the Federal Reserve, which must weigh the competing forces as it charts its interest rate path.\n\nThe haven bid in Treasuries also reflects broader anxiety about the durability of the equity rally that has characterized recent months. With stock valuations already stretched in several sectors, the tariff escalation provided a catalyst for profit-taking and portfolio rebalancing toward fixed income. Market strategists will be closely watching whether the bond rally persists or fades as traders digest the specifics of any new trade measures and their likely economic impact in the weeks ahead.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "treasuries",
+        "bonds",
+        "tariffs",
+        "trade war",
+        "safe haven",
+        "equities selloff",
+        "Trump"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1579288382949-2856839c1648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8dHJlYXN1cmllcyUyMGJvbmRzfGVufDB8MHx8fDE3NzE4Nzg4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/us-treasuries-gain-as-traders-weigh-impact-of-tariff-ruling",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-23T20:33:26.794Z"
+    },
+    {
+      "id": "ps-1771878824056-vxam",
+      "slug": "bitcoin-slides-to-64-000-as-anthropic-s-cobol-play-hammers-i",
+      "headline": "Bitcoin Slides to $64,000 as Anthropic's COBOL Play Hammers IBM 11%",
+      "subheadline": "AI disruption fears ripple across equities and crypto, with major tokens nearing February panic lows",
+      "body": "Bitcoin dropped 5% to $64,000 on Monday as a fresh wave of AI disruption fears swept through financial markets, triggered by Anthropic's announcement that its Claude platform can automate the modernization of COBOL — the decades-old programming language that underpins trillions of dollars in banking, airline, and government transactions worldwide.\n\nIBM bore the brunt of the selloff, plunging 11.2% after investors recognized that COBOL consulting and maintenance represents a core profit center for the company. Anthropic noted that COBOL handles an estimated 95% of U.S. ATM transactions and that hundreds of billions of lines of the language run in production daily. With the original developers largely retired and few universities still teaching the language, IBM and its consulting peers have long commanded premium fees for modernization projects. Claude Code, Anthropic argued, can now automate the exploration and analysis phases that consume most of that effort — work that previously \"required armies of consultants spending years mapping workflows.\"\n\nThe damage radiated well beyond IBM. The Dow Jones Industrial Average, S&P 500, and Nasdaq Composite each fell more than 1% as what market commentators are calling a recurring pattern of AI-driven business model destruction continued to rattle investors. \"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" wrote The Kobeissi Letter. The broader software sector and private equity names also came under heavy selling pressure.\n\nCryptocurrency markets, which have traded in tight correlation with software stocks in recent months, suffered across the board. Ether and Solana declined at roughly the same pace as Bitcoin, while crypto-adjacent equities including Coinbase, Strategy, Circle, and Galaxy Digital shed between 4% and 7%. Several major tokens are now approaching the lows set during the February 5 panic selloff. The notable exceptions were Bitcoin miners that have pivoted to AI infrastructure — IREN rose 5%, Cipher Mining gained 3.4%, and CleanSpark added 1.5%, underscoring how the AI narrative is simultaneously destroying and creating value across the digital asset ecosystem.\n\nPrecious metals emerged as the session's clear safe haven, with gold surging 3.2% to $5,243 per ounce and silver jumping 6.5% to $87.69. The divergence between hard assets and risk assets highlights growing investor anxiety that accelerating AI capabilities could upend established business models faster than markets can reprice them — a dynamic that now appears to be feeding a sustained rotation out of both equities and crypto and into traditional stores of value.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "IBM",
+        "Anthropic",
+        "AI disruption",
+        "COBOL",
+        "crypto selloff",
+        "gold"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-23T20:33:44.056Z"
+    },
     {
       "id": "ps-1771877842879-zern",
       "slug": "lord-mandelson-led-away-by-police-from-london-home-amid-epst",
@@ -41,51 +170,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17702",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-23T20:17:39.296Z"
-    },
-    {
-      "id": "ps-1771877875971-4v4z",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
-      "subheadline": "Experimental universal vaccine supercharges innate lung immunity, reducing viral levels 700-fold and lasting months",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — in results published February 19 in the journal Science.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, represents a fundamental departure from conventional immunization. Rather than training the immune system to recognize a specific pathogen, the formulation mimics the chemical signals immune cells exchange during active infection, keeping the lungs' innate defenses on sustained high alert for months. In trials, mice that received three intranasal doses were protected against SARS-CoV-2 and other coronaviruses for at least three months. Their lung viral loads were reduced 700-fold compared with unvaccinated animals, which suffered severe weight loss, extensive lung inflammation, and frequently died. All vaccinated mice survived.\n\nThe approach bridges the body's two primary defense systems — innate and adaptive immunity — in a way traditional vaccines do not. Senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, explained that the vaccine recruits T cells to the lungs, where they continuously signal innate immune cells to remain activated. This dual mechanism means any pathogen that evades the first barrier encounters a rapid adaptive response within as few as three days, compared with the typical two weeks in an unvaccinated animal. The work builds on Pulendran's 2023 finding that the century-old tuberculosis vaccine achieved similar cross-protection through the same signaling pathway involving toll-like receptors — a discovery his team has now translated into a purpose-built synthetic formulation.\n\nBeyond viruses, the vaccine proved effective against Staphylococcus aureus and Acinetobacter baumannii, two bacteria responsible for dangerous hospital-acquired infections, offering roughly three months of protection. In a striking additional finding, vaccinated mice exposed to house dust mite proteins — a common trigger for allergic asthma — showed dramatically reduced allergic responses and maintained clear airways, while unvaccinated animals developed significant mucus accumulation.\n\nPulendran said the next milestone is a Phase I human safety trial, estimating that two nasal spray doses may be sufficient for people. With adequate funding, he projected a universal respiratory vaccine could reach the public within five to seven years. If human trials replicate the mouse data, the implications are substantial: a single annual nasal spray administered each fall could potentially replace separate COVID-19 boosters, flu shots, and pneumonia vaccines while providing a ready-made defense against novel pandemic pathogens. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's laboratory, co-led the research.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "universal vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory disease",
-        "COVID-19",
-        "influenza",
-        "pneumonia"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T20:17:55.971Z"
-    },
-    {
-      "id": "ps-1771877892244-qd6x",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign",
-      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, in what amounts to one of the largest documented cases of cross-border AI intellectual property theft.\n\nThe three labs collectively generated over 16 million exchanges with Claude through a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the campaigns specifically targeted Claude's most advanced capabilities: agentic reasoning, tool use, and coding. The scale varied by company. MiniMax accounted for the largest volume at roughly 13 million exchanges focused on agentic coding and orchestration, while Moonshot AI racked up 3.4 million exchanges targeting reasoning and computer vision. DeepSeek's campaign was smaller — around 150,000 exchanges — but appeared designed to improve foundational logic and develop workarounds for politically sensitive content moderation. Anthropic said it caught MiniMax redirecting nearly half its traffic to extract capabilities from a newly launched Claude model in real time.\n\nThe accusations land at a politically charged moment. The Trump administration last month greenlit exports of Nvidia's advanced H200 chips to China, loosening restrictions that critics say hand Beijing crucial computing power. Anthropic explicitly connected the two issues, arguing that large-scale distillation attacks require access to advanced hardware, reinforcing the case for tighter export controls rather than relaxed ones. \"Restricted chip access limits both direct model training and the scale of illicit distillation,\" the company wrote in a blog post.\n\nBeyond commercial concerns, Anthropic raised national security alarms. The company warned that distilled models are unlikely to retain the safety guardrails that American labs embed to prevent misuse in bioweapons development, offensive cyber operations, and mass surveillance. If those stripped-down models are then open-sourced — as several Chinese labs have done — dangerous capabilities could proliferate widely without safeguards. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of US frontier models. Now we know this for a fact,\" he told reporters.\n\nThe disclosure follows a similar complaint from OpenAI, which sent a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products. DeepSeek first drew international attention a year ago with its R1 reasoning model, which rivaled American frontier systems at a fraction of the cost, and is reportedly preparing to release its V4 model with coding performance that could surpass both Claude and ChatGPT. Anthropic said it is investing in technical defenses to make distillation harder but called for a coordinated industry and policy response. None of the three accused companies had publicly responded as of publication.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T20:18:12.244Z"
     },
     {
       "id": "ps-1771877908973-nbd3",
@@ -150,26 +234,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/s-p-500-falls-on-tariff-questions-nvidia-gains-before-earnings",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T20:03:24.891Z"
-    },
-    {
-      "id": "ps-1771876058211-zqai",
-      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
-      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
-      "subheadline": "UBio-MolFM achieves quantum-level precision for biomolecular simulations of up to 1,500 atoms, a key bottleneck in computational biology",
-      "body": "A team of eleven researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to solve one of computational biology's most persistent challenges: simulating large biological systems with quantum-mechanical accuracy without prohibitive computational costs.\n\nPublished on the arXiv preprint server on February 13, the work by Lin Huang, Arthur Jiang, XiaoLi Liu, and colleagues introduces a framework built on three interlocking innovations. The first is UBio-Mol26, a large-scale dataset tailored to biological molecules and constructed through a \"two-pronged strategy\" that combines bottom-up enumeration of molecular fragments with top-down sampling from native protein environments, handling systems of up to 1,200 atoms. The second is E2Former-V2, an equivariant transformer architecture that scales linearly with system size — a critical property for biological applications — while capturing the long-range physical interactions that govern molecular behavior. The team reports up to roughly four times higher inference throughput on large-system benchmarks compared to existing approaches. The third component is a three-stage curriculum learning protocol that progressively trains the model, starting with energy initialization and advancing through energy-force consistency before focusing on force-level supervision.\n\nThe central tension the model addresses is well known in the field: quantum-mechanical calculations provide the gold-standard accuracy needed to understand molecular machinery, but they scale so poorly with system size that applying them to biologically relevant molecules — proteins, peptide chains, solvated ions — has been effectively impossible at realistic scales. Machine learning force fields have emerged as a promising workaround, but most struggle with generalization to out-of-distribution systems or fail to reproduce macroscopic observables that matter to biologists and drug designers.\n\nUBio-MolFM's benchmarks span both microscopic forces and macroscopic properties, including liquid water structure, ionic solvation thermodynamics, and peptide folding dynamics. The authors report that the model achieves ab initio-level fidelity on biomolecular systems containing up to approximately 1,500 atoms — well into the range relevant for studying protein fragments and drug-target interactions. Crucially, this performance holds for systems the model was not explicitly trained on, suggesting genuine transferability.\n\nThe work sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend of foundation models — large, pretrained architectures originally popularized in language processing — migrating into the physical sciences. If the claims withstand peer review and independent reproduction, UBio-MolFM could accelerate molecular dynamics studies in drug discovery, enzyme engineering, and the fundamental understanding of how biological molecules fold and function at atomic resolution.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "molecular simulation",
-        "foundation models",
-        "computational biology",
-        "quantum chemistry",
-        "machine learning force fields"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655890954744-32aefd2e7bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bW9sZWN1bGFyJTIwc2ltdWxhdGlvbiUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTg0MDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T19:47:38.211Z"
     },
     {
       "id": "ps-1771876090926-dg52",
@@ -345,28 +409,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-23T18:03:12.514Z"
-    },
-    {
-      "id": "ps-1771869807707-fngk",
-      "slug": "treasuries-rally-as-trump-trade-war-escalation-drives-flight",
-      "headline": "Treasuries Rally as Trump Trade War Escalation Drives Flight to Safety",
-      "subheadline": "U.S. government bonds gain as the president vows to press ahead with tariffs despite Supreme Court ruling, rattling global markets",
-      "body": "U.S. Treasury bonds surged on Monday as investors rushed into haven assets after President Donald Trump declared he would intensify his trade war campaign, defying a Supreme Court decision that struck down his tariff authority and injecting fresh uncertainty into an already fragile global economic outlook.\n\nThe rally in government debt came as Trump vowed to find alternative legal and executive pathways to reimpose tariffs after the high court's landmark ruling invalidated key elements of his trade agenda. The president's combative posture unsettled equity and commodity markets, prompting traders to recalibrate their expectations for economic growth and inflation. The yield on the benchmark 10-year Treasury note fell as bond prices climbed, reflecting a broad reassessment of risk across asset classes.\n\nThe Supreme Court's decision to strike down the tariffs had initially been viewed by some market participants as a potential de-escalation point in the trade conflict that has roiled global commerce. But Trump's immediate pledge to continue pursuing aggressive trade measures dashed those hopes, leaving investors grappling with the prospect of prolonged policy uncertainty. The constitutional clash between the executive branch and the judiciary over trade authority adds an additional layer of legal and political complexity that markets had not fully priced in.\n\nFor bond markets, the dynamic is a familiar one: geopolitical and policy shocks tend to drive capital toward the relative safety of U.S. government securities, particularly when the outlook for corporate earnings and global growth deteriorates. Analysts noted that the flight to Treasuries also reflects growing concern that an extended trade conflict could weigh on consumer spending and business investment, potentially slowing the economy enough to prompt the Federal Reserve to reconsider its monetary policy stance.\n\nThe developments mark a new chapter in the tension between Trump's trade ambitions and institutional constraints. With the president signaling no retreat and markets bracing for further volatility, Treasury yields could remain under downward pressure in the near term as investors seek shelter from a political and economic storm with no clear resolution in sight.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "treasuries",
-        "trade war",
-        "tariffs",
-        "Supreme Court",
-        "safe haven",
-        "bond market",
-        "Trump"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1647527931079-f74a7c539a1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHx0cmVhc3VyaWVzJTIwdHJhZGUlMjB3YXJ8ZW58MHwwfHx8MTc3MTg2MzUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/us-treasuries-gain-as-traders-weigh-impact-of-tariff-ruling",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T18:03:27.707Z"
     },
     {
       "id": "ps-1771867102918-am4l",
@@ -1019,50 +1061,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/dollar-falls-as-traders-sell-us-assets-on-trade-policy-risks",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T06:48:06.573Z"
-    },
-    {
-      "id": "ps-1771822981574-t81a",
-      "slug": "china-india-emerge-as-top-beneficiaries-of-supreme-court-tar",
-      "headline": "China, India Emerge as Top Beneficiaries of Supreme Court Tariff Ruling",
-      "subheadline": "Nations hardest hit by Trump's emergency levies see swift reversal after court strikes down tariff authority",
-      "body": "Countries bearing the heaviest burden of President Donald Trump's sweeping tariff regime — notably China and India — have become the primary beneficiaries following the U.S. Supreme Court's landmark decision to block the emergency levies, according to Bloomberg.\n\nThe ruling, which struck down Trump's use of emergency powers to impose broad trade barriers, has delivered an abrupt reversal of fortune for major exporting nations that had faced punishing duties on goods shipped to the United States. China, the world's largest exporter and the principal target of Trump's trade agenda, and India, a fast-growing economy with deepening trade ties to the U.S., stand to recapture significant market access that had been curtailed under the tariff regime.\n\nThe Supreme Court's intervention marks one of the most consequential judicial checks on presidential trade authority in modern American history. Trump had invoked emergency powers to justify sweeping tariffs that extended well beyond traditional trade remedy channels, arguing that trade imbalances and dependency on foreign manufacturing constituted national security threats. The court's rejection of that legal framework effectively dismantles a central pillar of the administration's economic policy and raises questions about what tools remain available to the White House to reshape global trade flows.\n\nMarkets have responded swiftly. Exporters across Asia stand to benefit from restored competitiveness in the American market, while U.S. importers and consumers face the prospect of lower prices on a wide range of goods — from electronics and textiles to industrial components — that had been subject to elevated duties. The decision also eases pressure on multinational supply chains that had been scrambling to diversify away from tariff-exposed production hubs.\n\nThe ruling's broader implications extend beyond any single bilateral trade relationship. It signals that the judiciary is prepared to impose limits on unilateral executive action in trade policy, potentially forcing future administrations to pursue tariff measures through Congress or established international trade mechanisms. For nations like China and India, the decision provides immediate economic relief, though the longer-term trajectory of U.S. trade policy remains deeply uncertain as the administration weighs its legal and legislative options.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "tariffs",
-        "Supreme Court",
-        "China",
-        "India",
-        "trade policy",
-        "Trump"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1714687399048-98f79fb4e5fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHx0YXJpZmZzJTIwU3VwcmVtZSUyMENvdXJ0fGVufDB8MHx8fDE3NzE4MjI5ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/china-india-among-winners-after-us-court-blocked-trump-tariffs",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T05:03:01.574Z"
-    },
-    {
-      "id": "ps-1771822019925-iduo",
-      "slug": "mexico-s-most-wanted-drug-lord-el-mencho-killed-in-military-",
-      "headline": "Mexico's Most Wanted Drug Lord 'El Mencho' Killed in Military Operation",
-      "subheadline": "Death of Jalisco New Generation cartel chief sparks violent retaliation across eight Mexican states, stranding tourists",
-      "body": "Nemesio Oseguera Cervantes, the 59-year-old leader of Mexico's Jalisco New Generation Cartel (CJNG) and one of the world's most wanted drug traffickers, was killed on Sunday during a Mexican military operation aided by U.S. intelligence, the country's defense ministry confirmed. Known as \"El Mencho,\" Oseguera Cervantes died while being transported to Mexico City after sustaining serious injuries in armed clashes between his cartel supporters and Mexican special forces in the town of Tapalpa, in the central-western state of Jalisco. Four CJNG members were also killed and three soldiers were injured in the operation, which involved Mexican Air Force and National Guard aircraft. Authorities seized armored vehicles, weapons, and rocket launchers from the scene.\n\nThe cartel's response was swift and sweeping. CJNG operatives retaliated by torching vehicles, erecting roadblocks, and attacking security forces across eight Mexican states. In Guadalajara — a host city for the upcoming FIFA World Cup — plumes of smoke rose over the skyline. In the coastal resort of Puerto Vallarta, potentially thousands of tourists found themselves stranded as gunmen took to the streets. Jalisco Governor Pablo Lemus Navarro issued a code red warning, urging residents to stay home and suspending public transit. United Airlines, American Airlines, Air Canada, and Delta all cancelled or diverted flights to the affected region, while the U.S. State Department issued shelter-in-place advisories for several states.\n\nEl Mencho, a former police officer turned cartel boss, built CJNG into one of the most powerful and violent criminal organizations in the Western Hemisphere, rivaling even the notorious Sinaloa Cartel. Under his leadership, the organization became a primary supplier of fentanyl, methamphetamine, and cocaine to the United States, earning billions annually. The U.S. State Department had placed a $15 million bounty on information leading to his capture. The cartel gained infamy for downing a military helicopter with a rocket-propelled grenade, assassinating public officials, and hanging victims' bodies from bridges as warnings to rivals.\n\nThe killing represents a significant security victory for President Claudia Sheinbaum Pardo, who urged calm on social media, writing that \"in most parts of the country, activities are proceeding normally.\" The operation could also recalibrate Mexico's strained relationship with U.S. President Donald Trump, who has repeatedly threatened direct American military action against cartels on Mexican soil, declaring earlier this year that \"the cartels are running Mexico.\" Former U.S. Ambassador Christopher Landau called El Mencho \"one of the bloodiest and most ruthless drug kingpins,\" while former DEA international operations chief Mike Vigil described the takedown as \"one of the most significant actions undertaken in the history of drug trafficking.\"\n\nHowever, the immediate chaos engulfing multiple Mexican states underscores a longstanding paradox of cartel decapitation strategies: removing a leader can unleash destabilizing violence and power struggles that compound the very security crisis the operation sought to address. Whether Mexican authorities can restore order quickly will determine whether Sheinbaum's administration emerges strengthened or finds its triumph overshadowed by the bloody aftermath.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Mexico",
-        "El Mencho",
-        "CJNG",
-        "drug cartels",
-        "fentanyl",
-        "Claudia Sheinbaum",
-        "drug trafficking",
-        "Jalisco"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2e09/live/d6be1000-1034-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cy4wywnrdd8o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-23T04:46:59.925Z"
     }
   ]
 }
