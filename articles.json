@@ -1,7 +1,138 @@
 {
-  "lastUpdated": "2026-02-24T13:33:40.938Z",
+  "lastUpdated": "2026-02-24T13:48:51.929Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771940849701-5r70",
+      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
+      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
+      "subheadline": "BBC documentary captures first on-record testimony from frontline soldiers alleging systematic killings and torture",
+      "body": "Four Russian soldiers who fled their units have provided detailed firsthand accounts of commanders executing fellow troops for refusing orders on the front lines in Ukraine, in what the BBC describes as the first such on-record testimony from the conflict.\n\nIn a documentary titled \"The Zero Line: Inside Russia's War,\" the men describe a culture of terror within Russian military units, where soldiers who refused to participate in near-suicidal assault waves — known among troops as \"meat storms\" — were shot on the spot, tortured, or forced unarmed into battle. One soldier, identified as Ilya, a 35-year-old former special-needs teacher from the Ural Mountains, told filmmakers he witnessed a commander shoot four men at point-blank range in Russian-occupied Donetsk for fleeing the front line. \"I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using the Russian military slang for executing one's own soldiers. Mobilized in May 2024 alongside 78 other men, Ilya says he is the sole survivor of that group, a claim he supported with detailed casualty lists.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was conscripted off the street in October 2022, described witnessing executions ordered by his brigade commander, Alexei Ksenofontov — who was awarded the Gold Star medal and named a \"Hero of Russia\" in 2024. Dima also recounted discovering 20 bodies of newly arrived ex-convict recruits in a ditch, allegedly shot by a commander who confiscated their bank cards. \"It's not a problem to write off someone. You just make up a report,\" he said. Ksenofontov has been publicly denounced by families of dead soldiers in a January 2025 letter addressed directly to President Vladimir Putin, accusing unit commanders of \"exterminating our men\" with impunity.\n\nThe accounts align with broader evidence of catastrophic Russian casualties. The UK Ministry of Defence estimates more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022, with daily losses in 2025 running between 900 and 1,500. The soldiers described the \"meat storm\" tactic — sending successive waves of infantry to exhaust Ukrainian ammunition and drone supplies — as tantamount to suicide missions. Those who refused were electrocuted, starved, or urinated on, according to the testimony.\n\nThe Russian government, responding to the BBC's inquiries, said its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that alleged violations are \"duly investigated.\" Moscow does not publish official casualty figures and said it could not \"independently verify the accuracy or authenticity\" of the claims. All four soldiers spoke from an undisclosed location outside Russia, where they are in hiding. Nearly all public opposition to the war has been suppressed inside the country, making such testimony exceptionally rare and difficult to corroborate independently.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Russia",
+        "Ukraine war",
+        "war crimes",
+        "military executions",
+        "BBC documentary",
+        "Vladimir Putin",
+        "human rights"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T13:47:29.701Z"
+    },
+    {
+      "id": "ps-1771940866406-ouuq",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that can update computational surrogate models for geological carbon storage projects hundreds of times faster than conventional retraining, while maintaining accuracy within three percent of a freshly built model.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, address a persistent bottleneck in subsurface simulation: Dynamic Mode Decomposition (DMD), a widely used data-driven framework for approximating complex multiphase flow physics, must typically be rebuilt from scratch whenever reservoir properties such as permeability or well placement change. Since generating the high-fidelity simulation snapshots needed for retraining is computationally expensive, the speed advantage of using a surrogate model in the first place is largely negated every time conditions shift.\n\nThe new approach introduces two complementary strategies that modify an existing DMD operator algebraically, without requiring any new simulation data. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario in heterogeneous geological formations — the technique instead reweights the spatial basis so that high-permeability zones exert proportionally greater influence on the reduced-order representation. In numerical experiments, both strategies reproduced key physical quantities including CO₂ plume migration patterns and subsurface pressure buildup to within three percent of a surrogate trained from scratch on the new configuration.\n\nThe work is motivated by the growing demand for fast, reliable modeling tools in carbon capture and storage (CCS), where operators must repeatedly evaluate different injection scenarios, well placements, and geological uncertainties. High-fidelity multiphase reservoir simulators, while physically accurate, are too slow for the iterative optimization loops, real-time control decisions, and uncertainty quantification that large-scale CCS projects require. Surrogate models built with DMD compress this computational burden dramatically, but their utility has been limited by the need to retrain whenever the subsurface environment is recharacterized.\n\nBy decoupling the surrogate from its original training conditions, the proposed updates could enable what the authors describe as real-time optimization and rapid what-if analyses — capabilities increasingly critical as carbon storage projects scale from pilot demonstrations to commercial operations. The paper spans computational physics, computational engineering, and optimization and control, reflecting the interdisciplinary nature of the challenge. Whether the lightweight update strategies generalize to more complex geological heterogeneities and multi-well configurations remains an open question for future validation.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "reservoir simulation",
+        "computational physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1634772811314-f9bbb4b6c820?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T13:47:46.406Z"
+    },
+    {
+      "id": "ps-1771940883900-28dt",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "A synthetic DNA circuit lets oxygen-intolerant microbes colonize and consume solid cancers — with a built-in safety switch",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the core outward, and activate a critical survival gene only when conditions are safe — a synthetic biology approach that could open a fundamentally new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, bacterial spores injected into the body naturally home in on these sites and begin multiplying. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The challenge has always been the tumor's oxygen-exposed outer edges, where the strictly anaerobic bacteria die before they can finish the job.\n\nTo solve that problem, the team spliced in an oxygen-tolerance gene borrowed from a hardier relative of C. sporogenes. But giving the microbe blanket oxygen resistance would be dangerous — it could colonize the bloodstream or healthy tissue. So the researchers built what they describe as a biological circuit made of DNA rather than wires. They harnessed quorum sensing, a natural bacterial signaling process in which microbes release chemical molecules that accumulate as their population grows. Only after bacterial numbers inside a tumor cross a preset threshold does the chemical signal flip on the oxygen-resistance gene. The design ensures the survival upgrade activates solely within tumors, not elsewhere in the body.\n\nThe work, published in ACS Synthetic Biology in late 2025, demonstrated the quorum-sensing circuit in C. sporogenes using a green fluorescent protein as a reporter — confirming the switch fired at the intended population density. An earlier study by the same group had already shown the bacterium could be genetically modified for improved oxygen tolerance. The next milestone is combining both features in a single organism and moving into pre-clinical tumor trials.\n\nThe project is a collaboration between Waterloo's departments of chemical engineering and applied mathematics, led by Aucoin and applied mathematician Brian Ingalls, along with PhD student Bahram Zargar and former doctoral researcher Sara Sadr. The team is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to advance the technology toward clinical translation. If the engineered microbes prove effective and safe in animal models, they could eventually complement or replace conventional therapies for hard-to-reach solid tumors — cancers that account for roughly 90 percent of all malignancies and remain stubbornly resistant to many existing treatments.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T13:48:03.900Z"
+    },
+    {
+      "id": "ps-1771940901256-xhq0",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Clone Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract Claude's core capabilities",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies of systematically extracting capabilities from its Claude model through a large-scale distillation campaign, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over chip export controls.\n\nThe San Francisco-based AI company said DeepSeek, Moonshot AI, and MiniMax collectively created more than 24,000 fake accounts and generated over 16 million exchanges with Claude, targeting what Anthropic described as its \"most differentiated capabilities\" — agentic reasoning, tool use, and coding. Distillation is a well-known technique in which one AI model's outputs are used to train another, typically smaller model. While labs routinely apply it to their own systems, using it to copy a competitor's model raises serious intellectual property and security concerns.\n\nThe three companies pursued different objectives at vastly different scales, according to Anthropic. DeepSeek, the Hangzhou-based lab whose open-source R1 reasoning model stunned the industry a year ago, accounted for roughly 150,000 exchanges focused on foundational logic and alignment — particularly around generating responses to policy-sensitive queries without triggering censorship. Moonshot AI was far more prolific, with 3.4 million exchanges targeting agentic reasoning, coding, computer vision, and agent development — capabilities reflected in its recently released Kimi K2.5 model. MiniMax dwarfed both, generating 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from Claude's latest model upon its launch.\n\nThe accusations arrive as Washington reconsiders the boundaries of its AI chip export policy. The Trump administration last month permitted companies like Nvidia to sell advanced H200 chips to China, a move critics say bolsters Beijing's computing capacity during a pivotal period in the global AI race. Anthropic explicitly connected the distillation campaigns to the export debate, arguing that extraction at this scale \"requires access to advanced chips\" and therefore reinforces the case for tighter controls. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm long-held suspicions. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he told reporters.\n\nBeyond commercial harm, Anthropic raised national security alarms. Models built through illicit distillation are unlikely to retain the safety guardrails that U.S. labs engineer to prevent misuse in areas like bioweapons development and offensive cyber operations, the company warned. If such stripped-down models are then open-sourced — as DeepSeek and Moonshot have done with previous releases — dangerous capabilities could proliferate without meaningful safeguards. Anthropic said it is investing in technical defenses against distillation but called for a coordinated response from the AI industry, cloud providers, and policymakers. None of the three accused companies had publicly responded as of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "Moonshot AI",
+        "MiniMax"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T13:48:21.256Z"
+    },
+    {
+      "id": "ps-1771940917728-y1eq",
+      "slug": "novo-nordisk-to-dramatically-cut-us-list-prices-for-wegovy-a",
+      "headline": "Novo Nordisk to Dramatically Cut US List Prices for Wegovy and Ozempic",
+      "subheadline": "Danish drugmaker moves to slash prices on blockbuster obesity and diabetes drugs as competition intensifies",
+      "body": "Novo Nordisk plans to significantly reduce the US list prices of its flagship drugs Wegovy and Ozempic starting next year, a major strategic shift as the Danish pharmaceutical giant faces mounting pressure to defend its dominance in the booming weight-loss and diabetes market.\n\nThe decision marks a notable departure for a company whose premium pricing strategy has drawn scrutiny from patients, insurers, and lawmakers alike. Wegovy, approved for chronic weight management, and Ozempic, its diabetes counterpart — both based on the active ingredient semaglutide — have become two of the best-selling pharmaceuticals in the world, generating tens of billions of dollars in annual revenue. Yet the high sticker prices have remained a persistent flashpoint, with many patients struggling to afford the medications even as demand surges.\n\nThe price cuts appear driven primarily by competitive dynamics rather than altruism. Eli Lilly's rival GLP-1 drug tirzepatide, marketed as Mounjaro for diabetes and Zepbound for obesity, has been steadily gaining market share and clinical credibility. Meanwhile, a growing pipeline of next-generation weight-loss therapies from companies including Amgen, Viking Therapeutics, and others threatens to erode Novo Nordisk's first-mover advantage. By lowering list prices, Novo Nordisk likely aims to secure more favorable positioning with pharmacy benefit managers and health insurers, broadening patient access and locking in volume before competitors gain further traction.\n\nThe move also comes amid intensifying political pressure in the United States over drug pricing. Both sides of the aisle have targeted the GLP-1 drug class as emblematic of broader affordability concerns, particularly given the medications' potential to treat not just obesity and diabetes but also cardiovascular disease and other conditions affecting millions of Americans. Lower list prices could help insulate Novo Nordisk from regulatory or legislative action.\n\nInvestors will be watching closely to assess the financial impact. While reduced list prices could compress margins, higher volume and improved formulary access may offset the hit. Novo Nordisk's shares have already faced significant volatility over the past year as the competitive landscape has shifted. The pricing announcement signals that the era of unchallenged GLP-1 pricing power may be drawing to a close, ushering in a new phase of the obesity drug wars defined as much by access and affordability as by clinical efficacy.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Novo Nordisk",
+        "Wegovy",
+        "Ozempic",
+        "drug pricing",
+        "obesity drugs",
+        "GLP-1",
+        "pharmaceuticals"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxidXNpbmVzc3xlbnwwfDB8fHwxNzcxOTQwOTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/novo-will-slash-us-list-prices-for-wegovy-and-ozempic-next-year",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T13:48:37.728Z"
+    },
+    {
+      "id": "ps-1771940931828-qizh",
+      "slug": "major-financial-firms-complete-first-cross-border-repo-using",
+      "headline": "Major Financial Firms Complete First Cross-Border Repo Using Tokenized UK Gilts",
+      "subheadline": "Canton Network transaction aims to unlock a fraction of $300 trillion in global assets sitting idle as collateral",
+      "body": "A consortium of heavyweight financial institutions has executed the first cross-border, intraday repurchase agreement using tokenized U.K. government bonds, a milestone that proponents say could eventually transform how hundreds of trillions of dollars in global assets are deployed as collateral.\n\nThe transaction, completed on the Canton Network — an institutional blockchain developed by Digital Asset — brought together an unusual coalition of traditional finance giants and digital asset firms. Participants included the Depository Trust & Clearing Corporation (DTCC), the London Stock Exchange Group (LSEG), Euroclear, Tradeweb, Citadel Securities, Société Générale, and digital-native firms Archax and Cumberland DRW. TreasurySpring embedded interest payments and risk parameters directly into the smart contracts governing the trades. The deal also marked the first cross-currency transaction in which tokenized gilts were exchanged for tokenized deposits denominated in a non-sterling currency.\n\nIn a traditional repo, one party sells a security and agrees to repurchase it shortly after — often the same day — as a mechanism for raising short-term cash. But moving securities across borders typically requires days of advance planning due to settlement cycles, batch processing, and market cut-off times. By placing both the bond and the cash leg of the transaction on a shared blockchain, the participants demonstrated that collateral could be transferred in real time and around the clock, bypassing these legacy constraints.\n\nThe stakes are enormous. According to Kelly Mathieson, chief business development officer at Digital Asset, roughly $300 trillion in high-quality liquid assets exist globally, yet only about 10% to 11% — approximately $28 trillion — is actively employed as collateral at any given time. The gap, she told CoinDesk, is largely a function of timing and infrastructure friction rather than asset availability. Blockchain-based settlement could allow financial firms to deploy their balance sheets far more efficiently, she argued.\n\nDigital Asset, the key technology firm behind the Canton Network, has attracted backing from Goldman Sachs, BNY, Nasdaq, DRW, and Citadel Securities. The U.K. gilt market alone represents roughly $2 trillion in assets, making it a significant proving ground for tokenized collateral management. While the transaction remains a proof of concept rather than a live production trade, the breadth of institutional participation signals growing confidence that tokenization could move from pilot stage to operational reality in capital markets infrastructure.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenization",
+        "Canton Network",
+        "repo market",
+        "blockchain",
+        "DTCC",
+        "Digital Asset",
+        "UK gilts",
+        "collateral management"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/647dfc8020bbcc241911e83548d9d309d70e54c5-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/canton-advances-cross-border-repo-to-free-up-usd300-trillion-assets-via-tokenization",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T13:48:51.828Z"
+    },
     {
       "id": "ps-1771939939339-4wd4",
       "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
@@ -22,135 +153,6 @@
       "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T13:32:19.339Z"
-    },
-    {
-      "id": "ps-1771939956830-0cp1",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt Dynamic Mode Decomposition models to changing geological conditions without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to adapt to changing subsurface conditions without the expensive process of regenerating simulation data — achieving results within three percent of fully retrained models while running hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in carbon capture and storage (CCS) optimization. High-fidelity multiphase flow simulators, which model how injected CO₂ migrates through underground rock formations, are computationally expensive. Dynamic Mode Decomposition (DMD), a popular data-driven framework, can dramatically reduce that cost by learning simplified mathematical operators from simulation snapshots. But these operators are locked to a specific set of reservoir properties. When engineers need to explore scenarios with different rock permeabilities or well placements — routine tasks in project planning — they typically must generate fresh simulation data and retrain the model from scratch, negating much of DMD's speed advantage.\n\nThe new approach introduces two complementary update strategies that modify existing DMD operators analytically, requiring no new simulation runs. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more physically realistic scenario — the technique adjusts the spatial representation of the reduced basis, weighting high-permeability zones more heavily to reflect their outsized influence on fluid transport.\n\nNumerical experiments validated both strategies against freshly trained surrogate models, showing that updated operators accurately reproduced CO₂ plume migration patterns and pressure buildup with errors of less than three percent. The computational savings were dramatic: the update procedure executed hundreds of times faster than full retraining, putting real-time optimization and rapid scenario analysis within practical reach for carbon storage operators.\n\nThe work addresses a growing need as governments and industry scale up CCS infrastructure to meet climate targets. Subsurface characterization is inherently uncertain, and project planners must evaluate thousands of geological scenarios during site selection, injection strategy optimization, and regulatory compliance. A surrogate modeling framework that can be cheaply adapted to new reservoir parameters — without sacrificing physical fidelity — could substantially accelerate these workflows. The authors note that their lightweight update methodology is not limited to carbon storage and could extend to other subsurface engineering applications where reservoir properties evolve or remain uncertain.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon capture",
-        "computational physics",
-        "Dynamic Mode Decomposition",
-        "surrogate modeling",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1676958571970-5fb035e0c949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8Y2FyYm9uJTIwY2FwdHVyZSUyMGNvbXB1dGF0aW9uYWwlMjBwaHlzaWNzfGVufDB8MHx8fDE3NzE5Mzk5NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T13:32:36.830Z"
-    },
-    {
-      "id": "ps-1771939975006-33nv",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the inside out, and activate a critical survival gene only when conditions are safe — a synthetic biology advance that could open a new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the dead-cell cores of many solid tumors are similarly devoid of oxygen, bacterial spores injected into the body naturally home in on these regions, feeding on available nutrients and multiplying. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The challenge has been that as the growing colony pushes toward a tumor's oxygen-exposed periphery, the strictly anaerobic bacteria die off before they can finish the job.\n\nTo solve this, the team spliced in a gene from a related, more oxygen-tolerant bacterium — but they needed a way to keep it switched off until the microbes were safely concentrated inside a tumor rather than circulating in oxygen-rich blood. Their answer was quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only after a critical mass of microbes has accumulated inside the tumor does the signal cross the threshold that activates the oxygen-resistance gene. The result is a tightly controlled biological circuit. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe findings, published in ACS Synthetic Biology, build on two prior milestones: an earlier study demonstrating that C. sporogenes could be genetically modified for improved oxygen tolerance, and a follow-up experiment in which the quorum-sensing circuit was validated using green fluorescent protein as a visible readout. The next step is to combine both features in a single organism and move into pre-clinical tumor trials. The interdisciplinary project — spanning chemical engineering, applied mathematics, and microbiology — involves PhD student Bahram Zargar, former doctoral researcher Sara Sadr, and retired professor Pu Chen, along with the Toronto-based Center for Research on Environmental Microbiology (CREM Co Labs), a company co-founded by Zargar.\n\nIf pre-clinical results confirm the strategy's safety and efficacy, the programmable bacterial platform could complement existing immunotherapies and targeted drugs, offering a fundamentally different mechanism for attacking the solid tumors that account for roughly 90 percent of all cancers. The work underscores a broader trend in synthetic biology: treating engineered living organisms not merely as drug-delivery vehicles but as autonomous therapeutic agents governed by genetic logic.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "synthetic biology",
-        "cancer treatment",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T13:32:55.006Z"
-    },
-    {
-      "id": "ps-1771939991240-sok6",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation attacks",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over chip export controls.\n\nThe alleged operation generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the Chinese labs specifically targeted Claude's most advanced capabilities, including agentic reasoning, tool use, and coding. The scope varied by company: MiniMax accounted for roughly 13 million exchanges focused on agentic coding and orchestration, while Moonshot AI generated 3.4 million exchanges aimed at reasoning, coding, and computer vision. DeepSeek's footprint was smaller — about 150,000 exchanges — but appeared designed to extract foundational logic and alignment techniques, particularly around navigating content policy restrictions. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model upon its release.\n\nThe accusations land amid a heated policy battle over U.S. chip exports to China. The Trump administration last month formally permitted companies like Nvidia to sell advanced AI chips, including the H200, to Chinese buyers — a move critics say bolsters Beijing's AI ambitions. Anthropic explicitly connected the distillation attacks to the export control debate, arguing that the scale of extraction \"requires access to advanced chips\" and that restricting chip sales would limit both direct model training and illicit distillation efforts. The company joins OpenAI, which sent a memo to House lawmakers earlier this month alleging DeepSeek had used similar techniques to replicate its products.\n\nBeyond commercial concerns, Anthropic raised national security alarms. The company warned that models built through unauthorized distillation are unlikely to retain safety guardrails designed to prevent misuse in areas such as bioweapons development and cyberattacks. \"Dangerous capabilities can proliferate with many protections stripped out entirely,\" the company wrote. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm longstanding suspicions. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told TechCrunch. \"Now we know this for a fact.\"\n\nAnthropic said it is investing in defenses to make distillation attacks harder to execute but called for a coordinated response from the AI industry, cloud providers, and policymakers. DeepSeek, MiniMax, and Moonshot AI have not publicly responded to the allegations. DeepSeek is reportedly preparing to release its V4 model, which is said to outperform both Claude and ChatGPT in coding benchmarks — a claim that may now face heightened scrutiny over how that performance was achieved.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T13:33:11.240Z"
-    },
-    {
-      "id": "ps-1771940007093-66bg",
-      "slug": "novo-nordisk-to-cut-us-list-prices-for-wegovy-and-ozempic-in",
-      "headline": "Novo Nordisk to Cut US List Prices for Wegovy and Ozempic in 2027",
-      "subheadline": "Danish drugmaker moves to slash sticker prices on blockbuster weight-loss and diabetes drugs amid intensifying competition",
-      "body": "Novo Nordisk, the Danish pharmaceutical giant behind two of the world's most prescribed medications, announced plans to significantly reduce the US list prices for its obesity drug Wegovy and diabetes treatment Ozempic starting next year, as the company fights to reclaim ground in an increasingly crowded market.\n\nThe pricing move signals a strategic pivot for Novo Nordisk, which has faced mounting pressure on multiple fronts. Rival Eli Lilly has been gaining market share with its competing GLP-1 treatments, while political scrutiny over the high cost of weight-loss medications has intensified in Washington. Wegovy, which carries a US list price of roughly $1,350 per month, has been criticized by lawmakers and patient advocates as unaffordable for many of the millions of Americans who could benefit from it.\n\nThe decision to cut list prices — the sticker prices before insurance negotiations and rebates — represents a notable departure from the pharmaceutical industry's traditional pricing playbook. Drugmakers have historically kept list prices elevated while offering confidential rebates to pharmacy benefit managers and insurers. By lowering list prices directly, Novo Nordisk could reduce out-of-pocket costs for uninsured patients and those with high-deductible health plans, though the net impact on the company's revenue will depend on how rebate structures are renegotiated.\n\nNovo Nordisk has seen its market dominance in the GLP-1 receptor agonist space erode over the past year. The company's share price has declined substantially from its 2024 highs as investors have grown concerned about competitive threats, supply chain challenges, and the potential for regulatory or legislative action to cap drug prices. Slashing list prices may help the company defend its patient base and attract new users who have been priced out of treatment.\n\nThe announcement comes as the broader obesity drug market continues to expand rapidly, with analysts projecting it could exceed $100 billion in annual sales by the end of the decade. For Novo Nordisk, the bet is that lower prices and higher volumes will ultimately prove more profitable than maintaining premium pricing in a market where competitors are eager to undercut them.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Novo Nordisk",
-        "Wegovy",
-        "Ozempic",
-        "drug pricing",
-        "obesity drugs",
-        "GLP-1",
-        "pharmaceutical industry"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/novo-will-slash-us-list-prices-for-wegovy-and-ozempic-next-year",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T13:33:27.093Z"
-    },
-    {
-      "id": "ps-1771940020838-ywsg",
-      "slug": "canton-network-executes-first-cross-border-repo-with-tokeniz",
-      "headline": "Canton Network Executes First Cross-Border Repo With Tokenized UK Gilts",
-      "subheadline": "Coalition including DTCC, Citadel Securities, and Euroclear aims to unlock $300 trillion in underused global collateral",
-      "body": "A consortium of major financial institutions has completed what it says is the first cross-border, intraday repurchase agreement using tokenized U.K. government bonds, a milestone that proponents believe could reshape how hundreds of trillions of dollars in global assets are deployed as collateral.\n\nThe transaction, executed on the Canton Network — an institutional blockchain developed by Digital Asset — brought together heavyweights including DTCC, the London Stock Exchange Group, Euroclear, Tradeweb, Citadel Securities, and Société Générale, alongside digital asset firms Archax and Cumberland DRW. The deal also marked the first cross-currency trade in which tokenized gilts, drawn from a $2 trillion market, were exchanged for tokenized deposits denominated in a non-sterling currency. TreasurySpring embedded interest payments and risk parameters directly into smart contracts governing the trades.\n\nThe broader ambition behind the exercise is staggering in scale. According to Kelly Mathieson, chief business development officer at Digital Asset, roughly $300 trillion in high-quality liquid assets exist globally, yet only about 10% to 11% — approximately $28 trillion — is actively used as collateral at any given time. The gap, she explained, is largely a function of timing constraints inherent in traditional finance. Moving securities across borders typically requires days of planning, navigating settlement cycles, batch processing windows, and market cut-off times that effectively strand vast pools of eligible collateral.\n\nBlockchain-based settlement offers a fundamentally different model. By placing both the cash and bond legs of a repo on a shared ledger, counterparties can transfer ownership in real time, around the clock, without waiting for legacy batch processes. That capability could allow financial firms to deploy their balance sheets far more efficiently, potentially multiplying the volume of assets actively serving as collateral across the global financial system.\n\nDigital Asset, the development firm behind Canton, has attracted backing from Goldman Sachs, BNY, Nasdaq, DRW, and Citadel Securities. While tokenization of traditional assets remains in its early stages, the breadth of institutions participating in this latest trial suggests growing institutional conviction that blockchain infrastructure can deliver tangible efficiency gains in core capital markets plumbing — not in some distant future, but in the near term.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "tokenization",
-        "Canton Network",
-        "repo market",
-        "blockchain",
-        "DTCC",
-        "Digital Asset",
-        "UK gilts",
-        "collateral management"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/647dfc8020bbcc241911e83548d9d309d70e54c5-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/canton-advances-cross-border-repo-to-free-up-usd300-trillion-assets-via-tokenization",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T13:33:40.838Z"
-    },
-    {
-      "id": "ps-1771939048544-2ces",
-      "slug": "russian-soldiers-describe-executions-of-troops-by-their-own-",
-      "headline": "Russian Soldiers Describe Executions of Troops by Their Own Commanders",
-      "subheadline": "Four defectors tell BBC documentary they witnessed point-blank killings of men who refused suicide assault orders",
-      "body": "Four Russian soldiers who fled their units have provided first-hand testimony describing the summary execution of fellow troops by commanders on the front lines in Ukraine, in what the BBC says is the first on-the-record account of such killings by frontline witnesses.\n\nThe testimony, gathered for the BBC documentary \"The Zero Line: Inside Russia's War,\" details a brutal system in which soldiers who refused orders — particularly to participate in so-called \"meat storm\" wave assaults — were shot on the spot. One soldier, a 35-year-old former special-needs teacher identified as Ilya, described witnessing four men killed at point-blank range by a commander at locations in Russian-occupied Donetsk. \"I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya recounted, using Russian military slang for the execution of one's own troops. Ilya also provided documentation showing he is the sole survivor of a group of 79 men he was mobilized with in Perm in May 2024.\n\nA second soldier, a 34-year-old former Moscow repairman identified as Dima, described executions ordered by his commander in the 25th Brigade, Alexei Ksenofontov, who was awarded the Gold Star medal and named a \"Hero of Russia\" in 2024. Dima also recounted seeing the bodies of 20 newly arrived ex-convict recruits lying in a ditch after being shot, their bank cards reportedly taken by commanders. \"It's not a problem to write off someone. You just make up a report,\" he told filmmakers. Ksenofontov has separately been denounced by families of soldiers who died in his unit; in a January 2025 letter addressed directly to President Vladimir Putin, they accused commanders of \"exterminating our men\" while enjoying impunity.\n\nThe accounts corroborate mounting evidence of collapsing discipline and systemic brutality within Russia's invasion force. Soldiers described being tortured, electrocuted, starved, and urinated on for refusing orders, then forced unarmed into frontal assaults designed to exhaust Ukrainian ammunition and drone supplies through sheer attrition. The UK Ministry of Defence estimates that between 900 and 1,500 Russian troops are killed or wounded daily in 2025, with total casualties exceeding 1.2 million since the full-scale invasion began on February 24, 2022.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that alleged violations are \"duly investigated.\" Moscow said it could not independently verify the information provided. The four soldiers spoke from an undisclosed location outside Russia, where they are currently in hiding. Nearly all public opposition to the war has been suppressed inside the country, and official casualty figures remain classified.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC documentary",
-        "human rights"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T13:17:28.544Z"
     },
     {
       "id": "ps-1771939113610-s524",
