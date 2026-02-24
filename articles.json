@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-24T08:18:45.137Z",
+  "lastUpdated": "2026-02-24T08:33:33.759Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771921041965-aev4",
+      "id": "ps-1771921934809-zyfk",
       "slug": "lord-mandelson-arrested-over-alleged-leak-of-market-sensitiv",
       "headline": "Lord Mandelson Arrested Over Alleged Leak of Market-Sensitive Info to Epstein",
-      "subheadline": "Former UK ambassador to the US released on bail after being detained on suspicion of misconduct in public office",
-      "body": "Lord Peter Mandelson was arrested Monday at his Camden home in north London on suspicion of misconduct in public office, the Metropolitan Police confirmed, before being released on bail in the early hours of Tuesday following questioning at a police station.\n\nThe arrest stems from a Metropolitan Police investigation launched earlier this month into allegations that Mandelson, 72, shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister. The allegations emerged after the U.S. Department of Justice released a tranche of documents last month that included emails between the two men. Among the most damaging: a 2009 email in which Mandelson appears to have forwarded an assessment from an adviser to then-Prime Minister Gordon Brown detailing policy measures including an \"asset sales plan.\" Additional correspondence appears to show him discussing a tax on bankers' bonuses and confirming an imminent eurozone bailout package the day before it was publicly announced in 2010.\n\nMandelson was appointed Britain's ambassador to the United States in February 2025 by Prime Minister Sir Keir Starmer but was dismissed in September after Downing Street said new information about the depth of his relationship with Epstein had surfaced. The government has said it expects to begin releasing documents related to his appointment in early March, though officials acknowledged that the criminal investigation may affect what can be published and when. Darren Jones, chief secretary to the prime minister, told Parliament on Monday that certain vetting records would be withheld from the initial release due to police interest.\n\nThe arrest has ignited a fierce political backlash. Conservative leader Kemi Badenoch called it \"the defining moment of Sir Keir's premiership,\" describing the image of a prime ministerial appointee being led away by plainclothes officers as one that would endure for years. The family of the late Virginia Giuffre, who accused Prince Andrew of sexual abuse tied to Epstein's network, praised British authorities for \"taking meaningful action\" and drew a pointed contrast with what they called \"continued inaction in the United States.\" U.S. lawmakers have separately urged Mandelson to testify before a congressional investigation into Epstein.\n\nMandelson has not commented publicly on the Epstein files in recent weeks. The BBC reported that his position is that he has not acted criminally and was not motivated by financial gain. Consultations between the Metropolitan Police's central specialist crime division and the Crown Prosecution Service are ongoing, and search warrants were executed at two addresses in Wiltshire and Camden as part of the investigation.",
+      "subheadline": "Former UK ambassador to the US released on bail after Metropolitan Police detained him on suspicion of misconduct in public office",
+      "body": "Lord Peter Mandelson, the veteran Labour political figure who briefly served as Britain's ambassador to Washington, was arrested Monday on suspicion of misconduct in public office and released on bail in the early hours of Tuesday, according to the Metropolitan Police.\n\nThe 72-year-old was detained at his Camden, north London, home by officers from the Met's central specialist crime division and taken to a police station for questioning. The BBC reported seeing him return to his residence at approximately 2:00 a.m. GMT. Police also executed search warrants at two addresses in Wiltshire and Camden as part of the investigation, which was launched earlier this month following allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister.\n\nThe allegations stem from documents released by the U.S. Department of Justice last month, which included emails between Mandelson and Epstein. Among the most damning: a 2009 email that appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures, including an \"asset sales plan.\" Separate communications suggest he discussed a proposed tax on bankers' bonuses and confirmed an imminent eurozone bailout package the day before it was publicly announced in 2010. Mandelson has not commented publicly on the files in recent weeks, though sources close to him say he maintains he committed no criminal act and was not motivated by financial gain.\n\nThe arrest marks a dramatic escalation of a scandal that has already cost Mandelson his diplomatic post. He was appointed ambassador to the United States in February 2025 but was dismissed in September after Downing Street said new information about the depth of his relationship with Epstein had surfaced. Prime Minister Sir Keir Starmer has accused Mandelson of having \"lied\" during the vetting process for the appointment, and the government has pledged to release documents related to the matter in early March — though officials acknowledged the police investigation could affect the timing and scope of those disclosures.\n\nThe political fallout was immediate. Conservative leader Kemi Badenoch called the arrest \"the defining moment of Sir Keir's premiership,\" accusing the prime minister of weakness for having elevated Mandelson to the country's most senior diplomatic role. Meanwhile, the family of the late Virginia Giuffre, who accused Prince Andrew of sexual abuse in connection with the Epstein case, praised British authorities for \"taking meaningful action\" and contrasted it with what they described as \"continued inaction in the United States.\" U.S. lawmakers have separately urged Mandelson to testify before Congress as part of their own investigation into the Epstein network. Consultations between the Metropolitan Police and the Crown Prosecution Service are ongoing.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -21,7 +21,112 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c564/live/361bc6a0-114d-11f1-9120-a910fc22c6ac.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T08:17:21.965Z"
+      "publishedAt": "2026-02-24T08:32:14.809Z"
+    },
+    {
+      "id": "ps-1771921950584-t6qf",
+      "slug": "new-method-lets-carbon-storage-simulations-update-in-real-ti",
+      "headline": "New Method Lets Carbon Storage Simulations Update in Real Time",
+      "subheadline": "Researchers develop a lightweight technique to adapt Dynamic Mode Decomposition models without costly retraining",
+      "body": "A pair of researchers has devised a way to rapidly update data-driven surrogate models used in geological carbon storage projects, potentially eliminating the need for expensive retraining every time subsurface conditions change. The method, described in a preprint posted to arXiv, achieves accuracy within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, working in computational physics and engineering, tackled a persistent bottleneck in carbon capture and storage (CCS) planning. High-fidelity multiphase flow simulators — the gold standard for modeling how injected CO₂ migrates through underground rock formations — are computationally prohibitive for the rapid iteration demanded by optimization, control, and uncertainty analysis. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant flow patterns from simulation snapshots, has emerged as a promising surrogate framework. But DMD operators are inherently tied to the specific reservoir properties used during training. Change the permeability field or move a well location, and the model must be rebuilt from scratch — a process that negates much of the speed advantage.\n\nThe new work introduces two complementary update strategies that modify an existing DMD model without generating fresh simulation data. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach reweights the spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced-order representation.\n\nNumerical experiments reported in the paper show that updated models faithfully reproduce both plume migration patterns and pressure build-up dynamics, deviating by no more than three percent from a surrogate trained entirely on new data. The computational savings are dramatic: the update procedure runs hundreds of times faster than regenerating snapshots and retraining from the ground up.\n\nThe implications extend beyond academic interest. Carbon storage projects increasingly rely on real-time optimization and rapid what-if scenario analysis to satisfy regulatory requirements and manage injection risk. A method that preserves physical fidelity while enabling on-the-fly model adaptation could significantly accelerate decision-making in CCS workflows, where subsurface uncertainty is the norm and reservoir characterizations are continually revised as new monitoring data arrive. The preprint, submitted November 27, 2025, is available on arXiv under identifier 2602.18441.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "Dynamic Mode Decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1740903862287-38519435792a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8Y2FyYm9uJTIwc3RvcmFnZSUyMER5bmFtaWMlMjBNb2RlJTIwRGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTIxOTUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T08:32:30.584Z"
+    },
+    {
+      "id": "ps-1771921967206-ehq7",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-shielding-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Shielding Against COVID, Flu, and Pneumonia",
+      "subheadline": "Mouse study shows a single intranasal formulation cut viral loads 700-fold and blocked bacteria and allergens for months",
+      "body": "Researchers at Stanford Medicine have demonstrated an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, hospital-acquired bacterial infections, and common allergens — for at least three months, according to findings published February 19 in the journal Science.\n\nThe formulation, designated GLA-3M-052-LS+OVA, breaks sharply from more than two centuries of vaccine design. Rather than training the immune system to recognize a specific pathogen, it supercharges the lungs' innate defenses by mimicking the cytokine signals T cells normally exchange during active infection. A harmless egg protein, ovalbumin, is included to draw T cells into the lungs, where they sustain heightened innate immune activity for weeks to months. In vaccinated mice given three intranasal doses, SARS-CoV-2 levels in the lungs dropped 700-fold compared with unvaccinated controls. All vaccinated animals survived viral challenge, while unvaccinated mice suffered severe weight loss, widespread lung inflammation, and frequent death.\n\nThe breadth of protection surprised even the study's architects. Beyond coronaviruses, the vaccine shielded mice against Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired pneumonias — for roughly three months. When researchers exposed vaccinated animals to house dust mite proteins, a leading trigger of allergic asthma, the mice showed markedly weaker allergic responses and maintained clear airways. \"I think what we have is a universal vaccine against diverse respiratory threats,\" said senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, conducted much of the experimental work.\n\nThe concept grew out of a 2023 discovery by Pulendran's group showing that the Bacillus Calmette-Guérin tuberculosis vaccine, given to roughly 100 million newborns each year, unexpectedly sustained innate immune activation for months through T-cell-derived cytokine signals acting on toll-like receptors. The new vaccine was engineered to reproduce that mechanism synthetically. \"We speculated that it would be possible to make a synthetic vaccine — perhaps a nasal spray — that has the right combination of toll-like receptor stimuli,\" Pulendran said. \"Fast forward two and a half years and we've shown that exactly what we had speculated is feasible in mice.\"\n\nThe team plans to move next into a Phase I human safety trial. Pulendran estimates that two nasal spray doses may suffice for people and projects that, with adequate funding, a universal respiratory vaccine could reach clinical availability within five to seven years. If results translate from mice to humans, a single autumn nasal spray could one day replace annual flu shots, updated COVID boosters, and other pathogen-specific immunizations — while also offering a rapid-response shield against novel pandemic viruses.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccines",
+        "Stanford Medicine",
+        "nasal spray",
+        "innate immunity",
+        "respiratory disease",
+        "COVID-19",
+        "universal vaccine"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T08:32:47.206Z"
+    },
+    {
+      "id": "ps-1771921983278-rzvt",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract Claude's core capabilities",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies of orchestrating a massive distillation campaign against its Claude model, alleging that DeepSeek, Moonshot AI, and MiniMax created more than 24,000 fake accounts to systematically extract the system's most advanced capabilities. The alleged operation generated over 16 million exchanges with Claude, targeting what Anthropic described as its most differentiated features: agentic reasoning, tool use, and coding.\n\nThe scale and focus of each company's alleged extraction effort varied considerably. DeepSeek, whose open-source R1 reasoning model shook the AI industry a year ago, was linked to more than 150,000 exchanges focused on foundational logic and alignment — particularly around generating censorship-safe alternatives to policy-sensitive queries. Moonshot AI accounted for approximately 3.4 million exchanges targeting agentic reasoning, coding, data analysis, and computer vision, shortly before releasing its Kimi K2.5 open-source model and a coding agent. MiniMax was the most prolific, with 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model upon its release.\n\nThe accusations land squarely in the middle of a heated policy debate over U.S. AI chip exports to China. Last month, the Trump administration formally permitted companies like Nvidia to export advanced chips such as the H200 to China, a move critics argue bolsters Beijing's AI computing capacity at a critical juncture. Anthropic explicitly connected the two issues, arguing that large-scale distillation attacks \"require access to advanced chips\" and that the findings \"reinforce the rationale for export controls.\" Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the industry suspected. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nAnthropic also raised national security concerns beyond commercial competition. The company warned that models built through illicit distillation are unlikely to retain the safety guardrails that U.S. labs implement to prevent misuse in bioweapons development, offensive cyber operations, and disinformation campaigns. When such stripped-down models are open-sourced, Anthropic argued, dangerous capabilities can proliferate without meaningful safeguards. The company said it is investing in defenses to make distillation harder to execute and easier to detect, but called for a coordinated response across the AI industry, cloud providers, and policymakers.\n\nThe allegations echo a similar complaint from OpenAI, which sent a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products. DeepSeek is reportedly preparing to release its V4 model, which is said to outperform both Claude and ChatGPT in coding tasks. None of the three accused Chinese companies had publicly responded to the allegations at the time of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T08:33:03.278Z"
+    },
+    {
+      "id": "ps-1771921998791-ipcj",
+      "slug": "spacex-mega-ipo-plans-reshape-2026-listing-landscape",
+      "headline": "SpaceX Mega IPO Plans Reshape 2026 Listing Landscape",
+      "subheadline": "Elon Musk's rocket company eyes what could be the largest initial public offering in history, reshuffling the calendar for other listing hopefuls",
+      "body": "SpaceX is preparing what could become the largest initial public offering in history, a move by Elon Musk that is already forcing other companies eyeing 2026 listings to rethink their timing and strategy, according to a report from Bloomberg.\n\nThe sheer scale of a SpaceX IPO — the company was valued at roughly $350 billion in recent private share sales — would dominate investor attention and absorb enormous amounts of capital, creating both logistical and competitive challenges for other firms planning to go public in the same window. Investment banks stand to collect unprecedented fees from underwriting a deal of this magnitude, making it the most coveted mandate on Wall Street.\n\nFor SpaceX's existing investors, including sovereign wealth funds, venture capital firms, and late-stage private equity backers, a public listing would provide a long-awaited liquidity event for stakes in a company that has remained private far longer than most firms of its size and influence. The company operates both its Falcon and Starship rocket programs as well as Starlink, its rapidly expanding satellite internet constellation, which alone has been valued by analysts as a potential standalone public company worth well over $100 billion.\n\nThe ripple effects across the IPO market could be significant. Companies that had been building toward 2026 debuts now face a strategic calculation: launch ahead of SpaceX to avoid competing for the same pool of institutional capital, or wait until after the offering clears to benefit from renewed investor enthusiasm for growth-stage companies. Major listings have historically set the tone for broader IPO windows, and a deal of this size could either crowd out competitors or, if successful, galvanize appetite for new issuances.\n\nThe planned offering also arrives amid a complicated backdrop for Musk personally, as his role leading the Department of Government Efficiency under the Trump administration has drawn intense public scrutiny. How investors weigh that political exposure against SpaceX's dominant market position in commercial launch services and satellite broadband will be one of the most closely watched dynamics of the 2026 capital markets calendar.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "SpaceX",
+        "IPO",
+        "Elon Musk",
+        "capital markets",
+        "Starlink"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxzcGFjZXglMjBtZWdhJTIwcGxhbnN8ZW58MHwwfHx8MTc3MTkyMTk5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/spacex-s-mega-ipo-redraws-2026-road-map-for-listing-hopefuls",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T08:33:18.791Z"
+    },
+    {
+      "id": "ps-1771922013660-8wo9",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
+      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run trades during the 2022 crash",
+      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful high-frequency trading firms, alleging that the firm exploited insider information to front-run trades that accelerated the catastrophic 2022 implosion of the TerraUSD stablecoin and its sister token Luna — a collapse that erased roughly $40 billion in market value in a single week.\n\nThe suit, filed by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants. At the heart of the complaint is a sequence of events on May 7, 2022, when Terraform Labs quietly withdrew 150 million TerraUSD from Curve3pool, a major decentralized stablecoin trading platform. According to the lawsuit, a wallet linked to Jane Street pulled 85 million TerraUSD from the same pool within just 10 minutes — before Terraform had disclosed any information publicly. The combined withdrawals allegedly triggered a wave of market panic that sent TerraUSD spiraling away from its dollar peg, setting off a chain reaction that ultimately destroyed the entire Terra ecosystem and dragged down multiple other crypto firms with exposure to the project.\n\nThe lawsuit further alleges that on May 9, as TerraUSD was already losing its peg, Jane Street's Pratt contacted Do Kwon and his team in a group chat, offering to buy Bitcoin or Luna. Kwon reportedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a communication that Snyder's legal team appears to view as evidence of an intertwined relationship between the trading firm and Terraform insiders. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has categorically denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A spokesperson emphasized that losses suffered by Terra and Luna holders were \"the result of a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" pointing to Do Kwon's own criminal liability — the Terraform co-founder pleaded guilty to two criminal counts and was sentenced to 15 years in prison in August 2025. Jane Street has pledged to vigorously defend itself against what it characterized as \"baseless, opportunistic claims.\"\n\nThe case adds another layer to the long legal aftermath of one of crypto's most devastating failures. Terraform Labs, founded in Singapore in 2018 by Kwon and Daniel Shin, filed for bankruptcy in January 2024, with a wind-down trust assuming control later that year. If Snyder's allegations withstand judicial scrutiny, the suit could set significant precedent for how insider trading laws apply to decentralized finance markets — a legal frontier that regulators and courts are still actively defining.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "TerraUSD",
+        "insider trading",
+        "crypto collapse",
+        "Do Kwon"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T08:33:33.660Z"
     },
     {
       "id": "ps-1771921058425-7k7d",
@@ -44,93 +149,6 @@
       "publishedAt": "2026-02-24T08:17:38.425Z"
     },
     {
-      "id": "ps-1771921076486-g9o5",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-shielding-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Shielding Against COVID, Flu, and Pneumonia",
-      "subheadline": "Mouse study shows a single intranasal vaccine can protect against viruses, bacteria, and allergens for months by rewiring lung immunity",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — by supercharging the lungs' own immune defenses rather than targeting any single pathogen. The findings, published February 19 in the journal Science, represent what senior author Bali Pulendran called a departure from 230 years of vaccine design.\n\nUnlike conventional vaccines, which train the immune system to recognize a specific piece of a pathogen such as a viral spike protein, the new formulation — designated GLA-3M-052-LS+OVA — mimics the chemical signals that immune cells exchange during active infection. The approach links the body's fast-acting innate immune system with its slower but more precise adaptive immune system, keeping lung defenses on high alert for months. In vaccinated mice given three intranasal doses, viral loads dropped roughly 700-fold compared with unvaccinated animals exposed to SARS-CoV-2. All vaccinated mice survived, while unvaccinated animals suffered severe weight loss and frequently died.\n\nThe key insight emerged from Pulendran's earlier work on the Bacillus Calmette-Guérin tuberculosis vaccine, which had shown unexplained cross-protective effects against unrelated infections. His team discovered in 2023 that T cells recruited to the lungs were secreting cytokines that kept innate immune cells activated far longer than their usual lifespan of days — extending protection to roughly three months. The new vaccine was engineered to reproduce that mechanism synthetically, using toll-like receptor stimulants and a harmless egg protein called ovalbumin to draw T cells into lung tissue and sustain the innate immune boost.\n\nThe breadth of protection surprised even its creators. Beyond coronaviruses, the vaccine shielded mice against Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired infections — for approximately three months. When researchers exposed vaccinated mice to house dust mite proteins, a common trigger of allergic asthma, the animals showed markedly reduced allergic responses and clear airways, while unvaccinated mice developed significant mucus buildup. Pulendran attributed this to the vaccine's ability to accelerate adaptive immune responses from the typical two-week timeline down to roughly three days.\n\nThe work remains in preclinical stages, and the researchers acknowledge that translating mouse results to humans is far from guaranteed. The next milestone is a Phase I safety trial in people, where Pulendran estimates two nasal spray doses may be sufficient. With adequate funding, he projects a universal respiratory vaccine could reach patients within five to seven years. If the approach holds up in human trials, it could fundamentally simplify seasonal vaccination — replacing multiple annual shots with a single nasal spray each fall that guards against influenza, COVID-19, RSV, bacterial pneumonia, and common allergens simultaneously. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's laboratory, also contributed to the study.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "universal vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory disease",
-        "COVID-19",
-        "pandemic preparedness"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T08:17:56.486Z"
-    },
-    {
-      "id": "ps-1771921091929-jnof",
-      "slug": "anthropic-alleges-chinese-ai-labs-used-24-000-fake-accounts-",
-      "headline": "Anthropic Alleges Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation campaign",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, an allegation that lands squarely in the middle of a fierce policy debate over U.S. chip exports to China.\n\nThe three labs allegedly generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. While distillation is a legitimate method labs commonly apply to their own models to create smaller, more efficient versions, Anthropic says the Chinese firms weaponized it to replicate Claude's most advanced features — specifically its agentic reasoning, tool use, and coding capabilities. The accusation echoes a memo OpenAI sent to House lawmakers earlier this month alleging that DeepSeek had used similar techniques to mimic its products.\n\nThe scope of the alleged extraction varied significantly across the three companies. Moonshot AI accounted for 3.4 million exchanges targeting agentic reasoning, coding, and computer vision — capabilities that appear to have fed into its recently released Kimi K2.5 open-source model and coding agent. MiniMax was the most prolific, responsible for roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from the newest Claude model at the time of its launch. DeepSeek's footprint was smaller at 150,000 exchanges but appeared strategically aimed at foundational logic and alignment, particularly around generating censorship-safe responses to policy-sensitive queries.\n\nThe timing of the disclosure is politically charged. Last month, the Trump administration formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI computing infrastructure at a pivotal moment. Anthropic explicitly connected the dots, arguing that distillation at the scale it documented \"requires access to advanced chips\" and that restricted chip access would limit both direct model training and illicit distillation campaigns. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, called the findings unsurprising but significant. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nBeyond economic competitiveness, Anthropic raised national security concerns, warning that distilled models are unlikely to retain the safety guardrails that U.S. companies build to prevent misuse in areas such as bioweapons development and offensive cyber operations. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, and said it would continue investing in defenses to make distillation attacks harder to execute. None of the three accused Chinese labs had publicly responded as of Sunday evening.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T08:18:11.929Z"
-    },
-    {
-      "id": "ps-1771921109894-7gan",
-      "slug": "spacex-ipo-plans-reshape-2026-listing-landscape-for-rivals",
-      "headline": "SpaceX IPO Plans Reshape 2026 Listing Landscape for Rivals",
-      "subheadline": "Elon Musk's rocket company eyes what could be the largest initial public offering in history, reshuffling the year's IPO calendar",
-      "body": "SpaceX is preparing what could become the largest initial public offering in history, a move that threatens to absorb enormous amounts of investor capital and force other companies eyeing 2026 listings to rethink their timing and strategy.\n\nElon Musk's rocket and satellite internet company has long been one of the most anticipated IPO candidates in the world, with private market valuations that have soared past $350 billion in recent secondary share sales. The sheer scale of a SpaceX public debut would generate massive underwriting fees for the investment banks tapped to manage the offering, while delivering a landmark liquidity event for early backers who have watched the company's valuation multiply over more than two decades of private operation.\n\nThe ripple effects across the broader IPO market could be significant. A mega-listing of SpaceX's expected magnitude would compete directly for institutional investor allocations, potentially crowding out other companies hoping to go public during the same window. Bankers and advisors are already recalibrating the 2026 IPO pipeline, with some listing hopefuls likely to accelerate their timelines to get ahead of SpaceX or delay to avoid being overshadowed. The dynamics echo previous cycles in which a single blockbuster offering — such as Saudi Aramco's $29.4 billion IPO in 2019, currently the largest on record — reshaped the calendar for an entire class of aspiring public companies.\n\nFor SpaceX, going public would mark a dramatic shift for a company that Musk has long preferred to keep private, in part to maintain operational freedom as it pursues ambitious goals including Mars colonization and the global buildout of its Starlink satellite broadband network. Starlink, which has emerged as a major revenue driver with millions of subscribers worldwide, is widely seen as the commercial engine that makes a SpaceX IPO compelling to public market investors beyond the company's government launch contracts.\n\nThe planned offering underscores a broader thaw in IPO markets after several subdued years. If SpaceX proceeds as expected, it would set the tone for 2026 as a defining year for new listings — though rival companies will need to navigate carefully around the gravitational pull of what promises to be a once-in-a-generation market event.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "SpaceX",
-        "IPO",
-        "Elon Musk",
-        "Starlink",
-        "capital markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1633334225651-90ba3c5ced1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8U3BhY2UlMjBQbGFucyUyMFJlc2hhcGV8ZW58MHwwfHx8MTc3MTkyMTEwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/spacex-s-mega-ipo-redraws-2026-road-map-for-listing-hopefuls",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T08:18:29.894Z"
-    },
-    {
-      "id": "ps-1771921124905-rn4o",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run the 2022 UST depeg",
-      "body": "The administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that insider trading by the firm helped accelerate the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a crisis that erased roughly $40 billion in market value in a single week.\n\nTodd Snyder, the bankruptcy administrator responsible for unwinding Do Kwon's failed crypto empire, is seeking damages from Jane Street, its co-founder Robert Granieri, and employees Bryce Pratt and Michael Huang, according to a Wall Street Journal report cited by CoinDesk on Monday. The suit centers on events beginning May 7, 2022, when Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. Within 10 minutes of that undisclosed withdrawal, a wallet linked to Jane Street allegedly pulled an additional 85 million TerraUSD from the same pool — before any public announcement had been made. The combined withdrawals, the lawsuit contends, triggered the market panic that sent TerraUSD spiraling away from its dollar peg.\n\nThe complaint paints a picture of a trading firm exploiting privileged access to Terraform insiders. On May 9, as TerraUSD began its terminal slide, Jane Street's Pratt allegedly messaged Kwon and his team in a group chat, offering to buy Bitcoin or Luna. Kwon reportedly responded that Jump Trading's co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — an exchange that Snyder argues reveals the depth of back-channel communication between the parties. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully rejected the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A spokesman emphasized that losses suffered by Terra and Luna holders were \"the result of a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and said the firm would defend itself vigorously against what it characterized as baseless, opportunistic claims.\n\nThe lawsuit adds another legal chapter to one of crypto's most devastating episodes. Terraform Labs, founded in Singapore in 2018 by Kwon and Daniel Shin, filed for bankruptcy in January 2024. Kwon himself pleaded guilty to two criminal counts and was sentenced to 15 years in prison last August. The Terra collapse sent shockwaves far beyond its own ecosystem, contributing to the downfall of multiple crypto firms with exposure to the project, including Three Arrows Capital and Voyager Digital. If Snyder's allegations hold up in court, they could reshape the understanding of how the crisis unfolded — and raise uncomfortable questions about the role of sophisticated trading firms in crypto market dislocations.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "Terra Luna",
-        "insider trading",
-        "crypto collapse",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T08:18:44.905Z"
-    },
-    {
       "id": "ps-1771920151905-bbmu",
       "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
       "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refuse Orders",
@@ -149,26 +167,6 @@
       "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T08:02:31.905Z"
-    },
-    {
-      "id": "ps-1771920167533-v6ss",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers develop lightweight techniques to adapt surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a method to rapidly update data-driven surrogate models used in geological carbon storage simulations, achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, tackled a persistent bottleneck in carbon capture and storage (CCS) planning. High-fidelity multiphase reservoir simulators — essential for modeling how injected CO₂ migrates underground and how pressure builds in storage formations — are computationally expensive. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant flow patterns from simulation snapshots, has emerged as a promising way to build fast surrogate models. But DMD operators are calibrated to a specific set of reservoir properties. When engineers need to evaluate a different permeability field or a new well placement, they typically must generate fresh simulation data and retrain the model from scratch, negating much of the computational savings.\n\nThe new approach sidesteps this problem entirely by updating existing DMD operators analytically, without requiring any new simulation runs. The authors introduce two complementary strategies. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to reflect the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced-order representation.\n\nNumerical experiments reported in the paper show that both update strategies accurately reproduce plume migration patterns and pressure buildup predictions, staying within three percent of a surrogate that was freshly trained on new simulation data. The computational advantage is dramatic: the update procedure runs hundreds of times faster than the conventional retrain-from-scratch workflow.\n\nThe implications extend beyond academic interest. Carbon storage projects require extensive optimization, uncertainty quantification, and real-time decision-making — tasks that demand running thousands of model evaluations under varying geological assumptions. A surrogate model that can be cheaply adapted to new reservoir conditions without sacrificing physical fidelity could significantly accelerate site selection, injection strategy design, and regulatory compliance workflows. The research sits at the intersection of computational physics, control theory, and engineering, and the authors suggest their lightweight update framework could enable genuine real-time optimization in CCS operations — a capability that has remained largely out of reach with existing simulation tools.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1660866837323-0565dfb71ca6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T08:02:47.533Z"
     },
     {
       "id": "ps-1771920215718-p700",
