@@ -1,7 +1,129 @@
 {
-  "lastUpdated": "2026-02-24T14:48:48.513Z",
+  "lastUpdated": "2026-02-24T15:03:32.743Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771945336103-hbng",
+      "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
+      "headline": "Russian Soldiers Describe Execution of Troops Who Refuse Orders",
+      "subheadline": "Two men who fled the front lines tell BBC they witnessed commanders shoot soldiers at point-blank range as punishment",
+      "body": "Russian soldiers have given firsthand accounts of commanders executing their own troops for refusing to return to the front lines in Ukraine, in testimony broadcast as part of a new BBC documentary.\n\nTwo men, identified as Ilya and Dima, spoke from an undisclosed location outside Russia for the film \"The Zero Line: Inside Russia's War.\" Ilya, a 35-year-old former special-needs teacher who was drafted into the army, told the BBC he witnessed a commander shoot four soldiers at point-blank range after they fled the front line and refused to go back. The practice is known in Russian military slang as \"zeroing\" — a form of summary execution intended both as punishment and as intimidation for others contemplating disobedience. Dima, who also witnessed the killings, described commanders shooting their own men as \"a normal thing.\" He recounted standing just two to three meters away: \"Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life.\"\n\nThe accounts add to a growing body of evidence suggesting severe discipline breakdowns and coercive brutality within Russian forces nearly three years into the full-scale invasion of Ukraine. Reports of so-called barrier troops — units positioned behind front lines to prevent retreat — and extrajudicial killings have circulated since the early months of the conflict, but direct eyewitness testimony of the kind presented in the documentary remains rare. Both men are currently on the run, having deserted their units.\n\nThe Russian government pushed back against the allegations in a statement to the BBC, saying its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" Moscow added that information regarding alleged violations and crimes \"is duly investigated,\" while noting it was \"unable to independently verify the accuracy or authenticity of the information\" provided by the BBC.\n\nThe documentary airs as Western attention remains focused on the trajectory of peace negotiations and the future of military support for Kyiv. The testimonies underscore the human cost of the war on Russia's own forces and raise further questions about morale and discipline within an army that has suffered heavy casualties. Independent estimates from Western intelligence agencies have placed total Russian casualties — killed and wounded — well above 300,000 since February 2022, though Moscow has not released comprehensive figures.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Russia-Ukraine war",
+        "Russian military",
+        "war crimes",
+        "BBC documentary",
+        "military discipline"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T15:02:16.103Z"
+    },
+    {
+      "id": "ps-1771945353066-yqq9",
+      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
+      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
+      "subheadline": "Researchers bypass costly retraining of surrogate models by updating physics operators on the fly, enabling real-time optimization",
+      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to adapt to changing underground conditions without the costly process of regenerating data and retraining from scratch — achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, tackled a longstanding bottleneck in Dynamic Mode Decomposition (DMD), a widely used framework for building fast surrogate models of complex physical systems. DMD operators are typically trained on a single set of reservoir properties, meaning that any change to underground permeability or well placement forces engineers to run expensive multiphase simulations all over again to generate new training data. For carbon capture and storage workflows that demand rapid what-if analyses and real-time optimization, this retraining requirement largely negates the speed advantage surrogates are designed to provide.\n\nThe new approach introduces two complementary update strategies that modify existing DMD operators without incorporating any new simulation data. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting geological heterogeneity — the technique modifies the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced basis. Both strategies are described as lightweight, requiring only algebraic manipulation of existing operator matrices rather than fresh computational fluid dynamics runs.\n\nNumerical experiments reported in the paper show that the updated models accurately reproduce plume migration patterns and pressure buildup — two critical quantities for assessing the safety and efficiency of underground CO₂ storage — with errors of less than three percent compared to surrogates retrained from scratch. The speed gains are substantial: the update procedures execute hundreds of times faster than conventional retraining pipelines, which themselves are already orders of magnitude cheaper than full-fidelity simulation.\n\nThe work addresses a practical pain point as the carbon capture and storage industry scales up globally. Operators managing injection sites must frequently reassess reservoir behavior as new geological data arrives or as well configurations change during a project's multi-decade lifetime. A surrogate modeling framework that can adapt in near real-time without sacrificing physical accuracy could significantly accelerate decision-making in optimization, control, and uncertainty quantification — the three pillars of safe, cost-effective carbon sequestration. The research sits at the intersection of computational physics, control theory, and computational engineering, reflecting the increasingly interdisciplinary nature of climate mitigation technology.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T15:02:33.066Z"
+    },
+    {
+      "id": "ps-1771945367885-wv9t",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from within, using a programmable biological safety mechanism that prevents the microbes from becoming active in healthy tissue.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, they provide an ideal habitat for the microbe to multiply and expand. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what happens at the tumor's periphery, where trace amounts of oxygen kill the bacteria before they can eliminate the cancer entirely. To overcome this, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive longer in partially oxygenated regions. But introducing oxygen tolerance raises an obvious safety concern: bacteria capable of surviving in oxygen-rich environments like the bloodstream could pose serious risks to patients. The researchers solved this with quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene activates only after enough bacteria have accumulated inside the tumor to cross a critical signaling threshold — ensuring the survival mechanism engages exclusively where it is needed.\n\nThe work, published in ACS Synthetic Biology, describes the construction and functional characterization of this quorum sensing circuit in C. sporogenes. In experiments, the team validated the system by programming bacteria to produce green fluorescent protein, confirming that activation occurred precisely at the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next phase of the research will combine the oxygen-tolerance gene and the quorum-sensing control system into a single organism for evaluation in pre-clinical tumor models. The Waterloo team is collaborating with CREM Co Labs, a Toronto-based company co-founded by PhD student Bahram Zargar, who initiated the research alongside Ingalls and retired Waterloo professor Pu Chen. Dr. Sara Sadr, a former Waterloo doctoral student, played a leading role in advancing the experimental work. While clinical application remains years away, the approach represents a notable advance in the emerging field of engineered bacterial cancer therapies, offering a programmable biological strategy for attacking solid tumors that have historically resisted conventional treatments.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T15:02:47.885Z"
+    },
+    {
+      "id": "ps-1771945382082-l5oa",
+      "slug": "anthropic-targets-enterprise-market-with-pre-built-ai-agent-",
+      "headline": "Anthropic Targets Enterprise Market With Pre-Built AI Agent Plugins",
+      "subheadline": "New program deploys Claude-powered agents for finance, legal, and HR — posing a direct challenge to incumbent SaaS providers",
+      "body": "Anthropic on Tuesday launched its most ambitious enterprise offering to date, unveiling a plugin-based system that allows companies to deploy pre-built AI agents across departments including finance, legal, human resources, and engineering.\n\nThe enterprise agents program builds on the company's previously announced Claude Cowork platform and plugin architecture, which entered research preview in late January. But the new launch adds critical enterprise infrastructure — private software marketplaces, controlled data flows, and centralized administration tools — designed to meet the expectations of corporate IT departments accustomed to managing traditional software deployments. \"Admins want to be able to have really, really tailored workflows and skills for their specific organization,\" Anthropic product officer Matt Piccolella told reporters, adding that the system allows organizations to manage agent deployment \"in a very centralized way.\"\n\nThe stock plugins shipping at launch target functions common to most large organizations. The finance plugin equips Claude with capabilities for market research, competitive analysis, and financial modeling. An HR plugin can generate job descriptions, onboarding documents, and offer letters. Each is designed as a starting point that companies can customize to match their own internal processes. Alongside the plugins, Anthropic introduced new enterprise connectors for Gmail, DocuSign, and Clay, enabling agents to pull data directly from linked systems — a crucial step toward making AI agents useful in real workflows rather than isolated demonstrations.\n\nThe strategic implications are significant. By packaging AI agents as drop-in replacements for tasks currently handled by specialized SaaS tools, Anthropic is positioning itself not just as a model provider but as a direct competitor to a wide swath of enterprise software vendors. Kate Jensen, Anthropic's head of Americas, was candid about the industry's recent track record, acknowledging that 2025's much-hyped \"year of agents\" largely failed to materialize. \"It wasn't a failure of effort. It was a failure of approach,\" Jensen said.\n\nThe program represents a major bet that enterprise adoption of agentic AI hinges less on raw model capability and more on deployment infrastructure — the permissions, data governance, and customization layers that large organizations require before trusting AI with consequential business tasks. If the approach gains traction, it could substantially expand Anthropic's enterprise client base while reshaping how companies think about automating knowledge work.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Anthropic",
+        "enterprise AI",
+        "AI agents",
+        "Claude",
+        "SaaS"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Screen-Shot-2026-02-24-at-9.38.18-AM.jpg?resize=1200,662",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T15:03:02.082Z"
+    },
+    {
+      "id": "ps-1771945397007-t3j9",
+      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
+      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
+      "subheadline": "The original cryptocurrency has shed roughly 19% in February, recalling the dark days of TerraUSD's collapse",
+      "body": "Bitcoin slid as much as 3.1% on Tuesday to $62,557, extending a punishing February selloff that has now erased roughly 19% of the token's value — putting it on pace for its steepest monthly decline since the crypto industry's cascading meltdown in June 2022.\n\nThe scale of the drawdown is striking. The last time Bitcoin posted a comparable monthly loss, the crypto sector was reeling from the implosion of the TerraUSD stablecoin, which set off a domino effect that brought down hedge fund Three Arrows Capital and lending platform BlockFi, among others. By mid-morning in New York on Tuesday, Bitcoin was hovering around $63,500, well below the highs that had fueled optimism earlier in the cycle.\n\nThe February rout marks a sharp reversal for a market that had been buoyed in recent months by institutional adoption narratives and expectations of a friendlier U.S. regulatory environment. While the specific catalysts behind the current decline remain multifaceted — Bloomberg reporting has pointed to crumbling core narratives, security incidents involving Trump-family-linked crypto venture World Liberty Financial, and broader macro headwinds — the speed and severity of the move has rattled retail traders who entered the market during more exuberant periods.\n\nThe sell-off also raises fresh questions about Bitcoin's relationship with traditional risk assets. Gold and equities have followed divergent paths in recent weeks, and Bitcoin's steep decline suggests the digital asset is once again trading more like a speculative growth bet than the inflation hedge or \"digital gold\" its proponents have long championed.\n\nWith several trading days still remaining in February, market participants will be watching closely to see whether Bitcoin can find support near current levels or whether further liquidations could deepen the downturn. A monthly close near $63,500 would represent the kind of loss that historically takes weeks or months to recover from, potentially resetting expectations for the broader digital asset market heading into the second quarter of 2026.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "crypto markets",
+        "market selloff",
+        "digital assets"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGsW94Rm1ok8/v0/1200x800.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T15:03:17.007Z"
+    },
+    {
+      "id": "ps-1771945412648-3raa",
+      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
+      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
+      "subheadline": "The exemptive relief enables instant settlement and round-the-clock liquidity in a tokenized Treasury market now worth over $10 billion",
+      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree special exemptive relief to allow its Treasury Money Market Digital Fund to trade continuously at a fixed $1 price through a broker-dealer, marking a significant regulatory milestone for the tokenization of traditional financial assets. The approval, announced on Tuesday, enables the fund — which trades under the ticker WTGXX — to bypass the standard mutual fund practice of transacting only at end-of-day net asset value.\n\nUnder the newly approved structure, a broker-dealer subsidiary of WisdomTree will trade from its own inventory on a 24/7 basis, with transactions settling instantly on blockchain infrastructure. The mutual fund's underlying regulatory framework and primary structure remain unchanged, but investors gain continuous access to liquidity rather than waiting for daily NAV calculations. The arrangement also required regulatory clearance from the Financial Industry Regulatory Authority (FINRA) to expand the broker-dealer's permitted activities.\n\nWisdomTree introduced an additional feature alongside the structural change: continuous dividend accrual that tracks wallet activity on-chain, allocating interest to shareholders based on exactly how long they held shares during a given day. Even mid-day transfers will receive proportional yield, according to the company. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets. The firm plans to offer the capability first to institutional clients through its Connect platform before potentially extending retail access through its Prime app.\n\nThe approval arrives as the tokenized U.S. Treasury market surpasses $10 billion in total assets, according to data provider rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with more than $2 billion in total value locked, while Circle and Ondo Finance also offer competing products. The broader trend reflects Wall Street's growing conviction that blockchain settlement can reduce operational friction and compress the multi-day clearing timelines that have long defined traditional securities markets.\n\nFor regulators, the WisdomTree decision represents a carefully bounded experiment — permitting blockchain-native trading mechanics while preserving the mutual fund wrapper that subjects the product to existing investor protections. Whether the SEC extends similar relief to other asset managers will likely depend on how smoothly the WisdomTree model operates, but the precedent is now set for tokenized funds to compete directly with traditional cash management products on speed and accessibility.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenization",
+        "WisdomTree",
+        "SEC",
+        "blockchain",
+        "money market funds",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T15:03:32.648Z"
+    },
     {
       "id": "ps-1771944448002-pnno",
       "slug": "first-uk-baby-born-from-deceased-donor-womb-transplant",
@@ -21,47 +143,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T14:47:28.002Z"
-    },
-    {
-      "id": "ps-1771944463541-1bzt",
-      "slug": "new-method-enables-real-time-updates-to-carbon-storage-simul",
-      "headline": "New Method Enables Real-Time Updates to Carbon Storage Simulations",
-      "subheadline": "Researchers show how to adapt surrogate models hundreds of times faster than retraining, with less than 3% accuracy loss",
-      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, eliminating the need to rebuild expensive surrogate models every time underground conditions change.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, present a lightweight method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the computational burden of multiphase fluid simulations. The core problem they address is a persistent bottleneck: DMD models are trained on a specific set of reservoir properties, and when parameters like rock permeability or well placement shift, the conventional approach requires generating entirely new simulation snapshots and retraining the model from scratch, negating much of the speed advantage that surrogates are designed to provide.\n\nThe proposed solution introduces two complementary update strategies that avoid new simulation data altogether. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation within the model's reduced basis, weighting high-permeability zones to give them proportionally greater influence. Numerical experiments reported in the paper show that the updated models recover key physical quantities, including plume migration patterns and pressure build-up, to within three percent of a freshly trained surrogate while executing hundreds of times faster than full retraining.\n\nThe implications are particularly relevant for carbon capture and storage (CCS) operations, where engineers need to run rapid optimization loops, perform uncertainty analyses, and evaluate what-if scenarios in near real time. High-fidelity multiphase reservoir simulators, while accurate, are computationally prohibitive for such iterative workflows. The ability to adapt existing surrogate models on the fly — without sacrificing the physical fidelity demanded by regulatory and safety requirements — could meaningfully lower the computational barriers to deploying and managing large-scale carbon sequestration projects.\n\nThe work sits at the intersection of computational physics, optimization, and engineering, and was submitted from a team with ties to reservoir simulation research. While the paper has not yet undergone formal peer review, the reported accuracy and speed gains suggest a practical path toward real-time decision support tools for one of the most computationally intensive challenges in climate mitigation infrastructure.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "computational physics",
-        "surrogate modeling",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1671810458712-0c6e1e846892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T14:47:43.541Z"
-    },
-    {
-      "id": "ps-1771944480575-6xcs",
-      "slug": "waterloo-researchers-engineer-tumor-eating-bacteria-with-bui",
-      "headline": "Waterloo Researchers Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "A synthetic DNA circuit using quorum sensing ensures engineered microbes activate only inside oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from the inside out, incorporating a molecular safety mechanism that prevents the microbes from activating in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward programmable biological therapies for cancers that resist conventional treatment.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen, bacterial spores injected into the bloodstream naturally home in on these sites, germinating and feeding on the dead-cell interior. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The challenge has been that as the bacteria expand outward toward the tumor's oxygen-rich periphery, they die before eliminating all cancerous tissue.\n\nTo overcome this barrier, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive longer at the tumor margins. But granting bacteria the ability to endure oxygen raises an obvious danger: unchecked growth in the bloodstream or healthy organs. The researchers solved this with a quorum-sensing circuit — a naturally occurring bacterial communication system in which cells release chemical signals that intensify as their population grows. Only after a critical mass of bacteria has accumulated inside a tumor does the signal reach the threshold needed to switch on the oxygen-resistance gene. In effect, the microbes arm themselves solely when they are already deep within a tumor.\n\nThe team validated the design by programming bacteria to produce green fluorescent protein as a proxy, confirming that the quorum-sensing switch activated at precisely the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is integrating both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials.\n\nThe project, led by PhD student Bahram Zargar and former doctoral researcher Sara Sadr under the supervision of Ingalls and retired professor Pu Chen, exemplifies the interdisciplinary push now reshaping cancer research. The Waterloo group is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to move the technology toward clinical development. If pre-clinical results hold, the platform could offer oncologists a fundamentally new weapon against solid tumors — one that is self-targeting, self-limiting, and programmable at the genetic level.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T14:48:00.575Z"
     },
     {
       "id": "ps-1771944495240-j71a",
@@ -124,27 +205,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/bitcoin-s-u-s-demand-signal-turns-negative-for-a-record-40-days",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T14:48:48.369Z"
-    },
-    {
-      "id": "ps-1771943539193-n5qc",
-      "slug": "russian-soldiers-describe-summary-executions-of-troops-who-r",
-      "headline": "Russian Soldiers Describe Summary Executions of Troops Who Refuse Orders",
-      "subheadline": "Two fugitive servicemen tell BBC they witnessed commanders shoot soldiers at point-blank range on the front lines in Ukraine",
-      "body": "Russian soldiers have come forward with firsthand accounts of commanders executing their own troops for refusing to fight, in testimony that offers a harrowing window into discipline and coercion within Moscow's military ranks in Ukraine.\n\nTwo men — identified only as Ilya, 35, and Dima — spoke to the BBC from an undisclosed location outside Russia for a documentary titled \"The Zero Line: Inside Russia's War.\" Ilya, a former special-needs teacher who was drafted into the army, recounted watching a commander shoot four soldiers at point-blank range after they fled the front line and refused to return. The practice, known in Russian military slang as \"zeroing,\" serves both as punishment and as a tool of intimidation against others contemplating disobedience, the men said. Dima, who also witnessed the killings, described commanders murdering their own men as \"a normal thing.\" He recalled standing just two to three meters away: \"Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life.\"\n\nThe accounts, which the BBC says it cannot independently verify, add to a growing body of testimony from Russian servicemen and their families alleging systematic brutality within Russia's forces. Reports of so-called \"barrier troops\" — units positioned behind front lines to prevent retreat — and extrajudicial killings have circulated since the early months of the full-scale invasion launched in February 2022, but direct eyewitness testimony from soldiers willing to speak on camera remains rare.\n\nThe Russian government pushed back against the allegations. In a statement to the BBC, Moscow said its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" It added that information regarding alleged violations and crimes \"is duly investigated\" but said it was unable to verify the claims presented by the broadcaster.\n\nThe documentary's release comes at a moment of intense scrutiny over Russian military losses. Western intelligence estimates have placed total Russian casualties — killed and wounded — well above 600,000 since the start of the full-scale invasion, though exact figures remain contested. The testimonies from Ilya and Dima suggest that for some Russian soldiers, the threat they face from their own commanders may rival the dangers of the battlefield itself.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia",
-        "Ukraine war",
-        "military executions",
-        "war crimes",
-        "BBC documentary",
-        "front lines"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T14:32:19.193Z"
     },
     {
       "id": "ps-1771943612794-sp2p",
@@ -379,26 +439,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/over-400-000-btc-bought-between-usd60k-and-usd70k-during-bitcoin-s-latest-downturn",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T12:48:41.913Z"
-    },
-    {
-      "id": "ps-1771936412493-7dbw",
-      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
-      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
-      "subheadline": "The leading cryptocurrency's February selloff echoes the turmoil that accompanied industry-wide collapses nearly four years ago",
-      "body": "Bitcoin continued its slide on Tuesday, putting the world's largest cryptocurrency on pace for its steepest monthly decline since June 2022 — a period defined by a cascade of corporate failures that nearly unraveled the digital asset industry.\n\nThe February downturn marks a sharp reversal for Bitcoin, which had entered the year buoyed by institutional adoption and the maturation of spot exchange-traded funds in the United States. The scale of the monthly loss now rivals the damage inflicted during the so-called crypto winter, when the implosions of firms like Three Arrows Capital, Celsius Network, and Voyager Digital sent shockwaves through the market and wiped hundreds of billions of dollars in value from the sector.\n\nWhile the current selloff lacks a single catalytic corporate failure of that magnitude, the breadth and persistence of the decline suggest deeper forces at work. Macroeconomic headwinds — including uncertainty around Federal Reserve interest rate policy, geopolitical tensions, and a broader risk-off mood across global markets — have weighed heavily on speculative assets. Bitcoin, despite its advocates' claims of digital gold status, has once again demonstrated its sensitivity to shifts in investor risk appetite.\n\nThe drawdown poses a test for the institutional infrastructure built around crypto since the last major downturn. Spot Bitcoin ETFs, which drew billions in inflows following their January 2024 launch, now face questions about whether retail and institutional holders will stay the course or accelerate redemptions as losses mount. Sustained outflows from these vehicles could amplify selling pressure and deepen the correction.\n\nFor the broader crypto market, the February rout serves as a reminder that extreme volatility remains a defining feature of digital assets, even as the industry has sought to position itself as an increasingly mainstream component of global finance. Whether this month's decline represents a temporary correction or the beginning of a more protracted downturn will depend largely on how macroeconomic conditions evolve in the weeks ahead.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "crypto winter",
-        "markets",
-        "digital assets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1623227497141-30aef13ebafc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8Yml0Y29pbiUyMGNyeXB0b2N1cnJlbmN5fGVufDB8MHx8fDE3NzE5MzE5MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T12:33:32.493Z"
     },
     {
       "id": "ps-1771935506302-w4qz",
@@ -1009,49 +1049,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/software-payments-shares-tumble-after-citrini-post-on-ai-risks",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T22:18:32.378Z"
-    },
-    {
-      "id": "ps-1771882405605-c1oa",
-      "slug": "s-p-500-slides-as-ai-concerns-rattle-financials-and-software",
-      "headline": "S&P 500 Slides as AI Concerns Rattle Financials and Software Stocks",
-      "subheadline": "Nvidia bucks the trend with gains ahead of Wednesday earnings, while new Trump import levy adds to market uncertainty",
-      "body": "U.S. equities fell sharply on Monday as a fresh wave of anxiety over artificial intelligence's impact on financial and software companies converged with renewed trade policy uncertainty, sending the S&P 500 lower in a broad-based selloff.\n\nThe decline was driven in large part by weakness in financial and software stocks, where investors appeared to reassess the near-term benefits and disruption risks posed by AI adoption. The selling pressure came even as Nvidia Corp., the chipmaker widely seen as the bellwether of the AI trade, bucked the trend with gains ahead of its closely watched earnings report scheduled for Wednesday. Nvidia's results are expected to offer the market's next major data point on the trajectory of AI infrastructure spending.\n\nAdding to the negative sentiment, President Donald Trump moved to impose a new across-the-board levy on U.S. imports, a step that sowed confusion among investors and trading partners about the direction of global trade policy. The combination of AI-related sector rotation and tariff uncertainty created a difficult environment for risk assets, with few corners of the market offering refuge.\n\nThe session underscored an emerging tension in markets: while enthusiasm for AI's long-term potential remains intact — as evidenced by Nvidia's resilience — investors are growing more discerning about which sectors stand to benefit and which face disruption. Financial firms, which have invested heavily in AI tools, and software companies, which face potential competitive threats from AI-native rivals, bore the brunt of Monday's reassessment.\n\nTraders now turn their attention to Nvidia's Wednesday report as a potential catalyst that could either stabilize sentiment or deepen the current unease. With trade policy adding a layer of macroeconomic risk, market participants face a week loaded with crosscurrents that could set the tone for the weeks ahead.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "S&P 500",
-        "artificial intelligence",
-        "Nvidia",
-        "tariffs",
-        "financial stocks",
-        "software stocks",
-        "trade policy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8UyUyNlAlMjA1MDAlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzE4NzYxMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/s-p-500-falls-on-tariff-questions-nvidia-gains-before-earnings",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T21:33:25.605Z"
-    },
-    {
-      "id": "ps-1771881512619-hsrs",
-      "slug": "abbott-raises-20-billion-in-bond-sale-to-fund-exact-sciences",
-      "headline": "Abbott Raises $20 Billion in Bond Sale to Fund Exact Sciences Acquisition",
-      "subheadline": "The massive debt offering ranks among the largest U.S. investment-grade bond sales of 2026",
-      "body": "Abbott Laboratories tapped the U.S. bond market for $20 billion on Monday, securing the financing needed to complete its acquisition of cancer-screening specialist Exact Sciences Corp. in one of the year's largest high-grade debt offerings.\n\nThe sale underscores both the scale of Abbott's ambitions in the oncology diagnostics space and the appetite among institutional investors for top-tier corporate debt. The $20 billion raise places the deal among the biggest investment-grade bond offerings in the U.S. market so far in 2026, reflecting a broader trend of large healthcare companies leveraging favorable credit conditions to pursue transformative acquisitions.\n\nExact Sciences, best known for its Cologuard colorectal cancer screening test, has positioned itself as a leader in non-invasive cancer detection — a rapidly growing segment of the diagnostics industry. For Abbott, which already commands a dominant position in medical devices and diagnostics, the acquisition represents a significant expansion into molecular screening and early cancer detection, areas expected to see substantial growth as preventive healthcare becomes a greater priority worldwide.\n\nThe bond market has proven a reliable funding channel for mega-deals in the healthcare sector, where consolidation has accelerated as companies seek to build integrated platforms spanning devices, diagnostics, and data. Abbott's decision to finance the purchase primarily through debt rather than equity suggests confidence in its ability to service the new obligations through the combined entity's cash flows. The company's strong investment-grade credit rating likely helped it secure favorable terms from bondholders eager for yield from a blue-chip issuer.\n\nThe transaction adds to a busy start to 2026 for U.S. corporate bond issuance, as companies move to lock in financing amid a relatively stable rate environment. Healthcare M&A in particular has surged, driven by the convergence of diagnostics, artificial intelligence, and personalized medicine. Abbott's bet on Exact Sciences signals that the industry's largest players see early cancer detection not merely as a niche market but as a cornerstone of future healthcare delivery.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Abbott Laboratories",
-        "Exact Sciences",
-        "bond sale",
-        "healthcare M&A",
-        "corporate debt",
-        "cancer diagnostics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1664575602276-acd073f104c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxidXNpbmVzc3xlbnwwfDB8fHwxNzcxODgxNTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/abbott-laboratories-kicks-off-bond-sale-for-exact-sciences-deal",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T21:18:32.619Z"
     }
   ]
 }
