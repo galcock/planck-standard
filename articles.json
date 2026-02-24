@@ -1,7 +1,130 @@
 {
-  "lastUpdated": "2026-02-24T12:03:46.151Z",
+  "lastUpdated": "2026-02-24T12:18:26.397Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771935432356-numl",
+      "slug": "russian-soldiers-describe-executions-of-troops-who-refuse-or",
+      "headline": "Russian Soldiers Describe Executions of Troops Who Refuse Orders",
+      "subheadline": "Two men who fled Russia's military tell BBC they witnessed commanders shoot soldiers at point-blank range on the front lines",
+      "body": "Russian soldiers have given firsthand accounts of commanders executing their own troops for refusing to fight in Ukraine, according to a new BBC documentary that offers a harrowing window into discipline and brutality within Moscow's ranks.\n\nTwo men — identified as Ilya, 35, and Dima — spoke from an undisclosed location outside Russia for the documentary \"The Zero Line: Inside Russia's War.\" Ilya, a former special-needs teacher who was drafted into the army, told the BBC he personally witnessed a commander shoot four soldiers at point-blank range after they fled the front line and refused to return. The practice, known colloquially as \"Zeroing\" in Russian military slang, serves both as punishment and as a warning to others contemplating disobedience, the men said.\n\nDima, who was also present during the killings, described the executions as routine. \"I see it — just two metres, three metres. Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life,\" he said. He added that commanders killing their own personnel had become \"a normal thing\" along the front lines.\n\nThe Russian government rejected the allegations in a statement, saying its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" Moscow said information regarding alleged violations \"is duly investigated\" but added that it was \"unable to independently verify the accuracy or authenticity of the information\" provided by the BBC.\n\nThe testimony aligns with a growing body of reporting from Ukrainian intelligence, independent Russian media outlets, and human rights organizations that has documented coercive discipline, including summary executions, within Russia's military since the full-scale invasion began in February 2022. Convicts recruited from Russian prisons by the Wagner mercenary group were among the first units where such accounts surfaced, but the new documentary suggests the practice has spread to regular army formations. The accounts underscore the severe morale and discipline challenges facing Russian forces more than three years into the conflict, even as Moscow continues to funnel tens of thousands of fresh recruits to the front.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Russia",
+        "Ukraine war",
+        "military discipline",
+        "war crimes",
+        "BBC documentary"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T12:17:12.356Z"
+    },
+    {
+      "id": "ps-1771935447085-mf2u",
+      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
+      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
+      "subheadline": "Researchers show how to update data-driven surrogate models without costly retraining, enabling real-time optimization of geological CO₂ sequestration",
+      "body": "A pair of researchers has developed a technique that allows computational models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than current methods — without sacrificing physical accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight approach for updating Dynamic Mode Decomposition (DMD) operators when key reservoir properties such as permeability or well placement change. DMD is a popular data-driven framework that distills expensive multiphase fluid simulations into compact surrogate models, but its operators are typically locked to a single set of geological parameters. Any change to the subsurface domain — a common necessity during optimization and uncertainty analysis — has traditionally required generating fresh simulation snapshots and retraining the model from scratch, negating much of the computational savings that make surrogates attractive in the first place.\n\nThe new work introduces two complementary update strategies. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the heterogeneity of actual rock formations — the approach instead modifies the spatial representation, weighting high-permeability zones more heavily in the model's reduced basis. Crucially, neither strategy requires new simulation data or a full retraining cycle.\n\nNumerical experiments reported in the paper show that the updated models reproduce plume migration patterns and pressure build-up to within three percent of a surrogate that was freshly trained on new data, while executing hundreds of times faster than full retraining. The authors argue this performance profile makes the technique suitable for real-time optimization loops and rapid what-if scenario analysis — capabilities that are increasingly important as the carbon capture and storage industry scales up and operators need to evaluate numerous subsurface configurations quickly.\n\nThe research sits at the intersection of computational physics, engineering, and optimization, and addresses a practical bottleneck in deploying reduced-order models for climate-critical infrastructure. As geological carbon storage projects expand worldwide under mounting pressure to decarbonize industrial emissions, tools that maintain physical fidelity while dramatically cutting computational cost could prove essential for making sequestration operations both safer and more economically viable.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T12:17:27.085Z"
+    },
+    {
+      "id": "ps-1771935462866-8ug4",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating until they've colonized a tumor's oxygen-free core",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to infiltrate solid tumors, consume them from within, and activate an oxygen-survival mechanism only when conditions are safe — a programmable biological assault on cancer that could eventually complement existing treatments.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide ideal conditions for the bacterium to germinate and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" But as the microbes expand outward toward the tumor's oxygenated periphery, they historically die off before finishing the job — leaving cancerous tissue intact at the margins.\n\nTo solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species, enabling the engineered microbes to survive in the partially oxygenated outer regions of tumors. The critical innovation, however, is the safety mechanism controlling when that gene activates. The researchers built a synthetic DNA circuit based on quorum sensing, a natural process in which bacteria release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after bacterial numbers inside the tumor cross a specific threshold — ensuring the microbes cannot survive in oxygen-rich environments like the bloodstream, where uncontrolled growth would pose serious danger to patients.\n\nThe work, published in ACS Synthetic Biology, builds on two earlier milestones: a demonstration that C. sporogenes could be modified for improved oxygen tolerance, and a proof-of-concept experiment using green fluorescent protein to confirm the quorum-sensing circuit activated at the intended moment. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next phase will combine both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials. The interdisciplinary project — spanning engineering, mathematics, and life sciences — is being advanced in collaboration with CREM Co Labs, a Toronto-based company co-founded by Bahram Zargar, a Waterloo PhD graduate who helped originate the research. Former Waterloo doctoral student Sara Sadr also played a leading role. While clinical application remains years away, the approach represents a growing trend in synthetic biology: programming living organisms to perform precise therapeutic tasks that conventional drugs and radiation cannot easily accomplish, particularly in the notoriously difficult-to-reach interiors of solid tumors.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T12:17:42.866Z"
+    },
+    {
+      "id": "ps-1771935478469-y6a0",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation attacks",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over chip export controls.\n\nThe three labs allegedly generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. According to Anthropic, the campaigns specifically targeted Claude's most advanced features: agentic reasoning, tool use, and coding. The scope varied by company. MiniMax accounted for the largest volume at roughly 13 million exchanges focused on agentic coding and tool orchestration, while Moonshot AI generated 3.4 million exchanges across reasoning, coding, computer vision, and agent development. DeepSeek's activity was more modest at 150,000 exchanges but appeared aimed at foundational logic and alignment — particularly around generating responses to policy-sensitive queries that might evade censorship.\n\nThe timing of Anthropic's disclosure is no accident. Last month, the Trump administration formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move that drew sharp criticism from those who argue it undermines Washington's leverage in the global AI race. Anthropic explicitly connected the dots, arguing that distillation at this scale \"requires access to advanced chips\" and that the attacks \"reinforce the rationale for export controls.\" The company also raised national security concerns, warning that models built through illicit distillation are unlikely to retain safeguards designed to prevent misuse in areas like bioweapons development and offensive cyber operations.\n\nDmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he said, calling for a complete halt to AI chip sales to the implicated companies. OpenAI has made similar allegations, sending a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products.\n\nAnthropic said it is investing in technical defenses to make distillation attacks harder to execute and easier to detect, but stressed that the problem demands a coordinated response from the AI industry, cloud providers, and policymakers. None of the three accused Chinese companies have publicly responded to the allegations. The accusations land as DeepSeek prepares to release its V4 model, which reportedly outperforms both Claude and OpenAI's ChatGPT in coding benchmarks — a claim that, in light of Anthropic's allegations, may invite even greater scrutiny.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T12:17:58.469Z"
+    },
+    {
+      "id": "ps-1771935491587-fjfa",
+      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
+      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
+      "subheadline": "The leading cryptocurrency's February slide marks the sharpest monthly decline since the industry's wave of corporate collapses",
+      "body": "Bitcoin continued its downward slide on Tuesday, putting the world's largest cryptocurrency on pace for its steepest monthly loss since June 2022 — when the collapse of major crypto firms plunged the industry into a prolonged winter.\n\nThe decline marks a sharp reversal for an asset that had rallied significantly over the past two years, buoyed by the launch of spot Bitcoin exchange-traded funds in the United States and broader institutional adoption. The scale of the February drawdown now rivals the turmoil that accompanied the implosions of the Terra/Luna ecosystem and the cascading failures of firms like Three Arrows Capital and Celsius Network, which together wiped hundreds of billions of dollars from the crypto market in mid-2022.\n\nWhile the precise drivers of the current sell-off remain multifaceted, the retreat comes amid a broader risk-off environment in global markets. Investors have been reassessing their appetite for speculative assets as macroeconomic uncertainties persist, including questions about the trajectory of monetary policy and geopolitical tensions. Bitcoin, which proponents often frame as a hedge against traditional financial instability, has instead traded in lockstep with risk assets during the downturn.\n\nThe monthly loss is notable for its severity relative to recent history. Since recovering from the 2022 bear market, Bitcoin had largely avoided sustained drawdowns of this magnitude, supported by steady inflows into spot ETFs and growing corporate treasury allocations. The current decline may test the conviction of newer institutional holders who entered the market during the post-ETF rally.\n\nMarket participants will be closely watching whether the sell-off stabilizes or deepens in the final days of February. A monthly close at current levels would serve as a sobering reminder that despite the cryptocurrency's maturation and growing mainstream acceptance, it remains susceptible to sharp corrections that echo its most turbulent periods.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "crypto markets",
+        "market selloff",
+        "digital assets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1627570120184-7aec90f5613a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxiaXRjb2luJTIwY3J5cHRvY3VycmVuY3l8ZW58MHwwfHx8MTc3MTkxMjEwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T12:18:11.587Z"
+    },
+    {
+      "id": "ps-1771935506302-w4qz",
+      "slug": "ethereum-foundation-begins-staking-70-000-eth-to-fund-operat",
+      "headline": "Ethereum Foundation Begins Staking 70,000 ETH to Fund Operations",
+      "subheadline": "The nonprofit behind Ethereum is putting its treasury to work, expecting roughly 2.8% annual yield to support research and grants",
+      "body": "The Ethereum Foundation has begun staking 70,000 ETH from its treasury — worth approximately $128 million at current prices — in a move designed to generate sustainable revenue for protocol development, ecosystem grants, and ongoing operations.\n\nThe process kicked off on February 24 with an initial deposit of 2,016 ETH, using Dirk and Vouch, a pair of open-source validator tools built by infrastructure firm Attestant. Dirk serves as a distributed signing mechanism that coordinates across multiple jurisdictions to minimize single points of failure, while Vouch manages the actual validator duties. The Foundation said its staking infrastructure combines hosted services with self-managed hardware running minority clients spread across several countries — an approach consistent with its stated commitment to decentralization.\n\nThe move follows the Foundation's public release of a formal treasury policy last year, which outlined principles for managing both crypto and fiat reserves while balancing long-term financial sustainability with Ethereum's core values of decentralization, open-source access, and user privacy. Rather than leaving a significant portion of its ether holdings idle, the organization will now channel staking rewards back into funding protocol research and community development programs. Based on the CoinDesk Composite Ether Staking Rate, validators currently earn an annualized yield of approximately 2.808%, which would translate to roughly $3.6 million per year on the 70,000 ETH stake at current market rates.\n\nThe 70,000 ETH earmarked for staking represents a meaningful but measured fraction of the Foundation's total crypto reserves. Data from blockchain analytics firm Arkham Intelligence shows the organization holds approximately 172,650 ETH plus an additional 10,000 wrapped ether, placing the staked portion at roughly 38% of its available ether holdings. The phased approach — starting with a relatively modest initial deposit before scaling up — suggests caution in deploying such a significant position.\n\nThe staking announcement arrives during a turbulent period for crypto markets, with ether trading around $1,828, down nearly 5% on the day. The Foundation's decision to generate yield on its treasury rather than sell assets may also serve to reassure a community that has periodically scrutinized the organization's ETH disposals as potential sources of selling pressure.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Ethereum Foundation",
+        "ETH staking",
+        "cryptocurrency",
+        "treasury management",
+        "DeFi"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6ed145e0ace569dd7b6f87f43edffddc1546c444-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/putting-the-treasury-to-work-the-ethereum-foundation-just-staked-70-000-eth-to-fund-its-future",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T12:18:26.302Z"
+    },
     {
       "id": "ps-1771934549516-wq9c",
       "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
@@ -21,70 +144,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T12:02:29.516Z"
-    },
-    {
-      "id": "ps-1771934565331-sim6",
-      "slug": "new-method-speeds-up-carbon-storage-simulations-hundredfold",
-      "headline": "New Method Speeds Up Carbon Storage Simulations Hundredfold",
-      "subheadline": "Researchers develop a lightweight technique to update surrogate models without costly retraining, enabling real-time optimization",
-      "body": "A pair of researchers has developed a computational shortcut that could dramatically accelerate the modeling of geological carbon storage projects, executing hundreds of times faster than conventional retraining approaches while maintaining accuracy within three percent of full-fidelity simulations.\n\nDimitrios Voulanas and Eduardo Gildin, writing in a paper posted to the arXiv preprint server, tackle a persistent bottleneck in carbon capture and storage (CCS) planning: the prohibitive computational cost of high-fidelity multiphase flow simulations. Engineers modeling underground CO₂ injection must account for how pressurized plumes migrate through porous rock and how pressure builds in the reservoir — calculations that demand enormous processing power, particularly when reservoir properties like permeability or well placement change between scenarios. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant patterns from simulation snapshots, has emerged as a promising surrogate framework, but its operators must be retrained from scratch whenever domain properties shift, negating much of its speed advantage.\n\nThe new work introduces two complementary update strategies that modify an existing DMD model without generating new simulation data or retraining. When permeability changes uniformly across a reservoir domain — as might occur when switching between geological formations with different rock characteristics — the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes, a more nuanced approach modifies the model's spatial representation, weighting high-permeability zones more heavily in the reduced basis to capture their outsized influence on fluid flow.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup profiles to within three percent of a surrogate that was freshly trained on new simulation data — the current gold standard — while completing calculations hundreds of times faster. The approach preserves what the authors describe as the \"physical fidelity demanded by carbon-storage workflows,\" a critical requirement given the regulatory scrutiny and safety considerations surrounding underground CO₂ sequestration.\n\nThe practical implications extend beyond academic interest. Carbon storage projects require extensive optimization studies, uncertainty quantification, and real-time control decisions — all of which demand rapid evaluation of many geological scenarios. By eliminating the retraining bottleneck, the technique could enable engineers to conduct rapid what-if analyses across varying reservoir conditions, potentially accelerating the planning and deployment of CCS infrastructure at a time when governments and industries worldwide are scaling up carbon removal efforts to meet climate targets.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "computational physics",
-        "surrogate modeling",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T12:02:45.331Z"
-    },
-    {
-      "id": "ps-1771934581056-5p5h",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing keep engineered microbes safely confined inside oxygen-starved cancer cores",
-      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors and consume them from the inside, deploying synthetic biology techniques to ensure the microbes activate their most aggressive capabilities only after safely colonizing cancerous tissue.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microorganism that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide ideal conditions for the bacterium to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" The challenge has been that as the microbes expand outward toward the tumor's oxygenated periphery, they die before finishing the job.\n\nTo overcome this limitation, the Waterloo team — spanning chemical engineering, applied mathematics, and life sciences — inserted an oxygen-tolerance gene borrowed from a related bacterial species. But making the bacteria broadly oxygen-resistant would pose a serious safety risk, potentially allowing them to proliferate in the bloodstream or healthy tissue. The researchers solved this with quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside a tumor to push the chemical signal past a critical threshold. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA components: \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe work, published in ACS Synthetic Biology, details the construction and functional characterization of this heterologous quorum-sensing circuit in C. sporogenes. In earlier studies, the team demonstrated genetic modifications for improved oxygen tolerance. In follow-up experiments, they validated their quorum-sensing trigger by programming bacteria to produce green fluorescent protein, confirming activation occurred at the intended population density. The next milestone is combining both systems — oxygen tolerance and quorum-sensing control — into a single organism for pre-clinical tumor trials.\n\nThe project, initiated by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen, is now advancing through a collaboration with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar. Former Waterloo doctoral student Sara Sadr played a leading role in the research. While engineered bacterial therapies for cancer remain years from clinical use, the Waterloo team's programmable safety architecture addresses one of the field's most persistent concerns — keeping therapeutic microbes precisely where they belong.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T12:03:01.056Z"
-    },
-    {
-      "id": "ps-1771934596882-xnpr",
-      "slug": "anthropic-says-three-chinese-ai-labs-used-24-000-fake-accoun",
-      "headline": "Anthropic Says Three Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign targeting Claude's core capabilities",
-      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of operating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over American chip exports.\n\nThe San Francisco-based AI company said the three labs generated over 16 million exchanges with Claude using a technique known as distillation, which involves feeding a more capable model's outputs into a less capable one to improve it. While distillation is a standard practice when applied to a company's own models, using it to siphon a competitor's capabilities amounts to what Anthropic characterizes as intellectual property theft. The company said the campaigns specifically targeted Claude's \"most differentiated capabilities: agentic reasoning, tool use, and coding.\"\n\nThe scope of the alleged extraction varied significantly across the three firms. MiniMax accounted for the largest share, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model at launch. Moonshot AI, which recently released its Kimi K2.5 open-source model and a coding agent, was linked to 3.4 million exchanges spanning agentic reasoning, coding, computer vision, and computer-use agent development. DeepSeek's footprint was smaller — about 150,000 exchanges — but appeared to target foundational logic and alignment, particularly around generating censorship-safe alternatives to policy-sensitive queries.\n\nThe accusations carry significant policy implications. The Trump administration last month authorized U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI capabilities. Anthropic explicitly tied the distillation campaigns to the export control debate, arguing that the scale of extraction \"requires access to advanced chips\" and that restricting chip access would limit both direct model training and large-scale distillation. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, told reporters the findings provide \"even more compelling reasons to refuse to sell any AI chips\" to the companies involved.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that models built through illicit distillation are unlikely to retain the safety guardrails that U.S. labs embed to prevent misuse in areas such as bioweapons development and offensive cyber operations. The company called for \"a coordinated response across the AI industry, cloud providers, and policymakers\" and said it would invest in defenses to make distillation attacks harder to execute. None of the three accused companies had publicly responded to the allegations as of Sunday.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T12:03:16.882Z"
     },
     {
       "id": "ps-1771934611843-l63p",
@@ -130,26 +189,6 @@
       "publishedAt": "2026-02-24T12:03:46.063Z"
     },
     {
-      "id": "ps-1771933659886-atpg",
-      "slug": "russian-soldiers-describe-executions-of-troops-who-refuse-or",
-      "headline": "Russian Soldiers Describe Executions of Troops Who Refuse Orders",
-      "subheadline": "Two fugitive soldiers tell BBC documentary they witnessed commanders shoot men at point-blank range on the front lines",
-      "body": "Russian soldiers who fled the war in Ukraine have given firsthand accounts of commanders executing fellow troops who refused orders, describing a practice so routine it has its own slang term within the military.\n\nIn a BBC documentary titled \"The Zero Line: Inside Russia's War,\" two men — identified only as Ilya and Dima — spoke from an undisclosed location outside Russia about what they witnessed on the front lines. Ilya, a 35-year-old former special needs teacher who was drafted into the army, told filmmakers he saw a commander shoot four soldiers at point-blank range after they fled their positions and refused to return. The practice, known in Russian military slang as \"zeroing,\" serves as both punishment and intimidation, the men said, designed to deter others from disobeying commands.\n\nDima, the second soldier, described the killings as commonplace. \"I see it — just two metres, three metres. Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's a real life,\" he said, adding that commanders killing their own men had become \"a normal thing.\" Both men are currently on the run, having deserted the Russian military.\n\nThe testimonies add to a growing body of evidence suggesting severe discipline problems and coercive tactics within Russia's armed forces as the war in Ukraine grinds past its third year. Reports of poorly trained conscripts, prisoners recruited into military service, and brutal treatment of soldiers who resist deployment have circulated since the early months of the conflict, but direct eyewitness accounts of summary executions remain rare and difficult to verify independently.\n\nThe Russian government pushed back on the allegations, stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" Moscow added that information regarding alleged violations is \"duly investigated\" but said it was unable to verify the claims presented by the BBC. The Kremlin has consistently denied reports of systemic abuse within its ranks, even as Ukrainian intelligence and Western analysts have documented mounting morale and discipline issues among Russian forces. The documentary's release comes at a time when both sides face acute manpower pressures, with Russia relying increasingly on recruits from marginalized populations and offering large enlistment bonuses to fill depleted units.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia",
-        "Ukraine war",
-        "military executions",
-        "human rights",
-        "BBC documentary"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T11:47:39.886Z"
-    },
-    {
       "id": "ps-1771933725577-eg4p",
       "slug": "tata-sons-delays-vote-on-chairman-chandrasekaran-s-third-ter",
       "headline": "Tata Sons Delays Vote on Chairman Chandrasekaran's Third Term",
@@ -168,26 +207,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/tata-defers-vote-on-chairman-s-new-term-signaling-power-tussle",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T11:48:45.577Z"
-    },
-    {
-      "id": "ps-1771931903866-82jw",
-      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
-      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
-      "subheadline": "The leading cryptocurrency's February slide marks its steepest monthly decline since the industry's wave of corporate collapses",
-      "body": "Bitcoin continued its downward slide on Tuesday, putting the world's largest cryptocurrency on pace for its worst monthly performance since June 2022 — when a cascade of corporate failures plunged the digital asset industry into a prolonged crisis known as \"crypto winter.\"\n\nThe February decline represents a sharp reversal for a token that had enjoyed a sustained period of recovery and growth in the intervening years. In June 2022, Bitcoin suffered devastating losses as the collapses of major crypto firms — including the implosion of the Terra/Luna ecosystem and the subsequent bankruptcy of lender Celsius Network — triggered a brutal selloff that erased hundreds of billions of dollars in market value across the sector. The fact that the current monthly drawdown rivals that period underscores the severity of the present downturn.\n\nThe selloff comes amid broader uncertainty in global financial markets, with risk assets facing headwinds from persistent macroeconomic concerns. Bitcoin, which proponents have long pitched as a hedge against traditional financial instability, has instead traded largely in sympathy with equities and other speculative assets during periods of market stress. The current decline suggests that dynamic remains firmly in place.\n\nThe timing is particularly notable given that the crypto industry had appeared to be on firmer institutional footing heading into 2026, buoyed by the successful launch of spot Bitcoin exchange-traded funds and growing corporate adoption. Yet the scale of February's losses demonstrates that the asset class remains vulnerable to sharp reversals regardless of the structural maturation taking place around it.\n\nMarket participants will be watching closely in the coming days to see whether Bitcoin can find a floor before month-end or whether the selling pressure accelerates further. A monthly close at current levels would mark a significant psychological blow to a market that had largely moved past the trauma of the 2022 collapse era, raising fresh questions about the durability of crypto's recovery narrative.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "crypto winter",
-        "markets",
-        "selloff"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1638818835387-2b212c0b540f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8Yml0Y29pbiUyMGNyeXB0b2N1cnJlbmN5fGVufDB8MHx8fDE3NzE5MzE5MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T11:18:23.866Z"
     },
     {
       "id": "ps-1771930110467-qagh",
@@ -1040,27 +1059,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17703",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-23T16:17:49.880Z"
-    },
-    {
-      "id": "ps-1771862628986-v07z",
-      "slug": "tiny-reef-fish-use-tools-to-test-mirrors-suggesting-wider-se",
-      "headline": "Tiny Reef Fish Use Tools to Test Mirrors, Suggesting Wider Self-Awareness",
-      "subheadline": "Cleaner wrasse dropped food near mirrors and tracked its reflection — behavior previously seen only in dolphins and manta rays",
-      "body": "Cleaner wrasse, small fish that inhabit coral reefs, have demonstrated a startling capacity for self-awareness by not only recognizing their own reflections but deliberately using objects to probe how mirrors work, according to new research from Osaka Metropolitan University published in Scientific Reports.\n\nThe study, led by Shumpei Sogawa and Masanori Kohda at the university's Graduate School of Science, found that when marked with spots resembling parasites, cleaner wrasse (Labroides dimidiatus) attempted to scrub off the marks after seeing themselves in a mirror — in some cases within the first hour. The average response time was just 82 minutes, a dramatic improvement over the four to six days observed in prior mirror experiments with the species. The difference, the researchers believe, came from reversing the usual protocol: fish were marked before seeing a mirror for the first time, meaning the reflection immediately confirmed a sensation they already felt on their bodies.\n\nMore remarkable still was what happened after several days of mirror exposure. Some fish picked up small pieces of shrimp from the tank floor, carried them upward, and released them near the mirror's surface. They then tracked the food's descent in the reflection while repeatedly touching the glass — a behavior the researchers classify as \"contingency testing.\" Rather than using their own bodies to explore the mirror, the wrasse employed an external object to study how reflected space corresponded to reality. Until now, this kind of exploratory mirror behavior had been documented almost exclusively in cognitively advanced marine animals such as dolphins and manta rays, which blow bubbles and observe them in reflections.\n\nThe findings carry significant implications for how scientists understand the distribution of self-awareness across the animal kingdom. The mirror test, first developed in 1970, has long served as a benchmark for self-recognition, with only a handful of species — great apes, elephants, magpies, and certain cetaceans — consistently passing it. The cleaner wrasse's performance challenges the assumption that such cognition is confined to large-brained mammals and birds. \"Self-awareness may not have evolved only in the limited number of species that passed the mirror test but may be more widely prevalent across a broader range of taxonomic groups, including fish,\" Sogawa said.\n\nKohda suggested the work could reverberate beyond evolutionary biology, potentially influencing animal welfare policy, medical research ethics, and even artificial intelligence development. The team plans to extend its investigations to other species, including invertebrates, as part of a broader effort to map the cognitive landscape of the animal world.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "animal cognition",
-        "self-awareness",
-        "mirror test",
-        "cleaner wrasse",
-        "evolutionary biology",
-        "fish intelligence"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/cleaner-wrasse-in-front-of-mirror.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092255.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T16:03:48.986Z"
     }
   ]
 }
