@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-24T05:03:40.182Z",
+  "lastUpdated": "2026-02-24T05:18:33.604Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771910234915-64lj",
+      "slug": "lord-mandelson-arrested-over-alleged-leak-of-sensitive-uk-go",
+      "headline": "Lord Mandelson Arrested Over Alleged Leak of Sensitive UK Government Data to Epstein",
+      "subheadline": "Former UK ambassador to Washington released on bail after Metropolitan Police detained him on misconduct charges",
+      "body": "Lord Peter Mandelson, the veteran Labour politician and former British ambassador to the United States, was arrested Monday on suspicion of misconduct in public office over allegations he shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein. The 72-year-old was released on bail in the early hours of Tuesday, with the Metropolitan Police confirming he remains under investigation.\n\nOfficers from the Met's central specialist crime division detained Mandelson at his Camden, north London home on Monday afternoon, escorting him to an unmarked car in front of cameras. Search warrants were simultaneously executed at two addresses in Wiltshire and Camden. The BBC reported seeing Mandelson return to his London residence at approximately 2:00 a.m. GMT. Consultations between police and the Crown Prosecution Service are ongoing.\n\nThe investigation, launched earlier this month, centers on emails between Mandelson and Epstein that were released by the U.S. Department of Justice last month. A 2009 email appears to show Mandelson forwarding an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures, including an \"asset sales plan.\" Additional correspondence allegedly discussed a proposed tax on bankers' bonuses and confirmed an imminent eurozone bailout package the day before its public announcement in 2010. While Mandelson has not commented publicly on the Epstein files in recent weeks, sources close to him say he maintains he committed no criminal act and was not motivated by financial gain.\n\nThe arrest carries significant political ramifications for Prime Minister Keir Starmer's government. Mandelson was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said new information had emerged about the depth of his relationship with Epstein. Starmer has accused Mandelson of lying during the vetting process, and the government intends to release documents it believes will substantiate that claim — though police interest in certain records may delay publication. Conservative leader Kemi Badenoch called the arrest \"the defining moment of Sir Keir's premiership,\" attacking the prime minister for having elevated Mandelson to the country's most prominent diplomatic post.\n\nThe family of the late Virginia Giuffre, who accused Prince Andrew of sexual abuse in connection with Epstein, praised British authorities for \"taking meaningful action\" and contrasted the investigation with what they described as \"continued inaction in the United States.\" U.S. lawmakers have separately urged Mandelson to testify before Congress as part of their own Epstein inquiry. A towering figure in Labour politics since the 1980s — widely credited as an architect of Tony Blair's 1997 landslide victory — Mandelson now faces the most serious legal jeopardy of his long and often controversial career.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Lord Mandelson",
+        "Jeffrey Epstein",
+        "UK politics",
+        "Metropolitan Police",
+        "misconduct in public office",
+        "Keir Starmer"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ee1b/live/9e15c270-112e-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T05:17:14.915Z"
+    },
+    {
+      "id": "ps-1771910250107-psym",
+      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
+      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
+      "subheadline": "Researchers develop lightweight technique to update surrogate models without costly retraining, enabling real-time optimization",
+      "body": "A pair of researchers has devised a method to rapidly update data-driven simulation models used in geological carbon storage projects, eliminating the need for expensive retraining when underground conditions change — a development that could accelerate the deployment and management of carbon capture infrastructure.\n\nDimitrios Voulanas and Eduardo Gildin, writing in a preprint posted to arXiv, address a longstanding bottleneck in using Dynamic Mode Decomposition (DMD), a popular framework for building fast surrogate models from high-fidelity multiphase flow simulations. While DMD can dramatically compress the computational cost of modeling how injected CO₂ migrates through rock formations, its operators are calibrated to a single set of reservoir properties. Any change in permeability or well placement traditionally forces engineers to generate new simulation snapshots and retrain the model from scratch — a process that negates much of the speed advantage.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model's internal structure without requiring fresh simulation data. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — the more realistic scenario — the technique adjusts the model's spatial representation, amplifying the influence of high-permeability zones on the reduced basis that underpins the surrogate.\n\nNumerical experiments reported in the paper show that the updated models recover predictions of CO₂ plume migration and subsurface pressure buildup to within three percent of a surrogate trained entirely from scratch on the new conditions. Critically, the update procedure executes hundreds of times faster than full retraining, a margin that makes real-time optimization and rapid scenario analysis feasible for carbon storage operators.\n\nThe implications extend beyond academic interest. Geological carbon storage — the injection of captured CO₂ into deep rock formations — is a cornerstone of many national and corporate net-zero strategies, but managing injection sites requires continuous monitoring and frequent recalibration of subsurface models as new data arrives. Tools that can adapt surrogate models on the fly could lower the computational barriers to robust uncertainty quantification and well-placement optimization, two tasks essential for safe, long-term storage. The work sits at the intersection of computational physics, optimization, and engineering, and the authors suggest it preserves the physical fidelity demanded by real-world carbon storage workflows while dramatically compressing the decision-making timeline.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate models",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1611072906871-6de0d0369e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T05:17:30.107Z"
+    },
+    {
+      "id": "ps-1771910266323-7brb",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
+      "subheadline": "The experimental universal vaccine supercharges innate lung immunity, offering months of broad protection against viruses, bacteria, and allergens",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and even common allergens — for at least three months, according to findings published February 19 in the journal Science.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, departs radically from conventional vaccine design. Rather than training the immune system to recognize a specific pathogen's molecular signature, it mimics the chemical signals that immune cells exchange during an active infection, keeping the lungs' innate defenses on sustained high alert. A harmless egg protein called ovalbumin is included to recruit T cells into the lungs, which in turn produce cytokines that activate pathogen-sensing toll-like receptors on innate immune cells. The result, according to senior author Bali Pulendran, is a \"double whammy\": a persistent innate response that slashed viral levels 700-fold, combined with an adaptive immune system primed to mount antibody and T cell responses in as little as three days — roughly a quarter of the time an unvaccinated mouse requires.\n\nIn the study, mice that received three intranasal doses one week apart survived exposure to SARS-CoV-2 and other coronaviruses with minimal weight loss and negligible lung inflammation, while unvaccinated animals suffered severe illness and frequently died. The team, led by postdoctoral scholar Haibo Zhang, then extended testing to hospital-acquired bacterial infections — Staphylococcus aureus and Acinetobacter baumannii — and found similarly durable protection lasting roughly three months. In a further surprise, vaccinated mice exposed to house dust mite proteins, a common trigger for allergic asthma, showed markedly suppressed allergic responses and maintained clear airways.\n\nThe work builds on a 2023 discovery by Pulendran's group showing that the BCG tuberculosis vaccine, given to approximately 100 million newborns each year, provides unexpected cross-protection against unrelated infections by sustaining innate immune activation through T cell signaling. The new vaccine was designed to synthetically reproduce that mechanism without requiring a live pathogen. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said.\n\nThe path to clinical use remains substantial. Pulendran's team plans to advance to a Phase I human safety trial, with controlled infection studies to follow if early results are encouraging. He estimates that two nasal spray doses could suffice for humans and that, with adequate funding, a universal respiratory vaccine could reach patients within five to seven years. If human trials replicate the breadth of protection seen in mice, the approach could simplify seasonal vaccination schedules and offer a rapid-deployment tool against future pandemic pathogens.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "universal vaccine",
+        "nasal spray vaccine",
+        "Stanford Medicine",
+        "innate immunity",
+        "respiratory infections",
+        "COVID-19",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T05:17:46.323Z"
+    },
+    {
+      "id": "ps-1771910282168-jf58",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Extract Claude's Capabilities",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation campaign",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a revelation that lands squarely in the middle of an intensifying U.S. debate over AI chip exports to China.\n\nThe three labs allegedly generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. While distillation is a standard practice that labs routinely apply to their own models to produce smaller, more efficient versions, using it to siphon a competitor's proprietary capabilities amounts to what Anthropic characterizes as intellectual theft at industrial scale. The company said the attacks specifically targeted Claude's \"most differentiated capabilities: agentic reasoning, tool use, and coding.\"\n\nThe scope varied significantly across the three accused companies. DeepSeek, which gained international attention a year ago with its R1 reasoning model, was linked to more than 150,000 exchanges focused on foundational logic and alignment — particularly around generating censorship-safe responses to policy-sensitive queries. Moonshot AI accounted for roughly 3.4 million exchanges targeting agentic reasoning, coding, and computer vision, shortly before releasing its Kimi K2.5 open-source model and a coding agent. MiniMax was the most prolific, responsible for some 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the latest Claude model immediately upon its launch.\n\nThe timing of these disclosures is politically charged. The Trump administration last month allowed U.S. companies including Nvidia to resume exporting advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI computing capacity at a pivotal moment. Anthropic explicitly connected the dots, arguing that distillation at this scale \"requires access to advanced chips\" and that the attacks \"reinforce the rationale for export controls.\" Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, said the findings confirm what many in the national security community had long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" Alperovitch said.\n\nBeyond competitive concerns, Anthropic raised national security alarms, warning that distilled models are unlikely to retain the safety guardrails that U.S. labs build in to prevent misuse in areas such as bioweapons development and offensive cyber operations. The company called for a coordinated response spanning the AI industry, cloud providers, and policymakers, while pledging to invest in defenses that make distillation attacks harder to execute. None of the three accused companies had publicly responded at the time of reporting.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "national security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T05:18:02.168Z"
+    },
+    {
+      "id": "ps-1771910296980-jqrc",
+      "slug": "panama-orders-occupation-of-canal-ports-after-court-voids-ck",
+      "headline": "Panama Orders Occupation of Canal Ports After Court Voids CK Hutchison Deal",
+      "subheadline": "President Mulino's move escalates a geopolitical flashpoint pitting U.S. and Chinese interests in Latin America",
+      "body": "Panamanian President José Raul Mulino has ordered the temporary government occupation of two key ports along the Panama Canal after the country's top court struck down the operating concession held by a subsidiary of Hong Kong-based CK Hutchison Holdings Ltd., dramatically escalating a dispute that has become one of the most visible fronts in the U.S.-China rivalry across Latin America.\n\nThe presidential directive, announced on February 23, follows a judicial ruling that invalidated CK Hutchison's concession to operate the strategically vital port facilities. The decision effectively blocks a deal that had already drawn intense scrutiny from Washington, which has long expressed concern over Chinese-linked commercial influence near one of the world's most critical maritime chokepoints. The Panama Canal handles roughly five percent of global trade, and control of its adjacent infrastructure carries outsized geopolitical significance.\n\nCK Hutchison, the conglomerate founded by billionaire Li Ka-shing, has operated port facilities at both ends of the canal for decades through its subsidiary Hutchison Ports. The arrangement became a lightning rod earlier this year when the company attempted to restructure its concession terms amid mounting pressure from U.S. officials, including pointed warnings about Chinese economic leverage in the Western Hemisphere. Washington has framed the port operations as a national security concern, echoing broader tensions over Beijing's expanding footprint in global infrastructure.\n\nThe temporary occupation order places the Panamanian government in direct operational control of the facilities while authorities determine next steps. It remains unclear how long the government intends to maintain control or whether it will seek a new concessionaire. CK Hutchison has not yet publicly detailed its legal response, though the company is expected to challenge the ruling or seek compensation for the terminated agreement.\n\nThe standoff underscores how commercial disputes in strategically sensitive locations are increasingly being drawn into the orbit of great-power competition. For Panama, a small nation whose economy is deeply intertwined with canal operations, the episode presents both economic risk and diplomatic complexity as it navigates competing pressures from Washington and Beijing. Analysts say the outcome could set a precedent for how other nations in the region handle infrastructure agreements that attract superpower attention.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Panama Canal",
+        "CK Hutchison",
+        "geopolitics",
+        "US-China rivalry",
+        "Latin America",
+        "ports",
+        "infrastructure"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1645932631515-d00830e6d2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxQYW5hbWElMjBDYW5hbCUyMENLJTIwSHV0Y2hpc29ufGVufDB8MHx8fDE3NzE4OTU5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T05:18:16.980Z"
+    },
+    {
+      "id": "ps-1771910313527-1so1",
+      "slug": "bitcoin-slides-to-64-000-as-ai-disruption-fears-hammer-ibm-b",
+      "headline": "Bitcoin Slides to $64,000 as AI Disruption Fears Hammer IBM, Broader Markets",
+      "subheadline": "Anthropic's COBOL automation announcement triggers 11% IBM plunge, dragging crypto and equities sharply lower",
+      "body": "Bitcoin tumbled 5% to $64,000 on Monday as a fresh wave of AI-driven disruption fears rippled through global markets, with IBM plunging 11% after Anthropic announced its Claude platform can automate the modernization of COBOL — the decades-old programming language that underpins much of the world's financial infrastructure and has long been a lucrative consulting revenue stream for the tech giant.\n\nAnthropic said COBOL handles an estimated 95% of ATM transactions in the United States, with hundreds of billions of lines of the language running in production daily across finance, airlines, and government systems. The company noted that the engineers who originally built these systems have largely retired, and universities barely teach the language anymore. Modernizing COBOL systems \"once required armies of consultants spending years mapping workflows,\" Anthropic said — a description that maps squarely onto IBM's business model. The announcement sent IBM shares down 11.2% near the close, dragging the Dow, S&P 500, and Nasdaq each lower by more than 1%.\n\nCryptocurrencies, which have traded in tight correlation with software stocks in recent months, bore the brunt of the risk-off mood. Ether and Solana fell by similar margins to bitcoin, while crypto-adjacent equities including Coinbase, Strategy, Circle, and Galaxy Digital declined between 4% and 7%. Several major tokens are now approaching their lows from the February 5 panic selloff, with bitcoin subsequently dipping below $63,000 in after-hours trading. Bitcoin ETFs have now recorded $3.8 billion in outflows over a historic five-week streak, underscoring waning institutional appetite.\n\nThe notable exceptions to the carnage were bitcoin miners that have pivoted toward AI infrastructure. IREN rose 5%, Cipher Mining gained 3.4%, CleanSpark added 1.5%, and Hut 8 climbed 0.7% — a divergence that highlights how AI disruption is simultaneously destroying and creating value across the digital asset ecosystem. Precious metals also surged as safe-haven assets, with gold jumping 3.2% to $5,243 per ounce and silver rallying 6.5% to $87.69.\n\nAnalysts are watching the $60,000 level as critical support for bitcoin, warning that a breach could open a path toward the mid-to-low $50,000 range. \"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" wrote The Kobeissi Letter, capturing the growing anxiety that AI advances are systematically dismantling established business models faster than markets can price in the disruption. The pattern of AI announcements triggering broad selloffs — now hitting legacy tech, software, and crypto in rapid succession — shows no signs of abating.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "IBM",
+        "Anthropic",
+        "AI disruption",
+        "COBOL",
+        "crypto selloff",
+        "market decline",
+        "gold"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T05:18:33.527Z"
+    },
     {
       "id": "ps-1771909327380-jrwz",
       "slug": "lord-mandelson-released-on-bail-after-arrest-on-misconduct-c",
@@ -44,95 +174,6 @@
       "publishedAt": "2026-02-24T05:02:22.784Z"
     },
     {
-      "id": "ps-1771909359627-opfb",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
-      "subheadline": "The experimental intranasal vaccine supercharges innate lung immunity, offering months of broad protection against viruses, bacteria, and allergens",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including SARS-CoV-2, bacterial pneumonia, and even common allergens — for up to three months, according to a study published February 19 in the journal Science.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, represents a fundamental departure from conventional immunization strategies. Rather than training the immune system to recognize a specific pathogen, the formulation stimulates the lungs' innate immune defenses and keeps them in a heightened state of readiness for months. In vaccinated mice that received three doses, viral loads were reduced 700-fold compared to unvaccinated animals, and the adaptive immune system mounted antibody and T-cell responses in just three days — roughly a quarter of the usual two-week timeline. All vaccinated mice survived exposure to SARS-CoV-2 and related coronaviruses, while unvaccinated animals suffered severe weight loss, lung inflammation, and frequent death.\n\nThe approach builds on earlier work by senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford, whose lab discovered in 2023 how the tuberculosis vaccine BCG provides unexplained cross-protection against unrelated infections. That research revealed that T cells recruited to the lungs release cytokines that activate toll-like receptors on innate immune cells, sustaining their alertness far beyond the typical few days. The new vaccine is essentially a synthetic recreation of that signaling cascade, paired with a harmless egg protein called ovalbumin that draws T cells into the lungs to maintain the effect. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, spearheaded the experimental work.\n\nBeyond viruses, the team demonstrated protection against Staphylococcus aureus and Acinetobacter baumannii — two hospital-acquired bacterial infections that pose significant clinical challenges — for approximately three months. In a further surprise, vaccinated mice exposed to house dust mite proteins, a common trigger for allergic asthma, showed markedly weaker allergic responses and maintained clear airways, while unvaccinated mice developed mucus buildup and strong inflammatory reactions.\n\nPulendran estimates that a two-dose nasal spray regimen could be sufficient for humans and said the next milestone is a Phase I safety trial. With adequate funding, he projects the vaccine could reach clinical availability within five to seven years. If the mouse results translate to people, the technology could simplify seasonal vaccination — potentially replacing annual flu shots, COVID boosters, and pneumonia vaccines with a single intranasal spray each fall — while also providing a rapid-deployment tool against future pandemic pathogens.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "innate immunity",
-        "respiratory disease",
-        "COVID-19",
-        "influenza",
-        "pneumonia"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T05:02:39.627Z"
-    },
-    {
-      "id": "ps-1771909383103-apes",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign",
-      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of systematically extracting capabilities from its Claude AI model through a large-scale distillation operation involving more than 24,000 fraudulent accounts and 16 million exchanges.\n\nThe allegations, disclosed on February 23, represent one of the most detailed public claims of intellectual property extraction in the AI industry to date. Anthropic said the three labs specifically targeted Claude's most advanced capabilities, including agentic reasoning, tool use, and coding — the very features that differentiate frontier American AI systems from their competitors. Distillation is a well-known technique in which one AI model is trained to replicate the behavior of another by feeding it large volumes of the target model's outputs, effectively allowing a competitor to approximate years of research and billions of dollars in training costs.\n\nThe scope varied significantly among the three companies. DeepSeek, which gained international attention a year ago with its cost-efficient R1 reasoning model, accounted for roughly 150,000 exchanges focused on foundational logic and alignment, particularly around navigating policy-sensitive queries. Moonshot AI was linked to approximately 3.4 million exchanges targeting agentic reasoning, coding, and computer vision — capabilities that appear to have informed its recently released Kimi K2.5 model. MiniMax conducted the largest campaign by volume, with 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from Claude's newest model at the time of its launch.\n\nThe accusations arrive at a politically charged moment. The Trump administration last month permitted U.S. chipmakers including Nvidia to resume exports of advanced AI processors such as the H200 to China, a move that drew sharp criticism from those who argue it undermines efforts to constrain Beijing's AI ambitions. Anthropic explicitly connected the two issues, arguing that distillation at this scale \"requires access to advanced chips\" and that the findings reinforce the case for tighter export controls. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the national security community had long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he told reporters.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that models built through illicit distillation are unlikely to retain the safety guardrails that American labs engineer to prevent misuse in areas such as bioweapons development, offensive cyber operations, and disinformation. The company called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three accused Chinese firms had publicly responded at the time of reporting.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T05:03:03.103Z"
-    },
-    {
-      "id": "ps-1771909399503-wsi2",
-      "slug": "panama-orders-seizure-of-canal-ports-after-court-voids-ck-hu",
-      "headline": "Panama Orders Seizure of Canal Ports After Court Voids CK Hutchison Deal",
-      "subheadline": "President Mulino moves to temporarily occupy two strategic ports as US-China tensions reshape Latin American infrastructure",
-      "body": "Panamanian President José Raúl Mulino has ordered the temporary occupation of two ports operated by a subsidiary of CK Hutchison Holdings Ltd., following a top court ruling that struck down the Hong Kong-based conglomerate's concession agreement. The move marks a dramatic escalation in a dispute that has increasingly become a flashpoint in the broader geopolitical contest between the United States and China across Latin America.\n\nThe presidential order targets port facilities situated along one of the world's most critical maritime chokepoints — the Panama Canal — through which roughly five percent of global trade passes annually. CK Hutchison, controlled by the family of billionaire Li Ka-shing, has operated port infrastructure in Panama for decades, but the concession arrangement had come under intensifying scrutiny from both Panamanian courts and Washington.\n\nThe canal ports became a subject of international attention after former U.S. President Donald Trump repeatedly raised concerns about Chinese influence over the waterway, which the United States built and handed over to Panama in 1999. The Trump administration pressured CK Hutchison to divest its Panama operations, framing the issue as a matter of hemispheric security. Earlier attempts by CK Hutchison to sell the port assets to a consortium backed by a BlackRock-affiliated fund collapsed amid legal and political complications within Panama itself.\n\nThe court ruling that precipitated Mulino's order effectively voided the legal basis for CK Hutchison's continued operation of the facilities, leaving the Panamanian government to step in as a temporary operator. It remains unclear how long the state occupation will last or whether Panama will seek a new private operator for the ports. The decision puts Mulino in a delicate position — satisfying U.S. demands to reduce perceived Chinese commercial influence while navigating domestic legal constraints and maintaining Panama's sovereignty over its most prized strategic asset.\n\nFor CK Hutchison, the loss of the Panama concession adds to a turbulent period for its global ports division, which operates at dozens of locations worldwide. The company has not yet publicly commented on the court's decision or the occupation order. The outcome is likely to reverberate across Latin America, where Chinese-linked infrastructure investments are facing growing pushback from governments under pressure from Washington to realign their economic partnerships.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Panama Canal",
-        "CK Hutchison",
-        "geopolitics",
-        "US-China",
-        "ports",
-        "Latin America",
-        "infrastructure"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1595427063295-16ba81522e46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxwYW5hbWElMjBvcmRlcnMlMjBzZWl6dXJlfGVufDB8MHx8fDE3NzE5MDkzOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T05:03:19.503Z"
-    },
-    {
-      "id": "ps-1771909420088-8rpn",
-      "slug": "bitcoin-slides-to-64-000-as-anthropic-s-cobol-threat-hammers",
-      "headline": "Bitcoin Slides to $64,000 as Anthropic's COBOL Threat Hammers IBM 11%",
-      "subheadline": "AI-driven disruption fears ripple from legacy tech into crypto markets, pushing major tokens near February panic lows",
-      "body": "Bitcoin tumbled roughly 5% to $64,000 on Monday as a fresh wave of artificial intelligence disruption fears swept through equities and dragged cryptocurrency markets lower in tandem. The catalyst: Anthropic's announcement that its Claude Code platform can automate COBOL modernization — a direct threat to one of IBM's most entrenched revenue streams.\n\nIBM shares cratered 11.2% on the news, as investors grasped the implications of AI tools replacing the costly consulting engagements that have long sustained Big Blue's enterprise services business. COBOL, a programming language dating to the 1960s, still underpins an estimated 95% of U.S. ATM transactions and hundreds of billions of lines of production code across finance, government, and airlines. With the original developers largely retired and few universities still teaching the language, corporations have relied on expensive consultant armies — often led by IBM — to maintain and modernize these legacy systems. Anthropic's claim that Claude Code can automate the exploration and analysis phases that consume the bulk of that effort struck directly at the heart of that business model.\n\nThe selloff cascaded well beyond IBM. The Dow, S&P 500, and Nasdaq all fell more than 1% as what market commentators are calling a pattern of daily AI-driven business model disruption continued to rattle the broader software sector and private equity. \"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" wrote The Kobeissi Letter. Crypto markets, which have traded in tight correlation with software stocks in recent months, bore the brunt alongside equities. Ether and Solana declined at similar rates to bitcoin, while publicly traded crypto firms including Coinbase, Strategy, Circle, and Galaxy Digital shed between 4% and 7%. Many major tokens are now approaching the lows set during the February 5 panic, with bitcoin subsequently dipping below $63,000 in after-hours trading.\n\nNotably, the day's few winners in crypto-adjacent equities were bitcoin miners that have pivoted toward AI infrastructure. IREN rose 5%, Cipher Mining gained 3.4%, CleanSpark added 1.5%, and Hut 8 ticked up 0.7% — a telling divergence that underscores how AI is simultaneously destroying and creating value across the digital asset ecosystem. Precious metals also surged as safe-haven demand intensified, with gold climbing 3.2% to $5,243 per ounce and silver jumping 6.5% to $87.69.\n\nThe broader picture for bitcoin remains precarious. Bitcoin ETFs have now recorded $3.8 billion in outflows over a historic five-week streak, and analysts are closely monitoring the $60,000 support level as a potential gateway to further declines into the mid-$50,000 range. Historical technical patterns suggest a lasting bottom may not form until bitcoin's 50-week moving average crosses below its 100-week average — a signal that has not yet triggered. For now, crypto markets remain hostage to a rapidly evolving AI narrative that shows no signs of slowing.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "IBM",
-        "Anthropic",
-        "AI disruption",
-        "COBOL",
-        "crypto selloff",
-        "gold"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T05:03:40.088Z"
-    },
-    {
       "id": "ps-1771908450619-xvjz",
       "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
       "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
@@ -152,27 +193,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17709",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-24T04:47:30.619Z"
-    },
-    {
-      "id": "ps-1771907523829-8skf",
-      "slug": "lord-mandelson-released-on-bail-after-arrest-over-epstein-al",
-      "headline": "Lord Mandelson Released on Bail After Arrest Over Epstein Allegations",
-      "subheadline": "Former UK ambassador to the US arrested on suspicion of passing market-sensitive government information to Jeffrey Epstein",
-      "body": "Lord Peter Mandelson was released on bail early Tuesday morning after being arrested on suspicion of misconduct in public office, the Metropolitan Police confirmed, in a dramatic escalation of the fallout from the Jeffrey Epstein document releases that has engulfed the British political establishment.\n\nThe 72-year-old former Labour grandee was taken into custody Monday afternoon from his Camden, north London, home by plainclothes officers from the Met's central specialist crime division. Search warrants were executed at two addresses in Camden and Wiltshire. The BBC reported seeing Mandelson return to his London residence at approximately 2:00 a.m. GMT, having been released pending further investigation. Consultations between police and the Crown Prosecution Service are ongoing.\n\nThe arrest stems from allegations that Mandelson shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein while serving as a senior minister under Prime Minister Gordon Brown. Documents released by the U.S. Department of Justice last month included emails between the two men. A 2009 email appears to show Mandelson relaying an assessment from a Downing Street adviser regarding policy measures including an \"asset sales plan.\" Other communications appear to reference a tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before its public announcement in 2010. Mandelson has not commented publicly on the Epstein files in recent weeks but is understood to maintain that he acted lawfully and was not motivated by financial gain.\n\nThe political ramifications are severe for Prime Minister Sir Keir Starmer's government. Mandelson was appointed British ambassador to Washington in February 2025 but was sacked in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. Starmer has accused Mandelson of having \"lied\" during his vetting process, and the government has pledged to begin releasing appointment-related documents in early March — though some records are now being withheld at the Met's request due to the active investigation. Conservative leader Kemi Badenoch called the arrest \"the defining moment of Sir Keir's premiership,\" describing the image of Mandelson being led away by police as one that would endure for years.\n\nThe family of the late Virginia Giuffre, who accused Prince Andrew of sexual abuse connected to Epstein, praised British authorities for \"taking meaningful action\" and contrasted the arrest with what they called \"continued inaction in the United States.\" U.S. lawmakers have separately urged Mandelson to testify before Congress as part of their own Epstein investigation. Mandelson, a central architect of the New Labour movement who helped deliver Tony Blair's 1997 landslide victory, now faces what may be the most consequential legal challenge of a career long marked by political controversy.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Lord Mandelson",
-        "Jeffrey Epstein",
-        "UK politics",
-        "misconduct in public office",
-        "Metropolitan Police",
-        "Keir Starmer"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ee1b/live/9e15c270-112e-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T04:32:03.829Z"
     },
     {
       "id": "ps-1771907540794-u7pv",
@@ -1045,28 +1065,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260221000321.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-23T11:47:54.689Z"
-    },
-    {
-      "id": "ps-1771844619547-uwkr",
-      "slug": "red-blood-cells-act-as-sugar-sponges-at-high-altitude-solvin",
-      "headline": "Red Blood Cells Act as 'Sugar Sponges' at High Altitude, Solving Diabetes Mystery",
-      "subheadline": "Gladstone Institutes team identifies mechanism behind lower diabetes rates at elevation — and a drug that exploits it",
-      "body": "Scientists at Gladstone Institutes have uncovered the biological reason people living at high altitudes are less prone to diabetes: low oxygen causes red blood cells to absorb large quantities of glucose from the bloodstream, effectively turning them into metabolic sponges that lower blood sugar. The discovery, published February 19 in Cell Metabolism, resolves a longstanding puzzle in physiology and points toward a fundamentally new approach to treating diabetes.\n\nThe link between high elevation and reduced diabetes risk has been documented for years, but no one could explain why thin mountain air conferred metabolic protection. Senior author Isha Jain, a Gladstone Investigator and UC San Francisco professor of biochemistry, and her team found the answer by exposing mice to low-oxygen conditions and tracking where glucose went after feeding. Blood sugar vanished almost instantly — yet none of the usual metabolic organs, including muscle, liver, and brain, could account for the disappearance. Using advanced imaging, first author Yolanda Martí-Mateos identified red blood cells as the missing \"glucose sink.\" Under hypoxia, mice produced more red blood cells overall, and each individual cell consumed significantly more glucose than those formed under normal oxygen levels.\n\nCollaborators Angelo D'Alessandro of the University of Colorado Anschutz Medical Campus and Allan Doctor of the University of Maryland helped reveal the molecular mechanism: oxygen-deprived red blood cells channel glucose into producing a molecule that enhances oxygen delivery to tissues. The effect was far larger than anticipated. \"Red blood cells are usually thought of as passive oxygen carriers,\" D'Alessandro said. \"Yet we found that they can account for a substantial fraction of whole-body glucose consumption, especially under hypoxia.\" Critically, the metabolic benefits persisted for weeks to months after mice were returned to normal oxygen levels.\n\nThe clinical implications became even more striking when the team tested HypoxyStat, an oral drug developed in Jain's lab that mimics low-oxygen exposure by causing hemoglobin to bind oxygen more tightly. In mouse models of diabetes, HypoxyStat completely reversed high blood sugar and outperformed existing treatments. Originally developed for mitochondrial disease, the drug's success in diabetes suggests it could recruit red blood cells as a therapeutic glucose reservoir — a strategy with no precedent in current diabetes care.\n\nBeyond diabetes, the researchers note potential applications in exercise physiology and trauma medicine, where shifts in red blood cell metabolism could influence glucose availability and muscle performance. The study was funded by the National Institutes of Health, the California Institute for Regenerative Medicine, the Hillblom Foundation, and the W.M. Keck Foundation, among other sources. Human clinical trials of HypoxyStat have not yet been announced, but Jain called the findings \"just the beginning\" of leveraging oxygen-adaptation pathways to treat metabolic disease.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "diabetes",
-        "red blood cells",
-        "high altitude",
-        "glucose metabolism",
-        "HypoxyStat",
-        "Gladstone Institutes",
-        "hypoxia"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/gladstone-institutes-high-altitude-protects-against-diabetes.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260221060952.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-23T11:03:39.547Z"
     }
   ]
 }
