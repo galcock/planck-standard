@@ -1,7 +1,130 @@
 {
-  "lastUpdated": "2026-02-24T14:33:32.922Z",
+  "lastUpdated": "2026-02-24T14:48:48.513Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771944448002-pnno",
+      "slug": "first-uk-baby-born-from-deceased-donor-womb-transplant",
+      "headline": "First UK Baby Born From Deceased-Donor Womb Transplant",
+      "subheadline": "A 10-hour transplant surgery and IVF gave a woman born without a womb the chance to carry her own child",
+      "body": "A baby boy named Hugo has become the first child born in the United Kingdom using a womb transplanted from a deceased donor, marking what surgeons are calling a groundbreaking moment for reproductive medicine and organ transplantation in the country.\n\nHugo was born just before Christmas 2024 at Queen Charlotte's and Chelsea Hospital in west London, weighing nearly seven pounds. His mother, Grace Bell, a woman in her 30s from Kent, was born with MRKH syndrome — a condition affecting roughly one in 5,000 women in the UK in which the uterus is absent or non-functional. Bell was told at age 16 that she would never be able to carry her own child. The transplant operation, which lasted 10 hours, took place at The Churchill Hospital in Oxford in June 2024. Bell and her partner Steve Powell subsequently underwent IVF treatment at The Lister Fertility Clinic in London, followed by embryo transfer. Bell described Hugo's arrival as \"simply a miracle\" and expressed daily gratitude toward her anonymous donor and the donor's family, whose daughter also provided five other organs to four recipients.\n\nThe birth is the first to result from a UK clinical research trial investigating deceased-donor womb transplants, of which 10 are planned and three have already been performed. It follows the birth of baby Amy in early 2025, who was the first UK child born through a living-donor womb transplant — in that case, the mother received her older sister's uterus. Five additional living-donor transplants from close relatives are also planned as part of parallel research efforts.\n\nConsultant gynaecologist Prof. Richard Smith of Imperial College Healthcare NHS Trust, who has spent more than 25 years researching uterine transplantation and founded the charity Womb Transplant UK, was present at Hugo's delivery. Bell and Powell honored him by giving Hugo the middle name Richard. Transplant surgeon Isabel Quiroga, the trial's joint team leader, noted that very few babies have been born in Europe from deceased-donor womb transplants and said the trial aims to determine whether the procedure can become an approved, routine treatment for women of childbearing age without a viable uterus.\n\nGlobally, more than 100 womb transplant operations have been performed, resulting in over 70 healthy births. Unlike standard organ donation, uterine donation from deceased individuals requires a special request to families who have already consented to donate their relative's organs. The transplanted womb carries no genetic connection to the resulting child. Bell may choose to have a second baby, after which surgeons would remove the transplanted organ to spare her from lifelong immunosuppressive medication. The donor's parents, who remain anonymous, said they felt \"tremendous pride\" in the legacy their daughter has left behind.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "womb transplant",
+        "organ donation",
+        "reproductive medicine",
+        "MRKH syndrome",
+        "UK medical breakthrough"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c45e/live/807ee080-115f-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T14:47:28.002Z"
+    },
+    {
+      "id": "ps-1771944463541-1bzt",
+      "slug": "new-method-enables-real-time-updates-to-carbon-storage-simul",
+      "headline": "New Method Enables Real-Time Updates to Carbon Storage Simulations",
+      "subheadline": "Researchers show how to adapt surrogate models hundreds of times faster than retraining, with less than 3% accuracy loss",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, eliminating the need to rebuild expensive surrogate models every time underground conditions change.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, present a lightweight method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the computational burden of multiphase fluid simulations. The core problem they address is a persistent bottleneck: DMD models are trained on a specific set of reservoir properties, and when parameters like rock permeability or well placement shift, the conventional approach requires generating entirely new simulation snapshots and retraining the model from scratch, negating much of the speed advantage that surrogates are designed to provide.\n\nThe proposed solution introduces two complementary update strategies that avoid new simulation data altogether. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation within the model's reduced basis, weighting high-permeability zones to give them proportionally greater influence. Numerical experiments reported in the paper show that the updated models recover key physical quantities, including plume migration patterns and pressure build-up, to within three percent of a freshly trained surrogate while executing hundreds of times faster than full retraining.\n\nThe implications are particularly relevant for carbon capture and storage (CCS) operations, where engineers need to run rapid optimization loops, perform uncertainty analyses, and evaluate what-if scenarios in near real time. High-fidelity multiphase reservoir simulators, while accurate, are computationally prohibitive for such iterative workflows. The ability to adapt existing surrogate models on the fly — without sacrificing the physical fidelity demanded by regulatory and safety requirements — could meaningfully lower the computational barriers to deploying and managing large-scale carbon sequestration projects.\n\nThe work sits at the intersection of computational physics, optimization, and engineering, and was submitted from a team with ties to reservoir simulation research. While the paper has not yet undergone formal peer review, the reported accuracy and speed gains suggest a practical path toward real-time decision support tools for one of the most computationally intensive challenges in climate mitigation infrastructure.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "computational physics",
+        "surrogate modeling",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1671810458712-0c6e1e846892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T14:47:43.541Z"
+    },
+    {
+      "id": "ps-1771944480575-6xcs",
+      "slug": "waterloo-researchers-engineer-tumor-eating-bacteria-with-bui",
+      "headline": "Waterloo Researchers Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "A synthetic DNA circuit using quorum sensing ensures engineered microbes activate only inside oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from the inside out, incorporating a molecular safety mechanism that prevents the microbes from activating in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward programmable biological therapies for cancers that resist conventional treatment.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen, bacterial spores injected into the bloodstream naturally home in on these sites, germinating and feeding on the dead-cell interior. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The challenge has been that as the bacteria expand outward toward the tumor's oxygen-rich periphery, they die before eliminating all cancerous tissue.\n\nTo overcome this barrier, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive longer at the tumor margins. But granting bacteria the ability to endure oxygen raises an obvious danger: unchecked growth in the bloodstream or healthy organs. The researchers solved this with a quorum-sensing circuit — a naturally occurring bacterial communication system in which cells release chemical signals that intensify as their population grows. Only after a critical mass of bacteria has accumulated inside a tumor does the signal reach the threshold needed to switch on the oxygen-resistance gene. In effect, the microbes arm themselves solely when they are already deep within a tumor.\n\nThe team validated the design by programming bacteria to produce green fluorescent protein as a proxy, confirming that the quorum-sensing switch activated at precisely the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is integrating both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials.\n\nThe project, led by PhD student Bahram Zargar and former doctoral researcher Sara Sadr under the supervision of Ingalls and retired professor Pu Chen, exemplifies the interdisciplinary push now reshaping cancer research. The Waterloo group is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to move the technology toward clinical development. If pre-clinical results hold, the platform could offer oncologists a fundamentally new weapon against solid tumors — one that is self-targeting, self-limiting, and programmable at the genetic level.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T14:48:00.575Z"
+    },
+    {
+      "id": "ps-1771944495240-j71a",
+      "slug": "conduent-data-breach-now-confirmed-to-affect-over-25-million",
+      "headline": "Conduent Data Breach Now Confirmed to Affect Over 25 Million Americans",
+      "subheadline": "The government contractor hid its breach notice from search engines as stolen data includes Social Security numbers and medical records",
+      "body": "A ransomware attack on Conduent, one of the largest U.S. government contractors, has now been confirmed to have exposed the personal data of at least 25 million people — a figure that has grown steadily since the breach was first disclosed and ranks it among the largest cyberattacks in American history.\n\nThe January 2025 attack, claimed by a ransomware group, targeted a company that provides printing, payment processing, and document services for state government benefit programs including food assistance, workplace benefits, and unemployment systems. Conduent says its services reach more than 100 million people nationwide. According to an updated filing on Wisconsin's data breach notification page and a tally of breach notification letters reviewed by TechCrunch, the compromised data spans multiple states, with Texas (15.4 million individuals) and Oregon (10.5 million) accounting for the vast majority of those affected. Additional notifications cover several hundred thousand people across Massachusetts, New Hampshire, and Washington.\n\nThe stolen information includes names, dates of birth, addresses, Social Security numbers, health insurance details, and medical data — a comprehensive trove that poses significant identity theft and fraud risks for millions of Americans who interact with government benefit systems. The sensitivity of the data is compounded by the fact that many affected individuals are among the most vulnerable populations, relying on public assistance programs.\n\nPerhaps as troubling as the breach itself is Conduent's handling of its disclosure. The company published an \"Incident Notice\" on its website in October 2025 that does not explicitly reference a cybersecurity incident. Notably, the page includes a hidden \"noindex\" tag in its source code — a directive that prevents search engines from listing the page in results, effectively making it invisible to anyone searching for information about the breach. Conduent spokesperson Sean Collins declined to explain the decision or disclose how many notifications the company has sent to date.\n\nWhile the Conduent breach is among the largest on record, it remains smaller than the Change Healthcare attack of February 2024, which compromised the data of more than 190 million people after a Russian-speaking ransomware gang exploited a stolen credential that lacked multi-factor authentication. That incident ultimately forced Change Healthcare to pay at least two ransoms to prevent the release of stolen health data. The Conduent case, however, underscores a persistent vulnerability in the government contracting ecosystem, where a single point of failure can expose tens of millions of citizens whose data flows through private-sector intermediaries.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Conduent",
+        "data breach",
+        "ransomware",
+        "cybersecurity",
+        "government contractors",
+        "personal data"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T14:48:15.240Z"
+    },
+    {
+      "id": "ps-1771944512172-asra",
+      "slug": "eu-to-unveil-proposal-banning-remaining-russian-oil-imports-",
+      "headline": "EU to Unveil Proposal Banning Remaining Russian Oil Imports on April 15",
+      "subheadline": "The timing places the announcement just three days after Hungary's national elections, a calculated diplomatic move",
+      "body": "The European Union is preparing to propose a ban on all remaining Russian oil imports on April 15, according to a document reviewed by Bloomberg, in what would mark a significant escalation of the bloc's energy decoupling from Moscow nearly four years after Russia's full-scale invasion of Ukraine.\n\nThe timing of the announcement is notable: it falls just three days after Hungary's national elections on April 12. Hungary, led by Prime Minister Viktor Orbán, has been among the last EU member states still heavily reliant on Russian crude supplies and has consistently resisted previous efforts to tighten energy sanctions against Moscow. By scheduling the proposal after the vote, Brussels appears to be threading a diplomatic needle — avoiding direct interference in Hungary's electoral politics while moving swiftly afterward to close one of the most significant remaining gaps in the EU's sanctions regime.\n\nSince Russia launched its invasion of Ukraine in February 2022, the EU has progressively curtailed its energy dependence on Moscow through a series of sanctions packages. The bloc enacted an embargo on seaborne Russian crude in late 2022, but pipeline exemptions were carved out to accommodate landlocked nations like Hungary, the Czech Republic, and Slovakia that argued they lacked immediate alternative supply routes. Several of those countries have since diversified their imports, but Hungary has been the most prominent holdout, with Orbán frequently leveraging energy policy as a bargaining chip in broader EU negotiations.\n\nThe forthcoming proposal would target those remaining pipeline flows, effectively severing one of the last major commercial energy links between Russia and the European Union. If adopted, the ban would remove billions of euros in annual revenue that Moscow has continued to receive from EU buyers, further tightening the economic pressure on Russia's war economy.\n\nThe proposal will still need to secure approval from all 27 member states, a process that has historically proved contentious on energy sanctions. Hungary has wielded its veto power on multiple occasions to extract concessions from Brussels, and the post-election political landscape in Budapest will likely shape negotiations in the weeks ahead. Analysts will be watching closely to see whether a newly elected or re-elected Hungarian government proves more amenable to the ban — or digs in for another protracted standoff.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "European Union",
+        "Russia",
+        "oil sanctions",
+        "Hungary",
+        "energy policy",
+        "Ukraine war"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1684236111417-b4b555cc1d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxFdXJvcGVhbiUyMFVuaW9uJTIwUnVzc2lhfGVufDB8MHx8fDE3NzE5NDQ1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/eu-to-propose-russian-oil-ban-three-days-after-hungary-election",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T14:48:32.172Z"
+    },
+    {
+      "id": "ps-1771944528369-76wu",
+      "slug": "bitcoin-s-u-s-demand-gauge-stays-negative-for-record-40-days",
+      "headline": "Bitcoin's U.S. Demand Gauge Stays Negative for Record 40 Days",
+      "subheadline": "The Coinbase Premium Index hasn't printed positive since mid-January, even as bitcoin reclaimed $62,000 on overseas buying",
+      "body": "A closely watched measure of American appetite for bitcoin has now spent 40 consecutive days in negative territory — its longest such streak since 2023 — raising questions about whether U.S. institutional demand has undergone a structural shift rather than a temporary pause.\n\nThe Coinbase Bitcoin Premium Index, which tracks the price gap between bitcoin on the dominant U.S. exchange and the global market average, last registered a positive reading on January 15, according to data from Coinglass. A negative premium indicates that American traders are consistently paying less than their international counterparts, either because they are net sellers or simply absent from the market. The current reading of roughly -0.05 percent has improved from a trough of -0.22 percent in early February, but remains stubbornly below the positive threshold historically associated with sustained accumulation.\n\nWhat makes the streak especially notable is that bitcoin itself has staged a meaningful recovery during this period. The cryptocurrency has rallied approximately 15 percent from its February 5 intraday low and was trading near $63,000 on Monday. Yet the premium never followed the price higher, suggesting the rebound was driven largely by demand outside U.S. trading hours and outside Coinbase's order books. The previous record negative streak, roughly 30 days during the October 2025 drawdown, ended when a price bounce successfully pulled American buyers back in. This time, the bounce came without them.\n\nAdding to the picture of eroding domestic conviction, Google searches for the phrase \"bitcoin zero\" in the United States surged to record highs earlier this month, even as global interest in the term remained flat. The combination of persistent selling pressure on the primary U.S. venue and peak doomsday search activity paints a portrait of American retail and institutional investors losing faith at a pace not mirrored elsewhere in the world.\n\nSome analysts see a silver lining in the premium's gradual improvement from its deepest negative levels. The narrowing from -0.22 percent to -0.05 percent over the past several weeks suggests that selling pressure is at least abating, even if it has not yet reversed. Prominent on-chain analyst James Check wrote Monday that bitcoin appears to be bottoming by several metrics, though he cautioned that time — not price — may prove the more frustrating variable for bulls, with the possibility of months of sideways consolidation before a definitive cycle low is established. For now, bitcoin's global price recovery and its American demand deficit remain locked in an unusual and unresolved divergence.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "bitcoin",
+        "Coinbase Premium Index",
+        "crypto markets",
+        "U.S. demand",
+        "institutional investors"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/c577b38f229e9d3708d310ac5946ea8fae71162e-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/bitcoin-s-u-s-demand-signal-turns-negative-for-a-record-40-days",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T14:48:48.369Z"
+    },
     {
       "id": "ps-1771943539193-n5qc",
       "slug": "russian-soldiers-describe-summary-executions-of-troops-who-r",
@@ -22,90 +145,6 @@
       "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T14:32:19.193Z"
-    },
-    {
-      "id": "ps-1771943553318-wjl4",
-      "slug": "new-method-enables-real-time-updates-to-carbon-storage-simul",
-      "headline": "New Method Enables Real-Time Updates to Carbon Storage Simulations",
-      "subheadline": "Researchers bypass costly retraining of surrogate models by updating operators directly, achieving results within 3% accuracy hundreds of times faster",
-      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, eliminating the need to retrain data-driven surrogate models when subsurface conditions change.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the complexity of multiphase flow simulations — without generating new simulation data or rebuilding models from scratch. The approach addresses a persistent bottleneck: DMD operators are typically trained on a single set of reservoir properties, meaning any change in permeability or well placement has traditionally required expensive snapshot regeneration and full retraining, negating much of the computational savings that surrogate models are designed to provide.\n\nThe researchers introduce two complementary update strategies tailored to different scenarios. When permeability changes uniformly across a reservoir domain, their method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation to weight high-permeability zones more heavily in the model's reduced basis. Neither strategy requires running additional high-fidelity simulations.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than complete retraining. That speed advantage is consequential for carbon capture and storage (CCS) workflows, where engineers must rapidly evaluate multiple injection scenarios, optimize well placements, and quantify uncertainty across geological formations with highly variable properties.\n\nThe work arrives as CCS projects are scaling up globally, with regulatory frameworks increasingly demanding rigorous subsurface modeling to ensure long-term containment of injected CO₂. High-fidelity multiphase simulators remain the gold standard for accuracy but are computationally prohibitive for the iterative optimization and real-time decision-making that operational CCS projects require. By preserving physical fidelity while enabling rapid what-if analyses, the proposed method could help bridge the gap between simulation accuracy and practical deployment timelines — a critical need as the carbon storage industry moves from pilot projects to commercial scale.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1646559768375-2b319a0c233e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T14:32:33.318Z"
-    },
-    {
-      "id": "ps-1771943569711-i28f",
-      "slug": "waterloo-engineers-build-bacteria-that-devour-tumors-from-th",
-      "headline": "Waterloo Engineers Build Bacteria That Devour Tumors From the Inside Out",
-      "subheadline": "A synthetic DNA circuit lets oxygen-intolerant microbes colonize and consume solid cancers — safely activating only deep inside tumors",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate the oxygen-starved cores of solid tumors and consume them from within, deploying a synthetic genetic circuit that prevents the microbes from activating in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward a living, programmable cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a common soil microbe that can survive only in environments devoid of oxygen. The dead, nutrient-rich, oxygen-free interiors of many solid tumors provide exactly those conditions. Once bacterial spores reach a tumor's core, they germinate, multiply, and begin breaking down cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a professor of chemical engineering at Waterloo.\n\nA persistent obstacle has been that as the bacteria expand outward from the tumor center, they encounter small amounts of oxygen at the periphery and die before eliminating all malignant cells. To overcome this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But turning that gene on prematurely would pose a serious safety risk — oxygen-tolerant bacteria could proliferate in the bloodstream or healthy organs. The solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene activates only after enough bacteria have accumulated inside the tumor to produce a critical threshold of signal molecules, ensuring the enhanced survival mode engages exclusively where it is needed.\n\nIn earlier work, the team demonstrated that Clostridium sporogenes could be genetically modified for improved oxygen tolerance. In the latest study, led by former doctoral student Sara Sadr and PhD student Bahram Zargar under the supervision of Aucoin and applied mathematics professor Brian Ingalls, the researchers validated the quorum-sensing control system by programming bacteria to produce a green fluorescent protein at the intended activation point. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" Ingalls said. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing switch into a single engineered bacterium and testing it in pre-clinical tumor models. The Waterloo group is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to advance that effort. If successful in animal trials, the platform could eventually offer oncologists a fundamentally different weapon against solid tumors — one that is self-targeting, self-amplifying, and programmed to attack only from within.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes",
-        "solid tumors"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T14:32:49.711Z"
-    },
-    {
-      "id": "ps-1771943583870-v47b",
-      "slug": "conduent-data-breach-now-confirmed-to-affect-over-25-million",
-      "headline": "Conduent Data Breach Now Confirmed to Affect Over 25 Million Americans",
-      "subheadline": "The government contractor hid its breach notice from search engines while millions had Social Security numbers and medical data stolen",
-      "body": "A ransomware attack on Conduent, one of the largest government services contractors in the United States, has now been confirmed to have compromised the personal data of at least 25 million people — a figure that has grown steadily since the January 2025 cyberattack was first disclosed.\n\nAccording to an update on Wisconsin's data breach notification page and a tally of notification letters reviewed by TechCrunch, the breach spans multiple states, with Texas (15.4 million individuals) and Oregon (10.5 million) bearing the brunt of the exposure. Hundreds of thousands of additional victims have been identified in Massachusetts, New Hampshire, and Washington. The stolen data includes names, dates of birth, addresses, Social Security numbers, health insurance details, and medical records — a comprehensive trove that poses severe identity theft and fraud risks for those affected.\n\nConduent provides printing, mailroom, document processing, and payment services for state government benefit programs including food assistance, workplace benefits, and unemployment insurance. The company says its services reach more than 100 million people nationwide, meaning the breach could still expand as more states complete their assessments. A ransomware group claimed responsibility for the attack, though Conduent has disclosed little about how the intrusion occurred or how it escalated to such scale.\n\nPerhaps most troubling is the company's apparent effort to limit public awareness of the incident. Conduent published an \"Incident Notice\" on its website in October 2025 that does not explicitly reference a cybersecurity breach. The page's source code includes a hidden \"noindex\" tag instructing search engines not to list it in results, effectively preventing affected individuals from discovering it through web searches. Company spokesperson Sean Collins declined to explain the decision or disclose how many notifications have been sent to date.\n\nWhile the Conduent breach ranks among the largest in U.S. history, it remains smaller than the Change Healthcare hack of February 2024, which exposed records belonging to roughly 190 million people after attackers exploited a stolen credential that lacked multi-factor authentication. That incident resulted in the company paying at least two ransoms to prevent mass publication of stolen health data. The Conduent case, however, underscores a persistent vulnerability in government contracting: private companies that handle vast quantities of sensitive public data often face minimal transparency requirements when that data is compromised.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Conduent",
-        "data breach",
-        "ransomware",
-        "cybersecurity",
-        "government contractors",
-        "personal data"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T14:33:03.870Z"
-    },
-    {
-      "id": "ps-1771943598471-1hjk",
-      "slug": "eu-plans-to-propose-full-russian-oil-ban-days-after-hungary-",
-      "headline": "EU Plans to Propose Full Russian Oil Ban Days After Hungary Vote",
-      "subheadline": "Brussels schedules April 15 announcement just three days after Hungarian elections, targeting remaining crude imports",
-      "body": "The European Union is preparing to propose a ban on all remaining Russian oil imports on April 15, timing the announcement just three days after Hungary's national elections, according to a document reviewed by Bloomberg.\n\nThe strategic scheduling underscores the delicate political calculus Brussels faces in severing one of the last major energy links between the bloc and Moscow. Hungary, under Prime Minister Viktor Orbán, has been among the most vocal opponents of EU sanctions on Russian energy, consistently leveraging its veto power to water down or delay punitive measures. By waiting until after Hungarian voters go to the polls on April 12, EU officials appear to be seeking to avoid handing Orbán a politically explosive issue in the final stretch of his campaign.\n\nHungary remains one of the last EU member states still heavily reliant on Russian crude, largely through the Druzhba pipeline that supplies landlocked Central European refineries. When the EU imposed its initial oil embargo in 2022 following Russia's full-scale invasion of Ukraine, Hungary secured a carve-out that allowed pipeline deliveries to continue — an exemption that has persisted even as most other member states diversified their supplies.\n\nThe proposed ban would represent a significant escalation in the bloc's sanctions architecture against Russia, closing a loophole that has drawn criticism from Ukraine and hawkish EU members such as Poland and the Baltic states. If adopted, it would effectively end billions of euros in annual revenue that Moscow has continued to collect from European buyers nearly four years into the war.\n\nThe proposal will still need to secure unanimous approval from all 27 member states, a process that has historically proven fraught when energy sanctions are on the table. Whether Hungary's post-election government — regardless of which party prevails — will acquiesce to the measure or deploy its veto remains the central question. Brussels officials are likely betting that the political dynamics after the vote will create more room for negotiation than the charged atmosphere of an active campaign season.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "European Union",
-        "Russia",
-        "oil ban",
-        "Hungary",
-        "sanctions",
-        "energy policy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1631986757112-df8231c612b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8RXVyb3BlYW4lMjBVbmlvbiUyMFJ1c3NpYXxlbnwwfDB8fHwxNzcxOTQzNTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/eu-to-propose-russian-oil-ban-three-days-after-hungary-election",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T14:33:18.471Z"
     },
     {
       "id": "ps-1771943612794-sp2p",
@@ -867,26 +906,6 @@
       "publishedAt": "2026-02-24T04:03:31.262Z"
     },
     {
-      "id": "ps-1771903921903-s2b8",
-      "slug": "first-uk-baby-born-from-deceased-donor-womb-transplant",
-      "headline": "First UK Baby Born From Deceased-Donor Womb Transplant",
-      "subheadline": "Ten-week-old Hugo marks a milestone in a clinical trial that could offer hope to thousands of women born without a viable uterus",
-      "body": "A baby boy named Hugo has become the first child in the United Kingdom born using a womb transplanted from a deceased donor, in what surgeons are calling a ground-breaking moment for organ transplantation and reproductive medicine.\n\nHugo was born just before Christmas 2024 at Queen Charlotte's and Chelsea Hospital in west London, weighing nearly seven pounds. His mother, Grace Bell, a woman in her 30s from Kent, was born with MRKH syndrome — a condition affecting roughly 5,000 women in the UK that results in the absence of a viable uterus. Bell was told at age 16 that she would never be able to carry her own child. She received the transplanted womb in a 10-hour operation at The Churchill Hospital in Oxford in June 2024, followed by IVF treatment and embryo transfer at The Lister Fertility Clinic in London.\n\nBell and her partner Steve Powell described Hugo as \"simply a miracle\" and paid tribute to the anonymous donor and her family for their \"incredible gift.\" The donor's parents said they felt \"tremendous pride\" in their daughter's legacy; in addition to her womb, she donated five other organs that were transplanted into four recipients. As a gesture of gratitude, Bell and Powell gave Hugo the middle name Richard, after consultant gynaecologist Prof. Richard Smith of Imperial College Healthcare NHS Trust, who has researched womb transplantation for more than 25 years and was present at the birth.\n\nThe successful delivery is the first from the deceased-donor arm of a UK clinical research trial that plans 10 such transplants; three have been completed so far. A separate track of the trial involves living donors — earlier in 2025, a baby named Amy became the first UK child born from a living womb donation, after her mother received a uterus from her older sister. Five additional living-donor transplants are planned. Globally, more than 100 womb transplant operations have been performed, resulting in over 70 healthy births, though very few in Europe have involved deceased donors.\n\nTransplant surgeon Isabel Quiroga, who co-leads the trial, said the team is investigating whether the procedure can become an approved, routine treatment for women of childbearing age who lack a viable womb. The transplanted organ is designed to be temporary: after Bell decides whether to have a second child, surgeons will remove the womb to spare her from a lifetime of immunosuppressive drugs. The birth nonetheless represents a significant expansion of reproductive options for women with MRKH syndrome and similar conditions, offering what Prof. Smith described as genuine hope where none previously existed.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "womb transplant",
-        "organ donation",
-        "MRKH syndrome",
-        "reproductive medicine",
-        "UK clinical trial"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7887/live/54311510-10d4-11f1-9cf0-bd02c2c16b25.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T03:32:01.903Z"
-    },
-    {
       "id": "ps-1771902193015-5uht",
       "slug": "jane-street-sued-for-insider-trading-by-terraform-labs-admin",
       "headline": "Jane Street Sued for Insider Trading by Terraform Labs Administrator",
@@ -1033,28 +1052,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/abbott-laboratories-kicks-off-bond-sale-for-exact-sciences-deal",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T21:18:32.619Z"
-    },
-    {
-      "id": "ps-1771879709044-0viw",
-      "slug": "treasury-bonds-surge-as-trump-tariff-escalation-drives-haven",
-      "headline": "Treasury Bonds Surge as Trump Tariff Escalation Drives Haven Demand",
-      "subheadline": "Investors flee equities for government debt as renewed trade war rhetoric rattles global markets",
-      "body": "U.S. Treasury bonds rallied sharply on February 23 as investors rushed into safe-haven assets following President Donald Trump's renewed commitment to escalating tariffs, a move that sent equities tumbling and reignited fears over the trajectory of global trade.\n\nThe flight to government debt underscored the depth of market anxiety surrounding the administration's trade agenda. With Trump vowing to press forward with his trade war, bond prices climbed as yields fell — the classic pattern of a risk-off environment in which investors prioritize capital preservation over returns. The simultaneous selloff in stocks amplified the demand for Treasuries, which remain the world's benchmark safe-haven asset during periods of geopolitical and economic uncertainty.\n\nThe bond rally reflects a broader repricing of risk across global markets. Tariff escalation threatens to raise input costs for businesses, squeeze corporate margins, and slow economic growth — all factors that tend to suppress long-term interest rate expectations. For bond traders, the calculus is straightforward: if tariffs dampen growth and potentially tip the economy toward contraction, the Federal Reserve may face pressure to ease monetary policy, making current yields more attractive on a relative basis.\n\nThe move also highlights the tension between the administration's trade objectives and market stability. Each new escalation in the tariff dispute forces investors to recalibrate their assumptions about inflation, growth, and central bank policy simultaneously — a cocktail of uncertainty that historically benefits fixed-income markets at the expense of equities. Currency markets and commodities were also caught in the crosscurrents, as traders attempted to gauge the downstream effects of a prolonged and intensifying trade conflict.\n\nFor market participants, the key question now is whether the tariff push represents a negotiating tactic that will eventually yield to compromise or a sustained policy shift that fundamentally alters the global trade landscape. Until that uncertainty resolves, Treasuries are likely to remain the preferred shelter for capital seeking refuge from the storm.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "treasuries",
-        "bonds",
-        "tariffs",
-        "trade war",
-        "safe haven",
-        "equities selloff",
-        "Trump"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1663266238659-b5599f76ed03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8dHJlYXN1cmllcyUyMGJvbmRzfGVufDB8MHx8fDE3NzE4Nzg4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/us-treasuries-gain-as-traders-weigh-impact-of-tariff-ruling",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T20:48:29.044Z"
     }
   ]
 }
