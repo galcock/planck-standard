@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-24T11:49:00.612Z",
+  "lastUpdated": "2026-02-24T12:03:46.151Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771934549516-wq9c",
+      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
+      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
+      "subheadline": "BBC documentary features on-the-record testimony from four fugitive soldiers alleging systematic killings on Russian front lines",
+      "body": "Four Russian soldiers have given on-the-record accounts of witnessing commanders execute fellow troops for refusing orders in Ukraine, in what may be the first such firsthand testimony from the front lines to be publicly documented.\n\nThe men, all currently in hiding outside Russia, spoke to a BBC documentary team for \"The Zero Line: Inside Russia's War,\" describing a culture of summary execution, torture, and coerced suicide missions that they say has become endemic in the Russian military. One soldier, a 35-year-old former special needs teacher identified as Ilya, said he watched a commander shoot four men at point-blank range in Russian-occupied Donetsk for fleeing the front line. \"The saddest thing is that I knew them,\" he told the BBC. Another soldier, Dima, a 34-year-old former dishwasher repairman from Moscow, described witnessing executions ordered by his commander in the 25th Brigade — Alexei Ksenofontov, who was awarded Russia's Gold Star medal and named a \"Hero of Russia\" in 2024. Dima called Ksenofontov a \"butcher\" and described finding 20 bodies of newly arrived ex-convict recruits in a ditch, allegedly shot by commanders who then confiscated the dead men's bank cards.\n\nThe soldiers' accounts describe what Russian troops call \"meat storms\" — waves of men sent relentlessly across front lines to exhaust Ukrainian ammunition and drone supplies, with subsequent waves expected to reach objectives over the bodies of those before them. Ilya provided detailed lists showing he is the sole survivor of 79 men he was mobilized with in Perm in May 2024. He says those who refused orders were tortured, electrocuted, starved, and ultimately forced into attacks unarmed. The practice of executing one's own troops is known in Russian military slang as \"zeroing,\" and the soldiers described it as both punishment and intimidation.\n\nThe testimony corroborates a broader pattern of alleged breakdown in discipline and law on the Russian side. In January 2025, families of soldiers who died under Ksenofontov's command wrote directly to President Vladimir Putin, accusing his commanders of operating like a \"gang\" and exterminating troops with impunity. The UK Ministry of Defence estimates more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022, with daily casualties in 2025 running between 900 and 1,500.\n\nMoscow's official response stated that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" The Russian government said it could not independently verify the claims. Nearly all public opposition to the war has been suppressed inside Russia, and official casualty figures remain classified — a silence that the four fugitive soldiers, at considerable personal risk, have now broken.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Russia-Ukraine war",
+        "war crimes",
+        "Russian military",
+        "BBC investigation",
+        "human rights"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T12:02:29.516Z"
+    },
+    {
+      "id": "ps-1771934565331-sim6",
+      "slug": "new-method-speeds-up-carbon-storage-simulations-hundredfold",
+      "headline": "New Method Speeds Up Carbon Storage Simulations Hundredfold",
+      "subheadline": "Researchers develop a lightweight technique to update surrogate models without costly retraining, enabling real-time optimization",
+      "body": "A pair of researchers has developed a computational shortcut that could dramatically accelerate the modeling of geological carbon storage projects, executing hundreds of times faster than conventional retraining approaches while maintaining accuracy within three percent of full-fidelity simulations.\n\nDimitrios Voulanas and Eduardo Gildin, writing in a paper posted to the arXiv preprint server, tackle a persistent bottleneck in carbon capture and storage (CCS) planning: the prohibitive computational cost of high-fidelity multiphase flow simulations. Engineers modeling underground CO₂ injection must account for how pressurized plumes migrate through porous rock and how pressure builds in the reservoir — calculations that demand enormous processing power, particularly when reservoir properties like permeability or well placement change between scenarios. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant patterns from simulation snapshots, has emerged as a promising surrogate framework, but its operators must be retrained from scratch whenever domain properties shift, negating much of its speed advantage.\n\nThe new work introduces two complementary update strategies that modify an existing DMD model without generating new simulation data or retraining. When permeability changes uniformly across a reservoir domain — as might occur when switching between geological formations with different rock characteristics — the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes, a more nuanced approach modifies the model's spatial representation, weighting high-permeability zones more heavily in the reduced basis to capture their outsized influence on fluid flow.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup profiles to within three percent of a surrogate that was freshly trained on new simulation data — the current gold standard — while completing calculations hundreds of times faster. The approach preserves what the authors describe as the \"physical fidelity demanded by carbon-storage workflows,\" a critical requirement given the regulatory scrutiny and safety considerations surrounding underground CO₂ sequestration.\n\nThe practical implications extend beyond academic interest. Carbon storage projects require extensive optimization studies, uncertainty quantification, and real-time control decisions — all of which demand rapid evaluation of many geological scenarios. By eliminating the retraining bottleneck, the technique could enable engineers to conduct rapid what-if analyses across varying reservoir conditions, potentially accelerating the planning and deployment of CCS infrastructure at a time when governments and industries worldwide are scaling up carbon removal efforts to meet climate targets.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "computational physics",
+        "surrogate modeling",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T12:02:45.331Z"
+    },
+    {
+      "id": "ps-1771934581056-5p5h",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing keep engineered microbes safely confined inside oxygen-starved cancer cores",
+      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors and consume them from the inside, deploying synthetic biology techniques to ensure the microbes activate their most aggressive capabilities only after safely colonizing cancerous tissue.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microorganism that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide ideal conditions for the bacterium to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" The challenge has been that as the microbes expand outward toward the tumor's oxygenated periphery, they die before finishing the job.\n\nTo overcome this limitation, the Waterloo team — spanning chemical engineering, applied mathematics, and life sciences — inserted an oxygen-tolerance gene borrowed from a related bacterial species. But making the bacteria broadly oxygen-resistant would pose a serious safety risk, potentially allowing them to proliferate in the bloodstream or healthy tissue. The researchers solved this with quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside a tumor to push the chemical signal past a critical threshold. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA components: \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe work, published in ACS Synthetic Biology, details the construction and functional characterization of this heterologous quorum-sensing circuit in C. sporogenes. In earlier studies, the team demonstrated genetic modifications for improved oxygen tolerance. In follow-up experiments, they validated their quorum-sensing trigger by programming bacteria to produce green fluorescent protein, confirming activation occurred at the intended population density. The next milestone is combining both systems — oxygen tolerance and quorum-sensing control — into a single organism for pre-clinical tumor trials.\n\nThe project, initiated by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen, is now advancing through a collaboration with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar. Former Waterloo doctoral student Sara Sadr played a leading role in the research. While engineered bacterial therapies for cancer remain years from clinical use, the Waterloo team's programmable safety architecture addresses one of the field's most persistent concerns — keeping therapeutic microbes precisely where they belong.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T12:03:01.056Z"
+    },
+    {
+      "id": "ps-1771934596882-xnpr",
+      "slug": "anthropic-says-three-chinese-ai-labs-used-24-000-fake-accoun",
+      "headline": "Anthropic Says Three Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign targeting Claude's core capabilities",
+      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of operating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over American chip exports.\n\nThe San Francisco-based AI company said the three labs generated over 16 million exchanges with Claude using a technique known as distillation, which involves feeding a more capable model's outputs into a less capable one to improve it. While distillation is a standard practice when applied to a company's own models, using it to siphon a competitor's capabilities amounts to what Anthropic characterizes as intellectual property theft. The company said the campaigns specifically targeted Claude's \"most differentiated capabilities: agentic reasoning, tool use, and coding.\"\n\nThe scope of the alleged extraction varied significantly across the three firms. MiniMax accounted for the largest share, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model at launch. Moonshot AI, which recently released its Kimi K2.5 open-source model and a coding agent, was linked to 3.4 million exchanges spanning agentic reasoning, coding, computer vision, and computer-use agent development. DeepSeek's footprint was smaller — about 150,000 exchanges — but appeared to target foundational logic and alignment, particularly around generating censorship-safe alternatives to policy-sensitive queries.\n\nThe accusations carry significant policy implications. The Trump administration last month authorized U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI capabilities. Anthropic explicitly tied the distillation campaigns to the export control debate, arguing that the scale of extraction \"requires access to advanced chips\" and that restricting chip access would limit both direct model training and large-scale distillation. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, told reporters the findings provide \"even more compelling reasons to refuse to sell any AI chips\" to the companies involved.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that models built through illicit distillation are unlikely to retain the safety guardrails that U.S. labs embed to prevent misuse in areas such as bioweapons development and offensive cyber operations. The company called for \"a coordinated response across the AI industry, cloud providers, and policymakers\" and said it would invest in defenses to make distillation attacks harder to execute. None of the three accused companies had publicly responded to the allegations as of Sunday.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "Moonshot AI",
+        "MiniMax"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T12:03:16.882Z"
+    },
+    {
+      "id": "ps-1771934611843-l63p",
+      "slug": "yen-drops-as-japan-s-takaichi-reportedly-warned-boj-against-",
+      "headline": "Yen Drops as Japan's Takaichi Reportedly Warned BOJ Against More Rate Hikes",
+      "subheadline": "Currency extends losses after reports that the prime minister expressed concern about tightening in a meeting with BOJ Governor Ueda",
+      "body": "The Japanese yen slid further on Tuesday after reports emerged that Prime Minister Sanae Takaichi had cautioned Bank of Japan Governor Kazuo Ueda against additional interest rate increases during a meeting last week, raising fresh questions about the central bank's ability to continue normalizing monetary policy.\n\nJapanese media reported that Takaichi expressed apprehension about the trajectory of rate hikes in the meeting with Ueda, signaling that the government may be uncomfortable with the pace of tightening. The reports sent the yen lower as currency markets interpreted the comments as a potential brake on the BOJ's gradual move away from decades of ultra-loose policy. The yen had already been declining before the reports surfaced, and the news accelerated the selloff.\n\nThe development underscores a persistent tension at the heart of Japanese economic policy. The BOJ has been inching toward normalization after years of negative interest rates and massive stimulus, but political pressure from the government threatens to complicate that path. Higher rates strengthen the yen and reduce the cost of imports, but they also raise borrowing costs for businesses and households — a politically sensitive issue as Japan's economy navigates uneven growth. Takaichi, who has previously been vocal about supporting accommodative monetary conditions, appears to be signaling that she does not want the central bank to move too aggressively.\n\nFor currency traders, the prime minister's reported stance diminishes the likelihood of near-term rate increases, making the yen a less attractive hold relative to higher-yielding currencies like the U.S. dollar. The BOJ raised rates multiple times over the past year as it sought to normalize policy, but each move has drawn scrutiny from politicians wary of dampening economic momentum.\n\nThe episode highlights the delicate balance the BOJ must strike between asserting its institutional independence and navigating the political landscape. Governor Ueda has repeatedly emphasized that rate decisions are guided by economic data, but markets remain acutely sensitive to any sign that government pressure could slow the tightening cycle. How the central bank responds in its upcoming policy meetings will be closely watched for evidence of whether Takaichi's concerns carry weight in the deliberation room.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "yen",
+        "Bank of Japan",
+        "Sanae Takaichi",
+        "interest rates",
+        "Japanese economy",
+        "forex"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1745754502955-41178d445c5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8eWVuJTIwQmFuayUyMG9mJTIwSmFwYW58ZW58MHwwfHx8MTc3MTkzNDYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/yen-extends-decline-after-report-on-takaichi-s-rate-hike-view",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T12:03:31.843Z"
+    },
+    {
+      "id": "ps-1771934626063-51lj",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-colla",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra Collapse",
+      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run the $40 billion UST crash",
+      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that helped trigger the catastrophic collapse of the TerraUSD stablecoin in May 2022 — an event that wiped out roughly $40 billion in investor wealth in a single week.\n\nThe suit, filed by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants, according to a report first published by the Wall Street Journal. At the heart of the complaint is a sequence of events on May 7, 2022, when Terraform Labs quietly withdrew 150 million TerraUSD (UST) from Curve3pool, a major decentralized stablecoin trading platform. The lawsuit alleges that within just 10 minutes — before any public disclosure — a wallet linked to Jane Street withdrew an additional 85 million UST from the same pool. The combined withdrawals are alleged to have sparked market panic, ultimately destroying TerraUSD's 1:1 dollar peg and sending its sister token Luna to zero.\n\nThe complaint further alleges that on May 9, as UST began its fatal slide, Jane Street's Pratt contacted Terraform founder Do Kwon and his team via group chat, offering to purchase bitcoin or Luna. Kwon reportedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a detail the administrator argues reveals a web of privileged communication between the trading firm and Terraform insiders. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A company spokesperson argued that losses suffered by Terra and Luna holders were the direct result of \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and pledged to vigorously defend against what it characterized as \"baseless, opportunistic claims.\"\n\nThe lawsuit adds another chapter to the sprawling legal fallout from the Terra implosion, which triggered a cascade of failures across the crypto industry in 2022. Terraform Labs filed for bankruptcy in January 2024, and its founder Do Kwon pleaded guilty to two criminal counts last August, receiving a 15-year prison sentence. If the administrator's claims are substantiated, the case could have far-reaching implications for how traditional trading firms interact with crypto markets and the legal boundaries governing information asymmetry in digital asset trading.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "insider trading",
+        "TerraUSD",
+        "cryptocurrency",
+        "Do Kwon",
+        "stablecoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T12:03:46.063Z"
+    },
     {
       "id": "ps-1771933659886-atpg",
       "slug": "russian-soldiers-describe-executions-of-troops-who-refuse-or",
@@ -23,69 +150,6 @@
       "publishedAt": "2026-02-24T11:47:39.886Z"
     },
     {
-      "id": "ps-1771933676338-95rr",
-      "slug": "new-method-updates-simulation-surrogates-without-retraining",
-      "headline": "New Method Updates Simulation Surrogates Without Retraining",
-      "subheadline": "Researchers show how to adapt Dynamic Mode Decomposition models to changing reservoir conditions hundreds of times faster than conventional approaches",
-      "body": "A pair of researchers has developed a lightweight technique for updating data-driven simulation models used in geological carbon storage, eliminating the costly need to regenerate training data when subsurface conditions change. The method, published on arXiv by Dimitrios Voulanas and Eduardo Gildin, achieves results within three percent of fully retrained models while executing hundreds of times faster.\n\nThe work addresses a persistent bottleneck in carbon capture and storage (CCS) projects, where engineers must repeatedly simulate how injected CO₂ migrates through underground rock formations. High-fidelity multiphase flow simulators capture this physics accurately but are computationally prohibitive for the rapid optimization, control, and uncertainty analysis that real-world projects demand. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant flow patterns from simulation snapshots, has emerged as a promising surrogate framework — but with a significant limitation. Standard DMD operators are locked to the specific reservoir properties used during training. Any change in permeability or well placement traditionally requires generating fresh simulation data and retraining from scratch, negating much of the computational savings.\n\nVoulanas and Gildin introduce two complementary update strategies that sidestep this problem entirely. When permeability changes uniformly across a reservoir domain, their approach rescales the model's internal dynamics and control response to match the altered flow timescale — essentially recalibrating the surrogate's temporal behavior without new data. For spatially varying permeability changes, the method instead modifies the spatial representation within the reduced-order model, reweighting the basis functions so that high-permeability zones exert proportionally greater influence on predictions.\n\nNumerical experiments demonstrated that both strategies accurately reproduced plume migration patterns and pressure buildup profiles, staying within three percent of a surrogate trained from scratch on the new conditions. The computational advantage was stark: updates completed hundreds of times faster than full retraining cycles. The authors argue this speed makes real-time optimization and rapid scenario analysis feasible for carbon-storage workflows, where operators may need to evaluate dozens of geological scenarios or well configurations under tight decision timelines.\n\nThe research sits at the intersection of computational physics, optimization, and engineering — reflecting growing interest in adaptive reduced-order models that can keep pace with the operational demands of large-scale CCS deployment. As governments and industry accelerate carbon storage projects worldwide, tools that maintain physical fidelity while dramatically cutting computational costs could prove essential to making these ventures economically and technically viable.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic-mode-decomposition",
-        "carbon-storage",
-        "surrogate-modeling",
-        "computational-physics",
-        "reservoir-simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1674220689848-7464f51a43b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxkeW5hbWljLW1vZGUtZGVjb21wb3NpdGlvbiUyMGNhcmJvbi1zdG9yYWdlfGVufDB8MHx8fDE3NzE5MzM2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T11:47:56.338Z"
-    },
-    {
-      "id": "ps-1771933694089-co03",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the inside, and activate an oxygen-survival mode only when conditions are safe — a synthetic biology approach that could open a new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of many solid tumors provide exactly those conditions, allowing injected bacterial spores to germinate, feed on available nutrients, and multiply. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work. But a persistent problem has limited the approach: as bacteria expand outward from the tumor core, they encounter trace amounts of oxygen at the tumor periphery and die before the cancer is fully eliminated.\n\nTo overcome that barrier, the Waterloo team inserted a gene from a closely related, more oxygen-tolerant bacterium into C. sporogenes. The critical innovation, however, was engineering a control mechanism to prevent the modified microbes from surviving in oxygen-rich tissues such as the bloodstream, where unchecked growth could be dangerous. The researchers turned to quorum sensing, a natural bacterial communication system in which cells release chemical signals that intensify as their population grows. Only after enough bacteria have accumulated inside a tumor does the signal reach a threshold that switches on the oxygen-resistance gene — a built-in safety lock. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a Waterloo applied mathematics professor involved in the project. The team validated the quorum-sensing circuit by programming bacteria to produce green fluorescent protein, confirming that activation occurred at the intended population density. Their results were published in ACS Synthetic Biology.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system in a single organism and testing it against tumors in pre-clinical animal trials. The research, which grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo PhD student Sara Sadr, reflects a broader trend of interdisciplinary collaboration merging engineering, mathematics, and microbiology to tackle intractable cancers. The Waterloo group is now partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to move the technology toward translational development.\n\nWhile engineered bacterial therapies remain years from clinical use, the programmable precision demonstrated by the Waterloo team addresses one of the field's central challenges: ensuring that living therapeutics act aggressively inside tumors while remaining inert everywhere else in the body. If pre-clinical results hold, the approach could eventually complement or enhance existing treatments for solid tumors, which account for roughly 90 percent of all cancers and remain among the hardest to treat.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "synthetic biology",
-        "cancer treatment",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T11:48:14.089Z"
-    },
-    {
-      "id": "ps-1771933709096-6d5r",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies of orchestrating a large-scale effort to extract capabilities from its Claude AI model, intensifying the debate over U.S. chip export controls to China at a politically sensitive moment.\n\nThe San Francisco-based AI company said that DeepSeek, Moonshot AI, and MiniMax collectively created more than 24,000 fake accounts and generated over 16 million exchanges with Claude, employing a technique known as distillation — a training method typically used by labs on their own models to create smaller, more efficient versions, but which can also be weaponized to replicate a competitor's capabilities. Anthropic said the three labs specifically targeted Claude's \"most differentiated capabilities: agentic reasoning, tool use, and coding.\"\n\nThe scope of each campaign varied considerably. MiniMax accounted for the largest volume, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest model immediately upon its launch. Moonshot AI generated 3.4 million exchanges targeting agentic reasoning, coding, computer vision, and agent development — activity that preceded its release of the open-source Kimi K2.5 model and a coding agent last month. DeepSeek's effort was more targeted, with over 150,000 exchanges apparently aimed at improving foundational logic and alignment, particularly around navigating censorship-sensitive queries.\n\nThe accusations land amid a contentious policy debate in Washington. The Trump administration last month permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics say bolsters Beijing's AI computing capacity during a pivotal period in the global technology race. Anthropic explicitly linked distillation to the export control debate, arguing that the scale of extraction these labs performed \"requires access to advanced chips\" and that restricting chip access limits both direct model training and illicit distillation campaigns. OpenAI made similar accusations against DeepSeek in a memo to House lawmakers earlier this month.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that models built through illicit distillation are unlikely to retain the safety guardrails that U.S. companies embed to prevent misuse in areas such as bioweapons development and offensive cyber operations. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, told reporters the findings should strengthen the case against selling AI chips to the accused companies. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he said. \"Now we know this for a fact.\" Anthropic said it would invest in stronger defenses but called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three Chinese companies have publicly responded to the allegations.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T11:48:29.096Z"
-    },
-    {
       "id": "ps-1771933725577-eg4p",
       "slug": "tata-sons-delays-vote-on-chairman-chandrasekaran-s-third-ter",
       "headline": "Tata Sons Delays Vote on Chairman Chandrasekaran's Third Term",
@@ -104,48 +168,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/tata-defers-vote-on-chairman-s-new-term-signaling-power-tussle",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T11:48:45.577Z"
-    },
-    {
-      "id": "ps-1771933740516-elkw",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant front-ran withdrawals that triggered the 2022 stablecoin crisis",
-      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging it exploited insider information to front-run trades that hastened the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a meltdown that erased roughly $40 billion in market value in a single week.\n\nThe suit, filed by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants. At the heart of the complaint is a sequence of events on May 7, 2022: Terraform Labs quietly withdrew 150 million TerraUSD from the decentralized exchange Curve3pool. Within ten minutes, according to the lawsuit, a wallet linked to Jane Street pulled an additional 85 million TerraUSD from the same pool — before any public disclosure had been made. The combined withdrawals allegedly destabilized the pool and helped trigger TerraUSD's loss of its dollar peg, sparking a cascading panic across crypto markets.\n\nThe lawsuit further alleges that on May 9, as TerraUSD began slipping, Jane Street's Pratt contacted Do Kwon's team in a group chat, offering to buy bitcoin or Luna. Kwon reportedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — an exchange the administrator argues reveals a web of private communications and material nonpublic information flowing between market participants. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully rejected the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A spokesperson argued that the losses suffered by Terra and Luna holders resulted from \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs\" — a reference to the criminal case against Kwon, who pleaded guilty to two counts and was sentenced to 15 years in prison in August 2025. Terraform Labs, founded in Singapore in 2018, filed for bankruptcy in January 2024.\n\nThe case could have far-reaching implications for how insider trading norms apply in crypto markets, which have historically operated in a regulatory gray zone. If the allegations are substantiated, they would represent one of the clearest examples of a traditional finance player leveraging privileged information in digital asset markets. Jane Street has said it intends to vigorously defend against what it characterizes as baseless claims.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "TerraUSD",
-        "insider trading",
-        "crypto regulation",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T11:49:00.516Z"
-    },
-    {
-      "id": "ps-1771932744207-1ly9",
-      "slug": "russian-soldiers-describe-execution-of-troops-by-own-command",
-      "headline": "Russian Soldiers Describe Execution of Troops by Own Commanders",
-      "subheadline": "BBC documentary captures first on-record testimony from frontline soldiers alleging systematic killings and torture",
-      "body": "Four Russian soldiers who fled the front lines in Ukraine have provided what is believed to be the first on-record testimony from serving troops describing the execution of fellow soldiers by their own commanders, according to a BBC documentary released this week.\n\nThe accounts, gathered at an undisclosed location outside Russia, paint a picture of systematic brutality within Russian military ranks. One soldier, identified as Ilya, a 35-year-old former special-needs teacher from the Ural Mountains, told filmmakers he witnessed a commander shoot four soldiers at point-blank range in Russian-occupied Donetsk for refusing to return to the front line. \"The saddest thing is that I knew them. I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using the Russian military slang for executing one's own troops. Ilya also provided detailed records showing he is the sole survivor of the 79 men he was mobilized with in May 2024.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was pressed into service after a street encounter with police in October 2022, described witnessing executions ordered by his commander in the 25th Brigade. That commander, Alexei Ksenofontov, was awarded the Gold Star — Russia's highest state medal — and named a \"Hero of Russia\" in 2024. Families of soldiers who died under Ksenofontov's command sent a joint letter to President Vladimir Putin in January 2025, accusing the officer of brutality and demanding an investigation. Dima also recounted discovering 20 bodies of newly arrived ex-convict recruits in a ditch, allegedly shot by commanders who confiscated their bank cards. \"It's not a problem to write off someone. You just make up a report,\" he said.\n\nThe testimony corroborates growing reports of a breakdown in discipline and law within Russia's military, where so-called \"meat storm\" tactics — sending successive waves of infantry to exhaust Ukrainian ammunition and drone supplies — have become standard. The UK Ministry of Defence estimates that between 900 and 1,500 Russian troops are killed or wounded daily in 2025, with total casualties exceeding 1.2 million since the full-scale invasion began on February 24, 2022. Moscow does not publish official casualty figures.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that alleged violations are \"duly investigated.\" Moscow also said it could not independently verify the information provided. The documentary, titled \"The Zero Line: Inside Russia's War,\" also features a senior staff officer with 17 years of military service who described learning of a \"liquidation squad\" dispatched to kill a group of high-ranking officers — an account he called unprecedented in his career. All four witnesses are currently on the run, underscoring the near-total suppression of public dissent within Russia regarding the war.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC documentary",
-        "human rights"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T11:32:24.207Z"
     },
     {
       "id": "ps-1771931903866-82jw",
@@ -1039,27 +1061,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092255.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-23T16:03:48.986Z"
-    },
-    {
-      "id": "ps-1771860814776-zw4f",
-      "slug": "supreme-court-to-hear-oil-industry-appeal-on-climate-lawsuit",
-      "headline": "Supreme Court to Hear Oil Industry Appeal on Climate Lawsuits",
-      "subheadline": "Exxon Mobil and Suncor Energy win high court review in bid to block dozens of state and city climate suits",
-      "body": "The U.S. Supreme Court has agreed to take up an appeal by Exxon Mobil Corp. and Suncor Energy Inc., giving the oil industry a high-profile opportunity to shut down a growing wave of climate change lawsuits filed by cities and states across the country. The decision to grant certiorari, announced on February 23, sets the stage for one of the most consequential environmental legal battles to reach the nation's highest court in years.\n\nThe cases at the center of the dispute involve dozens of lawsuits brought by municipalities and state governments alleging that major fossil fuel companies bear responsibility for the damages caused by climate change. Plaintiffs have argued that oil producers knew for decades that their products were contributing to global warming and deliberately misled the public, drawing parallels to the litigation strategies that ultimately forced the tobacco industry into massive settlements. The suits have sought billions of dollars in damages to cover costs ranging from infrastructure repairs to public health expenditures linked to rising temperatures and extreme weather events.\n\nFor the oil industry, the Supreme Court hearing represents a critical chance to resolve a threshold legal question that has largely gone against them in lower courts: whether these cases belong in federal court, where companies believe they stand a better chance of dismissal, or in state courts, where plaintiffs have preferred to litigate. Federal judges have repeatedly sent the cases back to state courts, and appellate courts have largely upheld those rulings. The Supreme Court's willingness to intervene signals that at least four justices found the industry's arguments worthy of full consideration.\n\nThe implications extend well beyond Exxon and Suncor. A ruling favorable to the oil companies could effectively neutralize climate litigation strategies that environmental advocates and plaintiff attorneys have spent years developing. Conversely, a decision affirming the lower courts would allow the suits to proceed in state venues across the country, potentially exposing the industry to a patchwork of costly trials and settlements.\n\nLegal observers expect oral arguments later this term, with a decision likely by the summer of 2026. The outcome could reshape the legal landscape around corporate accountability for climate change and influence how governments, investors, and fossil fuel companies approach the energy transition for years to come.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Supreme Court",
-        "climate change",
-        "Exxon Mobil",
-        "Suncor Energy",
-        "oil industry",
-        "litigation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1687610877269-9c051d3d254e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxTdXByZW1lJTIwQ291cnQlMjBjbGltYXRlJTIwY2hhbmdlfGVufDB8MHx8fDE3NzE4NjA4MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/oil-companies-get-supreme-court-hearing-on-climate-change-suits",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T15:33:34.776Z"
     }
   ]
 }
