@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-02-24T07:48:29.396Z",
+  "lastUpdated": "2026-02-24T08:03:50.748Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771920151905-bbmu",
+      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
+      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refuse Orders",
+      "subheadline": "Two men who fled the military tell BBC documentary they witnessed point-blank killings on Ukraine's front lines",
+      "body": "Russian soldiers have come forward with harrowing accounts of commanders executing their own troops for refusing to fight, describing a practice so routine it has earned its own slang term within the Russian military.\n\nIn a BBC documentary titled \"The Zero Line: Inside Russia's War,\" two men who deserted the Russian armed forces spoke from an undisclosed location outside Russia about what they witnessed on the front lines in Ukraine. Ilya, a 35-year-old former special needs teacher who was drafted into military service, told filmmakers he watched a commander shoot four soldiers at point-blank range after they fled their positions and refused to return. The practice, known as \"zeroing\" in Russian military slang, serves both as punishment and as a tool of intimidation against others contemplating disobedience, the men said.\n\nA second soldier identified as Dima, who also witnessed the killings, described commanders shooting their own men as \"a normal thing.\" He recounted being just two to three meters away during executions, saying: \"Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life.\" Both men are now on the run, having abandoned their posts rather than continue serving under such conditions.\n\nThe accounts, while impossible to independently verify, are consistent with a growing body of testimony from Russian soldiers and military analysts pointing to severe discipline problems and brutal enforcement measures within Russia's forces in Ukraine. Reports of summary executions, so-called \"blocking detachments\" that prevent retreat, and threats against soldiers who question orders have circulated since the early months of the full-scale invasion launched in February 2022.\n\nThe Russian government, responding to the BBC's reporting, said its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" Moscow added that information regarding alleged violations and crimes \"is duly investigated,\" while noting it could not verify the claims presented. The Kremlin has consistently rejected allegations of systemic abuse within its military ranks, even as independent Russian media outlets and rights organizations have documented widespread coercion, including the recruitment of prisoners and the use of severe punishments to maintain order on what has become one of the deadliest front lines in Europe since World War II.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Russia",
+        "Ukraine war",
+        "military executions",
+        "human rights",
+        "BBC documentary"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/6790/live/0c2c0270-1151-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T08:02:31.905Z"
+    },
+    {
+      "id": "ps-1771920167533-v6ss",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers develop lightweight techniques to adapt surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a method to rapidly update data-driven surrogate models used in geological carbon storage simulations, achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, tackled a persistent bottleneck in carbon capture and storage (CCS) planning. High-fidelity multiphase reservoir simulators — essential for modeling how injected CO₂ migrates underground and how pressure builds in storage formations — are computationally expensive. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant flow patterns from simulation snapshots, has emerged as a promising way to build fast surrogate models. But DMD operators are calibrated to a specific set of reservoir properties. When engineers need to evaluate a different permeability field or a new well placement, they typically must generate fresh simulation data and retrain the model from scratch, negating much of the computational savings.\n\nThe new approach sidesteps this problem entirely by updating existing DMD operators analytically, without requiring any new simulation runs. The authors introduce two complementary strategies. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to reflect the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced-order representation.\n\nNumerical experiments reported in the paper show that both update strategies accurately reproduce plume migration patterns and pressure buildup predictions, staying within three percent of a surrogate that was freshly trained on new simulation data. The computational advantage is dramatic: the update procedure runs hundreds of times faster than the conventional retrain-from-scratch workflow.\n\nThe implications extend beyond academic interest. Carbon storage projects require extensive optimization, uncertainty quantification, and real-time decision-making — tasks that demand running thousands of model evaluations under varying geological assumptions. A surrogate model that can be cheaply adapted to new reservoir conditions without sacrificing physical fidelity could significantly accelerate site selection, injection strategy design, and regulatory compliance workflows. The research sits at the intersection of computational physics, control theory, and engineering, and the authors suggest their lightweight update framework could enable genuine real-time optimization in CCS operations — a capability that has remained largely out of reach with existing simulation tools.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1660866837323-0565dfb71ca6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T08:02:47.533Z"
+    },
+    {
+      "id": "ps-1771920186171-9eet",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-effective-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Effective Against COVID, Flu, and Pneumonia in Mice",
+      "subheadline": "Experimental intranasal vaccine supercharges innate lung immunity, offering months of broad protection against viruses, bacteria, and allergens",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including SARS-CoV-2, bacterial pneumonia, and even common allergens — for up to three months, according to a study published February 19 in Science. If the results translate to humans, the approach could fundamentally reshape how the world defends against pandemics and seasonal illness.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, breaks from 230 years of vaccine design by declining to target any specific pathogen. Instead, it mimics the chemical signals that immune cells exchange during an active infection, keeping the lungs' innate immune system — ordinarily active for only days — on sustained high alert. A harmless egg protein called ovalbumin is included to draw T cells into the lungs, which in turn release cytokines that maintain the heightened innate state. In mice given three intranasal doses spaced a week apart, viral loads dropped 700-fold compared with unvaccinated animals. All vaccinated mice survived exposure to SARS-CoV-2 and other coronaviruses, while unvaccinated animals suffered severe weight loss, lung inflammation, and frequently died.\n\nThe breadth of protection surprised even the research team. Vaccinated mice also resisted Staphylococcus aureus and Acinetobacter baumannii — two bacteria notorious for causing hospital-acquired pneumonia — for approximately three months. In a further test, mice exposed to house dust mite proteins, a common trigger for allergic asthma, showed dramatically reduced allergic responses and maintained clear airways. \"I think what we have is a universal vaccine against diverse respiratory threats,\" said senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, conducted the experiments.\n\nThe work builds on a 2023 finding by the same group showing that the BCG tuberculosis vaccine — administered to roughly 100 million newborns each year — confers unexplained cross-protection against unrelated infections. Pulendran's team traced that effect to T cells in the lungs that activate toll-like receptors on innate immune cells, keeping them primed far longer than normal. The new vaccine was engineered to reproduce that mechanism synthetically. Beyond blunting initial infection, the sustained innate activation allowed the adaptive immune system to mount virus-specific antibody and T cell responses in as little as three days, compared with two weeks in unvaccinated mice.\n\nThe next milestone is a Phase I human safety trial. Pulendran estimates that two nasal spray doses could suffice for people and that, with adequate funding, a universal respiratory vaccine could reach the clinic within five to seven years. If successful, a single autumn nasal spray could one day replace annual flu shots and COVID boosters while also providing a standing defense against novel pandemic pathogens — a prospect that would mark one of the most significant advances in vaccinology since Jenner's use of cowpox in the 1790s.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccine",
+        "nasal spray",
+        "Stanford Medicine",
+        "innate immunity",
+        "respiratory disease",
+        "COVID-19",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T08:03:06.171Z"
+    },
+    {
+      "id": "ps-1771920202598-hda3",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in massive distillation campaign",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies of orchestrating a large-scale effort to extract capabilities from its Claude AI model, alleging that DeepSeek, Moonshot AI, and MiniMax created more than 24,000 fake accounts and generated over 16 million exchanges using a technique known as distillation. The disclosure lands squarely in the middle of an intensifying Washington debate over whether the United States should tighten or loosen export controls on advanced AI chips bound for China.\n\nDistillation is a well-known method in which an AI lab uses a larger, more capable model to train a smaller, cheaper one. When performed on a competitor's system without authorization, it effectively amounts to copying another lab's work. Anthropic said the three Chinese firms specifically targeted Claude's most advanced features — agentic reasoning, tool use, and coding — the very capabilities that differentiate frontier American models from their rivals. OpenAI leveled a similar accusation against DeepSeek earlier this month in a memo sent to House lawmakers.\n\nThe scale of each company's activity varied significantly. DeepSeek accounted for roughly 150,000 exchanges apparently aimed at improving foundational logic and developing censorship-safe responses to sensitive queries. Moonshot AI, whose new open-source model Kimi K2.5 and coding agent launched last month, was linked to approximately 3.4 million exchanges targeting agentic reasoning, coding, and computer vision. MiniMax was the most prolific, with some 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from the newest Claude model immediately upon its release.\n\nThe accusations carry pointed policy implications. Last month, the Trump administration formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China — a move critics warned would bolster Beijing's AI computing capacity. Anthropic argued that the distillation campaigns it uncovered \"require access to advanced chips,\" reinforcing the case for maintaining strict export controls. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, told reporters the findings should give policymakers \"even more compelling reasons to refuse to sell any AI chips\" to the implicated companies.\n\nBeyond commercial competition, Anthropic warned of national security risks. American AI companies invest heavily in safety guardrails that prevent misuse of their models for bioweapons development, cyberattacks, and disinformation. Models built through illicit distillation, the company argued, are unlikely to retain those protections, meaning dangerous capabilities could proliferate without safeguards. Anthropic called for a coordinated response across the AI industry, cloud providers, and policymakers, while pledging to invest further in defenses against future extraction attempts. None of the three accused Chinese labs had publicly responded at the time of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "national security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T08:03:22.598Z"
+    },
+    {
+      "id": "ps-1771920215718-p700",
+      "slug": "nippon-steel-to-raise-3-5-billion-in-convertible-bond-sale",
+      "headline": "Nippon Steel to Raise $3.5 Billion in Convertible Bond Sale",
+      "subheadline": "Japanese steelmaker plans overseas issuance to refinance loans tied to its acquisition of U.S. Steel",
+      "body": "Nippon Steel Corp. is preparing a 550 billion yen ($3.5 billion) convertible bond offering in overseas markets, as the Japanese steelmaker moves to restructure the financing behind its landmark acquisition of United States Steel Corp.\n\nThe bond sale represents one of the largest convertible debt issuances out of Japan in recent memory and signals Nippon Steel's confidence in its ability to tap international capital markets on favorable terms. Convertible bonds, which give holders the option to exchange debt for equity at a predetermined price, typically carry lower interest rates than conventional bonds — a potential advantage as the company seeks to reduce the cost of carrying its U.S. Steel acquisition debt.\n\nThe proceeds will be directed toward repaying loans that Nippon Steel arranged to finance the U.S. Steel takeover, a deal that drew intense political scrutiny in Washington before ultimately clearing regulatory hurdles. The acquisition, which made Nippon Steel the owner of one of America's most storied industrial names, required significant bridge financing that the company is now looking to replace with longer-duration capital market instruments.\n\nBy issuing convertible bonds overseas rather than in domestic markets, Nippon Steel is positioning itself to attract a broad base of global institutional investors, including hedge funds and long-only managers that specialize in convertible securities. The structure also limits immediate dilution to existing shareholders, since conversion would only occur if the stock appreciates above a set threshold.\n\nThe planned issuance underscores the scale of financial engineering required to digest a cross-border steel industry mega-deal. For Nippon Steel, successfully executing the bond sale would mark a critical step in placing its U.S. Steel ownership on a more sustainable financial footing, while freeing up balance sheet capacity for the operational integration challenges that lie ahead.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Nippon Steel",
+        "US Steel",
+        "convertible bonds",
+        "mergers and acquisitions",
+        "steel industry"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1759982254440-cf63356b1051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxOaXBwb24lMjBTdGVlbCUyMFJhaXNlfGVufDB8MHx8fDE3NzE5MTkyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/nippon-steel-to-sell-3-5-billion-worth-of-convertible-bonds",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T08:03:35.718Z"
+    },
+    {
+      "id": "ps-1771920230668-pit7",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
+      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run trades during the 2022 crash",
+      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that accelerated the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a debacle that wiped out roughly $40 billion in market value in a single week.\n\nThe suit, filed by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants. At the heart of the complaint is a sequence of events on May 7, 2022: Terraform Labs quietly withdrew 150 million TerraUSD from Curve3pool, a major decentralized stablecoin trading venue. Within ten minutes, according to the lawsuit, a wallet linked to Jane Street pulled an additional 85 million TerraUSD from the same pool — before any public disclosure had been made. The combined withdrawals allegedly sparked the market panic that sent TerraUSD spiraling off its dollar peg and triggered a contagion that toppled multiple crypto firms.\n\nThe lawsuit further alleges that on May 9, as TerraUSD began losing its peg, Jane Street's Pratt contacted Do Kwon and his team via group chat, offering to purchase bitcoin or Luna. Kwon reportedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a detail Snyder's team appears to view as evidence of an existing information pipeline between the firms. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully rejected the allegations. A spokesman for the firm called the suit \"desperate\" and \"a transparent attempt to extract money,\" arguing that losses suffered by Terra and Luna holders resulted from \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs.\" The firm said it would defend vigorously against what it characterized as baseless, opportunistic claims.\n\nThe case adds a new legal dimension to the Terra saga, which has already produced criminal consequences. Do Kwon, the co-founder of Singapore-based Terraform Labs, was sentenced to 15 years in prison after pleading guilty to two criminal counts in August 2025. Terraform filed for bankruptcy in January 2024, and a wind-down trust assumed control of its remaining assets later that year. If Snyder's claims withstand legal scrutiny, they could establish a significant precedent for how traditional finance firms are held accountable for their roles in crypto market dislocations — even when the underlying projects themselves were fraudulent.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "insider trading",
+        "TerraUSD",
+        "Do Kwon",
+        "crypto collapse",
+        "lawsuit"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T08:03:50.668Z"
+    },
     {
       "id": "ps-1771919232383-jpmx",
       "slug": "lord-mandelson-released-on-bail-after-arrest-on-misconduct-c",
@@ -22,114 +148,6 @@
       "sourceUrl": "https://www.bbc.com/news/videos/cx2d7rgj8l9o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T07:47:12.383Z"
-    },
-    {
-      "id": "ps-1771919247395-jg4w",
-      "slug": "new-method-lets-carbon-storage-simulations-update-instantly",
-      "headline": "New Method Lets Carbon Storage Simulations Update Instantly",
-      "subheadline": "Researchers show how to adapt surrogate models to changing reservoir conditions without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven models used in geological carbon storage projects to adapt to changing underground conditions without the expensive process of regenerating simulation data — a bottleneck that has limited the practical deployment of fast surrogate models in real-time optimization scenarios.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, address a well-known limitation of Dynamic Mode Decomposition (DMD), a popular framework for building reduced-order models from high-fidelity simulation data. While DMD can dramatically compress the computational cost of modeling multiphase fluid flow underground, its operators are locked to a specific set of reservoir properties. If the permeability of rock changes or a well is relocated, engineers have traditionally been forced to run new full-physics simulations and retrain the surrogate from scratch — a process that largely negates the speed advantage the surrogate was supposed to provide.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model algebraically, without any new simulation data. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the heterogeneity of actual geological formations — the technique reweights the spatial basis functions so that high-permeability zones exert proportionally greater influence on the model's predictions.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than the conventional retrain-from-scratch workflow. For carbon capture and storage projects, where operators must rapidly evaluate scenarios involving different injection strategies, well placements, and geological uncertainties, such speed gains could prove significant.\n\nThe work sits at the intersection of computational physics, optimization, and engineering — reflecting the growing importance of machine-learning-adjacent techniques in subsurface energy applications. As regulatory and commercial interest in geological carbon sequestration intensifies worldwide, tools that enable rapid what-if analysis without sacrificing physical accuracy are likely to attract attention from both the research community and industry practitioners managing large-scale storage sites.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate models",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1659576646172-0a3327f5b4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T07:47:27.395Z"
-    },
-    {
-      "id": "ps-1771919264077-7qqe",
-      "slug": "stanford-scientists-develop-universal-nasal-vaccine-against-",
-      "headline": "Stanford Scientists Develop Universal Nasal Vaccine Against COVID, Flu, and Pneumonia",
-      "subheadline": "A single nasal spray reduced viral levels 700-fold in mice and protected against bacteria and allergens for months",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and common allergens — in results that could upend the traditional one-pathogen, one-vaccine paradigm that has defined immunology for more than two centuries.\n\nThe findings, published February 19 in the journal Science, showed that mice receiving three intranasal doses of the vaccine were shielded from SARS-CoV-2 and other coronaviruses, hospital-acquired bacterial infections including Staphylococcus aureus and Acinetobacter baumannii, and even house dust mite allergens for at least three months. Unvaccinated mice suffered severe weight loss, lung inflammation, and frequently died, while vaccinated animals survived with minimal illness and viral loads reduced by 700-fold. The study was led by postdoctoral scholar Haibo Zhang and senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, represents a fundamentally different approach from conventional immunizations. Rather than training the immune system to recognize a specific viral protein — a strategy vulnerable to pathogen mutation — the formulation supercharges the lungs' innate immune defenses by mimicking the cytokine signals that T cells use to keep innate immune cells activated. It also includes ovalbumin, a harmless egg protein that recruits T cells to the lungs and sustains the heightened state of readiness. The result is what Pulendran described as a \"double whammy\": a persistent innate barrier that blocks most pathogens on contact, backed by an adaptive immune response that activates in just three days rather than the typical two weeks.\n\nThe work builds on a 2023 discovery by Pulendran's group showing that the century-old BCG tuberculosis vaccine produced unexplained cross-protection against unrelated infections by maintaining innate immune activation for months — far longer than the days-long response scientists had assumed was the ceiling. By identifying the molecular mechanism behind that phenomenon, the team was able to engineer a synthetic vaccine that replicates and amplifies the effect. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said.\n\nThe researchers plan to move toward a Phase I human safety trial as the next step. Pulendran estimates that two nasal spray doses could be sufficient for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the results translate from mice to humans, a single autumn nasal spray could theoretically replace annual flu shots, COVID boosters, and pneumonia vaccines while also offering rapid baseline protection against novel pandemic viruses — a prospect that would represent one of the most significant advances in vaccinology since Jenner's smallpox inoculation in 1796.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "universal vaccine",
-        "respiratory disease",
-        "innate immunity",
-        "COVID-19",
-        "influenza"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T07:47:44.077Z"
-    },
-    {
-      "id": "ps-1771919279687-00k4",
-      "slug": "anthropic-alleges-chinese-ai-labs-used-24-000-fake-accounts-",
-      "headline": "Anthropic Alleges Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract capabilities via distillation",
-      "body": "Anthropic has accused three prominent Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, intensifying the geopolitical debate over U.S. technology exports to China.\n\nThe companies allegedly used a technique known as distillation, generating over 16 million exchanges with Claude to replicate what Anthropic describes as its \"most differentiated capabilities,\" including agentic reasoning, tool use, and coding. Distillation is a well-known method in which outputs from a more powerful model are used to train a smaller, cheaper one — a legitimate practice when applied to a lab's own systems, but essentially intellectual property extraction when directed at a competitor's product.\n\nThe scope of the alleged operations varied significantly across the three companies. MiniMax accounted for the largest volume, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest model immediately upon launch. Moonshot AI, which recently released its Kimi K2.5 open-source model and coding agent, was linked to approximately 3.4 million exchanges targeting reasoning, coding, and computer vision. DeepSeek's operation was smaller in scale — around 150,000 exchanges — but appeared focused on foundational logic and alignment, particularly around generating responses to policy-sensitive queries without triggering censorship filters.\n\nThe allegations arrive at a politically charged moment. The Trump administration last month permitted U.S. companies including Nvidia to resume exports of advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI ambitions. Anthropic drew a direct line between distillation and the chip debate, arguing that extraction at this scale \"requires access to advanced chips\" and that restricted chip access would limit both direct model training and large-scale distillation. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings confirm long-held suspicions. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nBeyond the competitive implications, Anthropic warned of national security risks. Models built through illicit distillation are unlikely to retain safety guardrails designed to prevent misuse in areas such as bioweapon development, offensive cyber operations, and mass surveillance. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, pledging to invest in defenses that make distillation attacks harder to execute. None of the three accused companies have publicly responded to the allegations.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T07:47:59.687Z"
-    },
-    {
-      "id": "ps-1771919293231-a8l7",
-      "slug": "nippon-steel-to-raise-3-5-billion-in-bond-sale-to-finance-us",
-      "headline": "Nippon Steel to Raise $3.5 Billion in Bond Sale to Finance US Steel Deal",
-      "subheadline": "Japanese steelmaker plans overseas convertible bond offering to repay acquisition loans for United States Steel Corp.",
-      "body": "Nippon Steel Corp. announced plans to sell 550 billion yen, approximately $3.5 billion, in convertible bonds on overseas markets, as the Japanese steelmaker moves to refinance debt incurred during its landmark acquisition of United States Steel Corp.\n\nThe convertible bond offering represents one of the largest such sales by a Japanese company in recent memory and underscores the financial complexity of the US Steel deal, which faced prolonged regulatory scrutiny and political opposition before ultimately gaining approval. Convertible bonds, which can be exchanged for equity at a later date, allow Nippon Steel to secure financing at lower interest rates than traditional debt while potentially diluting shareholders if the bonds are eventually converted into stock.\n\nThe proceeds will be directed toward repaying bridge loans that Nippon Steel arranged to fund the US Steel acquisition, a deal that reshaped the global steel industry by combining Japan's largest steelmaker with one of America's most storied industrial companies. The transaction had drawn intense political attention in the United States, where concerns about foreign ownership of critical steel production capacity became a flashpoint during the 2024 presidential campaign.\n\nBy tapping overseas capital markets, Nippon Steel is seeking to optimize its debt structure and reduce the cost of carrying acquisition-related borrowings. The 550 billion yen offering signals confidence from the company's management that international investors remain receptive to the combined entity's long-term prospects, even as the global steel sector faces headwinds from overcapacity and trade tensions.\n\nThe bond sale will be closely watched by market participants as a gauge of investor appetite for large-scale Japanese corporate debt tied to cross-border acquisitions. For Nippon Steel, successfully executing the offering would mark a critical step in stabilizing the financial foundation of what has become one of the world's largest steelmaking enterprises.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Nippon Steel",
-        "US Steel",
-        "convertible bonds",
-        "mergers and acquisitions",
-        "steel industry"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1762356202043-c88ecf37e378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxOaXBwb24lMjBTdGVlbCUyMFJhaXNlfGVufDB8MHx8fDE3NzE5MTkyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/nippon-steel-to-sell-3-5-billion-worth-of-convertible-bonds",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T07:48:13.231Z"
-    },
-    {
-      "id": "ps-1771919309287-wxcy",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant front-ran withdrawals that triggered the 2022 stablecoin death spiral",
-      "body": "The administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that helped precipitate the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a meltdown that erased roughly $40 billion in market value in a single week.\n\nTodd Snyder, the court-appointed administrator unwinding Do Kwon's defunct blockchain company, is seeking damages from Jane Street, its co-founder Robert Granieri, and employees Bryce Pratt and Michael Huang, according to a Wall Street Journal report cited by CoinDesk on Monday. The suit centers on events beginning May 7, 2022, when Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. The complaint alleges that within just 10 minutes — before any public disclosure — a wallet linked to Jane Street withdrew an additional 85 million TerraUSD from the same pool. That one-two punch of large withdrawals allegedly sparked the market panic that sent TerraUSD spiraling off its dollar peg and ultimately to near-zero.\n\nThe lawsuit further alleges that on May 9, as TerraUSD was already losing its peg, Jane Street's Pratt contacted Kwon and his team via group chat, offering to buy bitcoin or Luna. Kwon reportedly responded that Jump Trading's co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a message the suit appears to cite as evidence of a web of private communications between major trading desks and Terraform insiders. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A company spokesman argued that the losses suffered by Terra and Luna holders \"were the result of a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and said the firm would defend vigorously against what it characterized as \"baseless, opportunistic claims.\"\n\nThe legal action adds another chapter to the long fallout from one of crypto's most devastating episodes. Terraform Labs, founded in Singapore in 2018 by Kwon and Daniel Shin, filed for bankruptcy in January 2024. Kwon himself was sentenced to 15 years in prison last August after pleading guilty to two criminal counts. The Terra collapse sent shockwaves across the digital asset industry, triggering a cascade of failures at firms with exposure to the project and deepening a prolonged crypto winter. If the insider trading allegations are substantiated, the case could raise uncomfortable questions about how institutional trading desks navigated — and potentially profited from — one of the sector's worst crises.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "TerraUSD",
-        "insider trading",
-        "crypto collapse",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T07:48:29.287Z"
     },
     {
       "id": "ps-1771918401517-94gh",
@@ -1046,27 +1064,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/strategy-logs-100th-bitcoin-purchase-announcement-adding-592-coins-last-week-for-usd39-8-million",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-23T13:33:43.182Z"
-    },
-    {
-      "id": "ps-1771852700657-yu48",
-      "slug": "killing-of-jalisco-cartel-leader-in-military-raid-triggers-v",
-      "headline": "Killing of Jalisco Cartel Leader in Military Raid Triggers Violence Across Mexico",
-      "subheadline": "Clashes erupt in western Mexico following the death of a senior figure in one of the country's most powerful drug trafficking organizations",
-      "body": "The death of a senior leader of the Jalisco New Generation Cartel (CJNG) during a security operation in the western state of Jalisco has sparked a wave of violent clashes across the region, according to reports from Bloomberg.\n\nThe raid, which resulted in the killing of the high-ranking cartel figure, prompted immediate retaliation from cartel operatives. Violent confrontations broke out in multiple locations in western Mexico, raising concerns about broader instability in a region long plagued by organized crime. Authorities have not yet disclosed the full details of the operation or the identity of the slain leader.\n\nThe Jalisco New Generation Cartel has risen over the past decade to become one of Mexico's most powerful and violent criminal organizations, with operations spanning drug trafficking, extortion, and territorial control across large swaths of the country. The group has been responsible for some of the most brazen attacks on Mexican security forces in recent years, and the killing of a top figure is likely to trigger a period of heightened volatility as rival factions and competing cartels seek to exploit any resulting power vacuum.\n\nThe clashes underscore the persistent security challenges facing Mexico's government, which has struggled to contain cartel violence despite periodic high-profile operations targeting criminal leadership. Analysts have long warned that so-called \"kingpin strategy\" operations — which focus on eliminating top cartel figures — can paradoxically increase violence in the short term by fragmenting criminal organizations and igniting succession struggles.\n\nThe unrest also carries economic implications for the Jalisco region, one of Mexico's most important economic corridors. The state is home to Guadalajara, the country's second-largest metropolitan area and a major hub for manufacturing, technology, and agriculture. Extended instability could disrupt supply chains and deter investment at a time when Mexico is positioning itself as a key beneficiary of nearshoring trends. Authorities are expected to increase security deployments in the area as the situation develops.",
-      "category": "breaking",
-      "importance": 7,
-      "tags": [
-        "Mexico",
-        "Jalisco cartel",
-        "CJNG",
-        "drug war",
-        "organized crime",
-        "security"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1542339754-fe63b8476ab7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxNZXhpY28lMjBKYWxpc2NvJTIwY2FydGVsfGVufDB8MHx8fDE3NzE4NTI3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/death-of-jalisco-cartel-leader-sparks-clashes-in-mexico-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T13:18:20.657Z"
     }
   ]
 }
