@@ -1,7 +1,132 @@
 {
-  "lastUpdated": "2026-02-24T12:18:26.397Z",
+  "lastUpdated": "2026-02-24T12:33:48.204Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771936348791-5wfl",
+      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
+      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
+      "subheadline": "BBC documentary captures first on-the-record testimony from frontline soldiers alleging systematic killings and torture",
+      "body": "Four Russian soldiers who fled their units have provided what is believed to be the first on-the-record testimony from the front lines describing commanders executing fellow troops for refusing orders, torture of dissenting soldiers, and the brutal \"meat storm\" tactics that have defined Moscow's war in Ukraine.\n\nThe accounts, gathered by a BBC documentary team at an undisclosed location outside Russia, detail a systematic breakdown of discipline and law on the Russian side of the conflict. One soldier, identified as Ilya, a 35-year-old former special needs teacher from the Ural Mountains, told filmmakers he witnessed four soldiers shot at point-blank range by a commander in Russian-occupied Donetsk for fleeing the front line. \"The saddest thing is that I knew them. I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using the Russian military slang for executing one's own troops. Ilya also provided documentation showing he is the sole survivor of 79 men mobilized alongside him in May 2024 from the city of Perm.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was conscripted off a street in October 2022, described witnessing executions ordered by his commander in the 25th Brigade, Alexei Ksenofontov — a recipient of Russia's Gold Star medal who was named a \"Hero of Russia\" in 2024. Dima also recounted discovering 20 bodies of newly arrived ex-convict soldiers in a ditch, allegedly shot by commanders who confiscated their bank cards. Ksenofontov has separately been denounced in a January 2025 letter from families of dead soldiers who appealed directly to President Vladimir Putin to investigate allegations of brutality, accusing commanders of \"exterminating our men\" while \"feeling their impunity.\"\n\nThe testimonies illuminate the human cost of Russia's attritional \"meat grinder\" strategy, in which waves of soldiers are sent across open ground to exhaust Ukrainian ammunition and drone supplies before follow-up waves attempt to seize positions. The soldiers described these assaults as tantamount to suicide missions. According to the UK Ministry of Defence, an estimated 900 to 1,500 Russian troops were killed or wounded daily in 2025, with total Russian casualties since the February 2022 invasion exceeding 1.2 million killed or injured. Moscow does not publish official casualty figures.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" It said it could not independently verify the information provided. The documentary, titled \"The Zero Line: Inside Russia's War,\" represents a rare crack in the wall of silence surrounding conditions on the Russian front, where nearly all public opposition to the war has been suppressed domestically.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Russia-Ukraine war",
+        "war crimes",
+        "Russian military",
+        "BBC documentary",
+        "frontline testimony",
+        "meat storms"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T12:32:28.791Z"
+    },
+    {
+      "id": "ps-1771936366141-fskh",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be updated for changing underground conditions without the expensive process of retraining from scratch — achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a longstanding bottleneck in Dynamic Mode Decomposition (DMD), a popular framework for building computationally cheap surrogate models of complex physical systems. DMD models learn patterns from high-fidelity simulation data and can reproduce multiphase fluid behavior at a fraction of the computational cost. The catch: when reservoir properties such as permeability or well placement change — as they routinely do during optimization and uncertainty analysis — the entire model typically must be discarded and rebuilt from new simulation data, negating much of the speed advantage.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model's internal structure without generating fresh simulation snapshots. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the technique reweights the model's spatial basis so that high-permeability zones exert proportionally greater influence on predictions. In numerical experiments, both strategies accurately captured plume migration patterns and pressure buildup, the two critical observables for assessing the safety and efficiency of underground carbon dioxide injection.\n\nThe work addresses a practical need that has grown increasingly urgent as carbon capture and storage (CCS) gains momentum worldwide. Operators planning injection campaigns must evaluate thousands of geological scenarios and well configurations, each requiring reliable predictions of how injected CO₂ will migrate through porous rock over decades. Full-physics multiphase simulations can take hours or days per run, making brute-force exploration of the parameter space impractical. Surrogate models built with DMD compress that computation dramatically, but until now their brittleness to parameter changes limited their usefulness in real-time decision-making loops.\n\nBy enabling rapid what-if analyses without sacrificing physical fidelity, the lightweight update framework could accelerate optimization workflows for CCS site selection, injection scheduling, and risk assessment — domains where computational speed directly translates into better-informed engineering decisions. The preprint has been made available under arXiv identifier 2602.18441.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic mode decomposition",
+        "carbon storage",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T12:32:46.141Z"
+    },
+    {
+      "id": "ps-1771936382722-6e55",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-th",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From the Inside Out",
+      "subheadline": "A synthetic biology 'circuit' built from DNA lets engineered microbes colonize oxygen-starved tumor cores, then survive at the edges",
+      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors, consume them from the core outward, and — crucially — survive long enough at the oxygen-rich margins to finish the job. The work, published in ACS Synthetic Biology, combines genetic modification with a built-in biological safety switch that could open a new front in the fight against hard-to-treat cancers.\n\nThe approach centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the interior of many solid tumors is composed of dead cells and devoid of oxygen, injected bacterial spores find an ideal niche in which to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium effectively colonizes the tumor's necrotic center and begins breaking it down.\n\nThe fundamental challenge is that as the microbes expand outward toward the tumor periphery, even trace amounts of oxygen kill them before they can eliminate the remaining cancer tissue. To solve this, the team inserted a gene from a closely related, more oxygen-tolerant species. But activating that gene prematurely would pose a serious safety risk: bacteria capable of surviving in oxygenated blood could proliferate throughout the body. The researchers addressed the problem with quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside the tumor does the accumulated signal cross the threshold needed to switch on the oxygen-resistance gene.\n\nBrian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit assembled from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In laboratory tests, the team validated the quorum-sensing circuit by programming bacteria to produce green fluorescent protein, confirming that activation occurred at precisely the intended population density.\n\nThe next milestone is integrating both the oxygen-tolerance gene and the quorum-sensing control module into a single organism for pre-clinical tumor trials. The project — led by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen — reflects a growing trend of interdisciplinary collaboration between engineers, mathematicians, and life scientists tackling cancer. The Waterloo team is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, and former Waterloo doctoral researcher Sara Sadr, who played a central role in advancing the synthetic biology platform. If the approach proves effective in animal models, it could eventually offer clinicians a programmable biological weapon against solid tumors that have long resisted conventional therapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T12:33:02.722Z"
+    },
+    {
+      "id": "ps-1771936398818-65iw",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated over 16 million exchanges in large-scale distillation campaign",
+      "body": "Anthropic has publicly accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude model, escalating tensions in the U.S.-China AI rivalry at a politically sensitive moment.\n\nThe San Francisco-based AI firm said the three labs generated over 16 million exchanges with Claude using a technique known as distillation, which involves querying a more powerful model to train a smaller, cheaper one. While distillation is a standard practice when applied to a company's own models, using it to siphon a competitor's capabilities amounts to intellectual property theft, Anthropic argues. The company said the campaigns specifically targeted Claude's \"most differentiated capabilities: agentic reasoning, tool use, and coding.\"\n\nThe scope of each lab's operation varied significantly. MiniMax accounted for the largest volume, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from Claude's newest model immediately after launch. Moonshot AI generated approximately 3.4 million exchanges targeting agentic reasoning, coding, computer vision, and agent development — shortly before releasing its Kimi K2.5 open source model and coding agent. DeepSeek's operation was smaller in scale at over 150,000 exchanges but appeared calibrated to improve foundational logic and alignment, particularly around navigating policy-sensitive content.\n\nThe allegations land squarely in the middle of a heated Washington debate over AI chip export controls. The Trump administration last month permitted U.S. companies including Nvidia to resume selling advanced chips like the H200 to China, a move critics say bolsters Beijing's AI capabilities. Anthropic is now wielding its findings as evidence that export restrictions remain essential, arguing that distillation at this scale \"requires access to advanced chips\" and that restricting chip sales limits both direct training and illicit extraction campaigns. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, told reporters the revelations should strengthen the case against any chip sales to these companies.\n\nBeyond the competitive implications, Anthropic raised national security concerns. American AI companies invest heavily in safety guardrails that prevent misuse for bioweapons development, cyberattacks, and surveillance. Models built through unauthorized distillation are unlikely to retain those protections, the company warned, meaning dangerous capabilities could proliferate without safeguards — particularly if those models are later open sourced. Anthropic said it is strengthening its defenses against distillation but called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three accused Chinese labs had responded to requests for comment as of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T12:33:18.818Z"
+    },
+    {
+      "id": "ps-1771936412493-7dbw",
+      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
+      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
+      "subheadline": "The leading cryptocurrency's February selloff echoes the turmoil that accompanied industry-wide collapses nearly four years ago",
+      "body": "Bitcoin continued its slide on Tuesday, putting the world's largest cryptocurrency on pace for its steepest monthly decline since June 2022 — a period defined by a cascade of corporate failures that nearly unraveled the digital asset industry.\n\nThe February downturn marks a sharp reversal for Bitcoin, which had entered the year buoyed by institutional adoption and the maturation of spot exchange-traded funds in the United States. The scale of the monthly loss now rivals the damage inflicted during the so-called crypto winter, when the implosions of firms like Three Arrows Capital, Celsius Network, and Voyager Digital sent shockwaves through the market and wiped hundreds of billions of dollars in value from the sector.\n\nWhile the current selloff lacks a single catalytic corporate failure of that magnitude, the breadth and persistence of the decline suggest deeper forces at work. Macroeconomic headwinds — including uncertainty around Federal Reserve interest rate policy, geopolitical tensions, and a broader risk-off mood across global markets — have weighed heavily on speculative assets. Bitcoin, despite its advocates' claims of digital gold status, has once again demonstrated its sensitivity to shifts in investor risk appetite.\n\nThe drawdown poses a test for the institutional infrastructure built around crypto since the last major downturn. Spot Bitcoin ETFs, which drew billions in inflows following their January 2024 launch, now face questions about whether retail and institutional holders will stay the course or accelerate redemptions as losses mount. Sustained outflows from these vehicles could amplify selling pressure and deepen the correction.\n\nFor the broader crypto market, the February rout serves as a reminder that extreme volatility remains a defining feature of digital assets, even as the industry has sought to position itself as an increasingly mainstream component of global finance. Whether this month's decline represents a temporary correction or the beginning of a more protracted downturn will depend largely on how macroeconomic conditions evolve in the weeks ahead.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "crypto winter",
+        "markets",
+        "digital assets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1623227497141-30aef13ebafc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8Yml0Y29pbiUyMGNyeXB0b2N1cnJlbmN5fGVufDB8MHx8fDE3NzE5MzE5MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T12:33:32.493Z"
+    },
+    {
+      "id": "ps-1771936428113-1h60",
+      "slug": "bitcoin-investors-accumulate-400-000-btc-in-aggressive-dip-b",
+      "headline": "Bitcoin Investors Accumulate 400,000 BTC in Aggressive Dip Buying",
+      "subheadline": "Glassnode data reveals a 43% surge in supply held between $60K and $70K as bitcoin retraces 50% from its October high",
+      "body": "More than 400,000 bitcoin — worth roughly $26 billion at current prices — have been scooped up by investors in the $60,000 to $70,000 price range since the start of the year, according to on-chain analytics firm Glassnode, signaling aggressive accumulation amid a punishing market correction.\n\nBitcoin has fallen approximately 50% from its all-time high of $126,000 reached in October 2025, sliding from around $88,000 on January 1 to roughly $63,300 as of February 24. Yet the decline has drawn substantial buying interest. Glassnode's data shows that the volume of BTC with a cost basis between $60,000 and $70,000 has jumped from approximately 997,000 BTC at the start of the year to about 1.43 million BTC — an increase of some 429,000 BTC, or 43%. That cluster now represents more than 8% of all non-exchange circulating supply, forming one of the densest ownership bands on the network.\n\nThe analysis relies on Glassnode's Unspent Transaction Output Realized Price Distribution (URPD) metric, which maps existing bitcoin supply to the price at which each coin last moved on-chain. An entity-adjusted version of the metric groups addresses controlled by the same owner, strips out internal transfers, and excludes exchange balances, providing a more accurate picture of genuine investor positioning. The heavy concentration in the $60,000–$70,000 zone suggests that a significant cohort of holders now views this range as a value entry point — and may act as a support floor if prices test it again.\n\nNotably, the $70,000 to $80,000 region above has been characterized as an \"air pocket\" — a zone with historically thin trading activity. That lack of supply density was on display between January 31 and February 5, when bitcoin plunged from $80,000 to $70,000 in just five days, illustrating how rapidly price can traverse areas where few coins changed hands.\n\nThe accumulation pattern comes as the broader crypto market remains under pressure, with Ethereum trading near $1,827, Solana at roughly $77, and XRP around $1.34. Michael Saylor, executive chairman of Strategy (formerly MicroStrategy), has drawn parallels between bitcoin's current drawdown and Apple's steep correction in 2013, arguing that deep pullbacks are a hallmark of transformative technology investments. Whether the dense cluster of newly acquired BTC near current levels will hold as durable support — or become a source of capitulation selling if sentiment deteriorates further — remains one of the market's defining questions heading into March.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "BTC",
+        "Glassnode",
+        "on-chain analysis",
+        "crypto markets",
+        "dip buying"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/384aa8d7b27fa84631b4b8c0cd7c96194d2d5f6d-3200x1800.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/over-400-000-btc-bought-between-usd60k-and-usd70k-during-bitcoin-s-latest-downturn",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T12:33:48.113Z"
+    },
     {
       "id": "ps-1771935432356-numl",
       "slug": "russian-soldiers-describe-executions-of-troops-who-refuse-or",
@@ -23,89 +148,6 @@
       "publishedAt": "2026-02-24T12:17:12.356Z"
     },
     {
-      "id": "ps-1771935447085-mf2u",
-      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
-      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
-      "subheadline": "Researchers show how to update data-driven surrogate models without costly retraining, enabling real-time optimization of geological CO₂ sequestration",
-      "body": "A pair of researchers has developed a technique that allows computational models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than current methods — without sacrificing physical accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight approach for updating Dynamic Mode Decomposition (DMD) operators when key reservoir properties such as permeability or well placement change. DMD is a popular data-driven framework that distills expensive multiphase fluid simulations into compact surrogate models, but its operators are typically locked to a single set of geological parameters. Any change to the subsurface domain — a common necessity during optimization and uncertainty analysis — has traditionally required generating fresh simulation snapshots and retraining the model from scratch, negating much of the computational savings that make surrogates attractive in the first place.\n\nThe new work introduces two complementary update strategies. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the heterogeneity of actual rock formations — the approach instead modifies the spatial representation, weighting high-permeability zones more heavily in the model's reduced basis. Crucially, neither strategy requires new simulation data or a full retraining cycle.\n\nNumerical experiments reported in the paper show that the updated models reproduce plume migration patterns and pressure build-up to within three percent of a surrogate that was freshly trained on new data, while executing hundreds of times faster than full retraining. The authors argue this performance profile makes the technique suitable for real-time optimization loops and rapid what-if scenario analysis — capabilities that are increasingly important as the carbon capture and storage industry scales up and operators need to evaluate numerous subsurface configurations quickly.\n\nThe research sits at the intersection of computational physics, engineering, and optimization, and addresses a practical bottleneck in deploying reduced-order models for climate-critical infrastructure. As geological carbon storage projects expand worldwide under mounting pressure to decarbonize industrial emissions, tools that maintain physical fidelity while dramatically cutting computational cost could prove essential for making sequestration operations both safer and more economically viable.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T12:17:27.085Z"
-    },
-    {
-      "id": "ps-1771935462866-8ug4",
-      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
-      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating until they've colonized a tumor's oxygen-free core",
-      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to infiltrate solid tumors, consume them from within, and activate an oxygen-survival mechanism only when conditions are safe — a programmable biological assault on cancer that could eventually complement existing treatments.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide ideal conditions for the bacterium to germinate and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" But as the microbes expand outward toward the tumor's oxygenated periphery, they historically die off before finishing the job — leaving cancerous tissue intact at the margins.\n\nTo solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species, enabling the engineered microbes to survive in the partially oxygenated outer regions of tumors. The critical innovation, however, is the safety mechanism controlling when that gene activates. The researchers built a synthetic DNA circuit based on quorum sensing, a natural process in which bacteria release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after bacterial numbers inside the tumor cross a specific threshold — ensuring the microbes cannot survive in oxygen-rich environments like the bloodstream, where uncontrolled growth would pose serious danger to patients.\n\nThe work, published in ACS Synthetic Biology, builds on two earlier milestones: a demonstration that C. sporogenes could be modified for improved oxygen tolerance, and a proof-of-concept experiment using green fluorescent protein to confirm the quorum-sensing circuit activated at the intended moment. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next phase will combine both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials. The interdisciplinary project — spanning engineering, mathematics, and life sciences — is being advanced in collaboration with CREM Co Labs, a Toronto-based company co-founded by Bahram Zargar, a Waterloo PhD graduate who helped originate the research. Former Waterloo doctoral student Sara Sadr also played a leading role. While clinical application remains years away, the approach represents a growing trend in synthetic biology: programming living organisms to perform precise therapeutic tasks that conventional drugs and radiation cannot easily accomplish, particularly in the notoriously difficult-to-reach interiors of solid tumors.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T12:17:42.866Z"
-    },
-    {
-      "id": "ps-1771935478469-y6a0",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation attacks",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, escalating tensions between U.S. and Chinese AI developers at a politically charged moment in the debate over chip export controls.\n\nThe three labs allegedly generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. According to Anthropic, the campaigns specifically targeted Claude's most advanced features: agentic reasoning, tool use, and coding. The scope varied by company. MiniMax accounted for the largest volume at roughly 13 million exchanges focused on agentic coding and tool orchestration, while Moonshot AI generated 3.4 million exchanges across reasoning, coding, computer vision, and agent development. DeepSeek's activity was more modest at 150,000 exchanges but appeared aimed at foundational logic and alignment — particularly around generating responses to policy-sensitive queries that might evade censorship.\n\nThe timing of Anthropic's disclosure is no accident. Last month, the Trump administration formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move that drew sharp criticism from those who argue it undermines Washington's leverage in the global AI race. Anthropic explicitly connected the dots, arguing that distillation at this scale \"requires access to advanced chips\" and that the attacks \"reinforce the rationale for export controls.\" The company also raised national security concerns, warning that models built through illicit distillation are unlikely to retain safeguards designed to prevent misuse in areas like bioweapons development and offensive cyber operations.\n\nDmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he said, calling for a complete halt to AI chip sales to the implicated companies. OpenAI has made similar allegations, sending a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products.\n\nAnthropic said it is investing in technical defenses to make distillation attacks harder to execute and easier to detect, but stressed that the problem demands a coordinated response from the AI industry, cloud providers, and policymakers. None of the three accused Chinese companies have publicly responded to the allegations. The accusations land as DeepSeek prepares to release its V4 model, which reportedly outperforms both Claude and OpenAI's ChatGPT in coding benchmarks — a claim that, in light of Anthropic's allegations, may invite even greater scrutiny.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T12:17:58.469Z"
-    },
-    {
-      "id": "ps-1771935491587-fjfa",
-      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
-      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
-      "subheadline": "The leading cryptocurrency's February slide marks the sharpest monthly decline since the industry's wave of corporate collapses",
-      "body": "Bitcoin continued its downward slide on Tuesday, putting the world's largest cryptocurrency on pace for its steepest monthly loss since June 2022 — when the collapse of major crypto firms plunged the industry into a prolonged winter.\n\nThe decline marks a sharp reversal for an asset that had rallied significantly over the past two years, buoyed by the launch of spot Bitcoin exchange-traded funds in the United States and broader institutional adoption. The scale of the February drawdown now rivals the turmoil that accompanied the implosions of the Terra/Luna ecosystem and the cascading failures of firms like Three Arrows Capital and Celsius Network, which together wiped hundreds of billions of dollars from the crypto market in mid-2022.\n\nWhile the precise drivers of the current sell-off remain multifaceted, the retreat comes amid a broader risk-off environment in global markets. Investors have been reassessing their appetite for speculative assets as macroeconomic uncertainties persist, including questions about the trajectory of monetary policy and geopolitical tensions. Bitcoin, which proponents often frame as a hedge against traditional financial instability, has instead traded in lockstep with risk assets during the downturn.\n\nThe monthly loss is notable for its severity relative to recent history. Since recovering from the 2022 bear market, Bitcoin had largely avoided sustained drawdowns of this magnitude, supported by steady inflows into spot ETFs and growing corporate treasury allocations. The current decline may test the conviction of newer institutional holders who entered the market during the post-ETF rally.\n\nMarket participants will be closely watching whether the sell-off stabilizes or deepens in the final days of February. A monthly close at current levels would serve as a sobering reminder that despite the cryptocurrency's maturation and growing mainstream acceptance, it remains susceptible to sharp corrections that echo its most turbulent periods.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "crypto markets",
-        "market selloff",
-        "digital assets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1627570120184-7aec90f5613a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxiaXRjb2luJTIwY3J5cHRvY3VycmVuY3l8ZW58MHwwfHx8MTc3MTkxMjEwMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T12:18:11.587Z"
-    },
-    {
       "id": "ps-1771935506302-w4qz",
       "slug": "ethereum-foundation-begins-staking-70-000-eth-to-fund-operat",
       "headline": "Ethereum Foundation Begins Staking 70,000 ETH to Fund Operations",
@@ -124,26 +166,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/24/putting-the-treasury-to-work-the-ethereum-foundation-just-staked-70-000-eth-to-fund-its-future",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T12:18:26.302Z"
-    },
-    {
-      "id": "ps-1771934549516-wq9c",
-      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
-      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
-      "subheadline": "BBC documentary features on-the-record testimony from four fugitive soldiers alleging systematic killings on Russian front lines",
-      "body": "Four Russian soldiers have given on-the-record accounts of witnessing commanders execute fellow troops for refusing orders in Ukraine, in what may be the first such firsthand testimony from the front lines to be publicly documented.\n\nThe men, all currently in hiding outside Russia, spoke to a BBC documentary team for \"The Zero Line: Inside Russia's War,\" describing a culture of summary execution, torture, and coerced suicide missions that they say has become endemic in the Russian military. One soldier, a 35-year-old former special needs teacher identified as Ilya, said he watched a commander shoot four men at point-blank range in Russian-occupied Donetsk for fleeing the front line. \"The saddest thing is that I knew them,\" he told the BBC. Another soldier, Dima, a 34-year-old former dishwasher repairman from Moscow, described witnessing executions ordered by his commander in the 25th Brigade — Alexei Ksenofontov, who was awarded Russia's Gold Star medal and named a \"Hero of Russia\" in 2024. Dima called Ksenofontov a \"butcher\" and described finding 20 bodies of newly arrived ex-convict recruits in a ditch, allegedly shot by commanders who then confiscated the dead men's bank cards.\n\nThe soldiers' accounts describe what Russian troops call \"meat storms\" — waves of men sent relentlessly across front lines to exhaust Ukrainian ammunition and drone supplies, with subsequent waves expected to reach objectives over the bodies of those before them. Ilya provided detailed lists showing he is the sole survivor of 79 men he was mobilized with in Perm in May 2024. He says those who refused orders were tortured, electrocuted, starved, and ultimately forced into attacks unarmed. The practice of executing one's own troops is known in Russian military slang as \"zeroing,\" and the soldiers described it as both punishment and intimidation.\n\nThe testimony corroborates a broader pattern of alleged breakdown in discipline and law on the Russian side. In January 2025, families of soldiers who died under Ksenofontov's command wrote directly to President Vladimir Putin, accusing his commanders of operating like a \"gang\" and exterminating troops with impunity. The UK Ministry of Defence estimates more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022, with daily casualties in 2025 running between 900 and 1,500.\n\nMoscow's official response stated that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" The Russian government said it could not independently verify the claims. Nearly all public opposition to the war has been suppressed inside Russia, and official casualty figures remain classified — a silence that the four fugitive soldiers, at considerable personal risk, have now broken.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC investigation",
-        "human rights"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T12:02:29.516Z"
     },
     {
       "id": "ps-1771934611843-l63p",
@@ -1038,27 +1060,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cvgj9p15y87o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-23T16:17:33.817Z"
-    },
-    {
-      "id": "ps-1771863469880-ej30",
-      "slug": "ferrofluid-simulations-show-tunable-heat-transfer-in-bend-ch",
-      "headline": "Ferrofluid Simulations Show Tunable Heat Transfer in Bend Channels",
-      "subheadline": "Researchers model how external magnetic fields can dynamically control cooling performance in channel flows",
-      "body": "A new computational study demonstrates that ferrofluids — liquids containing suspended magnetic nanoparticles — can be harnessed to significantly enhance and precisely tune heat transfer in bent channel geometries through the application of external magnetic fields.\n\nResearchers Nadish Anand and Warren Jasper published the first part of a two-part investigation on the arXiv preprint server, presenting numerical CFD (computational fluid dynamics) simulations of ferrohydrodynamic flows through a 90-degree bend channel. The study systematically varies the parameters of non-uniform magnetic fields applied to the flowing ferrofluid, characterizing how different field configurations alter thermal transport properties. The work sits at the intersection of applied physics and chemical physics, addressing a longstanding engineering challenge: how to create cooling systems whose performance can be adjusted on demand without changing the hardware.\n\nConventional liquid cooling systems rely on fixed geometries and constant fluid properties, limiting their adaptability. Ferrofluids offer a compelling alternative because their flow behavior responds directly to magnetic fields, allowing engineers to modify velocity profiles, mixing patterns, and secondary flows simply by adjusting an electromagnet. In a bend channel specifically, the interplay between centrifugal forces at the turn and magnetically induced body forces creates complex flow structures that can either suppress or dramatically amplify heat transfer from the channel walls. By mapping these interactions across multiple parameters, the researchers aim to provide a design framework for systems that can dynamically respond to changing thermal loads.\n\nThe practical implications span several industries where thermal management is critical. Electronics cooling, where heat loads fluctuate with processor demand, stands to benefit from a system that can ramp cooling intensity up or down magnetically. Similarly, chemical processing and energy systems that encounter variable operating conditions could leverage ferrofluid-based heat exchangers for more efficient and responsive thermal control.\n\nDesignated as Part 1 of the study, this paper focuses on establishing the numerical modeling methodology and characterizing the fundamental physics at play. A subsequent installment is expected to build on these results, potentially with experimental validation or optimization studies. The research underscores growing interest in magnetically responsive fluids as a platform for next-generation thermal management, where tunability and active control replace the static designs that have dominated heat exchanger engineering for decades.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "ferrofluids",
-        "heat transfer",
-        "computational fluid dynamics",
-        "thermal management",
-        "magnetic fields",
-        "applied physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1757167301210-a46220a48327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxGZXJyb2ZsdWlkJTIwU2ltdWxhdGlvbnMlMjBTaG93JTIwVHVuYWJsZSUyMEhlYXQlMjBUcmFuc2ZlciUyMEJlbmQlMjBDaGFubmVsc3xlbnwwfDB8fHwxNzcxODYzNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17703",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-23T16:17:49.880Z"
     }
   ]
 }
