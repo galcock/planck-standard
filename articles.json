@@ -1,76 +1,77 @@
 {
-  "lastUpdated": "2026-02-24T07:33:38.091Z",
+  "lastUpdated": "2026-02-24T07:48:29.396Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771918334600-y0fw",
+      "id": "ps-1771919232383-jpmx",
       "slug": "lord-mandelson-released-on-bail-after-arrest-on-misconduct-c",
       "headline": "Lord Mandelson Released on Bail After Arrest on Misconduct Charge",
-      "subheadline": "The 72-year-old former Labour minister was seen arriving at his London home around 2 a.m. following hours of questioning",
-      "body": "Lord Peter Mandelson has been released on bail after being arrested Monday on suspicion of misconduct in public office, the Metropolitan Police confirmed. The 72-year-old former Labour cabinet minister was seen arriving at his London residence at approximately 02:00 GMT, hours after being taken into custody.\n\nThe Metropolitan Police said a 72-year-old man had been released pending further investigation, though the force did not name Mandelson directly in its statement. The arrest appears connected to the broader investigation linked to Jeffrey Epstein, the convicted sex offender who died in a New York jail cell in 2019, though the specific nature of the allegations against Mandelson has not been publicly detailed.\n\nThe development comes weeks after the arrest of Andrew Mountbatten-Windsor — formerly known as Prince Andrew — who was taken into custody on February 19 on the same charge of misconduct in public office. The former prince was questioned at a Norfolk police station before being released under investigation. The Epstein-related probe has sent shockwaves through British public life, ensnaring some of the country's most prominent figures and raising questions about accountability at the highest levels of the establishment.\n\nMandelson, a key architect of New Labour and one of the most influential political figures of his generation, has served in multiple senior government roles, including Secretary of State for Business and European Commissioner for Trade. He was elevated to the House of Lords in 2008. His connections and political stature mean the arrest carries significant implications for Westminster, where he has remained an active and influential presence.\n\nThe bail release means the investigation remains active, and further action — including potential charges — could follow depending on the outcome of the Metropolitan Police's inquiries. Neither Mandelson nor his representatives have issued a public statement regarding the arrest. The case underscores the expanding reach of British law enforcement's investigation into individuals connected to Epstein's network of associates.",
+      "subheadline": "The 72-year-old former Labour minister arrived home in London around 2:00 AM after hours of police questioning",
+      "body": "Lord Peter Mandelson, the veteran Labour politician and former Cabinet minister, has been released on bail following his arrest on Monday on suspicion of misconduct in public office, the Metropolitan Police confirmed. The 72-year-old peer arrived back at his London home at approximately 02:00 GMT after spending hours in police custody.\n\nThe Metropolitan Police stated that a 72-year-old man had been released pending further investigation, though it did not name the individual directly. The arrest adds Mandelson to a growing list of prominent British public figures who have faced police scrutiny in recent months, following the high-profile arrest of Andrew Mountbatten-Windsor — formerly known as Prince Andrew — on similar misconduct in public office charges in February. Both cases appear connected to the broader fallout from the Jeffrey Epstein scandal, which has continued to reverberate through elite circles on both sides of the Atlantic.\n\nMandelson, a key architect of New Labour and twice a Cabinet minister under Tony Blair, has long been one of the most influential figures in British politics. He served as European Commissioner for Trade from 2004 to 2008 and was elevated to the House of Lords in 2008. His connections span the worlds of politics, business, and international diplomacy. Reports have previously noted social links between Mandelson and Epstein, the convicted sex offender who died in a New York jail cell in 2019.\n\nThe bail release means the investigation remains active, with police continuing to gather evidence before deciding whether to pursue formal charges. Misconduct in public office is a common law offence in England and Wales that carries a maximum sentence of life imprisonment, though such severe penalties are rarely imposed. The charge typically applies to public officials who willfully neglect their duty or misuse their position of trust.\n\nNeither Lord Mandelson nor his representatives have issued a public statement regarding the arrest. The case is likely to intensify scrutiny of Epstein's network of high-profile associates in the United Kingdom, where law enforcement agencies appear to be taking an increasingly aggressive posture. Further developments are expected as the Metropolitan Police continues its investigation.",
       "category": "breaking",
       "importance": 8,
       "tags": [
         "Lord Mandelson",
-        "Metropolitan Police",
         "misconduct in public office",
+        "Metropolitan Police",
         "Jeffrey Epstein",
-        "Prince Andrew",
-        "UK politics"
+        "UK politics",
+        "bail"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0834/live/02f992e0-1137-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cx2d7rgj8l9o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T07:32:14.600Z"
+      "publishedAt": "2026-02-24T07:47:12.383Z"
     },
     {
-      "id": "ps-1771918351314-t04x",
-      "slug": "new-method-lets-carbon-storage-simulations-update-hundreds-o",
-      "headline": "New Method Lets Carbon Storage Simulations Update Hundreds of Times Faster",
-      "subheadline": "Researchers develop lightweight technique to adapt Dynamic Mode Decomposition models without costly retraining",
-      "body": "A pair of researchers has developed a computational shortcut that could dramatically accelerate the modeling of geological carbon storage projects, enabling surrogate simulations to adapt to changing underground conditions without the costly process of regenerating data and retraining from scratch.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, present a method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the complexity of multiphase flow simulations — when key reservoir properties such as permeability or well placement change. Conventional practice requires generating new high-fidelity simulation snapshots and completely retraining the surrogate model each time conditions shift, a process that largely negates DMD's computational speed advantage. The new approach sidesteps this bottleneck entirely by mathematically adjusting the existing model's internal structure to reflect new physical conditions, requiring no additional simulation data.\n\nThe authors introduce two complementary update strategies tailored to different scenarios. When permeability changes uniformly across the reservoir domain, the method recalibrates the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation of the model's reduced basis, weighting high-permeability zones more heavily to preserve physical accuracy. Numerical experiments reported in the paper show that the updated models reproduce carbon dioxide plume migration and subsurface pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than complete retraining.\n\nThe implications extend beyond academic interest. Geological carbon storage is a cornerstone of many climate mitigation strategies, but optimizing injection schemes, conducting uncertainty analyses, and evaluating regulatory what-if scenarios all demand rapid, repeated simulation under varying subsurface assumptions. High-fidelity multiphase reservoir simulators, while accurate, are computationally prohibitive for these iterative workflows. A surrogate model that can be cheaply updated in response to new geological data or design changes could bring real-time optimization within practical reach for carbon capture and storage operators.\n\nThe work, which spans computational physics, computational engineering, and optimization theory, was submitted on November 27, 2025, and represents a step toward making data-driven reduced-order models more flexible and deployable in engineering practice — a persistent challenge in the field of scientific machine learning.",
+      "id": "ps-1771919247395-jg4w",
+      "slug": "new-method-lets-carbon-storage-simulations-update-instantly",
+      "headline": "New Method Lets Carbon Storage Simulations Update Instantly",
+      "subheadline": "Researchers show how to adapt surrogate models to changing reservoir conditions without costly retraining",
+      "body": "A pair of researchers has developed a technique that allows data-driven models used in geological carbon storage projects to adapt to changing underground conditions without the expensive process of regenerating simulation data — a bottleneck that has limited the practical deployment of fast surrogate models in real-time optimization scenarios.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, address a well-known limitation of Dynamic Mode Decomposition (DMD), a popular framework for building reduced-order models from high-fidelity simulation data. While DMD can dramatically compress the computational cost of modeling multiphase fluid flow underground, its operators are locked to a specific set of reservoir properties. If the permeability of rock changes or a well is relocated, engineers have traditionally been forced to run new full-physics simulations and retrain the surrogate from scratch — a process that largely negates the speed advantage the surrogate was supposed to provide.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model algebraically, without any new simulation data. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the heterogeneity of actual geological formations — the technique reweights the spatial basis functions so that high-permeability zones exert proportionally greater influence on the model's predictions.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than the conventional retrain-from-scratch workflow. For carbon capture and storage projects, where operators must rapidly evaluate scenarios involving different injection strategies, well placements, and geological uncertainties, such speed gains could prove significant.\n\nThe work sits at the intersection of computational physics, optimization, and engineering — reflecting the growing importance of machine-learning-adjacent techniques in subsurface energy applications. As regulatory and commercial interest in geological carbon sequestration intensifies worldwide, tools that enable rapid what-if analysis without sacrificing physical accuracy are likely to attract attention from both the research community and industry practitioners managing large-scale storage sites.",
       "category": "physics",
       "importance": 4,
       "tags": [
-        "dynamic mode decomposition",
         "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate models",
         "computational physics",
-        "surrogate modeling",
         "reservoir simulation"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1611072906871-6de0d0369e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1659576646172-0a3327f5b4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.18441",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T07:32:31.314Z"
+      "publishedAt": "2026-02-24T07:47:27.395Z"
     },
     {
-      "id": "ps-1771918370182-rrvt",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-shielding-against",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Shielding Against COVID, Flu, and Pneumonia",
-      "subheadline": "A single intranasal formulation protected mice from viruses, bacteria, and allergens for months by supercharging innate lung immunity",
-      "body": "Researchers at Stanford Medicine have engineered an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — by fundamentally rethinking how vaccines work. The findings, published February 19 in the journal Science, represent what the team calls a significant step toward a truly universal respiratory vaccine.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new formulation — designated GLA-3M-052-LS+OVA — mimics the chemical signals that immune cells exchange during an active infection. This approach links the body's rapid-response innate immune system with its longer-lasting adaptive defenses, creating a state of sustained readiness in the lungs. In the study, mice that received three intranasal doses remained protected against SARS-CoV-2 and other coronaviruses for at least three months. Viral levels in their lungs were reduced 700-fold compared with unvaccinated animals, and the adaptive immune response — normally requiring two weeks to mount — was triggered in as little as three days.\n\nThe vaccine's reach extended well beyond viruses. Immunized mice were also shielded from Staphylococcus aureus and Acinetobacter baumannii, two bacterial species responsible for dangerous hospital-acquired infections. In a further surprise, the formulation suppressed allergic reactions to house dust mite proteins, a leading trigger of allergic asthma, by dampening the Th2 immune response that drives airway inflammation and mucus buildup.\n\nThe work builds on a 2023 discovery by senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, and lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab. That earlier study revealed how the BCG tuberculosis vaccine, given to roughly 100 million newborns each year, confers unexpected cross-protection against unrelated infections. The mechanism hinged on T cells migrating to the lungs and secreting cytokines that kept innate immune cells activated for months — far longer than the days-long window typical of innate immunity. The new vaccine was designed to replicate that signaling synthetically, using toll-like receptor stimulants paired with a harmless egg protein called ovalbumin to recruit and sustain T cells in lung tissue.\n\nPulendran said the next milestone is a Phase I human safety trial. He estimates that two nasal spray doses may suffice for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If results translate from mice to humans, the approach could simplify seasonal vaccination and provide a rapid defensive layer against novel pandemic pathogens. \"Imagine getting a nasal spray in the fall months that protects you from all respiratory viruses including COVID-19, influenza, respiratory syncytial virus and the common cold, as well as bacterial pneumonia and early spring allergens,\" Pulendran said.",
+      "id": "ps-1771919264077-7qqe",
+      "slug": "stanford-scientists-develop-universal-nasal-vaccine-against-",
+      "headline": "Stanford Scientists Develop Universal Nasal Vaccine Against COVID, Flu, and Pneumonia",
+      "subheadline": "A single nasal spray reduced viral levels 700-fold in mice and protected against bacteria and allergens for months",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — including coronaviruses, bacterial pneumonia, and common allergens — in results that could upend the traditional one-pathogen, one-vaccine paradigm that has defined immunology for more than two centuries.\n\nThe findings, published February 19 in the journal Science, showed that mice receiving three intranasal doses of the vaccine were shielded from SARS-CoV-2 and other coronaviruses, hospital-acquired bacterial infections including Staphylococcus aureus and Acinetobacter baumannii, and even house dust mite allergens for at least three months. Unvaccinated mice suffered severe weight loss, lung inflammation, and frequently died, while vaccinated animals survived with minimal illness and viral loads reduced by 700-fold. The study was led by postdoctoral scholar Haibo Zhang and senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford.\n\nThe vaccine, designated GLA-3M-052-LS+OVA, represents a fundamentally different approach from conventional immunizations. Rather than training the immune system to recognize a specific viral protein — a strategy vulnerable to pathogen mutation — the formulation supercharges the lungs' innate immune defenses by mimicking the cytokine signals that T cells use to keep innate immune cells activated. It also includes ovalbumin, a harmless egg protein that recruits T cells to the lungs and sustains the heightened state of readiness. The result is what Pulendran described as a \"double whammy\": a persistent innate barrier that blocks most pathogens on contact, backed by an adaptive immune response that activates in just three days rather than the typical two weeks.\n\nThe work builds on a 2023 discovery by Pulendran's group showing that the century-old BCG tuberculosis vaccine produced unexplained cross-protection against unrelated infections by maintaining innate immune activation for months — far longer than the days-long response scientists had assumed was the ceiling. By identifying the molecular mechanism behind that phenomenon, the team was able to engineer a synthetic vaccine that replicates and amplifies the effect. \"Nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said.\n\nThe researchers plan to move toward a Phase I human safety trial as the next step. Pulendran estimates that two nasal spray doses could be sufficient for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the results translate from mice to humans, a single autumn nasal spray could theoretically replace annual flu shots, COVID boosters, and pneumonia vaccines while also offering rapid baseline protection against novel pandemic viruses — a prospect that would represent one of the most significant advances in vaccinology since Jenner's smallpox inoculation in 1796.",
       "category": "science",
       "importance": 8,
       "tags": [
-        "universal vaccine",
+        "vaccine",
         "nasal spray",
         "Stanford Medicine",
+        "universal vaccine",
+        "respiratory disease",
         "innate immunity",
-        "respiratory infections",
         "COVID-19",
-        "pandemic preparedness"
+        "influenza"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T07:32:50.182Z"
+      "publishedAt": "2026-02-24T07:47:44.077Z"
     },
     {
-      "id": "ps-1771918385942-7ptn",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation campaign",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, in what the company describes as a coordinated distillation campaign that generated over 16 million exchanges.\n\nThe allegations, disclosed on February 23, land squarely in the middle of an intensifying Washington debate over AI chip export controls to China. Anthropic said the three labs specifically targeted Claude's most advanced capabilities, including agentic reasoning, tool use, and coding — the very features that differentiate frontier American AI systems from their competitors. Distillation is a well-known technique in which one AI model's outputs are used to train another, essentially allowing a competitor to replicate sophisticated behaviors without investing in the original research.\n\nThe scope varied significantly across the three firms. MiniMax accounted for the largest share, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model immediately upon its launch. Moonshot AI generated approximately 3.4 million exchanges targeting reasoning, coding, computer vision, and agent development — notably ahead of releasing its Kimi K2.5 open-source model and a coding agent last month. DeepSeek's footprint was smaller at around 150,000 exchanges, but Anthropic said those interactions appeared designed to improve foundational logic and develop censorship-safe alternatives to policy-sensitive queries.\n\nThe timing of the disclosure is strategically significant. The Trump administration last month permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move that critics argue bolsters Beijing's computing infrastructure during a pivotal moment in the global AI race. Anthropic explicitly connected the distillation attacks to the export control debate, arguing that such large-scale extraction \"requires access to advanced chips\" and that restricting chip sales would limit both direct model training and illicit distillation efforts. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings confirm what many in the industry have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that distilled models are unlikely to retain the safety guardrails that American labs build to prevent misuse in areas such as bioweapons development, offensive cyber operations, and disinformation campaigns. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, and said it would continue investing in defenses to make distillation attacks harder to execute. None of the three accused companies have publicly responded to the allegations.",
+      "id": "ps-1771919279687-00k4",
+      "slug": "anthropic-alleges-chinese-ai-labs-used-24-000-fake-accounts-",
+      "headline": "Anthropic Alleges Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract capabilities via distillation",
+      "body": "Anthropic has accused three prominent Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, intensifying the geopolitical debate over U.S. technology exports to China.\n\nThe companies allegedly used a technique known as distillation, generating over 16 million exchanges with Claude to replicate what Anthropic describes as its \"most differentiated capabilities,\" including agentic reasoning, tool use, and coding. Distillation is a well-known method in which outputs from a more powerful model are used to train a smaller, cheaper one — a legitimate practice when applied to a lab's own systems, but essentially intellectual property extraction when directed at a competitor's product.\n\nThe scope of the alleged operations varied significantly across the three companies. MiniMax accounted for the largest volume, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest model immediately upon launch. Moonshot AI, which recently released its Kimi K2.5 open-source model and coding agent, was linked to approximately 3.4 million exchanges targeting reasoning, coding, and computer vision. DeepSeek's operation was smaller in scale — around 150,000 exchanges — but appeared focused on foundational logic and alignment, particularly around generating responses to policy-sensitive queries without triggering censorship filters.\n\nThe allegations arrive at a politically charged moment. The Trump administration last month permitted U.S. companies including Nvidia to resume exports of advanced AI chips such as the H200 to China, a move critics argue bolsters Beijing's AI ambitions. Anthropic drew a direct line between distillation and the chip debate, arguing that extraction at this scale \"requires access to advanced chips\" and that restricted chip access would limit both direct model training and large-scale distillation. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings confirm long-held suspicions. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nBeyond the competitive implications, Anthropic warned of national security risks. Models built through illicit distillation are unlikely to retain safety guardrails designed to prevent misuse in areas such as bioweapon development, offensive cyber operations, and mass surveillance. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, pledging to invest in defenses that make distillation attacks harder to execute. None of the three accused companies have publicly responded to the allegations.",
       "category": "tech",
       "importance": 8,
       "tags": [
@@ -80,12 +81,55 @@
         "China",
         "export controls",
         "Claude",
-        "AI security"
+        "Moonshot AI",
+        "MiniMax"
       ],
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
       "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
       "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T07:33:05.942Z"
+      "publishedAt": "2026-02-24T07:47:59.687Z"
+    },
+    {
+      "id": "ps-1771919293231-a8l7",
+      "slug": "nippon-steel-to-raise-3-5-billion-in-bond-sale-to-finance-us",
+      "headline": "Nippon Steel to Raise $3.5 Billion in Bond Sale to Finance US Steel Deal",
+      "subheadline": "Japanese steelmaker plans overseas convertible bond offering to repay acquisition loans for United States Steel Corp.",
+      "body": "Nippon Steel Corp. announced plans to sell 550 billion yen, approximately $3.5 billion, in convertible bonds on overseas markets, as the Japanese steelmaker moves to refinance debt incurred during its landmark acquisition of United States Steel Corp.\n\nThe convertible bond offering represents one of the largest such sales by a Japanese company in recent memory and underscores the financial complexity of the US Steel deal, which faced prolonged regulatory scrutiny and political opposition before ultimately gaining approval. Convertible bonds, which can be exchanged for equity at a later date, allow Nippon Steel to secure financing at lower interest rates than traditional debt while potentially diluting shareholders if the bonds are eventually converted into stock.\n\nThe proceeds will be directed toward repaying bridge loans that Nippon Steel arranged to fund the US Steel acquisition, a deal that reshaped the global steel industry by combining Japan's largest steelmaker with one of America's most storied industrial companies. The transaction had drawn intense political attention in the United States, where concerns about foreign ownership of critical steel production capacity became a flashpoint during the 2024 presidential campaign.\n\nBy tapping overseas capital markets, Nippon Steel is seeking to optimize its debt structure and reduce the cost of carrying acquisition-related borrowings. The 550 billion yen offering signals confidence from the company's management that international investors remain receptive to the combined entity's long-term prospects, even as the global steel sector faces headwinds from overcapacity and trade tensions.\n\nThe bond sale will be closely watched by market participants as a gauge of investor appetite for large-scale Japanese corporate debt tied to cross-border acquisitions. For Nippon Steel, successfully executing the offering would mark a critical step in stabilizing the financial foundation of what has become one of the world's largest steelmaking enterprises.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Nippon Steel",
+        "US Steel",
+        "convertible bonds",
+        "mergers and acquisitions",
+        "steel industry"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1762356202043-c88ecf37e378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxOaXBwb24lMjBTdGVlbCUyMFJhaXNlfGVufDB8MHx8fDE3NzE5MTkyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/nippon-steel-to-sell-3-5-billion-worth-of-convertible-bonds",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T07:48:13.231Z"
+    },
+    {
+      "id": "ps-1771919309287-wxcy",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
+      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant front-ran withdrawals that triggered the 2022 stablecoin death spiral",
+      "body": "The administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that helped precipitate the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a meltdown that erased roughly $40 billion in market value in a single week.\n\nTodd Snyder, the court-appointed administrator unwinding Do Kwon's defunct blockchain company, is seeking damages from Jane Street, its co-founder Robert Granieri, and employees Bryce Pratt and Michael Huang, according to a Wall Street Journal report cited by CoinDesk on Monday. The suit centers on events beginning May 7, 2022, when Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. The complaint alleges that within just 10 minutes — before any public disclosure — a wallet linked to Jane Street withdrew an additional 85 million TerraUSD from the same pool. That one-two punch of large withdrawals allegedly sparked the market panic that sent TerraUSD spiraling off its dollar peg and ultimately to near-zero.\n\nThe lawsuit further alleges that on May 9, as TerraUSD was already losing its peg, Jane Street's Pratt contacted Kwon and his team via group chat, offering to buy bitcoin or Luna. Kwon reportedly responded that Jump Trading's co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a message the suit appears to cite as evidence of a web of private communications between major trading desks and Terraform insiders. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A company spokesman argued that the losses suffered by Terra and Luna holders \"were the result of a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and said the firm would defend vigorously against what it characterized as \"baseless, opportunistic claims.\"\n\nThe legal action adds another chapter to the long fallout from one of crypto's most devastating episodes. Terraform Labs, founded in Singapore in 2018 by Kwon and Daniel Shin, filed for bankruptcy in January 2024. Kwon himself was sentenced to 15 years in prison last August after pleading guilty to two criminal counts. The Terra collapse sent shockwaves across the digital asset industry, triggering a cascade of failures at firms with exposure to the project and deepening a prolonged crypto winter. If the insider trading allegations are substantiated, the case could raise uncomfortable questions about how institutional trading desks navigated — and potentially profited from — one of the sector's worst crises.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "TerraUSD",
+        "insider trading",
+        "crypto collapse",
+        "Do Kwon",
+        "stablecoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T07:48:29.287Z"
     },
     {
       "id": "ps-1771918401517-94gh",
@@ -109,28 +153,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/latest-oil-market-news-and-analysis-for-feb-24",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T07:33:21.517Z"
-    },
-    {
-      "id": "ps-1771918418010-8otf",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run trades that triggered the 2022 crash",
-      "body": "The bankruptcy administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of Wall Street's most powerful high-frequency trading firms, alleging that it exploited insider information to profit from trades that accelerated the catastrophic collapse of the TerraUSD stablecoin and its sister token Luna in May 2022. The suit, first reported by the Wall Street Journal, seeks damages from Jane Street co-founder Robert Granieri and employees Bryce Pratt and Michael Huang.\n\nTodd Snyder, the administrator winding down the remnants of Do Kwon's crypto empire, contends that Jane Street obtained material nonpublic information from Terraform insiders and used it to front-run trades at a pivotal moment. According to the lawsuit, on May 7, 2022, Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. Within just 10 minutes — and before any public disclosure — a wallet linked to Jane Street allegedly withdrew 85 million TerraUSD from the same pool. The combined outflows helped trigger panic selling that shattered UST's dollar peg and set off a chain reaction that erased roughly $40 billion in market value within a single week.\n\n\"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement. The lawsuit also points to communications from May 9, 2022, when Jane Street's Pratt reportedly messaged Kwon's team in a group chat offering to buy Bitcoin or Luna as TerraUSD began slipping. Kwon allegedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a detail the suit appears to cite as evidence of close coordination between the firms and Terraform's leadership.\n\nJane Street has forcefully rejected the allegations. A spokesman called the lawsuit a \"desperate\" and \"transparent attempt to extract money,\" arguing that losses suffered by Terra and Luna holders resulted from \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs.\" The firm said it would defend itself vigorously against what it characterized as baseless, opportunistic claims.\n\nThe Terra implosion remains one of the most devastating episodes in cryptocurrency history, toppling not only Terraform but also dragging down interconnected firms including Three Arrows Capital, Celsius Network, and Voyager Digital. Terraform Labs filed for bankruptcy in January 2024, and founder Do Kwon was sentenced to 15 years in prison last August after pleading guilty to two criminal counts. The new lawsuit adds a significant new dimension to the post-mortem of the crisis, raising questions about whether sophisticated trading firms played a more direct role in the collapse than previously understood.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "TerraUSD",
-        "insider trading",
-        "crypto collapse",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T07:33:38.010Z"
     },
     {
       "id": "ps-1771917437670-0k2j",
@@ -1045,26 +1067,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/death-of-jalisco-cartel-leader-sparks-clashes-in-mexico-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T13:18:20.657Z"
-    },
-    {
-      "id": "ps-1771852715849-wu1m",
-      "slug": "vitalik-buterin-ramps-up-eth-sales-dumping-3-67m-in-two-days",
-      "headline": "Vitalik Buterin Ramps Up ETH Sales, Dumping $3.67M in Two Days",
-      "subheadline": "Ethereum co-founder has sold roughly 8,000 ether since early February as part of a plan to fund ecosystem development",
-      "body": "Ethereum co-founder Vitalik Buterin has accelerated the pace of his ether liquidations, selling 1,869 ETH worth approximately $3.67 million over a two-day stretch ending Sunday, according to on-chain data tracked by Lookonchain. The sales added downward pressure to a token already mired in a prolonged slump, with ether touching a 20-day low of $1,844 early Monday before recovering slightly to around $1,920.\n\nThe disposals are part of a systematic drawdown Buterin telegraphed on January 30, when he announced plans to withdraw and sell 16,384 ether to finance ecosystem development, open-source software projects, and other strategic initiatives. Since February 2, he has sold an estimated 8,000 ETH in total, with the latest batch withdrawn from the Aave lending protocol before being converted to fiat or stablecoins. The Ethereum Foundation, which coordinates much of the network's development funding, has simultaneously entered what Buterin described as a period of \"mild austerity.\"\n\nDespite the steady selling, Buterin's remaining holdings remain substantial. Data from Arkham Intelligence shows he still controls more than 224,000 ether, a stash valued at roughly $429 million at current prices. That means his recent sales represent less than 4% of his total position — meaningful in terms of market signaling, but modest relative to his overall exposure to the network he helped create.\n\nThe broader context makes the sales more conspicuous than they might otherwise be. Ether has been in a persistent downtrend since peaking above $4,900 in August 2025, shedding more than 60% of its value over the intervening six months. The wider crypto market has also come under renewed stress, with Bitcoin sliding to $64,270 overnight before bouncing to $66,300 amid thin liquidity, U.S. tariff concerns, and rising geopolitical tensions between Washington and Tehran.\n\nNot everyone is reading Buterin's sales as a bearish signal. On-chain observers noted that prominent buyers, including ShapeShift founder Erik Voorhees and a whale wallet linked to crypto services firm Matrixport, have been absorbing supply at current levels. Still, the optics of a project's founder liquidating tokens during a steep drawdown are difficult to spin as bullish, even when the stated purpose — funding development infrastructure — is broadly constructive for the long-term health of the Ethereum ecosystem.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Ethereum",
-        "Vitalik Buterin",
-        "ETH",
-        "crypto markets",
-        "token sales"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/ethereum-founder-vitalik-buterin-accelerates-ether-sales",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T13:18:35.849Z"
     }
   ]
 }
