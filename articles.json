@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-24T07:18:39.522Z",
+  "lastUpdated": "2026-02-24T07:33:38.091Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771918334600-y0fw",
+      "slug": "lord-mandelson-released-on-bail-after-arrest-on-misconduct-c",
+      "headline": "Lord Mandelson Released on Bail After Arrest on Misconduct Charge",
+      "subheadline": "The 72-year-old former Labour minister was seen arriving at his London home around 2 a.m. following hours of questioning",
+      "body": "Lord Peter Mandelson has been released on bail after being arrested Monday on suspicion of misconduct in public office, the Metropolitan Police confirmed. The 72-year-old former Labour cabinet minister was seen arriving at his London residence at approximately 02:00 GMT, hours after being taken into custody.\n\nThe Metropolitan Police said a 72-year-old man had been released pending further investigation, though the force did not name Mandelson directly in its statement. The arrest appears connected to the broader investigation linked to Jeffrey Epstein, the convicted sex offender who died in a New York jail cell in 2019, though the specific nature of the allegations against Mandelson has not been publicly detailed.\n\nThe development comes weeks after the arrest of Andrew Mountbatten-Windsor — formerly known as Prince Andrew — who was taken into custody on February 19 on the same charge of misconduct in public office. The former prince was questioned at a Norfolk police station before being released under investigation. The Epstein-related probe has sent shockwaves through British public life, ensnaring some of the country's most prominent figures and raising questions about accountability at the highest levels of the establishment.\n\nMandelson, a key architect of New Labour and one of the most influential political figures of his generation, has served in multiple senior government roles, including Secretary of State for Business and European Commissioner for Trade. He was elevated to the House of Lords in 2008. His connections and political stature mean the arrest carries significant implications for Westminster, where he has remained an active and influential presence.\n\nThe bail release means the investigation remains active, and further action — including potential charges — could follow depending on the outcome of the Metropolitan Police's inquiries. Neither Mandelson nor his representatives have issued a public statement regarding the arrest. The case underscores the expanding reach of British law enforcement's investigation into individuals connected to Epstein's network of associates.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Lord Mandelson",
+        "Metropolitan Police",
+        "misconduct in public office",
+        "Jeffrey Epstein",
+        "Prince Andrew",
+        "UK politics"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0834/live/02f992e0-1137-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2d7rgj8l9o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T07:32:14.600Z"
+    },
+    {
+      "id": "ps-1771918351314-t04x",
+      "slug": "new-method-lets-carbon-storage-simulations-update-hundreds-o",
+      "headline": "New Method Lets Carbon Storage Simulations Update Hundreds of Times Faster",
+      "subheadline": "Researchers develop lightweight technique to adapt Dynamic Mode Decomposition models without costly retraining",
+      "body": "A pair of researchers has developed a computational shortcut that could dramatically accelerate the modeling of geological carbon storage projects, enabling surrogate simulations to adapt to changing underground conditions without the costly process of regenerating data and retraining from scratch.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, present a method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the complexity of multiphase flow simulations — when key reservoir properties such as permeability or well placement change. Conventional practice requires generating new high-fidelity simulation snapshots and completely retraining the surrogate model each time conditions shift, a process that largely negates DMD's computational speed advantage. The new approach sidesteps this bottleneck entirely by mathematically adjusting the existing model's internal structure to reflect new physical conditions, requiring no additional simulation data.\n\nThe authors introduce two complementary update strategies tailored to different scenarios. When permeability changes uniformly across the reservoir domain, the method recalibrates the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation of the model's reduced basis, weighting high-permeability zones more heavily to preserve physical accuracy. Numerical experiments reported in the paper show that the updated models reproduce carbon dioxide plume migration and subsurface pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than complete retraining.\n\nThe implications extend beyond academic interest. Geological carbon storage is a cornerstone of many climate mitigation strategies, but optimizing injection schemes, conducting uncertainty analyses, and evaluating regulatory what-if scenarios all demand rapid, repeated simulation under varying subsurface assumptions. High-fidelity multiphase reservoir simulators, while accurate, are computationally prohibitive for these iterative workflows. A surrogate model that can be cheaply updated in response to new geological data or design changes could bring real-time optimization within practical reach for carbon capture and storage operators.\n\nThe work, which spans computational physics, computational engineering, and optimization theory, was submitted on November 27, 2025, and represents a step toward making data-driven reduced-order models more flexible and deployable in engineering practice — a persistent challenge in the field of scientific machine learning.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic mode decomposition",
+        "carbon storage",
+        "computational physics",
+        "surrogate modeling",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1611072906871-6de0d0369e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T07:32:31.314Z"
+    },
+    {
+      "id": "ps-1771918370182-rrvt",
+      "slug": "stanford-team-develops-nasal-spray-vaccine-shielding-against",
+      "headline": "Stanford Team Develops Nasal Spray Vaccine Shielding Against COVID, Flu, and Pneumonia",
+      "subheadline": "A single intranasal formulation protected mice from viruses, bacteria, and allergens for months by supercharging innate lung immunity",
+      "body": "Researchers at Stanford Medicine have engineered an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — by fundamentally rethinking how vaccines work. The findings, published February 19 in the journal Science, represent what the team calls a significant step toward a truly universal respiratory vaccine.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new formulation — designated GLA-3M-052-LS+OVA — mimics the chemical signals that immune cells exchange during an active infection. This approach links the body's rapid-response innate immune system with its longer-lasting adaptive defenses, creating a state of sustained readiness in the lungs. In the study, mice that received three intranasal doses remained protected against SARS-CoV-2 and other coronaviruses for at least three months. Viral levels in their lungs were reduced 700-fold compared with unvaccinated animals, and the adaptive immune response — normally requiring two weeks to mount — was triggered in as little as three days.\n\nThe vaccine's reach extended well beyond viruses. Immunized mice were also shielded from Staphylococcus aureus and Acinetobacter baumannii, two bacterial species responsible for dangerous hospital-acquired infections. In a further surprise, the formulation suppressed allergic reactions to house dust mite proteins, a leading trigger of allergic asthma, by dampening the Th2 immune response that drives airway inflammation and mucus buildup.\n\nThe work builds on a 2023 discovery by senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, and lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab. That earlier study revealed how the BCG tuberculosis vaccine, given to roughly 100 million newborns each year, confers unexpected cross-protection against unrelated infections. The mechanism hinged on T cells migrating to the lungs and secreting cytokines that kept innate immune cells activated for months — far longer than the days-long window typical of innate immunity. The new vaccine was designed to replicate that signaling synthetically, using toll-like receptor stimulants paired with a harmless egg protein called ovalbumin to recruit and sustain T cells in lung tissue.\n\nPulendran said the next milestone is a Phase I human safety trial. He estimates that two nasal spray doses may suffice for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If results translate from mice to humans, the approach could simplify seasonal vaccination and provide a rapid defensive layer against novel pandemic pathogens. \"Imagine getting a nasal spray in the fall months that protects you from all respiratory viruses including COVID-19, influenza, respiratory syncytial virus and the common cold, as well as bacterial pneumonia and early spring allergens,\" Pulendran said.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "universal vaccine",
+        "nasal spray",
+        "Stanford Medicine",
+        "innate immunity",
+        "respiratory infections",
+        "COVID-19",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T07:32:50.182Z"
+    },
+    {
+      "id": "ps-1771918385942-7ptn",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation campaign",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, in what the company describes as a coordinated distillation campaign that generated over 16 million exchanges.\n\nThe allegations, disclosed on February 23, land squarely in the middle of an intensifying Washington debate over AI chip export controls to China. Anthropic said the three labs specifically targeted Claude's most advanced capabilities, including agentic reasoning, tool use, and coding — the very features that differentiate frontier American AI systems from their competitors. Distillation is a well-known technique in which one AI model's outputs are used to train another, essentially allowing a competitor to replicate sophisticated behaviors without investing in the original research.\n\nThe scope varied significantly across the three firms. MiniMax accounted for the largest share, with roughly 13 million exchanges focused on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model immediately upon its launch. Moonshot AI generated approximately 3.4 million exchanges targeting reasoning, coding, computer vision, and agent development — notably ahead of releasing its Kimi K2.5 open-source model and a coding agent last month. DeepSeek's footprint was smaller at around 150,000 exchanges, but Anthropic said those interactions appeared designed to improve foundational logic and develop censorship-safe alternatives to policy-sensitive queries.\n\nThe timing of the disclosure is strategically significant. The Trump administration last month permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move that critics argue bolsters Beijing's computing infrastructure during a pivotal moment in the global AI race. Anthropic explicitly connected the distillation attacks to the export control debate, arguing that such large-scale extraction \"requires access to advanced chips\" and that restricting chip sales would limit both direct model training and illicit distillation efforts. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings confirm what many in the industry have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he told reporters.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that distilled models are unlikely to retain the safety guardrails that American labs build to prevent misuse in areas such as bioweapons development, offensive cyber operations, and disinformation campaigns. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, and said it would continue investing in defenses to make distillation attacks harder to execute. None of the three accused companies have publicly responded to the allegations.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T07:33:05.942Z"
+    },
+    {
+      "id": "ps-1771918401517-94gh",
+      "slug": "oil-prices-tick-higher-as-iran-nuclear-deal-uncertainty-ling",
+      "headline": "Oil Prices Tick Higher as Iran Nuclear Deal Uncertainty Lingers",
+      "subheadline": "Traders weigh Trump's mixed signals on diplomacy with Tehran, balancing deal prospects against threat of consequences",
+      "body": "Crude oil prices edged higher on Monday as markets digested conflicting signals from Washington over the prospect of a renewed nuclear agreement with Iran, a development that could reshape global supply dynamics.\n\nPresident Donald Trump said over the weekend that he favored a diplomatic resolution to the standoff over Iran's nuclear program but cautioned that failure to reach an accord would carry significant consequences. The remarks left traders parsing the likelihood of two starkly different outcomes — a deal that could eventually bring sanctioned Iranian barrels back onto the global market, or an escalation that could further constrain supply from one of OPEC's key producers.\n\nThe ambiguity has injected fresh volatility into a crude market already navigating a complex landscape of geopolitical risk, shifting demand forecasts, and ongoing OPEC+ production management. A successful agreement with Tehran could unlock substantial additional supply, with Iran estimated to hold the capacity to add more than one million barrels per day to global markets if sanctions were fully lifted. That prospect has historically acted as a bearish weight on prices. Conversely, a breakdown in talks — particularly one accompanied by punitive measures — could tighten an already carefully balanced market.\n\nEnergy analysts note that the market's muted upward move reflects the deep uncertainty surrounding the negotiations rather than a decisive directional bet. Traders appear reluctant to price in either outcome with conviction, opting instead for cautious positioning as diplomatic developments unfold. The situation adds another variable to a first quarter already shaped by questions about Chinese demand recovery, U.S. production levels, and the timeline for any adjustments to OPEC+ output quotas.\n\nFor now, the oil market remains in a holding pattern, with geopolitical risk premiums fluctuating in step with the latest diplomatic rhetoric. Further clarity on the trajectory of U.S.-Iran talks — or the lack thereof — is likely to be the dominant catalyst for crude in the near term.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "oil",
+        "crude",
+        "Iran",
+        "nuclear deal",
+        "geopolitics",
+        "OPEC",
+        "Trump",
+        "energy markets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655821145885-9db7f0f178f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8b2lsJTIwY3J1ZGV8ZW58MHwwfHx8MTc3MTkxODQwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/latest-oil-market-news-and-analysis-for-feb-24",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T07:33:21.517Z"
+    },
+    {
+      "id": "ps-1771918418010-8otf",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
+      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run trades that triggered the 2022 crash",
+      "body": "The bankruptcy administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of Wall Street's most powerful high-frequency trading firms, alleging that it exploited insider information to profit from trades that accelerated the catastrophic collapse of the TerraUSD stablecoin and its sister token Luna in May 2022. The suit, first reported by the Wall Street Journal, seeks damages from Jane Street co-founder Robert Granieri and employees Bryce Pratt and Michael Huang.\n\nTodd Snyder, the administrator winding down the remnants of Do Kwon's crypto empire, contends that Jane Street obtained material nonpublic information from Terraform insiders and used it to front-run trades at a pivotal moment. According to the lawsuit, on May 7, 2022, Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. Within just 10 minutes — and before any public disclosure — a wallet linked to Jane Street allegedly withdrew 85 million TerraUSD from the same pool. The combined outflows helped trigger panic selling that shattered UST's dollar peg and set off a chain reaction that erased roughly $40 billion in market value within a single week.\n\n\"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement. The lawsuit also points to communications from May 9, 2022, when Jane Street's Pratt reportedly messaged Kwon's team in a group chat offering to buy Bitcoin or Luna as TerraUSD began slipping. Kwon allegedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a detail the suit appears to cite as evidence of close coordination between the firms and Terraform's leadership.\n\nJane Street has forcefully rejected the allegations. A spokesman called the lawsuit a \"desperate\" and \"transparent attempt to extract money,\" arguing that losses suffered by Terra and Luna holders resulted from \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs.\" The firm said it would defend itself vigorously against what it characterized as baseless, opportunistic claims.\n\nThe Terra implosion remains one of the most devastating episodes in cryptocurrency history, toppling not only Terraform but also dragging down interconnected firms including Three Arrows Capital, Celsius Network, and Voyager Digital. Terraform Labs filed for bankruptcy in January 2024, and founder Do Kwon was sentenced to 15 years in prison last August after pleading guilty to two criminal counts. The new lawsuit adds a significant new dimension to the post-mortem of the crisis, raising questions about whether sophisticated trading firms played a more direct role in the collapse than previously understood.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "TerraUSD",
+        "insider trading",
+        "crypto collapse",
+        "Do Kwon",
+        "stablecoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T07:33:38.010Z"
+    },
     {
       "id": "ps-1771917437670-0k2j",
       "slug": "lord-mandelson-arrested-over-alleged-leak-of-market-sensitiv",
@@ -24,72 +154,6 @@
       "publishedAt": "2026-02-24T07:17:17.670Z"
     },
     {
-      "id": "ps-1771917453935-vct6",
-      "slug": "new-method-lets-carbon-storage-simulations-update-in-real-ti",
-      "headline": "New Method Lets Carbon Storage Simulations Update in Real Time",
-      "subheadline": "Researchers show how to adapt surrogate physics models hundreds of times faster than retraining from scratch",
-      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to adapt to changing subsurface conditions without the costly process of regenerating simulation data — achieving accuracy within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in carbon capture and storage (CCS) workflows. High-fidelity multiphase flow simulators, which model how injected CO₂ migrates through underground rock formations, are essential for optimizing storage sites but computationally prohibitive for real-time decision-making. Dynamic Mode Decomposition (DMD), a data-driven framework that extracts dominant flow patterns from simulation snapshots, has emerged as a promising surrogate approach — but with a significant limitation. Whenever reservoir properties such as rock permeability or well placement change, the entire DMD model must be discarded and rebuilt from new simulation runs, negating much of its speed advantage.\n\nThe new work introduces two complementary strategies for updating existing DMD operators on the fly. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario reflecting the heterogeneous geology of actual storage formations — the approach modifies the spatial representation within the model's reduced basis, weighting high-permeability zones more heavily to capture their outsized influence on fluid migration.\n\nNumerical experiments demonstrated that both update strategies accurately reproduced key CCS observables, including CO₂ plume migration patterns and subsurface pressure buildup, to within three percent of a surrogate model trained from scratch on the new conditions. Crucially, the updates required no new simulation data, making them effectively instantaneous compared to the conventional retrain-from-scratch pipeline.\n\nThe implications extend beyond carbon storage. Real-time optimization of injection strategies, rapid uncertainty quantification across geological scenarios, and on-the-fly \"what-if\" analyses all become tractable when surrogate models can be cheaply adapted rather than rebuilt. As regulatory frameworks for CCS projects tighten and the number of planned storage sites worldwide grows, computational tools that preserve physical fidelity while dramatically reducing turnaround time could prove essential for making geological sequestration both safe and economically viable.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "carbon capture and storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1564773199504-93414af84ee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBjYXB0dXJlJTIwYW5kJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTE3NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T07:17:33.935Z"
-    },
-    {
-      "id": "ps-1771917471784-uclo",
-      "slug": "stanford-team-develops-nasal-spray-vaccine-against-covid-flu",
-      "headline": "Stanford Team Develops Nasal Spray Vaccine Against COVID, Flu, and Pneumonia",
-      "subheadline": "Mouse study shows a single intranasal vaccine can protect against viruses, bacteria, and allergens for months",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — marking what could be a paradigm shift in how vaccines are designed. The findings were published February 19 in Science.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new formulation works by supercharging the lungs' innate immune defenses and keeping them on high alert for months. The vaccine, designated GLA-3M-052-LS+OVA, mimics the chemical signals that immune cells exchange during infection, bridging the body's fast-acting innate immune system with its more targeted adaptive immune system. In mice that received three intranasal doses spaced a week apart, viral levels in the lungs dropped 700-fold compared to unvaccinated animals, and protection lasted at least three months.\n\nThe results extended well beyond coronaviruses. Vaccinated mice were also shielded from Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired infections — as well as house dust mite allergens, a common trigger for allergic asthma. Unvaccinated mice exposed to the same threats suffered severe weight loss, lung inflammation, and frequently died. Vaccinated animals showed minimal symptoms and all survived. Senior author Bali Pulendran, a professor of microbiology and immunology at Stanford, said the lung immune system in vaccinated mice became so primed that it could mount a full adaptive response — generating virus-specific antibodies and T cells — in just three days, compared to the typical two weeks in unvaccinated animals.\n\nThe work builds on a 2023 discovery by Pulendran's group showing that the BCG tuberculosis vaccine, given to roughly 100 million newborns each year, triggers a persistent innate immune response sustained by T cell signaling through cytokines and toll-like receptors. The new vaccine was engineered to replicate that mechanism synthetically, incorporating a harmless egg protein called ovalbumin to draw T cells into the lungs and maintain the heightened immune state. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, helped translate the earlier theoretical insight into a working formulation.\n\nThe team is now preparing for Phase I human safety trials. Pulendran estimates that two nasal spray doses may be sufficient for people and projects that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the approach translates from mice to humans, it could replace multiple annual shots for seasonal illnesses and serve as a rapid-deployment defense against emerging pandemic pathogens — a single autumn nasal spray protecting against influenza, COVID-19, RSV, bacterial pneumonia, and common allergens simultaneously.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccine",
-        "nasal spray",
-        "Stanford Medicine",
-        "respiratory disease",
-        "innate immunity",
-        "COVID-19",
-        "influenza",
-        "pneumonia"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T07:17:51.784Z"
-    },
-    {
-      "id": "ps-1771917488003-cjy2",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated over 16 million exchanges to extract frontier capabilities",
-      "body": "Anthropic has leveled explosive accusations against three Chinese artificial intelligence companies, claiming they created more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model through a technique known as distillation. The alleged campaign, which generated over 16 million exchanges, adds significant fuel to the ongoing U.S. debate over AI chip exports to China.\n\nThe three companies named — DeepSeek, Moonshot AI, and MiniMax — allegedly targeted what Anthropic described as Claude's most differentiated capabilities: agentic reasoning, tool use, and coding. Distillation is a well-known method in which AI labs use outputs from a larger, more capable model to train smaller, cheaper ones. While routinely applied by companies to their own systems, using the technique on a competitor's model amounts to what critics call copying homework at industrial scale. OpenAI made similar allegations against DeepSeek in a memo to House lawmakers earlier this month.\n\nThe scope varied considerably among the three firms. DeepSeek accounted for roughly 150,000 exchanges that appeared focused on foundational logic and alignment, particularly around generating censorship-safe alternatives to politically sensitive queries. Moonshot AI was linked to approximately 3.4 million exchanges targeting agentic reasoning, coding, computer vision, and agent development — activity that preceded its release of the open-source Kimi K2.5 model and a coding agent last month. MiniMax represented by far the largest share, with some 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest model immediately upon launch.\n\nThe accusations arrive at a politically charged moment. The Trump administration last month formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move that has drawn sharp criticism from those who argue it bolsters Beijing's computing capacity during a pivotal period in the global AI race. Anthropic explicitly tied the distillation campaigns to the chip debate, arguing that extraction at this scale \"requires access to advanced chips\" and that restricting chip access would limit both direct model training and illicit distillation. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the revelations confirm what many had suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he told reporters.\n\nBeyond commercial competition, Anthropic raised national security concerns. The company warned that models built through illicit distillation are unlikely to retain safety guardrails designed to prevent misuse in areas such as bioweapons development and offensive cyber operations. If such stripped-down models are subsequently open-sourced, dangerous capabilities could proliferate without meaningful safeguards. Anthropic called for a coordinated response spanning the AI industry, cloud providers, and policymakers, while pledging to invest further in defenses against distillation attacks. None of the three accused companies had publicly responded as of publication.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "distillation",
-        "AI export controls",
-        "China",
-        "Claude",
-        "Moonshot AI",
-        "MiniMax"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T07:18:08.003Z"
-    },
-    {
       "id": "ps-1771917504938-jbwh",
       "slug": "chinese-stocks-rally-after-lunar-new-year-on-tariff-easing-a",
       "headline": "Chinese Stocks Rally After Lunar New Year on Tariff Easing and AI Optimism",
@@ -108,48 +172,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/china-stocks-may-see-resilient-reopen-on-tariff-relief-ai-buzz",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T07:18:24.938Z"
-    },
-    {
-      "id": "ps-1771917519432-89kb",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run trades that helped trigger the 2022 crash",
-      "body": "The administrator overseeing the wind-down of Terraform Labs has filed a lawsuit against Jane Street, one of the world's most powerful trading firms, alleging it exploited insider information to front-run trades that accelerated the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a meltdown that erased roughly $40 billion in market value in a single week.\n\nTodd Snyder, the bankruptcy administrator unwinding Do Kwon's failed crypto venture, is seeking damages from Jane Street, its co-founder Robert Granieri, and employees Bryce Pratt and Michael Huang, according to the Wall Street Journal. The core allegation centers on events of May 7, 2022, when Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a major decentralized trading platform for stablecoins. Within just 10 minutes, the lawsuit claims, a wallet linked to Jane Street pulled an additional 85 million TerraUSD from the same pool — before any public disclosure had been made — helping spark the market panic that would unravel the entire Terra ecosystem.\n\nThe complaint paints a picture of a trading firm leveraging privileged relationships to profit during one of crypto's darkest episodes. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement. Further communications cited in the suit suggest close ties between the parties: on May 9, as TerraUSD began losing its dollar peg, Jane Street's Pratt reportedly messaged Kwon's team with offers to buy bitcoin or Luna. Kwon responded by suggesting that Jump Trading's co-founder Bill DiSomma should have briefed Jane Street earlier about Terraform's fundraising efforts.\n\nJane Street has forcefully rejected the claims. A spokesman called the lawsuit a \"desperate\" and \"transparent attempt to extract money,\" arguing that losses suffered by Terra and Luna holders resulted from \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs.\" The firm has pledged to defend vigorously against what it characterized as \"baseless, opportunistic claims.\"\n\nThe lawsuit adds another chapter to the sprawling fallout from Terra's implosion, which triggered a cascade of failures across the crypto industry in 2022. Terraform Labs filed for bankruptcy in January 2024, and Do Kwon was sentenced to 15 years in prison after pleading guilty to two criminal counts last August. The case against Jane Street now raises the question of whether other market participants bear legal responsibility for amplifying the damage — and whether the crypto industry's opaque market structure enabled the kind of information asymmetry that would be aggressively prosecuted in traditional finance.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "Terra Luna",
-        "insider trading",
-        "cryptocurrency",
-        "stablecoin",
-        "Do Kwon"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T07:18:39.432Z"
-    },
-    {
-      "id": "ps-1771916550979-m9if",
-      "slug": "lord-mandelson-released-on-bail-after-arrest-on-misconduct-c",
-      "headline": "Lord Mandelson Released on Bail After Arrest on Misconduct Charge",
-      "subheadline": "The 72-year-old former Labour minister returned to his London home in the early hours after police questioning",
-      "body": "Lord Peter Mandelson, the veteran Labour politician and former Cabinet minister, was released on bail early Tuesday after being arrested on suspicion of misconduct in public office, the Metropolitan Police confirmed. The 72-year-old arrived at his London residence at approximately 02:00 GMT following hours of police questioning.\n\nThe Metropolitan Police said a 72-year-old man had been released pending further investigation, without naming Lord Mandelson directly in line with standard practice. The arrest, which took place on Monday, is the latest in a series of high-profile misconduct investigations that have shaken the British establishment in recent months.\n\nThe arrest follows a pattern of intensified scrutiny of public figures connected to the Jeffrey Epstein scandal. In February, Andrew Mountbatten-Windsor — formerly known as Prince Andrew — was arrested on suspicion of misconduct in public office and questioned at a Norfolk police station before being released under investigation. Lord Mandelson, who served as a key architect of New Labour and held multiple senior government positions under Tony Blair and Gordon Brown, has long been one of the most influential figures in British politics.\n\nThe specific allegations underlying Mandelson's arrest have not been publicly detailed, and being released on bail does not imply guilt. The Metropolitan Police indicated that the investigation remains ongoing, suggesting further inquiries and potential additional questioning could follow. Lord Mandelson has not yet issued a public statement regarding the arrest.\n\nThe case adds to a turbulent period for the UK's political and royal establishment, with multiple figures facing legal jeopardy over their conduct in public life. Legal experts note that misconduct in public office is a common law offense that carries a maximum sentence of life imprisonment, though such severe penalties are rarely imposed. The charge requires prosecutors to demonstrate that a public official willfully neglected their duty or willfully misconducted themselves to a degree that amounts to an abuse of public trust.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Lord Mandelson",
-        "misconduct in public office",
-        "Metropolitan Police",
-        "Jeffrey Epstein",
-        "UK politics"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0834/live/02f992e0-1137-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cx2d7rgj8l9o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T07:02:30.980Z"
     },
     {
       "id": "ps-1771916566251-mxuh",
@@ -381,28 +403,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T03:32:01.903Z"
-    },
-    {
-      "id": "ps-1771903088204-l3s2",
-      "slug": "oil-prices-climb-as-iran-nuclear-deal-uncertainty-roils-mark",
-      "headline": "Oil Prices Climb as Iran Nuclear Deal Uncertainty Roils Markets",
-      "subheadline": "Trump's mixed signals on diplomacy versus consequences keep crude traders on edge amid supply concerns",
-      "body": "Oil prices edged higher on Monday as market participants weighed the uncertain trajectory of negotiations over Iran's nuclear program, with U.S. President Donald Trump offering a blend of diplomatic overtures and veiled threats that left traders parsing every word for supply implications.\n\nTrump said he favors a diplomatic resolution to the standoff over Iran's nuclear ambitions but cautioned that failure to reach an agreement would carry consequences — a formulation that markets interpreted as keeping all options, including tighter sanctions enforcement or other measures, firmly on the table. The remarks injected fresh volatility into a crude market already grappling with competing forces of geopolitical risk and global demand uncertainty.\n\nThe stakes for oil markets are significant. Iran remains a major crude producer, and any deal that eases sanctions could unlock additional barrels at a time when OPEC+ is carefully managing its own output strategy. Conversely, a collapse in talks — or an escalation of pressure on Tehran — could tighten supply and push prices higher. Traders have been caught between these two scenarios for weeks, and Trump's latest comments did little to resolve the ambiguity.\n\nThe price move, while modest, reflects a broader pattern of geopolitical risk premiums cycling through crude markets in 2026. With global demand growth showing signs of moderation in key economies, supply-side disruptions and diplomatic developments have taken on outsized importance in setting the direction of benchmark prices. Brent and West Texas Intermediate both moved higher in early trading as analysts noted that the market appears to be pricing in a greater probability of prolonged uncertainty rather than a swift resolution.\n\nEnergy analysts cautioned that the coming weeks could prove pivotal. A concrete framework for a deal would likely weigh on prices by raising expectations of increased Iranian exports, while any breakdown in talks could trigger a sharper rally. For now, traders are positioned defensively, watching Washington and Tehran for signals that could tip the balance in either direction.",
-      "category": "markets",
-      "importance": 5,
-      "tags": [
-        "oil prices",
-        "Iran nuclear deal",
-        "crude oil",
-        "Trump",
-        "geopolitics",
-        "energy markets",
-        "OPEC"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1590497305357-72d2b6204c7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMG51Y2xlYXIlMjBkZWFsfGVufDB8MHx8fDE3NzE5MDMwODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/latest-oil-market-news-and-analysis-for-feb-24",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T03:18:08.204Z"
     },
     {
       "id": "ps-1771902193015-5uht",
