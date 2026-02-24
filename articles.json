@@ -1,7 +1,136 @@
 {
-  "lastUpdated": "2026-02-24T16:03:39.849Z",
+  "lastUpdated": "2026-02-24T16:18:41.194Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771949840468-ke3w",
+      "slug": "russian-soldiers-describe-executions-of-own-troops-by-comman",
+      "headline": "Russian Soldiers Describe Executions of Own Troops by Commanders",
+      "subheadline": "BBC documentary captures first on-record testimony from frontline soldiers alleging systematic killings and torture",
+      "body": "Four Russian soldiers have given on-the-record testimony alleging that commanders on the front lines in Ukraine routinely executed troops who refused orders, in what appears to be the first such public account from within Russia's fighting ranks. The testimonies, featured in a BBC documentary titled \"The Zero Line: Inside Russia's War,\" describe point-blank shootings, mass killings of conscripts, and systematic torture — painting a picture of lawlessness and brutality within the Russian military's command structure.\n\nOne soldier, identified as Ilya, a 35-year-old former special needs teacher from the Ural Mountains, told the BBC he witnessed a commander shoot four soldiers at point-blank range in Russian-occupied Donetsk for refusing to return to the front line. \"The saddest thing is that I knew them. I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using Russian military slang for executing one's own troops. Ilya, whose role involved identifying and counting dead soldiers, provided documentation showing he is the sole survivor of a group of 79 men he was mobilized with in May 2024. He says those who refused front-line duty were tortured, urinated on, electrocuted, starved, and eventually sent into battle unarmed.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was conscripted off the street in October 2022, described witnessing executions ordered by his commander in the 25th Brigade, Alexei Ksenofontov. Ksenofontov was awarded the Gold Star — Russia's highest state medal — and named a \"Hero of Russia\" in 2024. Yet families of soldiers who died under his command sent a joint letter to President Vladimir Putin in January 2025 demanding an investigation into allegations of brutality. Dima also described seeing 20 bodies of newly arrived ex-convict soldiers lying in a ditch after being shot, their bank cards reportedly confiscated by commanders. \"It's not a problem to write off someone. You just make up a report,\" he said.\n\nThe accounts corroborate growing evidence of what Russian troops themselves call \"meat storms\" — relentless waves of soldiers sent across front lines to exhaust Ukrainian ammunition and drone supplies, missions so deadly they are compared to suicide operations. According to the UK Ministry of Defence, an estimated 900 to 1,500 Russian troops were killed or wounded daily in 2025, with total casualties since the full-scale invasion in February 2022 exceeding 1.2 million killed or injured. All four soldiers spoke from an undisclosed location outside Russia, where they are now in hiding.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that reports of alleged violations are \"duly investigated.\" Moscow does not publicly release casualty figures and has suppressed nearly all domestic opposition to the war. The testimonies, if verified, would represent some of the most detailed evidence yet of a systematic breakdown in discipline and accountability within the Russian military — one that extends from frontline trenches to the highest levels of state recognition.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Russia-Ukraine war",
+        "Russian military",
+        "war crimes",
+        "BBC documentary",
+        "frontline executions",
+        "meat storms"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T16:17:20.468Z"
+    },
+    {
+      "id": "ps-1771949855399-x6uo",
+      "slug": "new-method-lets-carbon-storage-simulations-update-in-real-ti",
+      "headline": "New Method Lets Carbon Storage Simulations Update in Real Time",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models hundreds of times faster than retraining from scratch",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, enabling real-time optimization without sacrificing physical accuracy. The work, published on arXiv by Dimitrios Voulanas and Eduardo Gildin, introduces lightweight strategies for updating Dynamic Mode Decomposition (DMD) surrogate models when underground reservoir properties change — eliminating the costly need to regenerate simulation data and retrain from scratch.\n\nHigh-fidelity multiphase flow simulators are essential tools for planning carbon capture and storage operations, but their computational expense makes them impractical for tasks requiring many repeated runs, such as optimization, uncertainty quantification, and real-time decision-making. DMD-based surrogate models offer an efficient alternative by extracting dominant flow dynamics from simulation snapshots, but they suffer from a fundamental limitation: their mathematical operators are locked to the specific reservoir conditions under which they were trained. Change the permeability field or relocate a well, and the model must be rebuilt entirely.\n\nThe new approach addresses this bottleneck with two complementary update strategies. When permeability changes uniformly across a domain — as might occur when refining estimates of a formation's flow properties — the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes, a more nuanced correction modifies the model's spatial basis functions, weighting high-permeability zones more heavily in the reduced representation. Crucially, neither strategy requires new simulation data.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a surrogate trained fresh on the new conditions, while executing hundreds of times faster than full retraining. For an industry grappling with the need to evaluate numerous subsurface scenarios rapidly — particularly as carbon storage projects scale up worldwide — that speedup could prove significant.\n\nThe research sits at the intersection of computational physics, control theory, and engineering, reflecting growing interest in making data-driven reduced-order models more adaptable to changing conditions. If the approach generalizes beyond the carbon storage applications demonstrated here, it could find use in other subsurface flow problems, including enhanced oil recovery and groundwater management, where similar surrogate modeling challenges arise.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-models",
+        "computational-physics",
+        "reservoir-simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1635008326422-134e67df2f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxkeW5hbWljLW1vZGUtZGVjb21wb3NpdGlvbiUyMGNhcmJvbi1zdG9yYWdlfGVufDB8MHx8fDE3NzE5MzM2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T16:17:35.399Z"
+    },
+    {
+      "id": "ps-1771949873356-0rgo",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "A synthetic biology approach uses oxygen-starved tumor cores as breeding grounds for cancer-killing microbes",
+      "body": "Researchers at the University of Waterloo have engineered bacteria equipped with a built-in genetic safety switch that allows them to colonize and consume solid tumors from the inside out — a strategy that could open an entirely new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, they present an ideal habitat for the microbe. Once bacterial spores enter a tumor, they germinate, multiply, and begin breaking down cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo, describing how the organisms exploit conditions that conventional therapies struggle to reach.\n\nThe central engineering challenge has been that as bacteria expand outward from the tumor core, they encounter trace amounts of oxygen and die before the cancer is fully eliminated. To solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species, enabling the engineered microbes to survive longer at the tumor periphery. But granting blanket oxygen resistance would be dangerous — bacteria circulating in the oxygen-rich bloodstream could pose a serious infection risk. The researchers addressed this with quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after a critical mass of bacteria accumulates inside the tumor does the signal reach the threshold needed to activate the oxygen-resistance gene. The result is a precisely timed biological trigger that confines the enhanced survival trait to the tumor microenvironment.\n\nThe work, published in ACS Synthetic Biology in late 2025, details the construction and functional testing of this quorum-sensing circuit in C. sporogenes. In proof-of-concept experiments, the team programmed bacteria to produce green fluorescent protein at the intended activation point, confirming the circuit's reliability. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a Waterloo applied mathematics professor who co-led the research. The next milestone is integrating both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and advancing to pre-clinical tumor trials.\n\nThe project, initiated by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen, reflects an increasingly interdisciplinary push in oncology that merges engineering, mathematics, and microbiology. The Waterloo group is now partnering with CREM Co Labs, a Toronto-based company co-founded by Zargar, to translate the laboratory platform toward clinical application. If successful, the living therapeutic could complement existing treatments by attacking the hypoxic tumor regions that surgery, radiation, and chemotherapy often leave behind.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T16:17:53.356Z"
+    },
+    {
+      "id": "ps-1771949889440-77ho",
+      "slug": "meta-commits-up-to-100-billion-in-amd-chip-deal-to-diversify",
+      "headline": "Meta Commits Up to $100 Billion in AMD Chip Deal to Diversify AI Supply",
+      "subheadline": "The multiyear agreement includes a warrant for 160 million AMD shares and covers next-gen GPUs and CPUs for inference workloads",
+      "body": "Meta has struck a deal to purchase as much as $100 billion worth of AMD chips over multiple years, marking one of the largest semiconductor procurement agreements in history as the social media giant races to build what CEO Mark Zuckerberg calls \"personal superintelligence.\" The agreement, announced Tuesday, would generate enough demand to power roughly six gigawatts of data center capacity.\n\nThe deal carries an unusual equity component: AMD has issued Meta a performance-based warrant for up to 160 million shares of common stock — approximately 10% of AMD — at a nominal price of $0.01 per share. The warrants vest against specific milestones, with the final tranche requiring AMD's stock to reach $600, more than triple its Monday closing price of $196.60. The structure mirrors a similar equity-for-chips arrangement AMD reached with OpenAI last October, signaling a new template for how chipmakers compete for hyperscaler business.\n\nUnder the agreement, Meta will acquire AMD's MI540 series GPUs alongside its latest-generation CPUs. AMD CEO Lisa Su highlighted the growing role of CPUs in AI inference during an investor briefing, calling the market \"absolutely on fire\" as agentic AI and large-scale inferencing drive demand beyond traditional GPU-centric architectures. CPUs offer efficiency and scaling advantages that help companies reduce dependence on Nvidia, which has long dominated AI accelerator markets and commanded premium pricing.\n\nThe AMD partnership is the latest piece of Meta's sprawling infrastructure buildout. The company has pledged to invest at least $600 billion in U.S. data centers and AI infrastructure over the coming years, with projected capital expenditures of $135 billion in 2026 alone. Recent plans include a $10 billion gas-powered data center campus in Indiana designed for one gigawatt of compute capacity. Meta also recently signed a separate multiyear deal for millions of Nvidia's latest CPUs and GPUs, and continues developing proprietary in-house chips, though that effort has reportedly encountered delays.\n\nThe deal underscores a strategic shift across the AI industry as major players seek to diversify their chip supply chains. For AMD, securing Meta as a flagship customer validates its positioning as a credible alternative to Nvidia in the data center market. For Meta, spreading its compute investments across multiple suppliers reduces concentration risk as it pursues an AI vision centered on deeply personalized systems designed to \"understand and empower individuals in their everyday lives,\" as Zuckerberg has described his superintelligence ambitions.",
+      "category": "tech",
+      "importance": 9,
+      "tags": [
+        "Meta",
+        "AMD",
+        "AI chips",
+        "data centers",
+        "semiconductors",
+        "Lisa Su",
+        "Mark Zuckerberg",
+        "Nvidia"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/amd-ces-ceo.png?resize=1200,661",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T16:18:09.440Z"
+    },
+    {
+      "id": "ps-1771949905465-0y8b",
+      "slug": "novo-nordisk-to-slash-us-list-prices-for-wegovy-ozempic-in-2",
+      "headline": "Novo Nordisk to Slash US List Prices for Wegovy, Ozempic in 2027",
+      "subheadline": "Danish drugmaker moves to cut sticker prices on blockbuster weight-loss and diabetes drugs amid intensifying competition",
+      "body": "Novo Nordisk announced plans to significantly reduce the US list prices of its flagship drugs Wegovy and Ozempic starting next year, a strategic move aimed at recapturing market share in the increasingly competitive obesity and diabetes treatment landscape.\n\nThe Danish pharmaceutical giant has faced mounting pressure on multiple fronts. Rival Eli Lilly's competing GLP-1 drugs, including Mounjaro and Zepbound, have been steadily eroding Novo's once-dominant position in the weight-loss and type 2 diabetes markets. At the same time, political scrutiny over high drug prices in the United States has intensified, with lawmakers and the Trump administration pushing for greater transparency and lower costs for patients. Novo's decision to cut list prices — the sticker prices before insurance negotiations and rebates — represents one of the most significant pricing concessions in the booming GLP-1 receptor agonist category.\n\nWegovy, approved for chronic weight management, and Ozempic, indicated for type 2 diabetes, have been among the best-selling drugs in the world, generating tens of billions of dollars in combined annual revenue for Novo Nordisk. However, the company's stock has come under considerable strain over the past year as investors have grown concerned about slowing growth, supply constraints, and the competitive threat posed by Lilly's products, which some clinical data suggest may offer superior weight-loss efficacy.\n\nThe list price reductions are expected to take effect in 2027 and could reshape the economics of the GLP-1 market. Lower list prices generally translate into reduced out-of-pocket costs for uninsured patients and those in high-deductible health plans, though the net impact on insured patients depends on how pharmacy benefit managers and insurers adjust their formulary negotiations. The move could also put pressure on Eli Lilly to respond with its own pricing adjustments, potentially triggering a broader repricing across the category.\n\nFor Novo Nordisk, the price cuts signal a willingness to trade margin for volume as the company fights to defend its position in what analysts project will be a market worth more than $100 billion annually by the end of the decade. The strategy carries risks — lower prices could weigh on revenue growth in the near term — but the company appears to be betting that broader accessibility will ultimately drive higher prescription volumes and sustained market leadership.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Novo Nordisk",
+        "Wegovy",
+        "Ozempic",
+        "drug pricing",
+        "GLP-1",
+        "obesity",
+        "Eli Lilly",
+        "pharmaceuticals"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/novo-will-slash-us-list-prices-for-wegovy-and-ozempic-next-year",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T16:18:25.465Z"
+    },
+    {
+      "id": "ps-1771949921101-d361",
+      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
+      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
+      "subheadline": "The exemptive relief allows instant settlement on blockchain rails, adding to a tokenized Treasury market now exceeding $10 billion",
+      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree special approval to offer around-the-clock trading of its Treasury Money Market Digital Fund, a landmark decision that allows the asset manager to bypass the traditional end-of-day settlement structure that has governed mutual funds for decades. The approval, announced on Tuesday, represents one of the most concrete regulatory endorsements yet of blockchain infrastructure in mainstream capital markets.\n\nUnder the new arrangement, shares of the fund — which trades under the ticker WTGXX — can be bought and sold at a fixed $1 intraday price through a broker-dealer acting as principal, rather than waiting for the fund's end-of-day net asset value calculation. The broker-dealer will trade from its own inventory, enabling continuous liquidity with instant settlement on blockchain rails while preserving the fund's underlying mutual fund structure and regulatory framework. WisdomTree secured exemptive relief from the SEC and regulatory clearance from FINRA to expand its broker-dealer subsidiary's activities to support the model.\n\nThe firm also introduced a continuous dividend accrual feature that tracks wallet activity on-chain, allocating interest based on exactly how long each wallet held shares during the day. This means investors who transfer shares mid-day still receive their proportional share of yield — a level of precision that would be difficult to achieve without blockchain-based record-keeping. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets. The platform will initially be available to institutional clients through WisdomTree's Connect platform, with retail access potentially following via its Prime app.\n\nThe approval arrives amid accelerating momentum in the tokenization of traditional financial assets. More than $10 billion in tokenized U.S. Treasuries are now in circulation, according to data from rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with over $2 billion in total value locked, while Circle and Ondo Finance also operate competing products. Separately, Kraken announced plans to offer 24/7 perpetual futures trading on tokenized U.S. stocks, and Binance recently partnered with Ondo Finance to reintroduce tokenized stock trading — signals that blockchain-based settlement is gaining traction across multiple corners of financial markets.\n\nFor regulators, the WisdomTree decision establishes a meaningful precedent: traditional fund structures can coexist with blockchain settlement without requiring entirely new regulatory frameworks. For the industry, it suggests that the long-promised fusion of decentralized technology and Wall Street infrastructure is moving from pilot programs to production-grade reality.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenization",
+        "WisdomTree",
+        "SEC",
+        "blockchain",
+        "money market funds",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T16:18:41.101Z"
+    },
     {
       "id": "ps-1771948944196-kjij",
       "slug": "uk-records-first-baby-born-from-deceased-donor-womb-transpla",
@@ -24,112 +153,6 @@
       "publishedAt": "2026-02-24T16:02:24.196Z"
     },
     {
-      "id": "ps-1771948959453-iet2",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows computational models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than current approaches — without sacrificing meaningful accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight method for updating Dynamic Mode Decomposition (DMD) operators when reservoir properties such as permeability or well placement change. DMD is a data-driven framework widely used to build fast surrogate models from expensive multiphase flow simulations. The catch has always been that these surrogates are locked to the specific geological conditions they were trained on. When engineers need to explore a different permeability field or relocate a well — routine tasks in optimization and uncertainty analysis — they must regenerate simulation snapshots and retrain the model from scratch, negating much of the computational savings.\n\nThe new approach sidesteps this bottleneck with two complementary update strategies. When permeability changes uniformly across a domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario in heterogeneous reservoirs — the technique modifies the model's spatial basis so that high-permeability zones carry appropriately greater weight. In neither case does the update require fresh simulation data or a full retraining cycle.\n\nNumerical experiments reported in the paper show the updated models reproduce carbon dioxide plume migration and subsurface pressure buildup to within three percent of a surrogate trained from scratch on the new conditions. The authors say the updates execute hundreds of times faster than conventional retraining, a speedup that could prove consequential for real-time decision-making in carbon capture and storage operations, where engineers routinely run large ensembles of what-if scenarios to assess risk and optimize injection strategies.\n\nThe work sits at the intersection of computational physics, optimization theory, and engineering practice at a time when geological carbon storage is attracting significant investment as a climate mitigation tool. Rapid surrogate modeling could lower the computational barrier to evaluating diverse storage sites and operational configurations, potentially accelerating project timelines. The paper has been posted as a preprint and has not yet undergone formal peer review.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic-mode-decomposition",
-        "carbon-storage",
-        "surrogate-modeling",
-        "computational-physics",
-        "reservoir-simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1646559768375-2b319a0c233e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxkeW5hbWljLW1vZGUtZGVjb21wb3NpdGlvbiUyMGNhcmJvbi1zdG9yYWdlfGVufDB8MHx8fDE3NzE5MzM2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T16:02:39.453Z"
-    },
-    {
-      "id": "ps-1771948975375-b9ls",
-      "slug": "waterloo-scientists-program-bacteria-to-devour-tumors-from-w",
-      "headline": "Waterloo Scientists Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Engineered microbes use quorum sensing to activate oxygen resistance only after colonizing a tumor's core",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the inside, and survive long enough to reach a tumor's oxygen-rich outer edges — a synthetic biology advance that could open an entirely new front in cancer treatment.\n\nThe approach, published in ACS Synthetic Biology, centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide ideal conditions for the bacterium to germinate, feed on available nutrients, and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The problem has always been that as the bacteria expand outward toward the tumor's periphery, even trace amounts of oxygen kill them before the cancer is fully eliminated.\n\nTo solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But simply making the microbe oxygen-resistant at all times would pose a serious safety risk — it could proliferate in the bloodstream or healthy tissue. The researchers' key innovation was coupling the oxygen-tolerance gene to a quorum-sensing circuit, a natural bacterial communication system in which chemical signals intensify as a population grows. The gene switches on only after a critical mass of bacteria has accumulated inside the tumor, ensuring activation occurs where it is needed and nowhere else. In laboratory tests, the team validated the quorum-sensing trigger by programming bacteria to produce green fluorescent protein at the intended activation threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical animal trials. The project, which grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo PhD student Sara Sadr, reflects a broader interdisciplinary push at the university linking engineering, mathematics, and life sciences. The Waterloo team is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical relevance.\n\nIf pre-clinical results are promising, the engineered bacteria could eventually complement existing cancer therapies by targeting the hypoxic tumor cores that radiation and chemotherapy often struggle to reach — a longstanding challenge in oncology that has resisted conventional solutions for decades.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T16:02:55.375Z"
-    },
-    {
-      "id": "ps-1771948989903-fxpo",
-      "slug": "meta-secures-up-to-100-billion-amd-chip-deal-in-ai-push",
-      "headline": "Meta Secures Up to $100 Billion AMD Chip Deal in AI Push",
-      "subheadline": "The multiyear agreement includes a warrant for 160 million AMD shares as Meta diversifies beyond Nvidia",
-      "body": "Meta has struck a deal to purchase as much as $100 billion in AMD chips over multiple years, marking one of the largest semiconductor agreements in history as the social media giant accelerates its pursuit of what CEO Mark Zuckerberg calls \"personal superintelligence.\"\n\nThe agreement, announced Tuesday, covers AMD's MI540 series GPUs and its latest-generation CPUs, with the combined hardware expected to drive roughly six gigawatts of data center power demand. In a notable financial wrinkle, AMD has granted Meta a performance-based warrant to acquire up to 160 million shares of AMD common stock — approximately 10% of the chipmaker — at just $0.01 per share. The warrant vests in tranches tied to milestones, with the final tranche requiring AMD's stock to reach $600, more than triple its Monday closing price of $196.60, according to The Wall Street Journal.\n\nThe deal mirrors a similar equity-for-chips arrangement AMD struck with OpenAI last October, signaling a broader industry pattern as AI companies seek alternatives to Nvidia's dominant — and premium-priced — GPU ecosystem. AMD CEO Lisa Su characterized the CPU market as \"absolutely on fire\" during an investor briefing, citing surging demand from AI inference workloads and agentic AI deployments. CPUs are increasingly central to inference computing because they offer efficiency advantages and reduce dependency on any single chip supplier.\n\nFor Meta, the AMD partnership is the latest move in a staggering infrastructure buildout. The company has pledged to invest at least $600 billion in U.S. data centers and AI infrastructure over the coming years, with projected capital expenditures of $135 billion in 2026 alone. Just weeks ago, Meta signed a separate multiyear agreement for millions of Nvidia's latest processors, and it recently unveiled plans for a $10 billion gas-powered data center campus in Indiana designed for one gigawatt of capacity. The company is also developing its own in-house chips, though that effort has reportedly encountered delays.\n\nZuckerberg described the AMD deal as \"an important step\" in diversifying Meta's compute resources as the company works toward AI systems designed to deeply understand and empower individuals. The sheer scale of the commitment — potentially rivaling the GDP of small nations — underscores how aggressively Big Tech is betting that artificial intelligence will reshape computing, and how the competition for chip supply is reshaping the semiconductor industry's economics in return.",
-      "category": "tech",
-      "importance": 9,
-      "tags": [
-        "Meta",
-        "AMD",
-        "AI chips",
-        "data centers",
-        "semiconductors",
-        "Nvidia",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/amd-ces-ceo.png?resize=1200,661",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T16:03:09.903Z"
-    },
-    {
-      "id": "ps-1771949004856-kk5c",
-      "slug": "novo-nordisk-to-dramatically-cut-us-list-prices-for-wegovy-a",
-      "headline": "Novo Nordisk to Dramatically Cut US List Prices for Wegovy and Ozempic",
-      "subheadline": "Danish drugmaker moves to slash prices on blockbuster obesity and diabetes drugs as competition intensifies",
-      "body": "Novo Nordisk, the Danish pharmaceutical giant behind the world's best-known weight-loss and diabetes treatments, announced plans to significantly reduce the US list prices for both Wegovy and Ozempic beginning next year, a strategic pivot as the company battles to reclaim market share in the increasingly crowded obesity drug space.\n\nThe pricing decision marks a notable shift for Novo Nordisk, which has faced mounting pressure from competitors, lawmakers, and insurers over the high cost of its GLP-1 receptor agonist medications. Wegovy, approved for weight management, and Ozempic, indicated for type 2 diabetes, have been among the most commercially successful drugs in pharmaceutical history, but their steep US list prices have drawn scrutiny and limited access for millions of patients who could benefit from the treatments.\n\nThe move comes as Novo Nordisk confronts an evolving competitive landscape. Eli Lilly's rival GLP-1 drugs — Mounjaro and Zepbound — have captured significant market share, while a growing pipeline of next-generation obesity treatments from multiple drugmakers threatens to further erode Novo's dominant position. By cutting list prices, Novo Nordisk appears to be prioritizing volume and broader patient access over per-unit revenue, a calculation that could reshape the economics of the entire obesity drug market.\n\nThe announcement also arrives against a backdrop of heightened political attention to drug pricing in the United States. Both parties in Congress have targeted the high cost of GLP-1 medications, and the Biden administration's expansion of Medicare drug price negotiations has put additional pressure on manufacturers to bring costs down voluntarily. A preemptive price reduction could help Novo Nordisk get ahead of potential regulatory action while strengthening its negotiating position with pharmacy benefit managers and insurers.\n\nInvestors and analysts will be closely watching for the specific magnitude of the price cuts and their impact on Novo Nordisk's revenue trajectory. The company's shares have been under pressure in recent months as growth expectations for its obesity franchise have moderated. Whether lower list prices translate into meaningfully expanded patient access — and ultimately higher total sales volume — will be the key test of the strategy's success.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Novo Nordisk",
-        "Wegovy",
-        "Ozempic",
-        "drug pricing",
-        "obesity drugs",
-        "GLP-1",
-        "pharmaceutical industry"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/novo-will-slash-us-list-prices-for-wegovy-and-ozempic-next-year",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T16:03:24.856Z"
-    },
-    {
-      "id": "ps-1771949019755-w0f5",
-      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
-      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
-      "subheadline": "The ruling lets the asset manager's tokenized Treasury fund trade around the clock at $1 with instant settlement",
-      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree exemptive relief to offer round-the-clock trading of its Treasury Money Market Digital Fund, a decision that marks one of the most significant regulatory endorsements yet for blockchain-based capital markets infrastructure.\n\nUnder the approved structure, shares of the fund — which trades under the ticker WTGXX — can now be bought and sold at a fixed $1 intraday price through a broker-dealer acting as principal, rather than only at the end-of-day net asset value that governs traditional mutual funds. The broker-dealer will transact from its own inventory on a 24/7 basis with instant settlement on blockchain rails, while the fund itself retains its conventional mutual fund regulatory framework. The approval also required clearance from FINRA to expand the activities of WisdomTree's broker-dealer subsidiary.\n\nThe move places WisdomTree squarely in a fast-growing corner of finance where traditional assets are being represented as digital tokens on blockchains. The tokenized U.S. Treasury market has now surpassed $10 billion in circulation, according to data from rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with more than $2 billion in total value locked, while Circle and Ondo Finance also operate competing products. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets.\n\nBeyond continuous trading, WisdomTree introduced a feature that accrues dividends based on exactly how long each blockchain wallet held shares throughout a given day. The on-chain tracking ensures that investors who transfer shares mid-day still receive their proportional share of yield — a level of granularity that conventional fund accounting does not easily support. The firm plans to roll out the capability to institutional clients first through its Connect platform before potentially extending retail access via its Prime app.\n\nThe approval arrives as multiple Wall Street firms experiment with tokenization to compress settlement times and reduce back-office costs. Kraken, the cryptocurrency exchange, separately announced on the same day that it would offer 24/7 perpetual futures contracts on tokenized U.S. stocks. Together, the developments suggest that regulators and market participants are converging on a model where blockchain infrastructure operates within — rather than outside — existing securities law, potentially reshaping how investors interact with some of the most widely held financial instruments in the world.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "tokenization",
-        "SEC",
-        "WisdomTree",
-        "blockchain",
-        "money market funds",
-        "Treasury"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T16:03:39.755Z"
-    },
-    {
       "id": "ps-1771948109691-rz3d",
       "slug": "fed-s-goolsbee-signals-rising-inflation-concerns-amid-steady",
       "headline": "Fed's Goolsbee Signals Rising Inflation Concerns Amid Steady Jobs",
@@ -149,27 +172,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-24/fed-s-goolsbee-on-inflation-risk-tariffs-and-powell-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T15:48:29.691Z"
-    },
-    {
-      "id": "ps-1771947136890-kwfp",
-      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
-      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
-      "subheadline": "BBC documentary captures first on-the-record testimony of frontline killings and 'meat storm' suicide missions in Ukraine",
-      "body": "Four Russian soldiers who fled the front lines in Ukraine have given what is believed to be the first on-the-record testimony by serving troops describing commanders ordering the summary execution of their own men for refusing orders, according to a BBC documentary airing this week.\n\nThe soldiers, speaking from an undisclosed location outside Russia, described a culture of terror in which troops who refused to participate in near-suicidal assaults — known in Russian military slang as \"meat storms\" — were tortured, starved, and in some cases shot at point-blank range. One soldier, identified as Ilya, a 35-year-old former special-needs teacher from the Ural Mountains who was mobilized in May 2024, said he witnessed four men executed by a commander in Russian-occupied Donetsk. \"I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya told the filmmakers, using the Russian military term for executing one's own troops. Ilya provided detailed lists showing he is the sole survivor of 79 men mobilized alongside him from the city of Perm.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was conscripted off the street in October 2022, described witnessing executions carried out on the orders of Alexei Ksenofontov, commander of the 25th Brigade. Ksenofontov was awarded the Gold Star medal and named a \"Hero of Russia\" in 2024. But families of soldiers who died under his command wrote directly to President Vladimir Putin in January 2025, accusing Ksenofontov's leadership of running a \"gang\" that \"exterminated\" their men with impunity. Dima also described seeing the bodies of 20 recently arrived ex-convict soldiers lying in a ditch after being shot, their bank cards reportedly confiscated by commanders.\n\nThe testimonies align with mounting evidence of catastrophic Russian losses and deteriorating discipline on the front lines. The United Kingdom's Ministry of Defence estimates that more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022, with daily casualties in 2025 running between 900 and 1,500. The soldiers described \"meat storm\" tactics in which successive waves of infantry are sent against Ukrainian positions with the explicit aim of exhausting defenders' ammunition and drone supplies, regardless of the human cost.\n\nThe Russian government, responding to the BBC's inquiries, said its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that reports of violations are \"duly investigated.\" Moscow does not publish official casualty figures, and nearly all public opposition to the war has been suppressed inside Russia. The four soldiers remain in hiding, having fled both the battlefield and a country where dissent carries severe consequences.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC documentary",
-        "frontline executions",
-        "meat storms"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T15:32:16.890Z"
     },
     {
       "id": "ps-1771947201681-3wdr",
