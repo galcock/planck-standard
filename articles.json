@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-24T09:33:43.025Z",
+  "lastUpdated": "2026-02-24T09:48:53.790Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771926453849-9i5z",
+      "slug": "lord-mandelson-arrested-over-alleged-leak-of-sensitive-info-",
+      "headline": "Lord Mandelson Arrested Over Alleged Leak of Sensitive Info to Epstein",
+      "subheadline": "Former UK ambassador to the US released on bail after Metropolitan Police detained him on misconduct charges",
+      "body": "Lord Peter Mandelson, the veteran Labour figure and former British ambassador to the United States, was arrested Monday on suspicion of misconduct in public office and released on bail in the early hours of Tuesday, according to the Metropolitan Police.\n\nThe 72-year-old was detained at his Camden home in north London by officers from the Met's central specialist crime division and taken to a police station for questioning. BBC cameras captured him returning home at approximately 2:00 a.m. GMT. Police also executed search warrants at two addresses in Wiltshire and Camden as part of the investigation, which was launched earlier this month over allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister.\n\nThe allegations stem from a cache of documents released last month by the U.S. Department of Justice, which included emails between Mandelson and Epstein dating to 2009 and 2010. One email appeared to show Mandelson sharing an internal assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other communications appeared to reference a tax on bankers' bonuses and to confirm an imminent eurozone bailout package the day before it was publicly announced. While Mandelson has not commented publicly on the Epstein files in recent weeks, sources close to him say he maintains he did not act criminally and was not motivated by financial gain.\n\nMandelson was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said new information about the depth of his relationship with Epstein had surfaced. The arrest has intensified political pressure on Prime Minister Keir Starmer, who appointed Mandelson to the diplomatic post. Conservative leader Kemi Badenoch called the arrest \"the defining moment\" of Starmer's premiership, saying the image of the prime minister's appointee being led away by police would endure for years. Education Secretary Bridget Phillipson said the government remains committed to releasing documents related to Mandelson's appointment but must avoid jeopardizing the live police investigation.\n\nThe family of the late Virginia Giuffre, who accused Prince Andrew of sexual abuse tied to Epstein, praised British authorities for \"taking meaningful action\" and contrasted it with what they called \"continued inaction in the United States.\" U.S. lawmakers have separately urged Mandelson to testify before Congress as part of their own Epstein investigation. Consultations between the Metropolitan Police and the Crown Prosecution Service are ongoing, and further developments are expected as investigators review the seized materials.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Peter Mandelson",
+        "Jeffrey Epstein",
+        "UK politics",
+        "Metropolitan Police",
+        "misconduct in public office",
+        "Keir Starmer"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c564/live/361bc6a0-114d-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T09:47:33.849Z"
+    },
+    {
+      "id": "ps-1771926469212-fw47",
+      "slug": "new-method-lets-carbon-storage-simulations-adapt-without-ret",
+      "headline": "New Method Lets Carbon Storage Simulations Adapt Without Retraining",
+      "subheadline": "Researchers show how to update data-driven surrogate models hundreds of times faster while preserving accuracy within 3%",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, allowing data-driven simulation models to adapt to changing underground conditions without the costly process of retraining from scratch.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe two complementary strategies for updating Dynamic Mode Decomposition (DMD) operators — a widely used framework for building fast surrogate models from simulation data. The central problem they address is a persistent bottleneck: DMD models are trained on a specific set of reservoir properties, and when conditions change — such as shifts in rock permeability or well placement — the conventional approach requires generating new simulation snapshots and completely rebuilding the surrogate model. This effectively negates the speed advantages that made the surrogate attractive in the first place.\n\nThe proposed solution introduces lightweight mathematical updates to existing DMD models that account for two types of property changes. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation, weighting high-permeability zones more heavily in the model's reduced basis. Crucially, neither strategy requires new simulation data.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a freshly trained surrogate, while executing hundreds of times faster than full retraining. For carbon capture and storage projects, where operators must rapidly evaluate numerous scenarios involving CO₂ injection, well placement optimization, and uncertainty quantification, such speed gains could prove transformative. High-fidelity multiphase flow simulators — the gold standard for modeling subsurface CO₂ behavior — remain prohibitively expensive for real-time decision-making and iterative optimization loops.\n\nThe work sits at the intersection of computational physics, control theory, and engineering, reflecting growing interest in making reduced-order models more flexible and reusable. As geological carbon storage scales up globally as a climate mitigation strategy, the ability to perform rapid what-if analyses without sacrificing physical fidelity addresses a practical need that has limited the deployment of data-driven tools in reservoir management. The paper has been submitted under computational physics on arXiv and carries cross-listings in computational engineering and optimization.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-modeling",
+        "computational-physics",
+        "reservoir-simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1597842689682-32fb02953049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T09:47:49.212Z"
+    },
+    {
+      "id": "ps-1771926486340-a6cp",
+      "slug": "waterloo-engineers-bacteria-to-devour-tumors-from-the-inside",
+      "headline": "Waterloo Engineers Bacteria to Devour Tumors From the Inside Out",
+      "subheadline": "A synthetic biology approach uses quorum sensing to control oxygen-tolerant microbes that colonize cancer's oxygen-starved core",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from within, and survive long enough at the tumor's edges to potentially destroy the cancer entirely — a feat made possible by a DNA-based control circuit borrowed from the microbes' own communication systems.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide precisely such conditions, allowing bacterial spores injected into the body to colonize and multiply inside the tumor while ignoring healthy tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what happens at the tumor's periphery, where small amounts of oxygen seep in and kill the anaerobic bacteria before they can finish the job. To solve this, the team inserted an oxygen-tolerance gene from a related species. But activating that gene too early would pose a serious safety risk — oxygen-tolerant bacteria could proliferate in the bloodstream or healthy organs. The researchers' solution was to wire the gene to a quorum-sensing circuit, a natural chemical signaling mechanism through which bacteria gauge their own population density. Only after a critical mass of microbes accumulates inside the tumor does the chemical signal reach the threshold needed to switch on the oxygen-resistance trait. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe results, published in ACS Synthetic Biology, demonstrate that the quorum-sensing circuit functions as designed in Clostridium sporogenes — confirmed by programming the bacteria to produce green fluorescent protein at the intended activation point. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing switch into a single organism and testing it in pre-clinical tumor models. The research, led by PhD student Bahram Zargar and former doctoral student Sara Sadr under the supervision of Ingalls and retired professor Pu Chen, is being advanced in partnership with CREM Co Labs, a Toronto company co-founded by Zargar.\n\nThe work represents a growing frontier in synthetic biology where living organisms are programmed as therapeutic agents rather than simply used to produce drugs. If the integrated system performs in animal models, it could offer an entirely new modality for attacking solid tumors — the category that accounts for roughly 90 percent of all cancers and remains stubbornly resistant to many immunotherapies designed for blood cancers.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "solid tumors"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T09:48:06.340Z"
+    },
+    {
+      "id": "ps-1771926502053-30ha",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract Claude's core capabilities",
+      "body": "Anthropic has accused three prominent Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of orchestrating a massive distillation campaign against its Claude AI model, using more than 24,000 fake accounts to generate over 16 million exchanges designed to replicate Claude's most advanced capabilities. The disclosure, made on February 23, lands squarely in the middle of an intensifying Washington debate over whether U.S. AI chip export controls on China are strict enough.\n\nDistillation is a well-known technique in which a smaller model is trained to mimic the outputs of a larger, more capable one. While labs routinely use it on their own systems, deploying it against a competitor's model amounts to extracting proprietary capabilities without authorization. Anthropic said the three Chinese labs specifically targeted Claude's strengths in agentic reasoning, tool use, and coding — the very features that differentiate its frontier model from rivals. OpenAI made a similar accusation against DeepSeek in a memo to House lawmakers earlier this month, suggesting the practice may be widespread.\n\nThe scope of the alleged extraction varied by company. DeepSeek accounted for roughly 150,000 exchanges focused on foundational logic and alignment, particularly around generating censorship-safe responses to policy-sensitive prompts. Moonshot AI was responsible for approximately 3.4 million exchanges targeting agentic reasoning, coding, and computer vision — capabilities that appear to have informed its recently released Kimi K2.5 open-source model and coding agent. MiniMax conducted the largest volume, with 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirect nearly half its traffic to extract capabilities from the latest Claude model immediately upon its release.\n\nThe accusations carry direct policy implications. Last month, the Trump administration allowed U.S. companies including Nvidia to resume exporting advanced AI chips such as the H200 to China, a move critics have called dangerously permissive. Anthropic argued that the scale of the distillation attacks \"requires access to advanced chips,\" directly reinforcing the case for tighter export controls. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, told reporters the findings confirm what many in the national security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he said.\n\nBeyond commercial competition, Anthropic warned that distilled models are unlikely to retain the safety guardrails that U.S. labs build into their systems — protections designed to prevent misuse in bioweapons development, offensive cyber operations, and mass surveillance. The company called for a coordinated response spanning the AI industry, cloud providers, and policymakers. DeepSeek, Moonshot AI, and MiniMax had not publicly responded to the allegations as of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China AI",
+        "export controls",
+        "Claude",
+        "Moonshot AI",
+        "MiniMax"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T09:48:22.053Z"
+    },
+    {
+      "id": "ps-1771926518590-30u9",
+      "slug": "panama-seizes-canal-ports-after-court-voids-ck-hutchison-con",
+      "headline": "Panama Seizes Canal Ports After Court Voids CK Hutchison Concession",
+      "subheadline": "President Mulino orders temporary occupation of two strategic ports, deepening a U.S.-China proxy battle in Latin America",
+      "body": "Panama's government moved to take control of two key ports along the Panama Canal on Monday after the country's top court struck down the concession held by a unit of Hong Kong-based CK Hutchison Holdings Ltd., dramatically escalating a geopolitical dispute that has positioned the Central American nation at the center of U.S.-China rivalry.\n\nPresident José Raul Mulino announced the temporary occupation of both ports in a televised address, directing the National Maritime Authority to assume administration and operations immediately. The order is designed to ensure \"uninterrupted, safe and efficient operation\" of the facilities, which sit at one of the world's most critical shipping chokepoints. Mulino emphasized that the seizure covers movable equipment, including cranes, and does not constitute a permanent forfeiture of ownership rights — the state will return property once the underlying legal dispute is resolved or pay compensation if the assets are transferred to a new operator.\n\nThe court ruling that triggered the takeover invalidated CK Hutchison's concession to operate the ports, though full details of the legal reasoning have not yet been made public. CK Hutchison, the conglomerate controlled by the family of billionaire Li Ka-shing, has operated ports at both the Pacific and Atlantic entrances to the canal for decades under long-term agreements with the Panamanian government. The company had previously faced intense pressure from Washington, which under former President Donald Trump openly challenged Chinese-linked companies' presence near the strategically vital waterway.\n\nThe Panama Canal handles roughly five percent of global maritime trade, and the ports flanking it are essential nodes in supply chains connecting Asia, the Americas, and Europe. Washington has long viewed Chinese commercial interests in the canal zone as a national security concern, and the dispute has become emblematic of broader competition between the United States and China for influence across Latin America. Beijing has denied any strategic intent behind its companies' commercial operations in the region.\n\nFor CK Hutchison, which operates one of the world's largest port networks spanning dozens of countries, the loss of the Panamanian concession represents both a significant commercial setback and a signal that geopolitical pressures can override decades-old business arrangements. The company has not yet publicly responded to the court's ruling or the government's occupation order. Analysts will be watching closely to see whether Panama moves to rebid the concession — and whether any new operator carries the implicit blessing of Washington.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Panama Canal",
+        "CK Hutchison",
+        "geopolitics",
+        "US-China",
+        "ports",
+        "Latin America",
+        "trade"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3dwPsYVgvtE/v1/1200x800.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T09:48:38.590Z"
+    },
+    {
+      "id": "ps-1771926533698-wty5",
+      "slug": "jane-street-sued-over-alleged-insider-trading-in-terraform-l",
+      "headline": "Jane Street Sued Over Alleged Insider Trading in Terraform Labs Collapse",
+      "subheadline": "Terraform's bankruptcy administrator claims the trading giant used nonpublic information to front-run the $40 billion TerraUSD crash",
+      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the high-frequency trader exploited insider information to front-run trades that helped accelerate the catastrophic 2022 collapse of the TerraUSD stablecoin and its sister token Luna — a meltdown that erased roughly $40 billion in market value in a single week.\n\nThe suit, filed by Todd Snyder, the administrator tasked with winding down Do Kwon's failed crypto venture, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants. According to a Wall Street Journal report on the filing, Snyder alleges that Jane Street acted on material nonpublic information obtained from Terraform insiders to position itself ahead of market-moving events. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nAt the center of the complaint is a sequence of trades on May 7, 2022. That evening, Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a major decentralized stablecoin trading venue. The lawsuit alleges that within just 10 minutes — and before any public disclosure — a wallet linked to Jane Street pulled an additional 85 million TerraUSD from the same pool. The combined withdrawals are alleged to have triggered a cascade of market panic that caused TerraUSD to lose its dollar peg. Do Kwon attempted to explain the following day that the withdrawal was merely a rebalancing to a new liquidity pool, but confidence had already fractured. By May 9, as TerraUSD's peg deteriorated further, Jane Street's Pratt reportedly messaged Kwon and his team in a group chat offering to buy Bitcoin or Luna, according to the complaint. Kwon responded that Jump Trading co-founder Bill DiSomma should have informed them earlier about Terraform's fundraising efforts.\n\nJane Street has forcefully denied the allegations. A spokesman for the firm called the lawsuit a \"desperate\" and \"transparent attempt to extract money,\" arguing that the losses suffered by Terra and Luna holders were the direct result of \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs.\" The firm said it would vigorously defend against what it characterized as \"baseless, opportunistic claims.\"\n\nThe lawsuit adds a new legal dimension to one of crypto's most devastating episodes. Terraform Labs, founded in Singapore in 2018, filed for bankruptcy in January 2024, and a wind-down trust assumed control later that year. Do Kwon himself pleaded guilty to two criminal counts and was sentenced to 15 years in prison in August. The collapse of TerraUSD and Luna set off a contagion that toppled several other crypto firms with exposure to the project, deepening a broader industry crisis. The outcome of the case against Jane Street could set significant precedents for how insider trading laws are applied in decentralized finance markets.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Jane Street",
+        "Terraform Labs",
+        "TerraUSD",
+        "insider trading",
+        "crypto",
+        "Do Kwon",
+        "stablecoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T09:48:53.698Z"
+    },
     {
       "id": "ps-1771925546461-nrj2",
       "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
@@ -24,69 +154,6 @@
       "publishedAt": "2026-02-24T09:32:26.461Z"
     },
     {
-      "id": "ps-1771925564164-zgmk",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to adapt to changing reservoir conditions without retraining — achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, tackle a persistent bottleneck in carbon capture and storage (CCS) modeling. High-fidelity multiphase flow simulators, which track how injected CO₂ migrates through underground rock formations, are essential for optimization and risk analysis but prohibitively expensive to run repeatedly. Dynamic Mode Decomposition (DMD), a popular data-driven technique that extracts reduced-order models from simulation snapshots, offers a faster alternative — but with a significant limitation. Whenever key reservoir properties such as rock permeability or well placement change, the DMD model must be rebuilt from scratch using new simulation data, negating much of its computational advantage.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD operator algebraically rather than regenerating it from fresh simulations. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response matrices to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the technique instead modifies the spatial basis of the reduced model, weighting high-permeability zones more heavily in the representation. Neither strategy requires running additional full-physics simulations.\n\nNumerical experiments reported in the paper demonstrate that the updated surrogate models accurately reproduce both CO₂ plume migration patterns and subsurface pressure buildup, matching freshly trained surrogates to within three percent accuracy. The computational savings are substantial: the update procedure runs hundreds of times faster than the conventional retrain-from-scratch workflow, potentially enabling real-time optimization loops and rapid scenario analysis that would be impractical with either full simulation or standard DMD retraining.\n\nThe work has direct implications for the growing carbon storage industry, where operators must evaluate numerous geological scenarios and well configurations to satisfy regulatory requirements and minimize leakage risk. By preserving physical fidelity while dramatically reducing turnaround time, the method could accelerate the design and monitoring of CCS projects at a moment when governments and companies worldwide are scaling up subsurface CO₂ injection as a climate mitigation strategy. The paper spans computational physics, computational engineering, and optimization, reflecting the inherently multidisciplinary nature of modern reservoir modeling.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1715981113644-6c363f7bbc4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T09:32:44.164Z"
-    },
-    {
-      "id": "ps-1771925580492-mlsq",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the core outward, and activate its own survival genes only when conditions are safe — a synthetic biology approach that could open a new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the interior of most solid tumors consists of dead cells starved of oxygen, the bacterium finds an ideal niche to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" The challenge has been that as the microbes expand outward toward oxygen-rich tissue at the tumor periphery, they die before finishing the job.\n\nTo overcome that barrier, the team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes, allowing the engineered strain to survive longer near a tumor's edges. But switching on that gene prematurely could let the bacteria proliferate in oxygen-rich regions such as the bloodstream — a serious safety concern. The researchers solved the problem with quorum sensing, a natural chemical signaling process in which bacteria release molecules whose concentration rises as the colony grows. Only after a critical mass of microbes has accumulated inside the tumor does the signal reach the threshold needed to activate the oxygen-resistance gene. The result is a tightly programmed biological attack with a built-in safety lock.\n\nBrian Ingalls, a professor of applied mathematics at Waterloo and a co-lead on the project, likened the design to an electrical circuit assembled from DNA components. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. The team's work on the quorum-sensing control system was published in ACS Synthetic Biology, where they demonstrated the concept by programming bacteria to produce green fluorescent protein at the intended activation point.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing switch into a single organism and testing it against tumors in pre-clinical animal trials. The Waterloo group — which spans chemical engineering, applied mathematics, and life sciences — is collaborating with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar, who initiated the research. Former Waterloo doctoral student Sara Sadr played a leading role in advancing the experimental work. If pre-clinical results hold up, the platform could eventually complement or replace conventional therapies for solid tumors, which account for roughly 90 percent of all cancers and remain notoriously difficult to treat with immune-cell-based approaches.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T09:33:00.492Z"
-    },
-    {
-      "id": "ps-1771925595010-3vyy",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges in large-scale distillation attacks",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a disclosure that lands squarely in the middle of a fierce Washington debate over AI chip exports to China.\n\nThe three labs collectively generated more than 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the operations specifically targeted Claude's most advanced capabilities, including agentic reasoning, tool use, and coding. The scale varied by company: MiniMax accounted for roughly 13 million exchanges focused on agentic coding and orchestration, Moonshot AI racked up 3.4 million exchanges targeting reasoning and computer vision, and DeepSeek logged over 150,000 exchanges apparently aimed at improving foundational logic and developing censorship-safe responses to sensitive queries. Anthropic said it observed MiniMax redirecting nearly half its traffic to extract capabilities from the newest Claude model at the time of its launch.\n\nThe allegations echo a similar complaint from OpenAI, which sent a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products. DeepSeek drew global attention a year ago with its open-source R1 reasoning model, which rivaled American frontier systems at a fraction of the cost. The company is reportedly preparing to release DeepSeek V4, which may surpass both Claude and ChatGPT in coding benchmarks.\n\nAnthropic is using the revelations to bolster the case for maintaining strict export controls on advanced AI chips. The Trump administration last month allowed U.S. companies including Nvidia to resume exports of chips like the H200 to China, a move critics say strengthens Beijing's AI capacity at a pivotal moment. Anthropic argued that distillation at the scale it documented \"requires access to advanced chips,\" directly linking the chip export debate to the security of American AI intellectual property. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, said the findings confirm what many suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he told TechCrunch.\n\nBeyond commercial competition, Anthropic raised national security concerns, warning that models built through illicit distillation are unlikely to retain safety guardrails designed to prevent misuse in bioweapons development, cyberattacks, or mass surveillance. The company called for a coordinated response across the AI industry, cloud providers, and policymakers, and said it would continue investing in defenses to make such extraction attacks harder to execute. None of the three accused Chinese companies have publicly responded to the allegations.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T09:33:15.010Z"
-    },
-    {
       "id": "ps-1771925609254-bx5n",
       "slug": "trump-s-revised-10-global-tariffs-now-in-effect-after-court-",
       "headline": "Trump's Revised 10% Global Tariffs Now in Effect After Court Setback",
@@ -105,49 +172,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-24/trump-s-new-10-global-tariffs-take-effect-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T09:33:29.254Z"
-    },
-    {
-      "id": "ps-1771925622930-b4ak",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-s-40b",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra's $40B Collapse",
-      "subheadline": "Terraform's bankruptcy administrator claims the trading giant front-ran withdrawals that helped trigger the 2022 stablecoin crash",
-      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that accelerated the catastrophic 2022 collapse of TerraUSD and its sister token Luna — a meltdown that erased roughly $40 billion in market value within a single week.\n\nThe suit, brought by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants. According to reporting by the Wall Street Journal, the complaint centers on events beginning May 7, 2022, when Terraform quietly withdrew 150 million TerraUSD from Curve3pool, a decentralized stablecoin trading platform. The lawsuit alleges that within just 10 minutes of that withdrawal — and before any public disclosure — a wallet linked to Jane Street pulled an additional 85 million TerraUSD from the same pool. The combined withdrawals, the suit claims, helped trigger the market panic that sent TerraUSD off its dollar peg and ultimately destroyed the entire Terra ecosystem.\n\nThe complaint further alleges that on May 9, as TerraUSD was already slipping, Jane Street's Pratt contacted Do Kwon and his team in a group chat, offering to buy bitcoin or Luna. Kwon reportedly responded that Jump Trading's co-founder Bill DiSomma should have informed them earlier about Terraform's fundraising efforts — a communication the lawsuit frames as evidence of the close, information-sharing relationships between Terraform insiders and major trading firms.\n\n\"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement, pledging to pursue \"all avenues supported by the facts and the law\" on behalf of Terraform's creditors.\n\nJane Street has forcefully denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A spokesperson emphasized that losses suffered by Terra and Luna holders were \"the result of a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and said the firm would defend vigorously against what it characterized as \"baseless, opportunistic claims.\" Terraform founder Do Kwon pleaded guilty to two criminal counts last year and was sentenced to 15 years in prison. The company filed for bankruptcy in January 2024. The lawsuit now raises the question of whether other market participants bear legal responsibility for the speed and severity of one of crypto's most devastating crashes.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "TerraUSD",
-        "insider trading",
-        "crypto",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T09:33:42.930Z"
-    },
-    {
-      "id": "ps-1771922842444-lovd",
-      "slug": "lord-mandelson-arrested-over-alleged-leaks-to-jeffrey-epstei",
-      "headline": "Lord Mandelson Arrested Over Alleged Leaks to Jeffrey Epstein",
-      "subheadline": "Former UK ambassador to Washington released on bail after Metropolitan Police detained him on suspicion of misconduct in public office",
-      "body": "Lord Peter Mandelson, the veteran Labour politician and former British ambassador to the United States, was arrested Monday on suspicion of misconduct in public office over allegations he shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein. The 72-year-old was released on bail in the early hours of Tuesday, with the Metropolitan Police confirming he remains under investigation.\n\nOfficers from the Met's central specialist crime division detained Mandelson at his Camden home in north London on Monday afternoon, placing him in an unmarked car and transporting him to a police station for interview. Search warrants were simultaneously executed at two addresses in Wiltshire and Camden. The BBC reported Mandelson returning to his London residence at approximately 2:00 a.m. GMT. The investigation, launched earlier this month, centers on allegations that Mandelson passed confidential government assessments to Epstein while serving as a cabinet minister under Prime Minister Gordon Brown.\n\nThe charges stem from documents released last month by the U.S. Department of Justice, which included emails between Mandelson and Epstein. A 2009 email appears to show Mandelson sharing a Downing Street adviser's assessment of policy measures, including an \"asset sales plan.\" Other correspondence reportedly shows him discussing a proposed tax on bankers' bonuses and confirming an imminent eurozone bailout package the day before its public announcement in 2010. The Metropolitan Police and the Crown Prosecution Service are in ongoing consultations about the case.\n\nMandelson, a central architect of New Labour who helped deliver Tony Blair's 1997 landslide, was appointed British ambassador to Washington in February 2025 by Prime Minister Keir Starmer. He was dismissed in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. The government has said it expects to release documents related to his appointment in early March, though the arrest has complicated that timeline — the Met Police has expressed interest in certain records from the vetting process. Mandelson has not commented publicly on the Epstein files in recent weeks, though sources close to him say he maintains he did not act criminally and was not motivated by financial gain.\n\nThe arrest has intensified political pressure on Starmer's government. Conservative leader Kemi Badenoch called it \"the defining moment\" of Starmer's premiership, saying the image of a prime ministerial appointee being led away by police would endure for years. The family of Virginia Giuffre, who accused Prince Andrew of sexual abuse in connection with Epstein, praised British authorities for \"taking meaningful action\" and drew a pointed contrast with what they described as continued U.S. inaction. American lawmakers have separately urged Mandelson to testify before Congress as part of their own Epstein investigation.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Peter Mandelson",
-        "Jeffrey Epstein",
-        "Metropolitan Police",
-        "UK politics",
-        "misconduct in public office",
-        "Keir Starmer"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c564/live/361bc6a0-114d-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8xy5jzrrxzo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T08:47:22.444Z"
     },
     {
       "id": "ps-1771922907740-mqcu",
@@ -357,28 +381,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-24/trump-s-new-global-tariff-takes-effect-for-150-days-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T06:03:26.467Z"
-    },
-    {
-      "id": "ps-1771910296980-jqrc",
-      "slug": "panama-orders-occupation-of-canal-ports-after-court-voids-ck",
-      "headline": "Panama Orders Occupation of Canal Ports After Court Voids CK Hutchison Deal",
-      "subheadline": "President Mulino's move escalates a geopolitical flashpoint pitting U.S. and Chinese interests in Latin America",
-      "body": "Panamanian President José Raul Mulino has ordered the temporary government occupation of two key ports along the Panama Canal after the country's top court struck down the operating concession held by a subsidiary of Hong Kong-based CK Hutchison Holdings Ltd., dramatically escalating a dispute that has become one of the most visible fronts in the U.S.-China rivalry across Latin America.\n\nThe presidential directive, announced on February 23, follows a judicial ruling that invalidated CK Hutchison's concession to operate the strategically vital port facilities. The decision effectively blocks a deal that had already drawn intense scrutiny from Washington, which has long expressed concern over Chinese-linked commercial influence near one of the world's most critical maritime chokepoints. The Panama Canal handles roughly five percent of global trade, and control of its adjacent infrastructure carries outsized geopolitical significance.\n\nCK Hutchison, the conglomerate founded by billionaire Li Ka-shing, has operated port facilities at both ends of the canal for decades through its subsidiary Hutchison Ports. The arrangement became a lightning rod earlier this year when the company attempted to restructure its concession terms amid mounting pressure from U.S. officials, including pointed warnings about Chinese economic leverage in the Western Hemisphere. Washington has framed the port operations as a national security concern, echoing broader tensions over Beijing's expanding footprint in global infrastructure.\n\nThe temporary occupation order places the Panamanian government in direct operational control of the facilities while authorities determine next steps. It remains unclear how long the government intends to maintain control or whether it will seek a new concessionaire. CK Hutchison has not yet publicly detailed its legal response, though the company is expected to challenge the ruling or seek compensation for the terminated agreement.\n\nThe standoff underscores how commercial disputes in strategically sensitive locations are increasingly being drawn into the orbit of great-power competition. For Panama, a small nation whose economy is deeply intertwined with canal operations, the episode presents both economic risk and diplomatic complexity as it navigates competing pressures from Washington and Beijing. Analysts say the outcome could set a precedent for how other nations in the region handle infrastructure agreements that attract superpower attention.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Panama Canal",
-        "CK Hutchison",
-        "geopolitics",
-        "US-China rivalry",
-        "Latin America",
-        "ports",
-        "infrastructure"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1645932631515-d00830e6d2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxQYW5hbWElMjBDYW5hbCUyMENLJTIwSHV0Y2hpc29ufGVufDB8MHx8fDE3NzE4OTU5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T05:18:16.980Z"
     },
     {
       "id": "ps-1771910313527-1so1",
