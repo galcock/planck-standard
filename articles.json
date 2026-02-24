@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-24T12:48:42.007Z",
+  "lastUpdated": "2026-02-24T13:03:49.351Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771938151028-sxun",
+      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
+      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
+      "subheadline": "BBC documentary captures first on-record testimony from frontline soldiers alleging systematic killings and torture within Russian ranks",
+      "body": "Four Russian soldiers who fled their units have given detailed first-hand accounts of commanders executing fellow troops for refusing orders on the front lines in Ukraine, in what the BBC believes is the first such on-record testimony from Russia's war.\n\nIn a new BBC documentary titled \"The Zero Line: Inside Russia's War,\" the men — speaking from an undisclosed location outside Russia — describe witnessing point-blank shootings, mass killings of newly arrived recruits, torture by electrocution, and the systematic use of so-called \"meat storm\" assaults in which waves of soldiers are sent across open ground to exhaust Ukrainian ammunition and drone supplies. The term \"zero\" has entered Russian military slang to mean executing one's own troops, and the soldiers say it was routinely ordered over radio by commanders as punishment for those who refused to advance.\n\nOne soldier, identified as Ilya, a 35-year-old former special-needs teacher from the Ural Mountains city of Kungur, told the BBC he witnessed four men shot at point-blank range by a commander in Russian-occupied Donetsk. Mobilized in May 2024, Ilya said he is the sole survivor from a group of 79 men conscripted alongside him, providing detailed lists to support his claim. He described being tortured and urinated on for refusing frontline duty, and said others who resisted were electrocuted, starved, and ultimately sent into assaults unarmed. A second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was pressed into service in October 2022, said he saw his commander in the 25th Brigade order executions just meters away. That commander, Alexei Ksenofontov, was awarded Russia's Gold Star medal and named a \"Hero of Russia\" in 2024. In January 2025, families of soldiers who died in his unit sent a joint letter to President Vladimir Putin appealing for an investigation into alleged brutality, calling the command structure a \"gang\" that \"continues to exterminate our men.\"\n\nDima also described discovering 20 bodies of newly arrived ex-convict recruits in a ditch, alleging they had been shot by commanders who confiscated their bank cards and falsified casualty reports. A third witness, a senior staff officer with 17 years of military service, recounted speaking to a member of what he described as a \"liquidation squad\" tasked with killing high-ranking officers. The testimony paints a picture of near-total lawlessness behind Russian lines, where soldiers say survival depended entirely on a commander's whim.\n\nThe accounts align with broader casualty estimates from the United Kingdom's Ministry of Defence, which reports that more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022. In 2025 alone, an estimated 900 to 1,500 Russians were killed or injured daily. The Russian government responded to the BBC's inquiries by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" Moscow said it could not independently verify the information provided.\n\nThe revelations emerge against a backdrop in which nearly all public opposition to the war has been suppressed inside Russia, and official casualty figures remain classified. The soldiers' decision to speak on the record — at considerable personal risk — represents a rare crack in the wall of silence surrounding conditions within the Russian military, and may intensify international scrutiny of how Moscow prosecutes its war in Ukraine.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Russia-Ukraine war",
+        "war crimes",
+        "Russian military",
+        "BBC documentary",
+        "frontline executions",
+        "meat storms"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T13:02:31.028Z"
+    },
+    {
+      "id": "ps-1771938167092-sedt",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, enabling surrogate models to adapt to changing underground conditions without the expensive process of regenerating simulation data and retraining from scratch.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, present a lightweight method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the complexity of multiphase fluid simulations. The central challenge they address is a practical one: DMD models are trained on a specific set of reservoir properties such as rock permeability and well placement, but in real-world carbon sequestration planning, these parameters shift constantly as geologists refine their understanding of subsurface conditions and engineers explore alternative injection strategies.\n\nThe conventional workaround — regenerating high-fidelity simulation snapshots and rebuilding the surrogate model each time a parameter changes — effectively negates the speed advantage that made DMD attractive in the first place. The new approach introduces two complementary update strategies. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially, such as when new geological data reveals localized high-permeability zones, the technique modifies the spatial representation to weight those regions more heavily in the model's reduced basis.\n\nNumerical experiments reported in the paper show the updated models recover key physical quantities — including carbon dioxide plume migration patterns and subsurface pressure buildup — to within three percent of a freshly trained surrogate, while executing hundreds of times faster than a full retraining cycle. The authors argue this performance makes real-time optimization and rapid scenario analysis feasible for carbon storage workflows, where operators need to evaluate numerous what-if scenarios under tight time constraints.\n\nThe work sits at the intersection of computational physics, optimization, and engineering, and arrives as the carbon capture and storage industry faces growing pressure to scale operations quickly and safely. High-fidelity multiphase reservoir simulators remain essential for regulatory approval and risk assessment, but their computational cost has been a persistent bottleneck for iterative design processes. If the lightweight updating approach proves robust across a wider range of geological settings and operational scenarios, it could become a standard tool in the carbon storage modeling pipeline, reducing the gap between simulation fidelity and the speed demands of real-time decision-making.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-models",
+        "computational-physics",
+        "reservoir-simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1707240412548-62369113bc90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T13:02:47.092Z"
+    },
+    {
+      "id": "ps-1771938183826-p0rl",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing keep engineered microbes confined to oxygen-starved tumor cores until ready to attack",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the inside, and survive long enough near oxygen-rich edges to potentially eliminate the entire mass — a synthetic biology approach that could open a fundamentally new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, the bacterium's spores can colonize and multiply there with remarkable efficiency. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work. The challenge has always been what happens next: as the bacterial colony expands outward toward the tumor's oxygenated periphery, the microbes die before finishing the job.\n\nTo solve that problem, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species, giving the engineered strain staying power in partially oxygenated tissue. But enabling oxygen tolerance at all times would pose a serious safety risk — bacteria capable of surviving in the bloodstream could trigger dangerous systemic infections. The researchers addressed this with a built-in biological switch called quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only after a critical mass of microbes has accumulated inside the tumor does the signal concentration cross the threshold needed to activate the oxygen-resistance gene. The design effectively confines the enhanced survival trait to the tumor microenvironment.\n\nThe findings, published in ACS Synthetic Biology, detail successful functional testing of the quorum-sensing circuit in Clostridium sporogenes. In that experiment, the team programmed the bacteria to produce green fluorescent protein as a reporter, confirming that the genetic switch activated at the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, an applied mathematics professor at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical animal models. The project is a collaboration between Waterloo and CREM Co Labs, a Toronto-based company co-founded by Bahram Zargar, the PhD student whose doctoral work seeded the research. Former Waterloo doctoral student Sara Sadr played a leading role in advancing the experimental platform. While clinical application remains years away, the approach represents a growing trend in oncology: deploying programmable living therapeutics that can navigate biological barriers conventional drugs cannot easily penetrate.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "synthetic biology",
+        "cancer treatment",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "oncology"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T13:03:03.826Z"
+    },
+    {
+      "id": "ps-1771938199276-khlp",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Extract Claude's Capabilities",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated over 16 million exchanges in large-scale distillation campaign",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a disclosure that lands squarely in the middle of a heated Washington debate over AI chip exports to China.\n\nThe three labs allegedly generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the campaign specifically targeted Claude's most advanced features: agentic reasoning, tool use, and coding. The scope varied by company. MiniMax accounted for the largest share with roughly 13 million exchanges focused on agentic coding and tool orchestration, while Moonshot AI conducted approximately 3.4 million exchanges spanning reasoning, coding, computer vision, and agent development. DeepSeek's footprint was comparatively smaller at over 150,000 exchanges, but Anthropic said those interactions appeared designed to improve foundational logic and alignment — including efforts to find censorship-safe workarounds for policy-sensitive queries.\n\nThe accusations echo a similar complaint from OpenAI, which sent a memo to House lawmakers earlier this month alleging that DeepSeek had used distillation to replicate its products. Dmitri Alperovitch, chairman of the Silverado Policy Accelerator and co-founder of CrowdStrike, told TechCrunch the revelations confirm what many in the industry had long suspected. \"It's been clear for a while now that part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models,\" he said, arguing the findings strengthen the case against selling AI chips to the companies involved.\n\nThe timing is particularly charged. Last month, the Trump administration formally permitted U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics say bolsters Beijing's computing capacity at a pivotal moment. Anthropic explicitly drew a line between chip access and distillation, arguing that the scale of extraction carried out by the three labs \"requires access to advanced chips\" and that restricting such access would limit both direct model training and illicit copying.\n\nBeyond competitive concerns, Anthropic raised national security alarms. The company warned that models built through unauthorized distillation are unlikely to retain safety guardrails designed to prevent misuse in areas like bioweapons development and offensive cyber operations. If such stripped-down models are open-sourced — as several Chinese labs have done with previous releases — dangerous capabilities could proliferate without meaningful safeguards. Anthropic said it is investing in stronger defenses against distillation but called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three accused companies had publicly responded at the time of publication.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "national security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T13:03:19.276Z"
+    },
+    {
+      "id": "ps-1771938214571-o3hp",
+      "slug": "wall-street-rally-stalls-as-ai-disruption-fears-weigh-on-sen",
+      "headline": "Wall Street Rally Stalls as AI Disruption Fears Weigh on Sentiment",
+      "subheadline": "A brief attempt at a stock market rebound faded quickly as investors remained cautious over artificial intelligence's uncertain impact",
+      "body": "A fleeting recovery in U.S. equities lost momentum on Monday as persistent concerns about the disruptive potential of artificial intelligence kept investors on edge, underscoring the fragile sentiment gripping global markets.\n\nStocks initially pushed higher in early trading, offering a glimmer of relief after recent sessions marked by volatility. But the rebound proved short-lived, with major indices surrendering their gains as the session wore on. The pattern reflects a market struggling to reconcile enthusiasm for AI's long-term promise with near-term anxiety about which industries and business models stand to be upended by the technology's rapid advance.\n\nThe hesitation comes amid a broader reassessment on Wall Street of how artificial intelligence will reshape corporate earnings, labor markets, and competitive dynamics across sectors. While a handful of mega-cap technology firms have surged on the AI narrative over the past two years, a growing chorus of analysts has warned that the transformation could prove destabilizing for companies slow to adapt — and that current valuations may not fully account for the risks. Investors appear increasingly unwilling to buy dips without clearer signals about how AI spending will translate into sustainable revenue growth.\n\nThe cautious tone extended across asset classes, with traders monitoring developments in both corporate guidance and macroeconomic data for clues about the trajectory ahead. Market participants noted that until there is greater clarity on AI's winners and losers — and on the pace at which the technology disrupts established industries — volatility is likely to persist. The mood marks a notable shift from periods of unbridled optimism that characterized earlier phases of the AI trade.\n\nFor now, the failed rally serves as a reminder that sentiment remains brittle. With earnings season offering mixed signals and policymakers still calibrating their response to a rapidly evolving technological landscape, investors appear content to stay cautious rather than chase momentum in an uncertain environment.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "stock market",
+        "artificial intelligence",
+        "Wall Street",
+        "market volatility",
+        "equities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1649003515353-c58a239cf662?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxzdG9jayUyMG1hcmtldCUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHwwfHx8MTc3MTkzODIxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/stock-market-today-dow-s-p-live-updates",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T13:03:34.571Z"
+    },
+    {
+      "id": "ps-1771938229250-lxia",
+      "slug": "wall-street-giants-execute-first-tokenized-cross-border-repo",
+      "headline": "Wall Street Giants Execute First Tokenized Cross-Border Repo Using U.K. Gilts",
+      "subheadline": "Canton Network transaction aims to unlock a share of $300 trillion in global assets currently sidelined by legacy settlement systems",
+      "body": "A consortium of major financial institutions — including DTCC, the London Stock Exchange Group, Euroclear, Tradeweb, Citadel Securities, and Société Générale — has completed the first cross-border intraday repurchase agreement using tokenized U.K. government bonds, a milestone that could reshape how hundreds of trillions of dollars in high-quality assets are deployed as collateral worldwide.\n\nThe transaction, executed on the Canton Network, a blockchain built specifically for institutional finance, represents the first time digitized gilts from the $2 trillion U.K. government bond market have been used in an intraday repo across national borders. It also marks the first cross-currency trade in which tokenized gilts were exchanged for tokenized deposits denominated in a non-sterling currency, with smart contracts from TreasurySpring embedding interest payments and risk terms directly into the transaction.\n\nThe deal highlights a fundamental inefficiency in traditional finance that blockchain proponents believe they can solve. According to Kelly Mathieson, chief business development officer at Digital Asset — the firm behind Canton Network — roughly $300 trillion in high-quality liquid assets exist globally, yet only about 10 to 11 percent, approximately $28 trillion, is actively used as collateral at any given time. The gap exists largely because moving securities across borders requires days of planning, navigating settlement cycles, batch processing windows, and market cut-off times. A shared blockchain ledger enables real-time, around-the-clock transfer of ownership, allowing firms to put their balance sheets to work far more efficiently.\n\nThe roster of participants underscores growing institutional conviction in tokenization. Digital Asset raised capital last year from Goldman Sachs, BNY, Nasdaq, DRW, and Citadel Securities, while firms like Archax and Cumberland DRW contributed to the latest transaction. In a standard repo, one party sells a security and agrees to repurchase it — often within the same day — to raise short-term cash. By placing both the cash leg and the bond leg on a shared ledger, the Canton consortium eliminated the friction of traditional settlement rails.\n\nThe successful execution moves tokenized finance beyond proof-of-concept demonstrations and into the plumbing of real capital markets. If the model scales, it could fundamentally alter how global banks, broker-dealers, and asset managers manage liquidity — turning vast pools of dormant collateral into active, tradeable positions without the delays that have defined cross-border settlement for decades.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenization",
+        "Canton Network",
+        "repo market",
+        "blockchain",
+        "DTCC",
+        "institutional finance",
+        "gilts"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/647dfc8020bbcc241911e83548d9d309d70e54c5-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/canton-advances-cross-border-repo-to-free-up-usd300-trillion-assets-via-tokenization",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T13:03:49.250Z"
+    },
     {
       "id": "ps-1771937239698-b42n",
       "slug": "russian-soldiers-describe-summary-executions-of-troops-who-r",
@@ -24,90 +151,6 @@
       "publishedAt": "2026-02-24T12:47:19.698Z"
     },
     {
-      "id": "ps-1771937255912-z3t3",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven models for carbon storage without costly retraining from scratch",
-      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to be rapidly updated when subsurface conditions change — eliminating the need for expensive retraining while maintaining accuracy within three percent of full simulations.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, tackle a longstanding bottleneck in computational reservoir modeling. High-fidelity multiphase flow simulators, essential for predicting how injected CO₂ migrates underground and how pressure builds in storage formations, are notoriously expensive to run. Dynamic Mode Decomposition (DMD), a data-driven technique that extracts dominant flow patterns from simulation snapshots, has emerged as an appealing shortcut. But DMD operators are trained on a specific set of reservoir properties. When engineers need to evaluate a different permeability field or a new well placement — routine tasks in optimization and uncertainty analysis — the standard approach requires generating fresh simulation data and rebuilding the surrogate model from scratch, negating much of the computational savings.\n\nThe new work introduces two complementary strategies that sidestep this problem entirely. For uniform changes in permeability across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale directly, without any new simulation runs. For spatially varying permeability changes — the more realistic and challenging case — the approach modifies the spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced-order representation. Neither strategy requires new training data.\n\nNumerical experiments presented in the paper demonstrate that the updated models accurately reproduce both plume migration patterns and pressure buildup, coming within three percent of a surrogate that was freshly trained on the new conditions. Crucially, the update process executes hundreds of times faster than full retraining, a speedup that could prove transformative for real-time optimization and rapid scenario analysis in carbon capture and storage operations.\n\nThe work arrives as the carbon storage industry faces mounting pressure to scale up quickly while managing geological uncertainty. Regulatory frameworks increasingly demand comprehensive sensitivity analyses across varying subsurface conditions, and the ability to perform rapid \"what-if\" studies without sacrificing physical fidelity could significantly accelerate permitting and operational decision-making. The research was supported in part by the Simons Foundation and is available as a preprint under arXiv identifier 2602.18441.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic mode decomposition",
-        "carbon storage",
-        "surrogate modeling",
-        "reservoir simulation",
-        "computational physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1606096571209-c0932e47a4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxkeW5hbWljJTIwbW9kZSUyMGRlY29tcG9zaXRpb24lMjBjYXJib24lMjBzdG9yYWdlfGVufDB8MHx8fDE3NzE5MzcyNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T12:47:35.912Z"
-    },
-    {
-      "id": "ps-1771937271124-wj12",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the core outward, and activate an oxygen-survival gene only when conditions are safe — a synthetic biology advance that could open a new front in cancer treatment.\n\nThe approach, published in ACS Synthetic Biology, centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. Because the interior of most solid tumors consists of dead, oxygen-depleted tissue rich in nutrients, the bacterium's spores can colonize a tumor's core and begin breaking it down. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge was the oxygen barrier at a tumor's periphery. As the bacteria expand outward from the anoxic core, even trace amounts of oxygen kill them before the cancer is fully eliminated. To solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed to ensure that gene stayed silent until the microbes were safely concentrated inside a tumor. Premature activation could let the bacteria proliferate in oxygen-rich tissues such as the bloodstream, posing a serious safety risk.\n\nThe solution came from quorum sensing, a natural bacterial communication mechanism in which chemical signals accumulate as population density rises. Only after enough engineered bacteria have gathered inside a tumor does the signal cross the threshold needed to switch on the oxygen-resistance gene. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA rather than wires: \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" In proof-of-concept experiments, the team verified the timing of the quorum-sensing trigger by programming the bacteria to produce green fluorescent protein at the intended activation point.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system in a single organism and testing it against tumors in pre-clinical animal trials. The interdisciplinary project — spanning engineering, applied mathematics, and life sciences — is being advanced in partnership with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar. Former Waterloo doctoral student Sara Sadr played a leading role in the research. If pre-clinical results hold, the platform could eventually complement existing immunotherapies and targeted treatments for the roughly 90 percent of cancers that present as solid tumors, where conventional therapies often struggle to penetrate deep into tumor tissue.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T12:47:51.124Z"
-    },
-    {
-      "id": "ps-1771937288700-v6if",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to extract Claude's core capabilities",
-      "body": "Anthropic has accused three prominent Chinese artificial intelligence companies of orchestrating a massive distillation campaign against its Claude model, alleging that DeepSeek, Moonshot AI, and MiniMax created more than 24,000 fake accounts and generated over 16 million exchanges to systematically extract the system's most advanced capabilities. The disclosure, made on February 23, lands squarely in the middle of a heated Washington debate over AI chip export controls to China.\n\nDistillation is a well-known technique in which one AI model is trained to replicate the outputs of another, effectively allowing a competitor to absorb hard-won capabilities without the original research investment. Anthropic said the three labs specifically targeted Claude's strengths in agentic reasoning, tool use, and coding — the very features that distinguish it from rivals. The accusation echoes a memo OpenAI sent to House lawmakers earlier this month alleging that DeepSeek had used similar techniques to mimic its products.\n\nThe scale of the operations varied significantly across the three companies. DeepSeek accounted for roughly 150,000 exchanges focused on foundational logic and alignment, with particular attention to generating censorship-safe responses to policy-sensitive queries. Moonshot AI was far more prolific, generating 3.4 million exchanges that targeted agentic reasoning, coding, data analysis, and computer vision — capabilities that may have informed its recently released Kimi K2.5 open-source model and coding agent. MiniMax conducted the largest extraction effort at 13 million exchanges, concentrating on agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest release in real time.\n\nThe timing is politically charged. Last month, the Trump administration allowed U.S. companies including Nvidia to resume exporting advanced AI chips such as the H200 to China, a move that drew sharp criticism from those who argue it fuels Beijing's AI ambitions. Anthropic explicitly connected the distillation attacks to the export control debate, arguing that the scale of extraction \"requires access to advanced chips\" and that restricting chip sales would limit both direct model training and large-scale distillation. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, called the findings unsurprising but significant. \"Now we know this for a fact,\" he told reporters, urging a complete halt to AI chip sales to the implicated companies.\n\nBeyond economic competitiveness, Anthropic raised national security concerns. The company warned that models built through illicit distillation are unlikely to retain the safety guardrails that U.S. labs implement to prevent misuse in bioweapons development, offensive cyber operations, and disinformation campaigns. If such stripped-down models are then open-sourced — as Chinese labs have increasingly done — dangerous capabilities could proliferate widely without meaningful safeguards. Anthropic called for a coordinated industry and government response, saying it would invest further in defenses to make distillation attacks harder to execute and easier to detect. DeepSeek, MiniMax, and Moonshot AI had not publicly responded to the allegations as of publication.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T12:48:08.700Z"
-    },
-    {
-      "id": "ps-1771937305334-mdg8",
-      "slug": "wall-street-rally-stalls-as-ai-disruption-fears-weigh-on-sen",
-      "headline": "Wall Street Rally Stalls as AI Disruption Fears Weigh on Sentiment",
-      "subheadline": "A brief attempt at recovery in equities faded quickly as investors remained cautious over artificial intelligence's market impact",
-      "body": "A fleeting attempt at a stock market rebound dissolved on Monday as persistent anxieties over the disruptive potential of artificial intelligence kept investors on the defensive, capping what had briefly appeared to be a stabilization effort across major indices.\n\nThe failed recovery underscores the extent to which AI-related uncertainty has become a dominant force shaping market psychology. After weeks of volatility driven by questions about which companies stand to benefit — and which face existential threats — from rapidly advancing AI capabilities, traders showed little appetite to step back into risk assets with conviction. The session's trajectory, from early gains to a fade into the close, reflected a market still searching for equilibrium amid a technological paradigm shift that has scrambled traditional sector assumptions.\n\nThe unease extends beyond the technology sector itself. Investors have been reassessing valuations across a broad swath of industries as generative AI tools accelerate in capability and adoption, raising questions about labor displacement, margin compression, and the sustainability of business models that may be vulnerable to automation. Companies that once appeared insulated from tech disruption are now being scrutinized through an AI lens, contributing to the unsettled tone across equity markets.\n\nThe choppy trading environment marks a contrast with the AI-fueled euphoria that powered significant gains in prior periods, when investors largely focused on the upside potential of the technology. The mood has shifted toward a more sober reckoning with the uneven distribution of AI's economic consequences, with market participants weighing the possibility that the technology's creative destruction could weigh on corporate earnings more broadly before its productivity gains fully materialize.\n\nFor now, the inability of stocks to sustain even a modest bounce suggests that sentiment remains fragile. Until investors gain greater clarity on how AI adoption will reshape competitive dynamics and profit pools across sectors, markets may continue to struggle for direction, with rallies likely to be met with selling pressure from participants eager to reduce exposure to an uncertain landscape.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "stocks",
-        "artificial intelligence",
-        "market volatility",
-        "Wall Street",
-        "equities",
-        "investor sentiment"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1639754390580-2e7437267698?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxzdG9ja3MlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzE5MzczMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/stock-market-today-dow-s-p-live-updates",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T12:48:25.334Z"
-    },
-    {
       "id": "ps-1771937321913-5ieb",
       "slug": "bitcoin-dip-buyers-accumulate-400-000-btc-in-60k-70k-range",
       "headline": "Bitcoin Dip Buyers Accumulate 400,000 BTC in $60K–$70K Range",
@@ -128,27 +171,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/over-400-000-btc-bought-between-usd60k-and-usd70k-during-bitcoin-s-latest-downturn",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T12:48:41.913Z"
-    },
-    {
-      "id": "ps-1771936348791-5wfl",
-      "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
-      "headline": "Russian Soldiers Describe Commanders Executing Troops Who Refused Orders",
-      "subheadline": "BBC documentary captures first on-the-record testimony from frontline soldiers alleging systematic killings and torture",
-      "body": "Four Russian soldiers who fled their units have provided what is believed to be the first on-the-record testimony from the front lines describing commanders executing fellow troops for refusing orders, torture of dissenting soldiers, and the brutal \"meat storm\" tactics that have defined Moscow's war in Ukraine.\n\nThe accounts, gathered by a BBC documentary team at an undisclosed location outside Russia, detail a systematic breakdown of discipline and law on the Russian side of the conflict. One soldier, identified as Ilya, a 35-year-old former special needs teacher from the Ural Mountains, told filmmakers he witnessed four soldiers shot at point-blank range by a commander in Russian-occupied Donetsk for fleeing the front line. \"The saddest thing is that I knew them. I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using the Russian military slang for executing one's own troops. Ilya also provided documentation showing he is the sole survivor of 79 men mobilized alongside him in May 2024 from the city of Perm.\n\nA second soldier, Dima, a 34-year-old former dishwasher repairman from Moscow who was conscripted off a street in October 2022, described witnessing executions ordered by his commander in the 25th Brigade, Alexei Ksenofontov — a recipient of Russia's Gold Star medal who was named a \"Hero of Russia\" in 2024. Dima also recounted discovering 20 bodies of newly arrived ex-convict soldiers in a ditch, allegedly shot by commanders who confiscated their bank cards. Ksenofontov has separately been denounced in a January 2025 letter from families of dead soldiers who appealed directly to President Vladimir Putin to investigate allegations of brutality, accusing commanders of \"exterminating our men\" while \"feeling their impunity.\"\n\nThe testimonies illuminate the human cost of Russia's attritional \"meat grinder\" strategy, in which waves of soldiers are sent across open ground to exhaust Ukrainian ammunition and drone supplies before follow-up waves attempt to seize positions. The soldiers described these assaults as tantamount to suicide missions. According to the UK Ministry of Defence, an estimated 900 to 1,500 Russian troops were killed or wounded daily in 2025, with total Russian casualties since the February 2022 invasion exceeding 1.2 million killed or injured. Moscow does not publish official casualty figures.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" It said it could not independently verify the information provided. The documentary, titled \"The Zero Line: Inside Russia's War,\" represents a rare crack in the wall of silence surrounding conditions on the Russian front, where nearly all public opposition to the war has been suppressed domestically.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC documentary",
-        "frontline testimony",
-        "meat storms"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T12:32:28.791Z"
     },
     {
       "id": "ps-1771936412493-7dbw",
@@ -1037,29 +1059,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lp7xwql4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-23T18:02:23.718Z"
-    },
-    {
-      "id": "ps-1771869792514-n07b",
-      "slug": "pentagon-threatens-anthropic-with-supply-chain-risk-label-ov",
-      "headline": "Pentagon Threatens Anthropic With 'Supply Chain Risk' Label Over AI Limits",
-      "subheadline": "Defense Secretary Hegseth summons CEO Dario Amodei to discuss military use of Claude after the company refused surveillance and autonomous weapons requests",
-      "body": "Defense Secretary Pete Hegseth has summoned Anthropic CEO Dario Amodei to the Pentagon for a Tuesday meeting that could determine the future of one of the most consequential partnerships between the U.S. military and the AI industry. At issue: Anthropic's refusal to allow its Claude AI system to be used for mass domestic surveillance and the development of weapons capable of firing without human oversight.\n\nThe confrontation marks a dramatic escalation in tensions between the Department of Defense and one of the world's leading AI companies. According to Axios, the Pentagon is threatening to designate Anthropic a \"supply chain risk\" — a classification normally reserved for foreign adversaries such as Chinese tech firms — if the company does not relent on its usage restrictions. Such a designation would void Anthropic's existing $200 million contract with the DOD, signed last summer, and compel other Pentagon partners to sever ties with Claude entirely.\n\nThe friction between Anthropic and the military became public following the January 3 special operations raid that led to the capture of Venezuelan President Nicolás Maduro, during which Claude was reportedly deployed in a supporting role. While the details of that use remain classified, the operation apparently exposed fundamental disagreements over where Anthropic draws ethical lines around its technology. A source familiar with the matter told Axios that Hegseth intends to present Amodei with an ultimatum: cooperate fully with the Pentagon's demands or face expulsion from the defense ecosystem.\n\nThe standoff poses significant risks for both sides. For Anthropic, losing its defense contract and being blacklisted across the Pentagon's supply chain would represent a major financial and reputational blow. For the Department of Defense, replacing Anthropic's technology would be a substantial undertaking, given Claude's integration into military workflows and the limited number of AI systems with comparable capabilities. The situation also raises broader questions about the degree to which AI companies can maintain independent ethical policies when contracting with the federal government.\n\nThe outcome of Tuesday's meeting could set a precedent for the entire AI industry's relationship with the U.S. military. Other leading AI firms, including OpenAI and Google, have faced their own internal debates over defense work. If the Pentagon successfully pressures Anthropic into dropping its restrictions — or follows through on its threat to sideline the company — it will send a clear signal about the government's willingness to use its contracting power to override corporate AI safety policies.",
-      "category": "tech",
-      "importance": 9,
-      "tags": [
-        "Anthropic",
-        "Pentagon",
-        "AI military use",
-        "Dario Amodei",
-        "Pete Hegseth",
-        "AI safety",
-        "defense policy",
-        "Claude"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2260256117.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-23T18:03:12.514Z"
     }
   ]
 }
