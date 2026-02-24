@@ -1,7 +1,136 @@
 {
-  "lastUpdated": "2026-02-24T04:33:28.029Z",
+  "lastUpdated": "2026-02-24T04:48:35.442Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771908435381-lazl",
+      "slug": "peter-mandelson-released-on-bail-after-arrest-on-misconduct-",
+      "headline": "Peter Mandelson Released on Bail After Arrest on Misconduct Charge",
+      "subheadline": "Former Labour grandee arrived home in London in the early hours after Metropolitan Police questioning",
+      "body": "Lord Peter Mandelson, the veteran Labour politician and former European Commissioner, has been released on bail following his arrest on suspicion of misconduct in public office, the Metropolitan Police confirmed early Tuesday.\n\nThe 72-year-old was arrested on Monday and questioned before being released pending further investigation. He was seen arriving at his London home at approximately 02:00 GMT. The Metropolitan Police provided limited details, confirming only that a 72-year-old man had been released while inquiries continue. The force did not elaborate on the specific nature of the alleged misconduct.\n\nMandelson's arrest comes amid a broader wave of high-profile investigations in the United Kingdom connected to the Jeffrey Epstein scandal. In February, Andrew Mountbatten-Windsor — formerly known as Prince Andrew — was arrested on suspicion of the same charge, misconduct in public office, and was taken to a Norfolk police station for questioning before being released under investigation. That arrest sent shockwaves through British public life and prompted questions from reporters directed at King Charles III.\n\nMandelson, who served as a key architect of New Labour under Tony Blair and held multiple cabinet positions before becoming a life peer, has long been one of the most influential and controversial figures in British politics. He was appointed as the UK's ambassador-designate to the United States earlier this year by Prime Minister Keir Starmer, a role that could now face significant uncertainty depending on the outcome of the police investigation.\n\nThe bail conditions and timeline for further action have not been disclosed. Legal experts note that being released on bail does not imply guilt, and investigations of this nature can take months to resolve. Neither Mandelson nor his representatives have issued a public statement regarding the arrest. The Metropolitan Police said inquiries are ongoing.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Peter Mandelson",
+        "Metropolitan Police",
+        "misconduct in public office",
+        "Jeffrey Epstein",
+        "UK politics"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/0834/live/02f992e0-1137-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2d7rgj8l9o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T04:47:15.382Z"
+    },
+    {
+      "id": "ps-1771908450619-xvjz",
+      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
+      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
+      "subheadline": "UBio-MolFM achieves quantum-level precision for biomolecular simulations of up to 1,500 atoms, a major leap for computational biology",
+      "body": "A team of researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to solve one of computational biology's most persistent challenges: simulating large biological systems with quantum-mechanical accuracy without prohibitive computational cost.\n\nThe work, posted to the arXiv preprint server on February 13 by Lin Huang, Jia Zhang, and nine collaborators, tackles the fundamental trade-off that has long constrained molecular simulation. Quantum-mechanical methods deliver high accuracy but cannot scale to the thousands of atoms found in real biological environments, while cheaper classical approximations sacrifice the precision needed to capture subtle biochemical phenomena. UBio-MolFM aims to deliver both simultaneously through three interlocking technical advances.\n\nAt the model's core is UBio-Mol26, a large bio-specific dataset built using what the authors call a \"Two-Pronged Strategy\" — combining systematic bottom-up enumeration of molecular fragments with top-down sampling from native protein environments encompassing up to 1,200 atoms. The architecture itself, dubbed E2Former-V2, is a linear-scaling equivariant transformer that employs novel sparsification and long-short range modeling techniques to capture non-local physical interactions. The team reports up to roughly four times higher inference throughput on large-system benchmarks compared to existing approaches. A three-stage curriculum learning protocol rounds out the framework, progressively training the model from energy initialization through energy-force consistency and finally force-focused supervision.\n\nThe researchers validated UBio-MolFM across both microscopic and macroscopic observables, testing it on liquid water structure, ionic solvation, and peptide folding — problems that span vastly different length scales and physical regimes. According to the paper, the model achieves ab initio-level fidelity on biomolecular systems containing up to approximately 1,500 atoms, including out-of-distribution configurations not seen during training. This generalization capability is particularly significant, as it suggests the model could serve as a practical tool rather than a narrow benchmark performer.\n\nThe implications for drug discovery, protein engineering, and fundamental biological research could be substantial. Traditional all-atom molecular dynamics simulations — sometimes described as a \"computational microscope\" — have been limited to either small systems at quantum accuracy or large systems at reduced fidelity. By reconciling scalability with quantum precision, UBio-MolFM represents a potential step change in what computational biologists can reliably simulate, positioning foundation models as increasingly central infrastructure in the life sciences.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "molecular simulation",
+        "foundation models",
+        "computational biology",
+        "quantum chemistry",
+        "machine learning",
+        "biomolecular systems"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655890954744-32aefd2e7bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bW9sZWN1bGFyJTIwc2ltdWxhdGlvbiUyMGZvdW5kYXRpb24lMjBtb2RlbHN8ZW58MHwwfHx8MTc3MTg0MDk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.17709",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T04:47:30.619Z"
+    },
+    {
+      "id": "ps-1771908467642-d3lo",
+      "slug": "stanford-team-develops-universal-nasal-vaccine-against-covid",
+      "headline": "Stanford Team Develops Universal Nasal Vaccine Against COVID, Flu, and Pneumonia",
+      "subheadline": "A single nasal spray activated broad immune defenses in mice for months, offering protection against viruses, bacteria, and allergens",
+      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — marking what could be a paradigm shift in how vaccines are designed. The findings were published February 19 in the journal Science.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new approach supercharges the lungs' broad innate immune defenses while simultaneously priming faster adaptive responses. The formulation, designated GLA-3M-052-LS+OVA, mimics the cytokine signals that T cells use to keep innate immune cells activated. It also includes ovalbumin, a harmless egg protein that draws T cells into the lungs to sustain this heightened state of alert for weeks to months. In the mouse study, three intranasal doses reduced viral levels in the lungs by 700-fold compared to unvaccinated animals, and all vaccinated mice survived exposures that proved lethal to controls.\n\nThe vaccine's reach extended well beyond coronaviruses. Mice were also protected for roughly three months against Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired infections — as well as house dust mite allergens, a common trigger for allergic asthma. Vaccinated mice exposed to the allergen maintained clear airways, while unvaccinated animals developed mucus buildup and strong allergic immune responses. \"I think what we have is a universal vaccine against diverse respiratory threats,\" said senior author Bali Pulendran, the Violetta L. Horton Professor II and professor of microbiology and immunology at Stanford.\n\nThe work builds on Pulendran's 2023 research into why the Bacillus Calmette-Guérin tuberculosis vaccine, given to approximately 100 million newborns each year, appears to offer cross-protection against unrelated infections. That earlier study revealed that T cells recruited to the lungs could sustain innate immune activation for months rather than the usual days — a finding the team has now exploited synthetically. The vaccinated lungs launched adaptive immune responses, including virus-specific antibodies and T cells, in as few as three days, compared to two weeks in unvaccinated mice. Lead author Haibo Zhang, a postdoctoral scholar in Pulendran's lab, conducted the experiments.\n\nThe next milestone is a Phase I human safety trial. Pulendran estimates that two nasal spray doses could be sufficient for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the approach translates from mice to humans, it could collapse multiple seasonal shots into a single autumn nasal spray offering protection against COVID-19, influenza, respiratory syncytial virus, bacterial pneumonia, and common allergens — while also providing a rapid-response shield against future pandemic pathogens.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "vaccine",
+        "nasal spray",
+        "Stanford Medicine",
+        "innate immunity",
+        "respiratory disease",
+        "COVID-19",
+        "influenza",
+        "pneumonia"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T04:47:47.642Z"
+    },
+    {
+      "id": "ps-1771908483419-ph2p",
+      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
+      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Copy Claude",
+      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly extracted 16 million exchanges in large-scale distillation campaign",
+      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of creating more than 24,000 fraudulent accounts to systematically extract capabilities from its Claude AI model, a revelation that lands squarely in the middle of a heated Washington debate over AI chip exports to China.\n\nThe alleged campaign generated over 16 million exchanges with Claude using a technique known as distillation, in which one AI model's outputs are used to train another. Anthropic said the Chinese labs specifically targeted Claude's most advanced features: agentic reasoning, tool use, and coding. The scope varied by company. MiniMax accounted for the largest share with roughly 13 million exchanges focused on agentic coding and orchestration, while Moonshot AI conducted 3.4 million exchanges targeting reasoning and computer vision capabilities. DeepSeek's operation was smaller at 150,000 exchanges but appeared aimed at foundational logic and alignment — particularly around generating responses to policy-sensitive queries that would circumvent censorship restrictions. Anthropic said it caught MiniMax in real time redirecting nearly half its traffic to extract capabilities from a newly launched Claude model.\n\nThe accusations carry significant policy implications. Last month, the Trump administration permitted U.S. companies including Nvidia to resume exporting advanced AI chips such as the H200 to China, a move critics warned would accelerate Beijing's AI capabilities. Anthropic argued that the scale of distillation it documented \"requires access to advanced chips,\" reinforcing the case for tighter export controls. Dmitri Alperovitch, CrowdStrike co-founder and chairman of the Silverado Policy Accelerator, told reporters that the attacks confirm what many in the national security community have long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" Alperovitch said.\n\nBeyond commercial concerns, Anthropic raised national security alarms. American AI companies invest heavily in safety guardrails that prevent models from assisting in bioweapons development, cyberattacks, and other dangerous applications. Models built through illicit distillation, the company warned, are unlikely to retain those protections, meaning dangerous capabilities could proliferate without safeguards. Anthropic specifically cited the risk of authoritarian governments deploying such stripped-down models for offensive cyber operations, disinformation campaigns, and mass surveillance — risks compounded if the resulting models are released as open source.\n\nThe disclosure follows a similar complaint from OpenAI, which sent a memo to House lawmakers earlier this month accusing DeepSeek of using distillation to replicate its products. DeepSeek, which gained international attention a year ago with its cost-efficient R1 reasoning model, is reportedly preparing to release DeepSeek V4, said to outperform both Claude and ChatGPT in coding benchmarks. Anthropic said it would continue strengthening its defenses against distillation but called for a coordinated response across the AI industry, cloud providers, and policymakers. None of the three accused companies have publicly responded to the allegations.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "DeepSeek",
+        "AI distillation",
+        "China",
+        "export controls",
+        "Claude",
+        "AI security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T04:48:03.419Z"
+    },
+    {
+      "id": "ps-1771908497590-7ukm",
+      "slug": "panama-orders-occupation-of-canal-ports-after-court-voids-ck",
+      "headline": "Panama Orders Occupation of Canal Ports After Court Voids CK Hutchison Deal",
+      "subheadline": "President Mulino moves to seize control of two strategic ports, deepening a U.S.-China proxy battle in Latin America",
+      "body": "Panamanian President José Raul Mulino has ordered the temporary government occupation of two ports operated by a subsidiary of Hong Kong-based CK Hutchison Holdings Ltd., following a top court ruling that struck down the conglomerate's concession to run the facilities near the Panama Canal.\n\nThe directive marks a dramatic escalation in a dispute that has evolved from a commercial disagreement into one of the most visible flashpoints in the broader geopolitical rivalry between the United States and China in Latin America. The ports in question sit along the Panama Canal, one of the world's most critical commercial waterways, handling roughly five percent of global maritime trade. Control over port infrastructure at either end of the canal carries enormous strategic and economic significance.\n\nCK Hutchison, the sprawling conglomerate founded by Hong Kong billionaire Li Ka-shing, had previously agreed earlier this year to sell its stake in the Panamanian port operations to a BlackRock-led consortium in a deal widely seen as aligned with Washington's interest in reducing Chinese-linked influence over key global chokepoints. That transaction, however, collapsed amid legal and political challenges within Panama, with the country's courts ultimately ruling against the validity of CK Hutchison's concession.\n\nThe forced occupation order places the Mulino government in a delicate position. Washington has made clear its desire to see Chinese-affiliated firms lose their foothold at the canal — a stance that dates back to the Trump administration's vocal criticism of Beijing's presence there. At the same time, Panama must navigate its own legal framework and sovereignty concerns, balancing domestic politics against intense pressure from both global powers.\n\nThe situation remains fluid, with no immediate indication of how CK Hutchison will respond to the government takeover or whether it will pursue further legal remedies. For international shipping companies and commodity traders, the dispute introduces a new layer of uncertainty around one of the world's most essential trade corridors. Analysts say the outcome could set a precedent for how Latin American nations manage foreign infrastructure concessions amid escalating great-power competition.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Panama Canal",
+        "CK Hutchison",
+        "geopolitics",
+        "US-China",
+        "infrastructure",
+        "Latin America"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1641176716788-d4816a66dc6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxQYW5hbWElMjBPcmRlcnMlMjBPY2N1cGF0aW9uJTIwQ2FuYWwlMjBQb3J0cyUyMEFmdGVyJTIwQ291cnQlMjBWb2lkc3xlbnwwfDB8fHwxNzcxOTA2NjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T04:48:17.590Z"
+    },
+    {
+      "id": "ps-1771908515360-uogn",
+      "slug": "bitcoin-slides-to-64-000-as-ai-disruption-fears-hammer-ibm-d",
+      "headline": "Bitcoin Slides to $64,000 as AI Disruption Fears Hammer IBM, Drag Markets",
+      "subheadline": "Anthropic's claim that Claude can automate COBOL modernization sent IBM down 11%, triggering broad selloffs across equities and crypto",
+      "body": "Bitcoin tumbled to $64,000 on Monday, shedding 5% in 24 hours, as a fresh wave of artificial intelligence disruption fears rippled through equity and cryptocurrency markets alike. The catalyst: Anthropic's announcement that its Claude Code platform can automate the modernization of COBOL, the decades-old programming language that underpins an estimated 95% of U.S. ATM transactions and hundreds of billions of lines of mission-critical code across finance, government, and aviation.\n\nThe announcement struck directly at one of IBM's most lucrative consulting businesses. For years, the tech giant has profited from the scarcity of COBOL expertise — the original developers have largely retired, and only a handful of universities still teach the language. Modernizing these legacy systems has traditionally required what Anthropic described as \"armies of consultants spending years mapping workflows.\" IBM's stock cratered 11.2% in response, dragging the Dow, S&P 500, and Nasdaq each down more than 1% as investors reassessed AI's accelerating threat to established software and consulting business models.\n\nCryptocurrency markets, which have traded in increasingly tight correlation with software stocks in recent months, bore the full weight of the selloff. Ether and Solana fell at rates comparable to bitcoin's decline, while crypto-adjacent equities including Coinbase, Strategy, Circle, and Galaxy Digital dropped between 4% and 7%. Many major tokens are now approaching their lows from the February 5 panic, and bitcoin subsequently dipped below $63,000 in extended trading. Analysts flagged $60,000 as the next critical support level, warning that a breach could open a path toward the mid-$50,000 range.\n\nNot everything was in the red. Bitcoin miners that have pivoted to AI infrastructure — including IREN, Cipher Mining, CleanSpark, and Hut 8 — posted gains of up to 5%, underscoring the market's bifurcation between AI beneficiaries and its casualties. Precious metals also surged as investors sought safety, with gold climbing 3.2% to $5,243 per ounce and silver rallying 6.5% to $87.69.\n\nThe episode marks the latest in what has become a near-daily pattern of AI-driven market disruption in 2026, as advances in large language models systematically challenge entrenched business models. \"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" wrote The Kobeissi Letter. With Bitcoin ETFs already enduring a historic $3.8 billion outflow streak over the past five weeks, the pressure on digital assets shows few signs of relenting.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "IBM",
+        "Anthropic",
+        "AI disruption",
+        "COBOL",
+        "crypto selloff",
+        "gold"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T04:48:35.360Z"
+    },
     {
       "id": "ps-1771907523829-8skf",
       "slug": "lord-mandelson-released-on-bail-after-arrest-over-epstein-al",
@@ -43,93 +172,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.17702",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-24T04:32:20.795Z"
-    },
-    {
-      "id": "ps-1771907558116-g2ja",
-      "slug": "stanford-scientists-develop-universal-nasal-vaccine-against-",
-      "headline": "Stanford Scientists Develop Universal Nasal Vaccine Against COVID, Flu, and Pneumonia",
-      "subheadline": "A single nasal spray supercharges the lungs' innate immune defenses, protecting mice for months against viruses, bacteria, and allergens",
-      "body": "Researchers at Stanford Medicine have developed an experimental nasal spray vaccine that protected mice against a sweeping range of respiratory threats — from SARS-CoV-2 and bacterial pneumonia to common allergens — marking what could be a paradigm shift in how vaccines are designed. The findings were published February 19 in the journal Science.\n\nUnlike conventional vaccines, which train the immune system to recognize specific pieces of a pathogen such as a viral spike protein, the new formulation works by hijacking the communication signals between immune cells to keep the lungs' broad-spectrum innate defenses on sustained high alert. The approach links innate and adaptive immunity into a coordinated response that persisted for at least three months in animal models. Vaccinated mice showed a 700-fold reduction in viral levels compared to unvaccinated animals, and all survived exposures that proved lethal to controls. Remarkably, the primed lung immune system mounted adaptive responses — virus-specific T cells and antibodies — in just three days, compared to the usual two weeks.\n\nThe vaccine, currently designated GLA-3M-052-LS+OVA, includes synthetic molecules that mimic the cytokine signals T cells use to activate toll-like receptors on innate immune cells, along with a harmless egg protein called ovalbumin that recruits T cells into the lungs. Administered as nasal droplets in three doses spaced a week apart, it protected mice not only against multiple coronaviruses but also against Staphylococcus aureus and Acinetobacter baumannii — two bacteria responsible for dangerous hospital-acquired infections. In a further surprise, vaccinated mice exposed to house dust mite proteins, a common trigger for allergic asthma, showed dramatically reduced allergic responses and maintained clear airways.\n\nThe breakthrough builds on earlier work by senior author Bali Pulendran, the Violetta L. Horton Professor II of microbiology and immunology at Stanford, whose lab discovered in 2023 that the century-old tuberculosis vaccine conferred cross-protection against unrelated pathogens by sustaining innate immune activation for months rather than days. Lead author Haibo Zhang, a postdoctoral scholar, helped translate that insight into a synthetic formulation designed from scratch. \"I think nobody was seriously entertaining that something like this could ever be possible,\" Pulendran said of the concept of a single vaccine defending against unrelated pathogens.\n\nThe team is now preparing for Phase I human safety trials. Pulendran estimates that two nasal spray doses could be sufficient for people and that, with adequate funding, a universal respiratory vaccine could reach the public within five to seven years. If the approach translates from mice to humans, it could fundamentally simplify seasonal vaccination — replacing multiple annual shots with a single nasal spray each fall — while also providing a rapid-deployment tool against future pandemic viruses before pathogen-specific vaccines can be developed.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "vaccines",
-        "Stanford Medicine",
-        "nasal spray vaccine",
-        "innate immunity",
-        "respiratory disease",
-        "pandemic preparedness"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nasal-spray-covid-19-vaccine.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260222092258.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T04:32:38.116Z"
-    },
-    {
-      "id": "ps-1771907574571-e0xi",
-      "slug": "anthropic-says-chinese-ai-labs-used-24-000-fake-accounts-to-",
-      "headline": "Anthropic Says Chinese AI Labs Used 24,000 Fake Accounts to Mine Claude",
-      "subheadline": "DeepSeek, Moonshot AI, and MiniMax allegedly generated 16 million exchanges to copy Claude's most advanced capabilities",
-      "body": "Anthropic has accused three Chinese artificial intelligence companies — DeepSeek, Moonshot AI, and MiniMax — of orchestrating a massive distillation campaign against its Claude AI model, creating more than 24,000 fake accounts and generating over 16 million exchanges designed to extract and replicate the system's most advanced capabilities.\n\nThe allegations, disclosed on February 23, land squarely in the middle of a heated Washington debate over whether the United States should restrict exports of advanced AI chips to China. Anthropic says the three labs specifically targeted Claude's strengths in agentic reasoning, tool use, and coding — areas where American frontier models hold a competitive edge. Distillation, the technique at issue, is widely used within AI labs to create smaller, more efficient versions of their own models. When turned against a competitor's system, however, it effectively allows one company to replicate another's work without bearing the research costs.\n\nThe scope of the alleged extraction varied by company. DeepSeek, which made headlines a year ago with its cost-efficient R1 reasoning model, accounted for roughly 150,000 exchanges focused on foundational logic and alignment, particularly around navigating policy-sensitive queries. Moonshot AI was linked to 3.4 million exchanges targeting agentic reasoning, coding, and computer vision — shortly before releasing its Kimi K2.5 open-source model and a coding agent. MiniMax was the most prolific, with approximately 13 million exchanges aimed at agentic coding and tool orchestration. Anthropic said it observed MiniMax redirecting nearly half its traffic to siphon capabilities from Claude's latest release in real time.\n\nThe timing is politically charged. The Trump administration last month cleared U.S. companies including Nvidia to export advanced AI chips such as the H200 to China, a move critics say bolsters Beijing's AI computing capacity at a pivotal moment. Anthropic explicitly connected the distillation campaign to the chip debate, arguing that extraction at this scale \"requires access to advanced chips\" and that restricted chip access would limit both direct model training and illicit distillation. Dmitri Alperovitch, co-founder of CrowdStrike and chairman of the Silverado Policy Accelerator, said the revelations confirm what many in the industry had long suspected. \"Part of the reason for the rapid progress of Chinese AI models has been theft via distillation of U.S. frontier models. Now we know this for a fact,\" he told reporters.\n\nBeyond commercial competition, Anthropic raised national security concerns. American AI companies invest heavily in safety guardrails that prevent misuse for bioweapons development, cyberattacks, and surveillance. Models built through illicit distillation, the company warned, are unlikely to retain those protections, meaning dangerous capabilities could proliferate with safeguards stripped out entirely. Anthropic called for a coordinated response across the AI industry, cloud providers, and policymakers to make distillation attacks harder to execute. None of the three accused Chinese firms had publicly responded at the time of publication.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "DeepSeek",
-        "AI distillation",
-        "China",
-        "export controls",
-        "Claude",
-        "AI security"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2262515136.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T04:32:54.571Z"
-    },
-    {
-      "id": "ps-1771907590428-umvp",
-      "slug": "panama-seizes-canal-ports-after-court-voids-ck-hutchison-con",
-      "headline": "Panama Seizes Canal Ports After Court Voids CK Hutchison Concession",
-      "subheadline": "President Mulino orders temporary occupation of two strategic ports, deepening a US-China proxy battle in Latin America",
-      "body": "Panama's government has moved to take control of two key ports along the Panama Canal after the country's top court struck down the concession held by a unit of Hong Kong-based CK Hutchison Holdings Ltd., marking a dramatic escalation in a geopolitical struggle over one of the world's most critical shipping corridors.\n\nPresident José Raul Mulino announced the temporary occupation in a speech on Monday, February 23, declaring that administration and operation of the two facilities would revert to Panama's National Maritime Authority. The move, Mulino said, was necessary to guarantee the ports' \"uninterrupted, safe and efficient operation\" in the wake of the judicial ruling. The ports include the Port of Balboa, located at the Pacific entrance to the canal, which had been managed by CK Hutchison.\n\nThe decision lands squarely at the intersection of commerce and great-power competition. The Panama Canal handles roughly five percent of global maritime trade, and the presence of a company linked to Chinese business interests at its chokepoints has drawn sustained scrutiny from Washington. The dispute has effectively become a proxy battle between the United States and China for influence in Latin America — a dynamic that intensified after former U.S. President Donald Trump publicly pressured Panama over Chinese involvement in canal operations. CK Hutchison, controlled by the family of the late billionaire Li Ka-shing, has operated port facilities along the canal for decades under long-term concession agreements.\n\nThe court ruling that voided the concession removes the legal foundation for CK Hutchison's continued presence, though the full implications for the company's broader Latin American port portfolio remain unclear. CK Hutchison's ports division is one of the world's largest container terminal operators, with assets spanning dozens of countries. The loss of the Panama concession represents both a financial setback and a symbolic blow amid rising geopolitical headwinds facing Chinese-linked enterprises in the Western Hemisphere.\n\nFor Panama, the challenge now shifts to operational continuity. Managing major container terminals requires deep logistical expertise and significant capital, and any disruption at the canal could ripple through global supply chains already strained by trade tensions and route diversions. The Mulino administration's framing of the takeover as temporary suggests the government may seek a new operator or renegotiate terms — a process that will be closely watched in Washington, Beijing, and boardrooms worldwide.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Panama Canal",
-        "CK Hutchison",
-        "geopolitics",
-        "US-China",
-        "ports",
-        "Latin America",
-        "trade"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i3dwPsYVgvtE/v1/1200x800.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/panama-to-occupy-canal-ports-after-court-scraps-ck-hutchison-deal",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T04:33:10.428Z"
-    },
-    {
-      "id": "ps-1771907607936-hfo9",
-      "slug": "bitcoin-slides-to-64-000-as-ai-disruption-fears-hammer-ibm-d",
-      "headline": "Bitcoin Slides to $64,000 as AI Disruption Fears Hammer IBM, Drag Markets",
-      "subheadline": "Anthropic's claim that Claude can automate COBOL modernization crushed IBM shares 11%, triggering broad sell-offs across equities and crypto",
-      "body": "A fresh wave of artificial intelligence disruption fears swept through financial markets on Monday, sending bitcoin tumbling to $64,000 and erasing more than 11% from IBM's stock price after Anthropic announced its Claude platform can automate the modernization of legacy COBOL code — a business that has long been a lucrative consulting revenue stream for the technology giant.\n\nThe sell-off underscored a pattern that has become grimly familiar in 2026: AI capability announcements from leading model developers triggering swift repricing of incumbent business models. Anthropic noted that COBOL underpins an estimated 95% of U.S. ATM transactions and that hundreds of billions of lines of the decades-old programming language remain in production across finance, airlines, and government. With the original developers long retired and few universities still teaching the language, COBOL modernization has historically required what Anthropic described as \"armies of consultants spending years mapping workflows\" — a description that maps neatly onto IBM's consulting operation. Claude Code, the company said, can now automate the exploration and analysis phases that consume the bulk of that effort.\n\nThe damage radiated outward from IBM into broader indices, with the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all falling more than 1% as the software sector and private equity names suffered what analysts described as increasingly routine AI-driven selling. Cryptocurrency markets, which have traded tightly correlated with software stocks in recent months, bore outsized pain. Bitcoin dropped roughly 5% over 24 hours to $64,000, while ether and solana declined by similar margins. Publicly traded crypto-adjacent companies including Coinbase, Strategy, Circle, and Galaxy Digital shed between 4% and 7%, with major tokens approaching their panic lows from February 5.\n\n\"It's becoming increasingly clear how pivotal the times we are in right now truly are,\" wrote the widely followed Kobeissi Letter. In a notable divergence, bitcoin mining companies that have pivoted toward AI infrastructure — including IREN, Cipher Mining, CleanSpark, and Hut 8 — bucked the trend with gains ranging from 0.7% to 5%. Precious metals also rallied sharply as investors sought safety, with gold surging 3.2% to $5,243 per ounce and silver climbing 6.5% to $87.69.\n\nThe rout adds to what has already been a punishing stretch for digital assets, with bitcoin ETFs logging $3.8 billion in outflows over a historic five-week streak. Monday's action suggested that crypto's increasingly tight linkage to technology sector sentiment leaves it acutely vulnerable each time AI advances threaten to compress another incumbent's margins — a dynamic that shows no sign of abating.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "IBM",
-        "Anthropic",
-        "AI disruption",
-        "COBOL",
-        "crypto sell-off",
-        "market correction"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/80f2f833ba0f2c369edfb8875c4b8cbd636e7e6e-1440x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/23/crypto-suffers-deeper-declines-as-ai-fears-send-ibm-plunging-11",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T04:33:27.936Z"
     },
     {
       "id": "ps-1771906623212-obo6",
@@ -191,26 +233,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T03:32:01.903Z"
-    },
-    {
-      "id": "ps-1771903937050-n0rr",
-      "slug": "new-ai-foundation-model-bridges-quantum-accuracy-and-biologi",
-      "headline": "New AI Foundation Model Bridges Quantum Accuracy and Biological Scale",
-      "subheadline": "UBio-MolFM achieves quantum-level precision on biomolecular systems up to 1,500 atoms with 4x faster inference",
-      "body": "A team of researchers has unveiled UBio-MolFM, a universal molecular foundation model designed to overcome one of computational biology's most persistent challenges: simulating biological systems with quantum-mechanical accuracy without sacrificing the ability to model large, biologically relevant molecules.\n\nThe work, posted to the arXiv preprint server on February 13 by Lin Huang, Jia Zhang, and nine co-authors, introduces a framework built on three interlocking innovations. At its core is UBio-Mol26, a large-scale dataset constructed using what the authors call a \"Two-Pronged Strategy\" — combining systematic enumeration of molecular building blocks with sampling from native protein environments containing up to 1,200 atoms. The model's architecture, dubbed E2Former-V2, is a linear-scaling equivariant transformer that employs novel sparsification and long-short range modeling techniques to capture non-local physical interactions while delivering up to approximately four times higher inference throughput on large-system benchmarks compared to existing approaches.\n\nAll-atom molecular simulation has long served as a \"computational microscope\" for probing the mechanisms of life at the atomic level. But researchers have been forced to choose between the precision of quantum-mechanical calculations — which become computationally intractable for large systems — and classical force fields that can handle biological scale but sacrifice accuracy. UBio-MolFM attempts to resolve this trade-off through a three-stage curriculum learning protocol that progressively trains the model, moving from energy initialization to energy-force consistency and finally to force-focused supervision, a strategy the authors say helps mitigate problematic energy offsets.\n\nThe team validated UBio-MolFM across both microscopic and macroscopic observables, including liquid water structure, ionic solvation free energies, and peptide folding dynamics. According to the paper, the model achieves ab initio-level fidelity on biomolecular systems containing up to roughly 1,500 atoms — well beyond the training distribution — suggesting meaningful generalization capability. The ability to produce accurate molecular dynamics observables, not just static energy predictions, marks a significant step toward practical deployment in drug discovery, protein engineering, and other domains where atomic-resolution simulations of large biomolecules are essential.\n\nThe research sits at the intersection of chemical physics, biological physics, and artificial intelligence, reflecting a broader trend of foundation models migrating from language and vision into the physical sciences. If the results hold under independent scrutiny, UBio-MolFM could represent a meaningful advance in making quantum-accurate simulation accessible at biologically relevant scales — a goal the computational chemistry community has pursued for decades.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "molecular simulation",
-        "foundation models",
-        "computational biology",
-        "quantum chemistry",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655890954753-f9ec41ce58ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtb2xlY3VsYXIlMjBzaW11bGF0aW9uJTIwZm91bmRhdGlvbiUyMG1vZGVsc3xlbnwwfDB8fHwxNzcxODM5MTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.17709",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T03:32:17.050Z"
     },
     {
       "id": "ps-1771903088204-l3s2",
@@ -1044,28 +1066,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-22/gold-rises-as-trump-s-tariff-knockback-generates-uncertainty",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T11:04:08.258Z"
-    },
-    {
-      "id": "ps-1771843705994-3z2l",
-      "slug": "oil-prices-retreat-from-seven-month-highs-ahead-of-us-iran-t",
-      "headline": "Oil Prices Retreat From Seven-Month Highs Ahead of US-Iran Talks",
-      "subheadline": "Crude eases as diplomatic negotiations set to resume this week amid heightened US military presence in the Middle East",
-      "body": "Oil prices pulled back from their highest closing levels since July as markets weighed the prospect of renewed US-Iran nuclear negotiations scheduled for later this week, even as a significant American military buildup in the Middle East underscored the tensions surrounding the diplomatic process.\n\nThe retreat came after crude had climbed to its strongest settlement in roughly seven months, a rally driven in part by geopolitical risk premiums tied to the volatile situation in the Gulf region. The resumption of talks between Washington and Tehran introduces a measure of uncertainty that traders appear to be pricing in cautiously — a successful diplomatic outcome could eventually pave the way for increased Iranian oil exports, while a breakdown could further inflame regional tensions and tighten supply.\n\nThe presence of massed US forces in the Middle East adds a layer of complexity to the negotiations. Washington has maintained an elevated military posture in the region, a signal that diplomatic engagement does not preclude preparedness for escalation. For oil markets, this dual-track approach creates a push-and-pull dynamic: the possibility of détente weighs on prices, while the military backdrop provides a floor of geopolitical risk.\n\nAnalysts have noted that Iranian crude supply remains a pivotal variable for global oil balances. Iran holds substantial production capacity that has been constrained by sanctions, and any agreement that eases those restrictions could add meaningful barrels to a market already navigating demand uncertainty. Conversely, a collapse in talks — particularly against the current military posture — could send prices sharply higher.\n\nTraders and energy strategists will be closely monitoring developments as negotiations get underway, with the outcome likely to set the tone for crude markets heading into March. The interplay between diplomacy and military signaling in the region remains one of the most consequential factors for global energy prices in 2026.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "oil",
-        "crude-prices",
-        "US-Iran",
-        "nuclear-talks",
-        "Middle-East",
-        "geopolitics",
-        "energy-markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1702480248432-7a87f4d9463e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8b2lsJTIwY3J1ZGUtcHJpY2VzfGVufDB8MHx8fDE3NzE4NDM3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-22/latest-oil-market-news-and-analysis-for-feb-23",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T10:48:25.994Z"
     }
   ]
 }
