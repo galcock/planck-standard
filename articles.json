@@ -1,7 +1,132 @@
 {
-  "lastUpdated": "2026-02-24T14:18:32.608Z",
+  "lastUpdated": "2026-02-24T14:33:32.922Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771943539193-n5qc",
+      "slug": "russian-soldiers-describe-summary-executions-of-troops-who-r",
+      "headline": "Russian Soldiers Describe Summary Executions of Troops Who Refuse Orders",
+      "subheadline": "Two fugitive servicemen tell BBC they witnessed commanders shoot soldiers at point-blank range on the front lines in Ukraine",
+      "body": "Russian soldiers have come forward with firsthand accounts of commanders executing their own troops for refusing to fight, in testimony that offers a harrowing window into discipline and coercion within Moscow's military ranks in Ukraine.\n\nTwo men — identified only as Ilya, 35, and Dima — spoke to the BBC from an undisclosed location outside Russia for a documentary titled \"The Zero Line: Inside Russia's War.\" Ilya, a former special-needs teacher who was drafted into the army, recounted watching a commander shoot four soldiers at point-blank range after they fled the front line and refused to return. The practice, known in Russian military slang as \"zeroing,\" serves both as punishment and as a tool of intimidation against others contemplating disobedience, the men said. Dima, who also witnessed the killings, described commanders murdering their own men as \"a normal thing.\" He recalled standing just two to three meters away: \"Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life.\"\n\nThe accounts, which the BBC says it cannot independently verify, add to a growing body of testimony from Russian servicemen and their families alleging systematic brutality within Russia's forces. Reports of so-called \"barrier troops\" — units positioned behind front lines to prevent retreat — and extrajudicial killings have circulated since the early months of the full-scale invasion launched in February 2022, but direct eyewitness testimony from soldiers willing to speak on camera remains rare.\n\nThe Russian government pushed back against the allegations. In a statement to the BBC, Moscow said its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" It added that information regarding alleged violations and crimes \"is duly investigated\" but said it was unable to verify the claims presented by the broadcaster.\n\nThe documentary's release comes at a moment of intense scrutiny over Russian military losses. Western intelligence estimates have placed total Russian casualties — killed and wounded — well above 600,000 since the start of the full-scale invasion, though exact figures remain contested. The testimonies from Ilya and Dima suggest that for some Russian soldiers, the threat they face from their own commanders may rival the dangers of the battlefield itself.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Russia",
+        "Ukraine war",
+        "military executions",
+        "war crimes",
+        "BBC documentary",
+        "front lines"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T14:32:19.193Z"
+    },
+    {
+      "id": "ps-1771943553318-wjl4",
+      "slug": "new-method-enables-real-time-updates-to-carbon-storage-simul",
+      "headline": "New Method Enables Real-Time Updates to Carbon Storage Simulations",
+      "subheadline": "Researchers bypass costly retraining of surrogate models by updating operators directly, achieving results within 3% accuracy hundreds of times faster",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, eliminating the need to retrain data-driven surrogate models when subsurface conditions change.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight method for updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven framework for reducing the complexity of multiphase flow simulations — without generating new simulation data or rebuilding models from scratch. The approach addresses a persistent bottleneck: DMD operators are typically trained on a single set of reservoir properties, meaning any change in permeability or well placement has traditionally required expensive snapshot regeneration and full retraining, negating much of the computational savings that surrogate models are designed to provide.\n\nThe researchers introduce two complementary update strategies tailored to different scenarios. When permeability changes uniformly across a reservoir domain, their method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation to weight high-permeability zones more heavily in the model's reduced basis. Neither strategy requires running additional high-fidelity simulations.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than complete retraining. That speed advantage is consequential for carbon capture and storage (CCS) workflows, where engineers must rapidly evaluate multiple injection scenarios, optimize well placements, and quantify uncertainty across geological formations with highly variable properties.\n\nThe work arrives as CCS projects are scaling up globally, with regulatory frameworks increasingly demanding rigorous subsurface modeling to ensure long-term containment of injected CO₂. High-fidelity multiphase simulators remain the gold standard for accuracy but are computationally prohibitive for the iterative optimization and real-time decision-making that operational CCS projects require. By preserving physical fidelity while enabling rapid what-if analyses, the proposed method could help bridge the gap between simulation accuracy and practical deployment timelines — a critical need as the carbon storage industry moves from pilot projects to commercial scale.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1646559768375-2b319a0c233e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T14:32:33.318Z"
+    },
+    {
+      "id": "ps-1771943569711-i28f",
+      "slug": "waterloo-engineers-build-bacteria-that-devour-tumors-from-th",
+      "headline": "Waterloo Engineers Build Bacteria That Devour Tumors From the Inside Out",
+      "subheadline": "A synthetic DNA circuit lets oxygen-intolerant microbes colonize and consume solid cancers — safely activating only deep inside tumors",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate the oxygen-starved cores of solid tumors and consume them from within, deploying a synthetic genetic circuit that prevents the microbes from activating in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward a living, programmable cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a common soil microbe that can survive only in environments devoid of oxygen. The dead, nutrient-rich, oxygen-free interiors of many solid tumors provide exactly those conditions. Once bacterial spores reach a tumor's core, they germinate, multiply, and begin breaking down cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a professor of chemical engineering at Waterloo.\n\nA persistent obstacle has been that as the bacteria expand outward from the tumor center, they encounter small amounts of oxygen at the periphery and die before eliminating all malignant cells. To overcome this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But turning that gene on prematurely would pose a serious safety risk — oxygen-tolerant bacteria could proliferate in the bloodstream or healthy organs. The solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene activates only after enough bacteria have accumulated inside the tumor to produce a critical threshold of signal molecules, ensuring the enhanced survival mode engages exclusively where it is needed.\n\nIn earlier work, the team demonstrated that Clostridium sporogenes could be genetically modified for improved oxygen tolerance. In the latest study, led by former doctoral student Sara Sadr and PhD student Bahram Zargar under the supervision of Aucoin and applied mathematics professor Brian Ingalls, the researchers validated the quorum-sensing control system by programming bacteria to produce a green fluorescent protein at the intended activation point. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" Ingalls said. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing switch into a single engineered bacterium and testing it in pre-clinical tumor models. The Waterloo group is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to advance that effort. If successful in animal trials, the platform could eventually offer oncologists a fundamentally different weapon against solid tumors — one that is self-targeting, self-amplifying, and programmed to attack only from within.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "solid tumors"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T14:32:49.711Z"
+    },
+    {
+      "id": "ps-1771943583870-v47b",
+      "slug": "conduent-data-breach-now-confirmed-to-affect-over-25-million",
+      "headline": "Conduent Data Breach Now Confirmed to Affect Over 25 Million Americans",
+      "subheadline": "The government contractor hid its breach notice from search engines while millions had Social Security numbers and medical data stolen",
+      "body": "A ransomware attack on Conduent, one of the largest government services contractors in the United States, has now been confirmed to have compromised the personal data of at least 25 million people — a figure that has grown steadily since the January 2025 cyberattack was first disclosed.\n\nAccording to an update on Wisconsin's data breach notification page and a tally of notification letters reviewed by TechCrunch, the breach spans multiple states, with Texas (15.4 million individuals) and Oregon (10.5 million) bearing the brunt of the exposure. Hundreds of thousands of additional victims have been identified in Massachusetts, New Hampshire, and Washington. The stolen data includes names, dates of birth, addresses, Social Security numbers, health insurance details, and medical records — a comprehensive trove that poses severe identity theft and fraud risks for those affected.\n\nConduent provides printing, mailroom, document processing, and payment services for state government benefit programs including food assistance, workplace benefits, and unemployment insurance. The company says its services reach more than 100 million people nationwide, meaning the breach could still expand as more states complete their assessments. A ransomware group claimed responsibility for the attack, though Conduent has disclosed little about how the intrusion occurred or how it escalated to such scale.\n\nPerhaps most troubling is the company's apparent effort to limit public awareness of the incident. Conduent published an \"Incident Notice\" on its website in October 2025 that does not explicitly reference a cybersecurity breach. The page's source code includes a hidden \"noindex\" tag instructing search engines not to list it in results, effectively preventing affected individuals from discovering it through web searches. Company spokesperson Sean Collins declined to explain the decision or disclose how many notifications have been sent to date.\n\nWhile the Conduent breach ranks among the largest in U.S. history, it remains smaller than the Change Healthcare hack of February 2024, which exposed records belonging to roughly 190 million people after attackers exploited a stolen credential that lacked multi-factor authentication. That incident resulted in the company paying at least two ransoms to prevent mass publication of stolen health data. The Conduent case, however, underscores a persistent vulnerability in government contracting: private companies that handle vast quantities of sensitive public data often face minimal transparency requirements when that data is compromised.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Conduent",
+        "data breach",
+        "ransomware",
+        "cybersecurity",
+        "government contractors",
+        "personal data"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T14:33:03.870Z"
+    },
+    {
+      "id": "ps-1771943598471-1hjk",
+      "slug": "eu-plans-to-propose-full-russian-oil-ban-days-after-hungary-",
+      "headline": "EU Plans to Propose Full Russian Oil Ban Days After Hungary Vote",
+      "subheadline": "Brussels schedules April 15 announcement just three days after Hungarian elections, targeting remaining crude imports",
+      "body": "The European Union is preparing to propose a ban on all remaining Russian oil imports on April 15, timing the announcement just three days after Hungary's national elections, according to a document reviewed by Bloomberg.\n\nThe strategic scheduling underscores the delicate political calculus Brussels faces in severing one of the last major energy links between the bloc and Moscow. Hungary, under Prime Minister Viktor Orbán, has been among the most vocal opponents of EU sanctions on Russian energy, consistently leveraging its veto power to water down or delay punitive measures. By waiting until after Hungarian voters go to the polls on April 12, EU officials appear to be seeking to avoid handing Orbán a politically explosive issue in the final stretch of his campaign.\n\nHungary remains one of the last EU member states still heavily reliant on Russian crude, largely through the Druzhba pipeline that supplies landlocked Central European refineries. When the EU imposed its initial oil embargo in 2022 following Russia's full-scale invasion of Ukraine, Hungary secured a carve-out that allowed pipeline deliveries to continue — an exemption that has persisted even as most other member states diversified their supplies.\n\nThe proposed ban would represent a significant escalation in the bloc's sanctions architecture against Russia, closing a loophole that has drawn criticism from Ukraine and hawkish EU members such as Poland and the Baltic states. If adopted, it would effectively end billions of euros in annual revenue that Moscow has continued to collect from European buyers nearly four years into the war.\n\nThe proposal will still need to secure unanimous approval from all 27 member states, a process that has historically proven fraught when energy sanctions are on the table. Whether Hungary's post-election government — regardless of which party prevails — will acquiesce to the measure or deploy its veto remains the central question. Brussels officials are likely betting that the political dynamics after the vote will create more room for negotiation than the charged atmosphere of an active campaign season.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "European Union",
+        "Russia",
+        "oil ban",
+        "Hungary",
+        "sanctions",
+        "energy policy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1631986757112-df8231c612b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8RXVyb3BlYW4lMjBVbmlvbiUyMFJ1c3NpYXxlbnwwfDB8fHwxNzcxOTQzNTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/eu-to-propose-russian-oil-ban-three-days-after-hungary-election",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T14:33:18.471Z"
+    },
+    {
+      "id": "ps-1771943612794-sp2p",
+      "slug": "binance-relaunches-tokenized-stock-trading-via-ondo-finance-",
+      "headline": "Binance Relaunches Tokenized Stock Trading via Ondo Finance Partnership",
+      "subheadline": "The world's largest crypto exchange revives U.S. equity tokens nearly five years after regulatory pressure forced a retreat",
+      "body": "Binance is bringing tokenized stocks back to its platform through a partnership with Ondo Finance, marking a return to a product line the exchange abandoned nearly five years ago under pressure from European regulators.\n\nThe world's largest cryptocurrency exchange by trading volume has listed ten tokenized U.S. equities, ETFs, and commodity-linked products on Binance Alpha, a section of its wallet service typically used for early-stage crypto projects. The initial lineup includes blockchain-based versions of Apple, Google, Tesla, and Nvidia shares, as well as the Invesco QQQ ETF that tracks the Nasdaq index. The tokens are not available to users in the United States.\n\nThe relaunch represents a significant strategic reversal for Binance, which first offered tokenized stocks in April 2021 — starting with Tesla and later adding Coinbase, MicroStrategy (now Strategy), Microsoft, and Apple. That effort was short-lived, as scrutiny from the United Kingdom's Financial Conduct Authority and Germany's BaFin prompted the exchange to pull the product. Binance signaled in January that it was reconsidering the move, and the Ondo Finance deal now makes it official.\n\nThe timing aligns with a broader surge of interest in tokenized equities across both crypto-native platforms and traditional Wall Street institutions. The sector's total value is approaching $1 billion, with Ondo Finance alone accounting for more than $550 million in locked value and $11 billion in cumulative trading volume since September 2025. Rivals including Kraken, Bybit, Gemini, and Robinhood have all rolled out their own tokenized equity offerings, while the Nasdaq and the New York Stock Exchange have publicly outlined plans to enter the space. Coinbase, meanwhile, announced the launch of direct stock and ETF trading for U.S. users on the same day, positioning itself as an \"everything exchange\" in direct competition with Robinhood.\n\nProponents argue that blockchain-based stock tokens can democratize access to U.S. equities, particularly for retail investors in developing countries who lack traditional brokerage accounts. The tokens also hold potential utility as collateral within decentralized finance protocols, adding a layer of composability that conventional shares cannot offer. \"Our users now have even more convenient ways to explore and trade tokenized stocks, in line with our mission to offer innovative and accessible trading opportunities,\" said Jeff Li, Binance's vice president of product. Whether regulators will view this second attempt more favorably than the first remains an open question, but the competitive landscape has shifted dramatically in the intervening years — with tokenized securities now attracting institutional endorsement rather than just crypto-native enthusiasm.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Binance",
+        "Ondo Finance",
+        "tokenized stocks",
+        "crypto exchanges",
+        "real-world assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/4a779a695415dfb246aced6b768df1d250b7d9ee-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/23/binance-brings-back-tokenized-stocks-trading-with-ondo-finance-deal",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T14:33:32.794Z"
+    },
     {
       "id": "ps-1771942635911-kzab",
       "slug": "russian-soldiers-describe-summary-executions-by-commanders-o",
@@ -21,67 +146,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-24T14:17:15.911Z"
-    },
-    {
-      "id": "ps-1771942652242-ez0p",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be updated for changing reservoir conditions without retraining from scratch — achieving results within three percent of fully retrained models while running hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in carbon capture and storage (CCS) planning. High-fidelity multiphase flow simulators, which model how injected CO₂ migrates through underground rock formations, are computationally expensive. Dynamic Mode Decomposition (DMD), a popular data-driven technique that extracts simplified mathematical operators from simulation snapshots, can serve as a fast surrogate — but only for the specific reservoir properties it was trained on. When engineers need to evaluate different permeability fields or well placements, the conventional approach requires generating entirely new simulation data and rebuilding the surrogate model, negating much of the computational savings.\n\nThe new work introduces two complementary strategies that modify an existing DMD operator directly, without any new simulation runs. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response matrices to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the heterogeneous geology of actual storage formations — the approach instead modifies the spatial basis functions, weighting high-permeability zones more heavily in the model's reduced representation. Both strategies are described as lightweight algebraic updates rather than full optimization procedures.\n\nNumerical experiments reported in the paper show that the updated surrogates accurately reproduce plume migration patterns and pressure buildup predictions, staying within three percent of a surrogate that was freshly trained on new simulation data. The speed advantage is substantial: the update procedure executes hundreds of times faster than the regenerate-and-retrain workflow. This makes the method particularly suited to real-time optimization loops and rapid scenario analysis — capabilities that are increasingly important as CCS projects scale up worldwide and regulators demand robust uncertainty quantification.\n\nThe research sits at the intersection of computational physics, control theory, and engineering optimization. As governments and energy companies invest billions in carbon storage infrastructure, tools that accelerate subsurface modeling without sacrificing physical accuracy could prove valuable for site selection, injection strategy design, and long-term monitoring. The paper is available on arXiv under the computational physics and optimization categories.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1715981113644-6c363f7bbc4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T14:17:32.242Z"
-    },
-    {
-      "id": "ps-1771942667786-r8wc",
-      "slug": "waterloo-researchers-engineer-tumor-eating-bacteria-with-bui",
-      "headline": "Waterloo Researchers Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits ensure engineered microbes activate cancer-fighting traits only deep inside tumors, not in the bloodstream",
-      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from within, deploying a synthetic biological safety mechanism that prevents the microbes from becoming active in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward programmable bacterial cancer therapies.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. The oxygen-starved cores of solid tumors — composed largely of dead cells — provide ideal conditions for the microbe to multiply and spread. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" The fundamental challenge has been that as bacteria expand outward toward the tumor's oxygen-exposed edges, they die before fully eliminating cancerous tissue.\n\nTo solve this, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive in partially oxygenated regions near the tumor periphery. But granting bacteria oxygen tolerance raises an obvious safety concern: uncontrolled growth in oxygen-rich environments like the bloodstream. The researchers addressed this by incorporating quorum sensing — a natural bacterial communication system in which microbes release chemical signals that intensify as their population grows. Only after a critical mass of bacteria has accumulated inside a tumor does the signal reach the threshold needed to activate the oxygen-resistance gene. The result is a biological timer that arms the bacteria's enhanced survival capability precisely when and where it is needed.\n\nBrian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In experiments, the team validated the quorum-sensing mechanism by programming bacteria to produce green fluorescent protein, confirming the system activated on schedule. The next phase will combine both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials.\n\nThe project emerged from doctoral work by Bahram Zargar under the supervision of Ingalls and retired Waterloo chemical engineering professor Pu Chen, with former doctoral student Sara Sadr playing a leading role in advancing the research. The university team is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical application. While bacterial cancer therapies remain years from human trials, the Waterloo team's programmable approach addresses one of the field's most persistent obstacles — ensuring engineered microbes remain precisely targeted and safe.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T14:17:47.786Z"
-    },
-    {
-      "id": "ps-1771942680900-1zi6",
-      "slug": "conduent-data-breach-exposes-personal-data-of-25-million-ame",
-      "headline": "Conduent Data Breach Exposes Personal Data of 25 Million Americans",
-      "subheadline": "Government contractor's January 2025 ransomware attack compromised Social Security numbers, medical data across multiple states",
-      "body": "A ransomware attack on Conduent, one of the largest government contractors in the United States, has now been confirmed to affect at least 25 million people — making it one of the biggest data breaches in the country's history.\n\nThe scope of the breach, which originated from a January 2025 cyberattack claimed by a ransomware group, has grown substantially as state-level notifications continue to surface. According to Wisconsin's updated data breach notification page and a tally compiled from breach notification letters, Texas accounts for roughly 15.4 million affected individuals, while Oregon adds another 10.5 million. Additional notifications covering Massachusetts, New Hampshire, and Washington bring the total to approximately 25 million. Compromised data includes names, dates of birth, addresses, Social Security numbers, health insurance information, and medical records.\n\nConduent provides printing, mailroom, document processing, and payment services for state government benefit programs — including food assistance, workplace benefits, and unemployment insurance — as well as services for large corporations. The company says its technology and operational support reaches more than 100 million people nationwide, underscoring the potentially vast attack surface that made it an attractive target for cybercriminals.\n\nPerhaps as troubling as the breach itself is Conduent's response. The company has disclosed minimal information about how the attack occurred and has declined to say how many notifications it has sent. An \"Incident Notice\" page published on Conduent's website in October 2025 does not explicitly reference a cybersecurity incident and includes a hidden \"noindex\" tag in its source code — a directive that prevents search engines from listing the page, effectively burying it from public view. Conduent spokesperson Sean Collins declined to explain the company's approach when contacted by reporters.\n\nWhile the Conduent breach ranks among the largest ever reported, it still falls short of the Change Healthcare hack of February 2024, which compromised data belonging to more than 190 million individuals. In that case, a Russian-speaking ransomware gang exploited a stolen credential that lacked multi-factor authentication, ultimately forcing the healthcare technology company to pay at least two ransoms. The Conduent incident nonetheless raises urgent questions about the cybersecurity posture of government contractors entrusted with some of the most sensitive personal data in the country — and whether affected individuals are being given adequate notice and resources to protect themselves.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Conduent",
-        "data breach",
-        "ransomware",
-        "cybersecurity",
-        "government contractors"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T14:18:00.900Z"
     },
     {
       "id": "ps-1771942696452-8l33",
@@ -213,27 +277,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/24/canton-advances-cross-border-repo-to-free-up-usd300-trillion-assets-via-tokenization",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T13:48:51.828Z"
-    },
-    {
-      "id": "ps-1771939939339-4wd4",
-      "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
-      "headline": "Russian Soldiers Describe Execution of Troops Who Refuse Orders",
-      "subheadline": "BBC documentary captures firsthand accounts of commanders killing their own men on Ukraine's front lines",
-      "body": "Russian soldiers who fled the military have given harrowing testimony alleging that commanders routinely execute troops who refuse to return to the front lines in Ukraine, according to a new BBC documentary that aired this week.\n\nTwo men, identified only as Ilya and Dima, spoke from an undisclosed location outside Russia for the film \"The Zero Line: Inside Russia's War.\" Ilya, a 35-year-old former special needs teacher who was drafted into the army, described witnessing a commander shoot four soldiers at point-blank range after they had fled the front line and refused to go back. The practice, known as \"zeroing\" in Russian military slang, serves both as punishment and as a tool of intimidation against others contemplating disobedience, the men said.\n\nDima, who also witnessed the killings, characterized commanders shooting their own men as routine. \"I see it — just two metres, three metres. Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life,\" he told the BBC. Both men are currently on the run, having deserted from the Russian military.\n\nThe Kremlin pushed back on the allegations, stating that Russia's armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care\" given the conditions of a high-intensity conflict. Moscow said that information regarding alleged violations and crimes \"is duly investigated\" but added that it was unable to independently verify the claims presented by the BBC.\n\nThe testimony adds to a growing body of evidence suggesting severe discipline problems and coercive tactics within Russia's military as the war in Ukraine grinds past its third year. Reports of summary executions, forced deployments, and brutal treatment of Russian soldiers — particularly conscripts and mobilized reservists — have surfaced repeatedly from Ukrainian intelligence, independent Russian media outlets, and human rights organizations. The accounts also underscore the mounting human cost on Russia's own forces, as Moscow continues to sustain heavy casualties in grinding attritional warfare across eastern and southern Ukraine.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia",
-        "Ukraine",
-        "war crimes",
-        "military discipline",
-        "BBC documentary",
-        "front lines"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T13:32:19.339Z"
     },
     {
       "id": "ps-1771939113610-s524",
@@ -1012,49 +1055,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/us-treasuries-gain-as-traders-weigh-impact-of-tariff-ruling",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T20:48:29.044Z"
-    },
-    {
-      "id": "ps-1771877908973-nbd3",
-      "slug": "proshares-genius-money-market-etf-pulls-in-17-billion-in-a-s",
-      "headline": "ProShares GENIUS Money Market ETF Pulls In $17 Billion in a Single Week",
-      "subheadline": "The fund, which invests in short-term Treasuries qualifying under the GENIUS Act, led all U.S. ETF inflows",
-      "body": "ProShares' newly launched GENIUS Money Market ETF surged to the top of U.S. fund inflows last week, attracting more than $17 billion in a single week — a staggering figure that underscores the rapid investor appetite for products tied to the legislative framework governing stablecoin reserves.\n\nThe fund, which trades under the ticker IQMM, invests in short-term U.S. government securities that qualify as eligible reserves under the GENIUS Act, the landmark stablecoin regulation that established federal standards for digital dollar-pegged tokens. Simeon Hyman, global investment strategist at ProShares, discussed the fund's explosive debut on Bloomberg's \"ETF IQ\" program, highlighting how the product sits at the intersection of traditional money markets and the rapidly expanding stablecoin ecosystem.\n\nThe $17 billion weekly haul is remarkable by any measure. For context, even the most popular broad-market ETFs rarely see single-week inflows of that magnitude. The figure suggests that institutional investors and stablecoin issuers alike are funneling capital into GENIUS Act-compliant instruments at scale, driven by regulatory requirements that mandate stablecoin reserves be held in high-quality liquid assets such as short-dated Treasuries. ProShares appears to have identified a structural source of demand — one that could grow in tandem with the stablecoin market itself.\n\nThe GENIUS Act, which passed into law after months of bipartisan negotiation, requires stablecoin issuers to back their tokens with reserves held in eligible instruments, including Treasury bills and government money market funds. That mandate has effectively created a new category of forced buyers in the short-term government debt market, and asset managers have moved quickly to capture the resulting flows. ProShares' IQMM is among the most prominent vehicles designed explicitly for this purpose.\n\nThe fund's rapid ascent raises broader questions about how stablecoin regulation is reshaping demand dynamics in U.S. government debt markets. With the stablecoin market now measured in the hundreds of billions of dollars and growing, the reserve requirements embedded in the GENIUS Act could channel enormous and persistent demand into Treasury bills and compliant money market products — a development with implications not just for ETF rankings, but for the plumbing of the U.S. financial system.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "ETF",
-        "ProShares",
-        "GENIUS Act",
-        "stablecoins",
-        "money market",
-        "Treasuries",
-        "fund inflows"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1763674752728-2a3b76d3083f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxQcm8lMjBTaGFyZXN8ZW58MHwwfHx8MTc3MTg3NzkwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/new-genius-etf-sees-massive-17-billion-inflow-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T20:18:28.973Z"
-    },
-    {
-      "id": "ps-1771877923401-ezmx",
-      "slug": "crypto-com-secures-federal-approval-to-launch-national-trust",
-      "headline": "Crypto.com Secures Federal Approval to Launch National Trust Bank",
-      "subheadline": "OCC conditional charter positions the exchange to offer institutional custody under unified federal oversight",
-      "body": "Crypto.com has received conditional approval from the U.S. Office of the Comptroller of the Currency to establish a federally regulated national trust bank, the latest in a wave of crypto firms seeking legitimacy through traditional banking frameworks. The planned institution, Foris Dax National Trust Bank — operating as Crypto.com National Trust Bank — would function as a limited-purpose trust bank focused on digital asset custody, staking, and trade settlement.\n\nThe charter does not permit the bank to accept deposits or issue loans. Instead, it consolidates Crypto.com's institutional custody offerings under a single federal umbrella, a significant upgrade from its current state-level arrangement through Crypto.com Custody Trust Co., which is regulated by New Hampshire's banking department. For ETF issuers, asset managers, and other institutional clients, a nationally chartered custodian simplifies compliance and eliminates the patchwork of state-by-state regulatory requirements that has long complicated digital asset custody.\n\nCrypto.com filed its application with the OCC in October and joins a rapidly expanding cohort of crypto-native firms pursuing federal trust charters. In December, BitGo, Circle, Ripple, Paxos, and Fidelity Digital Assets all received similar conditional approvals. Just last week, Stripe's stablecoin subsidiary Bridge secured its own initial nod for a national trust bank. The clustering of these approvals suggests the OCC has adopted a more welcoming posture toward crypto custody under federal supervision — a marked shift from the regulatory ambiguity that characterized earlier years.\n\nThe conditional approval, while not final, represents a meaningful milestone. The bank would also support services on Crypto.com's proprietary Cronos blockchain, potentially giving the exchange a competitive edge in offering vertically integrated custody and settlement infrastructure. The move arrives at a turbulent moment for crypto markets, with Bitcoin ETFs experiencing a historic $3.8 billion outflow streak over five weeks and Bitcoin trading near $63,980.\n\nThe broader trend of crypto firms embedding themselves within federal regulatory structures signals a maturing industry increasingly oriented toward institutional capital. Whether these charter approvals translate into durable competitive advantages will depend on how quickly the firms can meet the OCC's remaining conditions and begin operations.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Crypto.com",
-        "OCC",
-        "crypto custody",
-        "national trust bank",
-        "federal regulation",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2e0ee519ba3b48809d54ea2eb980a783f3ec03ce-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/23/crypto-com-approved-for-u-s-federally-regulated-crypto-custodian-bank",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-23T20:18:43.401Z"
     }
   ]
 }
