@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-24T15:33:35.847Z",
+  "lastUpdated": "2026-02-24T15:48:44.885Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771948044447-nb6m",
+      "slug": "uk-records-first-birth-from-deceased-donor-womb-transplant",
+      "headline": "UK Records First Birth From Deceased-Donor Womb Transplant",
+      "subheadline": "Baby Hugo, born to a woman with MRKH syndrome, marks a milestone in a clinical trial that could expand reproductive options",
+      "body": "A baby boy has become the first child born in the United Kingdom using a womb transplanted from a deceased donor, marking what surgeons are calling a ground-breaking moment for organ transplantation and reproductive medicine. Hugo Bell Powell was born just before Christmas 2024 at Queen Charlotte's and Chelsea Hospital in west London, weighing nearly seven pounds.\n\nHis mother, Grace Bell, a woman in her 30s from Kent, was born with Mayer-Rokitansky-Küster-Hauser (MRKH) syndrome, a condition affecting roughly one in every 5,000 women in the UK that leaves them without a viable uterus. Told at age 16 she would never carry a child, Bell underwent a 10-hour womb transplant operation at The Churchill Hospital in Oxford in June 2024, followed by IVF treatment and embryo transfer at The Lister Fertility Clinic in London. Bell described her son as \"simply a miracle\" and paid tribute to the anonymous donor and her family, calling their decision \"the biggest gift: the gift of life.\" She and her partner, Steve Powell, honored lead researcher Prof. Richard Smith by giving Hugo the middle name Richard.\n\nThe birth is the first to result from a UK clinical research trial involving 10 planned womb transplants from deceased donors. Three transplants have been completed so far. In a separate arm of the research, a baby named Amy was born in early 2025 following the UK's first living-donor womb transplant, in which a woman received her older sister's uterus. Five additional living-relative transplants are planned. Globally, more than 100 womb transplant operations have been performed, resulting in over 70 healthy births, but only a handful in Europe have involved deceased donors.\n\nTransplant surgeon Isabel Quiroga, joint leader of the trial team, said the research aims to determine whether the procedure could become an approved, routine treatment for women of child-bearing age who lack a viable womb. Unlike standard organ donation, womb donation requires a special request to families who have already consented to donate a relative's organs. The donor in this case also gave five other organs that were transplanted into four recipients. Her parents, who wish to remain anonymous, said they felt \"tremendous pride\" in their daughter's legacy.\n\nProf. Smith, a consultant gynaecologist at Imperial College Healthcare NHS Trust who has researched uterine transplantation for more than 25 years, said the milestone should give hope to girls and young women diagnosed without a womb. Bell and Powell may attempt a second pregnancy, after which the transplanted uterus will be removed to spare Bell from lifelong immunosuppressive medication. The trial's continued results will be closely watched by fertility specialists and transplant teams worldwide as they assess whether deceased-donor womb transplantation can move from experimental procedure to standard care.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "womb transplant",
+        "organ donation",
+        "MRKH syndrome",
+        "reproductive medicine",
+        "clinical trial",
+        "NHS"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c45e/live/807ee080-115f-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T15:47:24.447Z"
+    },
+    {
+      "id": "ps-1771948061782-fwf8",
+      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
+      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
+      "subheadline": "Researchers bypass costly retraining of surrogate models by updating equations on the fly when reservoir conditions change",
+      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to adapt to changing underground conditions without the time-consuming process of retraining from scratch — achieving results within three percent accuracy of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in carbon capture and storage (CCS) planning. High-fidelity multiphase flow simulators, which model how injected CO₂ migrates through porous rock and how pressure builds underground, are essential for safe storage site design but prohibitively expensive to run repeatedly during optimization and uncertainty analysis. Dynamic Mode Decomposition (DMD), a popular data-driven technique that extracts simplified mathematical operators from simulation snapshots, has emerged as a promising surrogate — but its usefulness has been limited by a fundamental rigidity. Whenever a key property of the reservoir changes, such as rock permeability or well placement, engineers have had to generate entirely new simulation data and retrain the model, negating much of the computational savings.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model's internal structure without requiring any new simulation runs. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response matrices to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting the geological heterogeneity of actual storage formations — the technique instead adjusts the spatial representation within the model's reduced basis, giving higher-permeability zones proportionally greater influence on the output.\n\nNumerical experiments showed the updated models accurately reproduced both CO₂ plume migration patterns and subsurface pressure buildup, staying within three percent of a surrogate that had been freshly trained on new simulation data. The computational payoff is substantial: the update procedure runs hundreds of times faster than conventional retraining, potentially enabling real-time optimization and rapid scenario analysis during carbon storage planning and operations.\n\nThe work addresses a growing practical need as governments and energy companies accelerate CCS deployment to meet climate targets. Rapid what-if analysis — exploring how different injection strategies or newly discovered geological features affect storage safety — is critical for regulatory approval and operational decision-making. By preserving physical fidelity while dramatically reducing computational overhead, the method could lower a significant barrier to deploying surrogate models in production CCS workflows.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon capture and storage",
+        "dynamic mode decomposition",
+        "computational physics",
+        "surrogate modeling",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1629751009056-eabd94714c66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8Y2FyYm9uJTIwY2FwdHVyZSUyMGFuZCUyMHN0b3JhZ2UlMjBkeW5hbWljJTIwbW9kZSUyMGRlY29tcG9zaXRpb258ZW58MHwwfHx8MTc3MTk0ODA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T15:47:41.782Z"
+    },
+    {
+      "id": "ps-1771948077802-4tfa",
+      "slug": "waterloo-researchers-engineer-tumor-eating-bacteria-with-bui",
+      "headline": "Waterloo Researchers Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "A synthetic DNA circuit prevents engineered microbes from activating until they've safely colonized a tumor's oxygen-free core",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to infiltrate solid tumors and consume them from within, using a sophisticated biological safety mechanism that prevents the microbes from activating in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant step toward programmable bacterial cancer therapies.\n\nThe approach exploits a fundamental vulnerability of solid tumors: their oxygen-starved cores. The team chose Clostridium sporogenes, a soil bacterium that thrives exclusively in oxygen-free environments, as its therapeutic chassis. Bacterial spores injected into the body naturally migrate to tumor interiors, where dead cells and absent oxygen create ideal growth conditions. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge was extending the bacteria's reach to oxygen-exposed tumor edges without allowing them to survive in oxygen-rich environments like the bloodstream, where they could pose serious safety risks. To solve this, the team inserted an oxygen-tolerance gene from a related bacterial species — but placed it under the control of a quorum-sensing circuit, a natural communication system in which bacteria release chemical signals that intensify as their population grows. The gene only switches on after enough bacteria have accumulated inside a tumor, ensuring activation occurs exclusively at the intended site. Dr. Brian Ingalls, a professor of applied mathematics at Waterloo, described the design as analogous to an electrical circuit built from DNA components: \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe team has so far demonstrated each component separately. An earlier study confirmed that Clostridium sporogenes could be modified for improved oxygen tolerance, while a follow-up experiment validated the quorum-sensing trigger by programming bacteria to produce green fluorescent protein at the desired activation threshold. The next milestone is combining both systems into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project, led by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Dr. Pu Chen, also involves a collaboration with the Toronto-based Center for Research on Environmental Microbiology (CREM Co Labs), which Zargar co-founded. Former Waterloo doctoral student Dr. Sara Sadr played a leading role in advancing the research. While human clinical applications remain years away, the work adds to a growing body of evidence that synthetic biology could unlock entirely new categories of cancer treatment — therapies that are not merely delivered to tumors but are programmed to seek, colonize, and destroy them autonomously.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "quorum sensing"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T15:47:57.802Z"
+    },
+    {
+      "id": "ps-1771948093763-d9ya",
+      "slug": "meta-agrees-to-landmark-100-billion-amd-chip-deal",
+      "headline": "Meta Agrees to Landmark $100 Billion AMD Chip Deal",
+      "subheadline": "The multiyear agreement includes a warrant for 10% of AMD's shares as Meta diversifies beyond Nvidia",
+      "body": "Meta has struck a deal to purchase up to $100 billion worth of AMD processors over the coming years, marking one of the largest semiconductor agreements in history as the social media giant accelerates its push toward what CEO Mark Zuckerberg calls \"personal superintelligence.\"\n\nThe multiyear agreement, announced Tuesday, covers AMD's MI540 series GPUs and its latest-generation CPUs — hardware that would drive an estimated six gigawatts of data center power demand. In a novel financial arrangement, AMD has issued Meta a performance-based warrant to acquire up to 160 million shares of AMD common stock — roughly 10% of the chipmaker — at just $0.01 per share. The full award vests in tranches tied to milestones, with the final tranche contingent on AMD's stock reaching $600, according to The Wall Street Journal. AMD shares closed Monday at $196.60, meaning that condition would require roughly a threefold increase in the company's valuation.\n\nThe structure echoes a deal AMD struck with OpenAI last October, in which equity was similarly exchanged for chip purchase commitments. The pattern underscores how aggressively AMD is competing to loosen Nvidia's dominant grip on the AI accelerator market. \"The CPU market is absolutely on fire,\" AMD CEO Lisa Su said during an investor briefing, pointing to surging demand from AI inference workloads and agentic AI applications. CPUs have become an increasingly critical component of inference infrastructure because they are efficient, scalable, and reduce dependency on any single GPU supplier.\n\nFor Meta, the AMD partnership is the latest move in a sweeping infrastructure buildout. The company has pledged to invest at least $600 billion in U.S. data centers and AI systems over the next several years, with projected capital expenditures of $135 billion in 2026 alone. Recent plans include a $10 billion gas-powered data center campus in Indiana designed to deliver one gigawatt of compute capacity. The AMD deal comes just weeks after Meta also signed a multiyear agreement for millions of Nvidia's newest CPUs and GPUs, signaling a deliberate strategy of supplier diversification. Meta is additionally developing custom in-house chips, though that effort has reportedly encountered delays.\n\nZuckerberg described the AMD partnership as \"an important step\" toward building AI systems that deeply understand and empower individuals — a vision he has framed as personal superintelligence. The sheer scale of Meta's commitments — now spanning Nvidia, AMD, and internal silicon development — reflects a conviction that the race to deploy advanced AI will be won or lost on raw compute capacity, and that no single chip supplier can meet that demand alone.",
+      "category": "tech",
+      "importance": 9,
+      "tags": [
+        "Meta",
+        "AMD",
+        "AI chips",
+        "semiconductors",
+        "data centers",
+        "Nvidia",
+        "artificial intelligence",
+        "Lisa Su",
+        "Mark Zuckerberg"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/amd-ces-ceo.png?resize=1200,661",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T15:48:13.763Z"
+    },
+    {
+      "id": "ps-1771948109691-rz3d",
+      "slug": "fed-s-goolsbee-signals-rising-inflation-concerns-amid-steady",
+      "headline": "Fed's Goolsbee Signals Rising Inflation Concerns Amid Steady Jobs",
+      "subheadline": "Chicago Fed president weighs in on tariff risks, Powell's future, and the shifting balance of the central bank's dual mandate",
+      "body": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Monday that inflation has become his greater concern even as the labor market remains on solid footing, signaling that rate cuts may not come as quickly as markets hope.\n\nSpeaking on Bloomberg's \"Open Interest\" program on Feb. 24, Goolsbee characterized the current job market as \"steady\" but indicated that the inflation side of the Fed's dual mandate is demanding more attention from policymakers. His comments come at a moment when the central bank is navigating an unusually complex policy landscape shaped by persistent price pressures and escalating trade uncertainty.\n\nGoolsbee addressed the potential inflationary impact of recent tariff developments, a subject that has increasingly occupied Fed deliberations. While the Chicago Fed chief did not detail specific projections, his remarks underscore growing unease among policymakers that trade policy could complicate the path back to the central bank's 2 percent inflation target. Tariffs function as a tax on imported goods and, depending on their scope and duration, can feed directly into consumer prices — creating a dilemma for a Fed already contending with stubborn inflation readings.\n\nThe Chicago Fed president also weighed in on the possibility that Chair Jerome Powell could remain on the Federal Reserve's Board of Governors even after his term as chair expires. Powell's tenure atop the central bank has been a subject of political debate, and any indication of continuity — or lack thereof — carries significant weight for markets seeking clarity on the Fed's future leadership and policy direction.\n\nGoolsbee's hawkish tilt on inflation aligns with a broader shift in tone among several Fed officials who have in recent weeks pushed back against expectations for near-term easing. With the labor market showing resilience and inflation proving stickier than anticipated, the Federal Open Market Committee appears content to hold rates at their current level for the foreseeable future. For investors and businesses alike, the message from Chicago is clear: the Fed's inflation fight is not yet over, and new risks on the trade front could make it harder still.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Federal Reserve",
+        "Austan Goolsbee",
+        "inflation",
+        "tariffs",
+        "monetary policy",
+        "Jerome Powell"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1573798484153-da43eda898f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxGZWQlMjBHb29sc2JlZSUyMFNpZ25hbHMlMjBSaXNpbmclMjBJbmZsYXRpb24lMjBDb25jZXJucyUyMEFtaWQlMjBTdGVhZHklMjBKb2JzfGVufDB8MHx8fDE3NzE5NDgxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-24/fed-s-goolsbee-on-inflation-risk-tariffs-and-powell-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T15:48:29.691Z"
+    },
+    {
+      "id": "ps-1771948124584-z2bv",
+      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
+      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
+      "subheadline": "The approval marks a regulatory milestone for tokenized assets as the market for blockchain-based Treasuries surpasses $10 billion",
+      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree exemptive relief to allow around-the-clock trading of its Treasury Money Market Digital Fund at a fixed $1 price, a decision that represents one of the most concrete regulatory endorsements yet of blockchain-based infrastructure for traditional financial products.\n\nUnder the approved structure, shares of the fund — which trades under the ticker WTGXX — can now be bought and sold at any hour through a broker-dealer acting as principal, with instant settlement on blockchain rails. Previously, like all conventional mutual funds, the product could only be transacted at end-of-day net asset value. The broker-dealer trades from its own inventory, providing continuous liquidity while leaving the fund's underlying mutual fund structure and regulatory obligations unchanged. The approval also required clearance from the Financial Industry Regulatory Authority (FINRA) to expand the activities of WisdomTree's broker-dealer subsidiary.\n\nThe move places WisdomTree squarely within a rapidly expanding market for tokenized real-world assets. More than $10 billion in tokenized U.S. Treasuries are now in circulation, according to data provider rwa.xyz, with BlackRock and Securitize's BUIDL fund leading at over $2 billion in total value locked. Circle and Ondo Finance also operate competing products. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets, in a statement on Tuesday.\n\nWisdomTree also introduced a continuous dividend accrual feature that tracks wallet activity on-chain, allocating interest based on the precise duration each wallet holds shares throughout the day. Even mid-day transfers will receive their proportional share of yield — a level of granularity that would be difficult to achieve on traditional settlement infrastructure. The firm plans to offer the functionality first to institutional clients through its Connect platform before potentially extending retail access via its Prime app.\n\nThe approval arrives at a moment of accelerating convergence between traditional finance and blockchain technology. Several major banks and asset managers have been piloting tokenized systems to issue and settle conventional assets, seeking to compress settlement windows and reduce back-office costs. The SEC's willingness to grant exemptive relief for a product that operates continuously on decentralized infrastructure suggests a growing comfort among regulators with blockchain as plumbing for mainstream capital markets — provided the traditional regulatory wrapper remains intact.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "WisdomTree",
+        "SEC",
+        "tokenization",
+        "blockchain",
+        "money market funds",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T15:48:44.584Z"
+    },
     {
       "id": "ps-1771947136890-kwfp",
       "slug": "russian-soldiers-describe-commanders-executing-troops-who-re",
@@ -24,69 +152,6 @@
       "publishedAt": "2026-02-24T15:32:16.890Z"
     },
     {
-      "id": "ps-1771947155528-jcpc",
-      "slug": "new-method-updates-simulation-surrogates-without-retraining",
-      "headline": "New Method Updates Simulation Surrogates Without Retraining",
-      "subheadline": "Researchers show how to adapt Dynamic Mode Decomposition models for changing reservoir conditions hundreds of times faster than rebuilding them",
-      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage by updating existing surrogate models on the fly — without the costly process of regenerating simulation data and retraining from scratch.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to arXiv, tackle a longstanding bottleneck in using Dynamic Mode Decomposition (DMD) for subsurface flow modeling. DMD is a data-driven framework that distills complex multiphase simulations into compact, fast-running surrogates. The catch: those surrogates are locked to the specific reservoir properties — permeability fields, well placements — used to train them. Any change to the underground domain traditionally requires expensive new high-fidelity simulations and a complete model rebuild, negating much of the speed advantage that made surrogates appealing in the first place.\n\nThe new approach introduces two complementary update strategies. When permeability changes uniformly across a domain — as might happen when analysts explore different geological scenarios — the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially, the technique instead modifies the model's spatial representation, weighting high-permeability zones more heavily in the reduced basis. Crucially, neither strategy requires any new simulation data.\n\nNumerical experiments reported in the paper show the updated models recover key physical quantities — CO₂ plume migration patterns and subsurface pressure buildup — to within three percent of a surrogate that was freshly trained on the new conditions. The updates execute hundreds of times faster than full retraining, a performance gap that matters enormously in workflows demanding rapid iteration, such as injection optimization, well placement studies, and uncertainty quantification across ensembles of geological realizations.\n\nThe work arrives as interest in computational tools for carbon capture and storage intensifies worldwide. Governments and energy companies are investing heavily in geological sequestration, but the high cost of reservoir simulation has constrained how thoroughly operators can explore design alternatives and risk scenarios. Lightweight surrogate updating methods like the one proposed here could lower that barrier substantially, enabling what the authors describe as real-time optimization and rapid what-if analysis while preserving the physical fidelity that regulators and engineers require. The research sits at the intersection of computational physics, control theory, and engineering optimization — a nexus that is becoming increasingly important as subsurface energy projects scale up.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic mode decomposition",
-        "carbon storage",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1611072906871-6de0d0369e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T15:32:35.528Z"
-    },
-    {
-      "id": "ps-1771947171986-4hqe",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic biology approach uses quorum sensing to safely activate oxygen-tolerant microbes only inside solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a strain of soil bacterium to infiltrate, colonize, and consume solid tumors — deploying a synthetic DNA circuit that ensures the microbes activate their most aggressive survival traits only after they have safely accumulated inside cancerous tissue.\n\nThe approach, published in ACS Synthetic Biology and announced on February 24, centers on Clostridium sporogenes, a bacterium that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide precisely those conditions, allowing bacterial spores introduced into the body to germinate, multiply, and begin breaking down tumor tissue from the inside. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge was biological containment. As the bacteria expand outward from the tumor core, they encounter regions with trace amounts of oxygen and begin dying off before eliminating the cancer entirely. To solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium. But enabling oxygen tolerance indiscriminately would pose serious safety risks — the engineered microbes could potentially proliferate in oxygen-rich environments like the bloodstream. The researchers addressed this by wiring in a quorum-sensing mechanism, a natural bacterial communication system in which cells release chemical signals that grow stronger as their population density increases. Only when enough bacteria have massed inside a tumor does the accumulated signal cross a threshold that switches on the oxygen-resistance gene. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nIn earlier work, the team demonstrated that Clostridium sporogenes could be genetically modified for improved oxygen tolerance. A subsequent experiment validated the quorum-sensing circuit by programming bacteria to produce green fluorescent protein, confirming the system activated at the intended population density. The next milestone is combining both features — the oxygen-tolerance gene and the quorum-sensing control switch — into a single organism and testing it in pre-clinical tumor models.\n\nThe project is a collaboration between Waterloo and the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by PhD student Bahram Zargar, who initiated the research. Dr. Sara Sadr, a former Waterloo doctoral student, played a leading role in advancing the work. While engineered bacterial therapies for cancer remain experimental and face significant regulatory and safety hurdles before any human trials, the Waterloo team's programmable approach represents a notable step toward precision biological weapons against solid tumors — a class of cancers that continues to resist many existing immunotherapies.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T15:32:51.986Z"
-    },
-    {
-      "id": "ps-1771947186446-u02n",
-      "slug": "meta-signs-up-to-100-billion-amd-chip-deal-to-diversify-ai-s",
-      "headline": "Meta Signs Up to $100 Billion AMD Chip Deal to Diversify AI Supply Chain",
-      "subheadline": "The multiyear agreement includes a warrant for 10% of AMD's shares and covers next-generation GPUs and CPUs for AI inference",
-      "body": "Meta has struck a deal to purchase as much as $100 billion in AMD chips over the coming years, marking one of the largest semiconductor procurement agreements in history as the social media giant races to build what CEO Mark Zuckerberg calls \"personal superintelligence.\"\n\nThe multiyear agreement, announced Tuesday, encompasses AMD's MI540 series GPUs and its latest-generation CPUs — processors that are becoming increasingly central to AI inference workloads due to their efficiency and scalability. The deal would generate roughly six gigawatts of data center power demand, underscoring the enormous energy footprint of Meta's AI ambitions. As part of the arrangement, AMD has issued Meta a performance-based warrant for up to 160 million shares of AMD common stock — approximately 10% of the chipmaker — at a nominal price of $0.01 per share. The full award is structured to vest against milestones, with the final tranche requiring AMD's share price to reach $600, more than triple its Monday close of $196.60.\n\nThe deal mirrors a similar equity-for-chips arrangement that AMD struck with OpenAI last October, reflecting a broader industry pattern in which AI companies leverage their financial heft to secure supply while giving chipmakers a stake in their success. For Meta, the AMD partnership represents a deliberate strategy to reduce dependence on Nvidia, which has dominated the AI accelerator market and commanded premium pricing. Zuckerberg described the agreement as \"an important step\" in diversifying Meta's compute infrastructure.\n\nMeta's chip appetite appears nearly insatiable. The company has pledged to invest at least $600 billion in U.S. data centers and AI infrastructure over the next several years, with projected capital expenditures of $135 billion in 2026 alone. Recent moves include plans for a $10 billion gas-powered data center campus in Indiana capable of one gigawatt of compute capacity, as well as a separate multiyear deal to expand its facilities with millions of Nvidia's latest processors. Meta is also developing its own in-house chips, though that effort has reportedly encountered delays.\n\nThe AMD agreement highlights a pivotal shift in the semiconductor landscape. CPUs, long overshadowed by GPUs in AI discussions, are emerging as a critical component of the inference stack — the phase of AI computation where trained models generate responses and predictions at scale. By locking in massive CPU and GPU supply from AMD alongside its Nvidia procurement, Meta is positioning itself to operate one of the world's largest AI compute platforms while hedging against supply bottlenecks that have plagued the industry since the generative AI boom began.",
-      "category": "tech",
-      "importance": 9,
-      "tags": [
-        "Meta",
-        "AMD",
-        "AI chips",
-        "semiconductors",
-        "data centers",
-        "Nvidia",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/amd-ces-ceo.png?resize=1200,661",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T15:33:06.446Z"
-    },
-    {
       "id": "ps-1771947201681-3wdr",
       "slug": "wall-street-rebounds-after-ai-driven-sell-off-as-amd-leads-r",
       "headline": "Wall Street Rebounds After AI-Driven Sell-Off as AMD Leads Recovery",
@@ -106,27 +171,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/stock-market-today-dow-s-p-live-updates",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T15:33:21.681Z"
-    },
-    {
-      "id": "ps-1771947215736-uxq6",
-      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
-      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
-      "subheadline": "The landmark exemptive relief enables instant settlement and round-the-clock liquidity in a tokenized Treasury market now exceeding $10 billion",
-      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree exemptive relief to allow its Treasury Money Market Digital Fund to trade continuously at a fixed $1 price through a broker-dealer, marking a significant regulatory milestone for blockchain-based capital markets infrastructure. The approval, announced Tuesday, effectively transforms a traditional mutual fund into one capable of instant, 24/7 settlement on blockchain rails.\n\nUnder the new structure, WisdomTree's fund — which trades under the ticker WTGXX — will no longer be limited to the end-of-day net asset value transactions standard across the mutual fund industry. Instead, a broker-dealer subsidiary will trade from its own inventory around the clock, acting as principal counterparty to investors while the fund's underlying regulatory framework remains unchanged. The arrangement required both SEC exemptive relief and FINRA clearance for the expanded broker-dealer activities.\n\n\"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets. The firm also introduced continuous dividend accrual, a feature that tracks wallet activity on-chain to allocate interest based on precisely how long each wallet held shares during the day — ensuring that even mid-day transfers capture their proportional yield.\n\nThe approval places WisdomTree squarely in a rapidly expanding tokenization market. More than $10 billion in tokenized U.S. Treasuries are now in circulation, according to data provider rwa.xyz, with BlackRock and Securitize's BUIDL fund leading at over $2 billion in total value locked. Circle and Ondo Finance also operate competing products. The broader trend reflects Wall Street's growing conviction that blockchain settlement can meaningfully reduce operational friction and eliminate the multi-day clearing timelines that have long defined traditional finance.\n\nWisdomTree plans to roll out the functionality to institutional clients first through its Connect platform, with potential retail access to follow via its Prime app. The phased approach mirrors the cautious strategy many asset managers have adopted as they bring traditional cash management products onto blockchain infrastructure — seeking the efficiency gains of decentralized technology while remaining firmly within the regulatory perimeter. For the tokenization movement, the SEC's willingness to grant exemptive relief to a registered mutual fund signals that regulators are increasingly comfortable accommodating blockchain-native market structures alongside conventional ones.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "tokenization",
-        "SEC",
-        "WisdomTree",
-        "blockchain",
-        "money market funds",
-        "Treasury"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T15:33:35.736Z"
     },
     {
       "id": "ps-1771946315784-qlb3",
@@ -187,26 +231,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-24T15:03:02.082Z"
-    },
-    {
-      "id": "ps-1771944448002-pnno",
-      "slug": "first-uk-baby-born-from-deceased-donor-womb-transplant",
-      "headline": "First UK Baby Born From Deceased-Donor Womb Transplant",
-      "subheadline": "A 10-hour transplant surgery and IVF gave a woman born without a womb the chance to carry her own child",
-      "body": "A baby boy named Hugo has become the first child born in the United Kingdom using a womb transplanted from a deceased donor, marking what surgeons are calling a groundbreaking moment for reproductive medicine and organ transplantation in the country.\n\nHugo was born just before Christmas 2024 at Queen Charlotte's and Chelsea Hospital in west London, weighing nearly seven pounds. His mother, Grace Bell, a woman in her 30s from Kent, was born with MRKH syndrome — a condition affecting roughly one in 5,000 women in the UK in which the uterus is absent or non-functional. Bell was told at age 16 that she would never be able to carry her own child. The transplant operation, which lasted 10 hours, took place at The Churchill Hospital in Oxford in June 2024. Bell and her partner Steve Powell subsequently underwent IVF treatment at The Lister Fertility Clinic in London, followed by embryo transfer. Bell described Hugo's arrival as \"simply a miracle\" and expressed daily gratitude toward her anonymous donor and the donor's family, whose daughter also provided five other organs to four recipients.\n\nThe birth is the first to result from a UK clinical research trial investigating deceased-donor womb transplants, of which 10 are planned and three have already been performed. It follows the birth of baby Amy in early 2025, who was the first UK child born through a living-donor womb transplant — in that case, the mother received her older sister's uterus. Five additional living-donor transplants from close relatives are also planned as part of parallel research efforts.\n\nConsultant gynaecologist Prof. Richard Smith of Imperial College Healthcare NHS Trust, who has spent more than 25 years researching uterine transplantation and founded the charity Womb Transplant UK, was present at Hugo's delivery. Bell and Powell honored him by giving Hugo the middle name Richard. Transplant surgeon Isabel Quiroga, the trial's joint team leader, noted that very few babies have been born in Europe from deceased-donor womb transplants and said the trial aims to determine whether the procedure can become an approved, routine treatment for women of childbearing age without a viable uterus.\n\nGlobally, more than 100 womb transplant operations have been performed, resulting in over 70 healthy births. Unlike standard organ donation, uterine donation from deceased individuals requires a special request to families who have already consented to donate their relative's organs. The transplanted womb carries no genetic connection to the resulting child. Bell may choose to have a second baby, after which surgeons would remove the transplanted organ to spare her from lifelong immunosuppressive medication. The donor's parents, who remain anonymous, said they felt \"tremendous pride\" in the legacy their daughter has left behind.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "womb transplant",
-        "organ donation",
-        "reproductive medicine",
-        "MRKH syndrome",
-        "UK medical breakthrough"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c45e/live/807ee080-115f-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T14:47:28.002Z"
     },
     {
       "id": "ps-1771944495240-j71a",
@@ -1030,27 +1054,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/anthropic-kicks-off-share-sale-for-staffers-of-up-to-6-billion",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T01:03:31.720Z"
-    },
-    {
-      "id": "ps-1771890494250-ytcj",
-      "slug": "ceo-who-challenged-trump-tariffs-says-firm-feels-validated-b",
-      "headline": "CEO Who Challenged Trump Tariffs Says Firm Feels 'Validated' by SCOTUS Ruling",
-      "subheadline": "Learning Resources chief Rick Woldenberg weighs in after Supreme Court strikes down presidential tariffs in landmark case",
-      "body": "The chief executive of one of the companies that brought the legal challenge against President Donald Trump's tariffs said his firm feels \"validated\" after the Supreme Court struck down the levies in a landmark ruling on the limits of executive trade authority.\n\nRick Woldenberg, CEO of Learning Resources and hand2mind, an educational toy and materials company, told Bloomberg Businessweek Daily that the decision came sooner than he had anticipated, noting he had not expected a ruling before the upcoming State of the Union address. Woldenberg's company was among the plaintiffs in the case that argued the tariffs exceeded the president's constitutional authority, ultimately persuading a majority of justices to side against the administration.\n\nThe Supreme Court's decision to strike down the tariffs represents one of the most significant judicial checks on presidential trade power in recent memory. For Woldenberg, whose business directly depends on imported goods, the tariffs had posed an existential threat to his company's cost structure and competitive position. Educational product manufacturers like Learning Resources typically source materials and finished goods from overseas suppliers, making them particularly vulnerable to broad-based import duties.\n\nThe ruling carries sweeping implications for U.S. trade policy and the balance of power between the executive branch and Congress. Legal scholars had long debated the extent to which presidents could unilaterally impose tariffs under existing statutory frameworks, and the Court's decision now draws a firmer constitutional boundary. For the thousands of American businesses that had been absorbing higher costs or passing them along to consumers, the ruling offers immediate financial relief — though questions remain about how the administration will respond and whether Congress might seek to authorize new trade measures through legislation.\n\nWoldenberg's willingness to serve as a named plaintiff in a high-profile case against a sitting president underscored the desperation many mid-sized American importers felt as tariff costs mounted. His company, based in Vernon Hills, Illinois, manufactures hands-on learning products used in classrooms across the country. The case now stands as a precedent that could constrain future presidents from deploying tariffs as a unilateral policy tool without explicit congressional authorization.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Supreme Court",
-        "tariffs",
-        "Trump trade policy",
-        "Learning Resources",
-        "executive power",
-        "SCOTUS"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1629754042087-2d8b6333ee90?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8U3VwcmVtZSUyMENvdXJ0JTIwdGFyaWZmc3xlbnwwfDB8fHwxNzcxODg5NTk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/ceo-who-challenged-trump-s-tariffs-on-scotus-decision-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T23:48:14.250Z"
     }
   ]
 }
