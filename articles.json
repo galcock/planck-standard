@@ -1,7 +1,132 @@
 {
-  "lastUpdated": "2026-02-24T15:03:32.743Z",
+  "lastUpdated": "2026-02-24T15:18:50.537Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771946251089-220f",
+      "slug": "russian-soldiers-describe-executions-of-troops-by-own-comman",
+      "headline": "Russian Soldiers Describe Executions of Troops by Own Commanders",
+      "subheadline": "BBC documentary features first on-the-record accounts of frontline killings, torture, and so-called 'meat storm' suicide missions",
+      "body": "Four Russian soldiers who fled the front lines in Ukraine have provided what is believed to be the first on-the-record testimony from serving troops describing commanders executing their own men for refusing orders, according to a BBC documentary released this week.\n\nThe accounts, gathered at an undisclosed location outside Russia, paint a harrowing picture of lawlessness and brutality within Russian military ranks. One soldier, identified as Ilya, a 35-year-old former special needs teacher from the Ural Mountains, told filmmakers he witnessed four soldiers shot at point-blank range by a commander in Russian-occupied Donetsk after they fled the front line and refused to return. \"The saddest thing is that I knew them. I remember one of them screaming 'Don't shoot, I'll do anything!' but he zeroed them anyway,\" Ilya said, using Russian military slang for executing one's own troops. Ilya also provided documentation showing he is the sole survivor of a group of 79 men he was mobilized with in May 2024.\n\nA second soldier, Dima, a 34-year-old former appliance repairman from Moscow who was conscripted off the street in October 2022, described witnessing an execution ordered by his commander in the 25th Brigade, Alexei Ksenofontov — who was subsequently awarded the Gold Star and made a \"Hero of Russia\" in 2024. Dima also recounted discovering 20 bodies of newly arrived ex-convict recruits in a ditch, saying commanders had shot them and stolen their bank cards. Families of soldiers who died under Ksenofontov's command sent a joint letter to President Vladimir Putin in January 2025 appealing for an investigation into alleged brutality, calling the unit's leadership a \"gang\" that \"received awards for tens of thousands of dead and missing.\"\n\nThe testimony corroborates widespread reports of Russia's so-called \"meat storm\" tactics, in which waves of infantry are sent relentlessly against Ukrainian positions to exhaust defenders' ammunition and drone supplies. The soldiers described these assaults as tantamount to suicide missions, with troops who refused being tortured, electrocuted, starved, or forced into combat unarmed. The United Kingdom's Ministry of Defence estimates that more than 1.2 million Russian troops have been killed or wounded since the full-scale invasion began on February 24, 2022, with daily casualties in 2025 running between 900 and 1,500.\n\nThe Russian government responded to the BBC's findings by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" Moscow said it could not independently verify the claims. The Kremlin does not release official casualty figures, and nearly all public opposition to the war has been suppressed inside Russia. The four soldiers remain in hiding.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Russia",
+        "Ukraine war",
+        "war crimes",
+        "military executions",
+        "BBC documentary",
+        "human rights"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-24T15:17:31.089Z"
+    },
+    {
+      "id": "ps-1771946267229-lniy",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a lightweight technique for updating data-driven simulation models used in geological carbon storage projects, achieving accuracy within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, tackled a persistent bottleneck in carbon capture and storage (CCS) modeling. High-fidelity multiphase reservoir simulators — essential for tracking how injected CO₂ migrates underground and how pressure builds in storage formations — are computationally expensive. Dynamic Mode Decomposition (DMD), a popular data-driven technique that extracts dominant flow patterns from simulation snapshots, can serve as a fast surrogate. But DMD operators are locked to the specific reservoir properties used during training. When engineers need to evaluate a different permeability field or relocate an injection well, the conventional approach requires generating entirely new simulation data and retraining from scratch, negating much of the speed advantage.\n\nThe new work introduces two complementary strategies that sidestep this problem entirely. For uniform changes in permeability across a reservoir domain, the method rescales the DMD model's internal dynamics and control response to match the altered flow timescale — essentially recalibrating the model's clock without new data. For spatially varying permeability changes, the approach modifies the model's spatial basis functions so that high-permeability zones carry proportionally greater weight in the reduced representation. Neither strategy requires additional simulation runs.\n\nNumerical experiments on carbon storage scenarios showed the updated surrogates faithfully reproduced both plume migration patterns and pressure buildup, deviating by less than three percent from surrogates that had been freshly trained on the new reservoir configuration. The computational savings are substantial: what previously demanded a full retraining cycle can now be accomplished in a fraction of the time, enabling real-time optimization loops and rapid scenario analysis.\n\nThe implications extend beyond carbon storage. Any engineering domain that relies on DMD-based surrogates — from aerodynamics to process engineering — could benefit from similar update strategies when underlying physical parameters shift. For the CCS industry specifically, where regulatory requirements and geological uncertainty demand extensive what-if analyses across many possible reservoir configurations, the ability to cheaply adapt existing models rather than rebuild them could meaningfully accelerate project planning and risk assessment.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate models",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1611072906871-6de0d0369e0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-24T15:17:47.229Z"
+    },
+    {
+      "id": "ps-1771946285481-6t4a",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancer tissue from the inside out, and activate its own survival mechanisms only when conditions are safe — a programmed biological assault that could open a new front in oncology.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide an ideal habitat. Bacterial spores injected into the body seek out these necrotic zones, feed on available nutrients, and multiply — effectively colonizing and dismantling the tumor from within. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work.\n\nThe central engineering challenge was the oxygen barrier at a tumor's periphery. As the bacteria expand outward from the anoxic core, they encounter trace amounts of oxygen and die before eliminating the cancer's outer layers. To solve this, the team spliced in a gene from a related, more oxygen-tolerant bacterium. But simply making C. sporogenes hardier everywhere would be dangerous — oxygen-tolerant bacteria loose in the bloodstream could cause systemic infection. The researchers addressed this with quorum sensing, a natural chemical signaling process in which bacteria release molecules that accumulate as their population grows. Only after enough microbes have amassed inside the tumor does the signal concentration trip a genetic switch that activates the oxygen-resistance gene. The timing ensures the survival upgrade engages solely within the tumor microenvironment.\n\nThe underlying synthetic biology, described in a paper published in ACS Synthetic Biology, was likened by co-investigator Brian Ingalls, a Waterloo applied mathematics professor, to building an electrical circuit out of DNA. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" Ingalls said. In proof-of-concept experiments, the team validated the quorum-sensing circuit by programming bacteria to produce green fluorescent protein, confirming the system activated at the intended population threshold. A prior study had already demonstrated that C. sporogenes could be genetically modified for improved oxygen tolerance.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control module in a single organism and testing it in pre-clinical tumor models. The project, which grew from doctoral work by Bahram Zargar and was advanced significantly by former Waterloo student Sara Sadr, reflects an interdisciplinary push spanning engineering, mathematics, and life sciences. The Waterloo group is partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to translate the platform toward clinical use. If the approach succeeds in animal studies, it could eventually offer oncologists a living, self-regulating therapeutic agent capable of reaching the hypoxic tumor regions that conventional drugs and immunotherapies often miss.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-24T15:18:05.481Z"
+    },
+    {
+      "id": "ps-1771946300145-57fa",
+      "slug": "meta-agrees-to-massive-100-billion-amd-chip-deal-in-ai-push",
+      "headline": "Meta Agrees to Massive $100 Billion AMD Chip Deal in AI Push",
+      "subheadline": "The multiyear agreement includes a warrant for 160 million AMD shares and covers next-gen GPUs and CPUs",
+      "body": "Meta has struck a deal to purchase up to $100 billion in AMD chips over multiple years, marking one of the largest semiconductor procurement agreements in history as the social media giant accelerates its pursuit of what CEO Mark Zuckerberg calls \"personal superintelligence.\"\n\nThe agreement, announced Tuesday, covers AMD's MI540 series GPUs and its latest-generation CPUs — processors that are becoming increasingly central to AI inference workloads due to their efficiency and scalability. The deal is expected to drive roughly six gigawatts of data center power demand, underscoring the staggering energy footprint of Meta's AI ambitions. As part of the arrangement, AMD has issued Meta a performance-based warrant for up to 160 million shares of AMD common stock — approximately 10% of the chipmaker — at a nominal price of $0.01 per share. The full stock award is conditional on AMD's share price reaching $600, more than triple its Monday closing price of $196.60, according to The Wall Street Journal.\n\nThe partnership reflects a broader industry trend of major AI players seeking to reduce their dependence on Nvidia, which has dominated the AI chip market and commanded premium pricing. AMD has been steadily gaining traction among large-scale buyers; it struck a similar equity-for-chips arrangement with OpenAI last October. For Meta, the AMD deal represents another layer in a diversification strategy that also includes a recently announced multiyear agreement for millions of Nvidia's latest CPUs and GPUs, as well as an in-house chip development program that has reportedly encountered delays.\n\nZuckerberg described the AMD partnership as \"an important step\" toward building AI systems capable of deeply understanding and empowering individuals in daily life — his vision for personal superintelligence. The deal fits within Meta's broader pledge to invest at least $600 billion in U.S. data centers and AI infrastructure over the coming years, with projected capital expenditures of $135 billion in 2026 alone. The company recently unveiled plans for a $10 billion gas-powered data center campus in Indiana designed to deliver one gigawatt of compute capacity.\n\nThe scale of the agreement signals that the AI infrastructure buildout is entering a new phase, one in which hyperscalers are willing to commit extraordinary sums — and offer equity stakes — to secure chip supply. For AMD, the deal provides a marquee customer and a potential windfall if its stock appreciates significantly. For Meta, it secures critical hardware for a compute-hungry AI roadmap that shows no signs of slowing down.",
+      "category": "tech",
+      "importance": 9,
+      "tags": [
+        "Meta",
+        "AMD",
+        "AI chips",
+        "semiconductors",
+        "data centers",
+        "Nvidia",
+        "AI infrastructure"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/01/amd-ces-ceo.png?resize=1200,661",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-24T15:18:20.145Z"
+    },
+    {
+      "id": "ps-1771946315784-qlb3",
+      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
+      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
+      "subheadline": "The original cryptocurrency has shed roughly 19% in February, falling below $64,000 amid broad market pressure",
+      "body": "Bitcoin is headed for its steepest monthly decline in nearly three years, with a February selloff erasing billions in market value and reviving painful memories of the industry's 2022 collapse.\n\nThe world's largest cryptocurrency by market capitalization fell as much as 3.1% on Tuesday to $62,557 before recovering slightly to trade around $63,500 during New York morning hours. The slide puts Bitcoin down approximately 19% for the month — its worst monthly performance since June 2022, when the implosion of stablecoin project TerraUSD set off a cascade of failures that toppled crypto hedge fund Three Arrows Capital and lending platform BlockFi, among others.\n\nThe comparison to the so-called crypto winter is striking, though the underlying dynamics differ. In 2022, the industry was consumed by contagion risk as overleveraged firms collapsed in rapid succession, dragging Bitcoin from around $30,000 to below $20,000 over the course of that summer. The current downturn arrives with Bitcoin still trading well above those crisis-era lows, but the velocity of the decline has nonetheless rattled retail traders and tested confidence in several core narratives that had buoyed the asset class.\n\nThe February rout has unfolded against a complicated backdrop that includes heightened macroeconomic uncertainty and questions about the trajectory of U.S. crypto legislation. Bitcoin had entered 2026 with significant momentum following years of institutional adoption and the launch of spot Bitcoin exchange-traded funds, but the token's correlation with risk assets and sensitivity to shifting monetary policy expectations have reasserted themselves in recent weeks. The drawdown also comes as gold and certain equity benchmarks have diverged from crypto's trajectory, undermining the digital asset's longstanding pitch as a portfolio diversifier.\n\nWhether the selloff marks a temporary correction or the beginning of a more sustained downturn remains an open question. The 2022 crypto winter ultimately lasted months and wiped out more than $2 trillion in digital asset value industry-wide. For now, market participants are watching whether Bitcoin can hold support near the $62,000 level — a breach of which could accelerate selling pressure heading into March.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "crypto winter",
+        "market selloff",
+        "digital assets"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGsW94Rm1ok8/v0/1200x800.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-24T15:18:35.784Z"
+    },
+    {
+      "id": "ps-1771946330443-fl4e",
+      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
+      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
+      "subheadline": "The approval adds to a surging $10 billion tokenized Treasury market led by BlackRock, Circle, and Ondo Finance",
+      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree exemptive relief to allow its Treasury Money Market Digital Fund to trade around the clock at a fixed $1 price through a broker-dealer, marking a significant regulatory milestone for the tokenization of traditional financial assets.\n\nThe approval, announced on Tuesday, fundamentally changes how investors interact with the fund, which trades under the ticker WTGXX. Rather than being limited to end-of-day transactions at net asset value — the standard mechanism for mutual funds — shareholders can now buy and sell at any hour through a dealer acting as principal from its own inventory. Trades settle instantly on blockchain infrastructure, eliminating the multi-day lag typical of conventional fund transactions. WisdomTree also secured FINRA clearance to expand the activities of its broker-dealer subsidiary to support the new model.\n\nCritically, the fund's underlying mutual fund structure and regulatory framework remain unchanged. The innovation sits in the distribution layer: a dealer intermediary provides continuous liquidity while the fund itself continues to operate under existing SEC rules. WisdomTree has also introduced continuous dividend accrual, a feature that tracks wallet-level activity on-chain to allocate interest proportionally based on how long each holder maintained their position throughout the day — even accounting for mid-day transfers.\n\n\"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets. The firm plans to roll out the capability to institutional clients first through its Connect platform, with potential retail access to follow via its Prime app.\n\nThe approval arrives as tokenized U.S. Treasuries have grown into a market exceeding $10 billion, according to data provider rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with more than $2 billion in total value locked, while Circle and Ondo Finance also operate competing products. Several major banks and asset managers have been piloting blockchain-based issuance and settlement systems to reduce operational friction and compress settlement windows. WisdomTree's SEC approval is notable because it demonstrates a path for existing regulated fund structures to adopt blockchain rails without abandoning their compliance frameworks — a model likely to draw attention from other asset managers weighing similar moves.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenization",
+        "WisdomTree",
+        "SEC",
+        "money market funds",
+        "blockchain",
+        "tokenized Treasuries"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-24T15:18:50.443Z"
+    },
     {
       "id": "ps-1771945336103-hbng",
       "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
@@ -23,47 +148,6 @@
       "publishedAt": "2026-02-24T15:02:16.103Z"
     },
     {
-      "id": "ps-1771945353066-yqq9",
-      "slug": "new-method-lets-carbon-storage-simulations-adapt-hundreds-of",
-      "headline": "New Method Lets Carbon Storage Simulations Adapt Hundreds of Times Faster",
-      "subheadline": "Researchers bypass costly retraining of surrogate models by updating physics operators on the fly, enabling real-time optimization",
-      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to adapt to changing underground conditions without the costly process of regenerating data and retraining from scratch — achieving results within three percent of fully retrained models while executing hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, tackled a longstanding bottleneck in Dynamic Mode Decomposition (DMD), a widely used framework for building fast surrogate models of complex physical systems. DMD operators are typically trained on a single set of reservoir properties, meaning that any change to underground permeability or well placement forces engineers to run expensive multiphase simulations all over again to generate new training data. For carbon capture and storage workflows that demand rapid what-if analyses and real-time optimization, this retraining requirement largely negates the speed advantage surrogates are designed to provide.\n\nThe new approach introduces two complementary update strategies that modify existing DMD operators without incorporating any new simulation data. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario reflecting geological heterogeneity — the technique modifies the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced basis. Both strategies are described as lightweight, requiring only algebraic manipulation of existing operator matrices rather than fresh computational fluid dynamics runs.\n\nNumerical experiments reported in the paper show that the updated models accurately reproduce plume migration patterns and pressure buildup — two critical quantities for assessing the safety and efficiency of underground CO₂ storage — with errors of less than three percent compared to surrogates retrained from scratch. The speed gains are substantial: the update procedures execute hundreds of times faster than conventional retraining pipelines, which themselves are already orders of magnitude cheaper than full-fidelity simulation.\n\nThe work addresses a practical pain point as the carbon capture and storage industry scales up globally. Operators managing injection sites must frequently reassess reservoir behavior as new geological data arrives or as well configurations change during a project's multi-decade lifetime. A surrogate modeling framework that can adapt in near real-time without sacrificing physical accuracy could significantly accelerate decision-making in optimization, control, and uncertainty quantification — the three pillars of safe, cost-effective carbon sequestration. The research sits at the intersection of computational physics, control theory, and computational engineering, reflecting the increasingly interdisciplinary nature of climate mitigation technology.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-24T15:02:33.066Z"
-    },
-    {
-      "id": "ps-1771945367885-wv9t",
-      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
-      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from within, using a programmable biological safety mechanism that prevents the microbes from becoming active in healthy tissue.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, they provide an ideal habitat for the microbe to multiply and expand. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what happens at the tumor's periphery, where trace amounts of oxygen kill the bacteria before they can eliminate the cancer entirely. To overcome this, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive longer in partially oxygenated regions. But introducing oxygen tolerance raises an obvious safety concern: bacteria capable of surviving in oxygen-rich environments like the bloodstream could pose serious risks to patients. The researchers solved this with quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene activates only after enough bacteria have accumulated inside the tumor to cross a critical signaling threshold — ensuring the survival mechanism engages exclusively where it is needed.\n\nThe work, published in ACS Synthetic Biology, describes the construction and functional characterization of this quorum sensing circuit in C. sporogenes. In experiments, the team validated the system by programming bacteria to produce green fluorescent protein, confirming that activation occurred precisely at the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next phase of the research will combine the oxygen-tolerance gene and the quorum-sensing control system into a single organism for evaluation in pre-clinical tumor models. The Waterloo team is collaborating with CREM Co Labs, a Toronto-based company co-founded by PhD student Bahram Zargar, who initiated the research alongside Ingalls and retired Waterloo professor Pu Chen. Dr. Sara Sadr, a former Waterloo doctoral student, played a leading role in advancing the experimental work. While clinical application remains years away, the approach represents a notable advance in the emerging field of engineered bacterial cancer therapies, offering a programmable biological strategy for attacking solid tumors that have historically resisted conventional treatments.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-24T15:02:47.885Z"
-    },
-    {
       "id": "ps-1771945382082-l5oa",
       "slug": "anthropic-targets-enterprise-market-with-pre-built-ai-agent-",
       "headline": "Anthropic Targets Enterprise Market With Pre-Built AI Agent Plugins",
@@ -82,47 +166,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-24T15:03:02.082Z"
-    },
-    {
-      "id": "ps-1771945397007-t3j9",
-      "slug": "bitcoin-on-track-for-worst-monthly-drop-since-2022-crypto-wi",
-      "headline": "Bitcoin on Track for Worst Monthly Drop Since 2022 Crypto Winter",
-      "subheadline": "The original cryptocurrency has shed roughly 19% in February, recalling the dark days of TerraUSD's collapse",
-      "body": "Bitcoin slid as much as 3.1% on Tuesday to $62,557, extending a punishing February selloff that has now erased roughly 19% of the token's value — putting it on pace for its steepest monthly decline since the crypto industry's cascading meltdown in June 2022.\n\nThe scale of the drawdown is striking. The last time Bitcoin posted a comparable monthly loss, the crypto sector was reeling from the implosion of the TerraUSD stablecoin, which set off a domino effect that brought down hedge fund Three Arrows Capital and lending platform BlockFi, among others. By mid-morning in New York on Tuesday, Bitcoin was hovering around $63,500, well below the highs that had fueled optimism earlier in the cycle.\n\nThe February rout marks a sharp reversal for a market that had been buoyed in recent months by institutional adoption narratives and expectations of a friendlier U.S. regulatory environment. While the specific catalysts behind the current decline remain multifaceted — Bloomberg reporting has pointed to crumbling core narratives, security incidents involving Trump-family-linked crypto venture World Liberty Financial, and broader macro headwinds — the speed and severity of the move has rattled retail traders who entered the market during more exuberant periods.\n\nThe sell-off also raises fresh questions about Bitcoin's relationship with traditional risk assets. Gold and equities have followed divergent paths in recent weeks, and Bitcoin's steep decline suggests the digital asset is once again trading more like a speculative growth bet than the inflation hedge or \"digital gold\" its proponents have long championed.\n\nWith several trading days still remaining in February, market participants will be watching closely to see whether Bitcoin can find support near current levels or whether further liquidations could deepen the downturn. A monthly close near $63,500 would represent the kind of loss that historically takes weeks or months to recover from, potentially resetting expectations for the broader digital asset market heading into the second quarter of 2026.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "crypto markets",
-        "market selloff",
-        "digital assets"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iGsW94Rm1ok8/v0/1200x800.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/bitcoin-btc-heads-for-worst-month-since-june-2022-crypto-winter",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T15:03:17.007Z"
-    },
-    {
-      "id": "ps-1771945412648-3raa",
-      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
-      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
-      "subheadline": "The exemptive relief enables instant settlement and round-the-clock liquidity in a tokenized Treasury market now worth over $10 billion",
-      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree special exemptive relief to allow its Treasury Money Market Digital Fund to trade continuously at a fixed $1 price through a broker-dealer, marking a significant regulatory milestone for the tokenization of traditional financial assets. The approval, announced on Tuesday, enables the fund — which trades under the ticker WTGXX — to bypass the standard mutual fund practice of transacting only at end-of-day net asset value.\n\nUnder the newly approved structure, a broker-dealer subsidiary of WisdomTree will trade from its own inventory on a 24/7 basis, with transactions settling instantly on blockchain infrastructure. The mutual fund's underlying regulatory framework and primary structure remain unchanged, but investors gain continuous access to liquidity rather than waiting for daily NAV calculations. The arrangement also required regulatory clearance from the Financial Industry Regulatory Authority (FINRA) to expand the broker-dealer's permitted activities.\n\nWisdomTree introduced an additional feature alongside the structural change: continuous dividend accrual that tracks wallet activity on-chain, allocating interest to shareholders based on exactly how long they held shares during a given day. Even mid-day transfers will receive proportional yield, according to the company. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets. The firm plans to offer the capability first to institutional clients through its Connect platform before potentially extending retail access through its Prime app.\n\nThe approval arrives as the tokenized U.S. Treasury market surpasses $10 billion in total assets, according to data provider rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with more than $2 billion in total value locked, while Circle and Ondo Finance also offer competing products. The broader trend reflects Wall Street's growing conviction that blockchain settlement can reduce operational friction and compress the multi-day clearing timelines that have long defined traditional securities markets.\n\nFor regulators, the WisdomTree decision represents a carefully bounded experiment — permitting blockchain-native trading mechanics while preserving the mutual fund wrapper that subjects the product to existing investor protections. Whether the SEC extends similar relief to other asset managers will likely depend on how smoothly the WisdomTree model operates, but the precedent is now set for tokenized funds to compete directly with traditional cash management products on speed and accessibility.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "tokenization",
-        "WisdomTree",
-        "SEC",
-        "blockchain",
-        "money market funds",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T15:03:32.648Z"
     },
     {
       "id": "ps-1771944448002-pnno",
@@ -225,26 +268,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/23/binance-brings-back-tokenized-stocks-trading-with-ondo-finance-deal",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T14:33:32.794Z"
-    },
-    {
-      "id": "ps-1771942635911-kzab",
-      "slug": "russian-soldiers-describe-summary-executions-by-commanders-o",
-      "headline": "Russian Soldiers Describe Summary Executions by Commanders on Ukraine Front",
-      "subheadline": "Four defectors tell BBC documentary they witnessed troops killed for refusing orders in what they call routine 'zeroing'",
-      "body": "Four Russian soldiers who fled their units have provided what is believed to be the first on-the-record testimony from front-line troops describing commanders ordering the execution of fellow soldiers for refusing to fight in Ukraine, according to a BBC documentary released this week.\n\nThe men, speaking from an undisclosed location outside Russia, described a military culture in which summary killings — referred to in Russian military slang as \"zeroing\" — serve as both punishment and intimidation. One soldier, identified as Dima, a 34-year-old former dishwasher repairman from Moscow, said he witnessed a fellow soldier shot at point-blank range on the direct order of his brigade commander, Alexei Ksenofontov, who was awarded Russia's Gold Star medal and designated a \"Hero of Russia\" in 2024. Ksenofontov has been publicly denounced by families of soldiers who died under his command; in a January 2025 letter addressed to President Vladimir Putin, they accused his unit's leadership of operating like a \"gang\" and \"exterminating\" their men with impunity.\n\nA second soldier, Ilya, a 35-year-old former special-needs teacher from the Ural Mountains city of Kungur, said he saw four men executed at close range in Russian-occupied areas of Donetsk for fleeing the front line. Ilya, whose role involved identifying and counting the dead, provided documentation showing he is the sole survivor of the 79 men mobilized alongside him from a recruitment center in Perm in May 2024. He described being tortured and urinated on for refusing front-line duty, and said others who resisted were electrocuted, starved, and then forced into combat unarmed. Dima separately described finding 20 bodies of newly arrived ex-convict recruits in a ditch, alleging they had been killed by a commander who confiscated their bank cards.\n\nThe accounts corroborate growing evidence of systemic breakdown on Russia's front lines, where so-called \"meat storm\" tactics send successive waves of infantry against Ukrainian positions to exhaust defenders' ammunition and drone supplies. The United Kingdom's Ministry of Defence estimates that Russia has suffered more than 1.2 million troops killed or wounded since the full-scale invasion began on February 24, 2022, with daily casualties in 2025 running between 900 and 1,500. Moscow does not publish official casualty figures.\n\nThe Russian government responded to the BBC's inquiries by stating that its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care,\" adding that allegations of violations are \"duly investigated.\" It said it could not independently verify the information provided. The documentary, titled \"The Zero Line: Inside Russia's War,\" also features testimony from a former senior staff officer with 17 years of service, who described learning of a \"liquidation squad\" dispatched to kill a group of high-ranking officers — an account he called unprecedented in his military career.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia-Ukraine war",
-        "war crimes",
-        "Russian military",
-        "BBC documentary",
-        "human rights"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/17ca/live/2f09e430-10d2-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T14:17:15.911Z"
     },
     {
       "id": "ps-1771942696452-8l33",
@@ -1027,28 +1050,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-23/ceo-who-challenged-trump-s-tariffs-on-scotus-decision-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-23T23:48:14.250Z"
-    },
-    {
-      "id": "ps-1771885112378-f25o",
-      "slug": "ibm-suffers-worst-single-day-drop-in-25-years-as-ai-scare-tr",
-      "headline": "IBM Suffers Worst Single-Day Drop in 25 Years as AI 'Scare Trade' Sweeps Markets",
-      "subheadline": "Nassim Taleb and Citrini amplify fears that AI disruption could hollow out software, payments, and delivery sectors",
-      "body": "International Business Machines Corp. plunged by its steepest margin in a quarter century on Monday as a renewed wave of anxiety over artificial intelligence's disruptive potential tore through shares of software, payments, and delivery companies in what traders are calling the AI \"scare trade.\"\n\nThe selloff, which rippled across multiple sectors, was fueled in part by prominent market voices including Nassim Nicholas Taleb, the author and risk analyst known for his work on black swan events, and Citrini, whose public commentary on AI-related risks to incumbent business models helped catalyze a broad reassessment of valuations. The concerns center on a thesis that has gained traction in recent months: that rapidly advancing AI capabilities could erode or entirely displace the revenue streams of companies in software licensing, payment processing, and logistics — sectors long considered resilient and cash-generative.\n\nIBM, which has spent years repositioning itself around hybrid cloud and enterprise AI services, bore the brunt of the market's anxiety. The company's shares suffered their largest single-session decline since the early 2000s, a striking reversal for a stock that had benefited from investor enthusiasm around its own AI offerings, including its Watsonx platform. The severity of the drop underscores how quickly sentiment can shift when markets begin pricing in the possibility that AI could cannibalize demand for traditional enterprise technology rather than simply augmenting it.\n\nThe damage extended well beyond IBM. Shares of major payments companies, software-as-a-service providers, and delivery platforms all came under heavy selling pressure as investors grappled with the question of which business models are most vulnerable to AI-driven automation and disintermediation. The pattern echoes previous episodes — most notably the turbulence that followed DeepSeek's emergence in early 2025 — in which breakthroughs or shifting narratives around AI capabilities triggered sharp rotations away from perceived losers.\n\nFor market participants, Monday's action highlights an increasingly bifurcated investment landscape in which AI is simultaneously the market's most powerful bullish narrative and its most potent source of fear. Companies that can credibly demonstrate they are beneficiaries rather than victims of the AI transition are commanding premium valuations, while those seen as exposed face swift and severe repricing. The question now is whether the scare trade represents a temporary dislocation or the beginning of a more durable reassessment of which corners of the technology economy will survive the AI revolution intact.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "IBM",
-        "artificial intelligence",
-        "AI disruption",
-        "Nassim Taleb",
-        "stock market selloff",
-        "software stocks",
-        "scare trade"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1562705121-e624542c7b9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxJQk0lMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzE4ODUxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/software-payments-shares-tumble-after-citrini-post-on-ai-risks",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-23T22:18:32.378Z"
     }
   ]
 }
