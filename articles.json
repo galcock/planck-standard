@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T02:03:30.863Z",
+  "lastUpdated": "2026-02-25T02:18:20.368Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771984929157-qafg",
+      "id": "ps-1771985826578-h472",
       "slug": "trump-faces-critical-state-of-the-union-with-approval-near-h",
       "headline": "Trump Faces Critical State of the Union With Approval Near Historic Lows",
-      "subheadline": "With midterm elections eight months away and approval at 36%, the president must decide whether to pivot or double down",
-      "body": "President Donald Trump will deliver his State of the Union address on Tuesday evening at what analysts describe as a pivotal juncture of his second term — facing declining approval ratings, legal setbacks on trade policy, and a Congress increasingly resistant to key elements of his agenda.\n\nRecent polling paints a sobering picture for the White House. A CNN survey found just 36% of Americans approve of Trump's job performance, while a Washington Post poll returned a similar figure of 39%. The erosion is particularly notable on issues that were once the president's strongest — the economy and immigration — where public support has declined markedly since he took office for a second time. The killings of two U.S. citizens by federal immigration officers in Minneapolis triggered mass protests and forced the administration to scale back enforcement operations in the city, with Trump himself pledging a \"softer touch.\"\n\nThe address comes days after the U.S. Supreme Court ruled that many of Trump's tariffs were imposed illegally, throwing the administration's trade agenda into uncertainty. Trump has responded by imposing new duties and vowing to expand their use, but the legal and economic turbulence has rattled markets and consumers alike. While stock indexes remain near record highs and unemployment is low, recent economic growth figures came in below expectations, and the lower consumer prices Trump repeatedly promised during the 2024 campaign have not materialized. Policy proposals floated by the White House — including credit card interest rate caps, housing supply measures, and so-called \"tariff refund\" checks — have seen little legislative progress.\n\nWith midterm elections in November that could strip Republicans of their congressional majority, the speech represents Trump's single largest opportunity to make his case directly to the American public. Robert Rowland, a University of Kansas professor who has written a book on Trump's rhetoric, noted that State of the Union addresses traditionally serve as moments for presidents to build broad coalitions and outline forward-looking agendas. Trump's past congressional speeches, however, have hewed closely to a formula of boasting about accomplishments and attacking critics — a pattern Rowland expects to continue. \"Normally, when presidents realize they are angering the public, they pull back and have some kind of mea culpa,\" he said. \"That's not something that President Trump ever does.\"\n\nThe stakes extend beyond domestic politics. Trump may use Tuesday's address to lay the groundwork for potential military action against Iran, a foreign policy development that could reshape the political landscape in unpredictable ways. Congressional Democrats, meanwhile, have blocked Department of Homeland Security funding over demands for new legal guardrails on immigration enforcement — a standoff with no resolution in sight. Whether Trump chooses to broaden his appeal or rally his base, the speech will offer the clearest signal yet of how Republicans plan to defend their record heading into what promises to be a fiercely contested midterm cycle.",
+      "subheadline": "With midterm elections eight months away and approval at 36%, the president confronts headwinds on trade, immigration, and the economy",
+      "body": "President Donald Trump will deliver his State of the Union address Tuesday night at perhaps the most consequential juncture of his second term, facing cratering approval ratings, a Supreme Court rebuke of his tariff agenda, and growing public unease over immigration enforcement — all with midterm elections looming in November.\n\nRecent polling paints a stark picture of the political landscape. A CNN survey found just 36% of Americans approve of Trump's job performance, while a Washington Post poll returned a similar 39% figure. The numbers represent a significant erosion in two areas that were once the president's strongest assets: the economy and immigration. The killings of two U.S. citizens by federal immigration officers in Minneapolis triggered mass protests and forced the administration to scale back its enforcement surge there, with Trump himself promising a \"softer touch.\" Meanwhile, last Friday's Supreme Court ruling declaring many of the president's tariffs illegal has thrown the administration's trade policy into disarray, even as Trump has pledged to impose new duties and expand their use.\n\nThe address represents Trump's sole major set-piece opportunity to make his case to the American public before voters decide whether to preserve the Republican congressional majority or hand power to Democrats — a result that could trigger legislative gridlock and renewed impeachment proceedings. Robert Rowland, a University of Kansas professor who has studied Trump's rhetoric extensively, said the moment calls for something the president rarely delivers: a genuine effort to broaden his appeal beyond his political base. \"State of the Union addresses are normally a time when the president makes a case for his agenda and tries to broaden the appeal,\" Rowland said. \"That's not something that President Trump essentially ever does.\"\n\nTrump previewed the speech Monday, touting what he called \"the greatest economy we've ever had\" and warning it would be lengthy. His last address to Congress stretched nearly two hours. But the economic picture is more complicated than the president's framing suggests. While stock indexes remain near record highs and unemployment is low, recent growth figures fell short of expectations, and Americans have not seen the lower consumer prices Trump repeatedly promised during his 2024 campaign. Policy proposals floated earlier in his term — including credit card interest rate caps, housing supply measures, and \"tariff refund\" checks — have seen little legislative progress, while congressional Democrats continue to block Department of Homeland Security funding absent new immigration enforcement guardrails.\n\nThe speech may also provide the clearest signal yet of Trump's posture toward Iran, with the U.S. amassing military forces for a possible strike — a development that could reshape American politics in unpredictable ways heading into November. Rowland, for his part, does not expect the president to change course. \"Normally, when presidents realize they are angering the public, they pull back and have some kind of mea culpa,\" he said. \"That's not something that President Trump ever does. I expect him to double down.\"",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -15,12 +15,117 @@
         "State of the Union",
         "midterm elections",
         "approval ratings",
-        "US politics"
+        "tariffs",
+        "immigration"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/af5d/live/056b9f50-116e-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cp859d8rn78o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T02:02:09.157Z"
+      "publishedAt": "2026-02-25T02:17:06.578Z"
+    },
+    {
+      "id": "ps-1771985840846-i1c2",
+      "slug": "new-method-lets-carbon-storage-simulations-update-in-real-ti",
+      "headline": "New Method Lets Carbon Storage Simulations Update in Real Time",
+      "subheadline": "Researchers bypass costly retraining of surrogate models by updating operators directly, achieving results within 3% accuracy hundreds of times faster",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, enabling real-time optimization without sacrificing the physical accuracy that safety-critical underground CO₂ injection demands.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in data-driven surrogate modeling based on Dynamic Mode Decomposition (DMD). While DMD has emerged as a powerful framework for reducing the computational burden of high-fidelity multiphase reservoir simulations, its operators are inherently tied to the specific geological properties — such as rock permeability and well placement — used during training. Any change to these parameters has traditionally required generating fresh simulation snapshots and retraining the model from scratch, largely negating the speed advantage that motivated adopting a surrogate in the first place.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model without any new simulation data. When permeability changes uniformly across a reservoir domain, the method recalibrates the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario reflecting the heterogeneity of actual geological formations — the technique adjusts the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced basis.\n\nNumerical experiments reported in the paper show the updated models reproduce plume migration patterns and pressure build-up to within three percent of a fully retrained surrogate, while executing hundreds of times faster than the conventional regenerate-and-retrain workflow. For carbon capture and storage (CCS) projects, where operators must evaluate numerous what-if scenarios involving different injection strategies and geological uncertainties, the speedup could prove transformative.\n\nThe work arrives as geological carbon storage is scaling rapidly worldwide, with regulatory frameworks increasingly requiring detailed simulation of CO₂ plume behavior over decades-long time horizons. The ability to perform near-instantaneous parameter sweeps without compromising model fidelity addresses a critical need in optimization, control, and uncertainty quantification — three pillars of responsible CCS deployment. The research was supported in part by the Simons Foundation and spans computational physics, computational engineering, and optimization theory.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1667066213239-d83408616a61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T02:17:20.846Z"
+    },
+    {
+      "id": "ps-1771985855145-vyxl",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "A synthetic DNA circuit controls oxygen-tolerant microbes that colonize and consume solid cancers, with pre-clinical trials next",
+      "body": "Researchers at the University of Waterloo have engineered a strain of soil-dwelling bacteria to infiltrate solid tumors, multiply in their oxygen-starved cores, and consume cancerous tissue from the inside out — a synthetic biology approach that could open an entirely new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the interior of many solid tumors consists of dead cells and virtually no oxygen, introduced bacterial spores find ideal conditions to germinate, feed on available nutrients, and proliferate. \"We are now colonizing that central space, and the bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The challenge has been that as the bacteria expand outward toward the tumor's oxygenated periphery, they die before eliminating the cancer entirely.\n\nTo solve that problem, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But turning on that gene too early would be dangerous — oxygen-tolerant bacteria loose in the bloodstream could pose serious health risks. So the researchers built a biological safety switch using quorum sensing, a natural communication process in which bacteria release chemical signals that intensify as their population grows. Only after a critical mass of microbes has accumulated inside the tumor does the signal reach the threshold needed to activate the oxygen-resistance gene. The result is a tightly programmed biological attack that arms itself only when and where it is needed.\n\n\"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" The team validated the quorum-sensing design in a proof-of-concept experiment published in ACS Synthetic Biology, using green fluorescent protein to confirm the circuit activated on schedule.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single engineered bacterium and testing it against tumors in pre-clinical animal models. The interdisciplinary project — spanning chemical engineering, applied mathematics, and microbiology — is being advanced in partnership with CREM Co Labs, a Toronto company co-founded by former Waterloo PhD student Bahram Zargar. If successful, the approach could eventually complement or even replace conventional therapies for solid tumors, which account for roughly 90 percent of all cancers and remain notoriously difficult to treat with immunotherapies alone.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T02:17:35.145Z"
+    },
+    {
+      "id": "ps-1771985870126-rlsx",
+      "slug": "stripe-weighs-potential-acquisition-of-paypal-in-blockbuster",
+      "headline": "Stripe Weighs Potential Acquisition of PayPal in Blockbuster Deal",
+      "subheadline": "The payments giant, freshly valued at $159 billion, is reportedly in early-stage discussions to buy some or all of its publicly traded rival.",
+      "body": "Stripe, the Dublin-headquartered payments processor, is exploring a potential acquisition of PayPal Holdings that would represent one of the largest fintech deals in history, according to a Bloomberg report citing people familiar with the matter. The discussions are described as being in their very early stages, and a transaction is far from certain.\n\nThe reported interest emerged on the same day Stripe announced a tender offer valuing the privately held company at $159 billion — a 74% jump from its prior valuation and a figure that reaffirms its status as one of the world's most valuable private companies. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, with Stripe also buying back a portion of its own stock. PayPal, by contrast, carries a public market capitalization of roughly $40 billion, meaning Stripe's implied valuation is nearly four times that of its potential target. PayPal's stock edged higher following the reports.\n\nA combination of the two companies would create a payments colossus spanning virtually every layer of digital commerce. Stripe powers the backend payment infrastructure for millions of businesses, from startups to enterprises like Amazon and Shopify, while PayPal operates one of the world's most recognized consumer-facing payment brands alongside Venmo, its popular peer-to-peer platform. Together, they would command an unrivaled position across both merchant services and consumer payments — though such a deal would almost certainly draw intense antitrust scrutiny from regulators in the United States and Europe.\n\nThe strategic logic, however, is not without tension. Stripe CEO and co-founder Patrick Collison recently told CNBC that taking the company public is not among his current priorities, yet absorbing a publicly traded entity the size of PayPal would introduce significant complexity in deal structure, financing, and governance. Whether Stripe would pursue the entire company or carve out specific units — Venmo, for instance, has long been viewed as a separable asset — remains unclear.\n\nStripe declined to comment on the report. If a deal were to materialize, it would mark a dramatic consolidation in the payments industry at a moment when both companies are navigating intensifying competition from Apple Pay, Block, and a new wave of fintech challengers.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T02:17:50.126Z"
+    },
+    {
+      "id": "ps-1771985884744-640y",
+      "slug": "us-slaps-126-preliminary-tariffs-on-indian-solar-imports",
+      "headline": "US Slaps 126% Preliminary Tariffs on Indian Solar Imports",
+      "subheadline": "Trump administration finds India unfairly subsidized solar manufacturing, escalating trade tensions across clean energy supply chains",
+      "body": "The Trump administration has imposed preliminary duties of 126% on solar imports from India, a move that could significantly reshape global clean energy supply chains and raise costs for American solar installers already grappling with trade uncertainty.\n\nThe Commerce Department's determination that India unfairly subsidized its solar manufacturing sector came as part of a broader investigation that also examined imports from Indonesia and Laos. The steep preliminary tariff rate — more than doubling the cost of Indian-made solar products entering the US market — represents one of the most aggressive trade actions targeting the renewable energy sector in recent years.\n\nThe decision lands at a particularly fraught moment for the US solar industry, which has spent years attempting to diversify its supply chain away from Chinese dominance. India had emerged as one of the most promising alternative sourcing destinations, with companies like Adani Green Energy and Tata Power expanding panel manufacturing capacity partly in anticipation of growing Western demand. A 126% duty effectively prices Indian products out of the American market, potentially pushing installers back toward a narrow set of suppliers and raising project costs at a time when solar deployment had been accelerating across the United States.\n\nTrade experts say the preliminary findings could also carry diplomatic consequences. India and the United States have been deepening economic and strategic ties in recent years, and New Delhi has made solar manufacturing a centerpiece of its industrial policy under the Production Linked Incentive scheme. Indian officials are expected to challenge the determination vigorously, both through the Commerce Department's review process and potentially through the World Trade Organization.\n\nThe duties remain preliminary, meaning they could be revised — upward or downward — before a final determination, typically issued several months later. In the interim, importers will be required to post cash deposits or bonds covering the full duty rate. The US solar industry trade group has previously warned that aggressive tariff actions across multiple countries risk creating a bottleneck that slows installations and drives up electricity costs for consumers. Final duties, once confirmed, would remain in place for at least five years unless formally reviewed.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "tariffs",
+        "solar energy",
+        "India",
+        "trade policy",
+        "Trump administration",
+        "renewable energy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655300256486-4ec7251bf84e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8dGFyaWZmcyUyMHNvbGFyJTIwZW5lcmd5fGVufDB8MHx8fDE3NzE5Nzg2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T02:18:04.744Z"
+    },
+    {
+      "id": "ps-1771985900256-yqx5",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite $1.9 trillion processor with $4 billion stablecoin pioneer, reshaping digital payments",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech transactions in history and consolidate two of the most significant players in the stablecoin economy. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and no formal offer has been made. Stripe, which processed $1.9 trillion in payment volume last year and carries a private valuation of $159 billion, would be absorbing a company whose stock has fallen roughly 80% from its 2021 highs — a decline that has made PayPal an increasingly attractive takeover target. Shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fuel.\n\nWhat makes the potential combination particularly consequential is the crypto and stablecoin infrastructure both companies have been quietly assembling. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm.\n\nA merger would create an entity with unmatched reach across both traditional payment rails and emerging blockchain-based infrastructure. Stripe's dominance in online merchant processing, combined with PayPal's massive consumer user base and established stablecoin, could accelerate the mainstreaming of crypto-native payment methods. Bridge's stablecoin volume has quadrupled recently, suggesting growing enterprise demand for dollar-denominated tokens even amid broader market turbulence.\n\nThe deal would also arrive at a moment of intensifying competition in digital payments. Meta is reportedly planning a stablecoin comeback in the second half of 2026, and exchanges like Coinbase and Kraken are expanding into traditional financial products such as stock and ETF trading. If Stripe proceeds with a bid, regulators would likely scrutinize the combination's effects on competition in online payments, merchant services, and the rapidly growing stablecoin market — a sector that increasingly functions as a parallel banking system operating beyond traditional business hours and borders.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "digital payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T02:18:20.256Z"
     },
     {
       "id": "ps-1771984943340-bjfr",
@@ -42,28 +147,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.18477",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T02:02:23.340Z"
-    },
-    {
-      "id": "ps-1771984960508-vioi",
-      "slug": "waterloo-scientists-program-bacteria-to-devour-tumors-from-w",
-      "headline": "Waterloo Scientists Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the core outward, and activate an oxygen-survival gene only when it is safe to do so — a synthetic biology advance that could open a new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. Because the dead-cell cores of many solid tumors are devoid of oxygen yet rich in nutrients, bacterial spores injected into a patient can germinate and multiply precisely where conventional therapies struggle to reach. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo, describing how the microbe colonizes and breaks down necrotic tissue at the heart of a mass.\n\nThe central engineering challenge has been what happens at the tumor periphery, where traces of oxygen begin to appear. Unmodified C. sporogenes dies off at those edges, leaving viable cancer cells behind. To solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species, allowing the engineered strain to survive longer in partially oxygenated regions. But switching that gene on prematurely would be dangerous — oxygen-tolerant bacteria circulating in the bloodstream could pose a serious infection risk.\n\nThe safety mechanism the researchers devised exploits quorum sensing, a natural chemical signaling process bacteria use to gauge their own population density. Only after enough engineered microbes have accumulated inside a tumor does the concentration of signaling molecules cross the threshold needed to activate the oxygen-resistance gene. In a proof-of-concept experiment published in ACS Synthetic Biology, the team demonstrated the system's precision by programming bacteria to produce green fluorescent protein at the target density, confirming the circuit fired on cue. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a Waterloo applied mathematics professor involved in the work.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing the integrated system in pre-clinical tumor models. The Waterloo group is partnering with CREM Co Labs, a Toronto biotech company co-founded by PhD student Bahram Zargar, who initiated the research alongside Ingalls and retired Waterloo professor Pu Chen. Former doctoral student Sara Sadr played a leading role in advancing the quorum-sensing design.\n\nIf the combined construct performs as expected in animal studies, the platform could eventually complement or replace existing solid-tumor therapies that are often hampered by poor drug penetration into oxygen-starved tumor cores — a limitation that has long frustrated oncologists and patients alike.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes",
-        "solid tumors"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T02:02:40.508Z"
     },
     {
       "id": "ps-1771984977431-o001",
@@ -110,48 +193,6 @@
       "publishedAt": "2026-02-25T02:03:13.897Z"
     },
     {
-      "id": "ps-1771985010759-po40",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring a possible acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech combinations in history and consolidate two of the industry's most significant stablecoin operations under a single roof.\n\nPayPal shares surged 7% on the news, extending gains that had already begun building earlier in the week on buyout speculation. The stock remains deeply depressed from its 2021 peak, having shed roughly 80% of its value during a prolonged downturn that has left the once-dominant digital payments company vulnerable to takeover interest. Stripe, which remains privately held and was most recently valued at $159 billion, processed $1.9 trillion in transactions last year — giving it both the scale and the financial heft to contemplate such a transformative acquisition.\n\nDeliberations are still in early stages, according to Bloomberg's reporting, and there is no guarantee a deal will materialize. But the strategic logic is striking, particularly through the lens of digital asset infrastructure. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization, establishing itself as a mainstream on-ramp for moving dollars across blockchain networks at lower cost than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing.\n\nA merger would create a payments colossus with unmatched reach across both traditional rails and crypto-native infrastructure. Stripe's merchant processing network, combined with PayPal's consumer-facing platform and Venmo brand, would span virtually every layer of digital commerce. On the stablecoin front, unifying PYUSD's consumer distribution with Bridge's enterprise tooling could accelerate the adoption of blockchain-based settlement in ways neither company could achieve independently.\n\nThe potential deal arrives at a moment of rapid convergence between traditional payments and blockchain technology. Meta is reportedly planning a stablecoin reentry in the second half of this year, while exchanges like Coinbase and Kraken are expanding into stock and ETF trading — blurring the boundaries between crypto platforms and conventional brokerages. If Stripe moves forward with a PayPal bid, it would signal that the largest private payments company in the world views stablecoin infrastructure not as an experiment, but as core to the future of money movement.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T02:03:30.759Z"
-    },
-    {
-      "id": "ps-1771984039400-v5uf",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that could dramatically accelerate the computational modeling underpinning geological carbon storage projects, updating surrogate simulation models hundreds of times faster than conventional retraining while sacrificing less than three percent accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, tackled a persistent bottleneck in using Dynamic Mode Decomposition (DMD) — a popular data-driven framework for reducing the computational cost of multiphase reservoir simulations. DMD models extract dominant patterns from simulation snapshots and use them to predict future system behavior at a fraction of the cost of full-fidelity simulators. The catch: those models are trained on a specific set of reservoir properties. When engineers need to evaluate a different permeability field or a new well placement — routine tasks in optimization and uncertainty analysis — the standard approach has been to regenerate simulation data and retrain from scratch, negating much of the speed advantage.\n\nThe new work introduces two complementary strategies that sidestep retraining entirely. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — the more realistic and challenging scenario — it modifies the model's spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced representation. Crucially, neither approach requires generating new high-fidelity simulation data.\n\nNumerical experiments reported in the paper show the updated models reproduce key carbon-storage observables, including CO₂ plume migration and subsurface pressure buildup, to within three percent of a surrogate model trained from scratch on the new parameters. The authors argue this level of fidelity is sufficient for the rapid what-if analyses and real-time optimization loops that carbon capture and storage projects increasingly demand.\n\nThe work sits at the intersection of computational physics, engineering, and optimization, and addresses a practical need that has grown more urgent as carbon storage gains traction as a climate mitigation strategy. High-fidelity reservoir simulators can take hours or days per run, making exhaustive parameter sweeps or real-time control effectively impossible. If the lightweight update framework proves robust across a broader range of geological scenarios, it could meaningfully lower the computational barrier to deploying and managing underground CO₂ repositories at scale.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic-mode-decomposition",
-        "carbon-storage",
-        "surrogate-modeling",
-        "computational-physics",
-        "reservoir-simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1756144818195-969f15dd141a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T01:47:19.400Z"
-    },
-    {
       "id": "ps-1771984086503-36be",
       "slug": "oil-prices-rise-as-iran-nuclear-talks-and-u-s-military-build",
       "headline": "Oil Prices Rise as Iran Nuclear Talks and U.S. Military Buildup Stoke Uncertainty",
@@ -191,27 +232,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T01:31:58.376Z"
-    },
-    {
-      "id": "ps-1771983163580-j4z6",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of PayPal, valued at roughly $40 billion",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report published Monday — a combination that would represent one of the largest fintech transactions in history.\n\nThe discussions are described as being in their earliest stages, with no certainty that a deal will materialize. Stripe declined to comment on the report. PayPal shares ticked higher on the news, though the publicly traded company's market capitalization of approximately $40 billion is dwarfed by Stripe's latest private valuation. PayPal's portfolio includes its flagship payment service as well as Venmo, the popular peer-to-peer payments app.\n\nThe timing is notable. On the same day as the Bloomberg report, Stripe published its annual letter revealing a tender offer that values the company at $159 billion — a 74% jump from the previous year and a figure that cements its position among the world's most valuable private companies. The latest share sale, which allows employees to cash out equity, attracted prominent backers including Andreessen Horowitz and Thrive Capital. Stripe also disclosed plans to repurchase some of its own stock.\n\nA merger of the two companies would unite Stripe's developer-focused payment processing platform, which powers transactions for millions of businesses worldwide, with PayPal's massive consumer-facing network. The strategic logic could center on combining Stripe's dominance in online commerce infrastructure with PayPal's brand recognition and Venmo's foothold among younger consumers. However, the complexity of integrating a publicly traded company into a private one — particularly at these scales — would present significant regulatory and logistical challenges.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not a near-term priority, a stance that has persisted even as the company's valuation has soared. Whether a PayPal acquisition would accelerate or further delay any IPO plans remains an open question. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid that could reshape the digital payments landscape.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "Venmo",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T01:32:43.580Z"
     },
     {
       "id": "ps-1771981327076-tfba",
@@ -255,27 +275,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-8b-from-nvidia-uber-and-three-automakers/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-25T00:47:47.941Z"
-    },
-    {
-      "id": "ps-1771980482728-n6do",
-      "slug": "us-slaps-126-preliminary-duties-on-indian-solar-imports",
-      "headline": "US Slaps 126% Preliminary Duties on Indian Solar Imports",
-      "subheadline": "Trump administration alleges India unfairly subsidized solar manufacturing, escalating trade tensions across renewable energy supply chains",
-      "body": "The Trump administration has imposed preliminary countervailing duties of 126% on solar imports from India, a sharp escalation in trade enforcement that could reshape global clean energy supply chains and raise costs for American solar installers.\n\nThe Commerce Department's preliminary finding, announced on February 24, determined that India unfairly subsidized its solar manufacturing sector, giving Indian producers an artificial cost advantage in the U.S. market. The investigation also encompassed solar imports from Indonesia and Laos, signaling a broader crackdown on what Washington views as trade-distorting practices across Southeast and South Asia — regions that have become critical nodes in the global solar supply chain.\n\nThe 126% duty rate, if finalized, would effectively shut Indian solar panels and cells out of the U.S. market by more than doubling their landed cost. The move comes as the American solar industry has been grappling with a complex web of trade restrictions, many of which trace back to longstanding efforts to limit the dominance of Chinese manufacturers who have increasingly routed production through third countries to circumvent existing tariffs. India, which has been aggressively building out its own solar manufacturing capacity with government support, now finds itself caught in the same enforcement dragnet.\n\nThe decision is likely to further strain U.S.-India trade relations at a time when the two countries have been working to deepen strategic and economic ties. For the U.S. solar industry, the duties add another layer of uncertainty. Domestic installers and project developers have repeatedly warned that tariffs on imported panels drive up costs and slow deployment, undermining the country's clean energy goals. Industry groups estimate that the U.S. still depends heavily on imports to meet surging demand for solar capacity.\n\nThe preliminary duties are subject to a final determination by the Commerce Department, typically issued several months after the initial finding. Indian manufacturers and exporters will have the opportunity to contest the findings and present additional evidence before a final rate is set. In the meantime, importers will be required to post cash deposits at the preliminary rate, creating an immediate financial barrier to trade.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "solar energy",
-        "tariffs",
-        "US-India trade",
-        "Trump administration",
-        "renewable energy",
-        "trade policy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1711224116673-fd729b3db180?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8c29sYXIlMjBlbmVyZ3klMjB0YXJpZmZzfGVufDB8MHx8fDE3NzE5ODA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T00:48:02.728Z"
     },
     {
       "id": "ps-1771977731187-wv9w",
