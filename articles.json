@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T09:03:31.965Z",
+  "lastUpdated": "2026-02-25T09:18:21.134Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772011021885-l0im",
+      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
+      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
+      "subheadline": "Former UK ambassador to the US was held for nine hours and forced to surrender passport as bail condition",
+      "body": "Lord Peter Mandelson's legal team has challenged the basis for his arrest on Monday, saying Metropolitan Police officers detained the former UK ambassador to the United States at his London home over an unfounded belief that he planned to flee the country. His lawyers at Mishcon De Reya told the BBC there is \"absolutely no truth whatsoever\" in the suggestion he intended to leave Britain permanently.\n\nThe arrest came despite what Mandelson's lawyers described as a prior agreement with police for a voluntary interview next month. Officers from the Met's central specialist crime division took the 71-year-old peer from his London residence in an unmarked car to Wandsworth police station, where he was held for approximately nine hours before being released on bail in the early hours of Tuesday. Among his bail conditions was the surrender of his passport, with bail set to run through the end of May.\n\nMandelson was arrested on suspicion of misconduct in public office, an investigation the Metropolitan Police launched earlier this month following allegations that he passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a senior cabinet minister. The probe was triggered by documents released last month by the US Department of Justice, including emails between the two men. One 2009 email appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures, including an \"asset sales plan.\" Other communications reportedly discussed a tax on bankers' bonuses and appeared to confirm an imminent eurozone bailout package the day before its public announcement in 2010.\n\nSearch warrants were executed at two addresses in Wiltshire and Camden in connection with the investigation. The Crown Prosecution Service is consulting with police on the case. Mandelson's legal team said his \"overriding priority is to cooperate with the police investigation\" and to clear his name, adding that he maintains he has not acted criminally and was not motivated by financial gain. The Metropolitan Police declined to comment on the flight-risk allegation.\n\nMandelson, one of the architects of the New Labour movement and a central figure in Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. His arrest marks a dramatic fall for a political operator who shaped British politics for four decades.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Peter Mandelson",
+        "UK politics",
+        "Jeffrey Epstein",
+        "Metropolitan Police",
+        "misconduct in public office"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T09:17:01.885Z"
+    },
+    {
+      "id": "ps-1772011036509-en3q",
+      "slug": "machine-learning-tackles-inverse-design-of-metamaterials-wit",
+      "headline": "Machine Learning Tackles Inverse Design of Metamaterials With Exotic Thermal Properties",
+      "subheadline": "Neural network models can now suggest material structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that defy conventional thermal and mechanical behavior — shrinking when heated and expanding laterally when compressed. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding challenge in materials engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures that can simultaneously exhibit negative Poisson's ratios (meaning they get thicker perpendicular to an applied compressive force, rather than thinner) and negative coefficients of thermal expansion (meaning they contract when heated). These counterintuitive properties make such materials highly promising for aerospace, precision instruments, and other engineering applications where thermal stability and unusual mechanical responses are critical.\n\nThe team's approach began with generating a large dataset through computational homogenization — systematically simulating structures with varying geometrical features and base material properties. A forward neural network model was first trained to predict the effective thermoelastic properties of any given design, replacing time-consuming finite element simulations with near-instantaneous predictions. The researchers then built six distinct inverse models, each tailored to different design scenarios defined by various combinations of target properties and structural variables. Critically, the trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency during optimization.\n\nThe methodology represents a significant step toward practical on-demand metamaterial design. Traditional approaches to finding structures with specific property combinations rely on parameter sweeps or trial-and-error simulation campaigns that can require thousands of computationally expensive runs. The machine learning pipeline compresses this process dramatically, enabling engineers to specify desired thermal expansion coefficients and Poisson's ratios and receive candidate geometries and material pairings in return.\n\nWhile the current work focuses on two-dimensional lattice structures, the framework is generalizable and could be extended to three-dimensional architectures or additional property targets such as thermal conductivity or dynamic response. The research underscores a broader trend in computational materials science, where neural networks are increasingly being used not merely as surrogate models for forward prediction but as active tools for navigating vast, high-dimensional design spaces that would be intractable by conventional means.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1719836567950-b0127bbbdf2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T09:17:16.509Z"
+    },
+    {
+      "id": "ps-1772011052377-va2d",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "A synthetic DNA circuit ensures engineered microbes only activate their cancer-killing mode deep inside solid tumors",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize the oxygen-starved cores of solid tumors and consume them from within — complete with a molecular safety mechanism that prevents the microbes from running amok in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of many solid tumors provide an ideal habitat for the microbe, which can germinate from spores, feed on available nutrients, and expand outward through cancerous tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what the team calls the oxygen barrier. As the bacteria proliferate outward from a tumor's core, they encounter regions with trace amounts of oxygen and begin dying before they can eliminate the cancer's outer layers. To solve this, the Waterloo group inserted a gene from a related, more oxygen-tolerant bacterium — but they needed to ensure this gene didn't switch on prematurely, which could allow the engineered microbes to survive in oxygen-rich environments like the bloodstream. Their solution was quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside a tumor does the accumulated signal reach the threshold needed to activate the oxygen-resistance gene.\n\nBrian Ingalls, a professor of applied mathematics at Waterloo, described the design as akin to an electrical circuit built from DNA components. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In validation experiments, the team programmed the bacteria to produce green fluorescent protein as a proxy, confirming that the quorum-sensing trigger activated precisely on schedule.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials. The project — led by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen — is being advanced through a collaboration with CREM Co Labs, a Toronto-based company co-founded by Zargar. Former Waterloo doctoral student Sara Sadr also played a leading role in the research. If the integrated system performs as designed in animal models, it could open a fundamentally new front in the treatment of solid tumors, which account for roughly 90 percent of all cancers and remain notoriously difficult to treat with conventional immunotherapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "quorum sensing",
+        "solid tumors"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T09:17:32.377Z"
+    },
+    {
+      "id": "ps-1772011068082-27dr",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The payments giant, freshly valued at $159 billion, is in early-stage discussions to acquire some or all of its publicly traded rival.",
+      "body": "Stripe, the Dublin-based payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If consummated, the transaction would represent one of the largest acquisitions in fintech history, combining two of the most prominent names in digital payments.\n\nThe discussions are described as being in their very early stages, and sources caution that no deal may ultimately materialize. Stripe declined to comment on the report. PayPal, which is publicly traded with a market capitalization of approximately $40 billion, saw its stock tick upward following news of Stripe's interest. The PayPal umbrella includes not only its flagship payment platform but also Venmo, the popular peer-to-peer payments app.\n\nThe timing of the report is notable. It surfaced on the same day Stripe published its annual letter revealing a tender offer that values the private company at $159 billion — a 74 percent increase from the prior year. Investors participating in the latest share purchase, which allows employees to sell stock, include Andreessen Horowitz and Thrive Capital. Stripe also announced plans to repurchase some of its own shares. The new valuation cements Stripe's position as one of the most valuable private companies in the world, dwarfing PayPal's public market value by nearly four to one.\n\nThe potential combination would be striking in its strategic logic and its complexity. Stripe has built its dominance by providing payment processing infrastructure to businesses of all sizes, from startups to enterprise clients. PayPal, by contrast, operates a consumer-facing digital wallet and marketplace payments ecosystem that reaches hundreds of millions of users globally. Merging the two could create a vertically integrated payments behemoth spanning both sides of the transaction — merchant and consumer — though regulatory scrutiny would almost certainly be intense.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not a current priority, a stance that has persisted for years despite the company's enormous scale. An acquisition of a publicly traded entity like PayPal, however, could complicate that posture, potentially forcing greater transparency or even an eventual listing. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T09:17:48.082Z"
+    },
+    {
+      "id": "ps-1772011083737-1uia",
+      "slug": "germany-s-economy-rebounds-on-domestic-spending-as-trade-dra",
+      "headline": "Germany's Economy Rebounds on Domestic Spending as Trade Drag Persists",
+      "subheadline": "Consumer, business, and government expenditure powered a late-2025 recovery, with major infrastructure and defense investment expected to accelerate growth",
+      "body": "Germany's economy staged a recovery in the final quarter of 2025, fueled by a broad-based surge in domestic spending even as the country's trade sector continued to weigh on overall growth.\n\nConsumer expenditure, business investment, and government outlays combined to pull Europe's largest economy out of a prolonged slump that had raised alarm across the eurozone. The rebound marks a notable shift for a country that had struggled with stagnant output through much of 2024 and into 2025, battered by high energy costs, weak manufacturing orders, and global demand uncertainty. Analysts now see the domestic-driven recovery as a potential turning point, though external headwinds remain formidable.\n\nThe trade sector — long the backbone of the German economic model — acted as a brake on growth during the quarter. Export-dependent industries have grappled with softening demand from key partners, including China, as well as disruptions linked to shifting global trade patterns and tariff pressures. The divergence between a strengthening home economy and a flagging external sector underscores the structural transition underway in Germany's growth model.\n\nLooking ahead, economists expect the recovery to gain momentum as Berlin channels substantial new investment into infrastructure modernization and defense. A landmark fiscal package passed in 2025, which loosened Germany's constitutional debt brake, is set to unlock hundreds of billions of euros in spending over the coming years. Defense outlays alone are projected to rise sharply as the country moves toward meeting elevated NATO commitments, while crumbling roads, bridges, and rail networks are slated for overdue upgrades.\n\nThe combination of fiscal stimulus and recovering consumer confidence offers a more optimistic outlook for 2026 than many forecasters anticipated just months ago. Still, risks remain. Persistent weakness in the manufacturing sector, geopolitical uncertainty, and the potential for further trade disruptions could temper the pace of expansion. Whether Germany can sustain growth that is less reliant on exports and more driven by domestic investment will be one of the defining economic questions for Europe this year.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Germany",
+        "GDP",
+        "economic recovery",
+        "domestic demand",
+        "fiscal policy",
+        "European economy",
+        "defense spending"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1685164815358-0ffdad5602f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxHZXJtYW55JTIwR0RQfGVufDB8MHx8fDE3NzIwMTEwODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/german-rebound-driven-by-domestic-demand-as-trade-damps-growth",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T09:18:03.737Z"
+    },
+    {
+      "id": "ps-1772011101045-0s8e",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination of the $159 billion payments processor with the embattled fintech could reshape stablecoin infrastructure",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest digital payments companies and consolidate significant stablecoin operations under one roof. PayPal shares surged 7% on the news.\n\nThe discussions are still in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of a potential combination is staggering. Stripe, which remains privately held, processed $1.9 trillion in payment volume last year and carries a valuation of roughly $159 billion. PayPal, once a market darling that peaked in 2021, has seen its stock decline approximately 80% from those highs, making it a more digestible target despite its still-massive footprint in online commerce.\n\nWhat makes the potential deal particularly consequential is the crypto dimension. Both companies have made aggressive moves into stablecoins and blockchain-based payment rails. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to a market capitalization of roughly $4 billion. It enables users to transfer dollars across crypto networks around the clock, often at lower cost than traditional bank transfers. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to develop Tempo, a payments-focused blockchain currently in testing. A merger would bring PYUSD, Bridge's token-issuance tools, and Tempo's nascent blockchain under a single corporate umbrella — creating what would arguably be the most formidable stablecoin ecosystem in the industry.\n\nThe timing is notable. Stablecoins have emerged as one of the few crypto use cases with clear, growing demand even during periods of broader market turbulence. Bridge's stablecoin volume reportedly quadrupled in recent quarters, and Meta is separately planning a stablecoin initiative for the second half of 2026. A Stripe-PayPal combination would position the merged entity to compete not just with traditional payment networks like Visa and Mastercard, but also with an expanding cohort of tech giants eyeing blockchain-based financial infrastructure.\n\nPayPal shares had already been climbing this week on earlier buyout speculation before the Bloomberg report added further momentum. For Stripe, which has resisted going public and instead raised capital privately, absorbing PayPal would represent a dramatic shift in strategy — transforming it from a behind-the-scenes payments processor into a consumer-facing financial services giant. Whether the deal advances or falls apart, the fact that it is under consideration signals how rapidly the line between traditional fintech and crypto-native infrastructure is dissolving.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "mergers and acquisitions",
+        "fintech",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T09:18:21.045Z"
+    },
     {
       "id": "ps-1772010131621-y5w7",
       "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
@@ -22,69 +150,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T09:02:11.621Z"
-    },
-    {
-      "id": "ps-1772010146551-hrjo",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now suggest material designs that exhibit both negative Poisson's ratios and negative thermal expansion",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of thermoelastic metamaterials — exotic structures that simultaneously shrink when heated and expand laterally when compressed, defying the behavior of conventional materials. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing challenge in metamaterial engineering: starting from desired material properties and working backward to determine the structure that produces them.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattices that exhibit two unusual properties at once: negative Poisson's ratios, meaning they get thicker perpendicular to an applied compressive force rather than thinner, and negative coefficients of thermal expansion, meaning they contract when heated. These counterintuitive behaviors make such materials promising candidates for aerospace components, precision instruments, and other engineering systems where thermal stability and unusual mechanical responses are critical.\n\nTraditional design of such structures has relied on computational homogenization — a rigorous but computationally expensive simulation process that evaluates one configuration at a time. Peng and Xu instead generated a large dataset through high-throughput simulations of structures with varying geometrical features and base material properties, then trained neural networks on the results. Their forward model predicts effective thermoelastic properties from a given structural design with high accuracy, while six distinct inverse models tackle different design scenarios, each handling different combinations of target properties and structural variables.\n\nA notable technical innovation is the integration of the trained forward model directly into the loss functions of the inverse models, creating a self-consistent training loop that improves accuracy. The forward model also generates supplementary training data for cases where the base materials are fixed, a common practical constraint. The researchers demonstrated the system's predictive performance through representative design examples, showing that the models can reliably suggest both geometric configurations and material combinations to achieve specified thermoelastic targets.\n\nThe framework could significantly accelerate the deployment of thermoelastic metamaterials in real-world engineering applications, where designers typically face tightly constrained thermal and mechanical requirements. Rather than iterating through expensive simulations, engineers could query the inverse models to rapidly identify candidate designs — a workflow that collapses weeks of computational effort into seconds of neural network inference.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1551101633-6a208b08cf88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T09:02:26.551Z"
-    },
-    {
-      "id": "ps-1772010162225-6yw9",
-      "slug": "waterloo-engineers-build-bacterial-circuits-to-devour-tumors",
-      "headline": "Waterloo Engineers Build Bacterial 'Circuits' to Devour Tumors",
-      "subheadline": "Synthetic biology approach programs soil bacteria to colonize oxygen-starved tumor cores, then survive at the edges",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the core outward, and — critically — survive long enough near oxygen-rich tissue to finish the job. The work, published in ACS Synthetic Biology, represents a significant step toward programmable microbial cancer therapies.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microbe that thrives only where oxygen is absent. The dead, oxygen-depleted cores of solid tumors provide precisely those conditions. Once bacterial spores reach the interior, they feed on available nutrients and multiply, effectively colonizing the tumor from within. \"The bacterium is essentially ridding the body of the tumor,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge has been the tumor's periphery. As the bacteria expand outward from the anoxic core, they encounter trace amounts of oxygen and begin dying before the cancer is fully eliminated. To solve this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed a safety switch to prevent the modified microbes from surviving in oxygen-rich environments like the bloodstream. Their solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside the tumor does the accumulated signal activate the oxygen-resistance gene. The design ensures the dangerous capability never turns on prematurely.\n\nDr. Brian Ingalls, a professor of applied mathematics who co-led the research, likened the genetic architecture to an electrical circuit built from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In earlier work, the team demonstrated that C. sporogenes could be genetically modified for greater oxygen tolerance. A follow-up experiment validated the quorum-sensing trigger by programming bacteria to produce green fluorescent protein at the intended activation threshold.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism for pre-clinical tumor trials. The project, which grew from PhD research by Bahram Zargar under Ingalls and retired Waterloo professor Dr. Pu Chen, now involves a collaboration with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar. Former Waterloo doctoral student Dr. Sara Sadr played a leading role in advancing the research. While clinical application remains years away, the work illustrates how synthetic biology is opening unconventional fronts in oncology — turning one of nature's simplest organisms into a precisely programmed therapeutic agent.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "oncology"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T09:02:42.225Z"
-    },
-    {
-      "id": "ps-1772010177226-gaym",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to buy some or all of PayPal, valued at roughly $40 billion",
-      "body": "Stripe, the Dublin-based payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to people familiar with the matter, in what would represent one of the largest fintech transactions ever attempted.\n\nThe discussions are still in their earliest stages and may not result in a deal, Bloomberg reported on Monday. But the mere prospect of a combination between two of the world's most prominent digital payments companies sent PayPal's stock ticking upward. PayPal, which is publicly traded with a market capitalization of approximately $40 billion, encompasses not only its namesake service but also the popular peer-to-peer platform Venmo. Stripe declined to comment on the reports.\n\nThe potential acquisition talks emerged on the same day Stripe disclosed a dramatic leap in its own valuation. In its annual letter, the company announced a tender offer valuing itself at $159 billion — a 74% jump from the prior year — with investors including Andreessen Horowitz and Thrive Capital purchasing employee shares. The company also plans to repurchase some of its own stock. The new valuation cements Stripe's position as one of the most valuable private companies in the world, rivaling many publicly traded tech giants.\n\nA Stripe-PayPal combination would reshape the global payments landscape. Stripe has built its business primarily as a back-end infrastructure provider, powering online transactions for millions of businesses from startups to enterprises. PayPal, by contrast, operates a consumer-facing digital wallet and checkout experience used by hundreds of millions of individuals. A merger could create a vertically integrated payments colossus spanning both sides of the transaction — from merchant processing to consumer wallets.\n\nThe strategic logic, however, comes with significant complexity. Stripe CEO and co-founder Patrick Collison recently told CNBC that taking the company public is not among his priorities, raising questions about how an acquisition of a publicly traded target worth tens of billions would be structured and financed. Regulatory scrutiny would also be intense, given the combined entity's dominance across online payments. Still, even in preliminary form, the talks signal Stripe's ambition to expand well beyond its core merchant-services business and into direct consumer finance — a move that could redefine competition in fintech for years to come.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "Venmo",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T09:02:57.226Z"
     },
     {
       "id": "ps-1772010194906-ife3",
@@ -110,28 +175,6 @@
       "publishedAt": "2026-02-25T09:03:14.906Z"
     },
     {
-      "id": "ps-1772010211872-f4dd",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite $1.9 trillion processor Stripe with PayPal's $4 billion stablecoin empire",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would reshape the global payments landscape and consolidate two of the industry's most ambitious stablecoin operations under one roof. PayPal shares surged 7% on the news.\n\nThe deliberations remain in early stages, and no formal offer has been made. But the sheer scale of the potential combination is staggering. Stripe, the privately held payments infrastructure company most recently valued at $159 billion, processed $1.9 trillion in transactions last year. PayPal, once the dominant name in digital payments, has seen its stock collapse roughly 80% from record highs set in 2021, making it a far more digestible target than it would have been just a few years ago. Shares had already been climbing this week on buyout speculation before the Bloomberg report sent them higher still.\n\nWhat makes the potential deal particularly consequential is the crypto and stablecoin dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, has been building its own blockchain infrastructure aggressively. The company acquired stablecoin platform Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm.\n\nA combined entity would control both a consumer-facing stablecoin with meaningful adoption and the backend infrastructure for businesses to issue and manage their own dollar-backed tokens. That vertical integration could give the merged company a decisive edge as stablecoins increasingly compete with traditional payment rails for everyday commerce. The deal would also come at a moment when major technology firms — including Meta, which is reportedly planning a stablecoin reentry later this year — are accelerating their push into blockchain-based payments.\n\nFor PayPal, a Stripe takeover could offer a lifeline after years of declining market confidence and intensifying competition from newer fintech players. For Stripe, absorbing PayPal's massive consumer user base and merchant network would catapult it from a behind-the-scenes processor into one of the most visible financial brands in the world. Whether the deal advances beyond early-stage exploration remains uncertain, but the mere possibility signals how rapidly the line between traditional payments and crypto infrastructure continues to blur.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T09:03:31.872Z"
-    },
-    {
       "id": "ps-1772009239268-r3hg",
       "slug": "digital-twin-strategy-cuts-particle-accelerator-tuning-time-",
       "headline": "Digital Twin Strategy Cuts Particle Accelerator Tuning Time by Up to 6x",
@@ -151,26 +194,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20233",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T08:47:19.268Z"
-    },
-    {
-      "id": "ps-1772008324719-2lvv",
-      "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
-      "headline": "Mandelson Lawyers Call Flight-Risk Claim 'Baseless' After Arrest",
-      "subheadline": "Former UK ambassador to the US was held for nine hours on suspicion of misconduct in public office tied to Epstein links",
-      "body": "Lawyers for Lord Peter Mandelson have pushed back against the rationale for his arrest on Monday, saying Metropolitan Police officers detained the former British ambassador to the United States at his London home based on an unfounded belief that he planned to flee the country.\n\nThe legal team at Mishcon De Reya told the BBC that Mandelson had already agreed to attend a voluntary police interview next month and that there is \"absolutely no truth whatsoever\" to the suggestion he intended to leave the UK permanently. The Metropolitan Police declined to comment on the claim. Mandelson was taken to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May.\n\nThe arrest stems from a Metropolitan Police investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations gained momentum after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Among them, a 2009 email appears to show Mandelson relaying an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other communications appeared to reference a tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson, a central architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was removed from the post in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. His lawyers maintain he has not acted criminally and was not motivated by financial gain.\n\nSearch warrants were executed at two addresses in Wiltshire and Camden in connection with the arrest. Consultations between the Met's central specialist crime division and the Crown Prosecution Service are ongoing, leaving open the question of whether formal charges will follow. For now, one of the most influential figures in modern British politics finds himself at the center of a criminal investigation that has already ended his diplomatic career.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Peter Mandelson",
-        "Jeffrey Epstein",
-        "Metropolitan Police",
-        "UK politics",
-        "misconduct in public office"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T08:32:04.719Z"
     },
     {
       "id": "ps-1772008389953-9dp4",
@@ -316,27 +339,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lpl9lxw2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T07:17:06.784Z"
-    },
-    {
-      "id": "ps-1772003889878-u4zv",
-      "slug": "germany-s-economic-recovery-fueled-by-domestic-spending-not-",
-      "headline": "Germany's Economic Recovery Fueled by Domestic Spending, Not Exports",
-      "subheadline": "Consumer, business, and government expenditures drove a late-2024 rebound as trade headwinds persisted",
-      "body": "Germany's economy staged a recovery in the final quarter of last year, powered by a rare alignment of consumer spending, corporate investment, and government outlays — even as the nation's traditionally dominant export sector weighed on overall growth.\n\nThe rebound marks a significant shift for Europe's largest economy, which has long relied on its industrial export machine to drive expansion. Instead, domestic demand emerged as the primary engine of growth, suggesting a structural evolution in how Germany generates economic momentum. Trade, historically a pillar of German prosperity, acted as a drag during the period, reflecting ongoing challenges in global demand and lingering supply chain adjustments.\n\nAnalysts expect the recovery to gain further traction as Berlin ramps up long-planned investments in infrastructure and defense. Germany has faced mounting pressure — both domestically and from NATO allies — to modernize aging roads, bridges, and rail networks while simultaneously boosting military capabilities in response to Europe's shifting security landscape. These large-scale fiscal commitments are projected to inject substantial stimulus into the economy over the coming quarters, potentially offsetting continued softness in external trade.\n\nThe consumer side of the equation has also shown resilience. After enduring a prolonged period of elevated energy costs and inflation that eroded purchasing power, German households appear to be regaining confidence. Wage growth has begun to outpace price increases, giving consumers more room to spend — a dynamic that contributed meaningfully to the fourth-quarter turnaround.\n\nStill, the outlook is not without risk. Germany's manufacturing sector, particularly its auto industry, continues to face competitive pressures from Chinese rivals and uncertainty around global trade policy. Whether domestic demand can sustain the recovery if exports remain subdued will be a critical question for policymakers and investors tracking the eurozone's economic anchor in 2025 and beyond.",
-      "category": "business",
-      "importance": 6,
-      "tags": [
-        "Germany",
-        "economic recovery",
-        "domestic demand",
-        "European economy",
-        "infrastructure spending",
-        "defense spending"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1663493955721-110e7e1ae36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8R2VybWFueSUyMGVjb25vbWljJTIwcmVjb3Zlcnl8ZW58MHwwfHx8MTc3MjAwMzg4OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/german-rebound-driven-by-domestic-demand-as-trade-damps-growth",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T07:18:09.878Z"
     },
     {
       "id": "ps-1772002992710-c6cy",
