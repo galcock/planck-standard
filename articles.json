@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-02-25T09:48:28.002Z",
+  "lastUpdated": "2026-02-25T10:03:18.476Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772013723170-i63r",
+      "slug": "cartel-rampage-leaves-puerto-vallarta-reeling-as-tourists-fl",
+      "headline": "Cartel Rampage Leaves Puerto Vallarta Reeling as Tourists Flee",
+      "subheadline": "Burnt vehicles and widespread damage scar the popular Mexican resort city as authorities work to restore order",
+      "body": "A violent cartel rampage tore through Puerto Vallarta on Sunday, leaving lines of charred vehicles in commercial parking lots and sending terrified tourists scrambling for safety in one of Mexico's most popular coastal resort destinations.\n\nThe BBC's Will Grant, reporting from the scene, documented rows of burnt-out cars in a Costco parking lot and described ongoing cleanup efforts across the city in Jalisco state. The attack marked a dramatic escalation of cartel violence in a region that depends heavily on international tourism, raising urgent questions about security in Mexico's resort corridors. Tourists who had been trapped during the violence were making their way to Puerto Vallarta's international airport as the city attempted to return to some semblance of normality.\n\nPuerto Vallarta, situated on Mexico's Pacific coast, draws millions of visitors annually and has long been considered relatively insulated from the drug cartel violence that has plagued other parts of Jalisco state. The region falls within the territory contested by the Jalisco New Generation Cartel (CJNG), one of Mexico's most powerful and aggressive criminal organizations, which has its roots in the state. While details of the specific trigger for Sunday's rampage remain unclear, such coordinated acts of destruction — often involving vehicle burnings and roadblocks — are a hallmark tactic used by cartels to assert dominance or retaliate against rival groups and government security operations.\n\nThe visible scars of the violence present a significant challenge for local authorities and the tourism industry. Puerto Vallarta's economy is deeply intertwined with its reputation as a safe, welcoming beach destination, and images of burnt cars and damaged infrastructure threaten to undermine traveler confidence at a critical juncture. Mexico's tourism sector, which contributes roughly 8 percent of the country's GDP, has repeatedly weathered security crises, but attacks in marquee resort towns carry outsized reputational risk.\n\nThe incident adds to mounting pressure on the Mexican government to address escalating cartel activity, particularly in states like Jalisco where criminal organizations operate with increasing boldness. For the residents and business owners of Puerto Vallarta now surveying the damage, the priority is clear: restore order, reassure visitors, and reckon with the reality that even Mexico's most prized tourism hubs are not immune to the country's deepening security crisis.",
+      "category": "breaking",
+      "importance": 7,
+      "tags": [
+        "Mexico",
+        "cartel violence",
+        "Puerto Vallarta",
+        "Jalisco",
+        "tourism",
+        "drug cartels"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/30c9/live/a150d4e0-120d-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cly07z35dn4o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T10:02:03.170Z"
+    },
+    {
+      "id": "ps-1772013738346-u9a6",
+      "slug": "machine-learning-framework-tackles-inverse-design-of-metamat",
+      "headline": "Machine Learning Framework Tackles Inverse Design of Metamaterials",
+      "subheadline": "Researchers develop neural network models that can reverse-engineer lattice structures with exotic thermal and mechanical properties",
+      "body": "A new machine learning framework can design metamaterials that simultaneously shrink when heated and expand laterally when compressed — two counterintuitive properties that have long tantalized engineers but proven difficult to engineer on demand. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses one of the central challenges in metamaterials research: moving from forward prediction to inverse design.\n\nThe study focuses on bimaterial hybrid-honeycomb lattice structures that exhibit both negative Poisson's ratios (meaning they expand perpendicular to a stretching force, rather than contracting) and negative thermal expansion coefficients (meaning they contract when heated). These exotic thermoelastic properties make such metamaterials promising candidates for precision instruments, aerospace components, and other engineering systems where thermal distortion must be tightly controlled.\n\nTraditional design of such structures relies on computationally expensive simulations and trial-and-error iteration across vast parameter spaces. Peng and Xu instead generated a large dataset through computational homogenization, varying both the geometric features of the honeycomb lattice and the properties of the two base materials. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design — essentially learning the physics-to-performance mapping at a fraction of the computational cost.\n\nThe more consequential achievement lies in the inverse models. The researchers developed six distinct neural networks, each tailored to a different design scenario defined by varying combinations of target properties and design variables. These inverse models take desired material behaviors as inputs and output the geometric parameters and material selections needed to achieve them. The trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency, and was also used to generate supplementary training data for cases where base materials were held fixed.\n\nRepresentative design examples demonstrated strong predictive accuracy across both forward and inverse tasks. The framework could significantly accelerate the deployment of thermoelastic metamaterials in real-world applications, where engineers typically face tightly constrained performance targets and need rapid iteration. While the current work is limited to a specific class of bimaterial honeycomb architectures, the methodology offers a template that could extend to broader families of mechanical metamaterials — a field where the gap between theoretical possibility and practical realization remains wide.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "neural networks",
+        "materials science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1752428464180-81cc2d4bd5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T10:02:18.346Z"
+    },
+    {
+      "id": "ps-1772013753300-8x7c",
+      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
+      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Saarland University team creates pentasilacyclopentadienide, replacing carbon with silicon in a stable aromatic ring",
+      "body": "A team of chemists at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly five-decade quest that saw repeated failures by research groups worldwide. The results, published February 24 in Science, could unlock an entirely new branch of silicon-based chemistry with implications for catalysts and advanced materials.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. The team succeeded in constructing a flat, five-membered ring of silicon atoms that satisfies Hückel's rule — the mathematical criterion for aromaticity requiring a specific number of electrons to be evenly delocalized around a planar ring. Aromatic molecules are prized in chemistry for their exceptional stability, and their carbon-based versions underpin vast swathes of modern industry, from plastics manufacturing to pharmaceutical synthesis.\n\nThe significance of the achievement lies in the fundamental differences between silicon and carbon. Silicon is more metallic and holds its electrons less tightly, meaning that silicon-based aromatic compounds could exhibit chemical behavior with no carbon-based analog. \"In polyethylene and polypropylene production, for example, aromatic compounds help make the catalysts that control these industrial chemical processes more durable and more effective,\" Scheschkewitz explained, suggesting that silicon aromatics could eventually yield catalysts and materials with novel and potentially superior properties.\n\nPrior to this work, only one silicon aromatic compound had ever been made: a three-membered silicon ring analogous to cyclopropenium, first synthesized in 1981. Every subsequent attempt to extend silicon aromaticity to larger ring systems had failed, leading some chemists to question whether it was possible at all. In a remarkable coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same compound at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science, lending additional confirmation to the result.\n\nThe breakthrough opens what researchers describe as a new frontier in inorganic chemistry. With a stable five-membered silicon aromatic ring now in hand, chemists have a platform from which to explore larger silicon ring systems, hybrid compounds, and catalytic applications that were previously confined to theoretical speculation. After half a century of pursuit, the first decisive step into this uncharted chemical territory has been taken.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon chemistry",
+        "aromatic molecules",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "inorganic chemistry"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T10:02:33.300Z"
+    },
+    {
+      "id": "ps-1772013768444-cps5",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of publicly traded PayPal, valued at $40 billion.",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If consummated, the transaction would represent one of the largest acquisitions in fintech history, combining two of the most prominent names in digital payments.\n\nThe discussions are described as being in their very early stages, and there is no guarantee a deal will materialize. Still, the mere possibility sent PayPal's stock slightly higher on Monday. PayPal, which owns the flagship payment platform as well as peer-to-peer service Venmo, currently carries a market capitalization of approximately $40 billion — a fraction of what it commanded at its pandemic-era peak.\n\nThe reported interest comes on the same day Stripe announced a tender offer valuing the privately held company at $159 billion, a 74% jump from its previous valuation. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, who are buying stock from employees. Stripe will also repurchase some of its own shares as part of the arrangement. The new valuation cements Stripe's position as one of the most valuable private companies in the world — and underscores the enormous financial firepower it could theoretically bring to an acquisition.\n\nStripe co-founder and CEO Patrick Collison has recently indicated that taking the company public is not a near-term priority, a stance that a major acquisition could complicate or reinforce depending on how the deal is structured. A purchase of PayPal, even in part, would dramatically expand Stripe's consumer-facing footprint. While Stripe has built its business largely as a backend payments processor for businesses and platforms, PayPal operates one of the world's most recognized consumer payment brands, with Venmo serving as a dominant player in peer-to-peer transactions among younger users.\n\nStripe declined to comment on the report. The potential combination raises significant questions about regulatory scrutiny, given the overlapping presence of both companies across global digital payments. Analysts will be watching closely to see whether early-stage interest evolves into a formal bid or quietly dissipates — as many such exploratory talks do.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T10:02:48.444Z"
+    },
+    {
+      "id": "ps-1772013782709-wjfm",
+      "slug": "nippon-steel-raises-record-3-9-billion-in-japan-s-largest-co",
+      "headline": "Nippon Steel Raises Record $3.9 Billion in Japan's Largest Convertible Bond Deal",
+      "subheadline": "The steelmaker's blockbuster offering signals a shift toward convertible debt as Japanese borrowing costs climb",
+      "body": "Nippon Steel Corp. has completed the largest convertible bond offering in Japanese market history, raising 600 billion yen ($3.9 billion) as the country's biggest steelmaker seeks to refinance debt from its landmark acquisition of United States Steel Corp.\n\nThe deal, which priced on Tuesday and exceeded the company's initial fundraising target on the strength of investor demand, underscores a growing trend among Japanese corporations turning to convertible bonds as a cheaper alternative to traditional debt. With the Bank of Japan having moved away from its ultra-loose monetary policy, conventional borrowing costs have risen substantially, making hybrid instruments that blend debt and equity increasingly attractive to issuers.\n\nThe proceeds from the offering will be directed toward repaying loans Nippon Steel took on to finance its purchase of U.S. Steel, a transaction that endured prolonged regulatory and political scrutiny before ultimately closing. By issuing convertible bonds — which pay lower interest rates than standard corporate debt because they give holders the option to convert into equity at a predetermined price — Nippon Steel is effectively reducing its cost of capital while managing the massive financial burden of the acquisition.\n\nMarket observers say the deal could open the floodgates for similar issuances across corporate Japan. As interest rates normalize after years of near-zero or negative policy rates, companies with large refinancing needs have strong incentives to explore the convertible market. The robust demand for Nippon Steel's offering, which allowed the company to upsize beyond its original plan, suggests that investors are equally eager for the yield pickup and equity upside that convertibles provide.\n\nThe record transaction marks a significant moment for Japan's capital markets, which have been experiencing a broader revival driven by corporate governance reforms, rising shareholder returns, and renewed foreign investor interest. For Nippon Steel, the successful fundraising provides critical financial flexibility as it integrates U.S. Steel's operations and navigates a global steel market facing overcapacity concerns and shifting trade dynamics.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Nippon Steel",
+        "convertible bonds",
+        "Japan capital markets",
+        "U.S. Steel acquisition",
+        "corporate debt"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifpixBliVg1g/v1/1200x800.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/nippon-steel-s-3-9-billion-deal-jumpstarts-japan-s-convertible-bond-market",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T10:03:02.709Z"
+    },
+    {
+      "id": "ps-1772013798375-bex4",
+      "slug": "stripe-weighs-potential-paypal-acquisition-in-payments-mega-",
+      "headline": "Stripe Weighs Potential PayPal Acquisition in Payments Mega-Deal",
+      "subheadline": "A combination of the two payments giants would create a stablecoin and crypto infrastructure powerhouse valued well north of $200 billion",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech mergers in history and consolidate significant stablecoin infrastructure under a single roof. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination — Stripe was recently valued at $159 billion and processed $1.9 trillion in transactions last year — has sent shockwaves through the payments and cryptocurrency industries. PayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added further fuel.\n\nWhat makes the potential deal particularly consequential for the digital asset space is that both companies have made aggressive bets on stablecoins and blockchain-based payment rails. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to roughly $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would bring PYUSD's consumer-facing distribution together with Bridge's enterprise tooling for issuing dollar-backed tokens — potentially creating an end-to-end stablecoin ecosystem with few rivals.\n\nFor PayPal, the interest from Stripe comes after a bruising stretch. The company's stock has fallen roughly 80% from its record highs reached in 2021, weighed down by intensifying competition in digital payments and slowing growth in its core checkout business. That steep decline may have made PayPal an attractive, if still enormous, target for a buyer with Stripe's resources and ambitions.\n\nThe potential deal also arrives at a moment of rapid consolidation across the broader payments landscape, as incumbents race to integrate cryptocurrency rails alongside traditional card networks and bank transfers. If Stripe moves forward with an offer, the combined entity would handle a vast share of global online commerce while commanding one of the most extensive stablecoin portfolios in the industry — a combination that could reshape how money moves on the internet for years to come.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T10:03:18.375Z"
+    },
     {
       "id": "ps-1772012826397-eo56",
       "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-mond",
@@ -21,47 +147,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T09:47:06.397Z"
-    },
-    {
-      "id": "ps-1772012844180-464b",
-      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
-      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now suggest material compositions and geometries for structures with negative thermal expansion",
-      "body": "Researchers have developed a suite of machine learning models capable of solving one of metamaterials engineering's most persistent challenges: working backward from desired thermal and mechanical properties to determine the precise structure needed to achieve them.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe six neural network models that can recommend both the geometric features and base material combinations for bimaterial hybrid-honeycomb lattice metamaterials — structures that exhibit the rare and highly sought combination of negative Poisson's ratios and negative thermal expansion coefficients. Materials with negative Poisson's ratios grow thicker when stretched rather than thinner, while those with negative thermal expansion actually shrink when heated. Together, these properties open the door to applications ranging from aerospace components that maintain dimensional stability under extreme temperature swings to precision instruments requiring zero net thermal distortion.\n\nThe approach rests on a two-stage architecture. First, the team generated a large dataset through computational homogenization, systematically varying the geometric parameters and constituent material properties of the honeycomb structures to map out the full design space. A forward model was then trained to predict effective thermoelastic properties from a given structural design, replacing expensive finite-element simulations with near-instantaneous neural network inference. The more consequential step was the inverse model: given a set of target properties — say, a specific negative coefficient of thermal expansion paired with a particular stiffness — the network proposes candidate geometries and material pairings that would realize those properties.\n\nTo handle the inherent one-to-many nature of inverse design, where multiple structural configurations can yield the same effective properties, the researchers defined six distinct model variants, each addressing different combinations of target properties and design variables. A particularly elegant feature of the framework is its integration of the trained forward model directly into the loss functions of the inverse models, effectively using it as a physics-informed check during training. For cases involving fixed base materials, the forward model was further leveraged to synthetically expand the training dataset.\n\nThe work sits at the intersection of computational materials science and applied machine learning, an area that has seen rapid growth as researchers seek to accelerate the traditionally slow, trial-and-error process of metamaterial design. While the paper focuses on thermoelastic honeycomb lattices specifically, the methodology — high-throughput simulation feeding neural network surrogates for both forward prediction and inverse design — represents a template increasingly being adopted across the broader metamaterials community. The practical payoff, the authors suggest, lies in enabling engineers to efficiently specify performance requirements and receive actionable structural designs, compressing what could be months of computational optimization into seconds of neural network evaluation.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "computational materials science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1544121368-f8f82eaf420a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T09:47:24.180Z"
-    },
-    {
-      "id": "ps-1772012858612-mgx8",
-      "slug": "chemists-synthesize-long-elusive-silicon-aromatic-molecule",
-      "headline": "Chemists Synthesize Long-Elusive Silicon Aromatic Molecule",
-      "subheadline": "After nearly five decades of failed attempts worldwide, a five-atom silicon ring achieves aromatic stability",
-      "body": "Chemists at Saarland University in Germany have created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly 50-year quest that many in the field had deemed impossible. The results, published February 24 in Science, could unlock new classes of catalysts and materials with properties fundamentally distinct from their carbon-based counterparts.\n\nAromatic molecules, characterized by electrons shared evenly across a flat ring structure, are among the most stable and industrially important compounds in chemistry. They underpin catalysts used in the production of polyethylene, polypropylene, and countless other plastics. But while carbon-based aromatics have been well understood since the 19th century, replacing carbon with silicon in these ring systems has proven extraordinarily difficult. Silicon is more metallic than carbon and holds its electrons less tightly, making it resistant to forming the delocalized electron clouds that define aromaticity.\n\nPrior to this breakthrough, only one silicon aromatic compound had ever been produced: a three-atom silicon ring synthesized in 1981 as an analogue of cyclopropenium. Every subsequent attempt to build larger silicon aromatic systems failed. David Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded where others could not by constructing a five-atom silicon ring that satisfies Hückel's rule — the mathematical criterion, named after German physicist Erich Hückel, that defines whether a cyclic molecule qualifies as aromatic.\n\nIn a striking coincidence, a team led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound at nearly the same time. The two groups agreed to publish their findings side by side in the same issue of Science, lending additional confirmation to the result. The dual discovery underscores both the significance and the timeliness of the achievement.\n\nThe implications extend well beyond the laboratory. Because silicon's electronic properties differ so markedly from carbon's, pentasilacyclopentadienide could serve as a foundation for entirely new families of compounds and catalysts. In industrial chemistry, where aromatic molecules already play critical roles in controlling polymerization and other large-scale processes, silicon-based aromatics may offer tunable properties that carbon rings cannot. After decades of pursuit by research groups worldwide, the synthesis marks a pivotal first step toward broadening the horizons of silicon chemistry.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon",
-        "aromatic chemistry",
-        "materials science",
-        "catalysts",
-        "Saarland University",
-        "pentasilacyclopentadienide"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T09:47:38.612Z"
     },
     {
       "id": "ps-1772012876875-o4zs",
@@ -107,28 +192,6 @@
       "publishedAt": "2026-02-25T09:48:12.029Z"
     },
     {
-      "id": "ps-1772012907904-bde5",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the $159 billion payments giant and struggling fintech could reshape the stablecoin landscape",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would unite two of the world's largest payment processors and consolidate significant stablecoin infrastructure under one roof. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, Bloomberg reported, and there is no guarantee a transaction will materialize. But the sheer scale of the potential combination has captured market attention. Stripe, which processed $1.9 trillion in payments last year and carried a private valuation of $159 billion, would be absorbing a company that once commanded a far higher market capitalization but has seen its stock collapse roughly 80% from 2021 highs. PayPal shares had already been climbing earlier in the week on buyout speculation before the Stripe report added fresh momentum.\n\nThe crypto implications of a deal are substantial. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm. A merger would bring PYUSD's consumer-facing distribution together with Bridge's enterprise tooling for issuing dollar-backed tokens — potentially creating the most vertically integrated stablecoin operation in fintech.\n\nThe reported interest comes at a moment of intensifying competition in stablecoin payments. Meta is reportedly planning its own stablecoin re-entry in the second half of 2026, while Bridge's stablecoin volume has quadrupled in recent quarters even amid broader crypto market weakness. For Stripe, acquiring PayPal could accelerate its push to make blockchain-based rails a standard feature of global commerce rather than a niche offering.\n\nFor PayPal, a sale — whether whole or partial — could offer a lifeline after years of declining relevance relative to newer fintech competitors. The company's massive merchant network and 400-million-plus user base remain valuable assets, but it has struggled to translate that scale into the kind of growth investors once priced in. Whether Stripe ultimately moves forward will likely depend on price, regulatory scrutiny, and the strategic calculus of absorbing a legacy platform while simultaneously building next-generation payments infrastructure.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "fintech",
-        "M&A",
-        "PYUSD",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T09:48:27.904Z"
-    },
-    {
       "id": "ps-1772011943448-i6ed",
       "slug": "physicists-uncover-hidden-flaw-in-wave-superposition-for-lay",
       "headline": "Physicists Uncover Hidden Flaw in Wave Superposition for Layered Media",
@@ -169,26 +232,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-25T09:32:39.384Z"
-    },
-    {
-      "id": "ps-1772011981381-h4f9",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-blockbust",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Blockbuster Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of the publicly traded rival valued at $40 billion",
-      "body": "Stripe, the Dublin-based payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter — a combination that would reshape the global digital payments landscape.\n\nThe discussions are described as being in their earliest stages, and there is no certainty that a transaction will materialize. Stripe declined to comment on the report. Nevertheless, the mere possibility of such a deal sent PayPal's stock slightly higher on Monday, as investors weighed the prospect of a premium offer for the publicly traded company, which currently carries a market capitalization of roughly $40 billion.\n\nThe timing is notable. Stripe disclosed on the same day that it is conducting a tender offer valuing itself at $159 billion — a 74% jump from its previous valuation and a figure that cements its position as one of the most valuable private companies in the world. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, and Stripe said it would also repurchase some of its own stock. With that kind of financial firepower, an acquisition of PayPal — whose portfolio includes the flagship PayPal service, Venmo, and other payments products — would be ambitious but not implausible.\n\nA merger would unite two of the most prominent names in fintech, though they occupy somewhat different niches. Stripe has built its business primarily as a behind-the-scenes payments processor powering online commerce for millions of businesses, while PayPal operates a consumer-facing digital wallet and peer-to-peer payments network used by hundreds of millions of individuals. Combining the two could create a vertically integrated payments colossus spanning merchant infrastructure, consumer wallets, and person-to-person transfers.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities, a stance that has defined Stripe's approach even as its valuation has ballooned. If Stripe were to acquire a publicly traded company of PayPal's size while remaining private, it would represent one of the largest such transactions in tech history — and a bold bet that consolidation, rather than an IPO, is the fastest path to dominance in global payments.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T09:33:01.381Z"
     },
     {
       "id": "ps-1772011997105-b3ba",
@@ -1013,46 +1056,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T19:48:59.135Z"
-    },
-    {
-      "id": "ps-1771961598843-jiv3",
-      "slug": "tech-stocks-rebound-as-investors-shake-off-ai-disruption-fea",
-      "headline": "Tech Stocks Rebound as Investors Shake Off AI Disruption Fears",
-      "subheadline": "Technology shares lead broad market recovery, aided by improving consumer confidence data",
-      "body": "U.S. equity markets staged a recovery on Monday as technology stocks led a broad rebound following a sharp selloff triggered by concerns over the disruptive potential of artificial intelligence. Improving consumer confidence figures added further tailwind to the rally, helping restore investor appetite for risk assets.\n\nThe bounce marks a notable shift in sentiment after markets had been rattled by fears that rapid advances in AI could upend established business models and compress valuations across the tech sector. Investors appeared to reassess those concerns, with buyers stepping back into many of the names that had been hardest hit during the prior rout. The technology-heavy Nasdaq led the charge higher, while the S&P 500 and Dow Jones Industrial Average also posted gains.\n\nThe recovery was supported by fresh economic data showing an uptick in consumer confidence, a signal that household sentiment remains resilient despite volatility in financial markets. Analysts noted that the combination of improving macro indicators and oversold technical conditions in the tech sector created favorable conditions for a snapback. Still, some strategists cautioned that the fundamental questions raised by the AI-driven selloff — including which companies stand to benefit and which face disruption — remain unresolved.\n\nThe episode underscores the increasingly central role that artificial intelligence plays in shaping market narratives. While AI-related stocks have been among the strongest performers over the past two years, periodic bouts of anxiety over the technology's broader economic implications have introduced a new source of volatility. Investors are grappling with how to price both the enormous potential upside and the competitive threats that generative AI and automation pose to incumbent firms.\n\nMarket participants will be watching closely in the days ahead for further signals on the health of the U.S. consumer and corporate earnings guidance, particularly from technology companies, as they look to gauge whether the rebound has staying power or represents a temporary reprieve before renewed turbulence.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "tech stocks",
-        "AI",
-        "market rebound",
-        "consumer confidence",
-        "S&P 500"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1630569470960-ec1e8c077d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8VGVjaCUyMFN0b2NrcyUyMFJlYm91bmQlMjBJbnZlc3RvcnMlMjBTaGFrZSUyME9mZnxlbnwwfDB8fHwxNzcxOTYxNTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/stock-market-today-dow-s-p-live-updates",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T19:33:18.843Z"
-    },
-    {
-      "id": "ps-1771960712134-ce2m",
-      "slug": "trump-s-tariff-regime-reshapes-global-trade-as-levies-mount",
-      "headline": "Trump's Tariff Regime Reshapes Global Trade as Levies Mount",
-      "subheadline": "A sprawling web of tariffs on allies and rivals alike is raising costs and injecting uncertainty across the global economy",
-      "body": "The Trump administration's aggressive use of tariffs has produced the most sweeping overhaul of U.S. trade policy in nearly a century, with levies now touching virtually every major trading partner and sector of the global economy.\n\nSince returning to office, President Donald Trump has imposed or threatened tariffs on a wide range of imports — from Chinese goods hit with duties exceeding 145% to broad-based levies on steel, aluminum, and automobiles affecting allies in Europe, Japan, and South Korea. A baseline 10% tariff on most imports has further expanded the reach of the policy, effectively raising the average U.S. tariff rate to levels not seen since the 1930s Smoot-Hawley era. Bloomberg's comprehensive tracking of these measures reveals a complex, layered system of duties that has evolved rapidly through executive orders, sometimes shifting within days as the administration calibrates its negotiating posture.\n\nThe economic effects are already materializing. Consumer prices on affected goods are climbing, with importers passing along higher costs on electronics, auto parts, and household products. Business investment decisions have slowed as companies struggle to plan around a tariff landscape that remains in flux. Supply chains built over decades are being rerouted, with some firms accelerating shifts out of China while others stockpile inventory ahead of anticipated rate increases. Economists have warned that the cumulative burden could shave measurable fractions off U.S. GDP growth while adding upward pressure on inflation at a time when the Federal Reserve is navigating a delicate path on interest rates.\n\nTrading partners have not stood idle. China has retaliated with its own steep tariffs on American agricultural and industrial exports, while the European Union has prepared countermeasures targeting iconic U.S. products. Canada and Mexico, despite being partners in the USMCA trade agreement, have faced repeated tariff threats that have strained diplomatic relations. Some temporary exemptions and 90-day pauses have offered brief reprieves, but the overall trajectory has been toward higher barriers.\n\nThe administration argues the tariffs are necessary to correct longstanding trade imbalances, protect American manufacturing, and generate leverage in bilateral negotiations. Critics counter that the unpredictability of the policy is itself a tax on economic activity, undermining the business confidence the administration seeks to bolster. As the tariff architecture continues to evolve, its full economic consequences — for American consumers, global supply chains, and the broader trajectory of international trade — remain very much an unfolding story.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "tariffs",
-        "trade policy",
-        "Trump administration",
-        "global trade",
-        "U.S. economy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1551026791-11d474c604cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8dGFyaWZmcyUyMHRyYWRlJTIwcG9saWN5fGVufDB8MHx8fDE3NzE5MjQ3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/graphics/trump-tariffs-tracker/",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T19:18:32.134Z"
     }
   ]
 }
