@@ -1,27 +1,133 @@
 {
-  "lastUpdated": "2026-02-25T13:33:16.995Z",
+  "lastUpdated": "2026-02-25T13:48:32.454Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772026320113-au9f",
-      "slug": "commons-speaker-tipped-police-that-mandelson-was-a-flight-ri",
-      "headline": "Commons Speaker Tipped Police That Mandelson Was a Flight Risk",
-      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence to Met Police ahead of peer's arrest",
-      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally provided the Metropolitan Police with information suggesting Lord Peter Mandelson might flee the country, a tip that contributed to the former Labour minister's arrest at his London home on Monday.\n\nSpeaking before MPs, Sir Lindsay said he had passed on \"relevant\" information \"in good faith\" and considered it his \"duty and responsibility\" to do so. The BBC reports that the intelligence originated during a visit Sir Lindsay made to the British Virgin Islands last week, where he received word that Lord Mandelson was planning to travel to the territory. The Metropolitan Police is understood to have independently assessed the credibility of the Speaker's tip before proceeding with the arrest on Monday afternoon. Lord Mandelson was taken to Wandsworth police station for questioning and later released on bail, surrendering his passport as a condition of his release.\n\nThe arrest is part of a Metropolitan Police investigation launched earlier this month into allegations of misconduct in public office. At the center of the probe is the claim that Lord Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations emerged after the U.S. Department of Justice released a tranche of documents last month that included emails between Mandelson and Epstein.\n\nLord Mandelson's legal team has sharply criticized the arrest, arguing that their client had already agreed to a voluntary interview with police next month and that the flight-risk characterization was \"baseless.\" His lawyers maintain he has not acted criminally, was not motivated by financial gain, and intends to cooperate fully to \"clear his name.\" Sir Lindsay, for his part, expressed regret that his role in the matter had leaked to the media so quickly, with the Times first reporting his involvement.\n\nThe case marks a dramatic fall for Lord Mandelson, a towering figure in Labour politics who was appointed British ambassador to the United States in February 2025. He was dismissed from the post in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. The investigation now raises serious questions about the conduct of one of Britain's most influential political operators — and about the unusual role the Commons Speaker played in precipitating his arrest.",
+      "id": "ps-1772027232082-6re3",
+      "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
+      "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
+      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence that the former ambassador planned to travel abroad",
+      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally relayed information to the Metropolitan Police suggesting Lord Peter Mandelson might be a flight risk — intelligence that contributed to the peer's arrest at his London home on Monday.\n\nSpeaking to MPs after the Times first broke the story, Sir Lindsay said he had passed on \"relevant\" information and considered it his \"duty and responsibility\" to do so. According to the BBC, the Speaker received the tip during a visit to the British Virgin Islands last week, where he learned that Lord Mandelson was allegedly planning to travel to the territory. The Metropolitan Police reportedly conducted its own assessment of the intelligence's credibility before proceeding with Monday's arrest.\n\nLord Mandelson, a former senior Labour minister who served as Britain's ambassador to the United States from February to September 2025, was taken to Wandsworth police station for questioning and later released on bail. He is understood to have surrendered his passport as a condition of his release. The arrest is part of a Metropolitan Police investigation, launched earlier this month, into allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a minister.\n\nThe peer's legal team has sharply contested the grounds for his arrest, calling the flight risk claim \"baseless\" and noting that Mandelson had already agreed to a voluntary police interview next month. His lawyers say he denies any criminal conduct, was not motivated by financial gain, and intends to cooperate fully with investigators to \"clear his name.\" The allegations against him surfaced after the U.S. Department of Justice released a cache of documents last month that included emails between Mandelson and Epstein.\n\nThe episode marks an extraordinary collision between some of Britain's most prominent institutions. A sitting Commons Speaker publicly acknowledging that he fed intelligence to police about a former ambassador and peer of the realm is virtually without precedent. Sir Lindsay expressed regret that the matter \"rapidly ended in the media\" but offered no further details about his source. Lord Mandelson was dismissed from his Washington posting in September after Downing Street said new information had emerged about the depth of his relationship with Epstein, a development that has sent shockwaves through the upper echelons of British politics.",
       "category": "breaking",
-      "importance": 8,
+      "importance": 9,
       "tags": [
-        "Lord Mandelson",
+        "Mandelson",
         "Lindsay Hoyle",
         "Metropolitan Police",
         "Jeffrey Epstein",
         "UK politics",
-        "misconduct in public office"
+        "flight risk"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T13:32:00.113Z"
+      "publishedAt": "2026-02-25T13:47:12.082Z"
+    },
+    {
+      "id": "ps-1772027249095-e6u7",
+      "slug": "digital-twin-plus-bayesian-optimization-speeds-accelerator-t",
+      "headline": "Digital Twin Plus Bayesian Optimization Speeds Accelerator Tuning 4-6x",
+      "subheadline": "ISAC post-accelerator team demonstrates that decoupling optics from steering dramatically cuts convergence time",
+      "body": "A team of physicists at TRIUMF's ISAC facility has developed a hybrid tuning strategy for particle accelerators that combines digital-twin modeling with Bayesian optimization, achieving beam transmissions in the mid- to high-90% range while reducing the number of tuning iterations by a factor of four to six compared to conventional approaches.\n\nThe method, described in a paper posted to the arXiv preprint server on February 23, works by factorizing the accelerator tuning problem into two distinct stages. First, a digital twin — a computational model of the entire accelerator beamline — pre-sets the machine optics, computing end-to-end tunes in a matter of seconds. Then, Bayesian optimization handles the remaining beam steering under live operational conditions, respecting device bounds, slew-rate limits, and loss interlocks enforced by the control system.\n\nThe key insight, according to lead authors O. Hassan and O. Shelbaya and their collaborators O. Kester, P.M. Jung, T. Planche, and W. Fedorko, is that separating optics from steering substantially shrinks the dimensionality of the optimization problem. In three experimental case studies conducted on the ISAC post-accelerator, the decoupled approach converged faster and more reliably than a fully Bayesian baseline that attempted to optimize both optics and steering simultaneously under identical conditions. The reduced parameter space also made operational safeguards easier to implement and convergence behavior more predictable.\n\nThe work addresses a persistent challenge in accelerator operations: tuning complex beamlines with dozens or hundreds of adjustable parameters is traditionally time-consuming and heavily reliant on expert operators. Fully automated Bayesian approaches have gained traction in recent years as a way to explore high-dimensional parameter spaces efficiently, but they can struggle when the search space is unnecessarily large. By offloading the optics problem to a physics-based model and reserving the data-driven optimization for the residual steering corrections, the ISAC team effectively gets the best of both worlds — physical fidelity from the model and adaptive flexibility from the optimizer.\n\nThe results carry implications beyond the ISAC facility. As next-generation accelerators grow in complexity, from high-luminosity upgrades at CERN to proposed muon colliders and advanced light sources, efficient automated tuning will become increasingly critical. The demonstrated approach offers a template: let physics models handle what they do well, and let machine learning handle the rest. The 12-page paper, which includes nine figures detailing the experimental results, is available on arXiv under the accelerator physics and applied physics categories.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "particle accelerators",
+        "Bayesian optimization",
+        "digital twin",
+        "ISAC",
+        "beam physics",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1771795220727-7171addaf729?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8cGFydGljbGUlMjBhY2NlbGVyYXRvcnMlMjBCYXllc2lhbiUyMG9wdGltaXphdGlvbnxlbnwwfDB8fHwxNzcyMDA4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20233",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T13:47:29.095Z"
+    },
+    {
+      "id": "ps-1772027265722-qopz",
+      "slug": "engineered-bacteria-designed-to-devour-tumors-from-the-insid",
+      "headline": "Engineered Bacteria Designed to Devour Tumors From the Inside Out",
+      "subheadline": "University of Waterloo team programs soil microbes with genetic 'circuits' to colonize and consume oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors and consuming them from within, deploying synthetic biology techniques to overcome a critical safety hurdle that has long complicated bacterial cancer therapies.\n\nThe approach centers on Clostridium sporogenes, a common soil bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of solid tumors are devoid of oxygen and rich in nutrients, they offer an ideal habitat for the microbe to multiply and destroy cancerous tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially colonizes the tumor's interior and eats it away.\n\nThe central challenge has been what happens at the tumor's oxygen-exposed periphery, where the strictly anaerobic bacteria die off before they can finish the job. To solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed a failsafe to prevent the modified microbes from surviving in oxygen-rich environments like the bloodstream, where they could pose serious danger. Their solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside the tumor does the accumulated signal flip on the oxygen-resistance gene. The result is a tightly controlled biological weapon that arms itself only when and where it is needed.\n\nThe work, published in ACS Synthetic Biology, details the construction and functional testing of this quorum-sensing circuit in Clostridium sporogenes. In experiments, the team programmed the bacteria to produce green fluorescent protein as a proof of concept, confirming the system activated precisely on schedule. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it in pre-clinical tumor models. The interdisciplinary project — spanning chemical engineering, applied mathematics, and microbiology — is being advanced through a collaboration with CREM Co Labs, a Toronto-based company co-founded by PhD student Bahram Zargar, who initiated the research. While bacterial cancer therapies remain years from the clinic, the Waterloo team's programmable safety architecture addresses one of the field's most persistent concerns and could mark a significant step toward making living therapeutics a viable weapon against solid tumors.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T13:47:45.722Z"
+    },
+    {
+      "id": "ps-1772027282290-nem8",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage discussions to acquire some or all of PayPal, valued at roughly $40 billion.",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If consummated, the transaction would represent one of the largest deals in fintech history, combining two of the most prominent names in digital payments.\n\nThe discussions remain in their earliest stages, and there is no guarantee a deal will materialize. Still, the mere prospect sent PayPal's stock ticking upward on Monday. PayPal, which trades publicly and owns the Venmo peer-to-peer payments app alongside its flagship platform, currently carries a market capitalization of approximately $40 billion — a fraction of what it commanded at its pandemic-era peak. Stripe declined to comment on the report.\n\nThe acquisition interest emerged on the same day Stripe announced a tender offer valuing the privately held company at $159 billion, a 74 percent jump from its previous valuation. The new round of share purchases includes participation from Andreessen Horowitz and Thrive Capital, with Stripe also buying back some employee stock. The valuation cements Stripe's position as one of the most valuable private companies in the world. Co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not a near-term priority.\n\nA combination of Stripe and PayPal would unite two fundamentally different but complementary business models. Stripe has built its dominance as the behind-the-scenes payments infrastructure for internet businesses, powering checkout and financial services for millions of companies. PayPal, by contrast, operates a consumer-facing digital wallet and marketplace payments ecosystem that processes hundreds of billions of dollars in annual volume. Together, the combined entity would span virtually the entire digital payments value chain, from developer APIs to consumer wallets.\n\nThe potential deal also underscores the divergent trajectories of the two companies. While Stripe's valuation has surged on the strength of consistent revenue growth and expanding enterprise adoption, PayPal has struggled to recapture investor confidence after years of slowing growth and intensifying competition from Apple Pay, Block, and Stripe itself. For Stripe, absorbing PayPal's massive user base and Venmo's consumer brand could accelerate its push beyond pure infrastructure into broader financial services — though integrating a public company of PayPal's scale would present significant regulatory and operational challenges.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T13:48:02.290Z"
+    },
+    {
+      "id": "ps-1772027297720-22tj",
+      "slug": "stocks-climb-on-tech-rebound-ahead-of-nvidia-earnings-report",
+      "headline": "Stocks Climb on Tech Rebound Ahead of Nvidia Earnings Report",
+      "subheadline": "Markets look to chipmaker's results as a critical test for the broader AI-fueled rally",
+      "body": "Global equity markets pushed higher on Monday as a technology-led rebound gained momentum, with investors training their focus on Nvidia Corp.'s upcoming earnings report — widely seen as a pivotal moment for the artificial intelligence trade that has dominated market sentiment for more than two years.\n\nThe S&P 500 and Nasdaq Composite both advanced in early trading, buoyed by renewed appetite for large-cap tech names. The rally reflected a broader pattern in which the semiconductor giant's quarterly results have become a bellwether not just for the chip industry but for the entire AI investment thesis. Nvidia, whose graphics processors underpin the infrastructure powering generative AI systems, has seen its stock become one of the most closely watched instruments on Wall Street.\n\nThe stakes are particularly high this quarter. After a period of choppy trading and intermittent doubts about the sustainability of AI-related spending, market participants are looking for confirmation that enterprise demand for advanced chips remains robust. Nvidia's guidance on revenue growth, data center sales, and supply chain dynamics will be scrutinized for signals about the health of capital expenditure cycles at major cloud providers including Microsoft, Amazon, and Alphabet.\n\nThe earnings report arrives at a moment when the concentration of market gains in a handful of AI-linked megacap stocks has drawn increasing scrutiny from analysts and regulators alike. A strong showing from Nvidia could reinforce confidence in the trade and pull broader indices higher, while any sign of softening demand risks triggering a sharp reassessment of valuations across the technology sector.\n\nFor now, the market's posture is cautiously optimistic. Trading volumes in Nvidia options have surged in recent sessions, indicating that investors are positioning for significant post-earnings volatility. The outcome will likely set the tone for technology stocks in the weeks ahead and could determine whether the AI rally enters its next phase — or faces a meaningful correction.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "AI trade",
+        "stock market",
+        "earnings",
+        "technology stocks",
+        "semiconductors"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxTdG9ja3MlMjBDbGltYiUyMFRlY2glMjBSZWJvdW5kJTIwQWhlYWR8ZW58MHwwfHx8MTc3MjAyNzI5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T13:48:17.720Z"
+    },
+    {
+      "id": "ps-1772027312364-5hww",
+      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
+      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
+      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and dismissed compliance investigators",
+      "body": "Senator Richard Blumenthal, the top Democrat on the Senate Homeland Security Committee, has launched a formal investigation into Binance over allegations that $1.7 billion flowed through the cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal, who represents Connecticut, sent a letter on Tuesday to Binance co-chief executive Richard Teng requesting records related to the exchange's dealings with two Hong Kong-based entities identified as the origin of the suspect transfers. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong company that operated as a Binance vendor. The senator also demanded documentation regarding the suspension and firing of internal compliance investigators who initially flagged the alleged violations — dismissals that have been the subject of reporting by the New York Times, Wall Street Journal, and Fortune. \"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote.\n\nBinance has firmly denied the allegations. A spokesperson told reporters that the exchange maintains strict know-your-customer and compliance procedures and that no Iranian users are on the platform. The company called the media reports about dismissed investigators false. A Binance representative confirmed the exchange canceled the accounts tied to Blessed Trust and severed its relationship with the vendor in January. The company said in a blog post over the weekend that its \"sanctions-related exposure is minimal\" and disclosed that an internal investigation is underway, with a full report expected to be submitted to the U.S. Justice Department on February 25.\n\nThe probe reopens a wound that Binance has been trying to heal since November 2023, when founder and former CEO Changpeng Zhao pleaded guilty to violating anti-money-laundering laws and permitting users in sanctioned countries — including Iran — to transact on the platform. That case resulted in a $4.3 billion penalty and Binance's withdrawal from the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nThe renewed scrutiny arrives at a delicate moment for the broader crypto industry, which has been seeking to rebuild its regulatory standing after a series of enforcement actions. Should the Senate investigation corroborate the alleged sanctions violations, Binance could face additional legal exposure despite the sweeping settlement it reached just over two years ago. For the world's largest cryptocurrency exchange, the stakes extend well beyond compliance — they reach into the fundamental question of whether the platform can be trusted to police the flow of funds across its global network.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Binance",
+        "sanctions",
+        "Iran",
+        "Senate probe",
+        "Blumenthal",
+        "crypto regulation",
+        "compliance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T13:48:32.364Z"
     },
     {
       "id": "ps-1772026336107-oasq",
@@ -43,27 +149,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T13:32:16.107Z"
-    },
-    {
-      "id": "ps-1772026351334-pu1q",
-      "slug": "waterloo-scientists-engineer-tumor-devouring-bacteria-with-b",
-      "headline": "Waterloo Scientists Engineer Tumor-Devouring Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating until safely inside oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors and consuming them from within, deploying a synthetic biological circuit that activates the microbes' cancer-killing properties only when conditions confirm they are safely embedded inside a tumor.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the inner cores of solid tumors are composed largely of dead cells and lack oxygen, they present ideal conditions for the microbe to colonize and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what the team calls the oxygen barrier. As bacteria consume the tumor core and expand outward, they encounter regions with trace amounts of oxygen and begin dying off before eliminating the cancer entirely. To overcome this, the researchers inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But enabling oxygen tolerance too early would pose a serious safety risk — bacteria surviving in oxygen-rich environments like the bloodstream could cause dangerous, uncontrolled infections.\n\nThe team's solution draws on quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside a tumor to push the chemical signal past a critical threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" In validation experiments published in ACS Synthetic Biology, the team confirmed the quorum-sensing circuit activated at the intended moment by programming bacteria to produce a green fluorescent protein as an indicator.\n\nThe next phase of research will combine the oxygen-tolerance gene and the quorum-sensing control system into a single organism for evaluation in pre-clinical tumor trials. The interdisciplinary project — spanning chemical engineering, applied mathematics, and life sciences — involves a collaboration with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar. If the approach proves effective in animal models, it could eventually offer a fundamentally new treatment paradigm for solid tumors, which remain among the most difficult cancers to treat with conventional therapies.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T13:32:31.334Z"
     },
     {
       "id": "ps-1772026368392-uvpy",
@@ -107,27 +192,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-says-ukraine-hit-acron-s-nitrogen-plant-killing-four",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T13:33:03.162Z"
-    },
-    {
-      "id": "ps-1772026396893-ss8s",
-      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
-      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
-      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and dismissal of internal investigators who flagged violations",
-      "body": "U.S. Senator Richard Blumenthal has launched a formal Senate investigation into Binance over allegations that $1.7 billion flowed from the world's largest cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants. The probe, announced Tuesday, marks a significant new chapter in the exchange's troubled relationship with American regulators.\n\nBlumenthal, the ranking Democrat on the Senate Homeland Security Committee, sent a letter to Binance co-chief executive Richard Teng requesting records related to two Hong Kong entities identified as conduits for the alleged transfers to Iran. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong company that operated as a Binance vendor. According to reports, Binance canceled those accounts and severed ties with Blessed Trust in January. The senator also demanded documentation regarding the suspension and termination of compliance staff and investigators who initially uncovered the suspected violations — dismissals reported by the New York Times, Wall Street Journal, and Fortune.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in his letter. The allegations carry particular weight given Binance's recent history: founder and former CEO Changpeng Zhao pleaded guilty in November 2023 to violating anti-money-laundering laws and permitting users in sanctioned countries, including Iran, to transact on the platform. The company paid $4.3 billion in penalties and agreed to exit the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance has forcefully denied the allegations. A company spokesperson called prior reporting by the New York Times \"wrong,\" asserting that the exchange maintains strict know-your-customer and compliance procedures and has no Iranian users on its platform. The exchange also disputed accounts of its investigators being fired for raising concerns. In a blog post published Sunday, Binance characterized its \"sanctions-related exposure\" as \"minimal.\" Spokesperson Rachel Conlan said the company is conducting its own internal investigation, with a full report to be submitted to the U.S. Justice Department on February 25.\n\nThe probe adds fresh regulatory pressure to an exchange still operating under the shadow of its landmark 2023 settlement. If the allegations are substantiated, they could raise serious questions about whether Binance's compliance overhaul — a central condition of that agreement — has been effective, and whether additional enforcement action may follow from the Justice Department or Treasury's Office of Foreign Assets Control.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Binance",
-        "Iran sanctions",
-        "Senate probe",
-        "crypto regulation",
-        "Richard Blumenthal",
-        "money laundering"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T13:33:16.894Z"
     },
     {
       "id": "ps-1772025422738-9mo4",
@@ -233,27 +297,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/santander-pledges-over-20-billion-in-profit-after-webster-deal",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T13:03:12.939Z"
-    },
-    {
-      "id": "ps-1772023667442-g5d6",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-payments-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Payments Megadeal",
-      "subheadline": "The $159 billion private fintech giant is in early-stage talks to purchase some or all of PayPal, valued at roughly $40 billion",
-      "body": "Stripe, the Dublin-headquartered payments giant, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter — a combination that would reshape the global digital payments landscape if consummated.\n\nThe discussions are described as being in their earliest stages, and there is no certainty a transaction will materialize. Stripe declined to comment on the report. Nevertheless, the mere prospect of such a deal sent PayPal's stock ticking upward on Monday, reflecting investor appetite for a potential premium. PayPal, which is publicly traded and carries a market capitalization of approximately $40 billion, encompasses its flagship payment platform as well as Venmo, the popular peer-to-peer money transfer service.\n\nThe timing of the report is notable. On the same day, Stripe disclosed a tender offer that values the company at $159 billion — a striking 74 percent increase from its valuation a year earlier. The share purchase round attracted marquee investors including Andreessen Horowitz and Thrive Capital, with Stripe also buying back a portion of its own stock. The new figure cements Stripe's position as one of the most valuable private companies in the world, dwarfing PayPal's public market valuation by roughly four to one.\n\nA full acquisition would represent one of the largest fintech deals in history, combining Stripe's dominant position in online merchant payments infrastructure with PayPal's massive consumer-facing network and brand recognition. Stripe processes payments for millions of businesses globally and has expanded aggressively into financial services, including lending, treasury management, and corporate cards. PayPal, meanwhile, reported over 400 million active accounts at its peak but has faced intensifying competition and slowing growth in recent years, contributing to a sharp decline from its pandemic-era market cap of more than $300 billion.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities — a stance that could complicate a deal of this magnitude, since acquiring a public company of PayPal's size would likely require significant financing or a shift in Stripe's capital structure. Whether Stripe pursues the full company or carves out specific assets such as Venmo or its Braintree merchant services division remains unclear. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "Venmo",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T12:47:47.442Z"
     },
     {
       "id": "ps-1772023685046-9vkf",
@@ -612,27 +655,6 @@
       "publishedAt": "2026-02-25T09:03:14.906Z"
     },
     {
-      "id": "ps-1772009239268-r3hg",
-      "slug": "digital-twin-strategy-cuts-particle-accelerator-tuning-time-",
-      "headline": "Digital Twin Strategy Cuts Particle Accelerator Tuning Time by Up to 6x",
-      "subheadline": "ISAC researchers combine physics-based modeling with Bayesian optimization for faster, more reliable beam steering",
-      "body": "A team of physicists has demonstrated a hybrid tuning approach for particle accelerators that dramatically reduces the time needed to achieve high-quality beam transmission, cutting required iterations by a factor of four to six compared to conventional optimization methods.\n\nThe technique, developed by researchers including O. Hassan, O. Shelbaya, P. M. Jung, O. Kester, T. Planche, and W. Fedorko and tested on the ISAC post-accelerator facility, splits the traditionally monolithic tuning problem into two distinct phases. First, a digital twin — a computational model of the entire accelerator — pre-sets the machine's optical elements by computing end-to-end tunes in a matter of seconds. Only then does a Bayesian optimization algorithm take over to fine-tune beam steering during live operation. The key insight is that decoupling optics from steering substantially reduces the dimensionality of the search space that the algorithm must navigate.\n\nThe results, detailed in a paper posted to the arXiv preprint server on February 23, are striking. Across three experimental case studies conducted under real operational conditions, the factorized approach consistently outperformed a fully Bayesian baseline that attempted to optimize both optics and steering simultaneously. Final average beam transmissions reached the mid- to high-90 percent range, and convergence proved significantly more predictable. The digital twin model interfaces directly with the accelerator's control system while respecting device bounds, slew-rate limits, and loss interlocks — critical safety constraints for any operational particle accelerator.\n\nThe work addresses a persistent challenge in accelerator physics: tuning these complex machines is typically labor-intensive, requiring skilled operators to manually adjust dozens or even hundreds of parameters. As accelerators grow in complexity and demand higher uptime for experiments in nuclear and particle physics, automated and semi-automated tuning strategies have become an area of intense research interest. The ISAC facility at TRIUMF in Canada, where this work was conducted, produces rare isotope beams for a wide range of nuclear physics experiments.\n\nBy showing that physics-informed modeling and machine learning optimization can be productively combined rather than treating the problem as a purely data-driven exercise, the research offers a template that could be adapted to other accelerator facilities worldwide. The approach's emphasis on operational safeguards and predictable convergence makes it particularly attractive for facilities where beam time is expensive and reliability is paramount.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "particle accelerators",
-        "Bayesian optimization",
-        "digital twin",
-        "beam physics",
-        "ISAC",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1771791174073-6d92d225d299?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8cGFydGljbGUlMjBhY2NlbGVyYXRvcnMlMjBCYXllc2lhbiUyMG9wdGltaXphdGlvbnxlbnwwfDB8fHwxNzcyMDA4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20233",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T08:47:19.268Z"
-    },
-    {
       "id": "ps-1772008389953-9dp4",
       "slug": "trade-fraud-surges-as-china-us-cargo-gap-hits-112-billion",
       "headline": "Trade Fraud Surges as China-US Cargo Gap Hits $112 Billion",
@@ -733,27 +755,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lpl9lxw2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T07:17:06.784Z"
-    },
-    {
-      "id": "ps-1772002992710-c6cy",
-      "slug": "global-stocks-rally-as-ai-sector-jitters-subside-dollar-weak",
-      "headline": "Global Stocks Rally as AI Sector Jitters Subside, Dollar Weakens",
-      "subheadline": "Technology shares lead broad advance from Wall Street into Asia as weeks of artificial intelligence turbulence show signs of fading",
-      "body": "Global equity markets extended a technology-driven rally on Tuesday, with gains spreading from Wall Street into Asian trading sessions as investor anxiety over artificial intelligence disruption began to ease following several weeks of market turbulence.\n\nThe advance was led by technology shares, which had borne the brunt of a volatile stretch fueled by concerns about the pace and implications of AI development. The relief rally lifted major U.S. benchmarks before carrying momentum into Asian markets, suggesting a broader stabilization in sentiment after a period in which AI-related headlines had whipsawed valuations across the sector. The U.S. dollar slipped concurrently, a move consistent with improved risk appetite as investors rotated back into equities.\n\nThe weeks-long bout of AI-driven turbulence had rattled markets as investors grappled with questions about competitive dynamics, capital expenditure sustainability, and the potential for rapid technological shifts to upend established business models. The selloff had at times extended beyond pure-play AI companies into the broader technology ecosystem, dragging on semiconductor makers, cloud computing firms, and hardware suppliers alike. Tuesday's rebound indicated that at least some of those fears were being repriced.\n\nAnalysts cautioned that while the easing of immediate tensions was welcome, the fundamental uncertainties surrounding AI's impact on corporate earnings and market structure remain unresolved. The sector continues to command outsized attention from investors attempting to distinguish between companies positioned to benefit from the technology's proliferation and those vulnerable to disruption. Volatility in AI-adjacent names is likely to persist as new developments — from model capabilities to regulatory signals — continue to emerge at a rapid clip.\n\nThe dollar's decline, meanwhile, offered a tailwind to emerging-market assets and commodities priced in the U.S. currency. Currency traders appeared to interpret the equity rally as a signal that the risk-off positioning of recent weeks was unwinding, at least temporarily. Whether the current momentum holds will depend in large part on upcoming earnings reports from major technology firms and any fresh catalysts from the AI landscape that could reignite volatility.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "stock market",
-        "artificial intelligence",
-        "technology stocks",
-        "dollar",
-        "Asian markets",
-        "risk appetite"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1713461983836-de0a45009424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8c3RvY2slMjBtYXJrZXQlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzIwMDI5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T07:03:12.710Z"
     },
     {
       "id": "ps-1772002085172-ajm9",
