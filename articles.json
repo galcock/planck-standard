@@ -1,34 +1,34 @@
 {
-  "lastUpdated": "2026-02-25T10:03:18.476Z",
+  "lastUpdated": "2026-02-25T10:18:20.143Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772013723170-i63r",
+      "id": "ps-1772014621673-er2q",
       "slug": "cartel-rampage-leaves-puerto-vallarta-reeling-as-tourists-fl",
-      "headline": "Cartel Rampage Leaves Puerto Vallarta Reeling as Tourists Flee",
-      "subheadline": "Burnt vehicles and widespread damage scar the popular Mexican resort city as authorities work to restore order",
-      "body": "A violent cartel rampage tore through Puerto Vallarta on Sunday, leaving lines of charred vehicles in commercial parking lots and sending terrified tourists scrambling for safety in one of Mexico's most popular coastal resort destinations.\n\nThe BBC's Will Grant, reporting from the scene, documented rows of burnt-out cars in a Costco parking lot and described ongoing cleanup efforts across the city in Jalisco state. The attack marked a dramatic escalation of cartel violence in a region that depends heavily on international tourism, raising urgent questions about security in Mexico's resort corridors. Tourists who had been trapped during the violence were making their way to Puerto Vallarta's international airport as the city attempted to return to some semblance of normality.\n\nPuerto Vallarta, situated on Mexico's Pacific coast, draws millions of visitors annually and has long been considered relatively insulated from the drug cartel violence that has plagued other parts of Jalisco state. The region falls within the territory contested by the Jalisco New Generation Cartel (CJNG), one of Mexico's most powerful and aggressive criminal organizations, which has its roots in the state. While details of the specific trigger for Sunday's rampage remain unclear, such coordinated acts of destruction — often involving vehicle burnings and roadblocks — are a hallmark tactic used by cartels to assert dominance or retaliate against rival groups and government security operations.\n\nThe visible scars of the violence present a significant challenge for local authorities and the tourism industry. Puerto Vallarta's economy is deeply intertwined with its reputation as a safe, welcoming beach destination, and images of burnt cars and damaged infrastructure threaten to undermine traveler confidence at a critical juncture. Mexico's tourism sector, which contributes roughly 8 percent of the country's GDP, has repeatedly weathered security crises, but attacks in marquee resort towns carry outsized reputational risk.\n\nThe incident adds to mounting pressure on the Mexican government to address escalating cartel activity, particularly in states like Jalisco where criminal organizations operate with increasing boldness. For the residents and business owners of Puerto Vallarta now surveying the damage, the priority is clear: restore order, reassure visitors, and reckon with the reality that even Mexico's most prized tourism hubs are not immune to the country's deepening security crisis.",
+      "headline": "Cartel Rampage Leaves Puerto Vallarta Reeling as Tourists Flee Resort City",
+      "subheadline": "Burnt vehicles and widespread damage visible across the popular Mexican coastal destination after Sunday's violent attack",
+      "body": "Puerto Vallarta, one of Mexico's most popular tourist destinations, is struggling to restore normalcy after a violent cartel rampage swept through the Jalisco state resort city on Sunday, leaving burnt-out vehicles and visible destruction across multiple areas.\n\nBBC correspondent Will Grant, reporting from the scene, described lines of charred cars in a Costco parking lot and cleanup operations underway throughout the city. The attack — which terrorized both residents and visitors — left tourists stranded and scrambling to reach Puerto Vallarta's international airport to leave. The coastal city, which draws millions of international visitors annually with its Pacific beaches and vibrant boardwalk, found itself at the center of a brazen display of cartel power that underscores the persistent security challenges facing Mexico's tourism economy.\n\nThe violence is believed to be linked to operations by cartels active in Jalisco, a state long associated with the Jalisco New Generation Cartel (CJNG), one of Mexico's most powerful and aggressive criminal organizations. While cartel violence has periodically disrupted life in Mexican states, attacks that directly impact major tourist corridors carry outsized economic and diplomatic consequences. Puerto Vallarta's tourism sector, a critical economic engine for the region, faces potential fallout as images of the destruction circulate internationally.\n\nMexican authorities have not yet released a comprehensive account of casualties or arrests stemming from Sunday's rampage. The city's efforts to return to normal operations — clearing debris, reopening businesses, and facilitating tourist departures — signal an urgency to contain reputational damage. However, the scale of the visible destruction, with multiple vehicles torched in a commercial area frequented by locals and visitors alike, suggests the attack was both coordinated and intended to send a message.\n\nThe incident adds to growing concerns about security in Mexican states where cartel activity intersects with tourism infrastructure. For Puerto Vallarta, which has historically been considered safer than other cartel-affected regions, Sunday's violence marks a troubling escalation that could reshape travel advisories and visitor confidence in the months ahead.",
       "category": "breaking",
       "importance": 7,
       "tags": [
         "Mexico",
-        "cartel violence",
         "Puerto Vallarta",
+        "cartel violence",
         "Jalisco",
         "tourism",
-        "drug cartels"
+        "CJNG"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/30c9/live/a150d4e0-120d-11f1-801d-ed3cff6bf876.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cly07z35dn4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T10:02:03.170Z"
+      "publishedAt": "2026-02-25T10:17:01.673Z"
     },
     {
-      "id": "ps-1772013738346-u9a6",
-      "slug": "machine-learning-framework-tackles-inverse-design-of-metamat",
-      "headline": "Machine Learning Framework Tackles Inverse Design of Metamaterials",
-      "subheadline": "Researchers develop neural network models that can reverse-engineer lattice structures with exotic thermal and mechanical properties",
-      "body": "A new machine learning framework can design metamaterials that simultaneously shrink when heated and expand laterally when compressed — two counterintuitive properties that have long tantalized engineers but proven difficult to engineer on demand. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses one of the central challenges in metamaterials research: moving from forward prediction to inverse design.\n\nThe study focuses on bimaterial hybrid-honeycomb lattice structures that exhibit both negative Poisson's ratios (meaning they expand perpendicular to a stretching force, rather than contracting) and negative thermal expansion coefficients (meaning they contract when heated). These exotic thermoelastic properties make such metamaterials promising candidates for precision instruments, aerospace components, and other engineering systems where thermal distortion must be tightly controlled.\n\nTraditional design of such structures relies on computationally expensive simulations and trial-and-error iteration across vast parameter spaces. Peng and Xu instead generated a large dataset through computational homogenization, varying both the geometric features of the honeycomb lattice and the properties of the two base materials. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design — essentially learning the physics-to-performance mapping at a fraction of the computational cost.\n\nThe more consequential achievement lies in the inverse models. The researchers developed six distinct neural networks, each tailored to a different design scenario defined by varying combinations of target properties and design variables. These inverse models take desired material behaviors as inputs and output the geometric parameters and material selections needed to achieve them. The trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency, and was also used to generate supplementary training data for cases where base materials were held fixed.\n\nRepresentative design examples demonstrated strong predictive accuracy across both forward and inverse tasks. The framework could significantly accelerate the deployment of thermoelastic metamaterials in real-world applications, where engineers typically face tightly constrained performance targets and need rapid iteration. While the current work is limited to a specific class of bimaterial honeycomb architectures, the methodology offers a template that could extend to broader families of mechanical metamaterials — a field where the gap between theoretical possibility and practical realization remains wide.",
+      "id": "ps-1772014638026-zpmk",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now specify the geometry and materials needed to produce structures with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — exotic structures that simultaneously shrink when heated and expand laterally when stretched. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing bottleneck in metamaterial engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are built from hybrid-honeycomb lattices composed of two different base materials. By tuning the geometry and material composition, these structures can exhibit both negative coefficients of thermal expansion and negative Poisson's ratios — a rare and highly useful combination for aerospace, precision instruments, and other applications where thermal distortion must be tightly controlled. The challenge is that the design space is enormous: countless combinations of geometrical parameters and material pairings map onto the target thermoelastic behavior, making brute-force exploration impractical.\n\nTo tackle this, Peng and Xu first generated a large dataset using computational homogenization, systematically varying lattice geometries and base material properties to calculate effective thermoelastic responses. They then trained a forward neural network model that can rapidly predict a structure's bulk properties from its design parameters, replacing expensive finite-element simulations. The real advance, however, lies in six distinct inverse models, each tailored to different design scenarios — some targeting specific effective properties while leaving material choice open, others working with fixed base materials and optimizing geometry alone. The trained forward model was embedded directly into the loss functions of the inverse networks, enforcing physical consistency during training.\n\nThe approach demonstrated strong predictive accuracy across representative design examples, suggesting it could serve as a practical tool for engineers who need metamaterials with precisely specified thermal and mechanical behavior. By reducing what would otherwise be a computationally grueling optimization problem to a near-instantaneous neural network query, the framework could accelerate the deployment of thermoelastic metamaterials in next-generation engineering systems — from satellite components that must maintain dimensional stability across extreme temperature swings to adaptive structural elements in civil infrastructure.\n\nThe work sits at the intersection of materials science and artificial intelligence, joining a growing body of research that uses data-driven methods to navigate the vast design spaces of architected materials. While the current study focuses on two-dimensional honeycomb lattices, the methodology is general enough that extensions to three-dimensional structures and more complex multi-physics objectives appear straightforward.",
       "category": "physics",
       "importance": 5,
       "tags": [
@@ -36,13 +36,97 @@
         "machine learning",
         "inverse design",
         "thermal expansion",
-        "neural networks",
-        "materials science"
+        "materials science",
+        "neural networks"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1752428464180-81cc2d4bd5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1758876377882-6ae5b186b6e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T10:02:18.346Z"
+      "publishedAt": "2026-02-25T10:17:18.026Z"
+    },
+    {
+      "id": "ps-1772014655987-wr77",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume them from the inside out, and activate an oxygen-survival mechanism only when conditions are safe — a synthetic biology advance that could open a new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, injected bacterial spores naturally colonize these regions and begin breaking down cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work.\n\nThe central engineering challenge was biological, not conceptual. As bacteria proliferate outward from a tumor's dead core, they encounter trace oxygen at the tumor periphery and die before the cancer is fully eliminated. To solve this, the team spliced in an oxygen-tolerance gene borrowed from a related species, enabling the engineered microbes to survive longer in partially oxygenated tissue. But switching that gene on prematurely would risk bacterial growth in the bloodstream and other oxygen-rich organs — a potentially dangerous outcome. The researchers' solution was quorum sensing, a natural chemical signaling process in which bacteria release molecules that accumulate as their population grows. Only after enough microbes have massed inside a tumor does the signal concentration cross a threshold that activates the oxygen-resistance gene. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a Waterloo applied mathematics professor. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe results, published in ACS Synthetic Biology, build on two earlier milestones: a demonstration that C. sporogenes could be genetically modified for improved oxygen tolerance, and a proof-of-concept experiment using green fluorescent protein to confirm the quorum-sensing circuit fires at the intended bacterial density. The next step is to combine both features in a single organism and test it against tumors in pre-clinical animal models.\n\nThe project — led by PhD student Bahram Zargar and former doctoral researcher Sara Sadr under the supervision of Aucoin, Ingalls, and retired professor Pu Chen — reflects a growing trend of interdisciplinary teams tackling oncology problems with tools from engineering and mathematics rather than traditional pharmacology. Waterloo is collaborating with CREM Co Labs, a Toronto-based company co-founded by Zargar, to advance the technology toward clinical translation. If pre-clinical trials succeed, the programmable bacterial platform could eventually complement or replace conventional therapies for the roughly 90 percent of cancers that present as solid tumors.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T10:17:35.987Z"
+    },
+    {
+      "id": "ps-1772014670303-hexy",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-blockbust",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Blockbuster Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of the publicly traded rival valued at $40 billion",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter — a combination that would reshape the global digital payments landscape.\n\nThe discussions are described as being in very early stages, and there is no certainty that a transaction will materialize. Still, the mere prospect of such a deal sent PayPal's stock slightly higher on Monday. Stripe declined to comment on the report. PayPal, which owns both its flagship payment platform and the popular peer-to-peer service Venmo, currently carries a market capitalization of roughly $40 billion — a fraction of Stripe's latest private valuation.\n\nThe acquisition talk surfaced on the same day Stripe announced a tender offer valuing the company at $159 billion, representing a 74 percent jump from its previous valuation. Investors participating in the secondary share purchase include Andreessen Horowitz and Thrive Capital, and Stripe said it would also repurchase some of its own stock. The fresh valuation cements Stripe's position as one of the most valuable private companies in the world, rivaling publicly traded financial technology firms many times over.\n\nA merger of the two companies would unite Stripe's developer-focused payments infrastructure — used by millions of businesses from startups to enterprises — with PayPal's massive consumer-facing ecosystem, which spans online checkout, in-store payments, and money transfers. The combined entity would command an enormous share of global online transaction processing, likely drawing intense regulatory scrutiny on both sides of the Atlantic.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities, a stance that could complicate a deal of this magnitude. Acquiring a publicly traded company worth tens of billions would typically require significant capital raises or equity issuance. Whether Stripe would pursue the entire company or carve out specific PayPal assets remains unclear, but even a partial acquisition would rank among the largest fintech transactions in history.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T10:17:50.303Z"
+    },
+    {
+      "id": "ps-1772014683757-0t2r",
+      "slug": "bangladesh-central-bank-governor-resigns-abruptly-after-new-",
+      "headline": "Bangladesh Central Bank Governor Resigns Abruptly After New Government Takes Power",
+      "subheadline": "Surprise departure comes barely a week after the country's newly elected democratic government was inaugurated",
+      "body": "The governor of Bangladesh Bank has unexpectedly resigned, marking a swift leadership shake-up at the country's central bank just days after a new democratically elected government took office.\n\nThe abrupt departure, reported on February 25, signals potential friction between the newly inaugurated administration and the existing financial establishment. While the specific reasons behind the resignation have not been publicly detailed, the timing — roughly a week after the government transition — suggests the move is closely tied to the shifting political landscape in Dhaka. Central bank leadership changes following political transitions are not uncommon in emerging markets, but the speed of this exit has drawn attention from financial observers monitoring South Asia's economic trajectory.\n\nBangladesh, one of the fastest-growing economies in the region in recent years, faces a delicate economic moment. The country has been navigating inflationary pressures, foreign reserve management challenges, and the broader task of maintaining macroeconomic stability. A sudden vacancy at the helm of the central bank introduces uncertainty at a time when continuity in monetary policy is typically prized by both domestic businesses and international investors.\n\nThe new government now faces the critical task of appointing a successor who can command credibility with markets while aligning with the administration's economic priorities. The choice will be closely watched as a signal of the government's policy direction — particularly on questions of exchange rate management, inflation targeting, and the country's ongoing relationship with international lenders including the International Monetary Fund.\n\nFor Bangladesh's financial markets and its broader economic reform agenda, the central bank leadership vacuum represents both a risk and an opportunity. A well-regarded appointment could bolster investor confidence in the new government's commitment to sound economic management. A prolonged vacancy or a politically motivated selection, however, could rattle markets and complicate the country's efforts to sustain its development momentum.",
+      "category": "business",
+      "importance": 5,
+      "tags": [
+        "Bangladesh",
+        "central bank",
+        "Bangladesh Bank",
+        "emerging markets",
+        "monetary policy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1691344817560-6da3d8b124b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8QmFuZ2xhZGVzaCUyMGNlbnRyYWwlMjBiYW5rfGVufDB8MHx8fDE3NzIwMTQ2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/bangladesh-bank-chief-quits-abruptly-after-change-in-government",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T10:18:03.757Z"
+    },
+    {
+      "id": "ps-1772014700055-jawk",
+      "slug": "stripe-explores-potential-paypal-acquisition-in-payments-meg",
+      "headline": "Stripe Explores Potential PayPal Acquisition in Payments Megadeal",
+      "subheadline": "A combination of the two payments giants would create a stablecoin powerhouse processing trillions in annual volume",
+      "body": "Stripe is weighing a possible acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, sending PayPal shares surging 7% in a deal that would reshape the global payments landscape and consolidate significant stablecoin infrastructure under one roof.\n\nThe deliberations are in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of a potential combination is staggering. Stripe, which processed $1.9 trillion in payment volume last year and carries a private valuation of $159 billion, would be absorbing a publicly traded company that, despite an approximately 80% decline from its 2021 highs, remains one of the most widely used digital payments platforms in the world. PayPal shares had already been climbing this week on buyout speculation before the Bloomberg report added further momentum.\n\nWhat makes the potential deal particularly consequential for the digital asset industry is the crypto and stablecoin footprint each company has built independently. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to roughly $4 billion in market capitalization. The stablecoin enables users to transfer dollars across blockchain networks around the clock, often at lower cost than traditional bank transfers. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would unite PYUSD's consumer-facing adoption with Bridge's enterprise tooling for issuing dollar-backed tokens.\n\nThe strategic logic extends beyond crypto. Stripe has historically focused on powering online commerce for businesses, while PayPal built its brand around consumer-to-consumer transfers and checkout experiences. A combined entity could offer end-to-end payment processing spanning both sides of a transaction, from merchant acceptance to consumer wallet, with stablecoin rails serving as connective tissue. The deal would also give Stripe immediate access to PayPal's massive user base and its Venmo platform.\n\nFor the broader stablecoin market, a Stripe-PayPal combination could accelerate mainstream adoption of blockchain-based payments. With traditional payment processors increasingly viewing stablecoins not as speculative instruments but as practical infrastructure for moving money, a merged entity commanding trillions in annual volume would represent the most significant institutional endorsement of crypto payment rails to date. Whether the deal ultimately comes together remains uncertain, but the mere prospect signals how deeply stablecoins have embedded themselves in the future plans of the payments industry's largest players.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "PYUSD",
+        "mergers and acquisitions",
+        "fintech",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T10:18:20.055Z"
     },
     {
       "id": "ps-1772013753300-8x7c",
@@ -66,27 +150,6 @@
       "publishedAt": "2026-02-25T10:02:33.300Z"
     },
     {
-      "id": "ps-1772013768444-cps5",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of publicly traded PayPal, valued at $40 billion.",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If consummated, the transaction would represent one of the largest acquisitions in fintech history, combining two of the most prominent names in digital payments.\n\nThe discussions are described as being in their very early stages, and there is no guarantee a deal will materialize. Still, the mere possibility sent PayPal's stock slightly higher on Monday. PayPal, which owns the flagship payment platform as well as peer-to-peer service Venmo, currently carries a market capitalization of approximately $40 billion — a fraction of what it commanded at its pandemic-era peak.\n\nThe reported interest comes on the same day Stripe announced a tender offer valuing the privately held company at $159 billion, a 74% jump from its previous valuation. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, who are buying stock from employees. Stripe will also repurchase some of its own shares as part of the arrangement. The new valuation cements Stripe's position as one of the most valuable private companies in the world — and underscores the enormous financial firepower it could theoretically bring to an acquisition.\n\nStripe co-founder and CEO Patrick Collison has recently indicated that taking the company public is not a near-term priority, a stance that a major acquisition could complicate or reinforce depending on how the deal is structured. A purchase of PayPal, even in part, would dramatically expand Stripe's consumer-facing footprint. While Stripe has built its business largely as a backend payments processor for businesses and platforms, PayPal operates one of the world's most recognized consumer payment brands, with Venmo serving as a dominant player in peer-to-peer transactions among younger users.\n\nStripe declined to comment on the report. The potential combination raises significant questions about regulatory scrutiny, given the overlapping presence of both companies across global digital payments. Analysts will be watching closely to see whether early-stage interest evolves into a formal bid or quietly dissipates — as many such exploratory talks do.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "Venmo",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T10:02:48.444Z"
-    },
-    {
       "id": "ps-1772013782709-wjfm",
       "slug": "nippon-steel-raises-record-3-9-billion-in-japan-s-largest-co",
       "headline": "Nippon Steel Raises Record $3.9 Billion in Japan's Largest Convertible Bond Deal",
@@ -105,28 +168,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/nippon-steel-s-3-9-billion-deal-jumpstarts-japan-s-convertible-bond-market",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T10:03:02.709Z"
-    },
-    {
-      "id": "ps-1772013798375-bex4",
-      "slug": "stripe-weighs-potential-paypal-acquisition-in-payments-mega-",
-      "headline": "Stripe Weighs Potential PayPal Acquisition in Payments Mega-Deal",
-      "subheadline": "A combination of the two payments giants would create a stablecoin and crypto infrastructure powerhouse valued well north of $200 billion",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech mergers in history and consolidate significant stablecoin infrastructure under a single roof. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination — Stripe was recently valued at $159 billion and processed $1.9 trillion in transactions last year — has sent shockwaves through the payments and cryptocurrency industries. PayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added further fuel.\n\nWhat makes the potential deal particularly consequential for the digital asset space is that both companies have made aggressive bets on stablecoins and blockchain-based payment rails. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to roughly $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would bring PYUSD's consumer-facing distribution together with Bridge's enterprise tooling for issuing dollar-backed tokens — potentially creating an end-to-end stablecoin ecosystem with few rivals.\n\nFor PayPal, the interest from Stripe comes after a bruising stretch. The company's stock has fallen roughly 80% from its record highs reached in 2021, weighed down by intensifying competition in digital payments and slowing growth in its core checkout business. That steep decline may have made PayPal an attractive, if still enormous, target for a buyer with Stripe's resources and ambitions.\n\nThe potential deal also arrives at a moment of rapid consolidation across the broader payments landscape, as incumbents race to integrate cryptocurrency rails alongside traditional card networks and bank transfers. If Stripe moves forward with an offer, the combined entity would handle a vast share of global online commerce while commanding one of the most extensive stablecoin portfolios in the industry — a combination that could reshape how money moves on the internet for years to come.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T10:03:18.375Z"
     },
     {
       "id": "ps-1772012826397-eo56",
@@ -211,27 +252,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20179",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T09:32:23.448Z"
-    },
-    {
-      "id": "ps-1772011959384-n1p0",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic DNA circuit and quorum-sensing trigger keep engineered microbes confined to oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors, consume cancerous tissue from the inside out, and activate an oxygen-survival gene only when conditions are safe — a layered biological strategy that could open a fundamentally new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are devoid of oxygen and rich in nutrients, bacterial spores injected into the body naturally home in on these sites, germinate, and begin breaking down dead and cancerous cells. \"We are now colonizing that central space, and the bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge is what happens at the tumor's periphery, where trace amounts of oxygen kill the strictly anaerobic microbes before they can finish the job. To solve that problem, the team inserted an oxygen-tolerance gene borrowed from a hardier relative of C. sporogenes. But flipping that gene on prematurely — say, while bacteria are circulating in the oxygen-rich bloodstream — would pose a serious safety risk. So the researchers wired in a second safeguard: a quorum-sensing circuit built from synthetic DNA. As bacterial numbers climb inside a tumor, they release chemical signals that accumulate until a threshold concentration switches on the oxygen-resistance trait. Only a dense, tumor-localized colony can trigger the change.\n\nThe work, published in ACS Synthetic Biology, validated the quorum-sensing design by programming bacteria to produce green fluorescent protein at the intended activation point. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control module in a single organism and testing it in pre-clinical tumor models.\n\nThe project, led by PhD student Bahram Zargar and former doctoral researcher Sara Sadr, reflects Waterloo's push toward interdisciplinary health innovation, drawing on expertise in engineering, applied mathematics, and microbiology. The university team is partnering with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to advance the technology toward clinical development. If pre-clinical results hold up, the programmable bacterial platform could eventually complement or replace conventional therapies for solid tumors that remain notoriously difficult to treat with drugs alone.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T09:32:39.384Z"
     },
     {
       "id": "ps-1772011997105-b3ba",
@@ -1035,27 +1055,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/maga-meets-europe-trump-s-envoys-rip-up-diplomatic-playbook",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T20:03:14.890Z"
-    },
-    {
-      "id": "ps-1771962539135-ze9y",
-      "slug": "sec-approves-wisdomtree-s-24-7-blockchain-trading-for-money-",
-      "headline": "SEC Approves WisdomTree's 24/7 Blockchain Trading for Money Market Fund",
-      "subheadline": "The approval allows instant settlement and round-the-clock transactions, advancing the $10 billion tokenized Treasury market.",
-      "body": "The U.S. Securities and Exchange Commission has granted WisdomTree exemptive relief to allow its Treasury Money Market Digital Fund to trade around the clock at a fixed $1 price through a broker-dealer, marking a significant regulatory milestone for blockchain-based capital markets infrastructure.\n\nThe fund, which trades under the ticker WTGXX, had previously been limited to standard mutual fund settlement — investors could only transact at the end-of-day net asset value. Under the newly approved structure, a broker-dealer subsidiary of WisdomTree will trade from its own inventory on a 24/7 basis, with instant settlement occurring on blockchain rails. The fund's underlying mutual fund structure and regulatory framework remain unchanged. The approval also required clearance from FINRA for WisdomTree to expand its broker-dealer subsidiary's activities.\n\nWisdomTree introduced an additional feature alongside the trading overhaul: continuous dividend accrual that tracks wallet activity on-chain, distributing interest based on how long each wallet held shares throughout the day. This means investors who transfer shares mid-day still receive their proportional share of yield. The firm said institutional clients will gain access first through its Connect platform, with retail availability potentially following through its Prime app. \"This is a true innovation and improvement in the investor experience, and it demonstrates how blockchain can serve as a new set of rails for capital markets,\" said Will Peck, WisdomTree's head of digital assets.\n\nThe approval arrives amid a broader surge in tokenized traditional assets. The tokenized U.S. Treasury market now exceeds $10 billion in total value, according to data provider rwa.xyz. BlackRock and Securitize's BUIDL fund leads the space with more than $2 billion in total value locked, followed by offerings from Circle and Ondo Finance. Several major banks and asset managers have been piloting blockchain systems to issue and settle conventional financial instruments, seeking to compress settlement times and reduce back-office costs.\n\nWisdomTree's approval represents one of the clearest examples yet of a traditional asset manager operating a regulated fund product on blockchain infrastructure with explicit SEC blessing. While tokenization experiments have proliferated across Wall Street, the combination of 24/7 trading, instant settlement, and real-time dividend accrual within an existing mutual fund wrapper sets a template that other firms are likely to study closely. The question now is whether this model — dealer-intermediated, blockchain-settled, and fully regulated — becomes the standard architecture for the next generation of tokenized funds.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "WisdomTree",
-        "SEC",
-        "tokenization",
-        "blockchain",
-        "money market funds",
-        "Treasury"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/de6502d349c323832a205ec68b5a9d873ae72f15-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/sec-approves-wisdomtree-plan-for-24-7-trading-of-tokenized-money-market-fund",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T19:48:59.135Z"
     }
   ]
 }
