@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T04:48:37.446Z",
+  "lastUpdated": "2026-02-25T05:03:24.798Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771995725863-x6cs",
+      "slug": "trump-delivers-combative-state-of-the-union-amid-sagging-pol",
+      "headline": "Trump Delivers Combative State of the Union Amid Sagging Poll Numbers",
+      "subheadline": "President offered few new policies in a nearly two-hour address, leaning instead on patriotic themes and familiar talking points",
+      "body": "President Donald Trump used his State of the Union address Tuesday night to declare an American \"turnaround for the ages,\" delivering a lengthy and combative speech that leaned heavily on patriotic rhetoric even as his approval ratings hover near 40 percent and midterm elections loom just eight months away.\n\nThe nearly two-hour address before a joint session of Congress offered little in the way of course correction or new policy initiatives. Instead, Trump doubled down on familiar themes — touting rising incomes, a growing stock market, lower gasoline prices, and reduced undocumented border crossings. \"Our nation is back,\" he told the chamber, calling the United States the \"hottest\" country in the world. Among the few new proposals were retirement savings accounts for working-class Americans and a deal with artificial intelligence companies to secure electricity for their facilities without raising consumer energy bills. He also revived older ideas, including a healthcare plan offering direct payments to help cover insurance premiums and a law requiring voters to prove citizenship.\n\nThe speech's most volatile moments came on tariffs and immigration — two issues that have increasingly divided even Trump's own party. His vow to press forward with broad tariffs, despite a Supreme Court decision last Friday striking down many of his previously imposed duties, drew murmurs from Democrats and uncomfortable silence from Republicans worried about the economic fallout ahead of the 2026 midterms. Three justices who ruled against the administration sat expressionless in the front row. On immigration, Trump focused on crimes committed by undocumented migrants, drawing thunderous Republican applause but angry shouts from Democrats. Notably absent was any mention of the fatal shootings of two American citizens by federal agents during an enforcement operation in Minneapolis — an incident that has significantly eroded public support for his immigration approach.\n\nForeign policy received scant attention despite a massive buildup of American military forces near Iran, with Trump doing little to make a public case for sustained action. The omission was striking given the scale of the deployment but consistent with the domestic focus that has characterized his presidency's messaging strategy.\n\nThe address appeared designed for a television audience measured in the tens of millions — a larger platform than the White House speech Trump delivered last month using similar themes and statistics that failed to move public opinion. With references to military heroes and Olympic gold-medal-winning hockey players seated in the gallery, Trump seemed to be wagering that a wave of patriotic sentiment — perhaps amplified by the nation's 250th birthday celebrations this summer — could turn the political tide before voters render their verdict in November 2026.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Trump",
+        "State of the Union",
+        "Congress",
+        "midterm elections",
+        "tariffs",
+        "immigration"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/63da/live/76c74e40-11fc-11f1-9aaf-2d926c8af0e6.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2d7x6zrwro?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T05:02:05.863Z"
+    },
+    {
+      "id": "ps-1771995743334-5l4q",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now specify the geometry and materials needed to achieve desired negative thermal expansion and negative Poisson's ratio",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of lattice metamaterials that exhibit two highly sought-after and counterintuitive mechanical properties simultaneously — negative thermal expansion and a negative Poisson's ratio. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a persistent bottleneck in metamaterial engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattices — periodic structures built from two different base materials arranged in honeycomb-like geometries. Unlike ordinary materials, which expand when heated and thin when stretched, these engineered lattices can shrink under rising temperatures and grow wider when pulled. Such properties make them attractive candidates for aerospace components, precision instruments, and other systems where thermal distortion must be tightly controlled.\n\nTraditionally, designing these structures has required painstaking trial-and-error simulation or brute-force parameter sweeps. Peng and Xu's approach flips the problem. They first generated a large dataset using computational homogenization, systematically varying the lattice geometry and constituent material properties. A forward neural network model was trained on this dataset to predict effective thermoelastic properties from a given structural design. The team then built six distinct inverse models, each targeting different combinations of effective properties and design variables, to recommend specific geometries and material pairings that would yield a user-specified set of target behaviors.\n\nA key innovation lies in how the forward model is woven into the training of the inverse models. It serves double duty: integrated directly into the inverse models' loss functions to enforce physical consistency, and used to generate supplementary training data for scenarios where the base materials are fixed. The authors report strong predictive performance across representative design examples, suggesting the framework is robust enough for practical engineering deployment.\n\nThe work sits at the intersection of computational materials science and applied machine learning, a space that has seen rapid growth as researchers seek to accelerate the discovery and optimization of advanced materials. While the current study is limited to a specific class of bimaterial honeycomb lattices, the methodology — high-throughput simulation feeding neural network surrogates for both forward prediction and inverse design — is broadly transferable. As metamaterial applications expand into thermal management, vibration isolation, and adaptive structures, tools like these could significantly compress development timelines.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1697123715921-4a89b78987bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T05:02:23.334Z"
+    },
+    {
+      "id": "ps-1771995758642-csr4",
+      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
+      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
+      "body": "A team at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms in place of carbon — ending a nearly five-decade pursuit that saw research groups worldwide fail repeatedly. The results, published February 24 in Science, were achieved independently and almost simultaneously by a second team at Tohoku University in Japan, with both papers appearing side by side in the same issue.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the German effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. Their target was the silicon analogue of cyclopentadienide, a flat, five-membered carbon ring whose evenly distributed electrons give it the hallmark extra stability known as aromaticity. Replacing all five carbon atoms with silicon — an element that is more metallic and holds its electrons less tightly — had defied synthesis attempts since the concept was first proposed in the late 1970s.\n\nThe difficulty stems from silicon's reluctance to form the kind of planar, electron-sharing ring structures that carbon assembles with relative ease. Before this breakthrough, the only known all-silicon aromatic was a three-membered ring created in 1981 as the silicon analogue of cyclopropenium. Every attempt to extend aromaticity to larger silicon ring systems had failed, leading some researchers to doubt it was achievable at all.\n\nThe successful synthesis matters because silicon's distinct electronic properties mean that pentasilacyclopentadienide could serve as a building block for entirely new classes of compounds and catalysts. Aromatic molecules already play critical roles in industrial chemistry — Scheschkewitz noted that they help make catalysts used in polyethylene and polypropylene production more durable and effective. A silicon-based aromatic platform could expand that toolkit in directions carbon chemistry cannot reach, potentially yielding novel materials with tunable electronic and structural characteristics.\n\nThe fact that Takeaki Iwamoto's group at Tohoku University arrived at the same molecule independently underscores the result's robustness and the broad interest in silicon aromatics across the global chemistry community. With the foundational molecule now in hand, both teams and others are expected to explore derivatives and applications, marking the opening of a new chapter in main-group chemistry that researchers have awaited for half a century.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "catalysis"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T05:02:38.642Z"
+    },
+    {
+      "id": "ps-1771995772951-2rxj",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-payments-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Payments Megadeal",
+      "subheadline": "The $159 billion private fintech giant is in early-stage talks to acquire some or all of the $40 billion payments company",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If completed, the transaction would represent one of the largest fintech acquisitions in history and fundamentally reshape the digital payments landscape.\n\nThe discussions are described as being in their very early stages, and there is no guarantee a deal will materialize. Stripe declined to comment on the report. PayPal, which is publicly traded with a market capitalization of approximately $40 billion, saw its stock edge higher following the news. PayPal's portfolio includes its namesake payment platform as well as the popular peer-to-peer service Venmo.\n\nThe reported acquisition interest comes on the same day Stripe announced a tender offer valuing the company at $159 billion — a 74% jump from its previous valuation. The share sale, which allows employees to liquidate some of their equity, attracted participation from prominent venture firms Andreessen Horowitz and Thrive Capital, with Stripe also repurchasing some of its own stock. The new valuation cements Stripe's position as one of the most valuable private companies in the world, dwarfing even the public market capitalization of the company it may be seeking to buy.\n\nA Stripe-PayPal combination would unite two of the most influential players in digital payments, though they occupy different niches. Stripe has built its reputation as a developer-first infrastructure provider, powering online commerce for millions of businesses through its APIs and backend systems. PayPal, by contrast, is a consumer-facing brand with hundreds of millions of active accounts and a strong presence in peer-to-peer transfers through Venmo. Together, the companies would command an enormous share of global online transaction volume.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities, raising questions about how such a massive acquisition might be structured and financed. Whether Stripe would pursue the entirety of PayPal Holdings or carve out specific business units remains unclear. The sheer scale of the potential deal — and the regulatory scrutiny it would likely invite — means any path to completion would be long and complex.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "payments",
+        "Venmo"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T05:02:52.951Z"
+    },
+    {
+      "id": "ps-1771995788273-5qfn",
+      "slug": "oil-hits-six-month-high-as-u-s-iran-tensions-rattle-energy-m",
+      "headline": "Oil Hits Six-Month High as U.S.-Iran Tensions Rattle Energy Markets",
+      "subheadline": "Traders brace for potential disruptions to Iranian crude output and critical Middle Eastern shipping lanes",
+      "body": "Oil prices have surged to their highest level in six months as escalating tensions between the United States and Iran inject fresh uncertainty into global energy markets, raising the specter of supply disruptions in one of the world's most critical petroleum-producing regions.\n\nThe price spike reflects traders' growing concern over two distinct but related risks: a potential reduction in Iranian crude output, and the possibility that Tehran could move to obstruct the Strait of Hormuz, the narrow waterway through which roughly one-fifth of the world's daily oil consumption passes. Several major energy-exporting nations in the Persian Gulf — including Saudi Arabia, the United Arab Emirates, Kuwait, and Iraq — depend on the strait to move their crude to international markets. Any blockage, even a temporary one, would send shockwaves through global supply chains.\n\nIran itself remains a significant oil producer, pumping an estimated 3.2 million barrels per day despite years of U.S. sanctions that have constrained its export capacity. A direct military confrontation or tightened enforcement of sanctions could pull additional barrels off the market at a time when global supply-demand balances remain relatively tight. OPEC+ has maintained a cautious approach to production increases, leaving limited spare capacity to absorb a sudden shortfall.\n\nThe geopolitical premium now embedded in crude prices underscores just how sensitive energy markets remain to Middle Eastern instability. While prior flare-ups between Washington and Tehran — including the 2019 attacks on Saudi Aramco facilities and the 2020 killing of Iranian General Qasem Soleimani — produced sharp but short-lived price spikes, market participants are wary that the current trajectory could prove more sustained if diplomatic channels narrow further.\n\nFor consumers and policymakers, the timing is unwelcome. Higher oil prices feed directly into transportation and manufacturing costs, adding inflationary pressure at a moment when central banks in major economies are carefully calibrating interest rate paths. Energy analysts caution that while prices could retreat quickly if tensions de-escalate, the risk calculus has shifted decidedly to the upside for now, with traders positioning for a range of scenarios that could keep crude markets volatile in the weeks ahead.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "oil prices",
+        "Iran",
+        "geopolitics",
+        "Strait of Hormuz",
+        "energy markets",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxvaWwlMjBwcmljZXMlMjBJcmFufGVufDB8MHx8fDE3NzE5OTQ5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T05:03:08.273Z"
+    },
+    {
+      "id": "ps-1771995804704-u9qy",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-mega-",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Mega-Deal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would merge two of the world's largest payment processors and create a formidable force in the fast-growing stablecoin economy. PayPal shares jumped 7% on the news.\n\nThe discussions are reportedly in early stages, and no formal bid has been made. Stripe, which processed $1.9 trillion in transactions last year and carries a private valuation of roughly $159 billion, would be absorbing a company whose stock has fallen approximately 80% from its 2021 peak — making PayPal a potentially attractive target despite its enormous scale. PayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fuel.\n\nWhat makes the rumored combination particularly significant is the crypto and stablecoin dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to a market capitalization of around $4 billion. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merged entity would control both a widely circulating stablecoin and the underlying infrastructure for issuing and moving tokenized dollars — a vertically integrated stack that no competitor currently matches.\n\nThe potential deal reflects a broader trend of traditional financial companies embracing blockchain-based payment rails. Meta is reportedly planning a stablecoin reentry in the second half of this year, and Bridge's stablecoin volumes have quadrupled recently even as other parts of the crypto market have struggled. For Stripe, which remains privately held, acquiring PayPal would represent a dramatic escalation in ambition, vaulting the company into public-market scale and giving it access to PayPal's massive merchant network and consumer-facing brand.\n\nAnalysts will be watching closely for signals on whether Stripe pursues the full company or specific business units. PayPal's Venmo platform, its merchant checkout services, and its stablecoin operations each represent distinct strategic assets. Any deal of this magnitude would likely face intense regulatory scrutiny given the combined entity's dominance in online payment processing. For now, with deliberations described as preliminary, the market is pricing in possibility rather than certainty — but the implications for digital payments and crypto infrastructure are already commanding attention.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "digital payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T05:03:24.704Z"
+    },
     {
       "id": "ps-1771994839195-jxau",
       "slug": "trump-faces-pivotal-state-of-the-union-with-approval-at-hist",
@@ -64,90 +191,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-25T04:47:50.198Z"
-    },
-    {
-      "id": "ps-1771994885226-mvnk",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-blockbust",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Blockbuster Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of the publicly traded rival valued at $40 billion",
-      "body": "Stripe, the Dublin-based payments infrastructure company, is weighing a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. The discussions are still in their earliest stages, and there is no guarantee a transaction will materialize.\n\nThe revelation landed on the same day Stripe announced a tender offer valuing the privately held company at $159 billion — a 74% leap from its prior valuation and a figure that cements its status as one of the most valuable private companies in the world. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, and Stripe plans to repurchase some of its own stock as well. PayPal, by contrast, carries a public market capitalization of roughly $40 billion, meaning Stripe's implied private valuation is nearly four times that of its potential target. PayPal's shares edged higher following the reports.\n\nA combination of the two companies would reshape the global payments landscape. Stripe has built its business primarily as the behind-the-scenes infrastructure powering online commerce for millions of businesses, from startups to enterprises like Amazon and Shopify. PayPal operates a consumer-facing digital wallet alongside Venmo, its popular peer-to-peer payments app, giving it a massive direct relationship with hundreds of millions of individual users. Merging those complementary strengths could create a vertically integrated payments colossus spanning both sides of every transaction.\n\nThe timing is notable. Stripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his near-term priorities, suggesting the firm may prefer to pursue ambitious strategic moves while still privately held and free from the quarter-to-quarter scrutiny of public markets. A PayPal acquisition — whether of the entire company or select assets — could give Stripe the consumer reach it currently lacks while absorbing a storied but struggling competitor that has spent recent years trying to reinvent itself under CEO Alex Chriss.\n\nStripe declined to comment on the report. If a deal were to proceed, it would rank among the largest technology acquisitions in history and almost certainly draw intense regulatory scrutiny on both sides of the Atlantic.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T04:48:05.226Z"
-    },
-    {
-      "id": "ps-1771994901241-tnmo",
-      "slug": "oil-hits-six-month-high-as-u-s-iran-tensions-rattle-energy-m",
-      "headline": "Oil Hits Six-Month High as U.S.-Iran Tensions Rattle Energy Markets",
-      "subheadline": "Traders brace for potential disruptions to Iranian crude output and critical Middle East shipping lanes",
-      "body": "Crude oil prices have surged to their highest level in six months as escalating tensions between the United States and Iran inject fresh uncertainty into global energy markets, raising concerns about supply disruptions in one of the world's most critical oil-producing regions.\n\nThe price rally reflects growing anxiety among traders that a further deterioration in U.S.-Iran relations could threaten crude output from Iran itself or, in a more severe scenario, lead Tehran to obstruct the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's daily oil consumption passes. Several major Persian Gulf energy exporters, including Saudi Arabia, the United Arab Emirates, Kuwait, and Iraq, rely on the strait as their primary route to global markets. Any disruption there would send shockwaves through an already tightly balanced oil market.\n\nThe geopolitical risk premium now being priced into crude comes at a delicate moment for the global economy. Central banks in major economies are navigating interest rate decisions amid persistent inflationary pressures, and a sustained spike in energy costs could complicate those efforts. For consumers, higher oil prices translate into elevated costs for gasoline, heating fuel, and a wide range of goods whose production and transport depend on petroleum.\n\nIran, a member of OPEC, produces roughly three million barrels of oil per day, making it a meaningful contributor to global supply. While international sanctions have historically constrained Tehran's export capacity, any military confrontation or new round of punitive measures could further curtail those volumes at a time when spare production capacity among other major producers remains limited. OPEC+ members have been carefully managing output quotas to support prices, leaving relatively little cushion to absorb a sudden supply shock.\n\nMarket participants are now closely monitoring diplomatic signals from Washington and Tehran, as well as military postures in the Persian Gulf, for any indication of whether the current standoff will de-escalate or deepen. Energy analysts note that while geopolitical risk premiums can dissipate quickly if tensions ease, the asymmetric nature of the threat — where even a brief disruption to Hormuz traffic could cause outsized market dislocation — is keeping traders on edge and supporting elevated prices for the foreseeable future.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "oil prices",
-        "Iran",
-        "geopolitics",
-        "Strait of Hormuz",
-        "energy markets",
-        "OPEC"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxvaWwlMjBwcmljZXMlMjBJcmFufGVufDB8MHx8fDE3NzE5OTQ5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T04:48:21.241Z"
-    },
-    {
-      "id": "ps-1771994917367-x19c",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with deep stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring an acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest digital payments companies and create a dominant force in the fast-growing stablecoin economy. PayPal shares surged 7% on the news.\n\nThe discussions are in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of the potential combination is staggering. Stripe, a privately held company most recently valued at $159 billion, processed $1.9 trillion in payment volume last year. PayPal, once the undisputed leader in online payments, has seen its stock collapse roughly 80% from 2021 highs amid intensifying competition and slowing growth. Shares had already been climbing this week on buyout speculation before the Bloomberg report added fuel.\n\nWhat makes the potential deal particularly significant is the crypto and stablecoin dimension. Both companies have made aggressive moves into blockchain-based payments infrastructure. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to a market capitalization of approximately $4 billion. It enables users to transfer dollars across crypto networks around the clock, often at lower cost than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to build Tempo, a payments-focused blockchain currently in testing.\n\nA merged entity would control an unrivaled combination of consumer-facing payment tools, merchant processing infrastructure, and stablecoin rails. Bridge's volume has reportedly quadrupled in recent months, underscoring growing enterprise demand for dollar-denominated tokens as a settlement layer. Integrating PayPal's PYUSD — already one of the largest branded stablecoins — with Stripe's backend infrastructure could accelerate adoption among the millions of merchants and platforms that rely on both companies.\n\nThe potential acquisition also arrives at a moment when traditional finance is converging rapidly with crypto infrastructure. Meta is reportedly planning a stablecoin reentry later this year, and exchanges like Coinbase and Kraken are expanding into tokenized stock trading. If Stripe proceeds with a PayPal bid, it would represent one of the largest fintech transactions ever and signal that stablecoins have moved from a niche crypto product to a core pillar of global payments strategy.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T04:48:37.367Z"
-    },
-    {
-      "id": "ps-1771993963587-lxmx",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Two independent teams crack the pentasilacyclopentadienide puzzle, opening new frontiers in silicon-based chemistry",
-      "body": "Chemists at Saarland University in Germany have synthesized pentasilacyclopentadienide — a stable aromatic molecule made entirely of silicon atoms in a ring structure — ending nearly five decades of failed attempts by research groups worldwide. The achievement, published February 24 in Science, could unlock an entirely new class of materials and catalysts for industrial chemistry.\n\nThe team led by David Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded in replacing all five carbon atoms in cyclopentadienide — a classic aromatic hydrocarbon — with silicon. Aromatic molecules, named for the pleasant smells of the first such compounds discovered in the 19th century, derive their exceptional stability from electrons shared evenly across a flat ring structure, a property governed by Hückel's rule. Creating that same stable arrangement with silicon, which is more metallic and holds its electrons less tightly than carbon, had eluded researchers since the concept was first proposed.\n\nPrior to this breakthrough, only one silicon-based aromatic compound existed: a three-membered silicon ring analogous to cyclopropenium, first synthesized in 1981. Every subsequent attempt to build larger silicon aromatic systems had failed. The new five-atom silicon ring displays all the hallmark characteristics of aromaticity, representing a dramatic expansion of what is chemically possible with the element. In a striking coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same compound at nearly the same time. The two teams agreed to publish their results side by side in the same issue of Science.\n\nThe implications extend well beyond the laboratory. Aromatic compounds are workhorses of modern industry, playing critical roles in catalysts used for polyethylene and polypropylene production, among other processes. Because silicon's electronic properties differ fundamentally from carbon's, pentasilacyclopentadienide could serve as a foundation for developing catalysts and materials with entirely novel characteristics. Scheschkewitz noted that silicon-based aromatics could make industrial catalysts more durable and effective in ways not achievable with their carbon counterparts.\n\nThe synthesis marks what researchers describe as a crucial first step toward a broader silicon-based chemistry that mirrors the richness of organic aromatic systems. With two independent groups now having validated the compound's existence, the field is expected to accelerate rapidly as chemists explore derivatives and applications of the new molecular architecture.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon chemistry",
-        "aromatic molecules",
-        "materials science",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "catalysis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T04:32:43.588Z"
     },
     {
       "id": "ps-1771993991229-gzbc",
@@ -1015,47 +1058,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/bitcoin-s-u-s-demand-signal-turns-negative-for-a-record-40-days",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T14:48:48.369Z"
-    },
-    {
-      "id": "ps-1771943612794-sp2p",
-      "slug": "binance-relaunches-tokenized-stock-trading-via-ondo-finance-",
-      "headline": "Binance Relaunches Tokenized Stock Trading via Ondo Finance Partnership",
-      "subheadline": "The world's largest crypto exchange revives U.S. equity tokens nearly five years after regulatory pressure forced a retreat",
-      "body": "Binance is bringing tokenized stocks back to its platform through a partnership with Ondo Finance, marking a return to a product line the exchange abandoned nearly five years ago under pressure from European regulators.\n\nThe world's largest cryptocurrency exchange by trading volume has listed ten tokenized U.S. equities, ETFs, and commodity-linked products on Binance Alpha, a section of its wallet service typically used for early-stage crypto projects. The initial lineup includes blockchain-based versions of Apple, Google, Tesla, and Nvidia shares, as well as the Invesco QQQ ETF that tracks the Nasdaq index. The tokens are not available to users in the United States.\n\nThe relaunch represents a significant strategic reversal for Binance, which first offered tokenized stocks in April 2021 — starting with Tesla and later adding Coinbase, MicroStrategy (now Strategy), Microsoft, and Apple. That effort was short-lived, as scrutiny from the United Kingdom's Financial Conduct Authority and Germany's BaFin prompted the exchange to pull the product. Binance signaled in January that it was reconsidering the move, and the Ondo Finance deal now makes it official.\n\nThe timing aligns with a broader surge of interest in tokenized equities across both crypto-native platforms and traditional Wall Street institutions. The sector's total value is approaching $1 billion, with Ondo Finance alone accounting for more than $550 million in locked value and $11 billion in cumulative trading volume since September 2025. Rivals including Kraken, Bybit, Gemini, and Robinhood have all rolled out their own tokenized equity offerings, while the Nasdaq and the New York Stock Exchange have publicly outlined plans to enter the space. Coinbase, meanwhile, announced the launch of direct stock and ETF trading for U.S. users on the same day, positioning itself as an \"everything exchange\" in direct competition with Robinhood.\n\nProponents argue that blockchain-based stock tokens can democratize access to U.S. equities, particularly for retail investors in developing countries who lack traditional brokerage accounts. The tokens also hold potential utility as collateral within decentralized finance protocols, adding a layer of composability that conventional shares cannot offer. \"Our users now have even more convenient ways to explore and trade tokenized stocks, in line with our mission to offer innovative and accessible trading opportunities,\" said Jeff Li, Binance's vice president of product. Whether regulators will view this second attempt more favorably than the first remains an open question, but the competitive landscape has shifted dramatically in the intervening years — with tokenized securities now attracting institutional endorsement rather than just crypto-native enthusiasm.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Binance",
-        "Ondo Finance",
-        "tokenized stocks",
-        "crypto exchanges",
-        "real-world assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/4a779a695415dfb246aced6b768df1d250b7d9ee-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/23/binance-brings-back-tokenized-stocks-trading-with-ondo-finance-deal",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T14:33:32.794Z"
-    },
-    {
-      "id": "ps-1771942712508-nqac",
-      "slug": "coinbase-launches-commission-free-stock-and-etf-trading-for-",
-      "headline": "Coinbase Launches Commission-Free Stock and ETF Trading for U.S. Users",
-      "subheadline": "Crypto exchange's push to become an 'everything exchange' puts it in direct competition with Robinhood",
-      "body": "Coinbase has opened stock and exchange-traded fund trading to all U.S. customers, marking a pivotal expansion beyond its cryptocurrency roots as the company pursues its ambition to become a one-stop financial platform. The move, announced on February 24, allows users to trade U.S.-listed equities around the clock five days a week with zero commissions, fund purchases with dollars or the USDC stablecoin, and buy fractional shares for as little as $1.\n\nThe launch escalates a convergence war between crypto-native platforms and traditional retail brokerages. Coinbase now competes head-on with Robinhood, which has been aggressively building out its own cryptocurrency offerings. Both companies have seen their shares fall roughly 35% this year as digital asset prices have struggled, with bitcoin recently hovering near $63,000. The diversification strategy could help decouple Coinbase's stock from bitcoin's volatile swings, positioning the company more like a broad fintech player than a pure crypto bet.\n\nCoinbase first outlined its \"everything exchange\" vision in December and has been executing rapidly. Earlier in February, it launched a predictions market allowing users to wager on real-world event outcomes. Equities trading represents the most consequential step yet in that roadmap, and the company has signaled it may eventually offer tokenized stocks — securities that move on blockchain rails and could theoretically trade around the clock. Apex Fintech Solutions is handling clearing, custody, and execution for the new service.\n\nTo drive adoption, Coinbase has struck a partnership with Yahoo Finance that embeds a direct trading button within Yahoo's research interface, allowing users to move seamlessly from stock analysis to order execution. Yahoo Finance will also display real-time Coinbase data. The integration gives Coinbase immediate visibility among millions of retail investors who may not have considered the platform for traditional investing.\n\nThe competitive landscape is crowded. EToro, another hybrid platform offering both crypto and equities, has seen relatively better performance this year, down about 13%, with its recent earnings highlighting strong stock-trading activity. Whether Coinbase can carve out meaningful market share against entrenched brokerages will likely depend on execution, user experience, and how effectively it leverages its existing base of crypto-native customers who may welcome the convenience of consolidating their financial activity on a single platform.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Coinbase",
-        "stock trading",
-        "Robinhood",
-        "ETF",
-        "crypto exchange",
-        "fintech"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2f3568ba988df704ac0fc97e2593677bdcbf178e-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/coinbase-adds-stock-etf-trading-as-it-expands-beyond-crypto",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T14:18:32.508Z"
     }
   ]
 }
