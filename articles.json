@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T08:18:18.704Z",
+  "lastUpdated": "2026-02-25T08:33:25.162Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772007418159-3rof",
-      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
-      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was detained at his London home despite agreeing to a voluntary police interview next month",
-      "body": "Lord Peter Mandelson's legal team has accused Metropolitan Police of arresting the former British ambassador to the United States based on an unfounded claim that he planned to flee the country, calling the suggestion that he intended to take up permanent residence abroad completely untrue.\n\nMandelson, a towering figure in Labour politics for four decades, was detained at his London home on Monday afternoon on suspicion of misconduct in public office. Officers from the Met's central specialist crime division led him to an unmarked car and transported him to Wandsworth police station, where he was held for nine hours before being released on bail in the early hours of Tuesday morning. His lawyers at Mishcon De Reya told the BBC that the arrest blindsided them, as an agreement had already been reached with police for Mandelson to attend a voluntary interview next month. They said they have formally requested the evidence used to justify the detention and emphasized that their client's \"overriding priority is to cooperate with the police investigation.\"\n\nThe arrest stems from an investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, shared market-sensitive information with the late convicted sex offender Jeffrey Epstein. The allegations gained traction after the U.S. Department of Justice released a cache of documents last month containing emails between the two men. One email from 2009 appears to show Mandelson relaying an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other communications appeared to reference a proposed tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before it was publicly announced in 2010. Search warrants were executed at two addresses in Wiltshire and Camden alongside the arrest.\n\nMandelson, who played a central role in the New Labour movement and Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was dismissed from that post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. The Metropolitan Police has declined to comment on the circumstances of the arrest but confirmed Mandelson has been bailed until the end of May while consultations with the Crown Prosecution Service continue.\n\nMandelson's camp maintains he has not acted criminally and was not motivated by financial gain. The case now represents one of the most significant criminal investigations involving a senior British political figure in recent memory, with implications that could reverberate through Westminster and the Labour establishment for months to come.",
+      "id": "ps-1772008324719-2lvv",
+      "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
+      "headline": "Mandelson Lawyers Call Flight-Risk Claim 'Baseless' After Arrest",
+      "subheadline": "Former UK ambassador to the US was held for nine hours on suspicion of misconduct in public office tied to Epstein links",
+      "body": "Lawyers for Lord Peter Mandelson have pushed back against the rationale for his arrest on Monday, saying Metropolitan Police officers detained the former British ambassador to the United States at his London home based on an unfounded belief that he planned to flee the country.\n\nThe legal team at Mishcon De Reya told the BBC that Mandelson had already agreed to attend a voluntary police interview next month and that there is \"absolutely no truth whatsoever\" to the suggestion he intended to leave the UK permanently. The Metropolitan Police declined to comment on the claim. Mandelson was taken to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May.\n\nThe arrest stems from a Metropolitan Police investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations gained momentum after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Among them, a 2009 email appears to show Mandelson relaying an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other communications appeared to reference a tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson, a central architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was removed from the post in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. His lawyers maintain he has not acted criminally and was not motivated by financial gain.\n\nSearch warrants were executed at two addresses in Wiltshire and Camden in connection with the arrest. Consultations between the Met's central specialist crime division and the Crown Prosecution Service are ongoing, leaving open the question of whether formal charges will follow. For now, one of the most influential figures in modern British politics finds himself at the center of a criminal investigation that has already ended his diplomatic career.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -15,13 +15,116 @@
         "Jeffrey Epstein",
         "Metropolitan Police",
         "UK politics",
-        "misconduct in public office",
-        "Labour Party"
+        "misconduct in public office"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T08:16:58.159Z"
+      "publishedAt": "2026-02-25T08:32:04.719Z"
+    },
+    {
+      "id": "ps-1772008340597-ph7k",
+      "slug": "digital-twin-strategy-cuts-particle-accelerator-tuning-time-",
+      "headline": "Digital Twin Strategy Cuts Particle Accelerator Tuning Time by 4-6x",
+      "subheadline": "Researchers combine physics-based modeling with Bayesian optimization to achieve mid-to-high 90% beam transmission at ISAC facility",
+      "body": "A team of physicists has demonstrated a hybrid tuning approach for particle accelerators that dramatically reduces the time needed to optimize beam performance, achieving convergence four to six times faster than conventional methods while delivering transmission rates in the mid-to-high 90% range.\n\nThe technique, developed by O. Hassan, O. Shelbaya, P. M. Jung, O. Kester, T. Planche, and W. Fedorko, was tested on the ISAC post-accelerator — a radioactive ion beam facility at TRIUMF in Vancouver, Canada. Their key insight involves splitting the tuning problem into two distinct phases: first using a digital twin to pre-set machine optics computations in seconds, then applying Bayesian optimization exclusively for beam steering during live operation. This factorization approach reduces the dimensionality of the parameter space that the optimization algorithm must navigate, making convergence more predictable and operational safety measures easier to enforce.\n\nTraditionally, tuning a particle accelerator's beam optics and steering simultaneously requires exploring a vast, high-dimensional parameter space — a process that can be slow, unreliable, and resource-intensive. The researchers found that attempting to optimize both optics and steering together using a fully Bayesian approach produced significantly worse results than their decoupled strategy. Across three experimental case studies conducted under identical conditions, the hybrid method consistently reached high-transmission configurations in a fraction of the iterations required by the baseline approach.\n\nThe digital twin model interfaces directly with the accelerator's control system while respecting practical constraints including device bounds, slew-rate limits, and loss interlocks — safety systems that shut down the beam if particles are being lost at dangerous rates. The ability to compute end-to-end tunes in seconds means operators can rapidly establish a good starting configuration before fine-tuning with live beam data, minimizing both machine time and radiation exposure.\n\nThe work, published as a preprint on arXiv on February 23, 2026, represents a growing trend in accelerator physics toward integrating machine learning and model-based techniques into daily operations. As facilities worldwide push toward higher beam intensities and more exotic isotope production, efficient automated tuning methods could prove essential for maximizing scientific output while maintaining safe operating conditions. The approach's modular design — separating physics-model computation from data-driven optimization — suggests it could be adapted to other accelerator facilities facing similar high-dimensional tuning challenges.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "particle accelerators",
+        "Bayesian optimization",
+        "digital twin",
+        "ISAC",
+        "beam physics",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1770322994437-3c058f4b97fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8cGFydGljbGUlMjBhY2NlbGVyYXRvcnMlMjBCYXllc2lhbiUyMG9wdGltaXphdGlvbnxlbnwwfDB8fHwxNzcyMDA4MzQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20233",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T08:32:20.597Z"
+    },
+    {
+      "id": "ps-1772008356704-qa09",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing keep engineered microbes safely confined inside oxygen-starved cancer cores",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the core outward, and activate an oxygen-survival mode only when safety conditions are met — a synthetic biology approach that could open a novel front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. Because the interior of many solid tumors consists of dead cells and is devoid of oxygen, injected bacterial spores find an ideal niche to germinate, multiply, and begin breaking down the tumor mass. \"The bacterium is essentially ridding the body of the tumor,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work. The findings were published in ACS Synthetic Biology.\n\nThe central engineering challenge was the oxygen barrier at a tumor's periphery. As the bacteria expand outward from the anoxic core, even trace amounts of oxygen can kill them before they eliminate the cancer's outer layers. To solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium. But switching on that gene prematurely could allow the microbes to survive in oxygen-rich tissue such as the bloodstream — a serious safety hazard. The researchers addressed the problem with quorum sensing, a natural bacterial communication mechanism in which chemical signals accumulate as population density rises. Only after enough bacteria have colonized the tumor interior does the signal cross a threshold that activates the oxygen-resistance gene. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nIn earlier work the team demonstrated that C. sporogenes could be genetically modified for improved oxygen tolerance. In the latest study, they validated the quorum-sensing control system by programming bacteria to produce green fluorescent protein, confirming the genetic circuit activated at the intended population density. The next milestone is combining both modifications — oxygen tolerance and quorum-sensing control — into a single organism and testing it in pre-clinical tumor models.\n\nThe project, which grew out of PhD research by Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Pu Chen, exemplifies the university's push toward interdisciplinary health innovation. The Waterloo group is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, along with former Waterloo doctoral student Sara Sadr, who played a leading role in advancing the research. If pre-clinical results confirm the approach's efficacy and safety, engineered bacterial therapies could eventually offer oncologists a programmable biological weapon against solid tumors that have long resisted conventional treatment.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T08:32:36.704Z"
+    },
+    {
+      "id": "ps-1772008373128-bmxp",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-blockbust",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Blockbuster Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage talks to buy some or all of PayPal, valued at roughly $40 billion",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to people familiar with the matter cited by Bloomberg. The discussions remain in their earliest stages, and there is no certainty a transaction will materialize.\n\nThe revelation landed on the same day Stripe disclosed a new tender offer valuing the privately held company at $159 billion — a 74% leap from its prior valuation and a figure that cements its position among the world's most valuable private technology firms. Andreessen Horowitz and Thrive Capital are among the investors purchasing employee shares in the latest round, and Stripe plans to repurchase some of its own stock as well. PayPal, which trades publicly on the Nasdaq, carries a market capitalization of approximately $40 billion. Its shares edged higher following reports of Stripe's interest.\n\nA combination of the two companies would reshape the global digital payments landscape. Stripe, founded in 2010 by brothers Patrick and John Collison, has built its business primarily as the behind-the-scenes plumbing for online commerce, processing payments for millions of businesses ranging from startups to enterprises like Amazon and Shopify. PayPal, by contrast, operates a consumer-facing brand that includes the flagship PayPal wallet, the peer-to-peer service Venmo, and a suite of merchant checkout tools. An acquisition could give Stripe direct access to PayPal's vast consumer user base while extending its reach into point-of-sale and person-to-person transactions — segments where it has historically had limited presence.\n\nThe potential deal also raises questions about Stripe's path to the public markets. CEO Patrick Collison recently told CNBC that an initial public offering is not among his current priorities, a stance that a mega-acquisition funded in part by private capital could complicate or delay further. Absorbing a publicly traded company of PayPal's scale would be an extraordinarily complex undertaking, involving regulatory scrutiny across multiple jurisdictions and the integration of overlapping merchant services.\n\nStripe declined to comment on the reports. For now, the talks underscore the accelerating consolidation logic in fintech: as growth in digital payments matures, the industry's largest players are looking to expand not by building new products alone, but by acquiring established platforms with billions of users already in their networks.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T08:32:53.128Z"
+    },
+    {
+      "id": "ps-1772008389953-9dp4",
+      "slug": "trade-fraud-surges-as-china-us-cargo-gap-hits-112-billion",
+      "headline": "Trade Fraud Surges as China-US Cargo Gap Hits $112 Billion",
+      "subheadline": "Record tariff evasion through phantom importers and undervalued shipments is distorting trade data and punishing compliant businesses",
+      "body": "A widening $112 billion discrepancy between what China reports exporting to the United States and what American customs authorities record as imports points to an unprecedented surge in tariff evasion, according to a Bloomberg investigation published Monday.\n\nThe gap — the largest ever documented between the two nations — reflects a sprawling ecosystem of trade fraud that has accelerated alongside escalating U.S. tariffs on Chinese goods. The schemes involve phantom import companies, systematic undervaluation of cargo, and misclassification of goods to dodge duties that in some cases exceed 100 percent on targeted product categories. Suspiciously cheap shipping offers have proliferated, often signaling arrangements designed to move goods into the U.S. market while circumventing the tariff regime that Washington has built over the past several years.\n\nThe scale of the evasion carries significant consequences. Legitimate American importers and domestic manufacturers face an uneven playing field, competing against rivals whose goods enter the country at artificially low prices. The lost tariff revenue — potentially tens of billions of dollars annually — also represents a direct hit to the U.S. Treasury at a time when the federal government is grappling with persistent budget deficits. U.S. Customs and Border Protection has stepped up enforcement actions in recent years, but the sheer volume of trans-Pacific trade, which still involves millions of shipping containers annually, makes comprehensive screening a logistical challenge.\n\nThe cargo gap metric compares export declarations filed in China with corresponding import records in the United States. While some discrepancy is normal due to differences in how countries classify goods and account for shipping costs, trade economists have long used persistent and growing gaps as a proxy for illicit activity. The current $112 billion figure dwarfs previous divergences and suggests that the higher tariffs climb, the greater the financial incentive to evade them — a dynamic trade enforcement experts have warned about since the first waves of duties were imposed during the Trump administration's initial trade war.\n\nFor American businesses playing by the rules, the fraud boom adds insult to injury. Companies that absorb tariff costs or restructure supply chains to remain compliant find themselves undercut by competitors importing through fraudulent channels. Industry groups have called on Congress and federal agencies to invest in more sophisticated detection tools, including AI-driven analysis of shipping manifests, to close the enforcement gap before it widens further.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "tariffs",
+        "trade fraud",
+        "US-China trade",
+        "customs enforcement",
+        "imports"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1710762382866-2d12000736ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHx0YXJpZmZzJTIwdHJhZGUlMjBmcmF1ZHxlbnwwfDB8fHwxNzcyMDA4Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/features/2026-02-24/china-s-112-billion-cargo-gap-shows-record-us-tariff-evasion",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T08:33:09.953Z"
+    },
+    {
+      "id": "ps-1772008405060-4cy8",
+      "slug": "stripe-exploring-potential-acquisition-of-paypal-bloomberg-r",
+      "headline": "Stripe Exploring Potential Acquisition of PayPal, Bloomberg Reports",
+      "subheadline": "A deal between the $159 billion payments giant and the embattled fintech could reshape the stablecoin landscape",
+      "body": "Stripe is in early-stage discussions about acquiring all or parts of PayPal, according to a Bloomberg report published Tuesday, a potential megadeal that would unite two of the largest players in digital payments — and two companies with increasingly ambitious stablecoin strategies. PayPal shares jumped 7% on the news.\n\nThe scale of a combined entity would be staggering. Stripe, still privately held, processed $1.9 trillion in payment volume last year and carried a valuation of roughly $159 billion in its most recent funding round. PayPal, once a market darling that peaked in 2021, has seen its stock decline approximately 80% from those highs, making it a more digestible target than it would have been just a few years ago. Shares had already been climbing this week on earlier buyout speculation before the Bloomberg report added fuel.\n\nWhat makes the potential combination particularly consequential for the broader financial system is the crypto dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos. That token has since grown to a market capitalization of roughly $4 billion, offering users the ability to move dollars across blockchain networks around the clock at costs often below traditional wire transfers. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain still in its testing phase.\n\nA merger would concentrate significant stablecoin infrastructure and issuance under one corporate umbrella at a time when traditional finance is racing to integrate digital asset rails. Bridge's tools allow businesses and crypto projects to issue their own U.S. dollar-backed tokens, a capability that paired with PayPal's consumer-facing PYUSD and its massive user base could accelerate mainstream stablecoin adoption far beyond what either company could achieve independently.\n\nDeliberations remain in their earliest stages, Bloomberg cautioned, and there is no guarantee a deal will materialize. But the mere prospect signals how seriously the payments industry's largest players are taking stablecoins — not as a speculative sideshow, but as core infrastructure for the next generation of money movement. For Stripe, which has methodically built its crypto toolkit through organic development and acquisitions, absorbing PayPal would represent a dramatic leap from behind-the-scenes payment processor to the dominant force in both traditional and blockchain-based commerce.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "M&A",
+        "PYUSD",
+        "fintech",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T08:33:25.060Z"
     },
     {
       "id": "ps-1772007434003-xbra",
@@ -66,27 +169,6 @@
       "publishedAt": "2026-02-25T08:17:30.084Z"
     },
     {
-      "id": "ps-1772007466794-v4t8",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of the publicly traded PayPal, valued at $40 billion.",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If consummated, the transaction would represent one of the largest acquisitions in fintech history, combining two of the most dominant forces in digital payments.\n\nThe discussions are described as being in very early stages, and there is no certainty that a deal will materialize. Stripe declined to comment on the report. PayPal, which is publicly traded with a market capitalization of approximately $40 billion, saw its stock edge higher following the news. The company's portfolio includes its flagship PayPal service as well as the popular peer-to-peer payments app Venmo.\n\nThe report landed on the same day Stripe unveiled its annual letter, which contained its own blockbuster announcement: a new tender offer valuing the privately held company at $159 billion, a 74 percent jump from the previous year. Investors participating in the share purchase include Andreessen Horowitz and Thrive Capital, with Stripe also buying back a portion of its own stock. The valuation cements Stripe's position as one of the most valuable private companies in the world. Co-founder and CEO Patrick Collison recently told CNBC that taking Stripe public is not among his current priorities.\n\nThe sheer scale disparity between the two companies underscores how dramatically the payments landscape has shifted. PayPal, once the undisputed leader in online payments and a pioneer of the industry since its early eBay days, now carries a market value roughly one-quarter the size of Stripe's latest private valuation. Stripe, founded in 2010 by brothers Patrick and John Collison, built its dominance by providing backend payment processing infrastructure to businesses ranging from startups to Fortune 500 corporations.\n\nA combination of the two companies would create a payments colossus spanning consumer-facing products like Venmo and PayPal alongside Stripe's developer-centric infrastructure, potentially giving the merged entity unmatched reach across both sides of digital commerce. However, any deal of this magnitude would likely face intense regulatory scrutiny from antitrust authorities on both sides of the Atlantic. For now, the industry is watching closely to see whether early-stage interest evolves into a formal bid.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "Venmo",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T08:17:46.794Z"
-    },
-    {
       "id": "ps-1772007482635-mqry",
       "slug": "diageo-slashes-outlook-again-as-us-china-weakness-tests-new-",
       "headline": "Diageo Slashes Outlook Again as US, China Weakness Tests New CEO",
@@ -105,49 +187,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T08:18:02.635Z"
-    },
-    {
-      "id": "ps-1772007498603-pab9",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two payments giants would create a stablecoin powerhouse processing trillions in annual volume",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would unite two of the world's largest digital payments companies and consolidate significant stablecoin infrastructure under one roof. PayPal shares jumped 7% on the news, extending gains that had already begun earlier in the week amid buyout speculation.\n\nThe discussions are reportedly in early stages, and no formal bid has been made. Stripe, which processed $1.9 trillion in transactions last year and carries a private valuation of $159 billion, would be absorbing a company whose stock has fallen roughly 80% from its 2021 peak — a dramatic reversal for the fintech pioneer that once commanded one of the highest valuations in financial technology. The steep decline in PayPal's market capitalization may have created the opening Stripe needs to attempt what would rank among the largest fintech acquisitions ever.\n\nThe crypto and stablecoin implications of a merger are substantial. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across blockchain networks around the clock, often at lower cost than traditional wire transfers. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A combined entity would control both a widely circulated stablecoin and the backend tooling for businesses to issue their own dollar-backed tokens.\n\nThe potential deal arrives at a moment of accelerating convergence between traditional payments and blockchain rails. Stripe's Bridge unit has seen stablecoin volume quadruple in recent quarters, even as broader crypto markets have struggled. Together, the two companies would command an enormous share of global online payment processing and an increasingly dominant position in the emerging stablecoin payments ecosystem, likely drawing intense regulatory scrutiny from antitrust authorities on both sides of the Atlantic.\n\nWhether the talks progress to a formal offer remains uncertain. But the mere prospect of Stripe absorbing PayPal signals how aggressively the payments industry is consolidating around digital asset infrastructure — and how far legacy fintechs have fallen from their pandemic-era peaks.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "fintech",
-        "mergers-and-acquisitions",
-        "PYUSD",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T08:18:18.603Z"
-    },
-    {
-      "id": "ps-1772006564078-5cc0",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic biology approach uses quorum sensing to activate oxygen-tolerant microbes only after they colonize a tumor's core",
-      "body": "Researchers at the University of Waterloo have engineered a strain of soil bacterium to infiltrate solid tumors, consume them from the inside, and survive long enough at the oxygen-rich edges to potentially eliminate the cancer entirely — a feat made possible by a DNA-based circuit that acts as a biological safety switch.\n\nThe approach centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide exactly those conditions. Bacterial spores injected into the body naturally gravitate to these necrotic zones, where they germinate, feed on available nutrients, and multiply. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work.\n\nThe central challenge has been that as bacteria expand outward from the tumor core, they encounter trace amounts of oxygen and die before reaching the cancer's viable outer layers. To overcome this, the team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But activating that gene prematurely would be dangerous — oxygen-tolerant bacteria circulating freely in the bloodstream could pose a serious infection risk. The researchers solved this problem by wiring in a quorum-sensing mechanism, a natural bacterial communication system in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside the tumor to produce a sufficiently strong signal, ensuring the trait activates precisely where and when it is needed.\n\nThe work, published in ACS Synthetic Biology, describes the construction and functional validation of this quorum-sensing circuit in C. sporogenes. In experiments, the team programmed bacteria to produce green fluorescent protein as a proxy, confirming the system triggered at the intended population threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical animal models.\n\nThe research grew out of doctoral work by Bahram Zargar, who has since co-founded CREM Co Labs, a Toronto-based company collaborating with the Waterloo team to advance the technology toward clinical application. Former Waterloo doctoral student Sara Sadr played a leading role in the experimental work. While engineered bacterial therapies for cancer remain in early stages, the Waterloo group's programmable safety architecture addresses one of the field's most persistent concerns — ensuring that therapeutic microbes act only within the tumor microenvironment and nowhere else in the body.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T08:02:44.078Z"
     },
     {
       "id": "ps-1772006592612-c80d",
@@ -1013,49 +1052,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/meta-strikes-up-to-100b-amd-chip-deal-as-it-chases-personal-superintelligence/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-24T17:18:08.368Z"
-    },
-    {
-      "id": "ps-1771953504603-95ha",
-      "slug": "south-bow-explores-pipeline-expansion-that-could-revive-keys",
-      "headline": "South Bow Explores Pipeline Expansion That Could Revive Keystone XL",
-      "subheadline": "Montana proposal raises the specter of the long-canceled crude oil pipeline that became a flashpoint in energy politics",
-      "body": "South Bow Corp. is weighing an expansion of its existing pipeline network that could effectively resurrect elements of the Keystone XL project, the controversial crude oil conduit that was canceled in 2021 after more than a decade of political and legal battles.\n\nThe proposal, centered on infrastructure in Montana, would leverage South Bow's current pipeline system to increase capacity for transporting Canadian crude to U.S. refineries. While details of the plan remain limited, the move signals renewed industry appetite for cross-border oil transport infrastructure under a more favorable regulatory environment. South Bow, which was spun off from TC Energy Corp. in 2024 to house the legacy Keystone pipeline system, appears positioned to capitalize on its existing rights-of-way and infrastructure footprint.\n\nThe original Keystone XL was designed to carry approximately 830,000 barrels per day of heavy crude from Alberta's oil sands to refineries along the U.S. Gulf Coast. First proposed in 2008, the project became one of the most polarizing energy debates in North American politics — rejected by President Barack Obama in 2015, revived by President Donald Trump in 2017, and ultimately killed when President Joe Biden revoked its cross-border permit on his first day in office in January 2021. TC Energy formally terminated the project later that year after investing billions of dollars.\n\nAny revival of a Keystone XL-like project would likely face significant scrutiny from environmental groups, which long targeted the original pipeline as a symbol of fossil fuel expansion. However, the current political landscape in Washington may offer a more receptive audience. The Trump administration has broadly supported expanded fossil fuel infrastructure, and Republican lawmakers have repeatedly called for increased pipeline capacity to move Canadian crude into the U.S. market.\n\nFor South Bow, the calculus may be more straightforward than the politics. The company inherited the operational Keystone pipeline system and has a commercial incentive to maximize throughput. Whether a Montana-based expansion could replicate the scale and ambition of the original Keystone XL — or whether it would represent a more modest capacity addition — remains to be seen as the company advances its planning.",
-      "category": "business",
-      "importance": 6,
-      "tags": [
-        "Keystone XL",
-        "South Bow",
-        "pipelines",
-        "oil infrastructure",
-        "energy policy",
-        "Montana"
-      ],
-      "imageUrl": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxidXNpbmVzc3xlbnwwfDB8fHwxNzcxOTQwOTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/keystone-xl-revival-raised-by-new-pipeline-proposal-in-montana",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T17:18:24.603Z"
-    },
-    {
-      "id": "ps-1771951704490-mg44",
-      "slug": "oil-slips-near-66-as-markets-weigh-prospects-of-us-iran-nucl",
-      "headline": "Oil Slips Near $66 as Markets Weigh Prospects of US-Iran Nuclear Deal",
-      "subheadline": "Reports that Tehran is ready to negotiate 'as soon as possible' inject uncertainty into crude markets already on edge over Middle East tensions",
-      "body": "Crude oil prices dipped on Monday as traders grappled with conflicting signals over the likelihood of a diplomatic resolution between the United States and Iran, a development that could reshape global supply dynamics and avert a threatened American military strike.\n\nWest Texas Intermediate fell to trade near $66 a barrel after reports surfaced — initially via NPR and widely circulated on social media — suggesting that Iran is prepared to reach a nuclear agreement with Washington as soon as possible. The benchmark seesawed between gains and losses throughout the session, reflecting deep market uncertainty about whether genuine negotiations will materialize. A successful deal could eventually bring sanctioned Iranian barrels back onto the global market, adding supply pressure to prices that have already softened in recent months.\n\nThe oil market has grown acutely sensitive to geopolitical headlines surrounding the Middle East, where the threat of a US military strike against Iran's nuclear facilities has loomed as a key risk factor. President Trump has set a deadline for Tehran to come to terms, raising the stakes for both diplomacy and potential escalation. Any military action near the Strait of Hormuz — through which roughly a fifth of the world's daily oil consumption passes — could cause a dramatic price spike, making the diplomatic track a critical variable for energy markets.\n\nDespite the reports of Iranian willingness to negotiate, traders remained skeptical that Tehran is genuinely prepared to meet American demands. Iran's nuclear program has been a source of geopolitical friction for decades, and previous rounds of diplomacy have collapsed under the weight of mutual distrust and shifting political conditions in both capitals. The market's muted reaction suggests participants are pricing in a meaningful probability that talks either fail to launch or break down before producing a binding agreement.\n\nFor now, crude markets appear caught between two opposing forces: the bearish prospect of Iranian supply returning under a deal, and the bullish risk premium tied to the possibility of military confrontation. Analysts expect volatility to persist as further developments on the diplomatic front unfold in the coming days.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "oil prices",
-        "Iran nuclear deal",
-        "WTI crude",
-        "US-Iran relations",
-        "Middle East",
-        "energy markets",
-        "geopolitics"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJKxGGueUX0A/v0/1200x800.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/latest-oil-market-news-and-analysis-for-feb-24",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T16:48:24.490Z"
     }
   ]
 }
