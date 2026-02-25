@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T01:18:17.728Z",
+  "lastUpdated": "2026-02-25T01:33:16.803Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771982217063-h5qk",
+      "id": "ps-1771983118376-jkrb",
       "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
-      "headline": "Mandelson Lawyers Call Flight-Risk Claim 'Baseless' After Arrest",
-      "subheadline": "Former UK ambassador to the US was held for nine hours over misconduct allegations tied to Jeffrey Epstein",
-      "body": "Lawyers for Lord Peter Mandelson have hit back at police after the former British ambassador to the United States was arrested at his London home on Monday, claiming officers acted on a groundless allegation that he planned to flee the country.\n\nMishcon De Reya, the law firm representing Mandelson, told the BBC that an agreement had been in place for the peer to attend a voluntary police interview next month, making the arrest unnecessary. The firm said the decision to detain him was \"prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad,\" adding there was \"absolutely no truth whatsoever\" to the claim. The Metropolitan Police declined to comment on the assertion. Mandelson was taken to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May.\n\nThe arrest, carried out by officers from the Met's central specialist crime division, relates to an investigation opened earlier in May into allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister under Prime Minister Gordon Brown. The probe was triggered by a cache of documents released by the U.S. Department of Justice last month, which included emails between Mandelson and Epstein. One 2009 email appeared to show Mandelson sharing a Downing Street adviser's assessment of policy measures including an \"asset sales plan.\" Other correspondence appeared to reference a tax on bankers' bonuses and to confirm an imminent eurozone bailout package the day before it was publicly announced in 2010.\n\nMandelson, a central architect of the New Labour movement that propelled Tony Blair to a landslide victory in 1997, was appointed British ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. Search warrants were also executed at two addresses in Wiltshire and Camden on Monday as part of the ongoing investigation.\n\nMandelson's legal team emphasized that his \"overriding priority is to cooperate with the police investigation\" and to clear his name. They have formally requested that the Metropolitan Police disclose the evidence used to justify the arrest. Consultations between police and the Crown Prosecution Service are continuing, though no charges have been filed. Mandelson maintains he did not act criminally and was not motivated by financial gain.",
+      "headline": "Mandelson Lawyers Call Flight Risk Claim 'Baseless' After Arrest",
+      "subheadline": "Former UK ambassador to the US was held for nine hours on suspicion of misconduct in public office tied to Epstein links",
+      "body": "Lawyers for Lord Peter Mandelson say the former British ambassador to the United States was arrested at his London home on Monday based on an unfounded claim that he planned to flee the country — an allegation they say has \"absolutely no truth whatsoever.\"\n\nThe law firm Mishcon De Reya, representing Mandelson, told the BBC that their client had already agreed with Metropolitan Police to attend a voluntary interview next month, making the arrest unnecessary. Officers from the Met's central specialist crime division took Mandelson into custody on Monday afternoon, transporting him to Wandsworth police station where he was held for nine hours before being released on bail in the early hours of Tuesday. The Metropolitan Police declined to comment on the flight risk allegation but confirmed Mandelson has been bailed until the end of May, with consultations between police and the Crown Prosecution Service ongoing.\n\nThe arrest stems from an investigation launched earlier in May into allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The probe was triggered by documents released last month by the U.S. Department of Justice, including emails between the two men. Among the most damaging: a 2009 email in which Mandelson appeared to relay an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Separate correspondence appeared to show him discussing a proposed tax on bankers' bonuses and confirming an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson, a central architect of the New Labour movement who helped engineer Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. Search warrants were executed at two properties in Wiltshire and Camden in connection with Monday's arrest.\n\nMandelson's legal team emphasized that he denies any criminal conduct and was not motivated by financial gain. \"Peter Mandelson's overriding priority is to cooperate with the police investigation, as he has done throughout this process, and to clear his name,\" his lawyers said. The case marks one of the most dramatic legal entanglements for a senior British political figure in recent memory, with the misconduct in public office charge carrying a potential maximum sentence of life imprisonment.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -20,34 +20,34 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T01:16:57.063Z"
+      "publishedAt": "2026-02-25T01:31:58.376Z"
     },
     {
-      "id": "ps-1771982233566-h8al",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be rapidly updated when underground conditions change — eliminating the need for expensive retraining while maintaining accuracy within three percent of fully retrained models.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in using Dynamic Mode Decomposition (DMD) as a surrogate for high-fidelity multiphase reservoir simulators. DMD is a popular framework for building lightweight, data-driven models that can approximate complex physical systems, but its operators are locked to the specific reservoir properties — such as rock permeability and well placement — present in the training data. Any change to those properties has traditionally required generating new simulation snapshots and retraining from scratch, negating much of the computational savings that make surrogates attractive in the first place.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model's internal structure without incorporating additional simulation data. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced basis. Both strategies are designed to be computationally lightweight, preserving the speed advantage that surrogates are meant to deliver.\n\nNumerical experiments reported in the paper show that the updated models reproduce key physical quantities, including carbon dioxide plume migration patterns and subsurface pressure buildup, to within three percent of a surrogate that was freshly trained on the new reservoir configuration. Critically, the update process executes hundreds of times faster than full retraining. For carbon capture and storage projects, where operators must evaluate numerous scenarios involving different geological uncertainties, well placements, and injection strategies, such speed gains could enable real-time optimization and rapid what-if analyses that are currently impractical.\n\nThe work sits at the intersection of computational physics, optimization, and engineering — fields where the demand for fast yet physically faithful models continues to grow as carbon storage scales up globally. While the results are demonstrated on reservoir simulation problems, the underlying principle of adapting reduced-order model operators to reflect changed domain properties could find broader application in other areas of computational science where retraining costs limit the practical utility of data-driven surrogates.",
+      "id": "ps-1771983133045-qbgv",
+      "slug": "new-method-lets-carbon-storage-simulations-update-instantly",
+      "headline": "New Method Lets Carbon Storage Simulations Update Instantly",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models without costly retraining, achieving results within 3% accuracy",
+      "body": "A pair of researchers has developed a technique that allows computational models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than current methods — without sacrificing meaningful accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight approach to updating Dynamic Mode Decomposition (DMD) operators, a popular data-driven framework for creating fast surrogate models of complex multiphase fluid simulations. The core problem they address is a persistent bottleneck in carbon capture and storage (CCS) workflows: when subsurface properties like rock permeability or well placement change, engineers typically must regenerate expensive simulation data and retrain the surrogate model from scratch, negating much of the computational savings these reduced-order models are designed to provide.\n\nThe new method introduces two complementary update strategies that bypass this retraining entirely. For uniform changes in permeability across a reservoir domain, the approach adjusts the model's internal dynamics and control responses to match the altered flow timescale. When permeability varies spatially — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation of the model, weighting high-permeability zones more heavily in the reduced mathematical basis. Neither strategy requires generating new simulation snapshots.\n\nNumerical experiments reported in the paper show the updated models recover key physical quantities, including carbon dioxide plume migration patterns and subsurface pressure buildup, to within three percent of a freshly trained surrogate. The updates execute hundreds of times faster than full retraining, a speedup the authors argue could enable real-time optimization and rapid scenario analysis for CCS operations. Such capabilities are increasingly important as carbon storage projects scale up worldwide and regulators demand rigorous monitoring and risk assessment.\n\nThe work sits at the intersection of computational physics, control theory, and engineering optimization, and reflects growing interest in making surrogate modeling practical for industrial-scale applications. While the results are demonstrated specifically for carbon storage reservoirs, the underlying principle — updating rather than rebuilding reduced-order models when system parameters shift — could have broader implications for any domain where high-fidelity simulation is too slow for iterative decision-making. The paper has been submitted under computational physics on arXiv and carries a related DOI through ResearchGate.",
       "category": "physics",
       "importance": 4,
       "tags": [
-        "dynamic-mode-decomposition",
-        "carbon-storage",
-        "surrogate-modeling",
-        "reservoir-simulation",
-        "computational-physics"
+        "carbon storage",
+        "Dynamic Mode Decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1635008326422-134e67df2f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxkeW5hbWljLW1vZGUtZGVjb21wb3NpdGlvbiUyMGNhcmJvbi1zdG9yYWdlfGVufDB8MHx8fDE3NzE5MzM2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1667066213239-d83408616a61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxjYXJib24lMjBzdG9yYWdlJTIwRHluYW1pYyUyME1vZGUlMjBEZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5NTA3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.18441",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T01:17:13.566Z"
+      "publishedAt": "2026-02-25T01:32:13.045Z"
     },
     {
-      "id": "ps-1771982250320-w2f0",
+      "id": "ps-1771983149837-gv9r",
       "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
       "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
       "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the core outward, and activate its own survival defenses only when conditions are safe — a programmable biological assault that could open a new front in cancer treatment.\n\nThe approach, published in ACS Synthetic Biology, centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. Because the dense interior of many solid tumors is oxygen-depleted and nutrient-rich, the bacterium's spores can colonize these cores and begin breaking down dead and cancerous cells. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work.\n\nThe central engineering challenge was the oxygen barrier at the tumor's periphery. As the bacteria expand outward from the anoxic core, even trace amounts of oxygen kill them before they can eliminate the cancer's outer layers. To solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But flipping that gene on prematurely would let the microbes proliferate in oxygen-rich tissues such as the bloodstream — an obvious safety hazard. The researchers addressed the problem with quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only after a critical mass of microbes accumulates inside the tumor does the signal concentration cross the threshold needed to switch on the oxygen-resistance gene. The result is a tightly controlled activation that confines the enhanced survival capability to the tumor site.\n\nBrian Ingalls, a Waterloo applied mathematics professor and co-author, likened the genetic design to an electrical circuit built from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In earlier work, the team demonstrated that C. sporogenes could be modified to better withstand oxygen; the latest study validated the quorum-sensing trigger by programming the bacteria to produce green fluorescent protein, confirming the system activated precisely on schedule.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it in pre-clinical tumor models. The Waterloo group is collaborating with CREM Co Labs, a Toronto-based company co-founded by Bahram Zargar, the PhD student whose doctoral research seeded the project. Former Waterloo doctoral student Sara Sadr also played a key role in advancing the work. If pre-clinical results hold, the platform could eventually complement or replace conventional therapies for solid tumors — cancers that remain notoriously difficult to treat with immunotherapies effective against blood cancers.",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate and consume solid tumors from the inside out, using synthetic biology techniques that include a genetically encoded safety mechanism to prevent the microbes from proliferating where they shouldn't.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are starved of oxygen and rich in nutrients, the microbe finds an ideal habitat once its spores reach the tumor interior. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially colonizes the dead center of the tumor and begins breaking it down.\n\nThe central engineering challenge has been the oxygen barrier at a tumor's periphery. As the bacteria multiply outward from the core, they encounter small but lethal amounts of oxygen and die before they can eliminate the cancer entirely. To solve this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. Critically, they coupled that gene to a quorum-sensing circuit — a natural bacterial communication system in which chemical signals intensify as the population grows. The oxygen-resistance gene activates only after a sufficient concentration of bacteria has accumulated inside the tumor, ensuring the trait never switches on prematurely in oxygen-rich environments like the bloodstream. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe team's results, published in ACS Synthetic Biology, detail the successful construction and functional validation of the heterologous quorum-sensing circuit in C. sporogenes. In earlier work, the group demonstrated that the bacterium could be genetically modified for improved oxygen tolerance. In the latest study, they confirmed the quorum-sensing trigger worked as designed by programming the bacteria to produce green fluorescent protein at the intended activation threshold.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system into a single engineered organism and testing it against tumors in pre-clinical animal models. The interdisciplinary project — spanning chemical engineering, applied mathematics, and life sciences — involves a collaboration with CREM Co Labs, a Toronto-based company co-founded by former Waterloo PhD student Bahram Zargar. If the approach proves safe and effective in animal studies, it could open a fundamentally new front in the treatment of solid cancers, which account for roughly 90 percent of all tumors and remain notoriously difficult to penetrate with conventional therapies.",
       "category": "science",
       "importance": 7,
       "tags": [
@@ -56,13 +56,77 @@
         "engineered bacteria",
         "quorum sensing",
         "University of Waterloo",
-        "Clostridium sporogenes",
-        "solid tumors"
+        "Clostridium sporogenes"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T01:17:30.320Z"
+      "publishedAt": "2026-02-25T01:32:29.837Z"
+    },
+    {
+      "id": "ps-1771983163580-j4z6",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage talks to acquire some or all of PayPal, valued at roughly $40 billion",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report published Monday — a combination that would represent one of the largest fintech transactions in history.\n\nThe discussions are described as being in their earliest stages, with no certainty that a deal will materialize. Stripe declined to comment on the report. PayPal shares ticked higher on the news, though the publicly traded company's market capitalization of approximately $40 billion is dwarfed by Stripe's latest private valuation. PayPal's portfolio includes its flagship payment service as well as Venmo, the popular peer-to-peer payments app.\n\nThe timing is notable. On the same day as the Bloomberg report, Stripe published its annual letter revealing a tender offer that values the company at $159 billion — a 74% jump from the previous year and a figure that cements its position among the world's most valuable private companies. The latest share sale, which allows employees to cash out equity, attracted prominent backers including Andreessen Horowitz and Thrive Capital. Stripe also disclosed plans to repurchase some of its own stock.\n\nA merger of the two companies would unite Stripe's developer-focused payment processing platform, which powers transactions for millions of businesses worldwide, with PayPal's massive consumer-facing network. The strategic logic could center on combining Stripe's dominance in online commerce infrastructure with PayPal's brand recognition and Venmo's foothold among younger consumers. However, the complexity of integrating a publicly traded company into a private one — particularly at these scales — would present significant regulatory and logistical challenges.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not a near-term priority, a stance that has persisted even as the company's valuation has soared. Whether a PayPal acquisition would accelerate or further delay any IPO plans remains an open question. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid that could reshape the digital payments landscape.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T01:32:43.580Z"
+    },
+    {
+      "id": "ps-1771983179802-blw0",
+      "slug": "south-korean-stocks-blast-past-6-000-as-memory-chip-boom-acc",
+      "headline": "South Korean Stocks Blast Past 6,000 as Memory Chip Boom Accelerates",
+      "subheadline": "Benchmark index clears another historic milestone just weeks after breaching 5,000, fueled by surging global demand for memory semiconductors",
+      "body": "South Korea's main equity benchmark has surged past the 6,000 level, a remarkable feat that comes barely a month after the index first crossed the 5,000 threshold — a milestone many market observers had long considered out of reach. The rapid succession of record highs underscores the extraordinary momentum sweeping through the country's semiconductor sector as global demand for memory chips intensifies.\n\nThe rally has been driven primarily by South Korea's dominant memory chipmakers, which have benefited from an insatiable appetite for high-bandwidth memory and advanced DRAM products used in artificial intelligence infrastructure, cloud computing, and next-generation consumer electronics. South Korea is home to Samsung Electronics and SK Hynix, two of the world's largest memory semiconductor manufacturers, and their combined market capitalizations represent a substantial share of the benchmark index's weighting.\n\nThe speed of the advance — roughly 20 percent in a matter of weeks — reflects a broader reassessment of the memory chip cycle's duration and peak potential. Analysts have steadily revised earnings forecasts upward as data center buildouts by major hyperscalers show no signs of slowing, and new AI model architectures continue to demand exponentially more memory capacity per server. Pricing power in the DRAM and NAND markets has firmed considerably, with contract prices rising for multiple consecutive quarters.\n\nThe breakout also marks a striking turnaround for Korean equities, which had long traded at a persistent discount to global peers — a phenomenon known as the \"Korea discount\" attributed to geopolitical risk, complex corporate governance structures, and heavy index concentration. Government reform efforts aimed at improving shareholder returns and corporate transparency appear to be gaining traction with international investors, adding a structural tailwind alongside the cyclical semiconductor boom.\n\nWhile the pace of gains has prompted some strategists to flag elevated valuations and the risk of a near-term pullback, the consensus view remains that the memory upcycle has further room to run. For South Korean markets, the rapid march from 5,000 to 6,000 signals a potential regime change in how global capital allocates to the country's technology-heavy equity landscape.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "South Korea",
+        "memory chips",
+        "semiconductor boom",
+        "Samsung",
+        "SK Hynix",
+        "Korean equities",
+        "AI demand"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1732444810652-3a48c4d416ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxTb3V0aCUyMEtvcmVhJTIwbWVtb3J5JTIwY2hpcHN8ZW58MHwwfHx8MTc3MTk4MzE3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T01:32:59.802Z"
+    },
+    {
+      "id": "ps-1771983196714-07z8",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
+      "body": "Stripe is exploring an acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a potential deal that would combine two of the world's largest digital payment processors and create a dominant force in the fast-growing stablecoin market. PayPal shares surged 7% on the news.\n\nThe discussions are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination is staggering. Stripe, which remains privately held, processed $1.9 trillion in transactions last year and carries a valuation of roughly $159 billion. PayPal, once the undisputed leader in online payments, has seen its stock collapse approximately 80% from the record highs it reached in 2021, making it a more plausible takeover target than it would have been just a few years ago. Shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added further momentum.\n\nWhat makes the potential pairing particularly consequential is the crypto and stablecoin dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to a market capitalization of roughly $4 billion. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, has been aggressively building its own blockchain infrastructure. In 2024, it acquired Bridge — a platform that helps businesses issue their own dollar-backed tokens — for $1.1 billion. The company is also collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in its testing phase.\n\nA merger would concentrate an enormous share of global digital payment volume under one roof while creating what could become the most powerful stablecoin ecosystem in the industry. The combined entity would control both the consumer-facing PayPal and Venmo platforms and Stripe's dominant merchant infrastructure, potentially accelerating the integration of stablecoin rails into mainstream commerce. The deal would also arrive at a moment when traditional finance is increasingly embracing blockchain-based payments — Meta is reportedly planning its own stablecoin comeback later this year, and exchanges like Coinbase and Kraken are expanding into tokenized stock trading.\n\nFor PayPal, which has struggled to regain investor confidence amid intensifying competition and slowing growth, a Stripe acquisition could offer a lifeline. For Stripe, absorbing PayPal's 400-million-plus user base and its established stablecoin would represent a dramatic bid to dominate the next era of payments. Whether the deal ultimately proceeds remains uncertain, but the mere possibility has already reshaped market expectations about how quickly stablecoin infrastructure could move from fintech's periphery to its core.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "digital payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T01:33:16.714Z"
     },
     {
       "id": "ps-1771982266540-jks8",
@@ -87,50 +151,6 @@
       "publishedAt": "2026-02-25T01:17:46.540Z"
     },
     {
-      "id": "ps-1771982281405-qbdi",
-      "slug": "south-korea-s-kospi-blows-past-6-000-as-memory-chip-boom-roa",
-      "headline": "South Korea's Kospi Blows Past 6,000 as Memory Chip Boom Roars On",
-      "subheadline": "Samsung and SK Hynix lead the benchmark to fresh records, capping a 42% surge in 2026 fueled by surging global memory demand",
-      "body": "South Korea's Kospi Index breached the 6,000 level for the first time on Wednesday, driven by insatiable global demand for memory semiconductors that has turned the country's stock market into one of the world's best performers.\n\nThe benchmark climbed as much as 1.2% to a record 6,039 in early trading on February 25, with heavyweight chipmakers Samsung Electronics Co. rising 2.5% and SK Hynix Inc. adding 1.4% before trimming some gains. The milestone comes barely a month after the Kospi first crossed 5,000 — a level that itself was considered a distant aspiration for much of the index's history. For the year, the Kospi is now up 42%, extending a remarkable 76% rally logged in 2025.\n\nThe explosive run has been powered almost entirely by a global memory chip supercycle. Surging demand for artificial intelligence infrastructure, data center buildouts, and next-generation computing has sent prices for DRAM and NAND flash memory soaring, directly benefiting Samsung and SK Hynix — two companies that together dominate global memory production and carry outsized weight in the Kospi. Their combined market capitalization gains have effectively pulled the entire index higher, underscoring both the strength and the concentration risk embedded in South Korea's equity market.\n\nThe scale of the rally places the Kospi among the top-performing major equity benchmarks globally over the past two years. The back-to-back surges — 76% in 2025 followed by 42% in less than two months of 2026 — represent a pace of appreciation rarely seen in a developed market index and reflect the degree to which memory chips have become a critical bottleneck in the AI hardware supply chain.\n\nAnalysts will be watching whether the momentum can hold as valuations stretch higher. Memory chip markets have historically been cyclical, and past booms have given way to sharp corrections when supply catches up to demand or end-market growth decelerates. For now, however, the combination of constrained supply and relentless AI-driven consumption has kept the upward pressure firmly intact, turning Seoul into the unlikely epicenter of a global equity story.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Kospi",
-        "South Korea",
-        "Samsung Electronics",
-        "SK Hynix",
-        "memory chips",
-        "semiconductor",
-        "AI"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irOIRwXjt8nY/v0/1200x800.jpg",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T01:18:01.405Z"
-    },
-    {
-      "id": "ps-1771982297625-x6by",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-mega-",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Mega-Deal",
-      "subheadline": "A combination of the two fintech giants would create a stablecoin and payments powerhouse processing trillions in volume",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest digital payments companies and significantly reshape the stablecoin landscape. PayPal shares surged 7% on the news, extending gains that had already begun earlier in the week on buyout speculation.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a combination is staggering. Stripe, which remains privately held and was most recently valued at $159 billion, processed $1.9 trillion in payment volume last year. PayPal, once the dominant name in online payments, has seen its stock collapse roughly 80% from record highs reached in 2021 — a decline that may have made the publicly traded company an attractive target.\n\nWhat makes the potential pairing particularly notable is the crypto and stablecoin angle. Both companies have been aggressively building blockchain infrastructure. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across cryptocurrency networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is currently collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain still in its testing phase.\n\nA merger would create a combined entity with unmatched reach across both traditional payment rails and the emerging stablecoin economy. Bridge's stablecoin volume has reportedly quadrupled in recent months, suggesting that enterprise demand for blockchain-based dollar transfers is accelerating even amid broader market weakness in crypto assets. Combining Bridge's token issuance tools with PYUSD's established user base could give the merged company a dominant position in the fast-growing stablecoin payments sector, which has drawn increasing attention from regulators and traditional financial institutions alike.\n\nThe potential deal arrives at a moment of rapid convergence between traditional fintech and crypto infrastructure. Meta is reportedly planning a stablecoin comeback later this year, and exchanges like Coinbase and Kraken are expanding into traditional stock and ETF trading. A Stripe-PayPal combination would represent perhaps the clearest signal yet that the line between conventional payments and blockchain-based finance is dissolving — and that the biggest players in fintech intend to straddle both worlds.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "PYUSD",
-        "fintech",
-        "mergers-and-acquisitions",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T01:18:17.625Z"
-    },
-    {
       "id": "ps-1771981327076-tfba",
       "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
       "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Care Rights Debate",
@@ -150,27 +170,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T01:02:07.076Z"
-    },
-    {
-      "id": "ps-1771981373397-jt1r",
-      "slug": "stripe-exploring-potential-acquisition-of-paypal-in-landmark",
-      "headline": "Stripe Exploring Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage discussions to acquire some or all of PayPal, valued at roughly $40 billion",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter — a combination that would reshape the global digital payments landscape.\n\nThe discussions remain in their earliest stages and may not result in a transaction, sources cautioned. Yet the mere prospect of a deal sent PayPal's stock slightly higher on Monday. PayPal, which owns both its namesake checkout service and the popular peer-to-peer platform Venmo, currently carries a market capitalization of approximately $40 billion — a fraction of Stripe's freshly minted private valuation. Stripe declined to comment on the report.\n\nThe potential acquisition talk surfaced on the same day Stripe released its annual letter revealing a tender offer that values the company at $159 billion, a 74 percent jump from the prior year. Investors participating in the share purchase include Andreessen Horowitz and Thrive Capital, and Stripe said it would also repurchase some of its own stock. The valuation cements Stripe's position as one of the most valuable private companies in the world, even as co-founder and CEO Patrick Collison has signaled that a public listing is not a near-term priority.\n\nA merger of the two companies would unite Stripe's dominant position in online merchant payment processing with PayPal's massive consumer-facing ecosystem, which spans roughly 400 million active accounts worldwide. The deal logic is straightforward: Stripe powers the backend infrastructure for millions of businesses, while PayPal and Venmo command deep brand recognition and consumer trust at the checkout. Combined, the entity would possess formidable leverage across both sides of digital commerce at a time when competition from Apple Pay, Block, and Adyen continues to intensify.\n\nStill, significant hurdles loom. Acquiring a publicly traded company of PayPal's scale would likely require Stripe to tap substantial debt financing or potentially accelerate its own path to public markets. Regulatory scrutiny from antitrust authorities in the United States and Europe would be virtually guaranteed, given the combined entity's commanding share of online payment volume. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid — or quietly fades away.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments",
-        "Venmo"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T01:02:53.397Z"
     },
     {
       "id": "ps-1771980467941-4gc6",
