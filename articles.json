@@ -1,26 +1,132 @@
 {
-  "lastUpdated": "2026-02-25T09:33:33.843Z",
+  "lastUpdated": "2026-02-25T09:48:28.002Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772011926432-vgik",
+      "id": "ps-1772012826397-eo56",
       "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-mond",
-      "headline": "Mandelson Lawyers Call Flight-Risk Claim 'Baseless' After Monday Arrest",
-      "subheadline": "Former UK ambassador to the US was held for nine hours and surrendered his passport as a bail condition",
-      "body": "Lord Peter Mandelson's legal team has hit back at the Metropolitan Police after the former British ambassador to the United States was arrested at his London home on Monday, claiming officers acted on an unfounded allegation that he planned to flee the country.\n\nLaw firm Mishcon De Reya, representing Mandelson, told the BBC that the arrest blindsided their client despite a prior agreement with police for a voluntary interview next month. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement. The lawyers have formally requested the evidence police relied upon to justify the arrest. The Metropolitan Police declined to comment.\n\nMandelson, 71, was taken to Wandsworth police station by plainclothes officers from the Met's central specialist crime division and held for approximately nine hours before being released on bail in the early hours of Tuesday. He surrendered his passport as a condition of bail, which extends through the end of May. The arrest followed the execution of search warrants at two addresses in Wiltshire and Camden.\n\nThe veteran Labour figure was arrested on suspicion of misconduct in public office, an investigation launched earlier this month into allegations that he passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister. The allegations stem from a tranche of documents released by the U.S. Department of Justice, including emails between Mandelson and Epstein. One 2009 email appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown about policy measures including an \"asset sales plan.\" Other correspondence reportedly discussed a tax on bankers' bonuses and appeared to confirm an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson, who played a central role in the New Labour movement and Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025 but was removed from the post in September after Downing Street said new information about the depth of his relationship with Epstein had surfaced. His legal team maintains he has not acted criminally and was not motivated by financial gain. Consultations between the Metropolitan Police and the Crown Prosecution Service are ongoing.",
+      "headline": "Mandelson Lawyers Call Flight Risk Claim 'Baseless' After Monday Arrest",
+      "subheadline": "Former UK ambassador to US was held for nine hours and surrendered passport over misconduct allegations tied to Epstein",
+      "body": "Lawyers for Lord Peter Mandelson said Tuesday that his arrest at his London home on Monday was triggered by an unfounded claim he planned to flee the country — a characterization that upended a prior agreement for a voluntary police interview next month.\n\nThe law firm Mishcon De Reya, representing the former Labour minister and one-time British ambassador to the United States, told the BBC there is \"absolutely no truth whatsoever\" in any suggestion Mandelson intended to leave the UK permanently. The firm said it has demanded the Metropolitan Police Service produce the evidence used to justify the arrest, adding that Mandelson's \"overriding priority is to cooperate with the police investigation\" and clear his name. The Metropolitan Police declined to comment on the flight risk allegation.\n\nMandelson, 71, was arrested on suspicion of misconduct in public office and transported to Wandsworth police station, where he was held for approximately nine hours before being released on bail in the early hours of Tuesday. Among his bail conditions was the surrender of his passport. He has been bailed until the end of May while consultations between police and the Crown Prosecution Service continue. Search warrants were executed at two addresses in Wiltshire and Camden in connection with the case.\n\nThe investigation, launched earlier this month by the Met's central specialist crime division, centers on allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister. Documents released last month by the US Department of Justice included emails between the two men dating to 2009 and 2010. One email appeared to show Mandelson sharing an adviser's assessment of policy measures — including an \"asset sales plan\" — prepared for then-Prime Minister Gordon Brown. Another appeared to discuss a tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before it was publicly announced.\n\nMandelson, a central architect of the New Labour movement who helped deliver Tony Blair's landslide 1997 victory, was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said new information about the depth of his relationship with Epstein had come to light. His legal team maintains he did not act criminally and was not motivated by financial gain. The case marks one of the most dramatic legal confrontations involving a senior British political figure in recent memory.",
       "category": "breaking",
       "importance": 8,
       "tags": [
         "Peter Mandelson",
-        "UK politics",
         "Jeffrey Epstein",
         "Metropolitan Police",
+        "UK politics",
         "misconduct in public office"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T09:32:06.432Z"
+      "publishedAt": "2026-02-25T09:47:06.397Z"
+    },
+    {
+      "id": "ps-1772012844180-464b",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now suggest material compositions and geometries for structures with negative thermal expansion",
+      "body": "Researchers have developed a suite of machine learning models capable of solving one of metamaterials engineering's most persistent challenges: working backward from desired thermal and mechanical properties to determine the precise structure needed to achieve them.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe six neural network models that can recommend both the geometric features and base material combinations for bimaterial hybrid-honeycomb lattice metamaterials — structures that exhibit the rare and highly sought combination of negative Poisson's ratios and negative thermal expansion coefficients. Materials with negative Poisson's ratios grow thicker when stretched rather than thinner, while those with negative thermal expansion actually shrink when heated. Together, these properties open the door to applications ranging from aerospace components that maintain dimensional stability under extreme temperature swings to precision instruments requiring zero net thermal distortion.\n\nThe approach rests on a two-stage architecture. First, the team generated a large dataset through computational homogenization, systematically varying the geometric parameters and constituent material properties of the honeycomb structures to map out the full design space. A forward model was then trained to predict effective thermoelastic properties from a given structural design, replacing expensive finite-element simulations with near-instantaneous neural network inference. The more consequential step was the inverse model: given a set of target properties — say, a specific negative coefficient of thermal expansion paired with a particular stiffness — the network proposes candidate geometries and material pairings that would realize those properties.\n\nTo handle the inherent one-to-many nature of inverse design, where multiple structural configurations can yield the same effective properties, the researchers defined six distinct model variants, each addressing different combinations of target properties and design variables. A particularly elegant feature of the framework is its integration of the trained forward model directly into the loss functions of the inverse models, effectively using it as a physics-informed check during training. For cases involving fixed base materials, the forward model was further leveraged to synthetically expand the training dataset.\n\nThe work sits at the intersection of computational materials science and applied machine learning, an area that has seen rapid growth as researchers seek to accelerate the traditionally slow, trial-and-error process of metamaterial design. While the paper focuses on thermoelastic honeycomb lattices specifically, the methodology — high-throughput simulation feeding neural network surrogates for both forward prediction and inverse design — represents a template increasingly being adopted across the broader metamaterials community. The practical payoff, the authors suggest, lies in enabling engineers to efficiently specify performance requirements and receive actionable structural designs, compressing what could be months of computational optimization into seconds of neural network evaluation.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "computational materials science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544121368-f8f82eaf420a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T09:47:24.180Z"
+    },
+    {
+      "id": "ps-1772012858612-mgx8",
+      "slug": "chemists-synthesize-long-elusive-silicon-aromatic-molecule",
+      "headline": "Chemists Synthesize Long-Elusive Silicon Aromatic Molecule",
+      "subheadline": "After nearly five decades of failed attempts worldwide, a five-atom silicon ring achieves aromatic stability",
+      "body": "Chemists at Saarland University in Germany have created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly 50-year quest that many in the field had deemed impossible. The results, published February 24 in Science, could unlock new classes of catalysts and materials with properties fundamentally distinct from their carbon-based counterparts.\n\nAromatic molecules, characterized by electrons shared evenly across a flat ring structure, are among the most stable and industrially important compounds in chemistry. They underpin catalysts used in the production of polyethylene, polypropylene, and countless other plastics. But while carbon-based aromatics have been well understood since the 19th century, replacing carbon with silicon in these ring systems has proven extraordinarily difficult. Silicon is more metallic than carbon and holds its electrons less tightly, making it resistant to forming the delocalized electron clouds that define aromaticity.\n\nPrior to this breakthrough, only one silicon aromatic compound had ever been produced: a three-atom silicon ring synthesized in 1981 as an analogue of cyclopropenium. Every subsequent attempt to build larger silicon aromatic systems failed. David Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded where others could not by constructing a five-atom silicon ring that satisfies Hückel's rule — the mathematical criterion, named after German physicist Erich Hückel, that defines whether a cyclic molecule qualifies as aromatic.\n\nIn a striking coincidence, a team led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound at nearly the same time. The two groups agreed to publish their findings side by side in the same issue of Science, lending additional confirmation to the result. The dual discovery underscores both the significance and the timeliness of the achievement.\n\nThe implications extend well beyond the laboratory. Because silicon's electronic properties differ so markedly from carbon's, pentasilacyclopentadienide could serve as a foundation for entirely new families of compounds and catalysts. In industrial chemistry, where aromatic molecules already play critical roles in controlling polymerization and other large-scale processes, silicon-based aromatics may offer tunable properties that carbon rings cannot. After decades of pursuit by research groups worldwide, the synthesis marks a pivotal first step toward broadening the horizons of silicon chemistry.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "materials science",
+        "catalysts",
+        "Saarland University",
+        "pentasilacyclopentadienide"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T09:47:38.612Z"
+    },
+    {
+      "id": "ps-1772012876875-o4zs",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusual coalition of tech giants, automakers, and institutional investors — a deal that could swell to $1.5 billion if Uber exercises an additional $300 million commitment tied to robotaxi deployments starting in London. The raise values the company at $8.6 billion and signals intensifying competition in the commercialization of self-driving technology.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from Mercedes-Benz, Nissan, and Stellantis — all three of which plan to integrate Wayve's software into their vehicles. Returning backers Microsoft, Nvidia, and Uber also invested, though the company declined to specify individual contribution amounts. Nvidia had previously indicated it was evaluating a $500 million strategic stake. New institutional investors include the Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked its position on what Kendall describes as a \"contrarian\" approach to both technology and business strategy. Rather than relying on high-definition maps or bespoke sensor configurations, the company built an end-to-end deep learning system that ingests data from whatever sensors and chips an automaker already has installed. This hardware-agnostic architecture enables Wayve to offer two distinct products: an assisted-driving system requiring driver attention, and a fully automated Level 4 system capable of handling all driving tasks in defined environments. Its Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor compute kit, will power both offerings across city streets and highways.\n\nCritically, Wayve has no ambitions to operate fleets or build vehicles. Instead, it sells its \"embodied AI\" as a software layer to automakers and mobility platforms — a licensing model Kendall argues captures the largest addressable market in autonomous driving. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems beginning in 2027, while Uber plans to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies intend to deploy together in more than 10 markets worldwide, spanning multiple vehicle manufacturers and geographies.\n\nThe massive funding round underscores a broader industry shift as autonomous driving moves from research into commercial reality. While Tesla bundles its self-driving software with its own hardware and Waymo largely operates its own robotaxi fleet, Wayve is betting that a platform-neutral approach — one that works across different automakers, sensor suites, and computing architectures — will ultimately prove more scalable. Whether that contrarian wager pays off will depend on how quickly the technology performs in real-world deployments and whether regulators in the UK and beyond keep pace with the ambition.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "self-driving",
+        "Nvidia",
+        "Uber",
+        "artificial intelligence",
+        "robotaxis",
+        "fundraising"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T09:47:56.875Z"
+    },
+    {
+      "id": "ps-1772012892029-5gbk",
+      "slug": "hong-kong-returns-to-budget-surplus-after-longest-deficit-ru",
+      "headline": "Hong Kong Returns to Budget Surplus After Longest Deficit Run in Two Decades",
+      "subheadline": "City pledges billions in technology investment and tax relief for over two million residents as austerity era fades",
+      "body": "Hong Kong's government has swung back to a budget surplus after enduring its longest consecutive stretch of deficits in twenty years, marking a fiscal turning point that is already reshaping the city's spending priorities. The territory is now channeling its restored financial firepower into technology investment and tax cuts aimed at more than two million residents.\n\nThe return to surplus signals the beginning of the end for the austerity measures that had constrained Hong Kong's policymakers through a prolonged period of fiscal strain. Successive deficits — driven by pandemic-era spending, a sluggish property market, and broader economic headwinds — had forced the government to rein in expenditures and draw down reserves, raising questions about the long-term health of one of Asia's premier financial centers.\n\nWith the ledger now back in the black, Hong Kong authorities are pivoting aggressively toward technology as a growth engine, committing billions of dollars to initiatives intended to position the city as a regional innovation hub. The bet on tech reflects a broader strategic calculus: Hong Kong's traditional pillars of finance and real estate have faced mounting pressure from geopolitical tensions, competition from mainland Chinese cities like Shenzhen and Shanghai, and shifting global capital flows.\n\nThe budget also delivers targeted tax relief to over two million Hong Kong residents, a measure designed to ease cost-of-living pressures and stimulate domestic consumption. While the relief is modest relative to the city's overall fiscal position, it represents a politically significant gesture after years of belt-tightening that tested public patience.\n\nAnalysts will be watching closely to see whether the surplus proves durable or is merely a one-off correction. Hong Kong's revenue base remains heavily exposed to property-related levies and stamp duties, both of which are sensitive to market cycles. A sustained recovery in the city's real estate sector — still well below its 2021 peaks — would bolster the fiscal outlook, but any renewed downturn could quickly erode the government's newfound breathing room. For now, the shift from deficit to surplus gives Hong Kong's leadership a window to make strategic bets on the city's economic future, with technology sitting squarely at the center of that wager.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Hong Kong",
+        "budget surplus",
+        "fiscal policy",
+        "technology investment",
+        "Asia economy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1602856824081-69ce39ba4b3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxIb25nJTIwS29uZyUyMGJ1ZGdldCUyMHN1cnBsdXN8ZW58MHwwfHx8MTc3MjAxMjg5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/hong-kong-budget-set-to-narrow-deficit-with-tech-bets-in-focus",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T09:48:12.029Z"
+    },
+    {
+      "id": "ps-1772012907904-bde5",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination of the $159 billion payments giant and struggling fintech could reshape the stablecoin landscape",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would unite two of the world's largest payment processors and consolidate significant stablecoin infrastructure under one roof. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, Bloomberg reported, and there is no guarantee a transaction will materialize. But the sheer scale of the potential combination has captured market attention. Stripe, which processed $1.9 trillion in payments last year and carried a private valuation of $159 billion, would be absorbing a company that once commanded a far higher market capitalization but has seen its stock collapse roughly 80% from 2021 highs. PayPal shares had already been climbing earlier in the week on buyout speculation before the Stripe report added fresh momentum.\n\nThe crypto implications of a deal are substantial. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm. A merger would bring PYUSD's consumer-facing distribution together with Bridge's enterprise tooling for issuing dollar-backed tokens — potentially creating the most vertically integrated stablecoin operation in fintech.\n\nThe reported interest comes at a moment of intensifying competition in stablecoin payments. Meta is reportedly planning its own stablecoin re-entry in the second half of 2026, while Bridge's stablecoin volume has quadrupled in recent quarters even amid broader crypto market weakness. For Stripe, acquiring PayPal could accelerate its push to make blockchain-based rails a standard feature of global commerce rather than a niche offering.\n\nFor PayPal, a sale — whether whole or partial — could offer a lifeline after years of declining relevance relative to newer fintech competitors. The company's massive merchant network and 400-million-plus user base remain valuable assets, but it has struggled to translate that scale into the kind of growth investors once priced in. Whether Stripe ultimately moves forward will likely depend on price, regulatory scrutiny, and the strategic calculus of absorbing a legacy platform while simultaneously building next-generation payments infrastructure.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "fintech",
+        "M&A",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T09:48:27.904Z"
     },
     {
       "id": "ps-1772011943448-i6ed",
@@ -105,49 +211,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/german-rebound-driven-by-domestic-demand-as-trade-damps-growth",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T09:33:17.105Z"
-    },
-    {
-      "id": "ps-1772012013700-m5vu",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two fintech giants would create a stablecoin and crypto payments powerhouse valued in the hundreds of billions",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, in what would represent one of the largest fintech deals ever and a dramatic consolidation of crypto-enabled payment infrastructure. PayPal shares surged 7% on the news.\n\nThe discussions are described as being in early stages, with no certainty that a deal will materialize. But the sheer scale of a potential combination is staggering. Stripe, which remains privately held, processed $1.9 trillion in payment volume last year and was most recently valued at $159 billion. PayPal, once the dominant name in online payments, has seen its stock crater roughly 80% from the all-time highs it reached in 2021, making it a more plausible — if still enormous — acquisition target.\n\nWhat makes the potential tie-up particularly significant for digital asset markets is the convergence of both companies' stablecoin strategies. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain being built in partnership with venture firm Paradigm. A merger would unite PYUSD's consumer-facing stablecoin with Bridge's enterprise token-issuance tools under a single corporate umbrella.\n\nThe potential deal arrives at a moment of accelerating institutional interest in stablecoins. Meta is reportedly planning its own stablecoin initiative for the second half of 2026, and Bridge's stablecoin transaction volume has quadrupled in recent quarters even as broader crypto markets have struggled. A combined Stripe-PayPal entity would control an unrivaled distribution network spanning merchants, consumers, and developers — positioning it to set the standard for how dollar-denominated tokens move through global commerce.\n\nFor PayPal shareholders, the speculation offers a lifeline after years of underperformance. Shares had already been climbing earlier in the week on buyout chatter before the Bloomberg report added fuel. For the broader payments industry, the prospect of a $159 billion private company absorbing a publicly traded rival signals that the next phase of fintech competition may be defined not by disruption from startups, but by consolidation among incumbents racing to own the rails of programmable money.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T09:33:33.700Z"
-    },
-    {
-      "id": "ps-1772011036509-en3q",
-      "slug": "machine-learning-tackles-inverse-design-of-metamaterials-wit",
-      "headline": "Machine Learning Tackles Inverse Design of Metamaterials With Exotic Thermal Properties",
-      "subheadline": "Neural network models can now suggest material structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that defy conventional thermal and mechanical behavior — shrinking when heated and expanding laterally when compressed. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding challenge in materials engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures that can simultaneously exhibit negative Poisson's ratios (meaning they get thicker perpendicular to an applied compressive force, rather than thinner) and negative coefficients of thermal expansion (meaning they contract when heated). These counterintuitive properties make such materials highly promising for aerospace, precision instruments, and other engineering applications where thermal stability and unusual mechanical responses are critical.\n\nThe team's approach began with generating a large dataset through computational homogenization — systematically simulating structures with varying geometrical features and base material properties. A forward neural network model was first trained to predict the effective thermoelastic properties of any given design, replacing time-consuming finite element simulations with near-instantaneous predictions. The researchers then built six distinct inverse models, each tailored to different design scenarios defined by various combinations of target properties and structural variables. Critically, the trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency during optimization.\n\nThe methodology represents a significant step toward practical on-demand metamaterial design. Traditional approaches to finding structures with specific property combinations rely on parameter sweeps or trial-and-error simulation campaigns that can require thousands of computationally expensive runs. The machine learning pipeline compresses this process dramatically, enabling engineers to specify desired thermal expansion coefficients and Poisson's ratios and receive candidate geometries and material pairings in return.\n\nWhile the current work focuses on two-dimensional lattice structures, the framework is generalizable and could be extended to three-dimensional architectures or additional property targets such as thermal conductivity or dynamic response. The research underscores a broader trend in computational materials science, where neural networks are increasingly being used not merely as surrogate models for forward prediction but as active tools for navigating vast, high-dimensional design spaces that would be intractable by conventional means.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719836567950-b0127bbbdf2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T09:17:16.509Z"
     },
     {
       "id": "ps-1772010131621-y5w7",
@@ -235,27 +298,6 @@
       "publishedAt": "2026-02-25T08:33:09.953Z"
     },
     {
-      "id": "ps-1772007450084-g34a",
-      "slug": "chemists-synthesize-silicon-aromatic-molecule-after-50-years",
-      "headline": "Chemists Synthesize Silicon Aromatic Molecule After 50 Years of Failure",
-      "subheadline": "Two independent teams replace carbon with silicon in a five-atom aromatic ring, opening new frontiers in materials science",
-      "body": "Chemists at Saarland University have created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a half-century quest that saw research groups worldwide fail repeatedly to achieve the feat. The results, published February 24 in Science, were matched by an independent synthesis from a team at Tohoku University in Japan, with both groups publishing side by side in the same issue.\n\nAromatic molecules, characterized by electrons shared evenly around a flat ring structure, are among the most stable and industrially important compounds in chemistry. They underpin everything from plastics manufacturing to the catalysts used in polyethylene and polypropylene production. But while carbon-based aromatics have been a cornerstone of organic chemistry since the 19th century, replacing carbon with silicon — its heavier, more metallic periodic-table neighbor — has proved extraordinarily difficult. Prior to this breakthrough, the only known silicon aromatic was a three-atom ring synthesized in 1981. Every attempt to build a larger silicon aromatic system had ended in failure.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the German effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. Their key insight involved navigating the fundamental differences between silicon and carbon: silicon holds its electrons less tightly, making the even electron distribution required by Hückel's rule — the mathematical criterion for aromaticity — far harder to achieve in a five-membered ring. The resulting compound, confirmed through X-ray diffraction, displays the hallmark signatures of true aromatic character.\n\nThe simultaneous and independent success by Takeaki Iwamoto's group at Tohoku University in Sendai, Japan, strengthens confidence in the result. The two teams agreed to co-publish, a rare gesture that underscores both the significance and the robustness of the finding.\n\nThe implications extend well beyond academic curiosity. Because silicon's electronic properties differ markedly from carbon's, pentasilacyclopentadienide could serve as a platform for entirely new classes of catalysts and functional materials. In industrial chemistry, where aromatic ligands already play a critical role in controlling catalytic processes, silicon-based alternatives could offer distinct advantages in durability and reactivity. After decades of theoretical speculation, researchers now have a tangible starting point for exploring what silicon aromatics can do — a door that, until now, remained firmly shut.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon",
-        "aromatic chemistry",
-        "materials science",
-        "Saarland University",
-        "pentasilacyclopentadienide",
-        "catalysts"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T08:17:30.084Z"
-    },
-    {
       "id": "ps-1772007482635-mqry",
       "slug": "diageo-slashes-outlook-again-as-us-china-weakness-tests-new-",
       "headline": "Diageo Slashes Outlook Again as US, China Weakness Tests New CEO",
@@ -295,28 +337,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/thailand-surprises-with-rate-cut-to-bolster-fragile-recovery",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T08:03:12.612Z"
-    },
-    {
-      "id": "ps-1772005679118-hhks",
-      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
-      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6B, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors, underscoring growing confidence that the company's hardware-agnostic approach to self-driving software could reshape the industry. The round values Wayve at $8.6 billion, and the total raise could swell to $1.5 billion if Uber exercises an additional $300 million investment tied to the deployment of robotaxis in London.\n\nThe funding was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with returning backers Microsoft, Nvidia, and Uber joined by new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Perhaps most notable is the participation of three global automakers — Mercedes-Benz, Nissan, and Stellantis — all of which plan to integrate Wayve's technology into their vehicles. Nvidia, which has maintained a development partnership with Wayve since 2018 and previously signaled it was evaluating a $500 million stake, also participated, though CEO Alex Kendall declined to disclose the chipmaker's exact contribution.\n\nFounded in 2017, Wayve has staked out what Kendall describes as a \"contrarian\" position in the autonomous driving landscape. Rather than building high-definition maps or locking its software to specific sensor suites and computing hardware — approaches common among competitors — Wayve developed an end-to-end neural network that learns to drive purely from data. The result is a software layer that can run on whatever sensors and chips an automaker already has installed. This flexibility enables two distinct product lines: an assisted-driving system requiring driver attention, and a fully automated Level 4 system capable of handling all driving in certain environments without human oversight.\n\nThe business model is equally distinctive. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles autonomy software into its own vehicles, Wayve sells its \"embodied AI\" as a platform to automakers and mobility companies. Nissan has announced plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, signaling ambitions that extend well beyond a pilot program.\n\nWayve's Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing architecture, is designed to deliver both the assisted and fully driverless capabilities at scale. Kendall argues that Wayve's approach unlocks the largest addressable market in autonomy precisely because the software generalizes across hardware and geographies — a claim the company will now need to prove as it transitions from research-stage darling to commercial supplier serving some of the world's largest vehicle manufacturers.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "self-driving",
-        "Nvidia",
-        "Uber",
-        "robotaxis",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T07:47:59.118Z"
     },
     {
       "id": "ps-1772004792209-r5tg",
@@ -1033,27 +1053,6 @@
       "sourceUrl": "https://www.bloomberg.com/graphics/trump-tariffs-tracker/",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T19:18:32.134Z"
-    },
-    {
-      "id": "ps-1771958906056-6obb",
-      "slug": "boaz-weinstein-escalates-private-credit-alarm-as-blue-owl-tu",
-      "headline": "Boaz Weinstein Escalates Private Credit Alarm as Blue Owl Turmoil Spreads",
-      "subheadline": "Saba Capital founder warns 'wheels coming off' in the $1.8 trillion private credit industry as fund-level stress surfaces",
-      "body": "Activist investor Boaz Weinstein is intensifying his public campaign against the private credit industry, warning that recent turbulence at Blue Owl Capital's funds signals systemic vulnerabilities across a sector that has ballooned to $1.8 trillion in assets.\n\nThe founder of Saba Capital Management, who has built a reputation as one of Wall Street's most outspoken critics of opaque fund structures, told Bloomberg that the \"wheels are coming off\" private credit funds. Weinstein pointed to difficulties at Blue Owl — one of the largest alternative asset managers specializing in direct lending — as evidence that the industry's rapid growth has outpaced the risk management and transparency standards investors should demand. Blue Owl, which went public in 2021 and manages tens of billions in private credit strategies, has faced mounting questions about fund valuations and liquidity pressures.\n\nThe warning comes at a particularly sensitive moment for private credit, which has emerged as one of the fastest-growing corners of finance over the past five years. Asset managers including Apollo Global Management, Blackstone, and Ares Management have poured resources into direct lending and other private debt strategies, attracting institutional investors with promises of higher yields and lower volatility than public markets. Yet critics, Weinstein chief among them, have long argued that the appearance of stability is partly an artifact of infrequent and manager-controlled valuations — a feature that masks underlying credit deterioration until it becomes impossible to ignore.\n\nWeinstein's escalation follows a broader pattern of activist scrutiny he has directed at closed-end fund structures and alternative investment vehicles. Saba Capital has waged high-profile proxy fights against several closed-end funds, arguing that discounts to net asset value reflect governance failures and misaligned incentives. His pivot toward private credit suggests he sees similar structural problems in a far larger and more consequential market — one that now rivals the leveraged loan market in scale and has become a critical source of financing for middle-market companies across the economy.\n\nFor institutional allocators — pension funds, endowments, and insurance companies that have dramatically increased their exposure to private credit in recent years — Weinstein's warnings raise uncomfortable questions about whether portfolio marks reflect economic reality. If stress at a prominent manager like Blue Owl proves to be a harbinger rather than an isolated case, the implications could ripple well beyond alternative asset management into broader credit markets and corporate borrowing conditions.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "private credit",
-        "Boaz Weinstein",
-        "Blue Owl Capital",
-        "Saba Capital",
-        "alternative investments",
-        "direct lending"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxidXNpbmVzc3xlbnwwfDB8fHwxNzcxOTQwOTE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/boaz-weinstein-warns-wheels-coming-off-private-credit-funds",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T18:48:26.056Z"
     }
   ]
 }
