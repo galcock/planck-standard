@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T01:03:27.240Z",
+  "lastUpdated": "2026-02-25T01:18:17.728Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771982217063-h5qk",
+      "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
+      "headline": "Mandelson Lawyers Call Flight-Risk Claim 'Baseless' After Arrest",
+      "subheadline": "Former UK ambassador to the US was held for nine hours over misconduct allegations tied to Jeffrey Epstein",
+      "body": "Lawyers for Lord Peter Mandelson have hit back at police after the former British ambassador to the United States was arrested at his London home on Monday, claiming officers acted on a groundless allegation that he planned to flee the country.\n\nMishcon De Reya, the law firm representing Mandelson, told the BBC that an agreement had been in place for the peer to attend a voluntary police interview next month, making the arrest unnecessary. The firm said the decision to detain him was \"prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad,\" adding there was \"absolutely no truth whatsoever\" to the claim. The Metropolitan Police declined to comment on the assertion. Mandelson was taken to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May.\n\nThe arrest, carried out by officers from the Met's central specialist crime division, relates to an investigation opened earlier in May into allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a cabinet minister under Prime Minister Gordon Brown. The probe was triggered by a cache of documents released by the U.S. Department of Justice last month, which included emails between Mandelson and Epstein. One 2009 email appeared to show Mandelson sharing a Downing Street adviser's assessment of policy measures including an \"asset sales plan.\" Other correspondence appeared to reference a tax on bankers' bonuses and to confirm an imminent eurozone bailout package the day before it was publicly announced in 2010.\n\nMandelson, a central architect of the New Labour movement that propelled Tony Blair to a landslide victory in 1997, was appointed British ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. Search warrants were also executed at two addresses in Wiltshire and Camden on Monday as part of the ongoing investigation.\n\nMandelson's legal team emphasized that his \"overriding priority is to cooperate with the police investigation\" and to clear his name. They have formally requested that the Metropolitan Police disclose the evidence used to justify the arrest. Consultations between police and the Crown Prosecution Service are continuing, though no charges have been filed. Mandelson maintains he did not act criminally and was not motivated by financial gain.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Peter Mandelson",
+        "Jeffrey Epstein",
+        "Metropolitan Police",
+        "UK politics",
+        "misconduct in public office"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T01:16:57.063Z"
+    },
+    {
+      "id": "ps-1771982233566-h8al",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be rapidly updated when underground conditions change — eliminating the need for expensive retraining while maintaining accuracy within three percent of fully retrained models.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a persistent bottleneck in using Dynamic Mode Decomposition (DMD) as a surrogate for high-fidelity multiphase reservoir simulators. DMD is a popular framework for building lightweight, data-driven models that can approximate complex physical systems, but its operators are locked to the specific reservoir properties — such as rock permeability and well placement — present in the training data. Any change to those properties has traditionally required generating new simulation snapshots and retraining from scratch, negating much of the computational savings that make surrogates attractive in the first place.\n\nThe new approach introduces two complementary update strategies that modify an existing DMD model's internal structure without incorporating additional simulation data. When permeability changes uniformly across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. When permeability varies spatially — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced basis. Both strategies are designed to be computationally lightweight, preserving the speed advantage that surrogates are meant to deliver.\n\nNumerical experiments reported in the paper show that the updated models reproduce key physical quantities, including carbon dioxide plume migration patterns and subsurface pressure buildup, to within three percent of a surrogate that was freshly trained on the new reservoir configuration. Critically, the update process executes hundreds of times faster than full retraining. For carbon capture and storage projects, where operators must evaluate numerous scenarios involving different geological uncertainties, well placements, and injection strategies, such speed gains could enable real-time optimization and rapid what-if analyses that are currently impractical.\n\nThe work sits at the intersection of computational physics, optimization, and engineering — fields where the demand for fast yet physically faithful models continues to grow as carbon storage scales up globally. While the results are demonstrated on reservoir simulation problems, the underlying principle of adapting reduced-order model operators to reflect changed domain properties could find broader application in other areas of computational science where retraining costs limit the practical utility of data-driven surrogates.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-modeling",
+        "reservoir-simulation",
+        "computational-physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1635008326422-134e67df2f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxkeW5hbWljLW1vZGUtZGVjb21wb3NpdGlvbiUyMGNhcmJvbi1zdG9yYWdlfGVufDB8MHx8fDE3NzE5MzM2NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T01:17:13.566Z"
+    },
+    {
+      "id": "ps-1771982250320-w2f0",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors, consume cancerous tissue from the core outward, and activate its own survival defenses only when conditions are safe — a programmable biological assault that could open a new front in cancer treatment.\n\nThe approach, published in ACS Synthetic Biology, centers on Clostridium sporogenes, an anaerobic microbe that thrives exclusively in oxygen-free environments. Because the dense interior of many solid tumors is oxygen-depleted and nutrient-rich, the bacterium's spores can colonize these cores and begin breaking down dead and cancerous cells. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the work.\n\nThe central engineering challenge was the oxygen barrier at the tumor's periphery. As the bacteria expand outward from the anoxic core, even trace amounts of oxygen kill them before they can eliminate the cancer's outer layers. To solve this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But flipping that gene on prematurely would let the microbes proliferate in oxygen-rich tissues such as the bloodstream — an obvious safety hazard. The researchers addressed the problem with quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only after a critical mass of microbes accumulates inside the tumor does the signal concentration cross the threshold needed to switch on the oxygen-resistance gene. The result is a tightly controlled activation that confines the enhanced survival capability to the tumor site.\n\nBrian Ingalls, a Waterloo applied mathematics professor and co-author, likened the genetic design to an electrical circuit built from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In earlier work, the team demonstrated that C. sporogenes could be modified to better withstand oxygen; the latest study validated the quorum-sensing trigger by programming the bacteria to produce green fluorescent protein, confirming the system activated precisely on schedule.\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it in pre-clinical tumor models. The Waterloo group is collaborating with CREM Co Labs, a Toronto-based company co-founded by Bahram Zargar, the PhD student whose doctoral research seeded the project. Former Waterloo doctoral student Sara Sadr also played a key role in advancing the work. If pre-clinical results hold, the platform could eventually complement or replace conventional therapies for solid tumors — cancers that remain notoriously difficult to treat with immunotherapies effective against blood cancers.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "solid tumors"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T01:17:30.320Z"
+    },
+    {
+      "id": "ps-1771982266540-jks8",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a signal of surging commercial appetite for self-driving technology that can scale across vehicle platforms and geographies.\n\nThe round, which could swell to $1.5 billion with an additional $300 million in milestone-based commitments from Uber tied to robotaxi deployment in London, values Wayve at $8.6 billion. Eclipse, Balderton, and SoftBank Vision Fund 2 led the raise, with new institutional backers including the Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Returning investors Microsoft, Nvidia, and Uber all deepened their stakes. Three global automakers — Mercedes-Benz, Nissan, and Stellantis — also participated, each planning to integrate Wayve's technology into their vehicles.\n\nFounded in 2017, Wayve has carved out a distinctive position in the crowded autonomous driving landscape by developing end-to-end deep learning software that requires neither high-definition maps nor specific sensor hardware. The company's AI ingests data from whatever sensors and chips an automaker already has installed, making it a plug-and-play option for original equipment manufacturers. Its Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing architecture, is designed to deliver both driver-assistance features and full Level 4 autonomy on city streets and highways.\n\nCEO and founder Alex Kendall described Wayve's strategy as deliberately \"contrarian\" — unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles self-driving capability into its own vehicles, Wayve sells its \"embodied AI\" as a software layer to automakers and mobility platforms. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber plans to begin commercial trials in Wayve-equipped vehicles this year. Uber CEO Dara Khosrowshahi indicated the partnership will extend to more than 10 markets worldwide, spanning multiple OEM partners.\n\nThe scale of the round underscores a broader industry conviction that the commercialization phase of autonomous driving has arrived. Nvidia, which has maintained a development relationship with Wayve since 2018, had previously signaled it was evaluating a strategic investment of up to $500 million in this raise, though the exact figure was not disclosed. For Wayve, the challenge now shifts from proving its technology to deploying it at scale — a transition Kendall framed in chess terms: the technology board is set, and the commercial game is just beginning.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "fundraising",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T01:17:46.540Z"
+    },
+    {
+      "id": "ps-1771982281405-qbdi",
+      "slug": "south-korea-s-kospi-blows-past-6-000-as-memory-chip-boom-roa",
+      "headline": "South Korea's Kospi Blows Past 6,000 as Memory Chip Boom Roars On",
+      "subheadline": "Samsung and SK Hynix lead the benchmark to fresh records, capping a 42% surge in 2026 fueled by surging global memory demand",
+      "body": "South Korea's Kospi Index breached the 6,000 level for the first time on Wednesday, driven by insatiable global demand for memory semiconductors that has turned the country's stock market into one of the world's best performers.\n\nThe benchmark climbed as much as 1.2% to a record 6,039 in early trading on February 25, with heavyweight chipmakers Samsung Electronics Co. rising 2.5% and SK Hynix Inc. adding 1.4% before trimming some gains. The milestone comes barely a month after the Kospi first crossed 5,000 — a level that itself was considered a distant aspiration for much of the index's history. For the year, the Kospi is now up 42%, extending a remarkable 76% rally logged in 2025.\n\nThe explosive run has been powered almost entirely by a global memory chip supercycle. Surging demand for artificial intelligence infrastructure, data center buildouts, and next-generation computing has sent prices for DRAM and NAND flash memory soaring, directly benefiting Samsung and SK Hynix — two companies that together dominate global memory production and carry outsized weight in the Kospi. Their combined market capitalization gains have effectively pulled the entire index higher, underscoring both the strength and the concentration risk embedded in South Korea's equity market.\n\nThe scale of the rally places the Kospi among the top-performing major equity benchmarks globally over the past two years. The back-to-back surges — 76% in 2025 followed by 42% in less than two months of 2026 — represent a pace of appreciation rarely seen in a developed market index and reflect the degree to which memory chips have become a critical bottleneck in the AI hardware supply chain.\n\nAnalysts will be watching whether the momentum can hold as valuations stretch higher. Memory chip markets have historically been cyclical, and past booms have given way to sharp corrections when supply catches up to demand or end-market growth decelerates. For now, however, the combination of constrained supply and relentless AI-driven consumption has kept the upward pressure firmly intact, turning Seoul into the unlikely epicenter of a global equity story.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Kospi",
+        "South Korea",
+        "Samsung Electronics",
+        "SK Hynix",
+        "memory chips",
+        "semiconductor",
+        "AI"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irOIRwXjt8nY/v0/1200x800.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T01:18:01.405Z"
+    },
+    {
+      "id": "ps-1771982297625-x6by",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-mega-",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Mega-Deal",
+      "subheadline": "A combination of the two fintech giants would create a stablecoin and payments powerhouse processing trillions in volume",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest digital payments companies and significantly reshape the stablecoin landscape. PayPal shares surged 7% on the news, extending gains that had already begun earlier in the week on buyout speculation.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a combination is staggering. Stripe, which remains privately held and was most recently valued at $159 billion, processed $1.9 trillion in payment volume last year. PayPal, once the dominant name in online payments, has seen its stock collapse roughly 80% from record highs reached in 2021 — a decline that may have made the publicly traded company an attractive target.\n\nWhat makes the potential pairing particularly notable is the crypto and stablecoin angle. Both companies have been aggressively building blockchain infrastructure. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization. It enables users to transfer dollars across cryptocurrency networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is currently collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain still in its testing phase.\n\nA merger would create a combined entity with unmatched reach across both traditional payment rails and the emerging stablecoin economy. Bridge's stablecoin volume has reportedly quadrupled in recent months, suggesting that enterprise demand for blockchain-based dollar transfers is accelerating even amid broader market weakness in crypto assets. Combining Bridge's token issuance tools with PYUSD's established user base could give the merged company a dominant position in the fast-growing stablecoin payments sector, which has drawn increasing attention from regulators and traditional financial institutions alike.\n\nThe potential deal arrives at a moment of rapid convergence between traditional fintech and crypto infrastructure. Meta is reportedly planning a stablecoin comeback later this year, and exchanges like Coinbase and Kraken are expanding into traditional stock and ETF trading. A Stripe-PayPal combination would represent perhaps the clearest signal yet that the line between conventional payments and blockchain-based finance is dissolving — and that the biggest players in fintech intend to straddle both worlds.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "PYUSD",
+        "fintech",
+        "mergers-and-acquisitions",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T01:18:17.625Z"
+    },
     {
       "id": "ps-1771981327076-tfba",
       "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
@@ -24,47 +152,6 @@
       "publishedAt": "2026-02-25T01:02:07.076Z"
     },
     {
-      "id": "ps-1771981342730-ybtz",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be updated for changing underground conditions hundreds of times faster than conventional retraining — while maintaining accuracy within three percent of a fully retrained model.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a longstanding bottleneck in Dynamic Mode Decomposition (DMD), a widely used framework for building computationally cheap surrogate models of complex physical systems. DMD models learn the dominant patterns of fluid flow and pressure evolution from high-fidelity simulation data, but they are inherently tied to the specific reservoir properties — such as rock permeability and well placement — used during training. Any change to those properties has traditionally required generating entirely new simulation snapshots and rebuilding the surrogate from scratch, a process that largely negates the speed advantage these reduced-order models are designed to provide.\n\nThe new approach introduces two complementary update strategies that bypass the need for fresh simulation data altogether. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in subsurface engineering — the technique modifies the model's spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced representation. In both cases, the adjustments are lightweight algebraic operations applied directly to the existing DMD operators.\n\nThe implications are particularly significant for carbon capture and storage (CCS) projects, where operators must evaluate numerous geological scenarios to optimize injection strategies, assess containment risks, and satisfy regulatory requirements. Full multiphase reservoir simulations can take hours or days for a single run, making real-time optimization and rapid what-if analyses impractical. By enabling near-instantaneous model updates, the method could substantially accelerate the design and monitoring workflows that underpin safe, large-scale CO₂ sequestration.\n\nThe work sits at the intersection of computational physics, control theory, and engineering optimization, reflecting a broader trend toward adaptive surrogate modeling in subsurface energy applications. While the results are demonstrated on carbon storage scenarios, the underlying update framework could in principle extend to other domains where DMD-based surrogates must accommodate shifting physical parameters without the luxury of retraining from new data.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "dynamic mode decomposition",
-        "carbon storage",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T01:02:22.730Z"
-    },
-    {
-      "id": "ps-1771981358152-rv16",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic biology approach uses quorum sensing to safely unleash oxygen-tolerant microbes inside solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a strain of soil-dwelling bacteria to infiltrate solid tumors, consume them from the inside, and survive long enough to reach the oxygen-exposed outer edges — a feat that could open a fundamentally new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives only in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide exactly those conditions. Once bacterial spores enter a tumor, they find abundant nutrients and begin multiplying rapidly, effectively colonizing and destroying cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge has been what the team calls the oxygen barrier. As the bacteria spread outward from the tumor core, they encounter regions with trace amounts of oxygen and begin dying off before the cancer is fully eliminated. To solve this, the researchers inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But simply making the microbes oxygen-resistant at all times would be dangerous — they could proliferate in oxygen-rich tissues like the bloodstream. The team's solution is an elegantly programmed safety switch: quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after enough bacteria have accumulated inside a tumor does the signal reach the threshold needed to activate the oxygen-tolerance gene. The modification stays dormant everywhere else in the body.\n\nIn work published in ACS Synthetic Biology, the team demonstrated the quorum-sensing circuit by programming C. sporogenes to produce green fluorescent protein, confirming the system activated precisely on cue. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo student Sara Sadr. The university is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical application. If pre-clinical results prove successful, the approach could eventually complement or even replace conventional treatments for solid tumors — which account for roughly 90 percent of all cancers and remain notoriously difficult to treat with immunotherapies alone.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T01:02:38.152Z"
-    },
-    {
       "id": "ps-1771981373397-jt1r",
       "slug": "stripe-exploring-potential-acquisition-of-paypal-in-landmark",
       "headline": "Stripe Exploring Potential Acquisition of PayPal in Landmark Deal",
@@ -84,70 +171,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-25T01:02:53.397Z"
-    },
-    {
-      "id": "ps-1771981390062-72pq",
-      "slug": "south-korean-stocks-blast-past-6-000-as-memory-chip-boom-acc",
-      "headline": "South Korean Stocks Blast Past 6,000 as Memory Chip Boom Accelerates",
-      "subheadline": "Benchmark index clears new milestone just one month after crossing 5,000, driven by surging global memory demand",
-      "body": "South Korea's benchmark equity index has surged past the 6,000 level, marking a remarkable ascent that saw the market clear two historic milestones in the span of roughly a month, fueled by explosive global demand for memory semiconductors.\n\nThe breakthrough, reported on February 25, comes just weeks after the index crossed 5,000 for the first time — a level long considered a distant aspiration for Korean equities. The rapid succession of record highs underscores the outsized role that the country's semiconductor giants play in driving market valuations, as artificial intelligence infrastructure buildouts and data center expansion continue to fuel insatiable appetite for memory chips worldwide.\n\nSouth Korea is home to Samsung Electronics and SK Hynix, the world's two largest producers of DRAM and NAND flash memory. Both companies have benefited enormously from the AI-driven computing cycle, which demands vast quantities of high-bandwidth memory to train and run large language models and other intensive workloads. SK Hynix in particular has emerged as a critical supplier of HBM (high-bandwidth memory) chips to Nvidia, positioning it at the center of the AI hardware supply chain.\n\nThe speed of the Korean market's ascent is striking even by the standards of the current global tech rally. Clearing 1,000 index points in approximately 30 days suggests a level of momentum — and concentration risk — that may give some investors pause. The Korean benchmark has historically traded at a steep discount to peers in the United States and Japan, a phenomenon analysts have dubbed the \"Korea discount,\" attributed to governance concerns, geopolitical risk from North Korea, and heavy index weighting toward cyclical sectors. The memory chip supercycle appears to be narrowing that gap considerably.\n\nAnalysts caution that the sustainability of the rally depends on whether memory chip pricing power holds through the second half of 2026. While current demand signals remain robust, the semiconductor industry is notoriously cyclical, and any pullback in AI capital expenditure by major cloud providers could ripple quickly through Korean equities. For now, however, the market's trajectory reflects a broad investor conviction that the memory boom has further room to run.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "South Korea",
-        "memory chips",
-        "semiconductors",
-        "Samsung",
-        "SK Hynix",
-        "AI",
-        "stock market"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1765708685452-f2624c52869f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8U291dGglMjBLb3JlYSUyMG1lbW9yeSUyMGNoaXBzfGVufDB8MHx8fDE3NzE5ODEzODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T01:03:10.062Z"
-    },
-    {
-      "id": "ps-1771981406577-7dlv",
-      "slug": "stripe-weighs-potential-acquisition-of-paypal-in-payments-me",
-      "headline": "Stripe Weighs Potential Acquisition of PayPal in Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring a potential bid for all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech acquisitions in history and consolidate two companies at the forefront of stablecoin adoption. PayPal shares surged 7% on the news in late trading.\n\nThe deliberations are still in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of the potential combination has sent shockwaves through the payments industry. Stripe, which processed $1.9 trillion in payment volume last year and was recently valued at $159 billion, would be absorbing a company that — despite its decline — remains one of the most widely used digital payment platforms in the world. PayPal shares had already been climbing this week on prior buyout speculation before the Bloomberg report added fresh momentum.\n\nThe strategic logic extends well beyond traditional payments processing. Both companies have made aggressive moves into stablecoins and blockchain-based financial infrastructure. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to roughly $4 billion in market capitalization, offering users a way to transfer dollars across crypto networks around the clock at lower cost than conventional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to build Tempo, a payments-focused blockchain currently in testing. A merger would create a combined entity with formidable reach across both legacy and crypto-native payment rails.\n\nThe potential deal comes as PayPal has endured a punishing stretch. The company's stock has fallen approximately 80% from record highs reached in 2021, making it a comparatively affordable target despite its massive user base and brand recognition. For Stripe, which remains private, the acquisition could accelerate its expansion into consumer-facing payments and deepen its stablecoin capabilities in a single stroke.\n\nThe payments landscape has been rapidly evolving as stablecoins gain traction for cross-border transfers, merchant settlements, and everyday transactions. Bridge, Stripe's 2024 acquisition, has seen its stablecoin volume quadruple in recent months, underscoring growing real-world utility. Should Stripe and PayPal combine forces, the resulting entity would command an unrivaled position at the intersection of traditional finance and blockchain-based money movement — a convergence that many in the industry view as inevitable but few expected to arrive this dramatically.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T01:03:26.577Z"
-    },
-    {
-      "id": "ps-1771980420281-dcr5",
-      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
-      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was held for nine hours at Wandsworth police station on misconduct suspicion tied to Epstein links",
-      "body": "Lord Peter Mandelson was arrested at his London home on Monday after police concluded he posed a flight risk — an allegation his legal team has denounced as entirely without foundation. The former British ambassador to the United States was taken into custody on suspicion of misconduct in public office, held for nine hours at Wandsworth police station, and released on bail in the early hours of Tuesday morning.\n\nMandelson's lawyers at Mishcon De Reya told the BBC that the arrest blindsided them, given an existing agreement with the Metropolitan Police for the peer to attend a voluntary interview next month. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement, adding that it has formally requested the evidence used to justify the arrest. The Metropolitan Police declined to comment on the flight risk allegation but confirmed Mandelson has been bailed until the end of May, with consultations between police and the Crown Prosecution Service ongoing.\n\nThe investigation centers on allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. Documents released last month by the US Department of Justice included emails between the two men, one of which from 2009 appeared to show Mandelson sharing a policy assessment from an adviser to then-Prime Minister Gordon Brown regarding an asset sales plan. Other communications appeared to reference a proposed tax on bankers' bonuses and an imminent eurozone bailout package the day before its public announcement in 2010.\n\nThe arrest followed the execution of search warrants at two addresses in Wiltshire and Camden. Plain-clothes officers from the Met's central specialist crime division were seen leading Mandelson from his London residence and placing him in an unmarked vehicle. His legal team maintains he has not acted criminally and was not motivated by financial gain.\n\nMandelson, a towering figure in Labour politics who helped architect Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said newly emerged information revealed the depth of his relationship with Epstein. The case marks a dramatic fall for one of the most influential political operatives in modern British history, with the outcome of the police investigation likely to carry significant ramifications for both Mandelson and the Labour establishment.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Peter Mandelson",
-        "Jeffrey Epstein",
-        "Metropolitan Police",
-        "UK politics",
-        "misconduct in public office"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T00:47:00.282Z"
     },
     {
       "id": "ps-1771980467941-4gc6",
@@ -1038,28 +1061,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/yen-extends-decline-after-report-on-takaichi-s-rate-hike-view",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T12:03:31.843Z"
-    },
-    {
-      "id": "ps-1771934626063-51lj",
-      "slug": "jane-street-sued-over-alleged-insider-trading-in-terra-colla",
-      "headline": "Jane Street Sued Over Alleged Insider Trading in Terra Collapse",
-      "subheadline": "Terraform Labs' bankruptcy administrator claims the trading giant used nonpublic information to front-run the $40 billion UST crash",
-      "body": "Terraform Labs' bankruptcy administrator has filed a lawsuit against Jane Street, one of Wall Street's most powerful trading firms, alleging that the firm exploited insider information to front-run trades that helped trigger the catastrophic collapse of the TerraUSD stablecoin in May 2022 — an event that wiped out roughly $40 billion in investor wealth in a single week.\n\nThe suit, filed by administrator Todd Snyder, names Jane Street co-founder Robert Granieri along with employees Bryce Pratt and Michael Huang as defendants, according to a report first published by the Wall Street Journal. At the heart of the complaint is a sequence of events on May 7, 2022, when Terraform Labs quietly withdrew 150 million TerraUSD (UST) from Curve3pool, a major decentralized stablecoin trading platform. The lawsuit alleges that within just 10 minutes — before any public disclosure — a wallet linked to Jane Street withdrew an additional 85 million UST from the same pool. The combined withdrawals are alleged to have sparked market panic, ultimately destroying TerraUSD's 1:1 dollar peg and sending its sister token Luna to zero.\n\nThe complaint further alleges that on May 9, as UST began its fatal slide, Jane Street's Pratt contacted Terraform founder Do Kwon and his team via group chat, offering to purchase bitcoin or Luna. Kwon reportedly responded that Jump Trading co-founder Bill DiSomma should have informed Jane Street earlier about Terraform's fundraising efforts — a detail the administrator argues reveals a web of privileged communication between the trading firm and Terraform insiders. \"Jane Street abused market relationships to rig the market in its favor during one of the most consequential events in crypto history,\" Snyder said in a statement.\n\nJane Street has forcefully denied the allegations, calling the lawsuit a \"desperate\" and \"transparent attempt to extract money\" from the firm. A company spokesperson argued that losses suffered by Terra and Luna holders were the direct result of \"a multibillion-dollar fraud perpetrated by the management of Terraform Labs,\" and pledged to vigorously defend against what it characterized as \"baseless, opportunistic claims.\"\n\nThe lawsuit adds another chapter to the sprawling legal fallout from the Terra implosion, which triggered a cascade of failures across the crypto industry in 2022. Terraform Labs filed for bankruptcy in January 2024, and its founder Do Kwon pleaded guilty to two criminal counts last August, receiving a 15-year prison sentence. If the administrator's claims are substantiated, the case could have far-reaching implications for how traditional trading firms interact with crypto markets and the legal boundaries governing information asymmetry in digital asset trading.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Jane Street",
-        "Terraform Labs",
-        "insider trading",
-        "TerraUSD",
-        "cryptocurrency",
-        "Do Kwon",
-        "stablecoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/932705970160925ac2ce1200db0f0f502e8e4712-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T12:03:46.063Z"
     }
   ]
 }
