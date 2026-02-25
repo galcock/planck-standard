@@ -1,27 +1,132 @@
 {
-  "lastUpdated": "2026-02-25T13:48:32.454Z",
+  "lastUpdated": "2026-02-25T14:03:43.405Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772027232082-6re3",
+      "id": "ps-1772028142249-3u9d",
       "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
       "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
-      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence that the former ambassador planned to travel abroad",
-      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally relayed information to the Metropolitan Police suggesting Lord Peter Mandelson might be a flight risk — intelligence that contributed to the peer's arrest at his London home on Monday.\n\nSpeaking to MPs after the Times first broke the story, Sir Lindsay said he had passed on \"relevant\" information and considered it his \"duty and responsibility\" to do so. According to the BBC, the Speaker received the tip during a visit to the British Virgin Islands last week, where he learned that Lord Mandelson was allegedly planning to travel to the territory. The Metropolitan Police reportedly conducted its own assessment of the intelligence's credibility before proceeding with Monday's arrest.\n\nLord Mandelson, a former senior Labour minister who served as Britain's ambassador to the United States from February to September 2025, was taken to Wandsworth police station for questioning and later released on bail. He is understood to have surrendered his passport as a condition of his release. The arrest is part of a Metropolitan Police investigation, launched earlier this month, into allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a minister.\n\nThe peer's legal team has sharply contested the grounds for his arrest, calling the flight risk claim \"baseless\" and noting that Mandelson had already agreed to a voluntary police interview next month. His lawyers say he denies any criminal conduct, was not motivated by financial gain, and intends to cooperate fully with investigators to \"clear his name.\" The allegations against him surfaced after the U.S. Department of Justice released a cache of documents last month that included emails between Mandelson and Epstein.\n\nThe episode marks an extraordinary collision between some of Britain's most prominent institutions. A sitting Commons Speaker publicly acknowledging that he fed intelligence to police about a former ambassador and peer of the realm is virtually without precedent. Sir Lindsay expressed regret that the matter \"rapidly ended in the media\" but offered no further details about his source. Lord Mandelson was dismissed from his Washington posting in September after Downing Street said new information had emerged about the depth of his relationship with Epstein, a development that has sent shockwaves through the upper echelons of British politics.",
+      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence that the peer planned to travel abroad",
+      "body": "Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally passed information to the Metropolitan Police suggesting Lord Peter Mandelson could be a flight risk — intelligence that contributed to the former Labour minister's arrest at his London home on Monday.\n\nSpeaking in the House of Commons after the Times first reported his involvement, Hoyle said he had provided \"relevant\" information to the Met \"in good faith,\" calling it his \"duty and responsibility.\" The BBC has reported that Hoyle received the tip during a visit to the British Virgin Islands last week, indicating Mandelson was planning to travel there. The Metropolitan Police is understood to have independently assessed the credibility of the information before proceeding with the arrest on Monday afternoon.\n\nMandelson's legal team has sharply contested the basis for his detention, calling the flight risk claim \"baseless\" and noting that the peer had already agreed to a voluntary interview with investigators next month. The former cabinet minister was taken to Wandsworth police station for questioning before being released on bail, with the surrender of his passport among the conditions imposed. His lawyers said he intends to cooperate fully with the investigation to \"clear his name\" and maintains he has not acted criminally.\n\nThe arrest stems from a Metropolitan Police investigation launched earlier this month into allegations of misconduct in public office. Prosecutors are examining claims that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations emerged after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Mandelson's camp has insisted he was not motivated by financial gain.\n\nThe episode marks a dramatic chapter in Mandelson's fall from political grace. Appointed British ambassador to the United States in February 2025, he was dismissed in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. The Speaker's unusual intervention — and its rapid leak to the media, which Hoyle called \"regrettable\" — adds a fresh layer of political intrigue to a case that has already rattled Westminster and strained transatlantic diplomatic ties.",
       "category": "breaking",
-      "importance": 9,
+      "importance": 8,
       "tags": [
         "Mandelson",
-        "Lindsay Hoyle",
+        "UK politics",
         "Metropolitan Police",
         "Jeffrey Epstein",
-        "UK politics",
+        "Lindsay Hoyle",
         "flight risk"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T13:47:12.082Z"
+      "publishedAt": "2026-02-25T14:02:22.249Z"
+    },
+    {
+      "id": "ps-1772028160168-gdwj",
+      "slug": "machine-learning-framework-tackles-inverse-design-of-exotic-",
+      "headline": "Machine Learning Framework Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now suggest material designs that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — a combination that could prove valuable across aerospace, precision engineering, and other demanding applications.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe a suite of neural network models that can take a set of desired thermoelastic properties as input and output the specific geometric features and base material combinations needed to achieve them. The metamaterials in question are bimaterial hybrid-honeycomb lattice structures — periodic architectures built from two different materials whose interplay produces behavior impossible in either constituent alone. Materials with negative Poisson's ratios, known as auxetics, get thicker when stretched rather than thinner, while negative thermal expansion means a structure contracts as temperature rises.\n\nThe approach rests on two stages. First, the team generated a large dataset using computational homogenization, systematically varying the geometric parameters and base material properties of the honeycomb structures to map out the landscape of achievable thermoelastic responses. A forward machine learning model was then trained on this dataset to rapidly predict effective properties from any given design — replacing costly finite-element simulations with near-instantaneous inference. The more challenging second stage involved building inverse models that work in the opposite direction: given target properties, the models recommend specific structural designs.\n\nTo handle the complexity of the inverse problem — which is inherently non-unique, since multiple designs can yield similar properties — the researchers proposed six distinct model configurations, each tailored to different combinations of target properties and design variables. The trained forward model serves double duty, both validating inverse predictions and augmenting training data for scenarios where the base materials are held fixed. Representative design examples demonstrated strong predictive accuracy across both forward and inverse tasks.\n\nThe work addresses a practical bottleneck in metamaterial engineering. While the theoretical principles behind auxetic and negative-thermal-expansion lattices are well established, navigating the vast design space to find structures meeting specific performance targets has traditionally required extensive trial-and-error simulation. By automating this search, the framework could accelerate the deployment of thermoelastic metamaterials in applications ranging from satellite structures that must maintain dimensional stability across extreme temperature swings to precision instruments requiring zero or tailored thermal distortion. The paper, which spans applied physics and materials science, has been posted as a preprint and has not yet undergone peer review.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "auxetics",
+        "materials science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1658577804731-80bb813dca36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T14:02:40.168Z"
+    },
+    {
+      "id": "ps-1772028176814-uq7k",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits allow engineered microbes to consume cancer from within while preventing dangerous spread to healthy tissue",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to infiltrate solid tumors and destroy them from the inside out, using a sophisticated biological safety mechanism that prevents the microbes from attacking healthy tissue. The work, published in ACS Synthetic Biology, represents a significant advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the cores of many solid tumors are oxygen-depleted zones filled with dead cells and nutrients, they provide an ideal habitat for the microbe to colonize and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially consumes the tumor from within — but until now, it would die off upon reaching oxygen-rich outer regions before fully eliminating the cancer.\n\nTo overcome this limitation, the team inserted a gene from a related, more oxygen-tolerant bacterium. The critical innovation, however, lies in how they control when that gene activates. Switching it on prematurely could allow the bacteria to proliferate in oxygen-rich environments like the bloodstream, posing serious safety risks. The researchers solved this by harnessing quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside a tumor does the signal reach the threshold needed to activate the oxygen-resistance gene. Dr. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA rather than wires, with each genetic component performing a specific function in a predictable sequence.\n\nThe team has so far validated the two components separately. An earlier study demonstrated that Clostridium sporogenes could be modified to better tolerate oxygen, while a follow-up experiment confirmed the quorum-sensing trigger worked as intended using a fluorescent protein as a visible marker. The next milestone is combining both systems into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project emerged from the doctoral work of Bahram Zargar under Ingalls and retired Waterloo professor Dr. Pu Chen, with Dr. Sara Sadr, a former Waterloo doctoral student, playing a leading role in advancing the research. The university is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical application. If successful, the platform could offer a fundamentally new weapon against solid tumors — cancers that have long resisted many immunotherapies effective against blood cancers.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "quorum sensing"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T14:02:56.814Z"
+    },
+    {
+      "id": "ps-1772028194677-u8s5",
+      "slug": "wayve-secures-1-2b-to-scale-its-ai-first-autonomous-driving-",
+      "headline": "Wayve Secures $1.2B to Scale Its AI-First Autonomous Driving Platform",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusual coalition of tech giants, automakers, and institutional investors, signaling intensifying commercial interest in self-driving technology that can be sold as a platform rather than operated as a service.\n\nThe round, which could swell to $1.5 billion with an additional $300 million from Uber tied to robotaxi deployment starting in London, values Wayve at $8.6 billion. Eclipse, Balderton, and SoftBank Vision Fund 2 led the investment, with participation from Mercedes-Benz, Nissan, Stellantis, and returning backers Microsoft, Nvidia, and Uber. New institutional investors include Ontario Teachers' Pension Plan, Baillie Gifford, and British Business Bank.\n\nWhat distinguishes Wayve from better-known rivals like Waymo and Tesla is its business model. Founded in 2017 by CEO Alex Kendall, the company has no ambition to operate robotaxi fleets or build its own vehicles. Instead, it sells its end-to-end deep learning software — what it calls \"embodied AI\" — directly to automakers and mobility platforms. The system requires no high-definition maps, works with whatever sensors and chips an automaker already has in its vehicles, and learns to drive entirely from data. Kendall told TechCrunch that this hardware-agnostic approach is what makes the licensing model viable: \"If you build an autonomy stack that's specific to a sensor or compute architecture, you can't take option three.\"\n\nThe strategy is already generating commercial traction. Nissan plans to integrate Wayve's software into its advanced driver-assistance systems beginning in 2027, while Uber intends to launch commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, working across multiple vehicle manufacturers. Wayve's latest Gen 3 platform, built on Nvidia's Drive AGX Thor computing architecture, is designed to support both hands-free assisted driving and fully driverless Level 4 operation on city streets and highways.\n\nThe size and composition of the round reflect a broader industry conviction that autonomous driving is entering its commercialization phase. Nvidia, which has maintained a close development relationship with Wayve since 2018 and had previously signaled a potential $500 million strategic investment, participated again, though Kendall declined to specify the chipmaker's contribution. For automakers like Mercedes-Benz and Stellantis, backing Wayve represents a bet that licensing third-party AI may prove faster and cheaper than developing proprietary self-driving systems — a calculus that could reshape competitive dynamics across the automotive industry as the technology matures.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "artificial intelligence",
+        "self-driving cars",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T14:03:14.677Z"
+    },
+    {
+      "id": "ps-1772028209888-8p6q",
+      "slug": "u-s-trade-rep-greer-signals-tariff-increase-to-15-where-appr",
+      "headline": "U.S. Trade Rep Greer Signals Tariff Increase to 15% 'Where Appropriate'",
+      "subheadline": "Trump to sign supplemental proclamation as administration seeks 'continuity' in trade policy",
+      "body": "U.S. Trade Representative Jamieson Greer announced on Tuesday that President Donald Trump intends to sign a supplemental proclamation raising tariff rates to 15 percent in targeted areas, signaling a further escalation of the administration's aggressive trade agenda.\n\nGreer said the increases would apply \"where appropriate,\" though he did not specify which goods, sectors, or trading partners would be affected. The move is part of the administration's broader push for what Greer described as \"continuity\" in U.S. tariff policy — language suggesting the White House views the escalation as a natural extension of duties already in place rather than a dramatic new step.\n\nThe announcement adds another layer to an already complex tariff landscape that has kept global markets and trading partners on edge throughout the early months of Trump's second term. A supplemental proclamation is a legal mechanism that allows the president to modify existing trade measures without initiating an entirely new process, enabling the administration to adjust rates with relative speed. The choice of this instrument suggests the 15 percent level would build upon tariffs already enacted under prior executive orders or proclamations.\n\nFor businesses and importers, the lack of specificity around which products or countries will face the higher rate creates immediate uncertainty. Industries that have already been absorbing elevated duties — from manufacturing and agriculture to consumer electronics — will be watching closely for details on scope and timing. Trading partners, meanwhile, face renewed pressure to engage with Washington or risk bearing the cost of steeper barriers.\n\nThe broader implications depend heavily on implementation. A narrowly targeted increase could serve as leverage in ongoing bilateral negotiations, while a sweeping application could further strain supply chains and elevate consumer prices. Economists and market analysts will be scrutinizing the forthcoming proclamation for clues about the administration's strategic calculus and whether the move invites retaliatory measures from affected nations.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "tariffs",
+        "trade policy",
+        "Jamieson Greer",
+        "Trump administration",
+        "U.S. trade"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1744829079401-66fab1d0ab8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHx0YXJpZmZzJTIwdHJhZGUlMjBwb2xpY3l8ZW58MHwwfHx8MTc3MjAyODIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/us-to-raise-tariff-to-15-where-appropriate-greer-says-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T14:03:29.888Z"
+    },
+    {
+      "id": "ps-1772028223311-waxr",
+      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
+      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
+      "subheadline": "Sen. Blumenthal demands records on sanctions violations and dismissal of internal investigators who flagged the transactions",
+      "body": "Senator Richard Blumenthal, the ranking Democrat on the Senate Homeland Security Committee, has launched a formal investigation into Binance over allegations that $1.7 billion flowed from the cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal sent a letter on Tuesday to Binance co-CEO Richard Teng requesting records related to the exchange's dealings with two Hong Kong-based entities identified as the origin of the alleged transfers. One of the accounts belonged to Blessed Trust, a Hong Kong company that operated as a Binance vendor. The Connecticut senator also demanded documentation on the reported suspension and firing of four internal compliance investigators who first identified the suspicious transactions — dismissals that have drawn scrutiny from multiple news outlets including the New York Times, Wall Street Journal, and Fortune.\n\nBinance has categorically denied the allegations. \"Binance has strict KYC and compliance procedures in place, and there are no Iranian users on the platform,\" a company spokesperson said, calling the media reports false. The exchange said it canceled the flagged accounts and severed ties with Blessed Trust in January. In a blog post published Sunday, Binance characterized its \"sanctions-related exposure\" as minimal and disclosed that an internal investigation is underway, with a full report to be submitted to the U.S. Justice Department by February 25.\n\nThe probe reopens a wound that Binance has struggled to close. In November 2023, founder and former CEO Changpeng Zhao pleaded guilty to violating anti-money-laundering laws and permitting users in sanctioned countries, including Iran, to transact on the platform. The company paid $4.3 billion in penalties and agreed to exit the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nThe new investigation raises fresh questions about whether the world's largest crypto exchange has adequately reformed its compliance infrastructure since that landmark settlement. Blumenthal wrote that \"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange\" — a characterization that, if substantiated, could expose the company to additional legal jeopardy at a time when the crypto industry is seeking to rebuild trust with regulators and lawmakers.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Binance",
+        "Iran sanctions",
+        "Richard Blumenthal",
+        "crypto regulation",
+        "money laundering",
+        "Senate investigation"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T14:03:43.311Z"
     },
     {
       "id": "ps-1772027249095-e6u7",
@@ -43,27 +148,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20233",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T13:47:29.095Z"
-    },
-    {
-      "id": "ps-1772027265722-qopz",
-      "slug": "engineered-bacteria-designed-to-devour-tumors-from-the-insid",
-      "headline": "Engineered Bacteria Designed to Devour Tumors From the Inside Out",
-      "subheadline": "University of Waterloo team programs soil microbes with genetic 'circuits' to colonize and consume oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors and consuming them from within, deploying synthetic biology techniques to overcome a critical safety hurdle that has long complicated bacterial cancer therapies.\n\nThe approach centers on Clostridium sporogenes, a common soil bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of solid tumors are devoid of oxygen and rich in nutrients, they offer an ideal habitat for the microbe to multiply and destroy cancerous tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially colonizes the tumor's interior and eats it away.\n\nThe central challenge has been what happens at the tumor's oxygen-exposed periphery, where the strictly anaerobic bacteria die off before they can finish the job. To solve this, the team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed a failsafe to prevent the modified microbes from surviving in oxygen-rich environments like the bloodstream, where they could pose serious danger. Their solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after a sufficient colony has established itself inside the tumor does the accumulated signal flip on the oxygen-resistance gene. The result is a tightly controlled biological weapon that arms itself only when and where it is needed.\n\nThe work, published in ACS Synthetic Biology, details the construction and functional testing of this quorum-sensing circuit in Clostridium sporogenes. In experiments, the team programmed the bacteria to produce green fluorescent protein as a proof of concept, confirming the system activated precisely on schedule. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it in pre-clinical tumor models. The interdisciplinary project — spanning chemical engineering, applied mathematics, and microbiology — is being advanced through a collaboration with CREM Co Labs, a Toronto-based company co-founded by PhD student Bahram Zargar, who initiated the research. While bacterial cancer therapies remain years from the clinic, the Waterloo team's programmable safety architecture addresses one of the field's most persistent concerns and could mark a significant step toward making living therapeutics a viable weapon against solid tumors.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T13:47:45.722Z"
     },
     {
       "id": "ps-1772027282290-nem8",
@@ -106,71 +190,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T13:48:17.720Z"
-    },
-    {
-      "id": "ps-1772027312364-5hww",
-      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
-      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
-      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and dismissed compliance investigators",
-      "body": "Senator Richard Blumenthal, the top Democrat on the Senate Homeland Security Committee, has launched a formal investigation into Binance over allegations that $1.7 billion flowed through the cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal, who represents Connecticut, sent a letter on Tuesday to Binance co-chief executive Richard Teng requesting records related to the exchange's dealings with two Hong Kong-based entities identified as the origin of the suspect transfers. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong company that operated as a Binance vendor. The senator also demanded documentation regarding the suspension and firing of internal compliance investigators who initially flagged the alleged violations — dismissals that have been the subject of reporting by the New York Times, Wall Street Journal, and Fortune. \"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote.\n\nBinance has firmly denied the allegations. A spokesperson told reporters that the exchange maintains strict know-your-customer and compliance procedures and that no Iranian users are on the platform. The company called the media reports about dismissed investigators false. A Binance representative confirmed the exchange canceled the accounts tied to Blessed Trust and severed its relationship with the vendor in January. The company said in a blog post over the weekend that its \"sanctions-related exposure is minimal\" and disclosed that an internal investigation is underway, with a full report expected to be submitted to the U.S. Justice Department on February 25.\n\nThe probe reopens a wound that Binance has been trying to heal since November 2023, when founder and former CEO Changpeng Zhao pleaded guilty to violating anti-money-laundering laws and permitting users in sanctioned countries — including Iran — to transact on the platform. That case resulted in a $4.3 billion penalty and Binance's withdrawal from the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nThe renewed scrutiny arrives at a delicate moment for the broader crypto industry, which has been seeking to rebuild its regulatory standing after a series of enforcement actions. Should the Senate investigation corroborate the alleged sanctions violations, Binance could face additional legal exposure despite the sweeping settlement it reached just over two years ago. For the world's largest cryptocurrency exchange, the stakes extend well beyond compliance — they reach into the fundamental question of whether the platform can be trusted to police the flow of funds across its global network.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Binance",
-        "sanctions",
-        "Iran",
-        "Senate probe",
-        "Blumenthal",
-        "crypto regulation",
-        "compliance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T13:48:32.364Z"
-    },
-    {
-      "id": "ps-1772026336107-oasq",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now suggest material blueprints for structures with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of metamaterials that exhibit two of the most counterintuitive properties in materials science simultaneously: negative thermal expansion and a negative Poisson's ratio. The work, by Xiang-Long Peng and Bai-Xiang Xu, was published on the arXiv preprint server in February 2026.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures — engineered architectures composed of two different base materials arranged in precise geometric patterns. Unlike conventional materials that expand when heated and thin when stretched, these structures contract upon heating and expand laterally under tension. Such exotic behavior makes them highly attractive for aerospace, precision instruments, and other engineering systems where thermal distortion must be tightly controlled.\n\nTraditionally, designing these structures has been a painstaking forward process: engineers propose a geometry and material combination, then simulate or test whether it yields the desired properties. Peng and Xu flip this paradigm. They first generated a large dataset through computational homogenization, systematically varying geometrical features and base material properties across thousands of configurations. A forward neural network model was then trained to predict effective thermoelastic properties from a given structural design. The researchers report that this surrogate model can replace expensive finite-element simulations with near-instant predictions.\n\nThe more significant advance lies in the inverse models. The team developed six distinct neural network architectures, each tailored to a different design scenario defined by specific combinations of target properties and structural variables. These inverse models accept desired effective properties — such as a particular coefficient of thermal expansion or Poisson's ratio — and output recommended geometrical parameters and base material selections. To improve training, the researchers embedded the pre-trained forward model directly into the loss functions of the inverse models, creating a self-consistent feedback loop. For cases involving fixed base materials, the forward model was also used to generate supplementary training data.\n\nThe practical implications extend well beyond academic curiosity. Thermoelastic metamaterials are increasingly relevant in satellite structures, optical mounts, and microelectromechanical systems, where even small thermal deformations can degrade performance. A reliable inverse design tool could dramatically accelerate development cycles, allowing engineers to specify performance targets and receive actionable structural blueprints in seconds rather than weeks. While the current work focuses on two-dimensional honeycomb lattices, the methodology is broadly extensible to more complex three-dimensional architectures and additional material property targets.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719836567950-b0127bbbdf2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T13:32:16.107Z"
-    },
-    {
-      "id": "ps-1772026368392-uvpy",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and could swell to $1.5 billion if Uber exercises an additional $300 million commitment tied to robotaxi deployment in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including Ontario Teachers' Pension Plan, Baillie Gifford, and British Business Bank. Perhaps most notable is the direct involvement of three major automakers — Mercedes-Benz, Nissan, and Stellantis — all of which intend to integrate Wayve's technology into their vehicles. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic investment, though the company declined to confirm the final amount.\n\nWhat distinguishes Wayve from competitors like Waymo and Tesla is both its technical architecture and its business model. Founded in 2017 by CEO Alex Kendall, the company built an end-to-end deep learning system that does not depend on high-definition maps, specific sensor configurations, or particular computing chips. Instead, its software ingests data from whatever hardware an automaker already has installed and learns to drive from that data alone. This hardware-agnostic approach enables Wayve to sell its technology as a software layer to multiple partners simultaneously rather than operating its own fleet or bundling software with proprietary vehicles. \"We took a very contrarian view on the technology side,\" Kendall said. \"Now, when it comes to commercialization, we're also taking a contrarian business model approach.\"\n\nThe commercial traction is already materializing. Nissan has announced plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled the partnership's ambitions extend far beyond a pilot, noting plans to deploy together in more than 10 markets worldwide across multiple vehicle manufacturers. Wayve's latest Gen 3 platform, built on Nvidia's Drive AGX Thor computing architecture, is designed to support both hands-free assisted driving and fully driverless Level 4 capabilities on city streets and highways.\n\nThe fundraise underscores a pivotal moment in the autonomous driving industry, where the race is shifting from pure technology development to commercial scaling. By positioning itself as a supplier rather than an operator, Wayve is betting that the largest addressable market belongs to whoever can provide self-driving intelligence as a platform — a wager that some of the world's biggest automotive and technology companies are now willing to fund at billion-dollar scale.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "artificial intelligence",
-        "fundraising"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T13:32:48.392Z"
     },
     {
       "id": "ps-1772026383161-qfwk",
@@ -1027,28 +1046,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T02:03:13.897Z"
-    },
-    {
-      "id": "ps-1771980467941-4gc6",
-      "slug": "wayve-secures-1-8b-as-big-tech-and-automakers-bet-on-its-ai-",
-      "headline": "Wayve Secures $1.8B as Big Tech and Automakers Bet on Its AI Driving Stack",
-      "subheadline": "The UK startup, now valued at $8.6 billion, pitches a hardware-agnostic self-driving platform to OEMs and Uber",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round — part of a broader $1.8 billion capital raise — attracting investment from Nvidia, Uber, Mercedes-Benz, Nissan, Stellantis, and a roster of top-tier institutional backers. The deal values the London-based company at $8.6 billion and underscores the intensifying race among technology giants and legacy automakers to stake claims in the commercialization of self-driving technology.\n\nEclipse, Balderton, and SoftBank Vision Fund 2 led the round, with new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Returning backers Microsoft, Nvidia, and Uber also participated. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic investment. CEO Alex Kendall declined to confirm the chipmaker's exact contribution.\n\nFounded in 2017, Wayve has built what it calls an end-to-end deep learning system for autonomous driving — software that learns from data rather than relying on high-definition maps or specific sensor configurations. The approach allows its platform to run on whatever compute hardware and sensor suites an automaker already has installed in its vehicles. Wayve offers two tiers: an \"eyes on\" driver-assistance system and an \"eyes off\" fully autonomous system capable of Level 4 operation on city streets and highways. Its Gen 3 platform, unveiled last fall, is built on Nvidia's Drive AGX Thor computing architecture.\n\nThe company's business model represents a deliberate departure from competitors. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which embeds proprietary software in its own vehicles, Wayve sells its AI stack to third-party automakers and mobility platforms. Nissan plans to integrate Wayve's software into its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials using Wayve-equipped vehicles this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, working across multiple OEMs and geographies.\n\n\"We took a very contrarian view on the technology side,\" Kendall told TechCrunch. \"Now, when it comes to this phase of moving into commercialization, we're also taking a contrarian business model approach.\" He argued that selling generalizable AI to the broader automotive industry gives Wayve access to the largest possible addressable market — an option he said is only viable because the company's system is not locked to any particular hardware or mapping infrastructure. With three major automakers now both customers and investors, and Uber signaling a broad global rollout, Wayve appears to be positioning itself as the default autonomy supplier for companies unwilling to build the technology themselves.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "artificial intelligence",
-        "fundraising"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-8b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T00:47:47.941Z"
     }
   ]
 }
