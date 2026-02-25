@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T00:48:18.787Z",
+  "lastUpdated": "2026-02-25T01:03:27.240Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771981327076-tfba",
+      "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
+      "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Care Rights Debate",
+      "subheadline": "Barrister calls transfer of 33-year-old with full mental capacity 'totally unlawful' as NHS denies funding motivated the decision",
+      "body": "A 33-year-old disabled woman in England who was transferred to a nursing home against her explicit wishes — despite having full mental capacity — has ignited a national debate over the rights of people receiving NHS-funded continuing healthcare.\n\nLucinda Ritchie, who lived independently in an adapted bungalow in Billingshurst, West Sussex, with round-the-clock nursing care, was admitted to East Surrey Hospital last April with pneumonia. After ten months of treatment and complications, NHS Sussex's All Age Continuing Care commissioners informed her family she would not be returning home but would instead be placed in a nursing home in Uckfield — roughly an hour from her family. Ritchie, who communicates primarily through eye-gaze technology due to a constellation of conditions including Ehlers-Danlos syndrome, functional neurological disorder, Addison's disease, and epilepsy, refused consent. She was transferred in February regardless. Within two days, her condition deteriorated and she was rushed back to hospital by ambulance.\n\nNeil Allen, an independent barrister specializing in health law, told the BBC it was \"totally unlawful\" to move an adult with full mental capacity to a residential setting against their will — a characterization that cuts to the heart of a growing national crisis. Under NHS Continuing Healthcare rules, care decisions must be \"person-centred,\" and cost may only factor in when a patient's needs can be equally met through different arrangements. Ritchie's established nursing provider confirmed it could safely continue managing her complex needs — including tracheostomy and ventilation care — at home, where she had received 24-hour support for eight years. Her former solicitor, Andy McKay of Martin Searle Solicitors, said the care board never contacted the agency to verify this, and provided no substantive response to repeated legal inquiries.\n\nThe financial dimensions are stark. A nurse-led home package for someone with Ritchie's needs typically costs between £8,000 and £16,000 per week in the UK, while nursing home fees in southeast England run approximately £1,500 to £1,800 weekly. Ritchie's family believes her prolonged hospitalization gave commissioners an opening to switch to a cheaper care model. NHS Sussex has denied that funding considerations played any role, attributing the decision to clinical safety concerns following her extended intensive care stay. The organization confirmed it recognizes Ritchie has capacity but has not publicly explained its legal basis for overriding her refusal.\n\nBefore her hospitalization, Ritchie was pursuing a master's degree in sustainability at Southampton University, serving as a charity ambassador, and had been recognized as one of the UK's most influential disabled people in both 2023 and 2024 for her pioneering work on eye-gaze communication technology. \"Life will not be worth living if I cannot go home,\" she told the BBC. Allen warned that disputes between families and local NHS care boards over healthcare funding packages are occurring \"up and down the country all the time,\" with roughly 50,000 people in England eligible for fully NHS-funded continuing healthcare facing a system under severe financial strain.\n\nAllison Cannon, chief nursing officer at NHS Sussex, said the organization was \"committed to working with Lucinda and her family\" to ensure high-quality care, adding that plans had been in place for her transition from hospital. The case is likely to intensify scrutiny of how local NHS boards balance budgetary pressures against the legal rights and preferences of vulnerable patients.",
+      "category": "breaking",
+      "importance": 6,
+      "tags": [
+        "NHS",
+        "disability rights",
+        "continuing healthcare",
+        "UK healthcare funding",
+        "Lucinda Ritchie",
+        "nursing home"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2be8/live/880394b0-11a8-11f1-8efc-bb8df6087c73.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T01:02:07.076Z"
+    },
+    {
+      "id": "ps-1771981342730-ybtz",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that allows data-driven simulation models used in geological carbon storage projects to be updated for changing underground conditions hundreds of times faster than conventional retraining — while maintaining accuracy within three percent of a fully retrained model.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server, tackled a longstanding bottleneck in Dynamic Mode Decomposition (DMD), a widely used framework for building computationally cheap surrogate models of complex physical systems. DMD models learn the dominant patterns of fluid flow and pressure evolution from high-fidelity simulation data, but they are inherently tied to the specific reservoir properties — such as rock permeability and well placement — used during training. Any change to those properties has traditionally required generating entirely new simulation snapshots and rebuilding the surrogate from scratch, a process that largely negates the speed advantage these reduced-order models are designed to provide.\n\nThe new approach introduces two complementary update strategies that bypass the need for fresh simulation data altogether. When permeability changes uniformly across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in subsurface engineering — the technique modifies the model's spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced representation. In both cases, the adjustments are lightweight algebraic operations applied directly to the existing DMD operators.\n\nThe implications are particularly significant for carbon capture and storage (CCS) projects, where operators must evaluate numerous geological scenarios to optimize injection strategies, assess containment risks, and satisfy regulatory requirements. Full multiphase reservoir simulations can take hours or days for a single run, making real-time optimization and rapid what-if analyses impractical. By enabling near-instantaneous model updates, the method could substantially accelerate the design and monitoring workflows that underpin safe, large-scale CO₂ sequestration.\n\nThe work sits at the intersection of computational physics, control theory, and engineering optimization, reflecting a broader trend toward adaptive surrogate modeling in subsurface energy applications. While the results are demonstrated on carbon storage scenarios, the underlying update framework could in principle extend to other domains where DMD-based surrogates must accommodate shifting physical parameters without the luxury of retraining from new data.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "dynamic mode decomposition",
+        "carbon storage",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1455641139200-aebc8e447b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8ZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9uJTIwY2FyYm9uJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTE4MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T01:02:22.730Z"
+    },
+    {
+      "id": "ps-1771981358152-rv16",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "A synthetic biology approach uses quorum sensing to safely unleash oxygen-tolerant microbes inside solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered a strain of soil-dwelling bacteria to infiltrate solid tumors, consume them from the inside, and survive long enough to reach the oxygen-exposed outer edges — a feat that could open a fundamentally new front in cancer treatment.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives only in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide exactly those conditions. Once bacterial spores enter a tumor, they find abundant nutrients and begin multiplying rapidly, effectively colonizing and destroying cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge has been what the team calls the oxygen barrier. As the bacteria spread outward from the tumor core, they encounter regions with trace amounts of oxygen and begin dying off before the cancer is fully eliminated. To solve this, the researchers inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But simply making the microbes oxygen-resistant at all times would be dangerous — they could proliferate in oxygen-rich tissues like the bloodstream. The team's solution is an elegantly programmed safety switch: quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after enough bacteria have accumulated inside a tumor does the signal reach the threshold needed to activate the oxygen-tolerance gene. The modification stays dormant everywhere else in the body.\n\nIn work published in ACS Synthetic Biology, the team demonstrated the quorum-sensing circuit by programming C. sporogenes to produce green fluorescent protein, confirming the system activated precisely on cue. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo student Sara Sadr. The university is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical application. If pre-clinical results prove successful, the approach could eventually complement or even replace conventional treatments for solid tumors — which account for roughly 90 percent of all cancers and remain notoriously difficult to treat with immunotherapies alone.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T01:02:38.152Z"
+    },
+    {
+      "id": "ps-1771981373397-jt1r",
+      "slug": "stripe-exploring-potential-acquisition-of-paypal-in-landmark",
+      "headline": "Stripe Exploring Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage discussions to acquire some or all of PayPal, valued at roughly $40 billion",
+      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter — a combination that would reshape the global digital payments landscape.\n\nThe discussions remain in their earliest stages and may not result in a transaction, sources cautioned. Yet the mere prospect of a deal sent PayPal's stock slightly higher on Monday. PayPal, which owns both its namesake checkout service and the popular peer-to-peer platform Venmo, currently carries a market capitalization of approximately $40 billion — a fraction of Stripe's freshly minted private valuation. Stripe declined to comment on the report.\n\nThe potential acquisition talk surfaced on the same day Stripe released its annual letter revealing a tender offer that values the company at $159 billion, a 74 percent jump from the prior year. Investors participating in the share purchase include Andreessen Horowitz and Thrive Capital, and Stripe said it would also repurchase some of its own stock. The valuation cements Stripe's position as one of the most valuable private companies in the world, even as co-founder and CEO Patrick Collison has signaled that a public listing is not a near-term priority.\n\nA merger of the two companies would unite Stripe's dominant position in online merchant payment processing with PayPal's massive consumer-facing ecosystem, which spans roughly 400 million active accounts worldwide. The deal logic is straightforward: Stripe powers the backend infrastructure for millions of businesses, while PayPal and Venmo command deep brand recognition and consumer trust at the checkout. Combined, the entity would possess formidable leverage across both sides of digital commerce at a time when competition from Apple Pay, Block, and Adyen continues to intensify.\n\nStill, significant hurdles loom. Acquiring a publicly traded company of PayPal's scale would likely require Stripe to tap substantial debt financing or potentially accelerate its own path to public markets. Regulatory scrutiny from antitrust authorities in the United States and Europe would be virtually guaranteed, given the combined entity's commanding share of online payment volume. For now, the payments industry is watching closely to see whether early-stage interest evolves into a formal bid — or quietly fades away.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "payments",
+        "Venmo"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T01:02:53.397Z"
+    },
+    {
+      "id": "ps-1771981390062-72pq",
+      "slug": "south-korean-stocks-blast-past-6-000-as-memory-chip-boom-acc",
+      "headline": "South Korean Stocks Blast Past 6,000 as Memory Chip Boom Accelerates",
+      "subheadline": "Benchmark index clears new milestone just one month after crossing 5,000, driven by surging global memory demand",
+      "body": "South Korea's benchmark equity index has surged past the 6,000 level, marking a remarkable ascent that saw the market clear two historic milestones in the span of roughly a month, fueled by explosive global demand for memory semiconductors.\n\nThe breakthrough, reported on February 25, comes just weeks after the index crossed 5,000 for the first time — a level long considered a distant aspiration for Korean equities. The rapid succession of record highs underscores the outsized role that the country's semiconductor giants play in driving market valuations, as artificial intelligence infrastructure buildouts and data center expansion continue to fuel insatiable appetite for memory chips worldwide.\n\nSouth Korea is home to Samsung Electronics and SK Hynix, the world's two largest producers of DRAM and NAND flash memory. Both companies have benefited enormously from the AI-driven computing cycle, which demands vast quantities of high-bandwidth memory to train and run large language models and other intensive workloads. SK Hynix in particular has emerged as a critical supplier of HBM (high-bandwidth memory) chips to Nvidia, positioning it at the center of the AI hardware supply chain.\n\nThe speed of the Korean market's ascent is striking even by the standards of the current global tech rally. Clearing 1,000 index points in approximately 30 days suggests a level of momentum — and concentration risk — that may give some investors pause. The Korean benchmark has historically traded at a steep discount to peers in the United States and Japan, a phenomenon analysts have dubbed the \"Korea discount,\" attributed to governance concerns, geopolitical risk from North Korea, and heavy index weighting toward cyclical sectors. The memory chip supercycle appears to be narrowing that gap considerably.\n\nAnalysts caution that the sustainability of the rally depends on whether memory chip pricing power holds through the second half of 2026. While current demand signals remain robust, the semiconductor industry is notoriously cyclical, and any pullback in AI capital expenditure by major cloud providers could ripple quickly through Korean equities. For now, however, the market's trajectory reflects a broad investor conviction that the memory boom has further room to run.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "South Korea",
+        "memory chips",
+        "semiconductors",
+        "Samsung",
+        "SK Hynix",
+        "AI",
+        "stock market"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1765708685452-f2624c52869f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8U291dGglMjBLb3JlYSUyMG1lbW9yeSUyMGNoaXBzfGVufDB8MHx8fDE3NzE5ODEzODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T01:03:10.062Z"
+    },
+    {
+      "id": "ps-1771981406577-7dlv",
+      "slug": "stripe-weighs-potential-acquisition-of-paypal-in-payments-me",
+      "headline": "Stripe Weighs Potential Acquisition of PayPal in Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
+      "body": "Stripe is exploring a potential bid for all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would represent one of the largest fintech acquisitions in history and consolidate two companies at the forefront of stablecoin adoption. PayPal shares surged 7% on the news in late trading.\n\nThe deliberations are still in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of the potential combination has sent shockwaves through the payments industry. Stripe, which processed $1.9 trillion in payment volume last year and was recently valued at $159 billion, would be absorbing a company that — despite its decline — remains one of the most widely used digital payment platforms in the world. PayPal shares had already been climbing this week on prior buyout speculation before the Bloomberg report added fresh momentum.\n\nThe strategic logic extends well beyond traditional payments processing. Both companies have made aggressive moves into stablecoins and blockchain-based financial infrastructure. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to roughly $4 billion in market capitalization, offering users a way to transfer dollars across crypto networks around the clock at lower cost than conventional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to build Tempo, a payments-focused blockchain currently in testing. A merger would create a combined entity with formidable reach across both legacy and crypto-native payment rails.\n\nThe potential deal comes as PayPal has endured a punishing stretch. The company's stock has fallen approximately 80% from record highs reached in 2021, making it a comparatively affordable target despite its massive user base and brand recognition. For Stripe, which remains private, the acquisition could accelerate its expansion into consumer-facing payments and deepen its stablecoin capabilities in a single stroke.\n\nThe payments landscape has been rapidly evolving as stablecoins gain traction for cross-border transfers, merchant settlements, and everyday transactions. Bridge, Stripe's 2024 acquisition, has seen its stablecoin volume quadruple in recent months, underscoring growing real-world utility. Should Stripe and PayPal combine forces, the resulting entity would command an unrivaled position at the intersection of traditional finance and blockchain-based money movement — a convergence that many in the industry view as inevitable but few expected to arrive this dramatically.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "digital payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T01:03:26.577Z"
+    },
     {
       "id": "ps-1771980420281-dcr5",
       "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
@@ -21,47 +148,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T00:47:00.282Z"
-    },
-    {
-      "id": "ps-1771980436574-l1fp",
-      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
-      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
-      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to be updated for changing reservoir conditions without retraining — achieving results within three percent of fully retrained models while running hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, tackled a persistent bottleneck in computational modeling for carbon capture and storage (CCS). High-fidelity multiphase flow simulators, which track how injected CO₂ migrates through underground rock formations, are essential for optimizing storage operations but prohibitively expensive to run repeatedly. Dynamic Mode Decomposition (DMD), a data-driven framework that extracts simplified mathematical operators from simulation snapshots, has emerged as a promising surrogate approach — but with a critical limitation. When subsurface properties such as rock permeability or well placement change, the DMD operators become invalid, and engineers must regenerate simulation data and retrain the model from scratch, negating much of the computational savings.\n\nThe new work introduces two complementary strategies that sidestep this retraining requirement entirely. For uniform changes in permeability across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario reflecting the geological heterogeneity of actual storage formations — the approach modifies the spatial representation within the model's reduced basis, weighting high-permeability zones more heavily to capture their outsized influence on fluid migration.\n\nNumerical experiments validated both strategies against freshly trained surrogate models, demonstrating that the updated operators accurately reproduced CO₂ plume migration patterns and pressure buildup to within three percent accuracy. The lightweight update procedure executed hundreds of times faster than the conventional retrain-from-scratch workflow, a speedup that could prove transformative for real-time optimization and rapid scenario analysis in carbon storage operations.\n\nThe research sits at the intersection of computational physics, engineering, and optimization, and addresses a practical need that is growing more urgent as CCS projects scale worldwide. Governments and industry are investing billions in underground carbon storage as a climate mitigation strategy, but the geological uncertainty inherent in these projects demands extensive modeling of \"what-if\" scenarios — exactly the kind of rapid parametric exploration that this method enables. By preserving physical fidelity while dramatically reducing computational cost, the approach could help close the gap between the modeling demands of large-scale CCS deployment and the practical constraints of existing simulation tools.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1659576646172-0a3327f5b4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T00:47:16.574Z"
-    },
-    {
-      "id": "ps-1771980452034-arcy",
-      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
-      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have engineered bacteria capable of colonizing and consuming solid tumors from the inside, using a genetically programmed safety mechanism that prevents the microbes from becoming active in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a soil bacterium that thrives exclusively in oxygen-free environments. Because the cores of many solid tumors are composed of dead cells and devoid of oxygen, they provide ideal conditions for the microbe to multiply and begin breaking down cancerous tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge was overcoming what the team calls the oxygen barrier. As the bacteria expand outward from the tumor's anaerobic core, they encounter small amounts of oxygen at the tumor periphery and begin dying before they can eliminate the cancer entirely. To solve this, the researchers inserted an oxygen-tolerance gene from a related bacterial species. But activating that gene prematurely — say, in the oxygen-rich bloodstream — could pose serious safety risks. The team's solution was a natural bacterial communication process known as quorum sensing, in which microbes release chemical signals that strengthen as their population grows. Only after a sufficient number of bacteria have accumulated inside a tumor does the signal reach the threshold needed to switch on the oxygen-resistance gene. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo.\n\nIn earlier work, the team demonstrated that C. sporogenes could be genetically modified to better withstand oxygen. In a follow-up experiment, they validated the quorum-sensing design by programming bacteria to produce green fluorescent protein, confirming the activation system triggered at the intended moment. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project, led by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Dr. Pu Chen, draws on expertise spanning chemical engineering, applied mathematics, and life sciences. The university team is collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar. Former Waterloo doctoral student Dr. Sara Sadr also played a leading role in advancing the research. While clinical application remains years away, the work opens a promising new front in the treatment of solid tumors — which account for roughly 90 percent of all cancers and have historically resisted many immunotherapies effective against blood cancers.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "bacterial therapy",
-        "University of Waterloo",
-        "Clostridium sporogenes",
-        "quorum sensing"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T00:47:32.034Z"
     },
     {
       "id": "ps-1771980467941-4gc6",
@@ -107,27 +193,6 @@
       "publishedAt": "2026-02-25T00:48:02.728Z"
     },
     {
-      "id": "ps-1771980498694-mxvi",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, as PayPal shares surge 7% on the news",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, in what would represent one of the largest fintech deals ever attempted and a dramatic consolidation of stablecoin infrastructure under one roof.\n\nPayPal shares jumped 7% in late trading on the news, extending gains that had already begun earlier in the week amid buyout speculation. The stock remains roughly 80% below its 2021 peak, a prolonged decline that has made the once-dominant digital payments company an increasingly attractive target. Stripe, which processed $1.9 trillion in transactions last year and was most recently valued at $159 billion, would be absorbing a company that has struggled to regain momentum despite maintaining a vast user base and merchant network.\n\nThe strategic logic extends well beyond traditional payments. Both companies have made significant bets on stablecoins and blockchain-based financial infrastructure. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would create a combined entity with arguably the most comprehensive stablecoin toolkit in the payments industry — spanning issuance, distribution, and settlement.\n\nDeliberations remain in early stages, Bloomberg reported, and there is no certainty a deal will materialize. The scale of such a transaction would likely draw intense regulatory scrutiny, given both companies' central roles in global payment processing. Stripe remains privately held, and any acquisition of PayPal — whether in whole or in part — would represent a significant expansion of its already sprawling operations.\n\nThe potential combination underscores a broader thesis gaining traction across financial services: that stablecoins and blockchain rails are becoming core infrastructure rather than peripheral experiments. With traditional payment volumes under margin pressure and real-time settlement increasingly demanded by merchants and consumers alike, the race to control the next generation of money movement is accelerating. A Stripe-PayPal union would place a formidable bet that the future of payments runs on programmable dollars.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "fintech",
-        "mergers and acquisitions",
-        "PYUSD"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T00:48:18.694Z"
-    },
-    {
       "id": "ps-1771978635546-0ino",
       "slug": "researchers-demonstrate-non-invasive-microwave-method-for-de",
       "headline": "Researchers Demonstrate Non-Invasive Microwave Method for Deep Brain Stimulation",
@@ -147,26 +212,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.18477",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T00:17:15.546Z"
-    },
-    {
-      "id": "ps-1771978665382-w7ze",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage talks to buy some or all of PayPal, valued at roughly $40 billion",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to people familiar with the matter cited by Bloomberg. The discussions are reportedly in their earliest stages, and there is no certainty a transaction will materialize.\n\nThe revelation landed on the same day Stripe announced a tender offer valuing the privately held company at $159 billion — a striking 74% jump from its previous valuation. Investors participating in the latest share purchase, which allows employees to sell stock, include Andreessen Horowitz and Thrive Capital. Stripe also said it would repurchase some of its own shares. If consummated, an acquisition of PayPal would represent one of the largest deals in the history of the technology sector, potentially combining two of the most consequential companies in digital payments.\n\nPayPal, which trades publicly on the Nasdaq and carries a market capitalization of approximately $40 billion, owns the flagship PayPal platform as well as the popular peer-to-peer payments app Venmo. Its shares ticked higher following reports of Stripe's interest. The vast gap between Stripe's private valuation and PayPal's public market cap underscores how dramatically the competitive landscape in fintech has shifted: PayPal was once the undisputed leader in online payments, but Stripe's developer-friendly infrastructure approach has propelled it to a dominant position among e-commerce platforms and technology companies worldwide.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities, a stance that a major acquisition could complicate. Absorbing a publicly traded entity the size of PayPal would raise complex questions around deal structure, regulatory scrutiny, and whether Stripe might ultimately need to enter public markets itself to finance or integrate such a transaction.\n\nStripe declined to comment on the reports. For now, the talks remain preliminary, but even the prospect of a combination signals a new phase of consolidation in the payments industry — one in which the sector's most valuable private company may be preparing to reshape the competitive order entirely.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T00:17:45.382Z"
     },
     {
       "id": "ps-1771977731187-wv9w",
@@ -1015,47 +1060,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/jane-street-faces-claims-of-insider-trading-that-sped-up-terraform-s-2022-collapse-ft",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T12:03:46.063Z"
-    },
-    {
-      "id": "ps-1771933725577-eg4p",
-      "slug": "tata-sons-delays-vote-on-chairman-chandrasekaran-s-third-ter",
-      "headline": "Tata Sons Delays Vote on Chairman Chandrasekaran's Third Term",
-      "subheadline": "Board deferral at India's oldest conglomerate raises questions about a potential leadership struggle",
-      "body": "The board of Tata Sons, the holding company that controls India's sprawling Tata conglomerate, has postponed a vote on whether to extend Chairman Natarajan Chandrasekaran's tenure for a third term, according to people familiar with the matter — a move that signals possible friction at the highest levels of one of the country's most storied business empires.\n\nThe deferral is notable given Chandrasekaran's prominence in reshaping the Tata Group since taking over as chairman in 2017. A former chief executive of Tata Consultancy Services, he was brought in to stabilize the conglomerate after a bitter and very public boardroom battle that saw his predecessor, Cyrus Mistry, ousted in 2016. Under Chandrasekaran's leadership, the group has pushed aggressively into new sectors including electronics manufacturing, electric vehicles, and digital services, while consolidating legacy businesses such as steel and aviation.\n\nTata Sons sits atop a vast portfolio of companies — from TCS and Tata Motors to Tata Steel and the recently revived Air India — with combined revenues stretching well into the hundreds of billions of dollars. The holding company is majority owned by Tata Trusts, philanthropic organizations that channel much of their income into charitable activities, a structure that has historically created tension between commercial imperatives and the group's broader social mission.\n\nThe delayed board decision inevitably draws comparisons to the turbulent 2016 episode, when the removal of Mistry triggered years of legal disputes and reputational damage. While there is no public indication that the current situation will escalate to that degree, the deferral suggests that at least some board members or stakeholders are not yet aligned on Chandrasekaran's continued leadership. The reasons behind the postponement remain unclear, and neither Tata Sons nor Chandrasekaran have publicly commented on the matter.\n\nFor investors and partners watching closely, the development introduces a layer of uncertainty around a conglomerate that has been on an ambitious growth trajectory. Any prolonged leadership vacuum or contested succession at Tata Sons could ripple across its listed subsidiaries, which collectively represent a significant share of India's benchmark stock indices. The board is expected to revisit the matter in the coming weeks.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Tata Sons",
-        "Natarajan Chandrasekaran",
-        "corporate governance",
-        "India",
-        "leadership succession"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1757141975531-52ec10c32aee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8VGF0YSUyMFNvbnMlMjBEZWxheXMlMjBWb3RlJTIwQ2hhaXJtYW4lMjBDaGFuZHJhc2VrYXJhbnxlbnwwfDB8fHwxNzcxOTMzNzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/tata-defers-vote-on-chairman-s-new-term-signaling-power-tussle",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T11:48:45.577Z"
-    },
-    {
-      "id": "ps-1771930110467-qagh",
-      "slug": "dimon-warns-of-pre-2008-crisis-parallels-as-rivals-do-dumb-t",
-      "headline": "Dimon Warns of Pre-2008 Crisis Parallels as Rivals Do 'Dumb Things'",
-      "subheadline": "JPMorgan CEO says aggressive lending competition across the financial industry echoes patterns that preceded the last major meltdown",
-      "body": "JPMorgan Chase CEO Jamie Dimon has sounded an alarm over what he characterizes as reckless competitive behavior in the financial industry, drawing explicit comparisons to the lending frenzy that preceded the 2008 global financial crisis.\n\nSpeaking about intensifying competition across banking and finance, Dimon said he is observing rivals engaging in what he termed \"dumb things\" — a pattern he likened to the pre-crisis era when financial institutions aggressively loosened lending standards in a race to capture market share. That episode of unchecked risk-taking ultimately triggered the worst economic downturn since the Great Depression, requiring massive government bailouts and reshaping the regulatory landscape for a generation.\n\nThe warning carries particular weight coming from Dimon, who has led JPMorgan since 2005 and is widely regarded as one of the few major bank CEOs who navigated the 2008 crisis with relative success. JPMorgan emerged from that period stronger than most of its peers, in part because Dimon had pulled back from some of the riskiest mortgage products before the housing market collapsed. His track record lends credibility to assessments of systemic risk that might otherwise be dismissed as competitive posturing.\n\nDimon's remarks come at a time when the financial sector faces a complex landscape of pressures and opportunities. Interest rates have shifted significantly in recent years, private credit markets have ballooned, and competition from non-bank lenders has intensified. Banks have been vying aggressively for corporate lending mandates, leveraged finance deals, and consumer credit business, raising questions about whether underwriting discipline is being sacrificed for growth. The expansion of private credit, in particular, has drawn scrutiny from regulators concerned that risk is migrating to less-supervised corners of the financial system.\n\nWhile Dimon did not specify which competitors or lending practices concerned him most, his framing suggests he sees a broad loosening of standards rather than isolated pockets of excess. JPMorgan, the largest U.S. bank by assets, has historically used periods of competitor overreach to maintain pricing discipline and then expand when rivals retrench — a playbook that could once again prove prescient if credit conditions deteriorate. For now, Dimon's comments serve as a pointed reminder that the seeds of financial crises are typically sown during periods of prosperity and complacency.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Jamie Dimon",
-        "JPMorgan Chase",
-        "financial crisis",
-        "banking",
-        "credit risk",
-        "lending standards"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1754808682731-5d4430b38e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxkaW1vbiUyMHdhcm5zJTIwcHJlMjAwOHxlbnwwfDB8fHwxNzcxOTA1ODExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/dimon-sees-parallel-to-pre-crisis-era-as-rivals-do-dumb-things",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T10:48:30.467Z"
     }
   ]
 }
