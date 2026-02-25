@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T16:03:39.429Z",
+  "lastUpdated": "2026-02-25T16:18:49.689Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772036248218-d1rj",
+      "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
+      "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
+      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence that the former ambassador planned to travel abroad",
+      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he provided Metropolitan Police with information suggesting Lord Peter Mandelson could be a flight risk — a disclosure that preceded the peer's arrest on Monday as part of an investigation into alleged misconduct in public office.\n\nSpeaking before MPs shortly after the Times broke the story, Sir Lindsay said he considered it his \"duty and responsibility\" to pass on \"relevant\" information and that he had acted \"in good faith.\" According to the BBC, the Speaker received intelligence during a visit to the British Virgin Islands last week indicating Mandelson was planning to travel there. The Metropolitan Police reportedly conducted its own assessment of the tip's credibility before proceeding with the arrest at Mandelson's London home on Monday afternoon. The former Labour minister was taken to Wandsworth police station for questioning and later released on bail, surrendering his passport as a condition of his release.\n\nThe arrest has triggered a sharp dispute over its justification. Mandelson's legal team at Mishcon de Reya said their client had already agreed to a voluntary interview with police next month, making the custodial arrest unnecessary and based on a \"baseless\" flight risk claim. They have written to the Met demanding to know what evidence underpinned the decision. Adding to the confusion, the BBC reported that Mandelson's lawyers were told twice by police that the referral had come from Lord Forsyth, the Speaker of the House of Lords — a claim Forsyth has categorically denied, calling the suggestion \"entirely false and without foundation.\"\n\nThe underlying investigation centers on allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The probe was launched earlier this month after the U.S. Department of Justice released a cache of documents including emails between the two men. Mandelson's legal team maintains he committed no criminal act and was not motivated by financial gain.\n\nMandelson's fall has been dramatic. Appointed British ambassador to the United States in February 2025, he was dismissed by Downing Street in September after officials said new information had surfaced about the depth of his relationship with Epstein. The peer has said he intends to cooperate fully with the investigation to \"clear his name,\" but the circumstances of his arrest — and the behind-the-scenes intelligence sharing that precipitated it — have raised pointed questions about due process and the intersection of parliamentary authority with criminal proceedings.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mandelson",
+        "Lindsay Hoyle",
+        "Metropolitan Police",
+        "Jeffrey Epstein",
+        "UK politics",
+        "flight risk"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/b521/live/49b313c0-125c-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T16:17:28.218Z"
+    },
+    {
+      "id": "ps-1772036265890-m2wq",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now suggest material structures that simultaneously shrink when heated and expand when compressed",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties at once — negative thermal expansion and negative Poisson's ratios — a breakthrough that could accelerate the deployment of these exotic structures in aerospace, precision instruments, and other demanding engineering applications.\n\nXiang-Long Peng and Bai-Xiang Xu, reporting in a preprint posted to arXiv on February 12, describe a framework built on neural networks that flips the traditional materials design process on its head. Rather than proposing a structure and then calculating its properties, the inverse models accept a set of desired thermoelastic characteristics and output the geometric features and base material combinations needed to achieve them. The underlying architecture is a bimaterial hybrid-honeycomb lattice — a periodic structure assembled from two different constituent materials whose interplay gives rise to behavior impossible in either material alone.\n\nThe approach rests on a large computational dataset generated through high-throughput homogenization simulations that systematically varied the lattice geometry and the properties of the two base materials. A forward neural network was first trained on this dataset to predict effective thermoelastic properties from a given design, achieving what the authors describe as high accuracy at a fraction of the computational cost of direct simulation. That forward model was then embedded in the loss functions of six distinct inverse models, each tailored to a different design scenario defined by which target properties and structural variables are specified. In some cases, the forward model also served as a data generator, creating additional training examples for situations where the base materials are fixed and only geometry is varied.\n\nMetamaterials with negative Poisson's ratios — so-called auxetic materials — become thicker perpendicular to an applied stretch rather than thinning, while negative thermal expansion materials contract as temperature rises. Combining both traits in a single structure is highly desirable for applications where thermal stability and mechanical resilience must coexist, such as satellite components subject to extreme temperature swings or precision optical mounts. Designing such structures by hand or through brute-force simulation is prohibitively slow, making the machine learning shortcut potentially transformative for the field.\n\nThe work falls within a rapidly growing body of research applying data-driven methods to metamaterial design, but stands out for tackling the thermoelastic inverse problem with multiple model architectures and for integrating the forward predictor directly into inverse training. The authors note that the framework is readily extensible to other lattice topologies and multiphysics objectives, suggesting a broader toolkit for engineers seeking materials with properties not found in nature.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1525818682009-c2ba642605b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T16:17:45.890Z"
+    },
+    {
+      "id": "ps-1772036282655-gn2l",
+      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
+      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
+      "subheadline": "Lab experiments simulating Mars conditions suggest future missions should drill into pure ice, not rock, to find signs of life",
+      "body": "Amino acids from bacterial cells could remain intact for more than 50 million years if locked inside pure Martian ice, according to a new study by researchers at NASA's Goddard Space Flight Center and Penn State — a finding that could fundamentally redirect where and how future Mars missions search for traces of life.\n\nPublished in the journal Astrobiology, the study subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 20 million years of cosmic ray bombardment on the Martian surface, at temperatures of minus 60 degrees Fahrenheit to simulate conditions in the planet's icy regions. Researchers then modeled an additional 30 million years of exposure. The results were unexpectedly encouraging: more than 10 percent of amino acids — the essential building blocks of proteins — survived the full 50-million-year simulation in pure ice. That timescale far exceeds the estimated age of some current surface ice deposits on Mars, which are often less than two million years old.\n\nThe surprise came in the comparison. Samples mixed with Mars-like sediment, including silicate rocks and clay, broke down roughly 10 times faster and did not survive the simulation period. This contradicted expectations from a 2022 study by the same team, which had found that a mixture of 10 percent water ice and 90 percent Martian soil destroyed amino acids faster than sediment alone — leading scientists to assume pure water ice would perform even worse. \"It was surprising to find that the organic materials placed in water ice alone are destroyed at a much slower rate,\" said lead author Alexander Pavlov, a space scientist at NASA Goddard. The team hypothesizes that a thin film forming where ice meets mineral surfaces allows radiation damage to propagate more freely, while in solid ice, harmful particles generated by radiation become frozen in place and cannot reach organic compounds.\n\nThe implications extend well beyond Mars. The researchers also tested organic material at temperatures matching those on Europa, Jupiter's icy moon, and Enceladus, Saturn's ice-covered satellite. Deterioration slowed further at those colder extremes — a promising signal for NASA's Europa Clipper mission, which launched in 2024 and is expected to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell. Co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology, noted that while Mars harbors abundant ice, most of it lies just below the surface. \"Future missions need a large enough drill or a powerful scoop to access it, similar to the design and capabilities of Phoenix,\" he said, referencing NASA's 2008 Phoenix mission — the first to excavate and photograph subsurface Martian ice.\n\nThe study amounts to a clear strategic recommendation for planetary science: if microbial life ever arose on Mars, the most promising place to find its chemical fingerprints is not in rocks or soil, but in the planet's ancient, buried ice. That guidance could shape mission design and landing site selection for years to come.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T16:18:02.655Z"
+    },
+    {
+      "id": "ps-1772036296547-raz6",
+      "slug": "state-department-orders-diplomats-to-fight-foreign-data-sove",
+      "headline": "State Department Orders Diplomats to Fight Foreign Data Sovereignty Laws",
+      "subheadline": "A cable signed by Secretary Rubio frames data localization mandates as threats to AI advancement and global commerce",
+      "body": "The Trump administration has directed American diplomats worldwide to actively oppose foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal diplomatic cable reported by Reuters on February 25.\n\nThe cable, signed by Secretary of State Marco Rubio, instructs diplomats to push back against what it calls \"unnecessarily burdensome regulations, such as data localization mandates.\" It argues that data sovereignty laws would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats have also been ordered to monitor legislative proposals in their host countries that would promote data sovereignty frameworks and to advocate for the Global Cross-Border Privacy Rules Forum, an international body that certifies cross-border data protection standards as an alternative to localization requirements.\n\nThe directive arrives at a moment of intensifying global scrutiny over how American tech giants and AI companies exploit user data across borders. The European Union has been the most aggressive regulator, enacting the General Data Protection Regulation, the Digital Services Act, and the AI Act — a suite of laws designed to hold technology firms accountable for how they collect, store, and monetize personal information. Numerous other nations, from India to Brazil, have pursued or considered similar frameworks in recent years, creating a patchwork of rules that U.S. companies argue raises compliance costs and fragments the digital economy.\n\nThe cable represents a clear escalation of the administration's efforts to protect the competitive position of American AI and cloud computing firms, which depend on the free flow of training data and customer information across jurisdictions. By framing data sovereignty as both an economic and civil liberties issue, the State Department is attempting to build a broad coalition against localization mandates — even as critics argue that such laws exist precisely to protect citizens from unchecked corporate surveillance.\n\nThe U.S. State Department did not respond to requests for comment. The move underscores the growing tension between Washington's deregulatory stance on AI and the rest of the world's increasing appetite for digital governance, a rift that is likely to shape trade negotiations and diplomatic relations for years to come.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "data sovereignty",
+        "AI regulation",
+        "State Department",
+        "GDPR",
+        "data privacy",
+        "Marco Rubio",
+        "Big Tech"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T16:18:16.547Z"
+    },
+    {
+      "id": "ps-1772036312951-5zpm",
+      "slug": "wall-street-rallies-ahead-of-nvidia-earnings-as-ai-outlook-h",
+      "headline": "Wall Street Rallies Ahead of Nvidia Earnings as AI Outlook Hangs in Balance",
+      "subheadline": "Investors bid up equities hoping the chipmaker's results will reaffirm confidence in artificial intelligence spending",
+      "body": "U.S. stocks advanced on Monday as traders positioned ahead of Nvidia Corp.'s upcoming earnings report, widely viewed as a critical barometer for the health of the artificial intelligence trade that has dominated markets for more than two years.\n\nThe rally reflected a mix of cautious optimism and defensive positioning. Investors are looking to Nvidia — the dominant supplier of AI training chips and a company whose market capitalization has swelled past $3 trillion — for reassurance that corporate spending on AI infrastructure remains robust. The stakes are elevated: recent months have seen growing unease over whether the massive capital expenditures flowing into AI will translate into proportional returns, a debate intensified by the emergence of lower-cost competitors and efficiency breakthroughs that have raised questions about the trajectory of chip demand.\n\nNvidia's quarterly results, expected later this week, carry outsized significance for the broader market. The company has become a bellwether not just for the semiconductor sector but for the entire AI ecosystem, with its guidance on data center revenue and forward demand serving as a proxy for enterprise AI adoption. Analysts are watching closely for signals on order backlogs, supply chain constraints, and whether hyperscale customers such as Microsoft, Amazon, and Google parent Alphabet are maintaining or accelerating their infrastructure buildouts.\n\nThe pre-earnings optimism comes against a backdrop of broader market anxiety. Concerns about stretched valuations in technology stocks, uncertainty around trade policy, and questions about the Federal Reserve's rate path have all contributed to a more volatile trading environment in recent weeks. A strong Nvidia report could reinforce the narrative that AI-driven growth remains durable, potentially lifting sentiment across the tech sector. A disappointment, however, could accelerate the rotation away from megacap growth names that some strategists have been forecasting.\n\nFor now, the market's upward drift suggests traders are betting that Nvidia will deliver. But with so much riding on a single earnings report, the days ahead are likely to test whether the AI investment thesis can withstand the mounting scrutiny it now faces from both Wall Street and Washington.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "stock market",
+        "Wall Street",
+        "semiconductors"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1741392075783-87332ac08840?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxOdmlkaWElMjBlYXJuaW5nc3xlbnwwfDB8fHwxNzcyMDE2NDg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T16:18:32.951Z"
+    },
+    {
+      "id": "ps-1772036329578-tabg",
+      "slug": "bitcoin-surges-past-67-500-as-massive-short-squeeze-fuels-cr",
+      "headline": "Bitcoin Surges Past $67,500 as Massive Short Squeeze Fuels Crypto Rally",
+      "subheadline": "Over $307 million in bearish bets liquidated in 24 hours as altcoins jump 10% and U.S. buyers show signs of returning",
+      "body": "Bitcoin climbed more than 5% to approximately $67,500 on Wednesday, igniting a broad relief rally across digital assets after weeks of deeply negative sentiment that left bearish traders dangerously overexposed.\n\nThe rally liquidated over $307 million in leveraged short positions across crypto derivatives within 24 hours, according to CoinGlass data. Major altcoins posted even steeper gains, with Ethereum's ether reclaiming the $2,000 level on a 10% advance, while Solana, Dogecoin, Cardano, and Chainlink each rose more than 10%. The sharp reversal came after the Crypto Fear & Greed Index had languished in \"Extreme Fear\" territory for most of February, and perpetual futures funding rates had repeatedly turned negative — a telltale sign that short sellers had grown crowded in their positioning. Such conditions historically set the stage for violent upside squeezes when buying pressure materializes.\n\nNotably, bitcoin's perpetual funding rates remained below neutral even during the rally, suggesting the bounce was driven more by short covering and spot demand than by fresh leveraged speculation. The Coinbase Premium Index — a closely watched gauge of U.S. institutional participation — turned positive for the first time in over 40 days, while U.S. spot bitcoin ETFs recorded $257.7 million in inflows on Tuesday, their largest single-day haul since early February. Both signals point to a tentative return of American capital to the market after a prolonged period of risk aversion.\n\nCrypto-related equities joined the advance. Stablecoin issuer Circle surged 20% following an earnings beat tied to growing USDC issuance. Coinbase, Strategy (formerly MicroStrategy), and Galaxy Digital each gained between 5% and 6%, while bitcoin miners Bitfarms, Bitdeer, and MARA Holdings led the mining sector higher. Analyst Markus Thielen of 10x Research noted that many crypto-linked stocks had accumulated sizable short interest from hedge funds, leaving them vulnerable to precisely this kind of sharp reversal. The broader equity backdrop was supportive as well, with the S&P 500 up 0.6% and the Nasdaq 100 gaining 1.1% in early trading.\n\nDespite the rally, bitcoin remains down roughly 25% year to date, and questions linger about whether the bounce represents a genuine sentiment shift or merely a mechanical unwind of overcrowded bearish positioning. One potentially bullish signal: data showing that Strategy's stock has outperformed BlackRock's spot bitcoin ETF by 12% this year, indicating that risk-on appetite persists among some institutional allocators even amid the broader drawdown. Whether Wednesday's move marks a durable bottom or a temporary reprieve will likely depend on whether fresh spot demand can sustain momentum once the short squeeze exhausts itself.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "crypto rally",
+        "short squeeze",
+        "altcoins",
+        "crypto ETFs",
+        "Circle"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/03aa6be87d4ef182d8d960134c7186b61dfafebe-2050x1180.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/bitcoin-climbs-to-usd67-500-circle-leads-crypto-stocks-higher-as-bounce-strengthens",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T16:18:49.578Z"
+    },
     {
       "id": "ps-1772035344503-lmxz",
       "slug": "trump-s-record-length-state-of-the-union-riddled-with-mislea",
@@ -24,71 +152,6 @@
       "publishedAt": "2026-02-25T16:02:24.503Z"
     },
     {
-      "id": "ps-1772035361187-9aix",
-      "slug": "machine-learning-framework-tackles-inverse-design-of-exotic-",
-      "headline": "Machine Learning Framework Tackles Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now reverse-engineer lattice structures that shrink when heated and expand when compressed",
-      "body": "Researchers have developed a machine learning framework capable of designing metamaterials that simultaneously exhibit two counterintuitive physical properties — negative thermal expansion and negative Poisson's ratios — a combination that has long challenged engineers attempting to work backward from desired material behaviors to structural blueprints.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper published on the arXiv preprint server, describe a suite of neural network models trained on large datasets generated through computational homogenization of bimaterial hybrid-honeycomb structures. The approach addresses a fundamental bottleneck in metamaterials engineering: while simulating the properties of a given structure is computationally straightforward, determining which structure will produce a specific set of target properties — the inverse problem — is vastly more difficult due to the many-to-one mapping between designs and performance.\n\nThe team's methodology proceeds in two stages. First, a forward model learns to predict the effective thermoelastic properties of a lattice structure given its geometrical features and base material composition. This model is then embedded into the loss functions of six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and structural variables. The forward model also serves a secondary role, generating synthetic training data for cases involving fixed base materials, effectively bootstrapping the inverse models' learning. The bimaterial structures under study are hybrid honeycombs — lattices constructed from two different materials whose mismatched thermal expansion drives the exotic bulk behavior. Materials with negative Poisson's ratios, known as auxetics, grow thicker rather than thinner when stretched, while negative thermal expansion causes a material to contract upon heating. Together, these properties open possibilities in aerospace thermal management, precision instruments, and structural components subjected to extreme temperature swings.\n\nThe authors report strong predictive performance across representative design examples, with the inverse models successfully proposing geometrical parameters and material pairings that yield user-specified thermoelastic targets. By replacing computationally expensive optimization loops with rapid neural network inference, the framework could accelerate the deployment of such metamaterials in practical engineering systems where tailored thermal and mechanical responses are critical.\n\nThe work sits at the intersection of computational materials science and deep learning, joining a growing body of research that leverages data-driven methods to navigate the vast design spaces of architected materials. While the current study focuses on two-dimensional lattice structures, the authors suggest the methodology is extensible to more complex three-dimensional architectures — a step that would bring machine learning-driven metamaterial design closer to real-world manufacturing constraints.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1752428464180-81cc2d4bd5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T16:02:41.187Z"
-    },
-    {
-      "id": "ps-1772035376927-rpjo",
-      "slug": "ancient-microbial-life-could-persist-50-million-years-in-mar",
-      "headline": "Ancient Microbial Life Could Persist 50 Million Years in Martian Ice",
-      "subheadline": "NASA and Penn State lab experiments reshape the search for life on Mars, urging future missions to drill into ice rather than rock",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure more than 50 million years inside pure water ice, even under relentless bombardment by cosmic radiation. The findings, published in the journal Astrobiology, could fundamentally redirect how future Mars missions hunt for signs of ancient biology.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and exposed them to gamma radiation at minus 60 degrees Fahrenheit, replicating the punishing environment near the Martian surface. The radiation dose was equivalent to 20 million years of cosmic ray exposure, later extended to 50 million years through computational modeling. In the pure ice samples, more than 10 percent of amino acids survived the full simulated duration — a result that surprised even the research team. Samples mixed with Mars-like silicate rock and clay, by contrast, degraded 10 times faster and did not survive.\n\nThe counterintuitive result overturned expectations set by a 2022 study from the same group, which had found that organic material in a slurry of 10 percent water ice and 90 percent Martian soil broke down rapidly. Scientists had assumed pure ice would fare even worse. Instead, lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, reactive particles generated by radiation become frozen in place, unable to reach and destroy nearby organic molecules. In mixed samples, a thin film that forms where ice meets mineral grains appears to allow radiation-produced particles to migrate more freely, accelerating destruction.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and observed even slower deterioration. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and will arrive at Jupiter in 2030 to conduct 49 close flybys of Europa, investigating whether its subsurface ocean could harbor life.\n\nFor Mars exploration specifically, the study makes a clear practical recommendation: future missions should prioritize drilling into clean, buried ice deposits rather than analyzing surface rocks or soil. Christopher House, a Penn State geosciences professor and co-author, noted that many current Martian surface ice deposits are less than two million years old — well within the 50-million-year preservation window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said, adding that accessing subsurface ice will require robust drilling or scooping capabilities similar to those on NASA's 2008 Phoenix lander, the first mission to excavate and photograph Martian ice. The research was funded by NASA's Planetary Science Division.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "extraterrestrial life",
-        "Europa Clipper",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T16:02:56.927Z"
-    },
-    {
-      "id": "ps-1772035391424-7z9j",
-      "slug": "state-department-orders-diplomats-to-fight-foreign-data-sove",
-      "headline": "State Department Orders Diplomats to Fight Foreign Data Sovereignty Laws",
-      "subheadline": "A cable signed by Secretary Rubio frames data localization mandates as obstacles to U.S. AI dominance abroad",
-      "body": "The Trump administration has directed American diplomats worldwide to actively lobby against foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on February 25.\n\nThe cable, signed by Secretary of State Marco Rubio, instructs diplomats to push back against what it calls \"unnecessarily burdensome regulations, such as data localization mandates.\" It argues that data sovereignty laws would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats were also ordered to track legislative proposals in their host countries that could promote data sovereignty measures and to advocate for the Global Cross-Border Privacy Rules Forum, an international framework designed to facilitate cross-border data transfers through standardized privacy certifications.\n\nThe directive arrives at a moment of escalating global tension over data governance. The European Union has established itself as the most aggressive regulator in this space, having enacted the General Data Protection Regulation, the Digital Services Act, and most recently the AI Act — a suite of laws designed to constrain how technology companies collect, store, and exploit user data. Numerous other nations, from India to Brazil, have pursued or are considering their own data localization requirements that would compel companies to keep certain categories of citizen data within national borders.\n\nFor the Trump administration, the calculus is straightforward: data localization requirements impose operational costs on American cloud and AI companies — including giants like Google, Microsoft, Amazon, and OpenAI — and could fragment the global data infrastructure that underpins their competitive advantage. The cable effectively positions unrestricted cross-border data flows as a pillar of U.S. economic and technological strategy, particularly as Washington races to maintain American dominance in artificial intelligence against rising competition from China.\n\nCritics of the approach are likely to argue that framing foreign privacy protections as threats to civil liberties inverts the reality for citizens whose data is being harvested by foreign corporations with limited accountability. The State Department did not respond to requests for comment on the cable. The order nonetheless signals a clear escalation in Washington's willingness to deploy diplomatic resources in service of its technology industry's global ambitions.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "data sovereignty",
-        "State Department",
-        "AI policy",
-        "data privacy",
-        "GDPR",
-        "Marco Rubio",
-        "Big Tech"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T16:03:11.424Z"
-    },
-    {
       "id": "ps-1772035404478-e87e",
       "slug": "us-to-raise-tariffs-to-15-where-appropriate-trade-rep-greer-",
       "headline": "US to Raise Tariffs to 15% 'Where Appropriate,' Trade Rep Greer Says",
@@ -107,49 +170,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/us-to-raise-tariff-to-15-where-appropriate-greer-says-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T16:03:24.478Z"
-    },
-    {
-      "id": "ps-1772035419322-mz1p",
-      "slug": "bitcoin-surges-to-67-500-as-massive-short-squeeze-unwinds-be",
-      "headline": "Bitcoin Surges to $67,500 as Massive Short Squeeze Unwinds Bearish Bets",
-      "subheadline": "Over $307 million in short positions liquidated as crypto market stages broadest relief rally in weeks",
-      "body": "Bitcoin jumped more than 5% to approximately $67,500 on Wednesday, igniting a sweeping relief rally across digital assets after weeks of deeply bearish positioning left the crypto market primed for a violent reversal. The move liquidated over $307 million in leveraged short bets in just 24 hours, according to CoinGlass data.\n\nMajor altcoins outpaced bitcoin's gains by a wide margin. Ethereum reclaimed the $2,000 level for the first time in a week with a 10% advance, while Solana, Dogecoin, Cardano, and Chainlink each surged more than 10%. The rally came after the Crypto Fear & Greed Index had languished at \"Extreme Fear\" levels for most of February, and perpetual futures funding rates had turned negative multiple times — a classic signal that bearish bets had become overcrowded. Notably, even amid Wednesday's bounce, bitcoin funding rates remained below neutral, suggesting the move was driven more by short covering than fresh leveraged speculation.\n\nCrypto-related equities joined the advance. Circle, the USDC stablecoin issuer, led the group with a 20% jump after reporting better-than-expected fourth-quarter earnings. Coinbase, Strategy (formerly MicroStrategy), and Galaxy Digital each gained between 5% and 6%. Bitcoin mining stocks including Bitfarms, Bitdeer, and MARA Holdings also extended recent rebounds. Analyst Markus Thielen of 10x Research noted that many crypto-linked stocks had attracted sizable short interest from hedge funds, leaving them vulnerable to the same squeeze dynamics playing out in digital assets themselves.\n\nSeveral indicators pointed to a tentative return of U.S. institutional buyers. The Coinbase Premium Index — which tracks the price gap between bitcoin on Coinbase and global averages and serves as a proxy for American capital flows — turned positive for the first time in more than 40 days. Meanwhile, U.S. spot bitcoin ETFs recorded $257.7 million in net inflows on Tuesday, the strongest single-day total since early February. The broader risk environment provided a supportive backdrop, with the S&P 500 up 0.6% and the Nasdaq 100 gaining 1.1% in early trading.\n\nDespite the bounce, bitcoin remains down roughly 25% year to date, and analysts cautioned that one day of short covering does not necessarily mark a durable bottom. The speed of the reversal, however, underscored how lopsided bearish positioning had become — and how quickly sentiment can shift when forced liquidations cascade through a thinly traded market.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "crypto",
-        "short squeeze",
-        "altcoins",
-        "ETF inflows",
-        "Circle"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/03aa6be87d4ef182d8d960134c7186b61dfafebe-2050x1180.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/bitcoin-climbs-to-usd67-500-circle-leads-crypto-stocks-higher-as-bounce-strengthens",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T16:03:39.322Z"
-    },
-    {
-      "id": "ps-1772034438516-6twd",
-      "slug": "uk-commons-speaker-passed-flight-risk-tip-to-police-before-m",
-      "headline": "UK Commons Speaker Passed Flight Risk Tip to Police Before Mandelson Arrest",
-      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after receiving information Lord Mandelson planned to travel abroad",
-      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally passed information to the Metropolitan Police suggesting Lord Mandelson could be a flight risk — a tip that appears to have precipitated the former Labour minister's arrest on Monday as part of a criminal probe into alleged misconduct in public office.\n\nSpeaking to MPs after the Times first reported his involvement, Sir Lindsay said he considered it his \"duty and responsibility\" to relay \"relevant\" information he received during a visit to the British Virgin Islands last week indicating that Lord Mandelson was planning to travel there. He said he acted \"in good faith\" and expressed regret that the matter had quickly leaked to the media. The revelation adds a dramatic parliamentary dimension to an already extraordinary case involving one of Britain's most prominent political figures and his ties to the late convicted sex offender Jeffrey Epstein.\n\nLord Mandelson's legal team at Mishcon de Reya has strongly contested the arrest, arguing their client had already agreed to a voluntary police interview next month and that the flight risk claim was \"baseless.\" The lawyers said police twice told them the referral came from Lord Forsyth, the Speaker of the House of Lords — an assertion Lord Forsyth has categorically denied, calling the suggestion \"entirely false and without foundation.\" The conflicting accounts have prompted Mandelson's lawyers to formally write to the Met demanding to know what information and evidence underpinned the decision to take their client into custody. The Metropolitan Police declined to comment but is understood to have conducted its own credibility assessment of the tip before proceeding with the arrest.\n\nMandelson, 71, was detained at his London home on Monday afternoon and taken to Wandsworth police station for questioning before being released on bail. He surrendered his passport as a condition of his release. The investigation centers on allegations that, while serving as a government minister, he passed market-sensitive information to Epstein. The allegations surfaced after the U.S. Department of Justice released a tranche of documents last month containing emails between the two men. Mandelson's legal team maintains he committed no criminal act and was not motivated by financial gain.\n\nThe case has already cost Lord Mandelson his post as British ambassador to the United States, a role he assumed in February 2025 before being dismissed in September after Downing Street said new information had emerged about the depth of his relationship with Epstein. His lawyers say he intends to cooperate fully with investigators to \"clear his name,\" but the questions surrounding the circumstances of his arrest — and the Speaker's unusual role in triggering it — are likely to intensify parliamentary scrutiny in the days ahead.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mandelson",
-        "Lindsay Hoyle",
-        "Metropolitan Police",
-        "Epstein",
-        "UK politics",
-        "flight risk",
-        "misconduct in public office"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/b521/live/49b313c0-125c-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T15:47:18.516Z"
     },
     {
       "id": "ps-1772034471414-9lxi",
@@ -256,27 +276,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-25T14:48:04.462Z"
-    },
-    {
-      "id": "ps-1772030899644-458f",
-      "slug": "wall-street-rallies-ahead-of-nvidia-earnings-as-ai-outlook-h",
-      "headline": "Wall Street Rallies Ahead of Nvidia Earnings as AI Outlook Hangs in Balance",
-      "subheadline": "Traders bid up equities hoping the chipmaker's results will reaffirm confidence in artificial intelligence spending",
-      "body": "U.S. stocks advanced on Monday as investors positioned ahead of Nvidia Corp.'s upcoming earnings report, widely viewed as a critical barometer for the health of the artificial intelligence trade that has dominated markets for more than two years.\n\nThe rally reflected a market eager for reassurance. Nvidia, whose chips power the vast majority of AI training workloads, has become a bellwether not just for the semiconductor sector but for the broader thesis that corporate America's massive investment in AI infrastructure will deliver meaningful returns. Traders bid equities higher in anticipation that the company's results would validate continued spending by hyperscale cloud providers and enterprise customers alike.\n\nThe stakes are unusually high this quarter. Anxiety about the durability of the AI boom has intensified in recent months, fueled by questions about whether the billions of dollars flowing into data centers and GPU clusters will translate into sustainable revenue growth across the technology ecosystem. Concerns about competition, export restrictions on advanced chips, and the pace of AI adoption have all weighed on sentiment, making Nvidia's forward guidance arguably more consequential than the headline numbers themselves.\n\nNvidia's earnings have repeatedly served as inflection points for the broader market. Strong results and bullish forecasts have historically triggered broad-based rallies across technology and growth stocks, while any hint of softening demand has sent ripples through portfolios heavily weighted toward the AI theme. With the S&P 500's concentration in a handful of mega-cap tech names near historic levels, the report carries outsized implications for index-level performance.\n\nFor investors, the pre-earnings optimism suggests a market that remains fundamentally committed to the AI investment thesis despite mounting skepticism. Whether that confidence proves well-placed will likely depend on Nvidia's ability to demonstrate that demand for its next-generation chips continues to outstrip supply — and that the AI infrastructure buildout still has significant runway ahead.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "Wall Street",
-        "S&P 500",
-        "semiconductors"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1568142557204-8757becbb6cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8d2FsbCUyMHN0cmVldCUyMHJhbGxpZXN8ZW58MHwwfHx8MTc3MjAzMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T14:48:19.644Z"
     },
     {
       "id": "ps-1772029964959-5qf2",
