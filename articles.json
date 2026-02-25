@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T06:48:21.069Z",
+  "lastUpdated": "2026-02-25T07:03:28.221Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772002927283-s6kp",
+      "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
+      "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Care Rights Debate",
+      "subheadline": "Legal experts call the forced transfer of a 33-year-old with full mental capacity 'totally unlawful,' highlighting a national funding crisis",
+      "body": "A 33-year-old disabled woman in England who was moved from her own home to a nursing home without her consent has spoken out about feeling \"betrayed, worthless and frightened,\" in a case that legal experts say exposes a growing national crisis over NHS funding for complex care packages.\n\nLucinda Ritchie, who lived independently in an adapted bungalow in Billingshurst, West Sussex, with round-the-clock nursing care, was admitted to East Surrey Hospital last April with pneumonia. After 10 months of complications that prolonged her stay, NHS Sussex's All Age Continuing Care commissioners informed her family in February that she would be transferred not back to her home but to a nursing home in Uckfield — an hour's drive from her family. Ritchie, who communicates primarily through eye-gaze technology due to multiple conditions including Ehlers-Danlos syndrome, functional neurological disorder, and epilepsy, explicitly refused the transfer. Her mother, Christine Ritchie, told the BBC that her daughter's powered wheelchair was \"switched off and pushed\" during the move. Within 48 hours of arriving at Temple Grove Nursing Home, Ritchie's condition deteriorated so severely that she was rushed to hospital by ambulance.\n\nNeil Allen, an independent barrister specializing in health and social care law, described the forced transfer of an adult with full mental capacity as \"totally unlawful\" and \"very unusual.\" Under NHS Continuing Healthcare rules, care decisions must be \"person-centred,\" and if a patient with capacity refuses a residential placement, that refusal must be respected. NHS Sussex has confirmed to the BBC that it recognizes Ritchie has capacity, yet has not explained its legal rationale for overriding her wishes. The health body denied that cost played any role, citing clinical safety concerns following Ritchie's extended ICU stay.\n\nThe financial dimension of the case is difficult to ignore. A 24-hour nurse-led home care package for someone with tracheostomy and ventilation needs typically costs between £8,000 and £16,000 per week in the UK, while nursing home fees in southeast England run roughly £1,500 to £1,800 weekly. Ritchie's former solicitor, Andy McKay of Martin Searle Solicitors, said the nursing agency that had supported her at home for eight years confirmed it could safely continue meeting her complex needs — but was never contacted by the care board to discuss this option. \"Ultimately, I believe it's all about funding,\" McKay said. Allen confirmed that disputes between families and local NHS boards over the cost of continuing healthcare packages are occurring \"up and down the country all the time,\" driven by tight budgets and rising demand among the roughly 50,000 people in England eligible for full NHS-funded continuing care.\n\nBefore her hospitalization, Ritchie was pursuing a master's degree in sustainability at Southampton University, serving as a charity ambassador and keynote speaker, and had been recognized on the Disability Power 100 list in both 2023 and 2024 for her pioneering work on eye-gaze communication technology. She told the BBC that life \"will not be worth living\" if she cannot return home, where she has autonomy over her surroundings, access to a wheelchair-adapted van, and the ability to see family and friends freely. NHS Sussex's chief nursing officer, Allison Cannon, said the organization is \"committed to working with Lucinda and her family\" to plan her long-term care, but offered no timeline for resolution.",
+      "category": "breaking",
+      "importance": 6,
+      "tags": [
+        "NHS",
+        "disability rights",
+        "continuing healthcare",
+        "UK health policy",
+        "care funding"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2be8/live/880394b0-11a8-11f1-8efc-bb8df6087c73.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T07:02:07.283Z"
+    },
+    {
+      "id": "ps-1772002944319-kbi8",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now suggest material compositions and geometries for lattices with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — structures that exhibit the rare combination of negative Poisson's ratios and negative thermal expansion coefficients. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses one of the most persistent bottlenecks in advanced materials engineering: starting from desired properties and working backward to find the structure that produces them.\n\nMetamaterials that simultaneously shrink when heated (negative thermal expansion) and expand laterally when stretched (negative Poisson's ratio) hold enormous promise for aerospace, precision instrumentation, and other fields where thermal distortion can be catastrophic. But designing such materials from scratch has traditionally required painstaking trial-and-error simulation or deep expert intuition. The bimaterial hybrid-honeycomb structures at the center of this study achieve their exotic behavior through the interplay of two constituent materials with different thermal and elastic properties, arranged in carefully tuned geometric patterns — making the design space vast and difficult to navigate manually.\n\nTo tackle this, Peng and Xu first generated a large dataset using computational homogenization, sweeping across variations in geometric features and base material properties. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design, achieving high accuracy at a fraction of the computational cost of full simulations. The real advance came with six distinct inverse models, each configured for different design scenarios — some targeting specific effective properties while allowing material choice to vary, others fixing the base materials and optimizing geometry alone. Crucially, the trained forward model was embedded directly into the loss functions of the inverse models, creating a feedback loop that enforces physical consistency during training.\n\nThe approach represents a significant step toward on-demand metamaterial design. Rather than screening thousands of candidate structures through expensive finite-element simulations, engineers could specify a target set of thermal expansion coefficients and mechanical properties and receive actionable design parameters in return. The researchers demonstrated the framework's effectiveness through representative design examples, showing that the inverse models reliably suggest geometries and material combinations that meet prescribed performance targets.\n\nThe work sits at a busy intersection of materials science and artificial intelligence, where machine learning is increasingly being used not just to accelerate simulation but to fundamentally reshape the design workflow. As advanced manufacturing techniques like multi-material 3D printing make it feasible to fabricate complex lattice architectures, computational tools that can efficiently navigate the design space become essential infrastructure for next-generation engineering systems.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544121368-f8f82eaf420a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T07:02:24.319Z"
+    },
+    {
+      "id": "ps-1772002960576-aiyv",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "Synthetic biology approach uses quorum sensing to activate oxygen-tolerant microbes only inside solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate and consume solid tumors from the inside, deploying synthetic DNA circuits that activate the microbe's cancer-killing capabilities only when conditions are safe. The work, published in ACS Synthetic Biology, represents a notable advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide an ideal habitat. Bacterial spores injected into the body migrate to these cores, where they germinate, multiply, and begin consuming the nutrient-rich tumor tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the research.\n\nThe central engineering challenge has been what happens at the tumor's oxygen-exposed edges. As the bacteria spread outward from the anoxic core, even trace amounts of oxygen kill them before they can eliminate the entire mass. To overcome this, the team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But activating that gene prematurely would pose a serious safety risk — oxygen-tolerant bacteria could proliferate in the bloodstream or healthy tissue. The solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The engineered circuit switches on the oxygen-resistance gene only after enough bacteria have accumulated inside a tumor, ensuring the modification activates exclusively where it is needed.\n\nIn earlier work, the team demonstrated that C. sporogenes could be genetically modified for improved oxygen tolerance. In their latest study, they validated the quorum-sensing control system by programming the bacteria to produce green fluorescent protein at a specific population threshold, confirming precise timing. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, an applied mathematics professor at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it in pre-clinical tumor models. The Waterloo group is collaborating with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar, who initiated the research alongside Ingalls and retired Waterloo professor Pu Chen. Former doctoral student Sara Sadr played a leading role in advancing the experimental work. If pre-clinical results prove successful, the platform could offer a fundamentally new modality for attacking solid tumors — the category that accounts for roughly 90 percent of all cancers and remains stubbornly resistant to many immunotherapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "bacterial engineering",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T07:02:40.576Z"
+    },
+    {
+      "id": "ps-1772002975847-mdqx",
+      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
+      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
+      "subheadline": "UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and signals intensifying competition in the race to commercialize self-driving technology. The total raise could swell to $1.5 billion if an additional $300 million from Uber materializes, contingent on the deployment of robotaxis beginning in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including the Ontario Teachers' Pension Plan, Baillie Gifford, and the British Business Bank. Perhaps most notably, three global automakers — Mercedes-Benz, Nissan, and Stellantis — invested as well, each with plans to integrate Wayve's technology into their vehicles. Nvidia, which had signaled it was evaluating a $500 million strategic investment, participated but did not disclose its exact contribution.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked out a distinctive position in the autonomous driving landscape. Rather than relying on high-definition maps or proprietary sensor configurations, the company built an end-to-end deep learning system that ingests data from whatever sensors and computing hardware an automaker already has installed. This hardware-agnostic approach underpins two product lines: an \"eyes on\" assisted-driving system and an \"eyes off\" fully autonomous system capable of Level 4 driverless operation on city streets and highways. Wayve's Gen 3 platform, unveiled last fall, runs on Nvidia's Drive AGX Thor computing kit.\n\nThe business model is equally unconventional. Unlike Waymo, which largely operates its own robotaxi fleets, or Tesla, which bundles software with its own vehicles, Wayve sells its \"embodied AI\" as a software layer to automakers and mobility platforms. Kendall told reporters the approach targets the largest addressable market in autonomous driving but is only viable because the AI generalizes across different hardware and environments. \"If you build an autonomy stack that's specific to a sensor or compute architecture, then you can't take option three,\" he said.\n\nThe commercial pipeline is already taking shape. Nissan plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled ambitions well beyond a pilot program, stating the companies plan to deploy together in more than 10 markets worldwide across multiple automaker partnerships. For an industry that has consumed tens of billions of dollars in development capital with limited commercial returns, Wayve's ability to attract both technology investors and the automakers who would actually ship its software suggests the self-driving sector may be entering a new phase — one where the business model matters as much as the technology.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "Series D",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T07:02:55.847Z"
+    },
+    {
+      "id": "ps-1772002992710-c6cy",
+      "slug": "global-stocks-rally-as-ai-sector-jitters-subside-dollar-weak",
+      "headline": "Global Stocks Rally as AI Sector Jitters Subside, Dollar Weakens",
+      "subheadline": "Technology shares lead broad advance from Wall Street into Asia as weeks of artificial intelligence turbulence show signs of fading",
+      "body": "Global equity markets extended a technology-driven rally on Tuesday, with gains spreading from Wall Street into Asian trading sessions as investor anxiety over artificial intelligence disruption began to ease following several weeks of market turbulence.\n\nThe advance was led by technology shares, which had borne the brunt of a volatile stretch fueled by concerns about the pace and implications of AI development. The relief rally lifted major U.S. benchmarks before carrying momentum into Asian markets, suggesting a broader stabilization in sentiment after a period in which AI-related headlines had whipsawed valuations across the sector. The U.S. dollar slipped concurrently, a move consistent with improved risk appetite as investors rotated back into equities.\n\nThe weeks-long bout of AI-driven turbulence had rattled markets as investors grappled with questions about competitive dynamics, capital expenditure sustainability, and the potential for rapid technological shifts to upend established business models. The selloff had at times extended beyond pure-play AI companies into the broader technology ecosystem, dragging on semiconductor makers, cloud computing firms, and hardware suppliers alike. Tuesday's rebound indicated that at least some of those fears were being repriced.\n\nAnalysts cautioned that while the easing of immediate tensions was welcome, the fundamental uncertainties surrounding AI's impact on corporate earnings and market structure remain unresolved. The sector continues to command outsized attention from investors attempting to distinguish between companies positioned to benefit from the technology's proliferation and those vulnerable to disruption. Volatility in AI-adjacent names is likely to persist as new developments — from model capabilities to regulatory signals — continue to emerge at a rapid clip.\n\nThe dollar's decline, meanwhile, offered a tailwind to emerging-market assets and commodities priced in the U.S. currency. Currency traders appeared to interpret the equity rally as a signal that the risk-off positioning of recent weeks was unwinding, at least temporarily. Whether the current momentum holds will depend in large part on upcoming earnings reports from major technology firms and any fresh catalysts from the AI landscape that could reignite volatility.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "stock market",
+        "artificial intelligence",
+        "technology stocks",
+        "dollar",
+        "Asian markets",
+        "risk appetite"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1713461983836-de0a45009424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8c3RvY2slMjBtYXJrZXQlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8MHx8fDE3NzIwMDI5OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T07:03:12.710Z"
+    },
+    {
+      "id": "ps-1772003008129-nk34",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination of the two payment giants would create a stablecoin and crypto infrastructure powerhouse",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest payment processors and significantly reshape the digital payments and stablecoin landscape. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination is striking. Stripe, which remains privately held, processed $1.9 trillion in transactions last year and was most recently valued at $159 billion. PayPal, once a market darling that peaked in 2021, has seen its stock decline roughly 80% from those highs, making it a more digestible target despite its still-massive footprint in online commerce.\n\nWhat makes the potential deal particularly significant for the broader fintech ecosystem is the crypto dimension. Both companies have been aggressively building out stablecoin and blockchain capabilities. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to a market capitalization of approximately $4 billion. It enables users to transfer dollars across crypto networks around the clock, often at costs below traditional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm.\n\nA merger would concentrate enormous stablecoin infrastructure under one roof — Bridge's enterprise tooling for issuing dollar-backed tokens alongside PayPal's consumer-facing PYUSD — potentially accelerating mainstream adoption of crypto-native payment rails. The combined entity would possess both the merchant relationships and the blockchain plumbing to make stablecoin payments a default option rather than a niche feature.\n\nPayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fresh momentum. For Stripe, which has shown no urgency to pursue a public listing, absorbing PayPal would represent a dramatic acceleration of its ambitions — vaulting the company into direct ownership of one of the most widely recognized consumer payment brands in the world while deepening its bet that stablecoins will become foundational infrastructure for global commerce.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T07:03:28.129Z"
+    },
     {
       "id": "ps-1772002021147-9jwb",
       "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
@@ -64,28 +191,6 @@
       "publishedAt": "2026-02-25T06:47:33.604Z"
     },
     {
-      "id": "ps-1772002069263-kd94",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by a striking coalition of tech giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and signals intensifying commercial competition in the self-driving industry. The total raise could climb to $1.5 billion, with an additional $300 million from Uber tied to the deployment of robotaxis starting in London.\n\nThe round was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with participation from returning backers Microsoft, Nvidia, and Uber. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — also invested, each with plans to integrate Wayve's technology into their vehicles. New institutional investors include Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Nvidia, which had previously signaled it was evaluating a $500 million strategic investment, participated but did not disclose the exact size of its commitment.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked out what Kendall describes as a \"contrarian\" position in the autonomous driving landscape. Rather than building robotaxi fleets like Waymo or bundling software with proprietary vehicles like Tesla, Wayve sells its end-to-end deep learning software directly to automakers and mobility platforms. The system does not depend on high-definition maps or specific sensor configurations — it ingests data from whatever hardware an OEM already has installed and learns to drive from that data alone. Wayve's Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor compute kit, supports both assisted-driving features and fully driverless Level 4 capabilities on city streets and highways.\n\nThe commercial momentum behind the funding is tangible. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems beginning in 2027. Uber plans to launch commercial trials using Wayve-equipped vehicles later this year, and CEO Dara Khosrowshahi indicated the partnership will expand to more than 10 markets worldwide across multiple OEM partners. \"Wayve's powerful end-to-end approach is purpose-built for scale, safety, and effectiveness,\" Khosrowshahi said.\n\nThe round underscores a broader industry shift from research-phase autonomy toward commercial deployment, with legacy automakers increasingly willing to buy rather than build their self-driving stacks. Kendall argues that Wayve's hardware-agnostic architecture gives it the largest addressable market of any approach — but only because the company invested years in building AI that generalizes across different vehicles, sensors, and driving environments. Whether that bet pays off at scale will become clearer as Wayve's first commercial deployments hit roads over the next 18 months.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "self-driving",
-        "Nvidia",
-        "Uber",
-        "artificial intelligence",
-        "fundraising"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T06:47:49.263Z"
-    },
-    {
       "id": "ps-1772002085172-ajm9",
       "slug": "shanghai-loosens-homebuying-restrictions-to-combat-property-",
       "headline": "Shanghai Loosens Homebuying Restrictions to Combat Property Downturn",
@@ -105,70 +210,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/shanghai-eases-homebuying-rules-in-sign-of-china-property-relief",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T06:48:05.172Z"
-    },
-    {
-      "id": "ps-1772002100984-1wyb",
-      "slug": "stripe-weighs-potential-paypal-acquisition-in-payments-mega-",
-      "headline": "Stripe Weighs Potential PayPal Acquisition in Payments Mega-Deal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would represent one of the largest fintech mergers ever and consolidate significant stablecoin infrastructure under a single roof. PayPal shares surged 7% on the news.\n\nThe discussions are still in their early stages, Bloomberg reported, and there is no guarantee a transaction will materialize. But the sheer scale of the two companies makes the prospect extraordinary. Stripe, which remains privately held, processed $1.9 trillion in payments last year and carries a valuation of roughly $159 billion. PayPal, once the dominant name in online payments, has seen its stock collapse approximately 80% from record highs reached in 2021, making it a potentially attractive target despite its still-significant market presence.\n\nWhat makes the potential combination particularly notable is the stablecoin dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos. The token has grown to a market capitalization of approximately $4 billion and enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with crypto venture firm Paradigm to build Tempo, a payments-focused blockchain currently in testing. A merger would bring PYUSD, Bridge's token-issuance tools, and Tempo's blockchain rails under one corporate umbrella — creating a formidable stablecoin ecosystem.\n\nThe strategic logic extends beyond crypto. PayPal still commands a vast consumer user base and merchant network, while Stripe has become the backend payments processor of choice for internet businesses worldwide. Combining the two could yield significant synergies in merchant services, checkout infrastructure, and cross-border payments. For Stripe, acquiring PayPal — even selectively — could accelerate its path toward a public listing by adding a major revenue stream with established brand recognition.\n\nPayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added further fuel. The talks underscore a broader trend of consolidation in the payments industry, where established players are racing to integrate blockchain-based rails alongside traditional infrastructure. If Stripe proceeds, it would mark a defining moment for both the fintech sector and the growing intersection of conventional payments and stablecoin-powered finance.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T06:48:20.984Z"
-    },
-    {
-      "id": "ps-1772001134235-fisp",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now suggest material architectures that shrink when heated and expand when compressed",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — a breakthrough that could accelerate the deployment of these exotic structures in aerospace, precision instruments, and other demanding engineering applications.\n\nIn a paper posted to the arXiv preprint server on February 12, Xiang-Long Peng and Bai-Xiang Xu describe a neural network framework that inverts the traditional materials design process. Rather than proposing a structure and then calculating its properties, their inverse models accept desired thermoelastic targets and output the geometric features and base material combinations needed to achieve them. The metamaterials in question are bimaterial hybrid-honeycomb lattices — periodic structures built from two different materials arranged in honeycomb-like cells — that can be tuned to contract when heated and thicken laterally when stretched, behaviors opposite to those of virtually all conventional solids.\n\nThe team first generated a large dataset through computational homogenization, systematically varying the lattice geometry and constituent material properties across a high-throughput simulation campaign. A forward neural network was trained on this dataset to predict effective thermoelastic properties from a given structural design, serving as a fast surrogate for expensive finite-element calculations. Six distinct inverse models were then constructed, each targeting different combinations of effective properties and design variables to cover a range of practical scenarios. Critically, the trained forward model was embedded directly into the loss functions of the inverse models, enforcing physical consistency during training and enabling the generation of supplementary datasets for cases where the base materials are held fixed.\n\nMetamaterials with simultaneous negative Poisson's ratio and negative thermal expansion are prized for applications where dimensional stability under thermal loading is paramount — satellite structures, optical mounts, and precision tooling among them. Designing such materials by trial and error or even by parametric sweeps is computationally prohibitive given the vast design space. The machine learning approach demonstrated by Peng and Xu compresses this search from thousands of simulations to near-instantaneous inference, with representative design examples confirming strong predictive accuracy for both the forward and inverse models.\n\nThe work, which spans applied physics and materials science, underscores a broader trend in which neural networks are reshaping computational materials design — moving the field from forward prediction toward on-demand, goal-driven engineering of matter with programmable physical behavior.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1630505331189-4ca903b81824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T06:32:14.235Z"
-    },
-    {
-      "id": "ps-1772001150961-ulj8",
-      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
-      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
-      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from the inside out, using a synthetic biological circuit that activates the microbe's cancer-fighting capabilities only when safely embedded deep within a tumor mass.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. The oxygen-starved, nutrient-rich cores of solid tumors — composed largely of dead cells — provide an ideal habitat for the microbe to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. Once established, the bacteria essentially devour the tumor from within.\n\nThe central engineering challenge was extending the bacteria's reach. As Clostridium sporogenes expands outward from a tumor's anaerobic core, it encounters trace amounts of oxygen at the margins and dies off before fully destroying the cancerous tissue. To overcome this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But simply making the bacteria more oxygen-resistant would create a serious safety hazard — microbes capable of surviving in oxygen-rich environments like the bloodstream could pose a systemic infection risk.\n\nThe team's solution was a quorum-sensing control mechanism, a natural bacterial communication process repurposed as a biological safety switch. Bacteria release chemical signals as they multiply; only after a sufficient population has accumulated inside a tumor does the collective signal reach the threshold needed to activate the oxygen-tolerance gene. This ensures the survival mechanism engages exclusively within the tumor environment. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the system to an electrical circuit built from DNA components rather than wires, each piece performing a defined function within a predictable system. The work was published in ACS Synthetic Biology.\n\nThe researchers have so far demonstrated each component separately — oxygen tolerance in one study and quorum-sensing activation in another, the latter confirmed using green fluorescent protein as a visual marker. The next milestone is combining both features into a single organism and testing it in pre-clinical tumor models. The project, which grew from the doctoral work of Bahram Zargar, involves a collaboration with CREM Co Labs, a Toronto company Zargar co-founded, and former Waterloo doctoral student Sara Sadr, who led key advances in the research.\n\nIf the integrated system proves effective in animal models, the approach could represent a fundamentally new modality for treating solid tumors — one that exploits the very conditions that make such cancers difficult to reach with conventional therapies like radiation and chemotherapy, which often struggle to penetrate oxygen-poor tumor interiors.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T06:32:30.961Z"
     },
     {
       "id": "ps-1772001165196-hxf6",
@@ -212,27 +253,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/yen-reverses-gain-versus-dollar-after-dovish-boj-nominations",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T06:33:00.456Z"
-    },
-    {
-      "id": "ps-1772000225338-jn4n",
-      "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
-      "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Healthcare Rights Debate",
-      "subheadline": "Legal experts call the forced transfer of a 33-year-old with full mental capacity 'totally unlawful,' highlighting national tensions over care funding",
-      "body": "A 33-year-old woman with multiple complex disabilities was transferred from a hospital to a nursing home against her explicit wishes — a move that an independent barrister has described as \"totally unlawful\" and that has reignited scrutiny of how England's National Health Service handles continuing healthcare funding for its most vulnerable patients.\n\nLucinda Ritchie, who lives with Ehlers-Danlos syndrome, functional neurological disorder, Addison's disease, and epilepsy, had been receiving 24-hour one-to-one nursing in her own adapted bungalow in Billingshurst, West Sussex, funded through NHS Continuing Healthcare (CHC). A recognized advocate for disability rights and a finalist on the UK's Disability Power 100 list in both 2023 and 2024 for her work on eye-gaze communication technology, Ritchie was also pursuing a master's degree in sustainability at Southampton University. Her life was upended last April when she was admitted to East Surrey Hospital with pneumonia. After a prolonged stay involving further complications, she was not permitted to return home. In February, NHS Sussex's All Age Continuing Care commissioners arranged her transfer to a nursing home in Uckfield — an hour from her family — despite her refusal to consent. Within two days, her condition deteriorated and she was rushed back to hospital by ambulance.\n\nNeil Allen, an independent barrister specializing in health and social care law, told the BBC it was \"very unusual\" for an adult with full mental capacity to be placed in residential care against their will, calling it a clear legal violation. NHS Sussex has confirmed it recognizes Ritchie's mental capacity but has not provided a legal rationale for overriding her refusal. The agency denied that cost played any role in the decision, attributing it instead to clinical safety concerns following her intensive care stay. Yet the financial arithmetic is stark: a 24/7 nurse-led home care package for someone with tracheostomy and ventilation needs typically costs £8,000 to £16,000 per week in the UK, while nursing home fees in southeast England run approximately £1,500 to £1,800 weekly.\n\nRitchie's former solicitor, Andy McKay of Martin Searle Solicitors, said her established nursing provider had confirmed it could safely continue meeting her complex needs at home, but that NHS commissioners never contacted the agency to verify this. \"We've raised those specific questions to the care board. There's been no substantive response,\" McKay said. Ritchie's mother, Christine, described the transfer as \"absolutely horrific,\" alleging that her daughter's powered wheelchair was switched off and physically pushed during the move. She believes the prolonged hospitalization gave the NHS an opportunity to downgrade the care package to a less expensive option.\n\nThe case highlights mounting pressure on England's CHC system, which fully funds care for roughly 50,000 people with the most severe needs. Under NHS rules, these packages must be \"person-centred,\" and cost may only factor into decisions when a patient's needs can be equally met in multiple settings. Allen noted that disputes between families and local NHS care boards over such packages are occurring \"up and down the country all the time,\" calling it a national crisis. Ritchie, communicating through her eye-gaze technology, told the BBC the experience left her feeling \"utterly worthless and frightened,\" adding: \"Life will not be worth living if I cannot go home.\" NHS Sussex's chief nursing officer, Allison Cannon, said the organization is \"committed to working with Lucinda and her family\" to plan her long-term care.",
-      "category": "breaking",
-      "importance": 6,
-      "tags": [
-        "NHS",
-        "disability rights",
-        "continuing healthcare",
-        "UK healthcare funding",
-        "Lucinda Ritchie",
-        "mental capacity"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2be8/live/880394b0-11a8-11f1-8efc-bb8df6087c73.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T06:17:05.339Z"
     },
     {
       "id": "ps-1772000274318-ai9u",
@@ -1037,27 +1057,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-24T15:03:02.082Z"
-    },
-    {
-      "id": "ps-1771944495240-j71a",
-      "slug": "conduent-data-breach-now-confirmed-to-affect-over-25-million",
-      "headline": "Conduent Data Breach Now Confirmed to Affect Over 25 Million Americans",
-      "subheadline": "The government contractor hid its breach notice from search engines as stolen data includes Social Security numbers and medical records",
-      "body": "A ransomware attack on Conduent, one of the largest U.S. government contractors, has now been confirmed to have exposed the personal data of at least 25 million people — a figure that has grown steadily since the breach was first disclosed and ranks it among the largest cyberattacks in American history.\n\nThe January 2025 attack, claimed by a ransomware group, targeted a company that provides printing, payment processing, and document services for state government benefit programs including food assistance, workplace benefits, and unemployment systems. Conduent says its services reach more than 100 million people nationwide. According to an updated filing on Wisconsin's data breach notification page and a tally of breach notification letters reviewed by TechCrunch, the compromised data spans multiple states, with Texas (15.4 million individuals) and Oregon (10.5 million) accounting for the vast majority of those affected. Additional notifications cover several hundred thousand people across Massachusetts, New Hampshire, and Washington.\n\nThe stolen information includes names, dates of birth, addresses, Social Security numbers, health insurance details, and medical data — a comprehensive trove that poses significant identity theft and fraud risks for millions of Americans who interact with government benefit systems. The sensitivity of the data is compounded by the fact that many affected individuals are among the most vulnerable populations, relying on public assistance programs.\n\nPerhaps as troubling as the breach itself is Conduent's handling of its disclosure. The company published an \"Incident Notice\" on its website in October 2025 that does not explicitly reference a cybersecurity incident. Notably, the page includes a hidden \"noindex\" tag in its source code — a directive that prevents search engines from listing the page in results, effectively making it invisible to anyone searching for information about the breach. Conduent spokesperson Sean Collins declined to explain the decision or disclose how many notifications the company has sent to date.\n\nWhile the Conduent breach is among the largest on record, it remains smaller than the Change Healthcare attack of February 2024, which compromised the data of more than 190 million people after a Russian-speaking ransomware gang exploited a stolen credential that lacked multi-factor authentication. That incident ultimately forced Change Healthcare to pay at least two ransoms to prevent the release of stolen health data. The Conduent case, however, underscores a persistent vulnerability in the government contracting ecosystem, where a single point of failure can expose tens of millions of citizens whose data flows through private-sector intermediaries.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Conduent",
-        "data breach",
-        "ransomware",
-        "cybersecurity",
-        "government contractors",
-        "personal data"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T14:48:15.240Z"
     }
   ]
 }
