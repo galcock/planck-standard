@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T07:33:27.416Z",
+  "lastUpdated": "2026-02-25T07:48:32.274Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772004726020-cv2z",
-      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
-      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was detained at his London home despite an agreement to attend a voluntary police interview",
-      "body": "Lord Peter Mandelson's legal team has accused Metropolitan Police of arresting the former British ambassador to the United States based on a groundless belief that he intended to flee the country — a characterization his lawyers say has \"absolutely no truth whatsoever.\"\n\nMandelson, a towering figure in Labour politics for nearly four decades, was arrested Monday afternoon at his London home on suspicion of misconduct in public office. Officers from the Met's central specialist crime division led him in plain clothes to an unmarked car and transported him to Wandsworth police station, where he was held for nine hours before being released on bail in the early hours of Tuesday. His lawyers at Mishcon De Reya said the arrest blindsided them, as an agreement had already been in place for Mandelson to attend a voluntary interview next month. They have formally requested the evidence the Metropolitan Police relied upon to justify the detention.\n\nThe investigation, launched earlier this month, centers on allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a minister under Prime Minister Gordon Brown. Documents released by the U.S. Department of Justice last month included emails between the two men. Among the most damning: a 2009 message in which Mandelson appeared to relay a Downing Street adviser's assessment of policy measures including an \"asset sales plan.\" Separate correspondence appeared to show him discussing a proposed tax on bankers' bonuses and confirming an imminent eurozone bailout package the day before it was publicly announced in 2010.\n\nMandelson, who played an instrumental role in Tony Blair's landslide 1997 election victory and went on to hold multiple cabinet posts, was appointed British ambassador to Washington in February 2025. He was dismissed in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. His legal representatives maintain he committed no criminal act and was not motivated by financial gain.\n\nThe Metropolitan Police declined to comment on the flight-risk allegation but confirmed Mandelson has been bailed until the end of May. Search warrants were executed at two addresses in Wiltshire and Camden on Monday. Consultations between police and the Crown Prosecution Service are ongoing, with no charges yet filed. The case marks one of the most significant criminal investigations involving a senior British political figure in recent memory.",
+      "id": "ps-1772005631412-8pg3",
+      "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
+      "headline": "Mandelson Lawyers Call Flight Risk Claim 'Baseless' After Arrest",
+      "subheadline": "Former UK ambassador to the US was held for nine hours at Wandsworth police station over Epstein-linked misconduct allegations",
+      "body": "Lawyers for Lord Peter Mandelson have challenged the basis of his arrest on Monday, saying Metropolitan Police officers detained the former British ambassador to the United States at his London home over an unfounded claim that he was planning to flee the country.\n\nThe law firm Mishcon De Reya told the BBC that Mandelson had already agreed to attend a voluntary police interview next month and that the suggestion he intended to leave the UK and take up permanent residence abroad was entirely without basis. The firm said it has demanded the Metropolitan Police provide the evidence used to justify the arrest. Mandelson was taken to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday morning. He has been bailed until the end of May, and consultations between police and the Crown Prosecution Service are ongoing.\n\nThe arrest relates to allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The Metropolitan Police opened its investigation earlier this month after the US Department of Justice released a cache of documents including emails between the two men. Among the correspondence, a 2009 email appeared to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown about policy measures including an \"asset sales plan.\" Other exchanges appeared to discuss a proposed tax on bankers' bonuses and confirm an imminent eurozone bailout package the day before it was publicly announced in 2010.\n\nMandelson, a central figure in the New Labour movement who helped architect Tony Blair's 1997 landslide victory, was appointed British ambassador to the United States in February 2025. He was dismissed from the post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. His lawyers maintain he has not acted criminally and was not motivated by financial gain. Police executed search warrants at two addresses in Wiltshire and Camden in connection with the investigation.\n\nThe case represents one of the most significant legal proceedings to engulf a senior British political figure in recent years, touching on questions of government transparency, financial market integrity, and the lingering fallout from Epstein's network of elite contacts. The Metropolitan Police has declined to comment on the circumstances of the arrest.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -20,14 +20,14 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T07:32:06.020Z"
+      "publishedAt": "2026-02-25T07:47:11.412Z"
     },
     {
-      "id": "ps-1772004743413-2q8b",
-      "slug": "machine-learning-tackles-inverse-design-of-metamaterials-wit",
-      "headline": "Machine Learning Tackles Inverse Design of Metamaterials With Exotic Thermal Properties",
-      "subheadline": "Neural network models can now suggest geometries and materials for structures exhibiting negative Poisson's ratios and thermal expansion",
-      "body": "Researchers have developed a suite of machine learning models capable of designing metamaterials that simultaneously exhibit two counterintuitive physical properties — negative Poisson's ratios and negative coefficients of thermal expansion — a combination that could prove valuable in aerospace, precision instruments, and other engineering systems where thermal distortion is a critical concern.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe a framework that inverts the traditional materials design process. Rather than proposing a structure and then calculating its properties through laborious simulation, their inverse models accept desired thermoelastic properties as inputs and output the geometric features and base material combinations needed to achieve them. The work focuses on bimaterial hybrid-honeycomb lattice structures, a class of architected materials whose internal geometry can be tuned to produce bulk behaviors not found in nature.\n\nThe approach rests on a large dataset generated through computational homogenization — a method that derives effective macroscopic properties from detailed unit-cell simulations — across a wide range of geometric parameters and constituent material pairings. A forward neural network was first trained on this dataset to predict effective thermoelastic properties from a given design specification. That forward model was then embedded into the loss functions of six distinct inverse models, each tailored to a different design scenario defined by varying combinations of target properties and structural design variables. For cases involving fixed base materials, the forward model was further leveraged to generate supplementary training data, expanding the inverse models' coverage without additional finite-element simulations.\n\nMaterials with negative Poisson's ratios, known as auxetics, contract laterally when compressed rather than bulging outward, while negative thermal expansion materials shrink upon heating. Achieving both behaviors simultaneously in a single structure is exceptionally difficult through trial-and-error or conventional optimization, making machine learning an attractive alternative. The authors report that their models demonstrate strong predictive accuracy across representative design examples, suggesting the framework could substantially accelerate the deployment of thermoelastic metamaterials in practical engineering contexts.\n\nThe research sits at the intersection of computational materials science and artificial intelligence, reflecting a broader trend in which neural networks are increasingly used not merely to predict material properties but to actively guide the discovery and design of new architectures. While the work remains at the preprint stage and has not yet undergone formal peer review, the methodology — combining high-throughput simulation with forward-inverse model coupling — offers a replicable template for inverse design challenges across a range of metamaterial platforms.",
+      "id": "ps-1772005646925-2lby",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now suggest geometries and materials for structures with negative thermal expansion and Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — exotic structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion coefficients, properties that defy the behavior of conventional materials. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering: given a set of desired mechanical and thermal properties, how does one determine the structure that produces them?\n\nThe approach centers on bimaterial hybrid-honeycomb architectures, which combine two different base materials into lattice geometries that can shrink when heated and expand laterally when compressed. Such counterintuitive behavior makes these metamaterials attractive for aerospace components, precision instruments, and other engineering systems where thermal distortion must be tightly controlled. However, designing these structures has traditionally required painstaking trial-and-error simulation, as the relationship between geometry, material choice, and effective properties is highly nonlinear.\n\nTo overcome this, the team first generated a large dataset through computational homogenization, systematically varying geometrical features and base material properties across thousands of configurations. They then trained a forward neural network model that accurately predicts effective thermoelastic properties for any given structural design. This forward model alone represents a significant speedup over conventional finite-element simulations. But the real advance lies in the inverse models: six distinct neural networks, each tailored to a different design scenario defined by specific combinations of target properties and design variables. These inverse models take desired effective properties as input and output recommended geometrical parameters and material selections.\n\nA notable technical innovation is the integration of the trained forward model directly into the loss functions of the inverse models, ensuring physical consistency during training. The forward model was also used to generate supplementary training data for scenarios involving fixed base materials, expanding the practical scope of the framework. Representative design examples demonstrated strong predictive accuracy for both the forward and inverse models across the range of tested configurations.\n\nThe framework could accelerate the deployment of thermoelastic metamaterials in real-world engineering applications, where rapid prototyping and optimization cycles are essential. By shifting the computational burden from expensive simulations to trained neural networks, the method offers a pathway toward on-demand metamaterial design — a capability that could prove valuable as industries increasingly seek materials with programmable thermal and mechanical responses.",
       "category": "physics",
       "importance": 5,
       "tags": [
@@ -35,13 +35,97 @@
         "machine learning",
         "inverse design",
         "thermal expansion",
-        "materials science",
-        "neural networks"
+        "materials science"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1770476177977-c25cbf7731b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T07:32:23.413Z"
+      "publishedAt": "2026-02-25T07:47:26.925Z"
+    },
+    {
+      "id": "ps-1772005662026-rse3",
+      "slug": "waterloo-researchers-engineer-tumor-eating-bacteria-with-bui",
+      "headline": "Waterloo Researchers Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits allow engineered microbes to consume cancerous tissue only when safely inside a tumor",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from within, deploying a synthetic biological circuit that activates the microbe's cancer-fighting capabilities only after it has safely established itself inside the oxygen-free core of a tumor.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the interior of many solid tumors consists of dead cells devoid of oxygen, the microbe finds an ideal habitat to multiply and feed. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nA persistent obstacle in bacterial cancer therapy has been that microbes die off as they push toward a tumor's outer edges, where trace amounts of oxygen are present. To overcome this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But enabling oxygen tolerance at all times would pose a serious safety risk — the engineered bacteria could potentially survive in oxygen-rich environments like the bloodstream. The researchers solved this problem using quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. Only after a critical mass of bacteria has accumulated inside the tumor does the signal reach the threshold needed to switch on the oxygen-resistance gene.\n\nThe team published its findings in ACS Synthetic Biology, describing the construction and functional characterization of the quorum sensing circuit in C. sporogenes. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In laboratory validation, the researchers programmed bacteria to produce green fluorescent protein, confirming the quorum sensing system activated precisely on schedule.\n\nThe next milestone will be combining both the oxygen-tolerance gene and the quorum-sensing control mechanism into a single organism for pre-clinical tumor trials. The project, which grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo student Sara Sadr, reflects a broader push toward interdisciplinary cancer innovation. The university team is now partnering with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to move the technology toward clinical application. If successful, the platform could offer a fundamentally new modality for attacking solid tumors that have long resisted conventional therapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T07:47:42.026Z"
+    },
+    {
+      "id": "ps-1772005679118-hhks",
+      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
+      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6B, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors, underscoring growing confidence that the company's hardware-agnostic approach to self-driving software could reshape the industry. The round values Wayve at $8.6 billion, and the total raise could swell to $1.5 billion if Uber exercises an additional $300 million investment tied to the deployment of robotaxis in London.\n\nThe funding was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with returning backers Microsoft, Nvidia, and Uber joined by new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Perhaps most notable is the participation of three global automakers — Mercedes-Benz, Nissan, and Stellantis — all of which plan to integrate Wayve's technology into their vehicles. Nvidia, which has maintained a development partnership with Wayve since 2018 and previously signaled it was evaluating a $500 million stake, also participated, though CEO Alex Kendall declined to disclose the chipmaker's exact contribution.\n\nFounded in 2017, Wayve has staked out what Kendall describes as a \"contrarian\" position in the autonomous driving landscape. Rather than building high-definition maps or locking its software to specific sensor suites and computing hardware — approaches common among competitors — Wayve developed an end-to-end neural network that learns to drive purely from data. The result is a software layer that can run on whatever sensors and chips an automaker already has installed. This flexibility enables two distinct product lines: an assisted-driving system requiring driver attention, and a fully automated Level 4 system capable of handling all driving in certain environments without human oversight.\n\nThe business model is equally distinctive. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles autonomy software into its own vehicles, Wayve sells its \"embodied AI\" as a platform to automakers and mobility companies. Nissan has announced plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, signaling ambitions that extend well beyond a pilot program.\n\nWayve's Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing architecture, is designed to deliver both the assisted and fully driverless capabilities at scale. Kendall argues that Wayve's approach unlocks the largest addressable market in autonomy precisely because the software generalizes across hardware and geographies — a claim the company will now need to prove as it transitions from research-stage darling to commercial supplier serving some of the world's largest vehicle manufacturers.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "self-driving",
+        "Nvidia",
+        "Uber",
+        "robotaxis",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T07:47:59.118Z"
+    },
+    {
+      "id": "ps-1772005695654-7eqj",
+      "slug": "diageo-slashes-forecast-again-as-us-china-weakness-tests-new",
+      "headline": "Diageo Slashes Forecast Again as US, China Weakness Tests New CEO",
+      "subheadline": "British spirits giant cuts guidance for the second time this fiscal year, piling pressure on recently appointed chief Dave Lewis",
+      "body": "Diageo Plc has downgraded its financial outlook for the second time in the current fiscal year, as persistent demand weakness in its two most critical markets — the United States and China — presents an immediate test for newly installed Chief Executive Officer Dave Lewis.\n\nThe London-listed drinks conglomerate, whose portfolio spans Johnnie Walker whisky, Guinness stout, and Tanqueray gin, disclosed the revised guidance on Tuesday, signaling that a hoped-for recovery in consumer spending on premium spirits has failed to materialize. The repeated downgrades mark a stark departure from the post-pandemic boom years when Diageo rode a surge in at-home cocktail culture and premiumization trends to record revenues.\n\nFor Lewis, who took the helm of the world's largest spirits maker after a turbulent period under predecessor Debra Crew, the guidance cut lands squarely in the early, high-scrutiny phase of his tenure. The former Tesco CEO built his reputation on turning around the British supermarket chain during its accounting scandal crisis, and investors will now be watching closely to see whether he can apply a similar operational discipline to Diageo's sprawling global operations. The double downgrade constrains his room to maneuver and raises questions about whether deeper structural shifts in consumer behavior — particularly among younger demographics moving away from alcohol — are compounding what management has characterized as cyclical headwinds.\n\nThe US market, which accounts for roughly a third of Diageo's net sales, has been a persistent source of concern as consumers pull back on discretionary spending amid elevated prices. In China, a sluggish post-reopening economic recovery and weak consumer confidence have weighed heavily on premium spirits demand across the industry. Competitors including Pernod Ricard and Rémy Cointreau have flagged similar pressures in the region.\n\nThe renewed guidance cut will intensify scrutiny of Diageo's cost structure and capital allocation priorities. Lewis faces the delicate task of balancing near-term margin protection with the long-term brand investment that underpins the company's pricing power in an increasingly competitive global spirits landscape.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Diageo",
+        "Dave Lewis",
+        "spirits industry",
+        "consumer spending",
+        "earnings guidance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T07:48:15.654Z"
+    },
+    {
+      "id": "ps-1772005712182-usgr",
+      "slug": "stripe-explores-paypal-acquisition-in-potential-payments-meg",
+      "headline": "Stripe Explores PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination of the $159 billion payments titan and struggling fintech rival could reshape the stablecoin landscape",
+      "body": "Stripe is weighing a bid for all or parts of PayPal, Bloomberg reported on Tuesday, a potential blockbuster deal that would unite two of the world's largest payment processors and consolidate significant stablecoin infrastructure under a single roof. PayPal shares surged 7% on the news.\n\nThe deliberations remain in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of a combination — Stripe was recently valued at $159 billion and processed $1.9 trillion in transactions last year — would mark one of the largest fintech deals in history. PayPal, which has seen its stock collapse roughly 80% from record highs reached in 2021, had already been climbing this week on earlier buyout speculation before the Stripe report sent shares higher again in late trading.\n\nWhat makes the potential deal particularly consequential for digital assets is the crypto footprint each company has built independently. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain being built in partnership with venture firm Paradigm. A merger would create a payments entity with formidable stablecoin capabilities spanning issuance, infrastructure, and consumer distribution.\n\nThe strategic logic extends beyond crypto. PayPal's massive consumer base — including its Venmo platform — combined with Stripe's dominance in merchant and developer-facing payment processing could create an end-to-end payments ecosystem with few rivals. For PayPal, which has struggled to regain investor confidence amid intensifying competition from Apple Pay, Block, and Stripe itself, a deal could offer a path out of years of stagnation. For Stripe, which remains privately held, absorbing PayPal's public market presence could also serve as a pathway to public ownership without a traditional IPO.\n\nThe potential transaction arrives at a moment of rapid consolidation across the payments and stablecoin sectors. Stablecoin transaction volumes have been surging as businesses increasingly adopt dollar-backed tokens for cross-border payments and settlement. Bridge, Stripe's stablecoin subsidiary, recently reported that its volume had quadrupled. Should Stripe ultimately move forward with an offer, regulators would face the task of evaluating a combination that would concentrate enormous influence over both traditional payment rails and the emerging infrastructure of blockchain-based finance.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T07:48:32.183Z"
     },
     {
       "id": "ps-1772004758074-30pl",
@@ -106,28 +190,6 @@
       "publishedAt": "2026-02-25T07:33:12.209Z"
     },
     {
-      "id": "ps-1772004807302-hxqg",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two fintech giants would create a stablecoin and digital payments powerhouse valued in the hundreds of billions",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest payment processors and consolidate significant stablecoin infrastructure under one roof. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of the combination — Stripe was most recently valued at $159 billion and processed $1.9 trillion in transactions last year — would make it one of the largest fintech deals in history. PayPal, once valued at over $350 billion at its 2021 peak, has seen its stock decline roughly 80% from those highs amid intensifying competition and slowing growth.\n\nWhat makes the potential tie-up particularly notable is the crypto dimension. Both companies have made aggressive moves into stablecoins and blockchain-based payments. PayPal launched its dollar-backed stablecoin PYUSD in 2022, issued through Paxos, which has since grown to approximately $4 billion in market capitalization. The token enables users to transfer dollars across crypto networks around the clock, often at lower cost than traditional bank transfers. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm.\n\nA merger would consolidate two of the most ambitious stablecoin strategies in traditional finance, potentially accelerating the adoption of digital dollar tokens as a mainstream payments rail. Bridge's stablecoin volume has quadrupled in recent quarters, suggesting strong underlying demand for the technology even during periods of broader crypto market weakness. Combined with PayPal's massive consumer base and merchant network, the resulting entity could become the dominant platform for stablecoin-powered commerce.\n\nPayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fuel. For Stripe, which remains privately held, absorbing PayPal's publicly traded business would represent a dramatic expansion and could serve as an alternative path to the public markets. The potential deal underscores a broader trend of traditional payments companies viewing stablecoins not as a speculative sideshow but as core infrastructure for the next generation of global money movement.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "fintech",
-        "M&A",
-        "PYUSD",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T07:33:27.303Z"
-    },
-    {
       "id": "ps-1772003826784-ecjr",
       "slug": "uk-household-energy-bills-to-drop-117-annually-starting-apri",
       "headline": "UK Household Energy Bills to Drop £117 Annually Starting April",
@@ -146,27 +208,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lpl9lxw2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T07:17:06.784Z"
-    },
-    {
-      "id": "ps-1772003860904-n75b",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic DNA circuit lets engineered microbes colonize oxygen-starved tumor cores, then survive at the edges",
-      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors, consume them from the inside, and—through a carefully timed genetic switch—push outward into regions that would normally kill the microbe. The work, published in ACS Synthetic Biology, represents a significant step toward a living, programmable cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a spore-forming bacterium that thrives exclusively in oxygen-free environments. The necrotic cores of many solid tumors are precisely such environments: nutrient-rich, devoid of oxygen, and largely unreachable by conventional drugs and immune cells. When bacterial spores are introduced into the body, they germinate inside these tumor cores and begin multiplying, effectively eating the cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge is what happens at the tumor's oxygen-rich periphery. As the bacteria expand outward, even trace amounts of oxygen prove lethal, allowing a rim of cancer cells to survive. To overcome this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But turning that gene on indiscriminately would be dangerous—oxygen-tolerant bacteria loose in the bloodstream could cause serious harm. So the researchers wired in a biological safety lock: quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only when enough microbes have accumulated inside a tumor does the signal cross the threshold needed to activate the oxygen-resistance gene.\n\nThe team validated the timing mechanism in a proof-of-concept experiment using green fluorescent protein as a reporter, confirming the quorum-sensing circuit switched on at the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system in a single organism and testing it against tumors in pre-clinical animal models.\n\nThe project grew out of doctoral work by Bahram Zargar and Sara Sadr, and the university is now partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to advance the technology toward clinical development. While engineered bacterial therapies remain years from human trials, the Waterloo platform addresses one of the field's most persistent problems—getting a living therapeutic deep into the hypoxic heart of a tumor, then keeping it alive long enough to finish the job.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T07:17:40.904Z"
     },
     {
       "id": "ps-1772003889878-u4zv",
@@ -208,28 +249,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T07:02:07.283Z"
-    },
-    {
-      "id": "ps-1772002975847-mdqx",
-      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
-      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
-      "subheadline": "UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and signals intensifying competition in the race to commercialize self-driving technology. The total raise could swell to $1.5 billion if an additional $300 million from Uber materializes, contingent on the deployment of robotaxis beginning in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including the Ontario Teachers' Pension Plan, Baillie Gifford, and the British Business Bank. Perhaps most notably, three global automakers — Mercedes-Benz, Nissan, and Stellantis — invested as well, each with plans to integrate Wayve's technology into their vehicles. Nvidia, which had signaled it was evaluating a $500 million strategic investment, participated but did not disclose its exact contribution.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked out a distinctive position in the autonomous driving landscape. Rather than relying on high-definition maps or proprietary sensor configurations, the company built an end-to-end deep learning system that ingests data from whatever sensors and computing hardware an automaker already has installed. This hardware-agnostic approach underpins two product lines: an \"eyes on\" assisted-driving system and an \"eyes off\" fully autonomous system capable of Level 4 driverless operation on city streets and highways. Wayve's Gen 3 platform, unveiled last fall, runs on Nvidia's Drive AGX Thor computing kit.\n\nThe business model is equally unconventional. Unlike Waymo, which largely operates its own robotaxi fleets, or Tesla, which bundles software with its own vehicles, Wayve sells its \"embodied AI\" as a software layer to automakers and mobility platforms. Kendall told reporters the approach targets the largest addressable market in autonomous driving but is only viable because the AI generalizes across different hardware and environments. \"If you build an autonomy stack that's specific to a sensor or compute architecture, then you can't take option three,\" he said.\n\nThe commercial pipeline is already taking shape. Nissan plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled ambitions well beyond a pilot program, stating the companies plan to deploy together in more than 10 markets worldwide across multiple automaker partnerships. For an industry that has consumed tens of billions of dollars in development capital with limited commercial returns, Wayve's ability to attract both technology investors and the automakers who would actually ship its software suggests the self-driving sector may be entering a new phase — one where the business model matters as much as the technology.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "Series D",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T07:02:55.847Z"
     },
     {
       "id": "ps-1772002992710-c6cy",
@@ -1036,27 +1055,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/novo-will-slash-us-list-prices-for-wegovy-and-ozempic-next-year",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T16:18:25.465Z"
-    },
-    {
-      "id": "ps-1771948944196-kjij",
-      "slug": "uk-records-first-baby-born-from-deceased-donor-womb-transpla",
-      "headline": "UK Records First Baby Born From Deceased Donor Womb Transplant",
-      "subheadline": "Ten-week-old Hugo marks a milestone in a clinical trial that could offer hope to thousands of women born without a viable uterus",
-      "body": "A baby boy named Hugo has become the first child in the United Kingdom born using a womb transplanted from a deceased donor, marking what surgeons involved in the procedure called a \"ground-breaking moment\" for reproductive medicine and organ transplantation.\n\nHugo was born just before Christmas 2024 at Queen Charlotte's and Chelsea Hospital in west London, weighing nearly seven pounds. His mother, Grace Bell, a woman in her 30s from Kent, was born with MRKH syndrome — a condition affecting roughly one in 5,000 women in which the uterus is absent or non-functional. Bell was told at age 16 that she would never carry her own child. After a 10-hour transplant operation at The Churchill Hospital in Oxford in June 2024, followed by IVF treatment and embryo transfer at The Lister Fertility Clinic in London, Bell and her partner Steve Powell welcomed their son. \"It was simply a miracle,\" Bell said, adding that she thinks of her anonymous donor \"every day.\"\n\nThe birth is the first to result from a UK clinical research trial involving 10 planned womb transplants from deceased donors. Three such transplants have been completed so far. A separate arm of the trial involving living donors produced the UK's first transplant baby, a girl named Amy, earlier in 2025 — her mother had received her older sister's uterus in January 2023. Five additional living-donor transplants are planned. Consultant gynaecologist Prof. Richard Smith of Imperial College Healthcare NHS Trust, who began researching uterine transplantation more than 25 years ago and founded the charity Womb Transplant UK, was present at Hugo's delivery. Bell and Powell honored him by giving Hugo the middle name Richard.\n\nTransplant surgeon Isabel Quiroga, who co-leads the trial team, noted that very few babies in Europe have been born following deceased-donor womb transplants. Globally, more than 100 uterine transplant operations have been performed and over 70 healthy babies have resulted, but the procedure remains experimental and tightly regulated. Unlike standard organ donation, uterine donation from deceased individuals requires a special request to families who have already consented to donate their relative's other organs. The anonymous donor in this case also provided five additional organs transplanted into four other recipients. Her parents said they felt \"tremendous pride\" in their daughter's legacy.\n\nThe transplanted womb is intended to be temporary. After Bell and Powell decide whether to have a second child, surgeons will remove the organ to spare Bell from lifelong immunosuppressive drugs. Quiroga said the trial aims to determine whether the procedure can eventually become an approved, routine treatment for women of childbearing age who lack a viable uterus — a prospect that Smith said should give \"hope\" to girls and young women receiving that diagnosis today. Crucially, a baby born through a transplanted womb has no genetic connection to the donor; the child is biologically the offspring of the parents who provide the egg and sperm.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "womb transplant",
-        "organ donation",
-        "MRKH syndrome",
-        "reproductive medicine",
-        "clinical trial",
-        "NHS"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c45e/live/807ee080-115f-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cvg53xp5857o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T16:02:24.196Z"
     }
   ]
 }
