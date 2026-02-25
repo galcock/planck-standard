@@ -1,13 +1,35 @@
 {
-  "lastUpdated": "2026-02-25T17:18:03.867Z",
+  "lastUpdated": "2026-02-25T17:33:46.853Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772039839328-8poh",
-      "slug": "machine-learning-framework-tackles-inverse-design-of-metamat",
-      "headline": "Machine Learning Framework Tackles Inverse Design of Metamaterials",
-      "subheadline": "Neural network models can rapidly identify geometries and materials for structures with exotic thermal and mechanical properties",
-      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of metamaterials that exhibit two unusual properties simultaneously: negative Poisson's ratios and negative thermal expansion coefficients. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering — the challenge of working backward from desired properties to the structural parameters that produce them.\n\nThe study focuses on bimaterial hybrid-honeycomb lattice structures, a class of thermoelastic metamaterials with significant potential in aerospace, precision instruments, and other engineering systems where materials must maintain dimensional stability under temperature fluctuations. Materials with negative thermal expansion shrink when heated rather than expanding, while those with negative Poisson's ratios grow wider when stretched — counterintuitive behaviors that emerge not from the base materials themselves but from carefully engineered internal geometries.\n\nTo train their models, the researchers generated a large dataset through computational homogenization, systematically varying geometrical features and base material properties across thousands of simulated structures. They first built a forward model that predicts effective thermoelastic properties from a given design, then developed six distinct inverse models tailored to different design scenarios. Each inverse model handles a different combination of target properties and structural variables, reflecting the range of constraints engineers face in real applications. A key innovation is the integration of the trained forward model directly into the loss functions of the inverse models, effectively using the forward predictor as a physics-informed check during inverse training.\n\nThe approach sidesteps the computational expense of traditional optimization methods, which typically require repeated finite element simulations to evaluate candidate designs. Once trained, the neural networks can suggest suitable geometries and material combinations in a fraction of the time. The authors demonstrated the framework's accuracy through representative design examples, showing strong agreement between predicted and target properties across multiple test cases.\n\nThe work reflects a broader trend in materials science toward ML-accelerated design pipelines, where high-throughput simulation data and neural networks replace iterative trial-and-error approaches. As metamaterials move closer to practical deployment in thermal management systems, adaptive structures, and precision engineering, frameworks like this could substantially reduce the time from concept to functional design.",
+      "id": "ps-1772040749830-l1f2",
+      "slug": "sinaloa-cartel-civil-war-leaves-mexican-city-in-perpetual-te",
+      "headline": "Sinaloa Cartel Civil War Leaves Mexican City in Perpetual Terror",
+      "subheadline": "Culiacán endures daily killings, kidnappings, and torture as rival factions battle for control after leader's capture",
+      "body": "The Mexican city of Culiacán has descended into sustained urban warfare as rival factions of the Sinaloa cartel wage a bloody internal conflict now stretching beyond 18 months, with paramedics reporting a more than 70 percent increase in emergency calls and an average of five to six homicides per day.\n\nThe violence traces back to the capture and extradition of cartel co-founder Ismael \"El Mayo\" Zambada, who was lured to the United States in an elaborate sting operation after being betrayed by the son of another cartel leader. Zambada's removal from the organization's power structure fractured what members once described as a family-like hierarchy, splitting it into warring factions now locked in a campaign of assassinations, kidnappings, and grotesque acts of torture intended to terrorize rivals into submission. Bodies bearing signs of extreme mutilation have been left at shopping malls and roadsides as warnings, while victims have included a 16-year-old boy shot dead at close range while riding his bicycle.\n\nThe crisis comes as Mexico grapples with broader cartel-related instability. President Claudia Sheinbaum praised special forces this week for capturing Nemesio Oseguera Cervantes, known as \"El Mencho,\" the leader of the rival Jalisco New Generation Cartel and Mexico's most wanted fugitive, who died in custody Sunday following a firefight. But the Sinaloa example underscores a grim pattern: the removal of cartel leaders frequently triggers power vacuums that intensify violence rather than curbing it. U.S. President Donald Trump has designated several cartels as terrorist organizations, labeled fentanyl a weapon of mass destruction, and threatened direct military intervention if Mexico fails to control the trafficking networks.\n\nThousands of Mexican troops have been deployed to Sinaloa, establishing checkpoints across Culiacán's roads, yet the killings have not abated. BBC correspondent Quentin Sommerville, reporting from the city over the course of a week, found that nearly every emergency call paramedics responded to ended with a fatality. The two paramedics he accompanied now wear 14 kilograms of Kevlar body armor on every call, uncertain whether attackers remain at crime scenes. Schools, hospitals, and funerals have all been targeted. Culiacán, once a prosperous city known for its shopping malls and manicured parks, empties each night as residents retreat indoors.\n\nMembers of one faction, interviewed by the BBC under conditions of anonymity and while fully armed, offered a chilling assessment: they want the government to withdraw and let the factions fight to the last group standing. Meanwhile, groups like Mothers Fighting Back — led by women such as Reynalda Pulido, whose son Javier Ernesto disappeared in December 2020 — probe fields outside the city with metal rods and shovels, searching for clandestine graves, escorted by armored military convoys. The scale of the disappeared remains unknown, but the searches continue daily, a testament to a conflict with no resolution in sight.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mexico",
+        "Sinaloa cartel",
+        "Culiacán",
+        "drug violence",
+        "fentanyl",
+        "El Mayo Zambada",
+        "El Mencho"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1f16/live/170d1a60-10d1-11f1-97cc-8b3c62c7814d.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2g3vmde0eo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T17:32:29.831Z"
+    },
+    {
+      "id": "ps-1772040766166-qh5d",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now predict and reverse-engineer lattice structures with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of designing metamaterials that exhibit two of the most counterintuitive behaviors in materials science simultaneously — shrinking when heated and expanding perpendicular to a compressive force. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a central challenge in advanced materials engineering: how to efficiently reverse-engineer a structure when you already know the properties you want.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures composed of two different base materials arranged in precise geometric configurations. Such structures can exhibit negative coefficients of thermal expansion (meaning they contract as temperature rises) and negative Poisson's ratios (meaning they expand laterally when stretched, rather than thinning). Both properties are rare in natural materials and highly sought after for aerospace components, precision instruments, and other engineering systems where thermal stability and unusual mechanical responses are critical.\n\nTraditionally, designing these structures has relied on forward simulation — proposing a geometry and computing the resulting properties through computational homogenization, a laborious process. Peng and Xu flipped the problem. They first generated a large dataset by running high-throughput simulations across a wide range of geometric features and material combinations. A forward neural network model was then trained to predict thermoelastic properties from a given design, achieving high accuracy while dramatically reducing computation time. The researchers subsequently built six distinct inverse models, each targeting different combinations of desired effective properties and structural design variables, enabling engineers to specify performance targets and receive candidate geometries and material pairings in return.\n\nA key innovation lies in how the trained forward model is embedded directly into the loss functions of the inverse models during training, ensuring physical consistency. The forward model also served double duty by generating supplementary training data for scenarios involving fixed base materials. Representative design examples demonstrated strong predictive performance across both forward and inverse tasks.\n\nThe framework points toward a broader shift in metamaterials research, where machine learning increasingly replaces expensive trial-and-error simulation campaigns. As demand grows for materials with programmable thermal and mechanical behavior — particularly in satellite structures, microelectronics packaging, and biomedical devices — tools that can rapidly navigate vast design spaces will become essential. The researchers note their models are readily applicable to practical inverse design tasks in next-generation engineering systems.",
       "category": "physics",
       "importance": 5,
       "tags": [
@@ -18,17 +40,17 @@
         "materials science",
         "neural networks"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1682341891731-841dc120e398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T17:17:19.328Z"
+      "publishedAt": "2026-02-25T17:32:46.166Z"
     },
     {
-      "id": "ps-1772039854316-sde8",
-      "slug": "ancient-microbial-life-could-survive-50-million-years-in-mar",
-      "headline": "Ancient Microbial Life Could Survive 50 Million Years in Martian Ice",
-      "subheadline": "NASA-funded lab experiments show pure water ice shields amino acids from cosmic radiation, redirecting the search for life on Mars",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years when locked inside pure water ice, even under relentless bombardment from cosmic radiation. The findings, published in the journal Astrobiology, could fundamentally reshape how future Mars missions search for signs of ancient life.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation dose simulated 20 million years of cosmic ray exposure on the Martian surface, with mathematical modeling extending the results to 50 million years. More than 10 percent of the amino acids in pure ice samples survived the full duration — a result that far exceeds the estimated age of some surface ice deposits on Mars, which are often less than two million years old.\n\nPerhaps more surprising was the stark contrast with mixed samples. When ice was combined with silicate-based rocks and clay typical of Martian sediment, organic material broke down roughly 10 times faster. A 2022 study by the same team had previously suggested that water ice would accelerate destruction of organic molecules compared to soil mixtures. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the faster degradation in mixed samples to a thin film that forms where ice meets mineral surfaces, potentially allowing radiation-generated reactive particles to move more freely and attack organic compounds. In solid ice, by contrast, those harmful particles appear to become frozen in place.\n\nThe implications extend beyond Mars. The team also tested organic preservation at temperatures matching those on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and found that deterioration slowed even further in those colder environments. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030, where it will perform 49 close flybys to investigate whether conditions beneath Europa's ice shell could support life.\n\nFor Mars exploration, the study delivers a clear directive: future missions should prioritize drilling into clean, buried ice rather than analyzing rocks or soil. Christopher House, a Penn State geosciences professor and co-author, noted that while Mars harbors vast quantities of ice, most lies just beneath the surface. Accessing it will require missions equipped with robust drilling or scooping capabilities, similar to NASA's 2008 Phoenix lander — the first spacecraft to excavate and photograph subsurface Martian ice. \"If there are bacteria near the surface of Mars, future missions can find it,\" House said. The research was funded by NASA's Planetary Science Division.",
+      "id": "ps-1772040783057-9zuv",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State research upends assumptions about where to search for signs of ancient life on Mars",
+      "body": "Ancient biological material could remain intact inside pure Martian ice for more than 50 million years — far longer than the age of the planet's youngest surface ice deposits — according to a new laboratory study that could reshape how future missions hunt for signs of past life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University subjected E. coli bacteria frozen in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all while keeping samples chilled to minus 60 degrees Fahrenheit to replicate conditions in Mars's icy polar regions. The results, published in the journal Astrobiology, revealed that more than 10 percent of amino acids — the fundamental building blocks of proteins — survived the full simulation intact. The finding was unexpected: samples in which ice was mixed with Mars-like sediment, including silicate rocks and clay, degraded roughly ten times faster. The team believes a thin liquid film that forms where ice meets mineral grains allows radiation-generated reactive particles to move more freely and attack organic molecules, whereas in solid ice those harmful particles become frozen in place.\n\n\"Fifty million years is far greater than the expected age for some current surface ice deposits on Mars, which are often less than two million years old, meaning any organic life present within the ice would be preserved,\" said Christopher House, a Penn State geosciences professor and co-author of the study. The implication is direct: if microbial life ever existed near the Martian surface, traces of it should still be detectable in clean, buried ice today.\n\nThe study, led by NASA Goddard space scientist Alexander Pavlov, overturns conclusions from the same team's 2022 work, which had suggested that organic material in ice-water mixtures broke down faster than in dry sediment alone, leading researchers to assume pure ice would fare even worse. Instead, the opposite proved true, elevating pure ice and ice-rich permafrost to the top of the target list for future astrobiology missions. House noted that substantial ice exists on Mars just below the surface, as demonstrated by NASA's Phoenix lander, which excavated and photographed subsurface ice in 2008, but that accessing it will require missions equipped with robust drilling or scooping tools.\n\nThe findings carry implications well beyond Mars. When the team tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, deterioration slowed even further. That bodes well for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to arrive at Jupiter in 2030 for 49 close flybys of Europa's ice shell and potential subsurface ocean. Taken together, the results suggest that ice — long overlooked in favor of rocks and soil — may be the solar system's most promising archive of ancient biology.",
       "category": "science",
       "importance": 7,
       "tags": [
@@ -36,14 +58,78 @@
         "astrobiology",
         "NASA",
         "amino acids",
-        "extraterrestrial life",
         "Europa Clipper",
-        "Penn State"
+        "Penn State",
+        "space exploration"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T17:17:34.316Z"
+      "publishedAt": "2026-02-25T17:33:03.057Z"
+    },
+    {
+      "id": "ps-1772040796355-rfb3",
+      "slug": "trump-administration-directs-diplomats-to-fight-foreign-data",
+      "headline": "Trump Administration Directs Diplomats to Fight Foreign Data Sovereignty Laws",
+      "subheadline": "A State Department cable signed by Rubio frames data localization mandates as threats to AI advancement and global commerce",
+      "body": "The Trump administration has instructed American diplomats worldwide to actively push back against foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on Tuesday.\n\nThe directive, signed by Secretary of State Marco Rubio, characterizes data sovereignty laws as obstacles that would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats are specifically ordered to \"counter unnecessarily burdensome regulations, such as data localization mandates\" — laws that require companies to store user data within the borders of the country where it was collected. The cable also instructs diplomatic staff to monitor and track legislative proposals in foreign capitals that would advance data sovereignty frameworks.\n\nAs part of the lobbying effort, U.S. diplomats are directed to promote the Global Cross-Border Privacy Rules Forum, an international body that facilitates data transfers across borders through privacy certifications. The initiative represents a clear alternative to the stricter regulatory models that have gained traction in recent years, most notably in the European Union, which has enacted the General Data Protection Regulation, the Digital Services Act, and the AI Act — a suite of laws designed to curb tech companies' exploitation of personal data and impose accountability for algorithmic systems.\n\nThe directive aligns with the administration's broader strategy of removing regulatory barriers for American AI companies as they compete in a heated global race for dominance. By framing foreign data protections as threats to innovation and even civil liberties, the State Department is effectively positioning U.S. commercial interests and the expansion of AI services as synonymous with the open internet. Critics of this approach argue that data localization laws exist precisely because cross-border data flows expose citizens to surveillance, exploitation, and legal frameworks over which they have no democratic control.\n\nThe move arrives at a moment of escalating tension between Washington's deregulatory posture and the rest of the world's increasing appetite for digital governance. Nations across Asia, Africa, and Latin America have been drafting or strengthening their own data protection regimes, often modeled on Europe's GDPR. The State Department did not respond to requests for comment on the cable.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "data sovereignty",
+        "US foreign policy",
+        "AI regulation",
+        "GDPR",
+        "Marco Rubio",
+        "Big Tech",
+        "data privacy"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T17:33:16.355Z"
+    },
+    {
+      "id": "ps-1772040813210-2kot",
+      "slug": "jamie-dimon-warns-rivals-are-repeating-pre-2008-dumb-things-",
+      "headline": "Jamie Dimon Warns Rivals Are Repeating Pre-2008 'Dumb Things' in Credit",
+      "subheadline": "JPMorgan CEO's concerns about reckless lending echo financial crisis parallels as macro analysts back his assessment",
+      "body": "JPMorgan Chase CEO Jamie Dimon has issued a pointed warning that competitors are engaging in reckless behavior in the credit markets, drawing explicit parallels to the kind of risk-taking that precipitated the 2008 global financial crisis.\n\nDimon, who has led the largest U.S. bank since 2005 and navigated it through the last major financial meltdown, said rivals are doing \"dumb things\" in credit — a characterization that Bloomberg macro strategist Simon White described as well founded. The comments come at a time when credit spreads remain historically tight and leveraged lending has surged, conditions that some analysts view as signs of complacency among market participants chasing yield in an increasingly competitive landscape.\n\nThe JPMorgan chief's warnings carry particular weight given his track record. During the lead-up to the 2008 crisis, Dimon was among the few major bank CEOs who recognized early signs of excess in mortgage-related credit products. His bank emerged from that episode in a stronger competitive position than most peers, in part because of a more disciplined approach to risk. Now, with private credit markets having ballooned past $1.7 trillion and traditional banks competing aggressively for lending business, Dimon appears to see a familiar pattern forming — one where the pressure to maintain market share leads institutions to underwrite deals with deteriorating terms and insufficient safeguards.\n\nWhite's analysis supports the thesis that current credit market dynamics warrant concern. When spreads compress to levels that no longer adequately compensate for default risk, and when covenant protections erode in loan agreements, the system becomes more fragile and vulnerable to sudden repricing. The danger is not necessarily an imminent repeat of 2008, but rather that accumulated risk-taking could amplify the next economic downturn whenever it arrives.\n\nFor investors and regulators alike, Dimon's remarks serve as a reminder that periods of apparent market calm often mask the buildup of systemic vulnerabilities. Whether his peers heed the warning — or dismiss it as competitive posturing — may not be clear until the next credit cycle turns.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Jamie Dimon",
+        "JPMorgan",
+        "credit markets",
+        "financial risk",
+        "lending"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1480944657103-7fed22359e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/why-dimon-s-doubts-on-the-credit-market-are-well-founded-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T17:33:33.210Z"
+    },
+    {
+      "id": "ps-1772040826752-eb16",
+      "slug": "tether-pours-200m-into-digital-marketplace-whop-at-1-6b-valu",
+      "headline": "Tether Pours $200M Into Digital Marketplace Whop at $1.6B Valuation",
+      "subheadline": "The stablecoin giant aims to embed USDT payments into a platform serving 18.4 million users and $3 billion in annual creator earnings",
+      "body": "Tether, the company behind the world's largest stablecoin USDT, is making its biggest push yet into consumer commerce with a $200 million investment in Whop, an online marketplace for digital goods and creator services. The deal values the fast-growing startup at $1.6 billion, according to Whop CEO Steven Schwartz.\n\nWhop operates a marketplace where creators sell access to software tools, trading communities, online courses, and other digital products. The platform claims 18.4 million users and approximately $3 billion in annual earnings flowing to participants, with gross transaction volume growing roughly 25% month over month. Under the terms of the deal, Whop will integrate Tether's crypto wallet infrastructure, enabling users and creators to hold, transact, and settle payments in USDT and the company's newer U.S.-focused USAT token — bypassing traditional banks and card networks entirely.\n\nThe investment signals Tether's evolving strategy beyond its core stablecoin issuance business. With USDT's market capitalization sitting at approximately $185 billion, the token has already established itself as a primary vehicle for accessing U.S. dollar-denominated transactions in emerging markets. By embedding its payment rails into a platform with millions of active users, Tether is positioning stablecoins as a viable alternative to conventional payment processors in everyday online commerce — not just crypto trading.\n\nThe funding will support Whop's international expansion into Latin America, Europe, and the Asia-Pacific region, markets where stablecoin adoption has been strongest due to currency instability and limited banking access. The companies also plan to introduce lending and borrowing tools powered by decentralized finance infrastructure, potentially turning the marketplace into a broader financial platform for its creator economy.\n\nFor Tether, the bet represents a calculated move to drive real-world utility for its tokens at a time when stablecoin regulation is taking shape in the United States and globally. Rather than waiting for merchants to adopt crypto payments organically, the company is effectively buying distribution — acquiring a direct pipeline to millions of users who are already transacting billions of dollars annually in digital goods and services.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Tether",
+        "USDT",
+        "stablecoins",
+        "Whop",
+        "crypto payments",
+        "creator economy",
+        "venture capital"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0cd75863c809a717caa362db065f5858a1ed55ca-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/tether-invests-usd200-million-in-digital-marketplace-whop-to-expand-stablecoin-payments",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T17:33:46.752Z"
     },
     {
       "id": "ps-1772039869856-v105",
@@ -109,28 +195,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T17:02:27.771Z"
-    },
-    {
-      "id": "ps-1772038992011-u7fh",
-      "slug": "trump-administration-directs-diplomats-to-fight-foreign-data",
-      "headline": "Trump Administration Directs Diplomats to Fight Foreign Data Laws",
-      "subheadline": "A State Department cable signed by Rubio frames data sovereignty regulations as threats to AI advancement and global commerce",
-      "body": "The Trump administration has instructed American diplomats worldwide to actively oppose foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on February 25.\n\nThe directive, signed by Secretary of State Marco Rubio, frames data sovereignty and localization laws as obstacles to artificial intelligence development and global commerce. According to the cable, such regulations would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats are specifically ordered to \"counter unnecessarily burdensome regulations, such as data localization mandates\" — laws that require companies to store citizens' data within national borders.\n\nBeyond opposition, the cable tasks diplomats with actively monitoring foreign legislative proposals that would advance data sovereignty frameworks and promoting the Global Cross-Border Privacy Rules Forum, an international body that facilitates cross-border data transfers through privacy certifications. The approach effectively turns American embassies into lobbying operations for the interests of U.S. tech giants and AI companies at a moment when the administration is aggressively positioning the United States to dominate the global AI race.\n\nThe directive puts Washington on a direct collision course with a growing international movement toward stricter data governance. The European Union has been at the forefront with its General Data Protection Regulation, the Digital Services Act, and the AI Act — a suite of legislation designed to hold technology companies accountable for how they collect, store, and exploit user data. Dozens of other nations, from India to Brazil, have pursued or enacted similar frameworks, reflecting widespread concern about the concentration of data power in a handful of American corporations.\n\nThe order represents a significant escalation of the administration's deregulatory posture toward Big Tech and underscores the degree to which AI policy has become intertwined with U.S. foreign policy. By casting privacy regulations as threats to civil liberties rather than protections of them, the cable inverts the argument typically made by data sovereignty advocates — and signals that the United States intends to use diplomatic channels to shape the global regulatory environment in favor of its technology sector. The State Department did not respond to requests for comment.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "data sovereignty",
-        "US foreign policy",
-        "AI regulation",
-        "GDPR",
-        "Marco Rubio",
-        "Big Tech",
-        "data privacy"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T17:03:12.011Z"
     },
     {
       "id": "ps-1772039008378-49zc",
@@ -991,69 +1055,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T05:47:58.648Z"
-    },
-    {
-      "id": "ps-1771995725863-x6cs",
-      "slug": "trump-delivers-combative-state-of-the-union-amid-sagging-pol",
-      "headline": "Trump Delivers Combative State of the Union Amid Sagging Poll Numbers",
-      "subheadline": "President offered few new policies in a nearly two-hour address, leaning instead on patriotic themes and familiar talking points",
-      "body": "President Donald Trump used his State of the Union address Tuesday night to declare an American \"turnaround for the ages,\" delivering a lengthy and combative speech that leaned heavily on patriotic rhetoric even as his approval ratings hover near 40 percent and midterm elections loom just eight months away.\n\nThe nearly two-hour address before a joint session of Congress offered little in the way of course correction or new policy initiatives. Instead, Trump doubled down on familiar themes — touting rising incomes, a growing stock market, lower gasoline prices, and reduced undocumented border crossings. \"Our nation is back,\" he told the chamber, calling the United States the \"hottest\" country in the world. Among the few new proposals were retirement savings accounts for working-class Americans and a deal with artificial intelligence companies to secure electricity for their facilities without raising consumer energy bills. He also revived older ideas, including a healthcare plan offering direct payments to help cover insurance premiums and a law requiring voters to prove citizenship.\n\nThe speech's most volatile moments came on tariffs and immigration — two issues that have increasingly divided even Trump's own party. His vow to press forward with broad tariffs, despite a Supreme Court decision last Friday striking down many of his previously imposed duties, drew murmurs from Democrats and uncomfortable silence from Republicans worried about the economic fallout ahead of the 2026 midterms. Three justices who ruled against the administration sat expressionless in the front row. On immigration, Trump focused on crimes committed by undocumented migrants, drawing thunderous Republican applause but angry shouts from Democrats. Notably absent was any mention of the fatal shootings of two American citizens by federal agents during an enforcement operation in Minneapolis — an incident that has significantly eroded public support for his immigration approach.\n\nForeign policy received scant attention despite a massive buildup of American military forces near Iran, with Trump doing little to make a public case for sustained action. The omission was striking given the scale of the deployment but consistent with the domestic focus that has characterized his presidency's messaging strategy.\n\nThe address appeared designed for a television audience measured in the tens of millions — a larger platform than the White House speech Trump delivered last month using similar themes and statistics that failed to move public opinion. With references to military heroes and Olympic gold-medal-winning hockey players seated in the gallery, Trump seemed to be wagering that a wave of patriotic sentiment — perhaps amplified by the nation's 250th birthday celebrations this summer — could turn the political tide before voters render their verdict in November 2026.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Trump",
-        "State of the Union",
-        "Congress",
-        "midterm elections",
-        "tariffs",
-        "immigration"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/63da/live/76c74e40-11fc-11f1-9aaf-2d926c8af0e6.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2d7x6zrwro?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T05:02:05.863Z"
-    },
-    {
-      "id": "ps-1771994839195-jxau",
-      "slug": "trump-faces-pivotal-state-of-the-union-with-approval-at-hist",
-      "headline": "Trump Faces Pivotal State of the Union With Approval at Historic Lows",
-      "subheadline": "With midterm elections eight months away and approval ratings near 36%, the president's Tuesday address may be his last major chance to reset the narrative.",
-      "body": "President Donald Trump delivered his State of the Union address Tuesday night at perhaps the most consequential inflection point of his second term, facing an American public that polls suggest has grown increasingly skeptical of his sweeping agenda on trade, immigration, and executive power.\n\nRecent surveys paint a challenging picture for the White House. A CNN poll placed Trump's approval rating at just 36%, while a Washington Post survey returned a similar figure of 39% — numbers that represent a significant erosion from the support that carried him back to the presidency. The decline is particularly notable on issues that were once his strongest terrain: the economy and immigration. Both areas have seen public confidence in Trump's handling slip since he took office, even as unemployment remains low and stock indexes hover near record highs.\n\nThe political stakes could hardly be higher. With midterm elections in November, voters will render their verdict on Trump's presidency in a contest that could either preserve the Republican congressional majority or hand Democrats the power to impose legislative gridlock and launch aggressive oversight — a scenario Trump himself has acknowledged could lead to another impeachment effort. Robert Rowland, a professor at the University of Kansas and author of a book on Trump's rhetoric, described the moment as \"critical\" but expressed doubt that the president would deviate from his established playbook of boasting about accomplishments and attacking critics. \"State of the Union addresses are normally a time when the president makes a case for his agenda and tries to broaden the appeal,\" Rowland said. \"That's not something that President Trump essentially ever does.\"\n\nThe headwinds are mounting on multiple fronts. The U.S. Supreme Court ruled last Friday that many of Trump's tariffs were illegal, throwing his trade regime into uncertainty even as he pledged to expand their use. His immigration crackdown, including a surge of federal agents into cities like Minneapolis, resulted in the killings of two U.S. citizens by immigration officers — sparking mass protests and forcing the administration to promise a \"softer touch.\" Congressional Democrats have blocked Department of Homeland Security funding absent new legal guardrails on enforcement, a standoff with no resolution in sight. Meanwhile, campaign promises to lower consumer prices through affordability initiatives — including credit card interest rate caps and \"tariff refund\" checks — have seen little tangible progress.\n\nTrump previewed his approach on Monday, declaring that \"we have the greatest economy we've ever had\" and promising a lengthy address. But experts suggest that doubling down rather than recalibrating may carry risks. \"Normally, when presidents realize they are angering the public, they pull back and have some kind of mea culpa,\" Rowland noted. \"That's not something that President Trump ever does. I expect him to double down on the messages.\" With the prospect of U.S. military action against Iran adding another volatile dimension to the political landscape, Tuesday's speech may ultimately reveal less about whether Trump can broaden his appeal and more about whether he is willing to try.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Trump",
-        "State of the Union",
-        "midterm elections",
-        "approval ratings",
-        "US politics",
-        "tariffs",
-        "immigration"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/af5d/live/056b9f50-116e-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cp859d8rn78o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T04:47:19.195Z"
-    },
-    {
-      "id": "ps-1771994854986-24ax",
-      "slug": "new-method-speeds-up-carbon-storage-simulations-hundredfold",
-      "headline": "New Method Speeds Up Carbon Storage Simulations Hundredfold",
-      "subheadline": "Researchers develop a lightweight technique to update surrogate models without retraining, enabling real-time optimization of geological CO₂ sequestration",
-      "body": "A pair of researchers has developed a computational shortcut that allows surrogate models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than conventional retraining — while sacrificing less than three percent accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe two complementary strategies for updating Dynamic Mode Decomposition (DMD) operators, the data-driven mathematical frameworks used to approximate complex multiphase fluid simulations. DMD models are attractive because they dramatically compress the computational burden of simulating how injected CO₂ migrates through rock formations and how pressure builds underground. But they have a well-known limitation: once trained on a particular set of reservoir properties — such as rock permeability and well placement — they must be completely retrained whenever those properties change. That retraining requires generating fresh simulation snapshots from expensive high-fidelity models, effectively negating much of the speed advantage.\n\nThe new approach sidesteps that bottleneck entirely. For scenarios where permeability changes uniformly across a reservoir domain, the authors adjust the model's internal dynamics and control response to match the altered flow timescale, requiring no new simulation data. When permeability varies spatially — a more realistic scenario in heterogeneous geological formations — their method modifies the spatial representation so that high-permeability zones exert proportionally greater influence on the model's reduced mathematical basis. In numerical experiments, both strategies recovered accurate predictions of CO₂ plume migration and pressure evolution to within three percent of a freshly trained surrogate model.\n\nThe practical implications for carbon capture and storage (CCS) operations are significant. Optimization of injection strategies, uncertainty quantification across geological scenarios, and rapid what-if analyses are all computationally intensive tasks that currently bottleneck CCS project planning. A method that enables real-time model updates without regenerating training data could accelerate decision-making cycles from days to minutes, a critical advantage as nations and companies scale up carbon sequestration efforts to meet climate targets.\n\nThe work sits at the intersection of computational physics, engineering, and optimization, and the authors frame it as preserving the physical fidelity that carbon storage workflows demand. While the results are based on numerical experiments rather than field deployment, the hundredfold speedup over full retraining — combined with minimal accuracy loss — suggests the technique could become a standard tool in the growing computational infrastructure supporting large-scale CO₂ sequestration.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate models",
-        "computational physics",
-        "CO2 sequestration"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1592130751506-c5a0b332934a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T04:47:34.986Z"
     }
   ]
 }
