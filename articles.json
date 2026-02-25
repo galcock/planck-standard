@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-02-25T07:03:28.221Z",
+  "lastUpdated": "2026-02-25T07:18:27.484Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772003826784-ecjr",
+      "slug": "uk-household-energy-bills-to-drop-117-annually-starting-apri",
+      "headline": "UK Household Energy Bills to Drop £117 Annually Starting April",
+      "subheadline": "Ofgem price cap cut follows government shake-up of policy charges, but bills remain elevated by historical standards",
+      "body": "British households will see their annual energy bills fall by £117 starting in April, energy regulator Ofgem announced Friday, as a government overhaul of how policy costs are levied begins to take effect.\n\nThe reduction brings the typical annual household bill under Ofgem's price cap to £1,641 — a roughly 7% decline that translates to approximately £10 per month for consumers on variable tariffs using average amounts of gas and electricity. Nearly all households in England, Wales, and Scotland stand to benefit from the cut, though the precise savings will vary depending on individual energy usage and tariff arrangements.\n\nThe price drop stems largely from changes announced by Chancellor Rachel Reeves in November's Budget. Reeves pledged to reduce typical household bills by £150 annually by scrapping the Energy Company Obligation (Eco) scheme — a Conservative-era program — and shifting certain energy policy costs onto general taxation. However, the full £150 reduction has been partially offset by rising costs associated with maintaining and upgrading the country's energy infrastructure, including power lines, cables, and gas pipelines, which eroded some of the anticipated savings.\n\nDespite the welcome relief, energy analysts and consumer advocates caution that bills remain significantly elevated compared to historical norms. Household energy debt has ballooned in recent years following the price shocks triggered by the post-pandemic recovery and Russia's invasion of Ukraine, which sent wholesale gas prices soaring across Europe. Ofgem and consumer groups are urging billpayers to shop around for better deals, noting that fixed-rate tariffs from some suppliers may offer savings beyond the regulated price cap.\n\nThe announcement underscores the complex economics of UK energy pricing, where consumer bills are shaped by a layered mix of wholesale energy costs, network infrastructure charges, and government policy levies. While the April reduction offers modest breathing room for millions of households still grappling with elevated living costs, the gap between current prices and pre-crisis levels remains a persistent pressure point for British consumers and a political challenge for the Labour government heading into the second half of its first year in office.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "UK energy",
+        "Ofgem",
+        "price cap",
+        "household bills",
+        "cost of living"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2b4a/live/324725a0-1216-11f1-9123-81d30b1ac5de.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2lpl9lxw2o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T07:17:06.784Z"
+    },
+    {
+      "id": "ps-1772003843588-le91",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now rapidly identify structures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a suite of machine learning models capable of designing metamaterials that simultaneously exhibit two counterintuitive physical properties: negative Poisson's ratios and negative thermal expansion coefficients. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a persistent bottleneck in metamaterial engineering — the difficulty of working backward from desired properties to the structures that produce them.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures, composites built from two different base materials arranged in carefully tuned geometries. When engineered correctly, these lattices contract when heated rather than expanding, and grow wider when stretched rather than narrowing. Such exotic thermoelastic behavior makes them attractive candidates for precision instruments, aerospace components, and other engineering systems where thermal distortion must be tightly controlled.\n\nTraditionally, designing these structures has required laborious trial-and-error simulation: an engineer proposes a geometry, computes its effective properties, and iterates. Peng and Xu flipped this process by first generating a large dataset through computational homogenization, varying both the geometric features and the base material properties of the honeycomb structures. They then trained a forward neural network model that accurately predicts the effective thermoelastic properties of any given design. More significantly, they built six distinct inverse models — each tailored to a different design scenario — that take desired target properties as input and output the geometric parameters and material choices needed to achieve them.\n\nA key technical innovation is the integration of the trained forward model directly into the loss functions of the inverse models, ensuring that the suggested designs are physically consistent. The forward model was also used to generate supplementary training data for scenarios involving fixed base materials, expanding the inverse models' applicability without requiring additional expensive simulations. The authors report strong predictive performance across representative design examples, with the models generalizing well to previously unseen property targets.\n\nThe framework could substantially accelerate the deployment of thermoelastic metamaterials in real-world engineering systems. Rather than spending weeks running parameter sweeps, designers could query the trained inverse models in seconds to obtain candidate structures meeting specific thermal and mechanical requirements. While the current work focuses on a particular class of bimaterial honeycomb lattices, the methodology — high-throughput simulation feeding neural network surrogates for both forward prediction and inverse design — represents a template increasingly being adopted across materials science and applied physics.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1683442155035-9993aa296a2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T07:17:23.588Z"
+    },
+    {
+      "id": "ps-1772003860904-n75b",
+      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
+      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
+      "subheadline": "A synthetic DNA circuit lets engineered microbes colonize oxygen-starved tumor cores, then survive at the edges",
+      "body": "Researchers at the University of Waterloo have engineered a soil-dwelling bacterium to infiltrate solid tumors, consume them from the inside, and—through a carefully timed genetic switch—push outward into regions that would normally kill the microbe. The work, published in ACS Synthetic Biology, represents a significant step toward a living, programmable cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a spore-forming bacterium that thrives exclusively in oxygen-free environments. The necrotic cores of many solid tumors are precisely such environments: nutrient-rich, devoid of oxygen, and largely unreachable by conventional drugs and immune cells. When bacterial spores are introduced into the body, they germinate inside these tumor cores and begin multiplying, effectively eating the cancerous tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge is what happens at the tumor's oxygen-rich periphery. As the bacteria expand outward, even trace amounts of oxygen prove lethal, allowing a rim of cancer cells to survive. To overcome this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But turning that gene on indiscriminately would be dangerous—oxygen-tolerant bacteria loose in the bloodstream could cause serious harm. So the researchers wired in a biological safety lock: quorum sensing, a natural communication mechanism in which bacteria release chemical signals that intensify as their population grows. Only when enough microbes have accumulated inside a tumor does the signal cross the threshold needed to activate the oxygen-resistance gene.\n\nThe team validated the timing mechanism in a proof-of-concept experiment using green fluorescent protein as a reporter, confirming the quorum-sensing circuit switched on at the intended population density. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system in a single organism and testing it against tumors in pre-clinical animal models.\n\nThe project grew out of doctoral work by Bahram Zargar and Sara Sadr, and the university is now partnering with CREM Co Labs, a Toronto company co-founded by Zargar, to advance the technology toward clinical development. While engineered bacterial therapies remain years from human trials, the Waterloo platform addresses one of the field's most persistent problems—getting a living therapeutic deep into the hypoxic heart of a tumor, then keeping it alive long enough to finish the job.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer therapy",
+        "synthetic biology",
+        "engineered bacteria",
+        "quorum sensing",
+        "University of Waterloo",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T07:17:40.904Z"
+    },
+    {
+      "id": "ps-1772003875249-swpj",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
+      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
+      "subheadline": "The $159 billion payments giant is in early-stage discussions to acquire some or all of the publicly traded rival valued at $40 billion",
+      "body": "Stripe, the Dublin-based payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. The discussions are described as preliminary, and there is no certainty that a transaction will materialize.\n\nThe revelation arrived on the same day Stripe announced a tender offer valuing the privately held company at $159 billion — a 74% jump from its previous valuation and a figure that cements its position among the most valuable private companies in the world. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, with Stripe also planning to repurchase some of its own stock. PayPal, meanwhile, trades publicly with a market capitalization of roughly $40 billion, a fraction of Stripe's private valuation. PayPal's stock ticked upward following reports of Stripe's interest.\n\nA deal of this magnitude would represent one of the largest acquisitions in fintech history and would unite two of the most recognizable names in digital payments under a single corporate umbrella. PayPal's portfolio extends beyond its flagship product to include Venmo, the popular peer-to-peer payments app. Combining Stripe's developer-focused payment processing infrastructure — which powers transactions for millions of businesses worldwide — with PayPal's massive consumer-facing network and established merchant relationships could create a payments colossus with few rivals.\n\nThe timing is notable for another reason. Stripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities. An acquisition of a publicly traded entity like PayPal would represent an extraordinary strategic pivot for a company that has so far preferred to remain private while steadily expanding its product suite and global reach. It would also raise significant regulatory questions given the combined entity's dominance across online payment processing, peer-to-peer transfers, and merchant services.\n\nStripe declined to comment on the report. For now, the payments industry is watching closely to see whether the early-stage talks evolve into a formal bid — or fade as so many preliminary deal discussions do.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "Venmo",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T07:17:55.249Z"
+    },
+    {
+      "id": "ps-1772003889878-u4zv",
+      "slug": "germany-s-economic-recovery-fueled-by-domestic-spending-not-",
+      "headline": "Germany's Economic Recovery Fueled by Domestic Spending, Not Exports",
+      "subheadline": "Consumer, business, and government expenditures drove a late-2024 rebound as trade headwinds persisted",
+      "body": "Germany's economy staged a recovery in the final quarter of last year, powered by a rare alignment of consumer spending, corporate investment, and government outlays — even as the nation's traditionally dominant export sector weighed on overall growth.\n\nThe rebound marks a significant shift for Europe's largest economy, which has long relied on its industrial export machine to drive expansion. Instead, domestic demand emerged as the primary engine of growth, suggesting a structural evolution in how Germany generates economic momentum. Trade, historically a pillar of German prosperity, acted as a drag during the period, reflecting ongoing challenges in global demand and lingering supply chain adjustments.\n\nAnalysts expect the recovery to gain further traction as Berlin ramps up long-planned investments in infrastructure and defense. Germany has faced mounting pressure — both domestically and from NATO allies — to modernize aging roads, bridges, and rail networks while simultaneously boosting military capabilities in response to Europe's shifting security landscape. These large-scale fiscal commitments are projected to inject substantial stimulus into the economy over the coming quarters, potentially offsetting continued softness in external trade.\n\nThe consumer side of the equation has also shown resilience. After enduring a prolonged period of elevated energy costs and inflation that eroded purchasing power, German households appear to be regaining confidence. Wage growth has begun to outpace price increases, giving consumers more room to spend — a dynamic that contributed meaningfully to the fourth-quarter turnaround.\n\nStill, the outlook is not without risk. Germany's manufacturing sector, particularly its auto industry, continues to face competitive pressures from Chinese rivals and uncertainty around global trade policy. Whether domestic demand can sustain the recovery if exports remain subdued will be a critical question for policymakers and investors tracking the eurozone's economic anchor in 2025 and beyond.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Germany",
+        "economic recovery",
+        "domestic demand",
+        "European economy",
+        "infrastructure spending",
+        "defense spending"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1663493955721-110e7e1ae36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8R2VybWFueSUyMGVjb25vbWljJTIwcmVjb3Zlcnl8ZW58MHwwfHx8MTc3MjAwMzg4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/german-rebound-driven-by-domestic-demand-as-trade-damps-growth",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T07:18:09.878Z"
+    },
+    {
+      "id": "ps-1772003907389-xsqw",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, creating a dominant force in digital payments",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would reshape the global payments landscape and consolidate two of the industry's most significant bets on stablecoins and blockchain infrastructure.\n\nPayPal shares surged 7% on the news, extending gains that had already begun earlier in the week amid buyout speculation. The stock remains deeply depressed from its peak, having fallen roughly 80% from record highs reached in 2021 — a decline that may have made the once-untouchable fintech pioneer vulnerable to an approach. Stripe, which processed $1.9 trillion in payment volume last year and carries a private valuation of $159 billion, would be acquiring a company that was once the undisputed leader in online payments but has struggled to maintain growth and relevance against intensifying competition.\n\nThe crypto implications of a potential combination are substantial. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has since grown to a market capitalization of approximately $4 billion. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to develop Tempo, a payments-focused blockchain currently in testing. A merged entity would control both a consumer-facing stablecoin with meaningful adoption and the backend tooling for businesses to issue their own dollar-backed tokens — potentially creating an end-to-end stablecoin payments stack with few rivals.\n\nDeliberations remain in early stages, Bloomberg reported, and there is no certainty that Stripe will proceed with a formal bid. The sheer scale of the transaction would make it one of the largest fintech deals ever contemplated. Stripe would need to navigate significant regulatory scrutiny, given that combining the two companies would concentrate enormous market power in digital payments processing. PayPal's sprawling business — which includes the Venmo peer-to-peer app, Braintree merchant services, and its core checkout platform — also presents complex integration challenges.\n\nThe potential deal arrives at a moment when traditional payments companies are racing to embed stablecoin and blockchain rails into their infrastructure, viewing them as faster and cheaper alternatives to legacy banking networks for moving money globally. If Stripe ultimately moves forward, it would signal that the next phase of stablecoin adoption may be driven not by crypto-native startups but by incumbent payment processors seeking to rewire the financial plumbing from within.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "fintech",
+        "mergers and acquisitions",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T07:18:27.389Z"
+    },
     {
       "id": "ps-1772002927283-s6kp",
       "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
@@ -21,48 +147,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T07:02:07.283Z"
-    },
-    {
-      "id": "ps-1772002944319-kbi8",
-      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
-      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now suggest material compositions and geometries for lattices with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — structures that exhibit the rare combination of negative Poisson's ratios and negative thermal expansion coefficients. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses one of the most persistent bottlenecks in advanced materials engineering: starting from desired properties and working backward to find the structure that produces them.\n\nMetamaterials that simultaneously shrink when heated (negative thermal expansion) and expand laterally when stretched (negative Poisson's ratio) hold enormous promise for aerospace, precision instrumentation, and other fields where thermal distortion can be catastrophic. But designing such materials from scratch has traditionally required painstaking trial-and-error simulation or deep expert intuition. The bimaterial hybrid-honeycomb structures at the center of this study achieve their exotic behavior through the interplay of two constituent materials with different thermal and elastic properties, arranged in carefully tuned geometric patterns — making the design space vast and difficult to navigate manually.\n\nTo tackle this, Peng and Xu first generated a large dataset using computational homogenization, sweeping across variations in geometric features and base material properties. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design, achieving high accuracy at a fraction of the computational cost of full simulations. The real advance came with six distinct inverse models, each configured for different design scenarios — some targeting specific effective properties while allowing material choice to vary, others fixing the base materials and optimizing geometry alone. Crucially, the trained forward model was embedded directly into the loss functions of the inverse models, creating a feedback loop that enforces physical consistency during training.\n\nThe approach represents a significant step toward on-demand metamaterial design. Rather than screening thousands of candidate structures through expensive finite-element simulations, engineers could specify a target set of thermal expansion coefficients and mechanical properties and receive actionable design parameters in return. The researchers demonstrated the framework's effectiveness through representative design examples, showing that the inverse models reliably suggest geometries and material combinations that meet prescribed performance targets.\n\nThe work sits at a busy intersection of materials science and artificial intelligence, where machine learning is increasingly being used not just to accelerate simulation but to fundamentally reshape the design workflow. As advanced manufacturing techniques like multi-material 3D printing make it feasible to fabricate complex lattice architectures, computational tools that can efficiently navigate the design space become essential infrastructure for next-generation engineering systems.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1544121368-f8f82eaf420a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T07:02:24.319Z"
-    },
-    {
-      "id": "ps-1772002960576-aiyv",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic biology approach uses quorum sensing to activate oxygen-tolerant microbes only inside solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate and consume solid tumors from the inside, deploying synthetic DNA circuits that activate the microbe's cancer-killing capabilities only when conditions are safe. The work, published in ACS Synthetic Biology, represents a notable advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide an ideal habitat. Bacterial spores injected into the body migrate to these cores, where they germinate, multiply, and begin consuming the nutrient-rich tumor tissue. \"The bacterium is essentially ridding the body of the tumor,\" said Marc Aucoin, a chemical engineering professor at Waterloo who co-led the research.\n\nThe central engineering challenge has been what happens at the tumor's oxygen-exposed edges. As the bacteria spread outward from the anoxic core, even trace amounts of oxygen kill them before they can eliminate the entire mass. To overcome this, the team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But activating that gene prematurely would pose a serious safety risk — oxygen-tolerant bacteria could proliferate in the bloodstream or healthy tissue. The solution was quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The engineered circuit switches on the oxygen-resistance gene only after enough bacteria have accumulated inside a tumor, ensuring the modification activates exclusively where it is needed.\n\nIn earlier work, the team demonstrated that C. sporogenes could be genetically modified for improved oxygen tolerance. In their latest study, they validated the quorum-sensing control system by programming the bacteria to produce green fluorescent protein at a specific population threshold, confirming precise timing. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, an applied mathematics professor at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it in pre-clinical tumor models. The Waterloo group is collaborating with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar, who initiated the research alongside Ingalls and retired Waterloo professor Pu Chen. Former doctoral student Sara Sadr played a leading role in advancing the experimental work. If pre-clinical results prove successful, the platform could offer a fundamentally new modality for attacking solid tumors — the category that accounts for roughly 90 percent of all cancers and remains stubbornly resistant to many immunotherapies.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "bacterial engineering",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T07:02:40.576Z"
     },
     {
       "id": "ps-1772002975847-mdqx",
@@ -106,28 +190,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T07:03:12.710Z"
-    },
-    {
-      "id": "ps-1772003008129-nk34",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two payment giants would create a stablecoin and crypto infrastructure powerhouse",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would unite two of the world's largest payment processors and significantly reshape the digital payments and stablecoin landscape. PayPal shares surged 7% on the news.\n\nThe deliberations are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination is striking. Stripe, which remains privately held, processed $1.9 trillion in transactions last year and was most recently valued at $159 billion. PayPal, once a market darling that peaked in 2021, has seen its stock decline roughly 80% from those highs, making it a more digestible target despite its still-massive footprint in online commerce.\n\nWhat makes the potential deal particularly significant for the broader fintech ecosystem is the crypto dimension. Both companies have been aggressively building out stablecoin and blockchain capabilities. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to a market capitalization of approximately $4 billion. It enables users to transfer dollars across crypto networks around the clock, often at costs below traditional bank wires. Stripe, for its part, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm.\n\nA merger would concentrate enormous stablecoin infrastructure under one roof — Bridge's enterprise tooling for issuing dollar-backed tokens alongside PayPal's consumer-facing PYUSD — potentially accelerating mainstream adoption of crypto-native payment rails. The combined entity would possess both the merchant relationships and the blockchain plumbing to make stablecoin payments a default option rather than a niche feature.\n\nPayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fresh momentum. For Stripe, which has shown no urgency to pursue a public listing, absorbing PayPal would represent a dramatic acceleration of its ambitions — vaulting the company into direct ownership of one of the most widely recognized consumer payment brands in the world while deepening its bet that stablecoins will become foundational infrastructure for global commerce.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T07:03:28.129Z"
     },
     {
       "id": "ps-1772002021147-9jwb",
@@ -253,27 +315,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/yen-reverses-gain-versus-dollar-after-dovish-boj-nominations",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T06:33:00.456Z"
-    },
-    {
-      "id": "ps-1772000274318-ai9u",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
-      "subheadline": "The $159 billion payments giant is in early-stage discussions to acquire some or all of the publicly traded rival valued at $40 billion",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to people familiar with the matter cited by Bloomberg. The discussions remain in their earliest stages, and there is no certainty that a transaction will materialize.\n\nThe potential acquisition would represent one of the most significant consolidation moves in the history of digital payments. Stripe, which recently reached a $159 billion valuation through a new tender offer — a 74% jump from the prior year — would be absorbing a publicly traded competitor with a market capitalization of roughly $40 billion. PayPal's portfolio includes its namesake checkout platform as well as Venmo, the popular peer-to-peer payments app. PayPal shares ticked upward following reports of Stripe's interest.\n\nThe timing is notable. Stripe disclosed the tender offer details on the same day the acquisition reports surfaced, as part of an annual letter updating stakeholders on the business. Investors participating in the latest share purchase include Andreessen Horowitz and Thrive Capital, and the company said it would also repurchase some of its own stock. The fresh valuation cements Stripe's position as one of the most valuable private companies in the world. CEO and co-founder Patrick Collison recently told CNBC that taking Stripe public is not among his current priorities.\n\nA combination of the two companies would create a payments colossus spanning nearly every layer of digital commerce — from Stripe's developer-focused infrastructure that powers millions of businesses to PayPal's massive consumer-facing checkout and money-transfer networks. It would also mark a striking role reversal: PayPal, once the undisputed giant of online payments with a peak market cap exceeding $350 billion in 2021, would be absorbed by a younger rival that has steadily eaten into its dominance among merchants and platforms.\n\nSignificant hurdles remain beyond the early nature of the talks. Antitrust regulators on both sides of the Atlantic would almost certainly scrutinize a deal that consolidates so much of the global payments ecosystem under one roof. The structural complexity of a private company acquiring a public one of PayPal's scale would also pose challenges around financing, governance, and integration. Stripe declined to comment on the reports.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments",
-        "Venmo"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T06:17:54.318Z"
     },
     {
       "id": "ps-1771999387017-7fzs",
@@ -1017,46 +1058,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-24/fed-s-goolsbee-on-inflation-risk-tariffs-and-powell-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T15:48:29.691Z"
-    },
-    {
-      "id": "ps-1771945336103-hbng",
-      "slug": "russian-soldiers-describe-execution-of-troops-who-refuse-ord",
-      "headline": "Russian Soldiers Describe Execution of Troops Who Refuse Orders",
-      "subheadline": "Two men who fled the front lines tell BBC they witnessed commanders shoot soldiers at point-blank range as punishment",
-      "body": "Russian soldiers have given firsthand accounts of commanders executing their own troops for refusing to return to the front lines in Ukraine, in testimony broadcast as part of a new BBC documentary.\n\nTwo men, identified as Ilya and Dima, spoke from an undisclosed location outside Russia for the film \"The Zero Line: Inside Russia's War.\" Ilya, a 35-year-old former special-needs teacher who was drafted into the army, told the BBC he witnessed a commander shoot four soldiers at point-blank range after they fled the front line and refused to go back. The practice is known in Russian military slang as \"zeroing\" — a form of summary execution intended both as punishment and as intimidation for others contemplating disobedience. Dima, who also witnessed the killings, described commanders shooting their own men as \"a normal thing.\" He recounted standing just two to three meters away: \"Just murders, just click, clack, bang. It's not a drama, it's not a movie, it's real life.\"\n\nThe accounts add to a growing body of evidence suggesting severe discipline breakdowns and coercive brutality within Russian forces nearly three years into the full-scale invasion of Ukraine. Reports of so-called barrier troops — units positioned behind front lines to prevent retreat — and extrajudicial killings have circulated since the early months of the conflict, but direct eyewitness testimony of the kind presented in the documentary remains rare. Both men are currently on the run, having deserted their units.\n\nThe Russian government pushed back against the allegations in a statement to the BBC, saying its armed forces \"operate with utmost restraint\" and treat personnel \"with maximum care.\" Moscow added that information regarding alleged violations and crimes \"is duly investigated,\" while noting it was \"unable to independently verify the accuracy or authenticity of the information\" provided by the BBC.\n\nThe documentary airs as Western attention remains focused on the trajectory of peace negotiations and the future of military support for Kyiv. The testimonies underscore the human cost of the war on Russia's own forces and raise further questions about morale and discipline within an army that has suffered heavy casualties. Independent estimates from Western intelligence agencies have placed total Russian casualties — killed and wounded — well above 300,000 since February 2022, though Moscow has not released comprehensive figures.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Russia-Ukraine war",
-        "Russian military",
-        "war crimes",
-        "BBC documentary",
-        "military discipline"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/4ae6/live/a6798040-115c-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cx2rql99rwxo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-24T15:02:16.103Z"
-    },
-    {
-      "id": "ps-1771945382082-l5oa",
-      "slug": "anthropic-targets-enterprise-market-with-pre-built-ai-agent-",
-      "headline": "Anthropic Targets Enterprise Market With Pre-Built AI Agent Plugins",
-      "subheadline": "New program deploys Claude-powered agents for finance, legal, and HR — posing a direct challenge to incumbent SaaS providers",
-      "body": "Anthropic on Tuesday launched its most ambitious enterprise offering to date, unveiling a plugin-based system that allows companies to deploy pre-built AI agents across departments including finance, legal, human resources, and engineering.\n\nThe enterprise agents program builds on the company's previously announced Claude Cowork platform and plugin architecture, which entered research preview in late January. But the new launch adds critical enterprise infrastructure — private software marketplaces, controlled data flows, and centralized administration tools — designed to meet the expectations of corporate IT departments accustomed to managing traditional software deployments. \"Admins want to be able to have really, really tailored workflows and skills for their specific organization,\" Anthropic product officer Matt Piccolella told reporters, adding that the system allows organizations to manage agent deployment \"in a very centralized way.\"\n\nThe stock plugins shipping at launch target functions common to most large organizations. The finance plugin equips Claude with capabilities for market research, competitive analysis, and financial modeling. An HR plugin can generate job descriptions, onboarding documents, and offer letters. Each is designed as a starting point that companies can customize to match their own internal processes. Alongside the plugins, Anthropic introduced new enterprise connectors for Gmail, DocuSign, and Clay, enabling agents to pull data directly from linked systems — a crucial step toward making AI agents useful in real workflows rather than isolated demonstrations.\n\nThe strategic implications are significant. By packaging AI agents as drop-in replacements for tasks currently handled by specialized SaaS tools, Anthropic is positioning itself not just as a model provider but as a direct competitor to a wide swath of enterprise software vendors. Kate Jensen, Anthropic's head of Americas, was candid about the industry's recent track record, acknowledging that 2025's much-hyped \"year of agents\" largely failed to materialize. \"It wasn't a failure of effort. It was a failure of approach,\" Jensen said.\n\nThe program represents a major bet that enterprise adoption of agentic AI hinges less on raw model capability and more on deployment infrastructure — the permissions, data governance, and customization layers that large organizations require before trusting AI with consequential business tasks. If the approach gains traction, it could substantially expand Anthropic's enterprise client base while reshaping how companies think about automating knowledge work.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Anthropic",
-        "enterprise AI",
-        "AI agents",
-        "Claude",
-        "SaaS"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Screen-Shot-2026-02-24-at-9.38.18-AM.jpg?resize=1200,662",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-24T15:03:02.082Z"
     }
   ]
 }
