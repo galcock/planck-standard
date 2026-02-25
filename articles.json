@@ -1,26 +1,131 @@
 {
-  "lastUpdated": "2026-02-25T00:18:14.422Z",
+  "lastUpdated": "2026-02-25T00:48:18.787Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771978618286-p7hh",
+      "id": "ps-1771980420281-dcr5",
       "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
       "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was detained at London home despite agreement to attend a voluntary police interview next month",
-      "body": "Lord Peter Mandelson's legal team has accused Metropolitan Police of arresting the former British ambassador to the United States based on a groundless claim that he intended to flee the country, calling the justification for his Monday detention entirely without merit.\n\nMandelson, a towering figure in Labour politics for more than three decades, was arrested at his London home on Monday afternoon on suspicion of misconduct in public office. Officers from the Met's central specialist crime division took him to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His lawyers at Mishcon De Reya told the BBC that the arrest upended an existing agreement with police for Mandelson to attend a voluntary interview next month. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement, adding that it has formally requested the evidence police relied upon to justify the detention.\n\nThe arrest stems from an investigation the Metropolitan Police launched earlier this month into allegations that Mandelson, while serving as a government minister, shared market-sensitive information with the late convicted sex offender Jeffrey Epstein. The allegations surfaced after the U.S. Department of Justice released a cache of documents last month that included emails between the two men. Among them, a 2009 email appears to show Mandelson relaying an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other correspondence allegedly discussed a tax on bankers' bonuses and appeared to confirm an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson was appointed British ambassador to the United States in February 2025 but was dismissed in September after Downing Street said newly surfaced information revealed a deeper relationship with Epstein than previously understood. Search warrants were executed at two addresses in Wiltshire and Camden as part of Monday's operation. The Metropolitan Police declined to comment on the flight-risk allegation and said Mandelson has been bailed until the end of May, with consultations between police and the Crown Prosecution Service ongoing.\n\nMandelson's camp maintains he committed no criminal act and was not motivated by financial gain. His lawyers emphasized that his \"overriding priority is to cooperate with the police investigation, as he has done throughout this process, and to clear his name.\" The case represents an extraordinary legal jeopardy for a politician who helped architect New Labour's rise and Tony Blair's 1997 landslide victory, and who remained one of the most influential figures in British public life until his abrupt fall from diplomatic service last year.",
+      "subheadline": "Former UK ambassador to the US was held for nine hours at Wandsworth police station on misconduct suspicion tied to Epstein links",
+      "body": "Lord Peter Mandelson was arrested at his London home on Monday after police concluded he posed a flight risk — an allegation his legal team has denounced as entirely without foundation. The former British ambassador to the United States was taken into custody on suspicion of misconduct in public office, held for nine hours at Wandsworth police station, and released on bail in the early hours of Tuesday morning.\n\nMandelson's lawyers at Mishcon De Reya told the BBC that the arrest blindsided them, given an existing agreement with the Metropolitan Police for the peer to attend a voluntary interview next month. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement, adding that it has formally requested the evidence used to justify the arrest. The Metropolitan Police declined to comment on the flight risk allegation but confirmed Mandelson has been bailed until the end of May, with consultations between police and the Crown Prosecution Service ongoing.\n\nThe investigation centers on allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. Documents released last month by the US Department of Justice included emails between the two men, one of which from 2009 appeared to show Mandelson sharing a policy assessment from an adviser to then-Prime Minister Gordon Brown regarding an asset sales plan. Other communications appeared to reference a proposed tax on bankers' bonuses and an imminent eurozone bailout package the day before its public announcement in 2010.\n\nThe arrest followed the execution of search warrants at two addresses in Wiltshire and Camden. Plain-clothes officers from the Met's central specialist crime division were seen leading Mandelson from his London residence and placing him in an unmarked vehicle. His legal team maintains he has not acted criminally and was not motivated by financial gain.\n\nMandelson, a towering figure in Labour politics who helped architect Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said newly emerged information revealed the depth of his relationship with Epstein. The case marks a dramatic fall for one of the most influential political operatives in modern British history, with the outcome of the police investigation likely to carry significant ramifications for both Mandelson and the Labour establishment.",
       "category": "breaking",
       "importance": 8,
       "tags": [
         "Peter Mandelson",
-        "UK politics",
         "Jeffrey Epstein",
         "Metropolitan Police",
+        "UK politics",
         "misconduct in public office"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T00:16:58.286Z"
+      "publishedAt": "2026-02-25T00:47:00.282Z"
+    },
+    {
+      "id": "ps-1771980436574-l1fp",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that allows data-driven surrogate models used in geological carbon storage projects to be updated for changing reservoir conditions without retraining — achieving results within three percent of fully retrained models while running hundreds of times faster.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, 2025, tackled a persistent bottleneck in computational modeling for carbon capture and storage (CCS). High-fidelity multiphase flow simulators, which track how injected CO₂ migrates through underground rock formations, are essential for optimizing storage operations but prohibitively expensive to run repeatedly. Dynamic Mode Decomposition (DMD), a data-driven framework that extracts simplified mathematical operators from simulation snapshots, has emerged as a promising surrogate approach — but with a critical limitation. When subsurface properties such as rock permeability or well placement change, the DMD operators become invalid, and engineers must regenerate simulation data and retrain the model from scratch, negating much of the computational savings.\n\nThe new work introduces two complementary strategies that sidestep this retraining requirement entirely. For uniform changes in permeability across a reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability — a more realistic scenario reflecting the geological heterogeneity of actual storage formations — the approach modifies the spatial representation within the model's reduced basis, weighting high-permeability zones more heavily to capture their outsized influence on fluid migration.\n\nNumerical experiments validated both strategies against freshly trained surrogate models, demonstrating that the updated operators accurately reproduced CO₂ plume migration patterns and pressure buildup to within three percent accuracy. The lightweight update procedure executed hundreds of times faster than the conventional retrain-from-scratch workflow, a speedup that could prove transformative for real-time optimization and rapid scenario analysis in carbon storage operations.\n\nThe research sits at the intersection of computational physics, engineering, and optimization, and addresses a practical need that is growing more urgent as CCS projects scale worldwide. Governments and industry are investing billions in underground carbon storage as a climate mitigation strategy, but the geological uncertainty inherent in these projects demands extensive modeling of \"what-if\" scenarios — exactly the kind of rapid parametric exploration that this method enables. By preserving physical fidelity while dramatically reducing computational cost, the approach could help close the gap between the modeling demands of large-scale CCS deployment and the practical constraints of existing simulation tools.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "carbon storage",
+        "dynamic mode decomposition",
+        "surrogate modeling",
+        "computational physics",
+        "reservoir simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1659576646172-0a3327f5b4bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Y2FyYm9uJTIwc3RvcmFnZSUyMGR5bmFtaWMlMjBtb2RlJTIwZGVjb21wb3NpdGlvbnxlbnwwfDB8fHwxNzcxOTEyMDUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T00:47:16.574Z"
+    },
+    {
+      "id": "ps-1771980452034-arcy",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have engineered bacteria capable of colonizing and consuming solid tumors from the inside, using a genetically programmed safety mechanism that prevents the microbes from becoming active in healthy tissue. The work, published in ACS Synthetic Biology, represents a significant advance in the emerging field of bacterial cancer therapy.\n\nThe approach centers on Clostridium sporogenes, a soil bacterium that thrives exclusively in oxygen-free environments. Because the cores of many solid tumors are composed of dead cells and devoid of oxygen, they provide ideal conditions for the microbe to multiply and begin breaking down cancerous tissue. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge was overcoming what the team calls the oxygen barrier. As the bacteria expand outward from the tumor's anaerobic core, they encounter small amounts of oxygen at the tumor periphery and begin dying before they can eliminate the cancer entirely. To solve this, the researchers inserted an oxygen-tolerance gene from a related bacterial species. But activating that gene prematurely — say, in the oxygen-rich bloodstream — could pose serious safety risks. The team's solution was a natural bacterial communication process known as quorum sensing, in which microbes release chemical signals that strengthen as their population grows. Only after a sufficient number of bacteria have accumulated inside a tumor does the signal reach the threshold needed to switch on the oxygen-resistance gene. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo.\n\nIn earlier work, the team demonstrated that C. sporogenes could be genetically modified to better withstand oxygen. In a follow-up experiment, they validated the quorum-sensing design by programming bacteria to produce green fluorescent protein, confirming the activation system triggered at the intended moment. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control circuit into a single organism and testing it against tumors in pre-clinical animal trials.\n\nThe project, led by PhD student Bahram Zargar under the supervision of Ingalls and retired Waterloo professor Dr. Pu Chen, draws on expertise spanning chemical engineering, applied mathematics, and life sciences. The university team is collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar. Former Waterloo doctoral student Dr. Sara Sadr also played a leading role in advancing the research. While clinical application remains years away, the work opens a promising new front in the treatment of solid tumors — which account for roughly 90 percent of all cancers and have historically resisted many immunotherapies effective against blood cancers.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "bacterial therapy",
+        "University of Waterloo",
+        "Clostridium sporogenes",
+        "quorum sensing"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T00:47:32.034Z"
+    },
+    {
+      "id": "ps-1771980467941-4gc6",
+      "slug": "wayve-secures-1-8b-as-big-tech-and-automakers-bet-on-its-ai-",
+      "headline": "Wayve Secures $1.8B as Big Tech and Automakers Bet on Its AI Driving Stack",
+      "subheadline": "The UK startup, now valued at $8.6 billion, pitches a hardware-agnostic self-driving platform to OEMs and Uber",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round — part of a broader $1.8 billion capital raise — attracting investment from Nvidia, Uber, Mercedes-Benz, Nissan, Stellantis, and a roster of top-tier institutional backers. The deal values the London-based company at $8.6 billion and underscores the intensifying race among technology giants and legacy automakers to stake claims in the commercialization of self-driving technology.\n\nEclipse, Balderton, and SoftBank Vision Fund 2 led the round, with new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Returning backers Microsoft, Nvidia, and Uber also participated. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic investment. CEO Alex Kendall declined to confirm the chipmaker's exact contribution.\n\nFounded in 2017, Wayve has built what it calls an end-to-end deep learning system for autonomous driving — software that learns from data rather than relying on high-definition maps or specific sensor configurations. The approach allows its platform to run on whatever compute hardware and sensor suites an automaker already has installed in its vehicles. Wayve offers two tiers: an \"eyes on\" driver-assistance system and an \"eyes off\" fully autonomous system capable of Level 4 operation on city streets and highways. Its Gen 3 platform, unveiled last fall, is built on Nvidia's Drive AGX Thor computing architecture.\n\nThe company's business model represents a deliberate departure from competitors. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which embeds proprietary software in its own vehicles, Wayve sells its AI stack to third-party automakers and mobility platforms. Nissan plans to integrate Wayve's software into its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials using Wayve-equipped vehicles this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, working across multiple OEMs and geographies.\n\n\"We took a very contrarian view on the technology side,\" Kendall told TechCrunch. \"Now, when it comes to this phase of moving into commercialization, we're also taking a contrarian business model approach.\" He argued that selling generalizable AI to the broader automotive industry gives Wayve access to the largest possible addressable market — an option he said is only viable because the company's system is not locked to any particular hardware or mapping infrastructure. With three major automakers now both customers and investors, and Uber signaling a broad global rollout, Wayve appears to be positioning itself as the default autonomy supplier for companies unwilling to build the technology themselves.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "artificial intelligence",
+        "fundraising"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-8b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T00:47:47.941Z"
+    },
+    {
+      "id": "ps-1771980482728-n6do",
+      "slug": "us-slaps-126-preliminary-duties-on-indian-solar-imports",
+      "headline": "US Slaps 126% Preliminary Duties on Indian Solar Imports",
+      "subheadline": "Trump administration alleges India unfairly subsidized solar manufacturing, escalating trade tensions across renewable energy supply chains",
+      "body": "The Trump administration has imposed preliminary countervailing duties of 126% on solar imports from India, a sharp escalation in trade enforcement that could reshape global clean energy supply chains and raise costs for American solar installers.\n\nThe Commerce Department's preliminary finding, announced on February 24, determined that India unfairly subsidized its solar manufacturing sector, giving Indian producers an artificial cost advantage in the U.S. market. The investigation also encompassed solar imports from Indonesia and Laos, signaling a broader crackdown on what Washington views as trade-distorting practices across Southeast and South Asia — regions that have become critical nodes in the global solar supply chain.\n\nThe 126% duty rate, if finalized, would effectively shut Indian solar panels and cells out of the U.S. market by more than doubling their landed cost. The move comes as the American solar industry has been grappling with a complex web of trade restrictions, many of which trace back to longstanding efforts to limit the dominance of Chinese manufacturers who have increasingly routed production through third countries to circumvent existing tariffs. India, which has been aggressively building out its own solar manufacturing capacity with government support, now finds itself caught in the same enforcement dragnet.\n\nThe decision is likely to further strain U.S.-India trade relations at a time when the two countries have been working to deepen strategic and economic ties. For the U.S. solar industry, the duties add another layer of uncertainty. Domestic installers and project developers have repeatedly warned that tariffs on imported panels drive up costs and slow deployment, undermining the country's clean energy goals. Industry groups estimate that the U.S. still depends heavily on imports to meet surging demand for solar capacity.\n\nThe preliminary duties are subject to a final determination by the Commerce Department, typically issued several months after the initial finding. Indian manufacturers and exporters will have the opportunity to contest the findings and present additional evidence before a final rate is set. In the meantime, importers will be required to post cash deposits at the preliminary rate, creating an immediate financial barrier to trade.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "solar energy",
+        "tariffs",
+        "US-India trade",
+        "Trump administration",
+        "renewable energy",
+        "trade policy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1711224116673-fd729b3db180?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8c29sYXIlMjBlbmVyZ3klMjB0YXJpZmZzfGVufDB8MHx8fDE3NzE5ODA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T00:48:02.728Z"
+    },
+    {
+      "id": "ps-1771980498694-mxvi",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, as PayPal shares surge 7% on the news",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, in what would represent one of the largest fintech deals ever attempted and a dramatic consolidation of stablecoin infrastructure under one roof.\n\nPayPal shares jumped 7% in late trading on the news, extending gains that had already begun earlier in the week amid buyout speculation. The stock remains roughly 80% below its 2021 peak, a prolonged decline that has made the once-dominant digital payments company an increasingly attractive target. Stripe, which processed $1.9 trillion in transactions last year and was most recently valued at $159 billion, would be absorbing a company that has struggled to regain momentum despite maintaining a vast user base and merchant network.\n\nThe strategic logic extends well beyond traditional payments. Both companies have made significant bets on stablecoins and blockchain-based financial infrastructure. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would create a combined entity with arguably the most comprehensive stablecoin toolkit in the payments industry — spanning issuance, distribution, and settlement.\n\nDeliberations remain in early stages, Bloomberg reported, and there is no certainty a deal will materialize. The scale of such a transaction would likely draw intense regulatory scrutiny, given both companies' central roles in global payment processing. Stripe remains privately held, and any acquisition of PayPal — whether in whole or in part — would represent a significant expansion of its already sprawling operations.\n\nThe potential combination underscores a broader thesis gaining traction across financial services: that stablecoins and blockchain rails are becoming core infrastructure rather than peripheral experiments. With traditional payment volumes under margin pressure and real-time settlement increasingly demanded by merchants and consumers alike, the race to control the next generation of money movement is accelerating. A Stripe-PayPal union would place a formidable bet that the future of payments runs on programmable dollars.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "fintech",
+        "mergers and acquisitions",
+        "PYUSD"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T00:48:18.694Z"
     },
     {
       "id": "ps-1771978635546-0ino",
@@ -44,27 +149,6 @@
       "publishedAt": "2026-02-25T00:17:15.546Z"
     },
     {
-      "id": "ps-1771978651288-ct7b",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "A synthetic biology approach uses quorum sensing to control oxygen-tolerant microbes that colonize solid cancer cores",
-      "body": "Researchers at the University of Waterloo have engineered a strain of soil-dwelling bacteria to infiltrate and consume solid tumors from the inside out, deploying synthetic DNA circuits to ensure the microbes activate their cancer-killing capabilities only after safely establishing themselves deep within a tumor's oxygen-starved core.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. Because the interior of most solid tumors consists of dead cells with virtually no oxygen, the microbe finds ideal conditions to multiply and spread once its spores reach the tumor site. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially colonizes and displaces the tumor from within.\n\nThe central engineering challenge has been what happens at the tumor's periphery. As the bacteria expand outward, they encounter trace amounts of oxygen and begin dying off before they can eliminate the cancer entirely. To solve this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed a safety mechanism to prevent the modified microbes from surviving in oxygen-rich environments like the bloodstream, where unchecked growth could prove dangerous. Their solution is quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. The oxygen-tolerance gene switches on only after enough bacteria have accumulated inside the tumor to produce a sufficiently strong signal, effectively restricting the enhanced survival capability to the tumor microenvironment.\n\nThe team validated its quorum-sensing design in a study published in ACS Synthetic Biology, programming Clostridium sporogenes to produce green fluorescent protein as a proof of concept that the activation system triggers at the intended threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control system into a single engineered bacterium and testing it against tumors in preclinical trials. The project, which grew out of doctoral work by Bahram Zargar and was advanced significantly by former Waterloo student Sara Sadr, involves a collaboration with CREM Co Labs, a Toronto-based company Zargar co-founded. While bacterial cancer therapies remain years from clinical use, the Waterloo approach represents one of the more sophisticated attempts to harness living microorganisms as programmable anticancer agents — a strategy that could eventually complement surgery, chemotherapy, and immunotherapy for solid tumors that resist conventional treatment.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T00:17:31.288Z"
-    },
-    {
       "id": "ps-1771978665382-w7ze",
       "slug": "stripe-explores-potential-acquisition-of-paypal-in-landmark-",
       "headline": "Stripe Explores Potential Acquisition of PayPal in Landmark Deal",
@@ -83,49 +167,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-25T00:17:45.382Z"
-    },
-    {
-      "id": "ps-1771978679477-kb5o",
-      "slug": "us-slaps-126-preliminary-tariffs-on-indian-solar-imports",
-      "headline": "US Slaps 126% Preliminary Tariffs on Indian Solar Imports",
-      "subheadline": "Trump administration finds India unfairly subsidized solar manufacturing, escalating trade tensions across clean energy supply chains",
-      "body": "The Trump administration has imposed preliminary duties of 126% on solar imports from India, citing unfair government subsidies to the country's manufacturing sector — a move that threatens to reshape global clean energy supply chains and raise costs for American solar installers.\n\nThe determination, announced on February 24, also targeted solar imports from Indonesia and Laos as part of a broader investigation into subsidized solar manufacturing across Asia. The duties, if finalized, would effectively block most Indian solar products from the U.S. market by more than doubling their cost at the border. India has been expanding its solar manufacturing capacity aggressively in recent years, positioning itself as an alternative to China in global photovoltaic supply chains.\n\nThe tariffs represent the latest escalation in the administration's trade offensive against what it views as unfair foreign competition in the energy sector. The U.S. solar industry has long been caught between competing interests: domestic manufacturers who welcome protection from cheaper imports, and installers and developers who depend on affordable panels to build out solar capacity. Industry groups have warned that steep duties on imports from multiple countries simultaneously could create acute panel shortages and drive up project costs at a critical moment for the sector's growth.\n\nIndia's solar exports to the United States had been growing as companies sought to diversify procurement away from Chinese-dominated supply chains — a shift that was itself partly driven by earlier rounds of U.S. trade action targeting Chinese solar products. The 126% preliminary duty rate now threatens to close off that alternative supply route, potentially leaving American buyers with fewer options and higher prices.\n\nThe duties remain preliminary and could be adjusted following further investigation by the U.S. Department of Commerce. Indian officials have not yet issued a formal response, but the move is expected to add strain to bilateral trade relations at a time when the two countries have been seeking closer economic and strategic ties. A final determination is expected later this year.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "tariffs",
-        "solar energy",
-        "India",
-        "trade policy",
-        "Trump administration",
-        "clean energy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1545208942-e1c9c916524b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8dGFyaWZmcyUyMHNvbGFyJTIwZW5lcmd5fGVufDB8MHx8fDE3NzE5Nzg2Nzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T00:17:59.477Z"
-    },
-    {
-      "id": "ps-1771978694320-yd8v",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two fintech giants would create a stablecoin and payments powerhouse processing trillions annually",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a blockbuster deal that would reshape the global payments landscape and consolidate two of the industry's most aggressive bets on stablecoins and blockchain infrastructure.\n\nPayPal shares surged 7% in late trading on the news, extending gains that had already built throughout the week on buyout speculation. The stock remains roughly 80% below record highs set in 2021, a steep decline that has made the once-dominant fintech a plausible takeover target. Stripe, which processed $1.9 trillion in payment volume last year and was most recently valued at $159 billion, would be acquiring a company whose diminished market standing belies its enormous merchant network and consumer reach.\n\nThe crypto implications of a combination are substantial. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization, making it one of the largest regulated stablecoins in circulation. Stripe, meanwhile, has been building its own blockchain ambitions at a rapid clip. The company acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024, a platform that enables businesses and crypto projects to mint their own dollar-pegged tokens. Bridge's stablecoin volume has reportedly quadrupled in recent months. Stripe is also collaborating with crypto venture firm Paradigm on Tempo, a payments-oriented blockchain currently in its testing phase.\n\nA merged entity would control two distinct but complementary stablecoin platforms, potentially accelerating the shift toward blockchain-based payment rails for mainstream commerce. The combination of PayPal's consumer-facing PYUSD with Stripe's enterprise-focused Bridge infrastructure could create a vertically integrated stablecoin ecosystem spanning both retail and business payments — a prospect that would position the combined company as a formidable rival to traditional banking networks and emerging competitors alike.\n\nDeliberations remain in early stages, according to Bloomberg, and there is no certainty a deal will materialize. But the mere possibility underscores how aggressively the payments industry is consolidating around digital asset infrastructure, with stablecoins increasingly viewed not as a crypto niche but as core plumbing for the next generation of global money movement.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "PYUSD",
-        "fintech",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T00:18:14.320Z"
     },
     {
       "id": "ps-1771977731187-wv9w",
@@ -147,26 +188,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T00:02:11.187Z"
-    },
-    {
-      "id": "ps-1771977747160-fe17",
-      "slug": "new-method-updates-physics-surrogates-without-retraining",
-      "headline": "New Method Updates Physics Surrogates Without Retraining",
-      "subheadline": "Researchers show how to adapt Dynamic Mode Decomposition models to changing reservoir properties hundreds of times faster than rebuilding them",
-      "body": "A pair of researchers has developed a lightweight technique for updating data-driven surrogate models used in geological carbon storage simulations, eliminating the costly need to regenerate training data whenever subsurface properties change. The work, posted to the arXiv preprint server by Dimitrios Voulanas and Eduardo Gildin, addresses a longstanding bottleneck in applying Dynamic Mode Decomposition (DMD) to real-world reservoir optimization.\n\nDMD has gained traction as a method for building fast, reduced-order models from expensive multiphase flow simulations — the kind needed to predict how injected CO₂ migrates underground and how pressure builds in storage formations. But the technique has a practical limitation: its mathematical operators are tied to the specific reservoir properties used during training. If engineers need to evaluate a scenario with different rock permeability or a relocated injection well, the standard approach requires running new high-fidelity simulations and retraining the model from scratch, negating much of the computational savings.\n\nVoulanas and Gildin propose two complementary strategies that sidestep this problem entirely. When permeability changes uniformly across a reservoir domain, their method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach modifies the model's spatial basis functions so that high-permeability zones exert proportionally greater influence on predictions. Crucially, neither strategy requires any new simulation data.\n\nNumerical experiments reported in the paper show that the updated models reproduce CO₂ plume migration and pressure buildup to within three percent of a surrogate that was freshly trained on the new parameters, while executing hundreds of times faster than a full retraining cycle. That speed advantage could prove significant for carbon capture and storage projects, where engineers must rapidly evaluate numerous geological scenarios during site selection, optimize injection schedules, and quantify uncertainty across wide ranges of subsurface conditions.\n\nThe research sits at the intersection of computational physics, control theory, and climate technology. As regulatory frameworks for carbon storage tighten and the number of proposed sequestration sites grows worldwide, the demand for fast yet physically faithful modeling tools is intensifying. By making surrogate models adaptable rather than disposable, the new approach could help bring real-time optimization capabilities to an industry where simulation budgets have traditionally constrained the scope of engineering analysis.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "dynamic-mode-decomposition",
-        "carbon-storage",
-        "surrogate-modeling",
-        "computational-physics",
-        "reservoir-simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1756144818195-969f15dd141a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T00:02:27.160Z"
     },
     {
       "id": "ps-1771977777853-2itq",
@@ -1035,27 +1056,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/dimon-sees-parallel-to-pre-crisis-era-as-rivals-do-dumb-things",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T10:48:30.467Z"
-    },
-    {
-      "id": "ps-1771928315937-jfq6",
-      "slug": "amundi-takes-long-position-on-japanese-bonds-for-first-time-",
-      "headline": "Amundi Takes Long Position on Japanese Bonds for First Time in Decades",
-      "subheadline": "Europe's largest asset manager joins growing cohort of foreign investors betting on Japanese government debt",
-      "body": "Amundi, Europe's largest asset manager with more than €2 trillion in assets under management, has taken a long position on Japanese government bonds for the first time in roughly three decades, signaling a significant shift in institutional sentiment toward the world's second-largest sovereign debt market.\n\nThe move places Amundi alongside a widening group of foreign investors adopting a bullish long-term outlook on Japanese government bonds, or JGBs, a market that has long been considered inhospitable to international buyers. For years, Japan's ultra-low and even negative interest rate environment made its sovereign debt unattractive to yield-seeking global fund managers. The so-called \"widowmaker\" trade — betting against JGBs — became legendary on Wall Street for punishing those who wagered that Japanese bond prices would eventually fall as yields rose.\n\nThe landscape has shifted meaningfully since the Bank of Japan began unwinding its decades-long experiment with ultra-loose monetary policy. As the BOJ has gradually raised interest rates and stepped back from its aggressive yield curve control program, Japanese bond yields have climbed to levels not seen in years, making JGBs a more viable proposition for global fixed-income portfolios. Rising yields translate to higher coupon income and, for those who time their entry well, the potential for capital appreciation if economic conditions eventually warrant a policy reversal.\n\nAmundi's decision carries particular weight given its scale and influence across European institutional markets. The Paris-headquartered firm's move could encourage other large allocators to reconsider their own underweight positions in Japanese debt. Foreign ownership of JGBs has historically been modest compared with domestic holdings dominated by Japanese banks, insurance companies, and the Bank of Japan itself, but a sustained inflow of international capital could reshape the market's dynamics.\n\nThe timing also reflects broader macroeconomic crosscurrents. With sovereign bond markets in the United States and Europe facing their own fiscal and inflationary uncertainties, some global investors are looking to diversify their fixed-income exposure. Japan, with its relatively stable political environment and deep capital markets, offers an alternative that appears increasingly attractive after years of being overlooked by all but the most specialized international bond managers.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Amundi",
-        "Japanese government bonds",
-        "JGB",
-        "Bank of Japan",
-        "fixed income",
-        "asset management"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1676286155316-b6098c4fd35a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8QW11bmRpJTIwVGFrZXMlMjBMb25nJTIwUG9zaXRpb24lMjBKYXBhbmVzZSUyMEJvbmRzfGVufDB8MHx8fDE3NzE5MjgzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-23/amundi-goes-long-japanese-debt-for-the-first-time-in-decades",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T10:18:35.937Z"
     }
   ]
 }
