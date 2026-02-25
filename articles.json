@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T22:33:21.778Z",
+  "lastUpdated": "2026-02-25T22:48:23.407Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772059623343-c8lj",
+      "slug": "mexico-plunges-into-cartel-violence-across-20-states-after-d",
+      "headline": "Mexico Plunges Into Cartel Violence Across 20 States After Drug Lord's Death",
+      "subheadline": "The Jalisco New Generation Cartel unleashed widespread attacks following the capture and death of leader 'El Mencho' in a firefight",
+      "body": "Mexico is experiencing a sweeping wave of cartel violence spanning 20 states after the death of Nemesio Oseguera Cervantes, the feared leader of the Jalisco New Generation Cartel (CJNG) known as \"El Mencho,\" who died shortly after being captured in a bloody firefight in the state of Jalisco.\n\nThe CJNG, considered one of Mexico's most powerful and dangerous criminal organizations, has effectively turned towns and cities across its operational territory into war zones in apparent retaliation for its leader's capture. The scale of the violence — touching 20 of Mexico's 32 states — underscores the cartel's vast geographic reach and its capacity to destabilize large swaths of the country simultaneously.\n\nThe crisis is compounding an already dire security situation in regions like Culiacán, the capital of the northern state of Sinaloa, which has been convulsed by its own internal cartel conflict since the 2024 removal of longtime Sinaloa Cartel leader Ismael \"El Mayo\" Zambada, now imprisoned in the United States. BBC international correspondent Quentin Sommerville reported from Culiacán's streets, embedding with two paramedics — Julio César Vega and Héctor Torres — who respond to victims of shootings and stabbings amid the ongoing bloodshed. Torres told the BBC that the violence in Culiacán had never been so severe or so sustained.\n\nThe twin crises illustrate a broader pattern in Mexico's decades-long struggle with organized crime: the removal of cartel leaders, whether through arrest or death, frequently triggers succession battles and retaliatory campaigns that inflict devastating harm on civilian populations. El Mencho had long been one of the most wanted figures in both Mexican and U.S. law enforcement, with the U.S. State Department at one point offering a $10 million reward for information leading to his capture.\n\nThe Mexican government has not yet detailed its full response to the CJNG's campaign of violence. For residents of affected cities, the immediate reality is one of fear and disruption, with first responders like Vega and Torres working under extraordinary danger to reach victims caught in the crossfire of a conflict that shows no signs of abating.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mexico",
+        "cartel violence",
+        "CJNG",
+        "El Mencho",
+        "Culiacán",
+        "drug war",
+        "Sinaloa"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/d027/live/0ee28050-1298-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cqlgz0xk5zyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T22:47:03.343Z"
+    },
+    {
+      "id": "ps-1772059639019-7uo1",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now specify the geometry and materials needed to produce structures with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of solving one of metamaterials engineering's most persistent challenges: working backward from desired thermal and mechanical properties to determine the precise structure needed to achieve them. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, targets bimaterial hybrid-honeycomb lattices — architectured structures that can simultaneously exhibit negative Poisson's ratios and negative thermal expansion coefficients, meaning they shrink when heated and expand laterally when compressed.\n\nSuch counterintuitive behavior makes these metamaterials highly attractive for aerospace, precision optics, and other engineering applications where thermal distortion must be tightly controlled. But designing them has traditionally required laborious trial-and-error simulation: an engineer specifies a geometry, runs a computational homogenization to predict its bulk properties, and iterates until the result meets specifications. The new approach inverts this workflow entirely.\n\nThe team first generated a large dataset by computationally homogenizing structures across a wide range of geometrical features and base material properties. A forward neural network model was trained on this data to rapidly predict effective thermoelastic properties for any given design — replacing expensive finite-element calculations with near-instantaneous inference. The researchers then built six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and structural design variables. Crucially, the trained forward model was embedded directly into the loss functions of the inverse models, ensuring that suggested designs would actually produce the desired properties when validated.\n\nFor cases involving fixed base materials, the forward model was also used to generate additional synthetic training data, expanding the dataset beyond what brute-force simulation alone could efficiently provide. Representative design examples demonstrated strong predictive performance for both the forward and inverse pipelines, suggesting the framework is robust enough for practical engineering deployment.\n\nThe significance extends beyond this particular class of metamaterial. Inverse design — specifying what you want and letting an algorithm figure out how to build it — is a paradigm shift in materials engineering that machine learning is increasingly making tractable. By demonstrating that neural networks can navigate the complex, many-to-one mapping between structure and properties in thermoelastic lattices, the work offers a template for accelerating the deployment of exotic metamaterials in real-world systems where traditional design cycles remain a bottleneck.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1719569798620-16be67f45fd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T22:47:19.019Z"
+    },
+    {
+      "id": "ps-1772059656680-gwfc",
+      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
+      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for signs of biology",
+      "body": "Ancient microbial life — or its chemical remnants — could remain intact inside Martian ice for tens of millions of years, according to new laboratory experiments that may fundamentally redirect how scientists search for biology on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all while maintaining temperatures of minus 60 degrees Fahrenheit to simulate conditions in Mars's polar regions. More than 10 percent of the amino acids — the molecular building blocks of proteins — survived the full simulated duration. The results, published in the journal Astrobiology, represent a dramatic shift from earlier assumptions: a 2022 study by the same team had found that organic material in ice mixed with Martian-like soil degraded far more rapidly, leading scientists to expect that pure ice would offer even less protection. The opposite proved true.\n\nSamples combining water ice with silicate rocks and clay — materials common in Martian sediment — broke down roughly ten times faster than those in pure ice. Lead author Alexander Pavlov, a space scientist at NASA Goddard, said the finding was counterintuitive. The team hypothesizes that a thin liquid-like film forms at the boundary where ice contacts mineral grains, allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, by contrast, those harmful particles become trapped in place, effectively shielding nearby compounds. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe practical implications are significant. The 50-million-year preservation window far exceeds the estimated age of some surface ice deposits on Mars, which can be less than two million years old, meaning any organisms frozen within them would still be detectable. Christopher House, a Penn State geosciences professor and co-author, noted that while Mars harbors substantial ice reserves, most lie just below the surface and will require missions equipped with robust drilling or scooping tools — capabilities demonstrated by NASA's 2008 Phoenix lander, the first spacecraft to excavate and photograph subsurface Martian ice.\n\nThe study's relevance extends beyond Mars. At temperatures mimicking those on Jupiter's moon Europa and Saturn's moon Enceladus, organic degradation slowed even further. Pavlov said the findings bode well for NASA's Europa Clipper mission, which launched in 2024 and will arrive at Jupiter in 2030 to perform 49 close flybys of Europa's ice shell, probing whether conditions beneath it could harbor life. Taken together, the results make a compelling case that the solar system's most promising repositories of preserved biology may not be ancient rocks or dusty plains, but sheets of buried ice.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T22:47:36.680Z"
+    },
+    {
+      "id": "ps-1772059672697-9lji",
+      "slug": "cisa-gutted-u-s-cyber-agency-loses-one-third-of-staff-under-",
+      "headline": "CISA Gutted: U.S. Cyber Agency Loses One-Third of Staff Under Trump",
+      "subheadline": "Bipartisan lawmakers warn the nation's lead cybersecurity agency is unprepared for a crisis as government shutdown compounds deep cuts",
+      "body": "The Cybersecurity and Infrastructure Security Agency, the federal government's frontline defender against digital threats, has lost roughly one-third of its workforce over the past year due to Trump administration cuts and layoffs, leaving it critically weakened according to bipartisan lawmakers and cybersecurity industry leaders.\n\nThe staffing losses, first detailed in a Cyberscoop investigation drawing on sources across Congress and the private sector, have gutted key programs including CISA's counter-ransomware initiative and its efforts to promote secure software development practices. The agency's election security team — particularly significant given CISA's federal mandate to safeguard U.S. elections — has also seen departures. Hundreds of additional staffers were reassigned to support other Department of Homeland Security agencies as part of the administration's immigration enforcement expansion, further depleting the cybersecurity workforce.\n\nThe situation has grown more acute since a partial federal government shutdown began on February 14, triggered by a congressional standoff over funding for immigration authorities following the killing of two U.S. citizens by federal agents. CISA is now reportedly operating at approximately 38 percent staffing levels. The agency has been without a Senate-confirmed permanent director since President Trump took office in January 2025, with acting director Madhu Gottumukkala drawing criticism from some sources for struggling to steer the organization effectively.\n\nSeveral observers pointed to the administration's continued focus on disputing the 2020 election results as a factor in CISA's deprioritization. The agency drew Trump's ire during his first term after it publicly affirmed the security of the 2020 vote, leading to the firing of then-director Chris Krebs. Critics now fear that political grievances have translated into institutional neglect at a moment when nation-state cyber threats from China, Russia, and others remain elevated.\n\nIn a statement to TechCrunch, Gottumukkala said CISA \"remains unwavering in its commitment to protect our federal networks from malicious cyber threat actors despite the multi-week government shutdown.\" But for lawmakers and security professionals watching the agency's erosion in real time, reassurances may ring hollow. The consensus among those interviewed was blunt: should a major cyber incident strike — a ransomware attack on critical infrastructure, an intrusion into federal networks, or an assault on election systems — the agency tasked with responding may no longer have the capacity to do so.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "CISA",
+        "cybersecurity",
+        "Trump administration",
+        "government shutdown",
+        "national security",
+        "ransomware"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/03/DHS-Getty.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/us-cybersecurity-agency-cisa-reportedly-in-dire-shape-amid-trump-cuts-and-layoffs/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T22:47:52.697Z"
+    },
+    {
+      "id": "ps-1772059688387-xs3f",
+      "slug": "anthropic-abandons-core-safety-pledge-as-ai-competition-inte",
+      "headline": "Anthropic Abandons Core Safety Pledge as AI Competition Intensifies",
+      "subheadline": "The company will no longer delay potentially dangerous AI development if it lacks a significant lead over rivals",
+      "body": "Anthropic, long regarded as the AI industry's most safety-conscious major player, has quietly gutted a central pillar of its responsible development framework — signaling that competitive pressure is now overriding caution even at firms founded explicitly to prioritize it.\n\nThe San Francisco-based company disclosed in a Tuesday blog post that it is revising its 2023 Responsible Scaling Policy, which had committed Anthropic to pausing development of AI systems deemed potentially dangerous. Under the updated language, the company will no longer halt progress on risky capabilities if it believes it does not hold a significant lead over competitors. The shift effectively conditions safety on market position — a striking departure for a company whose founding identity was built on the premise that the race to build powerful AI needed a participant willing to pump the brakes.\n\nThe policy change represents one of the most consequential reversals in the short but turbulent history of the AI industry. Anthropic was established in 2021 by former OpenAI executives Dario and Daniela Amodei, who left in part over concerns about safety practices. The startup attracted billions of dollars in funding — including major backing from Google and Amazon — in no small part because investors saw its safety-first ethos as a durable competitive advantage. That narrative now faces a fundamental challenge as the company signals it will match rivals' pace regardless of risk assessments.\n\nThe timing is notable. The AI sector is experiencing a furious escalation in capability development, with OpenAI, Google DeepMind, Meta, and a growing roster of well-funded challengers all pushing toward increasingly powerful frontier models. Chinese competitors, particularly DeepSeek, have added geopolitical urgency to the race. In this environment, Anthropic appears to have concluded that unilateral restraint carries unacceptable strategic costs — a logic that safety researchers have long warned could erode industry-wide guardrails.\n\nCritics are likely to argue that the revised policy creates a perverse incentive structure in which no single company bears responsibility for slowing down, since each can point to competitors as justification for pressing forward. For an industry that has repeatedly assured regulators and the public that self-governance is sufficient, the move from its most prominent safety advocate may strengthen the case for binding external oversight.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "AI safety",
+        "artificial intelligence",
+        "responsible scaling",
+        "AI regulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHx0ZWNofGVufDB8MHx8fDE3NzIwNTk2ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/anthropic-drops-hallmark-safety-pledge-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T22:48:08.387Z"
+    },
+    {
+      "id": "ps-1772059703311-e1z1",
+      "slug": "nvidia-smashes-q4-estimates-with-68-1b-revenue-lifts-ai-cryp",
+      "headline": "Nvidia Smashes Q4 Estimates With $68.1B Revenue, Lifts AI Crypto Sector",
+      "subheadline": "Chipmaker's 73% year-over-year revenue surge and bullish $78B guidance ripple across AI tokens and crypto mining stocks",
+      "body": "Nvidia posted fourth-quarter revenue of $68.1 billion on Wednesday, handily beating Wall Street's consensus estimate of $66.1 billion and cementing the chipmaker's dominance as the primary beneficiary of the global AI infrastructure buildout. Shares of the world's most valuable public company climbed roughly 3% in after-hours trading.\n\nThe results, reported after the close of U.S. markets on February 25, showed a 73% increase in revenue from the same period a year earlier, driven by relentless demand for Nvidia's AI accelerators. Adjusted earnings per share came in at $1.62, topping the $1.54 analysts had forecast according to FactSet data. Data center revenue alone hit a record $62.3 billion for the quarter, up 75% year-over-year and 22% sequentially — a figure Nvidia attributed to \"major platform shifts\" in accelerated computing and artificial intelligence.\n\nPerhaps more striking than the backward-looking numbers was Nvidia's forward guidance. The company projected first-quarter revenue of approximately $78 billion, well above the $72.9 billion analysts had anticipated. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com. \"The roughly 75% surge in data center revenue further reinforces that hyperscaler AI infrastructure deployment remains firmly in expansion mode.\"\n\nThe earnings beat sent ripples well beyond traditional equity markets. Bitcoin held near session highs around $69,500 following a sharp 10% recovery from Tuesday's lows, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted gains. Crypto mining companies that have pivoted toward AI and high-performance computing workloads — IREN, Cipher Digital, and TeraWulf — each rose 1% to 2% in extended trading. The moves underscore how deeply Nvidia's fortunes have become intertwined with a broad constellation of assets tied to AI demand, from semiconductor equities to digital tokens and power-hungry mining operations.\n\nInvestors were expected to parse Nvidia's conference call for further details on the trajectory of hyperscaler capital spending and the rollout timeline for the company's next-generation chips. With the AI infrastructure cycle showing no signs of decelerating, the results are likely to reinforce confidence across both traditional and crypto markets that the multi-year spending wave still has considerable runway ahead.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "crypto mining",
+        "Bitcoin",
+        "data center",
+        "semiconductor"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6ed289d684d69d6acdc42c880cd7166d9192f75e-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T22:48:23.311Z"
+    },
     {
       "id": "ps-1772058725473-nmjw",
       "slug": "sinaloa-cartel-civil-war-leaves-mexican-city-in-perpetual-te",
@@ -25,70 +153,6 @@
       "publishedAt": "2026-02-25T22:32:05.473Z"
     },
     {
-      "id": "ps-1772058740492-y4se",
-      "slug": "machine-learning-tackles-inverse-design-of-metamaterials-wit",
-      "headline": "Machine Learning Tackles Inverse Design of Metamaterials With Exotic Thermal Properties",
-      "subheadline": "Neural network models can now suggest structural blueprints for lattice materials exhibiting both negative Poisson's ratios and negative thermal expansion",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — structures that exhibit the rare and highly sought-after combination of negative Poisson's ratios and negative thermal expansion coefficients. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering: given a set of desired mechanical and thermal properties, what should the structure actually look like?\n\nThe study centers on bimaterial hybrid-honeycomb structures, a class of thermoelastic metamaterials in which two different base materials are combined in lattice geometries to produce counterintuitive behavior. Materials with negative Poisson's ratios — known as auxetics — expand laterally when stretched, while those with negative thermal expansion actually contract when heated. Achieving both properties simultaneously in a single engineered structure opens the door to applications in aerospace, precision instrumentation, and thermal management systems where dimensional stability under temperature fluctuations is critical.\n\nPeng and Xu built their framework on a foundation of high-throughput computational homogenization, generating a large dataset by systematically varying geometric features and base material properties across thousands of structural configurations. A forward neural network model was first trained to predict the effective thermoelastic properties of any given design — essentially replacing expensive finite-element simulations with near-instantaneous inference. The team then developed six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and structural design variables.\n\nA key innovation lies in how the forward model was leveraged twice over: it was embedded directly into the loss functions of the inverse models during training, ensuring physical consistency, and was also used to generate supplementary training data for cases involving fixed base materials. The researchers demonstrated the accuracy of both forward and inverse models through representative design examples, showing that the system can reliably suggest geometrical parameters and material pairings to meet specified performance targets.\n\nThe practical implications are significant. Traditional metamaterial design relies heavily on parametric sweeps and expert intuition — approaches that scale poorly as the design space grows. By automating the inverse mapping from properties to structure, the machine learning framework could accelerate the deployment of thermoelastic metamaterials in next-generation engineering systems, from satellite components that must withstand extreme thermal cycling to microelectromechanical devices requiring precise dimensional control.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1695902173528-0b15104c4554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T22:32:20.492Z"
-    },
-    {
-      "id": "ps-1772058756047-dqov",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice rather than study rocks or soil",
-      "body": "Ancient traces of life on Mars — if they ever existed — may have endured tens of millions of years locked inside the planet's frozen ice caps, according to a new study that could reshape how scientists search for biology beyond Earth.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all while keeping samples chilled to minus 60 degrees Fahrenheit to replicate conditions in the planet's icy regions. The results, published in the journal Astrobiology, revealed that more than 10 percent of the amino acids — the fundamental building blocks of proteins — survived the full simulated exposure in pure ice. Samples mixed with Mars-like sediment containing silicate rocks and clay, however, degraded roughly 10 times faster and did not survive, an outcome the researchers attribute to a thin film that forms where ice meets minerals, potentially allowing radiation-generated particles to move more freely and destroy organic material.\n\nThe finding overturned expectations set by a 2022 study from the same team, which had shown amino acids breaking down quickly in a mixture of water ice and Martian soil and led scientists to assume that pure ice would fare even worse. \"It was surprising to find that the organic materials placed in water ice alone are destroyed at a much slower rate,\" said lead author Alexander Pavlov, a space scientist at NASA Goddard. Christopher House, a Penn State geosciences professor and co-author, noted that the 50-million-year survival window far exceeds the estimated age of some current Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said.\n\nThe implications extend well beyond Mars. The team also tested organic material at temperatures matching those on Europa, Jupiter's ice-covered moon, and Saturn's Enceladus, finding that deterioration slowed even further in those colder environments. Pavlov called the results encouraging for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to arrive at Jupiter in 2030 to conduct 49 close flybys investigating whether conditions beneath Europa's ice shell could support life.\n\nFor Mars exploration specifically, the study makes a clear practical recommendation: future missions should be equipped with drills or powerful scoops capable of reaching subsurface ice, much like NASA's 2008 Phoenix lander, which first excavated and photographed Martian ice in the planet's polar region. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House said, urging mission designers to prioritize clean, buried ice over the rocks and soil that have dominated sample strategies to date.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T22:32:36.047Z"
-    },
-    {
-      "id": "ps-1772058771247-ek7l",
-      "slug": "cisa-gutted-by-staff-cuts-now-operating-at-38-amid-shutdown",
-      "headline": "CISA Gutted by Staff Cuts, Now Operating at 38% Amid Shutdown",
-      "subheadline": "Bipartisan lawmakers and industry leaders warn the top U.S. cybersecurity agency has lost a third of its workforce and key programs",
-      "body": "The Cybersecurity and Infrastructure Security Agency, the federal body charged with defending American networks and elections from digital threats, has lost roughly one-third of its staff over the past year and is currently functioning at just 38% capacity as a partial government shutdown enters its second week, according to Congressional sources and cybersecurity industry leaders.\n\nBipartisan lawmakers and private-sector experts told Cyberscoop that CISA's ability to carry out its core mission has been severely degraded under the Trump administration's sweeping cost-cutting and workforce reductions. Casualties include the agency's counter-ransomware initiative and programs promoting secure software development practices across government and industry. Several members of the election security team — a particularly sensitive function given CISA's federal mandate to protect voting infrastructure — were let go last year. Hundreds of additional staffers were reassigned to support other Department of Homeland Security agencies as part of the administration's immigration enforcement push.\n\nThe agency has been without a Senate-confirmed director since President Trump took office in January 2025. Acting director Madhu Gottumukkala has drawn criticism from multiple sources for what they describe as ineffective leadership that has compounded CISA's organizational problems. Some observers attribute the agency's decline to the administration's lingering fixation on disputing the 2020 election results, which they say has led officials to deprioritize the very agency responsible for election integrity.\n\nThe situation has worsened since a partial federal government shutdown began on February 14, triggered by a Congressional standoff over funding for immigration authorities. The shutdown — itself fueled by bipartisan backlash following the killings of two U.S. citizens by federal agents — has further thinned CISA's already depleted ranks. In a statement to TechCrunch, Gottumukkala said the agency \"remains unwavering in its commitment to protect our federal networks from malicious cyber threat actors despite the multi-week government shutdown.\"\n\nThe erosion of CISA's capabilities comes at a precarious moment. Ransomware attacks continue to escalate against hospitals, municipal governments, and critical infrastructure, while state-sponsored cyber operations from China, Russia, and other adversaries show no signs of abating. Former officials and cybersecurity professionals warn that the hollowing out of CISA leaves the United States materially less prepared to detect and respond to a major cyber incident — a risk that grows with each week the agency remains understaffed and leaderless.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "CISA",
-        "cybersecurity",
-        "government shutdown",
-        "Trump administration",
-        "national security",
-        "ransomware"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/03/DHS-Getty.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/us-cybersecurity-agency-cisa-reportedly-in-dire-shape-amid-trump-cuts-and-layoffs/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T22:32:51.247Z"
-    },
-    {
       "id": "ps-1772058786599-bs5q",
       "slug": "nvidia-s-78-billion-sales-forecast-lifts-stocks-after-hours",
       "headline": "Nvidia's $78 Billion Sales Forecast Lifts Stocks After Hours",
@@ -108,28 +172,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T22:33:06.599Z"
-    },
-    {
-      "id": "ps-1772058801689-yrkm",
-      "slug": "nvidia-smashes-q4-estimates-with-68b-revenue-lifts-ai-crypto",
-      "headline": "Nvidia Smashes Q4 Estimates With $68B Revenue, Lifts AI Crypto Sector",
-      "subheadline": "Chipmaker's bullish $78 billion guidance for next quarter sends shares up 3% and boosts AI-linked tokens and mining stocks",
-      "body": "Nvidia delivered a decisive earnings beat on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% surge from a year earlier — and issuing forward guidance that exceeded Wall Street expectations by a wide margin, sending ripples through both equity and cryptocurrency markets.\n\nThe world's most valuable public company posted adjusted earnings per share of $1.62, comfortably clearing the $1.54 consensus estimate compiled by FactSet. Revenue also topped the $66.1 billion analysts had projected. But it was the company's first-quarter guidance that drew the sharpest reaction: Nvidia forecast approximately $78 billion in revenue, well above the $72.9 billion analysts had penciled in. Shares climbed 1.4% during Wednesday's regular session and added another 3% in after-hours trading.\n\nThe results were powered by Nvidia's data center division, which posted a record $62.3 billion in quarterly revenue — up 75% year-over-year and 22% sequentially — as hyperscale cloud providers continued to pour capital into AI infrastructure. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com. \"The roughly 75% surge in data center revenue further reinforces that hyperscaler AI infrastructure deployment remains firmly in expansion mode.\"\n\nThe earnings beat reverberated across the AI-adjacent cryptocurrency sector. Bitcoin held near session highs around $69,500 following a 10% rally from Tuesday's lows, while AI-focused tokens including Bittensor and Internet Computer posted gains. Crypto mining companies that have pivoted toward AI and high-performance computing workloads — including IREN, Cipher Digital, and TeraWulf — rose between 1% and 2% in after-hours trading, reflecting investor optimism that sustained AI capital expenditure will benefit the broader infrastructure ecosystem.\n\nThe quarter underscores the extraordinary scale of the current AI buildout cycle. With Nvidia guiding for $78 billion in first-quarter revenue, the annualized run rate for the chipmaker would approach $310 billion — a figure that would have seemed improbable just two years ago. For markets, the key question now shifts to whether this pace of spending can be sustained, or whether the gap between AI investment and AI-generated returns will eventually force a reassessment. For the moment, Nvidia's numbers suggest that the infrastructure boom remains firmly intact.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "AI infrastructure",
-        "crypto mining",
-        "Bitcoin",
-        "data center",
-        "semiconductor"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6ed289d684d69d6acdc42c880cd7166d9192f75e-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T22:33:21.689Z"
     },
     {
       "id": "ps-1772057000049-h245",
@@ -1013,47 +1055,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/china-warns-us-it-will-respond-if-trade-probe-spurs-new-tariffs",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T11:03:30.972Z"
-    },
-    {
-      "id": "ps-1772016424672-2wg9",
-      "slug": "cartel-rampage-leaves-puerto-vallarta-reeling-as-tourists-fl",
-      "headline": "Cartel Rampage Leaves Puerto Vallarta Reeling as Tourists Flee Resort City",
-      "subheadline": "Burnt vehicles and widespread damage visible across the popular Mexican coastal destination after Sunday's coordinated attack",
-      "body": "The popular Mexican resort city of Puerto Vallarta is struggling to restore normalcy after a violent cartel rampage on Sunday left visible destruction across parts of the coastal town, including rows of torched vehicles in a Costco parking lot.\n\nBBC correspondent Will Grant, reporting from the scene in Jalisco state, described the aftermath as still starkly evident, with burned-out cars and cleanup crews working to erase the signs of what he characterized as a terrifying episode of coordinated cartel violence. The attack struck at the heart of one of Mexico's most visited tourist destinations, a city long considered relatively insulated from the drug war violence that has plagued other parts of the country.\n\nTourists who found themselves trapped during the violence were making their way to Puerto Vallarta's international airport in the hours following the attack, seeking to leave the city as quickly as possible. The scenes of foreign visitors fleeing a major resort town represent a significant blow to the region's tourism-dependent economy and to Mexico's broader efforts to project safety for international travelers.\n\nPuerto Vallarta, situated on the Pacific coast in the state of Jalisco, is home turf for the Jalisco New Generation Cartel (CJNG), one of Mexico's most powerful and violent criminal organizations. While the specific trigger for Sunday's rampage has not been fully detailed, such coordinated acts of destruction — including the burning of civilian vehicles and disruption of public spaces — are a hallmark tactic used by cartels to project power, intimidate rivals, or retaliate against government security operations.\n\nLocal authorities and businesses were engaged in rapid cleanup efforts as the city attempted to reassure residents and visitors alike. The incident underscores the persistent challenge Mexico faces in containing cartel violence, which has increasingly spilled into areas once considered safe havens for tourism. It also raises fresh questions about security in Jalisco state, which has seen escalating confrontations between criminal groups and federal forces in recent years.",
-      "category": "breaking",
-      "importance": 7,
-      "tags": [
-        "Mexico",
-        "Puerto Vallarta",
-        "cartel violence",
-        "Jalisco",
-        "tourism",
-        "drug war"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/30c9/live/a150d4e0-120d-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cly07z35dn4o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T10:47:04.672Z"
-    },
-    {
-      "id": "ps-1772014683757-0t2r",
-      "slug": "bangladesh-central-bank-governor-resigns-abruptly-after-new-",
-      "headline": "Bangladesh Central Bank Governor Resigns Abruptly After New Government Takes Power",
-      "subheadline": "Surprise departure comes barely a week after the country's newly elected democratic government was inaugurated",
-      "body": "The governor of Bangladesh Bank has unexpectedly resigned, marking a swift leadership shake-up at the country's central bank just days after a new democratically elected government took office.\n\nThe abrupt departure, reported on February 25, signals potential friction between the newly inaugurated administration and the existing financial establishment. While the specific reasons behind the resignation have not been publicly detailed, the timing — roughly a week after the government transition — suggests the move is closely tied to the shifting political landscape in Dhaka. Central bank leadership changes following political transitions are not uncommon in emerging markets, but the speed of this exit has drawn attention from financial observers monitoring South Asia's economic trajectory.\n\nBangladesh, one of the fastest-growing economies in the region in recent years, faces a delicate economic moment. The country has been navigating inflationary pressures, foreign reserve management challenges, and the broader task of maintaining macroeconomic stability. A sudden vacancy at the helm of the central bank introduces uncertainty at a time when continuity in monetary policy is typically prized by both domestic businesses and international investors.\n\nThe new government now faces the critical task of appointing a successor who can command credibility with markets while aligning with the administration's economic priorities. The choice will be closely watched as a signal of the government's policy direction — particularly on questions of exchange rate management, inflation targeting, and the country's ongoing relationship with international lenders including the International Monetary Fund.\n\nFor Bangladesh's financial markets and its broader economic reform agenda, the central bank leadership vacuum represents both a risk and an opportunity. A well-regarded appointment could bolster investor confidence in the new government's commitment to sound economic management. A prolonged vacancy or a politically motivated selection, however, could rattle markets and complicate the country's efforts to sustain its development momentum.",
-      "category": "business",
-      "importance": 5,
-      "tags": [
-        "Bangladesh",
-        "central bank",
-        "Bangladesh Bank",
-        "emerging markets",
-        "monetary policy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1691344817560-6da3d8b124b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8QmFuZ2xhZGVzaCUyMGNlbnRyYWwlMjBiYW5rfGVufDB8MHx8fDE3NzIwMTQ2ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/bangladesh-bank-chief-quits-abruptly-after-change-in-government",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T10:18:03.757Z"
     }
   ]
 }
