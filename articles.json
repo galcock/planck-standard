@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T01:33:16.803Z",
+  "lastUpdated": "2026-02-25T01:48:22.447Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771984023123-m0ji",
+      "slug": "trump-faces-pivotal-state-of-the-union-with-approval-at-hist",
+      "headline": "Trump Faces Pivotal State of the Union With Approval at Historic Lows",
+      "subheadline": "With midterm elections eight months away and approval near 36%, the president's address carries unusual weight",
+      "body": "President Donald Trump will deliver his State of the Union address on Tuesday night at what analysts describe as a critical inflection point for his second term — facing declining poll numbers, legal setbacks on tariffs, and growing public unease over immigration enforcement, even as he seeks to rally support ahead of November's midterm elections.\n\nRecent surveys paint a challenging picture for the White House. A CNN poll placed Trump's approval rating at just 36%, while a Washington Post survey returned a marginally higher 39%. The erosion is particularly notable on issues that were once the president's strongest ground: the economy and immigration. His decision to deploy federal immigration agents to cities like Minneapolis — an operation that resulted in the deaths of two U.S. citizens and sparked mass protests — forced the administration to promise a \"softer touch\" and scale back the enforcement surge. Meanwhile, the U.S. Supreme Court ruled last Friday that many of the president's tariff measures were illegal, throwing his trade agenda into legal limbo even as he has pledged to expand duties further.\n\nThe address represents Trump's singular opportunity to make a direct, sustained case to millions of American voters before the midterms, which will determine whether Republicans retain their congressional majority or cede control to Democrats — a scenario the president himself has acknowledged could lead to impeachment proceedings. Robert Rowland, a professor of rhetoric at the University of Kansas, said Tuesday's speech arrives at a \"critical moment\" but cautioned that Trump's typical approach of boasting about accomplishments and attacking critics may not serve him well. \"State of the Union addresses are normally a time when the president makes a case for his agenda and tries to broaden its appeal,\" Rowland said. \"That's not something President Trump essentially ever does.\"\n\nTrump previewed his intentions on Monday, claiming the U.S. economy is the strongest it has ever been and warning the speech would be lengthy. Yet several of his marquee policy proposals — capping credit card interest rates, boosting housing supply, and issuing \"tariff refund\" checks — have seen little legislative progress. Inflation, while down from its Biden-era peak, has not translated into the lower consumer prices Trump repeatedly promised during his 2024 campaign. Congressional Democrats have further complicated his agenda by blocking Department of Homeland Security funding unless new legal guardrails on immigration enforcement are enacted.\n\nBeyond domestic concerns, the president may also use the address to lay the groundwork for a potential military strike on Iran, with U.S. forces reportedly amassing in the region — a foreign policy escalation that could reshape the political landscape in unpredictable ways. Whether Trump opts to recalibrate his message or, as Rowland expects, \"double down,\" the speech will likely serve as a blueprint for how Republicans plan to defend their record when voters head to the polls in November.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Trump",
+        "State of the Union",
+        "midterm elections",
+        "approval ratings",
+        "tariffs",
+        "immigration"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/af5d/live/056b9f50-116e-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cp859d8rn78o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T01:47:03.123Z"
+    },
+    {
+      "id": "ps-1771984039400-v5uf",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that could dramatically accelerate the computational modeling underpinning geological carbon storage projects, updating surrogate simulation models hundreds of times faster than conventional retraining while sacrificing less than three percent accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, whose work was posted to the arXiv preprint server on November 27, tackled a persistent bottleneck in using Dynamic Mode Decomposition (DMD) — a popular data-driven framework for reducing the computational cost of multiphase reservoir simulations. DMD models extract dominant patterns from simulation snapshots and use them to predict future system behavior at a fraction of the cost of full-fidelity simulators. The catch: those models are trained on a specific set of reservoir properties. When engineers need to evaluate a different permeability field or a new well placement — routine tasks in optimization and uncertainty analysis — the standard approach has been to regenerate simulation data and retrain from scratch, negating much of the speed advantage.\n\nThe new work introduces two complementary strategies that sidestep retraining entirely. For uniform changes in permeability across a reservoir domain, the method rescales the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — the more realistic and challenging scenario — it modifies the model's spatial basis functions so that high-permeability zones exert proportionally greater influence on the reduced representation. Crucially, neither approach requires generating new high-fidelity simulation data.\n\nNumerical experiments reported in the paper show the updated models reproduce key carbon-storage observables, including CO₂ plume migration and subsurface pressure buildup, to within three percent of a surrogate model trained from scratch on the new parameters. The authors argue this level of fidelity is sufficient for the rapid what-if analyses and real-time optimization loops that carbon capture and storage projects increasingly demand.\n\nThe work sits at the intersection of computational physics, engineering, and optimization, and addresses a practical need that has grown more urgent as carbon storage gains traction as a climate mitigation strategy. High-fidelity reservoir simulators can take hours or days per run, making exhaustive parameter sweeps or real-time control effectively impossible. If the lightweight update framework proves robust across a broader range of geological scenarios, it could meaningfully lower the computational barrier to deploying and managing underground CO₂ repositories at scale.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-modeling",
+        "computational-physics",
+        "reservoir-simulation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1756144818195-969f15dd141a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.18441",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T01:47:19.400Z"
+    },
+    {
+      "id": "ps-1771984054923-cc5u",
+      "slug": "engineered-bacteria-designed-to-devour-tumors-from-the-insid",
+      "headline": "Engineered Bacteria Designed to Devour Tumors From the Inside Out",
+      "subheadline": "University of Waterloo team programs soil microbes with genetic 'kill switch' timing to safely consume solid cancers",
+      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors and consuming them from within, deploying synthetic biology techniques to ensure the microbes activate only when safely embedded inside cancerous tissue. The work, published in ACS Synthetic Biology, represents a novel approach to treating solid tumors that have long resisted conventional therapies.\n\nThe strategy centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the cores of solid tumors are composed of dead cells and devoid of oxygen, they present an ideal habitat for the microbe to colonize and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. The bacteria essentially consume the tumor from the center outward.\n\nThe principal engineering challenge has been the oxygen barrier at a tumor's periphery. As the bacteria expand outward from the oxygen-free core, they encounter trace amounts of oxygen and begin to die before fully eliminating the cancer. To overcome this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium — but they needed a mechanism to prevent that gene from activating prematurely, which could allow the microbes to survive in oxygen-rich environments like the bloodstream and pose a safety risk. Their solution was quorum sensing, a natural bacterial communication process in which microbes release chemical signals that intensify as their population grows. The oxygen-tolerance gene switches on only after bacterial numbers inside the tumor reach a critical threshold, ensuring the survival mechanism engages exclusively where it is needed.\n\nDr. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the design to an electrical circuit built from DNA rather than wires. In earlier work, the team demonstrated that C. sporogenes could be genetically modified for improved oxygen resistance. In a follow-up experiment, they validated their quorum-sensing control system by programming bacteria to produce green fluorescent protein, confirming activation occurred at the intended moment. The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing circuit into a single organism for pre-clinical tumor trials.\n\nThe project, led by PhD student Bahram Zargar under the supervision of Ingalls and retired chemical engineering professor Dr. Pu Chen, reflects a deeply interdisciplinary effort spanning engineering, mathematics, and life sciences. The team is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, along with former Waterloo doctoral student Dr. Sara Sadr. While clinical application remains years away, the research opens a promising new front in the fight against solid tumors — cancers that account for roughly 90 percent of all tumor diagnoses and have proven stubbornly resistant to many existing immunotherapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "solid tumors",
+        "quorum sensing"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T01:47:34.923Z"
+    },
+    {
+      "id": "ps-1771984072119-r3y0",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, counts Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis among its backers",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that could swell to $1.5 billion if Uber exercises an additional $300 million commitment tied to robotaxi deployment in London. The raise values the company at $8.6 billion and underscores the intensifying commercial race around self-driving technology.\n\nThe round was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with returning backers Microsoft, Nvidia, and Uber joined by new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — also participated, each with plans to integrate Wayve's software into their vehicles. Nvidia, which had publicly mulled a $500 million strategic investment, did participate, though Wayve CEO Alex Kendall declined to specify the chipmaker's contribution.\n\nFounded in 2017, Wayve has positioned itself as a deliberate outlier in the autonomous driving landscape. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles self-driving capabilities into its own vehicles, Wayve sells its AI software as a standalone product to automakers and mobility platforms. The company's end-to-end deep learning system requires no high-definition maps and is designed to work across different sensor configurations and computing hardware — a flexibility that Kendall argues opens the largest possible addressable market. \"If you build an autonomy stack that's specific to a sensor or compute architecture, you can't take option three,\" Kendall told reporters, referring to the licensing model his company has chosen.\n\nThe commercial pipeline is already taking shape. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems beginning in 2027, while Uber plans to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled the partnership's ambition, saying the two companies plan to deploy together in more than 10 markets worldwide across multiple vehicle manufacturers. Wayve's newest Gen 3 platform, built on Nvidia's Drive AGX Thor computing kit, is designed to support both hands-free assisted driving and fully driverless Level 4 operation on city streets and highways.\n\nThe fundraise reflects a broader conviction among investors and industry incumbents that the autonomous driving market is entering a pivotal commercialization phase. With legacy automakers, ride-hailing platforms, and semiconductor leaders all placing bets on a single eight-year-old startup, Wayve's sensor-agnostic approach appears to have struck a nerve in an industry long dominated by vertically integrated competitors. Whether the company can deliver on the promise of scalable, hardware-independent autonomy will likely determine whether its $8.6 billion valuation looks prescient or premature.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "Series D",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T01:47:52.119Z"
+    },
+    {
+      "id": "ps-1771984086503-36be",
+      "slug": "oil-prices-rise-as-iran-nuclear-talks-and-u-s-military-build",
+      "headline": "Oil Prices Rise as Iran Nuclear Talks and U.S. Military Buildup Stoke Uncertainty",
+      "subheadline": "Traders weigh competing signals ahead of Thursday negotiations, with Middle East force deployment adding tension",
+      "body": "Oil prices advanced on Tuesday as markets grappled with the uncertain trajectory of U.S.-Iran nuclear negotiations set to resume Thursday, while a significant American military presence in the Middle East added a layer of geopolitical risk to crude benchmarks.\n\nThe gains reflect a market caught between two countervailing forces. A successful nuclear deal with Tehran could eventually lift sanctions on Iranian crude exports, adding supply to global markets and putting downward pressure on prices. But the substantial deployment of U.S. forces in the region signals that Washington is keeping all options on the table, a posture that traders interpret as bullish for crude given the potential for escalation.\n\nThe upcoming talks represent a critical juncture for global energy markets. Iran holds some of the world's largest proven oil reserves, and any agreement that eases export restrictions could release significant volumes of crude onto a market already navigating questions about demand growth and OPEC+ production policy. Conversely, a breakdown in negotiations — or any military confrontation — could threaten supply routes through the strategically vital Strait of Hormuz, through which roughly one-fifth of the world's oil passes daily.\n\nMarket participants have been closely monitoring diplomatic signals from both Washington and Tehran in recent weeks, attempting to gauge whether the two sides can bridge longstanding differences over the scope of Iran's nuclear program and the timeline for sanctions relief. The large-scale U.S. military deployment, which has drawn attention from defense analysts and energy traders alike, suggests that American policymakers view the diplomatic window as narrow and are preparing for multiple outcomes.\n\nFor now, the oil market appears to be pricing in a premium for uncertainty rather than making a decisive bet on either diplomacy or conflict. With Thursday's talks approaching, volatility in crude markets is likely to remain elevated as fresh headlines from negotiators could shift sentiment rapidly in either direction.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "oil prices",
+        "Iran nuclear deal",
+        "Middle East",
+        "crude oil",
+        "geopolitics",
+        "energy markets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1665292275574-a9782ee1da0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwbnVjbGVhciUyMGRlYWx8ZW58MHwwfHx8MTc3MTk4NDA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/latest-oil-market-news-and-analysis-for-feb-25",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T01:48:06.503Z"
+    },
+    {
+      "id": "ps-1771984102367-5mzo",
+      "slug": "stripe-explores-potential-acquisition-of-paypal-shares-surge",
+      "headline": "Stripe Explores Potential Acquisition of PayPal, Shares Surge 7%",
+      "subheadline": "A deal between the two payments giants would create a stablecoin and crypto infrastructure powerhouse valued well above $150 billion",
+      "body": "Stripe is in early-stage discussions about acquiring all or parts of PayPal, according to a Bloomberg report published Tuesday, sending PayPal shares up 7% in late trading and raising the prospect of a landmark consolidation in the digital payments industry.\n\nThe potential deal would unite two of the world's largest payment processors at a moment when both are aggressively expanding into stablecoins and blockchain-based financial infrastructure. Stripe, which handled $1.9 trillion in payment volume last year and carries a private valuation of $159 billion, has been building out its crypto capabilities through its $1.1 billion acquisition of stablecoin platform Bridge in 2024 and its ongoing development of Tempo, a payments-focused blockchain being built in partnership with venture firm Paradigm. PayPal, meanwhile, launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has grown to a market capitalization of approximately $4 billion.\n\nFor PayPal, which has seen its stock decline roughly 80% from record highs reached in 2021, a takeover by Stripe could represent a lifeline after years of sluggish performance. Shares had already been climbing this week on buyout speculation before the Bloomberg report added further momentum. The company's stablecoin, which enables users to transfer dollars across crypto networks around the clock at costs often below those of traditional bank wires, would be a complementary asset to Stripe's Bridge platform, which helps businesses and crypto projects issue their own dollar-backed tokens.\n\nThe combination would have sweeping implications for the stablecoin market, which has become a focal point for fintech companies seeking to modernize cross-border payments and settlement. Bridge's stablecoin volume has quadrupled recently, demonstrating growing demand for blockchain-based payment rails even during periods of broader crypto market weakness. Merging Bridge's infrastructure with PayPal's consumer-facing PYUSD could accelerate adoption of stablecoins as a mainstream payment method.\n\nDeliberations remain at an early stage, and there is no guarantee a transaction will materialize. But even the prospect of a deal underscores how far stablecoins have moved from the periphery of crypto into the strategic center of global payments. If Stripe does move forward, it would represent one of the largest fintech acquisitions in history and a decisive bet that the future of money movement runs on blockchain rails.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T01:48:22.367Z"
+    },
     {
       "id": "ps-1771983118376-jkrb",
       "slug": "mandelson-lawyers-call-flight-risk-claim-baseless-after-arre",
@@ -21,47 +148,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T01:31:58.376Z"
-    },
-    {
-      "id": "ps-1771983133045-qbgv",
-      "slug": "new-method-lets-carbon-storage-simulations-update-instantly",
-      "headline": "New Method Lets Carbon Storage Simulations Update Instantly",
-      "subheadline": "Researchers show how to adapt data-driven surrogate models without costly retraining, achieving results within 3% accuracy",
-      "body": "A pair of researchers has developed a technique that allows computational models used in geological carbon storage projects to adapt to changing underground conditions hundreds of times faster than current methods — without sacrificing meaningful accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight approach to updating Dynamic Mode Decomposition (DMD) operators, a popular data-driven framework for creating fast surrogate models of complex multiphase fluid simulations. The core problem they address is a persistent bottleneck in carbon capture and storage (CCS) workflows: when subsurface properties like rock permeability or well placement change, engineers typically must regenerate expensive simulation data and retrain the surrogate model from scratch, negating much of the computational savings these reduced-order models are designed to provide.\n\nThe new method introduces two complementary update strategies that bypass this retraining entirely. For uniform changes in permeability across a reservoir domain, the approach adjusts the model's internal dynamics and control responses to match the altered flow timescale. When permeability varies spatially — a more realistic scenario in heterogeneous geological formations — the technique modifies the spatial representation of the model, weighting high-permeability zones more heavily in the reduced mathematical basis. Neither strategy requires generating new simulation snapshots.\n\nNumerical experiments reported in the paper show the updated models recover key physical quantities, including carbon dioxide plume migration patterns and subsurface pressure buildup, to within three percent of a freshly trained surrogate. The updates execute hundreds of times faster than full retraining, a speedup the authors argue could enable real-time optimization and rapid scenario analysis for CCS operations. Such capabilities are increasingly important as carbon storage projects scale up worldwide and regulators demand rigorous monitoring and risk assessment.\n\nThe work sits at the intersection of computational physics, control theory, and engineering optimization, and reflects growing interest in making surrogate modeling practical for industrial-scale applications. While the results are demonstrated specifically for carbon storage reservoirs, the underlying principle — updating rather than rebuilding reduced-order models when system parameters shift — could have broader implications for any domain where high-fidelity simulation is too slow for iterative decision-making. The paper has been submitted under computational physics on arXiv and carries a related DOI through ResearchGate.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "carbon storage",
-        "Dynamic Mode Decomposition",
-        "surrogate modeling",
-        "computational physics",
-        "reservoir simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1667066213239-d83408616a61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxjYXJib24lMjBzdG9yYWdlJTIwRHluYW1pYyUyME1vZGUlMjBEZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5NTA3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.18441",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T01:32:13.045Z"
-    },
-    {
-      "id": "ps-1771983149837-gv9r",
-      "slug": "waterloo-engineers-program-bacteria-to-devour-tumors-from-wi",
-      "headline": "Waterloo Engineers Program Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic DNA circuits and quorum sensing give engineered microbes a built-in safety switch for targeting solid cancers",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate and consume solid tumors from the inside out, using synthetic biology techniques that include a genetically encoded safety mechanism to prevent the microbes from proliferating where they shouldn't.\n\nThe approach centers on Clostridium sporogenes, an anaerobic bacterium that thrives exclusively in oxygen-free environments. Because the necrotic cores of many solid tumors are starved of oxygen and rich in nutrients, the microbe finds an ideal habitat once its spores reach the tumor interior. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. The bacterium essentially colonizes the dead center of the tumor and begins breaking it down.\n\nThe central engineering challenge has been the oxygen barrier at a tumor's periphery. As the bacteria multiply outward from the core, they encounter small but lethal amounts of oxygen and die before they can eliminate the cancer entirely. To solve this, the Waterloo team inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. Critically, they coupled that gene to a quorum-sensing circuit — a natural bacterial communication system in which chemical signals intensify as the population grows. The oxygen-resistance gene activates only after a sufficient concentration of bacteria has accumulated inside the tumor, ensuring the trait never switches on prematurely in oxygen-rich environments like the bloodstream. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\"\n\nThe team's results, published in ACS Synthetic Biology, detail the successful construction and functional validation of the heterologous quorum-sensing circuit in C. sporogenes. In earlier work, the group demonstrated that the bacterium could be genetically modified for improved oxygen tolerance. In the latest study, they confirmed the quorum-sensing trigger worked as designed by programming the bacteria to produce green fluorescent protein at the intended activation threshold.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system into a single engineered organism and testing it against tumors in pre-clinical animal models. The interdisciplinary project — spanning chemical engineering, applied mathematics, and life sciences — involves a collaboration with CREM Co Labs, a Toronto-based company co-founded by former Waterloo PhD student Bahram Zargar. If the approach proves safe and effective in animal studies, it could open a fundamentally new front in the treatment of solid cancers, which account for roughly 90 percent of all tumors and remain notoriously difficult to penetrate with conventional therapies.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "quorum sensing",
-        "University of Waterloo",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T01:32:29.837Z"
     },
     {
       "id": "ps-1771983163580-j4z6",
@@ -105,50 +191,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T01:32:59.802Z"
-    },
-    {
-      "id": "ps-1771983196714-07z8",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring an acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a potential deal that would combine two of the world's largest digital payment processors and create a dominant force in the fast-growing stablecoin market. PayPal shares surged 7% on the news.\n\nThe discussions are still in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a potential combination is staggering. Stripe, which remains privately held, processed $1.9 trillion in transactions last year and carries a valuation of roughly $159 billion. PayPal, once the undisputed leader in online payments, has seen its stock collapse approximately 80% from the record highs it reached in 2021, making it a more plausible takeover target than it would have been just a few years ago. Shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added further momentum.\n\nWhat makes the potential pairing particularly consequential is the crypto and stablecoin dimension. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to a market capitalization of roughly $4 billion. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, has been aggressively building its own blockchain infrastructure. In 2024, it acquired Bridge — a platform that helps businesses issue their own dollar-backed tokens — for $1.1 billion. The company is also collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in its testing phase.\n\nA merger would concentrate an enormous share of global digital payment volume under one roof while creating what could become the most powerful stablecoin ecosystem in the industry. The combined entity would control both the consumer-facing PayPal and Venmo platforms and Stripe's dominant merchant infrastructure, potentially accelerating the integration of stablecoin rails into mainstream commerce. The deal would also arrive at a moment when traditional finance is increasingly embracing blockchain-based payments — Meta is reportedly planning its own stablecoin comeback later this year, and exchanges like Coinbase and Kraken are expanding into tokenized stock trading.\n\nFor PayPal, which has struggled to regain investor confidence amid intensifying competition and slowing growth, a Stripe acquisition could offer a lifeline. For Stripe, absorbing PayPal's 400-million-plus user base and its established stablecoin would represent a dramatic bid to dominate the next era of payments. Whether the deal ultimately proceeds remains uncertain, but the mere possibility has already reshaped market expectations about how quickly stablecoin infrastructure could move from fintech's periphery to its core.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T01:33:16.714Z"
-    },
-    {
-      "id": "ps-1771982266540-jks8",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a signal of surging commercial appetite for self-driving technology that can scale across vehicle platforms and geographies.\n\nThe round, which could swell to $1.5 billion with an additional $300 million in milestone-based commitments from Uber tied to robotaxi deployment in London, values Wayve at $8.6 billion. Eclipse, Balderton, and SoftBank Vision Fund 2 led the raise, with new institutional backers including the Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Returning investors Microsoft, Nvidia, and Uber all deepened their stakes. Three global automakers — Mercedes-Benz, Nissan, and Stellantis — also participated, each planning to integrate Wayve's technology into their vehicles.\n\nFounded in 2017, Wayve has carved out a distinctive position in the crowded autonomous driving landscape by developing end-to-end deep learning software that requires neither high-definition maps nor specific sensor hardware. The company's AI ingests data from whatever sensors and chips an automaker already has installed, making it a plug-and-play option for original equipment manufacturers. Its Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing architecture, is designed to deliver both driver-assistance features and full Level 4 autonomy on city streets and highways.\n\nCEO and founder Alex Kendall described Wayve's strategy as deliberately \"contrarian\" — unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles self-driving capability into its own vehicles, Wayve sells its \"embodied AI\" as a software layer to automakers and mobility platforms. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber plans to begin commercial trials in Wayve-equipped vehicles this year. Uber CEO Dara Khosrowshahi indicated the partnership will extend to more than 10 markets worldwide, spanning multiple OEM partners.\n\nThe scale of the round underscores a broader industry conviction that the commercialization phase of autonomous driving has arrived. Nvidia, which has maintained a development relationship with Wayve since 2018, had previously signaled it was evaluating a strategic investment of up to $500 million in this raise, though the exact figure was not disclosed. For Wayve, the challenge now shifts from proving its technology to deploying it at scale — a transition Kendall framed in chess terms: the technology board is set, and the commercial game is just beginning.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "fundraising",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T01:17:46.540Z"
     },
     {
       "id": "ps-1771981327076-tfba",
@@ -1019,47 +1061,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/24/over-400-000-btc-bought-between-usd60k-and-usd70k-during-bitcoin-s-latest-downturn",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T12:48:41.913Z"
-    },
-    {
-      "id": "ps-1771935506302-w4qz",
-      "slug": "ethereum-foundation-begins-staking-70-000-eth-to-fund-operat",
-      "headline": "Ethereum Foundation Begins Staking 70,000 ETH to Fund Operations",
-      "subheadline": "The nonprofit behind Ethereum is putting its treasury to work, expecting roughly 2.8% annual yield to support research and grants",
-      "body": "The Ethereum Foundation has begun staking 70,000 ETH from its treasury — worth approximately $128 million at current prices — in a move designed to generate sustainable revenue for protocol development, ecosystem grants, and ongoing operations.\n\nThe process kicked off on February 24 with an initial deposit of 2,016 ETH, using Dirk and Vouch, a pair of open-source validator tools built by infrastructure firm Attestant. Dirk serves as a distributed signing mechanism that coordinates across multiple jurisdictions to minimize single points of failure, while Vouch manages the actual validator duties. The Foundation said its staking infrastructure combines hosted services with self-managed hardware running minority clients spread across several countries — an approach consistent with its stated commitment to decentralization.\n\nThe move follows the Foundation's public release of a formal treasury policy last year, which outlined principles for managing both crypto and fiat reserves while balancing long-term financial sustainability with Ethereum's core values of decentralization, open-source access, and user privacy. Rather than leaving a significant portion of its ether holdings idle, the organization will now channel staking rewards back into funding protocol research and community development programs. Based on the CoinDesk Composite Ether Staking Rate, validators currently earn an annualized yield of approximately 2.808%, which would translate to roughly $3.6 million per year on the 70,000 ETH stake at current market rates.\n\nThe 70,000 ETH earmarked for staking represents a meaningful but measured fraction of the Foundation's total crypto reserves. Data from blockchain analytics firm Arkham Intelligence shows the organization holds approximately 172,650 ETH plus an additional 10,000 wrapped ether, placing the staked portion at roughly 38% of its available ether holdings. The phased approach — starting with a relatively modest initial deposit before scaling up — suggests caution in deploying such a significant position.\n\nThe staking announcement arrives during a turbulent period for crypto markets, with ether trading around $1,828, down nearly 5% on the day. The Foundation's decision to generate yield on its treasury rather than sell assets may also serve to reassure a community that has periodically scrutinized the organization's ETH disposals as potential sources of selling pressure.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Ethereum Foundation",
-        "ETH staking",
-        "cryptocurrency",
-        "treasury management",
-        "DeFi"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/6ed145e0ace569dd7b6f87f43edffddc1546c444-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/putting-the-treasury-to-work-the-ethereum-foundation-just-staked-70-000-eth-to-fund-its-future",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T12:18:26.302Z"
-    },
-    {
-      "id": "ps-1771934611843-l63p",
-      "slug": "yen-drops-as-japan-s-takaichi-reportedly-warned-boj-against-",
-      "headline": "Yen Drops as Japan's Takaichi Reportedly Warned BOJ Against More Rate Hikes",
-      "subheadline": "Currency extends losses after reports that the prime minister expressed concern about tightening in a meeting with BOJ Governor Ueda",
-      "body": "The Japanese yen slid further on Tuesday after reports emerged that Prime Minister Sanae Takaichi had cautioned Bank of Japan Governor Kazuo Ueda against additional interest rate increases during a meeting last week, raising fresh questions about the central bank's ability to continue normalizing monetary policy.\n\nJapanese media reported that Takaichi expressed apprehension about the trajectory of rate hikes in the meeting with Ueda, signaling that the government may be uncomfortable with the pace of tightening. The reports sent the yen lower as currency markets interpreted the comments as a potential brake on the BOJ's gradual move away from decades of ultra-loose policy. The yen had already been declining before the reports surfaced, and the news accelerated the selloff.\n\nThe development underscores a persistent tension at the heart of Japanese economic policy. The BOJ has been inching toward normalization after years of negative interest rates and massive stimulus, but political pressure from the government threatens to complicate that path. Higher rates strengthen the yen and reduce the cost of imports, but they also raise borrowing costs for businesses and households — a politically sensitive issue as Japan's economy navigates uneven growth. Takaichi, who has previously been vocal about supporting accommodative monetary conditions, appears to be signaling that she does not want the central bank to move too aggressively.\n\nFor currency traders, the prime minister's reported stance diminishes the likelihood of near-term rate increases, making the yen a less attractive hold relative to higher-yielding currencies like the U.S. dollar. The BOJ raised rates multiple times over the past year as it sought to normalize policy, but each move has drawn scrutiny from politicians wary of dampening economic momentum.\n\nThe episode highlights the delicate balance the BOJ must strike between asserting its institutional independence and navigating the political landscape. Governor Ueda has repeatedly emphasized that rate decisions are guided by economic data, but markets remain acutely sensitive to any sign that government pressure could slow the tightening cycle. How the central bank responds in its upcoming policy meetings will be closely watched for evidence of whether Takaichi's concerns carry weight in the deliberation room.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "yen",
-        "Bank of Japan",
-        "Sanae Takaichi",
-        "interest rates",
-        "Japanese economy",
-        "forex"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1745754502955-41178d445c5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8eWVuJTIwQmFuayUyMG9mJTIwSmFwYW58ZW58MHwwfHx8MTc3MTkzNDYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/yen-extends-decline-after-report-on-takaichi-s-rate-hike-view",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T12:03:31.843Z"
     }
   ]
 }
