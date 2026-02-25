@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T15:48:34.653Z",
+  "lastUpdated": "2026-02-25T16:03:39.429Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772035344503-lmxz",
+      "slug": "trump-s-record-length-state-of-the-union-riddled-with-mislea",
+      "headline": "Trump's Record-Length State of the Union Riddled with Misleading Claims",
+      "subheadline": "BBC Verify analysis finds key assertions on gas prices, investment, and wars ended don't hold up to scrutiny",
+      "body": "President Donald Trump delivered the longest State of the Union address in decades — clocking in at one hour and 47 minutes — but a detailed fact-check by BBC Verify reveals that many of his headline claims were misleading, exaggerated, or unsupported by publicly available data.\n\nAmong the most striking discrepancies: Trump told lawmakers that gasoline is \"now below $2.30 a gallon in most states,\" yet the national average stands at $2.95 per gallon according to the Automobile Association of America. Only one state, Oklahoma, averages anywhere near $2.30, at $2.37. The fuel-tracking platform GasBuddy identified just four stations out of an estimated 150,000 nationwide selling gas below $2. On the economy, Trump declared that his administration had secured \"more than $18 trillion\" in investment commitments from around the world. The White House's own investment tracker, updated the night of the speech, lists $9.7 trillion — a substantial figure but roughly half what the president claimed. Greg Auclair, a statistician at the Peterson Institute for International Economics, cautioned that even the lower number \"includes pledges that may not materialise,\" pointing to the stalled EU trade deal as an example.\n\nTrump's assertion that he \"ended eight wars\" in his first ten months also drew scrutiny. While the president can credibly claim a role in brokering the Israel-Hamas ceasefire, several of the conflicts cited by the White House lasted only days. One — described as a \"war\" between Egypt and Ethiopia — was a diplomatic dispute over a dam with no actual fighting. India publicly downplayed any U.S. role in ending its brief military exchange with Pakistan, and renewed fighting has erupted between Rwanda and the Democratic Republic of Congo despite a peace agreement signed in Washington.\n\nOn inflation, the picture is more nuanced than Trump presented. While the annual rate has declined to 2.4% from 3% during Biden's final year, economists at Harvard University estimate that Trump's tariffs added approximately 0.92 percentage points to consumer price inflation in January 2026 relative to where it would otherwise have been. Beef prices — which Trump singled out as falling \"significantly\" — dropped slightly last month but had risen 15% over the prior 12 months. His claim that \"more Americans are working today than at any time in history\" is technically true, but the employment-to-population ratio actually dipped from 60.1% to 59.8% since Biden left office, and unemployment ticked up from 4.1% to 4.3%.\n\nTrump also repeated his assertion that \"cheating is rampant\" in U.S. elections, calling for stricter voter ID laws. The Heritage Foundation, a conservative think tank, has documented 1,620 proven fraud cases stretching back to 1982 — a figure that underscores the rarity rather than prevalence of electoral fraud. A Brennan Center for Justice study of 23.5 million votes across 12 states in 2016 found only 30 suspected cases of non-citizen voting referred for investigation. On immigration, Trump's claim that zero migrants have been released from Border Patrol custody for nine consecutive months appears accurate, though several thousand illegal crossings are still recorded monthly — 6,070 apprehensions at the southwest border in January 2026, down dramatically from 124,215 in January 2024 under Biden.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Trump",
+        "State of the Union",
+        "fact-check",
+        "US economy",
+        "inflation",
+        "immigration"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2ea4/live/e2517fa0-1233-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T16:02:24.503Z"
+    },
+    {
+      "id": "ps-1772035361187-9aix",
+      "slug": "machine-learning-framework-tackles-inverse-design-of-exotic-",
+      "headline": "Machine Learning Framework Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now reverse-engineer lattice structures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a machine learning framework capable of designing metamaterials that simultaneously exhibit two counterintuitive physical properties — negative thermal expansion and negative Poisson's ratios — a combination that has long challenged engineers attempting to work backward from desired material behaviors to structural blueprints.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper published on the arXiv preprint server, describe a suite of neural network models trained on large datasets generated through computational homogenization of bimaterial hybrid-honeycomb structures. The approach addresses a fundamental bottleneck in metamaterials engineering: while simulating the properties of a given structure is computationally straightforward, determining which structure will produce a specific set of target properties — the inverse problem — is vastly more difficult due to the many-to-one mapping between designs and performance.\n\nThe team's methodology proceeds in two stages. First, a forward model learns to predict the effective thermoelastic properties of a lattice structure given its geometrical features and base material composition. This model is then embedded into the loss functions of six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and structural variables. The forward model also serves a secondary role, generating synthetic training data for cases involving fixed base materials, effectively bootstrapping the inverse models' learning. The bimaterial structures under study are hybrid honeycombs — lattices constructed from two different materials whose mismatched thermal expansion drives the exotic bulk behavior. Materials with negative Poisson's ratios, known as auxetics, grow thicker rather than thinner when stretched, while negative thermal expansion causes a material to contract upon heating. Together, these properties open possibilities in aerospace thermal management, precision instruments, and structural components subjected to extreme temperature swings.\n\nThe authors report strong predictive performance across representative design examples, with the inverse models successfully proposing geometrical parameters and material pairings that yield user-specified thermoelastic targets. By replacing computationally expensive optimization loops with rapid neural network inference, the framework could accelerate the deployment of such metamaterials in practical engineering systems where tailored thermal and mechanical responses are critical.\n\nThe work sits at the intersection of computational materials science and deep learning, joining a growing body of research that leverages data-driven methods to navigate the vast design spaces of architected materials. While the current study focuses on two-dimensional lattice structures, the authors suggest the methodology is extensible to more complex three-dimensional architectures — a step that would bring machine learning-driven metamaterial design closer to real-world manufacturing constraints.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1752428464180-81cc2d4bd5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T16:02:41.187Z"
+    },
+    {
+      "id": "ps-1772035376927-rpjo",
+      "slug": "ancient-microbial-life-could-persist-50-million-years-in-mar",
+      "headline": "Ancient Microbial Life Could Persist 50 Million Years in Martian Ice",
+      "subheadline": "NASA and Penn State lab experiments reshape the search for life on Mars, urging future missions to drill into ice rather than rock",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure more than 50 million years inside pure water ice, even under relentless bombardment by cosmic radiation. The findings, published in the journal Astrobiology, could fundamentally redirect how future Mars missions hunt for signs of ancient biology.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and exposed them to gamma radiation at minus 60 degrees Fahrenheit, replicating the punishing environment near the Martian surface. The radiation dose was equivalent to 20 million years of cosmic ray exposure, later extended to 50 million years through computational modeling. In the pure ice samples, more than 10 percent of amino acids survived the full simulated duration — a result that surprised even the research team. Samples mixed with Mars-like silicate rock and clay, by contrast, degraded 10 times faster and did not survive.\n\nThe counterintuitive result overturned expectations set by a 2022 study from the same group, which had found that organic material in a slurry of 10 percent water ice and 90 percent Martian soil broke down rapidly. Scientists had assumed pure ice would fare even worse. Instead, lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, reactive particles generated by radiation become frozen in place, unable to reach and destroy nearby organic molecules. In mixed samples, a thin film that forms where ice meets mineral grains appears to allow radiation-produced particles to migrate more freely, accelerating destruction.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and observed even slower deterioration. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and will arrive at Jupiter in 2030 to conduct 49 close flybys of Europa, investigating whether its subsurface ocean could harbor life.\n\nFor Mars exploration specifically, the study makes a clear practical recommendation: future missions should prioritize drilling into clean, buried ice deposits rather than analyzing surface rocks or soil. Christopher House, a Penn State geosciences professor and co-author, noted that many current Martian surface ice deposits are less than two million years old — well within the 50-million-year preservation window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said, adding that accessing subsurface ice will require robust drilling or scooping capabilities similar to those on NASA's 2008 Phoenix lander, the first mission to excavate and photograph Martian ice. The research was funded by NASA's Planetary Science Division.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "extraterrestrial life",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T16:02:56.927Z"
+    },
+    {
+      "id": "ps-1772035391424-7z9j",
+      "slug": "state-department-orders-diplomats-to-fight-foreign-data-sove",
+      "headline": "State Department Orders Diplomats to Fight Foreign Data Sovereignty Laws",
+      "subheadline": "A cable signed by Secretary Rubio frames data localization mandates as obstacles to U.S. AI dominance abroad",
+      "body": "The Trump administration has directed American diplomats worldwide to actively lobby against foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on February 25.\n\nThe cable, signed by Secretary of State Marco Rubio, instructs diplomats to push back against what it calls \"unnecessarily burdensome regulations, such as data localization mandates.\" It argues that data sovereignty laws would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats were also ordered to track legislative proposals in their host countries that could promote data sovereignty measures and to advocate for the Global Cross-Border Privacy Rules Forum, an international framework designed to facilitate cross-border data transfers through standardized privacy certifications.\n\nThe directive arrives at a moment of escalating global tension over data governance. The European Union has established itself as the most aggressive regulator in this space, having enacted the General Data Protection Regulation, the Digital Services Act, and most recently the AI Act — a suite of laws designed to constrain how technology companies collect, store, and exploit user data. Numerous other nations, from India to Brazil, have pursued or are considering their own data localization requirements that would compel companies to keep certain categories of citizen data within national borders.\n\nFor the Trump administration, the calculus is straightforward: data localization requirements impose operational costs on American cloud and AI companies — including giants like Google, Microsoft, Amazon, and OpenAI — and could fragment the global data infrastructure that underpins their competitive advantage. The cable effectively positions unrestricted cross-border data flows as a pillar of U.S. economic and technological strategy, particularly as Washington races to maintain American dominance in artificial intelligence against rising competition from China.\n\nCritics of the approach are likely to argue that framing foreign privacy protections as threats to civil liberties inverts the reality for citizens whose data is being harvested by foreign corporations with limited accountability. The State Department did not respond to requests for comment on the cable. The order nonetheless signals a clear escalation in Washington's willingness to deploy diplomatic resources in service of its technology industry's global ambitions.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "data sovereignty",
+        "State Department",
+        "AI policy",
+        "data privacy",
+        "GDPR",
+        "Marco Rubio",
+        "Big Tech"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T16:03:11.424Z"
+    },
+    {
+      "id": "ps-1772035404478-e87e",
+      "slug": "us-to-raise-tariffs-to-15-where-appropriate-trade-rep-greer-",
+      "headline": "US to Raise Tariffs to 15% 'Where Appropriate,' Trade Rep Greer Says",
+      "subheadline": "Trump set to sign supplemental proclamation as administration signals continuity in trade policy",
+      "body": "U.S. Trade Representative Jamieson Greer announced on Tuesday that President Donald Trump intends to sign a supplemental proclamation raising tariff rates to 15 percent in cases deemed appropriate, signaling an escalation in the administration's trade agenda.\n\nGreer framed the move as part of the administration's broader push for \"continuity\" in its tariff strategy, suggesting the increase is designed to maintain pressure on trading partners and reinforce existing trade measures rather than mark a dramatic shift in policy direction. The supplemental proclamation would give the president authority to selectively raise duties on targeted imports, though Greer did not specify which goods or countries would face the higher rate.\n\nThe announcement comes as the Trump administration continues to wield tariffs as a central instrument of economic and foreign policy. Since returning to office, Trump has pursued an aggressive trade posture, imposing and threatening levies across a range of sectors and trading partners. A move to 15 percent on select imports would represent a meaningful step up from some existing rates and could affect supply chains, consumer prices, and diplomatic relationships depending on the scope of the proclamation.\n\nMarket participants and trade analysts will be closely watching for details on which product categories and countries fall under the \"where appropriate\" designation. The language suggests the administration is preserving flexibility to apply the higher tariff selectively, potentially as leverage in ongoing or future trade negotiations. Industries reliant on imported materials and components could face increased costs, which historically have been passed along to consumers or absorbed through thinning margins.\n\nThe timing and specifics of the supplemental proclamation have not yet been disclosed. Trading partners are likely to respond with their own assessments of the measure, and retaliatory actions remain a possibility depending on the breadth of the tariff increase.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "tariffs",
+        "trade policy",
+        "Jamieson Greer",
+        "Trump administration",
+        "USTR"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551026791-11d474c604cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8dGFyaWZmcyUyMHRyYWRlJTIwcG9saWN5fGVufDB8MHx8fDE3NzIwMzQ1MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/us-to-raise-tariff-to-15-where-appropriate-greer-says-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T16:03:24.478Z"
+    },
+    {
+      "id": "ps-1772035419322-mz1p",
+      "slug": "bitcoin-surges-to-67-500-as-massive-short-squeeze-unwinds-be",
+      "headline": "Bitcoin Surges to $67,500 as Massive Short Squeeze Unwinds Bearish Bets",
+      "subheadline": "Over $307 million in short positions liquidated as crypto market stages broadest relief rally in weeks",
+      "body": "Bitcoin jumped more than 5% to approximately $67,500 on Wednesday, igniting a sweeping relief rally across digital assets after weeks of deeply bearish positioning left the crypto market primed for a violent reversal. The move liquidated over $307 million in leveraged short bets in just 24 hours, according to CoinGlass data.\n\nMajor altcoins outpaced bitcoin's gains by a wide margin. Ethereum reclaimed the $2,000 level for the first time in a week with a 10% advance, while Solana, Dogecoin, Cardano, and Chainlink each surged more than 10%. The rally came after the Crypto Fear & Greed Index had languished at \"Extreme Fear\" levels for most of February, and perpetual futures funding rates had turned negative multiple times — a classic signal that bearish bets had become overcrowded. Notably, even amid Wednesday's bounce, bitcoin funding rates remained below neutral, suggesting the move was driven more by short covering than fresh leveraged speculation.\n\nCrypto-related equities joined the advance. Circle, the USDC stablecoin issuer, led the group with a 20% jump after reporting better-than-expected fourth-quarter earnings. Coinbase, Strategy (formerly MicroStrategy), and Galaxy Digital each gained between 5% and 6%. Bitcoin mining stocks including Bitfarms, Bitdeer, and MARA Holdings also extended recent rebounds. Analyst Markus Thielen of 10x Research noted that many crypto-linked stocks had attracted sizable short interest from hedge funds, leaving them vulnerable to the same squeeze dynamics playing out in digital assets themselves.\n\nSeveral indicators pointed to a tentative return of U.S. institutional buyers. The Coinbase Premium Index — which tracks the price gap between bitcoin on Coinbase and global averages and serves as a proxy for American capital flows — turned positive for the first time in more than 40 days. Meanwhile, U.S. spot bitcoin ETFs recorded $257.7 million in net inflows on Tuesday, the strongest single-day total since early February. The broader risk environment provided a supportive backdrop, with the S&P 500 up 0.6% and the Nasdaq 100 gaining 1.1% in early trading.\n\nDespite the bounce, bitcoin remains down roughly 25% year to date, and analysts cautioned that one day of short covering does not necessarily mark a durable bottom. The speed of the reversal, however, underscored how lopsided bearish positioning had become — and how quickly sentiment can shift when forced liquidations cascade through a thinly traded market.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "crypto",
+        "short squeeze",
+        "altcoins",
+        "ETF inflows",
+        "Circle"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/03aa6be87d4ef182d8d960134c7186b61dfafebe-2050x1180.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/bitcoin-climbs-to-usd67-500-circle-leads-crypto-stocks-higher-as-bounce-strengthens",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T16:03:39.322Z"
+    },
     {
       "id": "ps-1772034438516-6twd",
       "slug": "uk-commons-speaker-passed-flight-risk-tip-to-police-before-m",
@@ -25,26 +152,6 @@
       "publishedAt": "2026-02-25T15:47:18.516Z"
     },
     {
-      "id": "ps-1772034454820-7q8l",
-      "slug": "machine-learning-cracks-inverse-design-of-exotic-metamateria",
-      "headline": "Machine Learning Cracks Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now reverse-engineer lattice structures that shrink when heated and expand when compressed",
-      "body": "Researchers have developed a machine learning framework that can design on demand metamaterials exhibiting two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — potentially accelerating their deployment in aerospace, precision instruments, and other engineering systems where thermal distortion is a critical concern.\n\nXiang-Long Peng and Bai-Xiang Xu, writing in a preprint posted to arXiv on February 12, describe a suite of neural network models trained on high-throughput simulations of bimaterial hybrid-honeycomb structures. The lattice metamaterials in question are built from two different base materials arranged in honeycomb geometries, and they belong to a rare class of engineered structures that contract when heated (negative thermal expansion) and grow wider when stretched (negative Poisson's ratio). Both properties are vanishingly uncommon in natural materials and highly sought after for applications requiring dimensional stability under temperature swings.\n\nThe core challenge the team addresses is the inverse design problem: given a set of desired thermoelastic properties, what combination of geometry and materials will produce them? Traditional trial-and-error or parametric sweeps through the vast design space are computationally prohibitive. Peng and Xu first generated a large dataset using computational homogenization, varying geometrical features and base material properties across thousands of configurations. They then trained a forward model that predicts effective thermoelastic properties from a given structural design, achieving what they describe as high accuracy at a fraction of the computational cost of full simulations.\n\nBuilding on that forward model, the researchers constructed six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and adjustable structural parameters. In a notable methodological step, the trained forward model was embedded directly into the loss functions of the inverse models, creating a self-consistent training loop. It was also used to generate supplementary datasets for cases where the base materials are fixed and only the geometry is free to vary — a common practical constraint in manufacturing.\n\nThe work represents part of a broader trend in materials science where machine learning is shifting the design paradigm from forward prediction to goal-directed discovery. While the results remain at the computational stage and await experimental validation, the framework could significantly shorten development cycles for thermoelastic metamaterials in satellite structures, microelectronics packaging, and dental implants, where mismatched thermal expansion between components can cause mechanical failure.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T15:47:34.820Z"
-    },
-    {
       "id": "ps-1772034471414-9lxi",
       "slug": "chemists-synthesize-impossible-silicon-aromatic-molecule-aft",
       "headline": "Chemists Synthesize 'Impossible' Silicon Aromatic Molecule After 50 Years",
@@ -64,48 +171,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-25T15:47:51.414Z"
-    },
-    {
-      "id": "ps-1772034486505-wwzh",
-      "slug": "state-department-orders-diplomats-to-fight-foreign-data-sove",
-      "headline": "State Department Orders Diplomats to Fight Foreign Data Sovereignty Laws",
-      "subheadline": "An internal cable signed by Secretary Rubio frames data localization mandates as threats to AI advancement and global commerce",
-      "body": "The Trump administration has directed American diplomats worldwide to actively oppose foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on February 25.\n\nThe cable, signed by Secretary of State Marco Rubio, instructs diplomatic staff to push back against data sovereignty legislation — laws that typically require companies to store citizens' data within national borders or submit to local regulatory oversight. Rubio's directive characterizes such measures as threats that would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats were specifically told to \"counter unnecessarily burdensome regulations, such as data localization mandates.\"\n\nBeyond lobbying, the cable establishes a surveillance function: diplomats are ordered to track legislative proposals in their host countries that would promote data sovereignty frameworks. They are also instructed to champion the Global Cross-Border Privacy Rules Forum, an international body that promotes cross-border data transfers through voluntary privacy certifications — a markedly lighter-touch approach than the binding regulations favored by the European Union and other jurisdictions.\n\nThe directive arrives at a moment of escalating global tension over data governance. The EU has erected the most comprehensive regulatory architecture, including the General Data Protection Regulation (GDPR), the Digital Services Act, and the AI Act, all of which impose significant compliance obligations on American tech giants. Countries across Asia, Latin America, and Africa have increasingly pursued similar frameworks, motivated by concerns over surveillance, commercial exploitation of personal data, and digital sovereignty.\n\nThe cable reflects a clear strategic calculation: the administration views unrestricted international data flows as essential infrastructure for the American AI industry, which depends on vast datasets for training and deploying models. By framing data localization as a barrier to innovation and even a civil liberties risk, Washington is effectively asking allies and trading partners to subordinate their domestic privacy priorities to American commercial interests. The State Department did not respond to requests for comment. Whether foreign governments — particularly those already committed to robust data protection regimes — will be receptive to the lobbying campaign remains an open question, but the directive signals that data governance has become a front-line issue in U.S. technology diplomacy.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "data sovereignty",
-        "State Department",
-        "AI policy",
-        "data privacy",
-        "GDPR",
-        "Marco Rubio",
-        "Big Tech"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T15:48:06.505Z"
-    },
-    {
-      "id": "ps-1772034500395-uii7",
-      "slug": "us-to-escalate-tariffs-to-15-where-appropriate-trade-rep-say",
-      "headline": "US to Escalate Tariffs to 15% 'Where Appropriate,' Trade Rep Says",
-      "subheadline": "Trade Representative Jamieson Greer signals Trump will sign supplemental proclamation as administration seeks tariff 'continuity'",
-      "body": "The United States plans to raise tariff rates to 15 percent on select imports, U.S. Trade Representative Jamieson Greer announced on Tuesday, signaling a further tightening of the Trump administration's trade policy as it pursues what officials describe as continuity in their tariff agenda.\n\nGreer said President Donald Trump will sign a supplemental proclamation authorizing the increase \"where appropriate,\" though he did not specify which goods or trading partners would face the higher duties. The move suggests the administration is prepared to use executive authority to ratchet up trade barriers incrementally rather than through a single sweeping action, a strategy that could give officials more leverage in ongoing negotiations with key partners.\n\nThe announcement comes as the Trump administration continues to reshape U.S. trade relationships on multiple fronts. Since returning to office, Trump has deployed tariffs as a central tool of economic and foreign policy, targeting imports from major trading partners including China, Canada, Mexico, and the European Union. The reference to \"continuity\" by Greer suggests the White House views the 15 percent threshold as part of a deliberate, phased escalation rather than a one-off measure.\n\nMarket participants and trade analysts will be closely watching for details of the supplemental proclamation, particularly which product categories and countries fall under the higher rate. The selective language — \"where appropriate\" — indicates the administration may be calibrating the increases to maximize negotiating pressure while managing the risk of broader economic disruption, including potential retaliatory measures from affected nations.\n\nThe tariff escalation adds another layer of uncertainty for businesses navigating an already complex global trade environment. Companies reliant on imported goods face the prospect of higher input costs, which could be passed along to consumers or absorbed through tighter margins. The specific scope of the proclamation, once signed, will determine the breadth of the economic impact across industries and supply chains.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "tariffs",
-        "trade policy",
-        "Jamieson Greer",
-        "Trump administration",
-        "US trade"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1551026791-11d474c604cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8dGFyaWZmcyUyMHRyYWRlJTIwcG9saWN5fGVufDB8MHx8fDE3NzIwMzQ1MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/us-to-raise-tariff-to-15-where-appropriate-greer-says-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T15:48:20.395Z"
     },
     {
       "id": "ps-1772034514557-lkr0",
@@ -212,27 +277,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T14:48:19.644Z"
-    },
-    {
-      "id": "ps-1772029945694-sezr",
-      "slug": "trump-s-record-length-state-of-the-union-riddled-with-mislea",
-      "headline": "Trump's Record-Length State of the Union Riddled With Misleading Claims",
-      "subheadline": "BBC Verify analysis finds key assertions on gas prices, investment figures, and wars ended don't hold up to scrutiny",
-      "body": "President Donald Trump delivered the longest State of the Union address in decades on Tuesday — clocking in at one hour and 47 minutes — but multiple central claims made during the marathon speech have been found to be misleading or unsupported by available data.\n\nAmong the most striking discrepancies was Trump's assertion that gasoline is \"now below $2.30 a gallon in most states.\" According to the Automobile Association of America, the national average stands at $2.95 per gallon as of February 24. Only Oklahoma, at $2.37, comes close to the president's figure, while the tracking website GasBuddy identified just four stations out of roughly 150,000 nationwide selling fuel below $2. Trump also claimed to have secured $18 trillion in investment commitments over his first 12 months in office, but the White House's own tracker puts the figure at $9.7 trillion — and analysts at the Peterson Institute for International Economics cautioned that even that total includes pledges that may never materialize, citing the stalled EU trade deal as one example.\n\nOn the economy, Trump declared that \"more Americans are working today than at any time in the history of our country,\" which is technically accurate — over 158 million people were employed as of January 2026. But that record reflects a record-high population of more than 342 million. The employment-to-population ratio actually dipped slightly from 60.1% when President Biden left office to 59.8% in January, and unemployment ticked up from 4.1% to 4.3% over the same period. Meanwhile, while Trump credited his policies with lowering inflation — now at 2.4% annually versus 3% during Biden's final year — Harvard economists have estimated that Trump's tariffs alone added roughly 0.92 percentage points to consumer price inflation in January, partially offsetting those gains. Beef prices, which Trump highlighted as falling, had actually risen 15% over the prior 12 months despite a slight dip in the most recent month.\n\nTrump's claim to have \"ended eight wars\" in his first ten months also drew scrutiny. While the president can reasonably take credit for brokering the Israel-Hamas ceasefire, several conflicts on the White House's list lasted only days, and at least one — a dispute between Egypt and Ethiopia over dam construction — involved no actual combat. Fighting between Rwanda and the Democratic Republic of Congo resumed after the two sides signed a Washington-brokered peace agreement, and India publicly downplayed the U.S. role in ending its brief clash with Pakistan.\n\nThe president also repeated his assertion that \"cheating is rampant\" in U.S. elections and called for stricter voter identification laws. The Heritage Foundation, a conservative think tank, has documented 1,620 proven cases of electoral fraud across the country — dating back to 1982. A Brennan Center for Justice study of 23.5 million votes cast across 12 states in 2016 found just 30 suspected instances of non-citizen voting referred for investigation. On immigration, Trump's claim that zero migrants have been released from Border Patrol custody for nine consecutive months appears accurate, though several thousand illegal crossings continue to be recorded monthly — 6,070 apprehensions at the southwest border in January 2026, compared with 124,215 in January 2024 under Biden.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Trump",
-        "State of the Union",
-        "fact-check",
-        "US politics",
-        "economy",
-        "immigration"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2ea4/live/e2517fa0-1233-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T14:32:25.694Z"
     },
     {
       "id": "ps-1772029964959-5qf2",
@@ -1008,46 +1052,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/trump-calls-tariff-ruling-very-unfortunate-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T03:48:06.617Z"
-    },
-    {
-      "id": "ps-1771988593392-0mx5",
-      "slug": "asian-currencies-surge-to-16-month-high-as-dollar-weakens",
-      "headline": "Asian Currencies Surge to 16-Month High as Dollar Weakens",
-      "subheadline": "Broad rally across the region driven by sustained dollar softness and steady appreciation in the Chinese yuan",
-      "body": "A basket of Asian currencies climbed to its highest level in 16 months on Wednesday, buoyed by persistent weakness in the U.S. dollar and a strengthening Chinese yuan that together lifted sentiment across the region's foreign exchange markets.\n\nThe broad-based rally reflects a shifting macroeconomic landscape in which the greenback has come under sustained pressure, giving emerging-market and Asian currencies room to appreciate. The Chinese yuan's steady gains have amplified the effect, as the currency serves as an anchor for regional trade flows and investor confidence. When the yuan strengthens, it often pulls neighboring currencies higher by reducing competitive devaluation pressures and signaling stability in the world's second-largest economy.\n\nThe dollar's slide comes amid evolving expectations around U.S. Federal Reserve policy and global capital flows. Investors have increasingly rotated into Asian assets in recent months, drawn by relatively attractive yields and improving economic fundamentals in several major economies across the continent. That capital inflow has provided additional tailwinds for currencies from the South Korean won and Thai baht to the Malaysian ringgit and Indonesian rupiah.\n\nFor exporters across Asia, the currency strength presents a double-edged sword. While a stronger domestic currency reduces the cost of imported goods and energy — a significant benefit for net importers like India and the Philippines — it also erodes the competitiveness of exports priced in local currency terms. Central banks across the region will be closely monitoring the pace of appreciation, with some likely to intervene if moves become disorderly or threaten to undermine trade balances.\n\nThe 16-month milestone underscores a broader rebalancing in global currency markets that has been gathering momentum since late 2025. Analysts say the trend could persist if the dollar continues to weaken and China maintains its current posture of allowing gradual yuan appreciation rather than defending a weaker exchange rate. How long Asian central banks tolerate the rally — and whether the Federal Reserve shifts its policy signaling — will likely determine whether the region's currencies extend their gains or encounter resistance in the weeks ahead.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "asian currencies",
-        "US dollar",
-        "yuan",
-        "forex",
-        "emerging markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1572791035467-379a14a6dafd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxhc2lhbiUyMGN1cnJlbmNpZXMlMjBVUyUyMGRvbGxhcnxlbnwwfDB8fHwxNzcxOTg4NTkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/weak-dollar-yuan-gain-propel-asian-currencies-to-16-month-high",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T03:03:13.392Z"
-    },
-    {
-      "id": "ps-1771987692717-9jzd",
-      "slug": "us-slaps-126-preliminary-tariffs-on-indian-solar-imports",
-      "headline": "US Slaps 126% Preliminary Tariffs on Indian Solar Imports",
-      "subheadline": "Trump administration finds India unfairly subsidized solar manufacturing, escalating trade tensions across global clean energy supply chains",
-      "body": "The Trump administration has imposed preliminary duties of 126% on solar imports from India, a sweeping trade action that could significantly reshape global clean energy supply chains and raise costs for American solar installers.\n\nThe Commerce Department's determination that India unfairly subsidized its solar manufacturing sector follows a broader investigation that also scrutinized imports from Indonesia and Laos. The preliminary duties, announced on February 24, represent one of the steepest tariff actions targeting the renewable energy sector and signal the administration's aggressive posture toward foreign solar producers it deems beneficiaries of unfair government support.\n\nThe move comes at a particularly fraught moment for the U.S. solar industry, which has spent years trying to diversify its supply chain away from China. India had emerged as one of the most promising alternative manufacturing hubs, with companies investing heavily in production capacity to serve Western markets. A 126% duty effectively prices Indian-made panels and cells out of the American market, potentially funneling demand back toward domestic producers — or squeezing installers who depend on affordable imports to keep project economics viable.\n\nThe U.S. solar installation industry, which employs hundreds of thousands of workers, has historically found itself caught between trade enforcement actions designed to protect domestic manufacturers and the need for competitively priced components to sustain deployment growth. Previous rounds of tariffs on Chinese solar products pushed sourcing to Southeast Asian nations, and subsequent investigations into those countries created further disruption. India's inclusion in this latest action narrows the list of viable import sources even further.\n\nIndustry analysts expect the duties to put upward pressure on solar panel prices in the United States and could slow the pace of new installations, particularly in the utility-scale segment where thin margins make projects highly sensitive to component costs. India is likely to challenge the findings, and the duties remain preliminary — a final determination could adjust the rates. But the signal from Washington is unmistakable: the administration intends to use trade tools aggressively to reshape where and how solar equipment enters the American market.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "solar tariffs",
-        "US-India trade",
-        "renewable energy",
-        "Trump administration",
-        "trade policy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1728919724905-f83d298593a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8U2xhcHMlMjBQcmVsaW1pbmFyeSUyMFRhcmlmZnN8ZW58MHwwfHx8MTc3MTk4NzY5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/us-finds-that-india-indonesia-laos-unfairly-subsidized-solar",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T02:48:12.717Z"
     }
   ]
 }
