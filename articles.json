@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T05:48:14.597Z",
+  "lastUpdated": "2026-02-25T06:03:23.552Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1771999324548-lvgn",
+      "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
+      "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Care Funding Debate",
+      "subheadline": "Legal experts call the forced transfer of a 33-year-old with full mental capacity 'totally unlawful' amid growing NHS budget pressures",
+      "body": "A 33-year-old disabled woman in England who was transferred to a nursing home against her explicit refusal has ignited fresh scrutiny of NHS continuing healthcare funding decisions, with an independent barrister calling the move \"totally unlawful.\"\n\nLucinda Ritchie, a recognized advocate for eye-gaze communication technology and a master's student at Southampton University, had lived independently in an adapted bungalow in Billingshurst, West Sussex, with round-the-clock nursing care funded by NHS Continuing Healthcare. After being admitted to East Surrey Hospital with pneumonia in April 2024, her stay extended for 10 months due to complications. When discharge planning began, NHS Sussex's All Age Continuing Care commissioners directed her not back to her home but to Temple Grove Nursing Home in Uckfield — roughly an hour from her family and support network. Her family says her powered wheelchair was switched off and physically pushed during the transfer, and that no care plans for the new placement were shared with Ritchie or her legal team.\n\nWithin 48 hours of arriving at the facility, Ritchie's condition deteriorated sharply, requiring an emergency ambulance transfer to a hospital in Tunbridge Wells. Communicating via eye-gaze technology, she told the BBC she felt \"utterly worthless and frightened,\" adding that \"life will not be worth living if I cannot go home.\" Ritchie, who has Ehlers-Danlos syndrome, functional neurological disorder, Addison's disease, and epilepsy, requires tracheostomy care and intermittent ventilation — needs her established nursing provider confirmed it could continue to meet at home.\n\nThe case highlights a growing tension at the heart of England's continuing healthcare system. Only about 50,000 people with the most complex needs qualify for CHC, which the NHS funds entirely. Under existing rules, if a patient with mental capacity refuses residential placement, that decision must be respected. Neil Allen, an independent barrister, told the BBC that moving a capacitated adult to a care home against their will was \"very unusual\" and legally indefensible. NHS Sussex has acknowledged that Ritchie has full mental capacity but has not publicly explained its legal basis for overriding her refusal. The trust denied that cost considerations influenced the decision, attributing it to clinical safety concerns following her extended intensive care stay.\n\nThe financial arithmetic, however, is stark. A 24-hour nurse-led home care package for someone with Ritchie's needs typically costs between £8,000 and £16,000 per week in the UK, while nursing home fees in southeast England run approximately £1,500 to £1,800 weekly. Ritchie's former solicitor, Andy McKay of Martin Searle Solicitors, said his firm had sought \"meaningful engagement\" from NHS commissioners since autumn on a safe return-home plan but received no substantive response — and that the care board never contacted Ritchie's existing nursing agency to ask whether it could continue meeting her needs. Disputes between families and local NHS care boards over such packages are occurring \"up and down the country all the time,\" Allen noted, calling it a national issue driven by tight budgets and rising demand.\n\nAllison Cannon, chief nursing officer at NHS Sussex, said the organization was \"committed to working with Lucinda and her family\" to ensure high-quality care and plan for her long-term needs. Ritchie, who was named one of the UK's most influential disabled people in both 2023 and 2024 for her pioneering work on eye-movement communication, remains in hospital. She says she now lives in fear of being sent to a nursing home again.",
+      "category": "breaking",
+      "importance": 6,
+      "tags": [
+        "NHS",
+        "disability rights",
+        "continuing healthcare",
+        "UK healthcare funding",
+        "Lucinda Ritchie",
+        "care home"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2be8/live/880394b0-11a8-11f1-8efc-bb8df6087c73.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T06:02:04.548Z"
+    },
+    {
+      "id": "ps-1771999341212-uxwq",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can rapidly identify structural blueprints for materials with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — exotic structures that simultaneously shrink when heated and expand laterally when stretched, defying the behavior of conventional materials. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing bottleneck in metamaterial engineering: moving from knowing what properties are desired to efficiently determining how to build the structure that delivers them.\n\nThe metamaterials in question are based on hybrid-honeycomb architectures composed of two different base materials. By tuning geometric features and material combinations, these lattices can exhibit both negative Poisson's ratios — meaning they contract transversely under compression rather than bulging outward — and negative coefficients of thermal expansion, causing them to shrink as temperature rises. Such counterintuitive thermoelastic behavior makes them attractive candidates for precision instruments, aerospace components, and other engineering systems where dimensional stability under thermal fluctuations is critical.\n\nTo train their models, Peng and Xu generated a large dataset through computational homogenization, systematically varying the lattice geometry and base material properties across thousands of configurations. They first built a forward model that predicts effective thermoelastic properties from a given structural design, achieving high accuracy while dramatically reducing the computational cost compared to full-scale simulation. The forward model was then embedded into the loss functions of six distinct inverse models, each tailored to different design scenarios — for instance, specifying target thermal expansion and Poisson's ratio while allowing the algorithm to propose both geometry and material selection, or fixing the base materials and optimizing geometry alone.\n\nThe approach represents a significant practical advance over traditional trial-and-error or optimization-based design methods, which can be computationally prohibitive for multi-parameter metamaterial systems. By generating additional training data for constrained cases using the validated forward model, the researchers effectively bootstrapped their inverse models without requiring exhaustive new simulations. Representative design examples demonstrated that the inverse models reliably suggest structural configurations whose predicted properties closely match the desired targets.\n\nThe framework is broadly applicable beyond the specific honeycomb geometry studied here and could accelerate the deployment of thermoelastic metamaterials in real-world engineering systems, from satellite structures subject to extreme temperature swings to medical devices requiring dimensional precision. As metamaterial complexity grows, machine learning-driven inverse design is increasingly positioned as an essential tool for translating theoretical possibilities into manufacturable realities.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1682341891731-841dc120e398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T06:02:21.212Z"
+    },
+    {
+      "id": "ps-1771999356151-dssp",
+      "slug": "chemists-synthesize-impossible-silicon-aromatic-molecule-aft",
+      "headline": "Chemists Synthesize 'Impossible' Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Saarland University team replaces carbon with silicon in a stable aromatic ring, opening new frontiers in materials and catalysis",
+      "body": "A team of chemists at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly five-decade quest that most researchers had written off as impossible. The results, published February 24 in the journal Science, could reshape industrial chemistry by unlocking an entirely new class of silicon-based compounds and catalysts.\n\nAromatic molecules, characterized by their flat ring structures and evenly distributed electrons, are among the most stable and industrially important compounds in chemistry. They play critical roles in plastics manufacturing, serving as components of catalysts used in the production of polyethylene and polypropylene. Until now, however, aromaticity had been almost exclusively the domain of carbon-based chemistry. The only prior silicon aromatic — a three-atom silicon ring analogous to cyclopropenium — was created in 1981. Every subsequent attempt to build larger silicon aromatic systems had failed.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded by replacing all five carbon atoms in cyclopentadienide with silicon while preserving the molecule's aromatic character. The compound satisfies Hückel's rule, the foundational criterion for aromaticity named after German physicist Erich Hückel, which requires a specific number of delocalized electrons distributed uniformly around a planar ring. Silicon's more metallic character and looser grip on electrons had long made this substitution seem fundamentally incompatible with stable aromatic bonding.\n\nRemarkably, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same compound at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science — a rare arrangement that underscores the significance of the result and the convergence of independent scientific effort toward the same goal.\n\nThe breakthrough has implications that extend well beyond the laboratory. Because silicon holds its electrons less tightly than carbon, pentasilacyclopentadienide and its derivatives could exhibit electronic and catalytic properties with no carbon-based equivalent. Scheschkewitz has pointed to potential applications in developing new catalysts and advanced materials for industrial processes. After decades of speculation and failure, the synthesis represents a crucial first step toward an expanded periodic table of aromatic chemistry — one where silicon plays a starring role alongside carbon.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "catalysis"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T06:02:36.151Z"
+    },
+    {
+      "id": "ps-1771999372144-rczw",
+      "slug": "stripe-weighs-acquisition-of-paypal-in-potential-megadeal",
+      "headline": "Stripe Weighs Acquisition of PayPal in Potential Megadeal",
+      "subheadline": "The $159 billion payments giant is exploring a purchase of some or all of PayPal, valued at roughly $40 billion",
+      "body": "Stripe, the Dublin-based payments infrastructure company, is in early-stage discussions about acquiring some or all of PayPal Holdings, according to a Bloomberg report that sent ripples through the fintech world on Monday. The potential deal, which sources cautioned may never materialize, would represent one of the largest technology transactions in history and reshape the global digital payments landscape.\n\nThe news arrived on the same day Stripe unveiled a dramatic leap in its own valuation. In its annual letter, the company disclosed a new tender offer pricing it at $159 billion — a 74% surge from the previous year. Investors participating in the share purchase include Andreessen Horowitz and Thrive Capital, with Stripe also planning to buy back some of its own stock. The valuation cements Stripe's position as one of the most valuable private companies in the world, dwarfing even the public market capitalization of PayPal, which trades at approximately $40 billion.\n\nThe size disparity between the two companies underscores how dramatically the payments industry has shifted. PayPal, once the undisputed leader in online payments and still the parent company of the popular Venmo platform, has seen its market value erode significantly from a peak of over $350 billion in 2021. Stripe, meanwhile, has grown aggressively by embedding its payment processing tools into the back end of millions of businesses, from startups to major enterprises. Co-founder and CEO Patrick Collison recently told CNBC that taking Stripe public is not among his current priorities — a stance that an acquisition of a publicly traded company like PayPal could complicate considerably.\n\nPayPal's stock edged higher following the report, reflecting investor optimism that a deal could unlock value for shareholders who have weathered years of declining share prices. Stripe declined to comment on the matter. The early nature of the discussions means significant hurdles remain, including regulatory scrutiny that would inevitably accompany a combination controlling such a vast share of global digital payment flows.\n\nShould a deal advance, it would unite Stripe's dominant developer-focused payment infrastructure with PayPal's massive consumer-facing brand and its roughly 400 million active accounts. The combined entity would hold extraordinary leverage across both sides of the payments ecosystem — the merchants processing transactions and the consumers making them — potentially prompting intense antitrust review on both sides of the Atlantic.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "mergers and acquisitions",
+        "fintech",
+        "payments"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T06:02:52.144Z"
+    },
+    {
+      "id": "ps-1771999387017-7fzs",
+      "slug": "oil-prices-climb-as-iran-nuclear-talk-uncertainty-grips-mark",
+      "headline": "Oil Prices Climb as Iran Nuclear Talk Uncertainty Grips Market",
+      "subheadline": "Traders assess prospects for a US-Iran deal amid heightened American military presence in the Middle East",
+      "body": "Crude oil prices edged higher on Tuesday as market participants grappled with uncertainty surrounding the outcome of upcoming US-Iran nuclear negotiations, while a significant buildup of American military assets in the region added a layer of geopolitical risk to the energy complex.\n\nThe gains came ahead of a fresh round of diplomatic talks scheduled for Thursday, with traders attempting to price in the probability of a renewed nuclear agreement that could eventually ease sanctions on Iranian crude exports. A successful deal would potentially unlock substantial volumes of Iranian oil onto global markets, exerting downward pressure on prices. However, skepticism about the likelihood of a breakthrough has kept bullish sentiment alive, with many analysts noting the wide gap between the two sides' negotiating positions.\n\nAdding to the market's unease is the large-scale deployment of US military forces across the Middle East, a factor that has injected a persistent risk premium into crude benchmarks in recent weeks. The military posture signals Washington's willingness to maintain pressure on Tehran even as diplomatic channels remain open, creating a complex backdrop for energy traders who must weigh the competing forces of potential supply additions against the threat of regional instability.\n\nThe oil market has been caught in a tug-of-war between bearish supply-side scenarios — in which sanctions relief floods the market with Iranian barrels — and bullish geopolitical risk factors that could disrupt flows from one of the world's most critical energy-producing regions. Analysts have noted that even partial sanctions relief could add several hundred thousand barrels per day to global supply, a meaningful shift at a time when OPEC+ is carefully managing its own production targets.\n\nFor now, traders appear to be adopting a cautious stance, positioning for volatility around Thursday's talks rather than making decisive directional bets. The outcome of the negotiations could set the tone for crude markets in the weeks ahead, with implications extending well beyond the Middle East to global inflation expectations and central bank policy calculus.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "oil",
+        "crude",
+        "Iran",
+        "nuclear talks",
+        "Middle East",
+        "geopolitics",
+        "energy markets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1687276763611-ad49058c0871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxvaWwlMjBjcnVkZXxlbnwwfDB8fHwxNzcxOTk5Mzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/latest-oil-market-news-and-analysis-for-feb-25",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T06:03:07.017Z"
+    },
+    {
+      "id": "ps-1771999403461-iarl",
+      "slug": "stripe-weighs-potential-paypal-acquisition-in-payments-mega-",
+      "headline": "Stripe Weighs Potential PayPal Acquisition in Payments Mega-Deal",
+      "subheadline": "A combination of the $159 billion payments processor and the embattled fintech could reshape the stablecoin landscape",
+      "body": "Stripe is exploring a possible acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, sending PayPal shares surging 7% in late trading and raising the prospect of a transformative consolidation in digital payments.\n\nThe discussions are in their early stages, and no deal is certain. But the potential combination would unite two of the world's most prominent payment processors — and, notably, two companies that have each made significant bets on stablecoins and blockchain-based financial infrastructure. Stripe, which handled $1.9 trillion in payment volume last year and carries a private valuation of roughly $159 billion, has been steadily expanding its crypto footprint. It acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm. PayPal, for its part, launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022; the token has since grown to approximately $4 billion in market capitalization.\n\nThe strategic logic extends beyond crypto. PayPal's stock has fallen roughly 80% from its 2021 record highs, making the once-dominant fintech a far more digestible acquisition target than it would have been at its peak. The company had already seen its shares climb earlier in the week on buyout speculation before the Bloomberg report added fresh momentum. For Stripe, absorbing PayPal's massive consumer and merchant network could accelerate its push from backend processing into broader consumer-facing payments.\n\nThe stablecoin implications of a deal would be particularly significant. A merged entity would control both PYUSD — one of the largest regulated stablecoins in circulation — and Bridge's toolkit for issuing custom dollar-backed tokens. That combination could position the combined company as a dominant force in the emerging stablecoin payments ecosystem, where low-cost, around-the-clock dollar transfers are increasingly competing with traditional bank wires and card networks.\n\nAny transaction of this magnitude would likely face intense regulatory scrutiny, given both companies' central roles in global commerce. Antitrust authorities in the United States and Europe would need to evaluate the competitive effects of merging two firms that collectively touch trillions of dollars in annual payment flows. For now, the market is pricing in possibility rather than certainty — but the signal is clear that consolidation in payments is accelerating, with stablecoin infrastructure increasingly at the center of the strategic calculus.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T06:03:23.461Z"
+    },
     {
       "id": "ps-1771998414801-m8le",
       "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
@@ -21,47 +148,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T05:46:54.801Z"
-    },
-    {
-      "id": "ps-1771998431150-g4yx",
-      "slug": "machine-learning-unlocks-inverse-design-of-exotic-thermal-me",
-      "headline": "Machine Learning Unlocks Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now specify the geometry and materials needed to achieve desired negative expansion and negative Poisson's ratio properties",
-      "body": "Researchers have developed a suite of machine learning models capable of working backward from desired material properties to specify the precise structural designs needed to build metamaterials that shrink when heated and expand when compressed — two counterintuitive behaviors with significant engineering potential.\n\nXiang-Long Peng and Bai-Xiang Xu, in a study posted to the arXiv preprint server on February 12, describe a framework for the inverse design of bimaterial thermoelastic lattice metamaterials based on hybrid-honeycomb structures. These engineered lattices can simultaneously exhibit negative coefficients of thermal expansion (meaning they contract as temperature rises) and negative Poisson's ratios (meaning they expand laterally when stretched, rather than narrowing). The combination makes them promising candidates for aerospace components, precision instruments, and other systems where thermal distortion must be tightly controlled.\n\nThe core challenge the work addresses is one that has long frustrated metamaterial engineers: given a set of target mechanical and thermal properties, how does one determine the underlying geometry and material composition? Brute-force simulation of every possible design is computationally prohibitive. Peng and Xu tackled this by first generating a large dataset through computational homogenization, systematically varying the geometrical features and base material properties of bimaterial honeycomb unit cells. They then trained a forward neural network model to predict effective thermoelastic properties from a given design — essentially digitizing the physics — before building six distinct inverse models that reverse the process, suggesting specific geometrical features and base material pairings for user-specified target properties.\n\nA notable technical innovation is the integration of the trained forward model directly into the loss functions of the inverse models, allowing the inverse networks to be guided by physically consistent predictions during training. The forward model was also used to generate supplemental training data for scenarios involving fixed base materials, expanding the practical scope of the framework without requiring additional finite-element simulations.\n\nThe authors report strong predictive performance across representative design examples, suggesting the approach could substantially accelerate the development cycle for thermoelastic metamaterials. Rather than iterating through trial-and-error simulations, engineers could query the inverse models to obtain candidate designs in seconds. While the study is limited to the specific hybrid-honeycomb topology, the methodology is generalizable and could, in principle, be extended to other metamaterial architectures. The work sits at the increasingly productive intersection of computational mechanics and data-driven design, a space where machine learning is rapidly transforming how exotic material properties are conceived, optimized, and realized.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "computational materials science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719569798620-16be67f45fd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T05:47:11.150Z"
-    },
-    {
-      "id": "ps-1771998447112-stxt",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
-      "body": "Chemists at Saarland University have synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms arranged in a five-membered ring — ending a nearly five-decade quest that saw research groups worldwide fail repeatedly at the task. The results, published in the journal Science on February 24, could open a new frontier in silicon-based chemistry with implications for catalysis and advanced materials.\n\nThe team of David Scheschkewitz, a professor of general and inorganic chemistry, his doctoral student Ankur, and Bernd Morgenstern of Saarland's X-Ray Diffraction Service Centre succeeded in replacing all five carbon atoms in cyclopentadienide — a famously stable aromatic hydrocarbon — with silicon. Aromatic molecules derive their exceptional stability from electrons that are evenly delocalized around a flat ring structure, a property governed by Hückel's rule. Achieving that same electronic arrangement with silicon, which is more metallic and holds its electrons less tightly than carbon, had long been considered a possibility bordering on impossibility.\n\nPrior to this breakthrough, only one silicon-based aromatic compound existed: a three-membered silicon ring analogous to cyclopropenium, first created in 1981. Every subsequent attempt to build larger aromatic silicon systems had failed, reinforcing skepticism that such molecules could be stabilized at all. The Saarland group's success in constructing a five-membered ring marks a significant leap, demonstrating that silicon can support the kind of delocalized bonding that defines aromaticity in larger ring systems.\n\nRemarkably, the achievement was not singular. A research group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science — a rare arrangement that underscores both the significance of the result and the convergent progress in the field.\n\nThe practical stakes are considerable. Aromatic compounds already play a critical role in industrial chemistry, particularly in manufacturing catalysts for polyethylene and polypropylene production. Because silicon's electronic properties differ fundamentally from carbon's, silicon-based aromatics could yield entirely new classes of catalysts and functional materials with distinct reactivity profiles. Scheschkewitz noted that the looser grip silicon has on its electrons may translate into compounds with novel and tunable chemical behavior. While industrial applications remain in the future, the synthesis itself represents the essential first step — proof that the molecular architecture is achievable and stable enough to study and build upon.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon chemistry",
-        "aromatic molecules",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "materials science",
-        "catalysis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T05:47:27.112Z"
     },
     {
       "id": "ps-1771998461674-l4ea",
@@ -107,28 +193,6 @@
       "publishedAt": "2026-02-25T05:47:58.648Z"
     },
     {
-      "id": "ps-1771998494515-hlw8",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-mega-",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Mega-Deal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, sending PYPL shares up 7%",
-      "body": "Stripe, the privately held payments processor valued at $159 billion, is exploring an acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday — a potential mega-deal that would reshape the global payments landscape and consolidate two of the industry's most aggressive stablecoin strategies under one roof.\n\nPayPal shares surged 7% in late trading on the news, building on gains earlier in the week driven by buyout speculation. The stock remains deeply depressed from its 2021 peak, having shed roughly 80% of its value over the past several years as the fintech pioneer struggled to maintain growth amid intensifying competition. That steep decline may be precisely what makes PayPal an attractive target for Stripe, which processed $1.9 trillion in transactions last year and has been rapidly expanding its ambitions in digital payments infrastructure.\n\nThe crypto and stablecoin implications of a potential combination are significant. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos. The token has since grown to approximately $4 billion in market capitalization, enabling users to transfer dollars across blockchain networks around the clock at costs often below those of traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain, in partnership with venture firm Paradigm. A merger would bring PYUSD's consumer-facing distribution together with Bridge's enterprise tooling for issuing dollar-backed tokens — potentially creating the most vertically integrated stablecoin payments stack in the industry.\n\nDeliberations remain in early stages, Bloomberg reported, and there is no certainty a deal will materialize. The transaction would face intense regulatory scrutiny given the combined entity's dominance in online payment processing. Still, the strategic logic is clear: as stablecoins increasingly compete with legacy payment rails for everyday commerce, consolidating crypto-native infrastructure with massive merchant networks could give the combined company a formidable edge in the next generation of digital payments.\n\nFor the broader stablecoin market — which has become a focal point for both fintech incumbents and traditional financial institutions — even the prospect of a Stripe-PayPal combination signals that major payments players view blockchain-based dollar tokens not as a niche crypto experiment but as core infrastructure worth betting billions on.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "PYUSD",
-        "fintech",
-        "M&A",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T05:48:14.515Z"
-    },
-    {
       "id": "ps-1771996641374-634i",
       "slug": "physicists-uncover-hidden-flaw-in-wave-superposition-for-lay",
       "headline": "Physicists Uncover Hidden Flaw in Wave Superposition for Layered Media",
@@ -169,27 +233,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2d7x6zrwro?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T05:02:05.863Z"
-    },
-    {
-      "id": "ps-1771995772951-2rxj",
-      "slug": "stripe-explores-potential-acquisition-of-paypal-in-payments-",
-      "headline": "Stripe Explores Potential Acquisition of PayPal in Payments Megadeal",
-      "subheadline": "The $159 billion private fintech giant is in early-stage talks to acquire some or all of the $40 billion payments company",
-      "body": "Stripe, the Dublin-headquartered payments infrastructure company, is exploring a deal to acquire some or all of PayPal Holdings, according to a Bloomberg report citing people familiar with the matter. If completed, the transaction would represent one of the largest fintech acquisitions in history and fundamentally reshape the digital payments landscape.\n\nThe discussions are described as being in their very early stages, and there is no guarantee a deal will materialize. Stripe declined to comment on the report. PayPal, which is publicly traded with a market capitalization of approximately $40 billion, saw its stock edge higher following the news. PayPal's portfolio includes its namesake payment platform as well as the popular peer-to-peer service Venmo.\n\nThe reported acquisition interest comes on the same day Stripe announced a tender offer valuing the company at $159 billion — a 74% jump from its previous valuation. The share sale, which allows employees to liquidate some of their equity, attracted participation from prominent venture firms Andreessen Horowitz and Thrive Capital, with Stripe also repurchasing some of its own stock. The new valuation cements Stripe's position as one of the most valuable private companies in the world, dwarfing even the public market capitalization of the company it may be seeking to buy.\n\nA Stripe-PayPal combination would unite two of the most influential players in digital payments, though they occupy different niches. Stripe has built its reputation as a developer-first infrastructure provider, powering online commerce for millions of businesses through its APIs and backend systems. PayPal, by contrast, is a consumer-facing brand with hundreds of millions of active accounts and a strong presence in peer-to-peer transfers through Venmo. Together, the companies would command an enormous share of global online transaction volume.\n\nStripe co-founder and CEO Patrick Collison recently told CNBC that taking the company public is not among his current priorities, raising questions about how such a massive acquisition might be structured and financed. Whether Stripe would pursue the entirety of PayPal Holdings or carve out specific business units remains unclear. The sheer scale of the potential deal — and the regulatory scrutiny it would likely invite — means any path to completion would be long and complex.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "mergers and acquisitions",
-        "fintech",
-        "payments",
-        "Venmo"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T05:02:52.951Z"
     },
     {
       "id": "ps-1771994839195-jxau",
@@ -421,48 +464,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/memory-boom-drives-korean-stocks-breakthrough-past-6-000-level",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T02:03:13.897Z"
-    },
-    {
-      "id": "ps-1771984086503-36be",
-      "slug": "oil-prices-rise-as-iran-nuclear-talks-and-u-s-military-build",
-      "headline": "Oil Prices Rise as Iran Nuclear Talks and U.S. Military Buildup Stoke Uncertainty",
-      "subheadline": "Traders weigh competing signals ahead of Thursday negotiations, with Middle East force deployment adding tension",
-      "body": "Oil prices advanced on Tuesday as markets grappled with the uncertain trajectory of U.S.-Iran nuclear negotiations set to resume Thursday, while a significant American military presence in the Middle East added a layer of geopolitical risk to crude benchmarks.\n\nThe gains reflect a market caught between two countervailing forces. A successful nuclear deal with Tehran could eventually lift sanctions on Iranian crude exports, adding supply to global markets and putting downward pressure on prices. But the substantial deployment of U.S. forces in the region signals that Washington is keeping all options on the table, a posture that traders interpret as bullish for crude given the potential for escalation.\n\nThe upcoming talks represent a critical juncture for global energy markets. Iran holds some of the world's largest proven oil reserves, and any agreement that eases export restrictions could release significant volumes of crude onto a market already navigating questions about demand growth and OPEC+ production policy. Conversely, a breakdown in negotiations — or any military confrontation — could threaten supply routes through the strategically vital Strait of Hormuz, through which roughly one-fifth of the world's oil passes daily.\n\nMarket participants have been closely monitoring diplomatic signals from both Washington and Tehran in recent weeks, attempting to gauge whether the two sides can bridge longstanding differences over the scope of Iran's nuclear program and the timeline for sanctions relief. The large-scale U.S. military deployment, which has drawn attention from defense analysts and energy traders alike, suggests that American policymakers view the diplomatic window as narrow and are preparing for multiple outcomes.\n\nFor now, the oil market appears to be pricing in a premium for uncertainty rather than making a decisive bet on either diplomacy or conflict. With Thursday's talks approaching, volatility in crude markets is likely to remain elevated as fresh headlines from negotiators could shift sentiment rapidly in either direction.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "oil prices",
-        "Iran nuclear deal",
-        "Middle East",
-        "crude oil",
-        "geopolitics",
-        "energy markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1665292275574-a9782ee1da0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwbnVjbGVhciUyMGRlYWx8ZW58MHwwfHx8MTc3MTk4NDA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/latest-oil-market-news-and-analysis-for-feb-25",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T01:48:06.503Z"
-    },
-    {
-      "id": "ps-1771981327076-tfba",
-      "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
-      "headline": "Disabled Woman Moved to Nursing Home Against Her Will Sparks UK Care Rights Debate",
-      "subheadline": "Barrister calls transfer of 33-year-old with full mental capacity 'totally unlawful' as NHS denies funding motivated the decision",
-      "body": "A 33-year-old disabled woman in England who was transferred to a nursing home against her explicit wishes — despite having full mental capacity — has ignited a national debate over the rights of people receiving NHS-funded continuing healthcare.\n\nLucinda Ritchie, who lived independently in an adapted bungalow in Billingshurst, West Sussex, with round-the-clock nursing care, was admitted to East Surrey Hospital last April with pneumonia. After ten months of treatment and complications, NHS Sussex's All Age Continuing Care commissioners informed her family she would not be returning home but would instead be placed in a nursing home in Uckfield — roughly an hour from her family. Ritchie, who communicates primarily through eye-gaze technology due to a constellation of conditions including Ehlers-Danlos syndrome, functional neurological disorder, Addison's disease, and epilepsy, refused consent. She was transferred in February regardless. Within two days, her condition deteriorated and she was rushed back to hospital by ambulance.\n\nNeil Allen, an independent barrister specializing in health law, told the BBC it was \"totally unlawful\" to move an adult with full mental capacity to a residential setting against their will — a characterization that cuts to the heart of a growing national crisis. Under NHS Continuing Healthcare rules, care decisions must be \"person-centred,\" and cost may only factor in when a patient's needs can be equally met through different arrangements. Ritchie's established nursing provider confirmed it could safely continue managing her complex needs — including tracheostomy and ventilation care — at home, where she had received 24-hour support for eight years. Her former solicitor, Andy McKay of Martin Searle Solicitors, said the care board never contacted the agency to verify this, and provided no substantive response to repeated legal inquiries.\n\nThe financial dimensions are stark. A nurse-led home package for someone with Ritchie's needs typically costs between £8,000 and £16,000 per week in the UK, while nursing home fees in southeast England run approximately £1,500 to £1,800 weekly. Ritchie's family believes her prolonged hospitalization gave commissioners an opening to switch to a cheaper care model. NHS Sussex has denied that funding considerations played any role, attributing the decision to clinical safety concerns following her extended intensive care stay. The organization confirmed it recognizes Ritchie has capacity but has not publicly explained its legal basis for overriding her refusal.\n\nBefore her hospitalization, Ritchie was pursuing a master's degree in sustainability at Southampton University, serving as a charity ambassador, and had been recognized as one of the UK's most influential disabled people in both 2023 and 2024 for her pioneering work on eye-gaze communication technology. \"Life will not be worth living if I cannot go home,\" she told the BBC. Allen warned that disputes between families and local NHS care boards over healthcare funding packages are occurring \"up and down the country all the time,\" with roughly 50,000 people in England eligible for fully NHS-funded continuing healthcare facing a system under severe financial strain.\n\nAllison Cannon, chief nursing officer at NHS Sussex, said the organization was \"committed to working with Lucinda and her family\" to ensure high-quality care, adding that plans had been in place for her transition from hospital. The case is likely to intensify scrutiny of how local NHS boards balance budgetary pressures against the legal rights and preferences of vulnerable patients.",
-      "category": "breaking",
-      "importance": 6,
-      "tags": [
-        "NHS",
-        "disability rights",
-        "continuing healthcare",
-        "UK healthcare funding",
-        "Lucinda Ritchie",
-        "nursing home"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2be8/live/880394b0-11a8-11f1-8efc-bb8df6087c73.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/czj1ndzz9xyo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T01:02:07.076Z"
     },
     {
       "id": "ps-1771980467941-4gc6",
