@@ -1,7 +1,93 @@
 {
-  "lastUpdated": "2026-02-25T17:03:44.419Z",
+  "lastUpdated": "2026-02-25T17:18:03.867Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772039839328-8poh",
+      "slug": "machine-learning-framework-tackles-inverse-design-of-metamat",
+      "headline": "Machine Learning Framework Tackles Inverse Design of Metamaterials",
+      "subheadline": "Neural network models can rapidly identify geometries and materials for structures with exotic thermal and mechanical properties",
+      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of metamaterials that exhibit two unusual properties simultaneously: negative Poisson's ratios and negative thermal expansion coefficients. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering — the challenge of working backward from desired properties to the structural parameters that produce them.\n\nThe study focuses on bimaterial hybrid-honeycomb lattice structures, a class of thermoelastic metamaterials with significant potential in aerospace, precision instruments, and other engineering systems where materials must maintain dimensional stability under temperature fluctuations. Materials with negative thermal expansion shrink when heated rather than expanding, while those with negative Poisson's ratios grow wider when stretched — counterintuitive behaviors that emerge not from the base materials themselves but from carefully engineered internal geometries.\n\nTo train their models, the researchers generated a large dataset through computational homogenization, systematically varying geometrical features and base material properties across thousands of simulated structures. They first built a forward model that predicts effective thermoelastic properties from a given design, then developed six distinct inverse models tailored to different design scenarios. Each inverse model handles a different combination of target properties and structural variables, reflecting the range of constraints engineers face in real applications. A key innovation is the integration of the trained forward model directly into the loss functions of the inverse models, effectively using the forward predictor as a physics-informed check during inverse training.\n\nThe approach sidesteps the computational expense of traditional optimization methods, which typically require repeated finite element simulations to evaluate candidate designs. Once trained, the neural networks can suggest suitable geometries and material combinations in a fraction of the time. The authors demonstrated the framework's accuracy through representative design examples, showing strong agreement between predicted and target properties across multiple test cases.\n\nThe work reflects a broader trend in materials science toward ML-accelerated design pipelines, where high-throughput simulation data and neural networks replace iterative trial-and-error approaches. As metamaterials move closer to practical deployment in thermal management systems, adaptive structures, and precision engineering, frameworks like this could substantially reduce the time from concept to functional design.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1682341891731-841dc120e398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T17:17:19.328Z"
+    },
+    {
+      "id": "ps-1772039854316-sde8",
+      "slug": "ancient-microbial-life-could-survive-50-million-years-in-mar",
+      "headline": "Ancient Microbial Life Could Survive 50 Million Years in Martian Ice",
+      "subheadline": "NASA-funded lab experiments show pure water ice shields amino acids from cosmic radiation, redirecting the search for life on Mars",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years when locked inside pure water ice, even under relentless bombardment from cosmic radiation. The findings, published in the journal Astrobiology, could fundamentally reshape how future Mars missions search for signs of ancient life.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation dose simulated 20 million years of cosmic ray exposure on the Martian surface, with mathematical modeling extending the results to 50 million years. More than 10 percent of the amino acids in pure ice samples survived the full duration — a result that far exceeds the estimated age of some surface ice deposits on Mars, which are often less than two million years old.\n\nPerhaps more surprising was the stark contrast with mixed samples. When ice was combined with silicate-based rocks and clay typical of Martian sediment, organic material broke down roughly 10 times faster. A 2022 study by the same team had previously suggested that water ice would accelerate destruction of organic molecules compared to soil mixtures. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the faster degradation in mixed samples to a thin film that forms where ice meets mineral surfaces, potentially allowing radiation-generated reactive particles to move more freely and attack organic compounds. In solid ice, by contrast, those harmful particles appear to become frozen in place.\n\nThe implications extend beyond Mars. The team also tested organic preservation at temperatures matching those on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and found that deterioration slowed even further in those colder environments. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030, where it will perform 49 close flybys to investigate whether conditions beneath Europa's ice shell could support life.\n\nFor Mars exploration, the study delivers a clear directive: future missions should prioritize drilling into clean, buried ice rather than analyzing rocks or soil. Christopher House, a Penn State geosciences professor and co-author, noted that while Mars harbors vast quantities of ice, most lies just beneath the surface. Accessing it will require missions equipped with robust drilling or scooping capabilities, similar to NASA's 2008 Phoenix lander — the first spacecraft to excavate and photograph subsurface Martian ice. \"If there are bacteria near the surface of Mars, future missions can find it,\" House said. The research was funded by NASA's Planetary Science Division.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "extraterrestrial life",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T17:17:34.316Z"
+    },
+    {
+      "id": "ps-1772039869856-v105",
+      "slug": "ubs-wealth-cio-investors-should-pivot-from-coders-to-builder",
+      "headline": "UBS Wealth CIO: Investors Should Pivot From Coders to Builders",
+      "subheadline": "AI disruption threatens software stocks; miners, power producers, and industrials stand to benefit, top strategist says",
+      "body": "Investors should rotate out of software-heavy technology stocks and into companies that operate in the physical world — miners, power producers, and industrial firms — as artificial intelligence increasingly threatens to disrupt digital business models, according to a top UBS Wealth Management strategist.\n\nUlrike Hoffmann-Burchardi, global head of equities and chief investment officer for the Americas at UBS Wealth Management, argued that AI's rapid advance poses a material risk to software-backed businesses, many of which have commanded premium valuations for years on the assumption of durable competitive moats. As AI tools grow more capable of writing code, automating workflows, and replicating software functionality, those moats may prove far shallower than investors have priced in.\n\nThe recommendation marks a notable shift in tone from one of the world's largest wealth managers. For much of the past decade, the prevailing institutional view favored asset-light technology companies over capital-intensive industries. Hoffmann-Burchardi's thesis flips that calculus: the very physicality of mining, energy generation, and industrial manufacturing — the difficulty of replicating a copper mine or a power plant with a large language model — becomes a source of durable value rather than a drag on returns.\n\nThe argument also dovetails with broader market trends. Surging demand for data centers and AI infrastructure has already driven a re-rating of power utilities and energy companies, while industrial firms supplying the physical backbone of the AI buildout have seen renewed investor interest. At the same time, several high-flying software names have faced valuation compression as the market reassesses which businesses AI will augment and which it will commoditize.\n\nFor allocators, the message from UBS is straightforward: in an era where code can be generated at near-zero marginal cost, scarcity resides in atoms, not bits. Whether the market fully embraces that rotation remains to be seen, but the strategic case for real-world builders over digital incumbents is gaining influential advocates.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "UBS",
+        "artificial intelligence",
+        "investment strategy",
+        "software stocks",
+        "industrials",
+        "equities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1653378972336-103e1ea62721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxXZWFsdGglMjBJbnZlc3RvcnMlMjBTaG91bGQlMjBQaXZvdCUyMEZyb20lMjBDb2RlcnN8ZW58MHwwfHx8MTc3MjAzOTg2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/ubs-global-wealth-cio-says-ditch-coders-for-builders-as-ai-booms",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T17:17:49.856Z"
+    },
+    {
+      "id": "ps-1772039883771-o4wa",
+      "slug": "crypto-super-pac-that-pledged-100m-for-2026-midterms-has-zer",
+      "headline": "Crypto Super PAC That Pledged $100M for 2026 Midterms Has Zero Funds",
+      "subheadline": "Fellowship PAC announced with fanfare last September, but FEC filings show no money raised as primaries approach",
+      "body": "A crypto-focused political action committee that drew widespread attention last September with a splashy promise of $100 million in campaign spending for the 2026 U.S. midterm elections has yet to raise a single dollar, according to Federal Election Commission filings.\n\nThe Fellowship PAC launched with a press release praising President Donald Trump's regulatory approach to digital assets and pledging to back \"pro-innovation, pro-crypto candidates.\" Early reports linked stablecoin giant Tether as a potential backer, but the company this week distanced itself from the effort. \"Tether International has no affiliation or oversight of Fellowship,\" spokesperson Alex Welch told CoinDesk, though she did not address whether Tether's newer U.S. operations had any connection. The PAC's original announcement identified no officers, donors, or key employees, and repeated attempts to contact the organization have gone unanswered.\n\nThe only visible thread connecting Fellowship to the broader crypto ecosystem is its FEC registration, which lists Mitchell Nobel as treasurer. Nobel serves as director of digital-assets strategy at Cantor Fitzgerald, the financial firm formerly led by Howard Lutnick — now Trump's Secretary of Commerce — and which has managed Tether's assets in recent years. Fellowship maintains a website and an account on X, where its most recent activity was reposting a comment from Tether CEO Paolo Ardoino earlier this month.\n\nThe PAC's dormancy raises questions about whether foreign-money restrictions may have complicated its plans. Under U.S. election law, political action committees cannot accept funding from non-U.S. entities. Any involvement from Tether — headquartered outside the United States — would have required that funds originate domestically and that political decisions not be guided by foreign nationals, a standard that has drawn heightened scrutiny during the Trump administration.\n\nMeanwhile, the crypto industry's dominant political player, Fairshake, is already deploying resources. The super PAC — primarily funded by Coinbase, Andreessen Horowitz, and Ripple — has reported $193 million on hand and has begun targeting early 2026 races. In the 2024 election cycle, Fairshake and its affiliates backed more than 50 successful congressional candidates from both parties, demonstrating that nine-figure political spending can meaningfully shape crypto policy outcomes. With some of the earliest 2026 primaries fast approaching, any new entrant to the political spending arena risks arriving too late to matter.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "crypto PAC",
+        "Fellowship PAC",
+        "Tether",
+        "2026 midterms",
+        "Fairshake",
+        "political spending",
+        "FEC"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/75acdec4583d7a683f47cf6e7315f860f94d82ea-3953x2224.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/news-analysis/2026/02/24/a-usd100-million-crypto-campaign-fund-with-a-pro-trump-vibe-has-so-far-failed-to-show-up",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T17:18:03.771Z"
+    },
     {
       "id": "ps-1772038947771-3z76",
       "slug": "trump-s-record-length-state-of-the-union-draws-sweeping-fact",
@@ -23,49 +109,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T17:02:27.771Z"
-    },
-    {
-      "id": "ps-1772038962911-coz5",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now suggest material structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion",
-      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of bimaterial lattice metamaterials — structures that exhibit the counterintuitive properties of contracting when heated and expanding laterally when compressed. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering: efficiently determining what geometry and material combination will produce a desired set of physical properties.\n\nThe metamaterials in question are based on hybrid-honeycomb structures composed of two different base materials. These bimaterial lattices can be tuned to display simultaneously negative Poisson's ratios — meaning they get thinner in one direction when compressed in another, rather than bulging outward — and negative coefficients of thermal expansion, causing them to shrink as temperature rises. Both properties are exceedingly rare in natural materials and hold significant promise for aerospace, precision instruments, and other applications where thermal distortion must be tightly controlled.\n\nTraditionally, designing such structures requires painstaking trial and error through expensive computational simulations. Peng and Xu instead generated a large dataset through high-throughput computational homogenization, varying both the geometric features and base material properties of the honeycomb structures. They then trained a forward neural network model to predict the effective thermoelastic properties of any given design rapidly and accurately, bypassing the need for full-scale simulation.\n\nThe more consequential advance lies in the inverse models. The team developed six distinct neural network architectures, each tailored to different design scenarios — for instance, specifying target mechanical and thermal properties while allowing the algorithm to suggest optimal geometries and material pairings. The trained forward model was embedded directly into the loss functions of these inverse models, creating a self-consistent feedback loop that improved prediction accuracy. For cases involving fixed base materials, additional synthetic datasets were generated using the forward model itself.\n\nThe approach represents a growing trend in computational materials science where machine learning is not merely accelerating simulation but fundamentally changing the design paradigm from forward prediction to goal-directed inverse engineering. If validated experimentally, such frameworks could dramatically compress the development timeline for metamaterials tailored to specific thermal and mechanical environments, potentially opening new avenues in satellite structures, microelectronics packaging, and precision manufacturing where simultaneous control of thermal expansion and mechanical response is critical.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T17:02:42.911Z"
-    },
-    {
-      "id": "ps-1772038978681-mrzi",
-      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
-      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
-      "subheadline": "Lab experiments simulating Martian conditions suggest future missions should drill into pure ice, not rock or soil",
-      "body": "Amino acids from bacteria sealed in pure water ice can withstand at least 50 million years of cosmic radiation under Mars-like conditions, according to a new study by researchers at NASA's Goddard Space Flight Center and Penn State — a finding that could fundamentally redirect the strategy for hunting signs of life on the Red Planet.\n\nPublished in the journal Astrobiology, the study led by space scientist Alexander Pavlov subjected E. coli bacteria frozen in test tubes to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation dose simulated 20 million years of cosmic ray bombardment, with modeling extending the estimate to 50 million years. In pure water ice, more than 10 percent of the amino acids — the molecular building blocks of proteins — remained intact after the full simulated duration. But samples mixed with silicate rocks and clay typical of Martian sediment degraded roughly ten times faster, failing to survive.\n\nThe result upended the team's own expectations. A 2022 study by the same group had found that amino acids in a mixture of 10 percent water ice and 90 percent Martian soil broke down faster than those in sediment alone, leading researchers to assume that pure ice would offer even less protection. Instead, solid ice appears to lock radiation byproducts in place, preventing them from reaching and destroying organic molecules. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said. Co-author Christopher House, a Penn State geosciences professor, noted that many surface ice deposits on Mars are less than two million years old — well within the 50-million-year preservation window.\n\nThe implications extend beyond Mars. The team also tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, observing even slower deterioration. That bodes well for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030 to conduct 49 close flybys of Europa's ice shell. On Mars, accessing buried ice will require robust drilling or scooping technology similar to what NASA's 2008 Phoenix lander employed when it became the first mission to excavate and photograph subsurface ice in the planet's arctic region.\n\nThe study amounts to a clear operational recommendation for planetary scientists: stop focusing primarily on rocks and dirt. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House said. \"Future missions need a large enough drill or a powerful scoop to access it.\" If microbial life ever took hold on Mars, its molecular fingerprints may be waiting — locked in ice, shielded from the radiation that scours the surface above.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T17:02:58.681Z"
     },
     {
       "id": "ps-1772038992011-u7fh",
@@ -109,28 +152,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T17:03:28.379Z"
-    },
-    {
-      "id": "ps-1772039024313-vuam",
-      "slug": "pro-trump-crypto-pac-s-100m-war-chest-remains-empty-months-a",
-      "headline": "Pro-Trump Crypto PAC's $100M War Chest Remains Empty Months After Launch",
-      "subheadline": "Fellowship PAC has reported zero funds to the FEC despite splashy September debut, while rival Fairshake holds $193 million",
-      "body": "A cryptocurrency-focused political action committee that announced a $100 million campaign war chest last September has yet to raise a single dollar, according to Federal Election Commission filings, raising questions about the group's legitimacy and its opaque ties to stablecoin giant Tether.\n\nThe Fellowship PAC launched with considerable fanfare in September 2025, positioning itself as a major force in the 2026 midterm elections and crediting President Donald Trump with setting the United States on a path to become \"the global crypto capital.\" The group pledged to back pro-crypto congressional candidates and described its mission as one defined by \"transparency and trust\" — yet it disclosed no officers, donors, or key employees. Its sole identifiable figure is listed treasurer Mitchell Nobel, who serves as director of digital-assets strategy at Cantor Fitzgerald, the firm formerly led by Trump's Secretary of Commerce Howard Lutnick and which manages Tether's assets.\n\nEarly reporting linked Tether, the world's dominant stablecoin issuer, as a potential backer of Fellowship. When pressed this week, Tether spokesperson Alex Welch stated that \"Tether International has no affiliation or oversight of Fellowship\" but notably declined to address whether the company's recently established U.S. operations might be involved. The distinction matters: under U.S. election law, foreign entities are prohibited from funding PACs, and any domestic subsidiary would need to demonstrate that its contributions were generated from American revenue and that its political decisions were free from foreign influence. Repeated attempts to reach Fellowship directly have gone unanswered, though its account on X was active as recently as this month, reposting a comment from Tether CEO Paolo Ardoino.\n\nThe Fellowship's absence is all the more conspicuous against the backdrop of the crypto industry's proven political spending power. Fairshake, the sector's dominant super PAC funded primarily by Coinbase, Andreessen Horowitz, and Ripple, currently holds $193 million and has already begun targeting early 2026 races. In the 2024 cycle, Fairshake and its affiliates supported more than 50 winning congressional candidates from both parties, demonstrating that well-funded crypto PACs can meaningfully shape legislative outcomes on digital-asset regulation.\n\nWith some of the earliest 2026 primaries approaching, the window for Fellowship to materialize as a credible political force is narrowing. The combination of an empty treasury, anonymous backers, murky ties to a foreign-headquartered stablecoin company, and connections to figures in Trump's orbit presents a case study in the tensions between the crypto industry's growing political ambitions and the legal guardrails designed to keep foreign money out of American elections.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "crypto PAC",
-        "Fellowship PAC",
-        "Tether",
-        "midterm elections",
-        "Fairshake",
-        "political spending",
-        "campaign finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/75acdec4583d7a683f47cf6e7315f860f94d82ea-3953x2224.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/news-analysis/2026/02/24/a-usd100-million-crypto-campaign-fund-with-a-pro-trump-vibe-has-so-far-failed-to-show-up",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T17:03:44.313Z"
     },
     {
       "id": "ps-1772038030794-1jnk",
@@ -1033,27 +1054,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.18441",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-25T04:47:34.986Z"
-    },
-    {
-      "id": "ps-1771992192121-jwgs",
-      "slug": "foreign-investors-pour-into-taiwan-stocks-at-fastest-pace-in",
-      "headline": "Foreign Investors Pour Into Taiwan Stocks at Fastest Pace in Two Decades",
-      "subheadline": "Global funds bet heavily on Taiwanese chipmakers as AI demand continues to outweigh broader market disruption fears",
-      "body": "International investors staged their largest single-day buying spree in Taiwanese equities in roughly 20 years, underscoring a deepening conviction that the island's semiconductor giants will continue to capture outsize gains from the global artificial intelligence buildout.\n\nThe surge in foreign capital, reported on February 25, came even as broader global markets grapple with mounting concerns over economic disruption and shifting trade dynamics. The scale of the inflows suggests that institutional money managers view Taiwan's chipmaking ecosystem — anchored by firms like Taiwan Semiconductor Manufacturing Co. — as a durable beneficiary of AI-driven demand rather than a speculative bet vulnerable to the sector's recent volatility.\n\nTaiwan's stock market has long served as a bellwether for global technology sentiment, given the island's dominant position in advanced semiconductor fabrication. TSMC alone manufactures the vast majority of the world's most cutting-edge chips, supplying AI leaders including Nvidia and Apple. As capital expenditure plans from hyperscale cloud providers and AI startups continue to expand, the supply chain feeding those ambitions has become an increasingly attractive destination for global portfolio flows.\n\nThe record buying day is notable for its timing. Markets worldwide have been contending with uncertainty around interest rate trajectories, geopolitical tensions, and questions about whether AI-related valuations have stretched too far. That foreign funds chose this moment to make their heaviest allocation to Taiwanese equities in two decades signals a differentiation in investor thinking — a willingness to separate structural AI growth stories from cyclical market noise.\n\nFor Taiwan's broader economy, the capital influx reinforces the island's centrality to the most consequential technology trend of the decade. It also highlights the degree to which global investment flows have become tethered to a small number of AI-adjacent supply chain nodes. Whether that concentration represents a sound allocation of capital or an emerging risk will likely depend on how long the current wave of AI infrastructure spending sustains its momentum.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Taiwan",
-        "semiconductors",
-        "AI",
-        "foreign investment",
-        "TSMC",
-        "equities"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1681908113034-453772e1f5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxUYWl3YW4lMjBzZW1pY29uZHVjdG9yc3xlbnwwfDB8fHwxNzcxOTkyMTkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T04:03:12.121Z"
     }
   ]
 }
