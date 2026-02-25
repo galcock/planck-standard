@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T12:18:28.475Z",
+  "lastUpdated": "2026-02-25T12:33:27.045Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772022729120-a8zw",
+      "slug": "uk-commons-speaker-told-police-mandelson-was-a-flight-risk-b",
+      "headline": "UK Commons Speaker Told Police Mandelson Was a Flight Risk Before Arrest",
+      "subheadline": "Sir Lindsay Hoyle says he acted in 'good faith' after receiving tip during British Virgin Islands visit last week",
+      "body": "Commons Speaker Sir Lindsay Hoyle disclosed to lawmakers on Tuesday that he personally relayed information to the Metropolitan Police suggesting Lord Peter Mandelson might flee the country — a tip that appears to have precipitated the peer's dramatic arrest at his London home on Monday.\n\nSpeaking in the House of Commons, Sir Lindsay said he felt it was his \"duty and responsibility\" to share what he described as \"relevant\" information received \"in good faith,\" though he expressed regret that details had leaked to the media. According to the BBC, the Speaker received the intelligence during a trip to the British Virgin Islands last week indicating that Lord Mandelson was planning to travel there. The revelation adds a remarkable political dimension to an already extraordinary case involving one of the most prominent figures in modern British politics.\n\nLord Mandelson, a former cabinet minister and close ally of Tony Blair, was taken into custody Monday afternoon at his London residence and transported to Wandsworth police station, where he spent approximately nine hours before being released on bail in the early hours of Tuesday. Among his bail conditions was the surrender of his passport. The arrest stems from a Metropolitan Police investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, passed market-sensitive information to the late financier and convicted sex offender Jeffrey Epstein.\n\nLawyers for the 71-year-old peer have sharply contested the circumstances of his arrest, calling the flight-risk characterization \"baseless\" and noting that Mandelson had already agreed to a voluntary police interview scheduled for next month. His legal team emphasized that he has not acted criminally in any way, was not motivated by financial gain, and intends to cooperate fully with investigators to \"clear his name.\"\n\nThe case has sent shockwaves through Westminster, raising questions about the Speaker's unusual role in a criminal investigation and the propriety of relaying unverified intelligence to police. Sir Lindsay's admission that he effectively triggered the arrest of a sitting member of the House of Lords — bypassing the peer's own voluntary cooperation arrangements with detectives — is likely to fuel debate about the boundaries of parliamentary authority and due process in the weeks ahead.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mandelson",
+        "UK politics",
+        "Metropolitan Police",
+        "Lindsay Hoyle",
+        "Jeffrey Epstein",
+        "House of Commons"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T12:32:09.120Z"
+    },
+    {
+      "id": "ps-1772022745373-kkx2",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now reverse-engineer lattice structures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a suite of machine learning models capable of designing bimaterial metamaterials with exotic thermoelastic properties — structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion coefficients — potentially accelerating their deployment in precision engineering applications.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe a framework that inverts the traditional materials design process. Rather than proposing a structure and then calculating its properties through expensive simulations, their neural network models take a set of desired mechanical and thermal behaviors as input and output the geometric features and base material combinations needed to achieve them. The approach centers on bimaterial hybrid-honeycomb lattice structures — periodic architectures built from two different materials whose mismatch in thermal expansion drives unusual collective behavior at the macroscopic scale.\n\nThe team first generated a large dataset using computational homogenization, systematically varying the lattice geometry and constituent material properties to map the full design space. A forward model was trained to predict effective thermoelastic properties from a given structural configuration, achieving high accuracy while running orders of magnitude faster than direct simulation. Six distinct inverse models were then developed, each targeting different combinations of desired effective properties and design variables, allowing engineers to specify constraints relevant to their particular application — for instance, fixing the base materials while searching for optimal geometry, or leaving both open.\n\nA key technical innovation lies in embedding the trained forward model directly into the loss functions of the inverse models, ensuring that proposed designs are physically consistent. The forward model was also used to augment training data for scenarios involving fixed base materials, expanding the effective dataset without additional finite-element simulations. Representative design examples presented in the paper demonstrate that the inverse models reliably suggest structures whose computationally verified properties match the specified targets.\n\nMaterials that contract when heated or thicken laterally when stretched are of considerable interest for aerospace structures, precision instruments, and thermal management systems, where dimensional stability under temperature fluctuations is critical. Traditional trial-and-error or parametric sweep approaches to designing such metamaterials are computationally prohibitive given the high-dimensional design space. The machine learning framework developed by Peng and Xu offers a practical path to on-demand metamaterial design, potentially enabling engineers to rapidly tailor lattice architectures for specific thermal and mechanical loading environments encountered in next-generation engineering systems.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1633101136135-cbfa5415061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T12:32:25.373Z"
+    },
+    {
+      "id": "ps-1772022759175-qxp8",
+      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
+      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Pentasilacyclopentadienide replaces carbon with silicon in a stable aromatic ring, potentially unlocking new catalysts and materials",
+      "body": "A team at Saarland University in Germany has created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly five-decade quest that many in the chemistry community had dismissed as impossible. The results, published in Science on February 24, represent a fundamental expansion of aromatic chemistry beyond its traditional carbon foundations.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded where research groups worldwide had repeatedly failed. The team replaced all five carbon atoms in cyclopentadienide — a classic aromatic hydrocarbon — with silicon atoms, producing a flat, ring-shaped molecule that satisfies the strict criteria for aromaticity laid out by Hückel's rule. In a striking coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound. The two teams agreed to publish their findings side by side in the same issue of the journal.\n\nAromatic molecules are among the most stable and industrially important compounds in chemistry. Their distinctive property — electrons shared evenly around a planar ring structure — gives them an exceptional resilience that makes them indispensable in catalysts for producing polyethylene, polypropylene, and other plastics. Before this breakthrough, only one silicon-based aromatic compound was known: a three-membered silicon ring analogue of cyclopropenium, first created in 1981. Every subsequent attempt to build a larger silicon aromatic system had failed.\n\nThe significance of the achievement lies in silicon's fundamentally different electronic character compared to carbon. Silicon is more metallic and holds its electrons more loosely, meaning that silicon-based aromatic compounds could exhibit catalytic and material properties with no carbon-based equivalent. \"Aromatic compounds help make the catalysts that control these industrial chemical processes more durable and more effective,\" Scheschkewitz noted, suggesting that silicon analogues could open pathways to entirely new classes of industrial catalysts and advanced materials.\n\nThe synthesis marks not an endpoint but a beginning. With the existence proof now established, researchers can explore a broader family of silicon aromatic systems, potentially transforming fields from materials science to industrial chemistry. After decades of theoretical speculation and experimental frustration, the door to silicon-based aromatic chemistry is finally open.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "catalysts"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T12:32:39.175Z"
+    },
+    {
+      "id": "ps-1772022776280-u5bj",
+      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
+      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6B, counts Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis among its backers",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of tech giants, automakers, and institutional investors, underscoring the intensifying race to commercialize self-driving technology. The round values the London-based company at $8.6 billion, and could swell to $1.5 billion with an additional $300 million from Uber tied to the deployment of robotaxis beginning in London.\n\nThe raise was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with new participation from Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Returning backers Microsoft, Nvidia, and Uber all deepened their commitments, while automakers Mercedes-Benz, Nissan, and Stellantis — each a prospective customer — also invested. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic investment, though CEO Alex Kendall declined to confirm the chipmaker's final contribution.\n\nFounded in 2017, Wayve has staked out what Kendall describes as a \"contrarian\" position in autonomous driving. Rather than relying on high-definition maps or bespoke sensor arrays, the company built an end-to-end deep learning system that ingests data from whatever sensors and compute hardware an automaker already has installed. This hardware-agnostic architecture supports two products: an \"eyes on\" driver-assistance system and an \"eyes off\" fully autonomous system capable of Level 4 driverless operation on city streets and highways. Wayve's Gen 3 platform, unveiled last fall, runs on Nvidia's Drive AGX Thor computing kit.\n\nCritically, Wayve's business model diverges from the dominant playbooks in the industry. Unlike Waymo, which largely operates its own robotaxi fleets, or Tesla, which bundles software with its own vehicles, Wayve sells its \"embodied AI\" as a standalone software layer to automakers and mobility platforms. Kendall argues this licensing approach addresses the largest possible market — but only works because Wayve's system generalizes across different hardware configurations and driving environments. Nissan plans to integrate the software into its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials in Wayve-equipped vehicles later this year, with plans to expand to more than ten markets globally.\n\nThe funding round arrives at a moment of accelerating investment across the autonomous driving sector, as legacy automakers seek software partners to keep pace with tech-native competitors. For Wayve, the challenge now shifts from fundraising to execution: proving that a single AI system can drive safely and reliably across the diverse roads, regulations, and vehicle platforms its growing roster of partners demands.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "self-driving",
+        "Nvidia",
+        "Uber",
+        "fundraising",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T12:32:56.280Z"
+    },
+    {
+      "id": "ps-1772022792786-pn1l",
+      "slug": "ubs-warns-private-credit-defaults-could-hit-15-in-worst-case",
+      "headline": "UBS Warns Private Credit Defaults Could Hit 15% in Worst Case",
+      "subheadline": "Swiss banking giant's increasingly dire outlook deepens fears over the $1.7 trillion private lending market",
+      "body": "UBS Group AG has escalated its warnings about the private credit sector, projecting that default rates could reach as high as 15% under a worst-case scenario — a sharp deterioration from the bank's already cautious outlook issued just weeks earlier.\n\nThe revised forecast from UBS analysts marks one of the starkest warnings yet from a major financial institution about the risks building in private credit, a market that has ballooned to roughly $1.7 trillion in assets as institutional investors chased higher yields during the low-interest-rate era. The sector, which encompasses direct lending to mid-market and leveraged companies outside of traditional bank channels, has been a darling of pension funds, endowments, and insurance companies seeking returns that public markets struggled to deliver.\n\nThe growing alarm centers on a confluence of pressures bearing down on private credit borrowers. Many companies that tapped the private lending market did so with floating-rate debt, meaning their interest burdens have swelled dramatically as central banks raised rates. At the same time, slowing economic growth and persistent cost pressures have squeezed the cash flows these borrowers rely on to service their obligations. Unlike public credit markets, where distress becomes visible quickly through bond price declines, private credit portfolios are marked less frequently, raising concerns that losses may be accumulating out of sight.\n\nA 15% default rate would represent a severe outcome — roughly three to four times the historical average for leveraged lending — and would carry significant implications for the institutional investors heavily allocated to the space. Several large pension systems and sovereign wealth funds have dramatically increased their private credit exposure in recent years, and elevated defaults could force painful writedowns across portfolios that were marketed as offering equity-like returns with bond-like stability.\n\nUBS's warning adds to a chorus of caution from regulators and market participants. The Federal Reserve, the Bank of England, and the European Central Bank have all flagged private credit as a potential source of systemic vulnerability, citing limited transparency, concentrated exposures, and the interconnection between private lenders and the broader banking system through warehouse financing and credit lines. While proponents of the asset class argue that underwriting standards remain disciplined and that most managers have sufficient reserves to weather a downturn, the UBS projection suggests that the margin for error may be thinner than many investors assumed.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "private credit",
+        "UBS",
+        "defaults",
+        "financial risk",
+        "leveraged lending",
+        "institutional investors"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1459347268516-3ed71100e718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxwcml2YXRlJTIwY3JlZGl0JTIwVUJTfGVufDB8MHx8fDE3NzIwMjE4OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/ubs-now-sees-private-credit-defaults-reaching-15-in-worst-case",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T12:33:12.786Z"
+    },
+    {
+      "id": "ps-1772022806939-gp0u",
+      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
+      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
+      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and firing of internal investigators who flagged violations",
+      "body": "Senator Richard Blumenthal, the ranking Democrat on the Senate Homeland Security Committee, has launched a formal inquiry into Binance over allegations that $1.7 billion in cryptocurrency flowed from the exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nIn a letter sent Tuesday to Binance co-chief executive Richard Teng, the Connecticut senator requested records related to two Hong Kong-based entities identified by the exchange's own internal investigators as the origin of the Iran-bound transfers. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong firm that operated as a Binance vendor. Blumenthal also demanded documentation surrounding the suspension and dismissal of compliance staff who had flagged the suspicious activity — a sequence of events reported by the New York Times, Wall Street Journal, and Fortune that Binance has vigorously denied.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in the letter. The probe raises fresh questions about whether the world's largest crypto exchange has fully reformed its compliance practices following a landmark 2023 enforcement action in which founder Changpeng Zhao pleaded guilty to anti-money-laundering violations. The company paid $4.3 billion in penalties and agreed to exit the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance has forcefully pushed back on the allegations, telling reporters that the exchange maintains strict know-your-customer procedures and has no Iranian users on its platform. A spokesperson called prior media reporting \"wrong\" and characterized the claims about fired investigators as false. The exchange said in a blog post that its \"sanctions-related exposure is minimal\" and noted that it had canceled the flagged accounts and severed its relationship with Blessed Trust in January. Binance spokesperson Rachel Conlan told the New York Times that an internal investigation is underway and that a full report was expected to be delivered to the U.S. Justice Department on February 25.\n\nThe Senate inquiry adds a significant layer of political scrutiny to Binance's ongoing legal and regulatory challenges. If the alleged transfers are substantiated, they could indicate that compliance failures persisted well after the exchange's record-setting settlement — potentially exposing the company to additional enforcement actions. For the broader cryptocurrency industry, which has lobbied aggressively for regulatory clarity and mainstream legitimacy, the probe serves as a reminder that sanctions compliance remains a critical vulnerability.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Binance",
+        "sanctions",
+        "Iran",
+        "Senate probe",
+        "Richard Blumenthal",
+        "cryptocurrency regulation",
+        "compliance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T12:33:26.939Z"
+    },
     {
       "id": "ps-1772021829057-bak1",
       "slug": "trump-s-record-length-state-of-the-union-draws-scrutiny-on-k",
@@ -25,48 +153,6 @@
       "publishedAt": "2026-02-25T12:17:09.057Z"
     },
     {
-      "id": "ps-1772021846784-4ny3",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now suggest material structures that shrink when heated and expand when compressed",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — a breakthrough that could accelerate the deployment of these exotic structures in aerospace, precision instruments, and other demanding engineering applications.\n\nXiang-Long Peng and Bai-Xiang Xu, in a study posted to the arXiv preprint server on February 12, describe a framework built around neural networks trained on large datasets generated through computational homogenization. Their approach targets bimaterial hybrid-honeycomb lattice structures, a class of thermoelastic metamaterials in which two different base materials are combined in carefully tuned geometries. These structures can be engineered to contract when heated — the opposite of ordinary materials — while also displaying auxetic behavior, meaning they expand perpendicular to an applied stretch rather than thinning out as conventional materials do.\n\nThe central challenge the researchers address is the inverse design problem: given a set of desired thermoelastic properties, what combination of geometry and base materials should be used? Traditional approaches rely on iterative simulation, which is computationally expensive. Peng and Xu first trained a forward model that rapidly predicts the effective thermoelastic properties of a given structure, then built six distinct inverse models tailored to different design scenarios. These inverse models vary in which quantities are treated as targets — such as specific thermal expansion coefficients or Poisson's ratios — and which are treated as design variables, including geometric features and material choices. The trained forward model serves double duty, both validating the inverse predictions and contributing to the loss functions used during inverse model training.\n\nThe framework's versatility is notable. By offering multiple inverse model configurations, the system accommodates a range of practical engineering constraints. A designer might, for instance, need to achieve a particular thermal expansion coefficient while being limited to certain base materials, or might have freedom to choose materials but face geometric manufacturing constraints. Representative design examples presented in the paper demonstrate strong predictive accuracy across these scenarios.\n\nThe work sits at the intersection of computational materials science and applied machine learning, an area of growing activity as researchers seek to compress the traditionally lengthy materials discovery cycle. While the study has not yet undergone peer review, it offers a concrete demonstration of how data-driven methods can handle multi-objective inverse problems in metamaterial design — a task that grows exponentially more complex as the number of tunable parameters increases. If validated experimentally, such tools could significantly shorten the path from desired material performance to manufacturable design in next-generation thermal management and structural systems.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719569798620-16be67f45fd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T12:17:26.784Z"
-    },
-    {
-      "id": "ps-1772021861769-81ly",
-      "slug": "chemists-synthesize-impossible-silicon-aromatic-molecule-aft",
-      "headline": "Chemists Synthesize 'Impossible' Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Saarland University team replaces carbon with silicon in a stable aromatic ring, opening new frontiers in materials science",
-      "body": "A team of chemists at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a half-century pursuit that most researchers had written off as impossible. The results, published February 24 in the journal Science, represent the first five-membered all-silicon aromatic ring ever created and could reshape the landscape of industrial catalysis and advanced materials.\n\nDavid Scheschkewitz, a professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. The team succeeded where dozens of research groups worldwide had failed by replacing every carbon atom in cyclopentadienide — a classic aromatic hydrocarbon — with silicon. Aromatic molecules, named for the pleasant odors of the earliest examples discovered in the 19th century, derive their exceptional stability from electrons shared evenly across a flat ring structure, a property governed by Hückel's rule. Replicating that stability with silicon, which is more metallic and holds its electrons more loosely than carbon, had long been considered a formidable — if not insurmountable — challenge.\n\nPrior to this breakthrough, only one silicon-based aromatic compound existed in the literature: a three-membered silicon ring analogous to cyclopropenium, first synthesized in 1981. Every subsequent attempt to build larger silicon aromatic systems ended in failure. The Saarland team's achievement leapfrogged that lone precedent by constructing a five-atom ring that satisfies all the hallmarks of aromaticity, confirmed through X-ray diffraction analysis at the university's dedicated service center.\n\nIn a remarkable coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same compound at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science, underscoring the significance and timeliness of the result.\n\nThe implications extend well beyond the laboratory. Silicon's distinct electronic properties mean that pentasilacyclopentadienide could serve as the foundation for an entirely new class of compounds and catalysts. Aromatic molecules already play critical roles in plastics manufacturing, where they enhance the durability and effectiveness of catalysts used in polyethylene and polypropylene production, according to Scheschkewitz. Silicon-based analogues, with their different electron behavior, may unlock materials and industrial processes that carbon chemistry simply cannot achieve — a prospect that now, after five decades of patience, is finally within reach.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon",
-        "aromatic chemistry",
-        "materials science",
-        "catalysis",
-        "Saarland University",
-        "pentasilacyclopentadienide"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T12:17:41.769Z"
-    },
-    {
       "id": "ps-1772021877035-086x",
       "slug": "stripe-explores-potential-acquisition-of-paypal-in-blockbust",
       "headline": "Stripe Explores Potential Acquisition of PayPal in Blockbuster Deal",
@@ -88,47 +174,6 @@
       "publishedAt": "2026-02-25T12:17:57.035Z"
     },
     {
-      "id": "ps-1772021893830-k80p",
-      "slug": "ubs-warns-private-credit-defaults-could-hit-15-in-worst-case",
-      "headline": "UBS Warns Private Credit Defaults Could Hit 15% in Worst Case",
-      "subheadline": "The Swiss banking giant's increasingly dire outlook adds to mounting concerns over the $1.7 trillion private lending market",
-      "body": "UBS Group AG has sharpened its warnings about the private credit sector, projecting that default rates could reach as high as 15% under a worst-case scenario — a significant escalation from the bank's already cautious outlook issued just weeks earlier.\n\nThe revised forecast from one of the world's largest wealth managers lands at a moment of deepening anxiety across the financial industry about the rapid expansion of private lending. The private credit market, which has ballooned to an estimated $1.7 trillion in assets globally, emerged as a dominant force in corporate lending over the past several years as traditional banks retreated from riskier middle-market loans. Now, as higher interest rates squeeze borrowers and economic uncertainty persists, questions about the sector's resilience are growing louder.\n\nA 15% default rate would represent a dramatic deterioration from current levels. While precise default figures in private credit are notoriously difficult to track — given the opaque, illiquid nature of the asset class — most industry estimates have placed recent default rates in the low single digits, roughly in line with or slightly above those in the broadly syndicated loan market. A surge to double-digit defaults would mark the kind of credit stress not seen since the aftermath of the 2008 financial crisis.\n\nThe UBS warning comes amid a broader chorus of concern from regulators and market participants. The International Monetary Fund, the Bank of England, and the European Central Bank have all flagged private credit as a potential source of systemic risk, citing limited transparency, concentrated exposures, and the challenge of valuing assets that rarely trade. Critics worry that many private lenders have extended financing to heavily leveraged companies that may struggle to service debt in a prolonged high-rate environment, and that the true extent of distress is being masked by payment deferrals and loan amendments.\n\nDefenders of the industry counter that private credit's structural features — including tighter covenants, closer lender-borrower relationships, and the ability to work out troubled loans without the public glare of traded markets — make it better equipped to manage downturns than its critics suggest. Still, UBS's increasingly bearish assessment is likely to intensify scrutiny of a market that has attracted enormous capital inflows from pension funds, insurers, and retail investors in recent years, many of whom may not fully appreciate the risks embedded in their portfolios.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "private credit",
-        "UBS",
-        "defaults",
-        "financial risk",
-        "corporate lending"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1459347268516-3ed71100e718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxwcml2YXRlJTIwY3JlZGl0JTIwVUJTfGVufDB8MHx8fDE3NzIwMjE4OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/ubs-now-sees-private-credit-defaults-reaching-15-in-worst-case",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T12:18:13.830Z"
-    },
-    {
-      "id": "ps-1772021908341-9t4c",
-      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
-      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
-      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and firing of internal investigators who flagged violations",
-      "body": "Senator Richard Blumenthal, the ranking Democrat on the Senate Homeland Security Committee, has launched a formal inquiry into Binance over allegations that $1.7 billion flowed through the cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal sent a letter on Tuesday to Binance co-chief executive Richard Teng requesting records related to two Hong Kong entities identified as conduits for the alleged transfers. One of the accounts belonged to Blessed Trust, a Hong Kong-registered company that operated as a Binance vendor. According to reporting by the New York Times, which first disclosed the probe, Binance said it canceled the accounts and severed ties with Blessed Trust in January. The Connecticut senator also demanded documentation regarding the suspension and dismissal of four internal compliance investigators who reportedly uncovered the suspicious transactions before being removed from their positions.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in the letter. The probe adds fresh political pressure to the world's largest crypto exchange, which has struggled to move past a troubled compliance history. Binance founder Changpeng Zhao pleaded guilty in November 2023 to violating anti-money-laundering laws and permitting users in sanctioned countries, including Iran, to trade on the platform. The company paid $4.3 billion in penalties and exited the U.S. market as part of a settlement. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance has firmly denied the latest allegations. A spokesperson told CoinDesk that the exchange maintains \"strict KYC and compliance procedures\" and has no Iranian users on the platform, calling prior New York Times, Wall Street Journal, and Fortune reports on the matter inaccurate. In a blog post published Sunday, Binance characterized its \"sanctions-related exposure\" as minimal. The company disclosed that it is conducting its own internal investigation and planned to submit a full report to the U.S. Justice Department on February 25.\n\nThe Senate inquiry raises the stakes considerably for Binance's post-settlement rehabilitation. Having already paid billions in fines and agreed to enhanced oversight, the exchange now faces questions about whether its compliance reforms have been sufficient — and whether staff who raised red flags were silenced rather than supported. For the broader crypto industry, which has been seeking regulatory legitimacy, the probe is a reminder that sanctions enforcement remains a potent vulnerability.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Binance",
-        "sanctions",
-        "Iran",
-        "Senate probe",
-        "cryptocurrency regulation",
-        "Richard Blumenthal"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T12:18:28.341Z"
-    },
-    {
       "id": "ps-1772020970730-gv1y",
       "slug": "waterloo-engineers-program-bacteria-to-invade-and-consume-tu",
       "headline": "Waterloo Engineers Program Bacteria to Invade and Consume Tumors",
@@ -148,28 +193,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-25T12:02:50.730Z"
-    },
-    {
-      "id": "ps-1772020987326-71yi",
-      "slug": "wayve-secures-1-2b-to-scale-its-ai-first-autonomous-driving-",
-      "headline": "Wayve Secures $1.2B to Scale Its AI-First Autonomous Driving Platform",
-      "subheadline": "The U.K. startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and underscores growing corporate appetite for self-driving technology that can be deployed across multiple vehicle platforms and geographies.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, includes returning backers Microsoft, Nvidia, and Uber alongside new participants such as the Ontario Teachers' Pension Plan, Baillie Gifford, and the British Business Bank. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — also invested, each with plans to integrate Wayve's software into their vehicles. The total raise could climb to $1.5 billion if an additional $300 million from Uber materializes, contingent on the deployment of robotaxi services beginning in London.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has differentiated itself from rivals like Waymo and Tesla by building an end-to-end deep learning system that does not depend on high-definition maps, specific sensor hardware, or proprietary computing chips. The company's software ingests data from whatever sensors and processors an automaker already has installed, making it what Kendall describes as a hardware-agnostic \"embodied AI.\" Its latest Gen 3 platform, unveiled last fall and powered by Nvidia's Drive AGX Thor computing kit, is designed to support both hands-free driver-assistance features and fully driverless Level 4 capabilities on city streets and highways.\n\nThe business model is equally distinctive. Rather than operating its own fleet of robotaxis, as Waymo largely does, or bundling software with proprietary vehicles, as Tesla does, Wayve sells its autonomous driving stack directly to automakers and mobility platforms. Nissan has announced plans to use the technology in its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled a far broader ambition, stating plans to deploy the partnership across more than ten markets worldwide and multiple vehicle manufacturers.\n\nThe scale of the round reflects a competitive landscape in which the autonomous driving industry is rapidly transitioning from research into commercialization. Nvidia, which has maintained a development relationship with Wayve since 2018 and participated in its prior $1.05 billion Series C, had previously indicated it was evaluating a strategic investment of up to $500 million in this raise, though Kendall declined to confirm the final figure. For Wayve, the challenge now shifts from proving its technology to demonstrating that a licensing model can capture meaningful share of a market that every major automotive and technology player is racing to define.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "artificial intelligence",
-        "fundraising"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T12:03:07.326Z"
     },
     {
       "id": "ps-1772021001817-pf9i",
@@ -1031,27 +1054,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/wisdomtree-gets-sec-nod-for-tokenized-money-fund-to-trade-24-7",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-24T23:18:05.805Z"
-    },
-    {
-      "id": "ps-1771974189308-vuro",
-      "slug": "canada-certifies-all-gulfstream-jets-following-trump-pressur",
-      "headline": "Canada Certifies All Gulfstream Jets Following Trump Pressure",
-      "subheadline": "Aviation regulator approves remaining private jet models, giving the White House a claimed victory in ongoing trade tensions",
-      "body": "Canada's aviation authority has granted certification to all remaining Gulfstream private jet models, resolving a regulatory dispute that had become entangled in the broader trade conflict between Washington and Ottawa.\n\nThe decision follows direct pressure from U.S. President Donald Trump, who had called on Canadian regulators to approve the Gulfstream aircraft as part of a wider set of trade grievances. The White House quickly seized on the move as a concession, framing it as a win in its escalating economic confrontation with its northern neighbor. Gulfstream, a subsidiary of General Dynamics, manufactures some of the most sought-after business jets in the world, and the certification opens the Canadian market fully to its lineup.\n\nAviation certifications between allied nations are typically routine technical processes, but the Gulfstream approvals had become a point of friction as trade tensions between the U.S. and Canada intensified. Regulatory harmonization between the two countries' aviation authorities — Transport Canada and the U.S. Federal Aviation Administration — generally ensures that aircraft approved in one jurisdiction move smoothly toward approval in the other. The delay on certain Gulfstream models, however, had drawn Trump's attention and became a symbolic flashpoint.\n\nThe certification clears the way for Canadian operators and buyers to acquire and register the full range of Gulfstream aircraft without regulatory barriers. For General Dynamics, which reported $11.5 billion in Gulfstream revenue in its most recent fiscal year, Canada represents a meaningful market given the country's large geography and robust demand for business aviation.\n\nThe resolution, while narrowly focused on aviation, underscores the degree to which even technical regulatory matters have become leverage points in the U.S.-Canada trade relationship. With tariffs, energy policy, and border security all feeding into an increasingly contentious dynamic between the two nations, the Gulfstream episode illustrates how the Trump administration has pursued a granular, issue-by-issue approach to extracting concessions — and how Ottawa has chosen its battles accordingly.",
-      "category": "business",
-      "importance": 5,
-      "tags": [
-        "Canada",
-        "Gulfstream",
-        "Trump",
-        "trade",
-        "aviation",
-        "General Dynamics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1739497766186-53680d8ca968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8Q2FuYWRhJTIwQ2VydGlmaWVzJTIwQWxsJTIwR3VsZnN0cmVhbSUyMEpldHMlMjBGb2xsb3dpbmclMjBUcnVtcCUyMFByZXNzdXJlfGVufDB8MHx8fDE3NzE5NTI2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/canada-greenlights-all-gulfstream-jets-after-trump-threats",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T23:03:09.308Z"
     }
   ]
 }
