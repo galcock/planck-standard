@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-25T16:48:27.617Z",
+  "lastUpdated": "2026-02-25T17:03:44.419Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772038947771-3z76",
+      "slug": "trump-s-record-length-state-of-the-union-draws-sweeping-fact",
+      "headline": "Trump's Record-Length State of the Union Draws Sweeping Fact-Check Challenges",
+      "subheadline": "BBC Verify analysis finds multiple misleading or unsupported claims across inflation, gas prices, investment, and foreign policy",
+      "body": "President Donald Trump's State of the Union address — at one hour and 47 minutes, the longest in decades — painted a triumphant picture of his administration's first year back in power, but independent fact-checkers found several of his marquee claims to be misleading, exaggerated, or lacking evidence.\n\nOn the economy, Trump told Congress that his policies are \"rapidly ending\" high prices created under his predecessor. While it is true that the annual inflation rate has eased to 2.4% as of January 2026, down from 3% during President Biden's final year, the picture is more complicated than Trump suggested. Beef prices, which he singled out as falling \"significantly,\" actually rose 15% over the prior 12 months, with only a slight dip in the most recent month. Economists at Harvard University have estimated that Trump's own tariff regime added roughly 0.92 percentage points to consumer price inflation in January 2026. His claim that gasoline is \"below $2.30 a gallon in most states\" was particularly difficult to square with reality: the national average stood at $2.95 per gallon according to the AAA, with only Oklahoma averaging near $2.37 — the lowest in the country.\n\nTrump's assertion that he had secured \"more than $18 trillion\" in investment commitments found no public corroboration. The White House's own investment tracker lists $9.7 trillion in pledges — a substantial figure, but barely half the president's claim. Greg Auclair of the Peterson Institute for International Economics cautioned that even tracked commitments \"include pledges that may not materialise,\" pointing to a stalled EU trade deal as one example. Trump's statement that \"more Americans are working today than at any time in history\" is technically accurate — employment topped 158 million in January — but the employment-to-population ratio actually slipped from 60.1% to 59.8% since Biden left office, and unemployment edged up from 4.1% to 4.3%.\n\nForeign policy claims also drew scrutiny. Trump declared he had \"ended eight wars\" in his first ten months, but analysis showed that several of the conflicts listed by the White House lasted only days and one — a dispute between Egypt and Ethiopia over dam construction — involved no military combat at all. Fighting has resumed between Rwanda and the Democratic Republic of Congo despite a Washington-brokered agreement, and India publicly downplayed the U.S. role in resolving its brief clash with Pakistan. Trump's involvement in the Israel-Hamas ceasefire is his strongest claim to peacemaking credit.\n\nOn immigration, Trump's statement that \"zero illegal aliens have been admitted\" in nine months is accurate in the narrow sense that Border Patrol has not released any migrants from custody, according to the Department of Homeland Security. However, authorities still recorded 6,070 apprehensions at the southwest border in January 2026. His renewed assertion that electoral cheating is \"rampant\" remains unsupported: the Heritage Foundation's database documents just 1,620 proven fraud cases nationwide since 1982, and a Brennan Center study of 23.5 million votes in 2016 found only 30 suspected instances of non-citizen voting referred for investigation.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Trump",
+        "State of the Union",
+        "fact-check",
+        "US economy",
+        "inflation",
+        "immigration",
+        "US politics"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2ea4/live/e2517fa0-1233-11f1-801d-ed3cff6bf876.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T17:02:27.771Z"
+    },
+    {
+      "id": "ps-1772038962911-coz5",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now suggest material structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion",
+      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of bimaterial lattice metamaterials — structures that exhibit the counterintuitive properties of contracting when heated and expanding laterally when compressed. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering: efficiently determining what geometry and material combination will produce a desired set of physical properties.\n\nThe metamaterials in question are based on hybrid-honeycomb structures composed of two different base materials. These bimaterial lattices can be tuned to display simultaneously negative Poisson's ratios — meaning they get thinner in one direction when compressed in another, rather than bulging outward — and negative coefficients of thermal expansion, causing them to shrink as temperature rises. Both properties are exceedingly rare in natural materials and hold significant promise for aerospace, precision instruments, and other applications where thermal distortion must be tightly controlled.\n\nTraditionally, designing such structures requires painstaking trial and error through expensive computational simulations. Peng and Xu instead generated a large dataset through high-throughput computational homogenization, varying both the geometric features and base material properties of the honeycomb structures. They then trained a forward neural network model to predict the effective thermoelastic properties of any given design rapidly and accurately, bypassing the need for full-scale simulation.\n\nThe more consequential advance lies in the inverse models. The team developed six distinct neural network architectures, each tailored to different design scenarios — for instance, specifying target mechanical and thermal properties while allowing the algorithm to suggest optimal geometries and material pairings. The trained forward model was embedded directly into the loss functions of these inverse models, creating a self-consistent feedback loop that improved prediction accuracy. For cases involving fixed base materials, additional synthetic datasets were generated using the forward model itself.\n\nThe approach represents a growing trend in computational materials science where machine learning is not merely accelerating simulation but fundamentally changing the design paradigm from forward prediction to goal-directed inverse engineering. If validated experimentally, such frameworks could dramatically compress the development timeline for metamaterials tailored to specific thermal and mechanical environments, potentially opening new avenues in satellite structures, microelectronics packaging, and precision manufacturing where simultaneous control of thermal expansion and mechanical response is critical.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T17:02:42.911Z"
+    },
+    {
+      "id": "ps-1772038978681-mrzi",
+      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
+      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
+      "subheadline": "Lab experiments simulating Martian conditions suggest future missions should drill into pure ice, not rock or soil",
+      "body": "Amino acids from bacteria sealed in pure water ice can withstand at least 50 million years of cosmic radiation under Mars-like conditions, according to a new study by researchers at NASA's Goddard Space Flight Center and Penn State — a finding that could fundamentally redirect the strategy for hunting signs of life on the Red Planet.\n\nPublished in the journal Astrobiology, the study led by space scientist Alexander Pavlov subjected E. coli bacteria frozen in test tubes to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation dose simulated 20 million years of cosmic ray bombardment, with modeling extending the estimate to 50 million years. In pure water ice, more than 10 percent of the amino acids — the molecular building blocks of proteins — remained intact after the full simulated duration. But samples mixed with silicate rocks and clay typical of Martian sediment degraded roughly ten times faster, failing to survive.\n\nThe result upended the team's own expectations. A 2022 study by the same group had found that amino acids in a mixture of 10 percent water ice and 90 percent Martian soil broke down faster than those in sediment alone, leading researchers to assume that pure ice would offer even less protection. Instead, solid ice appears to lock radiation byproducts in place, preventing them from reaching and destroying organic molecules. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said. Co-author Christopher House, a Penn State geosciences professor, noted that many surface ice deposits on Mars are less than two million years old — well within the 50-million-year preservation window.\n\nThe implications extend beyond Mars. The team also tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, observing even slower deterioration. That bodes well for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030 to conduct 49 close flybys of Europa's ice shell. On Mars, accessing buried ice will require robust drilling or scooping technology similar to what NASA's 2008 Phoenix lander employed when it became the first mission to excavate and photograph subsurface ice in the planet's arctic region.\n\nThe study amounts to a clear operational recommendation for planetary scientists: stop focusing primarily on rocks and dirt. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House said. \"Future missions need a large enough drill or a powerful scoop to access it.\" If microbial life ever took hold on Mars, its molecular fingerprints may be waiting — locked in ice, shielded from the radiation that scours the surface above.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T17:02:58.681Z"
+    },
+    {
+      "id": "ps-1772038992011-u7fh",
+      "slug": "trump-administration-directs-diplomats-to-fight-foreign-data",
+      "headline": "Trump Administration Directs Diplomats to Fight Foreign Data Laws",
+      "subheadline": "A State Department cable signed by Rubio frames data sovereignty regulations as threats to AI advancement and global commerce",
+      "body": "The Trump administration has instructed American diplomats worldwide to actively oppose foreign governments' efforts to regulate how U.S. technology companies store and process their citizens' data, according to an internal State Department cable reported by Reuters on February 25.\n\nThe directive, signed by Secretary of State Marco Rubio, frames data sovereignty and localization laws as obstacles to artificial intelligence development and global commerce. According to the cable, such regulations would \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats are specifically ordered to \"counter unnecessarily burdensome regulations, such as data localization mandates\" — laws that require companies to store citizens' data within national borders.\n\nBeyond opposition, the cable tasks diplomats with actively monitoring foreign legislative proposals that would advance data sovereignty frameworks and promoting the Global Cross-Border Privacy Rules Forum, an international body that facilitates cross-border data transfers through privacy certifications. The approach effectively turns American embassies into lobbying operations for the interests of U.S. tech giants and AI companies at a moment when the administration is aggressively positioning the United States to dominate the global AI race.\n\nThe directive puts Washington on a direct collision course with a growing international movement toward stricter data governance. The European Union has been at the forefront with its General Data Protection Regulation, the Digital Services Act, and the AI Act — a suite of legislation designed to hold technology companies accountable for how they collect, store, and exploit user data. Dozens of other nations, from India to Brazil, have pursued or enacted similar frameworks, reflecting widespread concern about the concentration of data power in a handful of American corporations.\n\nThe order represents a significant escalation of the administration's deregulatory posture toward Big Tech and underscores the degree to which AI policy has become intertwined with U.S. foreign policy. By casting privacy regulations as threats to civil liberties rather than protections of them, the cable inverts the argument typically made by data sovereignty advocates — and signals that the United States intends to use diplomatic channels to shape the global regulatory environment in favor of its technology sector. The State Department did not respond to requests for comment.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "data sovereignty",
+        "US foreign policy",
+        "AI regulation",
+        "GDPR",
+        "Marco Rubio",
+        "Big Tech",
+        "data privacy"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T17:03:12.011Z"
+    },
+    {
+      "id": "ps-1772039008378-49zc",
+      "slug": "diageo-shares-suffer-record-plunge-as-new-ceo-signals-deep-t",
+      "headline": "Diageo Shares Suffer Record Plunge as New CEO Signals Deep Turnaround",
+      "subheadline": "Incoming chief Dave Lewis cuts outlook, warning investors there is no quick fix for the British spirits giant",
+      "body": "Diageo Plc suffered its largest single-day share decline on record on Tuesday after new Chief Executive Officer Dave Lewis delivered a sobering assessment of the challenges facing the world's biggest spirits maker, cutting the company's outlook and signaling that a meaningful recovery will take time.\n\nThe London-listed drinks giant, whose portfolio spans Johnnie Walker scotch, Guinness stout, and Tanqueray gin, saw its stock tumble as Lewis laid bare the depth of restructuring required. The sharp sell-off reflected investor dismay at the scale of problems accumulated at a company long considered one of Europe's most reliable consumer goods performers. Lewis, who built his reputation as a turnaround specialist during his tenure leading Tesco through its own crisis years ago, made clear that the path back to consistent growth would demand patience.\n\nDiageo has been grappling with a confluence of headwinds in recent quarters, including softening demand in key markets, destocking by distributors, and shifting consumer preferences that have pressured volumes across several of its core spirits categories. The outlook cut suggests these pressures are proving more persistent than previously acknowledged by the company's leadership. Lewis's willingness to reset expectations early in his tenure follows a well-worn playbook for incoming CEOs — taking the pain upfront to establish a lower baseline from which future performance can be measured.\n\nThe record decline underscores just how far Diageo's standing has fallen among investors who once prized the stock for its defensive qualities and dependable dividend growth. The company's market capitalization has eroded significantly from its pandemic-era highs, when a boom in at-home drinking and premiumization trends propelled spirits sales to record levels. The subsequent normalization has been more painful than many analysts anticipated.\n\nFor Lewis, the immediate task will be convincing shareholders that Diageo's brand portfolio and global distribution network remain fundamentally strong assets, even as near-term financial performance disappoints. The market's reaction suggests that confidence is in short supply, and the new CEO faces a long road to rebuild it.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Diageo",
+        "Dave Lewis",
+        "CEO turnaround",
+        "spirits industry",
+        "UK equities",
+        "consumer goods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T17:03:28.379Z"
+    },
+    {
+      "id": "ps-1772039024313-vuam",
+      "slug": "pro-trump-crypto-pac-s-100m-war-chest-remains-empty-months-a",
+      "headline": "Pro-Trump Crypto PAC's $100M War Chest Remains Empty Months After Launch",
+      "subheadline": "Fellowship PAC has reported zero funds to the FEC despite splashy September debut, while rival Fairshake holds $193 million",
+      "body": "A cryptocurrency-focused political action committee that announced a $100 million campaign war chest last September has yet to raise a single dollar, according to Federal Election Commission filings, raising questions about the group's legitimacy and its opaque ties to stablecoin giant Tether.\n\nThe Fellowship PAC launched with considerable fanfare in September 2025, positioning itself as a major force in the 2026 midterm elections and crediting President Donald Trump with setting the United States on a path to become \"the global crypto capital.\" The group pledged to back pro-crypto congressional candidates and described its mission as one defined by \"transparency and trust\" — yet it disclosed no officers, donors, or key employees. Its sole identifiable figure is listed treasurer Mitchell Nobel, who serves as director of digital-assets strategy at Cantor Fitzgerald, the firm formerly led by Trump's Secretary of Commerce Howard Lutnick and which manages Tether's assets.\n\nEarly reporting linked Tether, the world's dominant stablecoin issuer, as a potential backer of Fellowship. When pressed this week, Tether spokesperson Alex Welch stated that \"Tether International has no affiliation or oversight of Fellowship\" but notably declined to address whether the company's recently established U.S. operations might be involved. The distinction matters: under U.S. election law, foreign entities are prohibited from funding PACs, and any domestic subsidiary would need to demonstrate that its contributions were generated from American revenue and that its political decisions were free from foreign influence. Repeated attempts to reach Fellowship directly have gone unanswered, though its account on X was active as recently as this month, reposting a comment from Tether CEO Paolo Ardoino.\n\nThe Fellowship's absence is all the more conspicuous against the backdrop of the crypto industry's proven political spending power. Fairshake, the sector's dominant super PAC funded primarily by Coinbase, Andreessen Horowitz, and Ripple, currently holds $193 million and has already begun targeting early 2026 races. In the 2024 cycle, Fairshake and its affiliates supported more than 50 winning congressional candidates from both parties, demonstrating that well-funded crypto PACs can meaningfully shape legislative outcomes on digital-asset regulation.\n\nWith some of the earliest 2026 primaries approaching, the window for Fellowship to materialize as a credible political force is narrowing. The combination of an empty treasury, anonymous backers, murky ties to a foreign-headquartered stablecoin company, and connections to figures in Trump's orbit presents a case study in the tensions between the crypto industry's growing political ambitions and the legal guardrails designed to keep foreign money out of American elections.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "crypto PAC",
+        "Fellowship PAC",
+        "Tether",
+        "midterm elections",
+        "Fairshake",
+        "political spending",
+        "campaign finance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/75acdec4583d7a683f47cf6e7315f860f94d82ea-3953x2224.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/news-analysis/2026/02/24/a-usd100-million-crypto-campaign-fund-with-a-pro-trump-vibe-has-so-far-failed-to-show-up",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T17:03:44.313Z"
+    },
     {
       "id": "ps-1772038030794-1jnk",
       "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
@@ -44,71 +174,6 @@
       "publishedAt": "2026-02-25T16:47:26.992Z"
     },
     {
-      "id": "ps-1772038062390-bl96",
-      "slug": "ancient-microbial-life-could-endure-50-million-years-in-mart",
-      "headline": "Ancient Microbial Life Could Endure 50 Million Years in Martian Ice",
-      "subheadline": "NASA and Penn State lab experiments suggest future Mars missions should drill into pure ice, not rock, to find traces of biology",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can survive at least 50 million years when locked inside pure water ice, even under relentless bombardment by cosmic radiation. The finding, published in the journal Astrobiology, could reshape the strategy for future missions searching for signs of life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and, separately, inside mixtures of water ice and simulated Martian sediment containing silicate rocks and clay. The samples were frozen to minus 60 degrees Fahrenheit and subjected to gamma radiation equivalent to 20 million years of cosmic ray exposure at the Martian surface, followed by modeling that extended the simulation to 50 million years. In the pure ice samples, more than 10 percent of the amino acids remained intact across the full duration. Samples mixed with Mars-like soil, however, degraded roughly ten times faster and did not survive.\n\nThe result overturned expectations set by a 2022 study from the same team, which had found that a mixture of 10 percent water ice and 90 percent Martian soil destroyed organic material faster than soil alone. Scientists had assumed pure ice would fare even worse. Instead, lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, the harmful reactive particles generated by radiation appear to become trapped in place, unable to reach and damage organic compounds. In ice-sediment mixtures, a thin film forms where ice contacts mineral grains, potentially allowing radiation products to move more freely and accelerate destruction.\n\nThe implications extend well beyond Mars. The team also tested organic material at the far colder temperatures found on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and observed even slower deterioration. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030, where it will perform 49 close flybys to assess whether conditions beneath Europa's ice shell could support life.\n\nFor Mars specifically, the study's message is direct: future missions should prioritize drilling into clean, buried ice rather than analyzing rocks or surface soil. Christopher House, a Penn State geosciences professor and co-author, noted that 50 million years far exceeds the estimated age of some current Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. He added that accessing subsurface ice will require capable drilling or scooping tools similar to those deployed by NASA's 2008 Phoenix lander — the first mission to excavate and photograph ice in Mars's polar regions. The research was funded by NASA's Planetary Science Division.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "cosmic radiation",
-        "Europa Clipper",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T16:47:42.390Z"
-    },
-    {
-      "id": "ps-1772038077330-ir9u",
-      "slug": "trump-administration-directs-diplomats-to-fight-foreign-data",
-      "headline": "Trump Administration Directs Diplomats to Fight Foreign Data Sovereignty Laws",
-      "subheadline": "A State Department cable signed by Rubio frames data localization mandates as threats to AI advancement and global commerce",
-      "body": "The Trump administration has instructed U.S. diplomats worldwide to actively lobby foreign governments against enacting data sovereignty laws, framing such regulations as obstacles to artificial intelligence development and global commerce, according to an internal diplomatic cable reported by Reuters on February 25.\n\nThe cable, signed by Secretary of State Marco Rubio, directs American diplomats to \"counter unnecessarily burdensome regulations, such as data localization mandates\" — laws that require companies to store and process citizens' data within national borders. The directive argues that such measures \"disrupt global data flows, increase costs and cybersecurity risks, limit AI and cloud services, and expand government control in ways that can undermine civil liberties and enable censorship.\" Diplomats were also ordered to monitor foreign legislative proposals that would promote data sovereignty and to champion the Global Cross-Border Privacy Rules Forum, an international body that promotes cross-border data transfers through privacy certifications.\n\nThe move represents a significant escalation in Washington's efforts to protect the global operating environment of American technology giants at a moment when their AI ambitions depend heavily on access to vast international datasets. Companies like Google, Meta, Microsoft, and Amazon Web Services rely on the ability to move data freely across borders to train AI models and deliver cloud services — business lines that collectively generate hundreds of billions of dollars in annual revenue.\n\nThe directive places the United States on a direct collision course with a growing global trend toward data regulation. The European Union has been at the forefront with its General Data Protection Regulation, Digital Services Act, and AI Act, all of which impose restrictions on how technology companies collect, store, and exploit user data. Dozens of other nations — from India and Brazil to Kenya and Indonesia — have enacted or proposed their own data localization requirements in recent years, driven by concerns over surveillance, economic sovereignty, and citizens' privacy rights.\n\nCritics are likely to view the cable as the U.S. government prioritizing corporate interests over the privacy protections that foreign nations seek for their citizens. Proponents, however, will argue that fragmented data regimes balkanize the internet and stifle innovation. The U.S. State Department did not respond to requests for comment. The order underscores how deeply intertwined American foreign policy and AI industrial strategy have become under the current administration, which has consistently sought to remove regulatory friction for domestic technology firms competing in an intensifying global AI race.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "data sovereignty",
-        "US foreign policy",
-        "AI regulation",
-        "GDPR",
-        "Marco Rubio",
-        "Big Tech",
-        "data privacy"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/12/GettyImages-2252056808.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/us-tells-diplomats-to-lobby-against-foreign-data-sovereignty-laws/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T16:47:57.330Z"
-    },
-    {
-      "id": "ps-1772038093943-v49y",
-      "slug": "diageo-shares-suffer-record-plunge-as-new-ceo-signals-deep-t",
-      "headline": "Diageo Shares Suffer Record Plunge as New CEO Signals Deep Turnaround",
-      "subheadline": "Dave Lewis cuts outlook in stark assessment of challenges facing the world's largest spirits maker",
-      "body": "Shares of Diageo Plc suffered their largest single-day decline on record on Tuesday after newly appointed Chief Executive Officer Dave Lewis delivered a sobering assessment of the British spirits giant's prospects, cutting the company's outlook and making clear that a recovery will take time.\n\nThe historic selloff underscores the depth of challenges confronting Diageo, the world's largest distiller and maker of brands including Johnnie Walker, Guinness, and Tanqueray. Lewis, who took the helm with a reputation as a turnaround specialist from his time leading Tesco, used his early days in charge to reset expectations rather than offer reassurance — a move that rattled investors hoping for a quicker path to stabilization.\n\nDiageo has been grappling with a prolonged slowdown in spirits demand across key markets, including weakness in Latin America and parts of Asia that had previously been reliable growth engines. Inventory destocking by distributors and a broader consumer pullback on premium alcohol purchases have compounded the pressure. The outlook cut suggests these headwinds may persist longer than analysts had anticipated, and that the operational issues run deeper than the prior management team acknowledged.\n\nLewis's decision to front-load the bad news represents a well-worn playbook for incoming chief executives — clearing the decks to create a lower baseline against which future performance can be measured. Yet the record scale of the stock decline signals that the market was not fully prepared for the magnitude of the reset. The company, which commands a portfolio of some of the world's most recognized spirits brands, had already seen its shares under significant pressure over the past two years amid successive earnings disappointments.\n\nThe turnaround effort at Diageo now joins a growing list of restructuring stories across the global consumer staples sector, where companies are contending with shifting drinking habits, rising input costs, and uneven demand recovery following the pandemic-era boom in at-home consumption. For Lewis, the challenge will be demonstrating that Diageo's brand portfolio and global distribution network remain durable competitive advantages — even if unlocking their full value requires a longer and more difficult road than shareholders would prefer.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Diageo",
-        "Dave Lewis",
-        "spirits industry",
-        "CEO turnaround",
-        "consumer staples",
-        "stock decline"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T16:48:13.943Z"
-    },
-    {
       "id": "ps-1772038107517-87hl",
       "slug": "bitcoin-surges-past-67-500-as-massive-short-squeeze-unwinds",
       "headline": "Bitcoin Surges Past $67,500 as Massive Short Squeeze Unwinds",
@@ -128,48 +193,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/bitcoin-climbs-to-usd67-500-circle-leads-crypto-stocks-higher-as-bounce-strengthens",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-25T16:48:27.517Z"
-    },
-    {
-      "id": "ps-1772037210247-7tz0",
-      "slug": "trump-s-record-length-state-of-the-union-riddled-with-mislea",
-      "headline": "Trump's Record-Length State of the Union Riddled With Misleading Claims",
-      "subheadline": "BBC Verify finds key assertions on gas prices, investment figures, and ending wars don't hold up to scrutiny",
-      "body": "President Donald Trump's State of the Union address — at one hour and 47 minutes, the longest in decades — painted a picture of an America ascendant under his leadership. But a detailed fact-check by BBC Verify reveals that several of the speech's marquee claims were misleading, exaggerated, or unsupported by publicly available evidence.\n\nAmong the most striking discrepancies was Trump's assertion that gasoline is \"now below $2.30 a gallon in most states.\" According to the Automobile Association of America, the national average stands at $2.95 per gallon as of February 24. Only one state, Oklahoma, averages near the president's figure at $2.37. The tracking website GasBuddy identified just four stations out of an estimated 150,000 nationwide selling gas below $2. Trump's claim that he had secured \"more than $18 trillion\" in investment commitments also lacks substantiation. The White House's own tracker lists $9.7 trillion — a large sum but barely half the president's stated figure — and experts at the Peterson Institute for International Economics cautioned that even that number includes pledges that may never materialize, such as an EU trade deal now frozen by renewed tariff threats.\n\nThe president's assertion that he \"ended eight wars\" in his first ten months drew particular scrutiny. While Trump can credibly claim a role in the Israel-Hamas ceasefire, several of the conflicts cited by the White House lasted only days, and at least one — a dispute between Egypt and Ethiopia over dam construction — involved no actual fighting. Rwanda and the Democratic Republic of Congo have seen renewed violence since signing a Washington-brokered peace deal, and India publicly downplayed any U.S. role in resolving its brief clash with Pakistan.\n\nOn the economy, the picture was more nuanced than Trump suggested. While inflation has eased to 2.4% annually as of January 2026, down from 3% in Biden's final year, grocery prices still rose 2.1% over the same period, and beef prices climbed 15% year-over-year despite a slight monthly dip. Harvard economists have estimated that Trump's own tariff policies added roughly 0.92 percentage points to consumer price inflation in January. Employment reached a record 158 million, as Trump noted, but the employment-to-population ratio actually slipped from 60.1% to 59.8% since Biden left office, and unemployment ticked up from 4.1% to 4.3%.\n\nTrump also repeated his claim that \"cheating is rampant\" in U.S. elections, calling for stricter voter ID laws. The Heritage Foundation's database — compiled by a conservative organization sympathetic to such measures — has documented just 1,620 proven fraud cases nationwide since 1982. A Brennan Center for Justice study of 23.5 million votes across 12 states in 2016 found only 30 suspected instances of non-citizen voting referred for investigation. On immigration, Trump accurately stated that Border Patrol has released zero migrants from custody for nine consecutive months, though agents still recorded 6,070 apprehensions at the southwest border in January — a dramatic decline from the 124,215 logged in January 2024 under Biden.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Trump",
-        "State of the Union",
-        "fact-check",
-        "US politics",
-        "inflation",
-        "immigration"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2ea4/live/e2517fa0-1233-11f1-801d-ed3cff6bf876.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T16:33:30.247Z"
-    },
-    {
-      "id": "ps-1772037223773-b2ni",
-      "slug": "machine-learning-framework-tackles-inverse-design-of-thermal",
-      "headline": "Machine Learning Framework Tackles Inverse Design of Thermal Metamaterials",
-      "subheadline": "Neural network models can now suggest material compositions and geometries for structures with exotic thermal and mechanical properties",
-      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of lattice metamaterials that simultaneously exhibit two counterintuitive physical properties: negative Poisson's ratios and negative thermal expansion coefficients. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing challenge in metamaterial engineering — starting from desired properties and working backward to determine the structure that produces them.\n\nThe metamaterials in question are based on bimaterial hybrid-honeycomb structures, composites that combine two different base materials in lattice configurations. When engineered correctly, these structures can shrink when heated (negative thermal expansion) and expand laterally when stretched (negative Poisson's ratio) — behaviors opposite to those of most conventional materials. Such exotic properties make them attractive for aerospace components, precision instruments, and other systems where thermal distortion must be carefully controlled.\n\nThe inverse design problem — determining what geometry and material combination yields a specific set of target properties — is notoriously difficult because the relationship between structure and properties is highly nonlinear. Peng and Xu addressed this by first generating a large dataset through computational homogenization of structures with varying geometrical features and base material properties. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design, achieving what they describe as strong predictive accuracy.\n\nBuilding on the forward model, the team developed six distinct inverse models, each tailored to different design scenarios defined by various combinations of target properties and structural variables. A key innovation is the integration of the trained forward model directly into the loss functions of the inverse models, creating a feedback loop that improves the accuracy of the design suggestions. The forward model was also used to generate supplementary training data for cases involving fixed base materials, expanding the framework's practical applicability.\n\nThe approach represents a significant step toward making metamaterial design more accessible for engineering applications. Traditional methods rely on iterative optimization or expert intuition, both of which are time-consuming and often fail to explore the full design space. By enabling rapid, automated exploration of structure-property relationships, the machine learning framework could accelerate the deployment of thermoelastic metamaterials in next-generation thermal management systems, satellite components, and other precision technologies where materials must perform reliably across wide temperature ranges.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1701524251959-80545bb64402?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T16:33:43.773Z"
     },
     {
       "id": "ps-1772037266435-6i2c",
@@ -1031,26 +1054,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T04:03:12.121Z"
-    },
-    {
-      "id": "ps-1771991286617-qo8f",
-      "slug": "trump-vows-alternative-tariff-path-after-supreme-court-rulin",
-      "headline": "Trump Vows Alternative Tariff Path After Supreme Court Ruling",
-      "subheadline": "President calls high court decision 'very unfortunate,' pledges to pursue trade barriers through other legal mechanisms",
-      "body": "President Donald Trump condemned a Supreme Court decision striking down elements of his tariffs agenda as \"very unfortunate\" and immediately signaled he would seek alternative routes to impose the trade barriers, using his State of the Union address to rally support for the effort.\n\nThe rebuke from the nation's highest court represents a significant legal setback for Trump's sweeping trade policy, which has been a centerpiece of his economic agenda. While the precise scope of the ruling constrains the executive authority Trump had invoked to levy tariffs unilaterally, the president made clear during his address to Congress that he views the decision as a detour rather than a dead end. He vowed to pursue tariffs through other available legal mechanisms, though he did not specify which statutory authorities or legislative strategies he intends to employ.\n\nThe clash between the executive branch and the judiciary over trade policy carries enormous implications for global commerce, domestic manufacturing, and consumer prices. Trump's original tariff regime had drawn both praise from protectionist-minded lawmakers and fierce criticism from free-trade advocates, importers, and foreign governments who warned of retaliatory measures. The Supreme Court's intervention now injects fresh uncertainty into an already volatile trade landscape, as businesses and trading partners attempt to gauge whether the administration can successfully reimpose comparable levies through alternative channels.\n\nMarket participants will be closely watching for details on the administration's next steps. Previous tariff actions under Trump have relied on authorities such as Section 301 of the Trade Act, Section 232 national security provisions, and the International Emergency Economic Powers Act. The court's ruling may narrow some of these pathways, potentially forcing the White House to work more closely with Congress to achieve its trade objectives — a process that would likely be slower and subject to greater compromise.\n\nThe president's defiant tone during the State of the Union suggests the tariff fight is far from over. How quickly the administration can regroup and through which legal avenue it chooses to proceed will shape trade policy debates in Washington and ripple through global supply chains for months to come.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Trump",
-        "tariffs",
-        "Supreme Court",
-        "trade policy",
-        "State of the Union"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1744827324103-6aae68abb440?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxUcnVtcCUyMHRhcmlmZnN8ZW58MHwwfHx8MTc3MTk5MTI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/trump-calls-tariff-ruling-very-unfortunate-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T03:48:06.617Z"
     }
   ]
 }
