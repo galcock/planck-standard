@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T04:03:28.428Z",
+  "lastUpdated": "2026-02-25T04:18:28.706Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771992130754-os02",
-      "slug": "trump-faces-critical-state-of-the-union-with-approval-at-his",
-      "headline": "Trump Faces Critical State of the Union With Approval at Historic Lows",
-      "subheadline": "With midterm elections eight months away and approval ratings near 36%, the president's address may be his last major chance to reset the narrative",
-      "body": "President Donald Trump will deliver his State of the Union address Tuesday night facing some of the weakest approval numbers of his political career, with recent polls showing support as low as 36% — a figure that threatens Republican prospects in November's midterm elections.\n\nThe speech comes at an inflection point for a presidency that has moved at extraordinary velocity. In just over a year, Trump has effectively sealed the southern border, imposed sweeping tariffs on major trading partners, and fundamentally tested the boundaries of executive power. Yet many of these signature initiatives have generated fierce backlash. The U.S. Supreme Court ruled last Friday that many of the president's tariff actions were illegal, throwing his trade agenda into uncertainty. Congressional Democrats have blocked Department of Homeland Security funding over immigration enforcement guardrails. And the killing of two U.S. citizens by federal immigration agents in Minneapolis triggered mass protests and forced the administration to promise a \"softer touch\" in that city.\n\nRobert Rowland, a professor at the University of Kansas who studies presidential rhetoric, said State of the Union addresses typically serve two purposes: making a case for the president's agenda and broadening its appeal beyond core supporters. Trump, he noted, has historically done neither, instead using such occasions to celebrate accomplishments and attack critics. His last address to Congress stretched nearly two hours. \"Normally, when presidents realize they are angering the public, they pull back and have some kind of mea culpa,\" Rowland said. \"That's not something that President Trump ever does. I expect him to double down on the messages.\"\n\nThe stakes extend well beyond optics. Immigration and the economy — once Trump's strongest issues with the electorate — have shown declining support since he took office. While stock indexes remain near record highs and unemployment is low, recent economic growth figures missed expectations. Campaign promises of lower consumer prices remain unfulfilled, and policy proposals such as capping credit card interest rates and issuing \"tariff refund\" checks have seen little legislative progress. An affordability messaging tour previewed by the White House last year has materialized only sporadically.\n\nTuesday's address also carries foreign policy weight, with the U.S. reportedly amassing military forces for a possible strike on Iran — a development that could reshape the political landscape in unpredictable ways. With midterm elections in November poised to either preserve the Republican congressional majority or hand Democrats the power to launch aggressive oversight and potentially pursue impeachment, the speech represents Trump's singular opportunity to make his case to a national audience of millions before voters render their verdict.",
+      "id": "ps-1771993030875-6z12",
+      "slug": "trump-faces-pivotal-state-of-the-union-with-approval-near-hi",
+      "headline": "Trump Faces Pivotal State of the Union With Approval Near Historic Lows",
+      "subheadline": "With midterm elections eight months away and poll numbers at 36%, the president must make his case to a skeptical nation",
+      "body": "President Donald Trump will deliver his State of the Union address on Tuesday night at what analysts describe as a critical inflection point for his second term — facing approval ratings in the mid-to-high 30s, legal setbacks on trade policy, and growing public unease over immigration enforcement that has at times turned violent.\n\nRecent polling paints a stark picture of the political terrain. A CNN survey placed Trump's approval at just 36%, while a Washington Post poll returned a marginally better 39%. Both figures represent a significant erosion from the support that carried him back to the White House, and they arrive as the administration contends with multiple policy headwinds. The Supreme Court ruled last Friday that many of the president's tariffs were illegally imposed, throwing his trade agenda into uncertainty. Meanwhile, the killings of two U.S. citizens by immigration officers during enforcement operations in Minneapolis triggered mass protests and forced the administration to adopt what Trump himself called a \"softer touch\" in the city.\n\nThe speech represents Trump's singular opportunity to reframe the narrative before November's midterm elections, which will determine whether Republicans retain their congressional majority or cede power to Democrats eager to launch aggressive oversight. Robert Rowland, a University of Kansas professor who has studied Trump's rhetorical style, noted that State of the Union addresses traditionally serve as moments for presidents to broaden their appeal and build the case for their agenda — two things Trump \"essentially never does.\" Rowland predicted the president would instead double down on his existing messaging rather than offer any concession to critics. Trump himself previewed the address on Monday, promising \"a long speech\" and declaring the economy \"the greatest we've ever had.\"\n\nYet the substance beneath the superlatives is more complicated. While stock indexes remain near record highs and unemployment is low, recent economic growth figures fell below expectations, and Americans have not seen the lower consumer prices Trump repeatedly pledged during his 2024 campaign. Policy proposals floated earlier in his term — caps on credit card interest rates, housing supply initiatives, and so-called \"tariff refund\" checks — have seen little legislative progress. Congressional Democrats have also blocked Department of Homeland Security funding, demanding new legal guardrails on immigration enforcement in a standoff that shows no signs of resolution.\n\nBeyond domestic concerns, Trump may use Tuesday's address to make the case for a potential military strike on Iran, a foreign policy escalation that could fundamentally reshape the political landscape heading into the midterms. Whether the president opts for conciliation or confrontation in his tone, the stakes are unusually high: in eight months, voters will render their verdict on the most aggressive exercise of executive power in modern American history.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -20,27 +20,113 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/af5d/live/056b9f50-116e-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cp859d8rn78o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T04:02:10.754Z"
+      "publishedAt": "2026-02-25T04:17:10.875Z"
     },
     {
-      "id": "ps-1771992145003-64hj",
-      "slug": "new-method-lets-carbon-storage-simulations-update-in-real-ti",
-      "headline": "New Method Lets Carbon Storage Simulations Update in Real Time",
-      "subheadline": "Researchers bypass costly retraining of surrogate models by adjusting existing operators, achieving near-identical accuracy hundreds of times faster",
-      "body": "A pair of researchers has developed a technique that could dramatically accelerate computational modeling for geological carbon storage projects, enabling real-time optimization without sacrificing physical accuracy.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, describe a lightweight approach to updating Dynamic Mode Decomposition (DMD) operators — a popular data-driven method for reducing the computational burden of multiphase reservoir simulations. The central problem they address is a persistent bottleneck: when subsurface properties like permeability change, or when well locations shift, existing DMD surrogate models become invalid and must be rebuilt from scratch using expensive new simulation data. That retraining process erodes much of the speed advantage that surrogate models are designed to provide.\n\nThe proposed solution introduces two complementary update strategies that modify an existing DMD model without generating new simulation snapshots. When permeability changes uniformly across the reservoir domain, the method adjusts the model's internal dynamics and control response to match the altered flow timescale. For spatially varying permeability changes — a more realistic scenario in heterogeneous geological formations — the approach modifies the spatial representation itself, weighting high-permeability zones more heavily in the model's reduced basis. In numerical experiments, the updated models reproduced plume migration patterns and pressure buildup to within three percent of a fully retrained surrogate, while executing hundreds of times faster than the conventional rebuild-from-scratch approach.\n\nThe implications for carbon capture and storage (CCS) operations are significant. As governments and industries invest billions in subsurface CO₂ sequestration, engineers need to run rapid what-if analyses to evaluate injection strategies, assess risk, and comply with regulatory monitoring requirements. High-fidelity multiphase flow simulators, while accurate, are computationally prohibitive for the iterative optimization and uncertainty quantification workflows that real-world projects demand. A method that preserves simulation fidelity while eliminating the retraining bottleneck could make real-time decision support practical for the first time in these settings.\n\nThe work sits at the intersection of computational physics, control theory, and engineering optimization, reflecting a broader trend in scientific computing toward adaptive surrogate models that can respond to changing conditions without returning to first principles. The paper, which carries a submission date of November 27, 2025, has been categorized under computational physics and computational engineering on arXiv.",
+      "id": "ps-1771993047611-df0l",
+      "slug": "new-method-updates-reservoir-simulations-hundreds-of-times-f",
+      "headline": "New Method Updates Reservoir Simulations Hundreds of Times Faster",
+      "subheadline": "Researchers show how to adapt data-driven surrogate models for carbon storage without costly retraining",
+      "body": "A pair of researchers has developed a technique that can update computational surrogate models for geological carbon storage projects hundreds of times faster than conventional retraining methods, while maintaining accuracy within three percent of a freshly built model.\n\nDimitrios Voulanas and Eduardo Gildin, in a paper posted to the arXiv preprint server, tackle a persistent bottleneck in subsurface modeling: the prohibitive cost of recalibrating data-driven simulations whenever reservoir properties change. Their work focuses on Dynamic Mode Decomposition (DMD), a popular framework that extracts reduced-order models from high-fidelity multiphase flow simulations. DMD models are prized for their speed, but they are trained on a specific set of reservoir parameters. When engineers need to explore scenarios with different rock permeabilities or well placements — routine tasks in carbon-storage optimization — the standard approach requires generating entirely new simulation snapshots and rebuilding the surrogate from scratch, negating much of the computational savings.\n\nThe proposed solution introduces two complementary update strategies that modify an existing DMD model without any new simulation data. For uniform changes in permeability across the reservoir domain, the method rescales the model's internal dynamics and control-input matrices to match the altered flow timescale. When permeability varies spatially — a more realistic and challenging scenario — the technique instead adjusts the spatial basis functions, weighting high-permeability zones more heavily in the model's reduced representation. In both cases, the updates are lightweight algebraic operations rather than full numerical retraining.\n\nNumerical experiments reported in the paper show the updated models accurately capture plume migration and pressure buildup, the two critical observables in carbon sequestration monitoring. The results stayed within three percent of surrogates that had been completely retrained on fresh data, yet the update procedure executed hundreds of times faster. For workflows that demand rapid what-if analyses — evaluating dozens of injection strategies or quantifying uncertainty across geological realizations — the speedup could prove transformative.\n\nThe research sits at the intersection of computational physics, optimization, and engineering, and is motivated by the growing urgency of carbon capture and storage as a climate mitigation tool. Reliable, fast surrogate models are essential for real-time decision-making in storage site management, where operators must balance injection rates, regulatory pressure limits, and long-term plume containment. By enabling on-the-fly model adaptation, the approach could lower the computational barrier to deploying these optimization loops in practice, bringing data-driven reservoir modeling closer to operational use.",
       "category": "physics",
-      "importance": 5,
+      "importance": 4,
       "tags": [
-        "carbon storage",
-        "dynamic mode decomposition",
-        "surrogate models",
-        "computational physics",
-        "reservoir simulation"
+        "dynamic-mode-decomposition",
+        "carbon-storage",
+        "surrogate-models",
+        "computational-physics",
+        "reservoir-simulation"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1681504787493-c5e3b8c16813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxjYXJib24lMjBzdG9yYWdlJTIwZHluYW1pYyUyMG1vZGUlMjBkZWNvbXBvc2l0aW9ufGVufDB8MHx8fDE3NzE5MTAyNTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1763773203625-e177a8644d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8ZHluYW1pYy1tb2RlLWRlY29tcG9zaXRpb24lMjBjYXJib24tc3RvcmFnZXxlbnwwfDB8fHwxNzcxOTEzODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.18441",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T04:02:25.003Z"
+      "publishedAt": "2026-02-25T04:17:27.611Z"
+    },
+    {
+      "id": "ps-1771993062370-fnyf",
+      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
+      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
+      "body": "A team at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms arranged in a five-membered ring — ending a nearly five-decade pursuit that saw repeated failures by research groups worldwide. The results, published February 24 in Science, were achieved independently and nearly simultaneously by a Japanese team at Tohoku University, with both papers appearing side by side in the same issue.\n\nAromatic molecules, characterized by electrons shared evenly across a flat ring structure in accordance with Hückel's rule, are among the most stable compounds in chemistry and underpin vast swaths of modern industry. Carbon-based aromatics are critical components in catalysts used to manufacture polyethylene, polypropylene, and countless other materials. Replacing carbon with silicon in such a ring had long been a theoretical possibility but a practical dead end. The only prior success came in 1981, when researchers managed to create a three-membered silicon aromatic ring — the silicon analogue of cyclopropenium. Every subsequent attempt to build larger silicon aromatic systems failed.\n\nThe breakthrough came from David Scheschkewitz, professor of general and inorganic chemistry at Saarland University, his doctoral student Ankur, and crystallographer Bernd Morgenstern, who confirmed the molecule's structure using X-ray diffraction. Their compound mirrors cyclopentadienide, the well-known carbon aromatic, but substitutes all five carbon atoms with silicon. Because silicon is more metallic than carbon and holds its electrons less tightly, the resulting molecule exhibits fundamentally different electronic properties — a distinction that could prove transformative for catalyst design and materials science.\n\nThe simultaneous and independent synthesis by Takeaki Iwamoto's group at Tohoku University in Sendai, Japan, underscores the achievement's significance and suggests the chemistry community had converged on the necessary techniques. Rather than competing, the two teams agreed to co-publish, a collegial arrangement that occasionally occurs when rival laboratories arrive at the same result.\n\nThe practical implications extend well beyond a laboratory curiosity. Silicon-based aromatics could serve as ligands in novel catalytic systems, potentially improving efficiency in industrial chemical processes or enabling reactions that carbon-based aromatics cannot support. While commercial applications remain years away, the synthesis of pentasilacyclopentadienide establishes a foundation that chemists can now build upon — expanding the periodic table's role in one of chemistry's most fundamental and industrially important molecular architectures.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "catalysis"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T04:17:42.370Z"
+    },
+    {
+      "id": "ps-1771993078529-bh9t",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and could swell to $1.5 billion if an additional $300 million from Uber materializes tied to robotaxi deployment in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including the Ontario Teachers' Pension Plan, Baillie Gifford, and the British Business Bank. Perhaps most notable is the involvement of three global automakers — Mercedes-Benz, Nissan, and Stellantis — all of which intend to integrate Wayve's technology into their vehicles. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic stake, though CEO Alex Kendall declined to specify the chipmaker's final commitment.\n\nFounded in 2017, Wayve has positioned itself as what Kendall calls the \"contrarian\" player in autonomous driving. Rather than building high-definition maps or locking its software to proprietary sensor suites — approaches favored by rivals — the company developed an end-to-end deep learning system that ingests data from whatever cameras, lidar, or radar an automaker already has installed and learns to drive from that data alone. Its latest Gen 3 platform, built on Nvidia's Drive AGX Thor computing hardware, supports both hands-on driver-assistance features and fully driverless Level 4 capabilities on city streets and highways.\n\nThe business model is equally distinctive. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles self-driving software with its own vehicles, Wayve sells its \"embodied AI\" as a licensing layer to OEMs and mobility platforms. Nissan plans to deploy Wayve's software in its advanced driver-assistance systems beginning in 2027, while Uber intends to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, spanning multiple vehicle manufacturers and geographies.\n\nThe massive raise underscores surging investor appetite for autonomous driving technology at a moment when the sector is transitioning from research to commercial deployment. Kendall framed the shift in competitive terms: \"The technology chessboard is set around where different companies have invested on the technology strategy, and now the commercial chessboard is being arranged.\" With commitments from three major automakers and a ride-hailing giant already in hand, Wayve appears to be betting that a hardware-agnostic, OEM-friendly approach can capture the largest addressable market in autonomy — provided its AI can generalize as reliably in the real world as its investors believe.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving",
+        "fundraising",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T04:17:58.529Z"
+    },
+    {
+      "id": "ps-1771993091866-eiv1",
+      "slug": "yen-reverses-course-as-japan-nominates-dovish-boj-board-memb",
+      "headline": "Yen Reverses Course as Japan Nominates Dovish BOJ Board Members",
+      "subheadline": "Prime Minister Takaichi's picks signal a slower path to monetary tightening, weakening the Japanese currency",
+      "body": "The Japanese yen gave back earlier gains against the U.S. dollar on Wednesday after Prime Minister Sanae Takaichi's government put forward two new nominees for the Bank of Japan's policy board who markets perceive as dovish on monetary policy.\n\nThe currency reversal underscores the sensitivity of yen trading to any signals about the BOJ's future rate trajectory. Japan's central bank has been on a cautious path of policy normalization after decades of ultra-loose monetary settings, and the composition of its nine-member board is closely watched for clues about the pace of further tightening. The nomination of officials seen as favoring a more accommodative stance suggests the Takaichi government may prefer a gradual approach to rate increases — or even a pause — at a time when Japan's economic recovery remains uneven.\n\nTakaichi, who took office advocating for policies supportive of economic growth, has previously expressed reservations about aggressive rate hikes, putting her at odds with market expectations that the BOJ would continue lifting borrowing costs. Wednesday's nominations appear consistent with that stance, effectively tilting the board's balance toward members less inclined to push for rapid tightening.\n\nThe yen's weakness has broad implications beyond currency markets. A softer yen boosts the competitiveness of Japanese exporters but raises the cost of energy and food imports, squeezing household budgets and complicating the BOJ's inflation calculus. For global investors, the nominations add another variable to an already complex picture as they assess the divergence between Japan's monetary policy and that of the U.S. Federal Reserve.\n\nThe nominees will require parliamentary approval before joining the BOJ board. Markets will be watching confirmation proceedings closely, as well as any forthcoming commentary from BOJ Governor Kazuo Ueda on how the new appointments might influence the bank's deliberations on the timing and scale of future rate decisions.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "yen",
+        "Bank of Japan",
+        "monetary policy",
+        "Sanae Takaichi",
+        "forex",
+        "Japanese economy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1648385001849-0619f6dce758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8eWVuJTIwQmFuayUyMG9mJTIwSmFwYW58ZW58MHwwfHx8MTc3MTkzNDYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/yen-reverses-gain-versus-dollar-after-dovish-boj-nominations",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T04:18:11.866Z"
+    },
+    {
+      "id": "ps-1771993108602-k6ub",
+      "slug": "stripe-weighs-potential-acquisition-of-paypal-in-blockbuster",
+      "headline": "Stripe Weighs Potential Acquisition of PayPal in Blockbuster Deal",
+      "subheadline": "A merger of the two payments giants would create a stablecoin and crypto infrastructure powerhouse valued in the hundreds of billions",
+      "body": "Stripe, the privately held payments processor valued at $159 billion, is exploring a potential acquisition of all or parts of publicly traded PayPal, according to a Bloomberg report published Tuesday. PayPal shares surged 7% on the news, adding to gains already driven by earlier buyout speculation.\n\nThe discussions are reportedly in their early stages, and no deal is assured. But the sheer scale of a combination — Stripe processed $1.9 trillion in transactions last year, while PayPal remains one of the world's most widely used digital payment platforms — would represent one of the largest fintech mergers ever contemplated. PayPal's stock has cratered roughly 80% from its 2021 peak, making the once-dominant fintech firm a more plausible acquisition target despite its still-substantial user base and brand recognition.\n\nWhat makes the potential deal particularly significant for the digital asset industry is the crypto and stablecoin infrastructure both companies have been aggressively building. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to approximately $4 billion in market capitalization. The stablecoin enables users to transfer dollars across blockchain networks around the clock, often at costs below traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is currently collaborating with venture firm Paradigm to develop Tempo, a payments-focused blockchain that is now in testing.\n\nA merger would effectively consolidate two of the most ambitious stablecoin strategies in traditional finance under a single corporate umbrella. Bridge's stablecoin transaction volume has reportedly quadrupled in recent months, demonstrating sustained demand for dollar-denominated tokens even amid broader crypto market turbulence. Combined with PayPal's consumer-facing PYUSD and its massive existing merchant network, the resulting entity could become the dominant force in stablecoin-based commerce — a market that many in the payments industry view as the most commercially viable application of blockchain technology to date.\n\nThe reported talks arrive at a moment of accelerating convergence between traditional payments and crypto rails. Meta is reportedly planning a stablecoin reentry in the second half of the year, while crypto-native exchanges like Coinbase and Kraken are expanding into traditional stock and ETF trading. A Stripe-PayPal combination would signal that the largest incumbents in digital payments see blockchain infrastructure not as an experimental sideshow but as core to the future of money movement.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T04:18:28.602Z"
     },
     {
       "id": "ps-1771992160961-h965",
@@ -63,28 +149,6 @@
       "publishedAt": "2026-02-25T04:02:40.961Z"
     },
     {
-      "id": "ps-1771992176729-tscn",
-      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
-      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6B, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that could swell to $1.5 billion with an additional $300 million from Uber tied to robotaxi deployment in London. The raise values the company at $8.6 billion and signals intensifying commercial interest in automated driving technology that can scale across vehicle platforms and geographies.\n\nEclipse, Balderton, and SoftBank Vision Fund 2 led the round, with new participants including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — invested alongside returning backers Microsoft, Nvidia, and Uber. Nvidia, which had publicly floated the possibility of a $500 million strategic investment, participated but declined to disclose its specific commitment.\n\nFounded in 2017, Wayve has staked its future on what CEO Alex Kendall describes as a \"contrarian\" approach to both technology and business. The company's end-to-end deep learning system requires no high-definition maps and is agnostic to specific sensors or computing hardware, learning to drive entirely from data. This flexibility enables two product lines: an \"eyes on\" advanced driver-assistance system and an \"eyes off\" fully autonomous system capable of Level 4 driverless operation on city streets and highways. Its Gen 3 platform, unveiled last fall, runs on Nvidia's Drive AGX Thor computing architecture.\n\nCritically, Wayve does not aspire to operate its own fleet of robotaxis, as Waymo does, nor to build vehicles bundled with proprietary software in the Tesla mold. Instead, it sells its \"embodied AI\" as a software layer to automakers and mobility platforms. Kendall argues this licensing model addresses the largest possible market but is only feasible because Wayve's AI generalizes across different hardware configurations and driving environments. Nissan plans to integrate the software into its advanced driver-assistance systems starting in 2027, while Uber intends to launch commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide.\n\nThe size and composition of the round underscores how the autonomous driving industry is entering a decisive commercial phase. Where earlier fundraising cycles were dominated by pure venture capital, this round draws pension funds, sovereign-adjacent capital, and three of the world's largest car manufacturers — each betting that software, not vertically integrated hardware stacks, will define the next era of mobility. Whether Wayve's sensor- and map-agnostic approach can deliver on its promise of universal scalability will be tested in earnest as London robotaxi trials and Nissan integrations begin over the next 18 months.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "fundraising",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T04:02:56.729Z"
-    },
-    {
       "id": "ps-1771992192121-jwgs",
       "slug": "foreign-investors-pour-into-taiwan-stocks-at-fastest-pace-in",
       "headline": "Foreign Investors Pour Into Taiwan Stocks at Fastest Pace in Two Decades",
@@ -104,49 +168,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T04:03:12.121Z"
-    },
-    {
-      "id": "ps-1771992208346-s87v",
-      "slug": "stripe-explores-paypal-acquisition-in-potential-payments-meg",
-      "headline": "Stripe Explores PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination of the two fintech giants would create a stablecoin and crypto payments powerhouse valued well above $200 billion",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, sending PayPal shares surging 7% in late trading and signaling what could become one of the largest fintech deals in history.\n\nThe deliberations are in early stages and may not result in a transaction, Bloomberg reported. But the mere prospect of a combination has electrified markets and the digital payments industry. Stripe, which processed $1.9 trillion in transactions last year and carried a private valuation of $159 billion in its most recent funding round, would be absorbing a publicly traded rival whose stock has plummeted roughly 80% from its 2021 peak. PayPal shares had already been climbing this week on earlier buyout speculation before the Stripe report added fresh momentum.\n\nThe strategic logic extends well beyond traditional payment processing. Both companies have made significant bets on stablecoins and blockchain infrastructure — the technology layer that enables dollar-denominated tokens to move across crypto networks around the clock, often faster and cheaper than conventional bank transfers. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has since grown to a market capitalization of approximately $4 billion. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm to build Tempo, a payments-focused blockchain currently in testing.\n\nA merged entity would control an enormous share of global online payment volume while possessing complementary crypto assets: PayPal's consumer-facing stablecoin with established adoption, and Stripe's developer-oriented tools for issuing and managing dollar-backed tokens. The combination could accelerate the shift toward blockchain-based settlement rails across e-commerce, cross-border remittances, and business-to-business transactions — areas where traditional banking infrastructure remains slow and costly.\n\nThe potential deal arrives at a moment when major technology and financial companies are racing to embed stablecoin capabilities into their platforms. Meta is reportedly planning a stablecoin relaunch in the second half of this year, while exchanges like Coinbase and Kraken are expanding into tokenized stock trading. If Stripe moves forward with a PayPal bid, the resulting company would arguably become the most formidable private-sector force in the emerging stablecoin economy, bridging the gap between legacy payments and crypto-native finance at a scale no competitor currently matches.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "Bridge"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T04:03:28.346Z"
-    },
-    {
-      "id": "ps-1771991255924-14u7",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Saarland University team creates pentasilacyclopentadienide, a breakthrough that could unlock new catalysts and materials",
-      "body": "Chemists at Germany's Saarland University have synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms in place of carbon — ending a nearly five-decade quest that saw repeated failures by research groups worldwide. The results, published February 24 in Science, represent the first five-membered all-silicon aromatic ring ever created and could reshape how chemists think about silicon-based materials and industrial catalysts.\n\nThe achievement, led by Professor David Scheschkewitz and doctoral student Ankur, with crystallographic confirmation by Bernd Morgenstern of Saarland's X-Ray Diffraction Service Centre, required replacing every carbon atom in cyclopentadienide — a classic aromatic hydrocarbon — with silicon. Aromatic molecules derive their exceptional stability from electrons that are evenly delocalized around a flat ring structure, a property governed by Hückel's rule. Replicating that stability with silicon, which is more metallic than carbon and holds its electrons less tightly, had long been considered a formidable challenge, if not an outright impossibility.\n\nPrior to this work, only one silicon aromatic compound was known: a three-membered silicon ring analogous to cyclopropenium, first produced in 1981. Every attempt over the intervening decades to extend aromaticity to larger silicon ring systems had failed. In a striking coincidence, a team led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound at nearly the same time. The two groups agreed to publish their findings side by side in the same issue of Science, lending additional weight to the discovery's validity.\n\nThe implications extend well beyond the laboratory. Aromatic compounds already play a critical role in industrial chemistry — stabilizing and improving the catalysts used to manufacture polyethylene, polypropylene, and other ubiquitous plastics. Because silicon's electronic properties differ fundamentally from carbon's, pentasilacyclopentadienide could serve as a building block for entirely new classes of catalysts and functional materials with properties that carbon-based aromatics cannot achieve.\n\nFor a field accustomed to incremental progress, the simultaneous breakthroughs from two continents signal that silicon aromatic chemistry has crossed a decisive threshold. Whether these molecules ultimately find their way into next-generation plastics, advanced electronics, or applications not yet imagined, the foundational barrier has now been cleared.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon",
-        "aromatic chemistry",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "materials science",
-        "catalysts"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T03:47:35.924Z"
     },
     {
       "id": "ps-1771991271119-f5nx",
@@ -1033,26 +1054,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/24/waymo-robotaxis-are-now-operating-in-10-us-cities/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-24T14:03:14.463Z"
-    },
-    {
-      "id": "ps-1771941826490-6sqg",
-      "slug": "moonpay-launches-financial-infrastructure-for-autonomous-ai-",
-      "headline": "MoonPay Launches Financial Infrastructure for Autonomous AI Agents",
-      "subheadline": "New non-custodial service lets AI bots trade, swap, and move crypto funds after a one-time user verification",
-      "body": "Cryptocurrency payments company MoonPay on Tuesday unveiled a new service designed to give artificial intelligence agents autonomous access to wallets and financial transactions, marking one of the most concrete efforts yet to build economic infrastructure for the emerging AI agent ecosystem.\n\nThe product, called MoonPay Agents, operates on a non-custodial, permissionless model. A human user completes a one-time know-your-customer verification, connects a payment method through MoonPay's checkout system, and funds a wallet. From that point forward, the AI agent can independently execute trades, swap tokens, move funds across chains, and off-ramp back to fiat currency — all without further human intervention for each transaction.\n\n\"AI agents can reason, but they cannot act economically without capital infrastructure,\" said Ivan Soto-Wright, MoonPay's CEO and founder, in a statement. \"MoonPay is the bridge between AI and money. The fastest way to move money is crypto, and we've built the infrastructure to let agents do exactly that.\" The company framed the launch as addressing a fundamental bottleneck: while AI agents have grown increasingly capable of analyzing markets, allocating capital, and devising trading strategies, they have lacked direct access to the financial plumbing needed to act on those capabilities.\n\nThe announcement arrives at a moment when the crypto industry is aggressively courting the AI sector, betting that blockchain-based rails offer the speed and programmability that autonomous software agents require. Unlike traditional banking infrastructure, which demands human authorization at multiple steps, crypto wallets can be controlled programmatically — making them a natural fit for AI-driven finance. MoonPay's approach retains the human in the loop at the onboarding stage, a design choice that may help the company navigate regulatory scrutiny around anti-money-laundering requirements while still enabling fully autonomous operation thereafter.\n\nThe launch comes amid broader turbulence in crypto markets, with Bitcoin hovering near $62,890 on Tuesday, down nearly 5% and approaching what analysts have described as a liquidation zone. Whether AI agents will prove to be sophisticated market participants or merely accelerate volatility remains an open question. MoonPay, which has built its business as a fiat-to-crypto onramp used by major platforms, is betting that the agent economy will become a significant new source of transaction volume — and that the companies providing the financial plumbing will capture outsized value.",
-      "category": "tech",
-      "importance": 6,
-      "tags": [
-        "MoonPay",
-        "AI agents",
-        "cryptocurrency",
-        "fintech",
-        "autonomous finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/8765709b8aa8f6d33d06e4a09cc4f1210058dd8c-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/moonpay-unveils-ai-onramp-for-brave-new-agent-economy",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-24T14:03:46.490Z"
     }
   ]
 }
