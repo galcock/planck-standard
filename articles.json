@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-02-25T10:18:20.143Z",
+  "lastUpdated": "2026-02-25T10:33:28.680Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772014621673-er2q",
+      "id": "ps-1772015529821-eluo",
       "slug": "cartel-rampage-leaves-puerto-vallarta-reeling-as-tourists-fl",
       "headline": "Cartel Rampage Leaves Puerto Vallarta Reeling as Tourists Flee Resort City",
-      "subheadline": "Burnt vehicles and widespread damage visible across the popular Mexican coastal destination after Sunday's violent attack",
-      "body": "Puerto Vallarta, one of Mexico's most popular tourist destinations, is struggling to restore normalcy after a violent cartel rampage swept through the Jalisco state resort city on Sunday, leaving burnt-out vehicles and visible destruction across multiple areas.\n\nBBC correspondent Will Grant, reporting from the scene, described lines of charred cars in a Costco parking lot and cleanup operations underway throughout the city. The attack — which terrorized both residents and visitors — left tourists stranded and scrambling to reach Puerto Vallarta's international airport to leave. The coastal city, which draws millions of international visitors annually with its Pacific beaches and vibrant boardwalk, found itself at the center of a brazen display of cartel power that underscores the persistent security challenges facing Mexico's tourism economy.\n\nThe violence is believed to be linked to operations by cartels active in Jalisco, a state long associated with the Jalisco New Generation Cartel (CJNG), one of Mexico's most powerful and aggressive criminal organizations. While cartel violence has periodically disrupted life in Mexican states, attacks that directly impact major tourist corridors carry outsized economic and diplomatic consequences. Puerto Vallarta's tourism sector, a critical economic engine for the region, faces potential fallout as images of the destruction circulate internationally.\n\nMexican authorities have not yet released a comprehensive account of casualties or arrests stemming from Sunday's rampage. The city's efforts to return to normal operations — clearing debris, reopening businesses, and facilitating tourist departures — signal an urgency to contain reputational damage. However, the scale of the visible destruction, with multiple vehicles torched in a commercial area frequented by locals and visitors alike, suggests the attack was both coordinated and intended to send a message.\n\nThe incident adds to growing concerns about security in Mexican states where cartel activity intersects with tourism infrastructure. For Puerto Vallarta, which has historically been considered safer than other cartel-affected regions, Sunday's violence marks a troubling escalation that could reshape travel advisories and visitor confidence in the months ahead.",
+      "subheadline": "Burned vehicles and widespread damage mark aftermath of Sunday's violence in Mexico's popular Jalisco coastal town",
+      "body": "Puerto Vallarta, one of Mexico's most popular tourist destinations, is struggling to restore order after a violent cartel rampage tore through the coastal resort city on Sunday, leaving burned-out vehicles and visible destruction across the area.\n\nBBC correspondent Will Grant, reporting from the scene, documented lines of charred cars in a Costco parking lot and widespread cleanup efforts underway throughout the city. The violence, attributed to cartel activity in the state of Jalisco — home to one of Mexico's most powerful criminal organizations, the Jalisco New Generation Cartel (CJNG) — sent shockwaves through a community heavily dependent on international tourism. Tourists who had been trapped during the violence were making their way to Puerto Vallarta's international airport as the city attempted to return to normalcy.\n\nThe attack represents a dramatic escalation of cartel violence in a region that Mexican authorities have long sought to shield from the country's broader security crisis. Puerto Vallarta, situated on the Pacific coast, draws millions of visitors annually with its beaches, restaurants, and resort infrastructure. Violence of this scale in such a high-profile tourist zone threatens not only immediate public safety but the economic lifeblood of the region.\n\nJalisco state has been a flashpoint for cartel conflict for years, with the CJNG frequently clashing with rival organizations and Mexican security forces. The group has previously employed tactics including vehicle blockades and arson to assert territorial control and intimidate both authorities and civilians. Sunday's rampage follows that pattern, though targeting a major tourist hub raises the stakes considerably for both state and federal governments.\n\nMexican authorities have not yet released a full accounting of casualties or arrests connected to the violence. The incident is likely to intensify pressure on President Claudia Sheinbaum's administration, which has pursued a security strategy emphasizing social programs alongside law enforcement. For Puerto Vallarta's residents and business owners, the immediate priority remains cleanup and reassuring the international visitors whose spending sustains the local economy.",
       "category": "breaking",
       "importance": 7,
       "tags": [
         "Mexico",
-        "Puerto Vallarta",
         "cartel violence",
+        "Puerto Vallarta",
         "Jalisco",
         "tourism",
         "CJNG"
@@ -21,14 +21,14 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/30c9/live/a150d4e0-120d-11f1-801d-ed3cff6bf876.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cly07z35dn4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T10:17:01.673Z"
+      "publishedAt": "2026-02-25T10:32:09.821Z"
     },
     {
-      "id": "ps-1772014638026-zpmk",
+      "id": "ps-1772015545977-tshm",
       "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
       "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now specify the geometry and materials needed to produce structures with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — exotic structures that simultaneously shrink when heated and expand laterally when stretched. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing bottleneck in metamaterial engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are built from hybrid-honeycomb lattices composed of two different base materials. By tuning the geometry and material composition, these structures can exhibit both negative coefficients of thermal expansion and negative Poisson's ratios — a rare and highly useful combination for aerospace, precision instruments, and other applications where thermal distortion must be tightly controlled. The challenge is that the design space is enormous: countless combinations of geometrical parameters and material pairings map onto the target thermoelastic behavior, making brute-force exploration impractical.\n\nTo tackle this, Peng and Xu first generated a large dataset using computational homogenization, systematically varying lattice geometries and base material properties to calculate effective thermoelastic responses. They then trained a forward neural network model that can rapidly predict a structure's bulk properties from its design parameters, replacing expensive finite-element simulations. The real advance, however, lies in six distinct inverse models, each tailored to different design scenarios — some targeting specific effective properties while leaving material choice open, others working with fixed base materials and optimizing geometry alone. The trained forward model was embedded directly into the loss functions of the inverse networks, enforcing physical consistency during training.\n\nThe approach demonstrated strong predictive accuracy across representative design examples, suggesting it could serve as a practical tool for engineers who need metamaterials with precisely specified thermal and mechanical behavior. By reducing what would otherwise be a computationally grueling optimization problem to a near-instantaneous neural network query, the framework could accelerate the deployment of thermoelastic metamaterials in next-generation engineering systems — from satellite components that must maintain dimensional stability across extreme temperature swings to adaptive structural elements in civil infrastructure.\n\nThe work sits at the intersection of materials science and artificial intelligence, joining a growing body of research that uses data-driven methods to navigate the vast design spaces of architected materials. While the current study focuses on two-dimensional honeycomb lattices, the methodology is general enough that extensions to three-dimensional structures and more complex multi-physics objectives appear straightforward.",
+      "subheadline": "Neural network models can now reverse-engineer lattice structures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a machine learning framework that can design bimaterial metamaterials exhibiting two counterintuitive properties simultaneously — negative thermal expansion and negative Poisson's ratios — potentially accelerating their deployment in aerospace, precision instruments, and other demanding engineering applications.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe a suite of neural network models that solve the notoriously difficult inverse design problem for thermoelastic lattice metamaterials. Rather than the conventional trial-and-error approach of tweaking a structure's geometry and hoping it yields desired thermal and mechanical behavior, their system works backward: engineers specify the properties they want, and the models output the geometric features and base material combinations needed to achieve them.\n\nThe metamaterials in question are based on bimaterial hybrid-honeycomb structures — lattices constructed from two different materials whose mismatched thermal expansion drives exotic collective behavior. When heated, these structures can actually contract, and when compressed in one direction, they shrink in perpendicular directions as well. Such properties are exceedingly rare in nature but highly valuable for applications requiring dimensional stability under temperature swings, such as satellite components or optical mounts.\n\nTo train their models, the researchers generated a large dataset through computational homogenization, systematically varying both the geometric parameters of the lattice and the properties of the constituent base materials. A forward model was first trained to predict effective thermoelastic properties from a given design — essentially learning the physics of the structure. Six distinct inverse models were then developed to handle different design scenarios, defined by various combinations of target properties and adjustable structural variables. The forward model was embedded directly into the inverse models' loss functions, a technique that enforces physical consistency during training and allows the generation of additional training data for cases where base materials are fixed.\n\nThe approach addresses a practical bottleneck in metamaterial engineering. While the theoretical principles behind negative thermal expansion and auxetic (negative Poisson's ratio) behavior are well understood, the design space for bimaterial lattices is vast and computationally expensive to explore with traditional finite-element simulations alone. The machine learning pipeline reduces what could be weeks of simulation to near-instantaneous prediction, opening the door to rapid prototyping and application-specific optimization. The researchers demonstrated the framework's accuracy through representative design examples, showing strong agreement between ML-predicted designs and their target properties.",
       "category": "physics",
       "importance": 5,
       "tags": [
@@ -39,10 +39,96 @@
         "materials science",
         "neural networks"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1758876377882-6ae5b186b6e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1701524251959-80545bb64402?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T10:17:18.026Z"
+      "publishedAt": "2026-02-25T10:32:25.977Z"
+    },
+    {
+      "id": "ps-1772015561009-vntb",
+      "slug": "chemists-synthesize-impossible-silicon-aromatic-molecule-aft",
+      "headline": "Chemists Synthesize 'Impossible' Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Saarland University team replaces all carbon atoms in a ring-shaped compound with silicon, opening a new frontier in chemistry",
+      "body": "A team of chemists at Saarland University in Germany has synthesized pentasilacyclopentadienide — a five-atom silicon ring that exhibits full aromatic stability — ending a nearly half-century quest that saw research groups worldwide fail repeatedly to produce the compound. The results were published on February 24 in Science.\n\nAromatic molecules, characterized by electrons shared evenly across a flat ring structure according to Hückel's rule, are among the most stable compounds in chemistry and underpin vast swaths of modern industry. They play critical roles as components of catalysts used in the production of polyethylene, polypropylene, and other plastics. Until now, however, the only known silicon-based aromatic was a three-membered silicon ring created in 1981 as an analogue of cyclopropenium. Every attempt to build a larger all-silicon aromatic system had ended in failure.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, along with doctoral student Ankur and crystallographer Bernd Morgenstern, succeeded by replacing all five carbon atoms in cyclopentadienide — the classic carbon aromatic — with silicon. Because silicon is more metallic than carbon and holds its electrons less tightly, the resulting compound could give rise to entirely new classes of catalysts and materials with properties distinct from their carbon-based counterparts. \"Aromatic compounds help make the catalysts that control these industrial chemical processes more durable and more effective,\" Scheschkewitz said, pointing to potential downstream applications.\n\nIn a striking coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same molecule at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science — a rare arrangement that underscores both the significance and the competitiveness of the result.\n\nThe breakthrough is expected to lay groundwork for an expanded field of silicon-based chemistry. While carbon aromatics have been studied for more than 150 years — the name \"aromatic\" itself dates to 19th-century discoveries of pleasant-smelling ring compounds — their silicon counterparts remain almost entirely unexplored. Researchers now have a stable platform from which to investigate how silicon's distinct electronic properties might be harnessed in next-generation materials, industrial catalysts, and chemical processes that carbon alone cannot deliver.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon chemistry",
+        "aromatic molecules",
+        "Saarland University",
+        "materials science",
+        "catalysis",
+        "pentasilacyclopentadienide"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T10:32:41.009Z"
+    },
+    {
+      "id": "ps-1772015576579-e608",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "London-based autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusual coalition of tech giants, automakers, and institutional investors — a deal that could swell to $1.5 billion if Uber exercises an additional $300 million contingent on the deployment of robotaxis in London.\n\nThe round, which values Wayve at $8.6 billion, was led by Eclipse, Balderton, and SoftBank Vision Fund 2. Three global automakers — Mercedes-Benz, Nissan, and Stellantis — participated alongside returning backers Microsoft, Nvidia, and Uber. New institutional investors include Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Nvidia, which had previously signaled it was evaluating a $500 million strategic investment, did participate, though CEO Alex Kendall declined to disclose the chipmaker's exact commitment.\n\nFounded in 2017, Wayve has positioned itself as what Kendall calls the \"contrarian\" option in the autonomous driving race. Rather than building its own vehicles like Tesla or operating robotaxi fleets like Waymo, Wayve licenses its end-to-end deep learning software to automakers and mobility platforms. The technology requires no high-definition maps, is hardware-agnostic — running on whatever sensors and chips an automaker already has installed — and learns to drive purely from data. Its latest Gen 3 platform, built on Nvidia's Drive AGX Thor compute kit, supports both assisted-driving features and fully driverless Level 4 capabilities on city streets and highways.\n\nThe commercial traction is already materializing. Nissan has committed to integrating Wayve's software into its advanced driver-assistance systems starting in 2027. Uber plans to begin commercial trials with Wayve-equipped vehicles later this year, with CEO Dara Khosrowshahi signaling plans to deploy together in more than 10 markets worldwide across multiple vehicle manufacturers. The breadth of that partnership suggests Uber sees Wayve's platform as a scalable backbone for its autonomous ridehail ambitions.\n\nThe size and diversity of the investor syndicate underscore a broader industry conviction that the autonomous driving market is entering its commercialization phase. Kendall argues that Wayve's hardware-agnostic, licensing-based model addresses the largest possible market — but only because the company built an AI system that generalizes across different vehicles and environments. \"If you build an autonomy stack that's specific to a sensor or compute architecture, you can't take this path,\" he said. With three major automakers now both investors and customers, Wayve appears to be building the kind of ecosystem lock-in that could make its approach difficult to dislodge.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "AI",
+        "fundraising"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T10:32:56.579Z"
+    },
+    {
+      "id": "ps-1772015593090-kz84",
+      "slug": "nvidia-s-wednesday-earnings-report-looms-over-jittery-ai-mar",
+      "headline": "Nvidia's Wednesday Earnings Report Looms Over Jittery AI Market",
+      "subheadline": "The chipmaker's results arrive as investors grapple with mounting uncertainty over the AI trade's staying power",
+      "body": "Nvidia Corp. is set to report quarterly earnings on Wednesday afternoon, an event that has taken on outsized significance for a U.S. stock market increasingly defined — and potentially imperiled — by its fixation on artificial intelligence.\n\nThe chipmaker's results land at a moment of elevated anxiety among investors who have watched AI-linked stocks become the dominant force in equity markets over the past two years. Nvidia, whose graphics processing units serve as the computational backbone of modern AI training and inference, has become the single most consequential earnings report on Wall Street — a bellwether not just for the semiconductor industry but for the broader market's most crowded trade. Any sign that demand is decelerating, margins are compressing, or that customers are pulling back on data center spending could ripple far beyond Nvidia's own share price.\n\nThe stakes are particularly acute because market concentration in AI names has reached levels that leave portfolios vulnerable to sharp reversals on disappointing signals from even a single company. Major technology firms including Microsoft, Meta Platforms, Alphabet, and Amazon have collectively pledged hundreds of billions of dollars in capital expenditure on AI infrastructure — spending that flows disproportionately through Nvidia's supply chain. Investors will be scrutinizing not only Nvidia's backward-looking revenue and profit figures but also its forward guidance for clues about whether that capital expenditure cycle is sustaining its momentum or beginning to plateau.\n\nAdding to the tension, the broader macro environment has grown more uncertain in recent months. Questions about the pace of AI monetization, the competitive threat from custom silicon and alternative chip architectures, and evolving U.S. export restrictions on advanced semiconductors to China have all contributed to a more cautious posture among institutional investors. Nvidia's report will serve as a real-time stress test for the market's most consequential thesis: that AI spending is durable, scalable, and still in its early innings.\n\nWednesday's after-hours release will likely set the tone for equity markets heading into the final trading days of February, with options pricing implying a significant move in either direction. For a market that has wagered heavily on the AI revolution, Nvidia's numbers will be more than an earnings report — they will be a verdict on conviction.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "stock market",
+        "semiconductors",
+        "AI spending"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1595714004311-8a4ca448c20e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxudmlkaWFzJTIwd2VkbmVzZGF5JTIwZWFybmluZ3N8ZW58MHwwfHx8MTc3MjAxNTU5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/nvidia-earnings-loom-as-risk-factor-for-ai-obsessed-stock-market",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T10:33:13.090Z"
+    },
+    {
+      "id": "ps-1772015608587-xmt2",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination of the two fintech giants would create a stablecoin and crypto payments powerhouse valued in the hundreds of billions",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would reshape the global payments landscape and consolidate two of the industry's most ambitious crypto and stablecoin operations under one roof. PayPal shares jumped 7% on the news.\n\nThe deliberations remain in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of a combination is staggering. Stripe, the privately held payments infrastructure company, processed $1.9 trillion in transactions last year and was recently valued at $159 billion. PayPal, once the dominant name in online payments, has seen its stock decline roughly 80% from record highs set in 2021, making it a more digestible target despite its enormous footprint.\n\nWhat makes the potential tie-up particularly significant for digital asset markets is the convergence of both companies' stablecoin strategies. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos. The token has since grown to approximately $4 billion in market capitalization and enables users to transfer dollars across crypto networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure firm Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would unite PYUSD's consumer-facing adoption with Bridge's enterprise tooling for issuing dollar-backed tokens.\n\nPayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fuel. The company's prolonged slump — driven by intensifying competition from Apple Pay, Stripe itself, and a host of buy-now-pay-later services — has made it an increasingly attractive acquisition candidate. For Stripe, absorbing PayPal's merchant network and consumer brand could accelerate its push beyond developer-focused payment APIs into a broader commerce ecosystem.\n\nThe potential deal arrives at a moment when stablecoins are emerging as one of the fastest-growing segments of digital finance, with total market capitalization across all tokens now well exceeding $150 billion. A combined Stripe-PayPal entity would instantly become the most formidable traditional finance player in the stablecoin arena, potentially reshaping how businesses and consumers move dollars globally.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T10:33:28.587Z"
     },
     {
       "id": "ps-1772014655987-wr77",
@@ -107,49 +193,6 @@
       "publishedAt": "2026-02-25T10:18:03.757Z"
     },
     {
-      "id": "ps-1772014700055-jawk",
-      "slug": "stripe-explores-potential-paypal-acquisition-in-payments-meg",
-      "headline": "Stripe Explores Potential PayPal Acquisition in Payments Megadeal",
-      "subheadline": "A combination of the two payments giants would create a stablecoin powerhouse processing trillions in annual volume",
-      "body": "Stripe is weighing a possible acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, sending PayPal shares surging 7% in a deal that would reshape the global payments landscape and consolidate significant stablecoin infrastructure under one roof.\n\nThe deliberations are in early stages, according to the report, and there is no certainty a transaction will materialize. But the sheer scale of a potential combination is staggering. Stripe, which processed $1.9 trillion in payment volume last year and carries a private valuation of $159 billion, would be absorbing a publicly traded company that, despite an approximately 80% decline from its 2021 highs, remains one of the most widely used digital payments platforms in the world. PayPal shares had already been climbing this week on buyout speculation before the Bloomberg report added further momentum.\n\nWhat makes the potential deal particularly consequential for the digital asset industry is the crypto and stablecoin footprint each company has built independently. PayPal launched its dollar-backed stablecoin PYUSD through issuer Paxos in 2022, and the token has since grown to roughly $4 billion in market capitalization. The stablecoin enables users to transfer dollars across blockchain networks around the clock, often at lower cost than traditional bank transfers. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would unite PYUSD's consumer-facing adoption with Bridge's enterprise tooling for issuing dollar-backed tokens.\n\nThe strategic logic extends beyond crypto. Stripe has historically focused on powering online commerce for businesses, while PayPal built its brand around consumer-to-consumer transfers and checkout experiences. A combined entity could offer end-to-end payment processing spanning both sides of a transaction, from merchant acceptance to consumer wallet, with stablecoin rails serving as connective tissue. The deal would also give Stripe immediate access to PayPal's massive user base and its Venmo platform.\n\nFor the broader stablecoin market, a Stripe-PayPal combination could accelerate mainstream adoption of blockchain-based payments. With traditional payment processors increasingly viewing stablecoins not as speculative instruments but as practical infrastructure for moving money, a merged entity commanding trillions in annual volume would represent the most significant institutional endorsement of crypto payment rails to date. Whether the deal ultimately comes together remains uncertain, but the mere prospect signals how deeply stablecoins have embedded themselves in the future plans of the payments industry's largest players.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "stablecoins",
-        "PYUSD",
-        "mergers and acquisitions",
-        "fintech",
-        "payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T10:18:20.055Z"
-    },
-    {
-      "id": "ps-1772013753300-8x7c",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Saarland University team creates pentasilacyclopentadienide, replacing carbon with silicon in a stable aromatic ring",
-      "body": "A team of chemists at Saarland University in Germany has synthesized pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms — ending a nearly five-decade quest that saw repeated failures by research groups worldwide. The results, published February 24 in Science, could unlock an entirely new branch of silicon-based chemistry with implications for catalysts and advanced materials.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. The team succeeded in constructing a flat, five-membered ring of silicon atoms that satisfies Hückel's rule — the mathematical criterion for aromaticity requiring a specific number of electrons to be evenly delocalized around a planar ring. Aromatic molecules are prized in chemistry for their exceptional stability, and their carbon-based versions underpin vast swathes of modern industry, from plastics manufacturing to pharmaceutical synthesis.\n\nThe significance of the achievement lies in the fundamental differences between silicon and carbon. Silicon is more metallic and holds its electrons less tightly, meaning that silicon-based aromatic compounds could exhibit chemical behavior with no carbon-based analog. \"In polyethylene and polypropylene production, for example, aromatic compounds help make the catalysts that control these industrial chemical processes more durable and more effective,\" Scheschkewitz explained, suggesting that silicon aromatics could eventually yield catalysts and materials with novel and potentially superior properties.\n\nPrior to this work, only one silicon aromatic compound had ever been made: a three-membered silicon ring analogous to cyclopropenium, first synthesized in 1981. Every subsequent attempt to extend silicon aromaticity to larger ring systems had failed, leading some chemists to question whether it was possible at all. In a remarkable coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently produced the same compound at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science, lending additional confirmation to the result.\n\nThe breakthrough opens what researchers describe as a new frontier in inorganic chemistry. With a stable five-membered silicon aromatic ring now in hand, chemists have a platform from which to explore larger silicon ring systems, hybrid compounds, and catalytic applications that were previously confined to theoretical speculation. After half a century of pursuit, the first decisive step into this uncharted chemical territory has been taken.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon chemistry",
-        "aromatic molecules",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "materials science",
-        "inorganic chemistry"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T10:02:33.300Z"
-    },
-    {
       "id": "ps-1772013782709-wjfm",
       "slug": "nippon-steel-raises-record-3-9-billion-in-japan-s-largest-co",
       "headline": "Nippon Steel Raises Record $3.9 Billion in Japan's Largest Convertible Bond Deal",
@@ -188,29 +231,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T09:47:06.397Z"
-    },
-    {
-      "id": "ps-1772012876875-o4zs",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusual coalition of tech giants, automakers, and institutional investors — a deal that could swell to $1.5 billion if Uber exercises an additional $300 million commitment tied to robotaxi deployments starting in London. The raise values the company at $8.6 billion and signals intensifying competition in the commercialization of self-driving technology.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from Mercedes-Benz, Nissan, and Stellantis — all three of which plan to integrate Wayve's software into their vehicles. Returning backers Microsoft, Nvidia, and Uber also invested, though the company declined to specify individual contribution amounts. Nvidia had previously indicated it was evaluating a $500 million strategic stake. New institutional investors include the Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked its position on what Kendall describes as a \"contrarian\" approach to both technology and business strategy. Rather than relying on high-definition maps or bespoke sensor configurations, the company built an end-to-end deep learning system that ingests data from whatever sensors and chips an automaker already has installed. This hardware-agnostic architecture enables Wayve to offer two distinct products: an assisted-driving system requiring driver attention, and a fully automated Level 4 system capable of handling all driving tasks in defined environments. Its Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor compute kit, will power both offerings across city streets and highways.\n\nCritically, Wayve has no ambitions to operate fleets or build vehicles. Instead, it sells its \"embodied AI\" as a software layer to automakers and mobility platforms — a licensing model Kendall argues captures the largest addressable market in autonomous driving. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems beginning in 2027, while Uber plans to launch commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies intend to deploy together in more than 10 markets worldwide, spanning multiple vehicle manufacturers and geographies.\n\nThe massive funding round underscores a broader industry shift as autonomous driving moves from research into commercial reality. While Tesla bundles its self-driving software with its own hardware and Waymo largely operates its own robotaxi fleet, Wayve is betting that a platform-neutral approach — one that works across different automakers, sensor suites, and computing architectures — will ultimately prove more scalable. Whether that contrarian wager pays off will depend on how quickly the technology performs in real-world deployments and whether regulators in the UK and beyond keep pace with the ambition.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "self-driving",
-        "Nvidia",
-        "Uber",
-        "artificial intelligence",
-        "robotaxis",
-        "fundraising"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T09:47:56.875Z"
     },
     {
       "id": "ps-1772012892029-5gbk",
@@ -1035,26 +1055,6 @@
       "sourceUrl": "https://www.coindesk.com/policy/2026/02/24/millions-in-crypto-funded-tools-to-exploit-u-s-software-treasury-says-in-new-sanctions",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-24T20:33:22.949Z"
-    },
-    {
-      "id": "ps-1771963394890-h44m",
-      "slug": "trump-s-european-envoys-upend-traditional-diplomatic-norms",
-      "headline": "Trump's European Envoys Upend Traditional Diplomatic Norms",
-      "subheadline": "U.S. ambassadors across Europe are breaking with longstanding protocol, drawing formal rebukes from host governments",
-      "body": "The Trump administration's diplomatic corps in Europe is charting a dramatically unconventional course, with American ambassadors abandoning decades of protocol by publicly wading into the domestic politics of their host nations — and drawing sharp pushback from allied governments in the process.\n\nThe tensions were underscored recently when Bill White, President Donald Trump's ambassador to Belgium and the European Union institutions in Brussels, was summoned by the Belgian foreign ministry over what officials described as undiplomatic interventions into the country's internal political affairs. White did appear when called — a detail that itself has become noteworthy given the broader pattern of Trump-appointed envoys testing the boundaries of traditional diplomatic conduct across the continent.\n\nThe incidents reflect a deliberate strategy by the administration to install politically aligned loyalists in key European postings, where they have used their platforms to amplify MAGA-aligned messaging on issues ranging from immigration and defense spending to cultural policy. The approach represents a stark departure from the conventional role of ambassadors, who have historically acted as quiet interlocutors focused on maintaining bilateral relationships rather than publicly pressuring host governments.\n\nFor European capitals already navigating a strained transatlantic relationship marked by trade disputes and disagreements over security burden-sharing, the rhetorical escalations from U.S. envoys have added a new layer of friction. Several governments have lodged formal or informal protests, and foreign policy analysts warn that the confrontational posture risks eroding the institutional trust that has underpinned the Western alliance since the postwar era. The diplomatic ruptures come at a particularly sensitive moment, as European nations grapple with rising defense costs and shifting security calculations.\n\nThe pattern suggests that the administration views its ambassadors less as traditional diplomats and more as political operatives tasked with advancing the president's agenda abroad — a transformation of the role that could have lasting consequences for how the United States engages with its oldest allies.",
-      "category": "breaking",
-      "importance": 7,
-      "tags": [
-        "Trump administration",
-        "European diplomacy",
-        "US-Europe relations",
-        "MAGA",
-        "transatlantic alliance"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1759169306825-d1d4b832ae3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxUcnVtcCUyMGFkbWluaXN0cmF0aW9uJTIwRXVyb3BlYW4lMjBkaXBsb21hY3l8ZW58MHwwfHx8MTc3MTk2MzM5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/maga-meets-europe-trump-s-envoys-rip-up-diplomatic-playbook",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-24T20:03:14.890Z"
     }
   ]
 }
