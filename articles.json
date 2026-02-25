@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-25T14:33:51.409Z",
+  "lastUpdated": "2026-02-25T14:48:33.854Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772030837247-3a3v",
+      "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
+      "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
+      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' passing intelligence that Lord Mandelson planned to travel abroad",
+      "body": "UK Commons Speaker Sir Lindsay Hoyle has confirmed he provided the Metropolitan Police with information suggesting Lord Mandelson could be a flight risk, a tip that preceded the former Labour minister's arrest at his London home on Monday.\n\nSpeaking to MPs after the Times first reported his involvement, Sir Lindsay said he had passed on \"relevant\" information \"in good faith\" and considered it his \"duty and responsibility\" to do so. According to the BBC, the Speaker received intelligence during a visit to the British Virgin Islands last week indicating that Lord Mandelson was planning to travel there. The revelation adds an extraordinary parliamentary dimension to an already explosive criminal investigation into whether Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a minister.\n\nThe arrest has sparked a fierce dispute over its justification. Lord Mandelson's lawyers at Mishcon de Reya say their client had already agreed to a voluntary police interview next month, making the decision to take him into custody unnecessary and based on a \"baseless\" flight risk claim. They have written to the Met demanding to know what information and evidence underpinned the arrest. Adding to the confusion, Mandelson's legal team says police twice told them the referral came from Lord Forsyth, the Speaker of the House of Lords — a claim Forsyth has categorically denied, calling it \"entirely false and without foundation.\" The Met has declined to comment but is understood to have conducted its own assessment of the intelligence before proceeding with the arrest.\n\nFollowing his interview at Wandsworth police station, Mandelson was released on bail and surrendered his passport as a condition of that release. The investigation, launched earlier this month, centers on allegations of misconduct in public office. The allegations surfaced after the US Department of Justice released a cache of documents last month, including emails between Mandelson and Epstein. Mandelson had been appointed British ambassador to the United States in February 2025 but was dismissed in September after Downing Street said new information had emerged about the depth of his relationship with Epstein.\n\nMandelson's position, according to those familiar with his legal strategy, is that he committed no criminal act and was not motivated by financial gain. His lawyers say he intends to cooperate fully with the investigation to \"clear his name.\" The case now raises uncomfortable questions not only for Mandelson but for parliamentary figures drawn into the decision-making chain that led to his arrest.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mandelson",
+        "UK politics",
+        "Epstein",
+        "Metropolitan Police",
+        "Lindsay Hoyle",
+        "flight risk",
+        "misconduct in public office"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T14:47:17.247Z"
+    },
+    {
+      "id": "ps-1772030853641-h19l",
+      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
+      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now specify geometries and materials to achieve desired negative thermal expansion and negative Poisson's ratios on demand",
+      "body": "A pair of researchers has demonstrated that neural networks can solve one of the trickiest problems in metamaterial engineering: working backward from a set of desired thermal and mechanical properties to determine the precise structure needed to achieve them. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, targets bimaterial hybrid-honeycomb lattices — structures that can simultaneously exhibit negative Poisson's ratios and negative thermal expansion coefficients, meaning they shrink when heated and expand laterally when compressed.\n\nSuch counterintuitive behavior is highly sought after in aerospace, precision instruments, and other engineering systems where thermal distortion must be tightly controlled. Designing these metamaterials has traditionally required painstaking forward simulation: an engineer proposes a geometry, runs a computational model, checks the output properties, and iterates. The new approach flips this paradigm. Peng and Xu first generated a large dataset through computational homogenization, systematically varying the geometrical features of the honeycomb unit cell and the properties of the two constituent base materials. They then trained a forward machine learning model to predict effective thermoelastic properties from a given design — essentially replacing expensive finite-element simulations with near-instantaneous neural network inference.\n\nThe more consequential step was building six distinct inverse models, each tailored to a different design scenario defined by varying combinations of target effective properties and adjustable structural parameters. These inverse models take as input the properties an engineer wants — say, a specific coefficient of thermal expansion paired with a particular Poisson's ratio — and output the geometric features and material choices most likely to deliver them. To improve training, the researchers embedded the pre-trained forward model directly into the loss functions of the inverse networks, creating a self-consistent loop that penalizes designs whose predicted properties deviate from the target. For cases where the base materials are fixed, the forward model was also used to generate supplementary training data.\n\nRepresentative design examples reported in the paper show strong predictive accuracy for both the forward and inverse models. The framework could substantially accelerate the deployment of thermoelastic metamaterials in real-world systems, reducing what has historically been a labor-intensive trial-and-error process to a rapid computational query. While the current study focuses on two-dimensional honeycomb lattices, the methodology is in principle extensible to three-dimensional architectures and other classes of mechanical metamaterials, opening a broader pathway for ML-driven materials design.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1748366898115-9d687917bd0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T14:47:33.641Z"
+    },
+    {
+      "id": "ps-1772030869230-db21",
+      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
+      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
+      "body": "A team at Saarland University in Germany has created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms arranged in a five-membered ring — ending a nearly half-century quest that saw research groups worldwide fail repeatedly. The results, published in the journal Science on February 24, represent a landmark in inorganic chemistry and could open pathways to novel catalysts and industrial materials.\n\nProfessor David Scheschkewitz, who leads the General and Inorganic Chemistry group at Saarland, carried out the synthesis alongside his doctoral student Ankur and crystallographer Bernd Morgenstern. The compound replaces all five carbon atoms in cyclopentadienide — a classic aromatic hydrocarbon — with silicon, while preserving the flat ring geometry and evenly distributed electrons that define aromaticity under Hückel's rule. Before this work, the only known silicon-based aromatic was a three-membered ring analogue of cyclopropenium, first produced in 1981. Every subsequent attempt to extend silicon aromaticity to larger ring systems had failed.\n\nThe difficulty stems from silicon's fundamental differences from carbon. Silicon is more metallic and holds its outer electrons less tightly, making it far harder to achieve the delocalized electron sharing that grants aromatic molecules their extraordinary stability. Scheschkewitz noted that those same electronic differences are precisely what make the new compound scientifically exciting: silicon-based aromatics could yield catalysts and functional materials with properties inaccessible to their carbon counterparts. Aromatic compounds already play critical roles in polyethylene and polypropylene manufacturing, where they enhance catalyst durability and efficiency.\n\nIn a striking coincidence, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same molecule at nearly the same time. The two teams agreed to publish their findings side by side in the same issue of Science, underscoring the significance of the result and the convergence of experimental approaches across continents.\n\nThe achievement is expected to catalyze a new branch of silicon chemistry. With the fundamental proof of concept now established, researchers can begin exploring derivatives, polymer architectures, and catalytic systems built around silicon aromatic cores — territory that was purely theoretical for decades. For a field that has waited since the late 1970s, the door is finally open.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon chemistry",
+        "aromatic molecules",
+        "pentasilacyclopentadienide",
+        "Saarland University",
+        "materials science",
+        "catalysis"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T14:47:49.230Z"
+    },
+    {
+      "id": "ps-1772030884462-t1pv",
+      "slug": "matx-raises-500m-to-build-ai-chips-aimed-at-dethroning-nvidi",
+      "headline": "MatX Raises $500M to Build AI Chips Aimed at Dethroning Nvidia",
+      "subheadline": "The startup, founded by two ex-Google TPU engineers, plans to fabricate chips with TSMC and begin shipping in 2027",
+      "body": "MatX, an AI chip startup founded by former Google hardware engineers, has closed a $500 million Series B round as it races to develop processors it claims will be ten times more efficient than Nvidia's GPUs at training large language models.\n\nThe round was co-led by trading firm Jane Street and Situational Awareness, the investment fund launched by Leopold Aschenbrenner, a former OpenAI researcher who has become one of the most prominent voices arguing that artificial general intelligence is imminent. Additional participants include Marvell Technology, NFDG, Spark Capital, and Stripe co-founders Patrick and John Collison. MatX CEO Reiner Pope disclosed the funding Tuesday in a LinkedIn post, though the company did not reveal its latest valuation. For context, rival chip startup Etched reportedly raised its own $500 million round last month at a $5 billion valuation, according to Bloomberg.\n\nThe new capital represents a dramatic step up for MatX, which raised approximately $100 million in its Series A in 2024 at a valuation exceeding $300 million. The company was founded in 2023 by Pope, who previously led AI software development for Google's custom TPU chips, and Mike Gunter, a former lead hardware designer on the same TPU program. Their combined experience architecting one of the few chip platforms that has proven competitive with Nvidia's dominance gives MatX a credibility edge in an increasingly crowded field of GPU challengers.\n\nThe funding will be directed toward fabricating MatX's chips at TSMC, the world's leading semiconductor foundry, with initial shipments targeted for 2027. That timeline puts the startup on a collision course not only with Nvidia's next-generation GPU roadmap but also with a growing roster of competitors — including Etched, Cerebras, and Groq — all vying to carve out share in the booming AI accelerator market.\n\nThe investment also reflects a broader trend of financial heavyweights outside traditional venture capital pouring into AI infrastructure bets. Jane Street, best known as a quantitative trading powerhouse, and Aschenbrenner's fund both signal that sophisticated capital allocators see the AI chip supply chain as a strategic bottleneck worth billions in future returns. Whether MatX can translate its Google TPU pedigree and ambitious performance claims into silicon that ships on time will be the defining test of its next chapter.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "MatX",
+        "AI chips",
+        "Nvidia",
+        "semiconductors",
+        "fundraising",
+        "Jane Street",
+        "TSMC"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/09/chip-manufacturing-getty.jpg?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T14:48:04.462Z"
+    },
+    {
+      "id": "ps-1772030899644-458f",
+      "slug": "wall-street-rallies-ahead-of-nvidia-earnings-as-ai-outlook-h",
+      "headline": "Wall Street Rallies Ahead of Nvidia Earnings as AI Outlook Hangs in Balance",
+      "subheadline": "Traders bid up equities hoping the chipmaker's results will reaffirm confidence in artificial intelligence spending",
+      "body": "U.S. stocks advanced on Monday as investors positioned ahead of Nvidia Corp.'s upcoming earnings report, widely viewed as a critical barometer for the health of the artificial intelligence trade that has dominated markets for more than two years.\n\nThe rally reflected a market eager for reassurance. Nvidia, whose chips power the vast majority of AI training workloads, has become a bellwether not just for the semiconductor sector but for the broader thesis that corporate America's massive investment in AI infrastructure will deliver meaningful returns. Traders bid equities higher in anticipation that the company's results would validate continued spending by hyperscale cloud providers and enterprise customers alike.\n\nThe stakes are unusually high this quarter. Anxiety about the durability of the AI boom has intensified in recent months, fueled by questions about whether the billions of dollars flowing into data centers and GPU clusters will translate into sustainable revenue growth across the technology ecosystem. Concerns about competition, export restrictions on advanced chips, and the pace of AI adoption have all weighed on sentiment, making Nvidia's forward guidance arguably more consequential than the headline numbers themselves.\n\nNvidia's earnings have repeatedly served as inflection points for the broader market. Strong results and bullish forecasts have historically triggered broad-based rallies across technology and growth stocks, while any hint of softening demand has sent ripples through portfolios heavily weighted toward the AI theme. With the S&P 500's concentration in a handful of mega-cap tech names near historic levels, the report carries outsized implications for index-level performance.\n\nFor investors, the pre-earnings optimism suggests a market that remains fundamentally committed to the AI investment thesis despite mounting skepticism. Whether that confidence proves well-placed will likely depend on Nvidia's ability to demonstrate that demand for its next-generation chips continues to outstrip supply — and that the AI infrastructure buildout still has significant runway ahead.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "Wall Street",
+        "S&P 500",
+        "semiconductors"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1568142557204-8757becbb6cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8d2FsbCUyMHN0cmVldCUyMHJhbGxpZXN8ZW58MHwwfHx8MTc3MjAzMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T14:48:19.644Z"
+    },
+    {
+      "id": "ps-1772030913767-dxwt",
+      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
+      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
+      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and dismissal of internal investigators who flagged violations",
+      "body": "Senator Richard Blumenthal, the ranking Democrat on the Senate Homeland Security Committee, has launched a formal investigation into Binance over allegations that $1.7 billion flowed from the cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal sent a letter on Tuesday to Binance co-CEO Richard Teng requesting records related to the exchange's dealings with two Hong Kong-based entities identified as conduits for the Iran-linked transfers. One of those entities, Blessed Trust, reportedly operated as a Binance vendor before the exchange terminated the relationship in January. The Connecticut senator also demanded documentation surrounding the suspension and firing of four internal compliance investigators who initially uncovered the alleged violations — dismissals that have drawn scrutiny from the New York Times, Wall Street Journal, and Fortune.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in the letter. The probe adds a new layer of regulatory pressure to a company already operating under the shadow of a landmark 2023 enforcement action, in which founder Changpeng Zhao pleaded guilty to anti-money-laundering violations and the company agreed to pay $4.3 billion in penalties while exiting the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance has categorically denied the allegations, asserting in a statement that the exchange maintains strict know-your-customer protocols and has no Iranian users on its platform. A spokesperson called prior media reporting \"wrong\" and pushed back against claims that investigators were fired in retaliation. The exchange published a blog post over the weekend characterizing its \"sanctions-related exposure\" as minimal and disclosed that an internal investigation is underway, with a full report expected to be delivered to the U.S. Justice Department on February 25.\n\nThe inquiry comes at a fraught moment for the broader crypto industry, which has sought to rehabilitate its image with regulators and institutional investors. If substantiated, the allegations would represent one of the most significant sanctions evasion cases involving a major digital asset platform since Binance's original settlement, raising fresh questions about whether the world's largest crypto exchange has adequately reformed its compliance infrastructure despite billions in penalties and a criminal conviction at the highest levels of its leadership.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Binance",
+        "sanctions",
+        "Iran",
+        "Richard Blumenthal",
+        "cryptocurrency regulation",
+        "compliance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T14:48:33.767Z"
+    },
     {
       "id": "ps-1772029945694-sezr",
       "slug": "trump-s-record-length-state-of-the-union-riddled-with-mislea",
@@ -66,28 +194,6 @@
       "publishedAt": "2026-02-25T14:33:04.003Z"
     },
     {
-      "id": "ps-1772029999093-hjko",
-      "slug": "matx-raises-500m-to-build-ai-chips-aimed-at-dethroning-nvidi",
-      "headline": "MatX Raises $500M to Build AI Chips Aimed at Dethroning Nvidia",
-      "subheadline": "The startup, founded by former Google TPU engineers, plans to fabricate chips with TSMC and begin shipping in 2027",
-      "body": "MatX, a semiconductor startup aiming to build processors that dramatically outperform Nvidia's GPUs for AI training, has closed a $500 million Series B funding round led by trading firm Jane Street and Situational Awareness, the investment fund launched by former OpenAI researcher Leopold Aschenbrenner.\n\nThe round, announced Tuesday by CEO and co-founder Reiner Pope on LinkedIn, also drew participation from Marvell Technology, NFDG, Spark Capital, and Stripe co-founders Patrick and John Collison. MatX did not disclose its new valuation, though the figure likely sits in the single-digit billions — its closest competitor, Etched, reportedly raised $500 million last month at a $5 billion valuation. MatX's previous fundraise, a roughly $100 million Series A led by Spark Capital in 2024, valued the company at more than $300 million.\n\nFounded in 2023, MatX is led by two veterans of Google's custom silicon program. Pope previously headed AI software development for Google's Tensor Processing Units, while co-founder Mike Gunter served as a lead hardware designer on the same chips. The pair's central pitch is ambitious: processors that are ten times more efficient than Nvidia's GPUs at training large language models and serving inference. The fresh capital will fund fabrication at TSMC, the world's leading contract chipmaker, with first shipments targeted for 2027.\n\nThe fundraise underscores a broader pattern of massive capital flowing into Nvidia alternatives as hyperscalers and AI labs seek to diversify their chip supply chains. Meta recently struck a deal worth up to $100 billion with AMD, while custom silicon efforts at Google, Amazon, and Microsoft continue to expand. For investors like Aschenbrenner — who has argued publicly that artificial general intelligence could arrive before the end of the decade — backing novel chip architectures represents a bet that demand for AI compute will vastly outstrip current supply.\n\nStill, the road from well-funded startup to volume production is notoriously treacherous in the semiconductor industry. MatX will need to prove that its architecture delivers on its performance claims while navigating TSMC's crowded manufacturing queue and competing against Nvidia's entrenched software ecosystem, particularly its CUDA platform. The 2027 shipping timeline will be a critical milestone for the company and its investors alike.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "MatX",
-        "AI chips",
-        "Nvidia",
-        "semiconductors",
-        "venture capital",
-        "Leopold Aschenbrenner",
-        "TSMC"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/09/chip-manufacturing-getty.jpg?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T14:33:19.093Z"
-    },
-    {
       "id": "ps-1772030017981-5m5u",
       "slug": "us-trade-rep-greer-signals-15-tariff-increase-where-appropri",
       "headline": "US Trade Rep Greer Signals 15% Tariff Increase 'Where Appropriate'",
@@ -110,27 +216,6 @@
       "publishedAt": "2026-02-25T14:33:37.981Z"
     },
     {
-      "id": "ps-1772030031296-pyf1",
-      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
-      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
-      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and the reported dismissal of internal investigators",
-      "body": "U.S. Senator Richard Blumenthal has launched a formal Senate inquiry into Binance, the world's largest cryptocurrency exchange, over allegations that $1.7 billion in transactions flowed from the platform to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal, the ranking Democrat on the Senate Homeland Security Committee, sent a letter on Tuesday to Binance co-CEO Richard Teng requesting records related to two Hong Kong-based entities identified as conduits for the suspected transfers. One of those entities, a Hong Kong firm called Blessed Trust, reportedly operated as a Binance vendor. The exchange has said it canceled the associated accounts and severed its relationship with Blessed Trust in January. The senator also demanded documentation surrounding the reported suspension and firing of four internal compliance investigators who first flagged the alleged violations — dismissals that have drawn scrutiny from the New York Times, Wall Street Journal, and Fortune.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in the letter, according to the New York Times.\n\nBinance has categorically denied the allegations. A company spokesperson told CoinDesk that the exchange maintains strict know-your-customer and compliance procedures and has no Iranian users on the platform. The spokesperson also pushed back against media reports about the investigators' terminations, calling them false. In a blog post published Sunday, Binance characterized its \"sanctions-related exposure\" as minimal and disclosed that an internal investigation is underway, with a full report expected to be delivered to the U.S. Department of Justice by February 25.\n\nThe probe reopens a wound that Binance has been working to close. In November 2023, founder and former CEO Changpeng Zhao pleaded guilty to violating anti-money-laundering laws and permitting users in sanctioned countries — including Iran — to transact on the platform. The company paid $4.3 billion in penalties and agreed to exit the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump. The new congressional scrutiny raises fresh questions about whether Binance's compliance overhaul has been sufficient, and whether the exchange's relationship with U.S. regulators could deteriorate further despite the prior settlement.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Binance",
-        "Iran sanctions",
-        "cryptocurrency regulation",
-        "Richard Blumenthal",
-        "Senate probe",
-        "compliance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T14:33:51.296Z"
-    },
-    {
       "id": "ps-1772029038951-ith6",
       "slug": "man-sentenced-to-life-for-murder-of-nine-year-old-girl-in-ra",
       "headline": "Man Sentenced to Life for Murder of Nine-Year-Old Girl in Random Street Attack",
@@ -150,48 +235,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2lpwg366do?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T14:17:18.951Z"
-    },
-    {
-      "id": "ps-1772029057057-qqfb",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now suggest material structures that simultaneously shrink when heated and expand when compressed",
-      "body": "Researchers have developed a suite of machine learning models capable of designing metamaterials that exhibit two counterintuitive physical properties at once — negative thermal expansion and negative Poisson's ratios — a breakthrough that could streamline the engineering of advanced structures for aerospace, precision instruments, and other demanding applications.\n\nXiang-Long Peng and Bai-Xiang Xu, in a paper posted to the arXiv preprint server on February 12, describe a framework that inverts the traditional materials design process. Rather than proposing a structure and then testing its properties through costly simulations, their inverse models accept desired thermoelastic characteristics as inputs and output the geometric features and base material combinations needed to achieve them. The system is built on bimaterial hybrid-honeycomb lattice structures — architectures composed of two different materials arranged in honeycomb-like patterns that give rise to exotic mechanical and thermal responses.\n\nThe approach rests on a large dataset generated through computational homogenization, a technique that calculates effective bulk properties from the microstructural geometry. By varying both the geometric parameters of the lattice and the properties of the two constituent base materials, the researchers created a high-throughput training set spanning a wide design space. A forward neural network was first trained to predict effective thermoelastic properties from a given structural design, achieving what the authors describe as good predictive accuracy. That forward model was then embedded directly into the loss functions of six distinct inverse models, each tailored to different design scenarios — some optimizing geometry alone with fixed base materials, others jointly selecting both geometry and material composition.\n\nThe practical significance lies in the dual-negative property space these metamaterials occupy. Materials that contract when heated (negative thermal expansion) are valuable for applications requiring dimensional stability across temperature swings, such as satellite components and optical mounts. Negative Poisson's ratio materials, known as auxetics, become thicker rather than thinner when stretched, conferring enhanced impact resistance and unusual mechanical behavior. Achieving both properties simultaneously in a single structure has traditionally required painstaking trial-and-error design.\n\nBy automating and accelerating this process, the machine learning framework could enable engineers to rapidly specify target performance envelopes and receive actionable structural blueprints. The work joins a growing body of research applying neural networks to metamaterial design, but distinguishes itself by addressing thermoelastic coupling in bimaterial systems — a more complex design challenge than purely mechanical optimization. The authors note that their models are readily deployable for specific inverse design tasks in practical engineering systems, potentially shortening development cycles for next-generation thermal management and structural components.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1682341891731-841dc120e398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T14:17:37.057Z"
-    },
-    {
-      "id": "ps-1772028142249-3u9d",
-      "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
-      "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
-      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence that the peer planned to travel abroad",
-      "body": "Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally passed information to the Metropolitan Police suggesting Lord Peter Mandelson could be a flight risk — intelligence that contributed to the former Labour minister's arrest at his London home on Monday.\n\nSpeaking in the House of Commons after the Times first reported his involvement, Hoyle said he had provided \"relevant\" information to the Met \"in good faith,\" calling it his \"duty and responsibility.\" The BBC has reported that Hoyle received the tip during a visit to the British Virgin Islands last week, indicating Mandelson was planning to travel there. The Metropolitan Police is understood to have independently assessed the credibility of the information before proceeding with the arrest on Monday afternoon.\n\nMandelson's legal team has sharply contested the basis for his detention, calling the flight risk claim \"baseless\" and noting that the peer had already agreed to a voluntary interview with investigators next month. The former cabinet minister was taken to Wandsworth police station for questioning before being released on bail, with the surrender of his passport among the conditions imposed. His lawyers said he intends to cooperate fully with the investigation to \"clear his name\" and maintains he has not acted criminally.\n\nThe arrest stems from a Metropolitan Police investigation launched earlier this month into allegations of misconduct in public office. Prosecutors are examining claims that Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations emerged after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Mandelson's camp has insisted he was not motivated by financial gain.\n\nThe episode marks a dramatic chapter in Mandelson's fall from political grace. Appointed British ambassador to the United States in February 2025, he was dismissed in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. The Speaker's unusual intervention — and its rapid leak to the media, which Hoyle called \"regrettable\" — adds a fresh layer of political intrigue to a case that has already rattled Westminster and strained transatlantic diplomatic ties.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mandelson",
-        "UK politics",
-        "Metropolitan Police",
-        "Jeffrey Epstein",
-        "Lindsay Hoyle",
-        "flight risk"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T14:02:22.249Z"
     },
     {
       "id": "ps-1772028194677-u8s5",
@@ -257,27 +300,6 @@
       "publishedAt": "2026-02-25T13:48:02.290Z"
     },
     {
-      "id": "ps-1772027297720-22tj",
-      "slug": "stocks-climb-on-tech-rebound-ahead-of-nvidia-earnings-report",
-      "headline": "Stocks Climb on Tech Rebound Ahead of Nvidia Earnings Report",
-      "subheadline": "Markets look to chipmaker's results as a critical test for the broader AI-fueled rally",
-      "body": "Global equity markets pushed higher on Monday as a technology-led rebound gained momentum, with investors training their focus on Nvidia Corp.'s upcoming earnings report — widely seen as a pivotal moment for the artificial intelligence trade that has dominated market sentiment for more than two years.\n\nThe S&P 500 and Nasdaq Composite both advanced in early trading, buoyed by renewed appetite for large-cap tech names. The rally reflected a broader pattern in which the semiconductor giant's quarterly results have become a bellwether not just for the chip industry but for the entire AI investment thesis. Nvidia, whose graphics processors underpin the infrastructure powering generative AI systems, has seen its stock become one of the most closely watched instruments on Wall Street.\n\nThe stakes are particularly high this quarter. After a period of choppy trading and intermittent doubts about the sustainability of AI-related spending, market participants are looking for confirmation that enterprise demand for advanced chips remains robust. Nvidia's guidance on revenue growth, data center sales, and supply chain dynamics will be scrutinized for signals about the health of capital expenditure cycles at major cloud providers including Microsoft, Amazon, and Alphabet.\n\nThe earnings report arrives at a moment when the concentration of market gains in a handful of AI-linked megacap stocks has drawn increasing scrutiny from analysts and regulators alike. A strong showing from Nvidia could reinforce confidence in the trade and pull broader indices higher, while any sign of softening demand risks triggering a sharp reassessment of valuations across the technology sector.\n\nFor now, the market's posture is cautiously optimistic. Trading volumes in Nvidia options have surged in recent sessions, indicating that investors are positioning for significant post-earnings volatility. The outcome will likely set the tone for technology stocks in the weeks ahead and could determine whether the AI rally enters its next phase — or faces a meaningful correction.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Nvidia",
-        "AI trade",
-        "stock market",
-        "earnings",
-        "technology stocks",
-        "semiconductors"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxTdG9ja3MlMjBDbGltYiUyMFRlY2glMjBSZWJvdW5kJTIwQWhlYWR8ZW58MHwwfHx8MTc3MjAyNzI5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T13:48:17.720Z"
-    },
-    {
       "id": "ps-1772026383161-qfwk",
       "slug": "ukrainian-drone-strike-hits-russian-fertilizer-plant-killing",
       "headline": "Ukrainian Drone Strike Hits Russian Fertilizer Plant, Killing Seven",
@@ -297,27 +319,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-says-ukraine-hit-acron-s-nitrogen-plant-killing-four",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T13:33:03.162Z"
-    },
-    {
-      "id": "ps-1772025454647-393t",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
-      "body": "A team at Saarland University in Germany has created pentasilacyclopentadienide — a stable aromatic molecule built entirely from silicon atoms arranged in a five-membered ring — ending a nearly half-century quest that saw research groups worldwide fail repeatedly. The results, published February 24 in Science, were achieved independently and almost simultaneously by a separate group at Tohoku University in Japan, with both teams publishing side by side in the same issue.\n\nAromatic molecules, characterized by electrons shared evenly across a flat ring structure according to Hückel's rule, are among the most stable compounds in chemistry and underpin vast swaths of modern industry. Carbon-based aromatics already serve as key components in catalysts for polyethylene and polypropylene production. But replacing carbon with silicon — an element that is more metallic and holds its electrons less tightly — had proven extraordinarily difficult at larger ring sizes. Before this breakthrough, the only known silicon aromatic was a three-membered ring analogue of cyclopropenium, first synthesized in 1981. Every attempt to build a larger silicon aromatic system had ended in failure.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern from the university's X-ray Diffraction Service Centre. The team confirmed that their five-atom silicon ring displays the hallmark characteristics of aromaticity — planar geometry, delocalized electrons, and the enhanced stability that follows. \"Substituting silicon for carbon in pentasilacyclopentadienide could lead to entirely new types of compounds and catalysts with distinct properties,\" Scheschkewitz said.\n\nThe significance extends well beyond a laboratory curiosity. Silicon's looser grip on its electrons means the new aromatic compound could behave in fundamentally different ways from its carbon counterpart, potentially enabling novel catalytic processes and advanced materials that have no precedent in organic chemistry. The parallel discovery by Takeaki Iwamoto's group at Tohoku University underscores how ripe the problem had become for solution — two independent teams converging on the same result after decades of collective effort.\n\nWith the first stable five-membered silicon aromatic now in hand, researchers have a platform from which to explore an expanded landscape of silicon-based chemistry. The immediate next steps will likely involve probing the compound's reactivity and testing whether it can serve as a ligand in catalytic systems, much as carbon-based cyclopentadienide derivatives have done for generations of industrial chemistry.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon",
-        "aromatic chemistry",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "materials science",
-        "catalysis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T13:17:34.647Z"
     },
     {
       "id": "ps-1772024546262-3it4",
