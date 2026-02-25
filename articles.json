@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-25T13:18:17.066Z",
+  "lastUpdated": "2026-02-25T13:33:16.995Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772026320113-au9f",
+      "slug": "commons-speaker-tipped-police-that-mandelson-was-a-flight-ri",
+      "headline": "Commons Speaker Tipped Police That Mandelson Was a Flight Risk",
+      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' after passing intelligence to Met Police ahead of peer's arrest",
+      "body": "House of Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally provided the Metropolitan Police with information suggesting Lord Peter Mandelson might flee the country, a tip that contributed to the former Labour minister's arrest at his London home on Monday.\n\nSpeaking before MPs, Sir Lindsay said he had passed on \"relevant\" information \"in good faith\" and considered it his \"duty and responsibility\" to do so. The BBC reports that the intelligence originated during a visit Sir Lindsay made to the British Virgin Islands last week, where he received word that Lord Mandelson was planning to travel to the territory. The Metropolitan Police is understood to have independently assessed the credibility of the Speaker's tip before proceeding with the arrest on Monday afternoon. Lord Mandelson was taken to Wandsworth police station for questioning and later released on bail, surrendering his passport as a condition of his release.\n\nThe arrest is part of a Metropolitan Police investigation launched earlier this month into allegations of misconduct in public office. At the center of the probe is the claim that Lord Mandelson, while serving as a government minister, passed market-sensitive information to the late convicted sex offender Jeffrey Epstein. The allegations emerged after the U.S. Department of Justice released a tranche of documents last month that included emails between Mandelson and Epstein.\n\nLord Mandelson's legal team has sharply criticized the arrest, arguing that their client had already agreed to a voluntary interview with police next month and that the flight-risk characterization was \"baseless.\" His lawyers maintain he has not acted criminally, was not motivated by financial gain, and intends to cooperate fully to \"clear his name.\" Sir Lindsay, for his part, expressed regret that his role in the matter had leaked to the media so quickly, with the Times first reporting his involvement.\n\nThe case marks a dramatic fall for Lord Mandelson, a towering figure in Labour politics who was appointed British ambassador to the United States in February 2025. He was dismissed from the post in September after Downing Street said newly surfaced information revealed the depth of his relationship with Epstein. The investigation now raises serious questions about the conduct of one of Britain's most influential political operators — and about the unusual role the Commons Speaker played in precipitating his arrest.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Lord Mandelson",
+        "Lindsay Hoyle",
+        "Metropolitan Police",
+        "Jeffrey Epstein",
+        "UK politics",
+        "misconduct in public office"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T13:32:00.113Z"
+    },
+    {
+      "id": "ps-1772026336107-oasq",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now suggest material blueprints for structures with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a machine learning framework capable of reverse-engineering the design of metamaterials that exhibit two of the most counterintuitive properties in materials science simultaneously: negative thermal expansion and a negative Poisson's ratio. The work, by Xiang-Long Peng and Bai-Xiang Xu, was published on the arXiv preprint server in February 2026.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattice structures — engineered architectures composed of two different base materials arranged in precise geometric patterns. Unlike conventional materials that expand when heated and thin when stretched, these structures contract upon heating and expand laterally under tension. Such exotic behavior makes them highly attractive for aerospace, precision instruments, and other engineering systems where thermal distortion must be tightly controlled.\n\nTraditionally, designing these structures has been a painstaking forward process: engineers propose a geometry and material combination, then simulate or test whether it yields the desired properties. Peng and Xu flip this paradigm. They first generated a large dataset through computational homogenization, systematically varying geometrical features and base material properties across thousands of configurations. A forward neural network model was then trained to predict effective thermoelastic properties from a given structural design. The researchers report that this surrogate model can replace expensive finite-element simulations with near-instant predictions.\n\nThe more significant advance lies in the inverse models. The team developed six distinct neural network architectures, each tailored to a different design scenario defined by specific combinations of target properties and structural variables. These inverse models accept desired effective properties — such as a particular coefficient of thermal expansion or Poisson's ratio — and output recommended geometrical parameters and base material selections. To improve training, the researchers embedded the pre-trained forward model directly into the loss functions of the inverse models, creating a self-consistent feedback loop. For cases involving fixed base materials, the forward model was also used to generate supplementary training data.\n\nThe practical implications extend well beyond academic curiosity. Thermoelastic metamaterials are increasingly relevant in satellite structures, optical mounts, and microelectromechanical systems, where even small thermal deformations can degrade performance. A reliable inverse design tool could dramatically accelerate development cycles, allowing engineers to specify performance targets and receive actionable structural blueprints in seconds rather than weeks. While the current work focuses on two-dimensional honeycomb lattices, the methodology is broadly extensible to more complex three-dimensional architectures and additional material property targets.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1719836567950-b0127bbbdf2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T13:32:16.107Z"
+    },
+    {
+      "id": "ps-1772026351334-pu1q",
+      "slug": "waterloo-scientists-engineer-tumor-devouring-bacteria-with-b",
+      "headline": "Waterloo Scientists Engineer Tumor-Devouring Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating until safely inside oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors and consuming them from within, deploying a synthetic biological circuit that activates the microbes' cancer-killing properties only when conditions confirm they are safely embedded inside a tumor.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the inner cores of solid tumors are composed largely of dead cells and lack oxygen, they present ideal conditions for the microbe to colonize and multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\"\n\nThe central engineering challenge has been what the team calls the oxygen barrier. As bacteria consume the tumor core and expand outward, they encounter regions with trace amounts of oxygen and begin dying off before eliminating the cancer entirely. To overcome this, the researchers inserted a gene from a related, more oxygen-tolerant bacterium into C. sporogenes. But enabling oxygen tolerance too early would pose a serious safety risk — bacteria surviving in oxygen-rich environments like the bloodstream could cause dangerous, uncontrolled infections.\n\nThe team's solution draws on quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside a tumor to push the chemical signal past a critical threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" In validation experiments published in ACS Synthetic Biology, the team confirmed the quorum-sensing circuit activated at the intended moment by programming bacteria to produce a green fluorescent protein as an indicator.\n\nThe next phase of research will combine the oxygen-tolerance gene and the quorum-sensing control system into a single organism for evaluation in pre-clinical tumor trials. The interdisciplinary project — spanning chemical engineering, applied mathematics, and life sciences — involves a collaboration with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar. If the approach proves effective in animal models, it could eventually offer a fundamentally new treatment paradigm for solid tumors, which remain among the most difficult cancers to treat with conventional therapies.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T13:32:31.334Z"
+    },
+    {
+      "id": "ps-1772026368392-uvpy",
+      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
+      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and could swell to $1.5 billion if Uber exercises an additional $300 million commitment tied to robotaxi deployment in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including Ontario Teachers' Pension Plan, Baillie Gifford, and British Business Bank. Perhaps most notable is the direct involvement of three major automakers — Mercedes-Benz, Nissan, and Stellantis — all of which intend to integrate Wayve's technology into their vehicles. Nvidia, which has maintained a development partnership with Wayve since 2018, had previously signaled it was evaluating a $500 million strategic investment, though the company declined to confirm the final amount.\n\nWhat distinguishes Wayve from competitors like Waymo and Tesla is both its technical architecture and its business model. Founded in 2017 by CEO Alex Kendall, the company built an end-to-end deep learning system that does not depend on high-definition maps, specific sensor configurations, or particular computing chips. Instead, its software ingests data from whatever hardware an automaker already has installed and learns to drive from that data alone. This hardware-agnostic approach enables Wayve to sell its technology as a software layer to multiple partners simultaneously rather than operating its own fleet or bundling software with proprietary vehicles. \"We took a very contrarian view on the technology side,\" Kendall said. \"Now, when it comes to commercialization, we're also taking a contrarian business model approach.\"\n\nThe commercial traction is already materializing. Nissan has announced plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi signaled the partnership's ambitions extend far beyond a pilot, noting plans to deploy together in more than 10 markets worldwide across multiple vehicle manufacturers. Wayve's latest Gen 3 platform, built on Nvidia's Drive AGX Thor computing architecture, is designed to support both hands-free assisted driving and fully driverless Level 4 capabilities on city streets and highways.\n\nThe fundraise underscores a pivotal moment in the autonomous driving industry, where the race is shifting from pure technology development to commercial scaling. By positioning itself as a supplier rather than an operator, Wayve is betting that the largest addressable market belongs to whoever can provide self-driving intelligence as a platform — a wager that some of the world's biggest automotive and technology companies are now willing to fund at billion-dollar scale.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "artificial intelligence",
+        "fundraising"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T13:32:48.392Z"
+    },
+    {
+      "id": "ps-1772026383161-qfwk",
+      "slug": "ukrainian-drone-strike-hits-russian-fertilizer-plant-killing",
+      "headline": "Ukrainian Drone Strike Hits Russian Fertilizer Plant, Killing Seven",
+      "subheadline": "Acron Group's nitrogen facility in Smolensk region damaged in overnight attack, escalating risks to global fertilizer supply",
+      "body": "A Ukrainian drone attack struck a nitrogen fertilizer facility operated by Acron Group in Russia's Smolensk region overnight, killing seven plant employees, according to Russian authorities.\n\nThe strike against one of Russia's major fertilizer producers marks a significant escalation in Ukraine's campaign targeting industrial infrastructure deep inside Russian territory. Acron, headquartered in Veliky Novgorod, is one of the world's largest producers of mineral fertilizers, with operations spanning nitrogen and compound fertilizer production. The Smolensk region sits roughly 400 kilometers from the Ukrainian border, underscoring the growing reach of Kyiv's drone capabilities nearly three years into the full-scale conflict.\n\nThe attack on critical agricultural-chemical infrastructure carries implications beyond the battlefield. Russia is a dominant force in global fertilizer markets, and any sustained disruption to production capacity could reverberate through commodity prices at a time when food security remains a pressing concern for developing nations. Nitrogen-based fertilizers are essential inputs for crop yields worldwide, and supply constraints have previously driven sharp price spikes — most notably in the months following Russia's 2022 invasion of Ukraine, when fertilizer costs surged to record levels.\n\nAcron Group, controlled by Russian billionaire Viatcheslav Kantor, produces millions of tons of fertilizer annually and exports to dozens of countries. While Western sanctions have targeted many sectors of the Russian economy, fertilizer exports have largely been shielded from restrictions due to concerns about global food supply disruptions. The extent of damage to the Smolensk facility and the timeline for restoring production were not immediately clear.\n\nUkraine has steadily expanded its long-range drone strike program over the course of the war, hitting energy infrastructure, military installations, and industrial facilities across western and central Russia. The strategy aims to impose economic costs on Moscow and disrupt supply chains that support the Russian war effort. The seven fatalities at the Acron plant represent one of the deadlier single strikes on a Russian civilian industrial site in recent months.",
+      "category": "breaking",
+      "importance": 6,
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "Acron Group",
+        "fertilizer",
+        "drone strike",
+        "Smolensk"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1652179095453-c1ce485b0378?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8VWtyYWluZSUyMFJ1c3NpYXxlbnwwfDB8fHwxNzcyMDI2MzgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-says-ukraine-hit-acron-s-nitrogen-plant-killing-four",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T13:33:03.162Z"
+    },
+    {
+      "id": "ps-1772026396893-ss8s",
+      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
+      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
+      "subheadline": "Sen. Blumenthal demands records on sanctioned transactions and dismissal of internal investigators who flagged violations",
+      "body": "U.S. Senator Richard Blumenthal has launched a formal Senate investigation into Binance over allegations that $1.7 billion flowed from the world's largest cryptocurrency exchange to organizations linked to Iran, including Yemen's Houthi militants. The probe, announced Tuesday, marks a significant new chapter in the exchange's troubled relationship with American regulators.\n\nBlumenthal, the ranking Democrat on the Senate Homeland Security Committee, sent a letter to Binance co-chief executive Richard Teng requesting records related to two Hong Kong entities identified as conduits for the alleged transfers to Iran. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong company that operated as a Binance vendor. According to reports, Binance canceled those accounts and severed ties with Blessed Trust in January. The senator also demanded documentation regarding the suspension and termination of compliance staff and investigators who initially uncovered the suspected violations — dismissals reported by the New York Times, Wall Street Journal, and Fortune.\n\n\"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote in his letter. The allegations carry particular weight given Binance's recent history: founder and former CEO Changpeng Zhao pleaded guilty in November 2023 to violating anti-money-laundering laws and permitting users in sanctioned countries, including Iran, to transact on the platform. The company paid $4.3 billion in penalties and agreed to exit the U.S. market. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance has forcefully denied the allegations. A company spokesperson called prior reporting by the New York Times \"wrong,\" asserting that the exchange maintains strict know-your-customer and compliance procedures and has no Iranian users on its platform. The exchange also disputed accounts of its investigators being fired for raising concerns. In a blog post published Sunday, Binance characterized its \"sanctions-related exposure\" as \"minimal.\" Spokesperson Rachel Conlan said the company is conducting its own internal investigation, with a full report to be submitted to the U.S. Justice Department on February 25.\n\nThe probe adds fresh regulatory pressure to an exchange still operating under the shadow of its landmark 2023 settlement. If the allegations are substantiated, they could raise serious questions about whether Binance's compliance overhaul — a central condition of that agreement — has been effective, and whether additional enforcement action may follow from the Justice Department or Treasury's Office of Foreign Assets Control.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Binance",
+        "Iran sanctions",
+        "Senate probe",
+        "crypto regulation",
+        "Richard Blumenthal",
+        "money laundering"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T13:33:16.894Z"
+    },
     {
       "id": "ps-1772025422738-9mo4",
       "slug": "man-jailed-for-life-for-murder-of-nine-year-old-playing-in-s",
@@ -23,27 +150,6 @@
       "publishedAt": "2026-02-25T13:17:02.738Z"
     },
     {
-      "id": "ps-1772025438633-enl1",
-      "slug": "machine-learning-tackles-inverse-design-of-metamaterials-wit",
-      "headline": "Machine Learning Tackles Inverse Design of Metamaterials With Exotic Thermal Properties",
-      "subheadline": "Neural network models can now suggest geometries and materials for structures with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of lattice metamaterials that exhibit two unusual properties simultaneously: negative thermal expansion and negative Poisson's ratios. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, addresses a longstanding bottleneck in metamaterial engineering — moving from knowing what properties are desired to efficiently determining how to build structures that deliver them.\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattices, structures composed of two different base materials arranged in honeycomb-like geometries. Unlike conventional materials that expand when heated and contract laterally when stretched, these engineered lattices can shrink with rising temperature and expand laterally under tension. Such counterintuitive behavior makes them attractive candidates for precision instruments, aerospace components, and other systems where thermal dimensional stability is critical.\n\nTraditional approaches to designing these structures rely on computationally expensive simulations or trial-and-error experimentation. Peng and Xu's framework flips the paradigm. They first generated a large dataset using computational homogenization, systematically varying the geometric features and material properties of the honeycomb structures to map out the design space. A forward neural network model was then trained to predict the effective thermoelastic properties of any given structural configuration with high accuracy and speed.\n\nThe more consequential innovation lies in the inverse models. The team developed six distinct neural network architectures, each tailored to different design scenarios defined by varying combinations of target properties and structural variables. These inverse models accept desired material behaviors as inputs and output recommended geometries and base material selections. Critically, the trained forward model was embedded directly into the loss functions of the inverse models, creating a self-consistent feedback loop that improves prediction reliability. For cases where the base materials are fixed — a common practical constraint — the forward model was also used to generate supplementary training data.\n\nThe approach demonstrated strong predictive performance across representative design examples, suggesting it could substantially accelerate the deployment of thermoelastic metamaterials in real-world engineering applications. As demand grows for materials that can maintain dimensional precision across temperature extremes — from satellite structures to microelectronics packaging — automated inverse design tools like this could shift metamaterial engineering from a research curiosity toward industrial-scale adoption.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719569798620-16be67f45fd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWV0YW1hdGVyaWFscyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcxOTk4NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T13:17:18.633Z"
-    },
-    {
       "id": "ps-1772025454647-393t",
       "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
       "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
@@ -63,71 +169,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-02-25T13:17:34.647Z"
-    },
-    {
-      "id": "ps-1772025471080-uzhl",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, automakers, and institutional investors — a deal that values the company at $8.6 billion and signals intensifying commercial competition in the self-driving industry. The round could swell to $1.5 billion with an additional $300 million from Uber tied to the deployment of robotaxis starting in London.\n\nEclipse, Balderton, and SoftBank Vision Fund 2 led the round, with new participants including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — joined as strategic investors alongside returning backers Microsoft, Nvidia, and Uber. Nvidia, which had previously signaled it was evaluating a $500 million stake in Wayve's next raise, participated again, though CEO Alex Kendall declined to specify the chipmaker's exact commitment.\n\nFounded in 2017, Wayve has staked out what Kendall describes as a \"contrarian\" position in the autonomous vehicle landscape. Rather than building high-definition maps or locking its software to proprietary sensor suites, the company developed an end-to-end deep learning system that ingests data from whatever cameras, lidar, or radar an automaker already has installed — and runs on whichever onboard chips they use. This hardware-agnostic architecture underpins two product tiers: an \"eyes on\" driver-assistance system and an \"eyes off\" fully autonomous system targeting both robotaxis and consumer vehicles. Its Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing kit, is designed to enable Level 4 driverless capability on city streets and highways.\n\nThe business model is equally distinctive. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles self-driving software with its vehicles, Wayve sells its AI stack to third parties. Nissan plans to integrate Wayve's technology into its advanced driver-assistance systems beginning in 2027, while Uber intends to launch commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, working across multiple automaker partners and geographies.\n\nThe massive raise underscores a broader industry conviction that the automated driving market is entering a decisive commercialization phase. Kendall framed the moment in strategic terms: \"The technology chessboard is set around where different companies have invested on the technology strategy, and now the commercial chessboard is being arranged.\" With three OEM customers already signed and a rideshare giant committed to global deployment, Wayve is betting that the largest addressable market belongs not to fleet operators or vertically integrated carmakers, but to the company that can supply the universal software brain.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "fundraising",
-        "artificial intelligence"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T13:17:51.080Z"
-    },
-    {
-      "id": "ps-1772025484714-erew",
-      "slug": "ukrainian-drone-strike-hits-russian-fertilizer-plant-kills-s",
-      "headline": "Ukrainian Drone Strike Hits Russian Fertilizer Plant, Kills Seven",
-      "subheadline": "Acron's nitrogen facility in Smolensk region damaged in overnight attack, escalating strikes on industrial infrastructure",
-      "body": "A Ukrainian drone attack struck a nitrogen fertilizer facility operated by Acron, one of Russia's major chemical producers, killing seven plant employees in the Smolensk region, Russian authorities said on Tuesday.\n\nThe overnight strike marks another escalation in Ukraine's campaign targeting Russian industrial infrastructure deep behind the front lines. Smolensk, located in western Russia roughly 400 kilometers from the Ukrainian border, has become an increasingly frequent target as Kyiv extends the range and frequency of its drone operations. The attack on Acron's nitrogen unit underscores the growing vulnerability of Russia's critical industrial base nearly three years into the full-scale conflict.\n\nAcron is among Russia's largest producers of mineral fertilizers, with operations spanning nitrogen and complex fertilizer production. The company, headquartered in Veliky Novgorod, is a significant player in global agricultural supply chains, and any sustained disruption to its output could ripple through international fertilizer markets that remain sensitive to supply shocks stemming from the war. Nitrogen-based fertilizers are essential inputs for global food production, and prices have experienced repeated volatility since Russia's invasion of Ukraine in February 2022.\n\nThe strike adds to a growing list of attacks on Russian energy and chemical facilities that have intensified over the past year. Ukraine has systematically targeted oil refineries, fuel depots, and industrial plants using domestically produced long-range drones, aiming to impose economic costs and degrade Russia's war-sustaining capacity. Moscow has condemned such strikes as terrorist acts, while Kyiv has framed them as legitimate military responses to Russia's own bombardment of Ukrainian civilian and energy infrastructure.\n\nThe full extent of damage to Acron's Smolensk facility and the potential impact on production volumes remained unclear as of Wednesday. Neither Acron nor Ukrainian military officials had issued immediate public statements on the incident.",
-      "category": "breaking",
-      "importance": 6,
-      "tags": [
-        "Ukraine",
-        "Russia",
-        "Acron",
-        "drone strike",
-        "fertilizer",
-        "Smolensk"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1645737522839-978bb0f22d74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxVa3JhaW5lJTIwUnVzc2lhfGVufDB8MHx8fDE3NzIwMjU0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-says-ukraine-hit-acron-s-nitrogen-plant-killing-four",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T13:18:04.714Z"
-    },
-    {
-      "id": "ps-1772025496810-qtx9",
-      "slug": "senate-probe-targets-binance-over-alleged-1-7b-in-iran-linke",
-      "headline": "Senate Probe Targets Binance Over Alleged $1.7B in Iran-Linked Transfers",
-      "subheadline": "Sen. Blumenthal demands records on sanctions violations and firing of internal investigators who flagged the transactions",
-      "body": "Senator Richard Blumenthal, the ranking Democrat on the Senate Homeland Security Committee, has launched a formal investigation into Binance over allegations that $1.7 billion in cryptocurrency flowed from the exchange to organizations linked to Iran, including Yemen's Houthi militants.\n\nBlumenthal sent a letter on Tuesday to Binance co-CEO Richard Teng requesting records related to the exchange's dealings with two Hong Kong-based entities identified as conduits for the transfers. One of the accounts was reportedly registered to Blessed Trust, a Hong Kong company that served as a Binance vendor. The senator also demanded documentation on the suspension and termination of compliance staff who initially uncovered the alleged violations — dismissals reported by the New York Times, Wall Street Journal, and Fortune. \"Binance appears to have ignored warnings and recommendations to prevent Iranian money laundering schemes on its cryptocurrency exchange,\" Blumenthal wrote.\n\nThe world's largest cryptocurrency exchange pushed back forcefully against the allegations. A Binance spokesperson told CoinDesk that prior reporting on the matter was wrong, stating that the platform maintains strict know-your-customer and compliance procedures and has no Iranian users. The exchange also disputed accounts of the investigators' dismissals, calling the reports false. A Binance representative confirmed that the accounts tied to Blessed Trust were canceled and the vendor relationship terminated in January.\n\nThe probe reopens a wound that Binance has struggled to close. Former CEO Changpeng Zhao pleaded guilty in November 2023 to violating anti-money-laundering laws and permitting users in sanctioned countries, including Iran, to trade on the platform. The company paid $4.3 billion in penalties and withdrew from the U.S. market as part of the settlement. Zhao served four months in prison before receiving a pardon from President Donald Trump.\n\nBinance said in a blog post on Sunday that its sanctions-related exposure is \"minimal\" and disclosed that an internal investigation is underway. Spokesperson Rachel Conlan told the New York Times that a full report on the matter was expected to be delivered to the U.S. Justice Department on February 25. The outcome of both the Senate inquiry and the internal review could have significant implications for Binance's regulatory standing and the broader crypto industry's relationship with U.S. authorities.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Binance",
-        "sanctions",
-        "Iran",
-        "Senate probe",
-        "Blumenthal",
-        "cryptocurrency regulation",
-        "compliance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/64b608b86915b3a82f82bce7c666eda29db57c1f-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/u-s-senator-opens-probe-on-binance-over-alleged-usd1-7-billion-flow-to-iranian-entities",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T13:18:16.810Z"
     },
     {
       "id": "ps-1772024528760-3q8e",
@@ -173,27 +214,6 @@
       "publishedAt": "2026-02-25T13:02:26.262Z"
     },
     {
-      "id": "ps-1772024560496-vk28",
-      "slug": "engineered-bacteria-designed-to-devour-tumors-from-the-insid",
-      "headline": "Engineered Bacteria Designed to Devour Tumors From the Inside Out",
-      "subheadline": "University of Waterloo team uses synthetic biology to program microbes that colonize oxygen-starved tumor cores",
-      "body": "Researchers at the University of Waterloo have engineered bacteria capable of infiltrating solid tumors, colonizing their oxygen-deprived cores, and consuming cancerous tissue from within — a synthetic biology approach that could open an entirely new front in cancer treatment.\n\nThe strategy centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. Because the interior of many solid tumors consists of dead cells and lacks oxygen, the microbe finds ideal conditions to multiply once its spores reach the tumor site. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo. \"The bacterium is essentially ridding the body of the tumor.\" The work, published in ACS Synthetic Biology, details how the team constructed a genetic control system to make the approach both effective and safe.\n\nThe central engineering challenge was the tumor's outer edge, where trace amounts of oxygen kill off the strictly anaerobic bacteria before they can eliminate all cancerous tissue. To solve this, the researchers inserted an oxygen-tolerance gene from a related bacterial species, enabling the engineered microbes to survive longer in partially oxygenated zones. But granting bacteria oxygen tolerance indiscriminately would be dangerous — the microbes could proliferate in oxygen-rich regions like the bloodstream. The team's solution was quorum sensing, a natural bacterial communication mechanism in which cells release chemical signals that intensify as their population grows. The oxygen-resistance gene activates only after enough bacteria have accumulated inside a tumor, ensuring the survival mechanism switches on precisely where and when it is needed.\n\nDr. Brian Ingalls, a professor of applied mathematics at Waterloo, described the design as analogous to an electrical circuit built from DNA components rather than wires. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way,\" he said. In validation experiments, the team programmed bacteria to produce green fluorescent protein as a proxy, confirming that the quorum-sensing circuit activated at the intended threshold.\n\nThe next milestone is combining the oxygen-tolerance gene and the quorum-sensing control system into a single organism and testing it against tumors in pre-clinical trials. The interdisciplinary project — spanning engineering, mathematics, and life sciences — involves a collaboration with CREM Co Labs, a Toronto company co-founded by PhD student Bahram Zargar, who initiated the research. If the approach proves effective in animal models, it could eventually offer oncologists a programmable biological weapon against solid tumors that have long resisted conventional therapies.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer treatment",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "oncology"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T13:02:40.496Z"
-    },
-    {
       "id": "ps-1772024592938-a3z9",
       "slug": "santander-targets-20-billion-profit-by-2028-after-webster-ac",
       "headline": "Santander Targets €20 Billion Profit by 2028 After Webster Acquisition",
@@ -213,27 +233,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/santander-pledges-over-20-billion-in-profit-after-webster-deal",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T13:03:12.939Z"
-    },
-    {
-      "id": "ps-1772023619126-wl94",
-      "slug": "uk-commons-speaker-told-police-mandelson-was-a-flight-risk-b",
-      "headline": "UK Commons Speaker Told Police Mandelson Was a Flight Risk Before Arrest",
-      "subheadline": "Sir Lindsay Hoyle says he acted in 'good faith' after receiving intelligence during a Caribbean visit last week",
-      "body": "Commons Speaker Sir Lindsay Hoyle confirmed on Tuesday that he personally relayed information to the Metropolitan Police suggesting Lord Peter Mandelson might flee the country — a tip that appears to have precipitated the former minister's dramatic arrest at his London home on Monday.\n\nSpeaking to MPs in the House of Commons, Sir Lindsay said he felt it was his \"duty and responsibility\" to pass along intelligence he received during a visit to the British Virgin Islands last week indicating that Mandelson was planning to travel there. The Speaker called the disclosure an act of \"good faith\" but said it was \"regrettable\" that details had leaked to the media. The revelation has added a remarkable layer of political intrigue to an already explosive criminal investigation into whether Mandelson shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein while serving as a minister.\n\nMandelson was taken into custody Monday afternoon at his London residence and transported to Wandsworth police station, where he was interviewed before being released on bail in the early hours of Tuesday. Among his bail conditions, the peer surrendered his passport. His legal team has sharply contested the basis for the arrest, calling the flight-risk claim \"baseless\" and noting that Mandelson had already agreed to a voluntary police interview scheduled for next month. His lawyers say he has not acted criminally, was not motivated by financial gain, and intends to cooperate fully to \"clear his name.\"\n\nThe Metropolitan Police opened its investigation into misconduct in public office earlier this month, following a tranche of documents released by the U.S. Department of Justice that included email correspondence between Mandelson and Epstein. The disclosures proved politically devastating: Mandelson had been appointed British ambassador to the United States in February 2025 but was dismissed from the post in September after Downing Street said newly surfaced material revealed a deeper relationship with Epstein than previously understood.\n\nThe Speaker's unusual intervention raises fresh questions about the intersection of political intelligence and law enforcement in one of Britain's highest-profile criminal inquiries. For Mandelson — a veteran of Labour's inner circle who has weathered multiple career crises over three decades — the stakes are now arguably higher than at any point in his turbulent public life.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mandelson",
-        "UK politics",
-        "Jeffrey Epstein",
-        "Metropolitan Police",
-        "Lindsay Hoyle",
-        "flight risk"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8157/live/f7fdaf70-1244-11f1-b47f-a98bfefef0c8.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T12:46:59.126Z"
     },
     {
       "id": "ps-1772023667442-g5d6",
