@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-25T05:18:26.810Z",
+  "lastUpdated": "2026-02-25T05:33:21.864Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1771996624195-j7xm",
-      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
-      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was detained at his London home despite agreeing to a voluntary police interview next month",
-      "body": "Lord Peter Mandelson's legal team has accused Metropolitan Police of arresting the former British ambassador to the United States based on an unfounded claim that he intended to flee the country, calling the suggestion that he planned to relocate abroad entirely false.\n\nMandelson, a former Labour minister and central figure in the New Labour movement, was arrested at his London home on Monday afternoon on suspicion of misconduct in public office. Officers from the Met's central specialist crime division escorted him in an unmarked car to Wandsworth police station, where he was held for nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May.\n\nHis lawyers at Mishcon De Reya told the BBC that the arrest violated a prior agreement with police for Mandelson to attend a voluntary interview next month. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement, adding that it has demanded the Metropolitan Police produce the evidence used to justify the detention. The Met declined to comment.\n\nThe investigation, launched earlier this month, centers on allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a minister. The probe was triggered by documents released last month by the US Department of Justice, including emails between the two men. Among the correspondence, a 2009 email appears to show Mandelson sharing an assessment from an adviser to then-Prime Minister Gordon Brown regarding policy measures including an \"asset sales plan.\" Other communications reportedly discussed a tax on bankers' bonuses and appeared to confirm an imminent eurozone bailout package a day before its public announcement in 2010. Search warrants were executed at two addresses in Wiltshire and Camden on Monday.\n\nMandelson, who played an instrumental role in Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025 but was removed from the post in September after Downing Street said newly surfaced information revealed the extent of his relationship with Epstein. His legal team maintains he committed no criminal acts and was not motivated by financial gain. Consultations between the Metropolitan Police and the Crown Prosecution Service are ongoing.",
+      "id": "ps-1771997522956-e7zj",
+      "slug": "mandelson-arrested-at-home-over-baseless-flight-risk-claim-l",
+      "headline": "Mandelson Arrested at Home Over 'Baseless' Flight Risk Claim, Lawyers Say",
+      "subheadline": "Former UK ambassador to the US was held for nine hours on suspicion of misconduct in public office linked to Epstein emails",
+      "body": "Lord Peter Mandelson's legal team has accused the Metropolitan Police of arresting the former British ambassador to the United States based on an unfounded claim that he intended to flee the country, despite a prior agreement for a voluntary interview next month.\n\nMandelson, a central figure in the New Labour movement and longtime political operative, was detained at his London home on Monday afternoon by plain-clothes officers from the Met's central specialist crime division. He was transported to Wandsworth police station, where he spent nine hours before being released on bail in the early hours of Tuesday. His bail conditions extend through the end of May, and consultations between police and the Crown Prosecution Service are ongoing.\n\nHis lawyers at Mishcon De Reya issued a forceful statement to the BBC, calling the flight-risk rationale \"baseless\" and demanding the Met produce evidence justifying the arrest. \"Peter Mandelson was arrested yesterday despite an agreement with the police that he would attend an interview next month on a voluntary basis,\" the firm said. \"There is absolutely no truth whatsoever in any such suggestion\" that he planned to leave the UK permanently. The Metropolitan Police declined to comment on the lawyers' claims.\n\nThe arrest stems from an investigation launched earlier this month into allegations that Mandelson, while serving as a government minister, shared market-sensitive information with the late convicted sex offender Jeffrey Epstein. The allegations gained traction after the U.S. Department of Justice released a cache of documents last month that included emails between the two men. Among them was a 2009 message in which Mandelson appeared to relay a Downing Street adviser's assessment of policy measures, including an \"asset sales plan.\" Other correspondence appeared to reference a tax on bankers' bonuses and to confirm an imminent eurozone bailout package the day before its public announcement in 2010. Search warrants were also executed at two addresses in Wiltshire and Camden on Monday.\n\nMandelson, who played an instrumental role in Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said newly surfaced information revealed a deeper relationship with Epstein than previously understood. His representatives maintain he committed no criminal acts and was not motivated by financial gain, emphasizing his intent to cooperate fully with the investigation and clear his name.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -20,7 +20,112 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T05:17:04.195Z"
+      "publishedAt": "2026-02-25T05:32:02.956Z"
+    },
+    {
+      "id": "ps-1771997538171-cw32",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now reverse-engineer lattice structures with negative thermal expansion and negative Poisson's ratios",
+      "body": "Researchers have developed a machine learning framework capable of designing metamaterials that simultaneously exhibit two counterintuitive physical properties — negative thermal expansion and negative Poisson's ratios — potentially accelerating the deployment of these exotic structures in aerospace, precision instruments, and other demanding engineering applications.\n\nThe work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing challenge in metamaterial engineering: given a set of desired mechanical and thermal properties, how does one efficiently determine the geometry and material composition needed to achieve them? Traditional approaches rely on iterative computational simulations that can be prohibitively slow. The new framework flips the problem, using trained neural networks to suggest structural designs that meet specific performance targets in a fraction of the time.\n\nAt the heart of the approach is a bimaterial hybrid-honeycomb lattice — a periodic structure built from two different base materials arranged in a honeycomb-like geometry. By tuning the lattice's geometric features and the properties of its constituent materials, engineers can create structures that shrink when heated (negative thermal expansion) and expand laterally when stretched (negative Poisson's ratio). Both properties are rare in natural materials but highly valuable for applications requiring dimensional stability under temperature swings, such as satellite components or optical systems.\n\nThe team first generated a large dataset through high-throughput computational homogenization, systematically varying geometric parameters and base material properties across thousands of configurations. A forward neural network model was trained on this dataset to predict effective thermoelastic properties from a given design — essentially learning the physics of the structure. The researchers then constructed six distinct inverse models, each tailored to different design scenarios with varying combinations of target properties and structural variables. Crucially, the trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency during the design optimization.\n\nThe framework demonstrated strong predictive accuracy across representative design examples, suggesting it could serve as a practical tool for engineers working with thermoelastic metamaterials. While the study focused on a specific class of bimaterial honeycomb structures, the methodology — combining high-throughput simulation with neural network-based inverse design — represents a broader paradigm that could extend to other families of architected materials. As metamaterials move closer to real-world deployment, tools that can rapidly navigate vast design spaces will be essential for translating laboratory concepts into functional engineering systems.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1671625113102-fc52080cf2a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T05:32:18.171Z"
+    },
+    {
+      "id": "ps-1771997553042-jpng",
+      "slug": "chemists-synthesize-impossible-silicon-aromatic-molecule-aft",
+      "headline": "Chemists Synthesize 'Impossible' Silicon Aromatic Molecule After 50 Years",
+      "subheadline": "Saarland University team replaces carbon with silicon in a stable ring compound, opening new frontiers in materials science",
+      "body": "A team of chemists at Saarland University in Germany has created pentasilacyclopentadienide — a silicon-based aromatic molecule that researchers worldwide had attempted and failed to synthesize for nearly half a century. The achievement, published February 24 in Science, could reshape the landscape of industrial catalysis and materials design by introducing an entirely new class of silicon-based compounds with properties distinct from their carbon counterparts.\n\nDavid Scheschkewitz, a professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and Bernd Morgenstern from the university's X-ray diffraction service center. The team succeeded in building a flat, five-atom ring structure made entirely of silicon that satisfies Hückel's rule — the mathematical criterion governing aromaticity, which requires a specific number of electrons to be evenly distributed around a planar ring. Aromatic molecules are prized for their exceptional stability, and carbon-based versions are already indispensable in plastics manufacturing, where they enhance the durability and effectiveness of catalysts used in polyethylene and polypropylene production.\n\nWhat makes the silicon version so difficult — and so promising — is that silicon behaves fundamentally differently from carbon. It is more metallic and holds its electrons less tightly, meaning silicon aromatics could yield catalysts and materials with novel electronic and chemical properties. Prior to this work, only one silicon aromatic compound existed: a three-membered silicon ring created in 1981 as the analogue of cyclopropenium. Every subsequent attempt to build larger silicon aromatic systems had failed, leading many in the field to question whether such molecules could exist at all.\n\nIn a striking case of convergent discovery, a group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, independently synthesized the same compound at nearly the same time. The two teams coordinated to publish their results side by side in the same issue of Science, lending additional weight to the finding. The dual confirmation underscores both the robustness of the result and the long-simmering interest in this problem across the global chemistry community.\n\nThe breakthrough represents a critical first step toward expanding silicon-based chemistry beyond its current boundaries. While practical applications remain to be developed, the existence of a stable five-membered silicon aromatic ring provides a foundation for designing new compounds, catalysts, and materials that could eventually find use in industrial processes ranging from polymer manufacturing to electronics.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "silicon",
+        "aromatic chemistry",
+        "materials science",
+        "catalysis",
+        "Saarland University"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T05:32:33.042Z"
+    },
+    {
+      "id": "ps-1771997569093-2q68",
+      "slug": "wayve-secures-1-2b-to-scale-its-contrarian-self-driving-soft",
+      "headline": "Wayve Secures $1.2B to Scale Its Contrarian Self-Driving Software",
+      "subheadline": "The UK startup, now valued at $8.6B, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
+      "body": "British autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, legacy automakers, and institutional investors — a deal that values the company at $8.6 billion and could swell to $1.5 billion if Uber exercises a $300 million contingent commitment tied to robotaxi deployment in London.\n\nThe round, led by Eclipse, Balderton, and SoftBank Vision Fund 2, drew participation from returning backers Microsoft, Nvidia, and Uber alongside new investors including Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — also invested, each with plans to integrate Wayve's technology into their vehicles. Nvidia, which had signaled it was evaluating a strategic investment of up to $500 million, participated but the exact size of its check was not disclosed.\n\nFounded in 2017, Wayve has carved out what CEO Alex Kendall calls a \"contrarian\" position in the autonomous driving landscape. Unlike Waymo, which operates its own robotaxi fleet, or Tesla, which bundles self-driving software with its own vehicles, Wayve sells its AI-driven software stack to automakers and mobility platforms. The company's end-to-end deep learning system requires no high-definition maps and is designed to work across different sensor configurations and computing chips, making it hardware-agnostic — a quality Kendall argues is essential to the licensing model. \"If you build an autonomy stack that's specific to a sensor or compute architecture, you can't take option three,\" he told reporters.\n\nThe commercial momentum behind the raise is tangible. Nissan has committed to deploying Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber plans to begin commercial trials with Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies intend to deploy together in more than 10 markets globally, working across multiple vehicle manufacturers. Wayve's latest Gen 3 platform, unveiled last fall and built on Nvidia's Drive AGX Thor computing architecture, is designed to support both hands-free assisted driving and fully driverless Level 4 capability on city streets and highways.\n\nThe scale of the raise underscores intensifying competition and investment appetite in autonomous driving, even as the industry grapples with the long and costly path to commercialization. For Wayve, the bet is that a software-licensing approach — selling \"embodied AI\" rather than operating fleets or manufacturing cars — offers the largest addressable market. Whether that thesis holds will depend on how quickly the startup's technology proves itself in real-world deployments across diverse geographies and vehicle platforms over the next two years.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Wayve",
+        "autonomous driving",
+        "Nvidia",
+        "Uber",
+        "self-driving cars",
+        "funding round",
+        "artificial intelligence"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T05:32:49.093Z"
+    },
+    {
+      "id": "ps-1771997586490-pjyd",
+      "slug": "oil-hits-six-month-high-as-u-s-iran-tensions-rattle-energy-m",
+      "headline": "Oil Hits Six-Month High as U.S.-Iran Tensions Rattle Energy Markets",
+      "subheadline": "Traders brace for potential disruptions to Iranian crude output and critical Middle Eastern shipping lanes",
+      "body": "Oil prices have surged to their highest level in six months as escalating friction between the United States and Iran injects fresh uncertainty into global energy markets, raising concerns about supply disruptions in one of the world's most strategically important petroleum-producing regions.\n\nThe rally reflects growing anxiety among traders that a further deterioration in U.S.-Iran relations could take two forms, either of which would tighten an already closely balanced global oil market. The first scenario involves direct disruptions to Iran's crude production, which currently supplies roughly 3 million barrels per day to global markets, predominantly to buyers in Asia. The second — and potentially more consequential — threat centers on the Strait of Hormuz, the narrow waterway through which approximately 20 percent of the world's daily oil consumption passes. Iran has repeatedly signaled in past confrontations that it could restrict transit through the chokepoint, a move that would affect not only its own exports but also those of Saudi Arabia, the United Arab Emirates, Kuwait, and Iraq.\n\nMarket participants have been pricing in a risk premium that accounts for both possibilities. While outright military conflict remains a tail risk, even lower-level provocations — such as increased naval activity, cyberattacks on energy infrastructure, or tightened U.S. sanctions enforcement — could sustain upward pressure on benchmark crude contracts. The move higher comes at a sensitive moment for the global economy, where central banks in major consuming nations are still navigating the balance between growth and inflation.\n\nEnergy analysts note that the geopolitical premium embedded in current prices remains modest compared with previous episodes of acute Middle Eastern tension, suggesting the market sees room for diplomatic de-escalation. However, the situation is fluid, and any incident involving military assets near the Strait of Hormuz or attacks on regional oil facilities could trigger a sharper repricing. The 2019 drone strikes on Saudi Aramco's Abqaiq processing facility, which briefly knocked out roughly five percent of global supply, remain a vivid reminder of how quickly regional hostilities can cascade through commodity markets.\n\nFor now, oil market watchers are closely tracking diplomatic signals from Washington and Tehran, along with tanker traffic data and satellite imagery of Iranian military deployments, for any indication of whether the current standoff will cool — or intensify.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "oil prices",
+        "Iran",
+        "geopolitics",
+        "Strait of Hormuz",
+        "energy markets",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1656569125771-f70104a363ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxvaWwlMjBwcmljZXMlMjBJcmFufGVufDB8MHx8fDE3NzE5OTQ5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T05:33:06.490Z"
+    },
+    {
+      "id": "ps-1771997601778-vdez",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping the crypto payments landscape",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would combine two of the world's largest digital payments companies and create a formidable force in the fast-growing stablecoin market. PayPal shares surged 7% on the news, building on gains earlier in the week fueled by buyout speculation.\n\nThe discussions remain in early stages, and there is no certainty a transaction will materialize. But the sheer scale of the potential combination is striking. Stripe, which remains privately held, processed $1.9 trillion in payment volume last year and carries a valuation of roughly $159 billion. PayPal, once a Wall Street darling, has seen its stock decline approximately 80% from the record highs it reached in 2021, making it a comparatively affordable target despite its enormous merchant network and consumer base.\n\nWhat makes the potential pairing particularly consequential is the crypto dimension. Both companies have made significant bets on stablecoins and blockchain-based payment infrastructure. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos. The token has since grown to a market capitalization of approximately $4 billion, offering users the ability to move dollars across crypto networks around the clock at costs often below traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing.\n\nA merger would consolidate two distinct but complementary stablecoin strategies under one roof. PayPal brings a consumer-facing token with meaningful adoption, while Stripe's Bridge platform provides the backend tooling for businesses and crypto projects to issue their own dollar-backed tokens. Together, they could accelerate the push to make stablecoins a mainstream settlement layer for global commerce rather than a niche crypto product.\n\nThe deal would also represent one of the largest fintech acquisitions in history if it encompasses all of PayPal's business. For the broader payments industry, such a combination would concentrate enormous processing power in a single entity, likely drawing regulatory scrutiny. For the stablecoin sector, it would signal that the institutional push into blockchain-based payments has entered a new phase — one driven not by crypto-native startups but by the companies that already move trillions of dollars through the global economy.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "stablecoins",
+        "fintech",
+        "mergers and acquisitions",
+        "PYUSD",
+        "Bridge"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T05:33:21.778Z"
     },
     {
       "id": "ps-1771996641374-634i",
@@ -44,92 +149,6 @@
       "publishedAt": "2026-02-25T05:17:21.374Z"
     },
     {
-      "id": "ps-1771996657196-3q3n",
-      "slug": "chemists-synthesize-long-sought-silicon-aromatic-molecule-af",
-      "headline": "Chemists Synthesize Long-Sought Silicon Aromatic Molecule After 50 Years",
-      "subheadline": "Pentasilacyclopentadienide, a five-atom silicon ring with aromatic stability, could unlock new catalysts and materials",
-      "body": "A team at Saarland University has accomplished what chemists spent nearly five decades attempting: the synthesis of pentasilacyclopentadienide, a stable aromatic molecule in which all five carbon atoms of a classic ring-shaped compound have been replaced by silicon. The result, published in Science on February 24, represents only the second known class of silicon-based aromatic compounds and the first with a five-membered ring.\n\nDavid Scheschkewitz, professor of general and inorganic chemistry at Saarland University, led the effort alongside doctoral student Ankur and crystallographer Bernd Morgenstern. The group overcame a fundamental challenge rooted in the nature of silicon itself: unlike carbon, silicon is more metallic and holds its electrons more loosely, making it far harder to achieve the even electron distribution around a planar ring that defines aromaticity — the quantum mechanical property governed by Hückel's rule that gives aromatic molecules their exceptional stability.\n\nBefore this work, the only silicon aromatic on record was a three-membered silicon ring created in 1981 as the analogue of cyclopropenium. Every subsequent attempt to build larger silicon aromatic systems had failed. The new five-membered ring clears a barrier that had stood for more than four decades, and it does so convincingly: an independent group led by Takeaki Iwamoto at Tohoku University in Sendai, Japan, arrived at the same compound through separate research. The two teams agreed to publish their findings side by side in the same issue of Science, lending additional weight to the discovery.\n\nThe implications extend well beyond the laboratory. Aromatic carbon compounds are workhorses of modern industry, playing critical roles in catalysts used for polyethylene and polypropylene production, among other processes. Because silicon's electronic properties differ markedly from carbon's, pentasilacyclopentadienide could serve as the foundation for an entirely new family of catalysts and advanced materials with characteristics unattainable through conventional organic aromatics. Scheschkewitz noted that the looser grip silicon has on its electrons may yield compounds that interact with other molecules in fundamentally different ways.\n\nWhile commercial applications remain distant, the synthesis answers a question that has motivated theoretical and experimental chemists since the 1970s and opens a previously inaccessible branch of silicon chemistry. For a field built on patient incremental progress, the simultaneous achievement by two groups on opposite sides of the globe underscores that the science was ripe — and that the 50-year wait is finally over.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "silicon chemistry",
-        "aromatic molecules",
-        "pentasilacyclopentadienide",
-        "Saarland University",
-        "materials science",
-        "catalysis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/pentasilacyclopentadienide.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023205.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T05:17:37.196Z"
-    },
-    {
-      "id": "ps-1771996673842-z0ep",
-      "slug": "wayve-secures-1-2b-to-scale-its-sensor-agnostic-self-driving",
-      "headline": "Wayve Secures $1.2B to Scale Its Sensor-Agnostic Self-Driving Software",
-      "subheadline": "The UK startup, now valued at $8.6 billion, draws backing from Nvidia, Uber, Mercedes-Benz, Nissan, and Stellantis",
-      "body": "London-based autonomous driving startup Wayve has closed a $1.2 billion funding round backed by an unusually broad coalition of technology giants, legacy automakers, and institutional investors — a deal that values the company at $8.6 billion and signals intensifying competition to commercialize self-driving technology. The total raise could swell to $1.5 billion with an additional $300 million from Uber tied to the deployment of robotaxis starting in London.\n\nThe round was led by Eclipse, Balderton, and SoftBank Vision Fund 2, with participation from returning investors Microsoft, Nvidia, and Uber. Three major automakers — Mercedes-Benz, Nissan, and Stellantis — also invested, each with plans to integrate Wayve's technology into their vehicles. New backers include the Ontario Teachers' Pension Plan, Baillie Gifford, British Business Bank, and Schroders Capital, reflecting strong institutional appetite for autonomous driving plays.\n\nFounded in 2017 by CEO Alex Kendall, Wayve has staked out what Kendall describes as a \"contrarian\" position in the autonomous vehicle landscape. Rather than relying on high-definition maps or proprietary sensor suites, the company built an end-to-end deep learning system that ingests data from whatever cameras and sensors already exist on a vehicle. Its software runs on existing in-vehicle chips, making it hardware-agnostic — a quality Kendall argues is essential to licensing the technology broadly rather than operating a captive fleet. The company offers two tiers: an \"eyes on\" assisted-driving system and an \"eyes off\" Level 4 system capable of fully driverless operation on city streets and highways.\n\nThe business model sets Wayve apart from dominant competitors. Unlike Waymo, which largely operates its own robotaxi fleet, or Tesla, which bundles its autonomous software with its own vehicles, Wayve sells its AI as a platform layer to automakers and mobility companies. Nissan plans to deploy Wayve's software in its advanced driver-assistance systems starting in 2027, while Uber intends to begin commercial trials in Wayve-equipped vehicles later this year. Uber CEO Dara Khosrowshahi said the two companies plan to deploy together in more than 10 markets worldwide, spanning multiple vehicle manufacturers.\n\nThe investment underscores Nvidia's deepening strategic relationship with Wayve. The chipmaker, which first partnered with the startup in 2018, supplies the Nvidia Drive AGX Thor compute platform that powers Wayve's latest Gen 3 system unveiled last fall. Nvidia had previously signaled it was evaluating a $500 million stake in this round, though Kendall declined to confirm the final figure. With commercialization timelines now measured in quarters rather than years, the breadth of Wayve's investor base suggests that the race to supply self-driving intelligence — rather than merely operate it — is entering a decisive phase.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Wayve",
-        "autonomous driving",
-        "Nvidia",
-        "Uber",
-        "self-driving cars",
-        "fundraising",
-        "robotaxis"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Wayve-Germany-02.jpg?resize=1200,675",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T05:17:53.842Z"
-    },
-    {
-      "id": "ps-1771996689435-uiph",
-      "slug": "oil-hits-six-month-high-as-u-s-iran-tensions-rattle-energy-m",
-      "headline": "Oil Hits Six-Month High as U.S.-Iran Tensions Rattle Energy Markets",
-      "subheadline": "Traders brace for potential disruptions to Iranian crude output and critical Middle East shipping routes",
-      "body": "Crude oil prices have surged to their highest level in six months as escalating friction between the United States and Iran injects fresh uncertainty into global energy markets, raising the specter of supply disruptions in one of the world's most strategically vital petroleum regions.\n\nThe rally reflects growing trader anxiety over two distinct but interrelated risks. The first is a potential curtailment of Iranian crude production itself, which could remove significant barrels from an already tightly balanced global market. Iran remains a major OPEC producer, and any disruption — whether from intensified sanctions enforcement, military action, or internal instability — would tighten supply at a moment when spare capacity among other producers remains limited.\n\nThe second and arguably more consequential concern centers on the Strait of Hormuz, the narrow waterway through which roughly one-fifth of the world's daily oil consumption passes. Iran has historically threatened to block or restrict transit through the strait during periods of heightened confrontation with Washington. Even a partial disruption to shipping through the chokepoint would ripple across global energy markets, affecting not only Iranian exports but also crude and liquefied natural gas shipments from Saudi Arabia, the United Arab Emirates, Kuwait, Iraq, and Qatar.\n\nFor now, the price move reflects a risk premium rather than any confirmed supply outage. Oil markets have a long history of pricing in geopolitical worst-case scenarios that ultimately do not materialize, and traders remain attentive to diplomatic signals from both Washington and Tehran. But the speed and magnitude of the rally underscore just how sensitive energy markets remain to Middle East security dynamics, particularly at a time when global demand continues to grow and OPEC+ production cuts have left limited buffer capacity.\n\nThe situation bears close watching in the weeks ahead. Should tensions de-escalate through diplomatic channels, the geopolitical premium embedded in current prices could unwind quickly. But any further provocation — military posturing near the Persian Gulf, new sanctions packages, or disruptions to shipping insurance and tanker traffic — could push crude prices materially higher, with cascading effects on fuel costs, inflation expectations, and central bank policy calculations worldwide.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "oil prices",
-        "Iran",
-        "geopolitics",
-        "Strait of Hormuz",
-        "energy markets",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1656567298829-480f3666addc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxvaWwlMjBwcmljZXMlMjBJcmFufGVufDB8MHx8fDE3NzE5OTQ5MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/oil-at-six-month-high-what-us-iran-conflict-could-mean-for-markets",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T05:18:09.435Z"
-    },
-    {
-      "id": "ps-1771996706726-ykk6",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, creating a dominant force in digital payments",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal's business, Bloomberg reported on Tuesday, a deal that would reshape the global payments landscape and consolidate two of the industry's most significant bets on stablecoins and blockchain infrastructure. PayPal shares surged 7% on the news.\n\nThe discussions are described as preliminary, but the scale is staggering. Stripe, which processed $1.9 trillion in transactions last year and carries a private valuation of $159 billion, would be absorbing a publicly traded company whose stock has fallen roughly 80% from its 2021 highs. PayPal shares had already been climbing earlier in the week on buyout speculation before the Bloomberg report added fuel.\n\nWhat makes the potential combination particularly consequential is the crypto dimension. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has grown to a market capitalization of approximately $4 billion. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merger would bring PYUSD's established user base together with Bridge's enterprise tooling for issuing dollar-backed tokens — arguably the most formidable stablecoin stack in traditional finance.\n\nThe strategic logic extends beyond crypto. Stripe has built its dominance largely on the merchant side, powering online checkout for millions of businesses, while PayPal retains a massive consumer-facing network including its Venmo subsidiary. Combining both sides of the transaction could yield significant synergies in data, fraud prevention, and cross-border commerce. For Stripe, which remains privately held, the deal could also represent a path toward public markets if it chose to use equity as part of any transaction structure.\n\nStill, enormous hurdles remain. Antitrust scrutiny would be intense given the overlapping payment processing operations, and integrating two companies of this scale — each with distinct technology stacks and corporate cultures — would be a multi-year undertaking. PayPal's prolonged stock decline also raises questions about the underlying business trajectory that any acquirer would inherit. Whether Stripe ultimately pursues the full company or cherry-picks specific units like Venmo or the PYUSD stablecoin operation could determine whether a deal materializes at all.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T05:18:26.726Z"
-    },
-    {
       "id": "ps-1771995725863-x6cs",
       "slug": "trump-delivers-combative-state-of-the-union-amid-sagging-pol",
       "headline": "Trump Delivers Combative State of the Union Amid Sagging Poll Numbers",
@@ -149,27 +168,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2d7x6zrwro?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T05:02:05.863Z"
-    },
-    {
-      "id": "ps-1771995743334-5l4q",
-      "slug": "machine-learning-cracks-inverse-design-of-exotic-thermal-met",
-      "headline": "Machine Learning Cracks Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can now specify the geometry and materials needed to achieve desired negative thermal expansion and negative Poisson's ratio",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of lattice metamaterials that exhibit two highly sought-after and counterintuitive mechanical properties simultaneously — negative thermal expansion and a negative Poisson's ratio. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a persistent bottleneck in metamaterial engineering: given a set of desired physical properties, how does one efficiently determine the structure that produces them?\n\nThe metamaterials in question are bimaterial hybrid-honeycomb lattices — periodic structures built from two different base materials arranged in honeycomb-like geometries. Unlike ordinary materials, which expand when heated and thin when stretched, these engineered lattices can shrink under rising temperatures and grow wider when pulled. Such properties make them attractive candidates for aerospace components, precision instruments, and other systems where thermal distortion must be tightly controlled.\n\nTraditionally, designing these structures has required painstaking trial-and-error simulation or brute-force parameter sweeps. Peng and Xu's approach flips the problem. They first generated a large dataset using computational homogenization, systematically varying the lattice geometry and constituent material properties. A forward neural network model was trained on this dataset to predict effective thermoelastic properties from a given structural design. The team then built six distinct inverse models, each targeting different combinations of effective properties and design variables, to recommend specific geometries and material pairings that would yield a user-specified set of target behaviors.\n\nA key innovation lies in how the forward model is woven into the training of the inverse models. It serves double duty: integrated directly into the inverse models' loss functions to enforce physical consistency, and used to generate supplementary training data for scenarios where the base materials are fixed. The authors report strong predictive performance across representative design examples, suggesting the framework is robust enough for practical engineering deployment.\n\nThe work sits at the intersection of computational materials science and applied machine learning, a space that has seen rapid growth as researchers seek to accelerate the discovery and optimization of advanced materials. While the current study is limited to a specific class of bimaterial honeycomb lattices, the methodology — high-throughput simulation feeding neural network surrogates for both forward prediction and inverse design — is broadly transferable. As metamaterial applications expand into thermal management, vibration isolation, and adaptive structures, tools like these could significantly compress development timelines.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1697123715921-4a89b78987bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T05:02:23.334Z"
     },
     {
       "id": "ps-1771995772951-2rxj",
