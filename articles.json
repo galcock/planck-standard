@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-02-25T06:18:24.458Z",
+  "lastUpdated": "2026-02-25T06:33:16.461Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772001117598-ngdi",
+      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
+      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
+      "subheadline": "Former UK ambassador to the US was detained at his London home despite agreement to attend voluntary police interview",
+      "body": "Lord Peter Mandelson's legal team has accused Metropolitan Police of arresting the former British ambassador to the United States based on a \"baseless\" claim that he intended to flee the country, escalating tensions around one of the most high-profile criminal investigations in recent British political history.\n\nMandelson was arrested at his London home on Monday afternoon on suspicion of misconduct in public office, despite what his lawyers at Mishcon De Reya say was a pre-existing agreement for a voluntary police interview next month. Officers from the Met's central specialist crime division escorted him in an unmarked car to Wandsworth police station, where he was held for nine hours before being released on bail in the early hours of Tuesday. His lawyers said there is \"absolutely no truth whatsoever\" in any suggestion he planned to leave the UK permanently and have demanded the police disclose what evidence justified the arrest. The Metropolitan Police declined to comment.\n\nThe investigation, launched earlier this month, centers on allegations that Mandelson shared market-sensitive government information with the late convicted sex offender Jeffrey Epstein while serving as a senior minister under Prime Minister Gordon Brown. Documents released by the U.S. Department of Justice last month included emails between the two men, one from 2009 appearing to show Mandelson relaying a Downing Street adviser's assessment of policy measures including an \"asset sales plan.\" Other communications appeared to reference a tax on bankers' bonuses and an imminent eurozone bailout package the day before its public announcement in 2010.\n\nMandelson, a towering figure in British politics who helped architect New Labour's rise and Tony Blair's 1997 landslide victory, was appointed ambassador to Washington in February 2025. He was dismissed from the post in September after Downing Street said new information had surfaced about the depth of his relationship with Epstein. His legal representatives maintain he has not acted criminally and was not motivated by financial gain.\n\nConsultations between police and the Crown Prosecution Service are ongoing, with Mandelson bailed until the end of May. The case has sent shockwaves through Westminster, raising questions about the intersection of political power and personal networks at the highest levels of British government. Search warrants were also executed at two addresses in Wiltshire and Camden as part of Monday's police operation.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Peter Mandelson",
+        "Jeffrey Epstein",
+        "Metropolitan Police",
+        "UK politics",
+        "misconduct in public office"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/343b/live/b9dd85d0-1212-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-25T06:31:57.598Z"
+    },
+    {
+      "id": "ps-1772001134235-fisp",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-metamateri",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Metamaterials",
+      "subheadline": "Neural network models can now suggest material architectures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — a breakthrough that could accelerate the deployment of these exotic structures in aerospace, precision instruments, and other demanding engineering applications.\n\nIn a paper posted to the arXiv preprint server on February 12, Xiang-Long Peng and Bai-Xiang Xu describe a neural network framework that inverts the traditional materials design process. Rather than proposing a structure and then calculating its properties, their inverse models accept desired thermoelastic targets and output the geometric features and base material combinations needed to achieve them. The metamaterials in question are bimaterial hybrid-honeycomb lattices — periodic structures built from two different materials arranged in honeycomb-like cells — that can be tuned to contract when heated and thicken laterally when stretched, behaviors opposite to those of virtually all conventional solids.\n\nThe team first generated a large dataset through computational homogenization, systematically varying the lattice geometry and constituent material properties across a high-throughput simulation campaign. A forward neural network was trained on this dataset to predict effective thermoelastic properties from a given structural design, serving as a fast surrogate for expensive finite-element calculations. Six distinct inverse models were then constructed, each targeting different combinations of effective properties and design variables to cover a range of practical scenarios. Critically, the trained forward model was embedded directly into the loss functions of the inverse models, enforcing physical consistency during training and enabling the generation of supplementary datasets for cases where the base materials are held fixed.\n\nMetamaterials with simultaneous negative Poisson's ratio and negative thermal expansion are prized for applications where dimensional stability under thermal loading is paramount — satellite structures, optical mounts, and precision tooling among them. Designing such materials by trial and error or even by parametric sweeps is computationally prohibitive given the vast design space. The machine learning approach demonstrated by Peng and Xu compresses this search from thousands of simulations to near-instantaneous inference, with representative design examples confirming strong predictive accuracy for both the forward and inverse models.\n\nThe work, which spans applied physics and materials science, underscores a broader trend in which neural networks are reshaping computational materials design — moving the field from forward prediction toward on-demand, goal-driven engineering of matter with programmable physical behavior.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1630505331189-4ca903b81824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-25T06:32:14.235Z"
+    },
+    {
+      "id": "ps-1772001150961-ulj8",
+      "slug": "waterloo-scientists-engineer-tumor-eating-bacteria-with-buil",
+      "headline": "Waterloo Scientists Engineer Tumor-Eating Bacteria With Built-In Safety Switch",
+      "subheadline": "Synthetic DNA circuits prevent engineered microbes from activating outside oxygen-starved tumor cores",
+      "body": "Researchers at the University of Waterloo have developed a genetically engineered bacterium designed to colonize and consume solid tumors from the inside out, using a synthetic biological circuit that activates the microbe's cancer-fighting capabilities only when safely embedded deep within a tumor mass.\n\nThe approach centers on Clostridium sporogenes, a soil-dwelling bacterium that thrives exclusively in oxygen-free environments. The oxygen-starved, nutrient-rich cores of solid tumors — composed largely of dead cells — provide an ideal habitat for the microbe to multiply. \"Bacteria spores enter the tumor, finding an environment where there are lots of nutrients and no oxygen, which this organism prefers, and so it starts eating those nutrients and growing in size,\" said Marc Aucoin, a chemical engineering professor at Waterloo. Once established, the bacteria essentially devour the tumor from within.\n\nThe central engineering challenge was extending the bacteria's reach. As Clostridium sporogenes expands outward from a tumor's anaerobic core, it encounters trace amounts of oxygen at the margins and dies off before fully destroying the cancerous tissue. To overcome this, the team inserted an oxygen-tolerance gene borrowed from a related bacterial species. But simply making the bacteria more oxygen-resistant would create a serious safety hazard — microbes capable of surviving in oxygen-rich environments like the bloodstream could pose a systemic infection risk.\n\nThe team's solution was a quorum-sensing control mechanism, a natural bacterial communication process repurposed as a biological safety switch. Bacteria release chemical signals as they multiply; only after a sufficient population has accumulated inside a tumor does the collective signal reach the threshold needed to activate the oxygen-tolerance gene. This ensures the survival mechanism engages exclusively within the tumor environment. Brian Ingalls, a professor of applied mathematics at Waterloo, likened the system to an electrical circuit built from DNA components rather than wires, each piece performing a defined function within a predictable system. The work was published in ACS Synthetic Biology.\n\nThe researchers have so far demonstrated each component separately — oxygen tolerance in one study and quorum-sensing activation in another, the latter confirmed using green fluorescent protein as a visual marker. The next milestone is combining both features into a single organism and testing it in pre-clinical tumor models. The project, which grew from the doctoral work of Bahram Zargar, involves a collaboration with CREM Co Labs, a Toronto company Zargar co-founded, and former Waterloo doctoral student Sara Sadr, who led key advances in the research.\n\nIf the integrated system proves effective in animal models, the approach could represent a fundamentally new modality for treating solid tumors — one that exploits the very conditions that make such cancers difficult to reach with conventional therapies like radiation and chemotherapy, which often struggle to penetrate oxygen-poor tumor interiors.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cancer treatment",
+        "synthetic biology",
+        "engineered bacteria",
+        "University of Waterloo",
+        "quorum sensing",
+        "Clostridium sporogenes"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-25T06:32:30.961Z"
+    },
+    {
+      "id": "ps-1772001165196-hxf6",
+      "slug": "matx-raises-500m-to-build-ai-chips-that-challenge-nvidia",
+      "headline": "MatX Raises $500M to Build AI Chips That Challenge Nvidia",
+      "subheadline": "The startup founded by ex-Google TPU engineers plans to manufacture processors with TSMC and begin shipping in 2027",
+      "body": "MatX, a semiconductor startup aiming to build processors that outperform Nvidia's GPUs for AI training, has closed a $500 million Series B funding round led by trading firm Jane Street and Situational Awareness, the investment fund launched by former OpenAI researcher Leopold Aschenbrenner.\n\nThe round, announced Tuesday by CEO and co-founder Reiner Pope on LinkedIn, also drew participation from Marvell Technology, NFDG, Spark Capital, and Stripe co-founders Patrick and John Collison. The fundraise represents a fivefold jump from MatX's roughly $100 million Series A in 2024, which valued the company at over $300 million. While MatX did not disclose its latest valuation, competitor Etched reportedly raised a $500 million round last month at a $5 billion valuation, according to Bloomberg.\n\nFounded in 2023, MatX is built on deep expertise in custom AI silicon. Pope previously led AI software development for Google's Tensor Processing Units (TPUs), while co-founder Mike Gunter served as a lead hardware designer on the same chips. The pair left Google with the ambitious goal of creating processors that are ten times more effective than Nvidia's GPUs at training large language models and delivering inference results — a claim that, if realized, could meaningfully reshape the AI infrastructure market currently dominated by Nvidia's data center hardware.\n\nThe fresh capital will fund manufacturing through Taiwan Semiconductor Manufacturing Company (TSMC), the world's leading contract chipmaker. MatX plans to begin shipping its processors in 2027, a timeline that puts it on a collision course with Nvidia's next-generation GPU roadmap as well as a growing field of AI chip challengers including Etched, Cerebras, and Groq.\n\nThe investment underscores a broader trend of capital flooding into alternative AI chip architectures as hyperscalers and AI companies seek to reduce their dependence on Nvidia, whose GPUs command premium pricing and remain in tight supply. Jane Street's lead role is notable — the quantitative trading giant has increasingly deployed capital into AI infrastructure bets. Aschenbrenner's Situational Awareness fund, meanwhile, signals conviction from a figure who has been among the most vocal proponents of accelerating AI capabilities. Whether MatX can deliver on its performance promises remains to be seen, but the caliber of its backers and its founders' pedigree suggest the market is taking the challenge seriously.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "MatX",
+        "AI chips",
+        "Nvidia",
+        "semiconductors",
+        "venture capital",
+        "TSMC",
+        "Leopold Aschenbrenner"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/09/chip-manufacturing-getty.jpg?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-25T06:32:45.196Z"
+    },
+    {
+      "id": "ps-1772001180456-9inl",
+      "slug": "japan-bond-yields-climb-as-dovish-boj-board-nominees-roil-ma",
+      "headline": "Japan Bond Yields Climb as Dovish BOJ Board Nominees Roil Markets",
+      "subheadline": "Prime Minister Takaichi's picks for Bank of Japan policy board signal cautious approach to monetary tightening",
+      "body": "Yields on Japan's longer-dated government bonds extended their advance on Wednesday while the yen whipsawed against the dollar, after Prime Minister Sanae Takaichi's government put forward two new Bank of Japan policy board nominees widely perceived as dovish on monetary policy.\n\nThe nominations inject fresh uncertainty into the trajectory of Japanese interest rates at a time when global bond markets are already contending with shifting expectations around central bank policy paths. Longer-term Japanese government bond yields pushed higher as traders recalibrated their outlook, while the yen reversed an earlier gain against the greenback before swinging back, reflecting the market's struggle to digest the implications of the appointments.\n\nThe selections appear consistent with Takaichi's well-documented skepticism toward aggressive monetary tightening. Since taking office, the prime minister has signaled a preference for maintaining accommodative financial conditions to support Japan's economic recovery, putting her at occasional odds with market participants who had been pricing in a more hawkish BOJ stance. Dovish board members could slow or temper the pace of any further rate increases, a prospect that typically weighs on the yen by keeping the interest rate differential with other major economies wide.\n\nThe seemingly contradictory market reaction — rising bond yields alongside dovish nominations — may reflect broader structural forces in Japan's government bond market, including persistent concerns about fiscal sustainability and reduced BOJ bond purchases as part of its gradual policy normalization. Even if the new nominees lean against rate hikes, the central bank's ongoing quantitative tightening continues to reshape the supply-demand dynamics for Japanese debt.\n\nCurrency traders will be watching closely for confirmation hearings and any public statements from the nominees that could clarify their policy leanings. The BOJ's next scheduled policy meeting will serve as an early test of whether the board's evolving composition meaningfully shifts the institution's forward guidance. For now, the nominations underscore the Takaichi government's intent to maintain a firm hand on the direction of Japanese monetary policy at a pivotal moment for the world's fourth-largest economy.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Bank of Japan",
+        "Japanese bonds",
+        "yen",
+        "monetary policy",
+        "Sanae Takaichi",
+        "BOJ"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1554434416-064b5f694932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8SmFwYW4lMjBCb25kJTIwWWllbGRzJTIwQ2xpbWIlMjBEb3Zpc2h8ZW58MHwwfHx8MTc3MjAwMTE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/yen-reverses-gain-versus-dollar-after-dovish-boj-nominations",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-25T06:33:00.456Z"
+    },
+    {
+      "id": "ps-1772001196376-fg1y",
+      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
+      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
+      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, as PayPal shares surge 7% on the report",
+      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, according to a Bloomberg report published Tuesday, a deal that would reshape the global payments landscape and create a dominant force in the rapidly growing stablecoin sector.\n\nPayPal shares jumped 7% in late trading on the news, extending gains that had already begun earlier in the week on buyout speculation. The stock remains deeply depressed from its 2021 highs, having shed roughly 80% of its peak value — a decline that may have made the once-untouchable fintech giant an attractive target. Stripe, which processed $1.9 trillion in transactions last year and carried a private valuation of $159 billion in its most recent funding round, would be acquiring a company that still commands enormous scale in online payments but has struggled to reignite growth.\n\nThe crypto and stablecoin dimensions of a potential combination are particularly striking. PayPal launched its dollar-backed stablecoin PYUSD in 2022 through issuer Paxos, and the token has since grown to approximately $4 billion in market capitalization. Stripe, meanwhile, acquired stablecoin infrastructure company Bridge for $1.1 billion in 2024 and is collaborating with venture firm Paradigm on Tempo, a payments-focused blockchain currently in testing. A merged entity would control both a widely circulating consumer stablecoin and the backend infrastructure for issuing and moving dollar-backed tokens — a vertically integrated position no other payments company currently holds.\n\nDeliberations remain in early stages, Bloomberg reported, and there is no guarantee a deal will materialize. The regulatory scrutiny alone would be formidable, given that both companies operate at the core of global commerce. Stripe handles payment processing for millions of businesses, while PayPal's ecosystem — including Venmo — serves hundreds of millions of consumers. Antitrust authorities on both sides of the Atlantic would likely take a close look at the competitive implications of combining two of the world's largest digital payments platforms.\n\nStill, the strategic logic is clear. Traditional payment rails remain slow and expensive, particularly for cross-border transactions. Stablecoins offer a faster, cheaper alternative that both companies have been investing heavily to build out. If Stripe moves forward, the deal would represent one of the largest fintech acquisitions in history and a landmark bet that blockchain-based payment infrastructure is the future of money movement.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Stripe",
+        "PayPal",
+        "acquisition",
+        "stablecoins",
+        "fintech",
+        "PYUSD"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-25T06:33:16.376Z"
+    },
     {
       "id": "ps-1772000225338-jn4n",
       "slug": "disabled-woman-moved-to-nursing-home-against-her-will-sparks",
@@ -87,70 +213,6 @@
       "publishedAt": "2026-02-25T06:17:54.318Z"
     },
     {
-      "id": "ps-1772000288039-w7gn",
-      "slug": "yen-reverses-gains-after-japan-nominates-dovish-boj-board-me",
-      "headline": "Yen Reverses Gains After Japan Nominates Dovish BOJ Board Members",
-      "subheadline": "Prime Minister Takaichi's picks signal a more accommodative stance at the Bank of Japan, pressuring the currency",
-      "body": "The Japanese yen gave back earlier advances against the U.S. dollar on Wednesday after Prime Minister Sanae Takaichi's government put forward two new nominees for the Bank of Japan's policy board who are widely perceived as favoring a dovish monetary stance.\n\nThe currency reversal underscores the sensitivity of yen markets to any signals about the future trajectory of Japanese interest rates. The BOJ has been on a gradual tightening path after decades of ultra-loose monetary policy, and the composition of its nine-member policy board is closely watched for clues about how far and how fast rate increases might proceed. The nomination of board members seen as inclined toward accommodation suggests the Takaichi government may be seeking to temper the pace of normalization.\n\nPrime Minister Takaichi, who took office after winning the Liberal Democratic Party leadership contest, has previously expressed skepticism about aggressive rate hikes, arguing that premature tightening could undermine Japan's fragile economic recovery. The dovish nominations appear consistent with that stance and could complicate the BOJ's efforts to continue unwinding its massive stimulus programs. Market participants will be watching confirmation proceedings closely to gauge how the new members might shift the balance of opinion on the board.\n\nThe yen's trajectory has been one of the defining stories in global currency markets over the past several years. After falling to multi-decade lows against the dollar during the era of wide interest rate differentials between Japan and the United States, the currency had been recovering as the BOJ moved toward normalization. Any indication that the pace of tightening could slow risks reigniting downward pressure on the yen, with implications for Japanese importers, exporters, and global carry trade dynamics.\n\nTraders and analysts will now focus on the nominees' public statements and policy positions as confirmation hearings proceed, as well as any broader signals from the Takaichi administration about its preferred monetary policy direction heading into the second quarter.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "yen",
-        "Bank of Japan",
-        "monetary policy",
-        "Sanae Takaichi",
-        "forex",
-        "Japanese economy"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1703162493357-976aa4271367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHx5ZW4lMjBCYW5rJTIwb2YlMjBKYXBhbnxlbnwwfDB8fHwxNzcxOTkzOTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/yen-reverses-gain-versus-dollar-after-dovish-boj-nominations",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T06:18:08.039Z"
-    },
-    {
-      "id": "ps-1772000304350-hu1x",
-      "slug": "stripe-weighs-paypal-acquisition-in-potential-payments-megad",
-      "headline": "Stripe Weighs PayPal Acquisition in Potential Payments Megadeal",
-      "subheadline": "A combination would unite two fintech giants with major stablecoin ambitions, reshaping digital payments infrastructure",
-      "body": "Stripe is exploring a potential acquisition of all or parts of PayPal, Bloomberg reported on Tuesday, sending PayPal shares up 7% in a deal that could reshape the global payments landscape and consolidate two of the industry's most significant stablecoin operations under one roof.\n\nThe deliberations remain in early stages, according to the report, and there is no guarantee a transaction will materialize. But the sheer scale of the potential combination is striking. Stripe, which processed $1.9 trillion in transactions last year and carries a private valuation of roughly $159 billion, would be absorbing a publicly traded rival whose stock has fallen approximately 80% from its 2021 highs — a decline that has made PayPal a persistent subject of takeover speculation. PayPal shares had already been climbing on buyout chatter earlier in the week before the Bloomberg report added fresh momentum.\n\nFor the digital asset industry, a merger would be particularly consequential. PayPal launched its dollar-backed stablecoin, PYUSD, in 2022 through issuer Paxos, and the token has grown to a market capitalization of about $4 billion. It enables users to transfer dollars across blockchain networks around the clock, often more cheaply than traditional bank wires. Stripe, meanwhile, has been building its own crypto infrastructure aggressively. The company acquired Bridge, a stablecoin tooling startup, for $1.1 billion in 2024 and is currently developing Tempo, a payments-focused blockchain being built in collaboration with venture firm Paradigm. Combining these efforts would create a formidable stablecoin and blockchain payments operation embedded within one of the world's largest transaction processors.\n\nThe potential deal underscores a broader trend of traditional financial technology companies racing to integrate blockchain-based payment rails into their core infrastructure. Stablecoins — digital tokens pegged to fiat currencies — have emerged as one of the most commercially viable applications of blockchain technology, offering near-instant settlement and lower fees compared to legacy systems. A Stripe-PayPal combination would position the merged entity to dominate this rapidly growing segment while competing with banks and newer crypto-native platforms alike.\n\nAnalysts will be watching closely for any formal bid or further details on whether Stripe would pursue PayPal in its entirety or seek to carve out specific business units. The complexity of integrating two massive payment networks, combined with potential regulatory scrutiny of such a concentration in digital payments, could present significant hurdles even if both sides find agreeable terms.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Stripe",
-        "PayPal",
-        "acquisition",
-        "stablecoins",
-        "fintech",
-        "PYUSD",
-        "digital payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f8b3037764125a46ab06b577815db521cfab14f5-1920x1080.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/24/payments-giant-stripe-reportedly-mulling-paypal-acquisition",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T06:18:24.350Z"
-    },
-    {
-      "id": "ps-1771999341212-uxwq",
-      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
-      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
-      "subheadline": "Neural network models can rapidly identify structural blueprints for materials with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of bimaterial lattice metamaterials — exotic structures that simultaneously shrink when heated and expand laterally when stretched, defying the behavior of conventional materials. The work, published on the arXiv preprint server by Xiang-Long Peng and Bai-Xiang Xu, addresses a long-standing bottleneck in metamaterial engineering: moving from knowing what properties are desired to efficiently determining how to build the structure that delivers them.\n\nThe metamaterials in question are based on hybrid-honeycomb architectures composed of two different base materials. By tuning geometric features and material combinations, these lattices can exhibit both negative Poisson's ratios — meaning they contract transversely under compression rather than bulging outward — and negative coefficients of thermal expansion, causing them to shrink as temperature rises. Such counterintuitive thermoelastic behavior makes them attractive candidates for precision instruments, aerospace components, and other engineering systems where dimensional stability under thermal fluctuations is critical.\n\nTo train their models, Peng and Xu generated a large dataset through computational homogenization, systematically varying the lattice geometry and base material properties across thousands of configurations. They first built a forward model that predicts effective thermoelastic properties from a given structural design, achieving high accuracy while dramatically reducing the computational cost compared to full-scale simulation. The forward model was then embedded into the loss functions of six distinct inverse models, each tailored to different design scenarios — for instance, specifying target thermal expansion and Poisson's ratio while allowing the algorithm to propose both geometry and material selection, or fixing the base materials and optimizing geometry alone.\n\nThe approach represents a significant practical advance over traditional trial-and-error or optimization-based design methods, which can be computationally prohibitive for multi-parameter metamaterial systems. By generating additional training data for constrained cases using the validated forward model, the researchers effectively bootstrapped their inverse models without requiring exhaustive new simulations. Representative design examples demonstrated that the inverse models reliably suggest structural configurations whose predicted properties closely match the desired targets.\n\nThe framework is broadly applicable beyond the specific honeycomb geometry studied here and could accelerate the deployment of thermoelastic metamaterials in real-world engineering systems, from satellite structures subject to extreme temperature swings to medical devices requiring dimensional precision. As metamaterial complexity grows, machine learning-driven inverse design is increasingly positioned as an essential tool for translating theoretical possibilities into manufacturable realities.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "materials science",
-        "neural networks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1682341891731-841dc120e398?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzE5OTU3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-25T06:02:21.212Z"
-    },
-    {
       "id": "ps-1771999387017-7fzs",
       "slug": "oil-prices-climb-as-iran-nuclear-talk-uncertainty-grips-mark",
       "headline": "Oil Prices Climb as Iran Nuclear Talk Uncertainty Grips Market",
@@ -171,26 +233,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/latest-oil-market-news-and-analysis-for-feb-25",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T06:03:07.017Z"
-    },
-    {
-      "id": "ps-1771998414801-m8le",
-      "slug": "mandelson-arrested-over-baseless-flight-risk-claim-lawyers-s",
-      "headline": "Mandelson Arrested Over 'Baseless' Flight Risk Claim, Lawyers Say",
-      "subheadline": "Former UK ambassador to the US was held for nine hours despite agreement to attend voluntary police interview",
-      "body": "Lord Peter Mandelson's legal team has pushed back sharply against the Metropolitan Police's decision to arrest the former British ambassador to the United States at his London home on Monday, saying officers acted on a \"baseless\" claim that he was planning to flee the country.\n\nThe peer's lawyers at Mishcon De Reya told the BBC that Mandelson had already agreed to attend a voluntary police interview next month, making the arrest unnecessary. \"The arrest was prompted by a baseless suggestion that he was planning to leave the country and take up permanent residence abroad. There is absolutely no truth whatsoever in any such suggestion,\" the firm said in a statement, adding that it has demanded the Metropolitan Police disclose the evidence used to justify the arrest. The Met declined to comment.\n\nMandelson, 71, was arrested on suspicion of misconduct in public office and taken to Wandsworth police station, where he was held for approximately nine hours before being released on bail in the early hours of Tuesday morning. Officers from the Met's central specialist crime division carried out the arrest, and search warrants were executed at two addresses in Wiltshire and Camden. He has been bailed until the end of May, with consultations between police and the Crown Prosecution Service ongoing.\n\nThe investigation, launched earlier this month, centers on allegations that Mandelson passed market-sensitive government information to the late convicted sex offender Jeffrey Epstein while serving as a senior minister under Prime Minister Gordon Brown. The allegations gained momentum after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. One 2009 email appears to show Mandelson sharing a Downing Street adviser's assessment of policy measures including an \"asset sales plan.\" Other communications apparently reference a tax on bankers' bonuses and an imminent eurozone bailout package disclosed the day before its public announcement in 2010.\n\nMandelson, a central architect of New Labour and Tony Blair's 1997 landslide victory, was appointed British ambassador to Washington in February 2025 but was dismissed in September after Downing Street said new information had emerged about the depth of his relationship with Epstein. His legal team maintains he has not acted criminally and was not motivated by financial gain. \"Peter Mandelson's overriding priority is to cooperate with the police investigation, as he has done throughout this process, and to clear his name,\" his lawyers said.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Peter Mandelson",
-        "Metropolitan Police",
-        "Jeffrey Epstein",
-        "UK politics",
-        "misconduct in public office"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/5be3/live/7f0c72e0-11ae-11f1-a8f6-f18f581059b8.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c05vey47yddo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T05:46:54.801Z"
     },
     {
       "id": "ps-1771998461674-l4ea",
@@ -299,27 +341,6 @@
       "publishedAt": "2026-02-25T04:47:34.986Z"
     },
     {
-      "id": "ps-1771994870198-i3d8",
-      "slug": "waterloo-engineers-design-bacteria-to-devour-tumors-from-wit",
-      "headline": "Waterloo Engineers Design Bacteria to Devour Tumors From Within",
-      "subheadline": "Synthetic biology approach uses quorum sensing to control oxygen-tolerant microbes that colonize solid tumors",
-      "body": "Researchers at the University of Waterloo have engineered a soil bacterium to infiltrate solid tumors and consume them from the inside, deploying a programmable genetic circuit that activates only when conditions are safe — a potential breakthrough in the long quest to turn microbes into precision cancer therapies.\n\nThe approach centers on Clostridium sporogenes, a microbe that thrives exclusively in oxygen-free environments. The dead, oxygen-depleted cores of solid tumors provide an ideal habitat. Once bacterial spores enter a tumor, they begin multiplying and feeding on available nutrients, effectively colonizing and destroying cancerous tissue. \"We are now colonizing that central space, and the bacterium is essentially ridding the body of the tumor,\" said Dr. Marc Aucoin, a chemical engineering professor at Waterloo.\n\nThe central engineering challenge has been what happens at the tumor's edges, where trace amounts of oxygen kill the bacteria before they can eliminate all cancerous cells. To solve this, the team inserted an oxygen-tolerance gene from a related bacterial species, allowing the engineered microbes to survive in partially oxygenated regions. But giving bacteria the ability to tolerate oxygen raises an obvious safety concern: unchecked growth in oxygen-rich environments like the bloodstream. The researchers addressed this with quorum sensing, a natural bacterial communication mechanism in which microbes release chemical signals that intensify as their population grows. The oxygen-resistance gene switches on only after enough bacteria have accumulated inside the tumor, ensuring the survival mechanism activates exclusively where it is needed.\n\nThe work, published in ACS Synthetic Biology, demonstrated the quorum-sensing control system using a green fluorescent protein as a reporter, confirming that activation occurred at the intended bacterial population threshold. \"Using synthetic biology, we built something like an electrical circuit, but instead of wires we used pieces of DNA,\" said Dr. Brian Ingalls, a professor of applied mathematics at Waterloo. \"Each piece has its job. When assembled correctly, they form a system that works in a predictable way.\" The next milestone is combining both the oxygen-tolerance gene and the quorum-sensing control into a single organism for pre-clinical tumor trials.\n\nThe project, which grew from PhD work by Bahram Zargar, reflects a broader interdisciplinary push at Waterloo spanning engineering, mathematics, and life sciences. The university team is now collaborating with the Center for Research on Environmental Microbiology (CREM Co Labs), a Toronto company co-founded by Zargar, to advance the technology toward clinical application. While bacterial cancer therapies have been explored for over a century — dating back to physician William Coley's toxin experiments in the 1890s — modern synthetic biology tools are now providing the precision control that earlier efforts lacked, potentially opening a new front against solid tumors that remain stubbornly resistant to conventional treatments.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "cancer therapy",
-        "synthetic biology",
-        "engineered bacteria",
-        "University of Waterloo",
-        "quorum sensing",
-        "Clostridium sporogenes"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/destroying-cancer-tumor-from-inside.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260224023101.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-25T04:47:50.198Z"
-    },
-    {
       "id": "ps-1771992192121-jwgs",
       "slug": "foreign-investors-pour-into-taiwan-stocks-at-fastest-pace-in",
       "headline": "Foreign Investors Pour Into Taiwan Stocks at Fastest Pace in Two Decades",
@@ -339,29 +360,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/ai-spurs-biggest-foreign-buying-of-taiwan-stocks-in-20-years",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T04:03:12.121Z"
-    },
-    {
-      "id": "ps-1771991271119-f5nx",
-      "slug": "matx-raises-500m-to-challenge-nvidia-s-dominance-in-ai-chips",
-      "headline": "MatX Raises $500M to Challenge Nvidia's Dominance in AI Chips",
-      "subheadline": "Founded by ex-Google TPU engineers, the startup plans to begin shipping processors it claims will be 10x faster at LLM training by 2027",
-      "body": "MatX, a semiconductor startup founded by two former architects of Google's TPU chip program, has closed a $500 million Series B round as it races to build a credible alternative to Nvidia's grip on the AI accelerator market.\n\nThe round was co-led by trading firm Jane Street and Situational Awareness, the investment fund established by Leopold Aschenbrenner, a former OpenAI researcher who has become one of the most prominent voices arguing that artificial general intelligence is imminent. Additional participants include Marvell Technology, NFDG, Spark Capital, and Stripe co-founders Patrick and John Collison. CEO Reiner Pope announced the funding on LinkedIn on Tuesday. The company did not disclose its new valuation, though a useful benchmark exists: Etched, a rival AI chip startup, reportedly raised $500 million last month at a $5 billion valuation.\n\nMatX's ambitious pitch centers on building processors that are ten times more efficient than Nvidia's GPUs at training and running large language models. The fresh capital will fund fabrication of its chips at TSMC, the world's leading contract chipmaker, with initial shipments targeted for 2027. That timeline places MatX squarely in the next generation of AI infrastructure buildout, when hyperscalers and AI labs are expected to spend hundreds of billions on compute.\n\nThe startup's pedigree lends credibility to its outsized claims. Pope previously led AI software development for Google's Tensor Processing Units, while co-founder Mike Gunter served as a lead hardware designer on the same chip program. The pair left Google in 2023 to launch MatX, raising roughly $100 million in a Spark Capital-led Series A that valued the company at over $300 million. The fivefold jump in fundraising size in just over a year reflects the extraordinary appetite among investors to back any plausible Nvidia competitor as demand for AI training hardware continues to outstrip supply.\n\nThe funding also underscores a broader trend of non-traditional investors flooding into semiconductor startups. Jane Street, best known as a quantitative trading powerhouse, and Aschenbrenner's fund both represent a new class of capital betting that the AI hardware landscape will diversify beyond Nvidia's current dominance. Whether MatX can deliver on its performance promises remains to be seen — custom chip ventures have a long history of ambitious projections and difficult execution — but with half a billion dollars and deep technical roots, the startup has bought itself a serious shot at finding out.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "MatX",
-        "Nvidia",
-        "AI chips",
-        "semiconductors",
-        "fundraising",
-        "TSMC",
-        "Jane Street",
-        "Leopold Aschenbrenner"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/09/chip-manufacturing-getty.jpg?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-25T03:47:51.119Z"
     },
     {
       "id": "ps-1771991286617-qo8f",
