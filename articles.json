@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T10:18:21.445Z",
+  "lastUpdated": "2026-02-26T10:33:24.688Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772101024978-kfe4",
+      "id": "ps-1772101924760-zfym",
       "slug": "mexico-engulfed-in-cartel-violence-across-20-states-after-dr",
       "headline": "Mexico Engulfed in Cartel Violence Across 20 States After Drug Lord's Death",
-      "subheadline": "The Jalisco New Generation Cartel launched a wave of attacks following the capture and death of leader 'El Mencho,' turning cities into war zones",
-      "body": "Mexico is reeling from an unprecedented wave of cartel violence spanning 20 states after the death of Nemesio Oseguera Cervantes — widely known as \"El Mencho\" — one of the country's most feared drug lords, who died shortly after being captured in a bloody firefight in the western state of Jalisco.\n\nMembers of the Jalisco New Generation Cartel (CJNG), considered one of Mexico's most powerful criminal organizations, have unleashed retaliatory attacks that have transformed towns and cities across the country into active combat zones. The violence represents one of the broadest simultaneous cartel escalations Mexico has witnessed, with CJNG operatives striking in every region where the group maintains a presence.\n\nThe crisis compounds an already dire security situation in northern Mexico. In Culiacán, the capital of Sinaloa state, a separate spiral of violence has persisted since the 2024 removal of longtime Sinaloa Cartel leader Ismael \"El Mayo\" Zambada, who is now imprisoned in the United States. BBC international correspondent Quentin Sommerville, reporting from Culiacán, embedded with two local paramedics — Julio César Vega and Héctor Torres — who respond to victims of shootings and stabbings on a daily basis. Torres told the BBC that the violence in Culiacán has never been this severe or this sustained.\n\nThe twin crises — CJNG's nationwide rampage and the Sinaloa Cartel's internal war — illustrate the fragility of Mexico's security landscape when cartel leadership structures are disrupted. The capture or elimination of top drug lords has historically triggered succession battles and retaliatory campaigns, but the scale of the current CJNG response across 20 states suggests a level of organizational reach and coordination that poses extraordinary challenges for Mexican security forces.\n\nFor residents of cities like Culiacán, the toll is measured not in geopolitical terms but in bodies. Paramedics and first responders operate under constant threat, and civilians find themselves trapped in crossfire between rival factions. The situation raises urgent questions about Mexico's capacity to restore order and whether the removal of cartel kingpins, long a cornerstone of both Mexican and U.S. anti-narcotics strategy, may be producing more instability than it resolves.",
+      "subheadline": "The Jalisco New Generation Cartel unleashes widespread attacks following the capture and death of leader 'El Mencho'",
+      "body": "Mexico is reeling from an unprecedented wave of cartel violence spanning 20 states after Nemesio Oseguera Cervantes — the feared drug lord known as \"El Mencho\" — died shortly after being captured in a bloody firefight in the western state of Jalisco. His Jalisco New Generation Cartel (CJNG), one of the most powerful criminal organizations in the country, has transformed towns and cities across its operational territory into active war zones in apparent retaliation.\n\nThe violence compounds an already dire security crisis in Mexico. In the northern state of Sinaloa, the city of Culiacán has been mired in its own cartel conflict since the 2024 removal of longtime Sinaloa Cartel leader Ismael \"El Mayo\" Zambada, who was taken into custody and is now imprisoned in the United States. That city, a historic stronghold of the Sinaloa Cartel, has descended into internecine warfare as rival factions compete for control of the organization's vast drug trafficking network.\n\nBBC international correspondent Quentin Sommerville, reporting from Culiacán, embedded with two local paramedics — Julio César Vega and Héctor Torres — who respond daily to shootings and stabbings on the city's streets. Torres told the BBC that the level of violence in Culiacán has reached an intensity and duration unlike anything he has previously witnessed, painting a picture of a city under siege from forces its residents cannot escape.\n\nThe dual crises — the CJNG's nationwide rampage and the Sinaloa Cartel's internal fracturing — illustrate the fragility of Mexico's security landscape, where the removal of top cartel figures frequently triggers cascading violence rather than restoring order. The CJNG had risen under El Mencho's leadership over the past decade to rival and in some regions surpass the Sinaloa Cartel, building a presence that stretched across much of the country and into international drug markets.\n\nFor civilians caught in the crossfire, the consequences are devastating. Paramedics, journalists, and ordinary residents in affected cities describe an atmosphere of pervasive fear, with daily routines upended by unpredictable eruptions of lethal violence. The breadth of the CJNG's response — spanning 20 of Mexico's 32 states — underscores both the cartel's extensive reach and the scale of the security challenge facing Mexican authorities as they attempt to contain the fallout.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -15,14 +15,119 @@
         "cartel violence",
         "CJNG",
         "El Mencho",
-        "Sinaloa Cartel",
-        "drug war",
+        "Sinaloa",
+        "drug trafficking",
         "Culiacán"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2627/live/b60131c0-12dd-11f1-9120-a910fc22c6ac.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cqlgz0xk5zyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T10:17:04.978Z"
+      "publishedAt": "2026-02-26T10:32:04.761Z"
+    },
+    {
+      "id": "ps-1772101939702-ynkm",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates longstanding modeling errors in Navier-Stokes fluid simulations, potentially transforming how researchers approach complex fluid dynamics problems. The work, published on arXiv on February 14, introduces what its authors describe as an \"error-free\" approach using standard computational grids.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi devised what they call the Generalized Onsager-Regularized (OReg) Lattice Boltzmann Method, which addresses a persistent challenge in computational fluid dynamics: the numerical errors that arise when modeling Navier-Stokes equations on first-nearest-neighbor lattices. Their technique introduces fully local corrections through specially constructed non-equilibrium populations, avoiding the need for exotic lattice configurations that would increase computational cost.\n\nThe results are striking. Working on the standard D2Q9 lattice — a two-dimensional grid with nine velocity directions commonly used in lattice Boltzmann simulations — the researchers demonstrated two tiers of correction. A partially corrected model, which addresses only compatibility condition violations, improved accuracy by two orders of magnitude at reference lattice temperatures and four orders of magnitude at arbitrary lattice temperatures. A fully corrected model went further, additionally eliminating stress tensor modeling errors to produce what the authors characterize as an exact representation of the Navier-Stokes equations.\n\nNumerical benchmarks showed the corrected schemes outperformed both the widely used Lattice-BGK method and uncorrected OReg guided-equilibrium schemes in both accuracy and stability. The lattice Boltzmann method has become a workhorse for simulating fluid flows in applications ranging from aerodynamics to biomedical engineering, and the elimination of intrinsic modeling errors on standard lattices could significantly expand the method's reliability and range of applicability.\n\nPerhaps most consequentially, the researchers note that their framework opens a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Such coupled problems are notoriously difficult to model accurately, and an error-free foundation on standard lattices could accelerate progress in areas like thermal management in electronics, atmospheric modeling, and industrial process simulation. The work represents a meaningful theoretical advance in a field where even small systematic errors can compound across millions of computational time steps.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "lattice-Boltzmann",
+        "Navier-Stokes",
+        "computational-fluid-dynamics",
+        "Onsager-regularization",
+        "numerical-methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1576553128162-e40b6d8906dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T10:32:19.702Z"
+    },
+    {
+      "id": "ps-1772101955599-up17",
+      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
+      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
+      "subheadline": "NASA-Penn State lab study suggests future Mars missions should drill into pure ice, not rock, to find traces of biology",
+      "body": "Amino acids from bacteria can endure at least 50 million years inside pure Martian ice despite relentless bombardment by cosmic radiation, according to a new study from NASA's Goddard Space Flight Center and Penn State — a finding that could fundamentally redirect where future missions search for signs of life on the Red Planet.\n\nPublished in the journal Astrobiology, the research recreated Martian conditions in a laboratory setting. A team led by space scientist Alexander Pavlov sealed E. coli bacteria inside test tubes of pure water ice as well as mixtures of water and simulated Martian sediment, including silicate rocks and clay. The samples were frozen to minus 60 degrees Fahrenheit and subjected to gamma radiation equivalent to 20 million years of cosmic ray exposure at Mars's surface in a chamber at Penn State's Radiation Science and Engineering Center. Additional modeling extended the simulation to 50 million years. The results were dramatic: more than 10 percent of amino acids — the fundamental building blocks of proteins — survived in pure ice over the full simulated timespan. Samples mixed with Mars-like soil, however, degraded roughly ten times faster.\n\nThe finding upended expectations set by a 2022 study from the same team, which had shown that a slurry of 10 percent water ice and 90 percent Martian soil destroyed organic material even more quickly than sediment alone. Researchers had assumed pure ice would fare still worse. Instead, the opposite proved true. Pavlov's team believes a thin film that forms where ice contacts mineral grains allows radiation-generated reactive particles to move freely and attack organic molecules, while in solid ice those harmful particles are effectively frozen in place.\n\nThe implications extend well beyond Mars. When the team tested organic material at temperatures matching Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — deterioration slowed even further. That bodes well for NASA's Europa Clipper mission, which launched in 2024 and will begin 49 close flybys of Europa in 2030 to assess whether its subsurface ocean could harbor life.\n\nFor Mars exploration, the practical takeaway is clear: future landers and rovers should be equipped with drills or scoops capable of reaching subsurface ice deposits rather than focusing primarily on rocks and soil. Co-author Christopher House, a Penn State geosciences professor, noted that many current Martian surface ice deposits are less than two million years old — well within the 50-million-year preservation window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. NASA's 2008 Phoenix mission remains the only spacecraft to have excavated and photographed Martian ice directly, and the new research underscores the need for successors with similar or greater digging capabilities.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "cosmic radiation"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T10:32:35.599Z"
+    },
+    {
+      "id": "ps-1772101971111-1yv7",
+      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
+      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
+      "subheadline": "The world's most valuable company reports 73% revenue growth while navigating China restrictions and a potential OpenAI deal",
+      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for the period ending in early 2026 — a 73 percent jump from the same quarter a year ago — as insatiable demand for artificial intelligence infrastructure continues to propel the chipmaker's dominance.\n\nThe data center segment, which encompasses the GPU and networking hardware powering the global AI buildout, accounted for $62 billion of the total, with Nvidia breaking that figure into $51 billion in compute revenue and $11 billion from networking products such as NVLink. Full-year revenue reached $215 billion. CEO Jensen Huang framed the results in characteristically bullish terms, telling analysts that \"the demand for tokens in the world has gone completely exponential\" and noting that even the company's six-year-old GPUs deployed in cloud environments are fully utilized with rising prices.\n\nDespite the headline growth, Nvidia disclosed that it has yet to record any revenue from chip exports to China, even after a recent easing of U.S. government restrictions. Chief Financial Officer Colette Kress said that while small shipments of H200 products to Chinese customers have been approved, no sales have materialized, and the company cannot guarantee future imports will be permitted. In a notable acknowledgment, Kress flagged growing competition from Chinese chipmakers — apparently referencing Moore Threads, which went public in December — warning they \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed two themes weighing on investor sentiment: Nvidia's rumored $30 billion investment in OpenAI and broader concerns about the sustainability of massive capital expenditure commitments by hyperscale cloud providers. On OpenAI, Huang said the companies are \"close\" to a partnership agreement, though SEC filings included a caveat that there is \"no assurance\" a deal will close. He also cited partnerships with Anthropic, Meta, and Elon Musk's xAI as evidence of deepening ties across the AI ecosystem.\n\nOn the capex question — which has become a central debate among investors as tech giants collectively pour hundreds of billions into AI infrastructure — Huang offered a pithy rebuttal: \"In this new world of AI, compute is revenue. Without compute, there's no way to generate tokens. Without tokens, there's no way to grow revenues.\" He argued that the industry has reached an inflection point where AI workloads are generating profitable returns for cloud service providers, a claim that, if sustained, could justify the unprecedented spending cycle that has made Nvidia the world's most valuable company.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "AI",
+        "Jensen Huang",
+        "data centers",
+        "OpenAI",
+        "semiconductors"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T10:32:51.111Z"
+    },
+    {
+      "id": "ps-1772101988404-teup",
+      "slug": "london-stock-exchange-group-announces-3-billion-buyback-amid",
+      "headline": "London Stock Exchange Group Announces £3 Billion Buyback Amid Elliott Pressure",
+      "subheadline": "LSEG unveils massive share repurchase program alongside full-year results, weeks after activist investor disclosed stake",
+      "body": "The London Stock Exchange Group has unveiled a £3 billion ($4.1 billion) share buyback program, delivering a significant capital return to shareholders just weeks after activist investor Elliott Investment Management revealed it had built a position in the company.\n\nThe repurchase announcement came alongside LSEG's full-year earnings report and signals a willingness by the exchange operator's leadership to boost shareholder value at a moment of heightened scrutiny. Elliott, the hedge fund founded by Paul Singer that manages roughly $70 billion in assets, is known for aggressively pushing portfolio companies toward operational improvements, strategic shifts, and enhanced capital returns. The firm's stake in LSEG emerged in late January, setting the stage for potential engagement between the activist and the company's board.\n\nLSEG has transformed dramatically over the past several years, evolving from a traditional exchange operator into a data and analytics powerhouse following its blockbuster $27 billion acquisition of Refinitiv in 2021. That deal, which brought vast financial data assets and the Workspace terminal platform under LSEG's umbrella, repositioned the company as a direct competitor to Bloomberg LP in the financial information services market. The company's shares have reflected that transformation, but Elliott's involvement suggests the activist sees further room for value creation — whether through margin expansion, additional buybacks, or strategic realignment.\n\nThe £3 billion buyback represents a substantial commitment relative to LSEG's market capitalization, which stands at roughly £60 billion. While the company has conducted share repurchases in the past, this program is notably larger and arrives at a politically significant moment. Whether the buyback was already in the pipeline or was accelerated in response to Elliott's presence remains unclear, but the timing underscores how activist engagement can catalyze corporate action even before formal demands are made.\n\nFor LSEG, the challenge ahead will be demonstrating that its post-Refinitiv integration is delivering sustainable growth while simultaneously returning capital at scale. Elliott's track record of extended campaigns at major European companies — including past engagements with GSK and Softbank — suggests the activist is unlikely to be satisfied by a single buyback announcement alone. Investors will be watching closely for any further demands from Elliott and how LSEG's board responds in the months ahead.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "LSEG",
+        "Elliott Investment Management",
+        "share buyback",
+        "activist investor",
+        "London Stock Exchange"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1669251921941-ae3645715017?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxMb25kb24lMjBTdG9jayUyMEV4Y2hhbmdlJTIwR3JvdXAlMjBBbm5vdW5jZXMlMjBCaWxsaW9uJTIwQnV5YmFjayUyMEFtaWQlMjBFbGxpb3R0JTIwUHJlc3N1cmV8ZW58MHwwfHx8MTc3MjEwMTk4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/lseg-unveils-3-billion-buyback-new-earnings-guidance",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T10:33:08.404Z"
+    },
+    {
+      "id": "ps-1772102004596-7qwe",
+      "slug": "nvidia-posts-68-1b-quarter-guides-far-above-street-estimates",
+      "headline": "Nvidia Posts $68.1B Quarter, Guides Far Above Street Estimates",
+      "subheadline": "Data center revenue surges 75% year-over-year as CEO Jensen Huang declares AI demand is 'only going to get better'",
+      "body": "Nvidia delivered another blowout quarter on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% jump from the year-ago period — and issuing first-quarter guidance of approximately $78 billion that sailed past Wall Street's $72.9 billion consensus estimate. The results reaffirm the chipmaker's position as the dominant supplier of AI computing infrastructure at a time when some investors had begun questioning the durability of hyperscaler spending.\n\nThe company's data center segment, which now accounts for the vast majority of its business, posted record revenue of $62.3 billion, up 75% year-over-year and 22% sequentially. Chief Financial Officer Colette Kress noted during the earnings call that Nvidia has scaled its data center business by nearly 13 times since the emergence of ChatGPT, and that the company has secured inventory and supply commitments extending into 2027. Adjusted earnings per share came in at $1.62, topping the FactSet consensus of $1.54.\n\nCEO Jensen Huang struck a decidedly bullish tone on the conference call, arguing that historical computing demand represents only \"a tiny fraction of what is necessary in the future.\" His message was unequivocal: \"AI is here. AI is not going to go back. AI is only going to get better from here.\" The comments appeared aimed squarely at a growing cohort of skeptics who have questioned whether the current pace of AI capital expenditure can be sustained. Thomas Monteiro, senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027.\"\n\nShares of Nvidia, the world's most valuable publicly traded company, climbed as much as 4% in after-hours trading before settling to roughly 1% above the closing price. The muted reaction, despite a sizable earnings beat and raised guidance, may reflect how accustomed the market has become to Nvidia clearing elevated expectations. The stock had already rallied significantly heading into the print.\n\nThe ripple effects extended into digital assets. Bitcoin held near $69,000 following a sharp recovery earlier in the week, while AI-linked tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining companies with growing exposure to AI workloads — including IREN, Cipher Digital, and TeraWulf — ticked 1% to 2% higher in extended trading. The cross-asset response underscores Nvidia's role as a barometer not just for semiconductor markets but for the broader AI ecosystem spanning cloud infrastructure, digital assets, and high-performance computing.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "data centers",
+        "Jensen Huang",
+        "semiconductors"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T10:33:24.596Z"
     },
     {
       "id": "ps-1772101041559-wasp",
@@ -46,50 +151,6 @@
       "publishedAt": "2026-02-26T10:17:21.559Z"
     },
     {
-      "id": "ps-1772101055949-wryz",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice, not rock, to find traces of ancient life",
-      "body": "Ancient biological material could persist for tens of millions of years inside Martian ice — far longer than previously thought — according to new laboratory research that may reshape how future missions search for life on the Red Planet.\n\nScientists at NASA's Goddard Space Flight Center and Penn State University simulated Martian conditions by sealing E. coli bacteria in test tubes of pure water ice and exposing them to gamma radiation at minus 60 degrees Fahrenheit, mimicking up to 50 million years of cosmic ray bombardment on the Martian surface. Published in the journal Astrobiology, the results showed that more than 10 percent of amino acids — the fundamental building blocks of proteins — survived intact in pure ice over that timeframe. Samples mixed with Mars-like sediment, including silicate rocks and clay, broke down ten times faster and did not survive the full simulation.\n\nThe finding upended expectations set by a 2022 study from the same team, which had shown that organic material in a mixture of 10 percent water ice and 90 percent Martian soil degraded rapidly. Researchers had assumed pure ice would offer even less protection. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, harmful particles generated by radiation become frozen in place and cannot reach organic compounds. In mixed samples, a thin film that forms where ice meets mineral surfaces appears to allow radiation damage to propagate more freely.\n\nThe implications extend well beyond Mars. The team also tested organic material at temperatures matching those on Europa, Jupiter's icy moon, and Saturn's moon Enceladus, finding that deterioration slowed even further in those colder environments. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and will perform 49 close flybys of Europa beginning in 2030 to assess whether conditions beneath its ice shell could support life.\n\nFor Mars exploration specifically, the study makes a compelling case for targeting pure ice deposits rather than the rocks and soil that have dominated sample collection strategies. Christopher House, a Penn State geosciences professor and co-author, noted that 50 million years of preservation far exceeds the estimated age of some current Martian surface ice, which is often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. Accessing that ice, however, will require missions equipped with drilling or scooping capabilities similar to NASA's 2008 Phoenix lander, which was the first spacecraft to excavate and photograph subsurface ice on Mars. The research was funded by NASA's Planetary Science Division.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "extraterrestrial life",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T10:17:35.949Z"
-    },
-    {
-      "id": "ps-1772101071565-ji5o",
-      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
-      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
-      "subheadline": "The world's most valuable company reports 73% revenue growth while flagging Chinese competition and a pending OpenAI investment",
-      "body": "Nvidia delivered another record-breaking quarter on Wednesday, reporting $68 billion in revenue for its fiscal quarter ending in early 2026 — a 73 percent increase from the same period a year earlier — as insatiable demand for artificial intelligence computing continues to drive the chipmaker's extraordinary growth trajectory.\n\nThe data center segment, which encompasses the GPU chips and networking hardware powering the global AI buildout, accounted for $62 billion of the total. In a new disclosure, Nvidia broke that figure into $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products such as its NVLink interconnect technology. For the full fiscal year, the company posted $215 billion in total revenue. CEO Jensen Huang framed the demand in stark terms during an analyst call: \"The demand for tokens in the world has gone completely exponential,\" he said, noting that even six-year-old Nvidia GPUs deployed in cloud data centers are fully utilized with rising prices.\n\nDespite a recent easing of U.S. export restrictions on advanced chips to China, Nvidia reported zero revenue from the Chinese market. Chief Financial Officer Colette Kress said that while small quantities of H200 chips had been approved for Chinese buyers, no sales had materialized. She also issued a rare warning about Chinese competitors, citing the December IPO of domestic GPU maker Moore Threads and cautioning that such firms \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed Nvidia's reported $30 billion investment in OpenAI, saying the two companies are \"close\" to finalizing a partnership agreement. However, SEC filings submitted the same day carried a caveat that there was \"no assurance\" the deal would close. The CEO referenced additional partnerships with Anthropic, Meta, and Elon Musk's xAI, underscoring Nvidia's centrality to virtually every major AI effort.\n\nPushing back against growing skepticism about the sustainability of massive capital expenditure commitments by tech companies, Huang argued that AI infrastructure spending is now directly tied to revenue generation. \"In this new world of AI, compute is revenue. Without compute, there's no way to generate tokens. Without tokens, there's no way to grow revenues,\" he said, asserting that the industry has reached an \"inflection point\" where AI workloads are delivering profitable returns for cloud service providers. The results reaffirm Nvidia's position as the primary beneficiary of the AI infrastructure boom, even as questions mount about how long the spending cycle can last.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "AI",
-        "Jensen Huang",
-        "semiconductors",
-        "data centers",
-        "OpenAI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T10:17:51.565Z"
-    },
-    {
       "id": "ps-1772101085564-hbbi",
       "slug": "shell-explores-minority-stake-sale-in-24b-australian-lng-pla",
       "headline": "Shell Explores Minority Stake Sale in $24B Australian LNG Plant",
@@ -110,27 +171,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/shell-in-talks-with-adnoc-others-over-australia-lng-stake-sale",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T10:18:05.564Z"
-    },
-    {
-      "id": "ps-1772101101371-rpyq",
-      "slug": "nvidia-smashes-q4-estimates-with-68-1b-revenue-guides-higher",
-      "headline": "Nvidia Smashes Q4 Estimates With $68.1B Revenue, Guides Higher",
-      "subheadline": "Data center revenue surged 75% year-over-year as CEO Jensen Huang declares AI demand is only accelerating",
-      "body": "Nvidia delivered another blockbuster quarter on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% jump from a year earlier and comfortably ahead of the $66.1 billion Wall Street had anticipated. The chipmaker's adjusted earnings per share of $1.62 also topped the consensus estimate of $1.54, reinforcing its position as the dominant supplier of hardware powering the global artificial intelligence buildout.\n\nPerhaps more significant than the backward-looking beat was Nvidia's forward guidance. The company projected first-quarter revenue of approximately $78 billion, clearing analyst expectations of $72.9 billion by a wide margin and signaling that enterprise appetite for AI infrastructure shows no signs of plateauing. Shares climbed as much as 4% in after-hours trading before settling to roughly 1% higher.\n\nThe engine behind Nvidia's growth remains its data center division, which posted record quarterly revenue of $62.3 billion — up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the company's data center business has scaled by nearly 13 times since the emergence of ChatGPT, and that Nvidia has inventory and supply commitments extending into 2027 to meet anticipated demand. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com, pointing to the data center surge as evidence that infrastructure deployment \"remains firmly in expansion mode.\"\n\nCEO Jensen Huang struck a characteristically bullish tone, arguing that historical computing demand represents only \"a tiny fraction of what is necessary in the future.\" He added bluntly: \"AI is here. AI is not going to go back. AI is only going to get better from here.\" The comments appear aimed at skeptics who have questioned whether the pace of capital expenditure by major cloud providers — Nvidia's largest customers — can be sustained.\n\nThe results rippled across adjacent markets. Bitcoin held near $69,000 following a sharp rebound earlier in the week, while AI-linked crypto tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining stocks with exposure to high-performance computing, such as IREN, Cipher Digital, and TeraWulf, edged 1% to 2% higher in extended trading. With Nvidia now the world's most valuable public company by market capitalization, its quarterly reports have become a de facto referendum on the durability of the AI investment cycle — and Wednesday's numbers suggest the boom still has room to run.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "data centers",
-        "Jensen Huang",
-        "semiconductor"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T10:18:21.371Z"
     },
     {
       "id": "ps-1772100157789-ex4p",
@@ -172,26 +212,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/rolls-royce-plans-major-stock-buyback-remains-upbeat-on-profit",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T10:03:24.595Z"
-    },
-    {
-      "id": "ps-1772099240744-3vwd",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational grids",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations, a persistent challenge that has constrained the accuracy of one of the most widely used approaches in computational fluid dynamics.\n\nThe method, introduced by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi in a paper posted to arXiv on February 14, employs what the authors call Onsager-Regularized non-equilibrium populations to introduce fully local corrections to standard lattice Boltzmann schemes. Working on the commonly used D2Q9 lattice — a two-dimensional grid with nine discrete velocity directions — the researchers demonstrated two levels of correction. A partial correction that addresses compatibility condition violations improves accuracy by two to four orders of magnitude, depending on whether the simulation operates at reference or arbitrary lattice temperatures. A complete correction additionally fixes stress tensor modeling errors, yielding what the authors describe as an \"exact model\" — one free of the systematic errors that have long plagued first-nearest-neighbor lattice Boltzmann methods.\n\nLattice Boltzmann methods simulate fluid flow not by directly solving the Navier-Stokes equations but by tracking the statistical behavior of particle populations on a discrete grid. The approach has gained widespread adoption in engineering, climate modeling, and biomedical simulations because of its computational efficiency and natural parallelism. However, the discretization inherent in standard lattices introduces modeling errors that accumulate and can compromise simulation fidelity, particularly in thermal and compressible flow regimes. Previous attempts to address these errors often required extended lattice neighborhoods or off-lattice corrections, adding computational cost and complexity.\n\nThe new generalized Onsager-Regularized approach keeps all corrections local — meaning each grid point can be updated independently — preserving the parallel efficiency that makes lattice Boltzmann methods attractive for large-scale simulations. Numerical benchmarks showed the corrected schemes outperformed both the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability.\n\nPerhaps most significantly, the authors highlight the method as a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Such problems are notoriously difficult for standard lattice Boltzmann methods precisely because thermal effects amplify the modeling errors that this new framework is designed to eliminate. If the approach scales as expected to more complex physical scenarios, it could substantially broaden the range of problems accessible to lattice Boltzmann solvers without sacrificing their computational advantages.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational physics",
-        "fluid dynamics",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1568667185745-50c858f7448a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T09:47:20.744Z"
     },
     {
       "id": "ps-1772099285788-ddbd",
@@ -1026,26 +1046,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/25/blockfills-co-founder-and-ceo-nicholas-hammer-has-stepped-down-amid-usd75-million-lending-losses",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-25T18:03:30.256Z"
-    },
-    {
-      "id": "ps-1772040813210-2kot",
-      "slug": "jamie-dimon-warns-rivals-are-repeating-pre-2008-dumb-things-",
-      "headline": "Jamie Dimon Warns Rivals Are Repeating Pre-2008 'Dumb Things' in Credit",
-      "subheadline": "JPMorgan CEO's concerns about reckless lending echo financial crisis parallels as macro analysts back his assessment",
-      "body": "JPMorgan Chase CEO Jamie Dimon has issued a pointed warning that competitors are engaging in reckless behavior in the credit markets, drawing explicit parallels to the kind of risk-taking that precipitated the 2008 global financial crisis.\n\nDimon, who has led the largest U.S. bank since 2005 and navigated it through the last major financial meltdown, said rivals are doing \"dumb things\" in credit — a characterization that Bloomberg macro strategist Simon White described as well founded. The comments come at a time when credit spreads remain historically tight and leveraged lending has surged, conditions that some analysts view as signs of complacency among market participants chasing yield in an increasingly competitive landscape.\n\nThe JPMorgan chief's warnings carry particular weight given his track record. During the lead-up to the 2008 crisis, Dimon was among the few major bank CEOs who recognized early signs of excess in mortgage-related credit products. His bank emerged from that episode in a stronger competitive position than most peers, in part because of a more disciplined approach to risk. Now, with private credit markets having ballooned past $1.7 trillion and traditional banks competing aggressively for lending business, Dimon appears to see a familiar pattern forming — one where the pressure to maintain market share leads institutions to underwrite deals with deteriorating terms and insufficient safeguards.\n\nWhite's analysis supports the thesis that current credit market dynamics warrant concern. When spreads compress to levels that no longer adequately compensate for default risk, and when covenant protections erode in loan agreements, the system becomes more fragile and vulnerable to sudden repricing. The danger is not necessarily an imminent repeat of 2008, but rather that accumulated risk-taking could amplify the next economic downturn whenever it arrives.\n\nFor investors and regulators alike, Dimon's remarks serve as a reminder that periods of apparent market calm often mask the buildup of systemic vulnerabilities. Whether his peers heed the warning — or dismiss it as competitive posturing — may not be clear until the next credit cycle turns.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Jamie Dimon",
-        "JPMorgan",
-        "credit markets",
-        "financial risk",
-        "lending"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1480944657103-7fed22359e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/why-dimon-s-doubts-on-the-credit-market-are-well-founded-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T17:33:33.210Z"
     }
   ]
 }
