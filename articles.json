@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T23:03:47.391Z",
+  "lastUpdated": "2026-02-26T23:18:19.446Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772146945007-spzz",
-      "slug": "uk-defence-ministry-probes-whether-epstein-used-raf-bases",
-      "headline": "UK Defence Ministry Probes Whether Epstein Used RAF Bases",
-      "subheadline": "Defence Secretary orders 'ruthless' review of military records as former PM Brown pushes for police investigation",
-      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when visiting the United Kingdom, amid mounting pressure to account for the financier's extensive travel through British airspace.\n\nDefence Secretary John Healey ordered officials to examine all departmental records — including emails and flight logs — related to Epstein's aircraft landing at military airfields. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review, first reported by The Telegraph, represents the most direct action yet by the UK government to investigate Epstein's use of British military infrastructure.\n\nThe probe follows a demand by former Prime Minister Gordon Brown for a police investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown reportedly submitted a five-page dossier to multiple police forces, including the Metropolitan Police, Sussex Police, and Thames Valley Police, drawing on newly released Epstein-related documents from the United States. One flight of particular concern involved a Gulfstream jet that landed at RAF Marham in Norfolk in December 2000 — a base situated roughly 20 miles from the royal family's Sandringham Estate.\n\nThe scale of Epstein's British operations has come into sharper focus in recent months. A BBC News investigation last year identified approximately 90 flights linked to Epstein that arrived at or departed from UK airports, some carrying British women who say they were abused. The MoD had previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for a fee — a policy that may have inadvertently facilitated Epstein's movements. Separately, Essex Police confirmed it is assessing information about private flights into and out of Stansted Airport following the US government's release of Epstein materials.\n\nPrince Andrew has denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on sex trafficking charges. The MoD said it would fully support any civilian police investigations and that its \"thoughts are with all the victims of Epstein's vile crimes.\" The review adds to a widening web of inquiries across British institutions, with figures including Lord Mandelson also facing scrutiny over their connections to Epstein's network.",
+      "id": "ps-1772147818180-zzoq",
+      "slug": "uk-defence-ministry-launches-review-of-epstein-flights-at-ra",
+      "headline": "UK Defence Ministry Launches Review of Epstein Flights at RAF Bases",
+      "subheadline": "Defence Secretary orders officials to examine all records after former PM Gordon Brown demands police investigation",
+      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, following mounting pressure from former Prime Minister Gordon Brown and new disclosures from U.S. government documents.\n\nDefence Secretary John Healey ordered officials to examine all departmental records — including logs and emails — related to Epstein flights that may have landed at military airfields. An MoD source told reporters the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review comes after Brown submitted a five-page dossier to multiple police forces, including the Metropolitan Police, Sussex Police, and Thames Valley Police, raising concerns about a specific December 2000 flight in which Epstein's Gulfstream jet landed at RAF Marham in Norfolk — approximately 20 miles from the Royal Family's Sandringham Estate.\n\nBrown had publicly called for a police investigation into whether Prince Andrew used RAF facilities to meet Epstein. The prince, referred to in Brown's communications as Andrew Mountbatten-Windsor, has repeatedly denied any wrongdoing in connection with Epstein, who died in a New York jail cell in 2019 while awaiting trial on sex trafficking charges. The MoD has previously acknowledged that it is \"standard practice\" for spare capacity at RAF airfields to be made available for private or commercial aircraft, subject to fees.\n\nThe review adds to a widening web of inquiries across British law enforcement. Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the U.S. government's release of Epstein-related materials. A BBC News investigation last year identified roughly 90 flights linked to Epstein that arrived at or departed from UK airports, some carrying British women who allege they were abused.\n\nIn a formal statement, the MoD said any information uncovered that relates to Epstein's crimes would be provided to the relevant authorities, and that the department would support civilian police investigations. \"Our thoughts are with all the victims of Epstein's vile crimes,\" the spokesperson added. The review signals a more aggressive posture from the British government as transatlantic scrutiny of Epstein's network continues to intensify.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -16,12 +16,118 @@
         "RAF bases",
         "Prince Andrew",
         "Gordon Brown",
-        "John Healey"
+        "police investigation"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/361f/live/e61e0130-1355-11f1-a24b-e9ec85119d46.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T23:02:25.007Z"
+      "publishedAt": "2026-02-26T23:16:58.180Z"
+    },
+    {
+      "id": "ps-1772147834550-j5zd",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational lattices",
+      "body": "A team of computational physicists has developed a generalized lattice Boltzmann method that eliminates longstanding numerical errors in fluid dynamics simulations, potentially advancing the accuracy of everything from aerodynamic modeling to thermohydrodynamic systems.\n\nThe work, posted to the arXiv preprint server on February 14, was carried out by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi. Their approach introduces what they call Onsager-Regularized non-equilibrium populations — fully local corrections applied within the lattice Boltzmann framework — to address modeling errors that have persisted in standard first-nearest-neighbor lattice methods used to solve the Navier-Stokes equations. The Navier-Stokes equations govern the motion of viscous fluids and are central to computational fluid dynamics, but discretizing them onto lattice structures inevitably introduces approximation errors that can degrade simulation fidelity.\n\nThe researchers demonstrated their method on the D2Q9 lattice, a widely used two-dimensional grid with nine discrete velocity directions, employing a six-moment-constrained guided equilibrium representation. They developed two variants: a partially corrected model that addresses compatibility condition violations, and a completely corrected model that additionally fixes stress tensor errors. The partial correction alone improved accuracy by two to four orders of magnitude — two orders at reference lattice temperatures and four at arbitrary temperatures. The fully corrected version achieved what the authors describe as an \"exact model,\" meaning it reproduces the Navier-Stokes equations without discretization artifacts on the standard lattice.\n\nNumerical benchmarks confirmed that both corrected schemes outperformed existing approaches, including the widely used Lattice Bhatnagar-Gross-Krook (BGK) method and uncorrected Onsager-Regularized guided equilibrium schemes, in both accuracy and numerical stability. The lattice Boltzmann method has grown into a major alternative to traditional computational fluid dynamics solvers over the past three decades, prized for its parallelizability and ability to handle complex boundary conditions. However, its reliance on discrete velocity sets has always introduced trade-offs between computational efficiency and physical fidelity.\n\nThe authors suggest their framework opens a promising path toward thermohydrodynamic extensions — simulations that couple heat transfer with fluid flow — where modeling errors on standard lattices have been particularly problematic. By keeping corrections fully local, the method preserves the computational advantages that make lattice Boltzmann methods attractive for large-scale parallel simulations. If validated in three-dimensional applications and more complex flow regimes, the approach could represent a meaningful step toward higher-fidelity fluid simulations without the overhead of finer lattices or extended velocity sets.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann",
+        "Navier-Stokes",
+        "computational physics",
+        "fluid dynamics",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1558413562-95a55b8157f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T23:17:14.550Z"
+    },
+    {
+      "id": "ps-1772147852359-55ve",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice rather than rock to search for signs of life",
+      "body": "Ancient microbial life — or at least its molecular remnants — could persist in Martian ice for tens of millions of years, far longer than previously expected, according to new research from NASA's Goddard Space Flight Center and Penn State University. The findings, published in the journal Astrobiology, could fundamentally redirect where future missions look for biosignatures on the Red Planet.\n\nA team led by space scientist Alexander Pavlov subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 20 million years of cosmic ray bombardment on the Martian surface. The samples were kept at minus 60 degrees Fahrenheit inside a radiation chamber at Penn State's Radiation Science and Engineering Center to replicate conditions in Mars's icy polar regions. Subsequent modeling extended the simulated exposure to 50 million years. The result: more than 10 percent of amino acids — the fundamental building blocks of proteins — survived intact in pure ice over the full duration.\n\nThe study delivered a notable surprise. Samples that mixed ice with silicate rock and clay typical of Martian sediment degraded roughly ten times faster, with amino acids failing to survive the simulation. This contradicted expectations set by a 2022 study from the same group, which had suggested that organic material in water alone would break down even more rapidly than in ice-soil mixtures. Researchers believe the discrepancy arises because a thin liquid film forms at the boundary between ice and mineral grains, allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid pure ice, by contrast, those harmful particles appear to become frozen in place, unable to reach and destroy the amino acids.\n\n\"Fifty million years is far greater than the expected age for some current surface ice deposits on Mars, which are often less than two million years old,\" said co-author Christopher House, a Penn State geosciences professor, noting that any organic material present within young ice deposits would be well within the preservation window. The implication is clear: if microbial life ever colonized the Martian near-surface, its chemical fingerprints are almost certainly still there — provided missions target the right material.\n\nThe research also carries implications beyond Mars. When the team tested organic samples at temperatures mimicking those on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further. That bodes well for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to arrive at Jupiter in 2030 to conduct 49 close flybys of Europa's ice shell. On Mars itself, accessing buried ice will require drilling or scooping hardware similar to what NASA's 2008 Phoenix lander used when it first excavated and photographed subsurface ice in the Martian arctic. House emphasized that while ice is abundant on Mars, most of it lies just below the surface, making robust excavation tools essential for the next generation of landers.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T23:17:32.359Z"
+    },
+    {
+      "id": "ps-1772147868490-bfvz",
+      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery",
+      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery",
+      "subheadline": "The deal marks the largest known purchase of long-duration energy storage for a data center facility",
+      "body": "Google has agreed to pay approximately $1 billion for a massive iron-air battery system built by startup Form Energy, a deal that represents a landmark moment for both long-duration energy storage technology and the tech industry's push to decarbonize its power-hungry data centers.\n\nThe battery, capable of delivering 300 megawatts of continuous electricity over 100 hours, will anchor a new Google data center in Minnesota, according to a report by The Information. The facility will draw from 1.4 gigawatts of wind power and 200 megawatts of solar capacity, with Form Energy's system acting as a buffer to smooth out the inherent variability of renewable generation. The technology works through a deceptively simple electrochemical process: oxygen is pumped into cells containing iron, causing the metal to rust and release electrons. When the battery recharges, the process reverses.\n\nFor Form Energy, the deal is transformative. The Somerville, Massachusetts-based company, led by CEO Mateo Jaramillo, had been developing its iron-air technology for years and built a manufacturing facility in West Virginia, but had not secured a customer of this magnitude. With Google's billion-dollar order now on its books, the startup is raising a $500 million funding round and has announced plans to go public next year. Form Energy has raised $1.4 billion to date, according to PitchBook data.\n\nThe transaction underscores a growing tension in the tech sector: the explosive buildout of data centers to support artificial intelligence workloads is driving enormous demand for electricity, even as companies face pressure to meet ambitious climate commitments. Google, along with Microsoft, Amazon, and Meta, has pledged to power its operations with clean energy, but the sheer scale of new computing infrastructure has made that goal increasingly difficult to achieve with solar and wind alone. Long-duration storage — batteries that can discharge for days rather than the four hours typical of lithium-ion systems — is widely seen as a missing piece of the renewable energy puzzle.\n\nAt roughly $3.3 million per megawatt-hour of storage capacity, the price tag is steep but reflects the nascent state of iron-air technology and the bespoke nature of the deployment. Industry analysts will be watching closely to see whether Form Energy can drive costs down as it scales production, and whether the Minnesota installation performs as promised. If it does, the project could catalyze a wave of similar procurements across the data center industry and accelerate the commercialization of alternatives to lithium-ion batteries for grid-scale storage.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Google",
+        "Form Energy",
+        "energy storage",
+        "iron-air battery",
+        "data centers",
+        "renewable energy",
+        "long-duration storage"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T23:17:48.490Z"
+    },
+    {
+      "id": "ps-1772147880715-nq7y",
+      "slug": "netflix-withdraws-warner-bros-discovery-bid-clearing-path-fo",
+      "headline": "Netflix Withdraws Warner Bros. Discovery Bid, Clearing Path for Paramount",
+      "subheadline": "Paramount Skydance's $111 billion offer for the storied Hollywood studio now stands as the sole remaining bid",
+      "body": "Netflix has pulled out of the race to acquire Warner Bros. Discovery, removing the last major obstacle to Paramount Skydance Corp.'s $111 billion takeover of one of Hollywood's most iconic studios.\n\nThe streaming giant's withdrawal marks the end of a high-stakes bidding contest that had injected uncertainty into what would rank among the largest media deals in history. With Netflix no longer in contention, Paramount Skydance — the entity formed after Skydance Media's merger with Paramount Global — is positioned to finalize the blockbuster acquisition without a competing offer on the table.\n\nThe deal would reshape the entertainment landscape by uniting Warner Bros. Discovery's vast library of film and television properties — spanning franchises from Harry Potter to DC Comics — with the combined resources of Paramount and Skydance. It would also consolidate significant streaming, theatrical, and linear television assets under a single corporate umbrella at a time when the media industry is undergoing rapid structural change.\n\nNetflix's interest in Warner Bros. Discovery had signaled a potentially dramatic shift in strategy for the company, which has historically grown through organic content investment rather than large-scale studio acquisitions. The decision to walk away suggests that the price tag or regulatory complexity ultimately proved too steep, even for a company with a market capitalization exceeding $400 billion. Netflix has not publicly commented on its reasons for withdrawing.\n\nAt $111 billion, the Paramount Skydance bid for Warner Bros. Discovery would represent a transformative wager on the value of legacy media assets in an era increasingly dominated by direct-to-consumer streaming. The deal still faces regulatory scrutiny and shareholder approval before it can close, but the removal of a deep-pocketed rival bidder significantly improves the likelihood of completion on the terms currently proposed.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Netflix",
+        "Warner Bros Discovery",
+        "Paramount Skydance",
+        "media mergers",
+        "Hollywood",
+        "streaming"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MjEwMTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/netflix-drops-warner-bros-offer-leaving-paramount-the-winner",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T23:18:00.715Z"
+    },
+    {
+      "id": "ps-1772147899346-g3cn",
+      "slug": "occ-stablecoin-proposal-threatens-crypto-rewards-programs-ra",
+      "headline": "OCC Stablecoin Proposal Threatens Crypto Rewards Programs, Rattles Industry",
+      "subheadline": "A 376-page rulemaking under the GENIUS Act could undermine lucrative yield arrangements between issuers like Circle and platforms like Coinbase",
+      "body": "The Office of the Comptroller of the Currency has proposed a sweeping set of stablecoin regulations that could severely curtail the crypto industry's ability to offer rewards on stablecoin holdings — a business model central to major platforms including Coinbase.\n\nThe 376-page proposed rulemaking, released as OCC chief Jonathan Gould testified before the U.S. Senate on Thursday, seeks to implement the GENIUS Act signed into law last year. While the industry had broadly interpreted that statute as permitting third-party platforms to offer their own yield programs on stablecoins — even if issuers themselves could not — the OCC's proposal takes a notably more restrictive view. The agency's language presumes that close financial ties between issuers and crypto platforms handling their tokens would make third-party reward payments tantamount to evasion of the GENIUS Act's prohibition on issuer-paid interest and yield. Firms would bear the burden of rebutting that presumption with sufficient evidence.\n\nThe proposal has immediate implications for the lucrative arrangement between stablecoin issuer Circle and Coinbase, which earns significant revenue from USDC-related activities. Coinbase declined to comment on the proposed rules. Industry insiders, speaking anonymously, acknowledged the initial reading looks unfavorable but noted the language may contain enough ambiguity to preserve some reward structures. Todd Phillips, a former FDIC attorney and business professor who tracks digital asset policy, told reporters there appears to be \"some play in the joints\" of the proposal, adding that \"the OCC has clearly gone beyond what the statute requires.\"\n\nThe regulatory move also complicates ongoing congressional negotiations over the Digital Asset Market Clarity Act, the broader legislation intended to govern U.S. crypto markets. Stablecoin yield has been among the most contentious issues in those talks, with traditional banks arguing that crypto rewards threaten their deposit base. Senator Angela Alsobrooks, a Democrat involved in negotiations, emphasized the need to take community banks' concerns seriously, pushing for restrictions on stablecoin rewards that resemble deposit accounts. One industry negotiator argued the OCC's action could paradoxically weaken the banking lobby's position in the Clarity Act talks by making the legislative fight over yield redundant — though the same source said the industry would challenge the OCC's rulemaking as an overreach.\n\nThe proposal remains preliminary and subject to a public comment period before any final rule can be issued, a process that typically takes months for controversial regulations. Gould, a former chief legal officer at blockchain firm Bitfury who has generally been viewed as crypto-friendly, may face significant pushback from the very industry he has previously championed. With the Clarity Act still stalled over additional disputes — including Democratic demands to address conflicts of interest involving senior government officials profiting from crypto — the regulatory landscape for stablecoins remains deeply unsettled.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "OCC",
+        "GENIUS Act",
+        "Coinbase",
+        "crypto regulation",
+        "stablecoin rewards"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T23:18:19.346Z"
     },
     {
       "id": "ps-1772146961852-mvzt",
@@ -43,92 +149,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T23:02:41.853Z"
-    },
-    {
-      "id": "ps-1772146978760-2g2b",
-      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
-      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
-      "subheadline": "NASA and Penn State experiments suggest future Mars missions should drill into pure ice, not rock, to find signs of life",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years of cosmic radiation when locked inside pure water ice, a finding that could reshape how scientists search for life on the Red Planet.\n\nThe study, published in the journal Astrobiology and led by Alexander Pavlov of NASA's Goddard Space Flight Center, subjected E. coli bacteria frozen in ice to gamma radiation equivalent to 20 million years of cosmic ray bombardment at minus 60 degrees Fahrenheit, matching temperatures in Mars's icy regions. Researchers then modeled an additional 30 million years of exposure. The results were unexpectedly encouraging: more than 10 percent of amino acids survived the full 50-million-year simulation in pure water ice. Samples mixed with Mars-like sediment, however, degraded ten times faster and did not survive — a counterintuitive result that upended expectations from the team's own 2022 study, which had predicted pure ice would offer even less protection than soil-ice mixtures.\n\nThe researchers believe the disparity stems from the physics of radiation transport at mineral-ice boundaries. When ice contacts rock or clay particles, a thin liquid film forms that allows radiation-generated reactive particles to migrate freely and attack organic molecules. In solid ice, by contrast, those harmful byproducts become trapped in place before they can reach and destroy amino acids. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe practical implications are significant. The 50-million-year preservation window far exceeds the estimated age of some Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. House noted that while Mars harbors extensive ice reserves, most lie just below the surface and will require missions equipped with drills or powerful scoops — capabilities demonstrated by NASA's 2008 Phoenix lander, the first spacecraft to excavate and photograph subsurface Martian ice.\n\nThe findings extend beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa, Jupiter's ice-covered moon, and Saturn's Enceladus. Degradation slowed even further at those extremes, an encouraging signal for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell. Taken together, the results suggest that frozen water throughout the solar system may function as a deep-time archive for biological chemistry — and that the search for extraterrestrial life should follow the ice, not just the water.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "space exploration"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T23:02:58.760Z"
-    },
-    {
-      "id": "ps-1772146993231-bgba",
-      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery",
-      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery",
-      "subheadline": "The landmark deal pairs a 300-megawatt, 100-hour battery with a new renewable-powered data center in Minnesota",
-      "body": "Google has agreed to pay approximately $1 billion for a massive iron-air battery system built by startup Form Energy, marking the young company's first major commercial deal and one of the largest single investments in long-duration energy storage to date. The price was reported by The Information following Google's announcement earlier this week of a new data center in Minnesota.\n\nThe battery system is designed to deliver a continuous 300 megawatts of electricity over 100 hours — far exceeding the capabilities of conventional lithium-ion installations, which typically discharge over four hours or less. Form Energy's technology works through a process that resembles breathing: oxygen is pumped into cells containing iron, causing the metal to rust and release electrons. When the battery recharges, the process reverses. The system will serve as a buffer for the data center's renewable power supply, which includes 1.4 gigawatts of wind capacity and 200 megawatts of solar.\n\nFor Form Energy, founded by CEO Mateo Jaramillo, the deal represents a pivotal inflection point. The company has spent years developing its iron-air chemistry and has constructed a manufacturing facility in West Virginia, but had struggled to land a marquee customer. With Google's billion-dollar order now on the books, Jaramillo said the company is raising a $500 million funding round. Form Energy has already secured $1.4 billion in total funding, according to PitchBook data, and plans to go public next year.\n\nThe deal also underscores the escalating energy demands of artificial intelligence infrastructure. Tech giants have been racing to secure massive power supplies for data centers, and the intermittent nature of wind and solar generation has made long-duration storage a critical missing piece. Google's willingness to write a ten-figure check for an unproven commercial technology signals just how urgently hyperscalers need solutions that go beyond the grid.\n\nIf the Minnesota installation performs as designed, it could validate iron-air chemistry as a serious contender in the energy storage market — a sector that has been dominated by lithium-ion technology but increasingly requires systems capable of riding out multi-day lulls in renewable generation. For Form Energy, the path from startup to publicly traded company now runs through a data center in the Upper Midwest.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Google",
-        "Form Energy",
-        "energy storage",
-        "iron-air battery",
-        "data centers",
-        "renewable energy"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T23:03:13.231Z"
-    },
-    {
-      "id": "ps-1772147009025-rqby",
-      "slug": "netflix-withdraws-warner-bros-discovery-bid-clearing-path-fo",
-      "headline": "Netflix Withdraws Warner Bros. Discovery Bid, Clearing Path for Paramount",
-      "subheadline": "Paramount Skydance's $111 billion offer for the historic Hollywood studio now stands as the sole major bid",
-      "body": "Netflix has pulled out of the race to acquire Warner Bros. Discovery, removing the last major obstacle to Paramount Skydance Corp.'s $111 billion deal for one of Hollywood's most storied entertainment conglomerates.\n\nThe streaming giant's decision to walk away from the bidding war leaves Paramount Skydance as the presumptive winner in what had become one of the largest media transactions in history. Warner Bros. Discovery — home to franchises including Harry Potter, DC Comics, and HBO — had drawn intense interest as the entertainment industry continues to consolidate around a shrinking number of major players. The $111 billion price tag would represent a landmark deal, reshaping the competitive landscape at a moment when traditional studios and streaming platforms are still searching for sustainable business models.\n\nNetflix's withdrawal, while significant, aligns with the company's historical preference for organic growth and content licensing over large-scale studio acquisitions. The Los Gatos, California-based company has built the world's largest streaming service primarily through original programming and targeted content deals rather than the kind of sweeping corporate mergers that have defined the broader media industry in recent years. Taking on the sprawling Warner Bros. Discovery portfolio — which includes linear television networks, a major film studio, and its own streaming platform Max — would have represented a dramatic strategic departure.\n\nFor Paramount Skydance, the deal would cap an extraordinary period of dealmaking. The company, formed through the merger of Paramount Global and David Ellison's Skydance Media, has moved aggressively to build scale in an industry where size increasingly determines negotiating power with distributors, advertisers, and talent. Adding Warner Bros. Discovery's deep library, premium cable assets, and global distribution footprint would create a combined entity with formidable reach across film, television, and streaming.\n\nThe path to closing remains subject to regulatory review, and a transaction of this magnitude is likely to draw scrutiny from antitrust authorities concerned about further concentration in the media sector. Still, with Netflix now out of the picture, the most significant competitive hurdle has been cleared, and attention will shift to the deal's structure, financing, and the operational challenge of integrating two massive entertainment companies.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Netflix",
-        "Warner Bros Discovery",
-        "Paramount Skydance",
-        "media mergers",
-        "Hollywood",
-        "streaming"
-      ],
-      "imageUrl": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxidXNpbmVzc3xlbnwwfDB8fHwxNzcyMDk4NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/netflix-drops-warner-bros-offer-leaving-paramount-the-winner",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T23:03:29.025Z"
-    },
-    {
-      "id": "ps-1772147027273-p4cm",
-      "slug": "occ-stablecoin-proposal-threatens-crypto-rewards-programs-ra",
-      "headline": "OCC Stablecoin Proposal Threatens Crypto Rewards Programs, Rattling Industry",
-      "subheadline": "A 376-page rulemaking under the GENIUS Act could undermine the lucrative yield arrangements between issuers like Circle and platforms like Coinbase",
-      "body": "The U.S. Office of the Comptroller of the Currency has released a sweeping stablecoin regulatory proposal that could jeopardize one of the cryptocurrency industry's most profitable business models — the rewards programs that platforms like Coinbase offer customers on stablecoin holdings.\n\nThe 376-page proposed rulemaking, unveiled as OCC chief Jonathan Gould testified before the U.S. Senate on Thursday, seeks to implement the GENIUS Act, the stablecoin law enacted last year. At its most contentious, the proposal suggests that close financial ties between stablecoin issuers and the crypto platforms distributing their tokens create a presumption that any yield or interest payments through such intermediaries amount to an evasion of the GENIUS Act's prohibition on issuer-paid rewards. The rule would place the burden on firms to prove otherwise, a standard that industry participants say goes well beyond what the statute requires.\n\nThe arrangement between Circle, the issuer of the USDC stablecoin, and Coinbase, the leading U.S. exchange, stands as the most prominent example of the business model now under threat. While Coinbase has declined to comment publicly, industry insiders speaking on condition of anonymity acknowledged the proposal looks damaging and said they intend to mount an aggressive lobbying effort during the public comment period. Todd Phillips, a former FDIC attorney and Georgia business professor who tracks digital asset policy, offered a more measured assessment. \"I think there's some play in the joints of what the OCC has proposed,\" Phillips said, noting the language does not appear to constitute a blanket prohibition and that the extent of the restriction \"is open to debate.\"\n\nThe regulatory dispute carries implications far beyond stablecoin rewards alone. Congress is still negotiating the Digital Asset Market Clarity Act, the broader legislation intended to regulate U.S. crypto markets, and stablecoin yield has emerged as one of its most contentious provisions. Traditional banks have lobbied hard against crypto yield programs, arguing they threaten the deposit base on which banking fundamentally depends. Senator Angela Alsobrooks, a Democrat involved in negotiations, emphasized the need to take community banks' concerns \"especially seriously\" and has pushed for provisions that would ban rewards resembling deposit accounts. Some crypto industry negotiators argue the OCC's move may actually weaken the banking lobby's position — if the regulator has already addressed stablecoin yield through rulemaking, there may be less reason to fight over it in legislation.\n\nThe proposal remains preliminary, with a public comment period ahead and a final rulemaking process that typically stretches over months for controversial rules. The fact that it originates from Gould — a former chief legal officer at blockchain firm Bitfury who has generally been viewed as crypto-friendly — has deepened industry unease. Meanwhile, other obstacles to the Clarity Act persist, including Democratic demands that the legislation address potential conflicts of interest involving senior government officials, including President Donald Trump, who have personal financial stakes in the crypto industry.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "OCC",
-        "GENIUS Act",
-        "Coinbase",
-        "crypto regulation",
-        "stablecoin rewards",
-        "Circle"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T23:03:47.273Z"
     },
     {
       "id": "ps-1772146051908-6iq5",
@@ -255,26 +275,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cvg1vd95nl9o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-26T21:17:08.697Z"
-    },
-    {
-      "id": "ps-1772140643489-jlvk",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics models on standard computational lattices",
-      "body": "A team of computational physicists has developed a novel approach to lattice Boltzmann fluid simulations that eliminates systematic modeling errors in Navier-Stokes equations — a longstanding challenge in computational fluid dynamics. The method, published on arXiv on February 14, introduces fully local corrections through what the authors call Onsager-Regularized non-equilibrium populations.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi devised a generalized framework that addresses errors inherent in first-nearest-neighbor lattice Boltzmann methods, which are widely used to simulate fluid flows in engineering, physics, and increasingly in biomedical applications. Their approach operates on the standard D2Q9 lattice — a common two-dimensional computational grid with nine velocity directions — and applies corrections through a guided equilibrium representation constrained by six moments.\n\nThe key innovation lies in the method's flexibility. The researchers demonstrate two levels of correction: a partial model that addresses compatibility condition violations, and a complete model that additionally corrects stress tensor errors. The partial correction alone improves accuracy by two orders of magnitude at reference lattice temperatures and by four orders of magnitude at arbitrary lattice temperatures compared to uncorrected schemes. The fully corrected version goes further, producing what the authors describe as an \"exact model\" — effectively error-free Navier-Stokes simulations within the lattice Boltzmann framework.\n\nNumerical benchmarks confirmed that both corrected schemes outperform the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability. The BGK (Bhatnagar-Gross-Krook) collision operator has been the workhorse of lattice Boltzmann simulations for decades, making any demonstrable improvement over it significant for the broader computational physics community.\n\nPerhaps most consequentially, the researchers note that their framework opens a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Lattice Boltzmann methods have historically struggled with thermal flows due to the very modeling errors this work targets. If the Onsager-Regularized approach scales successfully to thermohydrodynamic problems, it could substantially expand the practical reach of lattice Boltzmann methods in areas ranging from industrial heat exchanger design to atmospheric modeling. The work represents a meaningful step toward making standard lattice structures viable for high-fidelity multiphysics simulations without resorting to computationally expensive higher-order lattices.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational fluid dynamics",
-        "numerical methods",
-        "computational physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1635308984309-e364038265c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T21:17:23.489Z"
     },
     {
       "id": "ps-1772139776469-8e9o",
