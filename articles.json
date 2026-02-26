@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T22:33:30.044Z",
+  "lastUpdated": "2026-02-26T22:48:35.975Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772145123366-nzrx",
-      "slug": "uk-defence-ministry-launches-review-of-epstein-flights-at-ra",
-      "headline": "UK Defence Ministry Launches Review of Epstein Flights at RAF Bases",
-      "subheadline": "Defence Secretary orders officials to scour records after ex-PM Gordon Brown submits dossier to police forces",
-      "body": "Britain's Ministry of Defence has opened a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, a probe ordered directly by Defence Secretary John Healey.\n\nThe review will examine military records and internal communications to determine whether Epstein's private jets landed at RAF facilities during his visits to the UK. An MoD source told reporters the department would \"ruthlessly pursue any information that can shed light on this scandal.\" In an official statement, the ministry said any relevant findings would be turned over to civilian police authorities, adding that its \"thoughts are with all the victims of Epstein's vile crimes.\"\n\nThe investigation follows pressure from former Prime Minister Gordon Brown, who submitted a five-page dossier to multiple UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — containing new information drawn from Epstein-related documents recently released in the United States. Brown has publicly called for a police investigation into whether Prince Andrew used RAF bases to meet Epstein. Particular attention has focused on a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk, located roughly 20 miles from the royal Sandringham Estate.\n\nThe review builds on mounting evidence of Epstein's extensive UK connections. A BBC News investigation last year identified approximately 90 flights linked to Epstein that arrived at or departed from British airports, with some carrying British women who have alleged they were abused. The MoD previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for standard fees. Separately, Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the release of US government Epstein materials.\n\nPrince Andrew has denied any wrongdoing in connection with Epstein, who died in a New York jail cell in August 2019 while awaiting trial on sex trafficking charges. The widening British inquiries reflect growing political pressure to establish the full extent of Epstein's operations in the UK, as documents released by American authorities continue to reveal new details about his global network of associates and enablers.",
+      "id": "ps-1772146033738-fvxs",
+      "slug": "uk-defence-ministry-probes-whether-epstein-used-raf-bases",
+      "headline": "UK Defence Ministry Probes Whether Epstein Used RAF Bases",
+      "subheadline": "Defence Secretary orders exhaustive review of military records after former PM Brown submits dossier to police",
+      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, an investigation ordered by Defence Secretary John Healey that will comb through flight records and internal communications.\n\nThe review, first reported by the Telegraph, follows mounting pressure after former Prime Minister Gordon Brown submitted a five-page dossier to multiple UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — urging a criminal investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown is understood to be particularly concerned about a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk, a base situated roughly 20 miles from the Royal Family's Sandringham Estate. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\"\n\nThe probe builds on a 2024 BBC News investigation that identified approximately 90 flights linked to Epstein arriving at or departing from UK airports, some carrying British women who later alleged they were abused. The MoD had previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for a fee — a policy that may have created an avenue for Epstein's movements to go largely unscrutinized. Separately, Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the US government's release of Epstein-related materials.\n\nIn an official statement, an MoD spokesperson said Healey had \"ordered a review of all records that the department may hold relating to Epstein flights landing at RAF bases to ensure that any information which relates to Epstein's crimes is uncovered and provided to the relevant authorities.\" The spokesperson added that the ministry would cooperate with any civilian police investigations.\n\nPrince Andrew has previously denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on sex trafficking charges. The widening UK inquiries reflect growing political and public demand for accountability following waves of document releases in the United States that have drawn prominent British figures — including Lord Mandelson, recently referred to an EU anti-fraud agency over Epstein-related emails — into the expanding scandal.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -16,12 +16,118 @@
         "RAF bases",
         "Prince Andrew",
         "Gordon Brown",
-        "UK police investigation"
+        "police investigation"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/361f/live/e61e0130-1355-11f1-a24b-e9ec85119d46.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T22:32:03.366Z"
+      "publishedAt": "2026-02-26T22:47:13.738Z"
+    },
+    {
+      "id": "ps-1772146051908-6iq5",
+      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
+      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
+      "subheadline": "Physics-constrained machine learning framework replaces decades-old collision models in rarefied gas simulations while preserving conservation laws",
+      "body": "A team of researchers has developed a neural network framework that significantly accelerates Direct Simulation Monte Carlo (DSMC) calculations — the premier method for modeling rarefied gas dynamics — while maintaining the strict physical conservation laws that make such simulations reliable. The work, posted to the arXiv preprint server on February 15, addresses a long-standing computational bottleneck in aerospace engineering and hypersonic flow modeling.\n\nEhsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov designed a unified neural-operator architecture that tackles two distinct challenges. The first replaces the widely used Variable Hard Sphere (VHS) collision model, a phenomenological approximation that has served as a workhorse in DSMC codes for decades, with a learned neural collision kernel. Critically, the researchers solved a subtle problem that has plagued previous machine learning surrogates: purely deterministic neural networks tend to suppress the thermal fluctuations essential to kinetic theory, leading to artificial cooling of the simulated gas. Their solution introduces a physics-constrained stochastic layer that injects controlled noise during inference while enforcing momentum and kinetic-energy conservation through cell-wise moment matching.\n\nPerhaps the most striking result is the framework's generalization capability. A model trained exclusively on one-dimensional Couette flow — a relatively simple shear-driven configuration — accurately predicted the behavior of a far more complex two-dimensional lid-driven cavity flow without any additional training, correctly capturing high-order non-equilibrium moments. This zero-shot transfer across geometries and thermodynamic conditions suggests the neural operator has internalized genuine collision physics rather than merely memorizing training scenarios.\n\nThe second component of the framework targets the computational expense of quantum-mechanical scattering calculations. For high-fidelity simulations using ab initio interaction potentials, such as the Jäger potential for argon, every molecular collision requires costly numerical integration of quantum scattering angles. The researchers developed a dedicated neural operator trained through what they call a \"physics harvesting\" strategy on large-scale collision pair datasets. Validated against Mach 10 rarefied argon flow over a cylinder — a demanding hypersonic benchmark — the neural surrogate reproduced shock structures and transport properties with high fidelity while achieving approximately 20 percent cost reduction compared to direct numerical integration.\n\nThe work sits at the intersection of scientific machine learning and computational fluid dynamics, a space that has seen rapid growth as researchers seek to leverage neural networks without sacrificing the physical guarantees that engineers require. For applications ranging from spacecraft reentry heating to microelectromechanical systems, where rarefied gas effects dominate and computational budgets are tight, the framework offers a path toward faster simulations that remain anchored in fundamental physics. Whether the approach scales to more complex molecular species and multi-species gas mixtures remains an open question the authors may address in future work.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "DSMC",
+        "neural operators",
+        "rarefied gas dynamics",
+        "machine learning",
+        "computational physics",
+        "hypersonic flow"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1719072497514-0359164b2766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxOZXVyYWwlMjBPcGVyYXRvcnMlMjBBY2NlbGVyYXRlJTIwR29sZCUyMFN0YW5kYXJkJTIwR2FzJTIwRHluYW1pY3MlMjBTaW11bGF0aW9uc3xlbnwwfDB8fHwxNzcyMTQ2MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21244",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T22:47:31.908Z"
+    },
+    {
+      "id": "ps-1772146067757-0u6z",
+      "slug": "ancient-microbial-life-could-persist-50-million-years-in-mar",
+      "headline": "Ancient Microbial Life Could Persist 50 Million Years in Martian Ice",
+      "subheadline": "NASA and Penn State lab experiments redirect the search for life on Mars from rocks and soil to pure buried ice",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years inside pure water ice, even under relentless bombardment by cosmic radiation. The findings, published in the journal Astrobiology, could reshape how future Mars missions search for signs of ancient or extant life.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria in test tubes of pure water ice, then exposed them to gamma radiation at minus 60 degrees Fahrenheit inside Penn State's Radiation Science and Engineering Center. The doses were calibrated to replicate 20 million years of cosmic ray exposure on the Martian surface, with mathematical modeling extending the simulation to 50 million years. More than 10 percent of the amino acids in pure ice samples survived the full duration — a striking result, given that many of Mars's known surface ice deposits are less than two million years old.\n\nThe study delivered an equally important counterpoint. When researchers mixed ice with silicate rocks and clay minerals typical of Martian sediment, organic material broke down roughly ten times faster and did not survive. Lead author Alexander Pavlov, a space scientist at NASA Goddard, said the outcome defied expectations set by a 2022 study from the same team, which had found that even a 10 percent ice-to-soil mixture accelerated destruction of amino acids. Pavlov attributed the rapid degradation to a thin liquid film that forms where ice contacts mineral surfaces, allowing radiation-generated reactive particles to reach and damage organic molecules more easily. In solid ice, by contrast, those harmful particles appear to become trapped in place.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. House emphasized that accessing subsurface ice will require drilling or scooping capabilities similar to those deployed by NASA's 2008 Phoenix lander, the first mission to excavate and photograph Martian ice.\n\nThe implications extend well beyond Mars. The team also tested amino acid survival at temperatures matching those on Jupiter's moon Europa and Saturn's moon Enceladus, finding that organic degradation slowed even further in those frigid environments. Pavlov said the results are encouraging for NASA's Europa Clipper spacecraft, which launched in 2024 and is scheduled to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell. Taken together, the findings suggest that ice — long overlooked in favor of rocks and clay — may be the solar system's most promising vault for preserved biosignatures.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "cosmic radiation"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T22:47:47.757Z"
+    },
+    {
+      "id": "ps-1772146084213-7jz7",
+      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery-s",
+      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery System",
+      "subheadline": "The 100-hour battery will back renewable power at a new Minnesota data center, marking the startup's first major commercial deal",
+      "body": "Google has agreed to pay approximately $1 billion for a massive iron-air battery system built by startup Form Energy, according to a report by The Information. The deal represents the first major commercial order for the energy storage company and signals growing willingness among hyperscale cloud operators to invest heavily in long-duration storage technologies.\n\nThe battery, capable of delivering 300 megawatts of continuous power over 100 hours, will be deployed at a new Google data center in Minnesota. There, it will serve as a buffer for 1.4 gigawatts of wind capacity and 200 megawatts of solar generation — smoothing out the inherent intermittency of renewable sources to keep servers running around the clock. The underlying chemistry is elegantly simple: oxygen is pumped into cells containing iron, inducing a rusting process that releases electrons. When the battery recharges, the process reverses.\n\nFor Form Energy, the Google contract is transformative. The company, led by CEO Mateo Jaramillo, has spent years developing its iron-air technology and built a production factory in West Virginia, but had not previously secured a customer of this scale. With a billion-dollar order now on the books, Jaramillo said the company is raising a $500 million funding round. Form Energy has already pulled in $1.4 billion in capital to date, according to PitchBook data, and plans to go public next year.\n\nThe deal also reflects a broader strategic shift among major technology companies. As artificial intelligence workloads drive explosive growth in data center power demand, firms like Google face mounting pressure to match that consumption with clean energy. Traditional lithium-ion batteries, which typically discharge over four hours or less, are ill-suited for the multi-day lulls in wind and solar output that can occur in regions like the upper Midwest. Form Energy's 100-hour discharge capability directly addresses that gap, potentially offering a path to fully renewable-powered computing infrastructure.\n\nAt roughly $3,333 per kilowatt of capacity, the system's price point will draw scrutiny from energy analysts weighing it against alternatives like natural gas peaker plants or emerging hydrogen storage. But for Google, which has pledged to run on carbon-free energy around the clock by 2030, the investment appears to represent a calculated bet that long-duration storage will prove essential — and that securing early access is worth a premium.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Google",
+        "Form Energy",
+        "iron-air battery",
+        "energy storage",
+        "data centers",
+        "renewable energy",
+        "clean energy"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T22:48:04.213Z"
+    },
+    {
+      "id": "ps-1772146099794-lqpr",
+      "slug": "u-s-stocks-slide-as-nvidia-falls-despite-beating-earnings-ex",
+      "headline": "U.S. Stocks Slide as Nvidia Falls Despite Beating Earnings Expectations",
+      "subheadline": "Chipmaker's post-earnings decline drags broader market lower, highlighting investor unease over AI valuations",
+      "body": "U.S. equities closed lower on Wednesday as Nvidia shares dropped despite the chipmaker reporting quarterly results that surpassed Wall Street expectations, underscoring the increasingly demanding bar investors have set for the artificial intelligence sector's most prominent beneficiary.\n\nNvidia, whose market capitalization makes it one of the most influential components of major indices, weighed on the broader market as traders appeared to take profits or express concern about forward guidance rather than celebrate the earnings beat. The sell-the-news reaction reflects a pattern that has emerged around mega-cap technology earnings in recent quarters, where merely exceeding consensus estimates is no longer sufficient to sustain rallies in richly valued names.\n\nThe decline in Nvidia rippled across the technology sector and dragged down the S&P 500 and Nasdaq Composite, both of which ended the session in negative territory. The move illustrates the outsized role that a handful of AI-linked stocks continue to play in determining the direction of the broader market, a dynamic that has been a source of both gains and vulnerability for index-level investors throughout the past year.\n\nMarket participants are grappling with a complex backdrop that extends beyond individual earnings reports. Questions about the sustainability of AI-related capital expenditure, the pace of monetization for large language models, and the competitive landscape among chipmakers have all contributed to a more cautious posture among institutional investors. Even as Nvidia's revenue and profit figures continue to grow at an extraordinary clip, the stock's valuation demands near-flawless execution and consistently upbeat forward projections.\n\nThe session's weakness serves as a reminder that sentiment around the AI trade remains fragile despite the sector's fundamental strength. With several major technology companies still set to report in the coming weeks, investors will be watching closely for any signs that the enormous infrastructure buildout underpinning the AI boom is beginning to moderate — or whether the current pullback represents another buying opportunity in what has been one of the most powerful market themes in a generation.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "stock market",
+        "AI stocks",
+        "Wall Street"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1662947683270-136b00fbf3c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxOdmlkaWElMjBlYXJuaW5nc3xlbnwwfDB8fHwxNzcyMTQ2MDk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/stocks-slip-as-nvidia-drops-closing-bell-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T22:48:19.794Z"
+    },
+    {
+      "id": "ps-1772146115878-r9t2",
+      "slug": "occ-stablecoin-rules-threaten-crypto-rewards-programs-rattli",
+      "headline": "OCC Stablecoin Rules Threaten Crypto Rewards Programs, Rattling Industry",
+      "subheadline": "A 376-page proposal to implement the GENIUS Act could undermine the lucrative yield arrangements between issuers like Circle and exchanges like Coinbase",
+      "body": "The U.S. Office of the Comptroller of the Currency has proposed a sweeping set of stablecoin regulations that the crypto industry fears could effectively shut down one of its most profitable business models: rewards programs on stablecoin holdings.\n\nThe 376-page rulemaking proposal, released as OCC chief Jonathan Gould testified before the Senate Banking Committee on Thursday, is intended to implement the GENIUS Act — the Guiding and Establishing National Innovation for U.S. Stablecoins law enacted last year. While the statute banned stablecoin issuers from directly paying yield or interest, the crypto industry has long operated under the assumption that third-party platforms like Coinbase could independently offer their own rewards programs on those tokens. The OCC's proposed language challenges that interpretation, suggesting that close financial ties between issuers and platforms would create a presumption that any such yield payments amount to improper evasion of the law's prohibition.\n\nThe proposal has immediate implications for Coinbase, which earns significant revenue through its arrangement with stablecoin issuer Circle. Coinbase declined to comment. Industry insiders, speaking anonymously, conceded the initial reading looks unfavorable but noted the language may contain enough flexibility to preserve some form of rewards. Todd Phillips, a former FDIC lawyer and business professor who tracks digital asset policy, told reporters that the OCC appears to have \"clearly gone beyond what the statute requires,\" adding that the extent of any restriction \"is open to debate.\" He characterized the proposal as having \"some play in the joints.\"\n\nThe regulatory move also complicates ongoing congressional negotiations over the Digital Asset Market Clarity Act, the broader legislation meant to govern U.S. crypto markets. Stablecoin yield has been a central point of contention in those talks, with traditional banks arguing that crypto rewards threaten their deposit base. At Thursday's hearing, Senator Angela Alsobrooks pressed for a compromise that would ban rewards resembling deposit accounts. One industry negotiator suggested the OCC's action could paradoxically weaken the banking lobby's position — if regulators are already addressing yield through rulemaking, there may be less reason to fight over it in legislation.\n\nThe proposal is preliminary and subject to a public comment period before any final rule can be issued, a process that typically stretches over months for controversial regulations. Crypto lobbyists and lawyers are still parsing the full document and are expected to mount significant opposition. The standoff adds another layer of uncertainty to an already fraught legislative environment, where Democratic lawmakers have also demanded that any crypto bill address potential conflicts of interest involving senior officials — including President Donald Trump — who have personal financial ties to the industry.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "OCC",
+        "GENIUS Act",
+        "Coinbase",
+        "crypto regulation",
+        "stablecoin rewards"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T22:48:35.878Z"
     },
     {
       "id": "ps-1772145142579-tmds",
@@ -45,50 +151,6 @@
       "publishedAt": "2026-02-26T22:32:22.579Z"
     },
     {
-      "id": "ps-1772145160087-iwqb",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice, not rock, to find traces of ancient life",
-      "body": "Ancient microbial life — or its chemical remnants — could persist inside Martian ice for tens of millions of years, far longer than the age of most known ice deposits on the planet's surface, according to new laboratory experiments conducted by NASA and Penn State researchers.\n\nThe study, published in the journal Astrobiology, simulated conditions on Mars by sealing E. coli bacteria in tubes of pure water ice and subjecting them to gamma radiation at minus 60 degrees Fahrenheit. Led by NASA Goddard Space Flight Center scientist Alexander Pavlov, the team exposed samples to radiation equivalent to 20 million years of cosmic ray bombardment on the Martian surface, then modeled an additional 30 million years of exposure. The result: more than 10 percent of amino acids — the fundamental building blocks of proteins — remained intact in pure ice after the full 50-million-year simulation. That timeframe vastly exceeds the estimated age of many surface ice deposits on Mars, which are often less than two million years old.\n\nThe findings carry a striking caveat, however. When amino acids were embedded in a mixture of water ice and Mars-like sediment containing silicate rocks and clay, they degraded roughly ten times faster and did not survive the simulation period. Researchers believe a thin film that forms where ice meets mineral grains allows radiation-generated particles to move more freely, accelerating the destruction of organic molecules. In solid pure ice, by contrast, those harmful particles appear to become frozen in place, unable to reach and damage nearby compounds. The counterintuitive result overturned expectations set by a 2022 study from the same team, which had suggested that ice-only samples would fare worse than ice-sediment mixtures.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said Penn State geosciences professor Christopher House, a co-author on the paper. House noted that while Mars harbors vast quantities of subsurface ice, accessing it will require drilling or scooping tools similar to those deployed by NASA's 2008 Phoenix lander — the first mission to excavate and photograph Martian ice. The research effectively argues for a strategic pivot: rather than focusing primarily on rocks and soil, astrobiology missions should target clean, buried ice deposits as the most promising reservoirs for preserved biosignatures.\n\nThe implications extend well beyond Mars. The team also tested organic material at temperatures representative of Europa, Jupiter's ice-shelled moon, and Saturn's Enceladus. Degradation slowed even further in those colder environments — an encouraging signal for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to arrive at Jupiter in 2030 for 49 close flybys aimed at assessing the moon's habitability. Taken together, the results suggest that ice throughout the solar system may function as a deep-time archive, preserving molecular evidence of life — past or present — far longer than previously assumed.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T22:32:40.087Z"
-    },
-    {
-      "id": "ps-1772145175765-ljil",
-      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery-s",
-      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery System",
-      "subheadline": "The deal marks the first major commercial deployment of 100-hour iron-air battery technology for data center power",
-      "body": "Google has agreed to pay approximately $1 billion for a massive iron-air battery system built by startup Form Energy, in what represents the most significant commercial validation yet of long-duration energy storage technology. The deal, first reported by The Information, will anchor a new Google data center in Minnesota designed to run on renewable power.\n\nThe battery system is engineered to deliver 300 megawatts of continuous electricity over 100 hours — a duration that dwarfs conventional lithium-ion installations, which typically discharge over four hours or less. Form Energy's technology relies on a fundamentally different chemistry: oxygen is pumped into cells to rust iron electrodes, a process that releases electrons. When the battery recharges, the rust converts back to iron. The system will work in concert with 1.4 gigawatts of wind power and 200 megawatts of solar capacity, smoothing out the intermittency that has long been the Achilles' heel of renewable energy generation.\n\nFor Form Energy, the Google contract is transformative. The company, led by CEO Mateo Jaramillo, had spent years developing its iron-air technology and built a manufacturing facility in West Virginia, but had not secured a major customer until now. With the billion-dollar order in hand, Form Energy is raising a $500 million funding round and has announced plans to go public next year. The company has raised $1.4 billion to date, according to PitchBook data.\n\nThe deal also signals a broader strategic shift for hyperscale data center operators, who face mounting pressure to reconcile surging electricity demand — driven largely by artificial intelligence workloads — with corporate climate commitments. Google's Minnesota facility appears designed as a proof of concept for powering data centers with renewables around the clock, a goal that requires storage capable of bridging not just hours but days of low wind or cloud cover.\n\nIf the deployment performs as designed, it could catalyze a new market for multi-day energy storage, a segment that analysts have long identified as critical to deep decarbonization of the electric grid but that has lacked the commercial traction to attract large-scale manufacturing investment. The question now is whether Form Energy can scale production fast enough to meet what could become substantial demand from the technology sector and utilities alike.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Google",
-        "Form Energy",
-        "energy storage",
-        "iron-air battery",
-        "data centers",
-        "renewable energy",
-        "clean tech"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T22:32:55.765Z"
-    },
-    {
       "id": "ps-1772145191407-7buf",
       "slug": "anthropic-clashes-with-pentagon-over-ai-s-role-in-warfare",
       "headline": "Anthropic Clashes With Pentagon Over AI's Role in Warfare",
@@ -110,27 +172,6 @@
       "publishedAt": "2026-02-26T22:33:11.407Z"
     },
     {
-      "id": "ps-1772145209942-0myu",
-      "slug": "occ-stablecoin-proposal-threatens-crypto-rewards-programs-ra",
-      "headline": "OCC Stablecoin Proposal Threatens Crypto Rewards Programs, Rattles Industry",
-      "subheadline": "A 376-page rulemaking under the GENIUS Act could curtail yield offerings by platforms like Coinbase, complicating broader crypto legislation",
-      "body": "The U.S. Office of the Comptroller of the Currency has proposed sweeping stablecoin regulations that could undermine a core revenue stream for crypto platforms, triggering alarm across an industry that believed it had secured favorable treatment under last year's landmark GENIUS Act.\n\nThe 376-page proposal, released as OCC chief Jonathan Gould testified before the Senate Banking Committee on Thursday, targets the practice of third-party platforms offering yield or rewards on stablecoin holdings. While the GENIUS Act explicitly prohibits stablecoin issuers from paying interest or yield directly to holders, the crypto industry has long operated under the assumption that intermediaries — such as Coinbase, which offers rewards through its arrangement with issuer Circle — could independently run such programs. The OCC's proposed rules challenge that interpretation, suggesting that close financial ties between issuers and platforms create a presumption that any yield payments by intermediaries amount to an evasion of the law's prohibition.\n\nThe implications are significant. Stablecoin rewards represent a major business line for Coinbase, which declined to comment on the proposal. Industry insiders speaking anonymously acknowledged that the initial reading of the rules looks unfavorable, though some noted the language may contain enough ambiguity to preserve certain rewards structures. Todd Phillips, a former FDIC lawyer and business professor who tracks digital assets policy, said the proposal doesn't appear to be an absolute prohibition. \"I think there's some play in the joints of what the OCC has proposed,\" Phillips said, adding that the extent of any restriction \"is open to debate\" and that the agency \"has clearly gone beyond what the statute requires.\"\n\nThe regulatory dispute arrives at a particularly sensitive moment for crypto policy in Washington. Congress is negotiating the Digital Asset Market Clarity Act, a broader bill intended to establish a comprehensive regulatory framework for U.S. crypto markets. Stablecoin yield has emerged as one of the most contentious issues in those talks, with traditional banks arguing that crypto rewards programs threaten their deposit base. Senator Angela Alsobrooks, a Democrat involved in the negotiations, emphasized the need to take community banks' concerns seriously and has sought a compromise that would restrict rewards resembling deposit accounts. One industry negotiator argued the OCC's action could paradoxically weaken the banks' position by making the legislative fight over yield redundant — though the same person said the agency overreached and would face organized opposition during the public comment period.\n\nThe proposal remains preliminary and must undergo a formal comment period followed by a final rulemaking process, a timeline that typically stretches over months for controversial regulations. Notably, Gould himself is a former chief legal officer at crypto firm Bitfury and has generally been viewed as sympathetic to the industry, making the restrictive proposal all the more surprising to crypto advocates. The Clarity Act, meanwhile, faces additional hurdles beyond the yield question, including Democratic demands that the legislation address potential conflicts of interest involving senior officials — including President Donald Trump — who hold personal financial stakes in the crypto sector.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "OCC",
-        "GENIUS Act",
-        "Coinbase",
-        "crypto regulation",
-        "Clarity Act"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T22:33:29.942Z"
-    },
-    {
       "id": "ps-1772144237150-2543",
       "slug": "quantum-detectors-outpace-nuclear-data-exposing-gaps-in-safe",
       "headline": "Quantum Detectors Outpace Nuclear Data, Exposing Gaps in Safeguards Science",
@@ -150,27 +191,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21240",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T22:17:17.150Z"
-    },
-    {
-      "id": "ps-1772143340408-1chi",
-      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
-      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
-      "subheadline": "Physics-constrained AI framework replaces decades-old collision models in rarefied gas simulations, achieving 20% cost reduction",
-      "body": "A team of computational physicists has developed a neural network framework that accelerates the Direct Simulation Monte Carlo (DSMC) method — the workhorse technique for modeling rarefied gas flows — while preserving the physical accuracy that makes these simulations indispensable for hypersonic aerodynamics and spacecraft reentry analysis.\n\nThe work, posted to the arXiv preprint server on February 15 by Ehsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov, tackles a longstanding tension in kinetic gas simulations: the trade-off between physical fidelity and computational cost. DSMC tracks individual molecular collisions to model gases far from thermal equilibrium, but its expense becomes prohibitive when using quantum-mechanical scattering potentials or operating near the boundary between rarefied and continuum flow regimes. The researchers' approach replaces the phenomenological Variable Hard Sphere (VHS) collision model — a simplified approximation used since the 1980s — with a learned neural collision kernel that captures more complex interaction physics.\n\nA key innovation is what the authors call a \"physics-constrained stochastic layer\" that addresses a subtle but critical problem. Naive neural network surrogates tend to suppress the random thermal fluctuations that are physically essential in kinetic simulations, leading to artificial cooling of the simulated gas. By injecting controlled noise through latent variables while enforcing strict conservation of momentum and kinetic energy at the cell level, the framework maintains thermodynamic consistency. Perhaps most striking is the model's generalization capability: trained solely on one-dimensional Couette flow data, the neural operator accurately reproduced high-order non-equilibrium behavior in a geometrically distinct two-dimensional lid-driven cavity problem without any retraining.\n\nThe framework's second component targets the computational bottleneck of quantum-mechanical scattering calculations. Using a \"physics harvesting\" training strategy applied to the Jäger interaction potential for argon, the researchers built a dedicated neural operator for ab initio collision angle prediction. Validated against Mach 10 rarefied argon flow over a cylinder — a canonical hypersonic benchmark — the model faithfully reproduced shock structures and transport properties while cutting computational costs by approximately 20 percent compared to direct numerical integration of the scattering integrals.\n\nThe results point toward a broader shift in computational physics, where machine learning does not merely approximate existing methods but is architecturally constrained to respect conservation laws and statistical properties. For the aerospace and vacuum technology communities that depend on DSMC, the framework offers a path to incorporating higher-fidelity molecular interaction models without proportionally increasing simulation budgets. Whether the approach scales to more complex molecular species and chemically reacting flows remains an open question for future work.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "DSMC",
-        "neural operators",
-        "rarefied gas dynamics",
-        "machine learning physics",
-        "computational physics",
-        "hypersonic flow"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1741704445187-0f73317f5f14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8TmV1cmFsJTIwT3BlcmF0b3JzJTIwQWNjZWxlcmF0ZSUyMEdvbGQlMjBTdGFuZGFyZCUyMEdhcyUyMER5bmFtaWNzJTIwU2ltdWxhdGlvbnN8ZW58MHwwfHx8MTc3MjEyODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21244",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T22:02:20.408Z"
     },
     {
       "id": "ps-1772143405601-26eb",
@@ -1034,28 +1054,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/lseg-unveils-3-billion-buyback-new-earnings-guidance",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T10:33:08.404Z"
-    },
-    {
-      "id": "ps-1772101085564-hbbi",
-      "slug": "shell-explores-minority-stake-sale-in-24b-australian-lng-pla",
-      "headline": "Shell Explores Minority Stake Sale in $24B Australian LNG Plant",
-      "subheadline": "Abu Dhabi's Adnoc among potential buyers as oil major weighs partial divestiture of North West Shelf facility",
-      "body": "Shell Plc is in discussions with several companies, including a subsidiary of Abu Dhabi National Oil Co., about selling a minority stake in its massive North West Shelf liquefied natural gas export facility in Western Australia, according to people familiar with the negotiations.\n\nThe North West Shelf plant, valued at approximately A$34 billion ($24 billion), is one of Australia's most significant energy assets and a cornerstone of the country's LNG export infrastructure. A partial divestiture would represent a major transaction in the global energy sector, potentially reshaping the ownership structure of a facility that has been central to Asia-Pacific gas supply for decades.\n\nThe involvement of Adnoc — the state-owned oil company of the United Arab Emirates — signals the Gulf producer's continued appetite for downstream and international energy assets as it diversifies beyond its traditional role as a crude oil supplier. Adnoc has been on an aggressive expansion path in recent years, acquiring stakes in natural gas operations and petrochemical businesses across multiple continents.\n\nFor Shell, a stake sale would align with the London-based energy giant's broader portfolio optimization strategy, allowing it to unlock capital from mature assets while retaining operational involvement. The company has been selectively pruning its global holdings to concentrate investment where it sees the highest returns, and partial divestments of large-scale infrastructure have been a recurring feature of that approach.\n\nThe talks remain ongoing and there is no certainty that a deal will be reached. The identities of other parties involved in the discussions beyond Adnoc have not been disclosed. Any transaction of this scale would likely face regulatory scrutiny from Australian authorities, given the strategic importance of LNG exports to the national economy and energy security landscape.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Shell",
-        "Adnoc",
-        "LNG",
-        "Australia",
-        "energy",
-        "North West Shelf",
-        "divestiture"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1462206092226-f46025ffe607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MjEwMTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/shell-in-talks-with-adnoc-others-over-australia-lng-stake-sale",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T10:18:05.564Z"
     }
   ]
 }
