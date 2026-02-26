@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T17:33:18.929Z",
+  "lastUpdated": "2026-02-26T17:48:25.809Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772127120136-0zn8",
+      "id": "ps-1772128026306-5n0v",
       "slug": "denmark-s-frederiksen-calls-snap-election-amid-greenland-cri",
       "headline": "Denmark's Frederiksen Calls Snap Election Amid Greenland Crisis",
-      "subheadline": "Danish prime minister frames vote as pivotal for European security and sovereignty against Trump's annexation threats",
-      "body": "Danish Prime Minister Mette Frederiksen announced snap elections on Monday, positioning the vote as a defining moment for her country's sovereignty and its fraught relationship with the United States over Greenland.\n\nSpeaking before parliament, Frederiksen declared the next four years \"decisive\" for Denmark, warning that Danes and Europeans \"will really have to stand on our own feet.\" She called for rearmament to ensure continental peace, stronger European unity, and the preservation of the Danish Commonwealth — the political union binding Denmark, Greenland, and the Faroe Islands. The elections are set for 24 March, with Frederiksen staking her political future on the strength of the mandate voters give her Social Democrats, the leading partner in Denmark's current coalition government.\n\nThe announcement comes after months of escalating tension with Washington. President Donald Trump has repeatedly expressed his desire to acquire Greenland, the semi-autonomous Arctic territory whose strategic position between North America and the Arctic makes it critical for missile early-warning systems. Though Trump dropped explicit threats to use military force against the NATO ally last month, he has maintained that the United States needs to own Greenland outright to defend it properly, and negotiations over expanded American control continue. More than 100 U.S. military personnel are already permanently stationed at a base on Greenland's northwestern coast — a facility in continuous American use since World War II — and existing agreements with Denmark place no cap on how many additional troops Washington may deploy there.\n\nA new flashpoint may be imminent. Trump has signaled plans to dispatch a vessel loaded with medical supplies to Greenland, claiming \"many people\" on the island are sick and neglected — an assertion Greenlandic Prime Minister Jens-Frederik Nielsen firmly rejected, noting that Greenland provides universal free healthcare to all its citizens. Both Copenhagen and Nuuk have categorically refused to cede sovereignty, and European allies including France and Canada have opened new consulates in Greenland as a show of solidarity.\n\nFrederiksen's decision to go to the polls early reflects a broader strategic recalculation sweeping Europe, where governments are accelerating defense spending and reassessing transatlantic relationships in the wake of Trump's aggressive posture toward allied territories. The Greenland dispute, once dismissed as an eccentric fixation, has become the most consequential test of NATO cohesion since the alliance's founding, forcing Denmark — a nation of fewer than six million people — into an outsized geopolitical role.",
+      "subheadline": "Danish prime minister frames vote as pivotal moment for European security and sovereignty in the face of Trump's annexation threats",
+      "body": "Danish Prime Minister Mette Frederiksen announced snap elections for 24 March, placing the simmering dispute over Greenland's sovereignty and Europe's broader security posture at the center of the campaign.\n\nAddressing parliament, Frederiksen declared the next four years \"decisive\" for Denmark, urging the nation to \"stand on our own feet\" and redefine its relationship with the United States. \"We must rearm to ensure peace on our continent,\" she said, calling security the \"very foundation of Danish politics for many, many years to come.\" The Social Democrat leader framed the vote as a mandate not only on her continued leadership but on the future of the Danish Commonwealth — the political union encompassing Denmark, Greenland, and the Faroe Islands.\n\nThe election comes after months of diplomatic turbulence triggered by President Donald Trump's repeated assertions that the United States needs to acquire Greenland, a semi-autonomous Danish territory strategically positioned between North America and the Arctic. Trump has argued the island is essential for defense against Russia and China, claiming without evidence that it is surrounded by Russian and Chinese naval vessels. While he dropped explicit threats to use military force against the NATO ally last month, the administration has not abandoned its pursuit of control over the island. More than 100 U.S. military personnel are already permanently stationed at a base on Greenland's northwestern tip — a facility in continuous American operation since World War Two — and existing agreements with Denmark place no cap on the number of troops the U.S. may deploy there.\n\nA new flashpoint may be imminent. Trump has signaled plans to dispatch a medical supply ship to Greenland, alleging the island's population is not receiving adequate healthcare. Greenlandic Prime Minister Jens-Frederik Nielsen publicly rejected the proposal, noting that Greenland provides free universal healthcare to all citizens. Both Copenhagen and Nuuk have firmly refused to cede sovereignty, and European allies have rallied behind Denmark's position, with Canada and France recently opening consulates in Greenland as a show of solidarity.\n\nFrederiksen's decision to go to the polls early represents a calculated bet that Danish voters will reward a strong stance on national sovereignty and European defense cooperation at a moment of acute geopolitical uncertainty. The outcome will shape not only Denmark's domestic politics but the trajectory of transatlantic relations as Washington continues to press its claims on the mineral-rich Arctic territory.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -15,14 +15,121 @@
         "Greenland",
         "Mette Frederiksen",
         "Donald Trump",
-        "NATO",
         "European security",
+        "NATO",
         "snap election"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/490b/live/75f78830-131a-11f1-b513-7d8d8ff19957.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/ckg3e63jwj8o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T17:32:00.136Z"
+      "publishedAt": "2026-02-26T17:47:06.306Z"
+    },
+    {
+      "id": "ps-1772128043506-trwx",
+      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
+      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
+      "subheadline": "Physics-constrained AI framework replaces decades-old collision models in rarefied gas simulations while preserving conservation laws",
+      "body": "A team of computational physicists has developed a neural network framework that accelerates Direct Simulation Monte Carlo (DSMC) calculations — the workhorse method for modeling rarefied gas flows — while rigorously enforcing the conservation of momentum and energy that such simulations demand. The work, posted to the arXiv preprint server on February 15, addresses a long-standing tension between computational cost and physical fidelity in kinetic gas dynamics.\n\nEhsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov designed what they call a physics-constrained neural collision operator that replaces the Variable Hard Sphere (VHS) model, a phenomenological approximation that has underpinned DSMC simulations for decades. The key innovation lies in a stochastic inference layer that injects controlled noise into the neural network's predictions, preventing the artificial cooling and variance suppression that plague purely deterministic machine-learning surrogates. A cell-wise moment-matching mechanism then enforces strict conservation of momentum and kinetic energy at every step, ensuring the neural operator respects fundamental physical invariants over long simulation times.\n\nPerhaps the most striking result is the framework's generalization capability. A model trained exclusively on one-dimensional Couette flow — a relatively simple shear-driven configuration — accurately predicted the behavior of a far more complex two-dimensional lid-driven cavity flow without any retraining. The authors describe this as \"zero-shot\" generalization across both spatial dimensionality and thermodynamic conditions, capturing high-order non-equilibrium moments that simpler models typically miss.\n\nThe researchers also tackled the extreme computational burden of quantum-mechanical scattering calculations by building a dedicated neural operator for the Jäger interaction potential, which governs molecular collisions at a first-principles level. Using what they term a \"physics harvesting\" strategy — training on large-scale collision-pair datasets — the operator captures the high-energy scattering dynamics critical to hypersonic flow regimes. Validated against a Mach 10 rarefied argon flow over a cylinder, the ab initio neural operator reproduced shock structures and transport properties with high fidelity while achieving approximately 20 percent cost reduction compared to direct numerical integration of the quantum scattering equations.\n\nThe work sits at the intersection of scientific machine learning and computational fluid dynamics, a space where researchers have increasingly sought to replace expensive numerical routines with trained surrogates. What distinguishes this contribution is its insistence on hard physical constraints rather than soft penalty terms — an approach that may prove essential for kinetic simulations where even small conservation violations compound catastrophically over millions of time steps. If the framework scales to more complex molecular species and three-dimensional geometries, it could meaningfully extend the reach of DSMC into near-continuum regimes where the method has traditionally been too expensive to apply.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "DSMC",
+        "neural operators",
+        "rarefied gas dynamics",
+        "machine learning",
+        "computational physics",
+        "hypersonic flow"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1770321838805-b56580fac91b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8TmV1cmFsJTIwT3BlcmF0b3JzJTIwQWNjZWxlcmF0ZSUyMEdvbGQlMjBTdGFuZGFyZCUyMEdhcyUyMER5bmFtaWNzJTIwU2ltdWxhdGlvbnN8ZW58MHwwfHx8MTc3MjEyODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21244",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T17:47:23.506Z"
+    },
+    {
+      "id": "ps-1772128059835-2hh3",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State research upends assumptions about where to search for ancient life on Mars",
+      "body": "Ancient microbial life — or at least its molecular remnants — could persist for tens of millions of years inside Martian ice, far longer than previously thought possible, according to new laboratory experiments conducted by researchers at NASA's Goddard Space Flight Center and Penn State University.\n\nThe study, published in Astrobiology, subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all while chilled to minus 60 degrees Fahrenheit to replicate conditions in the planet's icy polar regions. More than 10 percent of the amino acids — the fundamental building blocks of proteins — survived the full simulation intact. That timeline dwarfs the estimated age of many surface ice deposits on Mars, which are often less than two million years old, meaning any biological material trapped within them would likely still be detectable.\n\nThe findings carry a significant twist that overturned the team's own earlier work. A 2022 study by the same group had shown that amino acids in a mixture of 10 percent water ice and 90 percent Martian-like soil degraded rapidly, leading researchers to expect that pure ice would fare even worse. Instead, pure ice proved dramatically more protective, with mixed samples breaking down roughly 10 times faster. Lead author Alexander Pavlov, a space scientist at NASA Goddard, suggested that a thin film forming where ice contacts mineral grains may allow radiation-generated particles to move freely and attack organic molecules, while in solid ice those harmful particles become frozen in place before they can do damage.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. The implication is clear: upcoming Mars missions should prioritize drilling into clean, buried ice rather than concentrating solely on rocks, clay, or soil — a meaningful strategic shift for mission planners. House noted that while Mars harbors substantial ice reserves, most lie just beneath the surface and will require robust drilling or scooping capabilities similar to those deployed by NASA's 2008 Phoenix lander, the first mission to excavate and photograph subsurface Martian ice.\n\nThe research also tested organic material at the far colder temperatures found on Europa and Enceladus, icy moons of Jupiter and Saturn respectively, and found that deterioration slowed even further. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and is expected to reach Jupiter in 2030 to perform 49 close flybys of Europa's ice shell. The study was funded by NASA's Planetary Science Division and involved collaborators from both Penn State and Goddard.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T17:47:39.835Z"
+    },
+    {
+      "id": "ps-1772128074739-m140",
+      "slug": "cisco-reveals-critical-bug-exploited-since-2023-in-enterpris",
+      "headline": "Cisco Reveals Critical Bug Exploited Since 2023 in Enterprise Networks",
+      "subheadline": "A maximum-severity vulnerability in Catalyst SD-WAN products has given hackers persistent access to critical infrastructure worldwide",
+      "body": "Cisco has disclosed that hackers have been exploiting a maximum-severity vulnerability in its widely deployed Catalyst SD-WAN networking products for at least three years, prompting an urgent multinational government response and a federal patching deadline of this Friday.\n\nThe vulnerability, rated 10.0 out of 10.0 on the standard severity scale — the highest possible score — allows remote attackers to gain the most privileged level of access to affected devices without authentication. Catalyst SD-WAN products are used extensively by large enterprises and government agencies to connect geographically distributed offices over private networks. Once inside, attackers can maintain hidden, persistent access to victim networks, enabling long-term espionage and data exfiltration. Cisco said its researchers traced evidence of active exploitation back to 2023 after discovering the flaw, and confirmed that some affected organizations operate critical infrastructure — a designation that encompasses power grids, water systems, and transportation networks.\n\nThe disclosure triggered a coordinated alert from five governments. Cybersecurity agencies in the United States, United Kingdom, Canada, Australia, and New Zealand warned that threat actors are targeting organizations globally through the vulnerability. The U.S. Cybersecurity and Infrastructure Security Agency (CISA), currently operating at reduced capacity due to a partial government shutdown, ordered all civilian federal agencies to patch their systems by end-of-day Friday, citing imminent threat and unacceptable risk. CISA confirmed it is aware of ongoing exploitation.\n\nNeither Cisco nor the allied governments have publicly attributed the campaign to a specific nation-state or known threat group, though researchers are tracking one cluster of activity under the designation UAT-8616. The lack of attribution, combined with the targeting of critical infrastructure and the years-long exploitation timeline, suggests a sophisticated actor with strategic intelligence objectives rather than financially motivated criminals.\n\nThe disclosure marks the second maximum-severity vulnerability Cisco has confronted in recent months. In December, the company warned of a separate 10.0-rated flaw in its Async software — which underpins most of its product lineup — that was also being actively exploited against customer networks. The pattern raises pointed questions about the security posture of networking equipment that forms the backbone of corporate and government communications worldwide, and underscores the persistent challenge of discovering and remediating vulnerabilities in infrastructure that organizations depend on but rarely scrutinize at the firmware level.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Cisco",
+        "cybersecurity",
+        "SD-WAN",
+        "CISA",
+        "critical infrastructure",
+        "zero-day",
+        "vulnerability"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/08/cisco.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/cisco-says-hackers-have-been-exploiting-a-critical-bug-to-break-into-big-customer-networks-since-2023/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T17:47:54.739Z"
+    },
+    {
+      "id": "ps-1772128090364-p83n",
+      "slug": "chipmakers-sell-off-as-nvidia-earnings-fail-to-calm-ai-jitte",
+      "headline": "Chipmakers Sell Off as Nvidia Earnings Fail to Calm AI Jitters",
+      "subheadline": "Semiconductor stocks drag broader markets lower despite strong Nvidia results, as investors question AI spending trajectory",
+      "body": "Semiconductor stocks tumbled on Wednesday as Nvidia Corp.'s latest quarterly results failed to provide the reassurance investors were seeking about the long-term trajectory of artificial intelligence spending. The selloff dragged broader equity markets lower, underscoring growing unease about whether the AI trade that has powered much of the market's gains has reached an inflection point.\n\nNvidia, widely regarded as the bellwether of the AI boom, delivered results that by most conventional measures were strong — yet fell short of the elevated expectations baked into the stock's valuation. Investors appear increasingly focused not just on current demand for AI chips but on the sustainability of the massive capital expenditure programs from hyperscale cloud providers that have been Nvidia's primary growth engine. The tepid market response signals a shift in sentiment, with traders demanding clearer evidence that AI investments will translate into meaningful revenue for the companies deploying the technology.\n\nThe ripple effects spread across the semiconductor sector, with chipmakers broadly selling off in sympathy. The Philadelphia Semiconductor Index declined as the rout extended beyond Nvidia to suppliers and competitors alike. The weakness in tech stocks overshadowed developments elsewhere in markets, though notable cross-currents emerged: oil prices climbed as Iran characterized its nuclear negotiations with the United States as intense, injecting fresh geopolitical uncertainty into energy markets.\n\nThe combination of tech sector weakness and geopolitical tension drove a flight to safety, with government bonds rallying as investors sought shelter. Treasury yields fell as demand for perceived safe-haven assets increased, a pattern that has become familiar during periods of equity market stress.\n\nThe session highlighted a broader challenge facing markets in early 2026: the AI narrative that propelled stocks through much of 2024 and 2025 now requires constant validation. With chipmaker valuations still reflecting enormous growth expectations, even solid earnings may no longer be enough to sustain momentum. For investors, the question is shifting from whether AI will be transformative to how quickly the technology's economic benefits will materialize — and whether current stock prices already reflect the most optimistic scenario.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "semiconductors",
+        "artificial intelligence",
+        "stock market",
+        "chip stocks",
+        "AI spending"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1741392075654-8f472466f8b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8TnZpZGlhJTIwc2VtaWNvbmR1Y3RvcnN8ZW58MHwwfHx8MTc3MjExOTk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/asian-stocks-to-climb-as-nvidia-boosts-sentiment-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T17:48:10.364Z"
+    },
+    {
+      "id": "ps-1772128105736-92s5",
+      "slug": "circle-shares-surge-45-in-two-days-as-short-squeeze-crushes-",
+      "headline": "Circle Shares Surge 45% in Two Days as Short Squeeze Crushes Hedge Funds",
+      "subheadline": "Crowded bearish bets, not financial fundamentals, drove the USDC issuer's violent rally after Q4 earnings",
+      "body": "Shares of Circle, the company behind the USDC stablecoin, have rocketed roughly 45% in fewer than two trading sessions following its fourth-quarter earnings report, a move analysts attribute primarily to a massive short squeeze rather than the strength of the underlying results.\n\nHedge funds had built up significant bearish positions against Circle heading into Wednesday's earnings print, creating the conditions for a violent unwind when the stock moved against them. Markus Thielen, founder of research firm 10x Research, estimated that short sellers lost approximately $500 million in a single day as the rally accelerated. \"The magnitude of the move was not driven purely by the headline numbers. The real catalyst was positioning,\" Thielen said, describing the setup as a \"high-probability short squeeze rather than a fundamental re-rating.\" The surge snapped an 80% drawdown from record highs reached last year.\n\nBeneath the dramatic price action, Circle's financial picture is more nuanced. The company's flagship USDC stablecoin grew to $75.3 billion in circulation, a 72% year-over-year increase that outpaced rival Tether's growth. Reserve income — generated primarily from U.S. government debt backing the stablecoin — rose 58% to $2.64 billion. However, distribution costs climbed even faster, surging 66% to $1.66 billion, reflecting the heavy expense of incentivizing platforms and partners to adopt USDC. The result: Circle swung from a $156 million net profit in 2024 to a $70 million net loss. \"Stablecoin may be scaling; stablecoin issuance is a tough business,\" noted Harvey Li, founder of Tokenization Insight.\n\nStill, the results exceeded Wall Street expectations. Japanese investment bank Mizuho raised its price target on Circle to $90 from $77, citing emerging tailwinds from prediction markets — particularly Polymarket — and a nascent concept called \"agentic commerce,\" in which autonomous AI agents use USDC to transact across digital marketplaces. Mizuho maintained its neutral rating, however, cautioning that falling interest rates could erode Circle's reserve income over time. The bank projected average USDC circulation of approximately 123 million in 2027, with estimated reserve income of $3.7 billion and EBITDA of $916 million.\n\nThe divergence between Circle's surging stock price and its deteriorating profitability highlights a recurring tension in crypto-adjacent equities: market structure and positioning can overwhelm fundamentals in the near term. Whether Circle can convert its growing stablecoin dominance into sustainable profits — particularly as interest rates decline — remains the central question for investors once the short-squeeze mechanics fade.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "Circle",
+        "USDC",
+        "short squeeze",
+        "stablecoins",
+        "crypto markets",
+        "hedge funds"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/40f3d2443e813c75329c2b8f0cd0f24bae10c28a-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/26/circle-s-post-earnings-surge-nears-50-as-short-squeeze-not-strong-financials-fuels-rally",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T17:48:25.736Z"
     },
     {
       "id": "ps-1772127138238-tsh4",
@@ -44,49 +151,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T17:32:18.238Z"
-    },
-    {
-      "id": "ps-1772127153215-t751",
-      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
-      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice rather than rock to search for biosignatures",
-      "body": "Ancient microbial life, if it ever existed on Mars, could remain detectable in the planet's ice deposits for at least 50 million years — far longer than the age of most known Martian surface ice — according to new laboratory experiments that simulate the Red Planet's punishing radiation environment.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice, then bombarded them with gamma radiation at minus 60 degrees Fahrenheit to replicate conditions on Mars. The radiation dose was equivalent to 20 million years of cosmic ray exposure on the Martian surface, later extended to 50 million years through modeling. The results, published in the journal Astrobiology, showed that more than 10 percent of amino acids — the fundamental building blocks of proteins — survived the full simulation when preserved in pure ice. Samples mixed with Mars-like sediment containing silicate rocks and clay, however, degraded roughly 10 times faster and did not survive.\n\nThe finding upends earlier assumptions. A 2022 study by the same team had suggested that organic material in water ice would break down even more rapidly than in ice-soil mixtures. Instead, pure ice appears to act as a protective vault. Lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, the harmful particles generated by radiation become frozen in place and may never reach nearby organic compounds. In mixed samples, a thin film that forms where ice contacts mineral surfaces seems to allow radiation damage to propagate more freely.\n\nThe implications extend well beyond Mars. The team also tested organic material at temperatures matching those on Jupiter's moon Europa and Saturn's moon Enceladus, finding that deterioration slowed even further in those colder environments. That result is encouraging for NASA's Europa Clipper mission, which launched in 2024 and will arrive at Jupiter in 2030 to perform 49 close flybys of Europa's ice shell and probe for conditions that could support life.\n\nFor Mars exploration specifically, the study makes a clear operational recommendation: future missions should prioritize drilling into clean, buried ice rather than analyzing rocks or soil. Christopher House, a Penn State geosciences professor and co-author, noted that most Martian surface ice deposits are less than two million years old — well within the 50-million-year preservation window. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House said, adding that missions will need drilling or scooping capabilities similar to NASA's 2008 Phoenix lander, which first excavated and photographed subsurface ice in the Martian arctic. The research was funded by NASA's Planetary Science Division.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T17:32:33.215Z"
-    },
-    {
-      "id": "ps-1772127167681-r6ix",
-      "slug": "cisco-reveals-critical-bug-exploited-since-2023-in-enterpris",
-      "headline": "Cisco Reveals Critical Bug Exploited Since 2023 in Enterprise Networks",
-      "subheadline": "A maximum-severity vulnerability in Catalyst SD-WAN products has given hackers persistent access to critical infrastructure worldwide",
-      "body": "Cisco has disclosed that attackers have been exploiting a critical vulnerability in its Catalyst SD-WAN networking products for at least three years, compromising large enterprise and government networks that rely on the technology to connect geographically distributed offices.\n\nThe vulnerability carries the highest possible severity score of 10.0 out of 10, reflecting the ease with which it can be exploited remotely and the level of access it grants. Hackers who successfully target the flaw gain the highest level of device permissions, enabling them to maintain persistent, hidden footholds inside victim networks — ideal conditions for long-term espionage or data exfiltration. Cisco said its researchers traced evidence of active exploitation back to 2023 after discovering the bug, and confirmed that some affected organizations operate critical infrastructure, a designation that spans sectors from power grids and water systems to transportation.\n\nThe disclosure triggered a coordinated international response. Five allied governments — the United States, United Kingdom, Canada, Australia, and New Zealand — issued a joint alert warning that threat actors are targeting organizations globally. The U.S. Cybersecurity and Infrastructure Security Agency, currently operating at reduced capacity due to a partial government shutdown, ordered all civilian federal agencies to patch their systems by end of day Friday, citing imminent threat and unacceptable risk. CISA confirmed it was aware of ongoing exploitation at the time of the directive.\n\nNeither Cisco nor the issuing governments have publicly attributed the campaign to a specific nation-state or known threat group. Researchers are tracking one cluster of malicious activity under the designation UAT-8616, but details about the actors' identity and ultimate objectives remain undisclosed. The incident marks the second maximum-severity Cisco vulnerability to surface in recent months; in December, the company warned of a separate 10.0-rated flaw in its Async software — which underpins most of its product line — that was also being actively exploited against customer networks.\n\nThe back-to-back critical disclosures underscore the persistent risk that vulnerabilities in widely deployed networking infrastructure pose to both private enterprises and government agencies. With SD-WAN products serving as the connective tissue for organizations managing far-flung operations, the potential blast radius of such exploits is enormous. Security experts will be watching closely for further attribution details and for any indication that the two vulnerability campaigns are linked.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Cisco",
-        "cybersecurity",
-        "SD-WAN",
-        "CISA",
-        "critical infrastructure",
-        "vulnerability"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/08/cisco.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/cisco-says-hackers-have-been-exploiting-a-critical-bug-to-break-into-big-customer-networks-since-2023/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T17:32:47.681Z"
     },
     {
       "id": "ps-1772127182550-5yea",
@@ -379,27 +443,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/figma-partners-with-openai-to-bake-in-support-for-codex/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-26T15:33:00.543Z"
-    },
-    {
-      "id": "ps-1772119995471-glv6",
-      "slug": "nvidia-earnings-fail-to-lift-chip-stocks-as-ai-doubts-linger",
-      "headline": "Nvidia Earnings Fail to Lift Chip Stocks as AI Doubts Linger",
-      "subheadline": "Semiconductor sector sells off despite solid guidance, as investors demand stronger signals on AI spending outlook",
-      "body": "Nvidia Corp. delivered a solid earnings forecast, but it was not enough to satisfy investors hungry for stronger reassurances about the trajectory of artificial intelligence spending — triggering a broad selloff across the semiconductor sector on Wednesday.\n\nThe chipmaker's results, closely watched as a bellwether for global AI investment, met expectations but failed to exceed the elevated bar that markets had set. Nvidia shares sank in the session, dragging down peers across the chip industry and weighing on broader equity indices. The reaction underscored a growing pattern in which merely meeting guidance is no longer sufficient to sustain the lofty valuations that AI-linked stocks have commanded over the past two years.\n\nThe downturn in semiconductors rippled through markets more broadly, pressuring major indices as technology shares constitute an outsized share of benchmark weightings. Investors appeared to be recalibrating their expectations for the pace at which AI infrastructure buildouts will translate into sustained revenue growth for chip manufacturers. The sector has been a primary beneficiary of the generative AI boom, but questions about the durability of capital expenditure commitments from hyperscale cloud providers have introduced fresh uncertainty.\n\nElsewhere in markets, oil prices erased earlier declines to trade roughly flat, recovering from losses driven by demand concerns. The reversal suggested that energy traders remain caught between competing narratives of slowing global growth and persistent supply constraints.\n\nThe Nvidia-led chip selloff highlights a broader inflection point for AI-related equities. After a historic run-up driven largely by enthusiasm and forward-looking multiples, investors are increasingly demanding concrete evidence that massive infrastructure spending will yield proportional returns. With semiconductor valuations still stretched by historical standards, the bar for positive surprises continues to rise — and Wednesday's market reaction suggests that solid is no longer good enough.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Nvidia",
-        "semiconductors",
-        "artificial intelligence",
-        "chip stocks",
-        "earnings",
-        "stock market"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8TnZpZGlhJTIwc2VtaWNvbmR1Y3RvcnN8ZW58MHwwfHx8MTc3MjExOTk5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/asian-stocks-to-climb-as-nvidia-boosts-sentiment-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T15:33:15.471Z"
     },
     {
       "id": "ps-1772120010710-ypct",
@@ -719,27 +762,6 @@
       "publishedAt": "2026-02-26T10:33:08.404Z"
     },
     {
-      "id": "ps-1772101041559-wasp",
-      "slug": "neural-networks-learn-to-simulate-gas-collisions-preserving-",
-      "headline": "Neural Networks Learn to Simulate Gas Collisions, Preserving Physics",
-      "subheadline": "A new framework accelerates the gold-standard method for rarefied gas dynamics while enforcing conservation laws and thermal fluctuations",
-      "body": "A team of computational physicists has developed a neural network framework that can replace key components of the Direct Simulation Monte Carlo (DSMC) method — the standard computational tool for modeling rarefied gas flows — while strictly preserving the physical laws that govern molecular collisions.\n\nThe work, posted to the arXiv preprint server on February 15 by Ehsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov, tackles a longstanding tension in kinetic gas simulations: DSMC is authoritative but computationally expensive, particularly when modeling near-continuum regimes or when using high-fidelity quantum-mechanical interaction potentials. The researchers' solution is a \"physics-constrained neural-operator\" that serves as a drop-in replacement for the phenomenological Variable Hard Sphere (VHS) collision model traditionally used in DSMC. Crucially, the neural operator does not simply learn a deterministic mapping. The authors found that naive regression surrogates suffer from variance suppression and artificial cooling — essentially draining the thermal noise that real molecular systems exhibit. To counter this, they introduced a stochastic layer that injects controlled latent noise during inference, restoring realistic thermal fluctuations, while a cell-wise moment-matching mechanism enforces conservation of momentum and kinetic energy at every step.\n\nPerhaps the most striking result is the framework's generalization capability. A model trained exclusively on one-dimensional Couette flow data was able to accurately simulate a geometrically and physically distinct two-dimensional lid-driven cavity flow, capturing high-order non-equilibrium moments without any retraining. This \"zero-shot\" transfer across spatial dimensions and thermodynamic conditions suggests the neural operator has internalized genuine collision physics rather than merely memorizing training scenarios.\n\nThe researchers also extended their approach to quantum-mechanical scattering by building a dedicated neural operator for the Jäger interaction potential, which describes argon atom collisions from first principles. Using what they call a \"physics harvesting\" strategy — training on large-scale libraries of collision pairs — the network learned to reproduce the high-energy scattering dynamics that dominate hypersonic flow regimes. Validated against a Mach 10 rarefied argon flow around a cylinder, the neural operator faithfully reproduced shock structures and transport properties while achieving approximately 20 percent cost savings compared to direct numerical integration of the quantum-mechanical potential.\n\nThe advance addresses a practical bottleneck in aerospace and vacuum engineering, where DSMC simulations of spacecraft reentry, thruster plumes, and semiconductor manufacturing processes can consume enormous computational resources. By embedding hard physical constraints directly into the neural architecture rather than hoping the network learns them from data, the framework offers a path toward faster simulations that engineers and physicists can trust for safety-critical applications.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "DSMC",
-        "neural operators",
-        "rarefied gas dynamics",
-        "computational physics",
-        "machine learning",
-        "kinetic theory"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1717501219074-943fc738e5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxOZXVyYWwlMjBOZXR3b3JrcyUyMExlYXJuJTIwU2ltdWxhdGUlMjBHYXMlMjBDb2xsaXNpb25zfGVufDB8MHx8fDE3NzIxMDEwNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21244",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T10:17:21.559Z"
-    },
-    {
       "id": "ps-1772101085564-hbbi",
       "slug": "shell-explores-minority-stake-sale-in-24b-australian-lng-pla",
       "headline": "Shell Explores Minority Stake Sale in $24B Australian LNG Plant",
@@ -1030,26 +1052,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/china-warns-us-it-will-respond-if-trade-probe-spurs-new-tariffs",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T06:03:14.888Z"
-    },
-    {
-      "id": "ps-1772083995444-5oso",
-      "slug": "toyota-investors-to-offload-19-billion-in-strategic-sharehol",
-      "headline": "Toyota Investors to Offload $19 Billion in Strategic Shareholdings",
-      "subheadline": "Japanese automaker's planned unwinding of cross-held shares marks a landmark moment for corporate governance reform",
-      "body": "Investors in Toyota Motor Corp. are preparing to sell approximately ¥3 trillion ($19 billion) worth of strategically held shares, according to a Reuters report cited by Bloomberg — a move that would represent one of the largest single unwindings of Japan's entrenched cross-shareholding system.\n\nThe planned sales involve stock held by banks and other financial institutions that have long maintained stakes in Toyota as part of the country's traditional web of interlocking corporate ownership. These so-called strategic shareholdings have been a defining feature of Japanese capitalism for decades, criticized by governance advocates as insulating management from market discipline and depressing returns on equity.\n\nThe scale of the Toyota divestiture would mark a significant acceleration in Japan's ongoing corporate reform drive, which has gained substantial momentum since the Tokyo Stock Exchange in 2023 urged listed companies to improve capital efficiency and boost shareholder value. That pressure campaign has already prompted hundreds of Japanese firms to announce share buybacks, increase dividends, and begin dismantling cross-shareholding arrangements. Toyota, as Japan's most valuable company and a bellwether for corporate Japan, carries outsized symbolic weight in this effort.\n\nFor Toyota, the unwinding could reshape its shareholder base, potentially increasing the proportion of shares held by institutional and retail investors who may demand greater accountability on capital allocation and strategic direction. The automaker has been navigating a pivotal transition toward electric vehicles while defending its long-held bet on hybrid technology and hydrogen fuel cells. A broader, more market-oriented investor base could intensify scrutiny of those choices.\n\nThe $19 billion figure would make this one of the most consequential equity sales in recent Japanese market history. While the timing and precise mechanism of the share disposals were not immediately detailed, a transaction of this magnitude will likely be structured to minimize market disruption. Toyota shares have been a cornerstone holding for Japanese financial institutions, and the orderly reduction of these positions will be closely watched as a test case for whether Japan's governance revolution can proceed without destabilizing key relationships between the country's corporate and financial sectors.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Toyota",
-        "Japan",
-        "corporate governance",
-        "cross-shareholdings",
-        "equity markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1675908367646-8bfd1ec569a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxUb3lvdGElMjBKYXBhbnxlbnwwfDB8fHwxNzcyMDc5NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/toyota-plans-19-billion-share-sale-reuters-reports",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T05:33:15.444Z"
     }
   ]
 }
