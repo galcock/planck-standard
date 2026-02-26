@@ -1,27 +1,134 @@
 {
-  "lastUpdated": "2026-02-26T21:48:16.229Z",
+  "lastUpdated": "2026-02-26T22:03:25.708Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772142418401-1fww",
-      "slug": "uk-defence-ministry-probes-whether-epstein-used-raf-bases",
-      "headline": "UK Defence Ministry Probes Whether Epstein Used RAF Bases",
-      "subheadline": "Defence Secretary orders 'every stone' turned over as former PM Gordon Brown pushes for police investigation",
-      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, escalating scrutiny of the late financier's activities on British soil.\n\nDefence Secretary John Healey ordered officials to examine all departmental records, including emails and flight logs, that might reveal whether Epstein's private jet landed at military airfields. An MoD source told reporters the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review, first reported by The Telegraph, comes after former Prime Minister Gordon Brown submitted a five-page dossier to multiple UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — urging a formal investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown is understood to be particularly concerned about a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk, a base situated roughly 20 miles from the Royal Family's Sandringham Estate.\n\nThe probe adds to a growing web of investigations into Epstein's British connections. A BBC News investigation last year identified approximately 90 flights linked to Epstein that arrived at or departed from UK airports, some carrying British women who have alleged they were abused. Essex Police separately confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the US government's release of Epstein-related materials. The MoD had previously acknowledged that it is \"standard practice\" for spare capacity at RAF airfields to be made available to private or commercial aircraft for a fee.\n\nPrince Andrew has denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on sex trafficking charges. In a statement, an MoD spokesperson said the department would ensure \"any information which relates to Epstein's crimes is uncovered and provided to the relevant authorities\" and pledged to support civilian police investigations.\n\nThe review signals a more aggressive posture from the UK government on the Epstein affair, which continues to implicate prominent figures on both sides of the Atlantic. Recent weeks have also seen former EU Trade Commissioner Peter Mandelson referred to the European anti-fraud agency over Epstein-related emails, and former US Secretary of State Hillary Clinton testifying before a congressional panel about her knowledge of Epstein's activities.",
+      "id": "ps-1772143323374-3opm",
+      "slug": "uk-defence-ministry-reviews-whether-epstein-used-raf-bases",
+      "headline": "UK Defence Ministry Reviews Whether Epstein Used RAF Bases",
+      "subheadline": "Defence Secretary orders officials to examine all records of the late sex offender's flights into British military airfields",
+      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, Defence Secretary John Healey announced. The inquiry will examine records and emails to determine if Epstein's private jets landed at military airfields, with officials pledging to \"ruthlessly pursue any information that can shed light on this scandal.\"\n\nThe review follows a demand from former Prime Minister Gordon Brown for a police investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown reportedly submitted a five-page dossier to multiple UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — containing new information drawn from Epstein-related documents recently published in the United States. Among the specific concerns is a December 2000 flight in which a Gulfstream jet linked to Epstein landed at RAF Marham in Norfolk, located roughly 20 miles from the Royal Family's Sandringham Estate.\n\nThe investigation builds on a BBC News inquiry that identified approximately 90 flights linked to Epstein arriving at and departing from UK airports, some carrying British women who have alleged they were abused. The MoD has previously acknowledged that spare capacity at RAF airfields is routinely made available for private and commercial aircraft, subject to fees. Essex Police separately confirmed last week that it is assessing information about private flights through Stansted Airport following the US government's release of Epstein materials.\n\nIn a statement, an MoD spokesperson said the defence secretary had \"ordered a review of all records that the department may hold relating to Epstein flights landing at RAF bases to ensure that any information which relates to Epstein's crimes is uncovered and provided to the relevant authorities.\" The ministry added that it would support any civilian police investigations.\n\nPrince Andrew has previously denied any wrongdoing in connection with Epstein, who died in a New York jail cell in August 2019 while awaiting trial on sex trafficking charges. The widening British investigations represent the most significant UK government response yet to the continuing fallout from the Epstein scandal, which has already prompted congressional hearings in the United States and drawn in figures ranging from former Secretary of State Hillary Clinton to Labour peer Peter Mandelson.",
       "category": "breaking",
       "importance": 8,
       "tags": [
         "Jeffrey Epstein",
         "UK Ministry of Defence",
+        "RAF",
         "Prince Andrew",
         "Gordon Brown",
-        "RAF bases",
         "sex trafficking"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/361f/live/e61e0130-1355-11f1-a24b-e9ec85119d46.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T21:46:58.401Z"
+      "publishedAt": "2026-02-26T22:02:03.374Z"
+    },
+    {
+      "id": "ps-1772143340408-1chi",
+      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
+      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
+      "subheadline": "Physics-constrained AI framework replaces decades-old collision models in rarefied gas simulations, achieving 20% cost reduction",
+      "body": "A team of computational physicists has developed a neural network framework that accelerates the Direct Simulation Monte Carlo (DSMC) method — the workhorse technique for modeling rarefied gas flows — while preserving the physical accuracy that makes these simulations indispensable for hypersonic aerodynamics and spacecraft reentry analysis.\n\nThe work, posted to the arXiv preprint server on February 15 by Ehsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov, tackles a longstanding tension in kinetic gas simulations: the trade-off between physical fidelity and computational cost. DSMC tracks individual molecular collisions to model gases far from thermal equilibrium, but its expense becomes prohibitive when using quantum-mechanical scattering potentials or operating near the boundary between rarefied and continuum flow regimes. The researchers' approach replaces the phenomenological Variable Hard Sphere (VHS) collision model — a simplified approximation used since the 1980s — with a learned neural collision kernel that captures more complex interaction physics.\n\nA key innovation is what the authors call a \"physics-constrained stochastic layer\" that addresses a subtle but critical problem. Naive neural network surrogates tend to suppress the random thermal fluctuations that are physically essential in kinetic simulations, leading to artificial cooling of the simulated gas. By injecting controlled noise through latent variables while enforcing strict conservation of momentum and kinetic energy at the cell level, the framework maintains thermodynamic consistency. Perhaps most striking is the model's generalization capability: trained solely on one-dimensional Couette flow data, the neural operator accurately reproduced high-order non-equilibrium behavior in a geometrically distinct two-dimensional lid-driven cavity problem without any retraining.\n\nThe framework's second component targets the computational bottleneck of quantum-mechanical scattering calculations. Using a \"physics harvesting\" training strategy applied to the Jäger interaction potential for argon, the researchers built a dedicated neural operator for ab initio collision angle prediction. Validated against Mach 10 rarefied argon flow over a cylinder — a canonical hypersonic benchmark — the model faithfully reproduced shock structures and transport properties while cutting computational costs by approximately 20 percent compared to direct numerical integration of the scattering integrals.\n\nThe results point toward a broader shift in computational physics, where machine learning does not merely approximate existing methods but is architecturally constrained to respect conservation laws and statistical properties. For the aerospace and vacuum technology communities that depend on DSMC, the framework offers a path to incorporating higher-fidelity molecular interaction models without proportionally increasing simulation budgets. Whether the approach scales to more complex molecular species and chemically reacting flows remains an open question for future work.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "DSMC",
+        "neural operators",
+        "rarefied gas dynamics",
+        "machine learning physics",
+        "computational physics",
+        "hypersonic flow"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1741704445187-0f73317f5f14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8TmV1cmFsJTIwT3BlcmF0b3JzJTIwQWNjZWxlcmF0ZSUyMEdvbGQlMjBTdGFuZGFyZCUyMEdhcyUyMER5bmFtaWNzJTIwU2ltdWxhdGlvbnN8ZW58MHwwfHx8MTc3MjEyODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21244",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T22:02:20.408Z"
+    },
+    {
+      "id": "ps-1772143358343-3f6d",
+      "slug": "ancient-microbial-life-could-endure-50-million-years-in-mart",
+      "headline": "Ancient Microbial Life Could Endure 50 Million Years in Martian Ice",
+      "subheadline": "NASA and Penn State experiments show pure water ice shields amino acids from cosmic radiation, reshaping Mars exploration strategy",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can survive more than 50 million years when locked inside pure water ice, even under relentless bombardment from cosmic radiation. The findings, published in the journal Astrobiology, suggest that future Mars missions should prioritize drilling into buried ice deposits rather than analyzing rocks or soil.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation doses corresponded to roughly 20 million years of cosmic ray exposure on the Martian surface, and the team then modeled an additional 30 million years through extrapolation. In pure ice samples, more than 10 percent of amino acids remained intact after the full 50-million-year equivalent — a duration that dwarfs the estimated age of some current Martian surface ice, which is often less than two million years old.\n\nThe results contained a significant surprise. Samples that mixed ice with silicate rocks and clay typical of Martian sediment degraded 10 times faster, failing to preserve organic material over the same timescale. A 2022 study by the same group had found that a mixture of 10 percent water ice and 90 percent simulated Martian soil destroyed amino acids more rapidly than pure sediment alone, leading scientists to expect that pure ice would perform even worse. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, suggested that a thin film forming at the interface between ice and mineral grains may allow radiation-generated reactive particles to move more freely and attack organic molecules. In solid ice, by contrast, those harmful particles become frozen in place before reaching organic compounds.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the Penn State Consortium for Planetary and Exoplanetary Science and Technology. He noted that substantial ice exists on Mars just below the surface, but accessing it will require missions equipped with robust drilling or scooping capabilities similar to NASA's 2008 Phoenix lander — the first spacecraft to excavate and photograph subsurface Martian ice.\n\nThe implications extend well beyond Mars. The team also tested organic material at the far colder temperatures found on Europa, Jupiter's ice-shelled moon, and Saturn's Enceladus. Degradation slowed even further under those conditions — an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030 to conduct 49 close flybys assessing the moon's habitability. Taken together, the findings reframe the search for extraterrestrial life: the most promising archives may not be ancient rocks, but ancient ice.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "cosmic radiation"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T22:02:38.343Z"
+    },
+    {
+      "id": "ps-1772143374620-usmc",
+      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery-s",
+      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery System",
+      "subheadline": "The 100-hour battery will stabilize renewable power at a new Minnesota data center backed by 1.4 GW of wind",
+      "body": "Google has agreed to pay roughly $1 billion for a massive iron-air battery system built by startup Form Energy, marking the young company's first major commercial deal and one of the largest single investments in long-duration energy storage to date. The price was reported by The Information following Google's announcement earlier this week of a new data center in Minnesota designed to run on renewable power.\n\nThe battery system is engineered to deliver a continuous 300 megawatts of electricity over 100 hours — far exceeding the four-to-eight-hour discharge windows typical of lithium-ion installations. Form Energy's technology works through a controlled rusting process: oxygen is pumped into cells containing iron, triggering oxidation that releases electrons. When the battery recharges, the process reverses. At the Minnesota site, the system will serve as a buffer for 1.4 gigawatts of wind power and 200 megawatts of solar capacity, smoothing out the inherent intermittency of renewable generation to keep Google's servers running around the clock.\n\nFor Form Energy, the deal transforms the company from a promising but unproven deep-tech venture into a supplier with a billion-dollar anchor contract. CEO Mateo Jaramillo said the company is now raising a $500 million funding round on the strength of the Google order. Form Energy has raised $1.4 billion to date, according to PitchBook, and has constructed a manufacturing facility in West Virginia to produce its iron-air cells at scale. Jaramillo indicated the company plans to go public next year.\n\nThe transaction underscores a broader shift among hyperscale cloud operators, who are scrambling to secure reliable clean energy for power-hungry artificial intelligence workloads. Google, Microsoft, and Amazon have all signed large renewable energy agreements in recent months, but long-duration storage has remained a bottleneck — conventional batteries simply cannot bridge multi-day lulls in wind or solar output. Form Energy's chemistry, based on iron and air rather than scarce lithium or cobalt, could offer a path to doing so at grid scale and at a cost the industry has long sought.\n\nWhether Form Energy can manufacture and deliver reliably at this scale remains the critical question. The company has spent years refining its technology in the lab and at pilot sites, but a gigawatt-hour-class deployment for one of the world's most demanding customers will be a definitive test. If it succeeds, the deal could catalyze a new category of energy infrastructure — and reshape how data centers source their power.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Google",
+        "Form Energy",
+        "energy storage",
+        "iron-air battery",
+        "data centers",
+        "renewable energy",
+        "long-duration storage"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T22:02:54.620Z"
+    },
+    {
+      "id": "ps-1772143389403-tz4c",
+      "slug": "anthropic-clashes-with-pentagon-over-ai-s-role-in-warfare",
+      "headline": "Anthropic Clashes With Pentagon Over AI's Role in Warfare",
+      "subheadline": "The standoff between the Defense Department and the AI startup highlights deepening tensions over military applications of artificial intelligence",
+      "body": "Anthropic, the AI safety-focused startup behind the Claude chatbot, has found itself locked in a high-stakes dispute with the U.S. Defense Department over the boundaries of artificial intelligence in military operations, according to a Bloomberg report.\n\nThe conflict cuts to a fundamental question confronting the technology industry: how far should AI systems be permitted to go in warfare? Anthropic, which has built its brand around responsible AI development and has long maintained an acceptable use policy restricting military and intelligence applications of its technology, appears to be drawing a line that the Pentagon is unwilling to accept. The company, valued at tens of billions of dollars and backed by major investors including Google and Salesforce, has historically positioned itself as the safety-conscious counterweight to rivals like OpenAI and Meta in the intensifying AI race.\n\nThe clash comes at a moment when the U.S. military is aggressively pursuing AI integration across its operations, from logistics and intelligence analysis to autonomous weapons systems and battlefield decision-making. The Department of Defense has signaled that artificial intelligence is central to maintaining American military superiority, particularly as geopolitical rivals including China pour resources into their own military AI programs. Several of Anthropic's competitors have shown greater willingness to work with defense and intelligence agencies, with OpenAI notably softening its own military use restrictions in recent years.\n\nFor Anthropic, the tension presents a difficult strategic calculus. Refusing Pentagon contracts risks alienating a massive potential customer and could invite political backlash at a time when the relationship between Washington and Silicon Valley is under intense scrutiny. Yet compromising on its safety principles could undermine the company's core identity and alarm the researchers and engineers who joined specifically because of its cautious approach to AI development.\n\nThe standoff is likely to reverberate across the broader AI industry, setting precedents for how technology companies negotiate the increasingly blurred line between commercial innovation and national security imperatives. As AI systems grow more capable, the debate over their deployment in life-and-death military contexts will only intensify — and Anthropic's confrontation with the Pentagon may prove to be an early defining chapter in that larger story.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Anthropic",
+        "Pentagon",
+        "artificial intelligence",
+        "military AI",
+        "defense technology",
+        "AI safety"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1750329469625-bce67085446d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8QW50aHJvcGljJTIwUGVudGFnb258ZW58MHwwfHx8MTc3MjE0MTU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/anthropic-vs-the-pentagon-what-you-need-to-know-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T22:03:09.403Z"
+    },
+    {
+      "id": "ps-1772143405601-26eb",
+      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
+      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
+      "subheadline": "Ethereum co-founder identifies four key vulnerabilities and proposes migration to quantum-resistant cryptography",
+      "body": "Ethereum co-founder Vitalik Buterin published a detailed roadmap on Thursday outlining how the world's second-largest blockchain network intends to defend itself against the eventual threat of quantum computers — machines that could one day shatter the cryptographic foundations underpinning the entire system.\n\nThe roadmap, shared via a post on X, identifies four critical areas where quantum computers could compromise Ethereum's security: the BLS digital signatures used by validators to confirm blocks, the KZG commitment scheme that underpins the network's data availability system, the standard cryptographic signatures securing everyday user wallets, and certain zero-knowledge proofs relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists that is powerful enough to break modern cryptography, the disclosure signals that Ethereum's leadership is treating the threat as a serious long-term engineering challenge rather than a distant theoretical concern.\n\nAt the core of Buterin's proposal is a migration away from BLS signatures toward hash-based alternatives, which are widely regarded by cryptographers as resistant to quantum attack. For the data availability layer, replacing KZG commitments with quantum-safe substitutes is feasible but would demand substantial backend engineering and could add complexity to the system. The announcement follows closely on the heels of the Ethereum Foundation's creation of a dedicated post-quantum research team tasked with studying and prototyping these defenses.\n\nFor the network's millions of everyday users, Buterin pointed to a planned protocol upgrade known as EIP-8141 as a linchpin of the transition. The proposal would make Ethereum accounts more flexible by allowing wallets to adopt new signature schemes — including quantum-resistant ones — without requiring users to migrate to entirely new accounts. EIP-8141 also introduces a concept called \"validation frames,\" which would allow the network to bundle many individual signatures and proofs into a single compressed verification step, keeping transaction costs manageable even as more computationally expensive quantum-safe cryptography is introduced.\n\nThe zero-knowledge proof ecosystem faces perhaps the steepest technical hurdle. Quantum-safe versions of these proofs are currently far more expensive to verify on-chain, posing a cost problem for the growing constellation of layer-2 networks and privacy applications that depend on them. Buterin suggested that the validation frames mechanism could help mitigate this by amortizing verification costs across batches of proofs. Ether was trading at approximately $2,031 at the time of the announcement, down roughly 3.3% on the day amid broader market weakness.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "Vitalik Buterin",
+        "quantum computing",
+        "cryptography",
+        "blockchain security",
+        "EIP-8141"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T22:03:25.601Z"
     },
     {
       "id": "ps-1772142435347-8ecx",
@@ -43,91 +150,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T21:47:15.347Z"
-    },
-    {
-      "id": "ps-1772142451500-123k",
-      "slug": "ancient-microbial-life-could-endure-50-million-years-in-mart",
-      "headline": "Ancient Microbial Life Could Endure 50 Million Years in Martian Ice",
-      "subheadline": "NASA and Penn State lab experiments suggest future Mars missions should drill into pure ice, not rock, to find signs of life",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can persist in pure water ice for more than 50 million years, even under relentless bombardment by cosmic radiation. The finding, published in the journal Astrobiology, could fundamentally redirect how scientists design missions to search for life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice, then subjected them to gamma radiation at minus 60 degrees Fahrenheit — conditions designed to replicate Mars's icy polar regions. After exposing samples to radiation equivalent to 20 million years of cosmic ray bombardment, and then modeling an additional 30 million years, the team found that more than 10 percent of the amino acids in pure ice remained intact. Samples mixed with Mars-like sediment, including silicate rocks and clay, fared dramatically worse, breaking down roughly ten times faster.\n\nThe result upended expectations. A 2022 study by the same group had found that organic material in a mixture of 10 percent water ice and 90 percent Martian soil degraded rapidly, leading scientists to assume that pure ice would offer even less protection. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, suggested that when ice contacts mineral grains, a thin liquid film forms at the boundary, allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, those harmful particles become frozen in place and are less likely to reach biological material.\n\n\"Fifty million years is far greater than the expected age for some current surface ice deposits on Mars, which are often less than two million years old,\" said co-author Christopher House, a Penn State geosciences professor. \"That means if there are bacteria near the surface of Mars, future missions can find it.\" The implication is clear: drilling into clean, buried ice — rather than scraping rocks or scooping soil — may offer the best odds of detecting preserved biosignatures.\n\nThe research also carries implications beyond Mars. When the team tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further. That bodes well for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030 to conduct 49 close flybys of Europa's ice shell. On Mars, the practical challenge remains access: most ice lies just beneath the surface, requiring future landers equipped with robust drills or scoops similar to those on NASA's 2008 Phoenix mission, which first excavated and photographed subsurface Martian ice. The study was funded by NASA's Planetary Science Division and involved collaborators from both Goddard and Penn State.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T21:47:31.500Z"
-    },
-    {
-      "id": "ps-1772142467024-6nv1",
-      "slug": "google-commits-1-billion-to-form-energy-s-iron-air-battery-s",
-      "headline": "Google Commits $1 Billion to Form Energy's Iron-Air Battery System",
-      "subheadline": "The landmark deal pairs a 300-megawatt, 100-hour battery with massive wind and solar installations at a new Minnesota data center",
-      "body": "Google has agreed to pay approximately $1 billion for a giant iron-air battery system built by startup Form Energy, marking one of the largest single investments in long-duration energy storage to date. The deal, first reported by The Information, will anchor a new Google data center in Minnesota designed to run on renewable power around the clock.\n\nThe battery system is engineered to deliver a continuous 300 megawatts of electricity over 100 hours — far exceeding the roughly four-hour discharge window of conventional lithium-ion grid batteries. Form Energy's technology relies on a chemical process akin to controlled rusting: oxygen is pumped into cells containing iron, triggering oxidation that releases electrons. When the battery recharges, the process reverses. The system will serve as a buffer for 1.4 gigawatts of wind power and 200 megawatts of solar capacity feeding the data center, smoothing out the intermittency that has long plagued renewable energy deployments.\n\nFor Form Energy, the Google contract represents a pivotal inflection point. The company, led by CEO Mateo Jaramillo, has spent years developing its iron-air chemistry and constructed a production factory in West Virginia, but had not previously secured a customer of this magnitude. With the billion-dollar order now on its books, Form Energy is raising a $500 million funding round and has disclosed plans to go public in 2027. The company has raised $1.4 billion to date, according to PitchBook data.\n\nThe deal also underscores the intensifying pressure on major technology companies to reconcile their exploding energy demands — driven largely by artificial intelligence workloads — with ambitious climate commitments. Google, Microsoft, and Amazon have all pledged to power their operations with carbon-free energy, but achieving that goal requires storage solutions capable of bridging multi-day gaps when the sun isn't shining and the wind isn't blowing. Lithium-ion batteries, while effective for short-duration needs, become prohibitively expensive at the scale required for days-long backup.\n\nIron-air technology offers a potentially cheaper alternative, since iron is abundant and inexpensive compared to lithium, cobalt, or nickel. Whether Form Energy can manufacture its batteries reliably and at scale remains the critical question — one that a billion-dollar commitment from one of the world's most powerful companies now gives it significant resources to answer.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Google",
-        "Form Energy",
-        "energy storage",
-        "iron-air battery",
-        "renewable energy",
-        "data centers"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/FF1-container-1.jpg?resize=1200,783",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T21:47:47.024Z"
-    },
-    {
-      "id": "ps-1772142480908-7uul",
-      "slug": "anthropic-clashes-with-pentagon-over-ai-s-role-in-warfare",
-      "headline": "Anthropic Clashes With Pentagon Over AI's Role in Warfare",
-      "subheadline": "The standoff between the Defense Department and the AI safety company raises fundamental questions about artificial intelligence in military operations",
-      "body": "Anthropic, the artificial intelligence company founded on principles of AI safety, has found itself locked in a high-stakes confrontation with the U.S. Department of Defense over the boundaries of deploying AI technology in military contexts, according to a Bloomberg report on February 26.\n\nThe conflict strikes at the core of one of the most consequential debates in modern technology policy: how far artificial intelligence should be permitted to go in warfare. While specific details of the dispute remain limited, the standoff represents a significant escalation in tensions between Silicon Valley's AI sector and the national security establishment, which has aggressively pursued integrating advanced AI capabilities into defense operations.\n\nAnthropic, founded in 2021 by former OpenAI executives Dario and Daniela Amodei, has built its corporate identity around responsible AI development and has maintained usage policies that restrict certain military and surveillance applications of its Claude AI models. The Pentagon, meanwhile, has been ramping up efforts to incorporate frontier AI systems into its operations, viewing the technology as essential to maintaining strategic advantage. That fundamental tension now appears to have reached a breaking point.\n\nThe confrontation arrives at a particularly charged moment for the AI industry. Companies developing the most powerful AI systems are facing mounting pressure from multiple directions — governments seeking to harness the technology for national security, investors demanding rapid commercialization, and safety researchers warning about the risks of deploying insufficiently tested systems in high-stakes environments. Other leading AI firms, including OpenAI and Google, have taken varying approaches to defense contracts, making Anthropic's stance a potential bellwether for industry norms around military use.\n\nThe outcome of this dispute could set important precedents for the relationship between AI developers and government agencies, and may ultimately shape the regulatory framework governing how advanced AI systems are deployed in defense and intelligence operations. For Anthropic, which has raised billions in funding partly on the strength of its safety-first reputation, the standoff poses a defining test of whether its founding principles can withstand the gravitational pull of the world's largest defense apparatus.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Anthropic",
-        "Pentagon",
-        "artificial intelligence",
-        "defense",
-        "AI safety",
-        "military technology"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7XsgWA.1Ce8/v3/-1x-1.webp",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/anthropic-vs-the-pentagon-what-you-need-to-know-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T21:48:00.908Z"
-    },
-    {
-      "id": "ps-1772142496135-9zj4",
-      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
-      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
-      "subheadline": "The roadmap targets four cryptographic vulnerabilities, from validator signatures to zero-knowledge proofs",
-      "body": "Ethereum co-founder Vitalik Buterin published a comprehensive roadmap on Thursday detailing how the world's largest smart-contract blockchain intends to protect itself against the eventual threat posed by quantum computers. The plan, shared on X, arrives on the heels of the Ethereum Foundation's creation of a dedicated post-quantum research team.\n\nWhile no quantum computer currently exists that can crack modern cryptographic systems, the technology is advancing rapidly enough that blockchain developers are treating preparation as urgent. Buterin identified four distinct areas where Ethereum is vulnerable: the BLS digital signatures used by validators to reach consensus, the KZG commitment scheme underpinning the network's data availability layer, the standard cryptographic signatures securing everyday user wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks.\n\nThe most sweeping proposed change involves replacing the BLS signature scheme used by Ethereum's tens of thousands of validators with hash-based signatures, a cryptographic approach widely regarded as resistant to quantum attack. Overhauling the data availability system's KZG commitments would also be necessary, though Buterin acknowledged the engineering complexity involved. For end users, the roadmap centers on a planned upgrade known as EIP-8141, which would make Ethereum wallets modular enough to swap in quantum-safe signature schemes when the time comes — rather than locking users into the single signature type most wallets use today.\n\nPerhaps the most technically ambitious element of the plan addresses zero-knowledge proofs, which are foundational to Ethereum's scaling strategy. Quantum-resistant versions of these proofs are currently far more computationally expensive to verify on-chain. Buterin pointed to a mechanism within EIP-8141 called \"validation frames\" that would allow the network to bundle many individual signatures and proofs into a single compressed proof for verification, keeping transaction costs manageable even after the transition.\n\nThe roadmap underscores a broader trend across the cryptocurrency industry of preparing for a post-quantum future while the threat remains theoretical. Ethereum, with roughly $2,030 per ETH in market value and a vast ecosystem of decentralized applications, arguably has more at stake than any other blockchain network. Whether the timeline for dangerous quantum computers is five years or twenty, Buterin's message is clear: the engineering groundwork needs to begin now.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "Vitalik Buterin",
-        "quantum computing",
-        "cryptography",
-        "blockchain security",
-        "EIP-8141"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T21:48:16.135Z"
     },
     {
       "id": "ps-1772140628697-9qj3",
@@ -212,27 +234,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/us-stocks-edge-lower-as-nvidia-shares-fall-ai-worry-simmers",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T21:03:11.678Z"
-    },
-    {
-      "id": "ps-1772138846409-ykgu",
-      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
-      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
-      "subheadline": "Physics-constrained machine learning framework speeds up rarefied gas modeling while preserving conservation laws",
-      "body": "A team of computational physicists has developed a neural network framework that significantly accelerates Direct Simulation Monte Carlo (DSMC) calculations — the workhorse method for modeling rarefied gas flows — while maintaining the physical accuracy that makes these simulations indispensable for aerospace and hypersonic engineering.\n\nThe work, posted to the arXiv preprint server on February 15 by Ehsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov, tackles a long-standing bottleneck in kinetic gas simulations. DSMC methods, while considered the gold standard for non-equilibrium rarefied gas dynamics, carry enormous computational costs, particularly when approaching continuum flow regimes or when employing quantum-mechanically derived interaction potentials. The researchers' approach replaces the widely used phenomenological Variable Hard Sphere (VHS) collision model with a learned neural collision kernel that is constrained to obey fundamental conservation laws.\n\nA key innovation lies in how the team addresses a subtle but critical failure mode of machine learning surrogates in stochastic simulations. Purely deterministic neural networks, when used as stand-ins for collision operators, tend to suppress the thermal fluctuations that are physically essential in kinetic theory — a phenomenon the authors describe as \"variance suppression and artificial cooling.\" To counter this, they introduced a physics-constrained stochastic layer that injects controlled noise during inference while enforcing cell-wise conservation of momentum and kinetic energy through moment-matching. The result is a surrogate that preserves both the statistical character and the physical invariants of the original simulation.\n\nPerhaps most striking is the framework's generalization capability. A model trained exclusively on one-dimensional Couette flow data was able to accurately simulate a substantially more complex two-dimensional lid-driven cavity flow, correctly capturing high-order non-equilibrium moments without any retraining — a property the authors term \"zero-shot spatial and thermodynamic generalization.\" In a separate application, the team built a dedicated neural operator for quantum-mechanical scattering using the Jäger interaction potential, trained through what they call a \"physics harvesting\" strategy on large datasets of collision pairs. Validated against Mach 10 rarefied argon flow over a cylinder, this ab initio surrogate reproduced shock structures and transport properties with high fidelity while delivering approximately 20 percent cost savings compared to direct numerical integration of the scattering calculations.\n\nThe work sits at the intersection of scientific machine learning and computational fluid dynamics, a space where researchers are increasingly exploring whether neural surrogates can meaningfully reduce the cost of physics simulations without sacrificing the rigor that engineers and scientists demand. The 20 percent speedup reported here is modest compared to claims in some machine learning literature, but the emphasis on strict conservation and stochastic fidelity represents a more disciplined approach — one that may prove more trustworthy for the high-stakes aerospace applications where DSMC simulations are most critical.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "DSMC",
-        "neural operators",
-        "rarefied gas dynamics",
-        "machine learning",
-        "computational physics",
-        "hypersonic flow"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1758260759878-f58196990628?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8TmV1cmFsJTIwT3BlcmF0b3JzJTIwQWNjZWxlcmF0ZSUyMEdvbGQlMjBTdGFuZGFyZCUyMEdhcyUyMER5bmFtaWNzJTIwU2ltdWxhdGlvbnN8ZW58MHwwfHx8MTc3MjEyODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21244",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T20:47:26.409Z"
     },
     {
       "id": "ps-1772137942490-ndyk",
