@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-26T08:48:30.305Z",
+  "lastUpdated": "2026-02-26T09:03:24.694Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772096525657-4hus",
+      "slug": "mexico-engulfed-in-cartel-violence-across-20-states-after-dr",
+      "headline": "Mexico Engulfed in Cartel Violence Across 20 States After Drug Lord's Death",
+      "subheadline": "The Jalisco New Generation Cartel unleashes widespread attacks following the capture and death of leader 'El Mencho'",
+      "body": "Mexico is reeling from an unprecedented wave of cartel violence spanning 20 states after the death of Nemesio Oseguera Cervantes — known as \"El Mencho\" — one of the country's most feared drug lords, who died shortly after being captured in a fierce gun battle in the western state of Jalisco.\n\nMembers of the Jalisco New Generation Cartel (CJNG), long considered one of Mexico's most powerful criminal organizations, have transformed towns and cities across their operational territory into active conflict zones. The retaliatory violence following El Mencho's death marks one of the most geographically widespread cartel offensives in recent Mexican history, with communities across the country caught in the crossfire.\n\nThe crisis is compounding an already dire security situation in northern Mexico. In the city of Culiacán, capital of Sinaloa state, residents have endured months of sustained violence following the 2024 removal of Sinaloa Cartel leader Ismael \"El Mayo\" Zambada, who was captured and is now imprisoned in the United States. BBC correspondent Quentin Sommerville, reporting from the besieged city, accompanied two local paramedics — Julio César Vega and Héctor Torres — as they responded to victims of shootings and stabbings on the streets. Torres told the BBC that the violence in Culiacán had never been this severe or this prolonged.\n\nThe simultaneous destabilization of Mexico's two most powerful cartels — the CJNG and the Sinaloa Cartel — has created a security vacuum that analysts have long warned could prove catastrophic. With El Mencho dead and El Mayo behind bars in the U.S., both organizations face internal power struggles that historically generate brutal succession conflicts, drawing in rival factions and terrorizing civilian populations caught between them.\n\nThe escalating crisis poses a significant challenge for the Mexican government and raises fresh questions about the effectiveness of so-called \"kingpin\" strategies — the targeted removal of cartel leaders — which critics argue often triggers worse violence as subordinates battle for control. For the residents of cities like Culiacán, where paramedics now navigate streets that resemble war zones, the human toll of that strategic debate is measured daily in bodies and bloodshed.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mexico",
+        "cartel violence",
+        "CJNG",
+        "El Mencho",
+        "Sinaloa Cartel",
+        "drug war",
+        "Culiacán"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2627/live/b60131c0-12dd-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cqlgz0xk5zyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T09:02:05.658Z"
+    },
+    {
+      "id": "ps-1772096541837-w3zm",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve 'error-free' fluid dynamics on standard computational lattices",
+      "body": "A team of computational physicists has developed a novel technique that eliminates longstanding modeling errors in lattice Boltzmann simulations of fluid dynamics, potentially transforming how researchers simulate everything from turbulent flows to thermohydrodynamic systems.\n\nThe method, introduced in a paper posted to arXiv on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, deploys what the authors call Onsager-Regularized non-equilibrium populations to correct errors that arise when the Navier-Stokes equations — the fundamental equations governing fluid motion — are solved on first-nearest-neighbor lattice Boltzmann grids. The approach is notable because it achieves these corrections using entirely local operations, avoiding the computational overhead of extended lattice structures or non-local calculations that have characterized previous attempts to address the problem.\n\nLattice Boltzmann methods have become a widely used alternative to traditional computational fluid dynamics over the past three decades, prized for their parallelizability and natural handling of complex boundary conditions. However, standard implementations on compact lattices such as the commonly used D2Q9 grid have been known to introduce spurious errors into the recovered macroscopic equations, limiting accuracy in certain regimes. The new generalized Onsager-Regularized (OReg) framework tackles this by offering two tiers of correction. A partial correction addresses violations of compatibility conditions, yielding accuracy improvements of two to four orders of magnitude depending on whether simulations are run at reference or arbitrary lattice temperatures. A complete correction goes further, also eliminating stress tensor modeling errors to produce what the authors describe as a \"fully corrected exact model.\"\n\nNumerical benchmarks presented in the paper demonstrate that both corrected schemes outperform the widely used Lattice-BGK method and uncorrected OReg guided-equilibrium schemes in both accuracy and numerical stability. The guided equilibrium representation used in the work is constrained by six moments on the D2Q9 lattice, a standard two-dimensional configuration with nine discrete velocities that serves as a workhorse in computational physics.\n\nThe implications extend beyond improved accuracy for existing simulations. The authors point to the framework as a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer — where modeling errors on standard lattices have been particularly problematic. If the approach scales effectively to three-dimensional lattices and more complex physical scenarios, it could significantly broaden the range of problems tractable with compact lattice Boltzmann methods, reducing the need for computationally expensive extended lattice configurations.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann",
+        "Navier-Stokes",
+        "computational physics",
+        "fluid dynamics",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1571101598228-c8caeaa818b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T09:02:21.837Z"
+    },
+    {
+      "id": "ps-1772096557894-assk",
+      "slug": "ancient-microbes-could-survive-50-million-years-in-martian-i",
+      "headline": "Ancient Microbes Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for signs of life",
+      "body": "Laboratory experiments simulating Martian conditions have shown that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years inside pure water ice, even under relentless bombardment by cosmic radiation. The findings, published in Astrobiology, could reshape the strategy for searching for extraterrestrial life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State sealed E. coli bacteria in test tubes of pure water ice and in samples mixed with silicate rocks and clay typical of Martian sediment. The tubes were chilled to minus 60 degrees Fahrenheit and blasted with gamma radiation at Penn State's Radiation Science and Engineering Center, replicating roughly 20 million years of cosmic ray exposure on the Martian surface. Mathematical modeling extended the simulation to 50 million years. In pure ice, more than 10 percent of the original amino acids survived the full duration. Samples mixed with Mars-like soil, however, degraded 10 times faster and did not survive.\n\nThe result upended expectations set by a 2022 study from the same team, which had found that organic material in a mixture of 10 percent water ice and 90 percent Martian soil broke down rapidly. Scientists had assumed that pure ice would offer even less protection. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin film that forms where ice contacts mineral grains, potentially allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, those same harmful particles appear to become frozen in place, unable to reach and destroy the organics.\n\nThe implications extend well beyond Mars. When the team tested amino acid survival at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, deterioration slowed further still — an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell. Co-author Christopher House, a Penn State geosciences professor, noted that many current Martian surface ice deposits are less than two million years old — well within the 50-million-year survival window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said.\n\nThe practical challenge now is engineering. Most Martian ice lies just below the surface, requiring landers equipped with robust drills or powerful scoops — capabilities demonstrated by NASA's 2008 Phoenix mission, the first to excavate and photograph subsurface ice on Mars. The study's authors argue that future astrobiology missions should prioritize clean, buried ice over the rock and clay targets that have dominated Mars exploration to date. The research was funded by NASA's Planetary Science Division.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "cosmic radiation"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T09:02:37.894Z"
+    },
+    {
+      "id": "ps-1772096575373-fi2i",
+      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
+      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
+      "subheadline": "The world's most valuable company sees 73% revenue growth, but China exports remain at zero and OpenAI deal stays uncertain",
+      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for its fiscal quarter ending in early 2026 — a 73 percent increase from the same period a year ago — as insatiable demand for artificial intelligence computing continues to propel the chipmaker's dominance.\n\nThe data center segment, which encompasses the GPU accelerators and networking equipment powering the global AI buildout, accounted for $62 billion of the total. In a notable disclosure, Nvidia broke that figure into $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products including its NVLink interconnect technology. Full-year revenue reached $215 billion. CEO Jensen Huang framed the results in characteristically bold terms during an analyst call, declaring that global demand for AI tokens had gone \"completely exponential\" and that even six-year-old Nvidia GPUs deployed in the cloud are fully utilized with rising prices.\n\nDespite the headline growth, the quarter revealed lingering uncertainties. Nvidia reported zero revenue from chip exports to China, even after a partial relaxation of U.S. government restrictions. Chief Financial Officer Colette Kress noted that while small shipments of H200 chips to Chinese customers had been approved, none had yet generated sales. She also issued a rare warning about rising Chinese competition, pointing to companies like Moore Threads — which completed an IPO in December — as potential long-term disruptors to the global AI chip market.\n\nHuang addressed two other closely watched storylines. On Nvidia's reported $30 billion investment in OpenAI, he said the companies were \"close\" to finalizing a partnership agreement, though SEC filings submitted the same day cautioned there was \"no assurance\" a deal would materialize. Huang also name-checked partnerships with Anthropic, Meta, and Elon Musk's xAI as evidence of Nvidia's deepening ties across the AI ecosystem.\n\nPerhaps most significantly, Huang sought to quell growing investor anxiety over the sustainability of the massive capital expenditure commitments by hyperscale cloud providers and AI companies — spending that ultimately flows to Nvidia. \"In this new world of AI, compute is revenue,\" he argued, asserting that the industry had reached an \"inflection point\" where AI inference is generating profitable returns for cloud service providers. The framing positions Nvidia not merely as a chip vendor but as the essential infrastructure layer of an emerging token economy — a narrative the company will need to keep validating quarter after quarter as its revenue base scales into historically unprecedented territory.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "semiconductors",
+        "Jensen Huang",
+        "data centers",
+        "OpenAI"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T09:02:55.373Z"
+    },
+    {
+      "id": "ps-1772096589749-fwtm",
+      "slug": "wpp-targets-500-million-in-cost-cuts-amid-ongoing-revenue-de",
+      "headline": "WPP Targets £500 Million in Cost Cuts Amid Ongoing Revenue Decline",
+      "subheadline": "World's largest advertising group launches sweeping restructuring plan to reverse fortunes by 2028",
+      "body": "WPP Plc, the world's largest advertising holding company, announced plans to cut £500 million ($678 million) in annual costs by 2028 as part of a major restructuring effort aimed at halting a prolonged revenue slide and returning the British firm to growth.\n\nThe savings target, disclosed alongside the company's latest financial results, underscores the depth of the challenges facing the London-headquartered group. WPP has struggled in recent years as clients have shifted marketing budgets toward digital platforms and in-house capabilities, eroding the traditional agency model that once made the company a dominant force in global advertising. The restructuring represents one of the most ambitious cost-reduction programs in the company's history.\n\nThe £500 million figure signals that WPP's leadership views the company's current cost structure as fundamentally misaligned with its revenue trajectory. Restructuring measures at major advertising conglomerates typically involve consolidating agency brands, reducing headcount, streamlining back-office operations, and investing in technology to automate processes that were previously labor-intensive. WPP employs over 100,000 people across dozens of markets worldwide, giving it substantial room to find operational efficiencies.\n\nThe announcement comes as the broader advertising industry faces a period of upheaval. Rivals including Publicis Groupe and Omnicom — the latter currently pursuing a merger with Interpublic Group — have adapted more quickly to the shift toward data-driven, technology-enabled marketing. WPP's pivot toward restructuring suggests the company is betting that a leaner operating model, rather than top-line growth alone, will be the key to restoring profitability and investor confidence.\n\nInvestors will be watching closely to see whether the savings materialize without further damaging WPP's competitive position. Cost cuts of this magnitude risk hollowing out the creative and strategic talent that clients pay premium fees to access. The 2028 timeline gives the company roughly three years to execute — a window that will test whether WPP can restructure fast enough to keep pace with an industry that continues to evolve at speed.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "WPP",
+        "advertising",
+        "restructuring",
+        "cost cuts",
+        "corporate strategy"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1630735726978-391e5c1e6b2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8V1BQJTIwYWR2ZXJ0aXNpbmd8ZW58MHwwfHx8MTc3MjA5NTY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/wpp-eyes-500-million-in-annual-savings-in-restructuring-drive",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T09:03:09.749Z"
+    },
+    {
+      "id": "ps-1772096604584-gij6",
+      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-far-ab",
+      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Far Above Street",
+      "subheadline": "Data center revenue surged 75% year-over-year as CEO Jensen Huang declares AI demand will only accelerate from here",
+      "body": "Nvidia delivered another blockbuster quarter on Wednesday, reporting fiscal fourth-quarter revenue of $68.1 billion — a 73% jump from a year earlier and well above the $66.1 billion Wall Street had forecast. The results reaffirm the chipmaker's dominance at the center of the global AI infrastructure buildout and suggest the spending cycle is far from peaking.\n\nThe world's most valuable public company posted adjusted earnings per share of $1.62, topping the consensus estimate of $1.54. But it was Nvidia's forward guidance that truly caught investors' attention: the company projected first-quarter revenue of approximately $78 billion, roughly $5 billion above analyst expectations of $72.9 billion. Shares rose as much as 4% in after-hours trading before settling around 1% higher.\n\nThe engine behind the beat was Nvidia's data center segment, which posted a record $62.3 billion in quarterly revenue — up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the division has scaled nearly 13-fold since the emergence of ChatGPT, and that Nvidia has secured inventory and supply commitments stretching into 2027. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com. \"The roughly 75% surge in data center revenue further reinforces that hyperscaler AI infrastructure deployment remains firmly in expansion mode.\"\n\nCEO Jensen Huang struck a characteristically bullish tone on the conference call, arguing that historical computing demand represents only a small fraction of what AI workloads will require going forward. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" Huang said, framing the current investment cycle as the early phase of a much larger transformation in how software is built and consumed.\n\nThe results rippled across adjacent markets. Bitcoin held near $69,000 following a sharp recovery earlier in the week, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining stocks with exposure to high-performance computing infrastructure — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading. The broader signal from Nvidia's quarter is clear: capital expenditure on AI infrastructure continues to accelerate, and the companies supplying the picks and shovels of this buildout remain firmly in the market's driver's seat.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "data centers",
+        "Jensen Huang",
+        "semiconductor"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T09:03:24.584Z"
+    },
     {
       "id": "ps-1772095630750-5g43",
       "slug": "sinaloa-cartel-civil-war-leaves-mexican-city-in-grip-of-dail",
@@ -46,91 +173,6 @@
       "publishedAt": "2026-02-26T08:47:29.825Z"
     },
     {
-      "id": "ps-1772095666780-mtxg",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for ancient life",
-      "body": "If microbial life ever took hold on Mars, its molecular remnants may have endured far longer than scientists previously believed — provided they were entombed in clean ice rather than mineral-laden soil. A new study published in the journal Astrobiology demonstrates that amino acids, the fundamental building blocks of proteins, can withstand at least 50 million years of cosmic radiation when frozen in pure water ice under Martian conditions.\n\nThe research, led by Alexander Pavlov of NASA's Goddard Space Flight Center and co-authored by Penn State geosciences professor Christopher House, upends an earlier assumption from the same team's 2022 work. That prior study found that organic material in a mixture of ice and Martian-like soil degraded rapidly, leading researchers to expect that pure ice would offer even less protection. Instead, the opposite proved true: more than 10 percent of amino acids derived from E. coli bacteria survived a simulated 50-million-year bombardment in pure ice, while samples mixed with silicate rock and clay broke down roughly ten times faster. The researchers hypothesize that a thin liquid film forms at the boundary between ice and mineral grains, allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, those same harmful particles appear to become trapped in place.\n\nTo simulate Martian conditions, the team sealed bacterial samples in test tubes of frozen water, cooled them to minus 60 degrees Fahrenheit, and exposed them to gamma radiation at Penn State's Radiation Science and Engineering Center. The direct irradiation replicated 20 million years of cosmic ray exposure on the Martian surface; mathematical modeling extended the projection to 50 million years. Since many of Mars's known surface ice deposits are less than two million years old, the findings imply that any biological material trapped within them would remain detectable by current instruments. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said.\n\nThe implications extend well beyond Mars. When the team tested organic preservation at the far colder temperatures characteristic of Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further. That result is particularly relevant for NASA's Europa Clipper spacecraft, which launched in 2024 and is on a 1.8-billion-mile journey to reach Jupiter by 2030, where it will conduct 49 close flybys to assess whether conditions beneath Europa's ice shell could harbor life.\n\nFor Mars exploration specifically, the study makes a clear tactical recommendation: future landers and rovers should be equipped with drills or scoops capable of reaching subsurface ice, much like NASA's Phoenix lander, which in 2008 became the first mission to excavate and photograph Martian ice. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House noted. The research was funded through NASA's Planetary Science Division and involved collaborators from both Goddard and Penn State.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T08:47:46.780Z"
-    },
-    {
-      "id": "ps-1772095681424-u4ln",
-      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
-      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
-      "subheadline": "The world's most valuable company grew revenue 73% year-over-year, but China remains a zero-revenue market",
-      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for its fiscal quarter ending in early 2026 — a 73 percent increase from the same period a year earlier — as insatiable demand for artificial intelligence infrastructure continues to drive the chipmaker's extraordinary growth trajectory.\n\nThe data center segment, which has become the overwhelming engine of Nvidia's business, accounted for $62 billion of the quarter's total. In a notable disclosure, the company broke that figure into $51 billion in compute revenue — primarily GPU sales — and $11 billion in networking products such as NVLink interconnects. For the full fiscal year, Nvidia posted $215 billion in total revenue, underscoring its dominance in the AI hardware market.\n\nCEO Jensen Huang struck a bullish tone on the earnings call, framing AI compute as a direct revenue generator for customers. \"The demand for tokens in the world has gone completely exponential,\" Huang told analysts, noting that even Nvidia's six-year-old GPUs deployed in cloud data centers are fully utilized with rising prices. He pushed back against growing concerns about the sustainability of hyperscaler capital expenditure commitments, arguing that \"compute is revenue\" in the new AI economy and that the industry has reached an inflection point where token generation is profitable for cloud service providers.\n\nDespite the blowout results, two notable uncertainties loom. Chief Financial Officer Colette Kress confirmed that Nvidia has generated zero revenue from chip exports to China, even after recent easing of U.S. government restrictions. Small quantities of H200 products have been approved for Chinese customers, but no sales have materialized, and Kress warned that Chinese competitors — bolstered by recent IPOs like Moore Threads' December listing — pose a long-term competitive threat to the global AI chip market. Meanwhile, Huang addressed Nvidia's widely reported $30 billion pending investment in OpenAI, saying the companies are \"close\" to a partnership agreement, though SEC filings cautioned there is \"no assurance\" the deal will close. Huang also referenced active partnerships with Anthropic, Meta, and Elon Musk's xAI.\n\nThe results reinforce Nvidia's position as the primary beneficiary of the AI infrastructure buildout, but the China question and the durability of capital spending cycles remain open risks that investors will be watching closely in the quarters ahead.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "AI",
-        "semiconductors",
-        "Jensen Huang",
-        "data centers",
-        "China"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T08:48:01.424Z"
-    },
-    {
-      "id": "ps-1772095695687-8sax",
-      "slug": "wpp-targets-500-million-in-cost-cuts-amid-ongoing-revenue-de",
-      "headline": "WPP Targets £500 Million in Cost Cuts Amid Ongoing Revenue Decline",
-      "subheadline": "World's largest advertising holding company launches sweeping restructuring to stem losses and return to growth by 2028",
-      "body": "WPP Plc, the world's biggest advertising holding company, announced plans to cut £500 million ($678 million) in annual costs by 2028 as it embarks on a major restructuring effort to reverse a prolonged slide in revenue.\n\nThe London-based firm, which owns agency networks including GroupM, Ogilvy, and AKQA, disclosed the savings target alongside results showing continued deterioration in its top line. The restructuring represents one of the most aggressive efficiency drives in the company's history and signals the depth of challenges facing traditional advertising conglomerates as clients shift spending toward digital platforms, in-house capabilities, and AI-powered marketing tools.\n\nThe cost-reduction program is expected to span operations across WPP's global footprint, though the company has not detailed how many jobs may be affected or which units will bear the brunt of the cuts. At roughly $678 million in annualized savings, the initiative would represent a significant share of the company's operating cost base and underscores management's urgency in right-sizing the business for a structurally changed advertising landscape.\n\nWPP has faced mounting pressure in recent years as technology giants like Google, Meta, and Amazon have captured an ever-larger share of global ad spending, while generative AI tools threaten to automate tasks traditionally performed by agency staff. The company's struggles mirror broader difficulties across the legacy agency sector, where rivals including Publicis and Omnicom have pursued their own transformation strategies — with Omnicom moving to acquire Interpublic Group in a landmark consolidation deal.\n\nThe 2028 timeline gives WPP roughly three years to execute the turnaround, a window that will test whether deep cost discipline alone can restore investor confidence or whether more fundamental strategic shifts — including potential divestitures or further consolidation — will ultimately be required. Shares in WPP have underperformed the broader European market over the past year as investors have grown skeptical of the traditional agency model's long-term viability.",
-      "category": "business",
-      "importance": 6,
-      "tags": [
-        "WPP",
-        "advertising",
-        "restructuring",
-        "cost cuts",
-        "media industry"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1601944166567-87cfd1596670?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8V1BQJTIwYWR2ZXJ0aXNpbmd8ZW58MHwwfHx8MTc3MjA5NTY5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/wpp-eyes-500-million-in-annual-savings-in-restructuring-drive",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T08:48:15.687Z"
-    },
-    {
-      "id": "ps-1772095710194-9p1f",
-      "slug": "nvidia-posts-68-1b-quarter-guides-far-above-street-estimates",
-      "headline": "Nvidia Posts $68.1B Quarter, Guides Far Above Street Estimates",
-      "subheadline": "CEO Jensen Huang declares AI demand is accelerating as data center revenue scales 13x since ChatGPT's debut",
-      "body": "Nvidia delivered another blowout quarter on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% year-over-year surge that handily topped Wall Street's consensus estimate of $66.1 billion. The chipmaker, now the world's most valuable publicly traded company, also guided first-quarter revenue to approximately $78 billion, blowing past analyst expectations of $72.9 billion and signaling that the AI infrastructure buildout shows no signs of slowing.\n\nThe results were powered almost entirely by Nvidia's data center division, which posted a record $62.3 billion in quarterly revenue, up 75% from a year ago and 22% sequentially. Chief Financial Officer Colette Kress noted on the earnings call that the segment has grown nearly 13-fold since the emergence of ChatGPT, and that the company has secured inventory and supply commitments extending into 2027 to meet anticipated demand.\n\nCEO Jensen Huang struck a characteristically bullish tone. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" he said, arguing that historical computation demand represents only a \"tiny fraction\" of what will be required in the future. The remarks served as a direct counter to growing skepticism among some investors that hyperscaler capital expenditure on AI infrastructure might plateau before the end of the decade. Thomas Monteiro, senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027.\"\n\nAdjusted earnings per share came in at $1.62, beating the $1.54 consensus compiled by FactSet. Shares climbed as much as 4% in after-hours trading before settling roughly 1% higher. The muted price reaction relative to the earnings beat suggests that lofty expectations are increasingly baked into Nvidia's valuation, even as the company continues to exceed them quarter after quarter.\n\nThe ripple effects extended into digital asset markets. Bitcoin held near $69,000 following a sharp 10% rebound from earlier in the week, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted modest gains before trimming their advances. Crypto mining stocks with growing exposure to AI and high-performance computing — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading, underscoring how Nvidia's results have become a sentiment barometer well beyond the semiconductor sector.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "data centers",
-        "Jensen Huang",
-        "semiconductors"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T08:48:30.194Z"
-    },
-    {
       "id": "ps-1772094793778-8whf",
       "slug": "chinese-yuan-hits-longest-winning-streak-against-dollar-sinc",
       "headline": "Chinese Yuan Hits Longest Winning Streak Against Dollar Since 2010",
@@ -150,26 +192,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/yuan-extends-advance-after-pboc-sets-another-stronger-fixing",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T08:33:13.778Z"
-    },
-    {
-      "id": "ps-1772093846548-ts2r",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
-      "body": "A team of computational physicists has developed a novel approach to lattice Boltzmann fluid simulations that eliminates longstanding modeling errors in Navier-Stokes equations, potentially transforming how researchers simulate complex fluid flows. The work, posted to the arXiv preprint server on February 14, introduces what the authors describe as an \"error-free\" method built on standard computational lattices.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi — a leading figure in lattice Boltzmann research — devised what they call the Generalized Onsager-Regularized Lattice Boltzmann Method (OReg-LBM). The technique addresses a fundamental limitation of conventional lattice Boltzmann approaches: when fluid dynamics are modeled on simple first-nearest-neighbor lattices, systematic errors creep into the Navier-Stokes equations that govern fluid motion. These errors have long forced practitioners to choose between computational simplicity and physical accuracy.\n\nThe key innovation lies in introducing fully local corrections through Onsager-Regularized non-equilibrium populations. The researchers developed two tiers of correction applied to the six-moment-constrained guided equilibrium representation on the widely used D2Q9 lattice — a two-dimensional, nine-velocity computational grid that forms the backbone of many fluid simulations. The partial correction, which addresses compatibility condition violations alone, improves accuracy by two orders of magnitude at reference lattice temperatures and by four orders of magnitude at arbitrary lattice temperatures. The complete correction goes further, also eliminating stress tensor modeling errors to produce what the authors call a \"fully corrected exact model.\"\n\nNumerical benchmarks presented in the paper show that both corrected schemes outperform the standard Lattice-BGK method and uncorrected OReg guided equilibrium schemes in both accuracy and numerical stability. The BGK (Bhatnagar-Gross-Krook) collision operator has been the workhorse of lattice Boltzmann simulations for decades, making improvements over this baseline particularly significant for the computational fluid dynamics community.\n\nPerhaps most consequentially, the researchers suggest their framework opens a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Such coupled problems are notoriously difficult to handle accurately on standard lattices, and an error-free foundation could accelerate progress in modeling everything from industrial heat exchangers to atmospheric convection. The method's reliance on standard lattice structures, rather than exotic higher-order grids, means it could be adopted broadly without requiring fundamental changes to existing simulation infrastructure.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "lattice Boltzmann method",
-        "Navier-Stokes equations",
-        "computational fluid dynamics",
-        "Onsager regularization",
-        "numerical simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1754304342359-be5a8901e198?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bGF0dGljZSUyMEJvbHR6bWFubiUyMG1ldGhvZCUyME5hdmllci1TdG9rZXMlMjBlcXVhdGlvbnN8ZW58MHwwfHx8MTc3MjA4ODQ1MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T08:17:26.548Z"
     },
     {
       "id": "ps-1772093896566-5bpt",
@@ -396,28 +418,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20179",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T04:32:21.993Z"
-    },
-    {
-      "id": "ps-1772079429662-yxhb",
-      "slug": "mexico-plunges-into-cartel-violence-across-20-states-after-d",
-      "headline": "Mexico Plunges Into Cartel Violence Across 20 States After Drug Lord's Death",
-      "subheadline": "Capture and death of CJNG leader 'El Mencho' triggers nationwide wave of attacks as paramedics describe unprecedented bloodshed",
-      "body": "Mexico is experiencing one of its most severe eruptions of cartel violence in years, with the Jalisco New Generation Cartel (CJNG) unleashing coordinated attacks across 20 states following the death of its leader Nemesio Oseguera Cervantes, widely known as \"El Mencho,\" who died shortly after being captured in a fierce firefight in the state of Jalisco.\n\nThe CJNG, considered one of Mexico's most powerful and feared criminal organizations, has effectively turned towns and cities where it maintains a presence into war zones. The violence represents a dangerous new chapter in Mexico's long-running battle against organized crime, as cartel members appear to be retaliating for the loss of their leader while simultaneously fighting to maintain territorial control.\n\nThe chaos is compounding an already dire security situation in parts of the country. In Culiacán, the capital of the northern state of Sinaloa, BBC international correspondent Quentin Sommerville documented the grim reality on the ground, following two paramedics — Julio César Vega and Héctor Torres — as they responded to victims of stabbings and shootings. Torres told the BBC that the violence in Culiacán had never been this severe or sustained. Sinaloa has been mired in its own internal cartel war since the 2024 removal of longtime Sinaloa Cartel leader Ismael \"El Mayo\" Zambada, who is now imprisoned in the United States.\n\nThe simultaneous destabilization of two of Mexico's most dominant cartels — the CJNG and the Sinaloa Cartel — presents an extraordinary security challenge for the Mexican government. The CJNG had grown under El Mencho's leadership into a sprawling narcotics empire rivaling the Sinaloa Cartel in reach and brutality, with operations spanning drug trafficking, extortion, and territorial warfare across much of the country. His capture was considered a significant law enforcement achievement, but the violent aftermath underscores a recurring pattern in Mexico's drug war: the removal of cartel kingpins often triggers power vacuums that fuel even greater bloodshed.\n\nThe scale of the current violence — spanning 20 of Mexico's 32 states — suggests the CJNG's operational footprint is even broader than many analysts had estimated, raising urgent questions about the capacity of Mexican security forces to restore order across such a vast geographic area simultaneously.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mexico",
-        "cartel violence",
-        "CJNG",
-        "El Mencho",
-        "drug war",
-        "Sinaloa",
-        "organized crime"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/d027/live/0ee28050-1298-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cqlgz0xk5zyo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T04:17:09.662Z"
     },
     {
       "id": "ps-1772076784508-kjaj",
