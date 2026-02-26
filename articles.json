@@ -1,27 +1,133 @@
 {
-  "lastUpdated": "2026-02-26T13:33:37.361Z",
+  "lastUpdated": "2026-02-26T13:48:45.901Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772112735601-n2fd",
-      "slug": "jersey-approves-assisted-dying-law-in-landmark-british-isles",
-      "headline": "Jersey Approves Assisted Dying Law in Landmark British Isles Vote",
-      "subheadline": "The Crown dependency becomes the second jurisdiction in the British Isles to fully pass assisted dying legislation",
-      "body": "Jersey's parliament voted decisively on Thursday to legalize assisted dying for terminally ill adults, making the Channel Island the second jurisdiction in the British Isles — after the Isle of Man — to fully approve such legislation. The first legal assisted deaths under the new framework could take place as early as next summer.\n\nThe States of Jersey approved the measure by a margin of 32 to 16. Under the law, adults with terminal illnesses causing unbearable suffering who are expected to die within six months will be eligible to choose to end their lives. The timeline extends to 12 months for patients with neurodegenerative conditions such as Parkinson's disease and motor neurone disease. Applicants must have been resident in Jersey for at least 12 months. The bill now proceeds to Royal Assent — widely considered a formality — before taking effect.\n\nJersey's Health and Social Services Minister Tom Binet hailed the result, saying the island would have \"one of the safest and most transparent assisted dying laws in the world.\" Lorna Pirozzolo, a Jersey resident with terminal breast cancer, called the reform \"badly needed,\" saying it brings \"enormous relief, not just for me, but for future generations of islanders who deserve compassion, choice and dignity at the end of life.\" Humanists UK chief executive Andrew Copson described the vote as a \"momentous vote of confidence for compassion, dignity, and choice.\"\n\nThe legislation was not without opposition. Deputy Sir Philip Bailhache, who voted against the measure, warned that it could \"change the community of Jersey in a way in which we may not yet be able to foresee,\" calling the subject one involving \"very deep ethical issues.\" He emphasized that while he supported compassionate end-of-life care, he did not believe the law should authorize the removal of life in the manner now permitted.\n\nThe vote carries broader significance across the British Isles, where assisted dying remains one of the most intensely debated policy questions. Westminster and the Scottish Parliament are both considering their own proposals, though the draft law for England and Wales has stalled amid slow progress in the House of Lords. A UK government spokesperson acknowledged that processing time \"depends on the complexities and sensitivities of a bill.\" Jersey and the Isle of Man, as Crown dependencies with their own legislative autonomy, have now moved well ahead of the United Kingdom itself on the issue.",
+      "id": "ps-1772113632462-k3z2",
+      "slug": "jersey-approves-assisted-dying-law-in-landmark-vote",
+      "headline": "Jersey Approves Assisted Dying Law in Landmark Vote",
+      "subheadline": "The Channel Island becomes the second jurisdiction in the British Isles to legalize assisted dying for terminally ill adults",
+      "body": "Jersey's parliament voted decisively on Thursday to approve a law permitting terminally ill adults to choose to end their own lives, making the Crown dependency the second jurisdiction in the British Isles — after the Isle of Man — to fully pass such legislation. The measure cleared its final legislative stage with 32 votes in favor and 16 against, and now awaits Royal Assent from the UK, which is considered a formality.\n\nUnder the new law, adults with terminal illnesses causing unbearable suffering who are expected to die within six months will be eligible for assisted dying. The timeline extends to 12 months for patients with neurodegenerative conditions such as Parkinson's disease and motor neurone disease. Applicants must also meet a 12-month residency requirement. Jersey's Health and Social Services Minister Tom Binet hailed the framework as \"one of the safest and most transparent assisted dying laws in the world.\" If Royal Assent proceeds on schedule, the first legal assisted deaths on the island could occur as early as next summer.\n\nThe vote drew emotional reactions on both sides. Lorna Pirozzolo, a Jersey resident with terminal breast cancer, described the law as \"badly needed,\" saying it brought \"enormous relief\" for current and future islanders who \"deserve compassion, choice and dignity at the end of life.\" Humanists UK chief executive Andrew Copson called it a \"momentous vote of confidence\" and noted the legislation reflects public sentiment expressed through citizens' juries and surveys. Opponents, however, warned of unintended consequences. Deputy Sir Philip Bailhache, who voted against the measure, said he feared it would \"change the community of Jersey in a way in which we may not yet be able to foresee,\" citing deep ethical concerns about authorizing the removal of life.\n\nThe decision in Jersey carries broader implications for ongoing debates across the British Isles. Westminster and the Scottish Parliament are both considering assisted dying legislation, though progress on the draft bill for England and Wales has stalled in the House of Lords. A UK government spokesperson attributed the slow pace to \"the complexities and sensitivities of a bill, as well as any legal and constitutional issues.\" The Isle of Man, which approved its own law earlier, requires a five-year residency period — significantly longer than Jersey's one-year threshold.\n\nJersey's approval adds momentum to a movement that has gained traction in multiple Western democracies in recent years. Whether the island's legislative success accelerates or complicates the path for similar measures in larger UK jurisdictions remains an open question, but advocates say the vote demonstrates that robust safeguards and democratic support can coexist in end-of-life legislation.",
       "category": "breaking",
       "importance": 7,
       "tags": [
         "assisted dying",
         "Jersey",
-        "end-of-life",
         "British Isles",
-        "legislation",
-        "healthcare policy"
+        "end-of-life legislation",
+        "terminal illness"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/c9c3/live/f5181ed0-130c-11f1-9120-a910fc22c6ac.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c62dnwwgryeo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T13:32:15.601Z"
+      "publishedAt": "2026-02-26T13:47:12.462Z"
+    },
+    {
+      "id": "ps-1772113648337-478u",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational lattices",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann framework that eliminates systematic modeling errors in Navier-Stokes fluid simulations, potentially transforming how researchers approach complex fluid dynamics problems on standard computational grids.\n\nThe method, presented in a preprint by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, introduces what the authors call \"Onsager-Regularized\" non-equilibrium populations — fully local corrections that can be applied to conventional lattice Boltzmann schemes to dramatically improve their fidelity. Working on the widely used D2Q9 lattice (a two-dimensional grid with nine discrete velocity directions), the researchers demonstrated two tiers of correction. A partial correction that addresses compatibility condition violations alone yielded accuracy improvements of two to four orders of magnitude, depending on whether simulations were run at reference or arbitrary lattice temperatures. A complete correction that also remedies stress tensor modeling errors produced what the team describes as a fully corrected, exact model — one that recovers the Navier-Stokes equations without the artifacts that have long plagued first-nearest-neighbor lattice Boltzmann approaches.\n\nLattice Boltzmann methods have become indispensable tools in computational fluid dynamics over the past three decades, offering an alternative to traditional finite-element and finite-volume solvers for problems ranging from turbulent flows to multiphase systems. However, standard implementations on first-nearest-neighbor lattices introduce known deviations from the target Navier-Stokes equations — errors that can compromise accuracy and numerical stability, particularly in thermal and compressible flow regimes. Previous efforts to mitigate these errors have often required extended lattice stencils or off-lattice corrections, adding computational overhead and implementation complexity.\n\nThe new approach sidesteps those trade-offs by embedding corrections directly into the non-equilibrium distribution functions through the guided equilibrium representation, keeping all operations local to the standard lattice. Numerical benchmarks reported in the paper showed the corrected schemes outperforming both the classical Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and stability.\n\nPerhaps most significantly, the authors highlight their framework as a stepping stone toward thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Achieving error-free Navier-Stokes recovery on standard lattices could lower the barrier to accurate thermal lattice Boltzmann simulations, a domain where modeling errors have been particularly stubborn. The preprint, posted to arXiv on February 14, 2026, awaits peer review.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann",
+        "Navier-Stokes",
+        "computational physics",
+        "fluid dynamics",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1657450420266-365e560ffc00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T13:47:28.337Z"
+    },
+    {
+      "id": "ps-1772113663938-5jpf",
+      "slug": "ancient-microbial-life-could-endure-50-million-years-in-mart",
+      "headline": "Ancient Microbial Life Could Endure 50 Million Years in Martian Ice",
+      "subheadline": "NASA and Penn State experiments show pure water ice shields organic molecules from cosmic radiation, reshaping Mars search strategy",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can survive at least 50 million years when encased in pure water ice, even under relentless bombardment from cosmic radiation. The findings, published in the journal Astrobiology, could fundamentally redirect where future Mars missions search for signs of life.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria in test tubes of pure water ice, then subjected them to gamma radiation at minus 60 degrees Fahrenheit — conditions matching the icy regions of Mars. The radiation dose simulated 20 million years of cosmic ray exposure on the Martian surface, and mathematical modeling extended the projection to 50 million years. More than 10 percent of amino acids survived the full simulated duration in pure ice. Samples mixed with Martian-like sediments, including silicate rocks and clay, fared dramatically worse, breaking down ten times faster.\n\nThe result was counterintuitive. A 2022 study by the same team had found that amino acids in a mixture of 10 percent water ice and 90 percent Martian soil degraded rapidly, leading researchers to expect that pure ice would perform even worse. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, said harmful particles generated by radiation appear to become frozen in place within solid ice, unable to reach and destroy organic compounds. In mixed samples, a thin film that forms where ice contacts mineral grains may allow radiation byproducts to move more freely, accelerating molecular damage.\n\nThe practical implication is significant: future missions hunting for biosignatures should prioritize drilling into clean, buried ice rather than analyzing rocks or soil. \"Fifty million years is far greater than the expected age for some current surface ice deposits on Mars, which are often less than two million years old,\" said co-author Christopher House, a Penn State geosciences professor. \"That means if there are bacteria near the surface of Mars, future missions can find it.\" NASA's 2008 Phoenix lander was the first to excavate and photograph subsurface ice in Mars's polar regions, and House noted that future missions will need similarly capable drilling or scooping tools to access buried deposits.\n\nThe team also tested organic preservation at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, finding that degradation slowed even further. Pavlov said the results are encouraging for NASA's Europa Clipper spacecraft, which launched in 2024 and is expected to reach Jupiter in 2030 to perform 49 close flybys of Europa's ice shell. The research was funded by NASA's Planetary Science Division and represents a growing body of evidence that ice, not rock, may be the most promising vault for extraterrestrial biology.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "extraterrestrial life",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T13:47:43.938Z"
+    },
+    {
+      "id": "ps-1772113678229-7zgz",
+      "slug": "instagram-to-notify-parents-when-teens-search-for-self-harm-",
+      "headline": "Instagram to Notify Parents When Teens Search for Self-Harm Content",
+      "subheadline": "Meta rolls out new parental alerts amid mounting lawsuits over teen safety failures on its platforms",
+      "body": "Instagram will begin sending alerts to parents when their teenage children repeatedly search for terms related to suicide or self-harm, the Meta-owned platform announced on Thursday — a move that arrives as the company faces intense legal scrutiny over its track record on youth safety.\n\nThe feature, rolling out in the coming weeks in the United States, United Kingdom, Australia, and Canada, applies to parents enrolled in Instagram's parental supervision tools. When a teen conducts multiple searches within a short window for phrases encouraging self-harm, indicating risk of self-injury, or containing terms like \"suicide\" or \"self-harm,\" the system will notify parents via email, text, or WhatsApp, along with an in-app alert. Notifications will include resources to help parents approach sensitive conversations. Instagram said it consulted with its Suicide and Self-Harm Advisory Group to calibrate the search threshold, acknowledging the system may occasionally trigger false alarms but arguing that erring on the side of caution is the appropriate starting point.\n\nThe timing is difficult to separate from Meta's mounting legal troubles. Instagram head Adam Mosseri testified this week in U.S. District Court in the Northern District of California, where prosecutors in a social media addiction case pressed him on the platform's delayed deployment of basic safety features, including a nudity filter for teen direct messages. In a separate proceeding before the Los Angeles County Superior Court, internal Meta research was introduced showing that parental supervision tools had little measurable impact on children's compulsive social media use — a finding that raises questions about whether the new alert system will prove more effective than previous interventions.\n\nInstagram already blocks users from surfacing suicide and self-harm content through search, but the new alerts represent an acknowledgment that blocking alone is insufficient when teens persistently seek out harmful material. The company said it plans to extend the notification system in the future to flag instances where teens attempt to engage Instagram's AI tools in conversations about suicide or self-harm. Additional regions are expected to gain access later this year.\n\nMeta and other major social media companies face a constellation of lawsuits seeking to hold platforms accountable for harm to minors. The internal study revealed in court this week — showing that children experiencing stressful life events are more likely to struggle with regulating their social media use — underscores the gap between the scale of the problem and the incremental nature of the industry's response. Whether parental alerts meaningfully change outcomes for at-risk teens, or primarily serve to demonstrate corporate diligence in a courtroom, remains an open question.",
+      "category": "tech",
+      "importance": 6,
+      "tags": [
+        "Instagram",
+        "Meta",
+        "teen safety",
+        "parental controls",
+        "social media",
+        "self-harm",
+        "mental health"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/instagram-app-icon-GettyImages-1046023150.jpg?resize=1200,801",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/instagram-now-alerts-parents-if-their-teen-searches-for-suicide-or-self-harm-content/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T13:47:58.229Z"
+    },
+    {
+      "id": "ps-1772113692724-oiwb",
+      "slug": "who-chief-condemns-us-decision-to-cut-mrna-research-funding",
+      "headline": "WHO Chief Condemns US Decision to Cut mRNA Research Funding",
+      "subheadline": "Tedros Adhanom Ghebreyesus calls the move a 'wrong decision,' raising concerns about future pandemic preparedness",
+      "body": "World Health Organization Director-General Tedros Adhanom Ghebreyesus has publicly criticized the United States for withdrawing funding from mRNA research, calling the decision a mistake that could undermine global health preparedness.\n\nSpeaking to Bloomberg's Mishal Husain on February 26, Tedros described the defunding as \"a wrong decision,\" pointing to the central role mRNA technology played in developing the Covid-19 vaccines that helped bring the pandemic under control. The platform, which enabled companies like Pfizer-BioNTech and Moderna to produce effective vaccines at unprecedented speed, is widely regarded as one of the most significant biomedical advances of the past decade — and researchers have been exploring its potential applications in cancer treatment, influenza vaccines, and preparedness for future pandemics.\n\nThe US pullback on mRNA funding comes amid broader cuts to health and scientific research programs under the current administration. The National Institutes of Health and other federal agencies have faced significant budget reductions, with critics warning that reduced investment in foundational biomedical research could erode American leadership in the life sciences and leave the world less equipped to respond to emerging infectious diseases. Proponents of the cuts have argued that fiscal restraint is necessary and that the private sector can fill gaps left by reduced government spending.\n\nTedros's remarks carry particular weight given the WHO's role in coordinating global health responses and its front-row view of how mRNA technology reshaped the trajectory of the Covid-19 crisis. The organization has been working to expand mRNA vaccine manufacturing capacity in low- and middle-income countries, an effort that could be complicated if upstream research loses momentum due to the withdrawal of its largest funder.\n\nThe criticism from the WHO chief adds to a growing chorus of concern from scientists, public health officials, and pharmaceutical industry leaders who warn that abandoning investment in mRNA research risks squandering a hard-won technological advantage — one that was built on decades of publicly funded basic science and proved its worth during the deadliest pandemic in a century.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "WHO",
+        "mRNA",
+        "public health",
+        "US research funding",
+        "Tedros Adhanom Ghebreyesus",
+        "pandemic preparedness"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1700616270774-c49913d89a3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxDaGllZiUyMENvbmRlbW5zJTIwRGVjaXNpb258ZW58MHwwfHx8MTc3MjExMDk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/who-chief-says-us-wrong-to-cut-mrna-research-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T13:48:12.724Z"
+    },
+    {
+      "id": "ps-1772113725743-0sdz",
+      "slug": "ethereum-foundation-unveils-seven-fork-roadmap-targeting-8-s",
+      "headline": "Ethereum Foundation Unveils Seven-Fork Roadmap Targeting 8-Second Finality by 2029",
+      "subheadline": "The ambitious 'strawmap' plans a ground-up rebuild of Ethereum's consensus, throughput, privacy, and quantum defenses over four years",
+      "body": "The Ethereum Foundation on Wednesday published what may be its most sweeping technical blueprint in years — a multi-year \"strawmap\" detailing seven consecutive hard forks through 2029 that would fundamentally reshape the world's largest smart-contract blockchain.\n\nReleased by EF researcher Justin Drake and endorsed by co-founder Vitalik Buterin as \"very important,\" the roadmap is organized around five strategic pillars: compressing transaction finality from roughly 16 minutes to as little as 8 seconds, scaling Layer 1 throughput to approximately 10,000 transactions per second, enabling Layer 2 networks to reach an estimated 10 million TPS, deploying post-quantum cryptographic protections, and introducing shielded ETH transfers that conceal transaction details from public view. Each objective has a specific fork target rather than an open-ended timeline, lending the document a degree of engineering concreteness unusual for blockchain roadmaps.\n\nThe finality improvements alone represent a roughly 480-fold acceleration. The mechanism behind them is a proposed new consensus algorithm called Minimmit, which reaches agreement in a single voting round rather than the multi-round process used today. Buterin outlined a gradual approach to reducing Ethereum's block slot time — currently 12 seconds — through incremental steps of 8, 6, 4, and potentially 2 seconds, with each reduction contingent on demonstrated network safety. He likened the broader strategy to a \"ship of Theseus\" rebuild, where individual consensus components are replaced sequentially so that no single upgrade proves too disruptive.\n\nThe post-quantum and privacy elements add further ambition. The plan calls for hash-based cryptographic signatures designed to resist attacks from future quantum computers — a threat that Strategy's Michael Saylor recently dismissed as more than a decade away for Bitcoin but that Ethereum's developers are treating as a near-term engineering challenge. Meanwhile, shielded transfers would let users send ETH without exposing amounts, senders, or recipients on the public ledger, addressing a long-standing tension between blockchain transparency and individual financial privacy.\n\nMarkets offered a muted but positive initial response. Ether was trading near $2,072 on Wednesday, up roughly 5.3% on the day, though still well below its all-time highs. The gap between the roadmap's technical ambition and ETH's subdued price action underscores a central question for investors: whether the promise of a dramatically faster, more private, and quantum-resistant Ethereum can translate into renewed demand for the asset — or whether execution risk across seven hard forks in four years will keep sentiment cautious through the second half of 2026 and beyond.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "blockchain",
+        "cryptocurrency",
+        "ETH",
+        "Vitalik Buterin",
+        "post-quantum cryptography",
+        "DeFi"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/b7dd683e48326c2ace004e4e6c4b4f6ff6c84c77-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T13:48:45.743Z"
     },
     {
       "id": "ps-1772112752738-07i9",
@@ -43,71 +149,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T13:32:32.738Z"
-    },
-    {
-      "id": "ps-1772112770599-k15o",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for signs of ancient life",
-      "body": "Ancient microbial life — or at least its molecular remnants — could persist in Martian ice for tens of millions of years, far longer than previously assumed, according to new research from NASA's Goddard Space Flight Center and Penn State University. The findings, published in the journal Astrobiology, could fundamentally reshape how scientists design future missions to search for life on the Red Planet.\n\nA team led by space scientist Alexander Pavlov sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's icy polar regions. The radiation exposure simulated 20 million years of cosmic ray bombardment, and mathematical modeling extended the analysis to 50 million years. The result was unexpected: more than 10 percent of the bacteria's amino acids — the essential building blocks of proteins — survived the full duration in pure ice. That timeframe dwarfs the estimated age of many surface ice deposits on Mars, which are often younger than two million years, meaning any organic traces frozen within them would likely still be detectable.\n\nThe study's most surprising finding involved the role of Martian soil. When ice was mixed with silicate-based rocks and clay typical of Martian sediment, amino acids broke down roughly ten times faster and did not survive the simulation. This contradicted expectations set by a 2022 study from the same group, which had found that a mixture of 10 percent water ice and 90 percent Martian soil destroyed organics quickly — leading researchers to assume pure ice would fare even worse. Instead, the opposite proved true. Pavlov's team hypothesizes that a thin film forming at the boundary between ice and mineral grains allows radiation-generated reactive particles to move more freely and attack organic molecules, whereas in solid ice those harmful particles become frozen in place.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. The implication is clear: drilling into clean, buried ice deposits — rather than analyzing rocks or soil — offers the best chance of recovering biological material. House noted that substantial ice exists just below the Martian surface and that missions would need drilling or scooping capabilities similar to those deployed by NASA's 2008 Phoenix lander, the first spacecraft to excavate and photograph subsurface Martian ice.\n\nThe research also carries implications beyond Mars. When the team tested organic preservation at the even colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed further still. That bodes well for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to arrive at Jupiter in 2030 to perform 49 close flybys of Europa's ice shell and investigate whether its subsurface ocean could harbor life. Taken together, the findings suggest that ice — long overlooked in favor of rock and clay — may be the solar system's most promising archive of ancient biology.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "space exploration"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T13:32:50.599Z"
-    },
-    {
-      "id": "ps-1772112785101-q749",
-      "slug": "instagram-to-alert-parents-when-teens-search-for-self-harm-c",
-      "headline": "Instagram to Alert Parents When Teens Search for Self-Harm Content",
-      "subheadline": "Meta rolls out new parental notifications amid mounting lawsuits over teen safety failures on its platforms",
-      "body": "Instagram will begin notifying parents when their teenagers repeatedly search for terms related to suicide or self-harm, the Meta-owned platform announced Thursday — a move that arrives as the company faces intensifying legal scrutiny over its track record protecting young users.\n\nThe new alerts, rolling out in the coming weeks in the United States, United Kingdom, Australia, and Canada, will reach parents enrolled in Instagram's parental supervision feature via email, text, or WhatsApp, along with an in-app notification. Searches that could trigger an alert include phrases encouraging self-harm, language suggesting a teen may be at risk, and direct terms such as \"suicide\" or \"self-harm.\" Instagram said it will also provide parents with resources to help guide conversations with their children. The company plans to expand the feature to other regions later this year and eventually extend the alerts to cases where teens attempt to engage Instagram's AI tools in conversations about self-harm.\n\nThe timing is difficult to separate from Meta's legal troubles. This week, Instagram head Adam Mosseri faced pointed questioning from prosecutors in a social media addiction case before the U.S. District Court in the Northern District of California, where he was pressed on the platform's delayed deployment of basic safety features, including a nudity filter for private messages sent to minors. In a separate proceeding before the Los Angeles County Superior Court, internal Meta research was revealed showing that the company's own parental supervision and control tools had little measurable impact on children's compulsive social media use — a finding that could undercut the very framework on which the new alerts depend.\n\nInstagram acknowledged the challenge of calibrating the notification threshold, saying it consulted with its Suicide and Self-Harm Advisory Group to avoid overwhelming parents with false alarms while still erring on the side of caution. \"We chose a threshold that requires a few searches within a short period of time,\" the company wrote in a blog post, adding that it would \"continue to monitor and listen to feedback.\" The platform already blocks search results for suicide and self-harm content, but the new feature is designed to ensure parents are looped in when a teen persistently attempts to access such material.\n\nWhile child safety advocates may welcome the additional layer of protection, Meta's own leaked research raises a pointed question: if parental controls have limited effect on compulsive use, how much difference will another notification make? The answer may ultimately be shaped less by product design than by the courtrooms where Meta's responsibilities to its youngest users are being adjudicated in real time.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Instagram",
-        "Meta",
-        "teen safety",
-        "parental controls",
-        "social media",
-        "self-harm",
-        "Adam Mosseri"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/instagram-app-icon-GettyImages-1046023150.jpg?resize=1200,801",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/instagram-now-alerts-parents-if-their-teen-searches-for-suicide-or-self-harm-content/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T13:33:05.101Z"
-    },
-    {
-      "id": "ps-1772112801423-ou6i",
-      "slug": "who-chief-condemns-us-decision-to-defund-mrna-research",
-      "headline": "WHO Chief Condemns US Decision to Defund mRNA Research",
-      "subheadline": "Tedros Adhanom Ghebreyesus calls the pullback from the technology behind Covid vaccines a 'wrong decision'",
-      "body": "World Health Organization Director-General Tedros Adhanom Ghebreyesus has sharply criticized the United States for withdrawing funding from mRNA research, calling the move a mistake that could set back global health preparedness.\n\nSpeaking to journalist Mishal Husain in an interview aired by Bloomberg on February 26, Tedros described the defunding as \"a wrong decision,\" taking direct aim at the US government's retreat from supporting the platform technology that underpinned some of the most widely deployed Covid-19 vaccines. The mRNA approach, pioneered in the pandemic-era shots developed by Pfizer-BioNTech and Moderna, has been widely regarded as one of the most significant biomedical breakthroughs in recent decades, with researchers exploring its potential applications in cancer treatment, influenza, and other infectious diseases.\n\nThe WHO chief's remarks come amid a broader pattern of US pullbacks from global health infrastructure. The Trump administration has pursued sweeping cuts to biomedical research funding and has moved to reduce American engagement with multilateral health bodies, including the WHO itself. Critics of these cuts argue that mRNA technology represents a rare area where sustained public investment yielded transformative results at unprecedented speed, and that abandoning that pipeline risks ceding scientific leadership to competitors in Europe and Asia.\n\nFor lower-income nations, the stakes may be even higher. During the pandemic, the WHO worked to establish mRNA vaccine manufacturing hubs in Africa and other regions to reduce dependence on wealthy-nation supply chains. Defunding US-based research could slow the broader global effort to make the technology more accessible and adaptable to diseases that disproportionately affect developing countries, including tuberculosis and malaria, where mRNA candidates are in early-stage trials.\n\nTedros's public rebuke underscores the deepening rift between Washington and the international public health establishment. With the US historically serving as the single largest funder of both the WHO and global biomedical research, the withdrawal of support from a proven technology platform raises questions about who will fill the gap — and at what cost to future pandemic readiness.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "WHO",
-        "mRNA",
-        "US health policy",
-        "Tedros Adhanom Ghebreyesus",
-        "biomedical research",
-        "global health"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1700616270774-c49913d89a3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxjaGllZiUyMGNvbmRlbW5zJTIwZGVjaXNpb258ZW58MHwwfHx8MTc3MjExMjgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/who-chief-says-us-wrong-to-cut-mrna-research-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T13:33:21.423Z"
     },
     {
       "id": "ps-1772112817242-9gc9",
@@ -193,26 +234,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-26T12:33:32.139Z"
-    },
-    {
-      "id": "ps-1772108238500-9fxq",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager-regularized corrections",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates longstanding modeling errors in Navier-Stokes fluid simulations, potentially transforming how researchers simulate everything from turbulent flows to thermohydrodynamic systems.\n\nThe method, introduced by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi in a paper posted to arXiv on February 14, tackles a fundamental problem in lattice Boltzmann (LB) simulations: the numerical errors that arise when standard, first-nearest-neighbor lattice structures are used to model fluid dynamics governed by the Navier-Stokes equations. Their approach introduces fully local corrections through what they call Onsager-Regularized non-equilibrium populations — a mathematical framework that systematically identifies and eliminates sources of error without requiring more complex lattice geometries.\n\nThe researchers demonstrated two levels of correction on the widely used D2Q9 lattice, a two-dimensional grid with nine velocity directions that serves as a workhorse in computational fluid dynamics. A partial correction addresses violations of so-called compatibility conditions and delivers improvements of two to four orders of magnitude in accuracy — depending on whether simulations run at reference or arbitrary lattice temperatures. The fully corrected model goes further, also eliminating stress tensor modeling errors to produce what the authors describe as an exact model. Numerical benchmarks showed both corrected schemes outperforming the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and stability.\n\nThe significance of the work extends beyond incremental improvement. Lattice Boltzmann methods have become indispensable tools in computational physics, used to simulate fluid behavior in applications ranging from aerospace engineering to biological systems. However, their reliance on simplified lattice structures has historically introduced artifacts that limit fidelity, particularly in thermal and compressible flow regimes. By achieving error-free Navier-Stokes modeling on standard lattices — without resorting to computationally expensive extended lattice designs — the new method could substantially reduce the cost of high-accuracy simulations.\n\nThe authors note that their framework opens a promising avenue for thermohydrodynamic extensions, suggesting the Onsager-regularization strategy could be generalized to more complex physical scenarios involving coupled thermal and fluid transport. The work represents a collaboration bridging computational physics and statistical mechanics, building on the theoretical foundations laid by Lars Onsager's reciprocal relations, which describe how microscopic reversibility constrains transport processes in systems near equilibrium.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "lattice-Boltzmann",
-        "Navier-Stokes",
-        "computational-physics",
-        "fluid-dynamics",
-        "numerical-methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1740250577887-f2a3d47cc873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T12:17:18.500Z"
     },
     {
       "id": "ps-1772107387948-flga",
@@ -1027,27 +1048,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-25/data-center-deals-to-top-100b-eqt-s-vesely-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T21:03:12.186Z"
-    },
-    {
-      "id": "ps-1772052495274-ftkl",
-      "slug": "cme-hit-by-second-major-trading-glitch-in-a-month-halting-ga",
-      "headline": "CME Hit by Second Major Trading Glitch in a Month, Halting Gas and Metals",
-      "subheadline": "Natural gas futures were disrupted for over 30 minutes Wednesday, raising reliability concerns at the world's largest derivatives exchange",
-      "body": "CME Group, the world's largest derivatives exchange, was forced to halt trading in U.S. natural gas and metals futures on Wednesday after a technical glitch disrupted its Globex electronic trading platform — the second significant outage to hit heavily traded commodity markets in roughly a month.\n\nNatural gas futures, among the most actively traded commodity contracts globally, were offline for more than 30 minutes before CME restored operations. Metals contracts on the exchange were also affected by the disruption, though the full scope of impacted products was not immediately clear. CME did not provide detailed information about the root cause of the technical failure.\n\nThe incident is particularly notable given its proximity to a similar disruption just weeks earlier, raising questions about the resilience of critical market infrastructure that underpins trillions of dollars in annual trading volume. CME's Globex platform serves as the backbone for futures and options trading across energy, metals, agricultural commodities, interest rates, and equity indexes, making even brief outages consequential for traders managing real-time risk.\n\nRepeated disruptions at major exchanges tend to draw scrutiny from regulators and market participants alike. The Commodity Futures Trading Commission oversees CME's operations and has historically pushed for robust system safeguards at designated contract markets. While a 30-minute halt may appear minor in isolation, back-to-back incidents can erode confidence among institutional traders and algorithmic market makers who depend on uninterrupted access to manage positions and hedge exposure.\n\nNatural gas markets have been especially volatile in recent months, amplifying the stakes of any trading interruption. A halt during periods of high volatility can trap participants in positions they cannot adjust, potentially magnifying losses or forcing disorderly trading once markets reopen. CME confirmed that trading had resumed following the Wednesday disruption, but the exchange faces mounting pressure to explain the recurring technical issues and outline steps to prevent further incidents.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "CME Group",
-        "natural gas futures",
-        "trading halt",
-        "Globex",
-        "commodities",
-        "exchange outage"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1745509267699-1b1db256601e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxIaXQlMjBTZWNvbmQlMjBNYWpvciUyMFRyYWRpbmclMjBHbGl0Y2h8ZW58MHwwfHx8MTc3MjA1MjQ5NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/cme-halts-globex-metals-natural-gas-futures-on-technical-issues",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T20:48:15.274Z"
     }
   ]
 }
