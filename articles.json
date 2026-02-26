@@ -1,7 +1,132 @@
 {
-  "lastUpdated": "2026-02-26T16:03:33.400Z",
+  "lastUpdated": "2026-02-26T16:18:19.762Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772122623871-vaze",
+      "slug": "hillary-clinton-testifies-before-house-panel-probing-epstein",
+      "headline": "Hillary Clinton Testifies Before House Panel Probing Epstein Ties",
+      "subheadline": "Former secretary of state and her husband agreed to appear after facing potential contempt-of-Congress proceedings",
+      "body": "Hillary Clinton is set to testify Thursday before the U.S. House Oversight Committee as part of its investigation into the crimes of Jeffrey Epstein, the convicted sex offender who died in federal custody in 2019. Her husband, former President Bill Clinton, is expected to follow with his own deposition on Friday — a session that would mark the first time a former U.S. president has testified before a congressional panel since Gerald Ford in 1983.\n\nThe Clintons had initially resisted the committee's demands, calling them politically motivated and describing the legal summonses as a \"ploy to attempt to embarrass political rivals, as President Trump has directed.\" Their reversal came only after the threat of a contempt-of-Congress vote grew imminent, with some Democratic committee members signaling they would support initiating proceedings. A spokesperson for Bill Clinton said the couple would appear and \"look forward to setting a precedent that applies to everyone.\"\n\nHillary Clinton has maintained she does not recall ever meeting or speaking with Epstein, though she acknowledged meeting his convicted associate Ghislaine Maxwell \"on a few occasions.\" Maxwell attended the wedding of the Clintons' daughter Chelsea in 2010 in New York. Bill Clinton, who did know Epstein, has said he severed ties with the financier two decades ago, has denied any wrongdoing, and has expressed regret over the association. In an interview with the BBC last week in Berlin, Hillary Clinton dismissed the hearings as a Republican diversion from questions about President Donald Trump's own documented connections to Epstein. \"We have nothing to hide,\" she said. \"We think sunlight is the best disinfectant.\"\n\nThe depositions will take place in Chappaqua, New York, near the Clintons' home. Such proceedings are typically conducted behind closed doors, but the Clintons pushed for public testimony to prevent selective leaks of their statements. Both Democratic and Republican committee members are expected to address reporters after Thursday's session, scheduled for 11:00 a.m. Eastern. Committee chair James Comer characterized the effort as bipartisan, saying it demonstrates that \"no one is above the law.\"\n\nThe hearings come amid an ongoing release of Epstein-related files by the U.S. Department of Justice, which have illuminated the breadth of the financier's connections to powerful figures across politics, business, and society — including Trump himself. Appearing in the documents does not imply wrongdoing by any individual named.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Hillary Clinton",
+        "Bill Clinton",
+        "Jeffrey Epstein",
+        "House Oversight Committee",
+        "Congress"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/f686/live/499cd720-1321-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cd6z3e1vdvzo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T16:17:03.871Z"
+    },
+    {
+      "id": "ps-1772122638611-3sob",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers develop Onsager-Regularized corrections that improve fluid simulation accuracy by up to four orders of magnitude",
+      "body": "A team of computational physicists has introduced a novel lattice Boltzmann framework that eliminates systematic modeling errors in Navier-Stokes fluid simulations, a long-standing challenge in computational fluid dynamics. The work, published on arXiv on February 14, was authored by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi.\n\nThe lattice Boltzmann method (LBM) is a widely used computational approach for simulating fluid flows, from aerodynamics to blood circulation, by modeling the statistical behavior of fluid particles on a discrete lattice rather than solving continuum equations directly. However, standard implementations on first-nearest-neighbor lattices introduce inherent modeling errors when approximating the Navier-Stokes equations — the fundamental equations governing viscous fluid motion. These errors have historically limited the method's fidelity, particularly at non-standard lattice temperatures, forcing practitioners to choose between computational efficiency and physical accuracy.\n\nThe new approach, termed the Generalized Onsager-Regularized Lattice Boltzmann Method, tackles the problem by introducing fully local corrections through what the authors call Onsager-Regularized non-equilibrium populations. The framework offers both partial and complete correction pathways. The researchers demonstrated their method using a six-moment-constrained guided equilibrium representation on the standard D2Q9 lattice — a two-dimensional, nine-velocity lattice that is one of the most common configurations in lattice Boltzmann simulations. The partially corrected model, which addresses compatibility condition violations, achieved accuracy improvements of two orders of magnitude at reference lattice temperatures and four orders of magnitude at arbitrary lattice temperatures. The fully corrected model goes further, additionally eliminating stress tensor modeling errors to produce what the authors describe as an \"exact\" Navier-Stokes model.\n\nNumerical benchmarks confirmed that the corrected schemes deliver both improved accuracy and enhanced numerical stability compared to the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes. The fact that the corrections are fully local — meaning each lattice node can be updated independently — is significant for computational efficiency, as it preserves the inherent parallelism that makes lattice Boltzmann methods attractive for large-scale simulations on modern hardware.\n\nThe researchers noted that the framework opens a promising pathway toward thermohydrodynamic extensions, which would allow accurate simulation of coupled thermal and fluid flow phenomena. Such capabilities are critical for applications ranging from climate modeling and industrial heat transfer to microfluidic device design, where temperature-dependent fluid behavior must be captured with high fidelity on computationally tractable lattice structures.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice-Boltzmann",
+        "Navier-Stokes",
+        "computational-fluid-dynamics",
+        "numerical-methods",
+        "Onsager-regularization"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1740250577887-f2a3d47cc873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T16:17:18.611Z"
+    },
+    {
+      "id": "ps-1772122654068-odkd",
+      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
+      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rocks, to search for biosignatures",
+      "body": "Ancient microbial life, if it ever existed on Mars, could remain detectable in the planet's ice deposits for at least 50 million years — far longer than the age of most known surface ice on the Red Planet — according to new laboratory research from NASA's Goddard Space Flight Center and Penn State University.\n\nPublished in the journal Astrobiology, the study subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 20 million years of cosmic ray bombardment on the Martian surface, at temperatures of minus 60 degrees Fahrenheit to simulate conditions in Mars's polar regions. After modeling an additional 30 million years of exposure, the team found that more than 10 percent of amino acids — the fundamental building blocks of proteins — survived intact. The result was unexpectedly robust: samples mixed with Martian-like sediment, including silicate rocks and clay, degraded 10 times faster and did not survive the full simulation.\n\nThe finding upends a previous assumption. A 2022 study by the same group had shown that amino acids in a mixture of 10 percent water ice and 90 percent Martian soil broke down faster than those in sediment alone, leading researchers to expect that pure ice would offer even less protection. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, said the team believes a thin film that forms where ice contacts mineral grains allows radiation-generated particles to move more freely and attack organic molecules. In solid ice, by contrast, those harmful particles become frozen in place before they can reach biological material.\n\n\"Fifty million years is far greater than the expected age for some current surface ice deposits on Mars, which are often less than two million years old,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. \"That means if there are bacteria near the surface of Mars, future missions can find it.\"\n\nThe implications extend well beyond Mars. When the team tested organic material at temperatures matching those on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further — an encouraging signal for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to arrive at Jupiter in 2030 for 49 close flybys of the icy moon. On Mars itself, accessing buried ice will demand drilling or scooping tools similar to those carried by NASA's 2008 Phoenix lander, which first excavated and photographed subsurface ice in the Martian arctic. House noted that while Mars harbors vast quantities of ice, most of it lies just below the surface. The study's clear message for mission planners: prioritize pure, buried ice over rocks and soil as the most promising target in the search for extraterrestrial life.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T16:17:34.068Z"
+    },
+    {
+      "id": "ps-1772122666497-xpk4",
+      "slug": "cisco-reveals-hackers-exploited-critical-network-bug-since-2",
+      "headline": "Cisco Reveals Hackers Exploited Critical Network Bug Since 2023",
+      "subheadline": "A maximum-severity flaw in Catalyst SD-WAN products has given attackers persistent access to enterprise and government networks worldwide",
+      "body": "Cisco has disclosed that hackers have been exploiting a critical vulnerability in its widely deployed Catalyst SD-WAN networking products for at least three years, compromising large enterprise and government networks across the globe. The revelation prompted an urgent coordinated response from five allied governments on Wednesday.\n\nThe vulnerability carries a maximum severity score of 10.0 out of 10, reflecting its potential for catastrophic damage. It allows attackers to remotely gain the highest level of administrative privileges on affected devices without authentication, enabling them to establish persistent, hidden access within victim networks — ideal conditions for long-term espionage and data exfiltration. Catalyst SD-WAN products are used by large organizations with distributed office environments, including government agencies, to connect private networks across geographic distances.\n\nCisco said its researchers traced evidence of active exploitation back to 2023 after discovering the flaw. The company indicated that some affected organizations operate critical infrastructure — a designation that encompasses sectors such as power grids, water systems, and transportation networks — though it declined to identify specific victims. The attacks are being tracked under the designation UAT-8616, but neither Cisco nor any of the responding governments have publicly attributed the campaign to a specific nation-state or threat group.\n\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA), currently operating at reduced capacity amid a partial government shutdown, ordered all civilian federal agencies to patch their systems by end of day Friday, citing imminent threat and unacceptable risk. Australia, Canada, New Zealand, and the United Kingdom issued a joint alert warning that threat actors are targeting organizations globally through the vulnerability.\n\nThe disclosure marks the second time in roughly two months that Cisco has confronted a maximum-severity vulnerability under active exploitation. In December, the company warned of a similarly rated 10.0 flaw in its Async software platform, which underpins much of its product lineup and was also being leveraged to penetrate customer networks. The pattern raises pointed questions about the security posture of networking infrastructure that forms the backbone of enterprise and government communications worldwide.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Cisco",
+        "cybersecurity",
+        "SD-WAN",
+        "CISA",
+        "critical infrastructure",
+        "vulnerability"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2016/08/cisco.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/cisco-says-hackers-have-been-exploiting-a-critical-bug-to-break-into-big-customer-networks-since-2023/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T16:17:46.497Z"
+    },
+    {
+      "id": "ps-1772122684343-kyt4",
+      "slug": "u-s-grows-more-reliant-on-allies-to-finance-30-trillion-debt",
+      "headline": "U.S. Grows More Reliant on Allies to Finance $30 Trillion Debt Pile",
+      "subheadline": "As global investors pull back from Treasuries, Washington's closest partners become critical to funding its agenda",
+      "body": "The United States faces a growing vulnerability at the heart of its fiscal strategy: an increasing dependence on allied nations to absorb its ballooning debt, even as broader international appetite for Treasuries shows signs of waning.\n\nThe $30 trillion Treasuries market — long considered the deepest, most liquid sovereign debt market in the world — is undergoing a quiet but consequential shift in its investor base. As some foreign holders reduce their exposure to U.S. government bonds, Washington's closest geopolitical partners have taken on an outsized role in financing federal deficits. The dynamic creates a tension at the core of the Trump administration's policy agenda, which simultaneously depends on allied capital inflows and pursues trade and foreign policy stances that can strain those very relationships.\n\nThe structural shift matters because the U.S. government's borrowing needs have expanded dramatically in recent years, driven by pandemic-era spending, rising entitlement costs, and successive rounds of tax policy that have widened fiscal deficits. With the national debt now exceeding $30 trillion, even marginal changes in demand for Treasuries can ripple through interest rates, the dollar, and the broader economy. A sustained retreat by foreign buyers could force the Treasury Department to offer higher yields to attract capital, increasing borrowing costs for the government and, by extension, American consumers and businesses.\n\nThe reliance on allied governments introduces a geopolitical dimension to what has traditionally been treated as a straightforward market question. Nations that hold large quantities of U.S. debt wield a form of financial leverage — one they are unlikely to exercise abruptly, but which nonetheless colors diplomatic calculations. For the administration, the implication is clear: aggressive postures on trade, defense burden-sharing, or sanctions policy carry a hidden cost if they erode the willingness of friendly capitals to keep buying American bonds.\n\nMarket participants and fiscal analysts are watching the composition of Treasury demand closely. Should allied nations follow the broader trend of diversifying away from dollar-denominated assets, the U.S. could face a more constrained funding environment at precisely the moment its deficit trajectory demands the opposite. The question is whether Washington's political priorities and its financing needs can remain compatible over the long term.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "US debt",
+        "Treasuries",
+        "fiscal policy",
+        "Trump administration",
+        "sovereign debt",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MjEwMTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/trump-agenda-needs-allies-to-stick-with-treasuries-as-rest-flee",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T16:18:04.343Z"
+    },
+    {
+      "id": "ps-1772122699653-afhp",
+      "slug": "bitcoin-plunges-30-on-decentralized-exchange-lighter-in-flas",
+      "headline": "Bitcoin Plunges 30% on Decentralized Exchange Lighter in Flash Crash",
+      "subheadline": "A single $67 million sell order overwhelmed thin liquidity on the upstart platform while BTC rallied above $69,000 elsewhere",
+      "body": "A single massive sell order briefly sent bitcoin tumbling to $47,600 on decentralized perpetuals exchange Lighter on Wednesday — a 30% crash that lasted mere seconds — even as the cryptocurrency surged past $69,000 on major trading venues in one of its strongest intraday rallies in weeks.\n\nThe culprit was a roughly 1,000 BTC sell order, valued at approximately $67 million, that overwhelmed Lighter's shallow order books. With insufficient bids to absorb the trade, prices cascaded downward before snapping back almost instantly. \"Because Lighter is a newer DEX with less liquidity than centralized exchanges, the sell order wiped out all available bids and pushed the price down to ~$47k before recovering instantly,\" pseudonymous Web3 developer 0xTimberJ wrote in a Discord post analyzing the incident.\n\nThe episode highlights the fragility that can lurk beneath the surface of decentralized exchanges, particularly those experiencing declining user activity. Lighter, which positions itself as a challenger to category leader Hyperliquid, enjoyed a brief moment of prominence last November when it processed over $292 billion in monthly trading volume — roughly a quarter of the $1.15 trillion traded across all decentralized perpetuals platforms. But volumes have collapsed in the wake of its token airdrop late last year, as traders who had ramped up activity to farm token rewards rotated out. February volume fell to approximately $70 billion, a fraction of the $500 billion market now dominated by rivals Hyperliquid, Aster, and EdgeX.\n\nFlash crashes of this nature are a well-documented phenomenon in markets with thin liquidity, where the absence of resting orders at various price levels means even moderately sized trades can produce wildly exaggerated price swings. On centralized exchanges with deeper order books, a 1,000 BTC sale would typically move prices only marginally. On Lighter, it produced a price dislocation of roughly $21,000 per coin — a stark illustration of how liquidity conditions can transform a routine trade into a market event.\n\nThe broader bitcoin market appeared unfazed. During Wednesday's session, the cryptocurrency climbed from below $64,000 to above $69,000 before giving back some gains on Thursday, falling back below $67,000 amid a nearly 2% decline in the Nasdaq driven by post-earnings selling in Nvidia. Bitcoin was last trading near $68,057, down roughly 3.8% from its session highs.",
+      "category": "markets",
+      "importance": 5,
+      "tags": [
+        "bitcoin",
+        "flash crash",
+        "decentralized exchange",
+        "Lighter",
+        "crypto liquidity",
+        "perpetual futures"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3278b6e1da7e193aa7ca07375b6bcb542b57b6fd-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/26/bitcoin-briefly-crashes-below-usd48-000-on-upstart-exchange-despite-crypto-rally",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T16:18:19.653Z"
+    },
     {
       "id": "ps-1772121731917-gt55",
       "slug": "denmark-s-frederiksen-calls-snap-election-amid-greenland-cri",
@@ -43,28 +168,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21238",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T16:02:28.508Z"
-    },
-    {
-      "id": "ps-1772121765376-jq0g",
-      "slug": "ancient-microbial-life-could-endure-50-million-years-in-mart",
-      "headline": "Ancient Microbial Life Could Endure 50 Million Years in Martian Ice",
-      "subheadline": "NASA and Penn State lab experiments suggest future Mars missions should drill into pure ice, not rock, to find signs of life",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can persist in pure water ice for more than 50 million years, even under relentless bombardment by cosmic radiation. The finding, published in the journal Astrobiology, could fundamentally redirect the strategy for searching for life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice, then subjected them to gamma radiation at minus 60 degrees Fahrenheit — conditions matching those found in Mars's icy polar regions. The radiation dose was calibrated to simulate 20 million years of cosmic ray exposure on the Martian surface, with an additional 30 million years modeled computationally. After the equivalent of 50 million years, more than 10 percent of the amino acids in the pure ice samples remained intact. That timeframe far exceeds the estimated age of some Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" said Christopher House, a Penn State professor of geosciences and study co-author.\n\nThe results carried an important twist. Samples that mixed ice with silicate rocks and clay — materials typical of Martian sediment — degraded roughly ten times faster, with organic molecules failing to survive the simulation. The team believes a thin film that forms where ice meets mineral surfaces allows radiation-generated particles to move more freely, accelerating destruction of organic compounds. In pure ice, by contrast, those harmful particles appear to become frozen in place, unable to reach and damage nearby molecules. Lead author Alexander Pavlov, a space scientist at NASA Goddard, called the result \"surprising,\" noting that a 2022 study by the same group had suggested water ice would destroy organics even faster than soil mixtures.\n\nThe implications extend beyond Mars. When the team ran parallel tests at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further — an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is set to reach Jupiter in 2030 to investigate whether conditions beneath Europa's ice shell could support life.\n\nFor Mars exploration, the study makes a clear practical recommendation: future landers should be equipped with drills or scoops capable of reaching subsurface ice, much like NASA's 2008 Phoenix mission, the first spacecraft to excavate and photograph Martian ice. \"There is a lot of ice on Mars, but most of it is just below the surface,\" House said. Rather than analyzing rocks, clay, or surface soil, the most promising path to discovering signs of ancient — or even extant — Martian life may lie in boring into the planet's frozen interior.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "cosmic radiation"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T16:02:45.376Z"
     },
     {
       "id": "ps-1772121781217-ws5g",
@@ -301,26 +404,6 @@
       "publishedAt": "2026-02-26T15:33:30.710Z"
     },
     {
-      "id": "ps-1772119039643-zj1l",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations — a longstanding challenge in computational fluid dynamics. The work, published on the arXiv preprint server on February 14, demonstrates accuracy improvements of two to four orders of magnitude over existing approaches.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi introduced what they call the Generalized Onsager-Regularized (OReg) Lattice Boltzmann Method, which applies fully local corrections to non-equilibrium particle populations on standard first-nearest-neighbor lattices. The key innovation lies in using Onsager regularization — rooted in the thermodynamic reciprocal relations formulated by Nobel laureate Lars Onsager — to systematically identify and correct errors that arise when discretizing the Boltzmann transport equation onto simple computational grids like the widely used D2Q9 lattice.\n\nLattice Boltzmann methods have become a workhorse of computational fluid dynamics over the past three decades, prized for their parallelizability and ability to handle complex geometries. However, the standard approach introduces artifacts when mapping continuous kinetic theory onto discrete lattice structures. These errors manifest as violations of compatibility conditions and inaccuracies in stress tensor modeling, limiting the fidelity of simulations in applications ranging from turbulence research to biomedical flow modeling. The new framework addresses both classes of error through what the authors describe as partially and completely corrected OReg models.\n\nThe partially corrected model targets compatibility condition violations alone and achieves two orders of magnitude improvement at reference lattice temperatures, rising to four orders of magnitude at arbitrary lattice temperatures. The completely corrected model goes further by also eliminating stress tensor errors, yielding what the researchers describe as a \"fully corrected exact model.\" Numerical benchmarks confirm that both corrected schemes outperform the standard Lattice-BGK method and uncorrected OReg schemes in both accuracy and numerical stability.\n\nPerhaps most significantly, the corrections remain entirely local — meaning each lattice node can be updated independently without additional communication with distant nodes. This preserves the computational efficiency and parallelism that make lattice Boltzmann methods attractive for large-scale simulations on modern supercomputers and GPU architectures. The authors note that the framework opens a promising pathway toward OReg-based thermohydrodynamic extensions, which could enable more accurate simulations of heat transfer coupled with fluid flow — a critical capability for engineering and climate modeling applications.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational fluid dynamics",
-        "Onsager regularization",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1568667185745-50c858f7448a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T15:17:19.643Z"
-    },
-    {
       "id": "ps-1772119070419-5pti",
       "slug": "ebay-cuts-800-jobs-despite-strong-revenue-growth",
       "headline": "eBay Cuts 800 Jobs Despite Strong Revenue Growth",
@@ -360,47 +443,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/instagram-now-alerts-parents-if-their-teen-searches-for-suicide-or-self-harm-content/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-26T15:03:01.145Z"
-    },
-    {
-      "id": "ps-1772118199695-0bfh",
-      "slug": "u-s-grows-dangerously-dependent-on-allies-to-fund-30t-debt-p",
-      "headline": "U.S. Grows Dangerously Dependent on Allies to Fund $30T Debt Pile",
-      "subheadline": "As foreign adversaries and central banks retreat from Treasuries, Washington's closest partners become critical backstop",
-      "body": "The United States faces a growing structural vulnerability in its $30 trillion Treasury market as the nation becomes increasingly reliant on allied governments to absorb its expanding debt, even as other major foreign holders pull back.\n\nThe shift represents a significant realignment in the global demand picture for U.S. government bonds. Central banks in countries that have historically been major Treasury buyers — including China — have been steadily reducing their holdings in recent years, driven by geopolitical tensions, de-dollarization efforts, and a desire to diversify reserves. That retreat has left a widening gap that allied nations such as Japan, the United Kingdom, and European partners have been called upon to fill, either directly through sovereign purchases or indirectly through private-sector demand.\n\nThe dynamic creates an uncomfortable reality for the Trump administration, which has pursued an aggressive policy agenda that depends on continued access to affordable borrowing. Tax policy ambitions, defense spending, and other fiscal priorities all require a deep and liquid Treasury market with robust demand. Yet the administration's trade confrontations, tariff campaigns, and at times combative diplomatic posture toward even traditional partners risk alienating the very buyers Washington now needs most. Any fracture in allied confidence — whether over trade disputes, security disagreements, or concerns about U.S. fiscal discipline — could translate directly into higher borrowing costs.\n\nMarket participants have taken note of the concentration risk. With the federal deficit remaining elevated and debt issuance showing no signs of slowing, the Treasury Department faces a delicate balancing act: maintaining enough foreign demand to keep yields manageable while the domestic investor base, including money market funds and banks, absorbs an ever-larger share. The Federal Reserve, which aggressively trimmed its own Treasury holdings through quantitative tightening, has added further pressure to the demand equation.\n\nThe situation underscores a broader tension at the heart of U.S. economic strategy. America's ability to borrow at scale and at relatively low cost has long been underpinned by the dollar's reserve currency status and the perception of Treasuries as the world's safest asset. But as geopolitical fault lines deepen and the pool of willing buyers narrows, that privilege increasingly depends not on market fundamentals alone, but on the strength of diplomatic relationships — a currency that, unlike bonds, cannot simply be printed.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "US Treasuries",
-        "national debt",
-        "foreign holders",
-        "geopolitics",
-        "fiscal policy",
-        "Trump administration"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1628124307143-e84189d3da7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bWFya2V0c3xlbnwwfDB8fHwxNzcyMDk3NTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/trump-agenda-needs-allies-to-stick-with-treasuries-as-rest-flee",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T15:03:19.695Z"
-    },
-    {
-      "id": "ps-1772116333542-0smh",
-      "slug": "hillary-clinton-testifies-before-house-epstein-panel-thursda",
-      "headline": "Hillary Clinton Testifies Before House Epstein Panel Thursday",
-      "subheadline": "Former secretary of state and husband Bill Clinton reversed their refusal to appear, averting contempt-of-Congress vote",
-      "body": "Hillary Clinton is scheduled to appear Thursday before the U.S. House Oversight Committee investigating the crimes of deceased sex offender Jeffrey Epstein, marking a dramatic reversal after the Clintons had long resisted congressional demands to testify.\n\nThe former secretary of state and 2016 Democratic presidential nominee will provide a deposition beginning at 11:00 a.m. EST in Chappaqua, New York, near the couple's home. Former President Bill Clinton is expected to follow with his own testimony on Friday — an appearance that would make him the first ex-president to testify before a congressional panel since Gerald Ford in 1983. Both Democratic and Republican committee members plan to address reporters following Hillary Clinton's session.\n\nThe Clintons' agreement to cooperate came as the committee moved toward a contempt-of-Congress vote, with some Democratic members joining Republicans in supporting the proceedings. The couple had previously dismissed the subpoenas as partisan theater orchestrated at President Donald Trump's direction, and argued that sworn written statements they had already submitted covered the \"limited information\" they possessed about Epstein. A spokesperson for Bill Clinton said the pair would appear and \"look forward to setting a precedent that applies to everyone.\"\n\nHillary Clinton has said she does not recall ever meeting or speaking with Epstein. Bill Clinton, who did know the financier, has denied any wrongdoing or awareness of Epstein's crimes, stating he severed ties roughly two decades ago and expressing regret over the association. Bill Clinton's name surfaces in text messages and photographs recently released in stages by the Department of Justice as part of its disclosure of materials from federal investigations into Epstein, who died in a Manhattan jail cell in 2019. As with other prominent figures appearing in the files — including Trump, who had his own past social connection with Epstein — inclusion in the documents does not imply criminal conduct.\n\nThe Clintons reportedly pushed for their depositions to be held publicly rather than behind closed doors, seeking to prevent selective leaks of their testimony. Committee Chairman James Comer characterized the effort to secure the depositions as a bipartisan demonstration that \"no one is above the law.\" The hearings come amid broader scrutiny of Epstein's extensive network of high-profile connections, which continues to generate political and legal fallout years after his death.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Hillary Clinton",
-        "Bill Clinton",
-        "Jeffrey Epstein",
-        "House Oversight Committee",
-        "congressional testimony"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/8aa7/live/20b532f0-130b-11f1-bf20-f10c8e9eb926.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cd6z3e1vdvzo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T14:32:13.542Z"
     },
     {
       "id": "ps-1772114535249-qhga",
@@ -1009,47 +1051,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.20173",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T04:47:34.399Z"
-    },
-    {
-      "id": "ps-1772080341993-9bwh",
-      "slug": "physicists-discover-fundamental-flaw-in-wave-superposition-f",
-      "headline": "Physicists Discover Fundamental Flaw in Wave Superposition for Layered Media",
-      "subheadline": "New research reveals that the superposition principle can break down in multilayered systems — and offers a fix",
-      "body": "A pair of physicists has identified conditions under which the superposition principle — one of the most foundational concepts in linear wave physics — fails when applied to multilayered media, a finding with implications for how scientists model everything from optical coatings to seismic wave propagation.\n\nMichael Mazilu and Andriejus Demčenko, in a paper posted to the arXiv preprint server on February 17, demonstrate that when fields in multilayered systems are expanded as infinite series of evanescent and inhomogeneous waves, the resulting superposition can diverge rather than converge to a physically meaningful solution. The breakdown is not a numerical glitch or computational artifact, the authors stress, but a genuine mathematical failure that arises specifically in systems with three or more interfaces. The root cause lies in the fact that evanescent wave components — waves that decay exponentially rather than propagate — cannot be properly normalized within the conventional basis used in standard scattering and modal decomposition frameworks.\n\nThe superposition principle, which states that the net response of a linear system to multiple stimuli equals the sum of individual responses, has been a bedrock assumption in physics for centuries. It underpins analytical techniques ranging from Fourier analysis to quantum mechanics. The new work does not challenge superposition itself but rather shows that certain mathematical representations of physical fields can violate the conditions necessary for it to hold. Using both the Airy formula — a standard tool for computing reflection and transmission in thin films — and the scattering-matrix formalism widely employed in photonics and acoustics, the researchers map out precisely where conventional expansions break down.\n\nCritically, the paper does not merely diagnose the problem but proposes a solution. Mazilu and Demčenko introduce what they call \"power flux modes\" — an orthonormal basis of wave solutions constructed to preserve energy conservation during scattering events. They prove that in this flux-orthonormal basis, interface scattering becomes unitary and propagation eigenvalues remain bounded, which together guarantee convergence of the series expansion. The approach requires no regularization or renormalization, distinguishing it from ad hoc fixes that have previously been applied to tame evanescent mode divergences in layered systems.\n\nThe framework is general, applying to scalar, electromagnetic, and elastic wave systems alike. If validated through peer review and subsequent experimental work, it could reshape computational methods in fields where multilayer wave propagation is central — including thin-film optics, acoustic metamaterials, and geophysical imaging. The work also raises a cautionary note for theorists: even in ostensibly linear systems, the choice of mathematical representation can introduce unphysical divergences that masquerade as genuine complexity.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "superposition principle",
-        "wave physics",
-        "evanescent waves",
-        "scattering matrix",
-        "multilayered media"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1677439283162-79114d6c84c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxzdXBlcnBvc2l0aW9uJTIwcHJpbmNpcGxlJTIwd2F2ZSUyMHBoeXNpY3N8ZW58MHwwfHx8MTc3MjAwMjAzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20179",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T04:32:21.993Z"
-    },
-    {
-      "id": "ps-1772076784508-kjaj",
-      "slug": "retired-u-s-air-force-major-arrested-for-allegedly-training-",
-      "headline": "Retired U.S. Air Force Major Arrested for Allegedly Training Chinese Military Pilots",
-      "subheadline": "Justice Department announces charges in latest case highlighting concerns over illegal defense expertise transfer to China",
-      "body": "A former U.S. Air Force major has been taken into custody on charges that he provided training to Chinese military pilots, the Department of Justice announced on Wednesday, marking the latest in a series of national security cases involving alleged transfers of sensitive defense knowledge to Beijing.\n\nThe arrest underscores the escalating concern within U.S. intelligence and law enforcement circles about China's efforts to recruit current and former Western military personnel to bolster the capabilities of the People's Liberation Army. In recent years, multiple allied nations — including the United Kingdom, Australia, and Canada — have identified and sought to curtail similar recruitment pipelines, often operated through private intermediaries or flight training academies based in third countries.\n\nDetails surrounding the specific charges and the circumstances of the alleged training remain limited, as the case was newly announced. The Justice Department did not immediately elaborate on the duration of the alleged activity, the number of Chinese pilots involved, or whether any classified information was compromised. Air Force personnel, even after retirement, remain bound by federal laws restricting the sharing of military expertise with foreign adversaries, and violations can carry severe criminal penalties.\n\nThe case arrives at a moment of heightened tension in U.S.-China military relations, with Washington increasingly focused on closing gaps that allow strategic knowledge to flow to competitors. The Pentagon and intelligence agencies have in recent years expanded counterintelligence efforts aimed at detecting unauthorized contacts between former service members and foreign governments. In 2023, the Defense Department issued updated guidance warning veterans about the legal risks of accepting consulting or training roles with firms linked to the Chinese military.\n\nIf convicted, the former officer could face significant prison time. The arrest sends a clear signal that U.S. authorities intend to aggressively prosecute individuals accused of helping adversary nations improve their military readiness, regardless of whether classified material is directly involved. Further details are expected as the case proceeds through federal court.",
-      "category": "breaking",
-      "importance": 7,
-      "tags": [
-        "national security",
-        "China",
-        "U.S. Air Force",
-        "espionage",
-        "Department of Justice",
-        "military"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1588481519836-adc5130d0e31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxuYXRpb25hbCUyMHNlY3VyaXR5JTIwQ2hpbmF8ZW58MHwwfHx8MTc3MjA3NTg4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/former-us-air-force-major-accused-of-training-chinese-pilots",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T03:33:04.508Z"
     }
   ]
 }
