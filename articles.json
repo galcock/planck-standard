@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-02-26T09:03:24.694Z",
+  "lastUpdated": "2026-02-26T09:18:44.677Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772097443473-ij1p",
+      "slug": "video-shows-israeli-soldiers-shot-palestinian-boy-blocked-ai",
+      "headline": "Video Shows Israeli Soldiers Shot Palestinian Boy, Blocked Aid as He Died",
+      "subheadline": "BBC investigation reveals 14-year-old Jad Jadallah bled for at least 45 minutes while 14 soldiers stood by in West Bank camp",
+      "body": "A BBC investigation published Thursday has revealed harrowing video evidence showing Israeli soldiers shooting a 14-year-old Palestinian boy at close range in a West Bank refugee camp last November, then blocking ambulances and standing by for at least 45 minutes as he bled to death.\n\nJad Jadallah was killed on a street in al-Far'a refugee camp, home to roughly 10,000 Palestinians and subject to frequent Israeli military raids. CCTV footage verified by the BBC shows a group of four soldiers had remained concealed behind a wall after other military vehicles departed the camp. When Jad and two friends appeared around a corner — apparently checking whether the soldiers had left based on a community messaging group alert — a lead soldier opened fire from less than three meters away. Jad attempted to flee up an alley but collapsed after a few steps. His two friends escaped.\n\nWhat followed, captured in bystander footage filmed by a camp resident, raises grave questions about the conduct of Israeli forces. Fourteen soldiers formed a cordon around the wounded teenager but none appeared to administer life-saving medical care, despite standard Israeli military training in trauma treatment. Jad can be seen waving his arms and throwing his hat toward soldiers in apparent attempts to get their attention; the soldiers appeared to ignore him and kicked the hat back. Two Palestinian Red Crescent ambulances arrived — the first within eight minutes — but both were stopped at gunpoint by soldiers, according to lead paramedic Hassan Fouqha, who said his team watched helplessly from roughly 100 yards away. The Israel Defence Forces told the BBC that soldiers provided \"initial medical treatment\" after verifying Jad was not wearing explosives, but declined to specify what treatment was given or describe his injuries.\n\nThe investigation also uncovered footage appearing to show a soldier dropping a heavy object next to Jad's body and photographing it — an action Jad's family and the Israeli human rights organization B'Tselem say looks like an attempt to plant evidence justifying the shooting. The IDF has labeled Jad a \"terrorist\" who \"attempted to attack the force\" by throwing a rock, but the footage of the shooting itself shows no such action. Shai Parnes of B'Tselem told the BBC that while certainty is difficult, \"anyone who watches it with an open mind will probably come to that conclusion\" that evidence was planted, adding that similar cases have been documented before. The IDF did not respond to the specific allegation.\n\nThe Israeli military has refused to return Jad's body to his family and has declined to answer questions about the number or location of his wounds, leaving basic details of his death unresolved months later. According to the United Nations, 55 Palestinian children were killed by Israeli forces in the West Bank in 2024 alone, and 227 have been killed there since the October 7, 2023 Hamas attack on Israel. Human rights organizations say Israeli soldiers in the occupied territories operate under permissive rules of engagement that frequently result in lethal force against individuals — including stone-throwing children — who pose no immediate threat to soldiers' lives.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Israel-Palestine",
+        "West Bank",
+        "IDF",
+        "human rights",
+        "BBC investigation",
+        "occupied territories"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/feab/live/9482f0a0-1257-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cpqwv9vvzx9o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T09:17:23.473Z"
+    },
+    {
+      "id": "ps-1772097459791-maxn",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that fully eliminates the modeling errors that have long plagued standard lattice-based Navier-Stokes simulations, potentially transforming how researchers simulate fluid dynamics across a wide range of applications.\n\nThe new approach, detailed in a preprint published on arXiv by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, introduces what the authors call Onsager-Regularized non-equilibrium populations — fully local corrections that can be applied to first-nearest-neighbor lattice Boltzmann schemes. The method comes in two flavors: a partial correction that addresses compatibility condition violations, and a complete correction that additionally fixes stress tensor modeling errors to yield what the researchers describe as an exact model. The partially corrected version alone improves accuracy by two to four orders of magnitude depending on whether reference or arbitrary lattice temperatures are used.\n\nLattice Boltzmann methods have become a cornerstone of computational fluid dynamics, prized for their algorithmic simplicity and natural parallelism. However, standard lattice implementations using first-nearest-neighbor interactions on grids like the commonly used D2Q9 lattice introduce systematic deviations from the true Navier-Stokes equations. These errors — arising from the finite discrete velocity sets used to approximate the continuous Boltzmann equation — have historically required workarounds such as higher-order lattices with more velocity directions, which carry significant computational overhead.\n\nThe new method sidesteps that tradeoff by embedding corrections directly into the non-equilibrium distribution functions through an Onsager regularization framework built atop a six-moment-constrained guided equilibrium representation. Crucially, the corrections remain entirely local, meaning they do not require information from neighboring lattice nodes and thus preserve the computational efficiency that makes lattice Boltzmann methods attractive in the first place. Numerical benchmarks presented in the paper show that the corrected schemes outperform both the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and stability.\n\nThe implications extend beyond incompressible flow modeling. The authors note that their framework opens a promising avenue for thermohydrodynamic extensions — simulations coupling fluid flow with heat transfer — where lattice artifacts have historically been even more problematic. If the approach generalizes as the researchers suggest, it could make high-fidelity thermal fluid simulations accessible on standard lattices without the computational penalty of expanded velocity sets, a development that would be significant for fields ranging from materials processing to atmospheric modeling.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann",
+        "computational fluid dynamics",
+        "Navier-Stokes",
+        "Onsager regularization",
+        "simulation methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1745356428094-79ab713d702d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bGF0dGljZSUyMEJvbHR6bWFubiUyMGNvbXB1dGF0aW9uYWwlMjBmbHVpZCUyMGR5bmFtaWNzfGVufDB8MHx8fDE3NzIwODY2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T09:17:39.791Z"
+    },
+    {
+      "id": "ps-1772097474953-ih61",
+      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
+      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
+      "subheadline": "NASA-Penn State lab experiments suggest future Mars missions should drill into pure ice, not rock, to find traces of biology",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can survive inside pure water ice for more than 50 million years, even under relentless bombardment by cosmic radiation. The finding, published in the journal Astrobiology, could reshape how scientists design future missions to search for life on the Red Planet.\n\nResearchers led by Alexander Pavlov of NASA's Goddard Space Flight Center, in collaboration with Penn State geoscientists, sealed E. coli bacteria inside test tubes of pure water ice and a separate set of samples mixed with silicate rocks and clay typical of Martian sediment. The tubes were placed in a gamma radiation chamber at Penn State's Radiation Science and Engineering Center, cooled to minus 60 degrees Fahrenheit to approximate conditions in Mars's icy regions, and blasted with radiation equivalent to 20 million years of cosmic ray exposure. Mathematical modeling then extended the simulation to 50 million years. In the pure ice samples, more than 10 percent of amino acids remained intact. Samples mixed with Mars-like soil, by contrast, degraded roughly 10 times faster and did not survive the full simulation.\n\nThe result upended expectations. A 2022 study by the same team had found that organic material broke down more quickly in a mixture of 10 percent water ice and 90 percent Martian soil than in sediment alone, leading researchers to assume that pure water would fare even worse. Instead, solid ice appears to immobilize harmful particles generated by radiation, preventing them from reaching organic compounds. Where ice meets mineral surfaces, however, a thin liquid-like film seems to let damaging radicals move more freely. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe implications extend well beyond Mars. The team also tested samples at temperatures comparable to those on Europa and Enceladus, icy moons of Jupiter and Saturn respectively, and found that degradation slowed even further in the deeper cold. Pavlov noted that the findings are encouraging for NASA's Europa Clipper spacecraft, which launched in 2024 and is expected to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell and potential subsurface ocean.\n\nFor Mars exploration specifically, the study argues that future landers should be equipped with drills or powerful scoops capable of reaching subsurface ice — much like NASA's 2008 Phoenix mission, the first spacecraft to excavate and photograph Martian ice. Co-author Christopher House, a Penn State geosciences professor, noted that many current Martian surface ice deposits are less than two million years old, well within the 50-million-year preservation window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. The research was funded by NASA's Planetary Science Division.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "extraterrestrial life",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T09:17:54.953Z"
+    },
+    {
+      "id": "ps-1772097489528-1md5",
+      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
+      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
+      "subheadline": "Full-year revenue hits $215 billion, but China remains a blank spot as CEO Huang touts 'exponential' token demand",
+      "body": "Nvidia delivered another record-breaking quarter on Wednesday, reporting $68 billion in revenue for the three months ending in January — a 73 percent increase year-over-year — as the world's most valuable company continues to ride an apparently insatiable appetite for artificial intelligence computing power.\n\nThe data center segment, which encompasses the GPU chips powering AI training and inference workloads worldwide, accounted for $62 billion of the total. For the first time, Nvidia broke that figure into subcategories: $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products including NVLink interconnects. Full-year revenue reached $215 billion, underscoring the company's dominant position in the AI infrastructure buildout.\n\nCEO Jensen Huang struck a bullish tone on the earnings call, declaring that global demand for AI tokens had gone \"completely exponential\" and that even six-year-old Nvidia GPUs deployed in cloud environments are fully utilized with rising prices. Huang also sought to ease growing investor anxiety about the sustainability of massive capital expenditure commitments by hyperscalers, arguing that in the AI era, \"compute is revenue\" and that cloud providers have reached an inflection point where token generation is profitable.\n\nNotably absent from the results was any revenue from China. Despite a recent easing of U.S. export restrictions, Chief Financial Officer Colette Kress said small quantities of H200 chips approved for Chinese customers had not yet generated sales, and the company could not guarantee future imports would be permitted. Kress offered a rare acknowledgment of competitive pressure, noting that Chinese rivals — including Moore Threads, which completed an IPO in December — \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed Nvidia's reported $30 billion pending investment in OpenAI, saying the companies were \"close\" to a partnership agreement, while SEC filings cautioned there was \"no assurance\" a deal would materialize. He referenced additional partnerships with Anthropic, Meta, and Elon Musk's xAI. The results reinforce Nvidia's central role in the AI infrastructure boom, though questions about China market access and the durability of hyperscaler spending continue to loom over the company's trajectory.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "AI",
+        "Jensen Huang",
+        "data centers",
+        "semiconductors",
+        "OpenAI"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T09:18:09.528Z"
+    },
+    {
+      "id": "ps-1772097509122-aar6",
+      "slug": "blackrock-touts-6-yields-on-japanese-bonds-for-dollar-invest",
+      "headline": "BlackRock Touts 6% Yields on Japanese Bonds for Dollar Investors",
+      "subheadline": "World's largest asset manager calls current environment a 'golden age' for long-dated Japanese sovereign debt",
+      "body": "BlackRock Inc., the world's largest asset manager, is making the case that Japanese government bonds can deliver yields of approximately 6% for U.S. dollar-based investors willing to venture into longer-dated maturities — a striking figure for a market long associated with ultra-low returns.\n\nThe firm described the current investment landscape as a \"golden age\" for the trade, which relies on currency hedging dynamics that effectively boost the returns available from Japan's sovereign debt. The strategy takes advantage of the significant interest rate differential between the United States and Japan: when dollar-based investors hedge their yen exposure back into dollars, the favorable carry from the currency swap adds substantially to the underlying bond yield. With Japanese long-dated bonds now offering meaningfully higher nominal yields than in years past — thanks to the Bank of Japan's gradual policy normalization — the combined return profile has become unusually attractive.\n\nThe call is notable given Japan's decades-long reputation as a graveyard for bond bears and a low-yield backwater for global fixed-income investors. Japanese 10-year government bond yields have climbed sharply over the past two years as the BOJ moved away from its yield curve control framework, but they remain modest by global standards. It is the currency-hedged overlay that transforms the proposition, effectively allowing investors to capture a spread that rivals or exceeds yields available in U.S. investment-grade corporate debt — but with sovereign credit quality.\n\nBlackRock's endorsement carries significant weight in global markets, where the firm oversees more than $11 trillion in assets. The recommendation comes at a time when institutional investors are increasingly searching for yield alternatives amid uncertainty about the trajectory of Federal Reserve rate cuts and elevated volatility in U.S. Treasury markets. Japanese government bonds, backed by the world's third-largest economy, offer a high-grade diversification play that many portfolios have historically underweighted.\n\nThe trade is not without risks. A rapid narrowing of the U.S.-Japan rate differential — whether through aggressive Fed easing or faster-than-expected BOJ tightening — could erode the currency hedge benefit. Duration risk on long-dated bonds also remains a concern if Japanese yields continue to rise. Still, BlackRock's framing suggests the firm sees the current window as an uncommon opportunity for global allocators looking beyond traditional fixed-income markets.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "BlackRock",
+        "Japanese bonds",
+        "fixed income",
+        "currency hedging",
+        "Bank of Japan",
+        "sovereign debt"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1628124367204-8da2e13d08cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWFya2V0c3xlbnwwfDB8fHwxNzcyMDk3NTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/blackrock-says-japanese-bonds-offer-6-yield-with-currency-boost",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T09:18:29.122Z"
+    },
+    {
+      "id": "ps-1772097524582-gge3",
+      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-higher",
+      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Higher",
+      "subheadline": "CEO Jensen Huang declares AI momentum irreversible as data center revenue scales 13x since ChatGPT's emergence",
+      "body": "Nvidia delivered a commanding fourth-quarter earnings beat on Wednesday, reporting $68.1 billion in revenue — a 73% year-over-year surge — and issuing first-quarter guidance that far exceeded Wall Street projections, reinforcing its position as the undisputed engine of the global AI infrastructure buildout.\n\nThe chipmaker, currently the world's most valuable publicly traded company, posted adjusted earnings of $1.62 per share, topping analyst consensus estimates of $1.54. Revenue also cleared the $66.1 billion analysts had penciled in, according to FactSet. But it was the forward-looking guidance that captured investor attention: Nvidia projected roughly $78 billion in first-quarter revenue, a figure well above the $72.9 billion Street expectation, signaling that demand for its AI accelerators shows no sign of plateauing.\n\nThe results were powered by a record-setting data center segment, which generated $62.3 billion in quarterly revenue — up 75% from a year ago and 22% sequentially. Chief Financial Officer Colette Kress noted on the earnings call that Nvidia's data center business has scaled by nearly 13 times since ChatGPT's debut, adding that the company has secured inventory and supply commitments extending into 2027. CEO Jensen Huang struck a characteristically bullish tone, declaring that past computational demands represent only \"a tiny fraction of what is necessary in the future\" and that \"AI is not going to go back. AI is only going to get better from here.\"\n\nThomas Monteiro, senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" noting that the data center surge confirms infrastructure deployment remains firmly in expansion mode. Nvidia shares climbed as much as 4% in after-hours trading before settling to roughly 1% higher.\n\nThe ripple effects extended beyond equities. Bitcoin held near $69,000 following a sharp rebound earlier in the week, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted modest gains after the release. Crypto mining companies with growing exposure to AI workloads — including IREN, Cipher Digital, and TeraWulf — briefly ticked 1% to 2% higher in extended trading. The muted crypto response suggests that while Nvidia's dominance continues to validate the AI thesis broadly, digital asset markets remain preoccupied with their own macro headwinds and liquidity dynamics.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "data center",
+        "Jensen Huang",
+        "crypto",
+        "bitcoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T09:18:44.582Z"
+    },
     {
       "id": "ps-1772096525657-4hus",
       "slug": "mexico-engulfed-in-cartel-violence-across-20-states-after-dr",
@@ -25,70 +153,6 @@
       "publishedAt": "2026-02-26T09:02:05.658Z"
     },
     {
-      "id": "ps-1772096541837-w3zm",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve 'error-free' fluid dynamics on standard computational lattices",
-      "body": "A team of computational physicists has developed a novel technique that eliminates longstanding modeling errors in lattice Boltzmann simulations of fluid dynamics, potentially transforming how researchers simulate everything from turbulent flows to thermohydrodynamic systems.\n\nThe method, introduced in a paper posted to arXiv on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, deploys what the authors call Onsager-Regularized non-equilibrium populations to correct errors that arise when the Navier-Stokes equations — the fundamental equations governing fluid motion — are solved on first-nearest-neighbor lattice Boltzmann grids. The approach is notable because it achieves these corrections using entirely local operations, avoiding the computational overhead of extended lattice structures or non-local calculations that have characterized previous attempts to address the problem.\n\nLattice Boltzmann methods have become a widely used alternative to traditional computational fluid dynamics over the past three decades, prized for their parallelizability and natural handling of complex boundary conditions. However, standard implementations on compact lattices such as the commonly used D2Q9 grid have been known to introduce spurious errors into the recovered macroscopic equations, limiting accuracy in certain regimes. The new generalized Onsager-Regularized (OReg) framework tackles this by offering two tiers of correction. A partial correction addresses violations of compatibility conditions, yielding accuracy improvements of two to four orders of magnitude depending on whether simulations are run at reference or arbitrary lattice temperatures. A complete correction goes further, also eliminating stress tensor modeling errors to produce what the authors describe as a \"fully corrected exact model.\"\n\nNumerical benchmarks presented in the paper demonstrate that both corrected schemes outperform the widely used Lattice-BGK method and uncorrected OReg guided-equilibrium schemes in both accuracy and numerical stability. The guided equilibrium representation used in the work is constrained by six moments on the D2Q9 lattice, a standard two-dimensional configuration with nine discrete velocities that serves as a workhorse in computational physics.\n\nThe implications extend beyond improved accuracy for existing simulations. The authors point to the framework as a \"promising avenue\" for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer — where modeling errors on standard lattices have been particularly problematic. If the approach scales effectively to three-dimensional lattices and more complex physical scenarios, it could significantly broaden the range of problems tractable with compact lattice Boltzmann methods, reducing the need for computationally expensive extended lattice configurations.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational physics",
-        "fluid dynamics",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1571101598228-c8caeaa818b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T09:02:21.837Z"
-    },
-    {
-      "id": "ps-1772096557894-assk",
-      "slug": "ancient-microbes-could-survive-50-million-years-in-martian-i",
-      "headline": "Ancient Microbes Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for signs of life",
-      "body": "Laboratory experiments simulating Martian conditions have shown that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years inside pure water ice, even under relentless bombardment by cosmic radiation. The findings, published in Astrobiology, could reshape the strategy for searching for extraterrestrial life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State sealed E. coli bacteria in test tubes of pure water ice and in samples mixed with silicate rocks and clay typical of Martian sediment. The tubes were chilled to minus 60 degrees Fahrenheit and blasted with gamma radiation at Penn State's Radiation Science and Engineering Center, replicating roughly 20 million years of cosmic ray exposure on the Martian surface. Mathematical modeling extended the simulation to 50 million years. In pure ice, more than 10 percent of the original amino acids survived the full duration. Samples mixed with Mars-like soil, however, degraded 10 times faster and did not survive.\n\nThe result upended expectations set by a 2022 study from the same team, which had found that organic material in a mixture of 10 percent water ice and 90 percent Martian soil broke down rapidly. Scientists had assumed that pure ice would offer even less protection. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin film that forms where ice contacts mineral grains, potentially allowing radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, those same harmful particles appear to become frozen in place, unable to reach and destroy the organics.\n\nThe implications extend well beyond Mars. When the team tested amino acid survival at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, deterioration slowed further still — an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell. Co-author Christopher House, a Penn State geosciences professor, noted that many current Martian surface ice deposits are less than two million years old — well within the 50-million-year survival window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said.\n\nThe practical challenge now is engineering. Most Martian ice lies just below the surface, requiring landers equipped with robust drills or powerful scoops — capabilities demonstrated by NASA's 2008 Phoenix mission, the first to excavate and photograph subsurface ice on Mars. The study's authors argue that future astrobiology missions should prioritize clean, buried ice over the rock and clay targets that have dominated Mars exploration to date. The research was funded by NASA's Planetary Science Division.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "cosmic radiation"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T09:02:37.894Z"
-    },
-    {
-      "id": "ps-1772096575373-fi2i",
-      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
-      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
-      "subheadline": "The world's most valuable company sees 73% revenue growth, but China exports remain at zero and OpenAI deal stays uncertain",
-      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for its fiscal quarter ending in early 2026 — a 73 percent increase from the same period a year ago — as insatiable demand for artificial intelligence computing continues to propel the chipmaker's dominance.\n\nThe data center segment, which encompasses the GPU accelerators and networking equipment powering the global AI buildout, accounted for $62 billion of the total. In a notable disclosure, Nvidia broke that figure into $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products including its NVLink interconnect technology. Full-year revenue reached $215 billion. CEO Jensen Huang framed the results in characteristically bold terms during an analyst call, declaring that global demand for AI tokens had gone \"completely exponential\" and that even six-year-old Nvidia GPUs deployed in the cloud are fully utilized with rising prices.\n\nDespite the headline growth, the quarter revealed lingering uncertainties. Nvidia reported zero revenue from chip exports to China, even after a partial relaxation of U.S. government restrictions. Chief Financial Officer Colette Kress noted that while small shipments of H200 chips to Chinese customers had been approved, none had yet generated sales. She also issued a rare warning about rising Chinese competition, pointing to companies like Moore Threads — which completed an IPO in December — as potential long-term disruptors to the global AI chip market.\n\nHuang addressed two other closely watched storylines. On Nvidia's reported $30 billion investment in OpenAI, he said the companies were \"close\" to finalizing a partnership agreement, though SEC filings submitted the same day cautioned there was \"no assurance\" a deal would materialize. Huang also name-checked partnerships with Anthropic, Meta, and Elon Musk's xAI as evidence of Nvidia's deepening ties across the AI ecosystem.\n\nPerhaps most significantly, Huang sought to quell growing investor anxiety over the sustainability of the massive capital expenditure commitments by hyperscale cloud providers and AI companies — spending that ultimately flows to Nvidia. \"In this new world of AI, compute is revenue,\" he argued, asserting that the industry had reached an \"inflection point\" where AI inference is generating profitable returns for cloud service providers. The framing positions Nvidia not merely as a chip vendor but as the essential infrastructure layer of an emerging token economy — a narrative the company will need to keep validating quarter after quarter as its revenue base scales into historically unprecedented territory.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "semiconductors",
-        "Jensen Huang",
-        "data centers",
-        "OpenAI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T09:02:55.373Z"
-    },
-    {
       "id": "ps-1772096589749-fwtm",
       "slug": "wpp-targets-500-million-in-cost-cuts-amid-ongoing-revenue-de",
       "headline": "WPP Targets £500 Million in Cost Cuts Amid Ongoing Revenue Decline",
@@ -107,27 +171,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/wpp-eyes-500-million-in-annual-savings-in-restructuring-drive",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T09:03:09.749Z"
-    },
-    {
-      "id": "ps-1772096604584-gij6",
-      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-far-ab",
-      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Far Above Street",
-      "subheadline": "Data center revenue surged 75% year-over-year as CEO Jensen Huang declares AI demand will only accelerate from here",
-      "body": "Nvidia delivered another blockbuster quarter on Wednesday, reporting fiscal fourth-quarter revenue of $68.1 billion — a 73% jump from a year earlier and well above the $66.1 billion Wall Street had forecast. The results reaffirm the chipmaker's dominance at the center of the global AI infrastructure buildout and suggest the spending cycle is far from peaking.\n\nThe world's most valuable public company posted adjusted earnings per share of $1.62, topping the consensus estimate of $1.54. But it was Nvidia's forward guidance that truly caught investors' attention: the company projected first-quarter revenue of approximately $78 billion, roughly $5 billion above analyst expectations of $72.9 billion. Shares rose as much as 4% in after-hours trading before settling around 1% higher.\n\nThe engine behind the beat was Nvidia's data center segment, which posted a record $62.3 billion in quarterly revenue — up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the division has scaled nearly 13-fold since the emergence of ChatGPT, and that Nvidia has secured inventory and supply commitments stretching into 2027. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com. \"The roughly 75% surge in data center revenue further reinforces that hyperscaler AI infrastructure deployment remains firmly in expansion mode.\"\n\nCEO Jensen Huang struck a characteristically bullish tone on the conference call, arguing that historical computing demand represents only a small fraction of what AI workloads will require going forward. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" Huang said, framing the current investment cycle as the early phase of a much larger transformation in how software is built and consumed.\n\nThe results rippled across adjacent markets. Bitcoin held near $69,000 following a sharp recovery earlier in the week, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining stocks with exposure to high-performance computing infrastructure — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading. The broader signal from Nvidia's quarter is clear: capital expenditure on AI infrastructure continues to accelerate, and the companies supplying the picks and shovels of this buildout remain firmly in the market's driver's seat.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "data centers",
-        "Jensen Huang",
-        "semiconductor"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T09:03:24.584Z"
     },
     {
       "id": "ps-1772095630750-5g43",
@@ -1005,48 +1048,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cgmlzg0p8k2o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-25T17:02:27.771Z"
-    },
-    {
-      "id": "ps-1772039008378-49zc",
-      "slug": "diageo-shares-suffer-record-plunge-as-new-ceo-signals-deep-t",
-      "headline": "Diageo Shares Suffer Record Plunge as New CEO Signals Deep Turnaround",
-      "subheadline": "Incoming chief Dave Lewis cuts outlook, warning investors there is no quick fix for the British spirits giant",
-      "body": "Diageo Plc suffered its largest single-day share decline on record on Tuesday after new Chief Executive Officer Dave Lewis delivered a sobering assessment of the challenges facing the world's biggest spirits maker, cutting the company's outlook and signaling that a meaningful recovery will take time.\n\nThe London-listed drinks giant, whose portfolio spans Johnnie Walker scotch, Guinness stout, and Tanqueray gin, saw its stock tumble as Lewis laid bare the depth of restructuring required. The sharp sell-off reflected investor dismay at the scale of problems accumulated at a company long considered one of Europe's most reliable consumer goods performers. Lewis, who built his reputation as a turnaround specialist during his tenure leading Tesco through its own crisis years ago, made clear that the path back to consistent growth would demand patience.\n\nDiageo has been grappling with a confluence of headwinds in recent quarters, including softening demand in key markets, destocking by distributors, and shifting consumer preferences that have pressured volumes across several of its core spirits categories. The outlook cut suggests these pressures are proving more persistent than previously acknowledged by the company's leadership. Lewis's willingness to reset expectations early in his tenure follows a well-worn playbook for incoming CEOs — taking the pain upfront to establish a lower baseline from which future performance can be measured.\n\nThe record decline underscores just how far Diageo's standing has fallen among investors who once prized the stock for its defensive qualities and dependable dividend growth. The company's market capitalization has eroded significantly from its pandemic-era highs, when a boom in at-home drinking and premiumization trends propelled spirits sales to record levels. The subsequent normalization has been more painful than many analysts anticipated.\n\nFor Lewis, the immediate task will be convincing shareholders that Diageo's brand portfolio and global distribution network remain fundamentally strong assets, even as near-term financial performance disappoints. The market's reaction suggests that confidence is in short supply, and the new CEO faces a long road to rebuild it.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Diageo",
-        "Dave Lewis",
-        "CEO turnaround",
-        "spirits industry",
-        "UK equities",
-        "consumer goods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MTk0MDAwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-25T17:03:28.379Z"
-    },
-    {
-      "id": "ps-1772038030794-1jnk",
-      "slug": "uk-commons-speaker-gave-police-flight-risk-tip-before-mandel",
-      "headline": "UK Commons Speaker Gave Police Flight Risk Tip Before Mandelson Arrest",
-      "subheadline": "Sir Lindsay Hoyle says he acted 'in good faith' passing information about the former ambassador's travel plans",
-      "body": "Sir Lindsay Hoyle, the Speaker of the House of Commons, confirmed on Tuesday that he provided the Metropolitan Police with information suggesting Lord Peter Mandelson could be a flight risk — a tip that preceded the former Labour minister's arrest on Monday as part of a misconduct in public office investigation linked to Jeffrey Epstein.\n\nSpeaking before MPs after the Times first reported his involvement, Sir Lindsay said he passed on \"relevant\" information \"in good faith\" and considered it his \"duty and responsibility\" to do so. The BBC reported that Hoyle received intelligence during a visit to the British Virgin Islands last week indicating Mandelson was planning to travel there. Sir Lindsay expressed regret that the matter had quickly leaked to the media but offered no further details about the nature or source of his information.\n\nThe disclosure has injected a new layer of political intrigue into an already extraordinary case. Mandelson's legal team at Mishcon de Reya said their client had already agreed to a voluntary police interview next month, making the arrest unnecessary. They characterized the flight risk claim as \"baseless\" and have written to the Met demanding to know what evidence underpinned the decision to take him into custody. Adding to the confusion, Mandelson's lawyers said they were told twice by police that the referral came from Lord Forsyth, the Speaker of the House of Lords — a claim Forsyth has categorically denied as \"entirely false and without foundation.\" The Met has declined to comment on the matter.\n\nMandelson was taken to Wandsworth police station in London on Monday afternoon and later released on bail, surrendering his passport as a condition. The investigation centers on allegations that, while serving as a government minister, he passed market-sensitive information to Epstein, the late convicted sex offender and financier. The allegations surfaced after the U.S. Department of Justice released a cache of documents last month, including emails between the two men. Mandelson, who was appointed British ambassador to the United States in February 2025, was dismissed from the post in September after Downing Street said new information had emerged about the depth of his relationship with Epstein.\n\nMandelson's legal team has maintained that he committed no criminal acts, was not motivated by financial gain, and intends to cooperate fully with investigators to \"clear his name.\" The Metropolitan Police is understood to have conducted its own assessment of the credibility of the information Hoyle provided before proceeding with the arrest, though the force has offered no public explanation for its decision-making.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mandelson",
-        "Lindsay Hoyle",
-        "Jeffrey Epstein",
-        "Metropolitan Police",
-        "UK politics",
-        "flight risk"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/b521/live/49b313c0-125c-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c8d5792yj9qo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-25T16:47:10.794Z"
     }
   ]
 }
