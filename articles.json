@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-26T02:03:31.936Z",
+  "lastUpdated": "2026-02-26T02:18:27.799Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772072229078-1rl4",
+      "slug": "sinaloa-cartel-s-internal-war-leaves-mexican-city-in-perpetu",
+      "headline": "Sinaloa Cartel's Internal War Leaves Mexican City in Perpetual Fear",
+      "subheadline": "Eighteen months after a leadership betrayal split one of the world's most powerful drug cartels, Culiacán averages five to six homicides daily",
+      "body": "The Mexican city of Culiacán has descended into a prolonged state of siege as rival factions of the Sinaloa cartel wage an internecine war that has driven emergency call volumes up more than 70 percent over the past year and left schools, hospitals, and even funerals vulnerable to attack.\n\nThe violence traces back roughly eighteen months to the betrayal and subsequent removal of cartel co-founder Ismael \"El Mayo\" Zambada, who was lured to the United States in an elaborate sting and now sits in a U.S. prison. His departure shattered the cartel's internal cohesion, pitting former allies — described by longtime residents as a family that once \"ate at the same table\" — against each other in a conflict with no apparent end in sight. The turmoil offers a stark illustration of the destabilizing power vacuum that follows the capture of a major cartel figure, a dynamic underscored this week by the death in custody of Nemesio Oseguera Cervantes, known as \"El Mencho,\" leader of the rival Jalisco New Generation Cartel, who was captured in a bloody firefight in Jalisco on Sunday.\n\nOn the streets of Culiacán, a prosperous northern city of shopping malls and neat parks, paramedics now wear 14 kilograms of Kevlar body armor on every call. BBC correspondent Quentin Sommerville, reporting from the city over the course of a week, documented a relentless stream of killings: a garage owner shot dead at his desk, a 16-year-old boy gunned down while riding his bicycle with more than a dozen shell casings scattered around his body, and mutilated corpses left outside shopping centers with threatening messages from one faction to another. Local journalist Ernesto Martínez, who has covered violence in the region for 27 years, said homicides persist at five to six per day despite the deployment of thousands of Mexican troops and checkpoints on most roads.\n\nThe cartel's billion-dollar fentanyl operation, which has flooded U.S. streets with opioids responsible for tens of thousands of American deaths, has placed Sinaloa at the center of international pressure. President Donald Trump has declared the Sinaloa cartel and others terrorist organizations, labeled fentanyl a weapon of mass destruction, and threatened Mexico with direct military action if it fails to contain the trafficking. Mexico's government has responded by deploying special forces across cartel hotspots, but residents and reporters on the ground say the military presence has done little to stem the bloodshed.\n\nBeyond the rising body count, the conflict has fueled a crisis of disappearances. Reynalda Pulido, whose son Javier Ernesto vanished in December 2020, leads a group called Mothers Fighting Back, whose members probe fields outside the city with metal rods and shovels, searching for makeshift graves. Members of one Sinaloa faction, interviewed by the BBC under conditions of anonymity while fully armed and masked, offered a bleak forecast: the killing will not stop until only one faction remains. \"A lot of people will keep dying because the cartel is still fighting, and it keeps getting worse,\" one fighter said. For Culiacán's residents, the once-vibrant nightlife has given way to deserted streets after dark and a fear that, as one paramedic put it, is \"everywhere and constant.\"",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mexico",
+        "Sinaloa cartel",
+        "drug violence",
+        "Culiacán",
+        "fentanyl",
+        "El Mayo Zambada",
+        "El Mencho"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1f16/live/170d1a60-10d1-11f1-97cc-8b3c62c7814d.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2g3vmde0eo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T02:17:09.078Z"
+    },
+    {
+      "id": "ps-1772072245249-24w1",
+      "slug": "machine-learning-tackles-inverse-design-of-exotic-thermal-me",
+      "headline": "Machine Learning Tackles Inverse Design of Exotic Thermal Metamaterials",
+      "subheadline": "Neural network models can now suggest material structures that shrink when heated and expand when compressed",
+      "body": "Researchers have developed a suite of machine learning models capable of reverse-engineering the design of metamaterials that exhibit two counterintuitive physical properties simultaneously — negative thermal expansion and negative Poisson's ratios — a breakthrough that could streamline the development of advanced engineering systems.\n\nThe work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, focuses on bimaterial hybrid-honeycomb lattice structures, a class of thermoelastic metamaterials that contract when heated and grow thicker when stretched. Such unusual behavior makes them highly attractive for aerospace, precision instruments, and other applications where thermal distortion must be carefully managed. However, designing these structures to meet specific performance targets has traditionally required painstaking trial-and-error simulation, as the interplay between geometry, material selection, and effective properties is highly nonlinear.\n\nTo overcome this bottleneck, the researchers first generated a large dataset using computational homogenization — a technique that calculates the bulk thermoelastic properties of lattice structures from their microscale geometry and constituent materials. By systematically varying geometrical features and base material properties, they assembled a high-throughput library of structure-property relationships. A forward neural network model was then trained on this dataset, learning to predict the effective thermoelastic properties of any given design with high accuracy and at a fraction of the computational cost of full simulation.\n\nThe more consequential advance lies in the inverse models. Six distinct neural network architectures were developed, each tailored to a different design scenario defined by which target properties the engineer specifies and which structural variables — geometry, material composition, or both — are free to vary. The trained forward model was embedded directly into the loss functions of the inverse models, ensuring physical consistency. It was also used to generate supplementary training data for constrained cases where the base materials are fixed, a common practical situation.\n\nRepresentative design examples demonstrated strong predictive performance across all six inverse models, suggesting the framework can reliably propose viable geometries and material combinations for user-specified thermoelastic targets. The approach effectively collapses what would be a computationally expensive optimization problem into a near-instantaneous neural network inference. While the study is confined to one family of hybrid-honeycomb structures, the methodology is generalizable. As metamaterial applications expand into thermal management, deployable space structures, and biomedical devices, ML-driven inverse design tools like these could significantly accelerate the path from desired function to manufacturable architecture.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "metamaterials",
+        "machine learning",
+        "inverse design",
+        "thermal expansion",
+        "materials science",
+        "neural networks"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1695902173528-0b15104c4554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.20173",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T02:17:25.249Z"
+    },
+    {
+      "id": "ps-1772072261850-gaod",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should prioritize drilling into pure ice over studying rocks and soil",
+      "body": "Ancient traces of life on Mars — if they ever existed — may have endured far longer than scientists previously believed, according to new laboratory experiments that simulated tens of millions of years of cosmic radiation bombardment on frozen biological material.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University found that amino acids from E. coli bacteria, when sealed in pure water ice and subjected to radiation equivalent to 50 million years of cosmic ray exposure on the Martian surface, retained more than 10 percent of their structural integrity. The results, published in the journal Astrobiology, represent a dramatic shift from earlier assumptions. A 2022 study by the same team had suggested that water-ice mixtures would destroy organic material even faster than dry Martian soil. Instead, the opposite proved true: samples mixed with Mars-like sediment — silicate rocks and clay — degraded 10 times faster than those in pure ice. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin liquid film that forms where ice contacts mineral surfaces, potentially allowing radiation-generated particles to move more freely and attack organic molecules. In solid ice, by contrast, those harmful particles appear to become frozen in place before they can reach biological compounds.\n\nThe implications extend well beyond Mars. The team also tested organic material at the far colder temperatures found on Europa, Jupiter's ice-covered moon, and Enceladus, the icy satellite of Saturn. Degradation slowed even further under those conditions — an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to arrive at Jupiter in 2030 for 49 close flybys of Europa's ice shell and potential subsurface ocean.\n\nFor Mars exploration specifically, the findings argue for a fundamental reorientation of mission design. Christopher House, a Penn State geosciences professor and study co-author, noted that the 50-million-year preservation window far exceeds the estimated age of many current Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. The practical challenge, however, is access: most Martian ice lies just below the surface and would require robust drilling or scooping equipment similar to the tools deployed by NASA's 2008 Phoenix lander, the first mission to excavate and photograph subsurface ice on Mars.\n\nThe study was funded by NASA's Planetary Science Division and involved gamma radiation testing at Penn State's Radiation Science and Engineering Center, where samples were frozen to minus 60 degrees Fahrenheit to replicate conditions in Mars's icy polar regions. After exposure equivalent to 20 million years, additional degradation was modeled computationally to extend the timeline to 50 million years. The research team included scientists from both Penn State and NASA Goddard, bridging laboratory geoscience and planetary exploration in a collaboration that could reshape how humanity searches for life beyond Earth.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T02:17:41.850Z"
+    },
+    {
+      "id": "ps-1772072276379-ibfe",
+      "slug": "nvidia-posts-68b-record-quarter-as-ai-compute-demand-surges",
+      "headline": "Nvidia Posts $68B Record Quarter as AI Compute Demand Surges",
+      "subheadline": "The world's most valuable company reports 73% revenue growth while navigating China uncertainty and a potential OpenAI deal",
+      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for the three months ending in January — a 73 percent increase year over year — as insatiable demand for artificial intelligence infrastructure continues to fuel the chipmaker's dominance. The company posted $215 billion in revenue for the full fiscal year.\n\nThe data center division, which has become the overwhelming engine of Nvidia's business, contributed $62 billion of the quarterly total. In a notable disclosure, the company broke that figure into $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products such as NVLink interconnects. CEO Jensen Huang framed the results in characteristically bullish terms during an analyst call: \"The demand for tokens in the world has gone completely exponential. Even our six-year-old GPUs in the cloud are completely consumed and the pricing is going up.\"\n\nDespite the headline numbers, the earnings call surfaced several unresolved questions. Nvidia reported zero revenue from chip exports to China, even after the recent easing of U.S. government export restrictions. Chief Financial Officer Colette Kress said that while small quantities of H200 chips had been approved for Chinese customers, none had yet generated sales. She also offered an unusually candid warning about Chinese competitors, noting that rivals \"bolstered by recent IPOs\" — a likely reference to Moore Threads' December listing — \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed Nvidia's widely reported potential $30 billion investment in OpenAI, saying the two companies were \"close\" to a partnership agreement. He referenced additional collaborations with Anthropic, Meta, and Elon Musk's xAI. However, an SEC filing submitted the same day cautioned there was \"no assurance\" the OpenAI deal would materialize.\n\nPerhaps the most consequential exchange came when Huang pushed back on growing investor anxiety about the sustainability of massive capital expenditure programs by the major cloud providers and tech giants that constitute Nvidia's core customer base. \"In this new world of AI, compute is revenue. Without compute, there's no way to generate tokens. Without tokens, there's no way to grow revenues,\" he said, arguing that AI workloads have reached an \"inflection point\" where token generation is now reliably profitable for cloud service providers. Whether that thesis holds will shape not just Nvidia's trajectory but the broader economics of the AI industry for years to come.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "AI",
+        "data centers",
+        "Jensen Huang",
+        "OpenAI",
+        "semiconductors"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T02:17:56.379Z"
+    },
+    {
+      "id": "ps-1772072292228-fs9s",
+      "slug": "russia-and-iran-cut-oil-prices-sharply-as-surplus-builds-at-",
+      "headline": "Russia and Iran Cut Oil Prices Sharply as Surplus Builds at Sea",
+      "subheadline": "Sanctioned producers compete for shrinking pool of Chinese buyers after India pulls back from purchases",
+      "body": "Russian and Iranian crude producers are slashing prices to attract Chinese buyers as unsold oil accumulates in floating storage at sea, intensifying a price war between two of the world's most heavily sanctioned energy exporters.\n\nThe deepening discounts reflect a dramatic narrowing of the customer base available to Moscow and Tehran. India, which had emerged as a major buyer of discounted Russian crude following the 2022 invasion of Ukraine, has pulled back from purchases, leaving China as the dominant — and increasingly powerful — negotiating partner for both nations. With fewer buyers willing to risk sanctions exposure, Russian and Iranian sellers are being forced to undercut each other to move cargoes that might otherwise sit idle on tankers.\n\nThe glut of floating oil underscores the growing effectiveness of Western sanctions regimes in constraining, if not eliminating, revenue flows to both countries. While neither Russia nor Iran has been fully shut out of global energy markets, the combination of sanctions enforcement, shipping restrictions, and insurance limitations has steadily eroded their pricing power. Chinese refiners — particularly independent processors known as \"teapots\" — are capitalizing on the dynamic, securing some of the cheapest barrels available anywhere in the world.\n\nThe price war carries broader implications for global oil markets. Deeply discounted Russian and Iranian crude flowing into China reduces Beijing's demand for barrels from the Middle East, West Africa, and the Americas, creating ripple effects across benchmark pricing. It also complicates OPEC+ efforts to manage supply and support prices, as Russian volumes sold at steep discounts effectively circumvent the cartel's production discipline even as Moscow remains a nominal participant in the alliance.\n\nFor Russia and Iran, the situation represents an uncomfortable dependency on a single major customer with substantial leverage. China's refiners have little incentive to ease the competition between the two suppliers, and every incentive to press for further concessions. As long as Western sanctions remain in place and alternative buyers stay on the sidelines, the surplus of sanctioned crude is likely to persist — keeping downward pressure on the prices Moscow and Tehran can command for their most important export.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "oil markets",
+        "Russia sanctions",
+        "Iran sanctions",
+        "China oil imports",
+        "crude oil prices",
+        "OPEC+"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1667579768701-d16391864b33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8b2lsJTIwbWFya2V0cyUyMFJ1c3NpYSUyMHNhbmN0aW9uc3xlbnwwfDB8fHwxNzcyMDcyMjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-and-iran-slashing-prices-to-china-as-oil-piles-up-at-sea",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T02:18:12.228Z"
+    },
+    {
+      "id": "ps-1772072307702-jhy1",
+      "slug": "nvidia-posts-68-1b-quarter-guides-far-above-street-estimates",
+      "headline": "Nvidia Posts $68.1B Quarter, Guides Far Above Street Estimates",
+      "subheadline": "Data center revenue surges 75% year-over-year as CEO Jensen Huang declares AI demand is accelerating, not fading",
+      "body": "Nvidia delivered a decisive beat on fourth-quarter earnings Wednesday, reporting $68.1 billion in revenue — a 73% year-over-year increase — and issuing first-quarter guidance of approximately $78 billion that blew past Wall Street's $72.9 billion consensus. The results reinforce the chipmaker's position as the world's most valuable public company and the primary beneficiary of a global buildout in artificial intelligence infrastructure.\n\nThe standout figure was data center revenue, which hit a record $62.3 billion for the quarter, up 75% from the prior year and 22% sequentially. CFO Colette Kress noted during the earnings call that Nvidia's data center business has scaled by roughly 13 times since the emergence of ChatGPT, and that the company has secured inventory and supply commitments extending into 2027. Adjusted earnings per share came in at $1.62, topping the $1.54 analyst consensus compiled by FactSet.\n\nCEO Jensen Huang struck a forcefully optimistic tone, arguing that historical computing demand represents only a fraction of what AI workloads will require going forward. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" Huang said on the conference call. Thomas Monteiro, a senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" pointing to the data center surge as evidence that infrastructure deployment remains in full expansion mode.\n\nShares initially climbed as much as 4% in after-hours trading before settling to roughly 1% higher. The muted stock reaction, despite headline-beating numbers, suggests that investors had already priced in a strong quarter and are now parsing the sustainability of guidance at these elevated levels. Nvidia's forward outlook of $78 billion for the first quarter implies continued acceleration — a signal that hyperscale cloud providers including Microsoft, Amazon, Google, and Meta show no signs of pulling back on AI capital expenditure.\n\nThe ripple effects extended to adjacent markets. Bitcoin held near $69,000 following a sharp rebound earlier in the week, while AI-linked crypto tokens Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining firms with exposure to high-performance computing — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading. The results set the tone for a broader market narrative: the AI infrastructure cycle, far from peaking, appears to be entering its next phase of expansion.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "NVDA",
+        "earnings",
+        "artificial intelligence",
+        "data centers",
+        "Jensen Huang",
+        "semiconductors"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T02:18:27.702Z"
+    },
     {
       "id": "ps-1772071332521-d99z",
       "slug": "bbc-investigation-reveals-police-order-behind-nepal-gen-z-pr",
@@ -23,115 +153,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c4g5qx357dzo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-26T02:02:12.521Z"
-    },
-    {
-      "id": "ps-1772071348899-2xft",
-      "slug": "machine-learning-cracks-inverse-design-of-exotic-metamateria",
-      "headline": "Machine Learning Cracks Inverse Design of Exotic Metamaterials",
-      "subheadline": "Neural network models can now specify the geometry and materials needed to produce metamaterials with negative thermal expansion and negative Poisson's ratios",
-      "body": "Researchers have developed a suite of machine learning models capable of solving one of metamaterials engineering's most stubborn challenges: working backward from desired properties to determine the precise structure needed to achieve them. The work, published on arXiv by Xiang-Long Peng and Bai-Xiang Xu, targets bimaterial thermoelastic lattice metamaterials — exotic structures that simultaneously exhibit negative Poisson's ratios and negative thermal expansion coefficients, meaning they shrink when heated and expand laterally when compressed.\n\nThese counterintuitive properties make such metamaterials highly attractive for aerospace, precision instruments, and other engineering applications where thermal stability and unusual mechanical responses are critical. But designing them has traditionally been a painstaking forward process: engineers propose a geometry, simulate its behavior, and iterate. The inverse problem — specifying a target set of properties and retrieving a viable design — is far more complex because multiple structural configurations can yield similar performance, and the design space is vast.\n\nPeng and Xu addressed this by first generating a large dataset through computational homogenization of hybrid-honeycomb structures with varying geometrical features and base material properties. They then trained a forward neural network model to predict effective thermoelastic properties from a given structural design, achieving high accuracy at a fraction of the computational cost of full simulation. The forward model was subsequently embedded into the loss functions of six distinct inverse models, each tailored to different design scenarios defined by varying combinations of target properties and structural design variables.\n\nThe approach is notable for its versatility. Some inverse models suggest both geometry and base material selection for a desired property set, while others operate under constraints such as fixed material choices — a practical consideration when engineers are limited to available manufacturing feedstocks. For cases with fixed base materials, the trained forward model was also used to generate additional synthetic datasets, expanding the training pool without costly new simulations.\n\nThe authors demonstrated strong predictive performance across representative design examples, suggesting the framework could be deployed for rapid prototyping and optimization in real engineering workflows. While the work focuses on a specific class of bimaterial honeycomb metamaterials, the methodology — high-throughput simulation feeding neural networks that couple forward and inverse predictions — represents a template increasingly adopted across materials science. As demand grows for structures with precisely tailored multifunctional properties, machine learning-driven inverse design may become an indispensable tool in the metamaterials engineer's arsenal.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "metamaterials",
-        "machine learning",
-        "inverse design",
-        "thermal expansion",
-        "neural networks",
-        "materials science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1764990189201-8025ff64d981?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtZXRhbWF0ZXJpYWxzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzIwMTQ2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.20173",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T02:02:28.900Z"
-    },
-    {
-      "id": "ps-1772071365266-h6ez",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for ancient life",
-      "body": "Ancient microbial life — or its chemical remnants — could persist inside Martian ice for tens of millions of years, far longer than the age of most known ice deposits on the planet's surface, according to new research from NASA's Goddard Space Flight Center and Penn State University.\n\nPublished in the journal Astrobiology, the study subjected E. coli bacteria sealed in pure water ice to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's polar regions. After simulating 50 million years of cosmic ray bombardment, more than 10 percent of amino acids — the molecular building blocks of proteins — remained intact in the pure ice samples. The result was unexpected: samples mixed with silicate rocks and clay analogous to Martian sediment degraded ten times faster, with none of the organic material surviving the same timeframe. Lead author Alexander Pavlov, a space scientist at NASA Goddard, noted that a 2022 study by the same team had predicted water ice alone would accelerate destruction. Instead, the opposite proved true. Researchers believe that in solid ice, reactive particles generated by radiation become frozen in place, unable to reach and damage organic molecules. When ice meets mineral grains, however, a thin liquid film at the interface appears to facilitate radiation damage.\n\nThe implications reframe how scientists should hunt for biosignatures on Mars. Many of the planet's known surface ice deposits are less than two million years old — well within the 50-million-year preservation window the study establishes. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. House emphasized that while Mars harbors extensive ice, most lies just beneath the surface and would require drilling or scooping capabilities similar to those deployed by NASA's 2008 Phoenix lander, the first mission to directly excavate and photograph subsurface Martian ice.\n\nThe research extends beyond Mars. The team also tested organic preservation at the far colder temperatures characteristic of Europa, Jupiter's ice-covered moon, and Saturn's Enceladus. Degradation slowed even further at those extremes, a finding Pavlov called encouraging for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to reach Jupiter in 2030 for 49 close flybys of Europa's ice shell.\n\nThe study was funded through NASA's Planetary Science Division and involved researchers from both Penn State and Goddard, including Daniel Glavin, Jamie Elsila, and Jason Dworkin. Taken together, the results amount to a concrete directive for mission planners: when searching for life's fingerprints on other worlds, look to the ice — not the rocks.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T02:02:45.266Z"
-    },
-    {
-      "id": "ps-1772071379408-9nyr",
-      "slug": "nvidia-posts-68b-quarter-as-ai-chip-demand-surges-73-",
-      "headline": "Nvidia Posts $68B Quarter as AI Chip Demand Surges 73%",
-      "subheadline": "The world's most valuable company reports $215 billion in annual revenue while eyeing OpenAI investment and China uncertainties",
-      "body": "Nvidia delivered another record-breaking quarter on Wednesday, reporting $68 billion in revenue for the three months ending in late January — a 73 percent increase from the same period a year ago — as insatiable demand for artificial intelligence computing continues to drive the chip giant's extraordinary growth trajectory.\n\nThe data center segment, which encompasses the GPU accelerators powering AI training and inference workloads worldwide, accounted for $62 billion of the quarterly total. Nvidia for the first time broke that figure into subcategories: $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products including its NVLink interconnect technology. For the full fiscal year, the company posted $215 billion in total revenue, underscoring its dominance in the AI infrastructure market.\n\nCEO Jensen Huang struck a bullish tone on the earnings call, arguing that demand for AI-generated tokens has gone \"completely exponential\" and that even six-year-old Nvidia GPUs deployed in cloud data centers are fully utilized with rising prices. Addressing persistent concerns about the sustainability of massive capital expenditure commitments by hyperscale cloud providers, Huang framed computing power as a direct revenue driver. \"In this new world of AI, compute is revenue,\" he said. \"We've reached the inflection point and we're generating profitable tokens that are productive for customers and profitable for the cloud service providers.\"\n\nDespite the headline strength, Nvidia flagged notable uncertainties. The company reported zero revenue from chip exports to China, even after the U.S. government recently loosened some restrictions. Chief Financial Officer Colette Kress disclosed that small quantities of H200 chips had been approved for Chinese customers but had not yet generated sales. More pointedly, she warned that Chinese competitors — buoyed by recent public offerings such as Moore Threads' December IPO — \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed Nvidia's reported $30 billion investment in OpenAI, saying the company is \"close\" to finalizing a partnership agreement. However, SEC filings submitted the same day cautioned there was \"no assurance\" the deal would materialize. Huang referenced additional partnerships with Anthropic, Meta, and Elon Musk's xAI, signaling Nvidia's intent to deepen its ties across the leading AI model developers even as its hardware remains the foundation on which nearly all of them build.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "AI chips",
-        "Jensen Huang",
-        "data centers",
-        "OpenAI",
-        "GPU"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T02:02:59.408Z"
-    },
-    {
-      "id": "ps-1772071395873-0ek9",
-      "slug": "russia-and-iran-cut-oil-prices-as-surplus-builds-at-sea",
-      "headline": "Russia and Iran Cut Oil Prices as Surplus Builds at Sea",
-      "subheadline": "Sanctioned crude producers compete for shrinking pool of Chinese buyers after India pulls back from purchases",
-      "body": "Russia and Iran are slashing the prices of their crude oil shipments to China as a growing glut of unsold barrels accumulates in floating storage at sea, intensifying a price war between two of the world's most heavily sanctioned energy producers.\n\nThe deepening discounts reflect a sharp narrowing of the buyer pool available to Moscow and Tehran. India, which had emerged as a critical outlet for sanctioned crude in the years following Russia's 2022 invasion of Ukraine, has retreated from purchases — leaving China as effectively the sole major market for both countries' oil exports. The result is a fierce competition for the attention of a limited group of Chinese refiners, many of them independent \"teapot\" operators who are highly sensitive to price.\n\nThe dynamic represents a significant shift in leverage toward Beijing, which can now extract steeper concessions from suppliers that have few alternative customers. For Russia, oil revenues remain the backbone of wartime fiscal planning, and any erosion in realized prices directly impacts the Kremlin's ability to fund its military campaign in Ukraine. Iran, meanwhile, has been navigating tightened enforcement of sanctions that has complicated its shipping logistics and payment channels.\n\nThe physical buildup of crude on tankers — often a sign that cargoes are struggling to find buyers — underscores the severity of the situation. When oil piles up in floating storage, it typically signals either weakening demand, logistical bottlenecks, or, as in this case, a mismatch between the volume of sanctioned supply seeking placement and the willingness of buyers to absorb it at prevailing prices. The surplus adds downward pressure not just on Russian and Iranian grades but on global benchmarks, as discounted barrels effectively displace other supply in the Chinese market.\n\nThe trend also carries implications for Western sanctions policy. Policymakers in Washington and Brussels have sought to constrain Russian and Iranian revenues without removing their barrels from global supply entirely, aiming to avoid a price spike. The current environment suggests that strategy is at least partially succeeding: the oil is still flowing, but at prices that squeeze producer margins. Whether China's strategic advantage translates into even larger import volumes — potentially undermining the revenue-limiting intent of sanctions — remains a key question for energy markets and geopolitics alike.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "oil prices",
-        "Russia",
-        "Iran",
-        "China",
-        "sanctions",
-        "crude oil",
-        "energy markets",
-        "India"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1754557177907-e8d520022f7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8b2lsJTIwcHJpY2VzJTIwUnVzc2lhfGVufDB8MHx8fDE3NzIwNzEzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/russia-and-iran-slashing-prices-to-china-as-oil-piles-up-at-sea",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T02:03:15.873Z"
-    },
-    {
-      "id": "ps-1772071411835-0tu1",
-      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-higher",
-      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Higher",
-      "subheadline": "Data center revenue surged 75% year-over-year as CEO Jensen Huang declared AI demand will only accelerate",
-      "body": "Nvidia delivered another blowout quarter on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% jump from a year earlier and roughly $2 billion above Wall Street's consensus estimate of $66.1 billion. Adjusted earnings per share came in at $1.62, also topping the $1.54 analysts had forecast, according to FactSet data.\n\nPerhaps more significant than the backward-looking beat was the forward guidance. Nvidia projected first-quarter revenue of approximately $78 billion, clearing analyst expectations of $72.9 billion by a wide margin and signaling that the AI infrastructure buildout shows no signs of decelerating. Shares initially rose as much as 4% in after-hours trading before settling to roughly 1% higher.\n\nThe engine behind the results remains Nvidia's data center division, which posted record quarterly revenue of $62.3 billion — up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the company has \"now scaled our data center business by nearly 13x since the emergence of ChatGPT,\" adding that inventory and supply commitments are already in place for shipments extending into 2027. Thomas Monteiro, senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" noting that infrastructure deployment remains \"firmly in expansion mode.\"\n\nCEO Jensen Huang struck a characteristically bullish tone during the conference call, arguing that historical computation demand represented only \"a tiny fraction of what is necessary in the future.\" His blunt assessment: \"AI is here. AI is not going to go back. AI is only going to get better from here.\" As the world's most valuable publicly traded company, Nvidia's outlook carries outsized weight for the broader technology sector and the vast ecosystem of firms building around artificial intelligence.\n\nThe results rippled across adjacent markets. Bitcoin held near $69,000 following a sharp rebound earlier in the week, while AI-linked crypto tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining firms with growing ties to AI and high-performance computing — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading before also pulling back. The muted reaction in risk assets suggests investors had already priced in a strong Nvidia quarter, and attention now turns to whether the company's aggressive guidance can sustain momentum across the AI trade.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "data centers",
-        "Jensen Huang",
-        "semiconductor"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T02:03:31.835Z"
     },
     {
       "id": "ps-1772068688780-i36l",
@@ -173,28 +194,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/the-bull-case-for-bitcoin-is-hiding-in-the-1-trillion-wreckage",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T00:18:08.897Z"
-    },
-    {
-      "id": "ps-1772064129143-x0du",
-      "slug": "sinaloa-cartel-s-internal-war-turns-culiac-n-into-a-kill-zon",
-      "headline": "Sinaloa Cartel's Internal War Turns Culiacán Into a Kill Zone",
-      "subheadline": "Eighteen months after a leadership betrayal fractured one of the world's most powerful drug cartels, daily killings terrorize a Mexican city",
-      "body": "Culiacán, the prosperous capital of Mexico's Sinaloa state, is enduring its most sustained period of cartel violence in memory, with paramedic call-outs surging more than 70% last year as rival factions of the Sinaloa cartel wage a brutal internecine war that has left no corner of the city untouched — not schools, hospitals, or even funerals.\n\nThe conflict traces back roughly 18 months to the betrayal that led to the capture of Ismael \"El Mayo\" Zambada, one of the cartel's co-founders, who was lured to the United States in an elaborate sting orchestrated in part by the son of another cartel leader. Zambada now sits in a U.S. prison, but the power vacuum his removal created has fractured the organization that once operated, in the words of one local paramedic, \"like a family.\" That family built a billion-dollar fentanyl empire that flooded American streets with opioids and cost tens of thousands of lives — and its fracture has unleashed a level of savagery that is shocking even by Mexican cartel standards. Bodies have been found outside shopping malls with skulls flayed and eyes removed, accompanied by written threats from one faction to another. A 16-year-old boy was shot dead at close range while riding his bicycle, his body surrounded by more than a dozen bullet casings.\n\nThe Mexican government has deployed thousands of troops to Sinaloa, establishing checkpoints across the city's roads. President Claudia Sheinbaum recently praised special forces for the capture and subsequent death in custody of Nemesio Oseguera Cervantes, known as \"El Mencho,\" the leader of the rival Jalisco New Generation Cartel — but the Sinaloa crisis illustrates how removing cartel leaders can intensify rather than quell violence. Local journalist Ernesto Martínez, who has covered the bloodshed for 27 years, noted that despite a heavy military and police presence, homicides have persisted at an average of five to six per day.\n\nThe BBC's Quentin Sommerville, reporting from inside the city, met with armed members of one Sinaloa faction who offered a chilling assessment: the killing will not stop until only one faction remains. One fighter acknowledged that innocent people and children die in the crossfire but expressed no intention of stopping. U.S. President Donald Trump has designated the Sinaloa cartel and others as terrorist organizations, labeling fentanyl a weapon of mass destruction and threatening Mexico with direct military action if the trafficking is not brought under control.\n\nMeanwhile, the human toll extends far beyond the body count. Groups of mothers, wearing white T-shirts printed with photographs of their missing loved ones, now conduct organized searches of fields outside Culiacán, probing the earth with metal rods and smelling the soil for signs of clandestine graves. Reynalda Pulido, whose son Javier Ernesto disappeared in December 2020, leads one such group under military escort. For the paramedics, soldiers, journalists, and bereaved families navigating Culiacán's streets, the reality is starkly summarized by one first responder: \"The fear is everywhere and the fear is constant.\"",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mexico",
-        "Sinaloa cartel",
-        "drug violence",
-        "Culiacán",
-        "fentanyl",
-        "El Mayo Zambada",
-        "organized crime"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1f16/live/170d1a60-10d1-11f1-97cc-8b3c62c7814d.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2g3vmde0eo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T00:02:09.143Z"
     },
     {
       "id": "ps-1772063266392-ado4",
