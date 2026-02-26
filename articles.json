@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-26T15:03:37.107Z",
+  "lastUpdated": "2026-02-26T15:18:24.446Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772118129613-7bzn",
+      "id": "ps-1772119024591-23hq",
       "slug": "denmark-s-frederiksen-calls-snap-election-as-greenland-crisi",
       "headline": "Denmark's Frederiksen Calls Snap Election as Greenland Crisis Reshapes Politics",
-      "subheadline": "Prime minister says next four years are 'decisive' as Trump's annexation threats force Europe to rethink US relationship",
-      "body": "Danish Prime Minister Mette Frederiksen has called early elections, placing the country's fraught relationship with the United States and the fate of Greenland at the center of her campaign pitch. Addressing parliament, Frederiksen declared the coming four years \"decisive\" for Denmark and urged voters to give her Social Democrats a strong mandate to navigate what she framed as a generational security challenge.\n\n\"We as Danes and as Europeans will really have to stand on our own feet,\" Frederiksen told lawmakers. \"We need to define our relationship with the United States.\" The remarks reflect a dramatic recalibration in Danish foreign policy, driven largely by President Donald Trump's repeated threats — including the explicit mention of military force — to seize Greenland, the semi-autonomous Arctic territory that has been under Danish sovereignty for centuries.\n\nTrump has argued that controlling Greenland is essential to defending against potential attacks from Russia and China, claiming without evidence that the island is surrounded by Russian and Chinese vessels. More than 100 U.S. military personnel are already permanently stationed at Pituffik Space Base on Greenland's northwestern coast, a facility Washington has operated since World War Two. Under existing agreements, the United States can deploy additional troops to the island without restriction — yet Trump has insisted that ownership, not access, is what American security requires.\n\nThe tension shows no sign of easing. The White House has signaled plans to send a hospital ship loaded with medical supplies to Greenland, with Trump alleging that \"many people\" on the island are sick and neglected. Greenlandic Prime Minister Jens-Frederik Nielsen flatly rejected the gesture, pointing out that Greenland provides universal free healthcare to all citizens. Both Denmark and Greenland have firmly refused to cede sovereignty, and European allies have publicly backed their position.\n\nFrederiksen's decision to go to the polls early underscores how profoundly the Greenland dispute has reshaped Denmark's political landscape. She called on the nation to rearm to ensure peace in Europe and to preserve the Danish Commonwealth — the political union of Denmark, Greenland, and the Faroe Islands. Whether voters reward that framing will test how far security anxieties have penetrated Danish public opinion, and whether a small Nordic nation can sustain its defiance of Washington's most provocative territorial ambitions since the Monroe Doctrine.",
+      "subheadline": "Prime minister says next four years will be 'decisive' as Trump's annexation threats force Europe to 'stand on its own feet'",
+      "body": "Danish Prime Minister Mette Frederiksen has called early elections, placing the country's fraught relationship with the United States and the future of Greenland at the center of the campaign. Addressing parliament, Frederiksen declared that Denmark and Europe \"will really have to stand on our own feet\" and that security would remain \"the very foundation of Danish politics for many, many years to come.\"\n\nThe announcement comes after months of escalating tension with Washington over President Donald Trump's stated ambition to seize control of Greenland, the semi-autonomous Danish territory whose strategic Arctic location and mineral wealth have made it a geopolitical flashpoint. Trump has argued that owning Greenland is necessary to defend against potential Russian and Chinese threats, claiming without evidence that the island is surrounded by their naval vessels. Though he walked back threats to use military force against a fellow NATO ally last month, negotiations over expanded U.S. control of the island continue.\n\nFrederiksen framed the election as a mandate referendum, telling lawmakers that whether she remains prime minister depends on the strength of support voters give her Social Democrats, the lead partner in Denmark's current coalition government. She called for European unity, rearmament to \"ensure peace on our continent,\" and the preservation of the Danish Commonwealth — the political union binding Denmark, Greenland, and the Faroe Islands. Both Denmark and Greenland have firmly rejected any transfer of sovereignty, a position backed by European allies.\n\nThe diplomatic standoff could intensify in the coming days. Trump has signaled plans to dispatch a hospital ship loaded with medical supplies to Greenland, alleging that residents are sick and \"not being taken care of.\" Greenlandic Prime Minister Jens-Frederik Nielsen swiftly rejected the gesture, noting that Greenland provides universal free healthcare to all its citizens — a pointed contrast with the American system. The proposed shipment is widely seen as a soft-power maneuver designed to establish a visible U.S. presence on the island.\n\nMore than 100 American military personnel are already permanently stationed at a base on Greenland's northwestern tip, a facility continuously operated by the U.S. since World War Two. Under existing agreements with Denmark, Washington faces no formal limits on how many troops it can deploy there. Yet Trump has maintained that outright ownership is the only path to adequately defending the sparsely populated territory, keeping the issue squarely on the agenda as Danish voters prepare to head to the polls.",
       "category": "breaking",
       "importance": 8,
       "tags": [
@@ -15,22 +15,21 @@
         "Greenland",
         "Mette Frederiksen",
         "Donald Trump",
-        "European security",
         "snap election",
         "NATO",
-        "Arctic"
+        "Arctic geopolitics"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/490b/live/75f78830-131a-11f1-b513-7d8d8ff19957.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/ckg3e63jwj8o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T15:02:09.613Z"
+      "publishedAt": "2026-02-26T15:17:04.591Z"
     },
     {
-      "id": "ps-1772118145948-sg34",
+      "id": "ps-1772119039643-zj1l",
       "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
       "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
       "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations, a long-standing challenge in computational fluid dynamics. The work, published on the arXiv preprint server on February 14, could significantly improve the accuracy and stability of simulations used across engineering, climate science, and industrial design.\n\nThe lattice Boltzmann method (LBM) is a widely used alternative to traditional computational fluid dynamics approaches, prized for its efficiency and natural parallelism. However, standard implementations on first-nearest-neighbor lattices — the most common and computationally economical grid structures — introduce systematic errors when modeling the Navier-Stokes equations that govern fluid flow. These errors arise from so-called compatibility condition violations and stress tensor modeling inaccuracies, and they have historically forced researchers to choose between computational simplicity and physical fidelity.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi address this trade-off head-on with their Generalized Onsager-Regularized (OReg) method, which introduces fully local corrections through modified non-equilibrium populations. Working on the standard D2Q9 lattice — a two-dimensional, nine-velocity grid that is a workhorse of the field — the researchers developed two classes of corrected models using a six-moment-constrained guided equilibrium representation. Their partially corrected model, which addresses only compatibility condition violations, improves accuracy by two orders of magnitude at reference lattice temperatures and by four orders of magnitude at arbitrary lattice temperatures. Their fully corrected model goes further, additionally eliminating stress tensor errors to produce what the authors describe as an exact model.\n\nNumerical benchmarks confirm that both corrected schemes outperform the widely used Lattice-BGK method and uncorrected OReg guided equilibrium schemes in both accuracy and numerical stability. The local nature of the corrections is particularly significant: it means the method preserves the computational efficiency and parallelizability that make lattice Boltzmann attractive for large-scale simulations in the first place.\n\nPerhaps most consequentially, the researchers note that their framework opens a promising avenue for thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Such coupled problems are central to applications ranging from combustion modeling to atmospheric dynamics, where both accuracy and computational tractability are essential. If the OReg approach scales as expected to these more complex regimes, it could represent a meaningful advance in the practical capability of lattice Boltzmann methods for real-world engineering and scientific problems.",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations — a longstanding challenge in computational fluid dynamics. The work, published on the arXiv preprint server on February 14, demonstrates accuracy improvements of two to four orders of magnitude over existing approaches.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi introduced what they call the Generalized Onsager-Regularized (OReg) Lattice Boltzmann Method, which applies fully local corrections to non-equilibrium particle populations on standard first-nearest-neighbor lattices. The key innovation lies in using Onsager regularization — rooted in the thermodynamic reciprocal relations formulated by Nobel laureate Lars Onsager — to systematically identify and correct errors that arise when discretizing the Boltzmann transport equation onto simple computational grids like the widely used D2Q9 lattice.\n\nLattice Boltzmann methods have become a workhorse of computational fluid dynamics over the past three decades, prized for their parallelizability and ability to handle complex geometries. However, the standard approach introduces artifacts when mapping continuous kinetic theory onto discrete lattice structures. These errors manifest as violations of compatibility conditions and inaccuracies in stress tensor modeling, limiting the fidelity of simulations in applications ranging from turbulence research to biomedical flow modeling. The new framework addresses both classes of error through what the authors describe as partially and completely corrected OReg models.\n\nThe partially corrected model targets compatibility condition violations alone and achieves two orders of magnitude improvement at reference lattice temperatures, rising to four orders of magnitude at arbitrary lattice temperatures. The completely corrected model goes further by also eliminating stress tensor errors, yielding what the researchers describe as a \"fully corrected exact model.\" Numerical benchmarks confirm that both corrected schemes outperform the standard Lattice-BGK method and uncorrected OReg schemes in both accuracy and numerical stability.\n\nPerhaps most significantly, the corrections remain entirely local — meaning each lattice node can be updated independently without additional communication with distant nodes. This preserves the computational efficiency and parallelism that make lattice Boltzmann methods attractive for large-scale simulations on modern supercomputers and GPU architectures. The authors note that the framework opens a promising pathway toward OReg-based thermohydrodynamic extensions, which could enable more accurate simulations of heat transfer coupled with fluid flow — a critical capability for engineering and climate modeling applications.",
       "category": "physics",
       "importance": 5,
       "tags": [
@@ -40,17 +39,17 @@
         "Onsager regularization",
         "numerical methods"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1762704368839-450f2763e8a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1568667185745-50c858f7448a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.21242",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T15:02:25.948Z"
+      "publishedAt": "2026-02-26T15:17:19.643Z"
     },
     {
-      "id": "ps-1772118163538-2sch",
+      "id": "ps-1772119056061-jm1f",
       "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
       "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State experiments suggest future Mars missions should drill into pure ice, not rock, to search for signs of ancient life",
-      "body": "Ancient microbial life — or at least its molecular remnants — could persist in Martian ice for tens of millions of years, according to new laboratory experiments that may reshape how scientists design future missions to the Red Planet.\n\nResearchers at NASA's Goddard Space Flight Center and Penn State University subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, while maintaining temperatures of minus 60 degrees Fahrenheit to simulate conditions in Mars's icy regions. More than 10 percent of the amino acids — the fundamental building blocks of proteins — survived the full simulated duration, a result published in the journal Astrobiology. The finding is especially significant because many of Mars's known surface ice deposits are believed to be less than two million years old, well within the window of preservation.\n\nThe study, led by NASA Goddard space scientist Alexander Pavlov, produced a second result that was arguably more surprising. When the same organic material was mixed with silicate rocks and clay minerals typical of Martian sediment, amino acids broke down roughly ten times faster and did not survive the simulation. A thin film that forms where ice contacts mineral surfaces appears to allow radiation-generated reactive particles to move more freely, accelerating destruction of organic molecules. In pure ice, by contrast, those harmful particles become trapped in the frozen matrix and cannot easily reach the biological material. \"It was surprising to find that the organic materials placed in water ice alone are destroyed at a much slower rate than the samples containing water and soil,\" Pavlov said. The counterintuitive finding upended expectations set by a 2022 study from the same team.\n\nThe practical implication is clear: missions hunting for biosignatures on Mars should prioritize drilling into clean, buried ice rather than analyzing rocks or regolith at the surface. Co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology, noted that abundant ice exists on Mars just below the surface. \"Future missions need a large enough drill or a powerful scoop to access it, similar to the design and capabilities of Phoenix,\" he said, referencing the 2008 NASA lander that first excavated and photographed subsurface Martian ice.\n\nThe research also carries implications beyond Mars. The team tested organic samples at the far colder temperatures found on Europa, Jupiter's ice-shelled moon, and Saturn's Enceladus. Degradation slowed even further under those conditions — an encouraging sign for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to arrive at Jupiter in 2030 for 49 close flybys aimed at assessing the moon's habitability. Together, the results strengthen the case that ice, rather than rock, may be the solar system's most promising archive for preserved biology.",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for signs of ancient life",
+      "body": "Ancient microbial life — or its chemical remnants — could remain intact inside Martian ice for more than 50 million years, far longer than the age of most known ice deposits on the planet's surface, according to new laboratory experiments by researchers at NASA's Goddard Space Flight Center and Penn State University.\n\nThe study, published in the journal Astrobiology, subjected E. coli bacteria sealed in pure water ice to gamma radiation at minus 60 degrees Fahrenheit, mimicking the punishing cosmic ray bombardment and frigid temperatures found on Mars. After simulating 20 million years of radiation exposure in Penn State's Radiation Science and Engineering Center and modeling an additional 30 million years, the team found that more than 10 percent of amino acids — the fundamental building blocks of proteins — survived intact in pure ice samples. Samples mixed with Martian-like silicate rock and clay, however, degraded roughly ten times faster and did not survive the full simulation. The finding upends earlier assumptions: a 2022 study by the same group had suggested that water ice alone would accelerate organic destruction, but the opposite proved true.\n\nLead author Alexander Pavlov, a space scientist at NASA Goddard, said the key appears to be the physical structure of solid ice itself. In pure ice, reactive particles generated by radiation become frozen in place and cannot easily reach organic molecules. When ice contacts mineral grains, however, a thin liquid-like film forms at the boundary, allowing damaging radicals to migrate more freely and break down amino acids. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe implications extend well beyond the Red Planet. The team also tested organic material at the far colder temperatures found on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and observed even slower degradation rates. Co-author Christopher House, a Penn State geosciences professor, noted that the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and is expected to reach Jupiter in 2030 to perform 49 close flybys of Europa's ice shell.\n\nFor Mars exploration, the findings amount to a practical directive: future landers and rovers should be equipped with drills or scoops capable of penetrating subsurface ice, much like NASA's Phoenix lander, which in 2008 became the first mission to excavate and photograph Martian ice. Most of the planet's ice lies just below the surface, and known deposits are often less than two million years old — well within the 50-million-year preservation window identified by the study. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. The research was funded by NASA's Planetary Science Division.",
       "category": "science",
       "importance": 7,
       "tags": [
@@ -58,14 +57,77 @@
         "astrobiology",
         "NASA",
         "amino acids",
+        "extraterrestrial life",
         "Europa Clipper",
-        "Penn State",
-        "space exploration"
+        "Penn State"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T15:02:43.538Z"
+      "publishedAt": "2026-02-26T15:17:36.061Z"
+    },
+    {
+      "id": "ps-1772119070419-5pti",
+      "slug": "ebay-cuts-800-jobs-despite-strong-revenue-growth",
+      "headline": "eBay Cuts 800 Jobs Despite Strong Revenue Growth",
+      "subheadline": "The e-commerce giant trims 6% of its workforce just days after announcing a $1.2 billion acquisition of Depop",
+      "body": "eBay announced Wednesday that it will eliminate approximately 800 positions, representing roughly 6% of its full-time workforce, as the company restructures to align with what it described as evolving strategic priorities. The cuts mark the third round of significant layoffs at the online marketplace in just three years.\n\nThe timing is notable. eBay's move comes barely a week after the company revealed plans to acquire Depop, the Gen Z-favored secondhand fashion marketplace, from Etsy in a $1.2 billion all-cash deal. It also follows a strong fourth-quarter earnings report in which revenue climbed 15% year over year to $3 billion, surpassing Wall Street estimates. The juxtaposition of robust financial performance, aggressive deal-making, and workforce reductions underscores a broader pattern across the tech industry, where companies increasingly frame layoffs not as responses to distress but as strategic reallocations of resources.\n\nIn a statement, eBay said it is \"taking steps to reinvest across our business and align our structure with our strategic priorities,\" adding that it would support affected employees \"with care and respect.\" The company did not specify which divisions or geographies would bear the brunt of the reductions. Bloomberg first reported the layoffs.\n\nThe job cuts continue a pattern that has become almost annual at eBay. In early 2024, the company eliminated roughly 1,000 roles — about 9% of its headcount at the time. A year before that, in early 2023, it cut approximately 500 positions, or 4% of its workforce. Cumulatively, eBay has shed well over 2,000 jobs since 2023, even as its top line has strengthened.\n\nThe Depop acquisition signals that eBay is betting on younger demographics and the booming resale economy as key growth vectors. Integrating a consumer brand with a distinct identity and user base, however, will require significant organizational effort — a reality that may partly explain why the company is simultaneously trimming existing roles. For eBay, the message to investors appears clear: growth will come from targeted bets on new markets, not from expanding headcount across legacy operations.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "eBay",
+        "layoffs",
+        "Depop",
+        "e-commerce",
+        "workforce reduction"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-632621434.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/ebay-to-lay-off-800-staff/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T15:17:50.419Z"
+    },
+    {
+      "id": "ps-1772119087399-7i9d",
+      "slug": "nvidia-s-solid-earnings-fail-to-satisfy-dragging-chip-stocks",
+      "headline": "Nvidia's Solid Earnings Fail to Satisfy, Dragging Chip Stocks Lower",
+      "subheadline": "Investors looking for stronger reassurances on AI spending sell semiconductor shares despite robust guidance",
+      "body": "Semiconductor stocks fell sharply on Wednesday as Nvidia Corp.'s latest earnings report, while objectively strong, failed to deliver the kind of blowout reassurance that investors have come to demand from the AI bellwether. The broad selloff dragged major indices lower and raised fresh questions about whether sky-high expectations for artificial intelligence spending have outpaced reality.\n\nNvidia's results and forward guidance were solid by conventional measures, but the market's reaction underscored a recurring dynamic in the AI trade: good is no longer good enough. Investors who have bid chip valuations to extraordinary levels over the past two years are increasingly looking for evidence that the massive capital expenditures flowing into AI infrastructure — from hyperscale data centers to next-generation accelerators — will translate into sustainable revenue growth. When that evidence falls short of the most optimistic projections, selling follows swiftly.\n\nThe damage extended well beyond Nvidia itself. Shares of major semiconductor firms across the supply chain declined in sympathy, reflecting the sector's tight correlation with sentiment around AI demand. The Philadelphia Semiconductor Index moved lower as traders reassessed near-term prospects for the group that has been the primary engine of market gains since the generative AI boom began in early 2023.\n\nAdding to the cautious mood across global markets, oil prices declined as reports emerged of diplomatic talks between the United States and Iran. Any progress toward easing tensions — or potentially loosening sanctions — could bring additional Iranian crude supply onto the market, putting downward pressure on energy prices at a time when demand forecasts remain uncertain.\n\nThe session highlighted the precarious position of a market that has become heavily concentrated in a handful of AI-linked names. With Nvidia alone accounting for an outsized share of index-level returns over the past year, even modest disappointments in its results ripple through portfolios and sentiment far beyond the semiconductor sector. Analysts noted that the bar for positive surprises continues to rise with each quarterly report, leaving less margin for error as the AI infrastructure buildout enters what many expect to be a more mature phase of the investment cycle.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Nvidia",
+        "semiconductors",
+        "AI",
+        "earnings",
+        "chip stocks",
+        "oil prices"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1741392078105-f745eeb6fea0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxOdmlkaWElMjBzZW1pY29uZHVjdG9yc3xlbnwwfDB8fHwxNzcyMTE5MDg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/asian-stocks-to-climb-as-nvidia-boosts-sentiment-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T15:18:07.399Z"
+    },
+    {
+      "id": "ps-1772119104343-t96r",
+      "slug": "ethereum-foundation-unveils-seven-fork-roadmap-targeting-8-s",
+      "headline": "Ethereum Foundation Unveils Seven-Fork Roadmap Targeting 8-Second Finality by 2029",
+      "subheadline": "The ambitious 'strawmap' plans a 480x speed improvement, post-quantum cryptography, and private transfers — even as ETH languishes near $2,000",
+      "body": "The Ethereum Foundation on Wednesday published its most sweeping technical roadmap in years, laying out a plan for seven consecutive hard forks through 2029 that would fundamentally overhaul the network's speed, security, and privacy capabilities. Ether was trading near $2,026 at the time of the announcement, reflecting a market that has yet to price in the scope of the proposed changes.\n\nThe document, dubbed the \"strawmap\" and authored by Ethereum Foundation researcher Justin Drake, centers on five strategic priorities: compressing transaction finality from roughly 16 minutes to as little as 8 seconds, scaling Layer 1 throughput to approximately 10,000 transactions per second, enabling Layer 2 networks to reach 10 million transactions per second, implementing post-quantum cryptography, and introducing shielded ETH transfers that hide transaction details from public view. The finality improvement alone would represent a roughly 480-fold reduction in the time it takes the network to irreversibly confirm a transaction.\n\nThe speed gains hinge on a new consensus mechanism called Minimmit, which reaches agreement in a single voting round rather than the multiple rounds required today. Ethereum co-founder Vitalik Buterin, who called the document \"very important,\" detailed how the network's 12-second block slot time would be reduced incrementally — through 8, 6, 4, and potentially down to 2 seconds — with each step contingent on demonstrated network safety. Buterin described the broader approach as a \"ship of Theseus\" rebuild, where individual consensus components are swapped out one by one until the entire system is new, without any single upgrade posing excessive risk.\n\nThe roadmap's inclusion of post-quantum cryptography is notable for its specificity. Rather than treating quantum computing threats as a distant hypothetical — as Strategy's Michael Saylor did when he dismissed quantum risks to Bitcoin earlier this month — Ethereum's plan assigns the transition to hash-based signatures a concrete fork target. The privacy component is equally concrete: shielded transfers would allow users to send ETH without broadcasting amounts, senders, and recipients to the entire blockchain, addressing a long-standing tension between Ethereum's transparency and user financial privacy.\n\nThe gap between the Foundation's engineering ambitions and current market sentiment is stark. With ETH trading well below its historical highs and Bitcoin itself stalling below $70,000, the roadmap amounts to a bet that technical execution over the next three to four years will eventually reshape how investors value the network. Whether the plan energizes a broader recovery or remains an aspirational document in a prolonged downturn is the central question for Ethereum holders heading into the second half of 2026.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "ETH",
+        "blockchain",
+        "cryptocurrency",
+        "Vitalik Buterin",
+        "post-quantum cryptography",
+        "Ethereum Foundation"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/b7dd683e48326c2ace004e4e6c4b4f6ff6c84c77-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T15:18:24.343Z"
     },
     {
       "id": "ps-1772118181145-0dvo",
@@ -108,27 +170,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/trump-agenda-needs-allies-to-stick-with-treasuries-as-rest-flee",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T15:03:19.695Z"
-    },
-    {
-      "id": "ps-1772118216998-dsrs",
-      "slug": "ethereum-foundation-unveils-seven-fork-roadmap-targeting-8-s",
-      "headline": "Ethereum Foundation Unveils Seven-Fork Roadmap Targeting 8-Second Finality by 2029",
-      "subheadline": "The ambitious 'strawmap' plans a 480x speed improvement, post-quantum cryptography, and privacy features across seven hard forks",
-      "body": "The Ethereum Foundation has published its most sweeping technical roadmap in years, laying out a plan for seven hard forks through the end of the decade that would fundamentally reshape the world's largest smart-contract blockchain. The document, dubbed a \"strawmap\" and released Wednesday by EF researcher Justin Drake, targets transaction finality times as low as 8 seconds — down from approximately 16 minutes today — along with dramatic throughput increases, quantum-resistant cryptography, and built-in transaction privacy.\n\nAt the center of the plan is a new consensus mechanism called Minimmit, which would achieve network agreement in a single round of voting rather than the multi-round process currently in use. Ethereum's block production interval, known as slot time, would be incrementally reduced from its current 12 seconds through a series of steps — 8, 6, 4, and potentially down to 2 seconds — with each reduction contingent on verified network safety. Co-founder Vitalik Buterin, who called the document \"very important,\" described the approach as a \"ship of Theseus\" rebuild in which individual consensus components are replaced one by one, avoiding any single disruptive overhaul.\n\nThe throughput ambitions are equally aggressive. The roadmap envisions Ethereum's base layer scaling to roughly 10,000 transactions per second — described in Ethereum's computational units as \"gigagas\" scale — while Layer 2 networks like Arbitrum and Optimism would gain enough data bandwidth to reach approximately 10 million transactions per second at \"teragas\" levels. These targets represent orders-of-magnitude improvements over the network's current capacity and would position Ethereum to compete with high-throughput rivals that have gained ground during periods of network congestion.\n\nTwo additional priorities distinguish this roadmap from previous iterations. The Foundation is treating post-quantum cryptography not as a distant theoretical concern but as a concrete engineering milestone with a specific fork target. The plan calls for hash-based signatures that do not depend on the mathematical problems quantum computers are expected to solve — a notably more urgent posture than that of some Bitcoin proponents, including Strategy's Michael Saylor, who has publicly dismissed quantum threats as more than a decade away. Meanwhile, shielded ETH transfers would introduce native privacy to a network where every transaction is currently visible to anyone inspecting the blockchain.\n\nThe roadmap arrives at an uneasy moment for Ether's market standing. The token was trading near $2,048 on Wednesday, up roughly 7% on the day but still well below its historical highs, with broader sentiment toward ETH remaining subdued relative to competitors. Whether the Foundation's technical ambition can translate into renewed investor confidence — or whether the gap between engineering vision and market reality widens further — will be a defining question for the Ethereum ecosystem through the second half of 2026 and beyond.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "blockchain",
-        "cryptocurrency",
-        "Vitalik Buterin",
-        "post-quantum cryptography",
-        "ETH"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/b7dd683e48326c2ace004e4e6c4b4f6ff6c84c77-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T15:03:36.998Z"
     },
     {
       "id": "ps-1772117247277-4arn",
@@ -191,27 +232,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c62dnwwgryeo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-26T14:02:15.249Z"
-    },
-    {
-      "id": "ps-1772114596258-1jnt",
-      "slug": "stocks-drift-as-nvidia-earnings-beat-fails-to-reignite-ai-ra",
-      "headline": "Stocks Drift as Nvidia Earnings Beat Fails to Reignite AI Rally",
-      "subheadline": "Muted futures signal fading momentum despite chipmaker's strong results; traders pare risk amid US-Iran nuclear talks",
-      "body": "U.S. stock futures traded in a narrow range on Wednesday after Nvidia Corp. delivered better-than-expected quarterly earnings that nonetheless failed to inject fresh momentum into the technology sector's recent rebound.\n\nThe tepid market response underscores a growing challenge for the artificial intelligence trade: even strong results from its most important bellwether may no longer be sufficient to drive broad-based gains. Nvidia, whose chips remain the backbone of AI infrastructure worldwide, has historically served as a catalyst for risk appetite across the tech sector. But investors appeared to treat the latest beat as confirmation of existing expectations rather than a reason to add exposure, suggesting that much of the AI optimism is already priced into valuations.\n\nAdding to the cautious mood, traders moved to reduce large positions as diplomatic talks between the United States and Iran over Tehran's nuclear program got underway. The geopolitical backdrop introduced an additional layer of uncertainty, prompting market participants to hedge against potential volatility rather than chase gains. The combination of a well-telegraphed earnings beat and a developing diplomatic situation left major indices searching for direction.\n\nThe muted reaction marks a notable shift from earlier cycles of the AI rally, when Nvidia earnings surprises routinely sent the Nasdaq and S&P 500 sharply higher. Analysts have increasingly warned that the bar for positive surprises continues to rise as consensus estimates catch up to the chipmaker's extraordinary growth trajectory. With the stock already trading at elevated multiples, incremental beats may offer diminishing returns for momentum-driven strategies.\n\nBroader market sentiment now hinges on whether upcoming economic data and Federal Reserve commentary can provide a fresh catalyst. In the absence of new drivers, traders appear content to consolidate recent gains while monitoring both the geopolitical landscape and signs of whether AI-related capital spending will continue to accelerate through the remainder of the year.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Nvidia",
-        "AI trade",
-        "stock futures",
-        "earnings",
-        "US-Iran talks",
-        "technology stocks"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1662947683280-3be5bfc47075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxTdG9ja3MlMjBEcmlmdCUyME52aWRpYSUyMEVhcm5pbmdzJTIwQmVhdCUyMEZhaWxzfGVufDB8MHx8fDE3NzIxMTQ1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-25/asian-stocks-to-climb-as-nvidia-boosts-sentiment-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T14:03:16.258Z"
     },
     {
       "id": "ps-1772113692724-oiwb",
@@ -1028,27 +1048,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-24/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-25T22:33:06.599Z"
-    },
-    {
-      "id": "ps-1772056111366-bens",
-      "slug": "tether-pours-200m-into-digital-marketplace-whop-at-1-6b-valu",
-      "headline": "Tether Pours $200M Into Digital Marketplace Whop at $1.6B Valuation",
-      "subheadline": "The stablecoin giant aims to embed USDT payments into a creator economy platform serving 18.4 million users",
-      "body": "Tether, the company behind the world's largest stablecoin USDT, is making its biggest push yet into consumer-facing commerce with a $200 million investment in Whop, a digital marketplace for creators and software tools. The deal values Whop at $1.6 billion, according to CEO Steven Schwartz.\n\nWhop operates as an online hub where creators sell access to software, trading communities, educational courses, and other digital products. The platform claims 18.4 million users and roughly $3 billion in annual creator earnings, with gross transaction volume growing approximately 25% month over month. Under the terms of the investment, Whop will integrate Tether's cryptocurrency wallet infrastructure, enabling users and sellers to hold, transact, and settle payments using USDT and Tether's newer U.S.-focused USAT token — bypassing traditional banks and card networks entirely.\n\nThe strategic logic for Tether is clear: push its $185 billion stablecoin ecosystem beyond trading desks and into the daily financial lives of ordinary internet users. USDT has already established itself as a primary vehicle for accessing U.S. dollar liquidity in emerging markets, and embedding it natively within a fast-growing creator marketplace could accelerate that adoption curve. The funding will specifically support Whop's expansion into Latin America, Europe, and Asia-Pacific — regions where dollar-denominated stablecoins often serve as a practical alternative to volatile local currencies or limited banking infrastructure.\n\nThe deal also signals Tether's ambition to move up the financial services stack. Beyond simple payments, the partnership envisions adding lending and borrowing tools powered by decentralized finance infrastructure, potentially turning Whop into a more comprehensive financial platform for its creator base.\n\nThe investment comes at a moment of intensifying competition in the stablecoin sector. Circle, issuer of rival stablecoin USDC, recently reported fourth-quarter earnings that beat analyst estimates, with its shares surging on growing issuance. For Tether, locking in distribution through platforms like Whop represents a defensive as much as offensive strategy — ensuring USDT remains the default digital dollar as stablecoins increasingly penetrate mainstream commerce.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Tether",
-        "USDT",
-        "Whop",
-        "stablecoins",
-        "crypto payments",
-        "creator economy"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0cd75863c809a717caa362db065f5858a1ed55ca-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/02/25/tether-invests-usd200-million-in-digital-marketplace-whop-to-expand-stablecoin-payments",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-25T21:48:31.366Z"
     }
   ]
 }
