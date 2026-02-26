@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-26T06:33:23.808Z",
+  "lastUpdated": "2026-02-26T06:48:39.259Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772088434277-q6qw",
+      "slug": "sinaloa-cartel-civil-war-turns-culiac-n-into-killing-ground",
+      "headline": "Sinaloa Cartel Civil War Turns Culiacán Into Killing Ground",
+      "subheadline": "Eighteen months of internecine warfare have left Mexico's narco heartland gripped by daily homicides and disappearances",
+      "body": "The Mexican city of Culiacán, capital of the northern state of Sinaloa, is enduring its most sustained period of cartel violence in memory, with paramedic call-outs surging more than 70 percent last year as rival factions of the Sinaloa cartel wage a brutal war for supremacy.\n\nThe bloodshed traces back roughly 18 months to the betrayal and eventual capture of Ismael \"El Mayo\" Zambada, one of the cartel's co-founders, who was lured to the United States in an elaborate sting orchestrated in part by the son of another cartel patriarch. Zambada is now imprisoned in the U.S., but his removal created a power vacuum that has cleaved the once-unified organization into warring camps. The factional fighting has produced an average of five to six homicides per day in Culiacán, according to local journalists, with victims ranging from rival operatives to bystanders — including a 16-year-old boy shot dead while riding his bicycle, his body surrounded by more than a dozen bullet casings.\n\nThe violence has taken on a deliberately terroristic character. Bodies bearing signs of prolonged torture — skulls flayed, eyes removed — have been dumped outside shopping malls and along major highways, accompanied by written warnings from one faction to the other. Schools, hospitals, and funerals have all been targeted. Kidnappings frequently accompany shootings; in one incident witnessed by BBC correspondent Quentin Sommerville, three men were abducted from a garage at the same time its owner was executed. Paramedics now wear 14 kilograms of Kevlar body armor on every call, aware that attackers may still be present when they arrive.\n\nThe Mexican government has deployed thousands of soldiers and marines to Sinaloa, establishing checkpoints across Culiacán's road network, but veteran reporters and residents say the military presence has failed to reduce the killing. Mexico's president recently celebrated the capture and subsequent death in custody of Nemesio Oseguera Cervantes, known as \"El Mencho,\" head of the rival Jalisco New Generation Cartel, following a firefight in Jalisco state. Yet the Sinaloa situation illustrates a grim pattern: eliminating cartel leaders often intensifies rather than quells violence as subordinates scramble for control.\n\nMembers of one Sinaloa faction, interviewed by the BBC under conditions of anonymity, offered a chilling prognosis. They said the government should simply stand aside and let the factions fight until only one remains — an outcome they acknowledged would continue to claim innocent lives, including children. Meanwhile, groups like Mothers Fighting Back, led by women whose relatives have vanished into the cartel conflict, probe fields outside the city with metal rods and shovels, searching for clandestine graves. The crisis underscores the challenge facing both Mexico City and Washington, where President Donald Trump has designated cartels as terrorist organizations and threatened direct military intervention if Mexico cannot stem the flow of fentanyl — the synthetic opioid at the heart of the Sinaloa cartel's billion-dollar enterprise.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Mexico",
+        "Sinaloa cartel",
+        "Culiacán",
+        "drug violence",
+        "fentanyl",
+        "El Mayo Zambada",
+        "El Mencho"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1f16/live/170d1a60-10d1-11f1-97cc-8b3c62c7814d.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2g3vmde0eo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T06:47:14.277Z"
+    },
+    {
+      "id": "ps-1772088450666-2l75",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations, a long-standing challenge in computational fluid dynamics. The work, published on arXiv on February 14, introduces fully local corrections that yield what the authors describe as an exact model on standard lattice configurations.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi devised their approach using what they call Onsager-Regularized non-equilibrium populations — a mathematical framework that corrects errors inherent to first-nearest-neighbor lattice Boltzmann methods. The technique operates on the widely used D2Q9 lattice, a two-dimensional grid with nine velocity directions that serves as a workhorse in fluid simulation. By constructing corrections within a six-moment-constrained guided equilibrium representation, the researchers demonstrated accuracy improvements of two to four orders of magnitude depending on whether simulations are run at reference or arbitrary lattice temperatures.\n\nThe lattice Boltzmann method has emerged over the past three decades as a powerful alternative to traditional computational fluid dynamics solvers, prized for its parallelizability and algorithmic simplicity. However, standard implementations on compact lattice stencils introduce systematic deviations from the true Navier-Stokes equations — errors in compatibility conditions and stress tensor modeling that can compromise simulation fidelity, particularly at non-standard operating parameters. Previous correction strategies often required extended lattice neighborhoods or sacrificed the method's prized locality.\n\nThe new framework introduces two tiers of correction. A partial correction addresses compatibility condition violations alone, while a complete correction additionally fixes stress tensor modeling errors, producing what the authors call a fully corrected exact model. Crucially, all corrections remain fully local, preserving the computational efficiency and parallelism that make lattice Boltzmann methods attractive for large-scale simulations. Numerical benchmarks showed the corrected schemes outperform both the standard Lattice-BGK approach and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability.\n\nThe implications extend beyond isothermal fluid dynamics. The authors note that their framework opens a promising avenue for thermohydrodynamic extensions — simulations coupling fluid flow with heat transfer — where modeling errors on standard lattices have been particularly problematic. If the approach scales as expected to three-dimensional lattices and more complex physical scenarios, it could significantly expand the regime of problems tractable by lattice Boltzmann methods without resorting to computationally expensive extended stencils.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann method",
+        "Navier-Stokes equations",
+        "computational fluid dynamics",
+        "Onsager regularization",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1771790686533-91ac9bea2356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bGF0dGljZSUyMEJvbHR6bWFubiUyMG1ldGhvZCUyME5hdmllci1TdG9rZXMlMjBlcXVhdGlvbnN8ZW58MHwwfHx8MTc3MjA4ODQ1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T06:47:30.666Z"
+    },
+    {
+      "id": "ps-1772088469201-kvot",
+      "slug": "ancient-microbial-life-could-persist-50-million-years-in-mar",
+      "headline": "Ancient Microbial Life Could Persist 50 Million Years in Martian Ice",
+      "subheadline": "NASA and Penn State lab experiments reveal pure ice shields organic molecules from cosmic radiation, reshaping Mars search strategy",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids from bacteria could remain intact for more than 50 million years when entombed in pure water ice — a finding that could fundamentally redirect where future missions search for signs of life on the Red Planet.\n\nThe study, published in the journal Astrobiology and led by Alexander Pavlov of NASA's Goddard Space Flight Center, subjected E. coli bacteria sealed in frozen test tubes to gamma radiation equivalent to 20 million years of cosmic ray bombardment on the Martian surface. The samples were chilled to minus 60 degrees Fahrenheit inside a radiation chamber at Penn State's Radiation Science and Engineering Center. When researchers extended their models to simulate a full 50 million years of exposure, more than 10 percent of amino acids — the fundamental building blocks of proteins — survived in pure water ice. Samples mixed with Mars-like silicate rock and clay, by contrast, degraded ten times faster and did not survive the simulation.\n\nThe result upended expectations set by the same team's 2022 study, which had found that a mixture of 10 percent water ice and 90 percent Martian soil destroyed organic material faster than sediment alone. Scientists had assumed pure ice would fare even worse. Instead, solid ice appears to freeze radiation byproducts in place, preventing them from reaching and damaging organic compounds. In mixed samples, a thin film that forms where ice meets mineral surfaces may allow harmful particles to propagate more freely. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe implications extend well beyond Mars. The team also tested organic material at the far colder temperatures found on Europa, Jupiter's ice-sheathed moon, and Saturn's Enceladus. Degradation slowed even further under those conditions — an encouraging signal for NASA's Europa Clipper mission, which launched in 2024 and will begin 49 close flybys of Europa in 2030 to assess the moon's potential habitability. Co-author Christopher House, a Penn State geosciences professor, noted that many current Martian surface ice deposits are less than two million years old, well within the 50-million-year preservation window. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said.\n\nThe practical challenge now is access. Most Martian ice lies just below the surface, and reaching it will require robust drilling or scooping capabilities similar to those deployed by NASA's 2008 Phoenix lander — the first mission to excavate and photograph subsurface ice on Mars. The research, funded by NASA's Planetary Science Division, makes a pointed case that the next generation of Mars explorers should be equipped to bore into clean, buried ice rather than focusing primarily on rocks and soil.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "cosmic radiation",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T06:47:49.201Z"
+    },
+    {
+      "id": "ps-1772088487007-hzjg",
+      "slug": "nvidia-posts-68b-quarter-as-ai-demand-drives-record-results",
+      "headline": "Nvidia Posts $68B Quarter as AI Demand Drives Record Results",
+      "subheadline": "The world's most valuable company saw revenue surge 73% year-over-year, with data centers accounting for $62 billion",
+      "body": "Nvidia delivered yet another record-breaking quarter on Wednesday, reporting $68 billion in revenue for the three months ending in late January — a 73 percent increase from the same period a year ago — as insatiable demand for artificial intelligence compute continues to power the chipmaker's extraordinary growth trajectory.\n\nThe data center business, which has become the overwhelming engine of Nvidia's fortunes, generated $62 billion of the quarterly total. In a notable disclosure, the company broke that figure into $51 billion in compute revenue, primarily from GPU sales, and $11 billion from networking products such as NVLink interconnects. For the full fiscal year, Nvidia recorded $215 billion in total revenue. CEO Jensen Huang struck a bullish tone on the earnings call, declaring that global demand for AI tokens had gone \"completely exponential\" and noting that even the company's six-year-old GPUs deployed in cloud environments are fully utilized with rising prices.\n\nDespite the headline strength, the results revealed some strategic complexities. Nvidia reported zero revenue from chip exports to China, even after the U.S. government recently loosened some export restrictions. CFO Colette Kress disclosed that while small quantities of H200 products had been approved for Chinese customers, none had generated sales, and the company remained uncertain whether further imports would be permitted. Kress also offered a rare acknowledgment of competitive threats, pointing to Chinese rivals — including Moore Threads, which completed an IPO in December — as potential long-term disruptors to the global AI chip industry.\n\nHuang also addressed two of the market's most closely watched storylines. On Nvidia's reported $30 billion investment in OpenAI, he said the companies were \"close\" to a partnership agreement, though SEC filings cautioned there was \"no assurance\" a deal would materialize. On the broader question of whether hyperscalers' enormous capital expenditure commitments are sustainable, Huang argued that AI compute is now directly tied to revenue generation. \"In this new world of AI, compute is revenue,\" he said, asserting that cloud providers have reached an inflection point where token generation is both productive for customers and profitable for operators.\n\nThe results underscore Nvidia's continued dominance of the AI infrastructure market, but also highlight emerging risks — from Chinese competition to the uncertain trajectory of its highest-profile partnerships — that could shape the company's trajectory in the quarters ahead.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "AI chips",
+        "earnings",
+        "Jensen Huang",
+        "data centers",
+        "OpenAI",
+        "capex"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T06:48:07.007Z"
+    },
+    {
+      "id": "ps-1772088504031-r6hj",
+      "slug": "india-s-national-stock-exchange-kicks-off-2-5-billion-ipo-pr",
+      "headline": "India's National Stock Exchange Kicks Off $2.5 Billion IPO Process",
+      "subheadline": "NSE invites investment banks to pitch for roles in what would be one of India's largest-ever public offerings",
+      "body": "The National Stock Exchange of India, the country's largest bourse by trading volume, has formally begun the process of going public by issuing requests for proposals to investment banks, according to people familiar with the matter. The long-anticipated offering could raise approximately $2.5 billion, making it one of the biggest IPOs in Indian market history.\n\nThe move marks a significant milestone for NSE, which has faced years of regulatory and legal hurdles that delayed its listing ambitions. The exchange, which handles the vast majority of equity derivatives trading in India and operates the benchmark Nifty 50 index, has been one of the most closely watched private entities in the country's financial sector. An IPO of this scale would not only unlock value for existing shareholders — including major global institutions — but also subject the exchange to the same public disclosure and governance standards it enforces on the thousands of companies listed on its platform.\n\nIndia's capital markets have experienced a dramatic surge in activity over the past several years, with record numbers of retail investors opening brokerage accounts and a robust pipeline of companies seeking public listings. NSE sits at the center of this boom, processing billions of dollars in daily trading volume and competing with the older Bombay Stock Exchange. The exchange's financial performance, underpinned by transaction fees, data licensing, and clearing services, is expected to draw intense interest from both domestic and international investors once shares become available.\n\nThe invitation for bank pitches signals that NSE's management and board are moving with renewed urgency to bring the offering to market. Investment banks are expected to compete aggressively for mandates on the deal, given its size and the prestige associated with listing one of Asia's premier financial market infrastructure companies. Details regarding the timeline, pricing, and final structure of the IPO remain under discussion.\n\nA successful NSE listing would represent a landmark event for Indian capital markets, providing a public market valuation for the institution that underpins much of the country's equity trading ecosystem. It would also test investor appetite at a time when Indian equities have faced some volatility following a strong multi-year rally.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "NSE",
+        "IPO",
+        "India",
+        "capital markets",
+        "stock exchange"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1629192848422-6bb37ed58f52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxJbmRpYSUyME5hdGlvbmFsJTIwU3RvY2slMjBFeGNoYW5nZSUyMEtpY2tzJTIwT2ZmfGVufDB8MHx8fDE3NzIwODg1MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/nse-is-said-to-invite-banks-to-pitch-for-2-5-billion-india-ipo",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T06:48:24.031Z"
+    },
+    {
+      "id": "ps-1772088519129-sjx6",
+      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-higher",
+      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Higher",
+      "subheadline": "Data center revenue surges 75% year-over-year as CEO Jensen Huang declares AI demand will only accelerate",
+      "body": "Nvidia posted fourth-quarter revenue of $68.1 billion on Wednesday, handily beating Wall Street's consensus estimate of $66.1 billion and marking a 73% increase from the same period a year earlier. The chipmaker's adjusted earnings per share of $1.62 also topped the $1.54 analysts had projected, according to FactSet data.\n\nPerhaps more significant than the backward-looking results was Nvidia's forward guidance. The company expects first-quarter revenue of approximately $78 billion, well above the $72.9 billion analysts had anticipated — a signal that the AI infrastructure buildout shows no signs of decelerating. Shares climbed as much as 4% in after-hours trading before settling to roughly 1% higher.\n\nThe engine behind Nvidia's growth remains its data center division, which posted a record $62.3 billion in quarterly revenue, up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the company has scaled its data center business by nearly 13 times since the emergence of ChatGPT, and that inventory and supply commitments are already in place to meet demand extending into 2027. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com, adding that the data center figures confirm hyperscaler infrastructure deployment \"remains firmly in expansion mode.\"\n\nCEO Jensen Huang struck a characteristically bullish tone, arguing that historical computation demand represented only a fraction of what the AI era will require. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" he told analysts. The remarks underscore Nvidia's central thesis: that the shift toward accelerated computing and generative AI represents a durable, multi-year capital expenditure cycle rather than a fleeting trend.\n\nThe results rippled across adjacent markets. Bitcoin held near $69,000 following a sharp recovery from earlier in the week, while AI-linked crypto tokens including Bittensor and Internet Computer posted modest gains before trimming their advances. Crypto mining companies with growing exposure to AI and high-performance computing — including IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading. For the world's most valuable public company, the quarter reinforced its position at the center of the AI economy, with demand continuing to outpace even the most optimistic projections.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Nvidia",
+        "earnings",
+        "artificial intelligence",
+        "data centers",
+        "Jensen Huang",
+        "semiconductor"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T06:48:39.129Z"
+    },
     {
       "id": "ps-1772087526543-psh1",
       "slug": "bbc-investigation-traces-nepal-protest-killings-to-police-ch",
@@ -44,113 +171,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T06:32:24.054Z"
-    },
-    {
-      "id": "ps-1772087560565-tutj",
-      "slug": "ancient-microbial-life-could-survive-50-million-years-in-mar",
-      "headline": "Ancient Microbial Life Could Survive 50 Million Years in Martian Ice",
-      "subheadline": "NASA and Penn State lab experiments suggest future Mars missions should drill into pure ice, not rock, to find traces of biology",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that the building blocks of life can endure at least 50 million years when frozen in pure water ice — even under relentless bombardment from cosmic radiation — upending previous assumptions about where to search for biology on the Red Planet.\n\nThe study, published in the journal Astrobiology and led by Alexander Pavlov of NASA's Goddard Space Flight Center alongside researchers at Penn State, sealed E. coli bacteria in test tubes of pure water ice and exposed them to gamma radiation inside a chamber cooled to minus 60 degrees Fahrenheit. The radiation dose mimicked 20 million years of cosmic ray exposure on Mars's surface, with the team then modeling an additional 30 million years mathematically. The headline result: more than 10 percent of amino acids — the molecular components of proteins — survived the full 50-million-year simulation intact. That timeframe far exceeds the estimated age of many surface ice deposits on Mars, which are often less than two million years old.\n\nPerhaps more consequential than what survived was what did not. When E. coli samples were mixed with silicate rocks and clay typical of Martian sediment, amino acids broke down roughly 10 times faster and failed to survive the simulation period. Researchers believe a thin film that forms where ice meets mineral surfaces allows radiation-generated reactive particles to move more freely and attack organic molecules. In solid pure ice, by contrast, those harmful particles appear to become frozen in place, unable to reach their targets. The finding was itself a surprise: a 2022 study by the same group had suggested that water ice alone would accelerate organic destruction, not slow it.\n\nThe implications extend well beyond Mars. The team also tested organic material at the far colder temperatures characteristic of Europa, Jupiter's ice-shelled moon, and Saturn's Enceladus. Degradation slowed even further under those conditions — an encouraging signal for NASA's Europa Clipper mission, which launched in 2024 and is scheduled to arrive at Jupiter in 2030 to investigate whether subsurface oceans could harbor life.\n\nFor Mars exploration specifically, the study makes a pointed operational recommendation: future missions should be equipped with drills or scoops capable of reaching subsurface ice, much like NASA's 2008 Phoenix lander, which first excavated and photographed Martian ice in the planet's polar region. \"There is a lot of ice on Mars, but most of it is just below the surface,\" said Penn State geosciences professor Christopher House, a co-author. \"Future missions need a large enough drill or a powerful scoop to access it.\" If microbial life ever took hold on Mars, the study suggests, its molecular fingerprints may be waiting just beneath the frozen surface — preserved in nature's most effective time capsule.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "cosmic radiation",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T06:32:40.565Z"
-    },
-    {
-      "id": "ps-1772087575248-q59q",
-      "slug": "nvidia-posts-68-billion-quarter-as-ai-compute-demand-surges",
-      "headline": "Nvidia Posts $68 Billion Quarter as AI Compute Demand Surges",
-      "subheadline": "The world's most valuable company reports 73% year-over-year revenue growth, with data centers driving $62 billion of the total",
-      "body": "Nvidia delivered another record-breaking quarter on Wednesday, reporting $68 billion in revenue for its fiscal period ending in early 2026 — a 73 percent jump from the same quarter a year earlier — as insatiable demand for artificial intelligence computing continues to fuel the chipmaker's dominance.\n\nThe data center segment, which encompasses the GPU accelerators and networking hardware powering AI workloads worldwide, accounted for $62 billion of the quarter's haul. Nvidia broke that figure into $51 billion in compute revenue, primarily from its flagship GPU products, and $11 billion from networking gear such as NVLink interconnects. For the full fiscal year, the company recorded $215 billion in total revenue, cementing its position as the world's most valuable publicly traded company.\n\nCEO Jensen Huang struck a bullish tone on the analyst call, declaring that global demand for AI inference tokens had gone \"completely exponential\" and that even six-year-old Nvidia GPUs deployed in cloud data centers were fully utilized with rising pricing. Huang also sought to quiet investor anxiety over the sustainability of massive capital expenditure commitments by hyperscale cloud providers, framing compute infrastructure as directly revenue-generative. \"In this new world of AI, compute is revenue,\" he said. \"We've reached the inflection point.\"\n\nDespite the headline growth, Nvidia disclosed that it has yet to book any revenue from chip sales to China, even after a partial relaxation of U.S. export controls. Chief Financial Officer Colette Kress noted that small quantities of H200 products had been approved for Chinese customers but had not translated into sales, adding a pointed warning that Chinese competitors — bolstered by recent IPOs such as Moore Threads' December listing — \"have the potential to disrupt the structure of the global AI industry over the long term.\"\n\nHuang also addressed Nvidia's reported $30 billion investment in OpenAI, saying the company believed it was \"close\" to finalizing a partnership agreement. He referenced additional collaborations with Anthropic, Meta, and Elon Musk's xAI. However, an SEC filing submitted the same day cautioned that there was \"no assurance\" the OpenAI deal would close. The disclosures underscore the complex web of partnerships and competitive dynamics shaping the AI chip landscape, even as Nvidia's financial results continue to exceed expectations quarter after quarter.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "AI",
-        "Jensen Huang",
-        "data centers",
-        "semiconductors",
-        "OpenAI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
-      "sourceUrl": "https://techcrunch.com/2026/02/25/nvidia-earnings-record-capex-spend-ai/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T06:32:55.248Z"
-    },
-    {
-      "id": "ps-1772087589666-l9bz",
-      "slug": "india-s-nse-moves-toward-2-5-billion-ipo-invites-bank-pitche",
-      "headline": "India's NSE Moves Toward $2.5 Billion IPO, Invites Bank Pitches",
-      "subheadline": "The National Stock Exchange's long-anticipated public listing would rank among India's largest-ever offerings",
-      "body": "The National Stock Exchange of India has begun formally soliciting investment banks to compete for roles in its initial public offering, a landmark deal that could raise approximately $2.5 billion and rank among the country's biggest-ever listings.\n\nThe exchange has issued a request for proposals to banks, according to reports citing people familiar with the matter, marking a concrete step forward for an IPO that market participants have anticipated for years. The listing of India's dominant equities venue — which handles the vast majority of the country's derivatives trading and a commanding share of cash equity volume — would represent a milestone for Indian capital markets and a major payday for its shareholders.\n\nNSE's path to public markets has been a prolonged saga, delayed at various points by regulatory scrutiny, governance controversies, and legal proceedings. The Securities and Exchange Board of India had previously raised concerns related to co-location server access and the tenure of former leadership, issues that had effectively stalled the IPO process. The decision to now formally engage banks suggests that the exchange and its regulators have reached sufficient comfort to advance the listing.\n\nA $2.5 billion offering would place the NSE IPO among the top handful of Indian public listings by size, joining the ranks of recent blockbuster debuts that have underscored surging global investor appetite for Indian assets. India's equity markets have experienced a dramatic expansion in retail participation and foreign capital inflows in recent years, with the NSE itself serving as the primary infrastructure beneficiary of that boom. The exchange's revenue and profitability have grown substantially as trading volumes have swelled across equities, derivatives, and commodity segments.\n\nThe bank selection process is expected to be highly competitive, with leading global and domestic investment banks vying for mandates on what would be one of Asia's most closely watched offerings. The timeline for the actual listing remains subject to regulatory approvals and market conditions, but the formal RFP process signals that momentum is building toward a transaction that could arrive within the coming quarters.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "NSE",
-        "IPO",
-        "India",
-        "capital markets",
-        "stock exchange"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1546833998-07256bcc76ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxJbmRpYSUyME1vdmVzJTIwVG93YXJkfGVufDB8MHx8fDE3NzIwODc1ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/nse-is-said-to-invite-banks-to-pitch-for-2-5-billion-india-ipo",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T06:33:09.666Z"
-    },
-    {
-      "id": "ps-1772087603717-dfs1",
-      "slug": "nvidia-smashes-q4-estimates-with-68-1b-revenue-guides-higher",
-      "headline": "Nvidia Smashes Q4 Estimates With $68.1B Revenue, Guides Higher",
-      "subheadline": "The AI chip giant's data center business has grown nearly 13-fold since ChatGPT's emergence, fueling bullish guidance of $78B next quarter",
-      "body": "Nvidia posted fourth-quarter revenue of $68.1 billion on Wednesday, handily beating Wall Street's consensus estimate of $66.1 billion and marking a 73% surge from the year-earlier period. The world's most valuable public company also guided first-quarter revenue to approximately $78 billion, well above the $72.9 billion analysts had projected — a signal that enterprise appetite for AI hardware shows no sign of cooling.\n\nThe results were powered by a record-setting data center segment, which generated $62.3 billion in quarterly revenue, up 75% year over year and 22% from the prior quarter. Chief Financial Officer Colette Kress told analysts on the earnings call that Nvidia has \"now scaled our data center business by nearly 13x since the emergence of ChatGPT,\" adding that the company has secured inventory and supply commitments extending into 2027 to meet anticipated demand.\n\nCEO Jensen Huang struck an emphatic tone about the durability of the AI investment cycle. \"The amount of computation demand for software in the past was a tiny fraction of what is necessary in the future,\" he said. \"AI is here. AI is not going to go back. AI is only going to get better from here.\" Adjusted earnings per share came in at $1.62, topping the $1.54 estimate compiled by FactSet.\n\nShares initially jumped as much as 4% in after-hours trading before settling to roughly a 1% gain. Thomas Monteiro, senior analyst at Investing.com, called the report \"a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" noting that the data center figures reinforce that large-scale AI infrastructure deployment remains firmly in expansion mode.\n\nThe earnings rippled through adjacent markets. Bitcoin held near $69,000 following a 10% bounce from earlier in the week, while AI-linked crypto tokens including Bittensor and Internet Computer posted modest gains before trimming advances. Crypto mining stocks with exposure to high-performance computing — IREN, Cipher Digital, and TeraWulf — edged 1% to 2% higher in extended trading. The results set an optimistic tone for the broader AI ecosystem heading into the second quarter, though investors will be watching closely to see whether Nvidia's aggressive guidance translates into sustained momentum across the sector.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "NVDA",
-        "earnings",
-        "artificial intelligence",
-        "data center",
-        "Jensen Huang",
-        "semiconductor"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T06:33:23.717Z"
-    },
-    {
-      "id": "ps-1772086644268-d3mk",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations — a long-standing challenge in computational fluid dynamics. The technique, published on the arXiv preprint server on February 14, introduces fully local corrections through what the authors call Onsager-Regularized non-equilibrium populations.\n\nThe work, led by Anirudh Jonnalagadda alongside Walter Rocchia and Sauro Succi, tackles a fundamental limitation of lattice Boltzmann (LB) methods: the modeling errors that arise when simulating fluid flow on first-nearest-neighbor lattices. Standard LB approaches, widely used in engineering and physics for their computational efficiency and parallelizability, have historically suffered from discrepancies between their discrete lattice representations and the continuous Navier-Stokes equations they aim to solve. These errors can compromise both accuracy and numerical stability, particularly in complex thermohydrodynamic applications.\n\nThe researchers' approach builds on the guided equilibrium representation framework, developing what they term partially and completely corrected models on the standard D2Q9 lattice — a two-dimensional lattice with nine discrete velocity directions commonly used in fluid simulations. The partially corrected model addresses so-called compatibility condition violations, yielding accuracy improvements of two to four orders of magnitude depending on whether reference or arbitrary lattice temperatures are used. The fully corrected model goes further, also eliminating stress tensor modeling errors to produce what the authors describe as an \"exact model\" — one that faithfully reproduces the Navier-Stokes equations without systematic bias.\n\nNumerical benchmarks confirmed that the corrected schemes outperform both the widely used Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and stability. The improvements are achieved while maintaining the locality of computations — a critical property for efficient parallel implementation on modern hardware, including GPUs.\n\nThe results could have significant implications for simulations of thermohydrodynamic systems, where temperature-dependent fluid behavior adds layers of complexity that amplify existing modeling errors. By providing an error-free foundation on standard lattices, the method opens a pathway toward more reliable lattice Boltzmann simulations in heat transfer, combustion modeling, and other thermal fluid dynamics applications without requiring exotic lattice configurations or prohibitively fine spatial resolutions.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "computational fluid dynamics",
-        "Navier-Stokes",
-        "Onsager regularization",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1669465716251-0973b3602278?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bGF0dGljZSUyMEJvbHR6bWFubiUyMGNvbXB1dGF0aW9uYWwlMjBmbHVpZCUyMGR5bmFtaWNzfGVufDB8MHx8fDE3NzIwODY2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T06:17:24.268Z"
     },
     {
       "id": "ps-1772085794888-8ikl",
@@ -255,28 +275,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21238",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T05:02:41.760Z"
-    },
-    {
-      "id": "ps-1772081238711-dg0z",
-      "slug": "sinaloa-cartel-civil-war-turns-culiac-n-into-a-kill-zone",
-      "headline": "Sinaloa Cartel Civil War Turns Culiacán Into a Kill Zone",
-      "subheadline": "Eighteen months of internecine warfare has driven homicides up sharply as rival factions battle for supremacy in Mexico's narco heartland",
-      "body": "The Mexican city of Culiacán, capital of Sinaloa state, is enduring an unprecedented wave of violence as the once-unified Sinaloa cartel tears itself apart in a fratricidal war that has raged for a year and a half, with paramedics reporting a more than 70 percent increase in emergency callouts in the past year alone.\n\nThe bloodshed traces back to the betrayal and capture of Ismael \"El Mayo\" Zambada, a founding leader of the cartel now imprisoned in the United States, which fractured the organization into warring factions. The chaos in Culiacán offers a stark illustration of what happens when a powerful cartel leader is removed: rather than diminishing the violence, the power vacuum has intensified it. Bodies — some bearing signs of torture — are being dumped outside shopping malls and along highways, accompanied by threatening messages from one faction to the other. Schools, hospitals, and even funerals have been attacked. Local journalists report an average of five to six homicides per day, a pace that has persisted despite the deployment of thousands of Mexican troops and the establishment of military checkpoints across the city.\n\nThe crisis deepened further this week when Mexico's most wanted drug lord, Nemesio Oseguera Cervantes — known as \"El Mencho\" and leader of the rival Jalisco New Generation Cartel — died in custody on Sunday after being captured in a firefight in Jalisco state. President Claudia Sheinbaum praised the special forces operation, but the removal of yet another major cartel figure raises fears of additional destabilization across Mexico's criminal landscape.\n\nIn Culiacán, paramedics now wear 14 kilograms of Kevlar body armor on every call, uncertain whether gunmen remain at crime scenes. The BBC's Quentin Sommerville, reporting from the city over the course of a week, found that nearly every emergency response ended with a dead body — including a 16-year-old boy shot at close range while riding his bicycle. Members of one cartel faction, interviewed under conditions of anonymity, expressed a chilling calculus: the government should stand aside and let the factions kill each other until only one remains. \"A lot of people will keep dying because the cartel is still fighting, and it keeps getting worse,\" one fighter said.\n\nMeanwhile, the human toll extends beyond the dead. Mothers of the disappeared, organized under a group called Mothers Fighting Back, conduct regular searches for clandestine graves in fields outside the city, probing disturbed soil and smelling the earth for traces of human remains — all under armed military escort. The Sinaloa cartel built its empire on fentanyl production that has flooded U.S. streets and killed tens of thousands of Americans, prompting President Donald Trump to designate the cartel a terrorist organization and threaten direct military action against Mexico. But in Culiacán, the most immediate terror is homegrown, and residents say the fear is constant.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Mexico",
-        "Sinaloa cartel",
-        "drug violence",
-        "Culiacán",
-        "El Mencho",
-        "fentanyl",
-        "organized crime"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1f16/live/170d1a60-10d1-11f1-97cc-8b3c62c7814d.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2g3vmde0eo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T04:47:18.711Z"
     },
     {
       "id": "ps-1772081254399-f1lj",
