@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-02-26T20:48:35.857Z",
+  "lastUpdated": "2026-02-26T21:03:26.258Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772139723416-qos2",
+      "slug": "uk-defence-ministry-launches-review-of-epstein-flights-at-ra",
+      "headline": "UK Defence Ministry Launches Review of Epstein Flights at RAF Bases",
+      "subheadline": "Defence Secretary orders officials to examine all records after former PM Gordon Brown submits dossier to police forces",
+      "body": "Britain's Ministry of Defence has ordered a comprehensive review of whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, marking a significant escalation in efforts to trace the disgraced financier's activities on British soil.\n\nDefence Secretary John Healey directed officials to examine all departmental records — including emails and flight logs — related to Epstein's private jets landing at military airfields. An MoD source told reporters the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review follows a demand from former Prime Minister Gordon Brown for a formal police investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown reportedly submitted a five-page dossier to multiple police forces, including the Metropolitan Police, Sussex Police, and Thames Valley Police, containing new information drawn from Epstein-related documents released in the United States.\n\nAt the center of the inquiry is a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk, a base situated roughly 20 miles from the royal Sandringham Estate. The MoD has previously acknowledged that spare capacity at RAF airfields is routinely made available for private and commercial aircraft, subject to fees. But the review now aims to determine whether that standard practice was exploited in connection with Epstein's criminal activities.\n\nThe probe builds on a BBC News investigation from last year that identified approximately 90 flights linked to Epstein arriving at or departing from UK airports, some carrying British women who have alleged they were victims of abuse. Prince Andrew has repeatedly denied any wrongdoing in relation to Epstein, who died in a New York jail cell in August 2019 while awaiting trial on sex trafficking charges.\n\nIn a formal statement, an MoD spokesperson said the department would \"support any civilian police investigations\" and that its priority was ensuring any relevant information reaches the appropriate authorities. \"Our thoughts are with all the victims of Epstein's vile crimes,\" the spokesperson added. The review represents the most direct action yet by the British government to examine possible military infrastructure connections to the Epstein network, and comes amid broader international scrutiny following the release of extensive Epstein-related documents in the United States that have implicated numerous high-profile figures.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Jeffrey Epstein",
+        "UK Ministry of Defence",
+        "RAF bases",
+        "Prince Andrew",
+        "Gordon Brown",
+        "John Healey"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1a2d/live/537ff930-6139-11ee-b101-6f93d6dfbcc2.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-26T21:02:03.416Z"
+    },
+    {
+      "id": "ps-1772139743235-uyam",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational grids",
+      "body": "A team of researchers has developed a novel computational fluid dynamics technique that eliminates systematic modeling errors in lattice Boltzmann simulations of the Navier-Stokes equations — a longstanding challenge in the field. The method, described in a preprint posted to arXiv on February 14, introduces fully local corrections through what the authors call Onsager-Regularized non-equilibrium populations.\n\nLattice Boltzmann methods have become a workhorse of computational physics, offering an efficient alternative to traditional solvers for simulating fluid flows ranging from turbulence to blood circulation. However, models built on standard first-nearest-neighbor lattices have long suffered from inherent errors that arise from the limited number of discrete velocity directions available on these grids. These errors can compromise both accuracy and numerical stability, particularly at non-standard lattice temperatures — a parameter regime important for thermohydrodynamic applications.\n\nAnirudh Jonnalagadda, Walter Rocchia, and Sauro Succi tackled the problem by developing a generalized framework that systematically identifies and corrects two distinct sources of error: violations of compatibility conditions and stress tensor modeling deficiencies. Working with the six-moment-constrained guided equilibrium representation on the commonly used D2Q9 lattice, the researchers constructed both partially and fully corrected models. The partial correction alone — which addresses only compatibility condition violations — improved accuracy by two orders of magnitude at standard reference lattice temperatures and by four orders of magnitude at arbitrary lattice temperatures. The fully corrected version additionally repairs stress tensor errors, yielding what the authors describe as an exact model.\n\nNumerical benchmarks confirmed that the corrected schemes outperform both the widely used Lattice-BGK method and earlier uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and stability. Crucially, the corrections remain fully local, meaning they do not require information from neighboring grid points beyond what standard lattice Boltzmann methods already use — preserving the computational simplicity and parallelizability that make the approach attractive for large-scale simulations.\n\nThe work opens a promising path toward extending Onsager-Regularized methods to thermohydrodynamic problems, where coupling between fluid flow and heat transport demands precise modeling across a range of lattice temperatures. If the framework generalizes as the authors suggest, it could significantly broaden the class of physical problems amenable to high-fidelity lattice Boltzmann simulation on standard computational grids, without requiring more complex lattice geometries or costly mesh refinements.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "lattice Boltzmann",
+        "Navier-Stokes",
+        "computational physics",
+        "fluid dynamics",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1579575278032-b1cad1eadc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-26T21:02:23.235Z"
+    },
+    {
+      "id": "ps-1772139759383-qdxp",
+      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
+      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for biosignatures",
+      "body": "Ancient microbial life — or its chemical fingerprints — could remain intact inside Martian ice for more than 50 million years, even under the planet's punishing cosmic radiation, according to new research from NASA's Goddard Space Flight Center and Penn State University. The finding fundamentally reframes where future missions should look for signs of biology on the Red Planet.\n\nPublished in the journal Astrobiology, the study subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 20 million years of cosmic ray exposure on the Martian surface, at temperatures of minus 60 degrees Fahrenheit. The team then modeled an additional 30 million years of exposure. The result was remarkable: more than 10 percent of amino acids — the essential building blocks of proteins — survived the full 50-million-year simulation when encased in pure ice. Samples mixed with Mars-like sediment, including silicate rocks and clay, degraded ten times faster and did not survive.\n\nThe counterintuitive result overturned the team's own earlier expectations. A 2022 study by the same group had found that amino acids in a mixture of 10 percent water ice and 90 percent Martian soil broke down quickly, leading researchers to assume pure ice would fare even worse. Instead, the opposite proved true. Lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that in solid ice, harmful particles generated by radiation become frozen in place and cannot easily reach organic compounds. In mixed samples, a thin film that forms where ice meets mineral surfaces appears to allow radiation damage to propagate more efficiently.\n\nThe implications extend well beyond Mars. The team tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, finding that degradation slowed even further. That result bodes well for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030, where it will conduct 49 close flybys to assess whether conditions beneath Europa's ice shell could support life.\n\nFor Mars exploration specifically, the study makes a clear case for retooling mission priorities. Current surface ice deposits on Mars are often less than two million years old — well within the 50-million-year preservation window the research establishes. Co-author Christopher House, a Penn State geosciences professor, noted that while Mars harbors abundant ice, most of it lies just below the surface, requiring future landers to carry drills or heavy scoops similar to those used by NASA's 2008 Phoenix mission, which first excavated and photographed subsurface Martian ice. The message to mission planners is straightforward: if ancient life left traces on Mars, the best place to find them is locked in clean, buried ice — not in the rocks and soil that have dominated the search so far.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "cosmic radiation",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-26T21:02:39.383Z"
+    },
+    {
+      "id": "ps-1772139776469-8e9o",
+      "slug": "sophia-space-lands-10m-to-rethink-computing-in-orbit",
+      "headline": "Sophia Space Lands $10M to Rethink Computing in Orbit",
+      "subheadline": "Caltech solar-sail research inspires a thin, passively cooled satellite design that could reshape space data centers",
+      "body": "Sophia Space, a startup building novel computing hardware for orbit, has closed a $10 million seed round led by Alpha Funds with participation from KDDI Green Partners Fund and Unlock Venture Partners. The company plans to use the capital to validate a radically thin satellite computing architecture on the ground before launching a demonstration mission aboard an Apex Space satellite bus by late 2027 or early 2028.\n\nThe technology traces its lineage to a $100 million Caltech research program originally aimed at developing orbital solar power stations that would beam electricity back to Earth. That effort produced a lightweight, sail-like structure far thinner and more flexible than conventional satellite hardware. Leon Alkalai, a fellow at Caltech's Jet Propulsion Laboratory and Sophia's chief technology officer, recognized the design's potential for a different purpose: powering and cooling space-based processors without the bulky radiators and active thermal management systems that dominate current approaches.\n\nSophia's core product is a modular unit it calls a TILE — a one-meter-square server rack just centimeters thick, with integrated solar panels on one side and processors seated against a passive heat spreader on the other. CEO Rob DeMillo told TechCrunch that the architecture eliminates the need for active cooling entirely, allowing 92 percent of generated power to flow directly to computation — a meaningful efficiency advantage over traditional satellite designs. The tradeoff is complexity on the software side: sophisticated workload-management systems must dynamically balance processing across the thin modules to prevent thermal hotspots.\n\nThe near-term business case does not depend on the space data center megaprojects that companies like SpaceX, Google, and Starcloud are exploring. Instead, Sophia intends to sell TILEs to existing satellite operators struggling with a well-known bottleneck: sensors that generate terabytes or even petabytes of data every few minutes but lack the onboard compute to process it before most of that information is discarded. Earth-observation constellations, Pentagon missile-warning networks, and next-generation communications satellites are all potential early customers.\n\nLooking further ahead, Sophia envisions assembling thousands of TILEs into structures as large as 50 meters by 50 meters, delivering roughly one megawatt of computing power from a single platform. DeMillo argues that a monolithic design will prove more practical and economical than distributed constellations linked by laser crosslinks. The timeline for that ambition stretches into the 2030s, but the seed funding and upcoming orbital demonstration will serve as the first concrete tests of whether passive cooling and ultra-thin form factors can unlock a new category of space computing — one that Nvidia CEO Jensen Huang himself flagged as an unsolved thermal challenge during his company's most recent earnings call.",
+      "category": "tech",
+      "importance": 6,
+      "tags": [
+        "Sophia Space",
+        "space computing",
+        "satellite technology",
+        "seed funding",
+        "orbital data centers",
+        "Caltech"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Sophia-TCS40.jpeg?resize=1200,676",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-26T21:02:56.469Z"
+    },
+    {
+      "id": "ps-1772139791678-nsx0",
+      "slug": "s-p-500-drops-as-nvidia-results-fail-to-calm-ai-skeptics",
+      "headline": "S&P 500 Drops as Nvidia Results Fail to Calm AI Skeptics",
+      "subheadline": "Nasdaq 100 sheds 1.2% as investors question sustainability of tech rally despite strong chipmaker earnings",
+      "body": "U.S. equities sold off on Wednesday as even better-than-expected results from Nvidia Corp. proved insufficient to reassure investors increasingly anxious about the durability of the artificial intelligence trade that has powered markets for over two years.\n\nThe S&P 500 fell 0.5% in afternoon trading, with seven of its eleven sectors finishing in the red. Technology and communications services led the decline, dragging the Nasdaq 100 down 1.2% — a notably steeper drop that underscored how concentrated the selling was among the mega-cap names that have been the primary beneficiaries of AI enthusiasm.\n\nThe paradox at the heart of the session was Nvidia itself. The chipmaker, widely regarded as the bellwether of the AI infrastructure boom, delivered quarterly results that topped analyst expectations. Yet the stock fell anyway, a signal that the bar for sustaining elevated tech valuations may have risen beyond what even strong fundamentals can clear. Investors appear to be grappling with a familiar late-cycle question: whether current spending on AI infrastructure will translate into proportionate revenue gains for the companies deploying the technology, or whether the sector is approaching a plateau.\n\nThe broad-based weakness across growth-oriented sectors suggests the market's unease extends beyond any single earnings report. After a prolonged run in which a handful of AI-adjacent stocks drove an outsized share of index returns, portfolio managers are contending with concentration risk and the possibility that capital may begin rotating toward more defensive or value-oriented corners of the market. Wednesday's session, in which the damage was largely confined to tech while other sectors showed mixed results, fits that narrative.\n\nThe selloff adds to a stretch of choppy trading that has defined early 2026, as investors weigh still-robust corporate earnings against questions about AI monetization timelines, elevated valuations, and the macroeconomic backdrop. With Nvidia's results now in the rearview mirror without providing the catalyst bulls had hoped for, attention will likely shift to upcoming economic data and Federal Reserve commentary for the next directional signal.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "S&P 500",
+        "Nvidia",
+        "Nasdaq 100",
+        "AI stocks",
+        "tech selloff",
+        "equities"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iP6KTMh8LvL4/v0/1200x675.jpg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/us-stocks-edge-lower-as-nvidia-shares-fall-ai-worry-simmers",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-26T21:03:11.678Z"
+    },
+    {
+      "id": "ps-1772139806178-lmww",
+      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
+      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
+      "subheadline": "The co-founder's roadmap targets four key vulnerabilities, from validator signatures to zero-knowledge proofs",
+      "body": "Ethereum co-founder Vitalik Buterin published a detailed roadmap on Thursday outlining how the world's second-largest blockchain intends to protect itself from the eventual threat of quantum computers — machines that could, in theory, shatter the cryptographic foundations underpinning the entire network.\n\nThe plan, shared via a post on X, identifies four critical areas where quantum computers could exploit Ethereum's current architecture: the BLS signatures used by validators to confirm blocks, the KZG commitment scheme that supports data availability, the standard digital signatures securing everyday user wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists that is powerful enough to break modern cryptography, researchers widely agree the threat is a matter of when, not if — making early preparation essential for a network securing tens of billions of dollars in value.\n\nThe most consequential proposed change involves replacing BLS signatures — the digital signature scheme validators currently use to reach consensus — with hash-based alternatives considered far more resistant to quantum attack. Buterin also acknowledged that swapping out KZG commitments for quantum-safe equivalents would demand substantial engineering work and could introduce new complexity into Ethereum's data handling layer. For ordinary users, the roadmap leans heavily on a planned protocol upgrade designated EIP-8141, which would allow wallet accounts to migrate to quantum-resistant signature schemes rather than remaining locked into the current standard.\n\nZero-knowledge proofs present perhaps the thorniest challenge. Quantum-safe versions of these cryptographic proofs are significantly more expensive to verify on-chain today. Buterin pointed to a mechanism within EIP-8141 called \"validation frames\" as a longer-term solution — a technique that would bundle multiple signatures and proofs into a single compressed verification, dramatically reducing computational costs.\n\nThe roadmap follows the Ethereum Foundation's recent establishment of a dedicated post-quantum research team, signaling that the organization views quantum preparedness as a strategic priority rather than a distant hypothetical. Ethereum was trading near $2,028 at the time of the announcement, down roughly 2.4% on the day.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "Vitalik Buterin",
+        "quantum computing",
+        "cryptography",
+        "blockchain security",
+        "post-quantum"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-26T21:03:26.178Z"
+    },
     {
       "id": "ps-1772138827311-0511",
       "slug": "us-iran-nuclear-talks-yield-significant-progress-as-war-thre",
@@ -43,91 +170,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21244",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-26T20:47:26.409Z"
-    },
-    {
-      "id": "ps-1772138861943-s3gc",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State research upends assumptions about where to search for signs of ancient life on Mars",
-      "body": "Ancient biological material could persist for tens of millions of years inside pure Martian ice — far longer than previously assumed — according to new laboratory experiments that may reshape the strategy for future Mars missions.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State sealed E. coli bacteria in tubes of pure water ice, then bombarded them with gamma radiation at minus 60 degrees Fahrenheit to simulate conditions on the Martian surface. After exposure equivalent to 20 million years of cosmic ray bombardment, with an additional 30 million years modeled computationally, more than 10 percent of the amino acids in the pure ice samples remained intact. The results, published in the journal Astrobiology, stand in sharp contrast to samples mixed with silicate rocks and clay typical of Martian sediment, which degraded roughly 10 times faster. The finding was unexpected: a 2022 study by the same team had suggested that water ice alone would accelerate organic destruction, not slow it.\n\nThe key appears to be what happens at the boundary between ice and mineral grains. Lead author Alexander Pavlov, a space scientist at NASA Goddard, explained that a thin liquid-like film forms where ice contacts soil particles, allowing radiation-generated reactive species to move freely and attack organic molecules. In solid ice without sediment, those harmful particles become frozen in place and are far less likely to reach amino acids. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe implications extend well beyond the Red Planet. The team also tested organic material at temperatures matching those on Europa and Enceladus — icy moons of Jupiter and Saturn, respectively — and found that degradation slowed even further in those colder environments. That is encouraging news for NASA's Europa Clipper spacecraft, which launched in 2024 and is scheduled to arrive at Jupiter in 2030 to conduct 49 close flybys of Europa's ice shell.\n\nFor Mars exploration, the practical takeaway is clear: future missions should carry drilling or scooping hardware capable of reaching subsurface ice deposits rather than focusing primarily on rock and soil analysis. Co-author Christopher House, a Penn State geosciences professor, noted that the 50-million-year preservation window far exceeds the estimated age of some Martian surface ice, which can be less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. NASA's Phoenix lander demonstrated the feasibility of excavating Martian ice as early as 2008, but no subsequent surface mission has been equipped to do the same at scale — a gap the new findings suggest should be a priority.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "space exploration"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-26T20:47:41.943Z"
-    },
-    {
-      "id": "ps-1772138878921-usu6",
-      "slug": "sophia-space-lands-10m-to-rethink-cooling-for-orbital-comput",
-      "headline": "Sophia Space Lands $10M to Rethink Cooling for Orbital Computers",
-      "subheadline": "Startup born from Caltech solar power research bets thin, sail-like satellite tiles can solve space computing's thermal problem",
-      "body": "Sophia Space has secured $10 million in seed funding to develop and demonstrate a novel approach to space-based computing that sidesteps one of the industry's most stubborn engineering challenges: keeping powerful processors cool in the vacuum of orbit.\n\nThe round, announced February 26, was backed by Alpha Funds, KDDI Green Partners Fund, and Unlock Venture Partners. The Los Angeles-area company plans to validate its passive cooling technology on the ground before purchasing a satellite bus from Apex Space and launching an orbital demonstration by late 2027 or early 2028. The concept emerged from a $100-million Caltech program originally aimed at developing orbital solar power plants that would beam electricity to Earth — research that produced a thin, sail-like satellite architecture strikingly different from the boxy spacecraft that dominate the industry.\n\nAt the heart of Sophia's design are modular units called TILES — one-meter-square server racks just centimeters thick, with integrated solar panels. Chief Technology Officer Leon Alkalai, a fellow at Caltech's Jet Propulsion Laboratory, recognized that this ultra-thin form factor could solve the thermal dissipation problem that has bedeviled efforts to put high-performance chips in space. Because processors sit directly against a passive heat spreader rather than relying on bulky radiators or active cooling systems, CEO Rob DeMillo says 92 percent of generated power can be directed to computation — a significant efficiency gain over conventional satellite architectures. The tradeoff is complexity: the design demands sophisticated software to balance workloads across distributed processors within the thin structure.\n\nThe startup enters a market that has attracted serious attention from major players. Nvidia CEO Jensen Huang recently addressed the thermal challenge of space data centers during an earnings call, noting that the absence of airflow in orbit forces engineers to rely solely on conduction for heat dissipation. Companies including SpaceX, Google, and Starcloud are exploring space data center constellations using traditional satellite designs equipped with large radiators. Sophia's founders argue those approaches will prove uneconomical at scale.\n\nIn the near term, Sophia plans to sell TILES to satellite operators that need onboard computing power — particularly Earth-observation platforms drowning in sensor data, Pentagon missile-warning systems receiving billions in investment, and next-generation communications networks. \"The dirty little secret of the satellite industry is we've got all these amazing sensors up there that produce terabytes, or even petabytes, of data every few minutes, and they throw most of it out,\" DeMillo told reporters, citing insufficient onboard processing and limited downlink bandwidth as the bottleneck. By the 2030s, the company envisions assembling thousands of TILES into 50-by-50-meter structures capable of delivering one megawatt of computing power — a vision that, if realized, could fundamentally reshape the economics of processing data in orbit.",
-      "category": "tech",
-      "importance": 6,
-      "tags": [
-        "Sophia Space",
-        "space computing",
-        "satellite technology",
-        "orbital data centers",
-        "Caltech",
-        "seed funding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/Sophia-TCS40.jpeg?resize=1200,676",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T20:47:58.921Z"
-    },
-    {
-      "id": "ps-1772138900250-ape1",
-      "slug": "wall-street-slides-as-nvidia-results-fail-to-ease-ai-doubts",
-      "headline": "Wall Street Slides as Nvidia Results Fail to Ease AI Doubts",
-      "subheadline": "Strong earnings from the chipmaker weren't enough to calm growing investor anxiety over stretched tech valuations",
-      "body": "U.S. equities declined on Wednesday as even a better-than-expected quarterly report from Nvidia Corp. proved insufficient to arrest mounting concerns about the durability of the artificial-intelligence trade that has powered markets higher for more than two years.\n\nNvidia, whose chips underpin the bulk of the world's AI infrastructure, delivered results that topped Wall Street estimates. Yet the stock fell in the session, dragging the broader technology sector lower with it. The reaction underscored a shift in investor psychology: with AI-linked names trading at elevated multiples, merely beating expectations may no longer be enough to sustain momentum. Traders appear to be demanding clearer evidence that the enormous capital expenditures flowing into AI will translate into proportionate revenue growth across the ecosystem.\n\nThe sell-off rippled beyond semiconductors. Major tech stocks that have led the market's advance — often grouped under the so-called Magnificent Seven banner — came under broad pressure, weighing heavily on the S&P 500 and the Nasdaq Composite. The moves reflect a market increasingly sensitive to any sign that the AI investment cycle could slow or that returns on billions of dollars in data-center spending may take longer to materialize than bulls have projected.\n\nThe pullback comes at a delicate moment for equity markets. Valuations in the technology sector remain stretched by historical standards, and investors are simultaneously navigating uncertainty around Federal Reserve interest-rate policy and evolving geopolitical risks. A growing chorus of strategists has warned that concentration risk — with a handful of mega-cap tech names accounting for an outsized share of index returns — leaves the broader market vulnerable to sharp reversals when sentiment shifts.\n\nFor now, the fundamental case for AI spending remains largely intact, with hyperscale cloud providers continuing to signal aggressive capital plans. But Wednesday's session served as a reminder that sentiment can turn quickly when expectations are sky-high, and that even the strongest earnings prints may not be enough to keep the rally on track indefinitely.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "nvidia",
-        "AI stocks",
-        "tech sell-off",
-        "Wall Street",
-        "S&P 500",
-        "market volatility"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1647834235189-83349364ba10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8d2FsbCUyMHN0cmVldCUyMHNsaWRlc3xlbnwwfDB8fHwxNzcyMTM3OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/us-stocks-edge-lower-as-nvidia-shares-fall-ai-worry-simmers",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-26T20:48:20.250Z"
-    },
-    {
-      "id": "ps-1772138915741-dbbp",
-      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
-      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
-      "subheadline": "The co-founder's roadmap targets four key vulnerabilities as Ethereum Foundation stands up a dedicated post-quantum research team",
-      "body": "Ethereum co-founder Vitalik Buterin on Thursday published a detailed roadmap for hardening the world's largest smart-contract blockchain against the eventual threat of quantum computers, identifying four distinct areas where the network's cryptographic foundations could be compromised by sufficiently powerful quantum machines.\n\nThe roadmap, shared via a post on X, arrives on the heels of the Ethereum Foundation's creation of a dedicated post-quantum research team. While no quantum computer currently exists that can break modern cryptographic schemes, researchers widely agree that such machines could eventually render today's digital signatures and commitment schemes obsolete — a prospect that would undermine the security model of virtually every major blockchain.\n\nButerin pinpointed four categories of vulnerability: the BLS signatures used by validators to reach consensus, the KZG commitments underpinning Ethereum's data availability layer, the standard elliptic-curve signatures that secure everyday wallet transactions, and the zero-knowledge proof systems relied upon by layer-2 scaling networks and privacy applications. For validators, he proposed migrating to hash-based signature schemes, which are broadly considered resistant to quantum attack. Replacing KZG commitments with quantum-safe alternatives is technically feasible, he noted, but would demand substantial engineering effort and could add complexity to the system.\n\nFor ordinary users, Buterin pointed to a planned protocol upgrade known as EIP-8141, which would make Ethereum accounts more flexible by allowing them to swap in different signature schemes — including post-quantum varieties — without requiring a wholesale network overhaul. The same upgrade introduces a concept called \"validation frames,\" which would let the network aggregate many individual signatures and proofs into a single compressed verification. That aggregation could prove critical for zero-knowledge proofs, whose quantum-safe variants are currently far more computationally expensive to verify on-chain.\n\nThe initiative reflects a broader industry reckoning with quantum risk. Google, IBM, and other technology firms have made rapid advances in quantum hardware, and standards bodies including the U.S. National Institute of Standards and Technology have already begun certifying post-quantum cryptographic algorithms. For Ethereum, which secures roughly $2,000 worth of ether per token and underpins a vast ecosystem of decentralized applications, the stakes are considerable. Buterin's roadmap suggests the network intends to treat quantum preparedness not as a distant hypothetical but as an active engineering priority.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "Vitalik Buterin",
-        "quantum computing",
-        "cryptography",
-        "blockchain security",
-        "EIP-8141"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T20:48:35.741Z"
     },
     {
       "id": "ps-1772137942490-ndyk",
@@ -525,26 +567,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cd6z3e1vdvzo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-26T16:32:05.729Z"
-    },
-    {
-      "id": "ps-1772122638611-3sob",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers develop Onsager-Regularized corrections that improve fluid simulation accuracy by up to four orders of magnitude",
-      "body": "A team of computational physicists has introduced a novel lattice Boltzmann framework that eliminates systematic modeling errors in Navier-Stokes fluid simulations, a long-standing challenge in computational fluid dynamics. The work, published on arXiv on February 14, was authored by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi.\n\nThe lattice Boltzmann method (LBM) is a widely used computational approach for simulating fluid flows, from aerodynamics to blood circulation, by modeling the statistical behavior of fluid particles on a discrete lattice rather than solving continuum equations directly. However, standard implementations on first-nearest-neighbor lattices introduce inherent modeling errors when approximating the Navier-Stokes equations — the fundamental equations governing viscous fluid motion. These errors have historically limited the method's fidelity, particularly at non-standard lattice temperatures, forcing practitioners to choose between computational efficiency and physical accuracy.\n\nThe new approach, termed the Generalized Onsager-Regularized Lattice Boltzmann Method, tackles the problem by introducing fully local corrections through what the authors call Onsager-Regularized non-equilibrium populations. The framework offers both partial and complete correction pathways. The researchers demonstrated their method using a six-moment-constrained guided equilibrium representation on the standard D2Q9 lattice — a two-dimensional, nine-velocity lattice that is one of the most common configurations in lattice Boltzmann simulations. The partially corrected model, which addresses compatibility condition violations, achieved accuracy improvements of two orders of magnitude at reference lattice temperatures and four orders of magnitude at arbitrary lattice temperatures. The fully corrected model goes further, additionally eliminating stress tensor modeling errors to produce what the authors describe as an \"exact\" Navier-Stokes model.\n\nNumerical benchmarks confirmed that the corrected schemes deliver both improved accuracy and enhanced numerical stability compared to the standard Lattice-BGK method and uncorrected Onsager-Regularized guided equilibrium schemes. The fact that the corrections are fully local — meaning each lattice node can be updated independently — is significant for computational efficiency, as it preserves the inherent parallelism that makes lattice Boltzmann methods attractive for large-scale simulations on modern hardware.\n\nThe researchers noted that the framework opens a promising pathway toward thermohydrodynamic extensions, which would allow accurate simulation of coupled thermal and fluid flow phenomena. Such capabilities are critical for applications ranging from climate modeling and industrial heat transfer to microfluidic device design, where temperature-dependent fluid behavior must be captured with high fidelity on computationally tractable lattice structures.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice-Boltzmann",
-        "Navier-Stokes",
-        "computational-fluid-dynamics",
-        "numerical-methods",
-        "Onsager-regularization"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1740250577887-f2a3d47cc873?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T16:17:18.611Z"
     },
     {
       "id": "ps-1772121781217-ws5g",
@@ -1032,27 +1054,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/yuan-s-comeback-versus-euro-is-a-welcome-gift-for-merz-visit",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T09:33:30.843Z"
-    },
-    {
-      "id": "ps-1772097443473-ij1p",
-      "slug": "video-shows-israeli-soldiers-shot-palestinian-boy-blocked-ai",
-      "headline": "Video Shows Israeli Soldiers Shot Palestinian Boy, Blocked Aid as He Died",
-      "subheadline": "BBC investigation reveals 14-year-old Jad Jadallah bled for at least 45 minutes while 14 soldiers stood by in West Bank camp",
-      "body": "A BBC investigation published Thursday has revealed harrowing video evidence showing Israeli soldiers shooting a 14-year-old Palestinian boy at close range in a West Bank refugee camp last November, then blocking ambulances and standing by for at least 45 minutes as he bled to death.\n\nJad Jadallah was killed on a street in al-Far'a refugee camp, home to roughly 10,000 Palestinians and subject to frequent Israeli military raids. CCTV footage verified by the BBC shows a group of four soldiers had remained concealed behind a wall after other military vehicles departed the camp. When Jad and two friends appeared around a corner — apparently checking whether the soldiers had left based on a community messaging group alert — a lead soldier opened fire from less than three meters away. Jad attempted to flee up an alley but collapsed after a few steps. His two friends escaped.\n\nWhat followed, captured in bystander footage filmed by a camp resident, raises grave questions about the conduct of Israeli forces. Fourteen soldiers formed a cordon around the wounded teenager but none appeared to administer life-saving medical care, despite standard Israeli military training in trauma treatment. Jad can be seen waving his arms and throwing his hat toward soldiers in apparent attempts to get their attention; the soldiers appeared to ignore him and kicked the hat back. Two Palestinian Red Crescent ambulances arrived — the first within eight minutes — but both were stopped at gunpoint by soldiers, according to lead paramedic Hassan Fouqha, who said his team watched helplessly from roughly 100 yards away. The Israel Defence Forces told the BBC that soldiers provided \"initial medical treatment\" after verifying Jad was not wearing explosives, but declined to specify what treatment was given or describe his injuries.\n\nThe investigation also uncovered footage appearing to show a soldier dropping a heavy object next to Jad's body and photographing it — an action Jad's family and the Israeli human rights organization B'Tselem say looks like an attempt to plant evidence justifying the shooting. The IDF has labeled Jad a \"terrorist\" who \"attempted to attack the force\" by throwing a rock, but the footage of the shooting itself shows no such action. Shai Parnes of B'Tselem told the BBC that while certainty is difficult, \"anyone who watches it with an open mind will probably come to that conclusion\" that evidence was planted, adding that similar cases have been documented before. The IDF did not respond to the specific allegation.\n\nThe Israeli military has refused to return Jad's body to his family and has declined to answer questions about the number or location of his wounds, leaving basic details of his death unresolved months later. According to the United Nations, 55 Palestinian children were killed by Israeli forces in the West Bank in 2024 alone, and 227 have been killed there since the October 7, 2023 Hamas attack on Israel. Human rights organizations say Israeli soldiers in the occupied territories operate under permissive rules of engagement that frequently result in lethal force against individuals — including stone-throwing children — who pose no immediate threat to soldiers' lives.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Israel-Palestine",
-        "West Bank",
-        "IDF",
-        "human rights",
-        "BBC investigation",
-        "occupied territories"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/feab/live/9482f0a0-1257-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cpqwv9vvzx9o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-26T09:17:23.473Z"
     }
   ]
 }
