@@ -1,27 +1,135 @@
 {
-  "lastUpdated": "2026-02-27T00:18:27.255Z",
+  "lastUpdated": "2026-02-27T00:33:17.419Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772151424000-97s1",
-      "slug": "uk-defence-ministry-orders-review-of-epstein-s-use-of-raf-ba",
-      "headline": "UK Defence Ministry Orders Review of Epstein's Use of RAF Bases",
-      "subheadline": "Defence Secretary Healey directs officials to search all records after former PM Brown submits dossier to police",
-      "body": "Britain's Ministry of Defence has launched a formal review into whether the late sex offender Jeffrey Epstein used Royal Air Force bases when visiting the United Kingdom, as scrutiny intensifies over the convicted trafficker's extensive ties to the country.\n\nDefence Secretary John Healey ordered officials to examine all departmental records, including emails, related to Epstein's flights landing at military airfields. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\" In a statement, the ministry said any uncovered information relating to Epstein's crimes would be turned over to relevant authorities and pledged cooperation with civilian police investigations.\n\nThe review follows a push by former Prime Minister Gordon Brown, who submitted a five-page dossier to several UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — calling for an investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown's concerns reportedly center on a December 2000 flight in which Epstein traveled by Gulfstream jet to RAF Marham in Norfolk, a base situated roughly 20 miles from the Royal Family's Sandringham Estate. Prince Andrew has previously denied any wrongdoing in connection with Epstein, who died in a New York prison cell in 2019 while awaiting trial on sex trafficking charges.\n\nThe ministry's action comes amid a broader reckoning with Epstein's UK operations. A BBC News investigation last year established that approximately 90 flights linked to Epstein arrived at or departed from British airports, with some carrying British women who have alleged they were abused. Separately, Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the US government's release of Epstein-related materials. The MoD has previously acknowledged that spare capacity at RAF airfields is routinely made available for private and commercial aircraft use, subject to fees.\n\nThe converging investigations mark a significant escalation in the UK's engagement with the Epstein scandal, which has largely been driven by US authorities and courts. With police forces now actively assessing new evidence and the Defence Ministry combing its archives, pressure is mounting on British institutions to account for the infrastructure that may have facilitated Epstein's access to the country over many years.",
+      "id": "ps-1772152318641-pypl",
+      "slug": "uk-defence-ministry-probes-whether-epstein-used-raf-bases",
+      "headline": "UK Defence Ministry Probes Whether Epstein Used RAF Bases",
+      "subheadline": "Defence Secretary orders 'ruthless' review of military records after former PM Gordon Brown demanded police investigation",
+      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when flying into the United Kingdom, intensifying scrutiny of the late financier's ties to prominent British figures.\n\nDefence Secretary John Healey ordered officials to examine all departmental records, including emails and flight logs, related to Epstein's aircraft landing at military airfields. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review follows a demand from former Prime Minister Gordon Brown for a police investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown reportedly submitted a five-page dossier to multiple police forces, including the Metropolitan Police, Sussex Police, and Thames Valley Police, containing new information drawn from Epstein-related documents released in the United States.\n\nAt the center of the inquiry is a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk — a base situated roughly 20 miles from the Royal Family's Sandringham Estate. The MoD has previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for a fee. A BBC News investigation last year identified approximately 90 flights linked to Epstein that arrived at or departed from UK airports, some carrying British women who have alleged they were victims of abuse.\n\nThe review adds to a broadening web of UK law enforcement activity connected to the Epstein case. Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the U.S. government's release of Epstein materials. Stansted Airport said its private jet terminals operate independently from the main terminal, with Border Force conducting immigration and customs checks directly.\n\nPrince Andrew has repeatedly denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on sex trafficking charges. The MoD said it would cooperate fully with any civilian police investigations, adding that its \"thoughts are with all the victims of Epstein's vile crimes.\" The probe marks one of the most significant official British efforts to date to untangle the domestic dimensions of the Epstein scandal.",
       "category": "breaking",
-      "importance": 7,
+      "importance": 8,
       "tags": [
         "Jeffrey Epstein",
         "UK Ministry of Defence",
-        "RAF",
         "Prince Andrew",
         "Gordon Brown",
+        "RAF bases",
         "sex trafficking"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/361f/live/e61e0130-1355-11f1-a24b-e9ec85119d46.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-27T00:17:04.000Z"
+      "publishedAt": "2026-02-27T00:31:58.641Z"
+    },
+    {
+      "id": "ps-1772152335569-phou",
+      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
+      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
+      "subheadline": "Physics-constrained AI framework speeds up rarefied gas modeling while preserving conservation laws and thermal fluctuations",
+      "body": "A team of computational physicists has developed a neural network framework that significantly accelerates Direct Simulation Monte Carlo (DSMC) — the workhorse method for modeling rarefied gas dynamics — while maintaining the physical accuracy that makes these simulations indispensable for aerospace and hypersonic engineering.\n\nThe research, posted to the arXiv preprint server on February 15 by Ehsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov, tackles a long-standing computational bottleneck in DSMC simulations: the enormous cost of calculating molecular collisions, particularly when using quantum-mechanical interaction potentials rather than simplified phenomenological models. Their solution replaces the standard Variable Hard Sphere (VHS) collision model with a neural operator trained under strict physical constraints, achieving roughly 20% cost reduction in demanding hypersonic flow scenarios while preserving momentum and kinetic energy conservation at every step.\n\nThe framework's most notable technical innovation addresses a subtle but critical problem that has plagued previous machine-learning surrogates for kinetic simulations. Purely deterministic neural networks, when used to predict collision outcomes, tend to suppress the natural variance inherent in molecular interactions — an effect that leads to artificial cooling of the simulated gas over time. To counter this, the researchers introduced a \"physics-constrained stochastic layer\" that injects controlled noise during inference, restoring realistic thermal fluctuations while cell-wise moment-matching enforces conservation laws exactly. The approach demonstrated what the authors describe as \"zero-shot\" generalization: a model trained exclusively on simple one-dimensional Couette flow accurately predicted the behavior of a far more complex two-dimensional lid-driven cavity flow, capturing high-order non-equilibrium moments without any additional training.\n\nThe second major contribution targets hypersonic regime modeling, where quantum-mechanical scattering calculations based on ab initio interaction potentials — specifically the Jäger potential for argon — can dominate computational costs. Using a \"physics harvesting\" training strategy on large datasets of collision pairs, the team built a dedicated neural operator that captures high-energy scattering dynamics. Validated against Mach 10 rarefied argon flow over a cylinder, the surrogate reproduced shock structures and transport properties with high fidelity.\n\nThe work sits at a productive intersection of scientific machine learning and computational physics, where the central challenge is not merely achieving speed but ensuring that neural surrogates respect the invariants — conservation of mass, momentum, and energy — that govern physical reality. As DSMC remains essential for designing spacecraft thermal protection systems, modeling atmospheric reentry, and simulating microelectromechanical devices, methods that reduce its computational burden without sacrificing accuracy could have broad engineering implications. The framework's demonstrated ability to generalize across flow geometries and thermodynamic conditions suggests it may find application well beyond the specific test cases presented.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "DSMC",
+        "neural operators",
+        "rarefied gas dynamics",
+        "computational physics",
+        "machine learning",
+        "hypersonic flow"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1741704445187-0f73317f5f14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8TmV1cmFsJTIwT3BlcmF0b3JzJTIwQWNjZWxlcmF0ZSUyMEdvbGQlMjBTdGFuZGFyZCUyMEdhcyUyMER5bmFtaWNzJTIwU2ltdWxhdGlvbnN8ZW58MHwwfHx8MTc3MjEyODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21244",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-27T00:32:15.569Z"
+    },
+    {
+      "id": "ps-1772152351652-w1s7",
+      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
+      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future missions should drill into pure ice rather than study rocks or soil",
+      "body": "Ancient microbial life — or its chemical fingerprints — could survive tens of millions of years locked inside Martian ice, according to new laboratory experiments that may reshape how scientists search for biology on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University exposed E. coli bacteria frozen in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all at temperatures of minus 60 degrees Fahrenheit to simulate conditions in Mars's polar regions. More than 10 percent of the amino acids — the fundamental building blocks of proteins — remained intact after the full simulated duration. The results, published in the journal Astrobiology, carry a striking implication: since many of Mars's known surface ice deposits are less than two million years old, any organic material trapped within them would be well within the preservation window.\n\nThe finding upends earlier expectations. A 2022 study by the same team had shown that amino acids in a slurry of water ice and simulated Martian sediment degraded rapidly, leading researchers to assume that pure ice would fare even worse. Instead, the opposite proved true. Samples mixed with Mars-like silicate rock and clay broke down roughly ten times faster than those in ice alone. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin liquid film that forms where ice meets mineral surfaces, potentially allowing radiation-generated reactive particles to move more freely and attack organic molecules. In solid ice, by contrast, those harmful particles appear to be frozen in place, unable to reach their targets.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. The researchers argue that upcoming Mars missions should prioritize drilling into clean, buried ice rather than concentrating on rocks or soil — an approach that would require hardware similar to NASA's 2008 Phoenix lander, which first excavated and photographed subsurface ice in the Martian Arctic.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa, Jupiter's ice-encased moon, and Saturn's Enceladus. Degradation slowed even further in those conditions, an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is set to begin 49 close flybys of Europa in 2030 to assess whether its subsurface ocean could harbor life. Taken together, the findings suggest that ice — long considered a passive backdrop in planetary science — may be the single most promising medium in which to search for extraterrestrial biology across the solar system.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-27T00:32:31.652Z"
+    },
+    {
+      "id": "ps-1772152367148-e1yt",
+      "slug": "netflix-drops-83b-bid-for-warner-bros-discovery-clearing-pat",
+      "headline": "Netflix Drops $83B Bid for Warner Bros. Discovery, Clearing Path for Paramount",
+      "subheadline": "David Ellison's Paramount will acquire WBD for roughly $111 billion, creating a media colossus backed by Larry Ellison's fortune",
+      "body": "Netflix has walked away from its blockbuster bid to acquire Warner Bros. Discovery, ending a months-long bidding war and handing one of Hollywood's most storied media portfolios to David Ellison's Paramount in a deal valued at approximately $111 billion.\n\nThe streaming giant declined to match Paramount Skydance's latest offer of $31 per share, which WBD's board deemed a \"superior proposal\" on Thursday. Netflix co-CEOs Ted Sarandos and Greg Peters said in a statement that while their original $82.7 billion all-cash bid offered clear shareholder value, the price required to compete with Paramount's escalating offers made the deal \"no longer financially attractive.\" Under the terms of the original agreement, WBD must pay Netflix a $2.8 billion termination fee — a cost Paramount has agreed to absorb.\n\nThe transaction will give Paramount control of an extraordinary collection of media assets: Warner Bros. studios, HBO and its streaming platform, gaming and entertainment divisions, and a suite of linear television networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount will also assume roughly $33 billion in WBD debt. The deal is being financed through a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, along with additional equity from Larry Ellison, the Oracle executive chairman whose $201 billion net worth makes him the world's sixth-richest person.\n\nThe combination creates a media behemoth of historic proportions. Paramount, which Skydance Media acquired just last year with heavy financial backing from the elder Ellison, already controls major studio operations and the CBS television network. Adding WBD's assets consolidates an enormous share of Hollywood's production capacity, premium content, and news operations under a single ownership structure. David Ellison has already signaled that significant job cuts are likely. His stewardship of CBS has drawn scrutiny, with critics alleging that editorial coverage has shifted in a direction sympathetic to the Trump administration — a charge that carries additional weight given Larry Ellison's well-documented support of President Trump.\n\nMarkets reacted favorably to the resolution. Netflix shares surged as much as 10 percent in after-hours trading, suggesting investors approved of the company's discipline in refusing to overpay. Paramount shares rose 4.5 percent. The deal, which began with Netflix's December announcement of its intent to acquire WBD and escalated through several hostile counteroffers from Paramount, now ranks among the largest media transactions in history and sets the stage for a fundamentally reshaped entertainment landscape.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Netflix",
+        "Warner Bros Discovery",
+        "Paramount",
+        "David Ellison",
+        "Larry Ellison",
+        "media consolidation",
+        "mergers and acquisitions",
+        "HBO",
+        "CNN"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-27T00:32:47.148Z"
+    },
+    {
+      "id": "ps-1772152381825-97aj",
+      "slug": "paramount-skydance-s-111-billion-bid-for-warner-bros-tops-ne",
+      "headline": "Paramount Skydance's $111 Billion Bid for Warner Bros. Tops Netflix Offer",
+      "subheadline": "Netflix has four business days to submit a higher counteroffer or lose the battle for the storied media conglomerate",
+      "body": "Paramount Skydance has emerged as the leading bidder for Warner Bros. Discovery, with the parent of HBO and CNN declaring a new $111 billion offer superior to a previously agreed-upon deal with Netflix. The determination sets up a dramatic four-day countdown that could reshape the entertainment industry.\n\nParamount's bid values Warner Bros. Discovery at $31 per share for the entire company, significantly exceeding Netflix's offer of $27.75 per share, which targeted only the studio and HBO assets rather than the full conglomerate. Under the deal's terms, Netflix now has a narrow window — just four business days — to submit a revised proposal that surpasses Paramount's bid or forfeit its claim to one of Hollywood's most iconic portfolios of brands and intellectual property.\n\nThe takeover saga has been months in the making. Paramount CEO David Ellison began pursuing Warner Bros. Discovery earlier in the cycle, a sustained campaign that ultimately pushed the media giant to formally put itself up for sale in October. Warner Bros. signed an initial agreement with Netflix in early December, but Paramount refused to walk away, instead escalating its offer to the current $111 billion level. The persistence appears to have paid off, at least for now.\n\nThe outcome carries enormous implications for the broader media landscape. A Paramount-Warner Bros. combination would unite two of Hollywood's oldest studios under one roof, creating a content behemoth with assets spanning film, television, news, and sports. The merged entity would control brands including HBO, CNN, Warner Bros. Pictures, Paramount Pictures, and a deep library of franchises. For Netflix, losing the bid would represent a setback in its ambitions to acquire legacy content infrastructure, though the streaming giant's war chest could still allow it to mount a counteroffer.\n\nInvestors and industry observers are now watching closely to see whether Netflix will raise its bid before the deadline expires. The streaming company, which has historically favored organic content investment over large-scale acquisitions, would need to substantially increase its per-share price and potentially expand the scope of its offer to match Paramount's full-company bid. The next four days could determine which vision of media consolidation ultimately prevails.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Warner Bros Discovery",
+        "Paramount Skydance",
+        "Netflix",
+        "media consolidation",
+        "David Ellison",
+        "mergers and acquisitions"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1662205906057-feba638e6e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxXYXJuZXIlMjBCcm9zJTIwRGlzY292ZXJ5JTIwUGFyYW1vdW50JTIwU2t5ZGFuY2V8ZW58MHwwfHx8MTc3MjE1MDU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-27T00:33:01.825Z"
+    },
+    {
+      "id": "ps-1772152397347-jssz",
+      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
+      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
+      "subheadline": "The co-founder's roadmap targets four cryptographic vulnerabilities as the Ethereum Foundation stands up a dedicated research team.",
+      "body": "Ethereum co-founder Vitalik Buterin on Thursday published a comprehensive roadmap detailing how the world's second-largest blockchain intends to defend itself against the eventual threat of quantum computers — machines that could, in theory, shatter the cryptographic foundations underpinning the entire network.\n\nThe plan, shared via a post on X, identifies four critical areas of vulnerability: the BLS signature scheme used by validators to confirm blocks, the KZG commitment system that underpins Ethereum's data availability layer, the standard digital signatures used by everyday wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists with the power to crack modern cryptography, the threat is considered serious enough that the Ethereum Foundation recently established a dedicated post-quantum research team to begin addressing it.\n\nButerin's most immediate proposed fix involves migrating validators away from BLS signatures toward hash-based alternatives, which are widely regarded by cryptographers as resistant to quantum attacks. For the data availability layer, replacing KZG commitments with quantum-safe alternatives is technically feasible but would require substantial engineering effort and add complexity to the system. On the wallet side, Buterin pointed to a planned upgrade known as EIP-8141, which would allow Ethereum accounts to adopt flexible signature schemes — including post-quantum options — rather than remaining locked into the single standard used today.\n\nPerhaps the most technically ambitious element of the roadmap concerns zero-knowledge proofs, a class of advanced cryptography central to Ethereum's scaling strategy. Quantum-resistant versions of these proofs are currently far more expensive to verify on-chain. To address this, Buterin proposed a mechanism embedded in EIP-8141 called \"validation frames,\" which would bundle many individual signatures and proofs into a single compressed verification step, keeping transaction costs manageable even as heavier cryptographic tools are introduced.\n\nThe roadmap arrives at a moment of broader unease about quantum computing's implications for digital assets. Ethereum, with a market capitalization tied to an ether price of roughly $2,022, has more at stake than most networks given its role as the backbone for decentralized finance, NFTs, and a sprawling ecosystem of layer-2 chains. While the quantum threat remains theoretical for now, Buterin's detailed and public planning signals that Ethereum's leadership views preparation — not reaction — as the only viable strategy.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "Vitalik Buterin",
+        "quantum computing",
+        "cryptography",
+        "blockchain security"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-27T00:33:17.347Z"
     },
     {
       "id": "ps-1772151439982-yksn",
@@ -43,28 +151,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21243",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-27T00:17:19.982Z"
-    },
-    {
-      "id": "ps-1772151457281-8823",
-      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
-      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
-      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice, not rock, to search for signs of ancient life",
-      "body": "Ancient biological material could persist for tens of millions of years inside Martian ice, far longer than previously thought, according to a new study by researchers at NASA's Goddard Space Flight Center and Penn State University. The findings, published in the journal Astrobiology, could fundamentally redirect where future Mars missions search for evidence of past life.\n\nThe research team, led by NASA space scientist Alexander Pavlov, sealed E. coli bacteria in test tubes of pure water ice and subjected them to gamma radiation inside Penn State's Radiation Science and Engineering Center. The chamber was chilled to minus 60 degrees Fahrenheit to replicate conditions in Mars's icy regions, and the samples received a radiation dose equivalent to 20 million years of cosmic ray bombardment on the Martian surface. After modeling an additional 30 million years of exposure, the researchers found that more than 10 percent of the amino acids — the fundamental building blocks of proteins — remained intact in pure ice after the full 50-million-year simulation.\n\nThe result upended expectations set by the same team's earlier work. A 2022 study had shown that amino acids in a mixture of water ice and Martian-like sediment degraded rapidly, leading scientists to assume pure ice would fare even worse. Instead, the opposite proved true: samples mixed with silicate rock and clay broke down roughly ten times faster than those in clean ice. Researchers believe a thin liquid film that forms where ice contacts mineral grains allows radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, those harmful particles appear to become frozen in place, unable to reach and destroy nearby compounds. \"It was surprising to find that the organic materials placed in water ice alone are destroyed at a much slower rate,\" Pavlov said.\n\nThe practical implications are significant. Mars harbors vast ice deposits, most of them just below the surface, and the study indicates that any biological traces within those reservoirs could remain detectable well beyond the estimated two-million-year age of some current surface ice. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. House noted that reaching buried ice will require hardware similar to NASA's 2008 Phoenix lander, which was the first mission to excavate and photograph subsurface Martian ice.\n\nThe study's relevance extends beyond Mars. When the team tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, degradation slowed even further — an encouraging signal for NASA's Europa Clipper spacecraft, which launched in 2024 and is set to begin 49 close flybys of Europa's ice shell in 2030. Taken together, the results make a compelling case that ice, rather than rock or soil, may be the most promising archive of biological evidence across the solar system.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "extraterrestrial life",
-        "Europa Clipper",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-27T00:17:37.281Z"
     },
     {
       "id": "ps-1772151474157-76ky",
@@ -89,27 +175,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-backs-out-of-bid-for-warner-bros-discovery-giving-studios-hbo-and-cnn-to-ellison-owned-paramount/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-27T00:17:54.157Z"
-    },
-    {
-      "id": "ps-1772151489722-xlml",
-      "slug": "paramount-skydance-outbids-netflix-for-warner-bros-at-111-bi",
-      "headline": "Paramount Skydance Outbids Netflix for Warner Bros. at $111 Billion",
-      "subheadline": "Warner Bros. Discovery declares Paramount's $31-per-share offer superior, giving Netflix four days to counter",
-      "body": "Warner Bros. Discovery has declared that a $111 billion takeover bid from Paramount Skydance represents a superior offer to the deal the company previously struck with Netflix, setting the stage for a dramatic final chapter in the battle for one of Hollywood's most storied media empires.\n\nThe Paramount Skydance offer values Warner Bros. at $31 per share for the entire company, a significant premium over Netflix's bid of $27.75 per share, which targeted only the studio's entertainment assets and HBO business rather than the full enterprise. Under the terms of the process, Netflix now has a four-business-day window to submit a revised proposal that tops Paramount's offer or forfeit its claim to the parent company of HBO, CNN, and the Warner Bros. film and television studios.\n\nThe escalating bidding war traces back to months of persistent pursuit by Paramount Chief Executive Officer David Ellison, whose aggressive courtship of Warner Bros. Discovery ultimately prompted the media conglomerate to formally put itself up for sale in October. Warner Bros. subsequently signed a deal with Netflix in early December, but Paramount refused to concede, continuing to press its case with an increasingly attractive financial package. The result is a contest that has pushed the potential transaction price to levels that would make it one of the largest media deals in history.\n\nThe outcome carries profound implications for the entertainment industry's ongoing consolidation. A Paramount Skydance acquisition of Warner Bros. Discovery would unite two major legacy studios under a single corporate umbrella, creating a combined entity with vast libraries of film and television content, multiple cable networks, and significant theatrical distribution capabilities. A Netflix victory, by contrast, would represent the streaming giant's most ambitious move yet into traditional media ownership, though its more narrowly targeted bid — excluding assets like CNN — reflects a more selective strategic vision.\n\nWith the clock now ticking, all eyes turn to Netflix and whether the streaming company is willing to significantly raise its offer. The four-day deadline creates an intense pressure point that will likely determine the future ownership structure of one of the entertainment industry's most consequential portfolios of assets.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "Warner Bros Discovery",
-        "Paramount Skydance",
-        "Netflix",
-        "media mergers",
-        "David Ellison",
-        "HBO"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1638833494040-25f96336bb2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8V2FybmVyJTIwQnJvcyUyMERpc2NvdmVyeSUyMFBhcmFtb3VudCUyMFNreWRhbmNlfGVufDB8MHx8fDE3NzIxNTE0ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-27T00:18:09.722Z"
     },
     {
       "id": "ps-1772151507171-e6ld",
@@ -196,27 +261,6 @@
       "publishedAt": "2026-02-26T23:48:02.757Z"
     },
     {
-      "id": "ps-1772149699353-wtuh",
-      "slug": "buterin-lays-out-four-part-plan-to-quantum-proof-ethereum",
-      "headline": "Buterin Lays Out Four-Part Plan to Quantum-Proof Ethereum",
-      "subheadline": "Ethereum co-founder targets validator signatures, data systems, wallets, and ZK proofs in comprehensive defense roadmap",
-      "body": "Ethereum co-founder Vitalik Buterin published a detailed roadmap on Thursday outlining how the world's largest smart-contract blockchain intends to defend itself against the eventual threat of quantum computers — machines that could one day shatter the cryptographic foundations on which Ethereum and virtually every other blockchain depends.\n\nThe plan, shared via a post on X, identifies four distinct areas of vulnerability: the BLS digital signatures that validators use to confirm blocks, the KZG commitment scheme underpinning Ethereum's data availability layer, the standard cryptographic signatures used by everyday wallets, and the zero-knowledge proofs relied upon by privacy tools and layer-2 scaling networks. For each, Buterin proposed a migration path toward quantum-resistant alternatives, with hash-based signatures replacing BLS as the centerpiece of the consensus-layer overhaul. The announcement follows the Ethereum Foundation's recent formation of a dedicated post-quantum research team, signaling that the project is treating the threat as a serious engineering priority rather than a distant hypothetical.\n\nFor ordinary users, the most consequential piece of the roadmap may be EIP-8141, a proposed upgrade that would make Ethereum accounts modular enough to swap in new signature schemes — including quantum-safe ones — without requiring users to migrate to entirely new wallets. The same proposal includes a mechanism called \"validation frames,\" which would allow the network to bundle many individual signatures and proofs into a single compressed verification, keeping on-chain costs manageable even as more computationally expensive post-quantum cryptography is introduced.\n\nThe data-availability layer presents perhaps the steepest technical challenge. Ethereum currently relies on KZG commitments to efficiently verify large batches of transaction data, and replacing that system with a quantum-safe equivalent would demand significant re-engineering. Buterin acknowledged the complexity but described the migration as feasible. Similarly, quantum-resistant zero-knowledge proofs exist in theory but remain far more expensive to verify on-chain today — a cost problem the validation-frames approach is designed to mitigate over time.\n\nNo timeline was attached to the full transition, and practical quantum computers capable of breaking modern cryptography remain years or even decades away. But the roadmap positions Ethereum ahead of most blockchain projects in planning for a post-quantum future, staking out a defensive posture at a moment when governments and corporations worldwide are beginning to inventory their own cryptographic vulnerabilities. Ether was trading near $2,028 at the time of the announcement, down roughly 1.5% on the day.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "Vitalik Buterin",
-        "quantum computing",
-        "cryptography",
-        "blockchain security",
-        "EIP-8141"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T23:48:19.353Z"
-    },
-    {
       "id": "ps-1772148762857-8hqw",
       "slug": "anthropic-ceo-defies-pentagon-demand-for-unrestricted-milita",
       "headline": "Anthropic CEO Defies Pentagon Demand for Unrestricted Military AI Access",
@@ -280,27 +324,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-26T23:17:48.490Z"
-    },
-    {
-      "id": "ps-1772146051908-6iq5",
-      "slug": "neural-operators-accelerate-gold-standard-gas-dynamics-simul",
-      "headline": "Neural Operators Accelerate Gold-Standard Gas Dynamics Simulations",
-      "subheadline": "Physics-constrained machine learning framework replaces decades-old collision models in rarefied gas simulations while preserving conservation laws",
-      "body": "A team of researchers has developed a neural network framework that significantly accelerates Direct Simulation Monte Carlo (DSMC) calculations — the premier method for modeling rarefied gas dynamics — while maintaining the strict physical conservation laws that make such simulations reliable. The work, posted to the arXiv preprint server on February 15, addresses a long-standing computational bottleneck in aerospace engineering and hypersonic flow modeling.\n\nEhsan Roohi, Ahmad Shoja-Sani, and Stefan Stefanov designed a unified neural-operator architecture that tackles two distinct challenges. The first replaces the widely used Variable Hard Sphere (VHS) collision model, a phenomenological approximation that has served as a workhorse in DSMC codes for decades, with a learned neural collision kernel. Critically, the researchers solved a subtle problem that has plagued previous machine learning surrogates: purely deterministic neural networks tend to suppress the thermal fluctuations essential to kinetic theory, leading to artificial cooling of the simulated gas. Their solution introduces a physics-constrained stochastic layer that injects controlled noise during inference while enforcing momentum and kinetic-energy conservation through cell-wise moment matching.\n\nPerhaps the most striking result is the framework's generalization capability. A model trained exclusively on one-dimensional Couette flow — a relatively simple shear-driven configuration — accurately predicted the behavior of a far more complex two-dimensional lid-driven cavity flow without any additional training, correctly capturing high-order non-equilibrium moments. This zero-shot transfer across geometries and thermodynamic conditions suggests the neural operator has internalized genuine collision physics rather than merely memorizing training scenarios.\n\nThe second component of the framework targets the computational expense of quantum-mechanical scattering calculations. For high-fidelity simulations using ab initio interaction potentials, such as the Jäger potential for argon, every molecular collision requires costly numerical integration of quantum scattering angles. The researchers developed a dedicated neural operator trained through what they call a \"physics harvesting\" strategy on large-scale collision pair datasets. Validated against Mach 10 rarefied argon flow over a cylinder — a demanding hypersonic benchmark — the neural surrogate reproduced shock structures and transport properties with high fidelity while achieving approximately 20 percent cost reduction compared to direct numerical integration.\n\nThe work sits at the intersection of scientific machine learning and computational fluid dynamics, a space that has seen rapid growth as researchers seek to leverage neural networks without sacrificing the physical guarantees that engineers require. For applications ranging from spacecraft reentry heating to microelectromechanical systems, where rarefied gas effects dominate and computational budgets are tight, the framework offers a path toward faster simulations that remain anchored in fundamental physics. Whether the approach scales to more complex molecular species and multi-species gas mixtures remains an open question the authors may address in future work.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "DSMC",
-        "neural operators",
-        "rarefied gas dynamics",
-        "machine learning",
-        "computational physics",
-        "hypersonic flow"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1719072497514-0359164b2766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxOZXVyYWwlMjBPcGVyYXRvcnMlMjBBY2NlbGVyYXRlJTIwR29sZCUyMFN0YW5kYXJkJTIwR2FzJTIwRHluYW1pY3MlMjBTaW11bGF0aW9uc3xlbnwwfDB8fHwxNzcyMTQ2MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21244",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T22:47:31.908Z"
     },
     {
       "id": "ps-1772146099794-lqpr",
@@ -1037,27 +1060,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-02-26/oil-supertankers-become-the-hottest-commodity-with-600-gain",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-26T12:33:16.772Z"
-    },
-    {
-      "id": "ps-1772109212139-6nat",
-      "slug": "nvidia-crushes-q4-estimates-with-68-1b-revenue-guides-higher",
-      "headline": "Nvidia Crushes Q4 Estimates With $68.1B Revenue, Guides Higher",
-      "subheadline": "Data center revenue surged 75% year-over-year as CEO Jensen Huang declares AI demand will only accelerate",
-      "body": "Nvidia delivered another blockbuster quarter on Wednesday, reporting fourth-quarter revenue of $68.1 billion — a 73% jump from a year earlier and roughly $2 billion above Wall Street's consensus estimate of $66.1 billion. Adjusted earnings per share came in at $1.62, also topping the $1.54 analysts had projected, according to FactSet data.\n\nThe results were impressive, but Nvidia's forward guidance may have been even more striking. The chipmaker told investors to expect first-quarter revenue of approximately $78 billion, blowing past the $72.9 billion analysts had penciled in. The outlook signals that the torrent of AI infrastructure spending shows no sign of abating, despite periodic market anxieties about the durability of the boom. Shares climbed as much as 4% in after-hours trading before settling to roughly 1% higher.\n\nNvidia's data center segment — now the overwhelming engine of the company's growth — posted record quarterly revenue of $62.3 billion, up 75% year-over-year and 22% sequentially. CFO Colette Kress noted during the earnings call that the division has scaled by nearly 13 times since the emergence of ChatGPT, and that inventory and supply commitments are already in place to meet demand extending into 2027. \"Today's report is a strong pushback against the narrative that hyperscaler AI growth could start fading into 2027,\" said Thomas Monteiro, senior analyst at Investing.com.\n\nCEO Jensen Huang struck a characteristically bullish tone, framing current computational demand as a fraction of what lies ahead. \"AI is here. AI is not going to go back. AI is only going to get better from here,\" he said. The remarks underscore Nvidia's position at the center of a capital expenditure cycle in which the world's largest cloud providers — Microsoft, Amazon, Google, and Meta among them — continue to pour tens of billions of dollars into GPU-powered data centers.\n\nThe ripple effects extended beyond Nvidia's own stock. Bitcoin held near $69,000 following a sharp recovery earlier in the week, while AI-adjacent crypto tokens including Bittensor and Internet Computer posted modest gains. Crypto mining companies with exposure to high-performance computing infrastructure, such as IREN, Cipher Digital, and TeraWulf, also ticked higher in after-hours trading before giving back some of those moves. For markets broadly, the quarter reinforced a simple thesis: the AI infrastructure buildout remains firmly in expansion mode, and Nvidia sits squarely at its center.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Nvidia",
-        "earnings",
-        "artificial intelligence",
-        "data centers",
-        "Jensen Huang",
-        "semiconductors"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/adde78595d3b22567813dcc57914e607c0c2e744-1917x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/02/25/nvidia-rises-after-earnings-beat-wall-street-s-expectations-lifting-ai-related-crypto-stocks",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-26T12:33:32.139Z"
     }
   ]
 }
