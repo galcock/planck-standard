@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-02-27T02:03:47.462Z",
+  "lastUpdated": "2026-02-27T02:18:18.979Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772158620683-5edf",
+      "slug": "doj-files-reveal-how-maxwell-connected-clinton-to-epstein-s-",
+      "headline": "DOJ Files Reveal How Maxwell Connected Clinton to Epstein's World",
+      "subheadline": "Newly released emails and photos detail the socialite's role as intermediary ahead of former president's congressional testimony",
+      "body": "Newly released Department of Justice documents reveal in granular detail how convicted sex trafficker Ghislaine Maxwell cultivated the relationship between former President Bill Clinton and the late financier Jeffrey Epstein, with emails and photographs painting a picture of deliberate social engineering during the early 2000s.\n\nThe materials, which include correspondence between Maxwell and Clinton's top aide Doug Band from 2002 to 2004, show the pair coordinating meetings for the Clinton Global Initiative and arranging the former president's flights on Epstein's private jet. Flight logs indicate Clinton flew on the aircraft at least 24 times over nearly two years, traveling to Europe, Africa, Asia, Russia, Miami, and New York. Among the newly released images are photos of Clinton swimming alongside Maxwell, smiling backstage at a Rolling Stones concert in Hong Kong with Epstein, and reclining in a hot tub beside an individual whose face has been redacted. Maxwell herself confirmed her pivotal role in a 2025 deposition to Deputy Attorney General Todd Blanche. \"They met because of me,\" she told investigators, adding that she personally asked Epstein to provide the plane for Clinton's philanthropic travel.\n\nThe documents do not implicate Clinton in any criminal conduct. No Epstein victims who have come forward have accused the former president of misconduct, and there is no evidence he was aware of Epstein's crimes. Clinton's deputy chief of staff, Angel Ureña, told the BBC that \"President Clinton knew nothing about Epstein's crimes and has nothing to hide,\" noting that the former president did not author any of the emails in the released files. The correspondence and flight records corroborate Clinton's longstanding assertion that he severed ties with Epstein well before the financier's 2006 indictment and subsequent 2008 guilty plea to soliciting prostitution from a minor.\n\nThe relationship appears to have been fundamentally transactional. Clinton, then redefining his post-presidency around philanthropic work, was seeking wealthy donors for the Clinton Foundation and its ambitious goal of raising as much as $100 million. Epstein offered access to a private jet large enough to accommodate the former president, his staff, and his Secret Service detail. Band, who described Maxwell as his \"social matchmaker\" in their exchanges, served as the primary conduit between the two camps. He later co-founded a consulting firm valued at $2.3 billion.\n\nThe revelations arrive as Clinton prepares to face questioning Friday before a Republican-led congressional committee, making him the latest high-profile figure scrutinized for ties to Epstein. Maxwell, convicted in 2021 of recruiting and trafficking four teenage girls for Epstein's abuse, declined to answer the committee's questions this month, invoking her Fifth Amendment rights. Epstein died by suicide in a Manhattan jail cell in August 2019 while awaiting trial on federal sex-trafficking charges.",
+      "category": "breaking",
+      "importance": 8,
+      "tags": [
+        "Jeffrey Epstein",
+        "Bill Clinton",
+        "Ghislaine Maxwell",
+        "DOJ files",
+        "congressional testimony",
+        "sex trafficking"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/07fa/live/c1bda190-1339-11f1-b048-c9424b2cf5fd.png",
+      "sourceUrl": "https://www.bbc.com/news/articles/cp85jdqdyq7o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-27T02:17:00.683Z"
+    },
+    {
+      "id": "ps-1772158636765-qwb3",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational lattices",
+      "body": "A team of computational physicists has developed a generalized lattice Boltzmann method that fully eliminates modeling errors in Navier-Stokes fluid simulations, a persistent challenge that has limited the accuracy of one of the most widely used approaches in computational fluid dynamics.\n\nThe technique, described in a preprint posted to arXiv on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, introduces what the authors call Onsager-Regularized non-equilibrium populations — fully local corrections that can be applied to standard first-nearest-neighbor lattice Boltzmann methods. The approach works on the commonly used D2Q9 lattice, a two-dimensional grid with nine discrete velocities that serves as a workhorse in fluid simulation. By correcting both compatibility condition violations and stress tensor modeling errors, the method achieves what the researchers describe as an \"exact model\" — one free of the systematic errors that have plagued conventional lattice Boltzmann schemes.\n\nLattice Boltzmann methods simulate fluid flow not by directly solving the Navier-Stokes equations, but by tracking statistical distributions of fictitious particles streaming and colliding on a discrete grid. The approach has gained enormous traction in engineering and physics because of its computational efficiency and natural parallelism. However, the discretization inherent in standard lattices introduces artifacts — deviations from the true Navier-Stokes behavior that can compromise accuracy, particularly at non-standard lattice temperatures or in complex thermohydrodynamic regimes.\n\nThe new framework offers two tiers of correction. A partially corrected model addresses only compatibility condition violations and improves accuracy by two orders of magnitude at reference lattice temperatures and four orders of magnitude at arbitrary temperatures, compared to uncorrected schemes. The fully corrected version goes further, eliminating stress tensor errors to produce results that are mathematically exact within the lattice Boltzmann framework. Numerical benchmarks show both corrected schemes outperform the standard Lattice-BGK and uncorrected Onsager-Regularized guided equilibrium methods in accuracy and stability.\n\nThe work is particularly significant because it maintains the locality of the lattice Boltzmann method — corrections are applied without requiring information from distant grid points, preserving the computational advantages that make the approach attractive for large-scale simulations. The authors note that their framework opens a promising path toward Onsager-Regularized thermohydrodynamic extensions, which could enable more accurate simulations of flows involving heat transfer and variable temperature — areas where existing lattice Boltzmann methods have been especially error-prone. Succi, based at the Italian Institute of Technology and a leading figure in lattice Boltzmann research, has long advocated for systematic improvements to the method's theoretical foundations, and this work represents a notable advance in that program.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "lattice-Boltzmann",
+        "Navier-Stokes",
+        "computational-fluid-dynamics",
+        "Onsager-regularization",
+        "computational-physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1736430043488-0c369959a5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-27T02:17:16.765Z"
+    },
+    {
+      "id": "ps-1772158652163-261o",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State research suggests future Mars missions should drill into pure ice, not rock, to search for signs of ancient life",
+      "body": "Ancient microbial life — or at least its chemical fingerprints — could persist in Martian ice for tens of millions of years, according to new laboratory experiments that simulated the planet's harsh radiation environment. The findings, published in the journal Astrobiology, could fundamentally reshape where future missions look for biosignatures on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, mimicking conditions in Mars's polar regions. The radiation dose was equivalent to 20 million years of cosmic ray bombardment on the Martian surface, with mathematical modeling extending the simulation to 50 million years. The result: more than 10 percent of amino acids — the fundamental building blocks of proteins — remained intact in pure ice after the full simulated exposure. That timeframe far exceeds the estimated age of some surface ice deposits on Mars, which are often less than two million years old.\n\nCritically, the study revealed a stark contrast between pure ice and ice mixed with Martian-like sediment. Samples containing silicate rocks and clay broke down amino acids roughly 10 times faster, and organic material did not survive the full simulation period. Lead author Alexander Pavlov, a space scientist at NASA Goddard, called the finding surprising. A 2022 study by the same team had suggested that water ice would accelerate organic destruction, but the opposite proved true. The researchers hypothesize that a thin film forming at the boundary between ice and mineral grains allows radiation-generated reactive particles to move more freely, whereas in solid ice those harmful particles become frozen in place.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. House emphasized that while Mars holds substantial ice reserves, most lie just below the surface and will require drilling or scooping capabilities similar to those used by NASA's 2008 Phoenix lander — the first mission to excavate and photograph Martian ice.\n\nThe implications extend beyond Mars. The team also tested organic preservation at temperatures matching those on Jupiter's moon Europa and Saturn's moon Enceladus, finding that deterioration slowed even further in those colder environments. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and will arrive at Jupiter in 2030 to perform 49 close flybys of Europa's ice shell. Taken together, the findings make a compelling case that ice — not rock or soil — may be the most promising medium in which to search for evidence of extraterrestrial life across the solar system.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "extraterrestrial life",
+        "Europa Clipper",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-27T02:17:32.163Z"
+    },
+    {
+      "id": "ps-1772158669112-9vwv",
+      "slug": "netflix-walks-away-from-warner-bros-discovery-as-paramount-w",
+      "headline": "Netflix Walks Away From Warner Bros. Discovery as Paramount Wins $111B Bid",
+      "subheadline": "David Ellison's Paramount, backed by father Larry Ellison's fortune, will absorb HBO, CNN, and WBD's studios in a mega-deal reshaping media",
+      "body": "Netflix has abandoned its $82.7 billion bid for Warner Bros. Discovery, clearing the way for David Ellison's Paramount to acquire the media conglomerate in a deal valued at approximately $111 billion — a transaction that will consolidate some of Hollywood's most storied properties under a single owner with deep ties to the Trump administration.\n\nThe bidding war ended after Warner Bros. Discovery's board deemed Paramount Skydance's latest offer of $31 per share a \"superior proposal\" on Thursday, triggering a four-day window for Netflix to respond. Netflix co-CEOs Ted Sarandos and Greg Peters said they would not match the bid, citing financial discipline. \"At the price required to match Paramount Skydance's latest offer, the deal is no longer financially attractive,\" they said in a joint statement. Under the terms of the original agreement, WBD must pay Netflix a $2.8 billion termination fee — a cost that Paramount has agreed to cover.\n\nThe acquisition gives Paramount control of Warner Bros.' film and television studios, HBO and its streaming platform, gaming and entertainment divisions, and a portfolio of linear networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount, which Ellison's Skydance Media purchased just last year with substantial financial backing from his father Larry Ellison, will also absorb roughly $33 billion in WBD debt. The deal is being financed through a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, with Larry Ellison — whose net worth Bloomberg pegs at $201 billion — supplying additional equity.\n\nThe consolidation raises significant questions about editorial independence and media concentration. David Ellison has already warned of substantial job cuts across the combined entity. His stewardship of CBS, acquired through the Paramount deal, has drawn criticism after reports that coverage critical of the Trump administration was shelved or subjected to heightened scrutiny under CBS editor-in-chief Bari Weiss. Larry Ellison, the world's sixth-richest person and Oracle's executive chairman, is a prominent donor and supporter of President Trump. The addition of CNN to his son's portfolio is likely to intensify concerns about political influence over major news operations.\n\nMarkets reacted favorably to the resolution of the protracted bidding contest. Netflix shares surged as much as 10% in after-hours trading — investors apparently relieved the streamer avoided an expensive acquisition — while Paramount rose 4.5%. Netflix had first announced its intent to acquire WBD in December, targeting studios and streaming assets, but Paramount mounted a series of hostile counteroffers for the full company. The outcome marks one of the largest media transactions in history and cements the Ellison family as arguably the most powerful force in American entertainment and news media.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Warner Bros Discovery",
+        "Paramount",
+        "Netflix",
+        "David Ellison",
+        "Larry Ellison",
+        "mergers and acquisitions",
+        "HBO",
+        "CNN",
+        "media consolidation"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-27T02:17:49.112Z"
+    },
+    {
+      "id": "ps-1772158682593-iw4y",
+      "slug": "centerview-redbird-advised-paramount-on-111b-warner-bros-bid",
+      "headline": "Centerview, Redbird Advised Paramount on $111B Warner Bros. Bid",
+      "subheadline": "Advisory firms helped David Ellison's Paramount Skydance outbid Netflix for the media giant",
+      "body": "Paramount Skydance Corp.'s $111 billion bid for Warner Bros. Discovery Inc. was orchestrated with the help of advisory firms Centerview Partners and Redbird Capital Partners, among roughly half a dozen financial advisers that guided technology heir David Ellison to victory over rival bidder Netflix Inc.\n\nThe deal, one of the largest media transactions in history, marks a dramatic consolidation in the entertainment industry and cements Ellison's ambition to build a vertically integrated media powerhouse. The winning bid topped a competing offer from Netflix, the streaming giant that had been widely seen as a formidable contender for Warner Bros. Discovery's sprawling portfolio of studios, cable networks, and intellectual property.\n\nCenterview Partners, a boutique investment bank known for advising on high-profile mergers, and Redbird Capital, the sports and media-focused investment firm led by Gerry Cardinale, were among the key advisers that shaped Paramount's strategy. The involvement of multiple advisory firms underscores the complexity of a transaction that required navigating regulatory scrutiny, financing arrangements, and competitive dynamics against one of the world's most valuable entertainment companies.\n\nThe acquisition would unite Warner Bros. Discovery's assets — which include HBO, CNN, the Warner Bros. film studio, and the Discovery cable networks — with Paramount's own extensive holdings in film, television, and streaming under the Paramount Skydance umbrella. Ellison took control of Paramount through Skydance Media's merger with the legacy media company, a deal that itself reshaped the competitive landscape before this far larger transaction.\n\nThe $111 billion price tag reflects both the scale of Warner Bros. Discovery's asset base and the premium required to outpace Netflix's bid. For Ellison, the deal represents a bet that consolidation, rather than organic growth, offers the fastest path to competing with tech-backed streaming rivals. The transaction now faces regulatory review and shareholder approval before it can close.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Paramount",
+        "Warner Bros Discovery",
+        "Centerview Partners",
+        "Redbird Capital",
+        "David Ellison",
+        "media mergers",
+        "Netflix"
+      ],
+      "imageUrl": "https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20%281%20of%201%29-5.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxidXNpbmVzc3xlbnwwfDB8fHwxNzcyMDk4NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-27/centerview-and-redbird-helped-paramount-in-winning-warner-bid",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-27T02:18:02.593Z"
+    },
+    {
+      "id": "ps-1772158698872-rnia",
+      "slug": "occ-stablecoin-proposal-threatens-crypto-rewards-programs",
+      "headline": "OCC Stablecoin Proposal Threatens Crypto Rewards Programs",
+      "subheadline": "A 376-page rulemaking under the GENIUS Act could undermine arrangements between issuers like Circle and exchanges like Coinbase",
+      "body": "The U.S. Office of the Comptroller of the Currency has proposed sweeping stablecoin regulations that could severely restrict the crypto industry's ability to offer yield and rewards on stablecoin holdings — a business model central to major platforms including Coinbase.\n\nThe 376-page proposed rulemaking, released as OCC chief Jonathan Gould testified before the Senate Banking Committee on Thursday, seeks to implement the GENIUS Act signed into law last year. At issue is whether the statute's prohibition on stablecoin issuers paying yield or interest extends to third-party platforms that independently offer rewards programs on those tokens. The crypto industry has long operated under the assumption that it does not. The OCC's proposal appears to challenge that interpretation, suggesting that close financial ties between issuers and platforms handling their tokens would create a presumption of improper evasion of the law's restrictions.\n\nThe proposed rules have particular implications for the lucrative arrangement between stablecoin issuer Circle and Coinbase, which offers rewards to users who hold Circle's USDC token. Coinbase declined to comment on the proposal. Industry insiders, speaking anonymously, acknowledged the initial language looks unfavorable but noted the wording may leave sufficient room for continued rewards programs. Todd Phillips, a former FDIC lawyer and business professor who tracks digital assets policy, told CoinDesk there appears to be \"some play in the joints\" of the proposal, adding that \"the OCC has clearly gone beyond what the statute requires.\"\n\nThe regulatory dispute further complicates already fraught negotiations over the Digital Asset Market Clarity Act, a broader piece of legislation intended to govern U.S. crypto markets. Stablecoin yield has been one of the most contentious issues in those talks, with traditional banks arguing that such rewards threaten their deposit base. Senator Angela Alsobrooks, a Democrat involved in the negotiations, emphasized the need to take community banks' concerns \"especially seriously\" during Thursday's hearing. Some crypto lobbyists contend the OCC's action could paradoxically weaken the banking lobby's position by removing the need to address yield in the Clarity Act at all — though the industry simultaneously plans to fight the proposed rules.\n\nThe rulemaking remains preliminary, with a public comment period ahead before any final rules could take effect — a process that typically stretches over months for controversial proposals. Meanwhile, other obstacles continue to stall the Clarity Act, including Democratic demands that the legislation address potential conflicts of interest involving senior government officials who personally profit from the crypto industry, a pointed reference to President Donald Trump's crypto holdings.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "OCC",
+        "GENIUS Act",
+        "Coinbase",
+        "crypto regulation",
+        "Circle"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-27T02:18:18.872Z"
+    },
     {
       "id": "ps-1772157748031-r1jh",
       "slug": "netflix-walks-away-from-warner-bros-deal-handing-victory-to-",
@@ -45,28 +175,6 @@
       "publishedAt": "2026-02-27T02:02:43.902Z"
     },
     {
-      "id": "ps-1772157781302-lfxd",
-      "slug": "ancient-microbial-life-could-persist-in-martian-ice-for-50-m",
-      "headline": "Ancient Microbial Life Could Persist in Martian Ice for 50 Million Years",
-      "subheadline": "NASA-funded lab experiments suggest future Mars missions should drill into pure ice, not rock, to find traces of biology",
-      "body": "Laboratory experiments simulating Martian conditions have demonstrated that the molecular building blocks of life could remain intact inside pure water ice on Mars for more than 50 million years, even under relentless bombardment by cosmic radiation — a finding that could fundamentally reshape the strategy for searching for extraterrestrial life.\n\nThe study, published in the journal Astrobiology and led by Alexander Pavlov of NASA's Goddard Space Flight Center alongside researchers at Penn State, subjected E. coli bacteria sealed in frozen test tubes to gamma radiation equivalent to 20 million years of cosmic ray exposure on the Martian surface. The samples were held at minus 60 degrees Fahrenheit to replicate temperatures in Mars's icy polar regions. After physical irradiation, the team modeled an additional 30 million years of exposure computationally. In pure water ice, more than 10 percent of amino acids — the fundamental components of proteins — survived the full 50-million-year simulation. That timeframe far exceeds the estimated age of some current Martian surface ice deposits, which are often less than two million years old.\n\nCritically, the picture changed when ice was mixed with materials resembling Martian soil. Samples containing silicate-based rocks and clay broke down organic molecules roughly ten times faster, failing to preserve amino acids over comparable durations. The result was counterintuitive: a 2022 study by the same group had found that a 10-percent-ice, 90-percent-soil mixture destroyed organics faster than pure sediment, leading researchers to expect that pure ice would perform even worse. Instead, the opposite proved true. Pavlov attributed the difference to a thin film that forms at the interface between ice and mineral grains, which may allow radiation-generated reactive particles to move more freely and attack organic compounds. In solid ice, by contrast, those harmful particles appear to become trapped in place.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa, Jupiter's ice-shelled moon, and Saturn's Enceladus. Degradation slowed even further under those conditions, a promising sign for NASA's Europa Clipper mission, which launched in 2024 and is set to arrive at Jupiter in 2030 to perform 49 close flybys probing for habitable environments beneath the moon's frozen crust.\n\nFor Mars exploration specifically, the findings argue that future landers and rovers should be equipped with drilling or scooping tools capable of reaching subsurface ice — much like NASA's 2008 Phoenix mission, which first excavated and photographed ice in Mars's high latitudes. \"There is a lot of ice on Mars, but most of it is just below the surface,\" said Penn State geosciences professor Christopher House, a co-author on the study. \"Future missions need a large enough drill or a powerful scoop to access it.\" The research was funded by NASA's Planetary Science Division and involved collaborators from both Penn State and Goddard Space Flight Center.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "extraterrestrial life",
-        "Europa Clipper",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-27T02:03:01.302Z"
-    },
-    {
       "id": "ps-1772157795261-49k5",
       "slug": "block-cuts-half-its-workforce-as-dorsey-bets-big-on-ai",
       "headline": "Block Cuts Half Its Workforce as Dorsey Bets Big on AI",
@@ -87,28 +195,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/jack-dorsey-block-layoffs-4000-halved-employees-your-company-is-next/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-27T02:03:15.261Z"
-    },
-    {
-      "id": "ps-1772157809399-okdf",
-      "slug": "centerview-redbird-advised-paramount-on-111b-warner-bros-bid",
-      "headline": "Centerview, Redbird Advised Paramount on $111B Warner Bros. Bid",
-      "subheadline": "Advisory firms helped David Ellison's Paramount Skydance outmaneuver Netflix in landmark media deal",
-      "body": "Paramount Skydance Corp.'s $111 billion acquisition of Warner Bros. Discovery Inc. was orchestrated with the help of Centerview Partners and Redbird Capital Partners, among roughly half a dozen advisory firms that guided the winning bid to completion, according to Bloomberg.\n\nThe deal represents a defining moment for David Ellison, the technology scion who took control of Paramount through its merger with Skydance and has now engineered one of the largest media transactions in history. By outbidding Netflix Inc. for Warner Bros. Discovery, Ellison has positioned the combined entity as a formidable counterweight in an entertainment industry increasingly dominated by streaming economics and consolidation pressure.\n\nCenterview, the elite advisory boutique known for handling complex media transactions, and Redbird, the investment firm led by Gerry Cardinale that has deep ties to sports and entertainment, played central roles in structuring and executing the bid. The involvement of multiple advisory firms underscores the sheer complexity of a deal that required navigating regulatory considerations, financing arrangements, and competitive dynamics against a rival bidder with Netflix's financial resources.\n\nThe $111 billion price tag makes this one of the largest acquisitions in the media sector's history, dwarfing previous consolidation efforts and signaling that traditional entertainment conglomerates see scale as essential to competing in the streaming era. Warner Bros. Discovery brings a vast content library — including HBO, CNN, and the Warner Bros. film studio — that would complement Paramount's own assets spanning CBS, Paramount Pictures, and the Paramount+ streaming platform.\n\nThe fact that Paramount Skydance prevailed over Netflix, which has a market capitalization exceeding several hundred billion dollars and significant cash generation, suggests that Ellison's team crafted a bid that was compelling on both price and strategic terms for Warner Bros. Discovery shareholders. The advisory firms' ability to structure a credible financing package for a deal of this magnitude will likely be studied as a landmark case in media M&A for years to come.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Paramount",
-        "Warner Bros Discovery",
-        "Centerview Partners",
-        "Redbird Capital",
-        "David Ellison",
-        "media consolidation",
-        "mergers and acquisitions"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1480944657103-7fed22359e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3MjEwMTA4NXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-27/centerview-and-redbird-helped-paramount-in-winning-warner-bid",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-27T02:03:29.399Z"
     },
     {
       "id": "ps-1772157827272-77kx",
@@ -151,71 +237,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-02-27T01:47:01.239Z"
-    },
-    {
-      "id": "ps-1772156868247-4b08",
-      "slug": "netflix-walks-away-from-warner-bros-discovery-as-paramount-w",
-      "headline": "Netflix Walks Away From Warner Bros. Discovery as Paramount Wins $111B Bid",
-      "subheadline": "David Ellison's Paramount, backed by father Larry Ellison's fortune, will absorb HBO, CNN, and WBD's full portfolio",
-      "body": "The most consequential media deal in a generation has a winner: David Ellison's Paramount will acquire Warner Bros. Discovery for approximately $111 billion, after Netflix declined to raise its $82.7 billion all-cash offer for the legacy studio conglomerate.\n\nThe bidding war concluded Thursday when Warner Bros. Discovery declared Paramount Skydance's revised offer of $31 per share a \"superior proposal,\" triggering a four-day window for Netflix to counter. Netflix co-CEOs Ted Sarandos and Greg Peters chose discipline over ambition, stating that at the price required to match Paramount's bid, the deal was \"no longer financially attractive.\" Under the terms of the original agreement between Netflix and WBD, the studio owes Netflix a $2.8 billion termination fee — a cost Paramount has agreed to cover.\n\nThe transaction will bring an extraordinary collection of media assets under a single owner. Paramount, which Ellison's Skydance Media acquired just last year with heavy financial backing from his father Larry Ellison, will absorb Warner Bros.' film and television studios, HBO and its streaming service, gaming and entertainment divisions, and a suite of linear television networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount will also assume roughly $33 billion in WBD debt. The deal is being financed through a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, with Larry Ellison — the world's sixth-richest person with a net worth of $201 billion — supplying additional equity.\n\nThe consolidation raises immediate questions about editorial independence and workforce stability. David Ellison has already warned of significant job cuts. His stewardship of CBS, which Paramount owns, has drawn scrutiny for what critics describe as a sympathetic tilt toward the Trump administration, with reports that coverage critical of the White House has been shelved or subjected to heightened internal review under CBS editor-in-chief Bari Weiss. Larry Ellison is a prominent donor and supporter of President Trump. Adding CNN to this portfolio will intensify concerns about the concentration of news media under politically connected ownership.\n\nMarkets reacted favorably to the resolution. Netflix shares surged as much as 10% in after-hours trading, with investors apparently relieved the streaming giant maintained spending discipline rather than overpaying. Paramount shares rose 4.5%. For Netflix, walking away preserves capital and avoids the regulatory complexity of integrating a sprawling media empire. For the Ellison family, the deal creates what may be the most powerful privately influenced media conglomerate in American history — one that spans film studios, streaming platforms, broadcast and cable networks, and multiple news organizations.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Warner Bros Discovery",
-        "Paramount",
-        "Netflix",
-        "Larry Ellison",
-        "mergers and acquisitions",
-        "HBO",
-        "CNN",
-        "media consolidation"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-27T01:47:48.247Z"
-    },
-    {
-      "id": "ps-1772156901373-yvqs",
-      "slug": "occ-stablecoin-proposal-threatens-crypto-rewards-programs-ra",
-      "headline": "OCC Stablecoin Proposal Threatens Crypto Rewards Programs, Rattles Industry",
-      "subheadline": "A 376-page rulemaking under the GENIUS Act could restrict third-party yield offerings, putting Coinbase's business model at risk",
-      "body": "The U.S. Office of the Comptroller of the Currency has unveiled a sweeping proposed rulemaking to regulate stablecoins under the GENIUS Act, and the crypto industry's initial reading suggests it could severely curtail the lucrative rewards programs that platforms like Coinbase offer their customers.\n\nThe 376-page proposal, released as OCC chief Jonathan Gould testified before the U.S. Senate on Thursday, targets the financial relationships between stablecoin issuers and crypto platforms. The regulator's language presumes that close ties between issuers such as Circle and exchanges that distribute their tokens would make yield or interest payments tantamount to evading the GENIUS Act's prohibition on issuers directly paying rewards. While the crypto industry has long operated under the assumption that the law's ban applies only to issuers — not third-party platforms running their own rewards programs — the OCC's interpretation challenges that reading head-on.\n\nThe proposal does leave some room for rebuttal. Firms can overcome the presumption of evasion by providing \"sufficient evidence to the contrary,\" and legal observers say the language may not amount to a blanket prohibition. Todd Phillips, a former FDIC lawyer and business professor who tracks digital assets policy, told reporters there appears to be \"some play in the joints\" of the proposed rules, adding that the OCC \"has clearly gone beyond what the statute requires\" and that the extent of any restriction \"is open to debate.\" Industry insiders, speaking anonymously, acknowledged the proposal looks unfavorable but suggested the wording may ultimately allow continued rewards programs in some form.\n\nThe regulatory dispute carries implications well beyond the OCC's rulemaking process. Stablecoin yield has emerged as one of the most contentious points in congressional negotiations over the Digital Asset Market Clarity Act, the broader legislation intended to govern U.S. crypto markets. Traditional banks have argued that stablecoin rewards threaten their deposit base, while the crypto sector has countered that existing law permits third-party yield offerings. At Thursday's Senate Banking Committee hearing, Senator Angela Alsobrooks, a Democrat, pressed for a compromise that would ban stablecoin rewards resembling deposit accounts, reflecting the banking industry's alarm. Regulators at the hearing noted, however, that they have not yet observed meaningful deposit flight from banks.\n\nThe proposed rule now enters a public comment period before any final rulemaking can proceed — a process that typically stretches over months for controversial regulations. Coinbase, whose stablecoin rewards program represents a significant revenue stream and whose partnership with Circle sits squarely in the OCC's crosshairs, declined to comment. The outcome could reshape the economics of stablecoin distribution in the United States and either simplify or further complicate the path for the Clarity Act, which faces additional hurdles including Democratic demands to address conflicts of interest involving senior government officials profiting from crypto ventures.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "OCC",
-        "GENIUS Act",
-        "Coinbase",
-        "crypto regulation",
-        "stablecoin rewards"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d9d3495231f792e19639d8976e103c5ba8fcdf50-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-27T01:48:21.373Z"
-    },
-    {
-      "id": "ps-1772155017822-8n58",
-      "slug": "doj-files-reveal-how-maxwell-engineered-clinton-epstein-conn",
-      "headline": "DOJ Files Reveal How Maxwell Engineered Clinton-Epstein Connection",
-      "subheadline": "Newly released emails and photos show socialite's central role as former president faces congressional testimony Friday",
-      "body": "Newly released Department of Justice documents reveal the extent to which convicted sex trafficker Ghislaine Maxwell cultivated the relationship between former President Bill Clinton and the late financier Jeffrey Epstein, providing fresh details ahead of Clinton's expected testimony before a Republican-led congressional committee on Friday.\n\nEmails exchanged between Maxwell and Clinton's top aide Doug Band from 2002 to 2004 show a close working relationship in which the pair coordinated meetings for the Clinton Global Initiative and arranged flights on Epstein's private jet. Band referred to Maxwell as his \"social matchmaker,\" while their correspondence was laden with flattery and innuendo. Flight logs indicate Clinton flew on Epstein's plane at least 24 times over nearly two years, traveling to Europe, Africa, Asia, Russia, Miami, and New York — trips his team has said were connected to Clinton Foundation philanthropic work. Maxwell herself confirmed her pivotal role in a 2025 deposition to Deputy Attorney General Todd Blanche, stating plainly: \"They met because of me.\"\n\nAmong the newly released materials are photos showing Clinton swimming alongside Maxwell, smiling backstage at a Rolling Stones concert in Hong Kong with Epstein, and reclining in a hot tub next to an individual whose face has been redacted. Clinton's deputy chief of staff Angel Ureña told reporters that the former president \"knew nothing about Epstein's crimes and has nothing to hide,\" adding that the photos are decades old and that Clinton severed ties with Epstein before his 2006 indictment. The released files contain no direct messages between Clinton and Epstein, and no victims have accused the former president of misconduct.\n\nThe documents provide a window into the early 2000s, when Clinton was building his post-presidential identity around philanthropy and seeking wealthy donors for the Clinton Foundation, which had fundraising ambitions of up to $100 million. Epstein, then a jet-setting money manager, and Maxwell, his girlfriend, moved in elite circles from Buckingham Palace to Palm Beach. Maxwell told DOJ officials she personally asked Epstein to provide the plane for Clinton's use, calling it \"an honour and a privilege\" to spend time with someone she considered \"a truly extraordinary\" former president.\n\nMaxwell, convicted in 2021 of recruiting and trafficking four teenage girls for sexual abuse by Epstein, declined to answer questions when summoned before the House committee this month, citing her Fifth Amendment right against self-incrimination. Epstein died by suicide in prison in 2019 while awaiting trial on sex-trafficking charges. Clinton's Friday appearance will make him the latest prominent figure to face scrutiny over ties to the disgraced financier, as congressional investigators continue pressing for a full accounting of Epstein's network of powerful associations.",
-      "category": "breaking",
-      "importance": 8,
-      "tags": [
-        "Jeffrey Epstein",
-        "Bill Clinton",
-        "Ghislaine Maxwell",
-        "DOJ files",
-        "congressional testimony",
-        "sex trafficking"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/07fa/live/c1bda190-1339-11f1-b048-c9424b2cf5fd.png",
-      "sourceUrl": "https://www.bbc.com/news/articles/cp85jdqdyq7o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-02-27T01:16:57.822Z"
     },
     {
       "id": "ps-1772155084594-zsyz",
@@ -279,26 +300,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-27T01:03:35.252Z"
-    },
-    {
-      "id": "ps-1772153254010-3gfv",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
-      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations — a longstanding challenge in computational fluid dynamics that has limited the accuracy of one of the field's most widely used numerical approaches.\n\nThe method, introduced in a paper posted to the arXiv preprint server on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, deploys what the researchers call Onsager-Regularized non-equilibrium populations to correct errors that arise in standard first-nearest-neighbor lattice Boltzmann schemes. Working on the commonly used D2Q9 lattice — a two-dimensional grid with nine discrete velocity directions — the team demonstrated that their fully corrected model produces an exact representation of the Navier-Stokes equations, effectively removing the approximation errors that have plagued conventional implementations.\n\nLattice Boltzmann methods simulate fluid flow not by directly solving the Navier-Stokes equations but by tracking statistical distributions of fictitious particles streaming and colliding on a discrete lattice. The approach has gained enormous traction over the past three decades for its computational efficiency, natural parallelism, and ability to handle complex geometries. However, the discretization inherent in mapping continuous physics onto a finite lattice introduces systematic deviations — compatibility condition violations and stress tensor modeling errors — that degrade accuracy, particularly at non-standard lattice temperatures.\n\nThe new framework offers two tiers of correction. A partially corrected model addresses only compatibility condition violations, yielding improvements of two to four orders of magnitude in accuracy at reference and arbitrary lattice temperatures, respectively. The fully corrected version additionally eliminates stress tensor errors, producing what the authors describe as an exact model. Numerical benchmarks showed the corrected schemes outperformed both the standard Lattice-BGK method and earlier uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability.\n\nThe implications extend beyond pure fluid dynamics. The authors note that their approach opens a promising avenue for thermohydrodynamic extensions — simulations coupling fluid flow with heat transfer — where modeling errors on standard lattices have been particularly stubborn. If the method scales effectively to three-dimensional lattices and more complex physical regimes, it could significantly broaden the range of problems tractable by lattice Boltzmann techniques without requiring larger, more computationally expensive lattice structures.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "computational physics",
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "fluid dynamics",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1637729960394-1a1200764aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxjb21wdXRhdGlvbmFsJTIwcGh5c2ljcyUyMGxhdHRpY2UlMjBCb2x0em1hbm58ZW58MHwwfHx8MTc3MjE1MzI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-27T00:47:34.010Z"
     },
     {
       "id": "ps-1772151474157-76ky",
