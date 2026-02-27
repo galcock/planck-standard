@@ -1,27 +1,136 @@
 {
-  "lastUpdated": "2026-02-27T00:33:17.419Z",
+  "lastUpdated": "2026-02-27T00:48:37.531Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772152318641-pypl",
-      "slug": "uk-defence-ministry-probes-whether-epstein-used-raf-bases",
-      "headline": "UK Defence Ministry Probes Whether Epstein Used RAF Bases",
-      "subheadline": "Defence Secretary orders 'ruthless' review of military records after former PM Gordon Brown demanded police investigation",
-      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when flying into the United Kingdom, intensifying scrutiny of the late financier's ties to prominent British figures.\n\nDefence Secretary John Healey ordered officials to examine all departmental records, including emails and flight logs, related to Epstein's aircraft landing at military airfields. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\" The review follows a demand from former Prime Minister Gordon Brown for a police investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown reportedly submitted a five-page dossier to multiple police forces, including the Metropolitan Police, Sussex Police, and Thames Valley Police, containing new information drawn from Epstein-related documents released in the United States.\n\nAt the center of the inquiry is a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk — a base situated roughly 20 miles from the Royal Family's Sandringham Estate. The MoD has previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for a fee. A BBC News investigation last year identified approximately 90 flights linked to Epstein that arrived at or departed from UK airports, some carrying British women who have alleged they were victims of abuse.\n\nThe review adds to a broadening web of UK law enforcement activity connected to the Epstein case. Essex Police confirmed last week that it is assessing information about private flights into and out of Stansted Airport following the U.S. government's release of Epstein materials. Stansted Airport said its private jet terminals operate independently from the main terminal, with Border Force conducting immigration and customs checks directly.\n\nPrince Andrew has repeatedly denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on sex trafficking charges. The MoD said it would cooperate fully with any civilian police investigations, adding that its \"thoughts are with all the victims of Epstein's vile crimes.\" The probe marks one of the most significant official British efforts to date to untangle the domestic dimensions of the Epstein scandal.",
+      "id": "ps-1772153236877-p34p",
+      "slug": "uk-defence-ministry-launches-review-of-epstein-flights-at-ra",
+      "headline": "UK Defence Ministry Launches Review of Epstein Flights at RAF Bases",
+      "subheadline": "Defence Secretary orders officials to examine all records after former PM Gordon Brown demanded police investigation",
+      "body": "Britain's Ministry of Defence has launched a formal review into whether convicted sex offender Jeffrey Epstein used Royal Air Force bases when traveling to the United Kingdom, ordering officials to comb through records and emails for any evidence connected to his crimes.\n\nDefence Secretary John Healey directed the inquiry after former Prime Minister Gordon Brown submitted a five-page dossier to multiple UK police forces — including the Metropolitan Police, Sussex Police, and Thames Valley Police — urging a criminal investigation into whether Prince Andrew used RAF facilities to meet Epstein. Brown is understood to be particularly focused on a December 2000 flight in which Epstein traveled on a Gulfstream jet that landed at RAF Marham in Norfolk, a base situated roughly 20 miles from the Royal Family's Sandringham Estate. An MoD source said the department would \"ruthlessly pursue any information that can shed light on this scandal.\"\n\nThe review follows a BBC News investigation last year that identified approximately 90 flights linked to Epstein arriving at or departing from UK airports, some carrying British women who later said they were abused. The MoD had previously acknowledged that spare capacity at RAF airfields is routinely made available to private and commercial aircraft for standard fees. The new review represents a significant escalation in the UK government's willingness to scrutinize potential domestic connections to Epstein's trafficking network.\n\nIn a formal statement, an MoD spokesperson said Healey had \"ordered a review of all records that the department may hold relating to Epstein flights landing at RAF bases to ensure that any information which relates to Epstein's crimes is uncovered and provided to the relevant authorities.\" The department pledged full cooperation with any civilian police investigations. Separately, Essex Police confirmed it is assessing information about private flights into and out of Stansted Airport following the US government's release of Epstein-related materials.\n\nPrince Andrew has previously denied any wrongdoing in connection with Epstein, who died in a New York prison cell in August 2019 while awaiting trial on federal sex trafficking charges. The convergence of Brown's dossier, the MoD review, and multiple police assessments marks the most concerted institutional effort yet in the UK to examine the domestic dimensions of the Epstein affair — a case that continues to generate revelations on both sides of the Atlantic years after his death.",
       "category": "breaking",
       "importance": 8,
       "tags": [
         "Jeffrey Epstein",
         "UK Ministry of Defence",
+        "RAF bases",
         "Prince Andrew",
         "Gordon Brown",
-        "RAF bases",
         "sex trafficking"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/361f/live/e61e0130-1355-11f1-a24b-e9ec85119d46.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c86y466v0x6o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-02-27T00:31:58.641Z"
+      "publishedAt": "2026-02-27T00:47:16.877Z"
+    },
+    {
+      "id": "ps-1772153254010-3gfv",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates systematic modeling errors in Navier-Stokes fluid simulations — a longstanding challenge in computational fluid dynamics that has limited the accuracy of one of the field's most widely used numerical approaches.\n\nThe method, introduced in a paper posted to the arXiv preprint server on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, deploys what the researchers call Onsager-Regularized non-equilibrium populations to correct errors that arise in standard first-nearest-neighbor lattice Boltzmann schemes. Working on the commonly used D2Q9 lattice — a two-dimensional grid with nine discrete velocity directions — the team demonstrated that their fully corrected model produces an exact representation of the Navier-Stokes equations, effectively removing the approximation errors that have plagued conventional implementations.\n\nLattice Boltzmann methods simulate fluid flow not by directly solving the Navier-Stokes equations but by tracking statistical distributions of fictitious particles streaming and colliding on a discrete lattice. The approach has gained enormous traction over the past three decades for its computational efficiency, natural parallelism, and ability to handle complex geometries. However, the discretization inherent in mapping continuous physics onto a finite lattice introduces systematic deviations — compatibility condition violations and stress tensor modeling errors — that degrade accuracy, particularly at non-standard lattice temperatures.\n\nThe new framework offers two tiers of correction. A partially corrected model addresses only compatibility condition violations, yielding improvements of two to four orders of magnitude in accuracy at reference and arbitrary lattice temperatures, respectively. The fully corrected version additionally eliminates stress tensor errors, producing what the authors describe as an exact model. Numerical benchmarks showed the corrected schemes outperformed both the standard Lattice-BGK method and earlier uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability.\n\nThe implications extend beyond pure fluid dynamics. The authors note that their approach opens a promising avenue for thermohydrodynamic extensions — simulations coupling fluid flow with heat transfer — where modeling errors on standard lattices have been particularly stubborn. If the method scales effectively to three-dimensional lattices and more complex physical regimes, it could significantly broaden the range of problems tractable by lattice Boltzmann techniques without requiring larger, more computationally expensive lattice structures.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "computational physics",
+        "lattice Boltzmann",
+        "Navier-Stokes",
+        "fluid dynamics",
+        "numerical methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1637729960394-1a1200764aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxjb21wdXRhdGlvbmFsJTIwcGh5c2ljcyUyMGxhdHRpY2UlMjBCb2x0em1hbm58ZW58MHwwfHx8MTc3MjE1MzI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-27T00:47:34.010Z"
+    },
+    {
+      "id": "ps-1772153269589-60oz",
+      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
+      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
+      "subheadline": "NASA and Penn State researchers say future Mars missions should drill into pure ice, not rock, to search for biosignatures",
+      "body": "Laboratory experiments simulating Martian conditions have demonstrated that amino acids — the fundamental building blocks of proteins — can endure at least 50 million years inside pure water ice, even under relentless bombardment from cosmic radiation. The findings, published in the journal Astrobiology, could reshape the strategy for searching for life on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit, replicating conditions in Mars's polar regions. The radiation dose corresponded to roughly 20 million years of cosmic ray exposure on the Martian surface; mathematical modeling extended the analysis to 50 million years. More than 10 percent of amino acids in pure ice samples survived the full simulated timeframe — a result the team called striking, especially given that surface ice deposits on Mars are often less than two million years old.\n\nThe picture changed dramatically when Martian-like sediment entered the equation. Samples combining water ice with silicate rocks and clay — materials common in Martian soil — broke down organic molecules roughly ten times faster. A thin film that forms where ice meets mineral surfaces appears to allow radiation-generated particles to move more freely and attack organic compounds. \"While in solid ice, harmful particles created by radiation get frozen in place and may not be able to reach organic compounds,\" said lead author Alexander Pavlov, a space scientist at NASA Goddard. The counterintuitive finding overturned expectations set by a 2022 study from the same group, which had suggested that less water in a sample meant faster degradation.\n\nThe implications extend well beyond Mars. When the team tested organic material at the far colder temperatures found on Jupiter's moon Europa and Saturn's moon Enceladus, deterioration slowed even further — an encouraging signal for NASA's Europa Clipper mission, which launched in 2024 and is expected to reach Jupiter by 2030 to investigate whether conditions beneath Europa's ice shell could harbor life.\n\nFor Mars exploration, the study delivers a clear directive: future landers and rovers should be equipped with drills or scoops capable of accessing subsurface ice rather than focusing primarily on rocks and soil. Christopher House, a Penn State geosciences professor and co-author, noted that while Mars harbors vast ice reserves, most lie just below the surface. \"Future missions need a large enough drill or a powerful scoop to access it, similar to the design and capabilities of Phoenix,\" he said, referencing NASA's 2008 Phoenix lander — the first mission to excavate and photograph Martian ice. If ancient microbes or their chemical remnants are locked within those frozen deposits, the new research suggests they may still be waiting to be found.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "extraterrestrial life",
+        "Penn State"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-27T00:47:49.589Z"
+    },
+    {
+      "id": "ps-1772153287078-nxpn",
+      "slug": "netflix-withdraws-83b-bid-for-warner-bros-discovery-ceding-p",
+      "headline": "Netflix Withdraws $83B Bid for Warner Bros. Discovery, Ceding Prize to Paramount",
+      "subheadline": "David Ellison's Paramount wins $111 billion bidding war for WBD, uniting HBO, CNN, and major studios under one roof",
+      "body": "Netflix has walked away from its blockbuster bid to acquire Warner Bros. Discovery, handing victory in one of the largest media deals in history to David Ellison's Paramount, which will absorb the sprawling entertainment conglomerate in a transaction valued at roughly $111 billion.\n\nThe bidding war concluded Thursday after Warner Bros. Discovery declared Paramount Skydance's latest offer of $31 per share a \"superior proposal,\" triggering a four-day window for Netflix to counter. Netflix co-CEOs Ted Sarandos and Greg Peters declined, stating that while their original $82.7 billion all-cash bid offered clear shareholder value and a path to regulatory approval, matching Paramount's escalated price was \"no longer financially attractive.\" Under the terms of the original agreement, Warner Bros. Discovery must pay Netflix a $2.8 billion termination fee — a cost Paramount has agreed to cover.\n\nThe acquisition hands Ellison a media empire of staggering scope. Paramount, which Skydance Media purchased just last year with heavy financial backing from David Ellison's father, Oracle executive chairman Larry Ellison, will absorb all of Warner Bros. Discovery's assets: its film and television studios, HBO and its streaming platform, gaming and entertainment divisions, and linear networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount will also assume approximately $33 billion in WBD debt. The deal is being financed by a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, with Larry Ellison — whose net worth Bloomberg pegs at $201 billion — supplying additional equity.\n\nThe consolidation raises significant questions about media concentration and editorial independence. David Ellison has already warned of substantial job cuts across the combined entity. His stewardship of CBS, acquired through the Paramount deal, has drawn scrutiny for what critics describe as a sympathetic editorial posture toward the Trump administration. Reporting critical of the administration has reportedly been shelved or subjected to heightened internal review under Ellison and CBS editor-in-chief Bari Weiss. Larry Ellison is a prominent donor and supporter of President Trump, adding a political dimension to the family's growing control over major American news outlets, which will now include CNN.\n\nMarkets responded favorably to the resolution. Netflix shares surged as much as 10 percent in after-hours trading, suggesting investors approved of the company's discipline in refusing to overpay. Paramount shares rose 4.5 percent. For Netflix, the withdrawal preserves its balance sheet and avoids the regulatory complexity of absorbing a legacy media giant. For the Ellison family, it represents an extraordinary bet — leveraging a company with a $12 billion market cap to acquire an asset nearly ten times its size, creating what will be one of the largest vertically integrated media companies in the world.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Netflix",
+        "Warner Bros Discovery",
+        "Paramount",
+        "David Ellison",
+        "Larry Ellison",
+        "mergers and acquisitions",
+        "HBO",
+        "CNN",
+        "media consolidation"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-27T00:48:07.078Z"
+    },
+    {
+      "id": "ps-1772153302027-v0sb",
+      "slug": "paramount-s-111-billion-bid-for-warner-bros-tops-netflix-off",
+      "headline": "Paramount's $111 Billion Bid for Warner Bros. Tops Netflix Offer",
+      "subheadline": "Netflix has four business days to submit a counterbid or lose its fight for HBO and CNN's parent company",
+      "body": "Warner Bros. Discovery has declared that a $111 billion takeover proposal from Paramount Skydance represents a superior deal for shareholders compared to the agreement the media conglomerate previously struck with Netflix, setting up a dramatic final stretch in one of Hollywood's largest-ever acquisition battles.\n\nThe Paramount bid offers $31 per share for the entirety of Warner Bros. Discovery, significantly outpacing Netflix's $27.75-per-share proposal, which targeted only the company's studios and HBO business rather than the full enterprise. Under the terms of the process, Netflix now has a four-business-day window to present a revised offer capable of topping Paramount's bid — or cede the contest for one of the entertainment industry's most storied portfolios.\n\nThe showdown caps months of aggressive pursuit by Paramount Chief Executive Officer David Ellison, whose persistent efforts to acquire Warner Bros. Discovery effectively forced the company's hand. Ellison's campaign prompted the parent of HBO, CNN, and the Warner Bros. film studio to formally put itself up for sale in October 2025. Warner Bros. signed a deal with Netflix in early December, but Paramount refused to walk away, ultimately returning with a bid substantial enough to be deemed superior by the target's board.\n\nThe outcome carries enormous implications for the media landscape. A Paramount victory would consolidate two of Hollywood's legacy studios under one roof, combining Warner Bros.' vast film library, HBO's prestige programming, and CNN's news operation with Paramount's own deep content catalog. Such a combination would create a formidable competitor to Netflix, Disney, and other streaming giants at a time when the industry is still navigating the transition from traditional television to direct-to-consumer platforms. If Netflix prevails with a counterbid, it would gain control of HBO — widely regarded as premium television's most valuable brand — along with Warner Bros.' production infrastructure, dramatically expanding its content pipeline.\n\nThe clock is now ticking for Netflix to decide whether the strategic value of Warner Bros.' assets justifies raising its offer beyond the $31-per-share threshold Paramount has established. The streaming giant's response, or lack thereof, could reshape the entertainment industry's competitive dynamics for years to come.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Warner Bros Discovery",
+        "Paramount",
+        "Netflix",
+        "media M&A",
+        "David Ellison",
+        "HBO",
+        "entertainment"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxidXNpbmVzc3xlbnwwfDB8fHwxNzcyMDk4NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-27T00:48:22.027Z"
+    },
+    {
+      "id": "ps-1772153317446-fbc2",
+      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
+      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
+      "subheadline": "The co-founder's roadmap targets four key cryptographic vulnerabilities as the Ethereum Foundation stands up a dedicated research team.",
+      "body": "Ethereum co-founder Vitalik Buterin published a detailed roadmap on Thursday outlining how the world's largest smart-contract blockchain intends to defend itself against the eventual threat of quantum computers — machines that could one day shatter the cryptographic foundations securing hundreds of billions of dollars in digital assets.\n\nThe plan, shared in a post on X, identifies four critical areas where quantum-capable hardware could compromise Ethereum: the BLS digital signatures used by validators to reach consensus, the KZG commitment scheme underpinning the network's data availability layer, the standard elliptic-curve signatures that protect everyday user wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists that can break modern cryptography, researchers widely agree the threat is a matter of when, not if.\n\nButerin's most immediate proposal calls for migrating validators away from BLS signatures to hash-based alternatives, which are broadly considered resistant to quantum attacks. Replacing KZG commitments with quantum-safe substitutes is technically feasible, he said, but would require substantial engineering effort and could add complexity to Ethereum's architecture. For ordinary users, the roadmap hinges on a planned upgrade known as EIP-8141, which would allow wallet accounts to swap in new signature schemes — including post-quantum varieties — without requiring a wholesale protocol overhaul.\n\nThe zero-knowledge proof challenge may prove the most difficult to solve. Quantum-safe versions of these proofs are currently far more computationally expensive to verify on-chain. Buterin pointed to a mechanism embedded in EIP-8141 called \"validation frames,\" which would bundle many individual signatures and proofs into a single compressed verification step, dramatically reducing costs. The disclosure follows the Ethereum Foundation's recent creation of a dedicated post-quantum research team, signaling that the organization views the threat as a serious long-term priority rather than a theoretical curiosity.\n\nEther was trading near $2,013 at the time of publication, down roughly 2.5% on the day, as the broader crypto market retreated alongside a software-stock selloff driven by AI-related volatility. The quantum-preparedness push adds another dimension to Ethereum's already ambitious upgrade pipeline, which includes plans to transform the network into a high-speed \"internet of value\" by 2029.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "Vitalik Buterin",
+        "quantum computing",
+        "cryptography",
+        "blockchain security",
+        "EIP-8141"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-27T00:48:37.446Z"
     },
     {
       "id": "ps-1772152335569-phou",
@@ -43,93 +152,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.21244",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-02-27T00:32:15.569Z"
-    },
-    {
-      "id": "ps-1772152351652-w1s7",
-      "slug": "martian-ice-could-preserve-ancient-life-for-50-million-years",
-      "headline": "Martian Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future missions should drill into pure ice rather than study rocks or soil",
-      "body": "Ancient microbial life — or its chemical fingerprints — could survive tens of millions of years locked inside Martian ice, according to new laboratory experiments that may reshape how scientists search for biology on the Red Planet.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University exposed E. coli bacteria frozen in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all at temperatures of minus 60 degrees Fahrenheit to simulate conditions in Mars's polar regions. More than 10 percent of the amino acids — the fundamental building blocks of proteins — remained intact after the full simulated duration. The results, published in the journal Astrobiology, carry a striking implication: since many of Mars's known surface ice deposits are less than two million years old, any organic material trapped within them would be well within the preservation window.\n\nThe finding upends earlier expectations. A 2022 study by the same team had shown that amino acids in a slurry of water ice and simulated Martian sediment degraded rapidly, leading researchers to assume that pure ice would fare even worse. Instead, the opposite proved true. Samples mixed with Mars-like silicate rock and clay broke down roughly ten times faster than those in ice alone. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin liquid film that forms where ice meets mineral surfaces, potentially allowing radiation-generated reactive particles to move more freely and attack organic molecules. In solid ice, by contrast, those harmful particles appear to be frozen in place, unable to reach their targets.\n\n\"That means if there are bacteria near the surface of Mars, future missions can find it,\" said co-author Christopher House, a Penn State geosciences professor and director of the university's Consortium for Planetary and Exoplanetary Science and Technology. The researchers argue that upcoming Mars missions should prioritize drilling into clean, buried ice rather than concentrating on rocks or soil — an approach that would require hardware similar to NASA's 2008 Phoenix lander, which first excavated and photographed subsurface ice in the Martian Arctic.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa, Jupiter's ice-encased moon, and Saturn's Enceladus. Degradation slowed even further in those conditions, an encouraging sign for NASA's Europa Clipper mission, which launched in 2024 and is set to begin 49 close flybys of Europa in 2030 to assess whether its subsurface ocean could harbor life. Taken together, the findings suggest that ice — long considered a passive backdrop in planetary science — may be the single most promising medium in which to search for extraterrestrial biology across the solar system.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "Europa Clipper",
-        "Penn State",
-        "extraterrestrial life"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-27T00:32:31.652Z"
-    },
-    {
-      "id": "ps-1772152367148-e1yt",
-      "slug": "netflix-drops-83b-bid-for-warner-bros-discovery-clearing-pat",
-      "headline": "Netflix Drops $83B Bid for Warner Bros. Discovery, Clearing Path for Paramount",
-      "subheadline": "David Ellison's Paramount will acquire WBD for roughly $111 billion, creating a media colossus backed by Larry Ellison's fortune",
-      "body": "Netflix has walked away from its blockbuster bid to acquire Warner Bros. Discovery, ending a months-long bidding war and handing one of Hollywood's most storied media portfolios to David Ellison's Paramount in a deal valued at approximately $111 billion.\n\nThe streaming giant declined to match Paramount Skydance's latest offer of $31 per share, which WBD's board deemed a \"superior proposal\" on Thursday. Netflix co-CEOs Ted Sarandos and Greg Peters said in a statement that while their original $82.7 billion all-cash bid offered clear shareholder value, the price required to compete with Paramount's escalating offers made the deal \"no longer financially attractive.\" Under the terms of the original agreement, WBD must pay Netflix a $2.8 billion termination fee — a cost Paramount has agreed to absorb.\n\nThe transaction will give Paramount control of an extraordinary collection of media assets: Warner Bros. studios, HBO and its streaming platform, gaming and entertainment divisions, and a suite of linear television networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount will also assume roughly $33 billion in WBD debt. The deal is being financed through a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, along with additional equity from Larry Ellison, the Oracle executive chairman whose $201 billion net worth makes him the world's sixth-richest person.\n\nThe combination creates a media behemoth of historic proportions. Paramount, which Skydance Media acquired just last year with heavy financial backing from the elder Ellison, already controls major studio operations and the CBS television network. Adding WBD's assets consolidates an enormous share of Hollywood's production capacity, premium content, and news operations under a single ownership structure. David Ellison has already signaled that significant job cuts are likely. His stewardship of CBS has drawn scrutiny, with critics alleging that editorial coverage has shifted in a direction sympathetic to the Trump administration — a charge that carries additional weight given Larry Ellison's well-documented support of President Trump.\n\nMarkets reacted favorably to the resolution. Netflix shares surged as much as 10 percent in after-hours trading, suggesting investors approved of the company's discipline in refusing to overpay. Paramount shares rose 4.5 percent. The deal, which began with Netflix's December announcement of its intent to acquire WBD and escalated through several hostile counteroffers from Paramount, now ranks among the largest media transactions in history and sets the stage for a fundamentally reshaped entertainment landscape.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Netflix",
-        "Warner Bros Discovery",
-        "Paramount",
-        "David Ellison",
-        "Larry Ellison",
-        "media consolidation",
-        "mergers and acquisitions",
-        "HBO",
-        "CNN"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-27T00:32:47.148Z"
-    },
-    {
-      "id": "ps-1772152381825-97aj",
-      "slug": "paramount-skydance-s-111-billion-bid-for-warner-bros-tops-ne",
-      "headline": "Paramount Skydance's $111 Billion Bid for Warner Bros. Tops Netflix Offer",
-      "subheadline": "Netflix has four business days to submit a higher counteroffer or lose the battle for the storied media conglomerate",
-      "body": "Paramount Skydance has emerged as the leading bidder for Warner Bros. Discovery, with the parent of HBO and CNN declaring a new $111 billion offer superior to a previously agreed-upon deal with Netflix. The determination sets up a dramatic four-day countdown that could reshape the entertainment industry.\n\nParamount's bid values Warner Bros. Discovery at $31 per share for the entire company, significantly exceeding Netflix's offer of $27.75 per share, which targeted only the studio and HBO assets rather than the full conglomerate. Under the deal's terms, Netflix now has a narrow window — just four business days — to submit a revised proposal that surpasses Paramount's bid or forfeit its claim to one of Hollywood's most iconic portfolios of brands and intellectual property.\n\nThe takeover saga has been months in the making. Paramount CEO David Ellison began pursuing Warner Bros. Discovery earlier in the cycle, a sustained campaign that ultimately pushed the media giant to formally put itself up for sale in October. Warner Bros. signed an initial agreement with Netflix in early December, but Paramount refused to walk away, instead escalating its offer to the current $111 billion level. The persistence appears to have paid off, at least for now.\n\nThe outcome carries enormous implications for the broader media landscape. A Paramount-Warner Bros. combination would unite two of Hollywood's oldest studios under one roof, creating a content behemoth with assets spanning film, television, news, and sports. The merged entity would control brands including HBO, CNN, Warner Bros. Pictures, Paramount Pictures, and a deep library of franchises. For Netflix, losing the bid would represent a setback in its ambitions to acquire legacy content infrastructure, though the streaming giant's war chest could still allow it to mount a counteroffer.\n\nInvestors and industry observers are now watching closely to see whether Netflix will raise its bid before the deadline expires. The streaming company, which has historically favored organic content investment over large-scale acquisitions, would need to substantially increase its per-share price and potentially expand the scope of its offer to match Paramount's full-company bid. The next four days could determine which vision of media consolidation ultimately prevails.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Warner Bros Discovery",
-        "Paramount Skydance",
-        "Netflix",
-        "media consolidation",
-        "David Ellison",
-        "mergers and acquisitions"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1662205906057-feba638e6e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxXYXJuZXIlMjBCcm9zJTIwRGlzY292ZXJ5JTIwUGFyYW1vdW50JTIwU2t5ZGFuY2V8ZW58MHwwfHx8MTc3MjE1MDU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-02-26/warner-bros-says-paramount-s-111b-deal-tops-netflix-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-27T00:33:01.825Z"
-    },
-    {
-      "id": "ps-1772152397347-jssz",
-      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
-      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
-      "subheadline": "The co-founder's roadmap targets four cryptographic vulnerabilities as the Ethereum Foundation stands up a dedicated research team.",
-      "body": "Ethereum co-founder Vitalik Buterin on Thursday published a comprehensive roadmap detailing how the world's second-largest blockchain intends to defend itself against the eventual threat of quantum computers — machines that could, in theory, shatter the cryptographic foundations underpinning the entire network.\n\nThe plan, shared via a post on X, identifies four critical areas of vulnerability: the BLS signature scheme used by validators to confirm blocks, the KZG commitment system that underpins Ethereum's data availability layer, the standard digital signatures used by everyday wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists with the power to crack modern cryptography, the threat is considered serious enough that the Ethereum Foundation recently established a dedicated post-quantum research team to begin addressing it.\n\nButerin's most immediate proposed fix involves migrating validators away from BLS signatures toward hash-based alternatives, which are widely regarded by cryptographers as resistant to quantum attacks. For the data availability layer, replacing KZG commitments with quantum-safe alternatives is technically feasible but would require substantial engineering effort and add complexity to the system. On the wallet side, Buterin pointed to a planned upgrade known as EIP-8141, which would allow Ethereum accounts to adopt flexible signature schemes — including post-quantum options — rather than remaining locked into the single standard used today.\n\nPerhaps the most technically ambitious element of the roadmap concerns zero-knowledge proofs, a class of advanced cryptography central to Ethereum's scaling strategy. Quantum-resistant versions of these proofs are currently far more expensive to verify on-chain. To address this, Buterin proposed a mechanism embedded in EIP-8141 called \"validation frames,\" which would bundle many individual signatures and proofs into a single compressed verification step, keeping transaction costs manageable even as heavier cryptographic tools are introduced.\n\nThe roadmap arrives at a moment of broader unease about quantum computing's implications for digital assets. Ethereum, with a market capitalization tied to an ether price of roughly $2,022, has more at stake than most networks given its role as the backbone for decentralized finance, NFTs, and a sprawling ecosystem of layer-2 chains. While the quantum threat remains theoretical for now, Buterin's detailed and public planning signals that Ethereum's leadership views preparation — not reaction — as the only viable strategy.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "Vitalik Buterin",
-        "quantum computing",
-        "cryptography",
-        "blockchain security"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-27T00:33:17.347Z"
     },
     {
       "id": "ps-1772151439982-yksn",
@@ -282,26 +304,6 @@
       "sourceUrl": "https://techcrunch.com/2026/02/26/anthropic-ceo-stands-firm-as-pentagon-deadline-looms/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-02-26T23:32:42.857Z"
-    },
-    {
-      "id": "ps-1772147834550-j5zd",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational lattices",
-      "body": "A team of computational physicists has developed a generalized lattice Boltzmann method that eliminates longstanding numerical errors in fluid dynamics simulations, potentially advancing the accuracy of everything from aerodynamic modeling to thermohydrodynamic systems.\n\nThe work, posted to the arXiv preprint server on February 14, was carried out by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi. Their approach introduces what they call Onsager-Regularized non-equilibrium populations — fully local corrections applied within the lattice Boltzmann framework — to address modeling errors that have persisted in standard first-nearest-neighbor lattice methods used to solve the Navier-Stokes equations. The Navier-Stokes equations govern the motion of viscous fluids and are central to computational fluid dynamics, but discretizing them onto lattice structures inevitably introduces approximation errors that can degrade simulation fidelity.\n\nThe researchers demonstrated their method on the D2Q9 lattice, a widely used two-dimensional grid with nine discrete velocity directions, employing a six-moment-constrained guided equilibrium representation. They developed two variants: a partially corrected model that addresses compatibility condition violations, and a completely corrected model that additionally fixes stress tensor errors. The partial correction alone improved accuracy by two to four orders of magnitude — two orders at reference lattice temperatures and four at arbitrary temperatures. The fully corrected version achieved what the authors describe as an \"exact model,\" meaning it reproduces the Navier-Stokes equations without discretization artifacts on the standard lattice.\n\nNumerical benchmarks confirmed that both corrected schemes outperformed existing approaches, including the widely used Lattice Bhatnagar-Gross-Krook (BGK) method and uncorrected Onsager-Regularized guided equilibrium schemes, in both accuracy and numerical stability. The lattice Boltzmann method has grown into a major alternative to traditional computational fluid dynamics solvers over the past three decades, prized for its parallelizability and ability to handle complex boundary conditions. However, its reliance on discrete velocity sets has always introduced trade-offs between computational efficiency and physical fidelity.\n\nThe authors suggest their framework opens a promising path toward thermohydrodynamic extensions — simulations that couple heat transfer with fluid flow — where modeling errors on standard lattices have been particularly problematic. By keeping corrections fully local, the method preserves the computational advantages that make lattice Boltzmann methods attractive for large-scale parallel simulations. If validated in three-dimensional applications and more complex flow regimes, the approach could represent a meaningful step toward higher-fidelity fluid simulations without the overhead of finer lattices or extended velocity sets.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational physics",
-        "fluid dynamics",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1558413562-95a55b8157f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bGF0dGljZSUyMEJvbHR6bWFubiUyME5hdmllci1TdG9rZXN8ZW58MHwwfHx8MTc3MjA4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-26T23:17:14.550Z"
     },
     {
       "id": "ps-1772147868490-bfvz",
