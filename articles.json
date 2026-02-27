@@ -1,7 +1,136 @@
 {
-  "lastUpdated": "2026-02-27T04:03:23.814Z",
+  "lastUpdated": "2026-02-27T04:18:29.003Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772165824892-q367",
+      "slug": "block-to-slash-nearly-half-its-workforce-citing-ai-transform",
+      "headline": "Block to Slash Nearly Half Its Workforce, Citing AI Transformation",
+      "subheadline": "Jack Dorsey says AI 'fundamentally changes what it means to build and run a company' as Block cuts headcount from 10,000 to under 6,000",
+      "body": "Jack Dorsey's financial technology company Block is eliminating roughly 4,000 positions — nearly half its workforce — in what represents one of the most aggressive AI-driven restructurings to date among major technology firms. The move will reduce Block's headcount from approximately 10,000 to fewer than 6,000 employees.\n\nIn a letter to shareholders on Thursday, the Twitter co-founder declared that artificial intelligence \"fundamentally changes what it means to build and run a company,\" and predicted that within the next year, a majority of companies would reach the same conclusion and undertake similar structural overhauls. \"I don't think we're early to this realisation,\" Dorsey wrote. \"I think most companies are late.\" Block, which operates Square, CashApp, and music streaming service Tidal, expects to incur up to $500 million in restructuring costs as it pivots to its new AI-centric strategy.\n\nInvestors responded enthusiastically, sending Block shares up more than 20 percent in extended trading following the announcement. The company's latest financial results showed robust demand for its products and services, with profits climbing at the end of last year — suggesting the layoffs are driven more by strategic repositioning than financial distress.\n\nBlock's cuts arrive amid a broader wave of AI-motivated workforce reductions across the technology sector. Amazon eliminated 16,000 positions in January and has signaled further cost reductions as it accelerates AI spending. Meta, Microsoft, and Google have all trimmed staff as investment priorities shift toward artificial intelligence infrastructure. Meta chief executive Mark Zuckerberg recently said he expects 2026 to be \"the year that AI dramatically changes the way we work,\" noting that projects once requiring large teams are now being completed by individual contributors aided by AI tools.\n\nThe scale of Block's reduction stands out even in this context, however. While Block has conducted several smaller rounds of layoffs since 2024, this is the first time the company has explicitly cited AI as the rationale. The proliferation of AI-powered coding tools — such as Anthropic's Claude Code and OpenAI's Codex — has automated significant portions of software development, fueling executive confidence that leaner teams can maintain or exceed previous output levels. Some analysts have cautioned that the immediate threat AI poses to employment may be overstated by leaders eager to signal technological sophistication, but Dorsey's willingness to stake half his workforce on the bet suggests he views the transformation as already underway rather than hypothetical.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Block",
+        "Jack Dorsey",
+        "layoffs",
+        "artificial intelligence",
+        "workforce reduction",
+        "CashApp",
+        "Square"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1325/live/9097d0e0-1361-11f1-af0d-af544dd82419.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cq570d12y9do?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-02-27T04:17:04.892Z"
+    },
+    {
+      "id": "ps-1772165839580-tanu",
+      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
+      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
+      "subheadline": "Researchers achieve 'error-free' fluid dynamics simulations on standard computational lattices using Onsager regularization",
+      "body": "A team of computational physicists has developed a novel lattice Boltzmann method that eliminates modeling errors in Navier-Stokes fluid simulations — a longstanding challenge in computational fluid dynamics that has limited the accuracy of one of the field's most widely used numerical techniques.\n\nThe method, published on arXiv by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, introduces what the authors call Onsager-Regularized non-equilibrium populations — fully local corrections that can be applied to standard first-nearest-neighbor lattice Boltzmann schemes. Working on the commonly used D2Q9 lattice (a two-dimensional, nine-velocity configuration), the researchers demonstrated two levels of correction. A partial correction that addresses compatibility condition violations alone improved accuracy by two to four orders of magnitude, depending on whether the simulation operates at reference or arbitrary lattice temperatures. A complete correction that also fixes stress tensor modeling errors yielded what the authors describe as a fully corrected, exact model.\n\nLattice Boltzmann methods simulate fluid flow not by directly solving the Navier-Stokes equations, but by tracking the statistical behavior of particle populations on a discrete grid. The approach has gained significant traction over the past three decades because of its computational efficiency and natural parallelism, making it attractive for large-scale simulations of turbulence, multiphase flow, and complex geometries. However, the discretization inherent in standard lattices introduces systematic errors in how the method recovers the macroscopic Navier-Stokes physics — errors that researchers have long sought to eliminate without resorting to larger, more computationally expensive lattice configurations.\n\nNumerical benchmarks presented in the paper show that the corrected schemes outperform both the classic Lattice-BGK (Bhatnagar-Gross-Krook) method and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability. The guided equilibrium representation constrains six moments of the distribution function, providing a structured framework onto which the Onsager corrections are layered.\n\nPerhaps most significantly, the authors suggest their approach opens a path toward thermohydrodynamic extensions — simulations that couple fluid flow with heat transfer. Such coupled problems are notoriously difficult for lattice Boltzmann methods on standard grids, and an error-free foundation could prove transformative for applications ranging from microfluidics to atmospheric modeling. The work represents a meaningful step toward making lattice Boltzmann methods not just efficient approximations, but exact discrete representations of the governing equations of fluid mechanics.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "lattice-Boltzmann",
+        "Navier-Stokes",
+        "computational-fluid-dynamics",
+        "Onsager-regularization",
+        "numerical-methods"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1664526936810-ec0856d31b92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxOZXclMjBMYXR0aWNlJTIwQm9sdHptYW5uJTIwTWV0aG9kJTIwRWxpbWluYXRlcyUyME5hdmllciUyMFN0b2tlcyUyME1vZGVsaW5nJTIwRXJyb3JzfGVufDB8MHx8fDE3NzIxMDE5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.21242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-02-27T04:17:19.580Z"
+    },
+    {
+      "id": "ps-1772165855656-xqk8",
+      "slug": "amino-acids-could-survive-50-million-years-in-martian-ice-st",
+      "headline": "Amino Acids Could Survive 50 Million Years in Martian Ice, Study Finds",
+      "subheadline": "NASA and Penn State research upends assumptions about where to search for ancient life on Mars",
+      "body": "Ancient biological material could persist for tens of millions of years inside pure Martian ice, far longer than scientists previously believed — a finding that may fundamentally redirect where future Mars missions look for signs of life.\n\nResearchers from NASA's Goddard Space Flight Center and Penn State University subjected E. coli bacteria sealed in pure water ice to gamma radiation equivalent to 50 million years of cosmic ray bombardment on the Martian surface, all while keeping samples chilled to minus 60 degrees Fahrenheit to replicate conditions in the planet's icy regions. More than 10 percent of amino acids — the essential building blocks of proteins — survived the full simulation intact. The results, published in the journal Astrobiology, represent a dramatic reversal from a 2022 study by the same team, which had suggested that organic material in water ice would degrade even faster than samples mixed with soil.\n\nInstead, the opposite proved true. Amino acids embedded in a mixture of ice and Mars-like sediment — silicate rocks and clay — broke down roughly ten times faster than those in pure ice. Lead author Alexander Pavlov, a space scientist at NASA Goddard, attributed the difference to a thin liquid film that forms where ice meets mineral surfaces, potentially allowing radiation-generated reactive particles to move more freely and destroy organic compounds. In solid ice, by contrast, those harmful particles appear to become frozen in place, unable to reach the biological material.\n\nThe implications extend well beyond Mars. The team also tested organic preservation at the far colder temperatures found on Europa and Enceladus, icy moons of Jupiter and Saturn respectively, and found that deterioration slowed even further. Pavlov said the results are encouraging for NASA's Europa Clipper spacecraft, which launched in 2024 and is expected to reach Jupiter in 2030 to perform 49 close flybys of Europa's ice shell and probe for conditions that could support life.\n\nFor Mars exploration, the findings carry a clear directive: dig into clean, buried ice rather than analyzing rocks or soil. Co-author Christopher House, a Penn State geosciences professor, noted that the 50-million-year preservation window far exceeds the estimated age of many current Martian surface ice deposits, which are often less than two million years old. \"That means if there are bacteria near the surface of Mars, future missions can find it,\" House said. He pointed to NASA's 2008 Phoenix lander — the first mission to excavate and photograph subsurface Martian ice — as a model for the kind of drilling and scooping capability that next-generation missions will need to access these frozen time capsules.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Mars",
+        "astrobiology",
+        "NASA",
+        "amino acids",
+        "Europa Clipper",
+        "Penn State",
+        "extraterrestrial life"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-02-27T04:17:35.656Z"
+    },
+    {
+      "id": "ps-1772165873039-awl9",
+      "slug": "netflix-walks-away-from-warner-bros-discovery-as-paramount-w",
+      "headline": "Netflix Walks Away From Warner Bros. Discovery as Paramount Wins $111B Bidding War",
+      "subheadline": "David Ellison's Paramount, backed by father Larry Ellison's fortune, will absorb HBO, CNN, and Warner studios in a deal reshaping media",
+      "body": "Netflix has withdrawn from the bidding war for Warner Bros. Discovery, clearing the way for David Ellison's Paramount to acquire the sprawling media conglomerate in a deal valued at approximately $111 billion — one of the largest entertainment mergers in history.\n\nThe streaming giant declined to raise its $82.7 billion all-cash offer after Warner Bros. Discovery's board declared Paramount Skydance's bid of $31 per share a \"superior proposal\" on Thursday. Netflix had four business days to counter but chose discipline over ambition. \"At the price required to match Paramount Skydance's latest offer, the deal is no longer financially attractive,\" co-CEOs Ted Sarandos and Greg Peters said in a joint statement. Under the terms of the original agreement, Warner Bros. Discovery will pay Netflix a $2.8 billion termination fee — a cost Paramount has agreed to absorb as part of its winning bid.\n\nThe transaction will unite two of Hollywood's most storied empires under a single owner. Paramount, which Ellison's Skydance Media acquired just last year with significant financial support from his father Larry Ellison, will gain Warner Bros.' film and television studios, HBO and its streaming platform, gaming and entertainment divisions, and a portfolio of linear cable networks including CNN, TBS, TNT, Discovery, and HGTV. Paramount will also assume roughly $33 billion in Warner Bros. Discovery debt. The deal is being financed through a $57.5 billion debt commitment from Bank of America Merrill Lynch, Citi, and Apollo Global Management, with Larry Ellison — the world's sixth-richest person with a net worth of $201 billion — providing additional equity.\n\nThe consolidation raises significant questions about media concentration and editorial independence. David Ellison has already signaled that substantial job cuts will follow the merger. His stewardship of CBS, acquired through Paramount, has drawn criticism from journalists and media observers who say reporting critical of the Trump administration has been sidelined under the network's editor-in-chief, Bari Weiss. Larry Ellison is a prominent donor and supporter of President Trump, adding a political dimension to a media portfolio that will now span CBS, CNN, and numerous cable networks.\n\nMarkets reacted favorably to the resolution. Netflix shares surged as much as 10% in after-hours trading, suggesting investors were relieved the company maintained financial discipline rather than overpaying. Paramount shares rose 4.5%. For Netflix, walking away preserves its balance sheet and avoids the integration challenges of absorbing a legacy media company with significant linear television operations. For Paramount, the acquisition transforms a company with a roughly $12 billion market capitalization into a media behemoth — though one shouldering an enormous debt load that will test Ellison's ability to rationalize overlapping businesses while preserving the creative engines that make properties like HBO valuable.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Warner Bros Discovery",
+        "Paramount",
+        "Netflix",
+        "David Ellison",
+        "Larry Ellison",
+        "mergers and acquisitions",
+        "HBO",
+        "CNN",
+        "media consolidation"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-02-27T04:17:53.039Z"
+    },
+    {
+      "id": "ps-1772165890399-niz4",
+      "slug": "asian-stocks-surge-toward-best-february-on-record",
+      "headline": "Asian Stocks Surge Toward Best February on Record",
+      "subheadline": "AI infrastructure demand drives regional rally as investors rotate into Asian suppliers; yen strengthens on inflation data",
+      "body": "Asian equities are poised to close out their strongest February in recorded history, fueled by surging investor appetite for companies positioned at the heart of the global artificial intelligence infrastructure buildout.\n\nThe broad regional rally reflects a growing recognition that Asia's semiconductor fabricators, memory chipmakers, and advanced component manufacturers stand to capture an outsized share of the capital expenditure wave sweeping through the AI sector. From Tokyo to Taipei to Seoul, companies supplying the picks and shovels of the AI revolution have attracted sustained inflows throughout the month, lifting benchmark indices well beyond their typical seasonal performance.\n\nThe rally marks a notable shift in global capital allocation. While U.S. tech giants have dominated AI-related investment narratives for much of the past two years, February's performance suggests investors are increasingly looking downstream — and eastward — to the Asian suppliers that manufacture the chips, servers, and networking equipment underpinning large-scale AI deployments. The trend has been reinforced by robust earnings guidance from several major Asian technology firms and continued announcements of new data center construction across the region.\n\nMeanwhile, the Japanese yen gained ground against major currencies after fresh inflation data reinforced expectations that the Bank of Japan may continue tightening monetary policy. Rising consumer prices in Japan have kept alive speculation about further interest rate increases, lending support to the currency after an extended period of weakness. The yen's advance added another dimension to the Asian market story, as a stronger currency can weigh on export-heavy Japanese equities even as the broader regional tide lifts most boats.\n\nThe record-setting month comes against a backdrop of mixed signals from Wall Street, where volatility around major AI chipmaker earnings has periodically dampened sentiment. Yet Asian markets have largely shrugged off those tremors, suggesting that investors view the region's valuation discount relative to U.S. peers — combined with direct exposure to AI hardware supply chains — as a compelling opportunity. Whether the momentum carries into March will depend in part on global trade policy developments and the pace of AI capital spending commitments from major cloud providers in the coming weeks.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "asian-stocks",
+        "artificial-intelligence",
+        "yen",
+        "emerging-markets",
+        "semiconductor"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1769433193016-40f2cfb07fa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxBc2lhbiUyMFN0b2NrcyUyMFN1cmdlJTIwVG93YXJkJTIwQmVzdCUyMEZlYnJ1YXJ5JTIwUmVjb3JkfGVufDB8MHx8fDE3NzIxNjU4OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/asian-stocks-to-ebb-as-nvidia-decline-dulls-mood-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-02-27T04:18:10.399Z"
+    },
+    {
+      "id": "ps-1772165908918-bwz4",
+      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
+      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
+      "subheadline": "The co-founder's roadmap targets four key vulnerabilities, from validator signatures to zero-knowledge proofs",
+      "body": "Ethereum co-founder Vitalik Buterin published a comprehensive roadmap on Thursday detailing how the world's largest smart-contract blockchain intends to protect itself against the eventual threat of quantum computers — machines that could, in theory, shatter the cryptographic foundations underpinning the network.\n\nThe plan, shared on X, identifies four critical areas of exposure: the BLS digital signatures used by validators to confirm blocks, the KZG commitment scheme that underpins Ethereum's data availability layer, the standard cryptographic signatures used by everyday wallets, and the zero-knowledge proof systems relied upon by privacy tools and layer-2 scaling networks. While no quantum computer currently exists with the power to break modern cryptography, the blockchain industry has increasingly treated the threat as a matter of when, not if. The Ethereum Foundation recently stood up a dedicated post-quantum research team to study the problem.\n\nAt the consensus layer, Buterin proposed migrating validators from BLS signatures to hash-based alternatives, which are widely regarded by cryptographers as resistant to quantum attack. Replacing the KZG commitment system used for batched transaction data verification would be more complex, he acknowledged, requiring substantial engineering and potentially adding layers of technical complexity. For end users, the roadmap leans heavily on a planned protocol upgrade known as EIP-8141, which would allow wallet accounts to swap their signature schemes — enabling a future transition to quantum-safe options without requiring users to create entirely new accounts.\n\nPerhaps the most technically ambitious element of Buterin's proposal involves zero-knowledge proofs, which are central to the operation of many layer-2 networks and privacy-preserving applications. Quantum-resistant versions of these proofs currently impose significantly higher verification costs on Ethereum. To address this, Buterin pointed to a mechanism within EIP-8141 called \"validation frames,\" which would allow the network to aggregate many individual signatures and proofs into a single compressed verification — reducing on-chain computational burden and keeping transaction fees manageable even as cryptographic overhead increases.\n\nThe roadmap arrives at a time when quantum computing research is accelerating globally, with major programs underway at Google, IBM, and several national laboratories. While experts generally estimate that cryptographically relevant quantum machines remain years or even decades away, the sheer difficulty of upgrading a decentralized protocol — which requires broad community consensus and coordinated software changes across thousands of nodes — makes early planning essential. Ethereum, with roughly $2,058 per ETH at the time of publication and a vast ecosystem of decentralized applications, has among the most at stake in preparing for a post-quantum world.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Ethereum",
+        "Vitalik Buterin",
+        "quantum computing",
+        "cryptography",
+        "blockchain security",
+        "EIP-8141"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-02-27T04:18:28.918Z"
+    },
     {
       "id": "ps-1772164923695-xukw",
       "slug": "doj-files-reveal-maxwell-s-role-linking-bill-clinton-to-epst",
@@ -44,51 +173,6 @@
       "publishedAt": "2026-02-27T04:02:20.854Z"
     },
     {
-      "id": "ps-1772164957366-mq3y",
-      "slug": "mars-ice-could-preserve-ancient-life-for-50-million-years-st",
-      "headline": "Mars Ice Could Preserve Ancient Life for 50 Million Years, Study Finds",
-      "subheadline": "NASA and Penn State researchers say future missions should drill into pure ice rather than study rocks or soil",
-      "body": "Ancient microbial life — or its chemical remnants — could remain intact inside Martian ice for more than 50 million years, far longer than the age of most known ice deposits on the planet's surface, according to new laboratory experiments by NASA and Penn State University researchers.\n\nThe study, published in the journal Astrobiology, fundamentally reframes where future Mars missions should look for signs of biology. A team led by Alexander Pavlov of NASA's Goddard Space Flight Center sealed E. coli bacteria inside test tubes of pure water ice and subjected them to gamma radiation at minus 60 degrees Fahrenheit — conditions designed to replicate tens of millions of years of cosmic ray bombardment on the Martian surface. After simulating 50 million years of exposure, more than 10 percent of amino acids, the building blocks of proteins, remained intact in the pure ice samples. That survival window dwarfs the estimated age of some Martian surface ice deposits, which are often less than two million years old.\n\nThe most surprising result involved a counterintuitive finding about soil. Samples that mixed water ice with Mars-like sediment — silicate rocks and clay — degraded roughly 10 times faster than those in pure ice. A 2022 study by the same team had suggested that water ice alone would fare even worse than ice-sediment mixtures, but the opposite proved true. Researchers believe that where ice meets mineral grains, a thin liquid film forms that allows radiation-generated reactive particles to move freely and attack organic molecules. In solid ice, by contrast, those harmful particles become frozen in place, effectively shielding nearby compounds. \"These results suggest that pure ice or ice-dominated regions are an ideal place to look for recent biological material on Mars,\" Pavlov said.\n\nThe implications extend well beyond the Red Planet. The team also tested organic material at the far colder temperatures found on Europa and Enceladus, icy moons of Jupiter and Saturn respectively, and found that deterioration slowed even further. Pavlov said the results are encouraging for NASA's Europa Clipper mission, which launched in 2024 and will reach Jupiter in 2030 to perform 49 close flybys of Europa's ice shell and probe whether its subsurface ocean could harbor life.\n\nFor Mars exploration, the practical challenge is access. Most of the planet's ice lies just below the surface, requiring drilling or scooping capability similar to NASA's 2008 Phoenix lander — the first mission to excavate and photograph subsurface Martian ice. Christopher House, a Penn State geosciences professor and study co-author, said future missions will need hardware purpose-built for ice extraction rather than the rock-sampling instruments that have dominated recent rover designs. The study was funded by NASA's Planetary Science Division and involved researchers from both Penn State and Goddard Space Flight Center.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Mars",
-        "astrobiology",
-        "NASA",
-        "amino acids",
-        "extraterrestrial life",
-        "Europa Clipper",
-        "Penn State"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/ice-north-pole-of-mars-nasa-phoenix-spacecraft.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260225081147.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-02-27T04:02:37.366Z"
-    },
-    {
-      "id": "ps-1772164973348-br54",
-      "slug": "netflix-walks-away-from-wbd-bid-clearing-path-for-ellison-s-",
-      "headline": "Netflix Walks Away From WBD Bid, Clearing Path for Ellison's Paramount",
-      "subheadline": "Paramount's $111 billion offer, backed by Larry Ellison's fortune, will create a media colossus owning HBO, CNN, and CBS",
-      "body": "Netflix has abandoned its $82.7 billion bid for Warner Bros. Discovery, ending a fierce bidding war and handing one of Hollywood's most storied media empires to David Ellison's Paramount. The streaming giant's decision, announced Thursday, clears the way for a combined Paramount-WBD entity that would control an extraordinary portfolio of entertainment and news assets including HBO, CNN, CBS, TBS, TNT, Discovery, and HGTV.\n\nThe outcome caps a dramatic sequence that began when Netflix declared its intent to acquire WBD in December. Paramount, which Ellison's Skydance Media purchased just last year with substantial financial backing from his father, Oracle executive chairman Larry Ellison, mounted a series of hostile counteroffers. Warner Bros. Discovery's board initially sided with Netflix, telling shareholders the all-cash bid was superior to Paramount's broader proposal. But when Paramount raised its offer to $31 per share — valuing WBD at approximately $111 billion — the board declared it a \"superior proposal,\" triggering a four-day window for Netflix to respond.\n\nNetflix co-CEOs Ted Sarandos and Greg Peters chose discipline over ambition. \"At the price required to match Paramount Skydance's latest offer, the deal is no longer financially attractive,\" they said in a joint statement. Under the terms of the original agreement, WBD must pay Netflix a $2.8 billion termination fee — a cost Paramount has agreed to absorb. Markets cheered the resolution: Netflix shares surged as much as 10% in after-hours trading, while Paramount gained 4.5%.\n\nThe financial engineering behind Paramount's bid is staggering for a company with a market capitalization of roughly $12 billion. Larry Ellison, whose net worth Bloomberg pegs at $201 billion, has committed additional equity to close the gap, while a $57.5 billion debt facility from Bank of America Merrill Lynch, Citi, and Apollo Global Management will provide the bulk of the financing. Paramount will also assume WBD's approximately $33 billion in existing debt, creating a heavily leveraged combined company.\n\nThe merger raises significant questions about media consolidation and editorial independence. David Ellison has already warned of substantial job cuts, and his stewardship of CBS has drawn scrutiny after reports that coverage critical of the Trump administration was shelved or subjected to heightened review under editor-in-chief Bari Weiss. Larry Ellison is a prominent donor and supporter of President Trump. With the addition of CNN to a portfolio that already includes CBS, the Ellison family will exert influence over two of America's most prominent television news operations — a concentration of media power with few modern precedents.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Warner Bros Discovery",
-        "Paramount",
-        "Netflix",
-        "Larry Ellison",
-        "mergers and acquisitions",
-        "HBO",
-        "CNN",
-        "media consolidation"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/09/warner-bros.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/netflix-warner-bros-discovery-paramount-wbd-bid-studios-hbo-cnn-ellison/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-27T04:02:53.349Z"
-    },
-    {
       "id": "ps-1772164988310-n1q3",
       "slug": "yuan-s-longest-winning-streak-since-2010-ends-as-china-eases",
       "headline": "Yuan's Longest Winning Streak Since 2010 Ends as China Eases Short-Selling Costs",
@@ -108,27 +192,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-27/china-seeks-to-slow-yuan-gains-by-cutting-cost-to-short-currency",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-02-27T04:03:08.310Z"
-    },
-    {
-      "id": "ps-1772165003719-togx",
-      "slug": "buterin-lays-out-ethereum-s-defense-plan-against-quantum-com",
-      "headline": "Buterin Lays Out Ethereum's Defense Plan Against Quantum Computing",
-      "subheadline": "The co-founder's roadmap targets four key vulnerabilities as Ethereum Foundation stands up a dedicated post-quantum research team",
-      "body": "Ethereum co-founder Vitalik Buterin on Thursday published a detailed roadmap for hardening the world's largest smart-contract blockchain against the eventual threat of quantum computers, identifying four critical areas where the network's cryptographic foundations could be compromised.\n\nThe plan, shared in a post on X, addresses vulnerabilities in validator signatures used for consensus, the network's data availability system, standard wallet signatures used in everyday transactions, and zero-knowledge proofs relied upon by privacy tools and layer-2 scaling networks. The announcement follows the Ethereum Foundation's recent creation of a dedicated post-quantum research team — a signal that the project's leadership views the threat as serious enough to warrant sustained, organized effort even though practical quantum computers capable of breaking modern cryptography have not yet been built.\n\nAt the core of Buterin's proposal is a migration away from the BLS signature scheme currently used by Ethereum's validators to confirm blocks. BLS signatures, while efficient, are theoretically vulnerable to sufficiently powerful quantum machines. Buterin recommends transitioning to hash-based signatures, which are widely considered resistant to quantum attacks. The roadmap also calls for replacing the network's KZG commitment scheme — a cryptographic tool used to verify and store large batches of transaction data — with a quantum-safe alternative, though Buterin acknowledged this would involve substantial engineering complexity.\n\nFor the network's roughly 100 million wallet addresses, the proposed solution centers on EIP-8141, a planned upgrade that would give Ethereum accounts the flexibility to adopt different signature schemes over time, including post-quantum options. The same upgrade includes a mechanism called \"validation frames,\" which would allow the network to aggregate many signatures and proofs into a single compressed verification — a design intended to keep on-chain costs manageable even as quantum-resistant cryptographic methods, which tend to be computationally heavier, are introduced.\n\nThe zero-knowledge proof ecosystem faces perhaps the steepest challenge. Quantum-safe versions of these proofs are currently far more expensive to verify on Ethereum than their classical counterparts, posing a direct cost problem for layer-2 networks and privacy applications that depend on them. Buterin positioned validation frames as a longer-term fix, bundling proof verification to offset the added expense. While no timeline was attached to the full rollout, the roadmap represents the most comprehensive public statement yet from Ethereum's leadership on preparing for a post-quantum world — a challenge that every major blockchain will eventually need to confront.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Ethereum",
-        "quantum computing",
-        "Vitalik Buterin",
-        "cryptography",
-        "blockchain security",
-        "post-quantum"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/af0ec5cb6450fadeb2b2eef1a3aa4339e46911ed-3840x2160.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/vitalik-buterin-unveils-ethereum-roadmap-to-counter-quantum-computing-threat",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-02-27T04:03:23.719Z"
     },
     {
       "id": "ps-1772164031412-1em5",
@@ -195,27 +258,6 @@
       "publishedAt": "2026-02-27T03:47:58.251Z"
     },
     {
-      "id": "ps-1772163206169-5p5a",
-      "slug": "asian-equities-set-for-best-february-on-record-amid-ai-boom",
-      "headline": "Asian Equities Set for Best February on Record Amid AI Boom",
-      "subheadline": "MSCI Asia Pacific Index surges 6.7% in February, outpacing the S&P 500 for a third straight month",
-      "body": "Asian stock markets are poised to close out February 2026 with their strongest performance for the month on record, fueled by surging investor demand for companies across the region that are building out the infrastructure underpinning the global artificial intelligence boom.\n\nThe MSCI Asia Pacific Index has climbed 6.7% in February, marking its best showing for the month since the benchmark was established in 1998. The index edged up 0.1% on Friday, cementing its lead over U.S. equities and putting it on course to outperform the S&P 500 for a third consecutive month — a streak that underscores a meaningful rotation of global capital toward Asian markets.\n\nThe rally reflects a broadening of the AI trade beyond its traditional epicenter on Wall Street. Investors have increasingly turned to Asian semiconductor manufacturers, cloud infrastructure providers, and component suppliers that form critical links in the AI supply chain. The region's chipmakers and hardware firms have been direct beneficiaries as hyperscale data center construction accelerates worldwide, driving demand for everything from advanced processors to power management systems and networking equipment.\n\nThe outperformance comes even as U.S. markets showed signs of fatigue heading into the weekend. Equity-index futures pointed to a softer open on Wall Street Friday, suggesting that momentum in American tech stocks — long the dominant force in the AI narrative — may be cooling relative to their Asian counterparts. The shift in relative performance could signal a more durable rebalancing of investor portfolios toward markets where AI-related valuations remain comparatively attractive.\n\nThe three-month winning streak against the S&P 500 represents a notable departure from recent years, during which U.S. mega-cap technology companies captured the lion's share of AI-driven gains. Whether Asian markets can sustain this momentum into the second quarter will depend in part on the pace of global AI capital expenditure and the ability of the region's firms to maintain their roles as indispensable suppliers in an increasingly competitive landscape.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Asian equities",
-        "MSCI Asia Pacific",
-        "artificial intelligence",
-        "AI infrastructure",
-        "S&P 500",
-        "stock markets"
-      ],
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ifSyDeiaQLKU/v0/1200x675.png",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-02-26/asian-stocks-to-ebb-as-nvidia-decline-dulls-mood-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-02-27T03:33:26.169Z"
-    },
-    {
       "id": "ps-1772163223694-8z2d",
       "slug": "occ-stablecoin-rules-threaten-crypto-rewards-programs-rattli",
       "headline": "OCC Stablecoin Rules Threaten Crypto Rewards Programs, Rattling Industry",
@@ -235,26 +277,6 @@
       "sourceUrl": "https://www.coindesk.com/policy/2026/02/26/u-s-regulator-s-genius-pitch-puts-dark-cloud-over-crypto-sector-s-stablecoin-model",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-27T03:33:43.694Z"
-    },
-    {
-      "id": "ps-1772161337109-goul",
-      "slug": "new-lattice-boltzmann-method-eliminates-navier-stokes-modeli",
-      "headline": "New Lattice Boltzmann Method Eliminates Navier-Stokes Modeling Errors",
-      "subheadline": "Researchers introduce Onsager-Regularized corrections that achieve exact fluid dynamics on standard computational lattices",
-      "body": "A team of researchers has developed a novel computational technique that eliminates systematic modeling errors in lattice Boltzmann simulations of fluid dynamics, potentially advancing the accuracy of a widely used method in computational physics by several orders of magnitude.\n\nThe work, published on arXiv on February 14 by Anirudh Jonnalagadda, Walter Rocchia, and Sauro Succi, introduces what the authors call the Generalized Onsager-Regularized Lattice Boltzmann Method. The approach targets a longstanding problem in computational fluid dynamics: lattice Boltzmann methods, while computationally efficient and highly parallelizable, introduce modeling errors when solving the Navier-Stokes equations on standard first-nearest-neighbor lattices. These errors arise from violations of compatibility conditions and imprecisions in stress tensor modeling — artifacts of discretizing continuous fluid behavior onto a fixed grid.\n\nThe new method corrects these errors through fully local modifications to what physicists call non-equilibrium populations, using an Onsager-Regularized framework applied to a six-moment-constrained guided equilibrium representation on the standard D2Q9 lattice. The researchers demonstrate two levels of correction: a partial model that addresses only compatibility condition violations and improves accuracy by two to four orders of magnitude depending on whether reference or arbitrary lattice temperatures are used, and a complete model that additionally corrects stress tensor errors to yield what the authors describe as an exact, error-free solution.\n\nNumerical benchmarks showed the corrected schemes outperformed both the standard Lattice-BGK method — a workhorse of the lattice Boltzmann community — and uncorrected Onsager-Regularized guided equilibrium schemes in both accuracy and numerical stability. The fact that corrections remain fully local is particularly significant, as it preserves the inherent parallelism that makes lattice Boltzmann methods attractive for large-scale simulations on modern computing architectures.\n\nThe researchers note that the framework opens a promising avenue for thermohydrodynamic extensions, suggesting the technique could be applied to simulations involving coupled thermal and fluid transport phenomena. If the results hold up under broader testing, the method could improve the fidelity of lattice Boltzmann simulations across applications ranging from turbulence modeling and aerodynamics to biological flows and multiphase systems — all without requiring more complex lattice geometries or sacrificing computational efficiency.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "lattice Boltzmann",
-        "Navier-Stokes",
-        "computational physics",
-        "fluid dynamics",
-        "numerical methods"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1637729960394-1a1200764aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxsYXR0aWNlJTIwQm9sdHptYW5uJTIwTmF2aWVyLVN0b2tlc3xlbnwwfDB8fHwxNzcyMTM5NzY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.21242",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-02-27T03:02:17.109Z"
     },
     {
       "id": "ps-1772161382934-ovcj",
@@ -1040,26 +1062,6 @@
       "sourceUrl": "https://www.coindesk.com/tech/2026/02/26/ethereum-foundation-drops-most-ambitious-roadmap-in-years-targets-finality-in-seconds-by-2029",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-26T15:33:30.710Z"
-    },
-    {
-      "id": "ps-1772119070419-5pti",
-      "slug": "ebay-cuts-800-jobs-despite-strong-revenue-growth",
-      "headline": "eBay Cuts 800 Jobs Despite Strong Revenue Growth",
-      "subheadline": "The e-commerce giant trims 6% of its workforce just days after announcing a $1.2 billion acquisition of Depop",
-      "body": "eBay announced Wednesday that it will eliminate approximately 800 positions, representing roughly 6% of its full-time workforce, as the company restructures to align with what it described as evolving strategic priorities. The cuts mark the third round of significant layoffs at the online marketplace in just three years.\n\nThe timing is notable. eBay's move comes barely a week after the company revealed plans to acquire Depop, the Gen Z-favored secondhand fashion marketplace, from Etsy in a $1.2 billion all-cash deal. It also follows a strong fourth-quarter earnings report in which revenue climbed 15% year over year to $3 billion, surpassing Wall Street estimates. The juxtaposition of robust financial performance, aggressive deal-making, and workforce reductions underscores a broader pattern across the tech industry, where companies increasingly frame layoffs not as responses to distress but as strategic reallocations of resources.\n\nIn a statement, eBay said it is \"taking steps to reinvest across our business and align our structure with our strategic priorities,\" adding that it would support affected employees \"with care and respect.\" The company did not specify which divisions or geographies would bear the brunt of the reductions. Bloomberg first reported the layoffs.\n\nThe job cuts continue a pattern that has become almost annual at eBay. In early 2024, the company eliminated roughly 1,000 roles — about 9% of its headcount at the time. A year before that, in early 2023, it cut approximately 500 positions, or 4% of its workforce. Cumulatively, eBay has shed well over 2,000 jobs since 2023, even as its top line has strengthened.\n\nThe Depop acquisition signals that eBay is betting on younger demographics and the booming resale economy as key growth vectors. Integrating a consumer brand with a distinct identity and user base, however, will require significant organizational effort — a reality that may partly explain why the company is simultaneously trimming existing roles. For eBay, the message to investors appears clear: growth will come from targeted bets on new markets, not from expanding headcount across legacy operations.",
-      "category": "business",
-      "importance": 6,
-      "tags": [
-        "eBay",
-        "layoffs",
-        "Depop",
-        "e-commerce",
-        "workforce reduction"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/09/GettyImages-632621434.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/02/26/ebay-to-lay-off-800-staff/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-02-26T15:17:50.419Z"
     }
   ]
 }
