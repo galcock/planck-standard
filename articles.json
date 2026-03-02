@@ -1,27 +1,135 @@
 {
-  "lastUpdated": "2026-03-02T04:48:35.117Z",
+  "lastUpdated": "2026-03-02T05:03:39.856Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772426831900-yn5f",
+      "id": "ps-1772427740232-1pbi",
       "slug": "us-israel-strikes-on-iran-enter-second-day-as-casualties-mou",
       "headline": "US-Israel Strikes on Iran Enter Second Day as Casualties Mount",
-      "subheadline": "Three US service members killed, over 150 reported dead in Iran as retaliatory exchanges escalate across the Middle East",
-      "body": "Military operations by the United States and Israel against Iran intensified into a second day, with mounting casualties on multiple sides and President Donald Trump warning that further American losses are likely as the campaign continues.\n\nUS Central Command confirmed that three American service members have been killed in action, with five others seriously wounded during ongoing operations. Trump acknowledged the toll in a statement posted to Truth Social, cautioning that \"there will likely be more\" US casualties. The admission underscores the scale of what appears to be one of the most significant direct military engagements between the US and Iran in decades.\n\nThe human cost has been devastating across the region. Iranian officials reported that at least 153 people, including children, were killed after a reported strike hit a school on Saturday — a claim that, if verified, would represent one of the deadliest single incidents of the conflict. Iran has attributed the attack to the US and Israel, though both have distanced themselves from responsibility. Centcom said it was investigating reports of the incident, while the Israel Defense Forces stated they were \"not aware\" of any IDF operations in the area. In Israel, nine people were killed after a missile strike struck the city of Beit Shemesh, highlighting Iran's retaliatory reach. The violence has also spilled into neighboring Gulf states, with the United Arab Emirates reporting three fatalities from Iranian attacks since Saturday and Kuwait confirming one death.\n\nThe exchange of fire marks a dramatic escalation in a region already roiled by years of proxy conflicts and rising tensions. The direct involvement of US forces in strikes on Iranian territory — and Tehran's willingness to strike back at both Israel and Gulf Arab nations — raises the specter of a broader regional conflagration that military planners and diplomats have long feared. The targeting of Gulf states, key US security partners, adds another volatile dimension to the crisis.\n\nWith no immediate sign of de-escalation, and the US president signaling that operations will continue despite American casualties, the conflict appears poised to deepen further. The reported school strike in Iran is likely to become a focal point of international scrutiny, with pressure mounting on all parties to provide transparency about targeting decisions and civilian harm.",
+      "subheadline": "Three US service members killed, over 150 reported dead in Iran as regional conflict escalates with retaliatory strikes",
+      "body": "Military operations by the United States and Israel against Iran intensified into a second day, with mounting casualties on multiple sides and President Donald Trump warning that further American losses are likely as the campaign continues.\n\nUS Central Command confirmed that three American service members have been killed in action and five others seriously wounded during operations against Iran. Trump acknowledged the toll in a statement posted to Truth Social, cautioning that \"there will likely be more\" US casualties as strikes proceed. The admission marks one of the most significant acknowledgments of American combat losses in the Middle East in recent years.\n\nThe human cost is spreading well beyond the primary combatants. Iranian officials reported that at least 153 people, including children, were killed after a reported strike hit a school on Saturday — a claim that, if verified, would represent one of the deadliest single incidents in the escalating conflict. Iran has attributed the attack to the US and Israel, though Central Command said it was investigating the reports and Israel's military stated it was \"not aware\" of any IDF operations in the area. In Israel, nine people were killed after a missile strike struck the city of Beit Shemesh, underscoring the retaliatory nature of the exchanges.\n\nThe conflict's reach has extended to neighboring Gulf states, with the United Arab Emirates reporting three fatalities from Iranian attacks since Saturday and Kuwait confirming one death. The strikes on Gulf nations — key US security partners in the region — threaten to widen the theater of conflict and raise the stakes for regional stability and global energy markets.\n\nThe escalation represents a dramatic shift from years of shadow warfare between Israel and Iran into open, large-scale military confrontation, now with direct US involvement. The back-and-forth retaliations, civilian casualties, and expanding geographic scope suggest a conflict that could prove difficult to contain, with no diplomatic off-ramp yet visible. The coming hours will be critical in determining whether the cycle of strikes intensifies further or whether international pressure forces a pause.",
       "category": "breaking",
       "importance": 10,
       "tags": [
         "Iran",
-        "US military",
         "Israel",
+        "US military",
         "Middle East conflict",
         "Donald Trump",
-        "Centcom"
+        "CENTCOM",
+        "Gulf states"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/fc3f/live/f6ca7c60-15c2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cvgk8vj56v1o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-02T04:47:11.900Z"
+      "publishedAt": "2026-03-02T05:02:20.232Z"
+    },
+    {
+      "id": "ps-1772427757094-lltv",
+      "slug": "unified-analytical-framework-solves-photoacoustic-wave-equat",
+      "headline": "Unified Analytical Framework Solves Photoacoustic Wave Equations",
+      "subheadline": "Researchers derive general closed-form solutions for spherically symmetric photoacoustic sources, with open-source simulation code",
+      "body": "A team of researchers has developed a comprehensive analytical framework that unifies the mathematical description of acoustic pressure waves generated by photoacoustic sources, providing closed-form solutions applicable to any spherically symmetric initial pressure distribution.\n\nThe work, posted to the arXiv preprint server by Shuang Li, Yibing Wang, Yu Zhang, and Changhui Li, tackles a longstanding challenge in photoacoustic imaging — a biomedical technique that combines the high contrast of optical absorption with the deep penetration of ultrasound. While numerical simulations have long been used to model how light-induced pressure waves propagate through tissue, exact analytical expressions offer faster computation and deeper physical insight. The new paper derives a single unified solution from the fundamental photoacoustic wave equation, then specializes it to the most commonly encountered source geometries: uniform spheres, Gaussian distributions, exponential distributions, and power-law profiles.\n\nPhotoacoustic imaging works by firing short laser pulses into biological tissue, where absorption causes rapid thermoelastic expansion and the emission of ultrasonic waves. Reconstructing images from these signals requires precise forward models of how pressure waves evolve in space and time. The analytical expressions derived in the new work describe this spatiotemporal evolution exactly for spherically symmetric cases, eliminating the need for computationally expensive numerical solvers in these geometries. The authors also present far-field approximations, which simplify calculations when the detector sits far from the source — the regime most relevant to practical imaging systems.\n\nNotably, the team has released open-source code for what they describe as \"ultrafast forward simulation\" based on their general analytical model, hosted on GitHub. This could lower the barrier for researchers designing photoacoustic imaging systems or developing reconstruction algorithms, allowing rapid prototyping without custom numerical infrastructure.\n\nThe paper sits at the intersection of optics and computational methods, cross-listed under computer vision and pattern recognition on arXiv. While the contribution is primarily theoretical — deriving and cataloging exact solutions rather than reporting experimental results — the practical implications for medical imaging system design and signal processing are significant. Photoacoustic imaging has seen growing clinical interest for applications ranging from breast cancer detection to vascular mapping, and having reliable analytical benchmarks against which to validate numerical codes is essential as the field matures toward broader clinical deployment.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "photoacoustic imaging",
+        "analytical solutions",
+        "wave equations",
+        "optics",
+        "biomedical imaging",
+        "open-source"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1607826843816-e1dd7dd3b1bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8cGhvdG9hY291c3RpYyUyMGltYWdpbmclMjBhbmFseXRpY2FsJTIwc29sdXRpb25zfGVufDB8MHx8fDE3NzI0Mjc3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.23375",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-02T05:02:37.094Z"
+    },
+    {
+      "id": "ps-1772427770786-rte7",
+      "slug": "rice-university-builds-first-dye-free-molecular-atlas-of-alz",
+      "headline": "Rice University Builds First Dye-Free Molecular Atlas of Alzheimer's Brain",
+      "subheadline": "Laser imaging and machine learning reveal widespread metabolic disruption far beyond amyloid plaques",
+      "body": "Researchers at Rice University have constructed the first comprehensive, label-free molecular map of an Alzheimer's-affected brain, revealing that the disease involves sweeping chemical disruptions across the organ rather than damage confined to the notorious amyloid plaques long considered its hallmark.\n\nThe study, published in ACS Applied Materials and Interfaces, combined hyperspectral Raman imaging — a laser technique that detects the unique chemical fingerprints of molecules within tissue — with machine learning to scan entire brain slices from both healthy and Alzheimer's-affected animal models. Unlike conventional imaging, the approach required no dyes, fluorescent proteins, or molecular tags, meaning the tissue was observed in its unaltered chemical state. Doctoral student Ziyang Wang, a first author on the paper, said the method repeats chemical measurements thousands of times across each tissue slice, building high-resolution maps that reveal how molecular composition varies region by region.\n\nThe enormous datasets generated by this imaging were analyzed using both unsupervised and supervised machine learning algorithms. Unsupervised models identified natural chemical patterns without prior assumptions, while supervised models were trained to distinguish between diseased and healthy samples. The results showed that Alzheimer's-related chemical changes are distributed unevenly across the brain — some regions exhibit dramatic molecular shifts while others remain relatively spared. This asymmetry, the researchers suggest, may help explain why symptoms emerge gradually and why treatments targeting a single mechanism, such as amyloid clearance, have shown limited clinical success.\n\nPerhaps most significant were findings related to metabolism. The team identified marked differences in cholesterol and glycogen levels between healthy and diseased brains, with the starkest contrasts appearing in the hippocampus and cortex — regions critical to memory formation. Shengxi Huang, associate professor of electrical and computer engineering and corresponding author, noted that cholesterol is essential for maintaining brain cell structure while glycogen serves as a local energy reserve. Together, the disruptions point to a disease process involving broad failures in cellular structure and energy balance, not merely the protein misfolding that has dominated Alzheimer's research for decades.\n\nThe work was funded by the National Science Foundation, the National Institutes of Health, and the Welch Foundation. Alzheimer's disease kills more Americans each year than breast cancer and prostate cancer combined, making new diagnostic and therapeutic frameworks a pressing public health priority. The Rice team hopes that their chemical atlas approach could eventually support earlier detection and inform treatment strategies aimed at the disease's metabolic dimensions rather than protein accumulation alone.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "machine learning",
+        "Raman imaging",
+        "Rice University",
+        "neuroscience",
+        "brain metabolism"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-02T05:02:50.786Z"
+    },
+    {
+      "id": "ps-1772427787353-ry1p",
+      "slug": "openai-defends-pentagon-deal-as-altman-admits-it-was-rushed-",
+      "headline": "OpenAI Defends Pentagon Deal as Altman Admits It Was 'Rushed'",
+      "subheadline": "The AI company outlined red lines on autonomous weapons and mass surveillance after replacing Anthropic as the DoD's AI partner",
+      "body": "OpenAI is scrambling to justify its newly struck agreement with the Pentagon, publishing detailed safeguards even as CEO Sam Altman acknowledged the deal was hastily assembled and had generated significant backlash against the company.\n\nThe agreement, announced after negotiations between rival Anthropic and the Department of Defense collapsed on Friday, positions OpenAI as the primary AI provider for classified military environments. The fallout was swift: President Donald Trump directed federal agencies to phase out Anthropic's technology within six months, and Secretary of Defense Pete Hegseth designated the company a supply-chain risk. OpenAI moved quickly to fill the vacuum, but the speed of the arrangement raised immediate questions about whether the company had compromised on safety commitments that Anthropic reportedly refused to bend on.\n\nIn a blog post published over the weekend, OpenAI laid out three explicit prohibitions: its models cannot be used for mass domestic surveillance, autonomous weapon systems, or high-stakes automated decisions such as social credit-style scoring. The company distinguished itself from unnamed competitors it said had \"reduced or removed their safety guardrails,\" emphasizing that it retains full control over its safety infrastructure, deploys exclusively via cloud, and keeps cleared OpenAI personnel involved in operations. Katrina Mulligan, OpenAI's head of national security partnerships, argued on LinkedIn that the cloud API deployment model physically prevents integration of the company's models into weapons systems, sensors, or operational hardware — a structural safeguard she said matters more than contract language alone.\n\nCritics were not persuaded. Techdirt's Mike Masnick flagged that the agreement references compliance with Executive Order 12333, which he described as the legal framework the NSA has historically used to conduct surveillance on U.S. persons by tapping communications lines outside the country. That provision, Masnick argued, effectively permits domestic surveillance under a different name. The backlash extended to the consumer market: Anthropic's Claude chatbot overtook ChatGPT in Apple's App Store rankings on Saturday, a pointed rebuke from users apparently sympathetic to Anthropic's stance.\n\nAltman addressed the criticism directly on X, conceding that \"the optics don't look good\" but framing the deal as a strategic gamble intended to de-escalate tensions between the administration and the broader AI industry. \"If we are right and this does lead to a de-escalation between the DoW and the industry, we will look like geniuses,\" he wrote. \"If not, we will continue to be characterized as rushed and uncareful.\" OpenAI added that it does not know why Anthropic was unable to reach a similar agreement, and expressed hope that other labs would consider the framework it negotiated. The episode underscores the increasingly fraught relationship between Silicon Valley's leading AI companies and a federal government eager to deploy their technology for national security purposes — with the terms of that deployment becoming perhaps the defining policy battle in artificial intelligence.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "OpenAI",
+        "Pentagon",
+        "Anthropic",
+        "AI safety",
+        "military AI",
+        "Sam Altman",
+        "Department of Defense"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-02T05:03:07.353Z"
+    },
+    {
+      "id": "ps-1772427801574-npa5",
+      "slug": "global-stocks-slide-as-iran-crisis-sends-oil-and-gold-higher",
+      "headline": "Global Stocks Slide as Iran Crisis Sends Oil and Gold Higher",
+      "subheadline": "Escalating Middle East tensions trigger broad risk-off move across markets, with investors fleeing to safe havens",
+      "body": "Global equity markets fell sharply while oil and gold prices surged as escalating tensions involving Iran rattled investors and triggered a broad flight from risk assets.\n\nThe sell-off rippled across major indices as traders reassessed geopolitical risk in the Middle East, a region whose instability has historically sent shockwaves through energy markets and beyond. Crude oil prices jumped on fears that a widening conflict could disrupt supply from one of the world's most critical petroleum-producing regions. Gold, the traditional safe-haven asset, also advanced as investors sought shelter from the uncertainty.\n\nThe market reaction reflects a familiar but potent dynamic: when geopolitical crises flare in the Middle East, capital flows rapidly out of equities and into commodities and defensive positions. The dollar also strengthened as traders braced for potential economic fallout, a pattern consistent with past episodes of heightened conflict risk in the region. Iran's central role in global energy infrastructure — both as a major producer and as a strategic chokepoint near the Strait of Hormuz — amplifies the stakes for markets well beyond the immediate zone of tension.\n\nFor investors, the crisis compounds an already complex landscape shaped by central bank policy uncertainty, shifting trade dynamics, and mixed economic signals from major economies. The spike in energy prices, if sustained, could feed into inflation expectations and complicate the path for monetary policymakers who have been navigating a delicate balance between growth and price stability.\n\nAnalysts cautioned that the trajectory of markets in the coming sessions will depend heavily on whether the situation escalates further or diplomatic channels gain traction. History suggests that geopolitical risk premiums in oil can dissipate quickly if tensions de-escalate, but a protracted crisis could fundamentally alter the energy supply outlook and weigh on global growth forecasts for the months ahead.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Iran",
+        "Middle East",
+        "oil prices",
+        "gold",
+        "stock market",
+        "geopolitical risk",
+        "safe havens"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1743832370776-039ea449ac7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxJcmFuJTIwTWlkZGxlJTIwRWFzdHxlbnwwfDB8fHwxNzcyNDI3ODAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/dollar-surges-as-traders-brace-for-war-impact-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-02T05:03:21.574Z"
+    },
+    {
+      "id": "ps-1772427819766-lf7z",
+      "slug": "polymarket-logs-record-529m-in-bets-on-u-s-iran-conflict",
+      "headline": "Polymarket Logs Record $529M in Bets on U.S.-Iran Conflict",
+      "subheadline": "Prediction market becomes real-time geopolitical pricing engine as insider trading concerns mount over pre-strike wagers",
+      "body": "Polymarket, the blockchain-based prediction market, has recorded its largest-ever geopolitical trading volume as bettors wagered more than $529 million on contracts tied to the U.S.-Iran military conflict, surpassing every non-election market in the platform's history. The surge came after the United States and Israel launched airstrikes on Iran on Saturday, February 28, triggering a cascade of new contracts covering ceasefire timelines, regime change, and the prospect of American ground forces entering Iranian territory.\n\nThe platform's speed in spinning up granular markets has been remarkable. Within 24 hours of the first strikes, traders could bet on the specific week the conflict would end, whether Iran's theocratic government would survive until June, and who might succeed Ayatollah Ali Khamenei — whose death was confirmed by Iranian state television on Saturday. A contract on Khamenei leaving power by March 31 resolved immediately, drawing $45 million in volume. One account, operating under the handle \"Curseaaaaaaa,\" collected $757,000 on a single \"yes\" position, with four other traders each clearing six figures.\n\nThe headline contract — \"US strikes Iran by...?\" — has been live since December 22 and now ranks as the fourth-largest market Polymarket has ever hosted, trailing only Trump-related contracts from the 2024 presidential election cycle. The February 28 date alone attracted $89.6 million in trading activity. But the most consequential action may have preceded the missiles. Onchain analytics firm Bubblemaps identified six wallets that collectively netted $1.2 million in profit by betting on a strike occurring on February 28 — the exact day it happened. Most of the wallets were funded within 24 hours of the attack, and one turned roughly $61,000 into more than $493,000. The pattern has intensified scrutiny over whether individuals with advance knowledge of military operations are exploiting prediction markets for profit.\n\nTrading has now pivoted to forward-looking contracts. Bettors currently price a 61% probability of a U.S.-Iran ceasefire by March 31 and a 54% chance that the Iranian regime falls by June 30 — up sharply from the low 20s where it had traded for months. A \"position abolished\" outcome for the Supreme Leader role carries a 30% probability, suggesting traders see meaningful odds that Iran's theocratic structure itself may not survive the crisis. Ground invasion contracts are also drawing volume, with a \"U.S. forces enter Iran by March 7\" market trading at 28% on $2 million in bets.\n\nPolymarket has positioned itself as a real-time alternative to traditional financial markets, which were closed for the weekend when the strikes began. The platform issued a statement defending its role, claiming that prediction markets \"could give [people directly affected by the attacks] the answers they needed in ways TV news and X could not.\" Yet the insider trading allegations represent a serious reputational test. If prediction markets are to serve as credible sources of geopolitical intelligence — as Polymarket increasingly markets itself — the platform will need to demonstrate that its price signals reflect crowd wisdom rather than privileged information leaking through anonymous crypto wallets.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Polymarket",
+        "prediction markets",
+        "Iran",
+        "geopolitics",
+        "insider trading",
+        "crypto"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/918e54d3ee9ea115f9d87bb9293ee5da3ffc393a-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/01/polymarket-attracts-record-trading-world-volumes-as-u-s-iran-bets-top-usd529-million",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-02T05:03:39.766Z"
     },
     {
       "id": "ps-1772426846397-orse",
@@ -42,27 +150,6 @@
       "sourceUrl": "https://phys.org/news/2026-02-frictionless-ai-human-growth.html",
       "sourceName": "Phys.org",
       "publishedAt": "2026-03-02T04:47:26.397Z"
-    },
-    {
-      "id": "ps-1772426861676-5976",
-      "slug": "rice-university-creates-first-dye-free-molecular-atlas-of-al",
-      "headline": "Rice University Creates First Dye-Free Molecular Atlas of Alzheimer's Brain",
-      "subheadline": "AI-powered laser imaging reveals widespread metabolic disruption far beyond amyloid plaques, challenging conventional disease models",
-      "body": "A team at Rice University has produced the first comprehensive, label-free molecular atlas of an Alzheimer's-affected brain, revealing that the disease involves sweeping chemical disruptions across entire brain regions rather than being confined to the amyloid plaques that have long dominated research and drug development. The findings, published in ACS Applied Materials and Interfaces, could fundamentally alter how scientists conceptualize and target the neurodegenerative condition that kills more Americans each year than breast and prostate cancer combined.\n\nThe researchers, led by associate professor Shengxi Huang and doctoral student Ziyang Wang, employed hyperspectral Raman imaging — a laser-based technique that detects the unique chemical fingerprints of molecules within tissue — to scan entire brain slices from both healthy and Alzheimer's-affected animal models. Unlike conventional imaging approaches, the method requires no dyes, fluorescent proteins, or molecular tags, meaning the tissue was observed in its unaltered chemical state. Each brain was mapped slice by slice through thousands of overlapping measurements, generating massive datasets that were then analyzed through both unsupervised and supervised machine learning algorithms.\n\nThe AI analysis uncovered a striking pattern: Alzheimer's-related chemical changes are distributed unevenly across the brain, with some regions exhibiting dramatic molecular shifts while others remain relatively unaffected. Most notably, the hippocampus and cortex — areas critical to memory formation and cognitive function — showed significant alterations in cholesterol and glycogen levels. Cholesterol plays a key structural role in brain cell membranes, while glycogen serves as a localized energy reserve. The disruption of both substances points toward a broader metabolic crisis rather than a simple problem of protein misfolding and accumulation.\n\n\"We found that the changes caused by Alzheimer's disease are not spread evenly across the brain,\" Wang said, adding that this uneven distribution may explain why symptoms emerge gradually and why treatments targeting a single mechanism have shown limited clinical success. The observation aligns with a growing body of evidence — including a recent finding of over 200 previously unidentified misfolded proteins in cognitively declining brains — suggesting that Alzheimer's pathology is far more complex than the amyloid hypothesis alone can account for.\n\nThe research, funded by the National Science Foundation, the National Institutes of Health, and the Welch Foundation, represents what the team hopes will become a foundation for earlier diagnostic tools and more multifaceted treatment strategies. By mapping the brain's complete chemical landscape without the bias introduced by selective labeling, the approach could reveal disease signatures that existing methods systematically miss. For the millions of families affected by Alzheimer's worldwide, the message is cautiously hopeful: the disease may be broader than previously understood, but so too are the potential avenues for intervention.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "machine learning",
-        "brain imaging",
-        "Rice University",
-        "neuroscience",
-        "metabolic disruption"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-02T04:47:41.676Z"
     },
     {
       "id": "ps-1772426878372-o6m4",
@@ -106,50 +193,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/indian-refiners-eye-russian-oil-again-as-iran-crisis-hits-supply",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-02T04:48:16.438Z"
-    },
-    {
-      "id": "ps-1772426915037-icom",
-      "slug": "polymarket-logs-record-529m-in-bets-on-u-s-iran-conflict",
-      "headline": "Polymarket Logs Record $529M in Bets on U.S.-Iran Conflict",
-      "subheadline": "Prediction market contracts on military strikes, regime change, and ceasefire timelines dwarf all prior geopolitical wagers on the platform",
-      "body": "Polymarket, the crypto-based prediction market, has recorded its largest-ever geopolitical trading event, with a single contract on U.S. military strikes against Iran accumulating $529 million in total volume — a figure that places it among the most-traded markets in the platform's history, rivaled only by contracts tied to the 2024 U.S. presidential election.\n\nThe surge followed Saturday's joint U.S.-Israeli airstrikes on Iran, which triggered Ayatollah Ali Khamenei's death as confirmed by Iranian state television. A separate contract asking whether Khamenei would leave power by March 31 resolved immediately, drawing $45 million in volume. The top trader on that market, operating under the handle \"Curseaaaaaaa,\" reportedly netted $757,000 on a single \"yes\" position, with at least four other accounts clearing six-figure profits.\n\nThe speed at which new markets proliferated was remarkable. Within hours of the first strikes, Polymarket hosted contracts covering ceasefire timelines, the identity of Iran's next supreme leader, and the probability of a U.S. ground invasion. As of March 1, bettors assigned a 61% chance of a ceasefire by March 31 and a 54% probability that the Iranian regime falls by June 30. A contract on whether the position of supreme leader is abolished entirely traded at 30%, reflecting significant uncertainty about the country's political future. Ground invasion contracts, while lower-probability, attracted meaningful volume — a \"U.S. forces enter Iran by March 7\" market traded at 28% with $2 million wagered.\n\nThe activity has not come without controversy. Blockchain analytics firm Bubblemaps identified six wallets that collectively earned approximately $1.2 million by betting specifically on a U.S. strike occurring on February 28 — the exact date the operation launched. Most of these wallets were funded within 24 hours of the attack and purchased \"yes\" shares just hours before missiles flew. The largest single wallet turned roughly $61,000 into over $493,000 in profit, raising pointed questions about whether traders with access to non-public intelligence are using the platform. The February 28 daily contract alone attracted $89.6 million in trading volume.\n\nPolymarket acknowledged the scrutiny in a public note appended to its Middle East markets on Sunday, framing prediction markets as tools for \"accurate, unbiased forecasts\" and claiming that people directly affected by the conflict found the platform's real-time pricing more useful than traditional news sources. The company also launched a dedicated Iran section to organize the rapidly expanding set of contracts. The episode underscores both the platform's growing influence as an alternative information source during geopolitical crises and the unresolved regulatory questions surrounding high-stakes wagering on armed conflict — particularly when suspicious trading patterns suggest some participants may know outcomes before they happen.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Polymarket",
-        "prediction markets",
-        "Iran",
-        "U.S. military strikes",
-        "crypto",
-        "insider trading",
-        "geopolitics"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/918e54d3ee9ea115f9d87bb9293ee5da3ffc393a-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/01/polymarket-attracts-record-trading-world-volumes-as-u-s-iran-bets-top-usd529-million",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-02T04:48:35.037Z"
-    },
-    {
-      "id": "ps-1772425972471-79i0",
-      "slug": "openai-defends-pentagon-deal-as-altman-admits-it-was-rushed-",
-      "headline": "OpenAI Defends Pentagon Deal as Altman Admits It Was 'Rushed'",
-      "subheadline": "The AI company published its red lines for military use after filling a vacuum left by Anthropic's failed negotiations",
-      "body": "OpenAI is scrambling to justify a hastily struck agreement with the U.S. Department of Defense, publishing detailed safeguards even as CEO Sam Altman conceded that the deal was \"definitely rushed\" and acknowledged that \"the optics don't look good.\"\n\nThe agreement, announced after negotiations between rival Anthropic and the Pentagon collapsed on Friday, would see OpenAI's models deployed in classified military environments. The breakdown with Anthropic prompted swift retaliation from the Trump administration: President Donald Trump directed federal agencies to phase out Anthropic's technology within six months, and Defense Secretary Pete Hegseth designated the company a supply-chain risk. OpenAI moved quickly to fill the void, but the speed of the arrangement immediately drew scrutiny — particularly given that both companies claim identical red lines around autonomous weapons and mass domestic surveillance.\n\nIn a blog post published over the weekend, OpenAI outlined three prohibited use cases for its models under the agreement: mass domestic surveillance, autonomous weapon systems, and high-stakes automated decisions such as social credit systems. The company distinguished itself from competitors it said have \"reduced or removed their safety guardrails,\" arguing that its deal features a \"multi-layered approach\" including full discretion over its safety stack, cloud-based deployment, cleared OpenAI personnel in the loop, and binding contractual protections. Katrina Mulligan, OpenAI's head of national security partnerships, emphasized on LinkedIn that the cloud API deployment architecture physically prevents models from being integrated into weapons systems, sensors, or operational hardware.\n\nCritics were not persuaded. Techdirt's Mike Masnick flagged that the agreement's references to compliance with Executive Order 12333 — the Reagan-era directive governing intelligence activities — could effectively permit domestic surveillance through overseas collection of Americans' communications. The backlash was measurable in commercial terms: Anthropic's Claude chatbot overtook ChatGPT in Apple's App Store rankings on Saturday, suggesting a consumer revolt against OpenAI's military embrace.\n\nAltman framed the decision as a calculated gamble aimed at easing tensions between the defense establishment and the broader AI industry. \"We really wanted to de-escalate things, and we thought the deal on offer was good,\" he wrote on X. \"If we are right and this does lead to a de-escalation between the DoW and the industry, we will look like geniuses. If not, we will continue to be characterized as rushed and uncareful.\" The admission underscores a broader tension facing AI companies as the federal government increasingly treats access to frontier models as a national security imperative — and willingness to cooperate as a litmus test for continued operation.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "OpenAI",
-        "Pentagon",
-        "artificial intelligence",
-        "defense",
-        "Anthropic",
-        "Sam Altman",
-        "military AI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-02T04:32:52.471Z"
     },
     {
       "id": "ps-1772425987297-p2lb",
@@ -216,28 +259,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cqj9g11p1ezo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-02T04:17:09.539Z"
-    },
-    {
-      "id": "ps-1772425085311-4ll9",
-      "slug": "global-stocks-slide-as-middle-east-tensions-drive-oil-prices",
-      "headline": "Global Stocks Slide as Middle East Tensions Drive Oil Prices Higher",
-      "subheadline": "Investors retreat from risk assets and pile into safe havens as Iran crisis rattles markets worldwide",
-      "body": "Global equity markets fell sharply while crude oil prices surged on Monday as an escalating crisis involving Iran sent shockwaves through financial markets, prompting a broad flight from risk assets.\n\nThe selloff rippled across major indices as investors reassessed geopolitical risk in the Middle East, a region whose stability directly influences global energy supplies. Oil prices jumped on fears that the unfolding conflict could disrupt production or transit routes in one of the world's most critical petroleum corridors. The U.S. dollar strengthened as traders sought traditional safe-haven assets, a pattern consistent with previous episodes of geopolitical turbulence in the region.\n\nThe market reaction underscores the fragility of investor sentiment at a time when global economies are already navigating persistent inflation concerns and uncertain monetary policy paths. A sustained spike in energy prices could complicate central banks' efforts to bring inflation under control, potentially delaying anticipated rate cuts and weighing further on equity valuations. For energy-importing nations in Europe and Asia, higher oil costs threaten to act as a drag on growth just as some economies were showing signs of stabilization.\n\nTraders appeared to move decisively into defensive positioning, with government bonds and gold also attracting inflows alongside the dollar. The speed and breadth of the risk-off move suggest markets had not fully priced in the possibility of a significant military escalation, leaving portfolios exposed when the situation deteriorated rapidly.\n\nAnalysts cautioned that the trajectory of both markets and the underlying conflict remains highly uncertain. Previous Middle East crises have produced sharp but sometimes short-lived market dislocations, though prolonged disruptions to oil supply have historically carried deeper economic consequences. Investors will be closely watching diplomatic channels and any signals from major oil-producing nations about potential supply responses in the days ahead.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Middle East",
-        "oil prices",
-        "risk-off",
-        "Iran",
-        "equities",
-        "geopolitics",
-        "safe havens"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1763029053841-7279ccb5c4f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8TWlkZGxlJTIwRWFzdCUyMG9pbCUyMHByaWNlc3xlbnwwfDB8fHwxNzcyNDI1MDg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/dollar-surges-as-traders-brace-for-war-impact-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T04:18:05.311Z"
     },
     {
       "id": "ps-1772424176964-uzsu",
@@ -1052,26 +1073,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/02/28/iran-conflict-throws-the-regime-s-usd7-8-billion-crypto-ecosystem-and-bitcoin-mining-network-into-spotlight",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-02-28T20:03:19.132Z"
-    },
-    {
-      "id": "ps-1772304431223-yya8",
-      "slug": "global-wastewater-methane-emissions-likely-underreported-stu",
-      "headline": "Global Wastewater Methane Emissions Likely Underreported, Study Finds",
-      "subheadline": "Nature Climate Change paper suggests countries are systematically missing significant greenhouse gas outputs from the wastewater sector",
-      "body": "Countries around the world may be significantly underestimating the greenhouse gas emissions produced by their wastewater treatment and disposal systems, according to new research published in Nature Climate Change. The findings point to a substantial blind spot in national emissions inventories that could be complicating global efforts to meet climate targets.\n\nThe study highlights a gap between the methane and other greenhouse gases that wastewater systems actually produce and the figures that nations report in their official climate disclosures. Wastewater — encompassing both municipal sewage treatment and industrial effluent — generates methane as organic matter decomposes in anaerobic conditions, as well as nitrous oxide during treatment processes. Both are potent greenhouse gases, with methane trapping roughly 80 times more heat than carbon dioxide over a 20-year period.\n\nThe discrepancy likely stems from outdated or incomplete methodologies used in national greenhouse gas inventories. Many countries rely on default emission factors provided by the Intergovernmental Panel on Climate Change that may not reflect the actual conditions of their wastewater infrastructure, particularly in rapidly urbanizing regions where informal or decentralized systems handle a large share of sewage. Differences in treatment technologies, climate conditions, and the extent of open sewage systems can all cause real-world emissions to diverge sharply from standardized estimates.\n\nThe implications are significant for global methane reduction pledges. More than 150 countries signed the Global Methane Pledge in 2021, committing to cut methane emissions by at least 30 percent from 2020 levels by 2030. If baseline emissions from wastewater are higher than officially recorded, the actual reductions needed to meet those targets could be substantially larger than policymakers currently assume. The wastewater sector, while smaller than agriculture or fossil fuel production as a methane source, represents one of the fastest-growing emission categories as global populations urbanize and water use intensifies.\n\nResearchers suggest that improved monitoring — including satellite-based methane detection and direct measurement campaigns at treatment facilities — could help close the reporting gap. Accurate accounting is a prerequisite for effective mitigation, and the study underscores that the wastewater sector deserves greater attention in national and international climate strategies.",
-      "category": "science",
-      "importance": 6,
-      "tags": [
-        "methane",
-        "greenhouse gases",
-        "wastewater",
-        "climate change",
-        "emissions reporting"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1619121794905-d4453d46546e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWV0aGFuZSUyMGdyZWVuaG91c2UlMjBnYXNlc3xlbnwwfDB8fHwxNzcyMzA0NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://phys.org/news/2026-02-methane-countries-underestimating-wastewater-greenhouse.html",
-      "sourceName": "Phys.org",
-      "publishedAt": "2026-02-28T18:47:11.223Z"
     }
   ]
 }
