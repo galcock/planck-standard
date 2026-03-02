@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-02T09:33:32.027Z",
+  "lastUpdated": "2026-03-02T09:48:49.902Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772443934501-vl1l",
+      "id": "ps-1772444850833-g7yq",
       "slug": "us-israel-strikes-on-iran-enter-second-day-as-casualties-mou",
       "headline": "US-Israel Strikes on Iran Enter Second Day as Casualties Mount",
-      "subheadline": "Three US service members killed, over 150 reported dead in Iran as retaliatory exchanges spread across the Middle East",
-      "body": "Military operations by the United States and Israel against Iran have escalated into a second day, with mounting casualties on multiple sides and President Donald Trump warning that further American losses are likely as the conflict intensifies.\n\nUS Central Command confirmed that three American service members were killed in action and five others seriously wounded during ongoing operations. Trump, in a statement posted to Truth Social, cautioned that \"there will likely be more\" US casualties as strikes continue. The acknowledgment marks a significant escalation, as American forces sustain their first combat fatalities in what Trump has described as \"major combat operations\" against Iran.\n\nThe human toll is spreading rapidly across the region. Iranian officials reported that at least 153 people, including children, were killed after a strike hit a school on Saturday, blaming both the US and Israel for the attack. Centcom said it was investigating reports of the incident, while the Israel Defense Forces stated they were \"not aware\" of any IDF operations in that area. In Israel, nine people were killed after a missile struck the city of Beit Shemesh, roughly 30 kilometers west of Jerusalem, according to Israeli medical services. The United Arab Emirates reported three fatalities from Iranian attacks since Saturday, and Kuwait confirmed one person killed — indicating the conflict's destabilizing ripple effects across the Gulf.\n\nThe exchange of strikes represents the most serious direct military confrontation between the US-Israel alliance and Iran in decades, shattering a long-standing pattern in which the adversaries largely confined their hostilities to proxy conflicts and covert operations. Smoke was seen rising over Tehran as Trump reportedly signaled ambitions toward regime change, though the full scope of American strategic objectives remains unclear.\n\nThe broader Middle East now faces the prospect of a widening conflict with no evident diplomatic off-ramp. With casualties accumulating on all sides and retaliatory cycles accelerating, regional governments and international observers are bracing for what could become the most consequential military escalation in the region since the 2003 invasion of Iraq.",
+      "subheadline": "Three US service members killed, over 150 reported dead in Iran as regional conflict escalates with retaliatory strikes",
+      "body": "Military operations by the United States and Israel against Iran intensified into a second day, with mounting casualties on multiple sides and no immediate sign of de-escalation in what has become the most significant armed confrontation between the nations.\n\nU.S. Central Command confirmed that three American service members have been killed in action and five others seriously wounded during ongoing operations. President Donald Trump, posting on Truth Social, warned that \"there will likely be more\" U.S. casualties as the campaign continues. The acknowledgment of American combat deaths marks a sobering escalation in a conflict that has rapidly expanded beyond initial expectations.\n\nThe human toll is spreading across the region. In Israel, a missile strike on the city of Beit Shemesh killed nine people, according to medical services — a stark reminder that Iran retains the capacity to strike back despite the allied offensive. Iranian officials reported at least 153 people killed, including children, after what they described as a strike hitting a school on Saturday. Tehran has blamed both the United States and Israel for the attack, though Centcom said it was investigating the reports and Israel's military stated it was \"not aware\" of any IDF operations in the area. The dispute over responsibility for the school strike is likely to become a major flashpoint in the information war surrounding the conflict.\n\nThe violence has also drawn in neighboring states. The United Arab Emirates reported three people killed by Iranian attacks since Saturday, while Kuwait confirmed one fatality — underscoring the broader regional destabilization that analysts have long warned could accompany a direct U.S.-Israel military confrontation with Iran. Smoke was seen rising over Tehran as BBC correspondents reported from Jerusalem, with Trump reportedly seeking regime change in Iran amid what he has characterized as \"major combat operations.\"\n\nThe escalation comes against the backdrop of weeks of anti-government protests inside Iran, which Iranian security officials say have already resulted in approximately 2,000 deaths in a sweeping crackdown. The Trump administration had previously threatened \"very strong options\" to intervene over the protest suppression, including military action. Whether the current operations represent a limited campaign or the opening phase of a broader conflict remains the central question facing governments and militaries across the Middle East and beyond.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -16,19 +16,20 @@
         "Israel",
         "Middle East conflict",
         "Donald Trump",
+        "regime change",
         "CENTCOM"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/fc3f/live/f6ca7c60-15c2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cvgk8vj56v1o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-02T09:32:14.501Z"
+      "publishedAt": "2026-03-02T09:47:30.833Z"
     },
     {
-      "id": "ps-1772443951833-2s6a",
-      "slug": "researchers-derive-unified-analytical-solution-for-photoacou",
-      "headline": "Researchers Derive Unified Analytical Solution for Photoacoustic Wave Sources",
-      "subheadline": "New mathematical framework covers arbitrary spherically symmetric pressure distributions, with open-source code for ultrafast simulation",
-      "body": "A team of researchers has developed a comprehensive analytical framework that unifies the mathematical description of acoustic pressure waves generated by spherically symmetric photoacoustic sources — a result that could streamline the design and analysis of photoacoustic imaging systems used in biomedical diagnostics and materials characterization.\n\nThe work, posted to the arXiv preprint server by Shuang Li, Yibing Wang, Yu Zhang, and Changhui Li, starts from the fundamental photoacoustic wave equation and derives a single, general solution valid for any spherically symmetric initial pressure distribution. Until now, researchers working on photoacoustic imaging — a technique that combines laser excitation with ultrasonic detection to produce high-contrast images of tissue and other media — have typically relied on case-specific solutions or numerical methods tailored to particular source geometries. The new unified expression eliminates that piecemeal approach by encompassing uniform spherical sources, Gaussian distributions, exponential distributions, and power-law distributions under one analytical roof.\n\nPhotoacoustic imaging has grown rapidly over the past two decades, finding applications ranging from breast cancer detection to functional brain imaging in small animals. The technique works by delivering short laser pulses into tissue, where optical absorption causes rapid thermoelastic expansion and the emission of ultrasonic waves. Accurately modeling how those waves propagate from sources of different shapes is essential for reconstructing images and calibrating hardware. The authors also derive far-field approximations, which are particularly useful for understanding signal behavior at detector distances much larger than the source dimensions — the regime most relevant to practical imaging setups.\n\nBeyond the theoretical contribution, the team has released open-source code on GitHub for what they describe as \"ultrafast forward simulation\" based on their general analytical model. Making the implementation freely available lowers the barrier for other research groups to incorporate the results into their own system design pipelines, signal processing algorithms, and benchmarking studies.\n\nThe paper, classified under optics and computer vision on arXiv, underscores an ongoing trend in photoacoustic research: the push to replace computationally expensive numerical simulations with closed-form solutions wherever possible. For system designers, having exact expressions rather than approximate numerical outputs can accelerate prototyping, reduce computational costs, and provide deeper physical intuition about how source geometry shapes the detected signal. While the work is currently limited to spherically symmetric cases, the analytical methodology could serve as a foundation for tackling more complex, asymmetric geometries in future studies.",
+      "id": "ps-1772444865993-aytg",
+      "slug": "unified-analytical-framework-solves-photoacoustic-wave-equat",
+      "headline": "Unified Analytical Framework Solves Photoacoustic Wave Equations",
+      "subheadline": "Researchers derive general closed-form solutions for spherically symmetric photoacoustic sources, with open-source simulation code",
+      "body": "A team of researchers has developed a comprehensive analytical framework that provides exact solutions for the acoustic pressure waves generated by spherically symmetric photoacoustic sources — a result that could streamline the design and optimization of photoacoustic imaging systems used in biomedical diagnostics and materials characterization.\n\nThe work, posted to the arXiv preprint server by Shuang Li, Yibing Wang, Yu Zhang, and Changhui Li, starts from the fundamental photoacoustic wave equation and derives a unified general solution valid for arbitrary spherically symmetric initial pressure distributions. Photoacoustic imaging relies on short laser pulses that heat tissue or other materials, generating ultrasonic pressure waves whose detection allows reconstruction of internal structures. Until now, practitioners often relied on numerical simulations or case-specific analytical results for particular source geometries, lacking a single theoretical framework that encompassed all common configurations.\n\nThe new derivation covers several widely used source profiles — uniform spherical distributions, Gaussian profiles, exponential distributions, and power-law distributions — providing explicit spatiotemporal expressions for each. The authors also present far-field approximations, which are especially relevant for practical imaging scenarios where detectors sit at distances much larger than the source dimensions. These closed-form results eliminate the need for computationally expensive numerical solvers in many design and calibration tasks.\n\nBeyond the theoretical contribution, the team has released open-source code for what they describe as \"ultrafast forward simulation\" based on their general analytical model, available through a public GitHub repository. The availability of validated, fast simulation tools could prove particularly useful for researchers developing next-generation photoacoustic tomography systems, where rapid iteration on transducer placement, signal processing algorithms, and image reconstruction methods is essential.\n\nThe paper, classified under optics and computer vision on arXiv, reflects the increasingly interdisciplinary nature of photoacoustic research, which sits at the intersection of laser physics, acoustics, and computational imaging. While the results are theoretical, their immediate practical utility — both as reference solutions for benchmarking numerical codes and as design tools for imaging hardware — gives the work broad relevance across the photoacoustic community.",
       "category": "physics",
       "importance": 4,
       "tags": [
@@ -38,32 +39,97 @@
         "biomedical imaging",
         "optics"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1670079302818-cfc8d299a36c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8UmVzZWFyY2hlcnMlMjBEZXJpdmUlMjBVbmlmaWVkJTIwQW5hbHl0aWNhbCUyMFNvbHV0aW9uJTIwUGhvdG9hY291c3RpYyUyMFdhdmUlMjBTb3VyY2VzfGVufDB8MHx8fDE3NzI0NDM5NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1762279801041-88a60aee22b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8VW5pZmllZCUyMEFuYWx5dGljYWwlMjBGcmFtZXdvcmslMjBTb2x2ZXMlMjBQaG90b2Fjb3VzdGljJTIwV2F2ZSUyMEVxdWF0aW9uc3xlbnwwfDB8fHwxNzcyNDM0OTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2602.23375",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-02T09:32:31.833Z"
+      "publishedAt": "2026-03-02T09:47:45.993Z"
     },
     {
-      "id": "ps-1772443965102-pjl0",
-      "slug": "rice-university-creates-first-dye-free-molecular-atlas-of-al",
-      "headline": "Rice University Creates First Dye-Free Molecular Atlas of Alzheimer's Brain",
-      "subheadline": "AI-powered laser imaging reveals widespread metabolic disruption far beyond amyloid plaques, challenging prevailing disease models",
-      "body": "Researchers at Rice University have produced the first comprehensive, label-free molecular atlas of an Alzheimer's-affected brain, revealing that the disease involves sweeping chemical disruptions across the organ rather than damage confined to amyloid protein plaques. The findings, published in ACS Applied Materials and Interfaces, could fundamentally reshape how scientists understand and ultimately treat a disease that kills more people annually than breast and prostate cancer combined.\n\nThe team, led by associate professor Shengxi Huang and doctoral student Ziyang Wang, used hyperspectral Raman imaging — a laser-based technique that detects the unique chemical fingerprints of molecules within tissue — to scan entire brain slices from both healthy and Alzheimer's-affected animal models. Unlike conventional methods that rely on dyes, fluorescent proteins, or molecular tags, the approach captured brain chemistry in its unaltered state. Each tissue slice required thousands of overlapping measurements, generating massive datasets that the researchers then analyzed using both unsupervised and supervised machine learning algorithms.\n\nThe AI analysis revealed that Alzheimer's-related chemical changes are distributed unevenly across the brain, with some regions showing dramatic molecular shifts while others remain relatively unaffected. Most strikingly, areas critical to memory — particularly the hippocampus and cortex — exhibited major alterations in cholesterol and glycogen levels. Cholesterol plays a key role in maintaining brain cell structure, while glycogen serves as a local energy reserve. Together, these disruptions point to a broad metabolic breakdown rather than a narrowly defined protein aggregation problem. \"This uneven pattern helps explain why symptoms appear gradually and why treatments that focus on only one problem have had limited success,\" Wang said.\n\nThe work adds to a growing body of evidence suggesting that the dominant amyloid hypothesis, which has guided Alzheimer's drug development for decades, captures only part of a far more complex picture. Previous research has identified links between brain blood flow changes, over 200 misfolded proteins beyond amyloid and tau, and cholesterol metabolism as potential contributors to disease progression. The Rice University atlas provides a spatial framework that could help integrate these disparate findings.\n\nThe research team hopes that their chemical mapping approach could eventually support earlier diagnosis and inform more targeted therapeutic strategies. The project was funded by the National Science Foundation, the National Institutes of Health, and the Welch Foundation. Co-authors include collaborators Rudolph E. Tanzi, Can Zhang, and Nanyin Zhang, among others.",
+      "id": "ps-1772444878989-3axv",
+      "slug": "rice-university-builds-first-dye-free-molecular-atlas-of-alz",
+      "headline": "Rice University Builds First Dye-Free Molecular Atlas of Alzheimer's Brain",
+      "subheadline": "Laser imaging and machine learning reveal widespread metabolic disruption far beyond amyloid plaques in animal model",
+      "body": "Scientists at Rice University have created the first comprehensive, label-free molecular map of an Alzheimer's-affected brain, revealing that the disease triggers sweeping chemical disruptions that extend well beyond the amyloid plaques long considered its hallmark. The findings, published in ACS Applied Materials and Interfaces, could fundamentally alter how researchers understand and ultimately treat a disease that kills more people annually than breast and prostate cancer combined.\n\nThe team, led by associate professor Shengxi Huang and doctoral student Ziyang Wang, employed hyperspectral Raman imaging — a laser-based technique that detects the unique chemical fingerprints of molecules within tissue — to scan entire brain slices from both healthy and Alzheimer's-affected animal models. Unlike conventional imaging approaches, the method required no dyes, fluorescent proteins, or molecular tags, capturing what Wang described as \"a complete, unaltered portrait\" of the brain's chemical makeup. Each tissue slice yielded thousands of overlapping measurements, which the researchers assembled into high-resolution molecular maps.\n\nTo make sense of the vast datasets, the team turned to machine learning in two phases. Unsupervised algorithms first identified natural chemical patterns without prior assumptions, sorting tissue purely by molecular characteristics. Supervised models then learned to distinguish Alzheimer's from non-Alzheimer's samples, quantifying how strongly different brain regions reflected disease-related chemistry. The results showed that Alzheimer's chemical changes are distributed unevenly — some regions exhibit dramatic molecular shifts while others remain relatively spared — a pattern that may explain the gradual onset of symptoms and the limited efficacy of treatments targeting a single mechanism.\n\nAmong the most striking findings were significant variations in cholesterol and glycogen levels across brain regions, with the sharpest contrasts appearing in the hippocampus and cortex — areas central to memory formation. Cholesterol plays a critical role in maintaining neuronal structure, while glycogen serves as a local energy reserve. \"Together, these findings support the idea that Alzheimer's involves broader disruptions in brain structure and energy balance, not only protein buildup and misfolding,\" Huang said. The research was supported by the National Science Foundation, the National Institutes of Health, and the Welch Foundation.\n\nThe work adds to a growing body of evidence challenging the amyloid-centric view of Alzheimer's that has dominated drug development for decades. By providing a spatially resolved chemical portrait of the diseased brain, the Rice University atlas could help identify new biomarkers for earlier diagnosis and guide the development of therapies that address the disease's metabolic dimensions rather than focusing solely on protein aggregation.",
       "category": "science",
       "importance": 7,
       "tags": [
         "Alzheimer's disease",
         "machine learning",
-        "Rice University",
         "brain imaging",
-        "Raman spectroscopy",
+        "Rice University",
         "neuroscience",
         "metabolic disruption"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-03-02T09:32:45.102Z"
+      "publishedAt": "2026-03-02T09:47:58.989Z"
+    },
+    {
+      "id": "ps-1772444893819-2d93",
+      "slug": "polymarket-traded-529m-on-iran-bombing-bets-raising-insider-",
+      "headline": "Polymarket Traded $529M on Iran Bombing Bets, Raising Insider Trading Fears",
+      "subheadline": "Six newly created accounts reportedly earned $1 million on correctly timed wagers, prompting scrutiny of prediction market anonymity",
+      "body": "More than half a billion dollars in wagers flowed through prediction market Polymarket on contracts tied to the U.S. and Israeli military strikes on Iran, raising pointed questions about whether anonymous bettors may have profited from advance knowledge of the attacks.\n\nAccording to Bloomberg data cited by TechCrunch, $529 million was traded on Polymarket contracts linked to the timing of the strikes. An analysis by blockchain analytics firm Bubblemaps SA identified six newly created accounts that collectively earned $1 million by correctly betting that the U.S. would strike Iran by February 28. The pattern — fresh accounts placing large, precisely timed wagers — is consistent with behavior that could indicate insider trading, though it does not constitute proof.\n\nBubblemaps CEO Nicolas Vaiman noted that the circulation of intelligence \"involving war or conflict,\" combined with Polymarket's pseudonymous architecture, \"can create incentives for informed participants to act early.\" The concerns are not new. As far back as January, analytics firm Polysights flagged a suspicious spike in bets on whether Iran's Supreme Leader Ali Khamenei — who has since been killed — would leave his position by the end of March. That earlier activity suggested some market participants may have been acting on signals not yet available to the public.\n\nThe episode has reignited debate over the ethics and regulation of prediction markets, particularly those that allow bets on geopolitical violence. Kalshi CEO Tarek Mansour sought to distance his rival platform from the controversy, stating that Kalshi does not \"list markets directly tied to death\" and that when potential outcomes involve death, the company designs rules \"to prevent people from profiting from death.\" Mansour added that Kalshi would reimburse all fees from related bets.\n\nThe scale of the Iran-related trading — dwarfing most previous geopolitical contracts on decentralized platforms — underscores how quickly prediction markets have grown into significant information aggregators with real financial stakes. Whether regulators, who have so far taken a largely hands-off approach to platforms like Polymarket, will view the episode as a tipping point remains an open question. For now, the intersection of anonymous betting, national security intelligence, and nine-figure trading volumes has created precisely the kind of scenario critics of unregulated prediction markets have long warned about.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Polymarket",
+        "prediction markets",
+        "Iran",
+        "insider trading",
+        "Kalshi",
+        "geopolitics"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2259602005.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/03/01/polymarket-saw-529m-traded-on-bets-tied-to-bombing-of-iran/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-02T09:48:13.819Z"
+    },
+    {
+      "id": "ps-1772444912064-f22y",
+      "slug": "oil-prices-surge-as-strait-of-hormuz-traffic-grinds-to-a-hal",
+      "headline": "Oil Prices Surge as Strait of Hormuz Traffic Grinds to a Halt",
+      "subheadline": "Escalating Middle East conflict disrupts the world's most critical oil chokepoint, triggering the largest price spike in four years",
+      "body": "Oil prices posted their sharpest single-day rally in four years on Saturday after tanker traffic through the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's petroleum supply flows daily — came to a near-complete standstill amid an escalating military conflict in the Middle East.\n\nThe disruption was compounded by the shutdown of a major Saudi Arabian refinery, raising immediate concerns about both crude supply and refined product availability in global markets. The Strait of Hormuz, situated between Iran and Oman, serves as the sole maritime corridor for oil exports from Saudi Arabia, Iraq, the United Arab Emirates, Kuwait, and Qatar. Any sustained interruption to transit through the roughly 21-mile-wide passage has long been considered one of the most severe supply-side risks facing global energy markets.\n\nThe scale of the halt is virtually unprecedented in modern energy markets. While tanker traffic has slowed during previous geopolitical flare-ups — including tensions between the United States and Iran in 2019 and 2020 — a near-total cessation of vessel movement represents a qualitatively different threat. Analysts estimate that approximately 17 to 18 million barrels of crude oil pass through the strait on a typical day, meaning even a brief interruption can remove an enormous volume of supply from the market within hours.\n\nThe refinery shutdown inside Saudi Arabia adds a second layer of disruption. With processing capacity offline, the kingdom faces constraints not only on exports of crude but also on its ability to supply refined fuels to regional and international buyers. Details on the specific facility affected and the expected duration of the outage were not immediately available, though any extended closure would tighten global gasoline and diesel markets that were already facing seasonal demand pressures heading into the Northern Hemisphere spring.\n\nEnergy strategists are now closely watching whether diplomatic channels can de-escalate the broader conflict before the supply disruption feeds through to physical shortages. Strategic petroleum reserves held by major consuming nations, including the United States, Japan, and members of the International Energy Agency, could provide a buffer, but those stockpiles are designed as a temporary bridge rather than a long-term substitute for the region's output. If the strait remains effectively closed for more than a matter of days, economists warn the knock-on effects for inflation, transportation costs, and global growth could be severe.",
+      "category": "markets",
+      "importance": 10,
+      "tags": [
+        "oil prices",
+        "Strait of Hormuz",
+        "Middle East conflict",
+        "energy markets",
+        "Saudi Arabia",
+        "crude oil",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1614555283386-f86c91585523?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxPaWwlMjBQcmljZXMlMjBTdXJnZSUyMFN0cmFpdHxlbnwwfDB8fHwxNzcyNDQ0OTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-02T09:48:32.064Z"
+    },
+    {
+      "id": "ps-1772444929814-2oue",
+      "slug": "bitcoin-drops-below-66-000-as-iran-strikes-saudi-oil-infrast",
+      "headline": "Bitcoin Drops Below $66,000 as Iran Strikes Saudi Oil Infrastructure",
+      "subheadline": "Escalating Middle East conflict sends S&P 500 futures down 1.4% and oil prices surging 7%, while crypto shows no haven demand",
+      "body": "Bitcoin retreated sharply below $66,000 on Sunday after Iran reportedly struck a major Saudi Arabian oil refinery, escalating a Middle East conflict that is rattling global financial markets and sending crude prices surging.\n\nThe largest cryptocurrency by market capitalization gave up early Asian session gains, falling from a high near $67,000 to approximately $66,228 as risk assets sold off broadly. S&P 500 e-mini futures dropped 1.4% to 6,790, reversing an earlier climb to 6,857, while oil prices on both Brent and WTI benchmarks jumped more than 7%. The moves came after open-source intelligence accounts reported that Iran had launched missile attacks against U.S. assets in Bahrain, Kuwait, and the United Arab Emirates, and had struck Saudi Aramco's Ras Tanura refinery — a critical facility operated by the world's largest oil-producing company.\n\nThe escalation follows what has been described as a pre-emptive U.S.-Israeli military operation launched Saturday aimed at degrading Iran's missile arsenal and nuclear capabilities. Israel also carried out a fresh round of airstrikes targeting Hezbollah positions in Lebanon, according to the BBC. Iran's response appears calibrated to raise the economic stakes for Washington and its regional allies by threatening energy infrastructure and key shipping corridors. Stephen Coltman, head of macro at crypto asset manager 21Shares, told CoinDesk that Tehran's strategy centers on \"raising the cost to the United States of sustaining the conflict by launching attacks on neighboring countries and attempting to disrupt the flow of oil and LNG through the Strait of Hormuz.\"\n\nColtman noted that wars are \"generally inflationary, driving up commodity prices and widening fiscal deficits,\" suggesting that assets perceived as stores of value — including bitcoin — could eventually benefit. However, the cryptocurrency has so far failed to exhibit traditional safe-haven behavior, declining in lockstep with equities rather than rallying alongside gold and oil. The broader crypto market reflected the same stress: Ethereum traded around $1,953, down 1.5%, while Solana fell 1.4% to roughly $84.\n\nThe geopolitical turmoil adds to what has already been a difficult stretch for digital asset markets. Bitcoin and Ethereum exchange-traded funds have seen more than $9 billion in outflows over the past four months, according to CoinDesk data. Prediction market Polymarket has attracted record volumes, with bets related to the U.S.-Iran conflict topping $529 million. With a U.S. jobs report due later in the week alongside major crypto mining earnings from Riot Platforms and Core Scientific, traders face a volatile confluence of macro and sector-specific catalysts that could define the direction of risk assets in the days ahead.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran",
+        "Saudi Arabia",
+        "oil prices",
+        "geopolitics",
+        "S&P 500",
+        "Middle East conflict",
+        "crypto markets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3417765811c38a57181abae66a079871b878e500-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/bitcoin-u-s-stock-futures-give-up-early-gains-as-iran-conflict-intensifies",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-02T09:48:49.814Z"
     },
     {
       "id": "ps-1772443979530-ui0p",
@@ -108,50 +174,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/middle-east-oil-faces-pricing-muddle-as-hormuz-traffic-halted",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-02T09:33:16.913Z"
-    },
-    {
-      "id": "ps-1772444011940-p5ax",
-      "slug": "bitcoin-drops-below-66-000-as-iran-strikes-saudi-oil-infrast",
-      "headline": "Bitcoin Drops Below $66,000 as Iran Strikes Saudi Oil Infrastructure",
-      "subheadline": "Escalating Middle East conflict sends U.S. stock futures tumbling and oil prices surging over 7%",
-      "body": "Bitcoin retreated sharply below $66,000 on Sunday after Iran reportedly struck a major Saudi Arabian oil refinery, escalating a Middle East conflict that sent shockwaves through global financial markets and upended risk appetite across asset classes.\n\nThe leading cryptocurrency gave back early Asian session gains, falling from a high near $67,000 to approximately $65,800 as reports emerged that Iranian missiles had targeted Saudi Aramco's Ras Tanura refinery — a critical piece of infrastructure operated by the world's largest oil producer. S&P 500 e-mini futures dropped 1.4% to 6,790, reversing an earlier climb to 6,857, while crude oil prices surged more than 7% on both Brent and WTI benchmarks. Open-source intelligence accounts on social media platform X reported that Iran had also launched missile attacks against U.S. military assets in Bahrain, Kuwait, and the United Arab Emirates, significantly widening the geographic scope of the conflict.\n\nThe hostilities began Saturday when the United States and Israel launched what officials described as a pre-emptive strike aimed at degrading Iran's missile arsenal and nuclear capabilities. Iran's retaliatory strategy appears designed to raise the economic cost of the conflict for Washington, according to Stephen Coltman, head of macro at digital asset firm 21Shares. \"Iran's strategy to date has been to raise the cost to the United States of sustaining the conflict by launching attacks on neighboring countries and attempting to disrupt the flow of oil and LNG through the Strait of Hormuz,\" Coltman told CoinDesk. Separately, Israel carried out a fresh round of airstrikes in Lebanon targeting Hezbollah, Iran's most powerful regional proxy, according to the BBC.\n\nDespite arguments that bitcoin should function as a store of value during geopolitical turmoil — a digital analogue to gold — the cryptocurrency has so far failed to attract meaningful haven demand. Coltman noted that wars tend to be inflationary, driving up commodity prices and widening fiscal deficits, which could eventually benefit assets like bitcoin after the initial risk-off selling subsides. But for now, the market is firmly in liquidation mode, with over $9 billion reportedly flowing out of bitcoin and ether exchange-traded funds over the past four months.\n\nThe escalation adds a volatile new dimension to an already fragile macro environment. With U.S. jobs data due later in the week and major crypto-linked companies including Riot Platforms and Core Scientific set to report earnings, traders face a convergence of geopolitical risk and fundamental catalysts that could define market direction for weeks to come.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran",
-        "oil prices",
-        "geopolitics",
-        "Middle East",
-        "S&P 500",
-        "Saudi Arabia",
-        "risk-off"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3417765811c38a57181abae66a079871b878e500-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/bitcoin-u-s-stock-futures-give-up-early-gains-as-iran-conflict-intensifies",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-02T09:33:31.940Z"
-    },
-    {
-      "id": "ps-1772443091035-nxlq",
-      "slug": "polymarket-handled-529m-in-bets-tied-to-u-s-israeli-strikes-",
-      "headline": "Polymarket Handled $529M in Bets Tied to U.S.-Israeli Strikes on Iran",
-      "subheadline": "Analytics firms flag suspicious trading patterns that may indicate insider knowledge of military operations",
-      "body": "The prediction market platform Polymarket processed $529 million in trading volume on contracts linked to the U.S. and Israeli military strikes on Iran, according to data reported by Bloomberg — raising urgent questions about whether anonymous bettors with advance knowledge of the operation profited from the conflict.\n\nBlockchain analytics firm Bubblemaps SA identified six newly created accounts that collectively earned $1 million by correctly wagering that the United States would strike Iran by February 28. The pattern of fresh accounts placing large, precisely timed bets has drawn scrutiny as a potential indicator of insider trading. Bubblemaps CEO Nicolas Vaiman noted that the circulation of information \"involving war or conflict,\" combined with Polymarket's pseudonymous structure, \"can create incentives for informed participants to act early.\" Separately, analytics firm Polysights had flagged an apparent spike in January in bets against Iranian Supreme Leader Ali Khamenei — now deceased — retaining power through the end of March.\n\nThe scale of the wagering has reignited a broader debate about the ethics and regulation of prediction markets, particularly when contracts are tied to geopolitical violence. Critics argue that markets paying out on military strikes or regime change effectively place a financial bounty on death and destruction, creating perverse incentives for those with access to classified information. Kalshi CEO Tarek Mansour, whose rival platform also hosts geopolitical contracts, sought to draw a distinction, stating that Kalshi does not \"list markets directly tied to death\" and designs contract rules \"to prevent people from profiting from death.\" Mansour added that Kalshi would reimburse all fees from its Iran-related bets.\n\nThe episode marks the largest single geopolitical event to generate this level of prediction market activity, dwarfing previous spikes around elections and policy decisions. It also underscores the regulatory gray zone in which platforms like Polymarket operate. The Commodity Futures Trading Commission, which oversees certain prediction market contracts in the United States, has not yet publicly commented on the Iran-linked trading. Polymarket, which is incorporated offshore and restricts U.S. users from its platform, has similarly not addressed the suspicious account activity.\n\nFor prediction markets — long championed by economists as efficient aggregators of dispersed knowledge — the Iran betting surge presents an existential credibility test. If anonymous participants can exploit privileged military intelligence for profit, the platforms risk becoming less a tool for forecasting and more a venue for monetizing secrets about life-and-death decisions.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Polymarket",
-        "prediction markets",
-        "Iran",
-        "insider trading",
-        "Kalshi",
-        "geopolitics"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2259602005.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/01/polymarket-saw-529m-traded-on-bets-tied-to-bombing-of-iran/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-02T09:18:11.035Z"
     },
     {
       "id": "ps-1772443105688-r2d5",
@@ -281,28 +303,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/over-usd9-billion-flees-bitcoin-and-ether-etfs-in-four-months",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-02T07:33:31.757Z"
-    },
-    {
-      "id": "ps-1772435902449-wu3i",
-      "slug": "oil-prices-surge-most-in-four-years-as-strait-of-hormuz-cris",
-      "headline": "Oil Prices Surge Most in Four Years as Strait of Hormuz Crisis Escalates",
-      "subheadline": "U.S. and Israeli strikes on Iran effectively shut down the world's most critical oil chokepoint, roiling global energy markets",
-      "body": "Oil prices posted their largest single-day jump in four years on Saturday as the effective closure of the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's daily oil consumption flows — sent shockwaves through global energy markets. The spike came in the wake of U.S. and Israeli military strikes against Iran and continued exchanges of fire in the region.\n\nThe Strait of Hormuz, situated between Iran and Oman at the mouth of the Persian Gulf, is the most strategically significant chokepoint in global oil logistics. Approximately 20 million barrels per day typically transit the strait, carrying crude from Saudi Arabia, Iraq, the United Arab Emirates, Kuwait, and Qatar to markets in Asia, Europe, and beyond. Its effective closure — even temporarily — represents the kind of supply disruption scenario that energy analysts have long warned could trigger a dramatic repricing of crude.\n\nTraders moved swiftly to price in the escalating geopolitical risk, with the scale of the rally reflecting deep uncertainty about how long the disruption could last and whether the conflict might widen further. The crisis marks a significant escalation in tensions between Iran and the U.S.-Israel alliance, which have simmered for years but had not previously resulted in a sustained interruption to Hormuz shipping lanes.\n\nThe implications extend well beyond the oil market. A prolonged closure of the strait would ripple through global supply chains, driving up costs for refined fuels, petrochemicals, and liquefied natural gas — of which Qatar, a major exporter, also ships through the waterway. Central banks already navigating sticky inflation would face a fresh external price shock, complicating monetary policy decisions worldwide. Energy-importing nations in Asia, particularly China, Japan, South Korea, and India, stand among the most exposed.\n\nMarket participants are now closely watching for any diplomatic signals that could de-escalate the standoff, as well as potential responses from OPEC+ members with spare capacity outside the Gulf. The United States may also consider releases from its Strategic Petroleum Reserve to calm markets. For now, the crisis underscores the fragility of global energy infrastructure and the outsized role that a single maritime corridor continues to play in determining the price the world pays for oil.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran",
-        "energy markets",
-        "geopolitics",
-        "crude oil",
-        "Middle East"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1694194094284-83cde88cbc61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxPaWwlMjBQcmljZXMlMjBTdXJnZSUyME1vc3QlMjBGb3VyJTIwWWVhcnN8ZW58MHwwfHx8MTc3MjQwNzk4MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T07:18:22.449Z"
     },
     {
       "id": "ps-1772430504733-gtr6",
