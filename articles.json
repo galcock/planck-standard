@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-02T06:33:37.252Z",
+  "lastUpdated": "2026-03-02T06:48:34.007Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772433140394-q939",
+      "id": "ps-1772434036219-7fy5",
       "slug": "us-israel-strikes-on-iran-enter-second-day-as-casualties-mou",
       "headline": "US-Israel Strikes on Iran Enter Second Day as Casualties Mount",
-      "subheadline": "Three US service members killed, 153 reported dead in Iranian school strike, and regional violence spreads to UAE and Kuwait",
-      "body": "Military operations by the United States and Israel against Iran escalated into a second day, with mounting casualties on multiple sides and no indication that hostilities are nearing a pause.\n\nU.S. Central Command confirmed that three American service members have been killed in action and five others seriously wounded during ongoing operations. President Donald Trump, posting on Truth Social, warned that \"there will likely be more\" U.S. casualties as the campaign continues. The acknowledgment marks one of the most significant American combat losses in the Middle East in recent years and underscores the scale of the military engagement.\n\nThe human toll inside Iran has drawn immediate international scrutiny. Iranian officials reported that at least 153 people, including children, were killed when a reported strike hit a school on Saturday. Tehran has blamed both the United States and Israel for the attack. Centcom said it was investigating the reports, while the Israel Defense Forces stated they were \"not aware\" of any IDF operations in the area where the school was struck. The conflicting accounts are likely to intensify diplomatic pressure and raise urgent questions about targeting and civilian protection.\n\nThe violence has also spread beyond Iranian and Israeli borders. In Israel, nine people were killed after a missile strike hit the city of Beit Shemesh, located roughly 30 kilometers west of Jerusalem, according to medical services. The United Arab Emirates reported three fatalities from Iranian attacks since Saturday, while Kuwait confirmed one person killed — signaling that the conflict is pulling neighboring Gulf states into its orbit in ways not seen in previous rounds of escalation.\n\nThe broader strategic picture remains volatile. BBC reporting from Jerusalem indicated that Trump appears to be pursuing regime change in Iran, with the president declaring that \"major combat operations\" have begun. Smoke was observed rising over Tehran, suggesting continued strikes on the Iranian capital. The simultaneity of attacks across multiple countries and the rising civilian death toll point to a regional conflict that has rapidly expanded beyond the initial theaters of engagement, with no diplomatic off-ramp currently visible.",
+      "subheadline": "Three US service members killed, over 150 reported dead in Iran as retaliatory exchanges escalate across the Middle East",
+      "body": "Military operations by the United States and Israel against Iran have entered a second day, with mounting casualties on multiple sides and no immediate sign of de-escalation, according to statements from military officials and regional governments.\n\nUS Central Command confirmed that three American service members have been killed in action and five others seriously wounded during ongoing operations. President Donald Trump, posting on Truth Social, warned that \"there will likely be more\" US casualties as the campaign continues. The acknowledgment of American combat deaths marks a significant escalation in what Trump has described as \"major combat operations\" against Iran.\n\nThe human toll is spreading across the region. In Israel, nine people were killed after a missile strike hit the city of Beit Shemesh, according to Israeli medical services — evidence that Iran's retaliatory capacity remains potent despite the sustained aerial campaign. Iranian officials reported at least 153 people killed, including children, after what they described as a strike on a school on Saturday. Tehran has attributed the attack to the US and Israel, though Centcom said it was investigating the reports, and Israel's military stated it was \"not aware\" of any IDF operations in the area. The United Arab Emirates reported three fatalities from Iranian attacks since Saturday, while Kuwait confirmed one person killed.\n\nThe exchange of fire represents the most significant direct military confrontation between the US-Israel axis and Iran in decades, transforming what had been a shadow conflict into open warfare. Smoke was seen rising over Tehran as operations continued, with Trump reportedly seeking regime change in the Islamic Republic. The strikes come amid weeks of anti-government protests inside Iran, where an Iranian security official has acknowledged that approximately 2,000 people have been killed in a domestic crackdown — a crisis that the Trump administration has cited as justification for considering \"very strong options,\" including military intervention.\n\nThe widening geographic scope of the conflict — with impacts felt from Tehran to Beit Shemesh to the Gulf states — raises urgent questions about whether the hostilities can be contained. With casualties accumulating on all sides and rhetoric from Washington suggesting sustained operations ahead, diplomatic channels appear strained at best. The situation remains highly fluid, with regional governments bracing for further escalation.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -17,12 +17,117 @@
         "Middle East conflict",
         "Donald Trump",
         "regime change",
-        "civilian casualties"
+        "Centcom"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/fc3f/live/f6ca7c60-15c2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cvgk8vj56v1o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-02T06:32:20.395Z"
+      "publishedAt": "2026-03-02T06:47:16.219Z"
+    },
+    {
+      "id": "ps-1772434051786-rfg4",
+      "slug": "unified-analytical-solution-derived-for-photoacoustic-wave-s",
+      "headline": "Unified Analytical Solution Derived for Photoacoustic Wave Sources",
+      "subheadline": "Researchers present a general mathematical framework for modeling spherically symmetric photoacoustic signals, with open-source simulation code",
+      "body": "A team of researchers has derived a comprehensive analytical solution for the acoustic pressure waves generated by spherically symmetric photoacoustic sources — a result that could streamline the design and analysis of photoacoustic imaging systems used in biomedical diagnostics and materials science.\n\nThe work, posted to the arXiv preprint server by Shuang Li, Yibing Wang, Yu Zhang, and Changhui Li, starts from the fundamental photoacoustic wave equation and arrives at a unified expression valid for arbitrary spherically symmetric initial pressure distributions. The authors provide specific closed-form solutions for several commonly encountered cases: uniform spherical sources, Gaussian distributions, exponential distributions, and power-law distributions. Far-field approximations, which simplify calculations when the detector is far from the source, are also derived and discussed.\n\nPhotoacoustic imaging works by illuminating tissue or other materials with short laser pulses. The absorbed light energy causes rapid thermoelastic expansion, generating ultrasonic pressure waves that can be detected and reconstructed into images. The technique has gained significant traction in medical imaging because it combines the high contrast of optical absorption with the deep penetration and spatial resolution of ultrasound. However, accurately modeling the forward problem — predicting what acoustic signals a given source distribution will produce — has typically required computationally expensive numerical simulations, particularly for complex geometries.\n\nBy providing exact analytical expressions, the new framework eliminates the need for numerical solvers in the spherically symmetric case, enabling what the authors describe as \"ultrafast forward simulation.\" The team has made their implementation publicly available through a GitHub repository, lowering the barrier for other researchers and engineers to incorporate the results into their own photoacoustic system design workflows. The paper is cross-listed in both optics and computer vision, reflecting the technique's relevance to image reconstruction algorithms.\n\nWhile the restriction to spherical symmetry limits direct applicability to more complex source geometries encountered in real-world imaging, spherically symmetric models serve as essential building blocks and benchmarks for validating numerical codes. The unified treatment across multiple distribution types also provides researchers with a convenient reference for selecting the most appropriate analytical model for a given experimental scenario.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "photoacoustics",
+        "analytical solutions",
+        "wave equations",
+        "biomedical imaging",
+        "optics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1617994534208-4a123b8907a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8VW5pZmllZCUyMEFuYWx5dGljYWwlMjBTb2x1dGlvbiUyMERlcml2ZWQlMjBQaG90b2Fjb3VzdGljJTIwV2F2ZSUyMFNvdXJjZXN8ZW58MHwwfHx8MTc3MjQzNDA1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2602.23375",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-02T06:47:31.786Z"
+    },
+    {
+      "id": "ps-1772434066202-3e8q",
+      "slug": "rice-university-s-ai-powered-brain-atlas-reframes-alzheimer-",
+      "headline": "Rice University's AI-Powered Brain Atlas Reframes Alzheimer's as Metabolic Disease",
+      "subheadline": "First dye-free molecular map of an Alzheimer's brain reveals sweeping chemical disruptions far beyond amyloid plaques",
+      "body": "Researchers at Rice University have constructed the first comprehensive, dye-free molecular atlas of an Alzheimer's-affected brain, combining advanced laser imaging with machine learning to reveal that the disease involves widespread metabolic disruption rather than merely the protein buildup that has long dominated scientific understanding.\n\nThe study, published in ACS Applied Materials and Interfaces, employed hyperspectral Raman imaging — a technique that fires a laser at tissue to detect the unique chemical fingerprints of individual molecules — repeated thousands of times across entire brain slices from both healthy and Alzheimer's-affected animal models. Because the method requires no dyes, fluorescent proteins, or molecular tags, the team captured what they describe as a complete, unaltered portrait of brain chemistry. \"This makes the approach more unbiased and better suited for discovering new disease-related changes that might otherwise be missed,\" said Ziyang Wang, a doctoral student in electrical and computer engineering at Rice and first author on the study.\n\nThe massive datasets generated by the imaging were then processed through both unsupervised and supervised machine learning algorithms. Unsupervised models identified natural chemical patterns without prior assumptions, while supervised models were trained to distinguish Alzheimer's tissue from healthy samples. The results showed that Alzheimer's-related chemical changes are distributed unevenly across the brain, with some regions showing dramatic molecular shifts while others remain relatively spared. Critically, these alterations were not confined to areas with amyloid plaques — the sticky protein deposits that have been the primary target of most Alzheimer's drug development for decades.\n\nAmong the most striking findings were significant variations in cholesterol and glycogen levels, particularly in the hippocampus and cortex — regions central to memory formation and retrieval. Cholesterol plays a key structural role in brain cell membranes, while glycogen serves as a local energy reserve. \"Together, these findings support the idea that Alzheimer's involves broader disruptions in brain structure and energy balance, not only protein buildup and misfolding,\" said Shengxi Huang, associate professor of electrical and computer engineering and the study's corresponding author. Alzheimer's disease kills more Americans annually than breast cancer and prostate cancer combined, yet treatments targeting amyloid plaques alone have shown limited clinical success — a persistent frustration that this research may help explain.\n\nThe work adds to a growing body of evidence suggesting that the field's historical focus on amyloid may have been too narrow. By providing a granular, region-by-region chemical map of how the disease reshapes brain metabolism, the Rice team hopes to open new avenues for earlier diagnosis and more effective interventions that address the disease's full molecular complexity. The research was supported by the National Science Foundation, the National Institutes of Health, and the Welch Foundation.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "machine learning",
+        "brain imaging",
+        "Rice University",
+        "neuroscience",
+        "metabolic disruption"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-02T06:47:46.202Z"
+    },
+    {
+      "id": "ps-1772434080653-99fu",
+      "slug": "openai-defends-pentagon-deal-as-altman-admits-it-was-rushed-",
+      "headline": "OpenAI Defends Pentagon Deal as Altman Admits It Was 'Rushed'",
+      "subheadline": "The AI company published safeguard details after replacing Anthropic as the Defense Department's AI partner, sparking debate over surveillance risks",
+      "body": "OpenAI moved quickly to justify its newly struck agreement with the Pentagon this weekend, publishing a detailed blog post outlining safeguards after CEO Sam Altman conceded that the deal was \"definitely rushed\" and that \"the optics don't look good.\"\n\nThe agreement came together rapidly after negotiations between rival AI firm Anthropic and the Department of Defense collapsed on Friday. President Donald Trump subsequently directed federal agencies to stop using Anthropic's technology following a six-month transition period, and Secretary of Defense Pete Hegseth designated the company a supply-chain risk. OpenAI then announced it had reached its own deal to deploy models in classified environments — raising immediate questions about whether it had compromised on safety principles that Anthropic had refused to bend on.\n\nIn its blog post, OpenAI specified three prohibited use cases: mass domestic surveillance, autonomous weapon systems, and high-stakes automated decisions such as social credit systems. The company emphasized what it called a \"multi-layered approach\" to safeguards, including full discretion over its safety stack, cloud-only deployment, cleared OpenAI personnel in the loop, and contractual protections. \"This is all in addition to the strong existing protections in U.S. law,\" the post stated, adding pointedly that it did not know why Anthropic \"could not reach this deal.\"\n\nCritics were not persuaded. Techdirt's Mike Masnick argued that the agreement's reference to compliance with Executive Order 12333 — the legal framework governing intelligence collection — effectively permits domestic surveillance, since the NSA has historically used the order to capture communications of U.S. persons by tapping lines outside the country. OpenAI's head of national security partnerships, Katrina Mulligan, pushed back on LinkedIn, arguing that deployment architecture matters more than contract language and that limiting deployment to cloud APIs prevents models from being integrated into weapons systems or operational hardware.\n\nThe backlash has already carried a measurable cost. Anthropic's Claude chatbot overtook ChatGPT in Apple's App Store rankings on Saturday, suggesting a consumer revolt. Altman framed the decision as a calculated gamble on X, saying OpenAI \"really wanted to de-escalate things\" between the Defense Department and the broader AI industry. \"If we are right and this does lead to a de-escalation, we will look like geniuses,\" he wrote. \"If not, we will continue to be characterized as rushed and uncareful.\" The episode underscores the fraught position AI companies now occupy as the federal government moves aggressively to consolidate its preferred technology partners — and punish those who resist.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "OpenAI",
+        "Pentagon",
+        "Anthropic",
+        "AI safety",
+        "defense",
+        "Sam Altman",
+        "surveillance"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-02T06:48:00.653Z"
+    },
+    {
+      "id": "ps-1772434098085-5r3c",
+      "slug": "oil-prices-surge-most-in-four-years-as-strait-of-hormuz-cris",
+      "headline": "Oil Prices Surge Most in Four Years as Strait of Hormuz Crisis Escalates",
+      "subheadline": "U.S. and Israeli strikes on Iran effectively shut down the world's most critical oil chokepoint, roiling global energy markets",
+      "body": "Crude oil prices spiked by their largest margin in four years on Saturday as the effective closure of the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's daily oil supply flows — sent shockwaves through global energy markets. The disruption followed a series of U.S. and Israeli military strikes against Iran that triggered an escalating cycle of hostilities in the region.\n\nThe Strait of Hormuz, which separates Iran from the Arabian Peninsula, is the single most important chokepoint in global petroleum logistics. Approximately 20 million barrels of oil per day transit the strait under normal conditions, supplying markets in Asia, Europe, and beyond. Its effective closure — whether through direct military blockade, mines, or the withdrawal of tanker traffic due to insurance and safety concerns — represents the scenario long dreaded by energy analysts and national security planners alike.\n\nTraders moved swiftly to price in the supply disruption as exchanges of fire between Iranian forces and the U.S.-Israeli coalition continued. While the full duration and severity of the shipping halt remained uncertain, market participants appeared to be positioning for a sustained period of elevated risk. The magnitude of the price move — the steepest single jump since early 2022 — reflected both the immediate physical supply threat and deeper fears about a broader regional conflict that could draw in Gulf Arab oil producers.\n\nThe crisis poses acute challenges for global economic policymakers already navigating persistent inflation concerns and fragile growth. A prolonged disruption to Hormuz traffic would tighten crude and refined product markets dramatically, with nations heavily dependent on Middle Eastern imports — particularly in Asia — facing the most direct exposure. Strategic petroleum reserves in the United States, Japan, South Korea, and International Energy Agency member states could be called upon if the closure extends beyond days into weeks.\n\nEnergy analysts cautioned that the situation remains highly fluid, with diplomatic channels reportedly still active despite the military escalation. The coming days will be critical in determining whether shipping can resume under any form of security guarantee, or whether the world faces its most severe oil supply crisis since the 1970s Arab embargo.",
+      "category": "markets",
+      "importance": 10,
+      "tags": [
+        "oil prices",
+        "Strait of Hormuz",
+        "Iran",
+        "energy markets",
+        "Middle East conflict",
+        "crude oil",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1695060601967-7fb135446f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxPaWwlMjBQcmljZXMlMjBTdXJnZSUyME1vc3QlMjBGb3VyJTIwWWVhcnN8ZW58MHwwfHx8MTc3MjQwNzk4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-02T06:48:18.085Z"
+    },
+    {
+      "id": "ps-1772434113921-xw79",
+      "slug": "bitcoin-and-ether-etfs-hemorrhage-9-billion-in-historic-four",
+      "headline": "Bitcoin and Ether ETFs Hemorrhage $9 Billion in Historic Four-Month Exodus",
+      "subheadline": "Longest monthly outflow streak since spot ETFs launched in 2024 signals institutional retreat from digital assets",
+      "body": "U.S.-listed spot bitcoin and ether exchange-traded funds have shed more than $9 billion in combined assets over four consecutive months, marking the longest sustained period of redemptions since the landmark products debuted in January 2024.\n\nBitcoin ETFs alone have suffered $6.39 billion in net outflows across the streak, while ether ETFs have lost $2.76 billion over the same window, according to data from SoSoValue. The withdrawals represent a dramatic reversal from the euphoric inflows that characterized much of 2024 and early 2025, when institutional investors poured capital into the newly approved funds — particularly in the months following Donald Trump's pro-crypto election victory in November 2024.\n\nThe fund outflows mirror punishing declines in the underlying assets. Bitcoin, which peaked above $126,000 in early October 2025, has nearly halved to approximately $67,000. Ether has fared worse, plunging more than 60 percent from its August 2025 highs above $4,950 to trade near $1,950. The selloff was reportedly triggered by an early October crash linked to pricing inefficiencies on offshore exchange Binance, and momentum has continued to deteriorate amid broader macroeconomic headwinds, including a recent spike in oil prices tied to U.S.-Iran military tensions.\n\nSpot ETFs had been widely regarded as the clearest barometer of institutional engagement with crypto markets since their approval. Their sustained bleeding now suggests that the appetite that fueled the 2024-2025 bull run has largely evaporated. While recent trading sessions have produced sporadic inflows, analysts caution that isolated buying days are insufficient to reverse the broader trend. A sustained period of net inflows would be necessary to establish a floor under prices and signal renewed institutional conviction.\n\nThe retreat from crypto ETFs comes at a particularly fraught moment for risk assets globally. Oil prices have surged roughly 6 percent amid the escalating U.S.-Iran conflict, stoking inflation fears that could delay anticipated Federal Reserve rate cuts. Asian equities dropped 1.4 percent at Monday's open, and bitcoin slipped further to around $66,700 as traditional markets digested the weekend's geopolitical developments. Despite the institutional pullback from ETFs, some observers note that major traditional finance firms continue to explore digital asset strategies — suggesting the sector's long-term trajectory may diverge sharply from its current cyclical downturn.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin ETF",
+        "ethereum ETF",
+        "institutional investors",
+        "crypto outflows",
+        "digital assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/113d58c52252687aeefe422ee7f400387865a80d-6048x3402.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/over-usd9-billion-flees-bitcoin-and-ether-etfs-in-four-months",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-02T06:48:33.921Z"
     },
     {
       "id": "ps-1772433156064-yat3",
@@ -46,27 +151,6 @@
       "publishedAt": "2026-03-02T06:32:36.065Z"
     },
     {
-      "id": "ps-1772433170603-yah6",
-      "slug": "rice-university-team-creates-first-dye-free-molecular-atlas-",
-      "headline": "Rice University Team Creates First Dye-Free Molecular Atlas of Alzheimer's Brain",
-      "subheadline": "Laser imaging and machine learning reveal widespread metabolic disruption far beyond amyloid plaques, challenging conventional views of the disease",
-      "body": "Scientists at Rice University have constructed the first comprehensive, label-free molecular map of an Alzheimer's-affected brain, revealing that the disease involves sweeping chemical disruptions that extend well beyond the amyloid plaques long considered its hallmark. The findings, published in ACS Applied Materials and Interfaces, suggest Alzheimer's may be better understood as a whole-brain metabolic disorder rather than primarily a protein accumulation problem.\n\nThe team, led by associate professor Shengxi Huang and doctoral student Ziyang Wang, used hyperspectral Raman imaging — a laser-based technique that detects the unique chemical signatures of molecules within tissue — to scan entire brain slices from both healthy and Alzheimer's-affected animal models. Unlike conventional imaging approaches, the method requires no dyes, fluorescent proteins, or molecular tags, allowing researchers to observe brain chemistry in its unaltered state. Each tissue slice required thousands of overlapping measurements to assemble a high-resolution molecular portrait.\n\nThe sheer volume of data generated by the imaging demanded computational muscle. The researchers deployed both unsupervised machine learning, which identified natural chemical patterns without prior assumptions, and supervised algorithms trained to distinguish diseased tissue from healthy samples. The analysis revealed that Alzheimer's-related chemical changes are distributed unevenly across the brain, with some regions showing pronounced alterations while others remain relatively spared. This asymmetry may help explain why symptoms emerge gradually and why therapies targeting a single mechanism — such as amyloid clearance — have delivered limited clinical results.\n\nAmong the most striking findings were significant shifts in cholesterol and glycogen levels, particularly in the hippocampus and cortex — regions critical to memory formation. Cholesterol plays a key structural role in brain cell membranes, while glycogen serves as a localized energy reserve. Their disruption in memory centers points to a breakdown in both cellular architecture and energy metabolism that accompanies the disease. \"These findings support the idea that Alzheimer's involves broader disruptions in brain structure and energy balance, not only protein buildup and misfolding,\" Huang said.\n\nThe research, funded by the National Science Foundation, the National Institutes of Health, and the Welch Foundation, adds to a growing body of evidence that Alzheimer's pathology is far more complex than the amyloid hypothesis alone can account for. Alzheimer's disease currently kills more Americans annually than breast cancer and prostate cancer combined. The Rice team hopes their molecular mapping approach could eventually support earlier diagnosis and inform treatment strategies that address the disease's metabolic dimensions rather than focusing narrowly on plaque removal.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "machine learning",
-        "brain imaging",
-        "Rice University",
-        "neuroscience",
-        "metabolic disruption"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/brain-fire-inflammation-dementia-alzheimers.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/02/260228093505.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-02T06:32:50.603Z"
-    },
-    {
       "id": "ps-1772433185998-ylx5",
       "slug": "polymarket-handled-529m-in-bets-on-iran-bombing-raising-insi",
       "headline": "Polymarket Handled $529M in Bets on Iran Bombing, Raising Insider Trading Fears",
@@ -86,90 +170,6 @@
       "sourceUrl": "https://techcrunch.com/2026/03/01/polymarket-saw-529m-traded-on-bets-tied-to-bombing-of-iran/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-03-02T06:33:05.998Z"
-    },
-    {
-      "id": "ps-1772433202790-gpbi",
-      "slug": "oil-prices-surge-most-in-four-years-as-strait-of-hormuz-cris",
-      "headline": "Oil Prices Surge Most in Four Years as Strait of Hormuz Crisis Escalates",
-      "subheadline": "Effective closure of critical waterway amid US-Israeli conflict with Iran sends shockwaves through global energy markets",
-      "body": "Crude oil prices spiked by their largest margin in four years on Saturday as the escalating crisis between the United States, Israel, and Iran effectively shut down shipping through the Strait of Hormuz, the world's most critical chokepoint for global oil flows.\n\nThe strait, a narrow passage between Iran and Oman through which roughly 20 percent of the world's daily oil consumption transits, has long been considered the single most consequential vulnerability in global energy infrastructure. Its effective closure — triggered by the widening US-Israeli military conflict with Tehran — immediately roiled commodity markets, though prices pared some of their initial gains as traders worked to assess the duration and severity of the disruption.\n\nThe magnitude of the price move underscores how rapidly geopolitical risk can reprice global energy. The last time oil posted a single-session gain of comparable scale was in early 2022, when Russia's invasion of Ukraine upended supply expectations across European and global markets. Analysts have long warned that any disruption to Hormuz transit would dwarf most other supply shocks in both scale and speed of impact, given that Saudi Arabia, Iraq, the United Arab Emirates, Kuwait, and Qatar all depend on the waterway to export hydrocarbons.\n\nThe immediate economic implications extend well beyond the crude market. Natural gas shipments, particularly liquefied natural gas cargoes from Qatar — one of the world's largest LNG exporters — also transit the strait, meaning European and Asian buyers could face simultaneous disruptions to both oil and gas supply. Shipping insurers and tanker operators were reportedly reassessing risk premiums across the Persian Gulf region as of Saturday, with some vessels already diverting to avoid the area.\n\nHow long the disruption persists will depend heavily on the trajectory of the military conflict and whether diplomatic channels can de-escalate tensions before physical damage to port infrastructure or sustained naval blockades make the closure semi-permanent. Energy strategists noted that even a brief interruption to Hormuz flows historically produces outsized volatility, as global spare capacity and strategic petroleum reserves offer only a limited buffer against the loss of such a concentrated supply corridor. Markets will be closely watching for responses from OPEC members and consuming nations alike when trading resumes next week.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran",
-        "energy markets",
-        "geopolitics",
-        "crude oil",
-        "OPEC"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655821145885-9db7f0f178f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8T2lsJTIwUHJpY2VzJTIwU3VyZ2UlMjBNb3N0JTIwRm91ciUyMFllYXJzfGVufDB8MHx8fDE3NzI0MDk3NzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T06:33:22.790Z"
-    },
-    {
-      "id": "ps-1772433217168-93u0",
-      "slug": "bitcoin-and-ether-etfs-hemorrhage-9-billion-in-historic-four",
-      "headline": "Bitcoin and Ether ETFs Hemorrhage $9 Billion in Historic Four-Month Exodus",
-      "subheadline": "The longest sustained outflow streak since spot crypto ETFs launched in 2024 signals a dramatic reversal in institutional sentiment",
-      "body": "Spot bitcoin and ether exchange-traded funds listed in the United States have shed more than $9 billion in combined assets over the past four months, marking the longest consecutive monthly outflow streak since the landmark products debuted in January 2024.\n\nBitcoin ETFs accounted for the bulk of the withdrawals, with $6.39 billion in net redemptions across four straight months of losses, according to data from SoSoValue. Ether ETFs, which launched later in 2024, have bled $2.76 billion over the same period. The sustained capital flight represents a stark reversal from the euphoric inflows that characterized much of 2024 and early 2025, when institutional investors flooded into the newly approved products and helped propel both cryptocurrencies to record highs.\n\nThe damage to token prices has been severe. Bitcoin, which surged past $126,000 in early October 2025, has nearly halved to roughly $67,000. Ether has fared even worse, plunging more than 60 percent from its August 2025 peak above $4,950 to trade near $1,950. The October crash, which analysts have attributed in part to pricing inefficiencies on offshore exchange Binance, appears to have triggered a cascading loss of confidence among the institutional allocators who had driven the bull market.\n\nThe reversal is all the more notable given the political tailwinds that had buoyed digital assets. Billions poured into crypto ETFs in the months following Donald Trump's pro-crypto presidential victory in November 2024, with the products serving as the most visible channel for institutional participation. That demand evaporated after October's downturn, and the geopolitical landscape has since grown more hostile to risk assets. A deepening U.S.-Iran conflict has sent oil prices surging roughly 6 percent, stoking inflation fears that could delay Federal Reserve rate cuts and further pressure speculative investments.\n\nWhile recent trading sessions have produced sporadic inflows into both bitcoin and ether ETFs, analysts caution that isolated positive days do not constitute a trend reversal. A sustained period of net inflows would be needed to stabilize prices and signal renewed institutional conviction. For now, the record outflows underscore how quickly sentiment can shift in digital asset markets — even for products that were hailed as a transformative bridge between traditional finance and crypto just over a year ago.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin ETF",
-        "ethereum ETF",
-        "crypto outflows",
-        "institutional investors",
-        "digital assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/113d58c52252687aeefe422ee7f400387865a80d-6048x3402.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/over-usd9-billion-flees-bitcoin-and-ether-etfs-in-four-months",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-02T06:33:37.168Z"
-    },
-    {
-      "id": "ps-1772432258207-j3kf",
-      "slug": "unified-analytical-framework-derived-for-photoacoustic-wave-",
-      "headline": "Unified Analytical Framework Derived for Photoacoustic Wave Sources",
-      "subheadline": "Researchers present a general closed-form solution for spherically symmetric photoacoustic pressure signals, with open-source simulation code",
-      "body": "A team of researchers has derived a comprehensive analytical solution for the acoustic pressure waves generated by spherically symmetric photoacoustic sources, providing what they describe as a unified framework applicable to arbitrary initial pressure distributions. The work, posted to the arXiv preprint server, addresses a longstanding need for exact mathematical expressions in the rapidly growing field of photoacoustic imaging.\n\nPhotoacoustic imaging — a hybrid technique that combines laser excitation with ultrasound detection — has emerged as a powerful biomedical tool capable of producing high-contrast images of tissue structures and vasculature. When short laser pulses are absorbed by tissue, the resulting thermal expansion generates ultrasonic pressure waves that can be detected and reconstructed into images. Accurate modeling of these pressure signals is essential for system design and image reconstruction, yet most practical implementations have relied on numerical approximations or solutions limited to specific source geometries.\n\nThe new paper, authored by Shuang Li, Yibing Wang, Yu Zhang, and Changhui Li, starts from the fundamental photoacoustic wave equation and builds toward a general solution that encompasses multiple common source distributions. The researchers provide specific closed-form expressions for uniform spherical sources, Gaussian distributions, exponential distributions, and power-law distributions, along with far-field approximations relevant to practical detector configurations. By unifying these cases under a single analytical framework, the work offers physicists and engineers a more systematic toolkit for predicting and interpreting photoacoustic signals.\n\nNotably, the team has released open-source code on GitHub for what they call \"ultrafast forward simulation\" using the general analytical model. This could lower the barrier for other research groups seeking to validate imaging system designs or benchmark numerical solvers against exact solutions. Forward modeling speed is a persistent bottleneck in photoacoustic reconstruction algorithms, and having analytical benchmarks can significantly accelerate development cycles.\n\nWhile the work is theoretical in nature and limited to spherically symmetric geometries — a simplification that does not capture the full complexity of biological tissue — the expressions derived here serve as foundational reference solutions. The paper is classified under optics and computer vision, reflecting the interdisciplinary character of photoacoustic research, which sits at the intersection of physics, signal processing, and biomedical engineering.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "photoacoustics",
-        "analytical solutions",
-        "biomedical imaging",
-        "wave equations",
-        "optics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1770321113244-7b9f0c0c438a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxVbmlmaWVkJTIwQW5hbHl0aWNhbCUyMEZyYW1ld29yayUyMERlcml2ZWQlMjBQaG90b2Fjb3VzdGljJTIwV2F2ZSUyMFNvdXJjZXN8ZW58MHwwfHx8MTc3MjQzMjI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.23375",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-02T06:17:38.207Z"
-    },
-    {
-      "id": "ps-1772432288814-hdzk",
-      "slug": "openai-defends-pentagon-deal-as-altman-admits-it-was-rushed-",
-      "headline": "OpenAI Defends Pentagon Deal as Altman Admits It Was 'Rushed'",
-      "subheadline": "The AI company published detailed safeguard commitments after backlash drove users to rival Anthropic's app",
-      "body": "OpenAI is scrambling to justify its newly struck agreement with the Pentagon, publishing a detailed blog post outlining its safety commitments even as CEO Sam Altman conceded the deal was hastily assembled and that \"the optics don't look good.\"\n\nThe agreement came together rapidly after negotiations between rival Anthropic and the Department of Defense collapsed on Friday. President Donald Trump subsequently directed federal agencies to cease using Anthropic's technology following a six-month transition, and Defense Secretary Pete Hegseth designated the company a supply-chain risk. OpenAI moved quickly to fill the vacuum, announcing a deal to deploy its models in classified government environments — a move that immediately raised questions about whether the company was sacrificing its safety principles for market advantage.\n\nIn its blog post, OpenAI identified three explicit prohibited use cases: mass domestic surveillance, autonomous weapon systems, and high-stakes automated decision-making such as social credit systems. The company emphasized what it called a \"multi-layered approach\" to enforcement, noting that it retains full control over its safety infrastructure, deploys only via cloud, keeps cleared OpenAI personnel in the loop, and has secured contractual protections. Katrina Mulligan, OpenAI's head of national security partnerships, argued on LinkedIn that deployment architecture matters more than contract language alone, noting that cloud API-only deployment prevents models from being integrated directly into weapons systems or operational hardware.\n\nCritics were not persuaded. Techdirt's Mike Masnick flagged that the agreement's compliance framework references Executive Order 12333, which he described as a mechanism the NSA has used to conduct de facto domestic surveillance by intercepting communications on lines outside the United States that nonetheless carry data from American citizens. The backlash carried commercial consequences: Anthropic's Claude chatbot overtook ChatGPT in Apple's App Store rankings on Saturday, a striking reversal driven by users apparently sympathetic to Anthropic's refusal to compromise on autonomous weapons and mass surveillance red lines.\n\nAltman framed the decision as a calculated gamble aimed at de-escalation between the defense establishment and the broader AI industry. \"If we are right and this does lead to a de-escalation between the DoW and the industry, we will look like geniuses,\" he wrote on X. \"If not, we will continue to be characterized as rushed and uncareful.\" OpenAI noted it does not know why Anthropic failed to reach a similar arrangement, and said it hopes other labs will consider comparable deals. The episode underscores the growing tension between Washington's appetite for AI capabilities and the technology sector's uneven commitments to safety guardrails — a fault line likely to define the industry's relationship with government for years to come.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "OpenAI",
-        "Pentagon",
-        "Anthropic",
-        "AI safety",
-        "defense",
-        "Sam Altman",
-        "government contracts"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2170386424.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/01/openai-shares-more-details-about-its-agreement-with-the-pentagon/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-02T06:18:08.814Z"
     },
     {
       "id": "ps-1772430504733-gtr6",
