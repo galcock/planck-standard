@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T22:03:17.229Z",
+  "lastUpdated": "2026-03-03T22:18:14.404Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772575322679-k9gt",
-      "slug": "iran-holds-mass-funerals-after-reported-us-israeli-strike-on",
-      "headline": "Iran Holds Mass Funerals After Reported US-Israeli Strike on School",
-      "subheadline": "Iranian officials say more than 160 killed at girls' school near military base; US denies deliberately targeting civilians",
-      "body": "Mass funerals were held in the southern Iranian city of Minab on Monday for students and staff killed in what Tehran says was a US-Israeli missile strike on a girls' school, with Iranian state television broadcasting images of child-sized coffins draped in national flags being carried through packed streets.\n\nIranian officials say more than 160 people died when three missiles struck the school on Saturday morning during the country's regular working week, which runs Saturday through Thursday. The school was located approximately 600 meters from an Islamic Revolutionary Guard Corps base, amid a broader wave of US and Israeli strikes targeting Iran's military infrastructure and leadership. BBC News has not been able to independently verify the death toll, and international news organizations are routinely denied visas to report from inside Iran, severely constraining independent verification efforts.\n\nIran's President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page\" in what he characterized as a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted images on social media showing graves being prepared for 160 victims, adding pointedly: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The diplomatic rhetoric signals Tehran's intent to leverage the incident in the broader information war surrounding the escalating conflict.\n\nWashington has stopped short of confirming or denying responsibility for the specific strike. When pressed by the BBC on whether an American missile hit the school, Secretary of State Marco Rubio said the US \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure,\" while acknowledging he did not have details on what occurred. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, adding that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the area.\n\nThe incident has intensified international scrutiny of the US-Israeli military campaign against Iran, with verified footage showing smoke rising from a damaged building as crowds gathered in apparent panic. The strike's proximity to an IRGC installation raises questions about whether the school was collateral damage from a military target or a case of misidentification — questions that remain unanswered as both sides trade accusations amid a conflict that has sent energy prices surging and triggered evacuations of US citizens from the region.",
+      "id": "ps-1772576219948-s76c",
+      "slug": "iran-holds-mass-funerals-after-school-strike-kills-over-160",
+      "headline": "Iran Holds Mass Funerals After School Strike Kills Over 160",
+      "subheadline": "Coffins of schoolgirls carried through Minab as US says it would not deliberately target civilian sites",
+      "body": "Mass funerals were held in the southern Iranian city of Minab on Monday for more than 160 people — many of them students and staff — killed when a girls' school was struck during the coordinated US-Israeli military campaign against Iran over the weekend.\n\nIranian state television broadcast footage of hundreds of mourners filling the streets as flag-draped coffins, some child-sized, were carried through the crowds. Iranian officials said three missiles hit the school on Saturday morning, a regular working day in Iran where the school week runs Saturday through Thursday. The school was situated approximately 600 meters from an Islamic Revolutionary Guard Corps base, a proximity that may prove central to any investigation into how the site came to be struck.\n\nThe incident has become a flashpoint in the rapidly escalating conflict. Iranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page\" in what he called a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted images of graves being prepared for the 160 dead, directing his criticism at the Trump administration: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nWhen pressed by the BBC on Monday, US Secretary of State Marco Rubio said Washington would not deliberately target a school. \"We would have no interest, and frankly, no incentive to target civilian infrastructure,\" Rubio stated, while acknowledging he did not have full details about the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, adding that \"the protection of civilians is of utmost importance.\" Israel's military said separately that it was \"not aware\" of any operations in the area around Minab.\n\nThe BBC has verified footage showing smoke rising from a damaged building as crowds gathered nearby in apparent panic, though the network noted it has been unable to independently confirm the Iranian death toll. International news organizations are routinely denied visas to operate inside Iran, severely limiting independent reporting. The strike on the school occurred as part of widespread US and Israeli operations targeting Iranian military installations and leadership — a campaign that has sent global oil and gas prices surging and rattled financial markets amid fears of a broader regional war.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -20,7 +20,113 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T22:02:02.679Z"
+      "publishedAt": "2026-03-03T22:16:59.948Z"
+    },
+    {
+      "id": "ps-1772576234792-y2p9",
+      "slug": "rnns-outperform-transformers-for-predicting-composite-materi",
+      "headline": "RNNs Outperform Transformers for Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks generalize better on small datasets, while transformers offer a 7x speed advantage",
+      "body": "Recurrent neural networks hold a significant edge over transformer models when it comes to predicting the mechanical behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf and posted to the arXiv preprint server, pitted the two dominant deep learning architectures against each other on a task central to advanced manufacturing: modeling the path-dependent stress-strain response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, are notoriously expensive to simulate using traditional full-field computational methods. Data-driven surrogate models have emerged as a promising alternative, but the question of which neural network architecture best serves this role had not been rigorously addressed.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized responses from representative volume elements of SFRCs. Hyperparameters for both architectures — including learning rate, batch size, number of layers, and attention heads — were tuned using Bayesian optimization to ensure a fair comparison. The team then evaluated performance across varying dataset sizes and in both interpolation and extrapolation regimes, where models must predict behavior outside the range of their training data.\n\nThe results revealed a nuanced picture. Transformer models proved competitive on large datasets for interpolation tasks and delivered inference speeds roughly seven times faster than their RNN counterparts — 0.5 milliseconds per prediction versus 3.5 milliseconds. However, RNNs demonstrated superior accuracy on smaller datasets and, critically, maintained their predictive power under extrapolation conditions where transformers faltered significantly. This extrapolation gap is particularly consequential for engineering applications, where materials may be subjected to loading conditions not fully represented in training data.\n\nThe findings carry practical implications for the growing field of machine learning-accelerated materials modeling. While transformers have revolutionized natural language processing and increasingly dominate other AI domains, their well-known appetite for large training datasets and tendency to struggle with out-of-distribution generalization appear to limit their utility in computational materials science — at least for now. For engineers seeking reliable surrogate models that can generalize beyond known conditions with limited simulation data, RNNs remain the more robust choice, even if they sacrifice some computational speed.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "neural-networks",
+        "transformers",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1669124806301-6dfcfcd9cca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T22:17:14.792Z"
+    },
+    {
+      "id": "ps-1772576252668-tldl",
+      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
+      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering the case for interplanetary life transfer",
+      "body": "A notoriously resilient microbe has passed what may be the most punishing survival test yet devised for a living organism — enduring pressures equivalent to being launched off the surface of Mars by a massive asteroid strike. The findings, published March 3 in PNAS Nexus, add significant experimental weight to the hypothesis that microbial life could travel between planets aboard impact debris.\n\nResearchers led by Lily Zhao and K. T. Ramesh subjected the extremophile bacterium Deinococcus radiodurans to pressures of up to 3 gigapascals — roughly 30,000 times Earth's atmospheric pressure — by sandwiching the cells between two steel plates and slamming them with a third. The setup was designed to replicate the shock conditions a microorganism near a planetary surface would experience during a large asteroid impact, the kind of event that could eject rock fragments into space. At 2.4 GPa, bacterial cell membranes began to rupture, yet a remarkable 60 percent of the microbes survived even those extreme forces.\n\nD. radiodurans, sometimes nicknamed \"Conan the Bacterium,\" was already known to tolerate radiation doses 28,000 times the lethal threshold for humans, as well as prolonged desiccation and cold — conditions it would also face during an interplanetary journey. The new study adds mechanical shock resistance to that formidable résumé. By analyzing gene expression profiles at varying pressures, the team found that surviving cells rapidly activated DNA repair and damage-response pathways, essentially triaging their own injuries in the immediate aftermath of the simulated impact.\n\nThe structural architecture of the bacterium's cell envelope appears central to its resilience. Its multilayered membrane acts as a kind of biological shock absorber, distributing mechanical stress and preventing catastrophic collapse even under gigapascal-scale compression. The researchers noted that this mechanism could protect organisms lodged inside rock fractures during a real ejection event, where surrounding mineral material would provide additional shielding.\n\nThe implications reach well beyond microbiology. Mars is scarred by thousands of impact craters, and scientists have long known that Martian meteorites can reach Earth — more than 300 have been identified in terrestrial collections. If microbes as tough as D. radiodurans ever existed on Mars, the new results suggest they could have survived the violent first leg of an interplanetary voyage. The study does not prove that life has traveled between planets, but it narrows one of the key objections: that no organism could withstand the launch. As the authors conclude, microorganisms appear capable of surviving far more extreme conditions than previously assumed, keeping the door open for what scientists call lithopanspermia — life hitchhiking on rocks through space.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "astrobiology",
+        "panspermia",
+        "Deinococcus radiodurans",
+        "Mars",
+        "extremophiles",
+        "asteroid impact"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T22:17:32.668Z"
+    },
+    {
+      "id": "ps-1772576265422-1xa4",
+      "slug": "anduril-seeks-60-billion-valuation-in-latest-funding-round",
+      "headline": "Anduril Seeks $60 Billion Valuation in Latest Funding Round",
+      "subheadline": "Palmer Luckey's defense-tech firm could raise up to $8 billion, doubling its valuation in under a year",
+      "body": "Anduril Industries is pursuing a new funding round that would value the defense-technology company at $60 billion, according to reporting from The Wall Street Journal — a dramatic leap from the $30 billion valuation it secured just nine months ago.\n\nThe round, led by Thrive Capital and Andreessen Horowitz with participation from Lux Capital and Founders Fund, could bring as much as $8 billion in fresh capital into the company founded by Palmer Luckey. If completed at the reported terms, it would mark one of the largest private funding rounds in the defense-technology sector and cement Anduril's position as the most highly valued startup in the space. The company closed its Series G in June 2025 with $2.5 billion raised.\n\nThe fundraise arrives against a turbulent backdrop for companies operating at the intersection of technology and national defense. A contract dispute between AI company Anthropic and the Pentagon has escalated sharply, with Secretary of Defense Pete Hegseth threatening to designate Anthropic as a supply-chain risk and the U.S. government moving to cancel all its contracts with the firm. Luckey has publicly sided with the government's position, writing on X that \"you have to believe that our imperfect constitutional republic is still good enough to run a country without outsourcing the real levers of power to billionaires and corpos and their shadow advisors.\"\n\nAnduril, which builds autonomous defense systems including drones, surveillance towers, and underwater vehicles, has benefited from a broader shift in Pentagon procurement toward Silicon Valley firms willing to align closely with government priorities. The company's willingness to embrace military contracts without reservation — in contrast to some AI peers that have imposed ethical guardrails on defense work — has positioned it as a favored partner at a moment when the Defense Department is increasingly scrutinizing the ideological commitments of its technology suppliers.\n\nThe potential doubling of Anduril's valuation in less than a year underscores surging investor appetite for defense technology amid heightened geopolitical tensions and rising military budgets across Western nations. Should the round close at its reported size, Anduril would rank among the most valuable private companies in the United States.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Anduril",
+        "defense tech",
+        "venture capital",
+        "Palmer Luckey",
+        "Andreessen Horowitz",
+        "Thrive Capital",
+        "fundraising"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2152503873.jpg?resize=1200,685",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T22:17:45.422Z"
+    },
+    {
+      "id": "ps-1772576280400-ifl7",
+      "slug": "oil-surges-most-in-four-years-as-iran-conflict-rattles-marke",
+      "headline": "Oil Surges Most in Four Years as Iran Conflict Rattles Markets",
+      "subheadline": "Strait of Hormuz disruptions and Saudi refinery shutdown fuel inflation fears as Trump warns of weeks-long strikes",
+      "body": "Crude oil prices posted their largest single-day surge in four years on Monday as the escalating military conflict between the United States and Iran sent shockwaves through global energy markets. Tanker traffic through the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's oil supply passes daily — has ground to a halt, while a major Saudi Arabian refinery has ceased operations amid the turmoil.\n\nPresident Donald Trump warned that American strikes on Iran could continue for weeks, while urging Tehran to stand down. The remarks, far from calming investors, amplified fears of a prolonged disruption to global energy supply chains. The Strait of Hormuz bottleneck represents one of the most consequential chokepoints in global commerce, and any sustained interruption has historically triggered sharp repricing across commodity and equity markets alike.\n\nThe energy shock is compounding pressure on markets already contending with persistent uncertainty. Inflation fears, which had begun to ease in recent months, roared back as traders recalculated the likely trajectory of consumer prices in a world of constrained oil supply. Higher energy costs ripple quickly through transportation, manufacturing, and food production, threatening to undo months of progress on price stability and complicating the Federal Reserve's path on interest rates.\n\nAt Bloomberg's Invest conference in New York, panelists reacted to the rapidly evolving situation with a mixture of caution and concern. The conflict introduces a geopolitical risk premium that had largely been absent from energy markets, and investors are now scrambling to assess how long the disruption will persist and whether diplomatic off-ramps remain viable. Safe-haven assets are likely to see renewed demand as portfolio managers hedge against a scenario that could deteriorate further.\n\nThe stakes extend well beyond oil trading desks. A sustained conflict that keeps Hormuz traffic stalled would test the resilience of global supply chains still recovering from pandemic-era disruptions, potentially tipping energy-importing economies toward recession while handing windfall revenues to producers outside the conflict zone. For now, markets are pricing in uncertainty — and bracing for more.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Iran conflict",
+        "Strait of Hormuz",
+        "inflation",
+        "geopolitics",
+        "energy markets"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1689450271446-f011cc7f994a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzI1NDU2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/how-the-investing-world-is-reacting-to-iran-war-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T22:18:00.400Z"
+    },
+    {
+      "id": "ps-1772576294300-dmx7",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges AML rules for issuers",
+      "body": "The Financial Action Task Force, the world's most influential anti-money laundering body, issued a stark warning on Tuesday that stablecoins have become the primary instrument for illicit cryptocurrency transactions, citing their use by sanctioned actors in Iran and North Korea for proliferation financing and cross-border payments.\n\nIn a 42-page report, FATF said dollar-pegged digital tokens now account for the overwhelming majority of illegal crypto activity, pointing to data from blockchain analytics firm Chainalysis showing stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis from TRM Labs, published in mid-February, estimated that illicit entities received $141 billion in stablecoins last year — the highest figure in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone.\n\nThe report singled out peer-to-peer transfers conducted through unhosted wallets — crypto wallets not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely. With the total stablecoin market now exceeding $300 billion and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF argued the compliance gap is widening as adoption accelerates.\n\nFATF stopped short of recommending blanket blacklisting of stablecoin platforms but called on member countries to impose anti-money laundering obligations directly on stablecoin issuers. Among the specific measures proposed are mandatory wallet-freezing capabilities, restrictions on certain smart-contract functions, and enhanced scrutiny of cross-border stablecoin flows. Sanctions-related activity accounted for 86% of all illicit crypto flows last year, according to the TRM Labs data cited in the report, underscoring how deeply intertwined stablecoins have become with geopolitical risk.\n\nThe FATF report lands amid an intensifying debate in Washington over stablecoin regulation. On the same day the report was published, JPMorgan Chase CEO Jamie Dimon argued that stablecoin issuers paying interest on customer balances should face the same capital, liquidity, and deposit insurance requirements as banks. Lawmakers are currently weighing the CLARITY Act, which would establish a federal framework for stablecoin oversight. FATF's findings add international urgency to those domestic deliberations, signaling that regulators worldwide view the rapid growth of dollar-pegged tokens as both a financial stability concern and a national security risk.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "AML"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T22:18:14.300Z"
     },
     {
       "id": "ps-1772575338370-qw7o",
@@ -44,49 +150,6 @@
       "publishedAt": "2026-03-03T22:02:18.370Z"
     },
     {
-      "id": "ps-1772575354761-eugi",
-      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab-tes",
-      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab Test",
-      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia hypothesis",
-      "body": "A notoriously resilient microbe has survived simulated asteroid-impact conditions intense enough to blast rock off the surface of Mars, according to new research published in PNAS Nexus — a finding that lends fresh credibility to the idea that life could travel between planets aboard ejected debris.\n\nResearchers led by Lily Zhao and K. T. Ramesh subjected the extremophile bacterium Deinococcus radiodurans to pressures reaching 3 gigapascals — roughly 30,000 times the atmospheric pressure at sea level — by sandwiching the cells between steel plates and slamming them with a third plate. The setup was designed to replicate the violent shock waves generated when a large asteroid strikes a planetary surface, launching chunks of rock into space. Remarkably, 60 percent of microbes survived exposure to pressures up to 2.4 GPa, the threshold at which cell membranes began to rupture. Gene expression analysis revealed that surviving bacteria immediately activated damage-repair pathways, essentially triaging their own cellular injuries in the aftermath of the simulated impact.\n\nDeinococcus radiodurans, sometimes nicknamed \"Conan the Bacterium,\" has long fascinated astrobiologists. Previous studies have shown it can withstand radiation doses thousands of times greater than what would kill a human, as well as extreme desiccation and cold — conditions it would encounter during an interplanetary journey through the vacuum of space. The new work addresses a critical gap in that survival narrative: whether any organism could endure the initial violence of being launched off a planet in the first place.\n\nThe findings bear directly on the panspermia hypothesis, which holds that microbial life could seed multiple worlds by hitching rides inside impact-ejected rocks. Mars meteorites have been found on Earth — more than 300 to date — proving that material regularly makes the interplanetary crossing. If microbes can survive both the launch shock and the subsequent transit through space, the theoretical pathway for life to move between planets is complete. The researchers concluded that microorganisms can tolerate more extreme conditions than previously assumed, including the forces associated with planetary ejection.\n\nWhile the experiment does not prove that life exists or ever existed on Mars, it removes one of the strongest physical objections to interplanetary biological transfer. For scientists searching for biosignatures on the Red Planet, the result is a reminder that the question of Martian life may be inseparable from the question of Earth life — and vice versa.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "astrobiology",
-        "panspermia",
-        "Deinococcus radiodurans",
-        "Mars",
-        "extremophiles",
-        "asteroid impact"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T22:02:34.761Z"
-    },
-    {
-      "id": "ps-1772575368045-bbvy",
-      "slug": "anduril-seeks-60-billion-valuation-in-new-mega-round",
-      "headline": "Anduril Seeks $60 Billion Valuation in New Mega-Round",
-      "subheadline": "Palmer Luckey's defense-tech firm could raise up to $8 billion, doubling its valuation in under a year",
-      "body": "Anduril Industries is pursuing a new funding round that would value the defense technology company at $60 billion, roughly double the $30 billion valuation it achieved less than a year ago in its Series G close, according to a Wall Street Journal report cited by TechCrunch.\n\nThe round, led by Thrive Capital and Andreessen Horowitz with expected participation from Lux Capital and Founders Fund, could bring in as much as $8 billion in fresh capital, Bloomberg previously reported. If completed at the reported terms, it would mark one of the largest private funding rounds in the defense-tech sector and cement Anduril's position as one of the most valuable private companies in the United States. The company's Series G, which closed in June 2025, raised $2.5 billion.\n\nThe fundraise arrives during a turbulent period for technology companies working with the U.S. Department of Defense. A contract dispute between AI firm Anthropic and the Pentagon has escalated into a broader confrontation, with Secretary of Defense Pete Hegseth threatening to designate Anthropic as a supply-chain risk and the government moving to cancel all its contracts with the company. Anduril founder Palmer Luckey has publicly backed the government's position, writing on X that the nation's \"imperfect constitutional republic is still good enough to run a country without outsourcing the real levers of power to billionaires and corpos and their shadow advisors.\"\n\nLuckey's vocal alignment with the Pentagon's stance could serve Anduril well as defense spending increasingly flows toward non-traditional contractors. The company, which builds autonomous systems, sensor platforms, and software for military applications, has positioned itself as a native defense firm rather than a commercial technology company dabbling in government work — a distinction that appears to carry growing weight in Washington.\n\nThe potential $60 billion valuation underscores surging investor appetite for defense technology, even as the broader venture market remains selective. For Anduril's backers, the bet is that the company can continue capturing share from legacy defense primes at a moment when the Pentagon is signaling a clear preference for agile, technology-first suppliers willing to operate on the government's terms.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Anduril",
-        "defense tech",
-        "venture capital",
-        "Palmer Luckey",
-        "Andreessen Horowitz",
-        "Thrive Capital",
-        "valuation"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2152503873.jpg?resize=1200,685",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T22:02:48.045Z"
-    },
-    {
       "id": "ps-1772575383241-zanx",
       "slug": "s-p-500-recovers-from-2-5-plunge-after-trump-pledges-hormuz-",
       "headline": "S&P 500 Recovers From 2.5% Plunge After Trump Pledges Hormuz Escort",
@@ -107,48 +170,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T22:03:03.241Z"
-    },
-    {
-      "id": "ps-1772575397141-6id4",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges swift regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global anti-money laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors.\n\nIn a 42-page report, FATF said dollar-pegged digital tokens now account for the overwhelming majority of illegal crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. Separately, TRM Labs estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had earlier estimated approximately $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone.\n\nThe report singled out USDT, Tether's flagship token, as a preferred vehicle for proliferation financing and cross-border payments tied to sanctioned regimes. Sanctions-related activity accounted for 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers through unhosted wallets — cryptocurrency wallets not controlled by regulated intermediaries — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the total stablecoin market now exceeding $300 billion in value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged member countries to impose anti-money laundering obligations directly on stablecoin issuers. The watchdog recommended that regulators consider requiring tools such as wallet freezing capabilities and restrictions on certain smart-contract functions, though it stopped short of advocating blanket blacklisting of specific tokens or platforms.\n\nThe report lands amid an intensifying debate in Washington over stablecoin regulation. On the same day FATF published its findings, JPMorgan Chase CEO Jamie Dimon argued that stablecoin issuers paying interest on customer balances should face the same capital, liquidity, and deposit insurance requirements as banks — a position that puts him at odds with crypto industry leaders like Coinbase CEO Brian Armstrong. Lawmakers are currently weighing the CLARITY Act, which would establish a federal framework for stablecoin oversight, making FATF's call for urgent regulatory action particularly timely as the United States and other major economies decide how tightly to govern a rapidly growing corner of digital finance.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T22:03:17.141Z"
-    },
-    {
-      "id": "ps-1772574446657-bl9i",
-      "slug": "rnns-outperform-transformers-at-extrapolating-composite-mate",
-      "headline": "RNNs Outperform Transformers at Extrapolating Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks hold a key advantage over transformer models for predicting path-dependent material responses beyond training data",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the mechanical behavior of composite materials outside their training regime, according to a new comparative study that carries important implications for AI-driven materials engineering.\n\nResearchers Petter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first systematic head-to-head comparison of transformers and recurrent neural networks (RNNs) for modeling short fiber reinforced composites (SFRCs) — materials widely used in automotive and aerospace applications whose behavior depends on the full history of deformation they have experienced. Full-field simulations of these path-dependent materials remain computationally expensive, making fast and accurate surrogate models a pressing need for the engineering community. The study, posted to the arXiv preprint server, used Bayesian optimization to tune both architectural and training hyperparameters for each model type, ensuring a fair comparison across architectures.\n\nThe results reveal a nuanced tradeoff between the two approaches. Transformer models proved roughly seven times faster at inference, completing predictions in 0.5 milliseconds compared to 3.5 milliseconds for the RNN. On large datasets and within the interpolation regime — where test conditions fall within the bounds of training data — transformers remained competitive in accuracy. However, when tasked with extrapolation, predicting material responses under conditions not seen during training, the RNN maintained its accuracy while the transformer's performance deteriorated markedly. RNNs also demonstrated superior accuracy when trained on smaller datasets, a practical advantage given that generating high-fidelity simulation data for composite materials is itself computationally costly.\n\nThe findings touch on a broader debate in scientific machine learning about whether the transformer architecture, which has revolutionized natural language processing and protein structure prediction, is universally superior to older sequential models. For path-dependent physical systems where the history of inputs matters and where training data may be limited, the study suggests that the inductive biases built into RNNs — specifically gated recurrent unit (GRU) layers designed to process ordered sequences — confer a meaningful advantage. The transformer's attention mechanism, while powerful for capturing long-range dependencies in large corpora, appears less robust when pushed beyond the distribution of its training examples.\n\nThe work has direct relevance for multiscale modeling workflows in materials science and engineering, where surrogate models must be both fast and reliable across a range of loading conditions. Engineers designing crash simulations or fatigue analyses, for instance, routinely encounter loading paths that differ from those used to calibrate models. The study suggests that for such safety-critical applications, the RNN's extrapolation reliability may outweigh the transformer's speed advantage — or that hybrid approaches merit further investigation.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "materials-science",
-        "transformers",
-        "recurrent-neural-networks",
-        "composite-materials",
-        "computational-physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1578918748648-7d30d67436c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxtYWNoaW5lLWxlYXJuaW5nJTIwbWF0ZXJpYWxzLXNjaWVuY2V8ZW58MHwwfHx8MTc3MjU0ODM1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T21:47:26.657Z"
     },
     {
       "id": "ps-1772573524955-gyk3",
@@ -1055,28 +1076,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/asia-scrambles-for-oil-and-gas-alternatives-as-iran-war-drags-on",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T08:33:21.470Z"
-    },
-    {
-      "id": "ps-1772526817509-tyhx",
-      "slug": "bitcoin-etfs-draw-458-million-as-institutions-shrug-off-iran",
-      "headline": "Bitcoin ETFs Draw $458 Million as Institutions Shrug Off Iran War Volatility",
-      "subheadline": "BlackRock's IBIT led inflows as institutional buyers absorbed a weekend sell-off that briefly sent BTC to $63,000",
-      "body": "U.S. spot bitcoin exchange-traded funds attracted approximately $458 million on Monday in one of the strongest single-day inflows of the quarter, even as the cryptocurrency recovered from a sharp weekend sell-off triggered by escalating conflict with Iran. Bitcoin was trading near $68,000 on Tuesday, rebounding from a brief plunge to $63,000 over the weekend.\n\nThe robust ETF demand signals that institutional investors view the war-driven turbulence as a contained event rather than a fundamental threat to crypto markets. Over three consecutive sessions last week, U.S. spot bitcoin ETFs accumulated roughly $1.1 billion in net inflows, with BlackRock's iShares Bitcoin Trust (IBIT) — the world's largest bitcoin fund — accounting for approximately half of the total, according to data from SoSoValue.\n\nSingapore-based trading firm QCP Capital characterized the market disruption as limited in scope. The firm noted that roughly $300 million in long liquidations were triggered by weekend headlines, but described the flush as \"notable but contained,\" pointing out that leveraged positioning had already been significantly reduced in the weeks prior. In options markets, one-day implied volatility spiked briefly to 93 percent before quickly retreating, a pattern QCP said was consistent with traders hedging against discrete event risk rather than positioning for a prolonged escalation.\n\nThe pattern of institutional buying into geopolitical dips marks a notable evolution in bitcoin's market structure. The proliferation of spot ETFs — approved by U.S. regulators in early 2024 — has created a deep, regulated channel through which traditional asset managers can rapidly deploy capital. Monday's inflows suggest that large allocators are increasingly treating bitcoin's price dislocations as buying opportunities rather than warning signs, a dynamic that may help establish firmer price floors during periods of macro stress.\n\nBitcoin's recovery also occurred against a backdrop of muted stock market reaction to the Iran situation, suggesting broader risk appetite remains intact. The cryptocurrency has now regained roughly $5,000 from its weekend lows, though it remains well below the highs seen earlier this year. Analysts cautioned that Monday's bounce appeared driven largely by short-covering rather than fresh organic demand, a distinction that could temper expectations for further near-term upside.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "ETF",
-        "BlackRock",
-        "IBIT",
-        "Iran",
-        "institutional investing",
-        "cryptocurrency"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e60e370603e7c17649f760aab58c9e3d4a88d261-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-climbs-as-btc-etfs-post-one-of-the-quarter-s-biggest-inflow-days-amid-iran-volatility",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T08:33:37.509Z"
     }
   ]
 }
