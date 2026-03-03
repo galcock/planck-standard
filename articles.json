@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T23:03:26.805Z",
+  "lastUpdated": "2026-03-03T23:18:47.924Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772578930128-9dvv",
-      "slug": "iran-holds-mass-funerals-after-school-strike-kills-over-160",
-      "headline": "Iran Holds Mass Funerals After School Strike Kills Over 160",
-      "subheadline": "Coffins of students and staff carried through Minab as US says it would never deliberately target civilian infrastructure",
-      "body": "Iran held mass funerals on Monday for more than 160 people, many of them schoolgirls, killed when missiles struck a girls' school in the southern city of Minab during the US-Israeli military campaign against Iranian military sites and leadership over the weekend.\n\nIranian state television broadcast images of child-sized coffins draped in the national flag being carried through crowded streets, as a voiceover described the anguish of parents who lost their daughters. Iranian officials said three missiles hit the school on Saturday morning — a regular working day in Iran, where the week runs Saturday through Thursday — meaning the building was likely full of students and staff at the time of impact. The school was situated roughly 600 meters from an Islamic Revolutionary Guard Corps base.\n\nIranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page in the record of countless crimes committed by the aggressors.\" Foreign Minister Seyed Abbas Araghchi posted an image on social media showing graves being dug for 160 victims, writing: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The BBC has verified footage showing smoke rising from a building as crowds gathered nearby, though the organization has not been able to independently confirm the Iranian-reported death toll. International news outlets are frequently denied visas to operate inside Iran, severely limiting independent verification.\n\nWhen pressed by the BBC on Monday about whether an American missile struck the school, US Secretary of State Marco Rubio said the United States \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure.\" He added that he did not have details on what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, emphasizing that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the area around Minab.\n\nThe incident has intensified international scrutiny of the US-Israeli strikes on Iran, which targeted military installations and leadership sites across the country on Saturday. The broader conflict has already sent oil and gas prices surging and rattled global markets, while European allies have moved to bolster defenses in the region, including around the British military base in Cyprus. Whether the Minab school was struck intentionally, caught in collateral damage, or hit by debris from a nearby military target remains unclear, and calls for an independent investigation are likely to mount as the death toll — among the highest single-incident civilian casualties in the conflict — draws global attention.",
+      "id": "ps-1772579843294-l0qd",
+      "slug": "funerals-held-after-reported-us-israeli-strike-on-iranian-sc",
+      "headline": "Funerals Held After Reported US-Israeli Strike on Iranian School",
+      "subheadline": "Iranian authorities say more than 160 killed at girls' school near military base; US denies deliberately targeting civilians",
+      "body": "Hundreds of mourners filled the streets of Minab in southern Iran on Monday as funerals were held for students and staff killed in what Iranian authorities describe as a US-Israeli missile strike on a girls' school. Iranian officials say more than 160 people died when the school was struck by three missiles on Saturday morning, during what was a regular school day in Iran's Saturday-to-Thursday working week.\n\nThe school was located approximately 600 meters from an Islamic Revolutionary Guard Corps (IRGC) base, one of numerous military sites targeted in a broad US-Israeli military campaign against Iran's military infrastructure and leadership. Iranian state television broadcast the funeral procession, showing child-sized coffins draped in the Islamic Republic's flag being carried through dense crowds. BBC News has not been able to independently verify the death toll cited by Iranian authorities, and international news organizations have been largely unable to access the country due to visa restrictions.\n\nIranian President Masoud Pezeshkian condemned the incident as a \"barbaric act\" and \"another black page\" in what he called a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted an image on social media showing graves being prepared for 160 people, directing his criticism at the Trump administration: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nWhen asked directly by the BBC on Monday whether an American missile struck the school, US Secretary of State Marco Rubio stated that \"the US would not deliberately target a school\" and said Washington had \"no interest, and frankly, no incentive to target civilian infrastructure,\" while acknowledging he did not have details on what led to the incident. Israel's military said it was \"not aware\" of any operations in the area around Minab. US Central Command spokesman Tim Hawkins said the military takes the reports seriously, adding that \"the protection of civilians is of utmost importance.\"\n\nThe incident has emerged as one of the most politically charged episodes in the ongoing US-Israeli military campaign against Iran, which has also drawn international concern after drones targeted a British base in Cyprus and a fire broke out near the US consulate in Dubai following a separate drone strike. Verified footage from the scene shows smoke rising from a destroyed building as crowds gathered and screams could be heard. Independent verification of what occurred remains difficult, but the scale of the reported casualties — particularly the involvement of children — is likely to intensify global scrutiny of the military operation and fuel demands for a full accounting of civilian harm.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -15,12 +15,117 @@
         "US-Israel strikes",
         "Minab school",
         "civilian casualties",
-        "Middle East conflict"
+        "Middle East conflict",
+        "Marco Rubio"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T23:02:10.128Z"
+      "publishedAt": "2026-03-03T23:17:23.294Z"
+    },
+    {
+      "id": "ps-1772579859879-scxm",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
+      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
+      "subheadline": "CASCADE uses advection-based approach to generate high-resolution storm imagery while conserving mass and energy",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in atmospheric science: generating physically realistic high-resolution weather data from coarse model outputs without inventing spurious detail that could misrepresent hazards.\n\nPresented in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — reframes the problem of spatial and temporal super-resolution as an explicit transport process rather than a pixel-by-pixel image enhancement task. Where conventional deep learning approaches essentially learn to \"hallucinate\" fine-scale features, CASCADE instead reconstructs detail by iteratively moving coarse-resolution information along learned velocity fields using semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The result is output that respects fundamental physical constraints like conservation of mass and energy — properties that standard super-resolution methods routinely violate.\n\nThe architecture draws a direct parallel to one of the central challenges in numerical weather prediction: the closure problem, where models must represent processes occurring below their grid resolution. CASCADE decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, then enforces consistency with the original low-resolution data through what the author describes as an \"assimilation-style innovation step\" — language that deliberately echoes the data assimilation techniques used in operational weather forecasting.\n\nTested on SEVIR radar data at 4x super-resolution for severe convective storms, CASCADE outperformed existing baselines across a battery of standard metrics, including peak signal-to-noise ratio, structural similarity, and critical skill scores that specifically measure a model's ability to capture high-intensity precipitation thresholds. The framework also produces interpretable velocity and correction fields that forecasters can visually inspect, offering a degree of transparency unusual in deep learning systems. This interpretability could prove particularly valuable for severe weather applications, where understanding why a model generates specific fine-scale features matters as much as the features themselves.\n\nThe work arrives as climate and weather agencies worldwide invest heavily in AI-augmented forecasting. Organizations from the European Centre for Medium-Range Weather Forecasts to NOAA have increasingly explored machine learning for downscaling global models to regional scales. CASCADE's physics-informed approach addresses a key criticism of purely data-driven methods: that they can produce outputs that look realistic but violate basic physical laws, potentially leading to dangerously misleading forecasts during extreme events. By encoding advection as the fundamental operator rather than learning it implicitly, the framework targets the advection-dominated dynamics that characterize the most impactful atmospheric and oceanic phenomena.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "weather-forecasting",
+        "climate-downscaling",
+        "super-resolution",
+        "atmospheric-physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1576421681728-5c4025ec147a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lLWxlYXJuaW5nJTIwd2VhdGhlci1mb3JlY2FzdGluZ3xlbnwwfDB8fHwxNzcyNTc5ODU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T23:17:39.879Z"
+    },
+    {
+      "id": "ps-1772579874457-nb8m",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "Polyamines — naturally occurring molecules celebrated in the longevity community for their ability to promote cellular cleanup and healthy aging — may simultaneously fuel cancer growth through a closely related but functionally distinct molecular pathway, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox: how compounds like spermidine, widely sold as anti-aging supplements, can appear to support longevity while also being found at elevated levels in aggressive tumors. The answer, researchers found, lies in two nearly identical proteins — eIF5A1 and eIF5A2 — that share 84% of their amino acid sequence but trigger dramatically different biological outcomes depending on cellular context.\n\nA team led by Associate Professor Kyohei Higashi used high-resolution proteomic analysis of more than 6,700 proteins to map how polyamines behave in human cancer cell lines. By first depleting polyamine levels with a drug and then reintroducing spermidine, the researchers could directly measure the compounds' effects. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — the cellular recycling process linked to mitochondrial health and longevity. In cancer cells, however, polyamines instead boost production of eIF5A2, which promotes aerobic glycolysis and drives rapid tumor proliferation. \"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi explained.\n\nThe researchers also identified the mechanism by which polyamines elevate eIF5A2 levels. Under normal conditions, a small regulatory RNA molecule called miR-6514-5p acts as a brake on eIF5A2 production. Polyamines disrupt this molecular check, allowing the cancer-associated protein to accumulate. The team further showed that eIF5A2 controls a distinct set of ribosomal proteins — including RPS27A, RPL36AL, and RPL22L1 — all previously associated with cancer severity.\n\nThe findings carry implications both for the booming polyamine supplement market and for oncology. While spermidine and related compounds may indeed confer anti-aging benefits in healthy individuals through eIF5A1 activation, the same molecules could theoretically accelerate tumor development in people with undetected or pre-cancerous growths. At the same time, eIF5A2 emerges as a promising and selective therapeutic target: blocking its interaction with ribosomes could potentially slow cancer progression without undermining the beneficial effects of polyamines in normal tissue. The study was supported by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "eIF5A2",
+        "longevity supplements"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T23:17:54.457Z"
+    },
+    {
+      "id": "ps-1772579899223-wx5s",
+      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-fu",
+      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Funding",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion, underscoring AI's unprecedented grip on venture capital",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies that together absorbed the vast majority of available capital.\n\nOpenAI led the surge with a $110 billion raise that valued the ChatGPT maker at $730 billion, making it one of the largest private funding rounds in history. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G at a $380 billion valuation. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round valuing it at $126 billion. Together, the three companies accounted for 83% of all venture dollars deployed last month, according to a new Crunchbase report published Monday.\n\nThe concentration of capital is remarkable even by the standards of an industry long accustomed to power-law dynamics. AI startups broadly claimed $171 billion of the month's total — roughly 90% of all venture funding — leaving just $18 billion for the entire non-AI startup ecosystem. The $156 billion raised by OpenAI, Anthropic, and Waymo alone represented approximately one-third of the $425 billion in total global venture spending recorded across all of 2025, highlighting how dramatically the funding landscape has shifted in favor of a handful of foundation-model and autonomy companies.\n\nThe figures raise pressing questions about the sustainability and structure of the current venture market. While the headline numbers suggest a booming ecosystem, the extreme top-heaviness means most startups are competing for a shrinking share of investor attention and capital. For the thousands of seed- and early-stage companies outside the AI mega-round orbit, February's record may feel less like a rising tide than a consolidation of resources around incumbents with the compute infrastructure and talent to attract sovereign wealth funds, corporate treasuries, and the largest institutional investors.\n\nStill, the sheer velocity of capital deployment signals that major backers view the AI infrastructure buildout as a generational opportunity worth funding at nearly any scale. Whether that conviction proves warranted — or whether these valuations eventually face a reckoning — will likely define the venture landscape for years to come.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "AI funding",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T23:18:19.223Z"
+    },
+    {
+      "id": "ps-1772579913696-q6qw",
+      "slug": "wall-street-strategists-caution-against-betting-on-trump-put",
+      "headline": "Wall Street Strategists Caution Against Betting on Trump Put Amid Iran Conflict",
+      "subheadline": "Market veterans warn that geopolitical escalation with Iran may resist the kind of presidential intervention traders have come to expect",
+      "body": "Wall Street strategists are urging investors not to count on President Donald Trump stepping in to rescue equity markets rattled by escalating tensions with Iran, even as stocks showed signs of recovering from their steepest recent losses.\n\nAs U.S. equities began clawing back from a sharp selloff on Tuesday, some traders appeared to be placing familiar bets that the president would move to contain the fallout — a pattern that has repeated across multiple market crises during the Trump administration. But leading market strategists cautioned that the current geopolitical situation may prove fundamentally different from the trade disputes and policy shocks where presidential intervention previously provided a floor for stock prices.\n\nThe concept of a so-called \"Trump put\" — the market's assumption that the president will act to prevent sustained equity declines — has been a recurring theme throughout his tenure. In past episodes, Trump has reversed or softened policy positions when markets showed acute distress, reinforcing the belief among traders that downside risk was effectively capped by political will. Strategists now warn that a military conflict with Iran presents a categorically different challenge, one where the levers of de-escalation are far less firmly in any single leader's hands.\n\nThe warnings reflect a broader concern on Wall Street that investors may be underpricing geopolitical risk. Unlike tariff disputes or regulatory shifts, armed conflict introduces variables — from oil supply disruptions to regional alliance dynamics — that resist the kind of unilateral policy pivots markets have previously relied upon. Energy markets, defense stocks, and safe-haven assets have all reflected the heightened uncertainty, while broader indices remain volatile.\n\nFor portfolio managers navigating the turbulence, the message from strategists is clear: hedging strategies and defensive positioning may prove more reliable than faith in presidential intervention. The coming days and weeks will test whether markets can find their footing on fundamentals alone, or whether the absence of a credible policy backstop leads to a more sustained repricing of risk across asset classes.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Iran conflict",
+        "Trump put",
+        "Wall Street",
+        "geopolitical risk",
+        "stock market",
+        "equities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1667157105317-35d6c4380e1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxJcmFuJTIwY29uZmxpY3QlMjBUcnVtcCUyMHB1dHxlbnwwfDB8fHwxNzcyNTc5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/wall-street-sees-no-trump-put-for-stocks-rattled-by-iran-war",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T23:18:33.696Z"
+    },
+    {
+      "id": "ps-1772579927836-n2kl",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, calls for urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based intergovernmental body that sets global anti-money laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors.\n\nIn a 42-page report, FATF said dollar-pegged digital tokens now account for the overwhelming majority of illegal crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs. According to Chainalysis, stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. TRM Labs separately estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had previously estimated approximately $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone.\n\nThe report specifically flagged the use of Tether's USDT by state-linked actors in North Korea and Iran for proliferation financing and cross-border payments tied to sanctioned activity. Peer-to-peer transfers conducted through unhosted wallets — digital wallets not controlled by any regulated intermediary — were identified as a \"key vulnerability\" because they bypass standard anti-money laundering controls entirely. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to the TRM Labs data cited in the report.\n\nWith the stablecoin market now exceeding $300 billion in total value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF called on national regulators to move quickly. The watchdog urged countries to impose anti-money laundering obligations directly on stablecoin issuers and to consider requiring technical enforcement mechanisms, including wallet freezing capabilities and restrictions on certain smart-contract functions. The task force stopped short of recommending blanket blacklisting of stablecoin platforms but made clear that the current regulatory framework is inadequate.\n\nThe report lands amid a broader debate in Washington over stablecoin regulation. President Donald Trump recently attacked U.S. banks for what he described as efforts to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that stablecoin issuers paying interest should face bank-level regulation. FATF's findings add international pressure to these domestic deliberations, underscoring that without coordinated global action, stablecoins risk becoming the preferred financial rail for sanctioned states and criminal networks alike.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T23:18:47.836Z"
     },
     {
       "id": "ps-1772578945922-xufp",
@@ -65,27 +170,6 @@
       "publishedAt": "2026-03-03T23:02:40.986Z"
     },
     {
-      "id": "ps-1772578975102-szw3",
-      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-sp",
-      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Spending",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as AI consumed 90% of all venture capital last month",
-      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies that together absorbed the vast majority of available funding.\n\nOpenAI led the surge with a $110 billion raise that valued the ChatGPT maker at $730 billion, making it one of the largest private funding rounds in history. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G at a $380 billion valuation. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion raise valuing it at $126 billion. Together, the three companies accounted for $156 billion, or 83 percent of all venture dollars deployed during the month, according to a new Crunchbase report published Monday.\n\nThe concentration of capital underscores a deepening winner-take-most dynamic in AI investing. Of the $189 billion raised globally in February, $171 billion — roughly 90 percent — went to AI startups. The figures suggest that venture capital is increasingly functioning less as a broad engine of startup formation and more as a funding mechanism for a handful of capital-intensive AI infrastructure plays. The $156 billion raised by just these three companies in a single month equals roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe record month raises questions about sustainability and market structure. OpenAI's $730 billion valuation places it among the most valuable private companies ever, rivaling some publicly traded technology giants. Anthropic's $380 billion price tag reflects investor conviction that the generative AI market can support multiple players at massive scale. Waymo's $126 billion valuation, meanwhile, signals renewed confidence in autonomous driving after years of skepticism about the sector's commercial viability.\n\nFor the broader startup ecosystem, the implications are mixed. While headline numbers suggest a thriving venture market, the extreme concentration means thousands of smaller companies are competing for a shrinking share of investor attention and capital. Whether this pattern holds through 2026 may depend on whether the AI companies burning through unprecedented sums can demonstrate revenue trajectories to match their stratospheric valuations.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "AI funding",
-        "startup investing"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T23:02:55.102Z"
-    },
-    {
       "id": "ps-1772578990935-mrbf",
       "slug": "oil-surges-most-in-four-years-as-iran-conflict-roils-markets",
       "headline": "Oil Surges Most in Four Years as Iran Conflict Roils Markets",
@@ -107,71 +191,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/how-the-investing-world-is-reacting-to-iran-war-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T23:03:10.935Z"
-    },
-    {
-      "id": "ps-1772579006713-3p7l",
-      "slug": "fatf-stablecoins-now-dominant-vehicle-for-illicit-crypto-act",
-      "headline": "FATF: Stablecoins Now Dominant Vehicle for Illicit Crypto Activity",
-      "subheadline": "Global watchdog says dollar-pegged tokens accounted for 84% of $154 billion in illicit crypto volume in 2025, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, warned in a report published Tuesday that stablecoins have become the primary instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on issuers before the problem grows further.\n\nThe 42-page report paints a stark picture of how dollar-pegged digital tokens, originally designed to bring stability to volatile crypto markets, have been co-opted by sanctions evaders, fraudsters, and state-level actors. Citing data from blockchain analytics firm Chainalysis, FATF noted that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis from TRM Labs, published in mid-February, found that illicit entities received $141 billion in stablecoins last year — the highest level in five years. FATF's own earlier estimate pegged illicit stablecoin activity related to fraud and scams at approximately $51 billion in 2024 alone.\n\nThe report specifically identified actors in North Korea and Iran as leveraging stablecoins such as Tether's USDT for proliferation financing and cross-border payments linked to sanctioned activity. Sanctions-related transactions accounted for a staggering 86% of illicit crypto flows, according to the TRM Labs data. The watchdog flagged peer-to-peer transfers conducted through unhosted wallets — crypto wallets not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the stablecoin market now exceeding $300 billion in total value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged countries to move quickly. Its recommendations include imposing formal anti-money laundering obligations on stablecoin issuers, requiring capabilities such as wallet freezing, and potentially restricting certain smart-contract functions that facilitate anonymous transfers. The task force stopped short of recommending blanket blacklisting of stablecoins but made clear that the current regulatory patchwork is inadequate.\n\nThe report lands amid a heated policy debate in the United States, where President Donald Trump recently urged passage of market structure legislation while criticizing banks for opposing stablecoin yield provisions in the GENIUS Act. JPMorgan CEO Jamie Dimon has separately argued that interest-bearing stablecoin issuers should face bank-level regulation. FATF's findings add international weight to the argument that the rapidly growing stablecoin sector requires comprehensive regulatory frameworks — and that the window for preemptive action may be closing.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "FATF",
-        "stablecoins",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT",
-        "illicit finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T23:03:26.713Z"
-    },
-    {
-      "id": "ps-1772578043975-ngc1",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
-      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
-      "subheadline": "CASCADE reframes climate super-resolution as an advection process, outperforming existing methods on severe storm data",
-      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent challenges in weather and climate modeling: generating fine-scale detail from coarse-resolution data without violating the physical laws that govern atmospheric behavior.\n\nIntroduced in a February 2026 preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — takes a fundamentally different approach to the downscaling problem. Rather than using neural networks to effectively guess at high-resolution details pixel by pixel, the system treats the enhancement process as an explicit transport problem. It reconstructs fine-grained atmospheric structures by iteratively moving coarse information along learned velocity fields using a technique called semi-Lagrangian warping, a method borrowed from computational fluid dynamics.\n\nThe distinction matters because conventional super-resolution techniques, originally designed for natural images, can \"hallucinate\" details that look plausible but violate conservation of mass and energy — a potentially dangerous flaw when the goal is accurately representing severe weather events. CASCADE's architecture splits atmospheric motion into large-scale resolved components and smaller unresolved subgrid components, directly mirroring how numerical weather prediction models handle their own closure problem. An assimilation step, inspired by data assimilation methods used in operational forecasting, ensures the high-resolution output remains consistent with the original coarse data.\n\nTested on the Storm Event Imagery Dataset for Rapid Intensification (SEVIR), which contains radar observations of severe convective storms, CASCADE achieved 4x spatial super-resolution while outperforming strong baseline methods across multiple evaluation metrics. These included standard image quality measures such as peak signal-to-noise ratio and structural similarity, as well as threshold-based meteorological skill scores like the critical success index and Heidke skill score — metrics that specifically assess how well a model captures the sharp gradients and extreme values that define hazardous weather.\n\nThe framework also offers a practical advantage over black-box deep learning approaches: interpretability. Because CASCADE explicitly computes velocity and correction fields during its reconstruction process, forecasters can visualize and scrutinize the physical reasoning behind the model's output. Kovalenko suggests the approach is broadly applicable to advection-dominated phenomena in both atmospheric and oceanic science, where physically consistent, temporally coherent downscaling remains an urgent need as climate models push toward higher resolution.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine learning",
-        "climate modeling",
-        "weather prediction",
-        "super-resolution",
-        "atmospheric physics",
-        "downscaling"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1756751579863-49b26247e1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bWFjaGluZSUyMGxlYXJuaW5nJTIwY2xpbWF0ZSUyMG1vZGVsaW5nfGVufDB8MHx8fDE3NzI1NDQ3NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T22:47:23.975Z"
-    },
-    {
-      "id": "ps-1772578058305-navh",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy versus cancerous cells",
-      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that reveals how polyamines — including the popular supplement spermidine — can switch from protecting healthy cells to fueling tumor growth.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology: how the same compounds celebrated for stimulating autophagy, the cellular cleanup process linked to healthy aging, are also consistently found at elevated levels in aggressive cancers. The answer lies in two nearly identical proteins — eIF5A1 and eIF5A2 — that share 84% of their amino acid sequence but trigger profoundly different biological outcomes depending on cellular context.\n\nA team led by Associate Professor Kyohei Higashi used high-resolution proteomic analysis of more than 6,700 proteins to map the distinct pathways polyamines activate in cancer cells. By first depleting polyamine levels in human cancer cell lines using a drug inhibitor, then reintroducing spermidine, the researchers could directly measure the compounds' impact. They found that in cancer cells, polyamines primarily boost glycolysis — the rapid glucose-to-energy conversion favored by tumors — rather than the mitochondrial respiration associated with healthy aging. Crucially, polyamines were shown to elevate levels of eIF5A2 and five ribosomal proteins linked to cancer severity, including RPS 27A, RPL36AL, and RPL22L1.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The team also identified the molecular mechanism behind this switch: a small regulatory RNA molecule called miR-6514-5p normally suppresses eIF5A2 production, but polyamines disrupt this brake, allowing the cancer-linked protein to accumulate.\n\nThe findings carry dual implications. For the growing market of polyamine-based anti-aging supplements, the research raises safety questions — particularly for individuals with undetected cancerous or precancerous tissue, where these compounds could theoretically accelerate tumor development. For oncology, the work identifies eIF5A2 and its interaction with ribosomes as a promising therapeutic target that could potentially be inhibited without disrupting the beneficial anti-aging effects mediated by eIF5A1. The study was supported by Japan's Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and Kanazawa University's Cancer Research Institute.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer",
-        "anti-aging",
-        "longevity",
-        "eIF5A2",
-        "Tokyo University of Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T22:47:38.305Z"
     },
     {
       "id": "ps-1772577172633-pmlu",
@@ -1058,27 +1077,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-falls-below-usd67-000-as-u-s-equities-slide-and-oil-pushes-higher",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T09:33:29.012Z"
-    },
-    {
-      "id": "ps-1772528647227-qqb9",
-      "slug": "core-scientific-dumps-175m-in-bitcoin-to-fund-ai-data-center",
-      "headline": "Core Scientific Dumps $175M in Bitcoin to Fund AI Data Center Pivot",
-      "subheadline": "The former mining giant sold 1,900 BTC at an average of $92,100 — well above today's price — as it winds down crypto operations",
-      "body": "Core Scientific sold approximately 1,900 bitcoin in January for roughly $175 million, locking in an average price of about $92,100 per coin — some 35% above current market levels near $67,000 — as the company aggressively redirects capital toward artificial intelligence and high-performance computing infrastructure.\n\nThe sale, disclosed during Core Scientific's fourth-quarter earnings call, leaves the Nasdaq-listed firm (CORZ) with approximately 630 BTC remaining, down from 2,537 at the end of 2025. Chief Financial Officer Jim Nygaard said the company expects to \"remain opportunistic going forward,\" signaling that further liquidation of its remaining holdings is likely. CEO Adam Sullivan was more blunt about the strategic direction, describing Core Scientific's bitcoin mining segment as \"essentially in runoff\" — maintained only to meet minimum power draw requirements while legacy mining sites are converted into AI colocation facilities.\n\nThe financial results accompanying the announcement underscored the painful transition underway. Core Scientific reported fourth-quarter revenue of $79.8 million, badly missing the $122 million Wall Street consensus, while posting a loss of $0.42 per share versus expectations of just $0.08. Still, the company ended 2025 with roughly $530 million in liquidity and pointed to up to $4 billion in potential financing tied to its 590-megawatt CoreWeave contract upon stabilization — a figure that dwarfs any remaining bitcoin mining economics.\n\nCore Scientific is far from alone in making this calculation. The broader bitcoin mining industry is undergoing a structural shift toward AI and data center services, where margins and long-term contracts offer more predictable revenue streams than the volatile combination of bitcoin prices and mining difficulty adjustments. Riot Platforms sold approximately $200 million worth of bitcoin in late 2025, MARA Holdings struck a partnership with investment firm Starwood, and both Cipher Digital and Bitfarms have rebranded to emphasize their AI and high-performance computing capabilities.\n\nThe timing of Core Scientific's January sale looks prescient in hindsight, given bitcoin's subsequent decline from the low $90,000s to its current range near $67,000. Whether the company's bet on AI infrastructure — built atop the power contracts and cooling systems originally designed for crypto mining — ultimately delivers superior returns will depend on execution of large-scale conversions and the durability of demand from hyperscale AI customers like CoreWeave.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Core Scientific",
-        "bitcoin mining",
-        "AI data centers",
-        "CORZ",
-        "cryptocurrency",
-        "CoreWeave"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e4aea38966d8484ec69ba9d4d30d1ba902d42767-1919x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/core-scientific-sells-usd175-million-in-bitcoin-as-ai-pivot-accelerates",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T09:04:07.227Z"
     }
   ]
 }
