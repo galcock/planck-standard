@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T19:18:19.576Z",
+  "lastUpdated": "2026-03-03T19:33:23.762Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772565423267-qyba",
+      "id": "ps-1772566323930-0kx4",
       "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
       "headline": "U.S. and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury marks dramatic escalation as Iran retaliates with regional attacks and three U.S. service members are killed",
-      "body": "The United States and Israel launched a massive coordinated military assault on Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering the most significant military escalation in the Middle East in decades. The operation, dubbed Epic Fury, has entered its fourth day with no signs of abating.\n\nFootage verified by the BBC and international news agencies shows large explosions erupting across multiple Iranian cities, including Tehran, where strikes hit both military targets and urban neighborhoods. Iran's state television confirmed Khamenei's death in a broadcast that marked a seismic shift in the 45-year-old Islamic Republic's leadership. The U.S. military has released its own video purporting to show precision strikes on Iranian military installations.\n\nPresident Donald Trump, directing operations from Palm Beach, Florida, announced \"major combat operations\" against Iran, accusing the regime of waging \"an unending campaign of bloodshed and mass murder targeting the United States.\" Trump appeared to signal broader ambitions, with BBC correspondents reporting the president is seeking regime change in Tehran. The conflict has already claimed American lives — three U.S. service members were killed in action on the second day of operations, prompting Trump to warn on Truth Social that \"there will likely be more\" casualties.\n\nIran has responded with a wave of retaliatory strikes across the region. In Israel, BBC presenter Clive Myrie reported from inside a Tel Aviv bomb shelter as Iranian projectiles targeted the country. At least one Iranian drone was captured on video crash-landing while on fire in Kuwait, underscoring the widening geographic scope of the conflict. The escalation has sparked protests across American cities, with demonstrators rallying against the strikes and additional protests planned in the coming days.\n\nThe assault represents a dramatic rupture in Middle East geopolitics, raising urgent questions about what follows the elimination of Iran's supreme leader and whether the conflict will expand further. BBC chief international correspondent Lyse Doucet noted that the immediate humanitarian and strategic consequences are still unfolding, while analysts warn that the power vacuum in Tehran could destabilize the region for years to come. The strikes come at a particularly fraught moment for global security — the New START nuclear treaty between the U.S. and Russia recently expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991.",
+      "subheadline": "Massive joint military operation triggers Iranian retaliatory attacks across the region as conflict enters fourth day",
+      "body": "The United States and Israel launched a devastating joint military operation against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and striking targets across multiple Iranian cities in what President Donald Trump has dubbed \"Operation Epic Fury.\"\n\nFootage verified by the BBC and international news agencies shows large explosions and widespread destruction in several Iranian cities, including Tehran, where chaotic scenes unfolded in residential neighborhoods following the strikes. Iran's state television confirmed the death of Khamenei, an event that represents the most consequential targeted killing in the Middle East in decades. The U.S. military has released its own video purporting to show military targets being hit, while Iranian forces have responded with retaliatory strikes across the region, including drone attacks — one of which was filmed crash-landing in Kuwait.\n\nThe conflict has already claimed American lives. President Trump, directing operations from Palm Beach, Florida, acknowledged that three U.S. service members have been killed in action during the second day of strikes and warned that \"there will likely be more\" casualties. In a video statement posted to Truth Social, Trump accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States\" and announced that \"major combat operations\" had begun, with multiple reports indicating the administration is pursuing regime change in Tehran.\n\nThe escalation has sent shockwaves through the region and beyond. BBC correspondent Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian retaliatory strikes targeted Israel. Across American cities, protesters rallied against the military action on Saturday, with additional demonstrations planned. The strikes mark a dramatic intensification of tensions that have simmered in the Middle East for years, raising urgent questions about the scope and duration of the conflict.\n\nThe operation comes at a particularly volatile moment in global security. The New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. Analysts and diplomats are now assessing whether the Iran strikes could widen into a broader regional war, with BBC chief international correspondent Lyse Doucet noting that the immediate humanitarian and geopolitical consequences are still unfolding rapidly.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -15,14 +15,120 @@
         "United States",
         "Israel",
         "Khamenei",
-        "Middle East",
-        "military strikes",
-        "Trump"
+        "Middle East conflict",
+        "Trump",
+        "military strikes"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T19:17:03.267Z"
+      "publishedAt": "2026-03-03T19:32:03.930Z"
+    },
+    {
+      "id": "ps-1772566340507-g66c",
+      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
+      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks generalize better for simulating fiber-reinforced composites, despite transformers' speed advantage",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the mechanical behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf and posted to the arXiv preprint server, pitted the two dominant architectures in modern machine learning against each other on a specific but industrially important task: modeling the path-dependent stress-strain response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, are notoriously expensive to simulate using traditional computational methods. Full-field simulations of their representative volume elements can take hours, making data-driven surrogate models an attractive alternative for multiscale engineering workflows.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized composite responses, tuning architectural and training hyperparameters through Bayesian optimization to ensure a fair comparison. Their findings revealed a nuanced performance landscape. On large datasets and within the interpolation regime — where test conditions fall within the range of training data — transformer models remained competitive with RNNs in accuracy. However, the gap widened dramatically under extrapolation conditions, where models must predict behavior outside their training distribution. In this critical regime, RNNs maintained accuracy while transformer performance degraded substantially.\n\nThe transformer architecture did claim one clear advantage: inference speed. At 0.5 milliseconds per prediction, the transformer model was seven times faster than the RNN's 3.5 milliseconds — a meaningful difference for applications requiring real-time or near-real-time predictions across thousands of material points. RNNs also demonstrated superior performance on smaller datasets, an important practical consideration given that generating high-fidelity composite simulation data is itself computationally expensive.\n\nThe results carry broader implications for the growing field of scientific machine learning. While transformers have revolutionized natural language processing and are increasingly being adopted across scientific domains, their well-documented struggles with extrapolation may limit their utility in engineering applications where predicting behavior under novel loading conditions is essential. The study suggests that for path-dependent material modeling, the sequential inductive bias built into recurrent architectures provides a meaningful advantage that raw scale and parallelization cannot easily overcome. Engineers designing surrogate models for composite materials may need to weigh inference speed against reliability at the boundaries of their training data — a tradeoff with significant consequences for structural safety and design optimization.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1661882217431-b64b303fb1d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T19:32:20.507Z"
+    },
+    {
+      "id": "ps-1772566356253-zi17",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that reveals how polyamines can simultaneously support healthy aging and fuel aggressive tumor growth.\n\nThe study, led by Associate Professor Kyohei Higashi and published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology. Polyamines — particularly spermidine, a compound found naturally in all living cells and increasingly marketed as a dietary supplement — have been celebrated for their ability to stimulate autophagy, the cellular housekeeping process that clears damaged components and is closely associated with longevity. Yet cancer researchers have consistently observed elevated polyamine levels in aggressive tumors, raising uncomfortable questions about how the same molecules could promote both health and disease.\n\nThe answer, Higashi's team found, lies in two nearly identical proteins that respond to polyamines in fundamentally different ways. In healthy tissue, polyamines activate a protein called eIF5A1, which enhances mitochondrial function through autophagy — the mechanism underlying their anti-aging reputation. In cancerous tissue, however, polyamines instead boost production of a close cousin, eIF5A2, which shares 84 percent of its amino acid sequence but drives an entirely separate program: ramping up glycolysis to fuel rapid cell proliferation. The researchers identified the molecular switch responsible, showing that polyamines suppress a small regulatory RNA molecule called miR-6514-5p that normally keeps eIF5A2 production in check. With that brake removed, cancer cells produce eIF5A2 in abundance, along with several ribosomal proteins linked to tumor severity.\n\nThe team reached these conclusions through high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines. By first depleting polyamine levels with a drug and then restoring them with spermidine, the researchers could isolate the compounds' specific effects on cancer metabolism. \"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi explained, noting that the context in which these molecules operate determines whether they protect or harm.\n\nThe findings carry implications both for oncology and for the growing consumer market in polyamine-based supplements. The research identifies eIF5A2 and its interaction with ribosomes as a promising selective target for cancer therapy — one that could potentially be disrupted without interfering with the beneficial eIF5A1 pathway. At the same time, the results suggest that individuals with undetected cancers or precancerous conditions could theoretically accelerate tumor development by supplementing with spermidine, a prospect that warrants further clinical investigation. The study was supported by Japan's Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T19:32:36.253Z"
+    },
+    {
+      "id": "ps-1772566371213-z71f",
+      "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
+      "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
+      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal the expanding digital dimension of modern warfare",
+      "body": "Coordinated cyber operations played a significant supporting role in the U.S.-Israeli military campaign against Iran that began on Saturday, with hacking efforts targeting everything from Tehran's traffic camera network to state television broadcasts and a popular prayer app, according to multiple reports and official statements.\n\nGen. Dan Caine, chairman of the Joint Chiefs of Staff, confirmed that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran ahead of the bombing campaign that killed Supreme Leader Ali Khamenei and several senior government officials. The objective, Caine said at a press conference, was to \"disrupt, disorient and confuse the enemy,\" leaving Iranian forces unable to \"see, coordinate or respond effectively.\" The strikes also hit military and civilian targets across the country, including a girls' school where at least 168 children and adults were killed.\n\nSome of the most striking cyber operations involved direct coordination with kinetic strikes. After Israeli jets bombed the offices of two state-owned Islamic Republic of Iran Broadcasting channels, the Israel Defense Forces hijacked the broadcasts to air speeches from President Donald Trump and Prime Minister Benjamin Netanyahu urging Iranians to turn against the regime, according to The Jerusalem Post. Separately, the Financial Times reported that Israeli intelligence had leveraged years of access to Tehran's hacked traffic camera network — along with deep penetration of mobile phone networks — to support the operation that killed Khamenei.\n\nPsychological operations extended to the digital lives of ordinary Iranians. On the first day of the war, hackers breached BadeSaba Calendar, a widely used Iranian prayer app, pushing messages to all users calling on security forces to \"lay down your weapons or join the forces of liberation.\" The messages were clearly designed to target pro-regime segments of the population. Meanwhile, Iranian government hackers have been \"largely ineffective\" in their response, Bloomberg reported, possibly because the country's own internet shutdowns have hampered their capabilities.\n\nAnalysts caution against overstating the impact of cyber operations in a conflict dominated by airstrikes and conventional military force. Authorities may have incentives to exaggerate digital capabilities for psychological effect — a dynamic that appeared to play out during the recent U.S. operation against Venezuelan President Nicolás Maduro, where claims of American hackers causing power outages in Caracas were likely overstated. Still, the Iran campaign represents the most extensive publicly documented integration of cyber and kinetic warfare to date, marking a significant evolution in how nations wage war in the digital age.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran war",
+        "cyber warfare",
+        "Israel",
+        "US military",
+        "cybersecurity",
+        "psyops"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T19:32:51.213Z"
+    },
+    {
+      "id": "ps-1772566387795-7oi1",
+      "slug": "emerging-market-currencies-hit-hardest-since-2020-as-iran-wa",
+      "headline": "Emerging-Market Currencies Hit Hardest Since 2020 as Iran War Spurs Selloff",
+      "subheadline": "Investors flee risk assets as conflict reignites inflation fears and forces repricing of rate-cut expectations worldwide",
+      "body": "A deepening rout across emerging-market assets accelerated on Tuesday, with a broad currency gauge tracking its steepest single-session decline since the pandemic-era turmoil of 2020, as the ongoing war in Iran upends investor assumptions about the global inflation trajectory and the path of monetary easing.\n\nThe selloff, which has been building over recent sessions, reflects a sharp reassessment of risk as the conflict in Iran threatens to disrupt energy supplies and reignite the kind of commodity-driven price pressures that central banks spent years trying to tame. With crude oil prices elevated and supply chain uncertainties mounting, traders are now unwinding bets that major central banks — and their emerging-market counterparts — would deliver the aggressive interest-rate cuts that markets had been pricing in for 2026.\n\nThe repricing carries especially painful consequences for developing economies, many of which had been counting on a benign global rate environment to support growth and ease debt-servicing burdens. Higher-for-longer interest rates in the United States and Europe tend to drain capital from riskier markets, strengthening the dollar and putting downward pressure on emerging-market currencies, bonds, and equities simultaneously. The scale of Tuesday's move suggests that investors are not merely trimming positions at the margin but fundamentally recalibrating their risk exposure.\n\nThe Iran conflict adds a geopolitical premium to energy markets at a moment when many emerging economies are net oil importers, compounding the damage. Countries with large current-account deficits and significant dollar-denominated debt face a particularly acute squeeze, as weaker local currencies inflate the real cost of servicing foreign obligations. Analysts warn that if the conflict escalates further or persists longer than markets currently anticipate, the selloff could deepen into a broader emerging-market crisis reminiscent of previous episodes of capital flight.\n\nFor now, investors appear to be moving into traditional safe havens — the U.S. dollar, Treasuries, and gold — while waiting for clarity on both the geopolitical situation and its second-order effects on global monetary policy. The speed of the unwind underscores how quickly risk sentiment can shift when geopolitical shocks collide with already-fragile market expectations.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "emerging-markets",
+        "Iran",
+        "inflation",
+        "interest-rates",
+        "currency-selloff",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1713948412274-d264923b2d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8ZW1lcmdpbmctbWFya2V0cyUyMElyYW58ZW58MHwwfHx8MTc3MjU2NjM4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/emerging-assets-extend-slide-as-inflation-risks-get-priced-in",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T19:33:07.795Z"
+    },
+    {
+      "id": "ps-1772566403664-i33a",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based body that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, with sanctioned actors in Iran and North Korea among the primary users.\n\nIn a 42-page report published March 3, FATF said dollar-pegged tokens now account for the overwhelming majority of illegal crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. Separately, TRM Labs reported that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated approximately $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report singled out Tether's USDT as a token of particular concern, noting its use by North Korean and Iranian actors for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers conducted through unhosted wallets — those not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the stablecoin market now exceeding $300 billion in total capitalization and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged member countries to move quickly. The organization recommended that jurisdictions impose anti-money laundering obligations directly on stablecoin issuers, consider mandating wallet-freezing capabilities, and evaluate restricting or banning certain smart-contract functions that facilitate anonymous transfers. The task force stopped short, however, of calling for blanket blacklisting of stablecoins.\n\nThe report arrives at a moment of broader regulatory recalibration in the digital asset space. In the United States, the Commodity Futures Trading Commission signaled this week that policies enabling crypto perpetual futures are imminent, while both the CFTC and SEC continue to develop frameworks under their joint Project Crypto initiative. FATF's findings may add urgency to legislative efforts in Washington and other capitals to bring stablecoin issuers under comprehensive financial oversight — a process that has proceeded fitfully despite years of discussion. For an industry eager to establish legitimacy, the scale of illicit activity documented in the report represents both a regulatory challenge and a reputational burden that market participants will find increasingly difficult to dismiss.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions",
+        "crypto regulation",
+        "USDT",
+        "illicit finance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T19:33:23.664Z"
     },
     {
       "id": "ps-1772565439849-9xle",
@@ -46,49 +152,6 @@
       "publishedAt": "2026-03-03T19:17:19.849Z"
     },
     {
-      "id": "ps-1772565454737-vwbs",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy versus cancerous cells",
-      "body": "A class of naturally occurring molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science. The study, published in the Journal of Biological Chemistry, reveals the precise molecular mechanism by which polyamines — particularly spermidine — can switch from supporting healthy cellular maintenance to fueling aggressive tumor growth.\n\nPolyamines are present in every living cell and play essential roles in cell growth and differentiation. Spermidine, the most prominent among them, has gained considerable popularity in the anti-aging community for its ability to stimulate autophagy, the cellular recycling process that clears damaged components. Supplements containing spermidine are now widely available, marketed as geroprotectors that support healthy aging. But scientists have long been puzzled by a troubling paradox: elevated polyamine levels are consistently found in many types of cancer, where they correlate with aggressive tumor progression.\n\nA team led by Associate Professor Kyohei Higashi resolved this contradiction through a large-scale proteomic analysis of more than 6,700 proteins in human cancer cell lines. The researchers found that the answer lies in two nearly identical proteins — eIF5A1 and eIF5A2 — which share 84% of their amino acid sequence but perform starkly different functions. In healthy tissue, polyamines activate eIF5A1, which stimulates mitochondrial energy production through autophagy. In cancerous tissue, however, polyamines promote the synthesis of eIF5A2, which instead drives glycolysis — the rapid glucose-to-energy conversion that cancer cells depend on for proliferation. \"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi explained.\n\nThe team also identified the regulatory mechanism that normally keeps eIF5A2 in check: a small RNA molecule called miR-6514-5p acts as a molecular brake on eIF5A2 production. Polyamines, the researchers showed, disrupt this brake, allowing eIF5A2 levels to rise and triggering the expression of ribosomal proteins associated with cancer severity, including RPS27A, RPL36AL, and RPL22L1.\n\nThe findings carry dual implications. For cancer therapy, eIF5A2 and its interaction with ribosomes represent a promising new drug target that could theoretically be inhibited without disrupting the beneficial effects of eIF5A1 in healthy cells. For consumers of polyamine supplements, the results underscore that biological context matters profoundly. In individuals with undetected or precancerous tissue, supplementation with spermidine could inadvertently accelerate tumor development. While the research does not call for an outright ban on such supplements, it introduces a significant note of caution into a market that has largely emphasized only the upside of these compounds.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2",
-        "Tokyo University of Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T19:17:34.737Z"
-    },
-    {
-      "id": "ps-1772565470186-paqn",
-      "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
-      "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
-      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal growing integration of cyber warfare with kinetic military operations",
-      "body": "Coordinated cyber operations disrupted Iranian communications, enabled the targeting of senior officials, and fueled psychological warfare campaigns during the opening days of the U.S.-Israeli military strikes against Iran, according to statements from top military officials and multiple media reports.\n\nGen. Dan Caine, chairman of the U.S. Joint Chiefs of Staff, confirmed at a press conference that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran prior to the bombing campaign that began Saturday, which killed Supreme Leader Ali Khamenei and several senior government officials. The goal, Caine said, was to \"disrupt, disorient and confuse the enemy,\" leaving Iranian forces unable to mount an effective response. The strikes also hit military and civilian infrastructure across the country, including a girls' school where at least 168 people were killed.\n\nThe cyber dimension extended well beyond communications disruption. The Financial Times reported, citing two anonymous sources, that Israeli intelligence had maintained access to Tehran's traffic camera network for years and had \"deeply penetrated mobile phone networks\" — capabilities that reportedly proved instrumental in the operation to kill Khamenei. In a separate operation combining physical and digital attacks, Israeli forces first bombed the offices of two state-owned broadcasting channels before hijacking the signal to air speeches from President Donald Trump and Prime Minister Benjamin Netanyahu urging Iranians to rise against the regime, according to The Jerusalem Post.\n\nUnattributed cyberattacks — widely believed to be the work of U.S. or Israeli hackers — also targeted Iran's civilian digital infrastructure. On the war's first day, hackers breached BadeSaba Calendar, a popular Iranian prayer app, pushing messages to all users calling on security forces to \"lay down your weapons or join the forces of liberation.\" The operation appeared designed to target pro-regime populations in a classic psychological warfare maneuver.\n\nIranian cyber forces have so far mounted little in the way of retaliation, according to Bloomberg, possibly because the country's internet has been effectively shut down. But analysts caution against overstating the significance of cyber operations in a conflict dominated by conventional airstrikes. U.S. officials have previously appeared to exaggerate cyber capabilities — as recently as the Venezuela operation earlier this year, where partial blackouts initially attributed to hacking were more likely caused by fighter jets destroying electrical substations. Still, the Iran campaign represents one of the most publicly documented cases of cyber warfare being integrated into a live military offensive, signaling that digital operations are now a standard component of modern conflict rather than a peripheral tool.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "cyber warfare",
-        "U.S. military",
-        "Israel",
-        "national security",
-        "psyops"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T19:17:50.186Z"
-    },
-    {
       "id": "ps-1772565485499-9re1",
       "slug": "gold-drops-over-6-as-strong-dollar-overpowers-war-risk-deman",
       "headline": "Gold Drops Over 6% as Strong Dollar Overpowers War-Risk Demand",
@@ -109,28 +172,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/gold-rises-as-escalating-conflict-in-middle-east-stokes-demand",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T19:18:05.499Z"
-    },
-    {
-      "id": "ps-1772565499489-f42k",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges rapid regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, with sanctioned actors in Iran and North Korea among the primary users.\n\nIn a 42-page report, FATF said dollar-pegged tokens now account for the overwhelming majority of illegal crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs to underscore the scale of the problem. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. Separately, TRM Labs reported that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years — with sanctions-related activity accounting for 86% of those flows. FATF itself estimated approximately $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report singled out peer-to-peer transfers conducted through unhosted wallets as a \"key vulnerability,\" noting that such transactions can bypass anti-money laundering controls entirely. FATF highlighted specific cases involving North Korean and Iranian actors using tokens such as Tether's USDT for proliferation financing and cross-border payments linked to sanctioned entities. The findings come as the stablecoin market has surpassed $300 billion in total value, with monthly transaction volumes exceeding $1 trillion on multiple occasions in 2025.\n\nWhile stopping short of recommending blanket blacklisting of stablecoins, FATF urged member countries to impose anti-money laundering obligations directly on stablecoin issuers. The watchdog also called on regulators to consider requiring tools such as wallet-freezing capabilities and restrictions on certain smart-contract functions that could facilitate illicit transfers. The recommendations represent a significant escalation in the organization's posture toward the stablecoin sector, which has grown rapidly as a bridge between traditional finance and the crypto economy.\n\nThe timing of the report is notable given the broader regulatory momentum around digital assets in the United States and elsewhere. With the CFTC and SEC advancing new crypto policies under the banner of Project Crypto, and stablecoin legislation progressing in multiple jurisdictions, FATF's findings are likely to intensify pressure on lawmakers to close compliance gaps before adoption outpaces oversight. For stablecoin issuers like Tether and Circle, the report signals that stricter global regulatory requirements are not a question of if, but when.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "FATF",
-        "stablecoins",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "Tether",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T19:18:19.489Z"
     },
     {
       "id": "ps-1772564557886-0eys",
@@ -216,27 +257,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-diesel-prices-surge-higher-as-iran-war-disrupts-supplies",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T18:48:02.755Z"
-    },
-    {
-      "id": "ps-1772562738941-trkx",
-      "slug": "rnns-outperform-transformers-for-predicting-composite-materi",
-      "headline": "RNNs Outperform Transformers for Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks extrapolate more reliably, even as transformers offer a 7x speed advantage",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf and posted to the arXiv preprint server, pits the two dominant families of sequence-modeling architectures against each other on a task critical to advanced manufacturing: predicting the homogenized mechanical response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, exhibit path-dependent behavior — meaning their response depends on the full history of loading, not just the current state. Full-field numerical simulations of such materials remain computationally expensive, making neural network surrogates an attractive alternative.\n\nThe researchers trained both gated recurrent unit (GRU) networks and transformer models on sequences derived from representative volume element simulations. Hyperparameters for both architectures — including the number of layers, hidden dimensions, attention heads, learning rate, and batch size — were tuned using Bayesian optimization to ensure a fair comparison. The team then evaluated performance across varying dataset sizes and tested each model's ability to interpolate within and extrapolate beyond the training distribution.\n\nThe findings reveal a nuanced picture. When data is abundant and predictions stay within the training domain, transformers remain competitive in accuracy while delivering inference speeds roughly seven times faster — approximately 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN. However, when the models must generalize to loading conditions outside their training range, the gap becomes stark: the RNN maintains reliable accuracy while the transformer's predictions deteriorate markedly. RNNs also proved more data-efficient, achieving better accuracy on smaller datasets.\n\nThe results carry practical implications for the growing field of data-driven multiscale modeling. Engineers designing composite structures often encounter loading scenarios not fully represented in training data, making extrapolation performance a critical consideration. While the transformer's parallelizable architecture and speed advantages make it appealing for applications where predictions remain close to known conditions, the study suggests that RNNs remain the safer choice for robustness and generalization in materials science workflows. The work adds to a broader conversation in scientific machine learning about when the architectural innovations that have revolutionized natural language processing translate effectively to physics-based problems — and when they fall short.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1701522226776-030ffe5ed84d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T18:32:18.941Z"
     },
     {
       "id": "ps-1772562788663-k97u",
@@ -1060,29 +1080,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c4g0pnnj8xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-03T06:47:07.985Z"
-    },
-    {
-      "id": "ps-1772520493860-nlkc",
-      "slug": "drone-strike-near-us-embassy-in-riyadh-draws-trump-retaliati",
-      "headline": "Drone Strike Near US Embassy in Riyadh Draws Trump Retaliation Vow",
-      "subheadline": "Two drones hit near American diplomatic compound in Saudi capital as Iran escalates regional strikes",
-      "body": "Two drones struck in the vicinity of the United States Embassy in Riyadh on Monday, marking a dramatic escalation in Middle East tensions and prompting President Donald Trump to pledge a forceful American response. Asked what form retaliation might take, Trump told reporters, \"You'll find out soon.\"\n\nThe attack on the diplomatic compound in the Saudi capital came amid a broader intensification of Iranian strikes across the region, according to Bloomberg reporting. Details on casualties or the extent of damage to the embassy compound remained limited in the immediate aftermath, but the targeting of a US diplomatic facility in a close allied nation represents a significant provocation with potentially far-reaching geopolitical consequences.\n\nThe strike raises urgent questions about the security of American installations across the Middle East and the trajectory of US-Iran hostilities, which have escalated sharply in recent months. Saudi Arabia, a cornerstone of Washington's regional alliance structure, has itself been a repeated target of drone and missile attacks in recent years, though strikes near foreign embassies in the capital represent an alarming new threshold.\n\nMarkets are expected to react sharply to both the attack and the prospect of US military retaliation. Energy prices, already sensitive to any disruption signals from the Persian Gulf region, face potential upward pressure as traders assess the risk of a wider conflict engulfing the world's most critical oil-producing corridor. Saudi Arabia remains the largest crude exporter globally, and any sustained military escalation in or around the kingdom could have profound implications for global energy supply.\n\nThe Trump administration's response will be closely watched by allies and adversaries alike. The president's cryptic but combative language suggests military options are actively under consideration, a posture that could reshape the strategic landscape across the Middle East. Diplomatic channels, already strained by the broader pattern of Iranian aggression, face a critical test as Washington weighs the scale and scope of its next move.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "US Embassy",
-        "Riyadh",
-        "drone strike",
-        "Iran",
-        "Trump",
-        "Middle East",
-        "Saudi Arabia",
-        "retaliation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1570960197864-88cd9a6439ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8ZHJvbmUlMjBzdHJpa2UlMjBuZWFyfGVufDB8MHx8fDE3NzI1MTg2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/us-embassy-in-riyadh-attacked-iran-steps-up-strikes-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T06:48:13.860Z"
     }
   ]
 }
