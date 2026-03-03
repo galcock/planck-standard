@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-03-03T13:48:33.992Z",
+  "lastUpdated": "2026-03-03T14:03:28.798Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772546534352-eqdd",
+      "slug": "global-markets-reel-as-strait-of-hormuz-closure-sends-energy",
+      "headline": "Global Markets Reel as Strait of Hormuz Closure Sends Energy Prices Surging",
+      "subheadline": "UK gas prices double in days as QatarEnergy halts production and supertanker costs hit record highs amid Iran conflict",
+      "body": "A cascading energy and financial crisis gripped global markets on Tuesday as the escalating conflict between the United States, Israel, and Iran effectively shut down the Strait of Hormuz, the narrow waterway through which roughly 20 percent of the world's oil and gas flows.\n\nUK natural gas prices surged more than 46 percent on the day, reaching above 165 pence per therm — a level not seen since early 2023, in the aftermath of Russia's invasion of Ukraine. Gas prices have now doubled since U.S. and Israeli air strikes on Iran began Saturday. Brent crude oil climbed over 5 percent to surpass $81 per barrel, with analysts at risk intelligence firm Avellon warning that prolonged disruption could push crude past $100. The spike accelerated after QatarEnergy, one of the world's largest gas exporters, halted production citing \"military attacks\" on its facilities and subsequently suspended output of aluminum, methanol, and urea fertilizer.\n\nStock markets across the globe suffered steep losses. South Korea's Kospi, reopening after a public holiday, plunged more than 7 percent. Japan's Nikkei fell 3.3 percent, dragged lower by export-dependent heavyweights Toyota, Panasonic, and Sony. In Europe, Germany's Dax dropped 3.6 percent, France's CAC-40 declined 2.9 percent, and London's FTSE 100 shed 2.6 percent. Hong Kong and Shanghai indices also closed in the red.\n\nThe logistics dimension of the crisis is equally alarming. Sanne Manders, president of shipping technology platform Flexport, told the BBC the strait was \"effectively closed,\" citing both carrier reluctance and insurance companies' refusal to underwrite the risk. The cost of hiring a supertanker to move crude from the Middle East to China hit an all-time record exceeding $400,000 per day on Monday — nearly double the rate from just a week earlier, according to London Stock Exchange Group data. An Iranian Revolutionary Guard Corps adviser warned on state television that ships entering the region would \"face a serious response,\" compounding fears of a sustained blockade.\n\nThe economic fallout threatens to ripple outward into inflation and monetary policy. Higher energy costs feed directly into transportation, manufacturing, and food prices, potentially constraining central banks' ability to cut interest rates in coming months. In the UK, household energy bills are shielded by a price cap until July, but fuel prices at the pump face near-term pressure. Alasdair Locke, chairman of Motor Fuel Group, the UK's largest independent forecourt operator, said rising oil costs would \"inevitably feed through\" to higher pump prices. U.S. Secretary of State Marco Rubio acknowledged that energy price increases were an anticipated consequence of the military campaign, saying the administration would announce mitigation plans Tuesday. President Trump was scheduled to meet Treasury Secretary Scott Bessent and Energy Secretary Chris Wright to discuss the crisis, as Washington urged American nationals to leave the Middle East immediately.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "Strait of Hormuz",
+        "oil prices",
+        "gas prices",
+        "Iran conflict",
+        "global markets",
+        "energy crisis",
+        "QatarEnergy"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/ce05/live/fa23a360-15cb-11f1-82b7-79a863688a9c.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-03T14:02:14.352Z"
+    },
+    {
+      "id": "ps-1772546550924-2f7s",
+      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
+      "headline": "RNNs Outperform Transformers for Composite Material Modeling, Study Finds",
+      "subheadline": "Transformers offer 7x faster inference, but recurrent networks prove more accurate on small datasets and in extrapolation",
+      "body": "Transformer models may dominate natural language processing and image generation, but when it comes to simulating the behavior of composite materials under complex loading conditions, older recurrent neural networks still hold a decisive edge — particularly where data is scarce or predictions must venture beyond training boundaries.\n\nA new study by Petter Uvdal and Mohsen Mirkhalaf, posted to the arXiv preprint server, presents the first systematic head-to-head comparison of transformer architectures and recurrent neural networks (RNNs) for predicting the mechanical response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, exhibit path-dependent behavior — meaning their response depends not just on current loading but on their entire deformation history. Full-field simulations of representative volume elements (RVEs) for such materials remain computationally prohibitive, making efficient surrogate models a pressing need in computational materials science.\n\nThe researchers trained both model types on sequences of homogenized stress-strain responses generated from RVE simulations, tuning architectural and training hyperparameters — including GRU layer counts, hidden sizes, attention heads, encoder blocks, learning rates, and batch sizes — using Bayesian optimization. The results revealed a nuanced picture. On large datasets, transformers remained competitive with RNNs in terms of prediction accuracy during interpolation, matching or approaching RNN performance within the training distribution. However, RNNs demonstrated clearly superior accuracy on smaller datasets, an important practical consideration given that generating high-fidelity composite simulation data is itself expensive.\n\nThe most striking divergence emerged in extrapolation — predicting material behavior under loading conditions outside the training range. Here, the RNN maintained reliable accuracy while the transformer model's performance degraded substantially. This finding carries significant implications for engineering applications where safety-critical predictions must extend beyond previously observed regimes. The transformer's advantage lay in computational speed: at 0.5 milliseconds per prediction compared to the RNN's 3.5 milliseconds, it delivered a sevenfold speedup at inference time.\n\nThe study underscores a broader lesson for the machine learning in materials science community: architectural choices must be driven by application-specific requirements rather than general popularity. For real-time applications with abundant training data and interpolation-only demands, transformers offer compelling efficiency. But for multiscale modeling tasks requiring robustness under data constraints and reliable generalization to unseen loading paths, RNNs remain the more dependable tool — at least for now.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1678931884462-312c820d3e67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T14:02:30.924Z"
+    },
+    {
+      "id": "ps-1772546565422-9vwq",
+      "slug": "earth-may-harbor-triple-the-vertebrate-species-scientists-th",
+      "headline": "Earth May Harbor Triple the Vertebrate Species Scientists Thought",
+      "subheadline": "A sweeping meta-analysis of over 300 studies finds two genetically distinct 'cryptic' species lurking behind every known vertebrate",
+      "body": "Global vertebrate biodiversity could be roughly three times greater than current estimates, according to a major new analysis published in Proceedings of the Royal Society B. Researchers at the University of Arizona found that for every recognized species of fish, bird, mammal, reptile, or amphibian, approximately two additional species — genetically distinct but visually nearly indistinguishable — remain hidden in plain sight.\n\nThe study, led by graduate student Yinpeng Zhang and senior author John Wiens, a professor in the University of Arizona's Department of Ecology and Evolutionary Biology, synthesized findings from more than 300 published studies worldwide. The team examined the prevalence of so-called cryptic species: organisms that appear identical under traditional morphological classification but reveal themselves as separate evolutionary lineages when subjected to DNA analysis. Some of these lineages, Wiens noted, have been evolving independently for over a million years. Remarkably, the roughly two-to-one ratio of hidden species held consistent across all major vertebrate groups surveyed.\n\nThe Arizona mountain kingsnake offers a vivid illustration. For years, the species was treated as a single population statewide, its members bearing the same distinctive red, black, and yellow-white banding. But molecular research in 2011 revealed that northern and southern populations were genetically distinct, leading scientists to elevate the southern snakes to full species status as Lampropeltis knoblochi while the northern population retained the name Lampropeltis pyromelana. Zhang said the kingsnake case is far from unusual — most cryptic species are discovered incidentally during broader biodiversity surveys rather than through targeted searches.\n\nThe conservation implications are sobering. When a single widespread species is reclassified into multiple cryptic species, each newly recognized lineage inherits a smaller geographic range, making it more vulnerable to extinction. Yet the vast majority of cryptic species identified in molecular studies have never been formally described or named, leaving them without legal protection. Wiens warned that conservation breeding programs could inadvertently cross-breed individuals from different species if cryptic diversity goes unrecognized. \"If we don't know a species exists, then we can't protect it,\" he said.\n\nThe findings arrive at a moment when biodiversity loss is accelerating worldwide, and they suggest that extinction tallies may significantly undercount the true toll. With current estimates placing the number of known vertebrate species at roughly 70,000, the study implies that the actual figure could approach 200,000 — a staggering gap that underscores how much of life on Earth remains cataloged only in its DNA.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "cryptic species",
+        "biodiversity",
+        "vertebrates",
+        "DNA sequencing",
+        "conservation",
+        "taxonomy"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/lampropeltis-pyromelana.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T14:02:45.422Z"
+    },
+    {
+      "id": "ps-1772546580508-jgbj",
+      "slug": "cursor-hits-2-billion-in-annualized-revenue-as-ai-coding-rac",
+      "headline": "Cursor Hits $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The four-year-old startup's revenue run rate has doubled in just three months, even as rivals chip away at its user base.",
+      "body": "Cursor, the AI-powered coding assistant, has crossed $2 billion in annualized revenue, Bloomberg reported on Sunday, marking a striking milestone for a company founded just four years ago. The startup's revenue run rate reportedly doubled over the past three months alone, underscoring the explosive demand for AI tools that help developers write software.\n\nThe disclosure comes at a strategic moment for the company, which has faced mounting skepticism about its competitive position. Viral social media posts last week highlighted high-profile developer defections to rival tools, particularly Anthropic's Claude Code, which some individual programmers and smaller startups view as more competitively priced. OpenAI's Codex and startups such as Replit, Cognition, and Lovable are also vying for share in a market that barely existed two years ago.\n\nYet the revenue figures suggest Cursor's business model has shifted in ways that may insulate it from individual user churn. Corporate customers now account for roughly 60 percent of the company's revenue, according to Bloomberg, a marked change from its early days selling primarily to solo developers. Enterprise buyers tend to be stickier, locking in subscriptions through procurement cycles and team-wide deployments that are harder to unwind than a single developer switching tools.\n\nThe $2 billion run rate is especially notable in the context of Cursor's most recent fundraise. In November, the company raised $2.3 billion in a round co-led by Accel and Coatue, which valued the startup at $29.3 billion. At a revenue multiple of roughly 15 times annualized sales, that valuation now looks more grounded than many late-stage AI bets — though it still prices in significant future growth in a market where competition is intensifying by the quarter.\n\nCursor did not respond to requests for comment. The broader AI coding market is shaping up as one of the first arenas where large language model providers like Anthropic and OpenAI compete head-to-head with application-layer startups for the same customers. How that dynamic plays out — whether platforms or specialized tools capture more value — will be one of the defining questions for the next phase of the AI industry.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "startup revenue",
+        "Anthropic",
+        "Claude Code",
+        "enterprise software",
+        "vibe coding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T14:03:00.508Z"
+    },
+    {
+      "id": "ps-1772546595479-d8sq",
+      "slug": "oil-prices-surge-as-escalating-u-s-israel-war-with-iran-rock",
+      "headline": "Oil Prices Surge as Escalating U.S.-Israel War With Iran Rocks Energy Markets",
+      "subheadline": "Crude rallies for a second consecutive session as widening Middle East conflict threatens Persian Gulf energy infrastructure",
+      "body": "Oil prices extended a sharp rally on Monday, climbing for a second straight day as the expanding military conflict between the United States, Israel, and Iran sent shockwaves through global energy markets and raised fresh concerns about the security of Persian Gulf oil infrastructure.\n\nThe escalation marks a significant intensification of hostilities in the Middle East, with the U.S. and Israel pressing forward with military operations against Iran in what analysts have described as a \"staggering\" widening of the war. The Persian Gulf region, which accounts for roughly a fifth of the world's oil supply, sits at the epicenter of the conflict, and traders are rapidly repricing the risk of sustained disruption to production and shipping routes through the critical Strait of Hormuz.\n\nThe rally reflects a market grappling with worst-case supply scenarios. Any meaningful disruption to Iranian oil exports — which have averaged more than one million barrels per day in recent years — or damage to energy infrastructure in neighboring Gulf states could tighten an already finely balanced global crude market. Beyond direct production losses, the conflict raises the specter of attacks on tanker routes and export terminals that serve as chokepoints for global energy flows.\n\nEnergy markets have historically been sensitive to geopolitical flare-ups in the Middle East, but the current conflict's scope — involving direct military engagement between the U.S. and a major regional power — represents a qualitatively different level of risk. Market participants are also watching closely for any retaliatory actions by Iran that could target oil facilities in Saudi Arabia, the United Arab Emirates, or other Gulf producers, reprising tactics seen in previous confrontations.\n\nThe surge in crude prices is poised to ripple through the broader global economy, adding inflationary pressure at a time when central banks in major economies are navigating delicate monetary policy paths. For consumers, the conflict's persistence could translate into higher fuel costs in the weeks ahead. Diplomats and defense officials have offered no indication that a ceasefire is imminent, suggesting that the geopolitical risk premium baked into oil prices may continue to build.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Middle East conflict",
+        "Iran",
+        "energy markets",
+        "Persian Gulf",
+        "geopolitics",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1763604434058-1610eb3e255b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8b2lsJTIwcHJpY2VzJTIwTWlkZGxlJTIwRWFzdCUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzI0NTQ3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T14:03:15.479Z"
+    },
+    {
+      "id": "ps-1772546608688-dufz",
+      "slug": "abu-dhabi-greenlights-tokenized-stock-trading-on-binance-via",
+      "headline": "Abu Dhabi Greenlights Tokenized Stock Trading on Binance via Ondo Finance",
+      "subheadline": "First-of-its-kind approval lets UAE institutions trade blockchain versions of Apple, Nvidia, and other major equities",
+      "body": "Abu Dhabi's financial regulator has approved the trading of tokenized equities on Binance's regulated platform for the first time, marking a significant milestone in the push to bring traditional stocks onto blockchain infrastructure.\n\nThe Financial Services Regulatory Authority of Abu Dhabi Global Market (ADGM) cleared Ondo Global Markets' tokenized stocks and exchange-traded funds for listing on Binance's FSRA-regulated Multilateral Trading Facility, the companies announced on Tuesday. The approved products include tokenized versions of shares in Amazon, Alphabet, Apple, Circle, Meta, Microsoft, Nvidia, and Tesla, as well as the Invesco QQQ ETF. The offerings are restricted to non-U.S. users.\n\nThe decision represents ADGM's inaugural approval of tokenized securities trading under its regulatory framework, opening the door for UAE-based financial institutions, intermediaries, and counterparties to transact in digital versions of publicly traded equities. For Binance, the approval is especially notable — the world's largest crypto exchange shuttered a previous tokenized stock offering nearly five years ago after drawing scrutiny from regulators in the United Kingdom and Germany. More recently, Binance had listed Ondo's tokenized equities on its Alpha platform, a venue designated for riskier, early-stage projects, before securing the formal regulatory clearance.\n\nOndo Finance structures its tokenized equities as equity-linked notes tied to underlying shares rather than direct ownership of the stock itself. The firm says it has processed more than $11 billion in cumulative trading volume and holds over $600 million in total value locked since launching its offering less than six months ago. Ondo also secured approval for its base securities prospectus in the European Union last year. \"Through offering Ondo tokenized stocks for trading on Binance, we are expanding access to hundreds of millions of investors,\" said Ian de Bode, president of Ondo Finance.\n\nThe broader tokenized securities market has now surpassed $1 billion in total value, according to data from RWA.xyz, attracting interest from crypto-native exchanges like Kraken, consumer brokerages such as Robinhood, and legacy market operators including Nasdaq and the New York Stock Exchange. Proponents argue that placing equities on blockchain rails can democratize investor access and enable assets to move more fluidly across trading and lending platforms, potentially bridging conventional stock markets with the growing decentralized finance ecosystem. Abu Dhabi's regulatory endorsement adds meaningful institutional credibility to that thesis.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tokenized securities",
+        "Binance",
+        "Ondo Finance",
+        "Abu Dhabi",
+        "ADGM",
+        "real world assets",
+        "blockchain"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/bc5aa69ef003089c695d73ed6bb3cc1eeff548c5-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/03/ondo-finance-tokenized-stocks-platform-on-binance-wins-regulatory-approval-in-abu-dhabi",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T14:03:28.688Z"
+    },
     {
       "id": "ps-1772545630595-scpb",
       "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
@@ -25,93 +155,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-03T13:47:10.595Z"
-    },
-    {
-      "id": "ps-1772545650000-pyls",
-      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
-      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks excel at extrapolation for fiber-reinforced composites, despite transformers' speed advantage",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the assumption that transformer architectures — the technology underpinning large language models — are universally superior for sequential prediction tasks.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first rigorous head-to-head evaluation of the two neural network paradigms for modeling short fiber reinforced composites (SFRCs), a class of materials widely used in automotive and aerospace applications. Simulating these materials at full resolution is computationally expensive because their mechanical response depends on loading history — a property known as path dependence — and on the complex microstructure of fibers embedded in a polymer matrix. Data-driven surrogate models have emerged as a promising shortcut, replacing costly numerical simulations with trained neural networks that approximate a material's homogenized stress-strain response.\n\nThe researchers tuned both architectures using Bayesian optimization across architectural hyperparameters — including the number of GRU layers, hidden size, attention heads, and encoder blocks — as well as training hyperparameters such as learning rate and batch size. On large interpolation datasets, transformer models remained competitive with RNNs in accuracy. But the gap widened dramatically in extrapolation regimes, where models must predict material responses outside the conditions seen during training. There, RNNs maintained their accuracy while transformers performed poorly, a critical distinction for engineering applications where materials may encounter unexpected loading conditions.\n\nTransformers did claim one clear advantage: inference speed. The transformer model delivered predictions in approximately 0.5 milliseconds, seven times faster than the RNN's 3.5 milliseconds per prediction. That speed stems from the transformer's ability to process entire sequences in parallel rather than stepping through them sequentially. RNNs also proved more data-efficient, achieving better accuracy when trained on smaller datasets — a practical consideration given that generating high-fidelity simulation data for composite materials is itself computationally costly.\n\nThe results carry implications beyond materials science. As transformer architectures continue to dominate machine learning research across domains, this study offers a measured counterpoint: for physics problems involving sequential, path-dependent processes, the older recurrent approach may still be the more reliable tool, particularly when robustness outside training distributions matters more than raw throughput.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "neural-networks",
-        "transformers",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1578918748648-7d30d67436c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjUyMTM1MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T13:47:30.000Z"
-    },
-    {
-      "id": "ps-1772545665215-xlo2",
-      "slug": "earth-may-harbor-triple-the-vertebrate-species-currently-rec",
-      "headline": "Earth May Harbor Triple the Vertebrate Species Currently Recognized",
-      "subheadline": "A sweeping meta-analysis of over 300 studies finds roughly two hidden 'cryptic' species for every known fish, bird, reptile, amphibian, or mammal",
-      "body": "Global vertebrate biodiversity could be roughly three times greater than current estimates suggest, according to a landmark analysis published in the Proceedings of the Royal Society B. Researchers at the University of Arizona found that for every recognized vertebrate species, approximately two additional genetically distinct species are hiding in plain sight — visually indistinguishable from their known counterparts but separated by evolutionary lineages stretching back more than a million years.\n\nThe study, led by graduate student Yinpeng Zhang and senior author John Wiens, a professor of ecology and evolutionary biology, synthesized findings from more than 300 published studies worldwide. The team found a remarkably consistent pattern: across fish, birds, mammals, reptiles, and amphibians, each morphologically defined species concealed an average of two so-called cryptic species. These organisms look nearly identical to known species under traditional taxonomic methods — sharing color patterns, body shapes, and scale arrangements — but DNA sequencing reveals deep genetic divergences invisible to the naked eye.\n\nThe Arizona mountain kingsnake offers a vivid illustration. For years, populations across the state were classified as a single species based on their matching red, black, and yellow-white banding. Molecular analysis in 2011 revealed that northern and southern populations were genetically distinct, leading to the southern snakes being formally elevated to a separate species, Lampropeltis knoblochi. \"If you compare those two mountain kingsnakes, they all look pretty much the same,\" Zhang said. \"But the molecular data show that there are distinct but cryptic northern and southern species.\"\n\nThe findings carry urgent conservation implications. When a single widespread species is split into multiple cryptic species, each newly recognized lineage occupies a smaller geographic range — a factor strongly correlated with extinction risk. Yet despite hundreds of molecular studies uncovering cryptic diversity, very few of these species have been formally described or named, leaving them without legal protection. Wiens warned that conservation breeding programs could inadvertently cross-breed individuals from different species if cryptic lineages go unidentified. \"If we don't know a species exists, then we can't protect it,\" he said.\n\nWith roughly 76,000 vertebrate species currently recognized, the study's ratio implies that the true number could approach 230,000 — a staggering expansion of known biodiversity made possible largely by the plummeting cost and increasing speed of DNA sequencing technology. The researchers also assessed the methodological approaches used across the literature to estimate cryptic species counts, providing a framework for standardizing future work in a field that remains, by Zhang's account, largely a byproduct of other taxonomic research rather than a dedicated discipline.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "biodiversity",
-        "cryptic species",
-        "vertebrates",
-        "DNA sequencing",
-        "conservation",
-        "taxonomy",
-        "extinction risk"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/lampropeltis-pyromelana.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T13:47:45.215Z"
-    },
-    {
-      "id": "ps-1772545680097-b4yi",
-      "slug": "cursor-hits-2-billion-in-annualized-revenue-doubling-in-thre",
-      "headline": "Cursor Hits $2 Billion in Annualized Revenue, Doubling in Three Months",
-      "subheadline": "The AI coding startup's rapid growth comes amid mounting competition from Anthropic's Claude Code and OpenAI's Codex",
-      "body": "Cursor, the AI-powered coding assistant, has crossed $2 billion in annualized revenue, with its run rate doubling over just the past three months, according to a report from Bloomberg citing a person familiar with the matter.\n\nThe disclosure comes at a pointed moment for the four-year-old startup. Viral social media posts last week questioned whether Cursor was losing momentum, pointing to high-profile individual developers defecting to rival tools — most notably Anthropic's Claude Code, which some users view as more competitively priced. The revenue figures appear designed to push back against that narrative, painting a picture of a company accelerating rather than stalling.\n\nA key factor in Cursor's growth trajectory is a strategic pivot toward enterprise customers. The company, founded in 2022, initially built its user base among individual developers but has spent the past year aggressively courting large corporate buyers. Those enterprise accounts now represent roughly 60 percent of revenue, according to Bloomberg. While some solo developers and smaller startups have migrated to alternatives like Claude Code, the churn appears concentrated among lower-spending users — not the sticky, high-value corporate contracts that increasingly drive Cursor's top line.\n\nThe AI-assisted coding market has become one of the most fiercely contested segments in the broader artificial intelligence landscape. Beyond Claude Code, OpenAI's Codex tool is competing for developer mindshare, and startups including Replit, Cognition, and Lovable are each carving out their own niches. The speed at which these tools are gaining adoption reflects a fundamental shift in how software is written, with AI pair-programming moving from novelty to standard workflow in many engineering organizations.\n\nCursor's financial momentum tracks with its soaring valuation. In November, the company raised $2.3 billion in a funding round co-led by Accel and Coatue that valued it at $29.3 billion. At a $2 billion revenue run rate, the startup trades at roughly 14.7 times annualized revenue — a premium multiple, but one that looks increasingly justified if the doubling pace holds. Cursor did not respond to requests for comment.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "annualized revenue",
-        "enterprise software",
-        "Claude Code",
-        "vibe coding",
-        "startups"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T13:48:00.097Z"
-    },
-    {
-      "id": "ps-1772545699297-2xtt",
-      "slug": "oil-prices-surge-as-escalating-u-s-israel-conflict-with-iran",
-      "headline": "Oil Prices Surge as Escalating U.S.-Israel Conflict With Iran Roils Energy Markets",
-      "subheadline": "Crude rallies for a second consecutive session as widening Middle East war threatens Persian Gulf energy infrastructure",
-      "body": "Oil prices climbed sharply for a second straight day as the expanding military conflict between the United States, Israel, and Iran sent shockwaves through global energy markets, with traders increasingly pricing in the risk of significant disruptions to Persian Gulf crude supplies.\n\nThe sustained rally reflects growing alarm over the scale of the confrontation, which market participants have described as staggering in its breadth and potential consequences for global energy flows. The Persian Gulf region, home to roughly a third of the world's seaborne oil trade, sits at the geographic center of the hostilities, raising the specter of supply bottlenecks or outright disruptions that could tighten an already finely balanced global crude market.\n\nThe escalation marks a dramatic intensification of tensions that have simmered in the region for years. With both the United States and Israel now actively prosecuting military operations against Iran, the conflict has moved well beyond the proxy skirmishes and targeted strikes that characterized earlier phases. Energy analysts warn that the risk premium embedded in oil prices could continue to climb if the fighting spreads further or directly impacts oil production facilities, export terminals, or critical shipping chokepoints such as the Strait of Hormuz, through which roughly 20 percent of the world's petroleum passes daily.\n\nThe rally compounds pressure on global consumers and central banks already navigating a complex economic landscape. Higher energy costs feed directly into inflation, potentially complicating monetary policy decisions at a moment when several major economies are seeking to sustain growth. For oil-importing nations across Asia and Europe, a prolonged price spike could weigh on industrial output and household budgets alike.\n\nMarket watchers are closely monitoring whether the conflict will prompt additional supply responses from other major producers, including Saudi Arabia and the United Arab Emirates, or whether OPEC+ members will adjust output targets in response to the disruption. For now, the dominant market narrative remains one of elevated uncertainty, with geopolitical risk reasserting itself as the primary driver of crude pricing after a period in which demand fundamentals and inventory data had held sway.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Iran conflict",
-        "Middle East",
-        "energy markets",
-        "Persian Gulf",
-        "geopolitics",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1713948414174-6d2746db3d17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzI1NDU2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T13:48:19.297Z"
     },
     {
       "id": "ps-1772545713892-xivd",
@@ -1039,49 +1082,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-02/treasuries-rout-shows-iran-reigniting-inflation-worry-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-02T22:48:30.844Z"
-    },
-    {
-      "id": "ps-1772490799403-l33x",
-      "slug": "oil-prices-surge-as-strait-of-hormuz-traffic-grinds-to-a-hal",
-      "headline": "Oil Prices Surge as Strait of Hormuz Traffic Grinds to a Halt",
-      "subheadline": "Middle East conflict disrupts the world's most critical oil chokepoint, threatening global energy supplies",
-      "body": "Crude oil prices spiked sharply on Saturday as escalating conflict in the Middle East brought shipping through the Strait of Hormuz to a near standstill, marking the first major disruption to global energy flows since hostilities intensified in the region.\n\nThe Strait of Hormuz, a narrow waterway between Iran and Oman through which roughly one-fifth of the world's daily oil consumption passes, has effectively ceased functioning as a viable commercial shipping route amid the ongoing military conflict. Compounding the crisis, a major Saudi Arabian refinery has also suffered disruptions, according to Bloomberg, further tightening an already strained global supply picture.\n\nThe twin shocks represent the scenario long feared by energy analysts and national security officials: a direct hit to the physical infrastructure and transit routes that underpin the global petroleum trade. The Strait of Hormuz handles approximately 20 million barrels of oil per day under normal conditions, making it the single most important chokepoint in the world energy system. Even partial disruptions have historically sent prices surging; a near-complete halt is unprecedented in modern energy markets.\n\nThe immediate price reaction underscores the vulnerability of global energy supply chains to geopolitical instability. Strategic petroleum reserves held by the United States, European nations, and members of the International Energy Agency may come under pressure if the disruption persists, though the scale and duration of the halt remain uncertain. Countries heavily dependent on Gulf oil imports — including major Asian economies such as Japan, South Korea, and India — face the most acute exposure to supply shortfalls.\n\nEnergy traders and analysts will be closely watching whether alternative shipping routes or diplomatic efforts can restore some flow through the strait in the coming days. In the meantime, the disruption is likely to ripple through downstream markets, affecting refined product prices, petrochemical feedstocks, and transportation costs worldwide. The crisis serves as a stark reminder that despite years of diversification efforts and the growth of renewable energy, the global economy remains deeply tethered to the free passage of oil through a handful of narrow waterways.",
-      "category": "markets",
-      "importance": 10,
-      "tags": [
-        "oil",
-        "crude oil",
-        "Strait of Hormuz",
-        "Middle East",
-        "energy markets",
-        "Saudi Arabia",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1772376920846-8925e03c3fcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxvaWwlMjBjcnVkZSUyMG9pbHxlbnwwfDB8fHwxNzcyNDkwNzk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-01/latest-oil-market-news-and-analysis-for-march-2",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T22:33:19.403Z"
-    },
-    {
-      "id": "ps-1772489920607-ti50",
-      "slug": "bitcoin-rallies-past-68-000-as-markets-absorb-iran-conflict",
-      "headline": "Bitcoin Rallies Past $68,000 as Markets Absorb Iran Conflict",
-      "subheadline": "Crypto and equities prove more resilient than feared after U.S. strikes on Iran, while strong economic data complicates Fed outlook",
-      "body": "Bitcoin surged above $68,600 on Monday, climbing 2.3% in 24 hours as global markets proved far more resilient than overnight futures had suggested following U.S. military strikes against Iran over the weekend.\n\nThe muted reaction across risk assets marked a sharp reversal from the panic signaled in overnight trading, when U.S. stock index futures had plunged more than 2%. By midday Monday, the Nasdaq was down just 0.1%, while the S&P 500 and Dow Jones Industrial Average posted only marginal losses. Traditional safe havens still attracted flows — gold gained 2% and crude oil jumped 7% — but the feared broad-based selloff failed to materialize. The U.S. dollar index posted one of its strongest sessions in weeks, rising 1%.\n\nCrypto-related equities outpaced the digital assets themselves. Circle, the stablecoin issuer trading under the ticker CRCL, led the sector with a 12% advance. Strategy, the Michael Saylor-led bitcoin treasury company formerly known as MicroStrategy, rose 6%, while Galaxy Digital added 4.7%. Ether, Solana, and XRP all posted gains in the range of 1% to 2%. One analyst cited by CoinDesk attributed bitcoin's 5% intraday spike primarily to short-covering rather than fresh buying, suggesting the rally may lack conviction from new capital inflows.\n\nAdding complexity to the macro picture, the ISM manufacturing PMI for February came in at 52.4, marking the first consecutive months of sector expansion since late 2022. That followed Friday's Chicago Business Barometer reading of 57.7, which reflected the strongest pace of U.S. manufacturing activity growth since May 2022. Combined with hotter-than-expected producer price index data from last week and oil prices elevated by geopolitical tensions, the economic backdrop appears to have effectively eliminated any remaining probability of a Federal Reserve rate cut at its March 18 meeting.\n\nUnder normal circumstances, diminished rate-cut expectations would weigh on speculative assets like bitcoin. But market participants may have already adjusted to a tighter-for-longer monetary stance, allowing crypto to trade more on geopolitical sentiment and technical flows. Separately, blockchain analytics firm Elliptic reported that Iranian crypto outflows spiked 700% in the minutes following the U.S.-Israeli airstrikes, underscoring digital assets' role as a rapid capital flight mechanism during geopolitical crises. With conflict in the Middle East intensifying and economic data running hot, bitcoin finds itself at the intersection of competing narratives — war-driven safe-haven demand against the headwind of persistently tight monetary policy.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "Iran",
-        "geopolitics",
-        "Federal Reserve",
-        "manufacturing PMI",
-        "crypto markets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/bb36c9290384741e4ed65159d58c7567fbd662e1-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/bitcoin-surges-above-usd68-000-amid-muted-stock-market-reaction-to-iran-war",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-02T22:18:40.607Z"
     }
   ]
 }
