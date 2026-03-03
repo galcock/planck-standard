@@ -1,28 +1,134 @@
 {
-  "lastUpdated": "2026-03-03T19:33:23.762Z",
+  "lastUpdated": "2026-03-03T19:48:27.033Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772566323930-0kx4",
-      "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
-      "headline": "U.S. and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Massive joint military operation triggers Iranian retaliatory attacks across the region as conflict enters fourth day",
-      "body": "The United States and Israel launched a devastating joint military operation against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and striking targets across multiple Iranian cities in what President Donald Trump has dubbed \"Operation Epic Fury.\"\n\nFootage verified by the BBC and international news agencies shows large explosions and widespread destruction in several Iranian cities, including Tehran, where chaotic scenes unfolded in residential neighborhoods following the strikes. Iran's state television confirmed the death of Khamenei, an event that represents the most consequential targeted killing in the Middle East in decades. The U.S. military has released its own video purporting to show military targets being hit, while Iranian forces have responded with retaliatory strikes across the region, including drone attacks — one of which was filmed crash-landing in Kuwait.\n\nThe conflict has already claimed American lives. President Trump, directing operations from Palm Beach, Florida, acknowledged that three U.S. service members have been killed in action during the second day of strikes and warned that \"there will likely be more\" casualties. In a video statement posted to Truth Social, Trump accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States\" and announced that \"major combat operations\" had begun, with multiple reports indicating the administration is pursuing regime change in Tehran.\n\nThe escalation has sent shockwaves through the region and beyond. BBC correspondent Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian retaliatory strikes targeted Israel. Across American cities, protesters rallied against the military action on Saturday, with additional demonstrations planned. The strikes mark a dramatic intensification of tensions that have simmered in the Middle East for years, raising urgent questions about the scope and duration of the conflict.\n\nThe operation comes at a particularly volatile moment in global security. The New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. Analysts and diplomats are now assessing whether the Iran strikes could widen into a broader regional war, with BBC chief international correspondent Lyse Doucet noting that the immediate humanitarian and geopolitical consequences are still unfolding rapidly.",
+      "id": "ps-1772567227936-dxvn",
+      "slug": "us-and-israel-kill-iran-s-supreme-leader-in-massive-strike-c",
+      "headline": "US and Israel Kill Iran's Supreme Leader in Massive Strike Campaign",
+      "subheadline": "Ayatollah Ali Khamenei confirmed dead as 'Operation Epic Fury' triggers Iranian retaliatory attacks across the region",
+      "body": "The United States and Israel launched a devastating wave of military strikes against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and marking a dramatic escalation that has plunged the Middle East into open war. The assault, dubbed Operation Epic Fury, targeted multiple cities across Iran and prompted immediate retaliatory attacks from Tehran.\n\nFootage verified by the BBC and international news agencies shows large explosions erupting across several Iranian cities, including Tehran, where at least one strike hit a residential neighborhood. Iranian state television confirmed Khamenei's death, a development that fundamentally alters the geopolitical landscape of the region. The U.S. military has released its own video purporting to show military targets being struck, while President Donald Trump announced from Palm Beach, Florida, that \"major combat operations\" had begun, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\"\n\nThe conflict has already exacted a cost on American forces. Three U.S. service members were killed in action on the second day of operations, with Trump warning in a video statement posted to Truth Social that \"there will likely be more\" American casualties. Iran has responded with a barrage of attacks across the region, including drone strikes — one of which was captured on video crash-landing in Kuwait. In Tel Aviv, BBC presenter Clive Myrie reported from inside a bomb shelter as Iranian retaliatory missiles were launched toward Israel.\n\nThe strikes have ignited fierce debate both domestically and internationally. Protesters rallied across American cities on Saturday, with additional demonstrations planned, while Trump signaled ambitions that may extend to regime change in Iran. BBC correspondents reported that the president appears to be directing military operations from his Florida residence, echoing a command style seen in previous administrations during moments of crisis.\n\nAnalysts are now assessing what comes next in a conflict that has already reshaped the Middle East within days. The killing of Khamenei — Iran's paramount leader since 1989 — creates a power vacuum in a nation with significant military capabilities, including ballistic missiles and proxy forces across the region. The question of whether the conflict remains a targeted campaign or escalates into a broader war now dominates strategic calculations in Washington, Jerusalem, and capitals worldwide.",
       "category": "breaking",
       "importance": 10,
       "tags": [
         "Iran",
-        "United States",
+        "US military strikes",
+        "Khamenei killed",
+        "Middle East war",
         "Israel",
-        "Khamenei",
-        "Middle East conflict",
         "Trump",
-        "military strikes"
+        "Operation Epic Fury"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T19:32:03.930Z"
+      "publishedAt": "2026-03-03T19:47:07.936Z"
+    },
+    {
+      "id": "ps-1772567245550-cuew",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
+      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
+      "subheadline": "CASCADE uses advection-based super-resolution to enhance coarse climate data while conserving mass and energy",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in weather and climate modeling: generating high-resolution detail from coarse data without violating the laws of physics.\n\nIntroduced in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — takes a fundamentally different approach to the \"downscaling\" problem that has long challenged atmospheric scientists. Rather than using neural networks to hallucinate fine-grained detail pixel by pixel, as conventional super-resolution methods do, the framework treats the enhancement process as an explicit transport operation. It iteratively moves coarse-scale information along learned velocity fields using semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The result is high-resolution output that respects physical constraints including mass and energy conservation — properties that standard image super-resolution methods routinely violate.\n\nThe approach mirrors a well-known challenge in numerical weather prediction called the closure problem, in which atmospheric motion must be decomposed into large-scale resolved flows and smaller unresolved subgrid components. CASCADE formalizes this decomposition within its architecture and enforces consistency with the original low-resolution data through what the paper describes as an \"assimilation-style innovation step,\" drawing an analogy to data assimilation techniques used in operational forecasting.\n\nTested on the Storm Event Imagery (SEVIR) radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed strong baselines across a comprehensive suite of metrics. These included standard continuous measures such as peak signal-to-noise ratio (PSNR), structural similarity index (SSIM), and mean absolute error, as well as threshold-based skill scores critical for severe weather applications, including the critical success index, Heidke skill score, and probability of detection. The framework also offers a degree of interpretability unusual for deep learning models, since its internal velocity and correction fields can be directly visualized.\n\nThe work addresses a growing concern in the application of AI to weather science: that generative models, while producing visually impressive output, can fabricate extreme features that misrepresent real hazards. For severe storms, where rare and localized high-intensity structures drive the most consequential impacts, temporally inconsistent synthetic detail could lead forecasters and emergency managers astray. By encoding advection — the physical transport of atmospheric quantities by wind — as the fundamental operator rather than learning it implicitly, CASCADE produces reconstructions that remain temporally coherent across successive time steps.\n\nThe framework is positioned as broadly applicable to advection-dominated phenomena in both atmospheric and oceanic science, potentially offering a physics-respecting alternative to purely data-driven downscaling for climate projections, regional forecasting, and extreme event analysis.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "climate modeling",
+        "machine learning",
+        "super-resolution",
+        "weather forecasting",
+        "atmospheric physics",
+        "downscaling"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1748375948805-ac45ae93a0bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxjbGltYXRlJTIwbW9kZWxpbmclMjBtYWNoaW5lJTIwbGVhcm5pbmd8ZW58MHwwfHx8MTc3MjUxODYzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T19:47:25.550Z"
+    },
+    {
+      "id": "ps-1772567262696-q519",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that reveals how polyamines — including the popular supplement spermidine — can switch from supporting healthy cellular maintenance to fueling aggressive tumor growth.\n\nThe study, led by Associate Professor Kyohei Higashi and published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology. Polyamines, which are naturally present in every living cell, have been celebrated in recent years for their ability to stimulate autophagy, a cellular recycling process that clears damaged components and is associated with healthy aging. Yet cancer researchers have consistently observed elevated polyamine levels in tumors, where the molecules correlate with more aggressive disease. The new findings explain this contradiction by identifying two nearly identical but functionally distinct proteins — eIF5A1 and eIF5A2 — that serve as the molecular switch between beneficial and harmful effects.\n\nUsing high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines, the team demonstrated that polyamines activate fundamentally different biological pathways depending on cellular context. In healthy tissue, polyamines activate eIF5A1, which enhances mitochondrial function through autophagy — the mechanism behind their anti-aging reputation. In cancerous tissue, however, polyamines boost production of eIF5A2, a closely related protein sharing 84% of the same amino acid sequence, which instead promotes glycolysis and drives rapid cell proliferation. The researchers also identified the mechanism behind this shift: polyamines suppress a small regulatory RNA molecule called miR-6514-5p that normally acts as a brake on eIF5A2 production, effectively unleashing the cancer-promoting protein.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The team further identified five ribosomal proteins, including RPS 27A and RPL22L1, that polyamines elevate in cancer cells and that are associated with disease severity.\n\nThe findings carry immediate implications for both supplement safety and cancer therapeutics. For the growing market of consumers taking spermidine supplements for anti-aging purposes, the research underscores that the same compounds could potentially accelerate growth in undetected precancerous or cancerous tissue. On the treatment side, the discovery positions the eIF5A2-ribosome interaction as a promising drug target — one that could theoretically be inhibited to slow tumor progression without disrupting the beneficial aging pathways mediated by eIF5A1. The study was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2",
+        "Tokyo University of Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T19:47:42.696Z"
+    },
+    {
+      "id": "ps-1772567278899-v3vv",
+      "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
+      "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
+      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal how digital warfare supported kinetic military action",
+      "body": "Coordinated cyber operations significantly aided the U.S.-Israeli military campaign against Iran that began Saturday, with the chairman of the Joint Chiefs of Staff confirming that hacking disrupted Iranian communications and sensor networks ahead of the bombing strikes that killed Supreme Leader Ali Khamenei and senior government officials.\n\nGen. Dan Caine stated at a press conference that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran, \"leaving the adversary without the ability to see, coordinate or respond effectively.\" The explicit acknowledgment from America's top military officer marks one of the clearest public confirmations of offensive cyber capabilities being deployed in concert with conventional airstrikes during a major conflict.\n\nThe digital dimension of the campaign extended well beyond battlefield disruption. According to the Financial Times, Israeli intelligence used access to hacked traffic cameras across Tehran — a network they had reportedly penetrated years ago — to support the operation that killed Khamenei. Israel had also \"deeply penetrated mobile phone networks\" inside the country, the paper reported, citing two anonymous sources. In a separate operation, after Israeli jets bombed the offices of two state-owned Iranian broadcasting channels, the Israel Defense Forces hijacked the broadcast signal to air speeches from President Donald Trump and Prime Minister Benjamin Netanyahu urging Iranians to rise against their government.\n\nPsychological operations also targeted Iranian civilians directly. On the first day of the war, hackers breached BadeSaba Calendar, a widely used Iranian prayer app, sending messages to all users calling on security forces to \"lay down your weapons or join the forces of liberation.\" The breach appeared designed to reach pro-regime audiences who might be reachable through religious platforms. Iranian hackers, meanwhile, have been largely ineffective in mounting a counter-response, according to Bloomberg — possibly hampered by the near-total internet shutdown imposed inside the country.\n\nAnalysts caution against overstating the role of cyber operations in a conflict defined primarily by airstrikes that have killed hundreds, including at least 168 people at a girls' school. Authorities may have incentives to amplify the narrative of digital dominance as a form of intimidation. A similar dynamic played out during the U.S. operation to abduct Venezuelan President Nicolás Maduro earlier this year, when officials suggested hackers caused power outages in Caracas — though subsequent analysis indicated fighter jets destroying electrical substations were the far more likely cause. Nonetheless, the Iran campaign represents the most visible integration of cyber and kinetic military operations in a major armed conflict to date, setting a precedent likely to reshape how nations prepare for and wage future wars.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran war",
+        "cyber warfare",
+        "U.S. military",
+        "Israel",
+        "cybersecurity",
+        "psyops"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T19:47:58.899Z"
+    },
+    {
+      "id": "ps-1772567293692-pglk",
+      "slug": "stocks-recover-from-morning-selloff-as-treasury-yield-surge-",
+      "headline": "Stocks Recover From Morning Selloff as Treasury Yield Surge Eases",
+      "subheadline": "Iran conflict continues to whipsaw global markets, with oil pulling back from a 9% spike on shipping lane speculation",
+      "body": "Global equity markets clawed back losses on Monday after an early selloff gave way to cautious stabilization, as a sharp spike in Treasury yields moderated amid volatile trading driven by the ongoing Iran conflict.\n\nThe session began with broad-based selling pressure as investors grappled with escalating geopolitical risk, but stocks pared their declines through the afternoon as bond markets found tentative footing. Treasury yields, which had surged in early trading, pulled back from their highs, offering some relief to risk assets that had come under intense pressure.\n\nOil markets proved equally turbulent. Crude prices had spiked as much as 9% on speculation that the United States could pursue military action to secure critical shipping lanes disrupted by the Iran war. However, that rally was trimmed as traders reassessed the likelihood and timing of direct U.S. intervention, though prices remained elevated as the conflict continues to threaten global energy supply chains.\n\nThe whipsaw moves across stocks, bonds, and commodities underscore the degree to which the Iran conflict has become the dominant force driving global markets. Investors are navigating an environment where geopolitical headlines can trigger sudden, outsized swings in asset prices, making positioning extraordinarily difficult. The interplay between rising energy costs, higher yields, and equity valuations has created a feedback loop that amplifies volatility in every direction.\n\nMarket strategists noted that while the partial recovery in equities offered some comfort, the underlying risk profile remains sharply elevated. Shipping disruptions in the region have already begun filtering into broader inflation expectations, complicating the outlook for central bank policy at a time when economic growth was already showing signs of strain. With no diplomatic resolution in sight, traders are bracing for continued turbulence as the conflict's economic ripple effects deepen across global markets.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "stocks",
+        "Treasury yields",
+        "Iran conflict",
+        "oil prices",
+        "market volatility",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1664995190096-8978a56abc95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8c3RvY2tzJTIwVHJlYXN1cnklMjB5aWVsZHN8ZW58MHwwfHx8MTc3MjU2NzI5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T19:48:13.692Z"
+    },
+    {
+      "id": "ps-1772567306934-3u7s",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-transacti",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Transactions",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges AML rules for issuers",
+      "body": "The Financial Action Task Force, the Paris-based body that sets global anti-money laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors.\n\nIn a 42-page report, FATF said dollar-pegged tokens now account for the bulk of illegal activity in digital asset markets, citing blockchain analytics firm Chainalysis's finding that stablecoins represented 84% of $154 billion in illicit virtual asset transaction volume during 2025. A separate analysis by TRM Labs, published in mid-February, estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had previously estimated roughly $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone.\n\nThe report singled out Tether's USDT as a token used by North Korean and Iranian actors for proliferation financing and cross-border payments tied to sanctioned activity. Sanctions-related transactions accounted for 86% of all illicit crypto flows, according to the TRM Labs data. FATF identified peer-to-peer transfers via unhosted wallets — those not controlled by a regulated intermediary — as a \"key vulnerability\" because such transactions can bypass anti-money laundering controls entirely.\n\nWith the total stablecoin market now exceeding $300 billion and monthly transaction volumes surpassing $1 trillion on multiple occasions last year, FATF urged national regulators to move quickly. The watchdog stopped short of recommending blanket blacklisting of specific tokens but called on countries to impose anti-money laundering obligations on stablecoin issuers. It also recommended that regulators consider requiring tools such as wallet freezing capabilities and restrictions or bans on certain smart-contract functions that facilitate anonymous transfers.\n\nThe report arrives at a moment of regulatory flux for digital assets in the United States, where the Commodity Futures Trading Commission and Securities and Exchange Commission are jointly developing new crypto policies. Whether Washington heeds FATF's call for tighter stablecoin oversight could prove consequential: the U.S. dollar underpins virtually all major stablecoins, giving American regulators outsized leverage over a market that FATF says is increasingly exploited by some of the world's most sanctioned regimes.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "FATF",
+        "money laundering",
+        "sanctions",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T19:48:26.934Z"
     },
     {
       "id": "ps-1772566340507-g66c",
@@ -46,48 +152,6 @@
       "publishedAt": "2026-03-03T19:32:20.507Z"
     },
     {
-      "id": "ps-1772566356253-zi17",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
-      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that reveals how polyamines can simultaneously support healthy aging and fuel aggressive tumor growth.\n\nThe study, led by Associate Professor Kyohei Higashi and published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology. Polyamines — particularly spermidine, a compound found naturally in all living cells and increasingly marketed as a dietary supplement — have been celebrated for their ability to stimulate autophagy, the cellular housekeeping process that clears damaged components and is closely associated with longevity. Yet cancer researchers have consistently observed elevated polyamine levels in aggressive tumors, raising uncomfortable questions about how the same molecules could promote both health and disease.\n\nThe answer, Higashi's team found, lies in two nearly identical proteins that respond to polyamines in fundamentally different ways. In healthy tissue, polyamines activate a protein called eIF5A1, which enhances mitochondrial function through autophagy — the mechanism underlying their anti-aging reputation. In cancerous tissue, however, polyamines instead boost production of a close cousin, eIF5A2, which shares 84 percent of its amino acid sequence but drives an entirely separate program: ramping up glycolysis to fuel rapid cell proliferation. The researchers identified the molecular switch responsible, showing that polyamines suppress a small regulatory RNA molecule called miR-6514-5p that normally keeps eIF5A2 production in check. With that brake removed, cancer cells produce eIF5A2 in abundance, along with several ribosomal proteins linked to tumor severity.\n\nThe team reached these conclusions through high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines. By first depleting polyamine levels with a drug and then restoring them with spermidine, the researchers could isolate the compounds' specific effects on cancer metabolism. \"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi explained, noting that the context in which these molecules operate determines whether they protect or harm.\n\nThe findings carry implications both for oncology and for the growing consumer market in polyamine-based supplements. The research identifies eIF5A2 and its interaction with ribosomes as a promising selective target for cancer therapy — one that could potentially be disrupted without interfering with the beneficial eIF5A1 pathway. At the same time, the results suggest that individuals with undetected cancers or precancerous conditions could theoretically accelerate tumor development by supplementing with spermidine, a prospect that warrants further clinical investigation. The study was supported by Japan's Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T19:32:36.253Z"
-    },
-    {
-      "id": "ps-1772566371213-z71f",
-      "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
-      "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
-      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal the expanding digital dimension of modern warfare",
-      "body": "Coordinated cyber operations played a significant supporting role in the U.S.-Israeli military campaign against Iran that began on Saturday, with hacking efforts targeting everything from Tehran's traffic camera network to state television broadcasts and a popular prayer app, according to multiple reports and official statements.\n\nGen. Dan Caine, chairman of the Joint Chiefs of Staff, confirmed that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran ahead of the bombing campaign that killed Supreme Leader Ali Khamenei and several senior government officials. The objective, Caine said at a press conference, was to \"disrupt, disorient and confuse the enemy,\" leaving Iranian forces unable to \"see, coordinate or respond effectively.\" The strikes also hit military and civilian targets across the country, including a girls' school where at least 168 children and adults were killed.\n\nSome of the most striking cyber operations involved direct coordination with kinetic strikes. After Israeli jets bombed the offices of two state-owned Islamic Republic of Iran Broadcasting channels, the Israel Defense Forces hijacked the broadcasts to air speeches from President Donald Trump and Prime Minister Benjamin Netanyahu urging Iranians to turn against the regime, according to The Jerusalem Post. Separately, the Financial Times reported that Israeli intelligence had leveraged years of access to Tehran's hacked traffic camera network — along with deep penetration of mobile phone networks — to support the operation that killed Khamenei.\n\nPsychological operations extended to the digital lives of ordinary Iranians. On the first day of the war, hackers breached BadeSaba Calendar, a widely used Iranian prayer app, pushing messages to all users calling on security forces to \"lay down your weapons or join the forces of liberation.\" The messages were clearly designed to target pro-regime segments of the population. Meanwhile, Iranian government hackers have been \"largely ineffective\" in their response, Bloomberg reported, possibly because the country's own internet shutdowns have hampered their capabilities.\n\nAnalysts caution against overstating the impact of cyber operations in a conflict dominated by airstrikes and conventional military force. Authorities may have incentives to exaggerate digital capabilities for psychological effect — a dynamic that appeared to play out during the recent U.S. operation against Venezuelan President Nicolás Maduro, where claims of American hackers causing power outages in Caracas were likely overstated. Still, the Iran campaign represents the most extensive publicly documented integration of cyber and kinetic warfare to date, marking a significant evolution in how nations wage war in the digital age.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran war",
-        "cyber warfare",
-        "Israel",
-        "US military",
-        "cybersecurity",
-        "psyops"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T19:32:51.213Z"
-    },
-    {
       "id": "ps-1772566387795-7oi1",
       "slug": "emerging-market-currencies-hit-hardest-since-2020-as-iran-wa",
       "headline": "Emerging-Market Currencies Hit Hardest Since 2020 as Iran War Spurs Selloff",
@@ -107,49 +171,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/emerging-assets-extend-slide-as-inflation-risks-get-priced-in",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T19:33:07.795Z"
-    },
-    {
-      "id": "ps-1772566403664-i33a",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based body that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, with sanctioned actors in Iran and North Korea among the primary users.\n\nIn a 42-page report published March 3, FATF said dollar-pegged tokens now account for the overwhelming majority of illegal crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. Separately, TRM Labs reported that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated approximately $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report singled out Tether's USDT as a token of particular concern, noting its use by North Korean and Iranian actors for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers conducted through unhosted wallets — those not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the stablecoin market now exceeding $300 billion in total capitalization and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged member countries to move quickly. The organization recommended that jurisdictions impose anti-money laundering obligations directly on stablecoin issuers, consider mandating wallet-freezing capabilities, and evaluate restricting or banning certain smart-contract functions that facilitate anonymous transfers. The task force stopped short, however, of calling for blanket blacklisting of stablecoins.\n\nThe report arrives at a moment of broader regulatory recalibration in the digital asset space. In the United States, the Commodity Futures Trading Commission signaled this week that policies enabling crypto perpetual futures are imminent, while both the CFTC and SEC continue to develop frameworks under their joint Project Crypto initiative. FATF's findings may add urgency to legislative efforts in Washington and other capitals to bring stablecoin issuers under comprehensive financial oversight — a process that has proceeded fitfully despite years of discussion. For an industry eager to establish legitimacy, the scale of illicit activity documented in the report represents both a regulatory challenge and a reputational burden that market participants will find increasingly difficult to dismiss.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "FATF",
-        "stablecoins",
-        "money laundering",
-        "sanctions",
-        "crypto regulation",
-        "USDT",
-        "illicit finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T19:33:23.664Z"
-    },
-    {
-      "id": "ps-1772565439849-9xle",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
-      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
-      "subheadline": "CASCADE uses advection-based approach to generate high-resolution storm imagery that conserves mass and energy",
-      "body": "A new machine learning framework called CASCADE takes a fundamentally different approach to enhancing the resolution of weather and climate data, treating the problem not as image sharpening but as a physical transport process — and early results suggest it outperforms existing methods at resolving severe convective storms.\n\nAlexander Kovalenko, the researcher behind the work published on the arXiv preprint server, designed CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — to address a persistent weakness in AI-driven weather modeling. Standard super-resolution techniques borrowed from computer vision tend to \"hallucinate\" fine-scale details that look plausible but violate basic physical laws like conservation of mass and energy. For extreme weather events such as severe thunderstorms, where localized, high-intensity features drive real-world impacts, such artifacts can misrepresent actual hazards.\n\nCASCADE sidesteps this problem by reconstructing fine-grained structure through an iterative advection process. Rather than generating high-frequency detail pixel by pixel, the system moves coarse-resolution information along learned velocity fields using semi-Lagrangian warping — a technique rooted in computational fluid dynamics. The architecture explicitly separates motion into resolved large-scale components and unresolved subgrid components, mirroring the closure problem that has long challenged numerical weather prediction. An assimilation-style correction step, analogous to techniques used in operational data assimilation, ensures the high-resolution output remains consistent with the original low-resolution input.\n\nTested on the Storm Event Imagery Dataset for Severe Weather (SEVIR) at 4x super-resolution, CASCADE outperformed strong baselines across both standard image quality metrics — including peak signal-to-noise ratio, structural similarity, and mean absolute error — and meteorologically meaningful skill scores such as critical success index, Heidke skill score, and probability of detection. Crucially, the framework also produces interpretable diagnostics: the learned velocity and correction fields can be visualized, giving forecasters insight into how the model arrives at its reconstructions.\n\nThe work reflects a growing recognition in the geosciences AI community that physics-informed architectures can deliver not just better performance metrics but more trustworthy outputs. By encoding advection as the fundamental operator rather than leaving the network to discover transport dynamics implicitly, CASCADE produces temporally coherent sequences that avoid the flickering artifacts common in frame-by-frame super-resolution approaches. The framework is designed for broad applicability across advection-dominated phenomena in both atmospheric and oceanic science, potentially offering a new tool for regional climate downscaling, real-time radar enhancement, and ocean current modeling.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine learning",
-        "weather modeling",
-        "super-resolution",
-        "climate downscaling",
-        "atmospheric physics",
-        "numerical weather prediction"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1747949322203-b39f890636d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWFjaGluZSUyMGxlYXJuaW5nJTIwd2VhdGhlciUyMG1vZGVsaW5nfGVufDB8MHx8fDE3NzI1NjU0Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T19:17:19.849Z"
     },
     {
       "id": "ps-1772565485499-9re1",
@@ -686,28 +707,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/uae-markets-to-resume-trading-march-4-after-iran-crisis-closure",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T14:48:21.414Z"
-    },
-    {
-      "id": "ps-1772547487210-pjrx",
-      "slug": "stocks-and-bonds-sell-off-as-iran-war-drives-oil-surge-infla",
-      "headline": "Stocks and Bonds Sell Off as Iran War Drives Oil Surge, Inflation Fears",
-      "subheadline": "Four days of conflict with no de-escalation in sight rattles global markets and threatens prolonged energy disruption",
-      "body": "Global stocks and bonds extended a sharp selloff on Monday as the war in Iran entered its fourth day with no apparent path toward de-escalation, sending oil prices surging and reigniting fears of a sustained inflationary shock to the world economy.\n\nThe simultaneous decline across equities and fixed income — a pattern that signals broad risk aversion rather than a simple rotation between asset classes — reflects growing investor alarm that the conflict could produce a prolonged disruption to global energy supplies. Iran, one of the world's largest oil producers and a critical node in Middle Eastern energy infrastructure, sits at the heart of a region responsible for roughly a third of global crude output. Any extended interruption to flows through the Strait of Hormuz or damage to Iranian production capacity could send benchmark oil prices substantially higher from already elevated levels.\n\nThe dual selloff in stocks and bonds underscores a particularly painful dynamic for portfolio managers: rising energy costs threaten to push inflation higher, constraining central banks' ability to cut interest rates even as economic growth faces headwinds from geopolitical uncertainty. Treasury yields climbed as traders priced in the possibility that the Federal Reserve and other major central banks may be forced to hold rates steady — or even tighten further — if energy-driven inflation proves persistent. That prospect weighed heavily on equity valuations, particularly among growth and technology stocks sensitive to higher discount rates.\n\nMarket participants are closely watching diplomatic channels for any indication that the conflict might be contained. So far, four days of hostilities have produced no ceasefire framework or credible negotiation pathway, leaving traders to price in worst-case scenarios for energy supply. Crude oil futures have surged since fighting began, though specific price levels remain fluid as the situation evolves hour by hour.\n\nThe turmoil marks one of the most significant geopolitical shocks to financial markets in recent years, recalling the energy crises that followed Russia's invasion of Ukraine in 2022. Analysts warn that if the conflict drags on, the economic consequences could extend well beyond energy markets, potentially tipping vulnerable economies into recession while simultaneously fueling the kind of cost-push inflation that central banks are least equipped to combat. Investors are broadly retreating to cash and safe-haven assets as they await clarity on a crisis that, for now, shows no signs of resolution.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "Iran war",
-        "oil prices",
-        "stocks selloff",
-        "bonds",
-        "inflation",
-        "geopolitical risk",
-        "energy markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1713948414174-6d2746db3d17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8SXJhbiUyMHdhciUyMG9pbCUyMHByaWNlc3xlbnwwfDB8fHwxNzcyNTM4NTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T14:18:07.210Z"
     },
     {
       "id": "ps-1772545630595-scpb",
