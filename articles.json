@@ -1,7 +1,72 @@
 {
-  "lastUpdated": "2026-03-03T12:03:46.785Z",
+  "lastUpdated": "2026-03-03T12:18:45.015Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772540259891-e04b",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
+      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
+      "subheadline": "CASCADE uses physics-based advection rather than pixel-level guessing to sharpen coarse climate data for extreme weather events",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in weather and climate modeling: how to add realistic fine-scale detail to coarse-resolution data without inventing features that violate the laws of physics.\n\nPresented in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — reframes the problem of spatial super-resolution as an explicit transport process. Rather than treating each pixel independently, as conventional image super-resolution methods do, the system reconstructs fine-grained atmospheric structure by moving coarse information along learned velocity fields using a technique called semi-Lagrangian warping. The approach mirrors a concept familiar to numerical weather prediction: the closure problem, in which atmospheric motion is decomposed into resolved large-scale flows and unresolved subgrid-scale components.\n\nThe distinction matters most for extreme weather events. Severe convective storms, for instance, feature rare, highly localized, and intense structures — the kind of features that standard AI upscaling methods tend to \"hallucinate,\" generating plausible-looking but physically impossible detail. CASCADE enforces mass and energy conservation and maintains temporal coherence, meaning its enhanced imagery evolves realistically from one time step to the next rather than producing frame-by-frame artifacts. An assimilation-style correction step ensures the high-resolution output remains consistent with the original low-resolution input, borrowing a page from data assimilation techniques used in operational forecasting.\n\nTested on the Storm Event Imagery for Deep Learning (SEVIR) radar dataset at 4x super-resolution of severe convective storms, CASCADE outperformed strong baselines across a suite of standard metrics, including peak signal-to-noise ratio, structural similarity, and critical success index — a threshold-based score particularly relevant for forecasting dangerous weather. The framework also produces interpretable diagnostic outputs, including visualizable velocity and correction fields, giving meteorologists insight into how the model arrives at its results.\n\nThe work addresses a growing need as climate models and weather forecasts increasingly rely on AI to bridge scale gaps. Global climate models typically operate at resolutions of tens of kilometers, far too coarse to capture the thunderstorms, atmospheric rivers, and ocean eddies that drive real-world impacts. By encoding the physics of advection directly into its architecture rather than hoping a neural network learns it implicitly, CASCADE offers a path toward downscaling that atmospheric scientists can trust — and, critically, verify.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine learning",
+        "weather modeling",
+        "climate downscaling",
+        "super-resolution",
+        "atmospheric physics",
+        "extreme weather"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1737911330147-461b33215deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwbW9kZWxpbmd8ZW58MHwwfHx8MTc3MjUzNjY0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T12:17:39.891Z"
+    },
+    {
+      "id": "ps-1772540279122-xxbx",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "Polyamines — natural molecules celebrated in the longevity supplement market for their ability to promote cellular cleanup and healthy aging — can also turbocharge cancer growth by activating a nearly identical but functionally distinct protein, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology: how spermidine and related polyamines can simultaneously appear to extend healthy lifespan while being consistently elevated in aggressive tumors. The answer, according to Associate Professor Kyohei Higashi and his team, lies in two proteins that share 84% of their amino acid sequence but carry out starkly different jobs. In normal tissues, polyamines activate a protein called eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and supports mitochondrial energy production. In cancerous tissues, however, polyamines instead boost production of a close cousin, eIF5A2, which hijacks the cell's translational machinery to accelerate tumor proliferation.\n\nThe researchers arrived at this conclusion through a large-scale proteomic analysis of human cancer cell lines, tracking changes across more than 6,700 proteins. After depleting polyamines from cancer cells and then restoring them with spermidine, the team found that the molecules primarily enhanced glycolysis — the rapid, oxygen-independent energy pathway favored by tumors — rather than the mitochondrial respiration associated with healthy aging. Polyamines also elevated levels of eIF5A2 and five ribosomal proteins linked to cancer severity, including RPS27A, RPL36AL, and RPL22L1. Crucially, the researchers identified the mechanism: a small regulatory RNA molecule called miR-6514-5p normally suppresses eIF5A2 production, but polyamines disrupt this molecular brake, allowing the cancer-associated protein to accumulate.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context is paramount — the same supplement molecule can yield protective or harmful effects depending on the state of the tissue it encounters.\n\nThe findings carry implications both for the booming polyamine supplement industry and for oncology. Higashi's team proposes that the interaction between eIF5A2 and ribosomes represents a selective therapeutic target: blocking eIF5A2 could theoretically slow cancer progression without undermining the beneficial anti-aging effects mediated by eIF5A1. For consumers of spermidine supplements, the results inject a note of caution, underscoring the need for further clinical investigation into the safety of polyamine supplementation, particularly in individuals with undetected or precancerous conditions. The study was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "eIF5A2",
+        "longevity supplements"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T12:17:59.122Z"
+    },
+    {
+      "id": "ps-1772540324941-1c0m",
+      "slug": "bitcoin-slides-below-67-000-as-middle-east-oil-shock-sparks-",
+      "headline": "Bitcoin Slides Below $67,000 as Middle East Oil Shock Sparks Flight to Safety",
+      "subheadline": "Iran's threat to close the Strait of Hormuz sends Brent crude surging 13% in five days, triggering broad risk-asset selloff",
+      "body": "Bitcoin dropped more than 3.5% to roughly $66,900 on Monday as an escalating military conflict between the United States, Israel, and Iran rattled global markets, sending investors fleeing from risk assets and into the relative safety of the U.S. dollar and Treasuries. The cryptocurrency had briefly approached $70,000 earlier in the week before reversing sharply as hostilities intensified over the weekend.\n\nAt the center of the turmoil is Iran's threat to shut the Strait of Hormuz, the narrow waterway through which approximately one-fifth of the world's oil supply passes daily. U.S.-Israeli airstrikes on Tehran and Beirut, combined with retaliatory drone attacks that hit the American embassy in Riyadh, prompted the closure of U.S. embassies in Saudi Arabia and Kuwait. Brent crude surged more than 13% over five sessions, while freight costs for large oil tankers hit record levels as several shipping operators suspended activity in the region. The dollar index climbed nearly 1% to 99.25, and the U.S. 10-year Treasury yield rose 9 basis points to 4.05%, reflecting renewed fears that spiking energy costs could reignite inflation and constrain central bank easing.\n\nThe damage extended well beyond crypto. European and Asian equity markets suffered steep losses — the Nikkei 225 fell 3.06%, the Euro Stoxx 50 dropped 3.49%, and London's FTSE 100 shed 2.76%. U.S. equity futures pointed to significant opening declines, with E-mini S&P 500 contracts down 1.83% and Nasdaq-100 futures off 2.3%. Ether fell 4% to around $1,959, while the broad CoinDesk 20 index declined 3.45%. The initial weekend strikes triggered approximately $300 million in long liquidations across crypto derivatives markets.\n\nDespite the selloff, some analysts see reasons for cautious optimism. QCP Capital described the deleveraging as orderly and noted a historical parallel: a U.S. strike on Iran last June initially pushed bitcoin below $100,000, only for the token to rally to $123,000 within weeks. Options markets are already showing buyers positioning for a move above $70,000, suggesting at least some traders view the dip as a buying opportunity. President Donald Trump has said the military campaign is expected to last four to five weeks, a timeline that could provide markets with a rough framework for when the geopolitical risk premium might ease.\n\nFor now, bitcoin remains technically constrained between $65,000 and $70,000, with its weekly relative strength index languishing near 28 — deep in oversold territory. Whether the pattern of post-conflict recovery repeats will depend largely on whether the Strait of Hormuz remains open and how quickly oil markets stabilize. Spot bitcoin ETFs recorded $458 million in net inflows on the prior trading day, a sign that institutional appetite has not disappeared even as headlines darken.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "oil prices",
+        "Middle East conflict",
+        "Iran",
+        "Strait of Hormuz",
+        "inflation",
+        "risk assets",
+        "crypto markets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/c3d2010caf3543e198f403c14bc6fc84beb94403-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/daybook-us/2026/03/03/oil-shock-and-inflation-fears-drag-down-bitcoin",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T12:18:44.941Z"
+    },
     {
       "id": "ps-1772539331948-9459",
       "slug": "u-s-israel-strikes-kill-iran-s-supreme-leader-igniting-regio",
@@ -24,28 +89,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-03T12:02:11.948Z"
-    },
-    {
-      "id": "ps-1772539367774-k0r2",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
-      "body": "Polyamines — naturally occurring molecules widely promoted as longevity supplements — can switch from protecting healthy cells to fueling aggressive tumor growth, according to research published in the Journal of Biological Chemistry by scientists at Tokyo University of Science.\n\nThe study, led by Associate Professor Kyohei Higashi of the university's Faculty of Pharmaceutical Sciences, resolves a longstanding paradox in biochemistry: how the same class of molecules, particularly spermidine, can both stimulate beneficial cellular recycling and appear consistently at elevated levels in cancerous tissue. The answer lies in two nearly identical proteins — eIF5A1 and eIF5A2 — that share 84% of their amino acid sequence but trigger fundamentally different biological outcomes. In normal tissue, polyamines activate eIF5A1, which promotes autophagy and mitochondrial function — the cellular maintenance processes associated with healthy aging. In cancer cells, however, polyamines boost production of eIF5A2, a closely related protein that instead drives rapid glucose metabolism and proliferation.\n\nThe team arrived at these conclusions through large-scale proteomic analysis of human cancer cell lines, tracking changes across more than 6,700 proteins. After depleting polyamine levels with a drug and then restoring them with spermidine, researchers observed that polyamines in cancer cells primarily enhanced glycolysis — the fast energy-conversion pathway tumors favor — rather than the mitochondrial respiration linked to longevity benefits. The study also identified five ribosomal proteins, including RPS 27A, RPL36AL, and RPL22L1, that polyamines upregulate in cancer contexts and that correlate with disease severity.\n\nCritically, the researchers uncovered the mechanism by which polyamines elevate eIF5A2: they suppress a small regulatory RNA molecule called miR-6514-5p that normally keeps eIF5A2 production in check. With that molecular brake removed, cancer cells manufacture eIF5A2 in abundance, enabling translational control over a distinct set of growth-promoting genes. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings carry implications for both oncology and the booming supplements market. Spermidine has gained popularity as a so-called geroprotector, available in capsule form and found in foods like aged cheese, soybeans, and wheat germ. While the research does not establish that dietary spermidine causes cancer in humans, it underscores the importance of biological context — the same molecule that may slow aging in healthy tissue could accelerate disease in precancerous or malignant cells. The study also points to a potential therapeutic avenue: selectively targeting the eIF5A2-ribosome interaction could impede tumor growth without disrupting the anti-aging benefits mediated by eIF5A1. Future research will need to determine whether this selectivity can be achieved in clinical settings.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer",
-        "anti-aging",
-        "longevity",
-        "eIF5A2",
-        "Tokyo University of Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T12:02:47.774Z"
     },
     {
       "id": "ps-1772539392621-0bac",
@@ -134,27 +177,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T11:48:50.911Z"
-    },
-    {
-      "id": "ps-1772537536083-wjt1",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
-      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
-      "subheadline": "CASCADE uses advection-based architecture to produce physically consistent high-resolution weather data from coarse inputs",
-      "body": "A new machine learning framework called CASCADE reimagines the long-standing challenge of weather data super-resolution by treating it as an explicit transport process rather than a pixel-level image enhancement problem, according to a paper published on the arXiv preprint server.\n\nDeveloped by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — addresses a fundamental tension in atmospheric science: the need to generate fine-grained weather detail from coarse model outputs without violating the physical laws that govern the atmosphere. Standard super-resolution techniques borrowed from computer vision can \"hallucinate\" small-scale features that look plausible but violate conservation of mass and energy, a particularly dangerous failure mode when modeling extreme events like severe convective storms.\n\nThe key architectural insight is encoding advection — the transport of atmospheric properties by wind — as the framework's fundamental operator. Rather than learning to fill in high-frequency details pixel by pixel, CASCADE iteratively moves coarse-scale information along learned, flow-conditioned velocity fields using semi-Lagrangian warping, a technique rooted in computational fluid dynamics. The system decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, directly mirroring the closure problem that has long occupied numerical weather prediction. An assimilation-style correction step ensures that the high-resolution output remains consistent with the original low-resolution input, analogous to how operational weather centers blend observations with model forecasts.\n\nTested on the SEVIR radar dataset at 4x spatial super-resolution for severe convective storms, CASCADE outperformed strong baseline methods across a comprehensive suite of metrics. These included standard image quality measures such as peak signal-to-noise ratio, structural similarity, and mean absolute error, as well as meteorologically relevant threshold-based skill scores including critical success index, Heidke skill score, and probability of detection — metrics that specifically evaluate a model's ability to capture the sharp gradients and localized intensity of extreme precipitation.\n\nThe work arrives as climate science grapples with the computational cost of running high-resolution simulations at global scales. Downscaling — the process of deriving local weather detail from coarser global models — is essential for climate impact assessments and hazard forecasting, but physics-violating artifacts from naive approaches can lead to dangerously misleading risk estimates. By building physical transport directly into the learning architecture, CASCADE offers a path toward downscaling methods that are not only more accurate but also more interpretable, with visualizable velocity and correction fields that allow meteorologists to inspect and understand the model's reasoning. The approach is designed to generalize beyond radar data to other advection-dominated phenomena in both atmospheric and oceanic applications.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine learning",
-        "climate modeling",
-        "weather prediction",
-        "super-resolution",
-        "atmospheric physics",
-        "downscaling"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1771012998159-749e638544cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtYWNoaW5lJTIwbGVhcm5pbmclMjBjbGltYXRlJTIwbW9kZWxpbmd8ZW58MHwwfHx8MTc3MjUzNDg0MHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T11:32:16.083Z"
     },
     {
       "id": "ps-1772537581911-ucnr",
@@ -1061,28 +1083,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/gasoline-prices-surge-amid-iran-attack-a-liability-for-trump",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-02T20:03:21.963Z"
-    },
-    {
-      "id": "ps-1772480905617-ud1w",
-      "slug": "oil-surges-most-in-four-years-as-strait-of-hormuz-tanker-tra",
-      "headline": "Oil Surges Most in Four Years as Strait of Hormuz Tanker Traffic Halts",
-      "subheadline": "Benchmark diesel futures jump 23% and European natural gas prices soar as Iran conflict chokes global energy flows",
-      "body": "Oil prices recorded their sharpest single-session rally in four years on March 2 as the escalating war involving Iran brought tanker traffic through the Strait of Hormuz — the world's most critical energy chokepoint — to a virtual standstill, triggering a cascading shock across global commodity markets.\n\nBenchmark diesel futures surged 23%, while crude oil and European natural gas prices both spiked dramatically as traders scrambled to price in the sudden disruption to a waterway that in normal times handles roughly one-fifth of the world's daily petroleum consumption. Ellen Wald, president of Transversal Consulting, told Bloomberg that the conflict's direct impact on Hormuz transit routes has fundamentally altered the near-term supply picture, leaving refiners and importers facing an acute shortage of seaborne crude and fuel cargoes.\n\nThe Strait of Hormuz, a narrow passage between Iran and Oman at the mouth of the Persian Gulf, serves as the sole maritime export route for much of the oil produced by Saudi Arabia, Iraq, the United Arab Emirates, Kuwait, and Qatar. Its effective closure represents a scenario long feared by energy strategists but rarely realized at this scale. With tanker operators unwilling to risk passage through an active conflict zone, millions of barrels per day of supply are now stranded, and importing nations in Asia and Europe face the prospect of drawing down strategic reserves if the disruption persists.\n\nThe energy price shock is already reverberating through downstream markets. Gasoline futures climbed sharply, raising the specter of rapid increases at the pump for consumers in the United States and Europe. Natural gas markets, already tight heading into the final weeks of the Northern Hemisphere heating season, face additional strain as liquefied natural gas shipments from Qatar — the world's largest LNG exporter — depend on the same imperiled corridor.\n\nAnalysts warned that the duration of the disruption will determine whether the spike remains a short-lived event or evolves into a sustained supply crisis. Should hostilities intensify or spread to physical attacks on energy infrastructure, prices could climb further still, with knock-on effects for inflation, central bank policy, and global economic growth. For now, markets are bracing for volatility of a magnitude not seen since the early days of the COVID-19 pandemic upended energy demand in 2020.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran war",
-        "energy markets",
-        "natural gas",
-        "diesel",
-        "commodities"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1648369000096-109763c11e8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxPaWwlMjBTdXJnZXMlMjBNb3N0JTIwRm91ciUyMFllYXJzfGVufDB8MHx8fDE3NzI0ODA5MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-02/oil-spikes-as-middle-east-war-threatens-hormuz-strait-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T19:48:25.617Z"
     }
   ]
 }
