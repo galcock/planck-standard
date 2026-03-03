@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T17:03:33.788Z",
+  "lastUpdated": "2026-03-03T17:18:42.260Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772557331882-23lp",
+      "id": "ps-1772558239172-dsjn",
       "slug": "us-and-israeli-strikes-kill-iran-s-supreme-leader-khamenei",
       "headline": "US and Israeli Strikes Kill Iran's Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury devastates multiple Iranian cities as Tehran retaliates with regional attacks, sparking wider Middle East conflict",
-      "body": "The United States and Israel launched a massive joint military operation against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and striking targets across multiple cities in what President Donald Trump has called the start of \"major combat operations\" against the Islamic Republic.\n\nThe coordinated assault, designated Operation Epic Fury, produced large explosions visible across Iran, with footage verified by the BBC and international news agencies showing widespread destruction in Tehran and other cities. Iranian state television confirmed Khamenei's death, marking the elimination of the country's most powerful political and religious figure — a development with profound implications for the region's power dynamics. The U.S. military has released its own video purportedly showing military targets being struck.\n\nIran responded swiftly with a wave of retaliatory attacks across the region, including strikes directed at Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. At least one Iranian drone was filmed crash-landing in Kuwait, underscoring the breadth of Tehran's response. The conflict, now in its fourth day, represents the most significant direct military confrontation between the United States and Iran in the history of both nations.\n\nPresident Trump, directing operations from Palm Beach, Florida, accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States\" and signaled ambitions that may extend to regime change, according to BBC analysis. The strikes have triggered widespread protests across American cities, with demonstrators rallying against the military action on Saturday and additional protests planned in the days ahead.\n\nThe escalation comes at a particularly volatile moment in global security. The New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. BBC chief international correspondent Lyse Doucet warned that the immediate impact of the strikes is already reshaping the Middle East, though the full scope of what comes next — including Iran's capacity for sustained retaliation without its supreme leader — remains deeply uncertain.",
+      "subheadline": "Operation Epic Fury unleashes massive bombardment across Iran as conflict enters fourth day with retaliatory strikes",
+      "body": "The United States and Israel launched a devastating series of strikes across Iran on Saturday that killed Supreme Leader Ayatollah Ali Khamenei, marking a dramatic escalation that has plunged the Middle East into its most dangerous crisis in decades. The conflict has now entered its fourth day with no signs of abating.\n\nThe joint military campaign, designated Operation Epic Fury, struck multiple cities across Iran, with verified footage showing large explosions and widespread destruction. Iranian state television confirmed the death of the 85-year-old supreme leader, who had ruled the Islamic Republic since 1989. President Donald Trump announced the commencement of \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\"\n\nIran has responded with retaliatory strikes across the region, including missile and drone attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles were launched toward the country. Separately, an Iranian drone was filmed crash-landing in flames in Kuwait, underscoring the widening geographic scope of the conflict. Video from Tehran showed chaotic scenes in residential neighborhoods hit during the bombardment, raising concerns about civilian casualties.\n\nThe strikes have triggered significant domestic opposition in the United States, with protesters rallying across American cities on Saturday and additional demonstrations planned. Trump has signaled ambitions that extend beyond the immediate military campaign, with reports indicating the administration is seeking regime change in Tehran — a goal that would represent the most ambitious U.S. military undertaking in the Middle East since the 2003 invasion of Iraq.\n\nThe escalation comes at a particularly fraught moment for global security. The New START nuclear treaty between the United States and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. International analysts are closely watching whether the Iran conflict could draw in additional regional or global actors, as the BBC's chief international correspondent Lyse Doucet noted that the immediate humanitarian and strategic consequences are already severe, with the trajectory of events still deeply uncertain.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -16,13 +16,122 @@
         "Israel",
         "Khamenei",
         "Middle East",
-        "Operation Epic Fury",
-        "Trump"
+        "Trump",
+        "Operation Epic Fury"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T17:02:11.882Z"
+      "publishedAt": "2026-03-03T17:17:19.172Z"
+    },
+    {
+      "id": "ps-1772558254693-x8lr",
+      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
+      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks hold key advantages over transformers for modeling fiber-reinforced composites, despite slower inference",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of short fiber reinforced composites outside their training data, according to a systematic comparison published on arXiv by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf, addresses a critical bottleneck in materials science: simulating how composite materials respond to complex loading histories is computationally expensive, and machine learning surrogates have emerged as a promising shortcut. Both recurrent neural networks (RNNs) and transformer architectures — the latter famously powering large language models — can learn sequential, path-dependent relationships. But until now, no rigorous head-to-head comparison existed for this specific domain.\n\nThe researchers trained both model types on sequences of homogenized stress-strain responses from representative volume elements of short fiber reinforced composites, tuning architectural and training hyperparameters using Bayesian optimization. Their findings reveal a nuanced picture. Transformer models proved competitive on large datasets and delivered inference speeds roughly seven times faster than RNNs — 0.5 milliseconds per prediction versus 3.5 milliseconds. However, RNNs demonstrated superior accuracy when trained on smaller datasets, a common constraint in materials science where generating high-fidelity simulation data is costly.\n\nThe most striking result emerged in extrapolation tests, where models were asked to predict material responses beyond the range of their training data. RNNs maintained their accuracy under these conditions, while transformer models performed poorly — a critical limitation for engineering applications where materials may be subjected to unexpected or extreme loading scenarios. The researchers attribute the RNNs' advantage to how gated recurrent units naturally encode sequential history, a feature well-suited to path-dependent material behavior where the current stress state depends on the entire prior deformation history.\n\nThe findings carry practical implications for the growing field of data-driven multiscale modeling. While transformers' parallelization advantages and raw speed make them attractive for large-scale deployment, the study suggests that for safety-critical engineering applications — where reliable predictions outside known conditions matter most — RNNs remain the more trustworthy architecture. The work underscores that the transformer revolution sweeping natural language processing and computer vision does not automatically translate to every scientific domain, and that older architectures can retain decisive advantages in specialized settings.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "neural-networks",
+        "transformers",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655890954724-b11c86a46ee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T17:17:34.693Z"
+    },
+    {
+      "id": "ps-1772558271067-8j7p",
+      "slug": "anti-aging-supplement-spermidine-may-also-drive-cancer-growt",
+      "headline": "Anti-Aging Supplement Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "Polyamines, the naturally occurring molecules that have gained widespread popularity as longevity supplements, can also turbocharge cancer cell proliferation through a molecular mechanism that researchers at Tokyo University of Science have now mapped in detail. The findings, published in the Journal of Biological Chemistry, resolve a long-standing paradox in cell biology and raise pointed questions about the safety of polyamine supplementation in certain populations.\n\nThe research team, led by Associate Professor Kyohei Higashi of the Faculty of Pharmaceutical Sciences, used high-resolution proteomic analysis of more than 6,700 proteins to demonstrate that polyamines — particularly spermidine, the compound most commonly sold as a geroprotective supplement — trigger fundamentally different biological programs depending on tissue context. In healthy cells, polyamines activate a protein called eIF5A1, which stimulates autophagy, the cellular recycling process widely associated with anti-aging benefits. In cancer cells, however, polyamines instead boost production of a closely related protein, eIF5A2, which shares 84 percent of eIF5A1's amino acid sequence but drives an entirely different outcome: rapid glycolysis-fueled tumor growth.\n\nThe distinction between the two proteins proved critical. The researchers found that under normal conditions, a small regulatory RNA molecule called miR-6514-5p acts as a brake on eIF5A2 production. Polyamines disrupt that brake, unleashing eIF5A2 and a suite of ribosomal proteins — including RPS 27A, RPL36AL, and RPL22L1 — all previously linked to cancer severity. The team confirmed this mechanism by depleting polyamines from human cancer cell lines with a drug, then reintroducing spermidine and measuring the downstream effects. The result was a clear metabolic shift toward aerobic glycolysis rather than the mitochondrial respiration associated with healthy aging.\n\n\"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi said. \"In normal tissues, eIF5A1 activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2 controls gene expression at the translational level to facilitate the proliferation of cancer cells.\" The finding that eIF5A2 governs a distinct set of downstream proteins from eIF5A1 reinforces the idea that two nearly identical molecules can serve opposing biological purposes.\n\nThe implications extend in two directions. For oncology, eIF5A2 and its interaction with ribosomes emerge as a selective therapeutic target — one that could theoretically be inhibited without disrupting the beneficial functions of eIF5A1 in healthy tissue. For the booming longevity supplement market, the results serve as a cautionary signal. While polyamines may confer genuine anti-aging benefits in healthy individuals, the same compounds could accelerate disease progression in people harboring undetected tumors or precancerous tissue. The study was supported in part by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2",
+        "Tokyo University of Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T17:17:51.067Z"
+    },
+    {
+      "id": "ps-1772558286664-nx7z",
+      "slug": "apple-introduces-m5-pro-and-m5-max-with-dual-die-fusion-arch",
+      "headline": "Apple Introduces M5 Pro and M5 Max With Dual-Die Fusion Architecture",
+      "subheadline": "New chips deliver 18-core CPUs, up to 4x AI compute gains, and power the next-generation MacBook Pro lineup",
+      "body": "Apple on Tuesday unveiled its M5 Pro and M5 Max processors, the most powerful entries yet in the company's custom silicon lineup, built around a new \"Fusion Architecture\" that bonds two dies into a single system-on-chip for the first time in the M-series.\n\nThe architectural leap allows both chips to pack an identical 18-core CPU — a significant jump from the 14-core M4 Pro and 16-core M4 Max they replace. Apple describes the CPU layout as six \"super cores,\" its highest-performance tier, paired with 12 redesigned efficiency-oriented performance cores. The result, according to the company, is a 30 percent improvement in professional workloads. On the graphics side, the GPU scales up to 40 cores and incorporates a dedicated Neural Accelerator in each core, yielding what Apple says is more than four times the peak AI compute performance of the prior generation. Overall GPU throughput rises roughly 20 percent, while ray-tracing tasks see gains of up to 35 percent.\n\nMemory specifications received a meaningful bump as well. The M5 Pro now supports up to 64 gigabytes of unified memory — up from 48 GB on the M4 Pro — with bandwidth of 307 GB/s. The M5 Max retains its 128 GB ceiling but pushes bandwidth to 614 GB/s, a figure that positions it squarely at workstation-class territory for tasks such as large language model inference and high-resolution 3D rendering. Both chips also integrate Thunderbolt 5 connectivity and an updated Media Engine.\n\nApple is positioning the M5 Pro for data modelers, audio post-production professionals, and STEM researchers who need balanced CPU and GPU muscle alongside deep memory pools. The M5 Max targets the most demanding users — 3D animators, app developers, and AI researchers whose workflows are bottlenecked by GPU compute and memory bandwidth. The new processors will debut inside refreshed MacBook Pro models available for preorder on March 4, with units shipping beginning March 11.\n\nThe announcement underscores Apple's strategy of vertically integrating silicon design to differentiate its hardware at a time when the broader PC industry is racing to match rising AI workload demands. By moving to a multi-die architecture while keeping unified memory — a hallmark advantage over conventional laptop platforms — Apple is betting that professional users will increasingly value on-device AI performance alongside traditional compute metrics.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Apple",
+        "M5 Pro",
+        "M5 Max",
+        "MacBook Pro",
+        "chips",
+        "AI",
+        "Fusion Architecture"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/m5-chips.png?resize=1200,669",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T17:18:06.664Z"
+    },
+    {
+      "id": "ps-1772558305208-ijuh",
+      "slug": "global-diesel-prices-spike-to-multi-year-highs-amid-iran-con",
+      "headline": "Global Diesel Prices Spike to Multi-Year Highs Amid Iran Conflict",
+      "subheadline": "Escalating Middle East war compounds existing supply constraints, threatening consumers and industrial costs worldwide",
+      "body": "Diesel prices around the world have surged to their highest levels in years as the widening conflict involving Iran disrupts energy supplies across the Middle East, compounding pressures on a market already strained by thin inventories.\n\nThe price spike reflects the outsized role the Middle East plays in global refining and crude oil supply chains. Iran, a major petroleum producer, has seen its export capacity severely curtailed as the war expands across the region, choking off flows of both crude oil and refined products. Diesel — the workhorse fuel of global commerce, powering trucks, ships, trains, and industrial machinery — is particularly vulnerable to supply shocks because global stockpiles were already running below seasonal norms before hostilities escalated.\n\nThe rally in diesel benchmarks has been felt from Europe to Asia to the Americas. Rising fuel costs ripple rapidly through economies, inflating transportation and logistics expenses that ultimately reach consumers through higher prices on goods ranging from food to manufactured products. For industries with heavy fuel exposure — agriculture, shipping, construction, and mining — the impact is immediate and acute. Central banks that had been cautiously navigating inflation risks now face a fresh supply-side shock that complicates monetary policy decisions.\n\nEnergy analysts note that the diesel market was already tight heading into 2026 due to a combination of refinery closures in recent years, shifting trade flows following earlier rounds of sanctions, and robust demand from developing economies. The Iran conflict has effectively removed a significant tranche of supply from an already constrained system, amplifying price moves well beyond what crude oil benchmarks alone would suggest. Diesel crack spreads — the premium refiners earn for converting crude into the fuel — have widened sharply, signaling that the bottleneck lies not just in raw material availability but in refining capacity and logistics.\n\nGovernments in fuel-importing nations are watching the situation closely, with some weighing emergency releases from strategic reserves or temporary tax adjustments to cushion the blow. However, with the geopolitical trajectory in the Middle East uncertain, market participants are pricing in the possibility that elevated diesel costs could persist for months, raising the specter of a prolonged drag on global economic growth.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "diesel",
+        "oil prices",
+        "Iran",
+        "Middle East",
+        "energy markets",
+        "commodities",
+        "inflation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1572167073706-003f87de2a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8ZGllc2VsJTIwb2lsJTIwcHJpY2VzfGVufDB8MHx8fDE3NzI1NTgzMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-diesel-prices-surge-higher-as-iran-war-disrupts-supplies",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T17:18:25.208Z"
+    },
+    {
+      "id": "ps-1772558322149-dpn9",
+      "slug": "bitcoin-holds-ground-near-68-000-as-global-equities-rout-dee",
+      "headline": "Bitcoin Holds Ground Near $68,000 as Global Equities Rout Deepens",
+      "subheadline": "Crypto markets show relative resilience while stocks, precious metals, and crypto-linked equities suffer sharp losses amid Iran conflict",
+      "body": "Bitcoin edged back to $68,000 on Tuesday, recovering more than 2% from intraday lows even as global equity markets suffered their worst session in months following the escalation of the Iran conflict over the weekend.\n\nThe divergence was notable. The Nasdaq tumbled 2.5% while the S&P 500 dropped 2.3% in mid-morning U.S. trading. European bourses fared far worse, with Italy's IBEX 35 plunging 5.2% and Germany's DAX falling 4.1%. Precious metals, which had surged to historic highs in the weeks preceding the outbreak of hostilities, reversed hard — gold fell 4.3%, silver lost 7.5%, and platinum cratered 11.3%. WTI crude oil surged another 8% to $77 per barrel as energy markets priced in supply disruption risk.\n\nCrypto, by contrast, bent but did not break. Bitcoin was down roughly 1% over 24 hours at approximately $68,000 after touching nearly $66,000 earlier in the session. Ether, Solana, and XRP followed a similar pattern — lower on the day but meaningfully off their worst levels. The relative resilience comes after a punishing five-month decline that had already taken much of the speculative froth out of digital asset markets. James Butterfill, head of research at CoinShares, called the price action \"constructive,\" noting that bitcoin gained despite rising instability. \"The absence of significant liquidations despite rising yields and geopolitical tensions suggests that positioning is adjusted compared to previous episodes,\" Butterfill said.\n\nCrypto-adjacent equities told a different story. Robinhood shares fell 7%, Coinbase dropped 5%, and both Strategy (formerly MicroStrategy) and crypto platform Bullish each declined 4%. Even Circle, the stablecoin issuer, slipped about 1%, suggesting that equity investors were painting the sector with the same broad risk-off brush applied to the rest of the market.\n\nThe episode raises a familiar question about bitcoin's identity in crisis moments: safe haven or risk asset? Having already shed roughly half its value from all-time highs over recent months, bitcoin may simply have less speculative positioning left to unwind. Meanwhile, public mining companies are accelerating bitcoin sales to fund pivots toward artificial intelligence infrastructure, adding a separate source of selling pressure. Whether crypto's relative calm holds will depend heavily on how the geopolitical situation evolves — and whether the forced selling that typically follows a major market shock eventually reaches digital assets as well.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran conflict",
+        "global markets",
+        "equities selloff",
+        "crude oil",
+        "safe haven",
+        "crypto markets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T17:18:42.149Z"
     },
     {
       "id": "ps-1772557348475-789g",
@@ -67,28 +176,6 @@
       "publishedAt": "2026-03-03T17:02:45.418Z"
     },
     {
-      "id": "ps-1772557381468-ed5k",
-      "slug": "apple-launches-m5-pro-and-m5-max-with-dual-die-fusion-archit",
-      "headline": "Apple Launches M5 Pro and M5 Max With Dual-Die 'Fusion Architecture'",
-      "subheadline": "New chips pack 18-core CPUs, claim 4x AI compute gains over prior generation, and ship in updated MacBook Pros on March 11",
-      "body": "Apple on Tuesday unveiled its M5 Pro and M5 Max processors, the most powerful entries yet in the company's custom silicon lineup, built around what it calls Fusion Architecture — a dual-die design that integrates CPU, GPU, Neural Engine, media engine, and Thunderbolt 5 connectivity into a single system-on-chip package.\n\nBoth chips step up to an 18-core CPU, a notable jump from the 14-core M4 Pro and 16-core M4 Max they replace. The new CPU design introduces six \"super cores,\" Apple's designation for its highest-performance tier, paired with 12 redesigned efficiency-oriented performance cores. Apple claims the combination delivers up to 30 percent faster throughput on professional workloads. The GPU scales to as many as 40 cores and includes a dedicated Neural Accelerator in each core, a design choice squarely aimed at the accelerating demand for on-device AI inference. Apple says the result is more than four times the peak GPU compute for AI tasks compared with the M4 generation, alongside a 20 percent uplift in general graphics performance and up to 35 percent faster ray tracing.\n\nMemory specifications see meaningful gains as well. The M5 Pro now supports up to 64 gigabytes of unified memory — up from 48 GB on its predecessor — with bandwidth of 307 GB per second. The M5 Max retains its 128 GB ceiling but pushes bandwidth to 614 GB per second, a figure that positions it as a workstation-class part for data-intensive pipelines. Apple is targeting the M5 Pro at data modelers, audio post-production professionals, and researchers, while pitching the M5 Max at 3D animators, application developers, and AI researchers who need maximum GPU throughput and memory headroom.\n\nThe Fusion Architecture's dual-die approach marks an engineering milestone for Apple, which until now has relied on monolithic chip designs for its laptop silicon. Merging two dies into a unified package allows Apple to scale core counts and memory controllers without being constrained by the reticle limits of its manufacturing process, a strategy already employed by AMD and Intel in their server and desktop lines. Bringing the technique to a laptop form factor signals Apple's intent to compete more directly with high-end mobile workstation chips.\n\nUpdated MacBook Pro models powered by the new processors open for pre-order on March 4, with general availability set for March 11. Apple did not disclose pricing changes for the new configurations at the time of announcement.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Apple",
-        "M5 Pro",
-        "M5 Max",
-        "Fusion Architecture",
-        "MacBook Pro",
-        "semiconductors",
-        "AI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/m5-chips.png?resize=1200,669",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T17:03:01.468Z"
-    },
-    {
       "id": "ps-1772557397930-tf0u",
       "slug": "gold-plunges-over-6-as-strong-dollar-and-fed-outlook-overwhe",
       "headline": "Gold Plunges Over 6% as Strong Dollar and Fed Outlook Overwhelm War Premium",
@@ -109,28 +196,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/gold-rises-as-escalating-conflict-in-middle-east-stokes-demand",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T17:03:17.930Z"
-    },
-    {
-      "id": "ps-1772557413684-b2h1",
-      "slug": "bitcoin-holds-relative-ground-at-68k-as-iran-war-hammers-glo",
-      "headline": "Bitcoin Holds Relative Ground at $68K as Iran War Hammers Global Markets",
-      "subheadline": "Crypto shows unexpected resilience while equities, precious metals, and crypto-linked stocks suffer steep losses",
-      "body": "Bitcoin reclaimed the $68,000 level on Tuesday after briefly dipping near $66,000, showing unusual relative strength as a new Middle East conflict sent global equity and commodity markets into freefall.\n\nThe divergence was stark. The Nasdaq dropped 2.5% and the S&P 500 fell 2.3% during mid-morning U.S. trading, while European bourses fared far worse — Italy's IBEX 35 plunged 5.2% and Germany's DAX shed 4.1%. Precious metals, which had surged to historic highs in the weeks preceding the war with Iran, reversed sharply: gold fell 4.3%, silver tumbled 7.5%, and platinum cratered 11.3%. WTI crude oil surged another 8% to $77 per barrel as energy supply fears intensified.\n\nCrypto markets, by contrast, managed to avoid new lows despite having already endured roughly five months of relentless selling pressure. Bitcoin's 1% decline over 24 hours was modest compared to the carnage across other asset classes, and its intraday bounce of more than 2% from session lows suggested buyers were stepping in. Ether, Solana, and XRP followed a similar pattern — lower on the day but well off their worst levels. The resilience did not extend to crypto-linked equities, however. Robinhood shares dropped 7%, Coinbase fell 5%, and Strategy (formerly MicroStrategy) declined 4%.\n\nJames Butterfill, head of research at CoinShares, noted that bitcoin's weekend liquidity may have helped markets absorb the initial geopolitical shock more smoothly. \"The price development was constructive — bitcoin gained despite the increasing instability,\" Butterfill said, adding that the absence of significant liquidations despite rising yields and geopolitical tensions suggests market positioning has matured compared to prior episodes of crisis selling.\n\nThe crypto market's relative composure arrives at an unusual juncture. Bitcoin is trading nearly 50% below its all-time highs, and public mining companies are actively liquidating bitcoin holdings to fund pivots toward artificial intelligence infrastructure. Core Scientific, Bitdeer, Riot Platforms, and Bitfarms have collectively reduced peak holdings by more than 15,000 BTC. Whether bitcoin can sustain its role as a relative safe harbor — or whether its resilience merely reflects the extent of its prior decline — will likely depend on how quickly the conflict escalates and whether forced selling in traditional markets eventually spills into digital assets.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran war",
-        "stock market selloff",
-        "geopolitical risk",
-        "crypto markets",
-        "crude oil",
-        "precious metals"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T17:03:33.684Z"
     },
     {
       "id": "ps-1772556469709-oi4p",
@@ -237,48 +302,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/even-before-he-reaches-the-fed-warsh-s-path-to-rate-cuts-is-getting-tougher",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T16:33:18.663Z"
-    },
-    {
-      "id": "ps-1772554642458-okwf",
-      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
-      "headline": "RNNs Outperform Transformers for Composite Material Modeling, Study Finds",
-      "subheadline": "Transformers offer a 7x speed advantage at inference, but recurrent networks prove more accurate on small datasets and extrapolation tasks",
-      "body": "Recurrent neural networks maintain a significant accuracy edge over transformer models when predicting the behavior of complex composite materials, particularly in extrapolation scenarios and when training data is scarce, according to a new comparative study from researchers Petter Uvdal and Mohsen Mirkhalaf.\n\nThe study, published on the arXiv preprint server, systematically benchmarks the two dominant neural network architectures on the task of modeling short fiber reinforced composites (SFRCs) — materials widely used in automotive, aerospace, and consumer products. Full-field simulations of these composites are notoriously expensive because their mechanical response depends on loading history, a property known as path dependence. Both RNNs and transformers were trained to predict the homogenized response of representative volume elements (RVEs), essentially learning to approximate the bulk behavior of the composite from microscale simulations.\n\nThe researchers tuned both architectural hyperparameters — including the number of GRU layers, hidden size, attention heads, and encoder blocks — and training hyperparameters such as learning rate and batch size, all using Bayesian optimization to ensure a fair comparison. The results revealed a nuanced trade-off. On large datasets, transformer models remained competitive with RNNs in terms of prediction accuracy. But on smaller datasets, RNNs demonstrated clearly superior performance. The most striking divergence emerged in extrapolation tests, where models were asked to predict material behavior beyond the range of their training data. RNNs maintained their accuracy, while transformers performed poorly — a finding with significant implications for engineering applications where loading conditions may venture into untested regimes.\n\nTransformers did claim one decisive advantage: speed. At inference time, the transformer model completed predictions in approximately 0.5 milliseconds, compared to 3.5 milliseconds for the RNN — a sevenfold improvement. This speed advantage stems from the transformer's ability to process sequence elements in parallel rather than sequentially, a well-known architectural benefit that has driven the model's dominance in natural language processing and other domains.\n\nThe findings suggest that for multiscale materials modeling, the choice of neural network architecture should be guided by the specific constraints of the application. When abundant training data and fast inference are priorities, transformers present a compelling option. But when data is limited or the model must generalize beyond its training distribution — common scenarios in engineering practice — RNNs appear to be the more reliable surrogate. The study adds to a growing body of work questioning whether the transformer revolution that has swept fields like language modeling translates straightforwardly to all scientific computing domains.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1701522226776-030ffe5ed84d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T16:17:22.458Z"
-    },
-    {
-      "id": "ps-1772554658199-58gs",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers discover how polyamines activate different molecular pathways in healthy vs. cancerous cells",
-      "body": "Polyamines — natural molecules celebrated in the longevity supplement market for their ability to promote cellular cleanup and healthy aging — can also turbocharge tumor growth by activating a nearly identical but functionally distinct protein, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in cancer biology: how the same class of molecules, particularly spermidine, can appear to extend lifespan in some contexts while being consistently elevated in aggressive cancers. The answer, a team led by Associate Professor Kyohei Higashi found, lies in two proteins that share 84% of their amino acid sequence but serve radically different purposes. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and supports mitochondrial energy production. In cancerous tissue, however, polyamines instead boost production of eIF5A2, a closely related protein that drives rapid glycolysis and promotes the synthesis of ribosomal proteins linked to tumor severity.\n\nTo reach these conclusions, the researchers manipulated polyamine levels in human cancer cell lines, first depleting them with a drug and then restoring them with spermidine. Using high-resolution proteomic analysis spanning more than 6,700 proteins, they found that polyamines in cancer cells primarily enhanced glycolysis rather than mitochondrial respiration. The team also identified the molecular mechanism behind eIF5A2 overproduction: polyamines suppress a small regulatory RNA molecule called miR-6514-5p that normally acts as a brake on eIF5A2 synthesis. With that brake removed, cancer cells produce eIF5A2 in abundance, fueling proliferation.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context — whether tissue is healthy or malignant — fundamentally determines whether polyamines help or harm.\n\nThe findings carry implications both for cancer therapeutics and for the booming market in polyamine-based supplements. Targeting eIF5A2 specifically could theoretically slow tumor growth without disrupting the beneficial aging pathways mediated by eIF5A1, offering a selective approach to treatment. At the same time, the research raises cautionary questions about supplementing with spermidine or other polyamines in individuals who may harbor undetected cancers or precancerous tissue. The study was supported by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "eIF5A2",
-        "longevity supplements"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T16:17:38.199Z"
     },
     {
       "id": "ps-1772554687966-9xzm",
@@ -1060,27 +1083,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/jpmorgan-and-traders-see-turkey-pausing-rate-cuts-on-iran-risks",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T05:03:46.578Z"
-    },
-    {
-      "id": "ps-1772514241443-92q4",
-      "slug": "senate-housing-bill-quietly-slips-in-ban-on-federal-reserve-",
-      "headline": "Senate Housing Bill Quietly Slips In Ban on Federal Reserve Digital Currency",
-      "subheadline": "A two-page provision buried in the 303-page bipartisan ROAD to Housing Act would block the Fed from issuing a CBDC until 2031",
-      "body": "A sweeping bipartisan housing bill introduced in the U.S. Senate on Monday contains a provision that would temporarily prohibit the Federal Reserve from issuing a central bank digital currency, marking the latest congressional effort to block a digital dollar from reaching American wallets.\n\nThe \"21st Century ROAD to Housing Act,\" a 303-page bill co-authored by Senate Banking Committee Chairman Tim Scott (R-SC) and Ranking Member Elizabeth Warren (D-MA), is primarily aimed at reducing regulatory barriers to homebuilding and expanding housing supply. But tucked within its pages is a two-page section that would bar the Fed from creating or issuing a CBDC — directly or through financial intermediaries — with a sunset clause set for December 31, 2030. The provision carves out an exception for permissionless, private \"dollar-denominated\" digital currencies that fully preserve the privacy protections of physical cash.\n\nNeither Scott nor Warren mentioned the CBDC ban in their public statements about the legislation, which focused instead on housing affordability and cutting red tape. The White House, however, was more direct. In a two-paragraph Statement of Administration Policy endorsing the bill, the administration explicitly highlighted the CBDC provision, calling it a presidential priority and warning that a central bank digital currency \"could pose significant threats to personal privacy and liberty.\"\n\nThe inclusion reflects a growing bipartisan consensus — at least procedurally — against a Fed-issued digital dollar. The House of Representatives passed a standalone CBDC ban last year, but the measure stalled before clearing both chambers. By embedding the prohibition in a broadly supported housing package with no new spending, sponsors may improve its chances of reaching the president's desk. The strategy of attaching crypto-related provisions to must-pass legislation has become an increasingly common tactic on Capitol Hill.\n\nFor the digital assets industry, the provision carries mixed signals. While it blocks a government-controlled digital dollar that many in the crypto sector view as a surveillance tool, it simultaneously leaves room for private-sector stablecoins that maintain cash-like privacy. That distinction aligns with the broader legislative push in Washington to establish a regulatory framework for privately issued stablecoins while keeping the Federal Reserve out of retail digital payments — at least for the next five years.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "CBDC",
-        "Federal Reserve",
-        "Senate",
-        "stablecoins",
-        "crypto regulation",
-        "housing bill"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/d99a90f7b47fcf3c49501e67fb52f263638b1503-3717x2478.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/02/u-s-senate-housing-bill-includes-cbdc-ban",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T05:04:01.443Z"
     }
   ]
 }
