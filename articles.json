@@ -1,7 +1,139 @@
 {
-  "lastUpdated": "2026-03-03T06:48:25.602Z",
+  "lastUpdated": "2026-03-03T07:03:34.516Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772521331930-zqxx",
+      "slug": "u-s-israel-strikes-kill-iran-s-supreme-leader-igniting-regio",
+      "headline": "U.S.-Israel Strikes Kill Iran's Supreme Leader, Igniting Regional War",
+      "subheadline": "Operation Epic Fury has killed 555 in Iran, triggered retaliatory strikes across the Gulf, and sent oil prices surging 10%",
+      "body": "The Middle East has plunged into its most severe military crisis in decades after joint U.S.-Israeli strikes killed Iran's Supreme Leader Ayatollah Ali Khamenei on Saturday, flattening his Tehran compound in the opening salvo of what Washington has dubbed Operation Epic Fury. The escalation has since drawn in Hezbollah, rattled global energy markets, and prompted Iranian retaliatory attacks on at least nine countries.\n\nThe strikes, which continued through the weekend and into Monday, targeted Iran's missile infrastructure, military installations, and senior leadership. In addition to Khamenei — who had led the Islamic Republic since 1989 — the Israel Defense Forces confirmed the deaths of Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh, and Islamic Revolutionary Guard Corps commander Gen Mohammad Pakpour. The IRGC has appointed Ahmad Vahidi as its new commander-in-chief. As of Monday, the Iranian Red Crescent reported 555 people killed across 130 locations, including more than 150 — among them children — in a strike on a school in southern Iran near an IRGC base. U.S. Central Command said it sank 11 Iranian ships in the Gulf of Oman, effectively eliminating Iran's naval presence in the area.\n\nPresident Donald Trump framed the operation as a campaign to prevent Iran from obtaining nuclear weapons, warning Iranian armed forces to surrender or \"face certain death\" and calling on the Iranian public to overthrow their government. Israeli Prime Minister Benjamin Netanyahu described it as an effort to \"remove the existential threat posed by the terrorist regime in Iran.\" Trump told the New York Times the operation could be sustained at its current tempo for four to five weeks, though he indicated capability to extend further.\n\nIran's response has been broad and chaotic. The IRGC launched ballistic missiles and drones at Israel — killing nine people in a residential area in Beit Shemesh — as well as at U.S.-allied Gulf states including Qatar, Bahrain, Kuwait, the UAE, Jordan, and Saudi Arabia. A drone struck Britain's Akrotiri base in Cyprus without casualties. Civilian sites, including hotels in Dubai, were hit. Six U.S. service members have been killed and 18 seriously wounded. Three American jets were downed over Kuwait in what the military described as an apparent friendly fire incident. On Monday, Hezbollah opened a new front by attacking Israel from Lebanon, prompting IDF strikes on Beirut and southern Lebanon, with Israel urging evacuation of 50 villages.\n\nThe economic fallout is already substantial. Qatar halted liquefied natural gas production after Iranian attacks, triggering a 50% spike in gas prices. Iranian drones struck Saudi Arabia's Ras Tanura refinery, causing a partial shutdown. Iran warned vessels away from the Strait of Hormuz, through which roughly 20% of global oil and gas transits. Oil prices have surged 10%, raising fears of rising fuel costs worldwide. A transitional leadership council comprising President Masoud Pezeshkian, judiciary chief Gholamhossein Mohseni Ejei, and senior cleric Alireza Arafi is governing Iran temporarily while the 88-member Assembly of Experts prepares to select Khamenei's successor — a process complicated by ongoing strikes and near-total internet restrictions across the country.",
+      "category": "breaking",
+      "importance": 10,
+      "tags": [
+        "Iran",
+        "Israel",
+        "United States",
+        "Middle East war",
+        "Khamenei",
+        "Operation Epic Fury",
+        "oil prices",
+        "Hezbollah",
+        "Trump"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-03T07:02:11.930Z"
+    },
+    {
+      "id": "ps-1772521350222-fm2y",
+      "slug": "rnns-outperform-transformers-for-composite-materials-modelin",
+      "headline": "RNNs Outperform Transformers for Composite Materials Modeling, Study Finds",
+      "subheadline": "Transformer models offer 7x speed advantage but struggle with extrapolation in predicting behavior of fiber-reinforced composites",
+      "body": "Recurrent neural networks outperform transformer architectures when predicting the mechanical behavior of short fiber reinforced composites beyond their training data, according to a systematic comparison by researchers at the University of Gothenburg — a finding that challenges the growing dominance of transformer models across machine learning applications.\n\nThe study, posted to arXiv by Petter Uvdal and Mohsen Mirkhalaf, pits two classes of neural networks against each other in a task central to advanced materials engineering: modeling how composite materials respond to complex loading sequences. Full-field simulations of these so-called path-dependent materials — where current behavior depends on the entire history of deformation — are notoriously expensive computationally. Data-driven surrogate models promise to slash that cost, but the question of which neural network architecture best serves this purpose has remained open.\n\nThe researchers trained both RNNs (specifically using gated recurrent unit layers) and transformer models on sequences of homogenized stress-strain responses generated from representative volume elements of short fiber reinforced composites. Both architectures had their hyperparameters — including learning rate, batch size, number of layers, and attention heads — tuned using Bayesian optimization to ensure a fair comparison. The results revealed a nuanced tradeoff. Transformer models proved competitive on large datasets and delivered inference speeds of 0.5 milliseconds per prediction, roughly seven times faster than the RNN's 3.5 milliseconds. However, when tested on conditions outside their training distribution — the extrapolation regime — RNNs maintained accurate predictions while transformers degraded significantly. RNNs also demonstrated superior performance when trained on smaller datasets, a practical advantage given that generating high-fidelity simulation data is itself computationally costly.\n\nThe findings carry implications for the broader push to integrate machine learning into multiscale materials modeling. Engineers designing composite components for aerospace, automotive, and structural applications need surrogate models that generalize reliably, particularly under loading conditions not explicitly represented in training data. The study suggests that the attention mechanism underpinning transformers, while powerful for parallelization and scaling, may not capture the sequential dependencies of path-dependent material behavior as effectively as recurrent architectures.\n\nThe research underscores that the transformer revolution sweeping natural language processing and computer vision does not automatically translate to every scientific domain. For materials scientists building digital twins of composite structures, the older RNN paradigm may remain the more trustworthy tool — at least until transformer architectures are adapted to better handle the physics of history-dependent material response.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1689942007761-9a6d6a19b586?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjUyMTM1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T07:02:30.222Z"
+    },
+    {
+      "id": "ps-1772521365284-bbdc",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers identify how polyamines activate different proteins in healthy versus cancerous cells, solving a long-standing paradox",
+      "body": "Polyamines, the naturally occurring molecules that have gained a devoted following in the longevity supplement market for their ability to promote cellular cleanup, may also turbocharge tumor growth — and scientists at Tokyo University of Science have now identified the molecular mechanism that explains this troubling duality.\n\nIn a study published in the Journal of Biological Chemistry, a team led by Associate Professor Kyohei Higashi used high-resolution proteomic analysis of more than 6,700 proteins to show that polyamines — particularly spermidine — activate fundamentally different biological pathways depending on whether they encounter healthy or cancerous tissue. In normal cells, polyamines activate a protein called eIF5A1, which stimulates autophagy, the cellular recycling process widely credited with anti-aging benefits. In cancer cells, however, polyamines instead boost production of a closely related protein, eIF5A2, which shares 84 percent of the same amino acid sequence but drives an entirely different outcome: rapid glycolysis and aggressive tumor proliferation.\n\nThe researchers arrived at their findings by first depleting polyamine levels in human cancer cell lines using a drug, then reintroducing spermidine and measuring the downstream effects. The proteomic data revealed that polyamines in cancer cells primarily enhanced glycolysis — the fast energy-conversion pathway favored by tumors — rather than mitochondrial respiration, which is associated with healthy aging. They also found that polyamines elevated levels of eIF5A2 along with five ribosomal proteins linked to cancer severity, including RPS 27A, RPL36AL, and RPL22L1.\n\nCritically, the team uncovered the mechanism by which polyamines raise eIF5A2 levels. Under normal conditions, a small regulatory RNA molecule called miR-6514-5p acts as a brake on eIF5A2 production. Polyamines disrupt this brake, allowing eIF5A2 to accumulate and drive cancer-associated protein synthesis. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2 controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings carry significant implications both for cancer therapeutics and for the booming supplement industry. Targeting eIF5A2 specifically could theoretically slow tumor growth without undermining the beneficial aging effects linked to eIF5A1, offering a promising new avenue for selective cancer treatment. At the same time, the research raises cautionary questions about the widespread use of spermidine and polyamine supplements, particularly for individuals with undiagnosed malignancies or elevated cancer risk. The study underscores that biological context — not just the molecule itself — determines whether polyamines act as protectors or promoters of disease.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "eIF5A2",
+        "longevity supplements",
+        "Tokyo University of Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T07:02:45.284Z"
+    },
+    {
+      "id": "ps-1772521380850-c3nw",
+      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
+      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The four-year-old startup's revenue run rate has doubled in just three months, even as rivals chip away at its user base.",
+      "body": "Cursor, the AI-powered coding assistant, has reached $2 billion in annualized revenue, according to a report from Bloomberg citing a person familiar with the matter — a milestone that underscores the explosive demand for AI tools in software development even as competition in the space intensifies.\n\nThe figure represents a doubling of the company's revenue run rate over just the past three months, a pace of growth that is remarkable even by the standards of the current AI boom. The disclosure appears strategically timed: last week, viral social media posts questioned whether Cursor's growth was plateauing, pointing to high-profile developers who had publicly switched to rival products, most notably Anthropic's Claude Code.\n\nFounded in 2022, Cursor initially built its business selling directly to individual developers. But the company has pivoted sharply toward enterprise clients over the past year, and corporate buyers now account for roughly 60% of its revenue, according to Bloomberg. That shift may explain why some of the public chatter about defections has been misleading — while individual developers and smaller startups have gravitated toward Claude Code and other alternatives perceived as more competitively priced, Cursor's higher-spending corporate customers appear far stickier. Enterprise contracts tend to be larger, longer-duration, and harder to unwind once teams have integrated a tool into their workflows.\n\nThe AI-assisted coding market is drawing formidable entrants. Anthropic's Claude Code has emerged as a serious challenger, and OpenAI's Codex tool is also competing aggressively for market share. Startups such as Replit, Cognition, and Lovable are carving out their own niches. The proliferation of competitors reflects a broad consensus that AI will fundamentally reshape how software is written, tested, and deployed — a market opportunity large enough to sustain multiple well-funded players.\n\nCursor was last valued at $29.3 billion following a $2.3 billion funding round co-led by Accel and Coatue in November 2025. At that valuation, the company is now trading at roughly 14.7 times its current annualized revenue — a rich but not unprecedented multiple for a high-growth AI company. Cursor did not respond to requests for comment. For investors and observers tracking the AI infrastructure stack, the revenue figure offers a concrete data point in a sector where hype often outpaces hard numbers.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "revenue growth",
+        "enterprise software",
+        "Claude Code",
+        "vibe coding",
+        "startups"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T07:03:00.850Z"
+    },
+    {
+      "id": "ps-1772521397441-nzxl",
+      "slug": "ftse-100-slides-as-iran-conflict-fears-trigger-global-sell-o",
+      "headline": "FTSE 100 Slides as Iran Conflict Fears Trigger Global Sell-Off",
+      "subheadline": "British pound weakens and UK equities face sharp losses amid escalating tensions between the US and Iran",
+      "body": "The FTSE 100 was set for significant losses on Monday as escalating tensions between the United States and Iran sent shockwaves through global financial markets, dragging down equities and pushing the British pound lower against major currencies.\n\nThe sell-off, driven by growing fears of a broader military confrontation in the Middle East, rippled across asset classes as investors rushed toward traditional safe havens. The prospect of armed conflict involving Iran — a major oil-producing nation and strategic chokepoint guardian at the Strait of Hormuz — has raised alarms about potential disruptions to global energy supplies and broader economic stability. Oil prices were expected to surge on the heightened geopolitical risk, adding inflationary pressure to an already fragile global economic outlook.\n\nThe pound's decline compounded the pressure on UK markets, which were already navigating a complex domestic landscape under Chancellor Rachel Reeves's fiscal stewardship. Sterling weakness tends to benefit the FTSE 100's many multinational constituents through favorable currency translation effects, but the scale of the geopolitical shock appeared to overwhelm any such tailwind. UK government bonds, or gilts, were also in focus as traders reassessed the trajectory of interest rates and fiscal risk in light of the rapidly shifting global picture.\n\nThe broader European market selloff mirrored declines across Asian trading sessions, suggesting a coordinated flight from risk assets worldwide. Defense stocks were among the few bright spots, while energy-intensive sectors and airlines faced the sharpest headwinds. Gold, long considered the ultimate crisis hedge, was expected to attract significant inflows as investors sought shelter from the uncertainty.\n\nFor UK investors, the convergence of geopolitical turmoil and domestic fiscal concerns presents a particularly challenging environment. Analysts cautioned that sustained conflict or further escalation could weigh on consumer and business confidence, potentially complicating the Bank of England's efforts to balance inflation control with economic growth. Markets will be closely watching diplomatic developments and any signals from Washington and Tehran in the coming days for indications of whether the situation will de-escalate or deepen further.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "FTSE 100",
+        "Iran",
+        "UK markets",
+        "pound sterling",
+        "geopolitical risk",
+        "oil prices",
+        "sell-off"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1713948412274-d264923b2d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxTbGlkZXMlMjBJcmFuJTIwQ29uZmxpY3QlMjBGZWFycyUyMFRyaWdnZXIlMjBHbG9iYWwlMjBTZWxsfGVufDB8MHx8fDE3NzI1MjEzOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/live-blog/2026-03-03/ftse-100-live-trump-iran-oil-gold-prices-pound-gilts-rachel-reeves-what-s-moving-uk-markets-right-now-markets-today-mma8x8l5",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T07:03:17.441Z"
+    },
+    {
+      "id": "ps-1772521414432-yr23",
+      "slug": "bitcoin-etfs-draw-458m-in-single-day-as-institutions-buy-ira",
+      "headline": "Bitcoin ETFs Draw $458M in Single Day as Institutions Buy Iran Dip",
+      "subheadline": "Spot bitcoin funds posted one of Q1's largest inflow days, signaling Wall Street views geopolitical selloff as contained",
+      "body": "U.S. spot bitcoin exchange-traded funds attracted approximately $458 million in net inflows on Monday, one of the strongest single-day hauls of the first quarter, even as the cryptocurrency markets continued to digest volatility triggered by escalating tensions with Iran. Bitcoin was trading near $68,000 on Tuesday, recovering sharply from a weekend plunge that briefly took the asset below $63,000.\n\nThe rebound and accompanying ETF flows point to a growing institutional consensus that the war-driven selloff represents a buying opportunity rather than a harbinger of deeper losses. BlackRock's iShares Bitcoin Trust (IBIT), the largest spot bitcoin fund by assets, has been a primary beneficiary, accounting for roughly half of the $1.1 billion that flowed into U.S. spot bitcoin ETFs over three consecutive sessions last week, according to data from SoSoValue.\n\nSingapore-based trading firm QCP Capital characterized the weekend disruption as sharp but manageable. In a note to clients, the firm said approximately $300 million in long liquidations were triggered by the initial Iran-related headlines — a significant but not destabilizing figure, particularly given that leveraged positioning had already been pared back in recent weeks. Options markets reinforced that reading: one-day implied volatility spiked briefly to 93 percent before quickly retreating, a pattern QCP said was consistent with traders hedging discrete event risk rather than positioning for a sustained escalation.\n\nThe speed of bitcoin's recovery — and the scale of institutional buying behind it — contrasts with equities markets, which have shown a more muted reaction to the geopolitical developments. The divergence suggests that bitcoin's role as a macro-sensitive asset class is evolving, with dedicated crypto allocators now large enough to absorb shocks that might previously have triggered prolonged drawdowns.\n\nAt current levels, bitcoin remains well below its all-time highs but has reclaimed roughly five percent from the weekend lows. Whether the recovery holds will depend in part on how the Iran situation develops, but the ETF flow data suggests that institutional capital is, for now, betting that the worst of the volatility has passed.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "ETF inflows",
+        "BlackRock IBIT",
+        "Iran",
+        "institutional investing",
+        "cryptocurrency"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e60e370603e7c17649f760aab58c9e3d4a88d261-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-climbs-as-btc-etfs-post-one-of-the-quarter-s-biggest-inflow-days-amid-iran-volatility",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T07:03:34.432Z"
+    },
     {
       "id": "ps-1772520427985-5av0",
       "slug": "us-israel-strikes-kill-iran-s-supreme-leader-as-region-desce",
@@ -47,49 +179,6 @@
       "publishedAt": "2026-03-03T06:47:25.573Z"
     },
     {
-      "id": "ps-1772520462442-cs2u",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy vs. cancerous cells",
-      "body": "A class of molecules widely celebrated in the longevity community for their anti-aging potential may carry a significant hidden risk: fueling tumor growth. Researchers at Tokyo University of Science have identified the precise molecular mechanism by which polyamines — particularly spermidine, a supplement increasingly popular among health-conscious consumers — can switch from supporting cellular health to accelerating cancer progression.\n\nThe study, led by Associate Professor Kyohei Higashi and published in the Journal of Biological Chemistry, resolves a long-standing paradox in cell biology. Polyamines are naturally occurring molecules present in all living cells and are essential for growth and specialization. In recent years, spermidine has gained attention as a \"geroprotector\" for its ability to stimulate autophagy, a cellular recycling process that clears damaged components and is closely associated with healthy aging. Yet cancer researchers have simultaneously observed that tumors consistently exhibit elevated polyamine levels, raising uncomfortable questions about the molecules' dual nature.\n\nThe Tokyo team used high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines to map precisely how polyamines behave differently depending on cellular context. In healthy tissue, polyamines activate a protein called eIF5A1, which stimulates mitochondrial function through autophagy — the beneficial pathway linked to longevity. In cancerous tissue, however, polyamines instead boost production of a closely related protein, eIF5A2, which shares 84 percent of eIF5A1's amino acid sequence but carries out strikingly different functions. The eIF5A2 protein drives aerobic glycolysis — the rapid energy-conversion process that cancer cells depend on — and promotes the production of ribosomal proteins associated with tumor severity.\n\nThe researchers also uncovered the specific mechanism enabling this switch. Under normal conditions, a small regulatory RNA molecule called miR-6514-5p suppresses eIF5A2 production. Elevated polyamine levels disrupt this molecular brake, allowing eIF5A2 to accumulate and drive cancerous proliferation. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings carry implications both for the booming polyamine supplement market and for oncology. Targeting eIF5A2 specifically could offer a new avenue for cancer therapy without disrupting the beneficial anti-aging effects mediated by eIF5A1. However, the results also raise cautionary flags for individuals taking spermidine supplements, particularly those with undiagnosed or precancerous conditions, where elevated polyamine levels could theoretically promote malignant growth. The research was supported by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "eIF5A2",
-        "Tokyo University of Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T06:47:42.442Z"
-    },
-    {
-      "id": "ps-1772520478095-ziyq",
-      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
-      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
-      "subheadline": "The four-year-old startup's revenue run rate reportedly doubled in just three months, even as rivals chip away at its user base.",
-      "body": "AI coding assistant Cursor has surpassed $2 billion in annualized revenue, with its run rate doubling over the past three months, according to a report from Bloomberg citing a person familiar with the matter. The milestone cements the startup's position as one of the fastest-growing companies in the AI software development space, even as competition from Anthropic and OpenAI intensifies.\n\nThe revenue disclosure appears strategically timed. Last week, viral social media posts raised questions about whether Cursor's growth was plateauing, pointing to high-profile individual developers who had publicly switched to rival tools — most notably Anthropic's Claude Code. But the numbers tell a different story at the enterprise level: corporate customers now account for roughly 60 percent of Cursor's revenue, according to Bloomberg, and those higher-spending clients have proven far stickier than individual users.\n\nFounded in 2022, Cursor built its early traction selling directly to individual developers before pivoting aggressively toward enterprise sales over the past year. That strategic shift appears to be insulating the company from churn at the lower end of the market, where Claude Code has gained ground on the strength of competitive pricing. OpenAI's Codex tool and startups such as Replit, Cognition, and Lovable are also vying for share in what has become one of the hottest segments in enterprise AI.\n\nThe revenue figure adds context to Cursor's last fundraising round in November, when it raised $2.3 billion at a $29.3 billion valuation in a deal co-led by Accel and Coatue. At $2 billion in annualized revenue, the company trades at roughly 14.7 times forward revenue — a premium multiple, but one that looks more defensible given the pace of growth. Doubling revenue in a single quarter is a trajectory that few software companies at this scale have achieved.\n\nCursor did not respond to requests for comment. The broader AI-assisted coding market is expanding rapidly as organizations look to accelerate software development cycles, and the battle for dominance is far from settled. What is clear is that despite mounting competition from some of the most well-resourced AI labs in the world, Cursor's enterprise bet is paying off — at least for now.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "enterprise software",
-        "Anthropic",
-        "OpenAI",
-        "startup revenue",
-        "vibe coding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T06:47:58.095Z"
-    },
-    {
       "id": "ps-1772520493860-nlkc",
       "slug": "drone-strike-near-us-embassy-in-riyadh-draws-trump-retaliati",
       "headline": "Drone Strike Near US Embassy in Riyadh Draws Trump Retaliation Vow",
@@ -111,49 +200,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/us-embassy-in-riyadh-attacked-iran-steps-up-strikes-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T06:48:13.860Z"
-    },
-    {
-      "id": "ps-1772519537513-8cfv",
-      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
-      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks extrapolate better for fiber-reinforced composites, despite transformers' 7x speed advantage",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the prevailing assumption that transformer architectures — the engine behind large language models — are universally superior across machine learning domains.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first rigorous head-to-head evaluation of transformers and recurrent neural networks (RNNs) for modeling short fiber reinforced composites (SFRCs), a class of materials widely used in automotive and aerospace applications. Full-field simulations of these materials are notoriously expensive because their mechanical response depends on loading history — a property known as path dependence — requiring models to process sequential data representing how stress and strain evolve over time.\n\nThe researchers trained both architectures on sequences of homogenized responses from representative volume elements, tuning architectural and training hyperparameters through Bayesian optimization to ensure a fair comparison. While transformer models remained competitive on large interpolation datasets, RNNs proved markedly more accurate on smaller datasets and demonstrated substantially better extrapolation performance. Under extrapolation conditions — where the model must predict material behavior outside the range of its training data — the RNN maintained accuracy while the transformer model \"performs poorly,\" according to the paper.\n\nThe transformer architecture did claim one decisive advantage: inference speed. At 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN, the transformer was roughly seven times faster. This speed differential could matter in applications requiring millions of predictions, such as real-time structural health monitoring or large-scale multiscale simulations. However, for engineering applications where reliability outside known conditions is paramount — crash simulations or failure prediction, for instance — the RNN's superior extrapolation capability may prove more valuable than raw throughput.\n\nThe results carry broader implications for the computational physics and materials science communities as they increasingly adopt machine learning surrogates to replace expensive numerical simulations. The study suggests that the choice of neural network architecture should be guided by the specific demands of the application rather than by the general popularity of transformers. For path-dependent material modeling, where physical fidelity under novel conditions is essential, RNNs appear to retain a meaningful edge.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T06:32:17.513Z"
-    },
-    {
-      "id": "ps-1772519597394-qoy9",
-      "slug": "bitcoin-etfs-draw-458m-in-single-day-as-institutions-buy-ira",
-      "headline": "Bitcoin ETFs Draw $458M in Single Day as Institutions Buy Iran Dip",
-      "subheadline": "Massive inflows suggest institutional investors view war-driven volatility as contained, not systemic, after weekend crash to $63,000",
-      "body": "U.S. spot bitcoin exchange-traded funds absorbed $458 million in net inflows on Monday, posting one of the strongest single-day totals of the quarter even as geopolitical tensions with Iran continued to roil broader markets. Bitcoin recovered to trade near $68,000 on Tuesday after briefly plunging to $63,000 over the weekend when escalating conflict headlines triggered a wave of selling.\n\nThe speed and scale of the ETF inflows point to a clear institutional read on the situation: the Iran-driven volatility represents a tradeable dislocation, not the start of a deeper unwind. BlackRock's iShares Bitcoin Trust (IBIT), the largest spot bitcoin ETF by assets, has been the dominant vehicle for this buying, accounting for roughly half of the $1.1 billion that flowed into U.S. spot bitcoin ETFs across three consecutive sessions last week, according to data from SoSoValue.\n\nSingapore-based trading firm QCP Capital reinforced this interpretation in a recent note, describing the approximately $300 million in long liquidations triggered by weekend headlines as \"notable but contained.\" The firm argued that leveraged positioning had already been substantially reduced in recent weeks, limiting the cascade potential. In options markets, one-day implied volatility spiked briefly to 93 percent before quickly retreating — a pattern QCP characterized as event-risk hedging rather than preparation for prolonged escalation.\n\nThe institutional response stands in contrast to bitcoin's weekend price action, which was driven primarily by short-covering rather than fresh directional buying, according to analysts. Monday's 5 percent surge back above $68,000 occurred against a backdrop of relatively muted reactions in traditional equity markets, suggesting that crypto-specific dynamics — particularly ETF flows and derivatives positioning — are playing an outsized role in the recovery.\n\nThe episode offers a revealing test case for how bitcoin's market structure has evolved since the launch of spot ETFs in early 2024. Rather than amplifying volatility as some critics predicted, the ETF complex appears to be functioning as a stabilizing force, channeling institutional capital into bitcoin precisely when speculative traders are being flushed out. With bitcoin still trading roughly 30 percent below its all-time highs, the willingness of large allocators to step in during geopolitical stress could establish a firmer floor for prices heading into the second quarter.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "ETF",
-        "IBIT",
-        "BlackRock",
-        "Iran",
-        "institutional investing",
-        "cryptocurrency"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e60e370603e7c17649f760aab58c9e3d4a88d261-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-climbs-as-btc-etfs-post-one-of-the-quarter-s-biggest-inflow-days-amid-iran-volatility",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T06:33:17.395Z"
     },
     {
       "id": "ps-1772517786381-z7y7",
@@ -784,29 +830,6 @@
       "publishedAt": "2026-03-02T19:04:16.970Z"
     },
     {
-      "id": "ps-1772477319964-iwn9",
-      "slug": "u-s-israel-strikes-kill-iran-s-supreme-leader-sparking-regio",
-      "headline": "U.S.-Israel Strikes Kill Iran's Supreme Leader, Sparking Regional War",
-      "subheadline": "Ayatollah Khamenei's death in Saturday's opening salvo triggers Iranian missile barrages across the Middle East and global energy turmoil",
-      "body": "A massive joint U.S.-Israeli military operation killed Iran's Supreme Leader Ayatollah Ali Khamenei on Saturday when strikes flattened his compound in Tehran, igniting the broadest military conflict the Middle East has seen in decades. By Monday, the fighting had drawn in Hezbollah, rattled global energy markets, and left hundreds dead across the region.\n\nThe operation, dubbed \"Epic Fury\" by U.S. Central Command, targeted Iran's missile infrastructure, military installations, and senior leadership. In addition to Khamenei — who had ruled Iran since 1989 — the Israel Defense Forces confirmed the deaths of Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh, and Islamic Revolutionary Guard Corps commander Gen Mohammad Pakpour. The IRGC has named Ahmad Vahidi as its new commander-in-chief. Iran's Red Crescent reported 555 people killed across 130 locations as of Monday, including more than 150 — among them children — in a strike on a school near an IRGC base in southern Iran. President Donald Trump said the goal was to prevent Iran from obtaining a nuclear weapon, warning Iranian forces to lay down their arms or \"face certain death\" and urging citizens to overthrow the clerical government.\n\nIran's response has been swift and far-reaching. The IRGC launched ballistic missiles and drones at Israel, killing nine people in a residential area of Beit Shemesh, while also striking targets in Bahrain, Kuwait, Qatar, the United Arab Emirates, Jordan, Saudi Arabia, Oman, and a British military base in Cyprus. Civilian sites including hotels in Dubai were hit. The U.S. military confirmed four American soldiers killed and five wounded, while three U.S. jets were downed over Kuwait in what appears to have been a friendly fire incident. On Monday, Hezbollah opened a new front by attacking Israel from Lebanon, saying it sought to avenge Khamenei's assassination, prompting Israeli strikes on Beirut and southern Lebanon.\n\nThe economic fallout is already severe. Qatar halted liquefied natural gas production after Iranian strikes, triggering a 50 percent spike in gas prices. Iranian drones struck Saudi Arabia's Ras Tanura refinery, causing a partial shutdown, and Iran warned all vessels against transiting the Strait of Hormuz — a chokepoint for roughly 20 percent of global oil and gas shipments. Oil prices surged 10 percent on fears of prolonged disruption.\n\nA transitional leadership council comprising President Masoud Pezeshkian, judiciary chief Gholamhossein Mohseni Ejei, and senior cleric Alireza Arafi is governing Iran while the 88-member Assembly of Experts prepares to select a new supreme leader — a process complicated by ongoing strikes. Trump told CNN on Monday that he envisions the campaign lasting approximately four weeks and that operations are running \"a little ahead of schedule.\" Israeli Prime Minister Benjamin Netanyahu said the campaign would \"continue as long as it is needed.\" Thousands of flights across the region have been grounded and internet connectivity in Iran has been almost entirely severed, leaving the conflict's trajectory deeply uncertain.",
-      "category": "breaking",
-      "importance": 10,
-      "tags": [
-        "Iran",
-        "Israel",
-        "United States",
-        "Middle East war",
-        "Khamenei",
-        "oil prices",
-        "Hezbollah",
-        "Operation Epic Fury"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-02T18:48:39.964Z"
-    },
-    {
       "id": "ps-1772476387327-rses",
       "slug": "cyberattacks-and-internet-blackout-accompany-u-s-airstrikes-",
       "headline": "Cyberattacks and Internet Blackout Accompany U.S. Airstrikes on Iran",
@@ -1071,28 +1094,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/02/bitcoin-u-s-stock-futures-give-up-early-gains-as-iran-conflict-intensifies",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-02T13:18:44.624Z"
-    },
-    {
-      "id": "ps-1772453889166-gubf",
-      "slug": "qatar-halts-lng-output-at-ras-laffan-after-military-strike",
-      "headline": "Qatar Halts LNG Output at Ras Laffan After Military Strike",
-      "subheadline": "QatarEnergy shuts down world's largest liquefied natural gas facility following attack on critical infrastructure",
-      "body": "QatarEnergy has suspended liquefied natural gas production at its Ras Laffan Industrial City complex following military attacks on the facility, the state-owned energy giant confirmed in a statement. The shutdown marks one of the most significant disruptions to global energy supply infrastructure in recent memory, given Ras Laffan's role as the single largest source of LNG on the planet.\n\nThe Ras Laffan complex, located on Qatar's northeastern coast roughly 80 kilometers from Doha, is the centerpiece of the country's vast natural gas operations. Qatar is one of the world's top three LNG exporters alongside the United States and Australia, and Ras Laffan serves as the processing and export hub for production from the massive North Field — the largest natural gas reservoir ever discovered. The facility's output supplies major economies across Asia and Europe, making any sustained interruption a potential flashpoint for global energy markets.\n\nDetails surrounding the nature of the military attack remain limited. QatarEnergy did not immediately disclose the extent of damage to infrastructure, the timeline for potential resumption of operations, or whether there were casualties. The company's terse statement left markets and analysts scrambling to assess the severity of the disruption and its downstream consequences for LNG supply contracts and spot pricing.\n\nThe timing of the attack heightens its potential economic impact. Qatar had been in the midst of a historic expansion of its LNG capacity through the North Field Expansion project, which aimed to boost the country's output from roughly 77 million tonnes per annum to 126 million tonnes by the end of the decade. European nations, which pivoted sharply toward LNG imports after curtailing Russian pipeline gas following Moscow's invasion of Ukraine, have grown increasingly dependent on Qatari supplies to meet heating and industrial demand.\n\nEnergy analysts expect natural gas futures to surge when markets fully digest the news, with ripple effects likely across crude oil benchmarks and broader commodity indices. The attack raises urgent questions about the vulnerability of concentrated energy infrastructure in the Persian Gulf region, where a significant share of global hydrocarbon supply passes through a narrow geographic corridor. Governments and trading houses worldwide are expected to reassess supply security assumptions in the wake of the incident.",
-      "category": "breaking",
-      "importance": 10,
-      "tags": [
-        "Qatar",
-        "LNG",
-        "QatarEnergy",
-        "Ras Laffan",
-        "energy security",
-        "natural gas",
-        "military attack"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1723133385745-ae56879f10c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxRYXRhciUyMExOR3xlbnwwfDB8fHwxNzcyNDUzODg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/qatar-stops-lng-production-at-world-s-top-plant-after-attack",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-02T12:18:09.166Z"
     }
   ]
 }
