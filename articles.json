@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T21:03:33.847Z",
+  "lastUpdated": "2026-03-03T21:18:28.509Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772571738829-lj25",
-      "slug": "us-and-israeli-forces-kill-iran-s-supreme-leader-in-massive-",
-      "headline": "US and Israeli Forces Kill Iran's Supreme Leader in Massive Strikes",
-      "subheadline": "Ayatollah Ali Khamenei confirmed dead as Operation Epic Fury enters its fourth day with widespread destruction across Iran",
-      "body": "Joint U.S. and Israeli military forces killed Iranian Supreme Leader Ayatollah Ali Khamenei on Saturday in a sweeping aerial campaign that has struck targets across multiple Iranian cities, marking a dramatic escalation that has plunged the Middle East into open war.\n\nThe operation, designated \"Epic Fury\" by military planners, has entered its fourth day with no signs of abating. Verified footage from across Iran shows large explosions and significant destruction in several cities, including the capital Tehran, where strikes have hit both military installations and urban neighborhoods. Iranian state television confirmed Khamenei's death, a moment captured on live broadcast. The U.S. military has released its own video purporting to show precision strikes on Iranian military targets, while President Donald Trump announced from Palm Beach, Florida, that \"major combat operations\" in Iran had commenced, accusing the Iranian regime of waging \"an unending campaign of bloodshed and mass murder targeting the United States.\"\n\nThe human cost is already mounting on multiple sides. Three U.S. service members have been killed in action during the second day of operations, prompting Trump to post a video statement on Truth Social warning that \"there will likely be more\" American casualties. Iran has responded with retaliatory strikes across the region, including attacks directed at Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. At least one Iranian drone was filmed crash-landing in flames in Kuwait, illustrating the geographic breadth of the conflict's spillover.\n\nDomestically, the strikes have triggered immediate backlash. Protesters rallied in cities across the United States on Saturday, with additional demonstrations planned in the days ahead. From Washington, reporters noted growing public anxiety about the scope and duration of the military engagement, with many Americans questioning the strategic objectives and potential endgame. Trump has signaled ambitions that extend beyond limited strikes, with multiple reports indicating the administration is pursuing regime change in Tehran — a goal that, if confirmed, would represent the most ambitious U.S. military undertaking in the Middle East since the 2003 invasion of Iraq.\n\nThe crisis unfolds against an already volatile global security backdrop. The New START nuclear treaty between the United States and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. Analysts warn that a prolonged conflict with Iran could further destabilize international diplomatic frameworks at a moment when the architecture of arms control is already crumbling. The coming days will likely determine whether the conflict remains contained to targeted military operations or spirals into a broader regional war with unpredictable consequences.",
+      "id": "ps-1772572630539-h2a0",
+      "slug": "u-s-and-israel-kill-iran-s-supreme-leader-in-massive-strike-",
+      "headline": "U.S. and Israel Kill Iran's Supreme Leader in Massive Strike Campaign",
+      "subheadline": "Ayatollah Ali Khamenei confirmed dead as 'Operation Epic Fury' enters its fourth day with widespread destruction across Iran",
+      "body": "The United States and Israel launched devastating military strikes across Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapidly escalating conflict that has now entered its fourth day. The joint operation, dubbed \"Operation Epic Fury,\" has produced widespread destruction across multiple Iranian cities, with verified footage showing large explosions from Tehran to other major population centers.\n\nPresident Donald Trump announced \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging what he called an \"unending campaign of bloodshed and mass murder targeting the United States.\" Trump has signaled ambitions that extend beyond limited strikes, with reports indicating the administration is pursuing regime change in Tehran. The human cost is already mounting on the American side as well — three U.S. service members have been killed in action during the second day of operations, with Trump warning in a video statement posted to Truth Social that \"there will likely be more\" American casualties.\n\nIran's state media confirmed Khamenei's death in a broadcast that marked one of the most consequential moments in Middle Eastern geopolitics in decades. In response, Iran has launched retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles — including drones, one of which was captured on video crash-landing in Kuwait — targeted Israeli territory. The scope of Iran's retaliation underscores the risk of the conflict spiraling into a broader regional war.\n\nThe domestic reaction in the United States has been sharply divided. Protesters rallied in cities across the country on Saturday, with additional demonstrations planned, opposing the military action. Meanwhile, the strikes have raised urgent questions about the conflict's trajectory and endgame. The operation comes against an already volatile geopolitical backdrop, with the New START nuclear treaty between the U.S. and Russia having recently expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991.\n\nThe killing of Khamenei, who had served as Iran's supreme leader since 1989, removes the central figure of the Islamic Republic's power structure and plunges the country into an unprecedented leadership crisis. Analysts are closely watching whether Iran's military and political establishment can mount a coordinated response or whether internal power struggles will compound the chaos of ongoing strikes. What comes next — whether negotiations, further escalation, or a protracted military campaign — remains deeply uncertain.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -15,14 +15,121 @@
         "US military",
         "Israel",
         "Khamenei",
-        "Middle East war",
+        "Middle East conflict",
         "Trump",
         "Operation Epic Fury"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T21:02:18.829Z"
+      "publishedAt": "2026-03-03T21:17:10.539Z"
+    },
+    {
+      "id": "ps-1772572645340-0cev",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
+      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
+      "subheadline": "CASCADE uses advection-based approach to enhance low-resolution climate data while conserving mass and energy",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in weather and climate modeling: generating fine-scale detail from coarse data without violating the laws of physics.\n\nIntroduced in a February 2026 preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — reimagines the problem of spatial super-resolution as an explicit transport process rather than a pixel-by-pixel image enhancement task. Where conventional deep learning approaches to downscaling often \"hallucinate\" fine-grained details that look plausible but lack physical consistency, CASCADE instead reconstructs high-resolution structure by advecting coarse-scale information along learned velocity fields using semi-Lagrangian warping techniques borrowed from computational fluid dynamics.\n\nThe distinction matters enormously for extreme weather events. Severe storms, atmospheric rivers, and ocean eddies involve rare, localized, high-intensity features where artificial detail can misrepresent actual hazards. CASCADE's architecture explicitly decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components — mirroring the closure problem that has long challenged numerical weather prediction — and enforces consistency with lower-resolution observations through what the author describes as an \"assimilation-style innovation step,\" analogous to data assimilation techniques used in operational forecasting.\n\nTested on the Storm Event Imagery Dataset for Visualization (SEVIR), which contains radar observations of severe convective storms, CASCADE achieved 4x spatial super-resolution while outperforming strong baselines across a battery of standard metrics. These included continuous measures like peak signal-to-noise ratio and structural similarity, as well as threshold-based skill scores such as the critical success index, Heidke skill score, and probability of detection — metrics that specifically evaluate a model's ability to capture the sharp gradients and intense features characteristic of severe weather.\n\nPerhaps most notable is the framework's interpretability. Unlike black-box neural networks, CASCADE produces visualizable velocity and correction fields that offer physical insight into how the model generates its high-resolution output. By encoding advection as the fundamental operator rather than hoping a neural network learns it implicitly, the approach yields temporally coherent, mass-conserving reconstructions that could prove valuable for both atmospheric and oceanic applications where transport dynamics dominate. The work represents a growing trend in geophysical machine learning toward architectures that embed known physics directly into their structure, rather than relying solely on data-driven pattern recognition.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "climate modeling",
+        "machine learning",
+        "super-resolution",
+        "weather prediction",
+        "atmospheric physics",
+        "downscaling"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1756756412200-f4721d505d08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8Y2xpbWF0ZSUyMG1vZGVsaW5nJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzI1NzI2NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T21:17:25.340Z"
+    },
+    {
+      "id": "ps-1772572661549-axo3",
+      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
+      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia hypothesis",
+      "body": "A bacterium already famous for shrugging off lethal radiation doses has now demonstrated it can survive the violent pressures of an asteroid impact — the kind of event that could launch rocks from Mars into interplanetary space. The finding, published March 3 in PNAS Nexus, lends new experimental weight to the hypothesis that microbial life could hitchhike between planets aboard impact debris.\n\nResearchers led by Lily Zhao and K. T. Ramesh devised a steel-plate sandwich to replicate the shock conditions a microorganism would experience during a massive asteroid strike on Mars. They placed samples of Deinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" for its extreme resilience — between two steel plates and slammed a third plate into the assembly, generating pressures up to 3 gigapascals, roughly 30,000 times the atmospheric pressure at sea level. Even at those crushing forces, a remarkable 60 percent of the microbes survived.\n\nThe team tracked biological stress at the genetic level, reading out which genes the bacteria expressed at varying pressure thresholds. At 2.4 GPa, cell membranes began to rupture, but the distinctive multi-layered cell envelope of D. radiodurans appeared to provide crucial structural protection. Transcription profiles revealed that surviving bacteria immediately shifted their metabolic priorities toward repairing cellular damage — essentially running an emergency recovery program in the aftermath of simulated impact.\n\nThe results build on a growing body of evidence that D. radiodurans possesses an extraordinary toolkit for enduring extreme environments. Previous studies have shown the microbe can withstand radiation doses 28,000 times greater than what would kill a human, as well as prolonged desiccation — conditions it would also face during a journey through space. Taken together, the findings suggest the organism could plausibly survive launch from a planetary surface, transit through the vacuum of space, and potentially arrive on another world still viable.\n\nThe implications reach beyond a single resilient species. If microorganisms can endure the most violent phase of interplanetary transfer — ejection from a planet's surface — then the bottleneck for lithopanspermia, the theory that life spreads via meteorites, may be narrower than scientists assumed. Mars meteorites have already been found on Earth, confirming that material does travel between the two planets. Whether living cargo has ever made the trip remains an open question, but the new data suggests the journey is at least biologically survivable.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "panspermia",
+        "astrobiology",
+        "Deinococcus radiodurans",
+        "Mars",
+        "extremophiles",
+        "asteroid impact"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T21:17:41.549Z"
+    },
+    {
+      "id": "ps-1772572674446-npq6",
+      "slug": "anduril-seeks-60-billion-valuation-in-new-funding-round",
+      "headline": "Anduril Seeks $60 Billion Valuation in New Funding Round",
+      "subheadline": "Palmer Luckey's defense-tech firm eyes up to $8 billion in fresh capital, doubling its valuation in under a year",
+      "body": "Anduril Industries, the defense technology company founded by Palmer Luckey, is pursuing a new funding round that would value the firm at $60 billion — double the $30 billion valuation it achieved just nine months ago, according to a Wall Street Journal report.\n\nThe multibillion-dollar round is being led by Thrive Capital and Andreessen Horowitz, with Lux Capital and Founders Fund also expected to participate. Bloomberg has previously reported the round could raise as much as $8 billion in new capital, making it one of the largest private fundraises in defense technology. Anduril's last round, a $2.5 billion Series G, closed in June 2025.\n\nThe fundraise arrives amid heightened tensions between the Pentagon and the technology sector. A contract dispute between AI company Anthropic and the Department of Defense has escalated sharply, with Secretary of Defense Pete Hegseth threatening to designate Anthropic as a supply-chain risk and the government moving to cancel all its contracts with the firm. Luckey has publicly backed Washington's hardline stance, writing on X that \"you have to believe that our imperfect constitutional republic is still good enough to run a country without outsourcing the real levers of power to billionaires and corpos and their shadow advisors.\"\n\nThe comment positions Anduril as a defense contractor that views alignment with government priorities as a competitive advantage — a posture that contrasts with Silicon Valley firms that have faced internal employee resistance to military work. Anduril, which builds autonomous systems, surveillance platforms, and other hardware for the U.S. military, has benefited from a broader surge of venture capital into defense technology as geopolitical tensions and bipartisan support for military modernization have grown.\n\nIf the round closes at the reported terms, Anduril would rank among the most valuable private companies in the United States, rivaling firms like SpaceX and Stripe in scale. The rapid doubling of its valuation underscores investor confidence that the defense-tech sector's growth trajectory remains steep, even as the government's relationship with other technology companies grows more fraught.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Anduril",
+        "defense tech",
+        "Palmer Luckey",
+        "venture capital",
+        "Andreessen Horowitz",
+        "Thrive Capital",
+        "valuation"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2152503873.jpg?resize=1200,685",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T21:17:54.446Z"
+    },
+    {
+      "id": "ps-1772572692497-9qgp",
+      "slug": "stocks-recover-some-ground-after-trump-reassures-on-hormuz-s",
+      "headline": "Stocks Recover Some Ground After Trump Reassures on Hormuz Shipping",
+      "subheadline": "Oil's surge above 9% retreats as president pledges military protection for critical strait amid Iran conflict",
+      "body": "U.S. equity and bond markets clawed back steep losses on Monday after President Donald Trump signaled that American military forces would act to keep the Strait of Hormuz open to commercial shipping, easing fears that the conflict with Iran could choke off a critical global oil artery.\n\nThe remarks helped deflate a dramatic spike in crude prices that had at one point exceeded 9%, a move that had rattled risk assets worldwide and sent Treasury yields sharply higher. While stocks remained in the red, the worst of the selling abated as traders recalibrated the likely economic fallout from the escalating military confrontation. The partial recovery underscored how sensitive markets have become to any signal about the physical flow of oil through the narrow waterway, which handles roughly 20% of the world's petroleum supply.\n\nThe Strait of Hormuz, a 21-mile-wide chokepoint between Iran and Oman, has long been considered one of the most strategically vulnerable nodes in the global energy system. Iran has previously threatened to close the passage in response to military pressure, and the current conflict has revived those concerns with an intensity not seen in decades. Trump's assurance that the U.S. Navy would secure the shipping lanes appeared designed to prevent energy-market panic from compounding the broader geopolitical crisis.\n\nEven with the partial reversal, the session reflected deep unease across asset classes. Bonds sold off alongside equities — an unusual tandem decline that suggested investors were pricing in both higher energy costs and the inflationary consequences of a prolonged disruption to oil markets. The moves posed a fresh challenge for the Federal Reserve, which has been navigating an already complex inflation picture.\n\nMarket participants cautioned that the reprieve could prove short-lived. The underlying conflict with Iran remains unresolved, and any escalation — particularly one that damages port infrastructure or leads to direct confrontation in the strait — could reignite the volatility that briefly gripped markets earlier in the session. For now, traders are taking Trump's commitment to protect shipping at face value, but the risk premium embedded in oil prices suggests the market is far from confident the worst has passed.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "Strait of Hormuz",
+        "Iran conflict",
+        "oil prices",
+        "stock market",
+        "Trump",
+        "geopolitics",
+        "Treasury bonds"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1639825752750-5061ded5503b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8c3RvY2tzJTIwcmVjb3ZlciUyMHNvbWV8ZW58MHwwfHx8MTc3MjU3MjY5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T21:18:12.497Z"
+    },
+    {
+      "id": "ps-1772572708397-hfml",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global watchdog says dollar-pegged tokens account for 84% of illicit crypto volumes, urges urgent AML rules for issuers",
+      "body": "The Financial Action Task Force, the Paris-based global standard-setter for anti-money laundering policy, issued a stark warning on Tuesday that stablecoins have become the primary instrument for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors. The 42-page report calls on governments worldwide to impose anti-money laundering obligations on stablecoin issuers as the market surpasses $300 billion in total value.\n\nThe findings draw on converging analyses from multiple sources. Blockchain intelligence firm Chainalysis reported that stablecoins — predominantly dollar-pegged tokens like Tether's USDT — represented 84% of the estimated $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate report from TRM Labs, published in mid-February, pegged illicit stablecoin flows at $141 billion last year, the highest level in five years. FATF itself had previously estimated approximately $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report singled out peer-to-peer transfers through unhosted wallets — crypto wallets not managed by regulated intermediaries — as a \"key vulnerability\" that allows transactions to bypass standard compliance controls entirely. FATF stopped short of recommending blanket blacklisting of such wallets but urged jurisdictions to consider requiring stablecoin issuers to implement wallet-freezing capabilities and to restrict or ban certain smart-contract functions that facilitate anonymous transfers.\n\nSanctions-related activity dominated the illicit landscape, accounting for 86% of all illegal crypto flows according to the TRM Labs data. The FATF report detailed specific cases involving North Korean proliferation financing networks and Iranian cross-border payment schemes that relied on stablecoins to circumvent international financial restrictions. The scale of legitimate stablecoin use — monthly transaction volumes exceeded $1 trillion on multiple occasions in 2025 — makes isolating illicit flows an increasingly complex regulatory challenge.\n\nThe report arrives at a politically charged moment in Washington, where lawmakers are debating the CLARITY Act and other proposals to define the regulatory perimeter for stablecoin issuers. On the same day FATF published its findings, JPMorgan Chase CEO Jamie Dimon argued that issuers paying interest on customer balances should face bank-level regulation, including capital and liquidity requirements. FATF's call for rapid action underscores that the regulatory vacuum around stablecoins is now viewed as a systemic concern not just by national authorities but by the international body that sets the baseline for financial crime prevention across more than 200 jurisdictions.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T21:18:28.397Z"
     },
     {
       "id": "ps-1772571754491-i926",
@@ -46,49 +153,6 @@
       "publishedAt": "2026-03-03T21:02:34.491Z"
     },
     {
-      "id": "ps-1772571771321-u7rz",
-      "slug": "hardy-bacterium-survives-mars-impact-forces-in-lab-experimen",
-      "headline": "Hardy Bacterium Survives Mars-Impact Forces in Lab Experiment",
-      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia theory",
-      "body": "A famously indestructible microbe has now added another feat to its résumé: surviving the simulated violence of being blasted off the surface of Mars by an asteroid strike. Researchers report in PNAS Nexus that 60 percent of Deinococcus radiodurans cells remained viable after being subjected to shock pressures of up to 3 gigapascals — roughly 30,000 times atmospheric pressure at sea level — in experiments designed to replicate the forces a microorganism would experience during planetary ejection.\n\nThe team, led by Lily Zhao and K. T. Ramesh, sandwiched bacterial samples between two steel plates and then slammed a third plate into the assembly to generate the extreme, short-duration pressures characteristic of a large impact event. Gene-expression analysis revealed that cells exposed to 2.4 GPa began showing ruptured membranes, yet the unique multi-layered cell envelope of D. radiodurans allowed a majority to pull through. Transcription profiles indicated the surviving bacteria immediately shifted into a damage-repair mode, prioritizing the restoration of cellular integrity in the aftermath of the shock.\n\nThe findings extend an already impressive body of evidence about this organism, sometimes nicknamed \"Conan the Bacterium.\" Previous studies have demonstrated that D. radiodurans can withstand radiation doses 28,000 times the lethal threshold for humans, as well as extreme desiccation and vacuum conditions — all hazards it would face during an interplanetary journey. By showing that the microbe can also endure the initial launch event, the new work fills a critical gap in the chain of survival required for lithopanspermia, the hypothesis that life can travel between worlds embedded in rocks ejected by asteroid impacts.\n\nThe implications reach well beyond a single tough bacterium. Crater records on the Moon and Mars attest to the frequency of large impacts throughout the solar system's history, meaning opportunities for biological material to be launched into space have been abundant. If organisms can survive not only the journey through space but also the violent departure from a planetary surface, the probability that life has migrated between bodies in the inner solar system rises considerably. The research also carries relevance for planetary protection protocols governing Mars sample-return missions, since it suggests that Martian microbes — if they exist — could theoretically endure the very forces that might deliver them to Earth.\n\nThe authors note that their results indicate microorganisms can tolerate far more extreme conditions than scientists had previously assumed, strengthening the case that the building blocks of biology — or biology itself — may have once leapt across the gulf between Mars and Earth.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "astrobiology",
-        "panspermia",
-        "Deinococcus radiodurans",
-        "Mars",
-        "extremophiles",
-        "asteroid impacts"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T21:02:51.321Z"
-    },
-    {
-      "id": "ps-1772571784190-4012",
-      "slug": "anduril-seeks-60-billion-valuation-in-new-funding-round",
-      "headline": "Anduril Seeks $60 Billion Valuation in New Funding Round",
-      "subheadline": "Palmer Luckey's defense-tech firm looks to double its valuation in under a year with up to $8 billion in fresh capital",
-      "body": "Anduril Industries is pursuing a new funding round that would value the defense technology company at $60 billion, according to a Wall Street Journal report — a dramatic leap from the $30 billion valuation it secured just nine months ago. Thrive Capital and Andreessen Horowitz are leading the round, with Lux Capital and Founders Fund also expected to participate.\n\nThe round could raise as much as $8 billion in fresh capital, Bloomberg previously reported, making it one of the largest private fundraises in the defense-tech sector. Anduril's Series G closed in June 2025 at $2.5 billion, and the rapid follow-on underscores surging investor appetite for companies building autonomous systems and AI-driven weapons platforms for the U.S. military and its allies.\n\nThe fundraise arrives amid broader turbulence in the defense-tech landscape. A contract dispute between AI company Anthropic and the Pentagon has escalated sharply, with the U.S. government moving to cancel all its contracts with the firm. Secretary of Defense Pete Hegseth has gone further, threatening to designate Anthropic as a supply-chain risk — a classification that could effectively bar the company from future defense work. Anduril founder Palmer Luckey has publicly backed the government's hardline stance. \"At the end of the day, you have to believe that our imperfect constitutional republic is still good enough to run a country without outsourcing the real levers of power to billionaires and corpos and their shadow advisors,\" Luckey wrote on X.\n\nThe Anthropic fallout could prove advantageous for Anduril, which has positioned itself as a defense-first company aligned with Pentagon priorities. Founded in 2017, Anduril has built its business on autonomous surveillance towers, underwater drones, and AI-powered command-and-control systems, securing major contracts with the Department of Defense and allied governments. A successful close at $60 billion would place Anduril among the most valuable private companies in the United States, rivaling firms like Databricks and Stripe.\n\nFor the defense-tech sector more broadly, the round signals that private capital continues to flow aggressively into military applications of artificial intelligence and robotics — even as Washington's relationship with the broader tech industry grows increasingly fraught.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Anduril",
-        "defense tech",
-        "fundraising",
-        "Palmer Luckey",
-        "venture capital",
-        "Thrive Capital",
-        "Andreessen Horowitz"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-2152503873.jpg?resize=1200,685",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/anduril-aims-at-60-billion-valuation-in-new-funding-round/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T21:03:04.190Z"
-    },
-    {
       "id": "ps-1772571799476-rka3",
       "slug": "iraq-begins-massive-oil-production-cuts-as-hormuz-closure-fi",
       "headline": "Iraq Begins Massive Oil Production Cuts as Hormuz Closure Fills Storage",
@@ -109,47 +173,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iraq-starts-shutting-oil-output-at-rumaila-as-storage-fills-up",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T21:03:19.476Z"
-    },
-    {
-      "id": "ps-1772571813741-9l6y",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges countries to impose AML rules on issuers",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, with sanctioned actors in Iran and North Korea among the most active users.\n\nIn a 42-page report, FATF said dollar-pegged tokens now account for the overwhelming majority of criminal crypto flows, citing data from blockchain analytics firms Chainalysis and TRM Labs. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. TRM Labs, in a separate February report, estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report highlighted specific cases involving North Korean and Iranian actors using tokens such as Tether's USDT for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to TRM Labs data cited in the report. The scale of legitimate stablecoin usage has also surged, with monthly transaction volumes exceeding $1 trillion on multiple occasions last year and the market's total capitalization now surpassing $300 billion.\n\nFATF identified peer-to-peer transfers through unhosted wallets — cryptocurrency wallets not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely. While the organization stopped short of recommending blanket blacklisting of such wallets, it urged member countries to impose anti-money laundering obligations directly on stablecoin issuers. It also called on regulators to consider requiring technical tools such as wallet-freezing capabilities and restrictions on certain smart-contract functions that could facilitate illicit transfers.\n\nThe report arrives at a moment of shifting regulatory dynamics in the United States, where the Commodity Futures Trading Commission and Securities and Exchange Commission are jointly advancing new crypto policies under Project Crypto. FATF's call for urgent action underscores a growing tension at the heart of digital asset policy: stablecoins are simultaneously becoming critical infrastructure for global payments and the preferred instrument for sanctions evasion on a scale that dwarfs earlier concerns about Bitcoin-based crime.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T21:03:33.741Z"
-    },
-    {
-      "id": "ps-1772570844615-iccs",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
-      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
-      "subheadline": "CASCADE uses physics-based advection rather than pixel-level hallucination to enhance resolution of severe storm data",
-      "body": "A new machine learning framework called CASCADE reframes the challenge of enhancing low-resolution climate data by treating it as an explicit transport process rather than an image enhancement problem — an approach its creator argues produces physically consistent results critical for predicting extreme weather events.\n\nAlexander Kovalenko introduced the framework, detailed in a preprint posted to arXiv on February 18, as a response to a persistent problem in geophysical modeling: standard super-resolution techniques borrowed from computer vision can \"hallucinate\" fine-scale details that violate fundamental physical constraints like conservation of mass and energy. Such artifacts are more than cosmetic flaws — in the context of severe convective storms, fabricated detail can misrepresent actual hazards. CASCADE, which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution, instead reconstructs fine-grained structure by iteratively moving coarse information along learned velocity fields using semi-Lagrangian warping, a technique rooted in computational fluid dynamics.\n\nThe architecture mirrors a well-known challenge in numerical weather prediction: the closure problem. CASCADE explicitly decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, then enforces consistency between the high-resolution output and the original low-resolution input through what Kovalenko describes as an \"assimilation-style innovation step\" — borrowing conceptually from data assimilation methods used in operational weather forecasting. This design means the model's internal workings are more interpretable than typical black-box approaches, with visualizable velocity and correction fields that researchers can inspect.\n\nTested on the Storm Event Imagery (SEVIR) radar dataset for 4x super-resolution of severe convective storms, CASCADE outperformed strong baseline models across both standard image quality metrics — including peak signal-to-noise ratio, structural similarity, and mean absolute error — and threshold-based skill scores used in meteorological verification, such as the Critical Success Index, Heidke Skill Score, and Probability of Detection. These meteorological metrics are particularly important because they measure whether a model correctly identifies the presence and intensity of precipitation features rather than merely producing visually plausible images.\n\nThe work addresses a growing need as climate scientists and weather agencies increasingly turn to machine learning to bridge the gap between coarse global climate models and the fine-scale information needed for local impact assessments. By encoding physical advection as the fundamental operation rather than learning it implicitly from data, CASCADE offers a template for how domain-specific physics can be embedded directly into neural network architectures — an approach that could extend beyond atmospheric science to oceanic modeling and other advection-dominated geophysical systems.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "climate-modeling",
-        "weather-prediction",
-        "super-resolution",
-        "atmospheric-physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1717618354126-fecb38cc7408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxtYWNoaW5lLWxlYXJuaW5nJTIwY2xpbWF0ZS1tb2RlbGluZ3xlbnwwfDB8fHwxNzcyNTcwODQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T20:47:24.615Z"
     },
     {
       "id": "ps-1772570859411-ed68",
@@ -192,27 +215,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00091",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T20:17:22.483Z"
-    },
-    {
-      "id": "ps-1772569088465-glb3",
-      "slug": "stocks-recover-from-morning-selloff-as-trump-shipping-commen",
-      "headline": "Stocks Recover From Morning Selloff as Trump Shipping Comments Calm Markets",
-      "subheadline": "Treasury yield surge eases and oil pulls back from 9% spike as U.S. military moves to secure shipping lanes amid Iran conflict",
-      "body": "U.S. equities pared steep morning losses on Monday after remarks from President Trump regarding shipping lane security helped stabilize markets rattled by the ongoing military conflict with Iran, which has sent shockwaves through virtually every major asset class.\n\nThe partial recovery came after a punishing start to the trading session, with stocks selling off sharply overnight and Treasury yields surging as investors grappled with the economic implications of an escalating Middle East conflict. Oil prices, which had spiked as much as 9% earlier in the session on fears of supply disruption, retreated after the U.S. military signaled it was taking action to keep critical maritime trade routes open. The move to secure shipping lanes appeared to ease some of the most acute supply-shock fears that had gripped energy markets.\n\nThe conflict with Iran has introduced a level of volatility not seen in global markets in months, with cross-asset correlations breaking down as traders attempt to price in a rapidly shifting geopolitical landscape. Safe-haven flows initially drove Treasury prices higher, but yields subsequently surged — a reversal that caught many fixed-income investors off guard and suggested deeper concerns about inflation pass-through from elevated energy prices and potential fiscal costs of military operations.\n\nMarket strategists cautioned that the intraday recovery should not be mistaken for stability. The situation remains highly fluid, with crude oil still trading well above pre-conflict levels and defense-related equities outperforming the broader market. Shipping and logistics stocks have seen sharp two-way moves as investors weigh the risks of trade route disruption against the prospect of U.S. naval intervention providing a security backstop.\n\nThe coming sessions are likely to hinge on developments on the ground and any further policy signals from Washington. With energy prices elevated and bond markets showing signs of stress, market participants are bracing for continued turbulence as the geopolitical premium embedded in asset prices remains far from settled.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Iran conflict",
-        "oil prices",
-        "stock market",
-        "Treasury yields",
-        "shipping lanes",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1608050899844-41b677b85250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8SXJhbiUyMGNvbmZsaWN0JTIwb2lsJTIwcHJpY2VzfGVufDB8MHx8fDE3NzI1NjkwODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T20:18:08.465Z"
     },
     {
       "id": "ps-1772568176869-6sd0",
