@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-03-03T17:33:29.407Z",
+  "lastUpdated": "2026-03-03T17:48:27.577Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772559130280-kpj5",
+      "id": "ps-1772560022823-ef25",
       "slug": "us-and-israeli-strikes-kill-iran-s-supreme-leader-khamenei",
       "headline": "US and Israeli Strikes Kill Iran's Supreme Leader Khamenei",
-      "subheadline": "Massive joint military operation dubbed 'Epic Fury' triggers Iranian retaliatory attacks across the Middle East",
-      "body": "The United States and Israel launched a devastating wave of military strikes against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and marking a dramatic escalation that has plunged the Middle East into its most serious crisis in decades. The joint operation, designated \"Operation Epic Fury,\" targeted multiple sites across the country, with verified footage showing large explosions in several Iranian cities including Tehran.\n\nIranian state television confirmed the death of the 85-year-old Supreme Leader, who had ruled the Islamic Republic since 1989. The announcement marked an extraordinary moment in the decades-long confrontation between Iran and the West. President Donald Trump, directing military operations from Palm Beach, Florida, announced that \"major combat operations\" had begun, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from the White House indicate Trump is explicitly seeking regime change in Tehran.\n\nIran responded with retaliatory strikes across the region, including attacks directed at Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. An Iranian drone was filmed crash-landing in Kuwait, underscoring the widening geographic scope of the conflict, now in its fourth day. Video verified by the BBC and international news agencies shows significant destruction in Tehran neighborhoods, with chaotic scenes on the ground following strikes on civilian areas.\n\nThe domestic response in the United States has been sharply divided. Protests erupted in cities across the country on Saturday, with additional demonstrations planned. The strikes raise profound questions about the legal authority for such an operation, the strategic endgame, and the risk of a broader regional conflagration that could draw in Iran's network of proxy forces across the Middle East.\n\nThe conflict unfolds against an already volatile international backdrop, with the New START nuclear treaty between the US and Russia having expired — leaving no limits on nuclear weapons between the world's two largest atomic powers for the first time since 1991. Analysts warn that the combination of an unconstrained nuclear landscape and open warfare with Iran represents an unprecedented convergence of global security threats. The Pentagon has released its own footage showing military targets being struck, though the full scope of civilian casualties remains unclear as communications infrastructure inside Iran continues to degrade.",
+      "subheadline": "Massive joint military operation dubbed 'Epic Fury' triggers Iranian retaliation and protests across American cities",
+      "body": "The United States and Israel launched devastating joint strikes against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and marking a dramatic escalation of conflict in the Middle East now entering its fourth day.\n\nThe operation, designated \"Epic Fury,\" has hit targets across multiple Iranian cities, with verified footage from social media and news agencies showing large-scale explosions and widespread destruction throughout the country. The U.S. military has released its own video purporting to show military installations being struck. Iranian state television confirmed Khamenei's death, a moment that represents perhaps the most consequential targeted killing in the region since the 2020 U.S. drone strike on Iranian General Qasem Soleimani.\n\nPresident Donald Trump, directing operations from Palm Beach, Florida, announced that \"major combat operations\" have begun in Iran, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from the White House press pool indicate Trump is openly pursuing regime change in Tehran — a goal that would represent the most ambitious American military undertaking in the Middle East since the 2003 invasion of Iraq.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. At least one Iranian drone was captured on video crashing while on fire in Kuwait, underscoring the breadth of Tehran's counterstrike. The escalation has sparked anti-war protests in cities across the United States, with demonstrators rallying on Saturday and additional actions planned in the coming days.\n\nThe conflict unfolds against an already volatile geopolitical backdrop. The New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on the two nations' arsenals for the first time since 1991. Analysts and diplomats are now assessing whether the strikes will spiral into a prolonged regional war or whether the elimination of Iran's top leader could reshape the strategic calculus in the Middle East. The BBC's chief international correspondent Lyse Doucet noted that the immediate humanitarian and political consequences remain deeply uncertain, with the trajectory of events likely to depend on both Iran's remaining military capacity and the appetite in Washington for sustained engagement.",
       "category": "breaking",
       "importance": 10,
       "tags": [
         "Iran",
         "US military strikes",
-        "Khamenei",
         "Israel",
+        "Khamenei",
         "Middle East conflict",
         "Trump",
         "Operation Epic Fury"
@@ -22,7 +22,114 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T17:32:10.280Z"
+      "publishedAt": "2026-03-03T17:47:02.824Z"
+    },
+    {
+      "id": "ps-1772560038774-mbdp",
+      "slug": "rnns-outperform-transformers-for-predicting-composite-materi",
+      "headline": "RNNs Outperform Transformers for Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks generalize better than transformers for modeling fiber-reinforced composites, despite slower inference",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the assumption that transformers' dominance in natural language processing and other AI domains extends uniformly to computational physics applications.\n\nPetter Uvdal and Mohsen Mirkhalaf compared the two leading deep learning architectures on a specific but industrially important task: predicting the homogenized mechanical response of short fiber reinforced composites (SFRCs), which are widely used in automotive, aerospace, and consumer products. Full-field simulations of these materials remain computationally expensive because their behavior depends on loading history — a property known as path dependence — making surrogate models an attractive alternative. The researchers trained both architectures on sequences derived from representative volume element simulations, tuning hyperparameters for each using Bayesian optimization to ensure a fair comparison.\n\nThe results revealed a nuanced picture. Transformer models proved competitive with RNNs on accuracy when trained on large datasets and were roughly seven times faster at inference, completing predictions in 0.5 milliseconds compared to 3.5 milliseconds for the RNN. However, when tested on smaller training sets — a common constraint in materials science, where generating simulation data is costly — the RNN architecture demonstrated superior accuracy. Most strikingly, under extrapolation conditions, where models must predict material responses outside the range of their training data, the performance gap widened dramatically. The RNN maintained its accuracy while the transformer model deteriorated significantly.\n\nThe extrapolation finding carries particular weight for engineering applications. In practice, composite materials are subjected to loading conditions that may not be fully represented in any training dataset, making robust generalization essential for safety-critical design. The study examined both architectural hyperparameters, such as the number of GRU layers and attention heads, and training hyperparameters including learning rate and batch size, providing a thorough methodological framework for future benchmarking efforts.\n\nThe work highlights an important lesson for the broader push to integrate machine learning into computational materials science: the best-performing architecture depends heavily on the specific constraints of the application. For researchers and engineers working with limited simulation budgets who need reliable predictions in untested regimes, the older RNN paradigm may remain the more prudent choice — even as transformers continue to reshape other domains of artificial intelligence.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1578918748648-7d30d67436c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T17:47:18.774Z"
+    },
+    {
+      "id": "ps-1772560057488-p8cv",
+      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
+      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia hypothesis",
+      "body": "A famously indestructible microbe has now added another survival feat to its résumé: enduring the bone-crushing pressures of a simulated asteroid impact on Mars. Researchers led by Lily Zhao and K. T. Ramesh subjected the extremophile bacterium Deinococcus radiodurans to forces reaching 3 gigapascals — roughly 30,000 times Earth's atmospheric pressure — and found that a remarkable 60 percent of the organisms lived to tell the tale. The results, published March 3 in PNAS Nexus, significantly strengthen the scientific case that microbial life could hitch a ride between planets aboard impact-ejected rock.\n\nThe experimental setup was elegantly brutal. The team sandwiched bacterial cells between two steel plates, then slammed a third plate into the assembly to replicate the shock conditions a microorganism would experience if a large asteroid struck a planetary surface and launched debris into space. At pressures up to 2.4 GPa, some cell membranes began to rupture, but the bacterium's unusually robust multi-layered cell envelope appeared to shield the majority of organisms from destruction. Gene expression analysis revealed that surviving bacteria immediately pivoted to damage-repair mode, activating transcription profiles associated with fixing broken DNA and restoring cellular integrity.\n\nDeinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" — was already renowned for withstanding radiation doses 28,000 times the lethal threshold for humans, as well as extreme desiccation and vacuum conditions. The new findings close a critical gap in the panspermia hypothesis, which proposes that life could migrate between worlds inside meteorites. Previous studies had demonstrated that certain microbes can survive the cold vacuum of space and the searing heat of atmospheric reentry, but the initial launch — the violent moment when an impact blasts surface material to escape velocity — remained a question mark.\n\nMars is a particularly compelling test case. The planet's surface is scarred with impact craters, and scientists have already identified more than 300 Martian meteorites that made the journey to Earth. If organisms like D. radiodurans once existed on Mars, the new research suggests they could have plausibly survived ejection and begun the interplanetary voyage. The authors note that microorganisms appear capable of enduring far more extreme conditions than previously assumed, expanding the envelope of environments in which life might persist — and travel.\n\nThe findings carry implications beyond Mars. Any rocky body in the solar system that experiences large impacts could, in principle, serve as a launch pad for microbial life, raising the stakes for planetary protection protocols on future sample-return missions and reinforcing the urgency of the search for biosignatures on Mars, Europa, and Enceladus.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "panspermia",
+        "Deinococcus radiodurans",
+        "Mars",
+        "astrobiology",
+        "extremophiles",
+        "asteroid impact"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T17:47:37.488Z"
+    },
+    {
+      "id": "ps-1772560073181-5eaq",
+      "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
+      "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
+      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal growing integration of cyber warfare with kinetic military operations",
+      "body": "Cyber operations were deeply woven into the U.S.-Israeli military campaign against Iran that began over the weekend, with the chairman of the Joint Chiefs of Staff confirming that coordinated digital attacks disrupted Iranian communications and sensor networks ahead of the bombing strikes that killed Supreme Leader Ali Khamenei and several senior officials.\n\nGen. Dan Caine stated at a press conference that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran, \"leaving the adversary without the ability to see, coordinate or respond effectively.\" The explicit acknowledgment from such a senior military official marks one of the most direct public confirmations of offensive cyber capabilities being deployed in tandem with conventional strikes in a major conflict.\n\nThe integration of cyber and kinetic operations extended well beyond communications disruption. Israeli forces reportedly leveraged years of access to Tehran's traffic camera network and deeply penetrated mobile phone infrastructure to track and ultimately kill Khamenei, according to the Financial Times. In a separate operation, Israel first bombed the offices of two state-owned Iranian broadcasting channels, then hijacked their signals to air speeches by President Donald Trump and Prime Minister Benjamin Netanyahu calling on Iranians to rise against the regime. Hackers also breached BadeSaba Calendar, a widely used Iranian prayer app, pushing messages urging security forces to lay down their weapons — a clear psychological operation targeting regime loyalists.\n\nThe campaign illustrates what military strategists have long theorized: that cyber operations are most effective not as standalone weapons but as force multipliers layered into broader military action. The disruption of Iran's air defense coordination, surveillance of high-value targets through compromised civilian infrastructure, and real-time information warfare all contributed to what appears to have been a carefully orchestrated multi-domain assault. Iranian cyber forces, meanwhile, have so far mounted little effective response, according to Bloomberg.\n\nExperts caution, however, against overstating the role of hacking in what remains fundamentally a kinetic war. The recent U.S. operation in Venezuela offers a cautionary precedent — officials initially suggested cyberattacks caused power outages in Caracas during the operation to seize President Nicolás Maduro, but subsequent analysis pointed to fighter jets destroying electrical substations as the more likely cause. Governments have clear incentives to amplify their cyber capabilities as a tool of intimidation. Still, the Iran campaign represents perhaps the most visible demonstration yet of how deeply digital operations have become embedded in modern warfare, from the intelligence-gathering phase through active combat and into the psychological aftermath.",
+      "category": "tech",
+      "importance": 9,
+      "tags": [
+        "cyberwarfare",
+        "Iran",
+        "Israel",
+        "military",
+        "cybersecurity",
+        "psyops",
+        "national security"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T17:47:53.181Z"
+    },
+    {
+      "id": "ps-1772560089830-g86a",
+      "slug": "oil-prices-surge-as-escalating-u-s-israel-military-campaign-",
+      "headline": "Oil Prices Surge as Escalating U.S.-Israel Military Campaign Against Iran Rattles Energy Markets",
+      "subheadline": "Crude rallies for a second consecutive session as widening Persian Gulf conflict threatens global energy supply chains",
+      "body": "Oil prices climbed sharply for a second straight day on Monday as an intensifying military campaign by the United States and Israel against Iran sent shockwaves through global energy markets, raising fresh concerns about the security of crude supplies from the world's most critical petroleum-producing region.\n\nThe escalation in the Persian Gulf — described by market observers as \"staggering\" in scope — has rapidly redrawn the risk calculus for energy traders and geopolitical analysts alike. The widening conflict now poses a direct threat to energy infrastructure and shipping routes in a region that accounts for roughly a third of the world's seaborne oil trade. The Strait of Hormuz, through which approximately 20 million barrels of crude pass daily, sits at the geographic center of the hostilities.\n\nThe rally reflects mounting anxiety that sustained military operations could disrupt Iranian oil exports, damage regional production facilities, or provoke retaliatory strikes against energy assets belonging to Gulf states. Iran, which produces roughly 3 million barrels per day, is a significant contributor to global supply, and any meaningful disruption would tighten an already finely balanced market. Traders are also pricing in the possibility that the conflict could spill over to affect neighboring producers including Iraq, Kuwait, and Saudi Arabia.\n\nEnergy markets have historically been sensitive to Middle Eastern military conflicts, but the direct involvement of the United States alongside Israel in operations against Iran represents a qualitative escalation beyond the proxy confrontations that characterized earlier phases of regional tension. The situation has forced major oil companies and shipping firms to reassess operations across the Gulf, with insurance premiums for tankers transiting the region already climbing.\n\nFor consumers and policymakers worldwide, the supply-side shock arrives at a delicate moment. Central banks in major economies have spent much of the past year attempting to bring inflation under control, and a sustained spike in energy costs threatens to complicate those efforts. The International Energy Agency and OPEC will face pressure to respond, though spare production capacity among other members of the cartel remains limited. How long the rally persists will depend largely on the trajectory of the conflict itself — and whether diplomatic channels can prevent further escalation in a region where the stakes, both military and economic, continue to rise.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Iran",
+        "Middle East conflict",
+        "energy markets",
+        "Persian Gulf",
+        "crude oil",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1629573649283-837662c759a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8b2lsJTIwcHJpY2VzJTIwSXJhbnxlbnwwfDB8fHwxNzcyNTYwMDg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T17:48:09.830Z"
+    },
+    {
+      "id": "ps-1772560107499-o4d5",
+      "slug": "aave-governance-crisis-deepens-as-key-contributor-exits-27b-",
+      "headline": "Aave Governance Crisis Deepens as Key Contributor Exits $27B Protocol",
+      "subheadline": "The Aave Chan Initiative is shutting down over allegations of self-voting and opacity, sending AAVE token down 11%",
+      "body": "The Aave Chan Initiative, one of the most influential governance groups in decentralized finance, announced it will cease operations following a bitter dispute with Aave Labs over transparency, voting power, and a record funding request — the second major contributor departure from the $27 billion protocol in weeks.\n\nACI founder Marc Zeller said the eight-person team will wind down over the next four months, declining to renew its contract with the Aave DAO. The group, which claims responsibility for 61% of governance actions over the past three years and helped deploy $101 million in protocol incentives, said it could no longer function as an independent service provider after Aave Labs allegedly used affiliated addresses to tip a critical budget vote in its own favor. The AAVE governance token fell more than 11% in the 24 hours following the announcement, trading near $110 — down over 44% from a year ago, significantly underperforming Bitcoin's 24% decline over the same period.\n\nThe conflict centers on a proposal called \"Aave Will Win,\" through which Aave Labs sought roughly $51 million in stablecoins and 75,000 AAVE tokens to fund development of Aave V4, marketing, and protocol expansion. The proposal passed its initial formal vote over the weekend with approximately 52% support. ACI had demanded four conditions before backing the plan, including on-chain milestone tracking and limits on self-voting by addresses connected to the budget recipient. Those conditions were never addressed, according to Zeller. In a post-mortem on the governance forum, ACI argued the episode demonstrated that \"there is no role for an independent service provider\" when a protocol's largest budget recipient can effectively approve its own funding.\n\nThe departure follows closely on the exit of BGD Labs, the team that built and maintained Aave's V3 codebase, which stepped away over its own strategic disagreements with Aave Labs. Together, the two exits strip Aave of contributors who were central to its governance infrastructure and technical foundation. ACI plans to open-source its tools — including governance dashboards, incentive frameworks, and delegate coordination programs — and will resign from committees such as the Aave Liquidity Committee and GHO Stewards at the end of its wind-down period. The group said it will request a lump-sum payment covering 120 days of operations, noting it does not trust the governance process to maintain its funding stream during the transition.\n\nFor users of the protocol, lending and borrowing operations continue uninterrupted, with smart contracts functioning autonomously and other service providers like Chaos Labs and Certora remaining in place. But the episode raises uncomfortable questions about the reality of decentralized governance. While DAOs are designed to distribute control among token holders, voting power in practice often concentrates among founders, early investors, and large delegates — a dynamic critics say undermines the independent oversight that decentralization is meant to provide. Aave Labs has not publicly responded to ACI's allegations. How the protocol navigates risk management, budgeting, and its V4 upgrade without two of its most active contributors will be a defining test for one of DeFi's flagship projects.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Aave",
+        "DeFi",
+        "DAO governance",
+        "AAVE token",
+        "decentralized finance",
+        "crypto governance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/9df976d27f0332903bb0185434418359eaa02ef1-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/web3/2026/03/03/aave-governance-rift-deepens-as-major-governance-group-exits-usd26-billion-defi-protocol",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T17:48:27.499Z"
     },
     {
       "id": "ps-1772559146007-2358",
@@ -44,27 +151,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T17:32:26.007Z"
-    },
-    {
-      "id": "ps-1772559163399-an5z",
-      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
-      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
-      "subheadline": "Sixty percent of Deinococcus radiodurans cells endured pressures 30,000 times Earth's atmosphere, bolstering the case for interplanetary life transfer",
-      "body": "A notoriously resilient microbe has survived simulated asteroid-impact pressures equivalent to being launched off the surface of Mars, according to new research published in PNAS Nexus on March 3. The finding lends significant experimental weight to the long-debated hypothesis that living organisms could hitch rides between planets aboard impact debris.\n\nResearchers Lily Zhao, K. T. Ramesh, and colleagues subjected the extremophile bacterium Deinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" for its extraordinary toughness — to pressures of up to 3 gigapascals, roughly 30,000 times the atmospheric pressure at sea level. The team achieved this by sandwiching bacterial cells between two steel plates and slamming a third plate into the assembly, replicating the shock conditions that rock and soil would experience during a major asteroid strike on Mars. Remarkably, 60 percent of the microbes exposed to 2.4 GPa remained viable, even as some cells began showing ruptured membranes at that threshold.\n\nDeinococcus radiodurans was already known to withstand radiation doses thousands of times greater than what would kill a human, as well as extreme desiccation and vacuum conditions. What the new study adds is evidence that the bacterium can also endure the violent mechanical forces of planetary ejection — a critical missing link in the chain of events required for lithopanspermia, the theory that life can transfer between worlds inside rocks blasted into space by impacts. Gene expression analysis revealed that surviving bacteria rapidly activated damage-repair pathways in the aftermath of the simulated impact, suggesting an evolved toolkit for recovering from catastrophic physical stress.\n\nThe results carry implications well beyond microbiology. Mars and the Moon are pockmarked with impact craters, and scientists have confirmed that Martian meteorites have reached Earth — more than 300 have been cataloged to date. If microorganisms can survive the launch phase, and prior research has shown some can endure the cold vacuum of space and the searing heat of atmospheric reentry, then the theoretical pathway for life traveling between Mars and Earth becomes increasingly plausible. The study does not prove that life exists or ever existed on Mars, but it narrows the list of physical barriers that would prevent biological material from making the journey.\n\nFor astrobiologists planning future Mars sample-return missions, the findings also underscore the importance of planetary protection protocols. If hardy microbes can survive ejection forces of this magnitude, the possibility that returned Martian samples could contain viable organisms — however remote — demands rigorous containment measures.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "astrobiology",
-        "Deinococcus radiodurans",
-        "panspermia",
-        "Mars",
-        "extremophiles",
-        "asteroid impacts"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T17:32:43.399Z"
     },
     {
       "id": "ps-1772559179496-508x",
@@ -107,48 +193,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/european-gas-extends-gains-with-uncertainty-over-qatar-lng-halt",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T17:33:15.267Z"
-    },
-    {
-      "id": "ps-1772559209328-4n15",
-      "slug": "aave-governance-crisis-deepens-as-key-contributor-exits-27b-",
-      "headline": "Aave Governance Crisis Deepens as Key Contributor Exits $27B Protocol",
-      "subheadline": "The Aave Chan Initiative is shutting down over transparency disputes, sending AAVE token down 11% in 24 hours",
-      "body": "The Aave Chan Initiative (ACI), one of the most influential governance groups within the Aave decentralized finance protocol, announced it will cease operations following a bitter dispute over voting transparency and a record budget request — the second major contributor departure in weeks from the $27 billion lending platform.\n\nACI founder Marc Zeller said the eight-person team will not seek to renew its contract and will wind down over the next four months, during which it plans to hand off infrastructure and open-source its governance tools. The group claims responsibility for 61% of all governance actions over the past three years, helped deploy $101 million in incentives, and oversaw the growth of Aave's GHO stablecoin from $35 million to $527 million in supply — all at a cost to the DAO of $4.6 million. AAVE, the protocol's governance token, fell more than 11% following the announcement to trade near $110, extending its one-year decline to over 44%.\n\nThe rupture centers on a proposal from Aave Labs called \"Aave Will Win,\" which sought DAO approval for roughly $51 million in stablecoins and 75,000 AAVE tokens to fund development, marketing, and expansion tied to the forthcoming Aave V4. ACI opposed the proposal, alleging that wallet addresses linked to Aave Labs voted on their own budget request, effectively tipping the outcome. The proposal passed its first formal vote over the weekend with approximately 52% support. ACI said it had requested stricter onchain milestone tracking and limits on self-voting by addresses tied to the budget recipient — conditions that went unaddressed. \"There is no role for an independent service provider\" if the largest budget recipient can influence its own approval without full disclosure, the group wrote in a post-mortem on the governance forum.\n\nThe exit follows the recent departure of BGD Labs, which built and maintained Aave's V3 codebase, over separate organizational disagreements with Aave Labs. The back-to-back losses of two core contributors spotlight long-standing tensions in decentralized autonomous organizations, where voting power frequently concentrates among founders, early investors, and large delegates despite the theoretical promise of distributed control. Aave Labs has not publicly responded to ACI's departure.\n\nFor Aave's users, lending and borrowing operations will continue uninterrupted — the protocol's smart contracts remain live across 20 blockchains, and other service providers including Chaos Labs, TokenLogic, and Certora remain in place. But the loss of two major contributors in rapid succession raises serious questions about how the DAO will manage risk assessment, budget oversight, and protocol upgrades going forward, particularly as it attempts to execute an ambitious V4 roadmap.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Aave",
-        "DeFi",
-        "DAO governance",
-        "AAVE token",
-        "cryptocurrency",
-        "decentralized finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/9df976d27f0332903bb0185434418359eaa02ef1-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/web3/2026/03/03/aave-governance-rift-deepens-as-major-governance-group-exits-usd26-billion-defi-protocol",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T17:33:29.328Z"
-    },
-    {
-      "id": "ps-1772558254693-x8lr",
-      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
-      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks hold key advantages over transformers for modeling fiber-reinforced composites, despite slower inference",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of short fiber reinforced composites outside their training data, according to a systematic comparison published on arXiv by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf, addresses a critical bottleneck in materials science: simulating how composite materials respond to complex loading histories is computationally expensive, and machine learning surrogates have emerged as a promising shortcut. Both recurrent neural networks (RNNs) and transformer architectures — the latter famously powering large language models — can learn sequential, path-dependent relationships. But until now, no rigorous head-to-head comparison existed for this specific domain.\n\nThe researchers trained both model types on sequences of homogenized stress-strain responses from representative volume elements of short fiber reinforced composites, tuning architectural and training hyperparameters using Bayesian optimization. Their findings reveal a nuanced picture. Transformer models proved competitive on large datasets and delivered inference speeds roughly seven times faster than RNNs — 0.5 milliseconds per prediction versus 3.5 milliseconds. However, RNNs demonstrated superior accuracy when trained on smaller datasets, a common constraint in materials science where generating high-fidelity simulation data is costly.\n\nThe most striking result emerged in extrapolation tests, where models were asked to predict material responses beyond the range of their training data. RNNs maintained their accuracy under these conditions, while transformer models performed poorly — a critical limitation for engineering applications where materials may be subjected to unexpected or extreme loading scenarios. The researchers attribute the RNNs' advantage to how gated recurrent units naturally encode sequential history, a feature well-suited to path-dependent material behavior where the current stress state depends on the entire prior deformation history.\n\nThe findings carry practical implications for the growing field of data-driven multiscale modeling. While transformers' parallelization advantages and raw speed make them attractive for large-scale deployment, the study suggests that for safety-critical engineering applications — where reliable predictions outside known conditions matter most — RNNs remain the more trustworthy architecture. The work underscores that the transformer revolution sweeping natural language processing and computer vision does not automatically translate to every scientific domain, and that older architectures can retain decisive advantages in specialized settings.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "neural-networks",
-        "transformers",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1655890954724-b11c86a46ee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T17:17:34.693Z"
     },
     {
       "id": "ps-1772558271067-8j7p",
@@ -537,28 +581,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/israel-strikes-hezbollah-targets-in-beirut-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T15:18:06.455Z"
-    },
-    {
-      "id": "ps-1772550199530-w0qx",
-      "slug": "oil-prices-surge-as-escalating-u-s-israel-iran-conflict-ratt",
-      "headline": "Oil Prices Surge as Escalating U.S.-Israel-Iran Conflict Rattles Energy Markets",
-      "subheadline": "Crude rallies for a second consecutive session as widening Middle East hostilities threaten Persian Gulf energy infrastructure",
-      "body": "Oil prices extended a sharp rally on Monday, climbing for a second straight session as the escalating military conflict between the United States, Israel, and Iran sent shockwaves through global energy markets and raised fresh concerns about the security of Persian Gulf supply routes.\n\nThe intensification of hostilities in the Middle East has rapidly shifted the calculus for energy traders, who are now pricing in the growing risk that the sprawling war could disrupt crude flows from one of the world's most critical oil-producing regions. The Persian Gulf accounts for roughly a fifth of global petroleum supply, and any sustained threat to its infrastructure or shipping lanes has historically triggered significant price spikes.\n\nAnalysts have described the scale of the conflict as staggering, noting that the direct involvement of the United States alongside Israel in operations against Iran marks a dramatic escalation from the regional proxy tensions that had simmered for years. The widening theater of war now poses a material threat to energy assets across the Gulf, including production facilities, export terminals, and the Strait of Hormuz — the narrow waterway through which approximately 20 percent of the world's oil transits daily.\n\nThe rally comes at a particularly sensitive moment for global energy markets, which had already been contending with tight supply conditions and uncertainty surrounding OPEC+ production policy. A prolonged disruption in the Gulf region could push crude prices substantially higher, adding inflationary pressure to economies worldwide and complicating monetary policy for central banks that have spent years trying to tame consumer prices.\n\nMarket participants are now closely monitoring the conflict's trajectory, with particular attention to any signs of damage to oil infrastructure or interference with tanker traffic. Energy security officials across consuming nations are expected to assess strategic petroleum reserve options should the situation deteriorate further. For now, the risk premium embedded in crude prices appears poised to grow as long as the military campaign continues to expand in scope and intensity.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Middle East conflict",
-        "Iran",
-        "Persian Gulf",
-        "energy markets",
-        "crude oil",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1770308725591-2e15706f4031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxvaWwlMjBwcmljZXMlMjBNaWRkbGUlMjBFYXN0JTIwY29uZmxpY3R8ZW58MHwwfHx8MTc3MjUyMjI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T15:03:19.530Z"
     },
     {
       "id": "ps-1772549301414-qb2s",
@@ -1060,26 +1082,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iran-war-europe-s-economy-can-ride-out-conflict-if-it-s-over-in-a-month",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T05:48:04.421Z"
-    },
-    {
-      "id": "ps-1772514181978-6h6d",
-      "slug": "physicists-confirm-1970s-clock-magnetism-theory-in-atomicall",
-      "headline": "Physicists Confirm 1970s 'Clock Magnetism' Theory in Atomically Thin Crystal",
-      "subheadline": "University of Texas team demonstrates exotic magnetic phases predicted decades ago, opening doors to ultracompact technologies",
-      "body": "A team of physicists led by researchers at the University of Texas at Austin has experimentally verified a sequence of exotic magnetic phases in an ultrathin material, fully realizing for the first time a theoretical model of two-dimensional magnetism that was proposed more than fifty years ago. The results, published in the journal Nature Materials, mark a significant milestone in condensed matter physics and could inspire a new generation of ultracompact magnetic technologies.\n\nThe phenomenon, sometimes called \"clock magnetism,\" describes a set of ordered magnetic states that emerge when crystalline materials are thinned to the atomic scale — just a single layer of atoms thick. The underlying theoretical framework dates to the 1970s, when physicists predicted that two-dimensional magnetic systems could host a rich landscape of phases distinct from anything observed in bulk three-dimensional materials. Despite decades of theoretical refinement, experimental confirmation of the full phase sequence had remained elusive until now.\n\nThe breakthrough hinges on the unusual physics that emerges when materials are stripped down layer by layer. In bulk crystals, magnetic behavior is governed by well-understood interactions among vast numbers of atoms. But at the two-dimensional limit, thermal fluctuations and reduced dimensionality dramatically alter the energy landscape, giving rise to magnetic configurations that have no analogue in thicker samples. The UT Austin team demonstrated that an atomically thin crystal can be driven through this complete sequence of predicted phases, validating the long-standing theoretical picture in remarkable detail.\n\nThe finding is more than an academic curiosity. Two-dimensional magnetic materials have attracted intense interest from both fundamental researchers and technologists because their properties can be tuned with external stimuli such as electric fields, strain, or stacking geometry. Confirming that these materials obey the predicted clock-magnetism framework gives researchers a reliable theoretical toolkit for engineering their behavior — a prerequisite for translating laboratory discoveries into practical devices such as ultra-thin memory elements or spintronic components.\n\nThe work underscores a broader trend in physics: as fabrication techniques improve, researchers are increasingly able to test foundational theories that were once beyond experimental reach. With the clock magnetism model now experimentally grounded, the field is poised to explore whether these exotic phases can be harnessed at scale, potentially shrinking magnetic technologies to dimensions that were, until recently, purely theoretical.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "2D magnetism",
-        "clock magnetism",
-        "condensed matter physics",
-        "ultrathin materials",
-        "spintronics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1651045858641-2289291a863d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHwyRCUyMG1hZ25ldGlzbSUyMGNsb2NrJTIwbWFnbmV0aXNtfGVufDB8MHx8fDE3NzI1MTQxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://phys.org/news/2026-03-physicists-clock-magnetism-atomically-thin.html",
-      "sourceName": "Phys.org",
-      "publishedAt": "2026-03-03T05:03:01.978Z"
     }
   ]
 }
