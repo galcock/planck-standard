@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T18:03:27.930Z",
+  "lastUpdated": "2026-03-03T18:18:24.741Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772560931907-l8z5",
+      "id": "ps-1772561824640-rx3f",
       "slug": "us-and-israeli-strikes-kill-iran-s-supreme-leader-khamenei",
       "headline": "US and Israeli Strikes Kill Iran's Supreme Leader Khamenei",
-      "subheadline": "Joint military operation dubbed 'Epic Fury' triggers Iranian retaliatory attacks across the Middle East as conflict enters fourth day",
-      "body": "Supreme Leader Ayatollah Ali Khamenei was killed in joint US-Israeli military strikes on Iran on Saturday, marking a dramatic escalation that has plunged the Middle East into its most severe crisis in decades. Iranian state media confirmed the death of the 85-year-old cleric as footage from multiple cities across the country revealed the sweeping scale of the bombardment.\n\nThe operation, designated \"Epic Fury\" by US and Israeli forces, has produced widespread destruction across Iran, with verified footage showing large explosions in Tehran and several other cities. The US military has released its own video purporting to show precision strikes on military targets. President Donald Trump, directing operations from Palm Beach, Florida, announced that \"major combat operations\" in Iran had begun, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports indicate Trump is pursuing regime change as a strategic objective.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles were launched toward the country. Separately, an Iranian drone was filmed crash-landing in Kuwait, underscoring the widening geographic footprint of the conflict. Chaotic scenes have been documented in Tehran neighborhoods hit by strikes, with social media footage showing significant damage to civilian areas.\n\nThe crisis has sparked immediate domestic and international reaction. Protesters took to the streets in cities across the United States on Saturday, with additional demonstrations planned. In Washington, questions mounted about the scope and duration of the military campaign, with analysts warning that the killing of Iran's supreme leader — the most consequential targeted strike against a foreign head of state in modern US history — could trigger unpredictable cascading effects throughout the region.\n\nThe conflict unfolds against an already volatile geopolitical backdrop, including the recent expiration of the New START nuclear treaty between the US and Russia, which has left no limits on nuclear arsenals between the two powers for the first time since 1991. International observers are now closely watching whether the strikes catalyze a broader regional war or whether diplomatic channels can be established to contain the escalation.",
+      "subheadline": "Massive joint military operation dubbed 'Epic Fury' triggers retaliatory Iranian attacks across the Middle East",
+      "body": "The United States and Israel launched a devastating wave of airstrikes against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and marking the most significant military escalation in the Middle East in decades. The joint operation, dubbed \"Operation Epic Fury,\" struck targets across multiple Iranian cities as the conflict entered its fourth day.\n\nVideo footage verified by the BBC and international news agencies shows massive explosions and widespread destruction across Iran, including in the capital Tehran, where strikes hit residential neighborhoods. Iranian state television confirmed Khamenei's death in a broadcast, a stunning development that leaves the Islamic Republic's power structure in disarray. President Donald Trump, directing operations from Palm Beach, Florida, announced that \"major combat operations\" in Iran had begun, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports indicate Trump is seeking regime change in Tehran.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles targeted the city. Separate footage captured an Iranian drone crashing in flames in Kuwait, underscoring how the conflict is spilling beyond the two principal combatants. The Pentagon has released its own video purporting to show military targets being hit inside Iran.\n\nThe strikes have prompted significant domestic backlash in the United States, with protesters rallying in cities across the country on Saturday and additional demonstrations planned. The escalation raises profound questions about the trajectory of the conflict, its potential to engulf the broader Middle East, and the risk of drawing in additional state and non-state actors. The BBC's chief international correspondent Lyse Doucet noted the immediate humanitarian and geopolitical impact of the strikes, while analysts warned that the killing of Iran's supreme leader — the most powerful figure in the country's political and religious hierarchy — could trigger unpredictable consequences.\n\nThe conflict unfolds against an already volatile global security backdrop, including the recent expiration of the New START nuclear treaty between the United States and Russia, which has left the world's two largest nuclear arsenals without formal limits for the first time since 1991. International leaders have yet to issue coordinated responses to the Iran strikes, though diplomatic channels are reported to be in overdrive as the world watches for Tehran's next move.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -16,46 +16,46 @@
         "Israel",
         "Khamenei",
         "Middle East conflict",
-        "Trump",
-        "Operation Epic Fury"
+        "Operation Epic Fury",
+        "Trump"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T18:02:11.907Z"
+      "publishedAt": "2026-03-03T18:17:04.640Z"
     },
     {
-      "id": "ps-1772560948634-dei6",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
-      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
-      "subheadline": "CASCADE uses advection-based physics rather than pixel-level guessing to sharpen coarse climate data for severe storm forecasting",
-      "body": "A new machine learning framework called CASCADE reimagines how scientists enhance the resolution of weather and climate data by treating the problem as a physical transport process rather than an image-sharpening exercise. The approach, introduced by researcher Alexander Kovalenko in a preprint posted to arXiv, aims to produce sharper, more physically realistic depictions of severe storms and other extreme weather events.\n\nTraditional super-resolution techniques, originally developed for enhancing photographs, often \"hallucinate\" fine-scale details that look plausible but violate fundamental physical constraints such as conservation of mass and energy. This is particularly dangerous for extreme weather applications, where fabricated details in radar or satellite imagery could misrepresent the location and intensity of hazards. CASCADE — which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — addresses this by reconstructing fine-grained structure through iterative advection, moving coarse information along learned velocity fields using a technique called semi-Lagrangian warping rather than generating high-frequency detail pixel by pixel.\n\nThe architecture draws directly from the mathematics of numerical weather prediction, decomposing atmospheric motion into resolved large-scale components and unresolved subgrid components. This mirrors what meteorologists call the \"closure problem\" — the challenge of representing processes too small for a model's grid to capture explicitly. An assimilation-style correction step, analogous to how operational weather centers blend observations with model forecasts, ensures that the enhanced output remains consistent with the original coarse-resolution input.\n\nTested on the Storm Event Imagery Dataset for Severe Weather (SEVIR) at 4x super-resolution for severe convective storms, CASCADE outperformed strong baseline methods across a battery of standard metrics. These included continuous measures like peak signal-to-noise ratio and structural similarity, as well as threshold-based skill scores used in operational meteorology — critical storm index, Heidke skill score, and probability of detection. Importantly, the framework also produces interpretable diagnostic outputs in the form of visualizable velocity and correction fields, giving researchers insight into what the model is actually doing.\n\nThe work represents a growing trend in climate and weather science toward physics-informed machine learning, where neural networks are constrained by known physical laws rather than learning patterns from data alone. By encoding advection as the fundamental operator, CASCADE generates temporally coherent reconstructions that could prove valuable for both atmospheric and oceanic applications where transport dynamics dominate — from tracking hurricane rainbands to resolving ocean eddies in coarse global models.",
+      "id": "ps-1772561840940-r64h",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
+      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
+      "subheadline": "CASCADE uses physics-based advection rather than pixel-level hallucination to enhance resolution of severe storm data",
+      "body": "A new machine learning framework called CASCADE reimagines how scientists enhance the resolution of weather and climate data, treating the problem as an explicit physical transport process rather than a conventional image-sharpening exercise. The approach, introduced by researcher Alexander Kovalenko in a preprint posted to arXiv, aims to produce high-resolution reconstructions of severe weather events that remain physically consistent — conserving mass and energy while evolving coherently over time.\n\nTraditional super-resolution techniques borrowed from computer vision can \"hallucinate\" fine-scale details that look plausible but violate the physical laws governing atmospheric and oceanic systems. This is particularly dangerous when modeling extreme events such as severe convective storms, where artificially generated features could misrepresent actual hazards. CASCADE — which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — addresses this by reconstructing fine structure through iterative advection, moving coarse-grained information along learned velocity fields using a technique called semi-Lagrangian warping rather than generating detail pixel by pixel.\n\nThe architecture draws a deliberate parallel to a fundamental challenge in numerical weather prediction known as the closure problem, decomposing atmospheric motion into resolved large-scale components and unresolved subgrid components. An assimilation-style correction step, inspired by data assimilation methods used in operational forecasting, ensures that the enhanced output remains consistent with the original low-resolution input. This design yields not only improved imagery but also interpretable diagnostics — the velocity and correction fields the model produces can be directly visualized and physically scrutinized.\n\nTested on the Storm Event Imagery (SEVIR) radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed established baselines across a comprehensive suite of metrics. These included standard continuous measures such as peak signal-to-noise ratio, structural similarity, and mean absolute error, as well as threshold-based skill scores commonly used in meteorology — critical success index, Heidke skill score, and probability of detection — that evaluate how well the model captures the sharp gradients and intense features characteristic of extreme weather.\n\nThe work reflects a broader trend in geoscience AI toward physics-informed architectures that encode domain knowledge directly into model structure rather than relying on neural networks to discover physical constraints implicitly. By making advection the fundamental operator, CASCADE produces temporally coherent reconstructions that could prove valuable for downscaling climate projections, enhancing satellite observations, and improving real-time severe weather monitoring across both atmospheric and oceanic applications.",
       "category": "physics",
       "importance": 5,
       "tags": [
         "machine learning",
         "climate modeling",
-        "weather forecasting",
         "super-resolution",
+        "weather forecasting",
         "atmospheric physics",
-        "numerical weather prediction"
+        "downscaling"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1737911330147-461b33215deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8bWFjaGluZSUyMGxlYXJuaW5nJTIwY2xpbWF0ZSUyMG1vZGVsaW5nfGVufDB8MHx8fDE3NzI1NDQ3NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1769670025975-f92b073ee4a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bWFjaGluZSUyMGxlYXJuaW5nJTIwY2xpbWF0ZSUyMG1vZGVsaW5nfGVufDB8MHx8fDE3NzI1NDQ3NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T18:02:28.634Z"
+      "publishedAt": "2026-03-03T18:17:20.940Z"
     },
     {
-      "id": "ps-1772560964316-tg1q",
+      "id": "ps-1772561859532-iz0l",
       "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
       "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
-      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia hypothesis",
-      "body": "A notoriously resilient microbe has survived laboratory conditions designed to replicate the violent forces of an asteroid slamming into Mars — a finding that lends new weight to the possibility that life could hitch a ride between planets aboard ejected rock.\n\nIn a study published March 3 in PNAS Nexus, researchers led by Lily Zhao and K. T. Ramesh sandwiched samples of Deinococcus radiodurans between steel plates and struck them with a third plate, generating shock pressures up to 3 gigapascals — roughly 30,000 times the atmospheric pressure at sea level. The experiment was engineered to simulate the crushing forces a microorganism would experience if it were embedded in Martian rock launched into space by a major impact event. Remarkably, 60 percent of the bacteria survived even at pressures of 2.4 GPa, the threshold at which cell membranes began to rupture.\n\nDeinococcus radiodurans, sometimes nicknamed \"Conan the Bacterium,\" has long been known for its extraordinary toughness. Previous research has demonstrated its ability to withstand radiation doses thousands of times greater than what would kill a human, as well as prolonged desiccation — conditions it would face during an interplanetary journey. The new findings add a critical missing piece: evidence that the organism could also endure the initial launch event that would propel it off a planetary surface.\n\nThe team used gene expression analysis to understand how the bacteria coped with the mechanical violence. Transcription profiles revealed that surviving cells rapidly prioritized DNA repair and damage-response pathways in the aftermath of compression, suggesting an active biological strategy rather than mere passive endurance. The structural properties of the bacterium's unusually robust cell envelope appeared to play a key role in shielding cellular machinery from catastrophic failure.\n\nThe implications extend well beyond microbiology. Crater records on the Moon and Mars attest to the frequency of large impacts throughout the solar system's history, and scientists have long speculated that meteorites could ferry microbial life between worlds — a concept known as lithopanspermia. The new results indicate that microorganisms can survive more extreme launch conditions than previously assumed, strengthening the theoretical case that life originating on one planet could seed another. While the study does not prove that such transfers have occurred, it narrows one of the most significant biological objections to the hypothesis, suggesting the barrier to interplanetary travel may be lower than researchers once believed.",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering the case for lithopanspermia",
+      "body": "A microbe already famous for shrugging off lethal radiation has now passed one of astrobiology's most punishing tests: surviving the simulated shock of being blasted off the surface of Mars by an asteroid impact. The finding, published March 3 in PNAS Nexus, adds significant weight to the hypothesis that living organisms could travel between planets aboard ejected rock fragments.\n\nResearchers led by Lily Zhao and K. T. Ramesh subjected samples of the extremophile bacterium Deinococcus radiodurans to pressures reaching 3 gigapascals — roughly 30,000 times the atmospheric pressure at sea level — by sandwiching cells between steel plates and slamming a third plate into the assembly. The setup was designed to replicate the instantaneous crush that surface material would experience when a large asteroid strikes a planet, launching chunks of rock into space at escape velocity. Remarkably, about 60 percent of the microbes remained viable even at 2.4 GPa, despite some showing ruptured cell membranes at that threshold.\n\nD. radiodurans, sometimes nicknamed \"Conan the Bacterium,\" has long been studied for its extraordinary tolerance of ionizing radiation, ultraviolet light, and extreme desiccation — all hazards it would face during an interplanetary journey. The new work fills a critical gap by demonstrating that the organism can also withstand the violent first moments of such a voyage: the impact-driven launch itself. Gene expression analysis revealed that surviving bacteria rapidly activated DNA repair and damage-response pathways in the aftermath of compression, suggesting an evolved toolkit for bouncing back from catastrophic mechanical stress. The bacterium's distinctive multi-layered cell envelope appears to play a key structural role in absorbing the shock.\n\nThe results have direct implications for the theory of lithopanspermia, the idea that life can migrate between worlds inside meteorites. Scientists have previously recovered Martian meteorites on Earth — most famously the Allan Hills 84001 specimen — confirming that rocks do make the trip. What remained uncertain was whether any hitchhiking organism could survive the departure. By showing that a significant fraction of a known extremophile endures launch-equivalent pressures, the study narrows one of the biggest unknowns in the chain of events required for interplanetary biological transfer.\n\nThe findings do not prove that life has ever actually traveled from Mars to Earth or vice versa. Surviving launch is only one hurdle; organisms would still need to endure years of cosmic radiation exposure in space, heating during atmospheric entry, and the shock of landing. Still, the research underscores that microbial life is far more resilient than previously assumed — and that the barriers to biology crossing the void between neighboring planets may be lower than once thought.",
       "category": "science",
       "importance": 7,
       "tags": [
-        "panspermia",
         "astrobiology",
+        "lithopanspermia",
         "Deinococcus radiodurans",
         "Mars",
         "extremophiles",
@@ -64,29 +64,71 @@
       "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T18:02:44.316Z"
+      "publishedAt": "2026-03-03T18:17:39.532Z"
     },
     {
-      "id": "ps-1772560979065-24os",
+      "id": "ps-1772561874566-7ej9",
       "slug": "cyber-operations-played-key-role-in-u-s-israeli-strikes-on-i",
       "headline": "Cyber Operations Played Key Role in U.S.-Israeli Strikes on Iran",
-      "subheadline": "Hacked traffic cameras, hijacked broadcasts, and breached prayer apps reveal how digital warfare complemented kinetic attacks",
-      "body": "Cyber operations served as a critical force multiplier in the opening days of the U.S.-Israeli military campaign against Iran, with senior American military officials confirming that coordinated hacking efforts disabled Iranian communications and sensor networks ahead of bombing strikes that killed Supreme Leader Ali Khamenei and several senior government officials.\n\nGen. Dan Caine, chairman of the Joint Chiefs of Staff, said in a press conference that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran, \"leaving the adversary without the ability to see, coordinate or respond effectively.\" The stated objective was to \"disrupt, disorient and confuse the enemy\" in advance of kinetic strikes that began Saturday across military and civilian targets nationwide — including a girls' school where at least 168 children and adults were killed.\n\nThe integration of cyber and conventional operations extended well beyond communications disruption. According to the Financial Times, Israeli intelligence exploited hacked traffic cameras across Tehran — access reportedly maintained for years — to support the operation that killed Khamenei. Israel had also \"deeply penetrated mobile phone networks\" in the country, the paper reported, citing two anonymous sources. In a striking example of combined operations, Israel first bombed the offices of two state-owned Islamic Republic of Iran Broadcasting channels, then hijacked the broadcast signal to air speeches by President Donald Trump and Israeli Prime Minister Benjamin Netanyahu urging Iranians to turn against the regime.\n\nPsychological operations extended into the digital sphere as well. On the first day of the war, hackers breached BadeSaba Calendar, a popular Iranian prayer app, pushing messages to all users calling on security forces to \"lay down your weapons or join the forces of liberation.\" The operation appeared designed to target pro-regime segments of the Iranian population. Iranian cyber forces, meanwhile, have mounted what Bloomberg described as a largely ineffective response.\n\nAnalysts caution against overstating the significance of these digital operations. Governments have incentives to amplify the role of cyber capabilities for purposes of deterrence and intimidation. A recent example surfaced during the U.S. operation against Venezuelan President Nicolás Maduro, where officials — including Trump — suggested American hackers caused power outages in Caracas. Subsequent analysis by Cyberscoop indicated the blackouts were far more likely caused by fighter jets destroying electrical substations. War, ultimately, remains primarily about physical force — but the Iran campaign demonstrates that cyber operations are now a routine and deeply embedded component of modern military strategy.",
-      "category": "tech",
+      "subheadline": "Hacked surveillance cameras, hijacked broadcasts, and breached apps formed a digital front alongside the bombing campaign",
+      "body": "Coordinated cyber operations played a significant supporting role in the U.S.-Israeli military campaign against Iran that began on Saturday, with senior American military officials confirming that digital attacks disrupted the country's communications and defense networks ahead of kinetic strikes.\n\nGen. Dan Caine, chairman of the Joint Chiefs of Staff, stated that \"coordinated space and cyber operations effectively disrupted communications and sensor networks\" inside Iran prior to the bombing campaign, which killed Supreme Leader Ali Khamenei and several senior government officials. The objective, Caine said at a press conference, was to \"disrupt, disorient and confuse the enemy,\" leaving Iranian forces unable to mount an effective response. The strikes also hit military and civilian targets across the country, including a girls' school where at least 168 people were killed.\n\nThe cyber dimension extended well beyond battlefield disruption. Israeli intelligence reportedly leveraged years of access to Tehran's traffic camera network and deeply penetrated mobile phone infrastructure to track and locate Khamenei, according to the Financial Times. In a combined kinetic-cyber sequence, Israel first bombed the offices of two state-owned Iranian broadcasting channels, then hijacked their signals to air speeches by President Donald Trump and Prime Minister Benjamin Netanyahu calling on Iranians to rise against their government. Hackers also breached BadeSaba Calendar, a widely used Iranian prayer app, pushing messages urging security forces to lay down their weapons — a textbook psychological operation aimed at regime loyalists.\n\nIranian cyber forces have so far mounted a largely ineffective response, according to Bloomberg. However, analysts caution against overstating the impact of digital operations in what remains fundamentally a conventional bombing campaign. A similar pattern emerged during the recent U.S. operation in Venezuela, where officials — including Trump — suggested American hackers caused power outages in Caracas during the abduction of President Nicolás Maduro. Subsequent analysis by Cyberscoop indicated the blackouts were far more likely caused by fighter jets destroying electrical substations than by any cyber intrusion.\n\nThe Iran conflict nonetheless represents one of the most publicly documented cases of cyber operations integrated into a full-scale military campaign. The willingness of U.S. officials to openly discuss digital tactics marks a departure from the traditional secrecy surrounding such capabilities, though experts note this transparency may itself serve as a form of psychological warfare — projecting an image of omnipresent digital reach to demoralize adversaries and deter future resistance.",
+      "category": "breaking",
       "importance": 9,
       "tags": [
-        "cybersecurity",
-        "Iran",
-        "cyberwarfare",
+        "Iran war",
+        "cyber warfare",
         "Israel",
-        "military",
-        "psyops",
-        "hacking"
+        "U.S. military",
+        "cybersecurity",
+        "psychological operations"
       ],
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/tehran-iran-war-bombing-2026.jpg?resize=1200,800",
       "sourceUrl": "https://techcrunch.com/2026/03/03/hacked-traffic-cams-and-hijacked-tvs-how-cyber-operations-supported-the-war-against-iran/",
       "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T18:02:59.065Z"
+      "publishedAt": "2026-03-03T18:17:54.566Z"
+    },
+    {
+      "id": "ps-1772561890859-m8xx",
+      "slug": "iraq-begins-massive-oil-production-cuts-as-hormuz-closure-fi",
+      "headline": "Iraq Begins Massive Oil Production Cuts as Hormuz Closure Fills Storage",
+      "subheadline": "Shutdowns at Iraq's largest fields signal deepening crisis for Middle East producers amid strait blockage",
+      "body": "Iraq has begun shutting down oil production at its largest fields, with further and deeper cuts expected in the coming days, in what marks the most dramatic sign yet of the strain the Strait of Hormuz closure is placing on the region's petroleum giants.\n\nThe production curtailments, which include operations at the massive Rumaila field — Iraq's single largest source of crude output — are being driven by rapidly filling storage capacity. With the narrow waterway that serves as the chokepoint for roughly a fifth of the world's daily oil supply blocked, producers have had no viable route to move crude to international markets, forcing an unprecedented buildup of unsold inventory across the region.\n\nThe Strait of Hormuz, a narrow passage between Iran and Oman through which Persian Gulf oil exports must transit, has long been considered one of the most strategically sensitive bottlenecks in global energy infrastructure. Its blockage has now moved from theoretical risk scenario to operational reality, with consequences cascading across the supply chain. Iraq, which typically exports more than 3 million barrels per day — the vast majority through Gulf terminals — is among the most exposed producers.\n\nThe forced shutdowns carry significant economic implications for Baghdad, where oil revenues account for more than 90 percent of government income. Shutting in large fields also poses technical risks; restarting complex reservoir operations after extended closures can be costly and time-consuming, potentially leading to longer-term production losses even after shipping lanes reopen.\n\nGlobal oil markets have already been roiled by the Hormuz disruption, with crude prices surging on supply fears. Iraq's decision to curtail output at its flagship fields confirms that the crisis is no longer limited to shipping logistics — it is now directly constraining production in one of OPEC's largest member states. Energy analysts will be closely watching whether neighboring producers such as Kuwait and Saudi Arabia, which also rely heavily on Gulf export routes, are forced into similar measures as onshore storage continues to fill. The situation represents one of the most severe supply disruptions the oil market has faced in decades.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil",
+        "Iraq",
+        "Strait of Hormuz",
+        "OPEC",
+        "energy crisis",
+        "crude oil",
+        "Middle East"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1646950433407-e6f883530e05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxvaWwlMjBJcmFxfGVufDB8MHx8fDE3NzI1NjE4OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iraq-starts-shutting-oil-output-at-rumaila-as-storage-fills-up",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T18:18:10.859Z"
+    },
+    {
+      "id": "ps-1772561904524-o8tp",
+      "slug": "fatf-stablecoins-now-dominate-illicit-crypto-activity-global",
+      "headline": "FATF: Stablecoins Now Dominate Illicit Crypto Activity Globally",
+      "subheadline": "Global watchdog says dollar-pegged tokens account for 84% of illicit virtual asset volume, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, warned Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, calling on governments worldwide to impose stricter oversight on issuers as the market surpasses $300 billion.\n\nIn a 42-page report, FATF cited data from blockchain analytics firms Chainalysis and TRM Labs showing that stablecoins — digital tokens pegged to the U.S. dollar — accounted for 84% of the estimated $154 billion in illicit virtual asset transaction volume in 2025. TRM Labs separately reported that illicit entities received $141 billion in stablecoins last year, the highest level observed in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone. The watchdog specifically highlighted cases involving North Korean and Iranian actors using tokens such as Tether's USDT for proliferation financing and cross-border payments tied to sanctioned activity.\n\nSanctions evasion represents the overwhelming share of the problem. According to TRM Labs data cited in the report, sanctions-related activity accounted for 86% of illicit crypto flows, with bad actors predominantly relying on stablecoin platforms. FATF identified peer-to-peer transfers via unhosted wallets — cryptocurrency wallets not controlled by a regulated intermediary — as a \"key vulnerability\" because such transactions can bypass anti-money laundering controls entirely.\n\nWhile stopping short of recommending blanket blacklisting of stablecoins, FATF urged member countries to impose anti-money laundering obligations directly on stablecoin issuers. The organization also recommended that regulators consider requiring tools such as wallet freezing capabilities and restrictions on certain smart-contract functions that facilitate anonymous transfers. The recommendations carry significant weight: FATF's 39 member jurisdictions, which include the United States, European Union nations, China, and Japan, typically align domestic regulations with the body's guidance.\n\nThe report lands at a pivotal moment for the stablecoin industry. Overall stablecoin transaction activity exceeded $1 trillion per month on multiple occasions in 2025, underscoring how deeply embedded the instruments have become in global crypto markets and, increasingly, in mainstream cross-border payments. With the market's total capitalization now above $300 billion, FATF warned that regulators must act swiftly to close compliance gaps before adoption further outpaces enforcement capacity.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T18:18:24.524Z"
     },
     {
       "id": "ps-1772560994498-kwep",
@@ -109,27 +151,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T18:03:14.498Z"
-    },
-    {
-      "id": "ps-1772561007843-x4be",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges tighter regulation",
-      "body": "The Financial Action Task Force, the Paris-based body that sets global anti-money-laundering standards, issued a stark warning on Tuesday that stablecoins have become the primary vehicle for illicit cryptocurrency transactions, including sanctions evasion by Iran and North Korea.\n\nIn a 42-page report, the FATF cited data from blockchain analytics firms Chainalysis and TRM Labs showing that stablecoins — digital tokens pegged to the U.S. dollar — accounted for 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. The task force estimated roughly $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone, while TRM Labs reported that illicit entities received $141 billion in stablecoins last year, the highest level observed in five years. Sanctions-related activity represented 86% of all illicit crypto flows, according to the TRM data, with bad actors overwhelmingly relying on stablecoin platforms.\n\nThe report singled out North Korean and Iranian actors using tokens such as Tether's USDT for proliferation financing and cross-border payments tied to sanctioned entities. Peer-to-peer transfers through unhosted wallets — cryptocurrency wallets not controlled by regulated intermediaries — were identified as a \"key vulnerability\" because they bypass standard anti-money-laundering controls. Overall stablecoin transaction activity exceeded $1 trillion per month on multiple occasions in 2025, underscoring the scale of the market that regulators are now racing to oversee.\n\nWith the stablecoin market surpassing $300 billion in total value, the FATF urged countries to impose anti-money-laundering obligations on stablecoin issuers without delay. Among its recommendations, the watchdog called on governments to consider requiring tools such as wallet freezing capabilities and restrictions or bans on certain smart-contract functions that facilitate anonymous transfers. The task force stopped short of recommending blanket blacklisting of specific tokens or platforms.\n\nThe report arrives at a pivotal moment for stablecoin regulation. In the United States, the Commodity Futures Trading Commission and Securities and Exchange Commission are jointly advancing crypto policy frameworks, while Congress continues debating stablecoin-specific legislation. The FATF's findings add significant weight to the argument that the rapid growth of dollar-pegged digital assets has outpaced the regulatory infrastructure needed to police them, creating gaps that state-sponsored actors and criminal networks are actively exploiting.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions evasion",
-        "cryptocurrency regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T18:03:27.843Z"
     },
     {
       "id": "ps-1772560038774-mbdp",
@@ -408,28 +429,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/even-before-he-reaches-the-fed-warsh-s-path-to-rate-cuts-is-getting-tougher",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T16:33:18.663Z"
-    },
-    {
-      "id": "ps-1772554687966-9xzm",
-      "slug": "iraq-begins-shutting-major-oil-fields-as-hormuz-crisis-fills",
-      "headline": "Iraq Begins Shutting Major Oil Fields as Hormuz Crisis Fills Storage",
-      "subheadline": "Up to 3 million barrels per day of Iraqi output at risk of being shuttered if Strait of Hormuz blockage continues",
-      "body": "Iraq has begun curtailing oil production at its largest fields after storage capacity filled up amid the ongoing Strait of Hormuz crisis, a development that threatens to remove up to 3 million barrels per day from global supply if the disruption persists.\n\nThe shutdowns have started at Rumaila, Iraq's biggest producing field, according to people familiar with the operations. Rumaila alone typically produces more than 1.4 million barrels per day, making it one of the most significant single-field production centers in the world. With export routes through the Persian Gulf effectively choked off, crude has backed up into onshore storage facilities that are now approaching capacity, leaving Iraqi operators with little choice but to begin closing wells.\n\nThe potential loss of 3 million barrels per day — representing the vast majority of Iraq's total output of roughly 4.4 million barrels per day — would constitute one of the largest involuntary supply disruptions in modern oil market history. Iraq is OPEC's second-largest producer behind Saudi Arabia, and a prolonged shutdown of this magnitude would send shockwaves through global energy markets already rattled by the Hormuz standoff. The Strait of Hormuz, a narrow waterway between Iran and Oman, serves as the transit point for approximately 20 percent of the world's oil supply.\n\nUnlike Saudi Arabia, which has pipeline alternatives to bypass Hormuz through the Red Sea, Iraq's southern export infrastructure is almost entirely dependent on Gulf access through the Basra Oil Terminal and nearby facilities. Northern pipeline routes through Turkey have been largely offline due to separate disputes, leaving Baghdad with few viable alternatives for moving its crude to market.\n\nThe forced shutdowns underscore the cascading consequences of the Hormuz crisis beyond immediate shipping disruptions. Restarting large oil fields after extended shutdowns is a technically complex and time-consuming process, meaning the supply impact could linger well beyond any resolution of the maritime standoff. Energy analysts have warned that prolonged well shutdowns risk damaging reservoir pressure and long-term production capacity, potentially imposing lasting costs on Iraq's oil sector even after the crisis abates.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Iraq",
-        "oil production",
-        "Strait of Hormuz",
-        "OPEC",
-        "energy crisis",
-        "Rumaila",
-        "oil supply"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1638215336407-65c507c8cb59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxJcmFxJTIwb2lsJTIwcHJvZHVjdGlvbnxlbnwwfDB8fHwxNzcyNTU0Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iraq-starts-shutting-oil-output-at-rumaila-as-storage-fills-up",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T16:18:07.966Z"
     },
     {
       "id": "ps-1772553742432-j2yr",
