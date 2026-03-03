@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T05:48:18.406Z",
+  "lastUpdated": "2026-03-03T06:03:18.963Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772516819722-o0lg",
+      "id": "ps-1772517718876-urye",
       "slug": "iran-retaliates-across-middle-east-as-us-israel-strikes-kill",
       "headline": "Iran Retaliates Across Middle East as US-Israel Strikes Kill Hundreds",
-      "subheadline": "Conflict spreads to Gulf states, Cyprus, and Lebanon as oil prices surge and Qatar halts LNG production",
-      "body": "A rapidly escalating military conflict between the United States and Israel on one side and Iran on the other has engulfed much of the Middle East and Persian Gulf, with strikes reported across at least a dozen countries and casualties mounting on all sides.\n\nThe crisis began over the weekend when joint US-Israeli strikes hit targets across Iran, killing the country's supreme leader, Ayatollah Ali Khamenei, in an attack on his Tehran office compound confirmed by satellite imagery. At least 555 people have been killed in Iran, according to the Iranian Red Crescent, including 153 reported dead at a girls' school in the southern city of Minab struck by three missiles. Four US service members were killed and five seriously injured during the assault, which President Donald Trump said would continue with \"full force\" until Washington's objectives are met. US forces claimed to have sunk 10 Iranian naval vessels and largely destroyed the country's naval headquarters.\n\nIran has responded with a sweeping retaliatory campaign targeting US military installations and Gulf state infrastructure. Strikes have hit the United Arab Emirates, killing three people; Qatar, where a major gas plant was targeted; Bahrain, where the US Navy's Fifth Fleet service center sustained a missile attack; and Kuwait, where ballistic missiles were intercepted at the Ali Al-Salem airbase. An Iranian drone struck the British RAF Akrotiri base in Cyprus overnight Sunday, with two additional drones later intercepted. In a particularly alarming incident, Kuwait's military downed three US fighter jets Monday in what US Central Command described as \"an apparent friendly fire incident,\" though all six crew members ejected safely.\n\nThe conflict's economic reverberations have been immediate and severe. European natural gas prices surged more than 30 percent after Qatar Energy, the world's largest producer of liquefied natural gas supplying roughly a fifth of global LNG, announced it was halting production. Oil prices spiked as attacks on shipping in the Strait of Hormuz — through which a significant share of the world's crude oil transits — raised the specter of a prolonged closure. Iran has threatened to \"set fire\" to vessels attempting to pass through the waterway.\n\nThe violence continued to escalate Monday, with Israel conducting strikes in both Iran and Lebanon after Hezbollah launched rockets at the Israeli city of Haifa. At least 31 people were killed in Lebanon as Israeli warplanes targeted Hezbollah's stronghold in Beirut's southern suburbs and areas near the city's airport. An Iranian missile that struck civilians sheltering in an Israeli city the previous day killed nine people. British Prime Minister Keir Starmer distanced London from the US approach, telling Parliament that his government \"does not believe in regime change from the skies,\" marking the sharpest public disagreement yet between the two allies under the current administrations.",
+      "subheadline": "Conflict spreads to Gulf states, Cyprus, and global energy markets as Tehran strikes back at regional targets",
+      "body": "A rapidly escalating military confrontation between Iran and a US-Israeli coalition has spread across the Middle East and into the Persian Gulf, with strikes reported in at least nine countries and hundreds of confirmed dead since operations began over the weekend.\n\nThe United States and Israel launched extensive joint strikes on Iran beginning Saturday, targeting air defenses, military installations, and leadership compounds in Tehran and at least 12 other Iranian cities. The Iranian Red Crescent reported at least 555 people killed in the operation, including 153 at a girls' school in the southern city of Minab struck by three missiles — a claim the BBC has not independently verified. Four US service personnel were killed and five seriously injured. Satellite imagery confirmed significant damage to the compound of Leadership House, the office of the late Ayatollah Khamenei, who was killed in the strikes. President Donald Trump said US forces sank 10 Iranian naval vessels and \"largely destroyed\" their naval headquarters, warning that operations would continue with \"full force\" until Washington's objectives are met.\n\nIran's retaliation has been broad and geographically dispersed. Strikes targeted US military assets in Bahrain, Kuwait, and Iraq, while attacks hit civilian and energy infrastructure across Gulf states. Three people were killed in the United Arab Emirates, one in Kuwait, and four wounded in Bahrain, where a drone strike caused a major fire at a US naval installation. An Iranian drone struck Britain's RAF Akrotiri base in Cyprus — with two more intercepted on Monday — prompting the UK Ministry of Defence to evacuate military family members. In Israel, an Iranian missile killed nine people sheltering in a city, while Hezbollah launched rockets at Haifa, drawing further Israeli strikes on Beirut's southern suburbs and locations across Lebanon that killed at least 31 people on Monday.\n\nThe economic fallout has been immediate and severe. European natural gas prices surged more than 30 percent after Qatar Energy, the world's largest producer of liquefied natural gas, halted production following an Iranian strike on a major gas facility. Qatar supplies roughly one-fifth of global LNG. Oil prices also spiked as attacks on shipping in the Strait of Hormuz — through which approximately 20 percent of the world's oil passes daily — raised fears Iran could close the critical waterway entirely. Tehran has threatened to \"set fire\" to vessels attempting passage.\n\nThe crisis has also opened diplomatic rifts among Western allies. British Prime Minister Keir Starmer told Parliament that his government \"does not believe in regime change from the skies,\" marking the sharpest public disagreement with Washington since the conflict began. Meanwhile, Kuwait's military downed three US fighter jets in what US Central Command described as \"an apparent friendly fire incident,\" though all six crew members ejected safely. With combat operations ongoing and no diplomatic channel publicly active, the conflict shows no signs of de-escalation.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -18,12 +18,122 @@
         "oil prices",
         "Gulf states",
         "Hezbollah",
-        "military escalation"
+        "military conflict"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/cbc1/live/b7e1b840-1664-11f1-9120-a910fc22c6ac.png",
       "sourceUrl": "https://www.bbc.com/news/articles/c4g0pnnj8xyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T05:46:59.722Z"
+      "publishedAt": "2026-03-03T06:01:58.876Z"
+    },
+    {
+      "id": "ps-1772517735199-kuz0",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
+      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
+      "subheadline": "CASCADE replaces pixel-level guesswork with advection-based reconstruction to better resolve severe storms",
+      "body": "A new machine learning framework for enhancing the resolution of weather and climate data takes a fundamentally different approach from existing methods, treating the problem as a physical transport process rather than an image enhancement task. The system, called CASCADE, was introduced in a February 2026 preprint by researcher Alexander Kovalenko and demonstrates superior performance in resolving the fine-grained structure of severe convective storms.\n\nTraditional super-resolution techniques — borrowed largely from computer vision — work by inferring high-resolution details pixel by pixel from coarser inputs. While effective for photographs, this approach can \"hallucinate\" atmospheric features that violate basic physical laws, such as conservation of mass and energy. For extreme weather events, where localized, high-intensity features drive real-world impacts, such artifacts can dangerously misrepresent hazards. CASCADE sidesteps this problem by reconstructing fine-scale structure through iterative advection — essentially moving coarse-resolution information along learned velocity fields using semi-Lagrangian warping, a technique rooted in computational fluid dynamics.\n\nThe architecture mirrors a concept well known in numerical weather prediction: the closure problem. CASCADE decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, then enforces consistency between scales through what the paper describes as an \"assimilation-style innovation step,\" analogous to how operational weather models incorporate observational data. This design yields reconstructions that are not only sharper but temporally coherent — meaning successive frames evolve in physically plausible ways rather than flickering with inconsistent detail.\n\nTested on the SEVIR radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed strong baselines across a comprehensive suite of metrics. These included standard image quality measures such as peak signal-to-noise ratio (PSNR), structural similarity (SSIM), and mean absolute error, as well as threshold-based skill scores commonly used in meteorology — critical success index, Heidke skill score, and probability of detection. Notably, the framework also provides interpretable diagnostics through visualizable velocity and correction fields, offering forecasters insight into how the model arrives at its predictions.\n\nThe work has implications beyond radar nowcasting. By encoding advection as the fundamental operator, CASCADE is designed to generalize across advection-dominated phenomena in both atmospheric and oceanic sciences, from tropical cyclone intensity estimation to ocean current modeling. As climate models push toward higher resolutions and extreme weather events grow more frequent, physics-respecting downscaling tools could become essential infrastructure for both research and operational forecasting.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine learning",
+        "weather prediction",
+        "climate downscaling",
+        "super-resolution",
+        "atmospheric physics",
+        "severe storms"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1604151257062-3a9eb0279b8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwcHJlZGljdGlvbnxlbnwwfDB8fHwxNzcyNTE3NzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T06:02:15.199Z"
+    },
+    {
+      "id": "ps-1772517751152-qqt0",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research that explains for the first time how polyamines — including the popular supplement spermidine — can simultaneously support healthy aging and fuel aggressive tumor growth.\n\nA team led by Associate Professor Kyohei Higashi at Tokyo University of Science has identified the molecular switch that determines whether polyamines act as cellular protectors or cancer accelerants. The key lies in two nearly identical proteins, eIF5A1 and eIF5A2, which share 84% of their amino acid sequence but trigger fundamentally different biological outcomes. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — the cellular housekeeping process that clears damaged components and is closely associated with longevity. In cancerous tissue, however, the same molecules boost production of eIF5A2, which drives the rapid glucose metabolism and protein synthesis that tumors depend on to proliferate. The findings were published in Volume 301, Issue 8 of the Journal of Biological Chemistry.\n\nThe researchers arrived at their conclusions through a meticulous series of experiments on human cancer cell lines. They first depleted polyamine levels using a drug inhibitor, then reintroduced spermidine and tracked the effects across more than 6,700 proteins using high-resolution proteomic analysis. The data showed that polyamines in cancer cells primarily boosted glycolysis — the quick-energy metabolic pathway favored by tumors — rather than mitochondrial respiration, which is linked to healthy cellular function. The team also identified five ribosomal proteins, including RPS 27A, RPL36AL, and RPL22L1, that polyamines upregulated in conjunction with eIF5A2, all of which are associated with cancer severity.\n\nA critical piece of the puzzle involved a small regulatory RNA molecule called miR-6514-5p, which normally suppresses eIF5A2 production. The researchers found that elevated polyamine levels disrupt this molecular brake, allowing eIF5A2 to accumulate unchecked. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings raise pointed questions about the safety of polyamine supplementation, particularly spermidine products that have gained traction in the wellness and anti-aging markets. While the compounds may indeed deliver benefits in healthy tissue, the research suggests they could pose risks for individuals with undetected cancers or precancerous conditions. On the therapeutic front, the study identifies the interaction between eIF5A2 and ribosomes as a promising and selective target for future cancer treatments — one that could potentially be disrupted without undermining the beneficial effects of eIF5A1 in normal cells. The research was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2",
+        "Tokyo University of Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T06:02:31.152Z"
+    },
+    {
+      "id": "ps-1772517765507-skzu",
+      "slug": "cursor-hits-2-billion-in-annualized-revenue-as-ai-coding-rac",
+      "headline": "Cursor Hits $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The four-year-old startup's revenue run rate reportedly doubled in just three months, even as rivals chip away at its user base",
+      "body": "Cursor, the AI-powered coding assistant, has crossed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores the explosive demand for AI software development tools even as competition in the space intensifies.\n\nThe company's revenue run rate doubled over the past three months, Bloomberg reported, citing a person familiar with the matter. The disclosure comes at a strategic moment for the startup, which has faced a recent wave of public skepticism after viral social media posts suggested its growth was plateauing. Several prominent individual developers have publicly switched to competing tools, most notably Anthropic's Claude Code, which is perceived as offering more competitive pricing for solo users and small teams.\n\nFounded in 2022, Cursor has undergone a significant strategic pivot over the past year, shifting its focus from individual developers toward enterprise customers. Corporate buyers now account for roughly 60 percent of the company's revenue, according to the Bloomberg report. That transition appears to be insulating Cursor from the churn occurring among smaller accounts — enterprise clients tend to be stickier and higher-spending, providing a more durable revenue base even as some freelancers and startups defect to alternatives.\n\nThe AI coding tool market has become one of the most fiercely contested segments in the broader artificial intelligence industry. Cursor faces pressure not only from Claude Code but also from OpenAI's Codex, as well as startups like Replit, Cognition, and Lovable — all vying for a share of what analysts expect to be a multibillion-dollar market. The rapid proliferation of so-called \"vibe coding\" tools reflects a broader bet across the tech industry that AI will fundamentally reshape how software is written, tested, and deployed.\n\nCursor was last valued at $29.3 billion following a $2.3 billion funding round in November, co-led by Accel and Coatue Management. At that valuation, the company trades at roughly 15 times its current annualized revenue — a premium multiple, but one that looks more defensible given the pace of its top-line growth. The company did not respond to requests for comment. Whether Cursor can sustain this trajectory will depend on its ability to deepen enterprise relationships while fending off well-capitalized rivals backed by the largest foundation model providers in the world.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "enterprise software",
+        "startup revenue",
+        "Anthropic",
+        "OpenAI",
+        "vibe coding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T06:02:45.507Z"
+    },
+    {
+      "id": "ps-1772517786381-z7y7",
+      "slug": "global-stocks-slide-as-iran-conflict-escalation-rattles-mark",
+      "headline": "Global Stocks Slide as Iran Conflict Escalation Rattles Markets",
+      "subheadline": "Oil prices surge and bonds sell off as Middle East tensions fuel inflation fears; gold rallies on safe-haven demand",
+      "body": "Global equity markets extended their decline on Monday as an escalation in hostilities between Iran and the United States and its allies sent shockwaves through financial markets, driving oil prices higher and reigniting concerns about inflation just as central banks had hoped price pressures were easing.\n\nThe broad-based selloff hit both stocks and bonds simultaneously — a painful combination for diversified portfolios — as investors reassessed the geopolitical risk landscape. Rising crude prices, driven by fears of supply disruptions in one of the world's most critical oil-producing regions, added a stagflationary dimension to the market turmoil. Higher energy costs threaten to feed through into consumer prices and squeeze corporate margins at a time when the global economy is already navigating uncertain terrain.\n\nGold, long regarded as the quintessential safe-haven asset, rallied as investors sought shelter from the volatility. The precious metal's gains underscored the depth of market anxiety, with traders moving decisively away from risk assets and toward stores of value perceived as more resilient during periods of geopolitical upheaval.\n\nThe bond market selloff compounded the pain for investors, with Treasury yields climbing as fixed-income securities came under pressure. The move reflected growing expectations that sustained energy price increases could force the Federal Reserve and other major central banks to maintain restrictive monetary policy for longer than previously anticipated, delaying the rate cuts that equity markets have been pricing in for much of the year.\n\nMarket strategists warned that the combination of geopolitical risk, rising commodity prices, and tightening financial conditions could weigh on risk appetite for an extended period if the conflict shows no signs of de-escalation. With oil markets particularly sensitive to any disruption in Middle Eastern supply routes, traders will be closely monitoring diplomatic developments and military activity in the region for signals about the trajectory of the crisis. The convergence of falling stocks, rising yields, and surging commodities presents a challenging environment for investors seeking to position portfolios against an increasingly uncertain backdrop.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "stock-market",
+        "Iran-conflict",
+        "oil-prices",
+        "geopolitics",
+        "inflation",
+        "gold",
+        "bonds",
+        "Middle-East"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1608050899844-41b677b85250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8c3RvY2stbWFya2V0JTIwSXJhbi1jb25mbGljdHxlbnwwfDB8fHwxNzcyNTE3Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T06:03:06.381Z"
+    },
+    {
+      "id": "ps-1772517798888-w3w1",
+      "slug": "paypay-targets-1-1-billion-nasdaq-ipo-amid-geopolitical-turm",
+      "headline": "PayPay Targets $1.1 Billion Nasdaq IPO Amid Geopolitical Turmoil",
+      "subheadline": "Japan's largest mobile payments provider, which holds a 40% stake in Binance Japan, eyes a valuation above $10 billion",
+      "body": "PayPay, Japan's dominant cashless payments platform backed by SoftBank Corp, is pushing ahead with plans to raise up to $1.1 billion in an initial public offering on the Nasdaq, even as geopolitical shocks roil global markets. The Tokyo-based fintech giant and a selling shareholder intend to offer 55 million American depositary shares priced between $17 and $20 each, which at the upper end would give the company a valuation exceeding $10 billion.\n\nThe listing, set to trade under the ticker \"PAYP,\" was originally scheduled to launch before markets opened on Monday but was delayed after weekend military strikes on Iran sent shockwaves through global equities. The postponement underscores the precarious environment facing companies attempting to go public in 2026, where investor appetite for new listings is being tested by both volatile equity markets and escalating geopolitical risk.\n\nPayPay commands a formidable position in Japan's rapidly digitizing economy, boasting more than 70 million registered users who rely on its app for mobile payments, money transfers, and digital balance management. The country's ongoing shift away from cash — long one of the developed world's most cash-dependent economies — has positioned PayPay as a central player in Japan's financial modernization. A successful debut would represent one of the largest U.S. listings by a Japanese company in recent years and would add another publicly traded asset to SoftBank's expanding digital finance portfolio.\n\nThe IPO is notable for its crypto dimension. In October, PayPay acquired a 40% stake in Binance Japan through a capital and business alliance designed to bridge traditional mobile payments with cryptocurrency. Under the partnership, Binance Japan users can fund purchases and withdraw proceeds through PayPay Money, creating a direct on-ramp between the country's largest payments network and one of its regulated crypto exchanges. Binance did not respond to requests for comment.\n\nFor investors, the offering presents a dual bet: on the continued growth of cashless adoption in Japan and on the convergence of mainstream fintech with digital assets. Whether the market environment cooperates remains an open question, but PayPay's scale and its strategic positioning at the intersection of payments and crypto give the listing significant weight heading into what promises to be a closely watched pricing window.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "PayPay",
+        "IPO",
+        "Nasdaq",
+        "SoftBank",
+        "Binance Japan",
+        "fintech",
+        "crypto"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2d8e0028fea963585228cd98c2067fdc082737a8-5741x3831.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/02/paypay-40-owner-of-binance-japan-seeks-up-to-usd1-1-billion-in-nasdaq-ipo",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T06:03:18.888Z"
     },
     {
       "id": "ps-1772516836433-bu6b",
@@ -47,49 +157,6 @@
       "publishedAt": "2026-03-03T05:47:16.433Z"
     },
     {
-      "id": "ps-1772516852111-57f2",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different protein pathways in healthy versus cancerous cells",
-      "body": "Polyamines — natural molecules celebrated in the longevity supplement market for their anti-aging properties — can also turbocharge tumor growth by activating a nearly identical but functionally distinct protein in cancer cells, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in biology: how the same class of molecules, particularly spermidine, can simultaneously promote healthy cellular maintenance and fuel aggressive cancer. The answer lies in two proteins that share 84% of their amino acid sequence but serve radically different purposes. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and supports longevity. In cancerous tissue, however, polyamines instead boost production of its close relative eIF5A2, which drives the rapid glucose metabolism and protein synthesis that tumors depend on to proliferate.\n\nA team led by Associate Professor Kyohei Higashi used high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines to map these divergent pathways. By first depleting polyamine levels with a drug and then reintroducing spermidine, the researchers could directly measure how the molecules reshape cancer cell metabolism. They found that polyamines primarily enhance glycolysis — the fast energy-conversion process favored by tumors — rather than mitochondrial respiration, which is more closely associated with healthy aging. The team also identified that polyamines elevate levels of eIF5A2 and five ribosomal proteins linked to cancer severity, including RPS27A, RPL36AL, and RPL22L1.\n\nCritically, the researchers uncovered the mechanism by which polyamines unleash eIF5A2 production. Under normal conditions, a small regulatory RNA molecule called miR-6514-5p acts as a brake on eIF5A2 synthesis. Polyamines disrupt this molecular checkpoint, allowing the cancer-promoting protein to accumulate unchecked. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings carry significant implications both for the booming polyamine supplement industry and for oncology. While spermidine-based supplements have gained popularity as longevity aids, the research suggests that in individuals with undetected cancers or precancerous conditions, these compounds could inadvertently accelerate tumor development. On the therapeutic side, the study identifies the eIF5A2-ribosome interaction as a promising drug target — one that could potentially be disrupted to slow cancer progression without undermining the beneficial anti-aging effects mediated by eIF5A1. The research was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and Kanazawa University's Cancer Research Institute.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T05:47:32.111Z"
-    },
-    {
-      "id": "ps-1772516866233-u71r",
-      "slug": "cursor-hits-2-billion-in-annualized-revenue-as-ai-coding-rac",
-      "headline": "Cursor Hits $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
-      "subheadline": "The four-year-old startup's revenue run rate doubled in just three months, even as rivals chip away at its user base.",
-      "body": "Cursor, the AI-powered coding assistant, has crossed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores the explosive demand for AI software development tools even as competition in the space intensifies.\n\nThe company's revenue run rate reportedly doubled over the past three months alone, a striking acceleration for a startup founded just four years ago in 2022. The disclosure, attributed to a person familiar with the matter, appears strategically timed to push back against a recent wave of public skepticism about the company's trajectory. Viral social media posts last week questioned whether Cursor was losing momentum, pointing to visible defections by individual developers to competing products, most notably Anthropic's Claude Code.\n\nThe revenue surge reflects a deliberate strategic pivot. While Cursor originally built its business selling to individual developers, the company has spent the past year aggressively courting large enterprise customers. Corporate buyers now account for roughly 60% of revenue, according to Bloomberg. That shift may explain why the headline numbers look so strong despite anecdotal reports of user churn: enterprise clients tend to sign larger contracts and exhibit lower attrition rates than individual subscribers. Some solo developers and smaller startups have migrated to Claude Code, which is perceived as more competitively priced, but those departures appear to be offset by stickier, higher-spending institutional accounts.\n\nThe AI coding tool market is drawing an increasingly crowded field of well-funded competitors. Anthropic's Claude Code and OpenAI's Codex are both vying for market share, backed by the resources of two of the most valuable AI companies in the world. Startups including Replit, Cognition, and Lovable are also carving out niches in what has become one of the fastest-growing segments of the software industry.\n\nCursor was last valued at $29.3 billion following a $2.3 billion funding round in November, co-led by Accel and Coatue. At that valuation, the company now trades at roughly 14.5 times its current annualized revenue — a premium multiple, but one that may look more reasonable if the growth trajectory holds. The company did not respond to requests for comment. Whether Cursor can sustain its torrid pace will depend in large part on how well it defends its enterprise beachhead against deep-pocketed rivals with their own foundational AI models.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "annualized revenue",
-        "enterprise software",
-        "Claude Code",
-        "vibe coding",
-        "startups"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T05:47:46.233Z"
-    },
-    {
       "id": "ps-1772516884421-3jlh",
       "slug": "european-economy-faces-critical-four-week-window-amid-iran-c",
       "headline": "European Economy Faces Critical Four-Week Window Amid Iran Conflict",
@@ -108,71 +175,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iran-war-europe-s-economy-can-ride-out-conflict-if-it-s-over-in-a-month",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T05:48:04.421Z"
-    },
-    {
-      "id": "ps-1772516898353-bqft",
-      "slug": "paypay-targets-1-1-billion-nasdaq-ipo-amid-geopolitical-turb",
-      "headline": "PayPay Targets $1.1 Billion Nasdaq IPO Amid Geopolitical Turbulence",
-      "subheadline": "Japan's largest cashless payments provider, backed by SoftBank and holding a 40% stake in Binance Japan, eyes $10B+ valuation",
-      "body": "PayPay, the dominant mobile payments platform in Japan, is pressing ahead with plans to raise up to $1.1 billion through an initial public offering on the Nasdaq, a move that would place the SoftBank-backed fintech among the largest Japanese listings on a U.S. exchange in recent years. The company and a selling shareholder intend to offer 55 million American depositary shares priced between $17 and $20 each, which at the upper end would give PayPay a valuation exceeding $10 billion.\n\nThe Tokyo-based firm, which serves more than 70 million registered users across Japan's rapidly expanding cashless economy, had originally planned to launch the listing before markets opened on Monday. That timeline was pushed back after weekend military strikes on Iran sent tremors through global financial markets, underscoring the fragile environment facing companies attempting to go public in 2026.\n\nPayPay's IPO filing carries significance beyond the payments sector. In October, the company acquired a 40% stake in Binance Japan through a capital and business alliance designed to bridge conventional digital payments with cryptocurrency. Under the arrangement, Binance Japan users can fund purchases and withdraw proceeds through PayPay Money, effectively creating a corridor between fiat mobile wallets and crypto trading. The partnership reflects a broader strategic bet by parent backer SoftBank Corp on digital finance infrastructure spanning traditional and decentralized rails.\n\nThe offering will trade under the ticker symbol PAYP and represents a test case for fintech IPO appetite at a moment when equity markets remain volatile and geopolitical risk is elevated. A successful debut would hand SoftBank another publicly traded asset in its expanding digital finance portfolio while validating the thesis that payments platforms with crypto integrations can command premium valuations from U.S. institutional investors.\n\nJapan's shift away from cash has accelerated in recent years, and PayPay has positioned itself at the center of that transition. The app enables mobile point-of-sale payments, peer-to-peer transfers, and digital balance management — functions that have made it a near-ubiquitous presence in Japanese retail. Whether that domestic dominance and its crypto ambitions can translate into sustained public market interest will become clear in the days ahead as the company navigates one of the more challenging IPO windows in recent memory.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "PayPay",
-        "IPO",
-        "Nasdaq",
-        "SoftBank",
-        "Binance Japan",
-        "fintech",
-        "cryptocurrency"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/2d8e0028fea963585228cd98c2067fdc082737a8-5741x3831.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/03/02/paypay-40-owner-of-binance-japan-seeks-up-to-usd1-1-billion-in-nasdaq-ipo",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T05:48:18.353Z"
-    },
-    {
-      "id": "ps-1772515972860-jz69",
-      "slug": "global-stocks-slide-as-iran-escalation-drives-oil-higher-rat",
-      "headline": "Global Stocks Slide as Iran Escalation Drives Oil Higher, Rattles Markets",
-      "subheadline": "Intensified Middle East conflict fuels inflation fears, sends investors fleeing to gold and away from bonds",
-      "body": "Global equity markets deepened their losses on Monday as an escalation in hostilities between Iran and the United States and its allies sent shockwaves through financial markets, driving oil prices higher and reigniting fears of persistent inflation.\n\nThe sell-off, which spread across asset classes, saw bonds come under significant pressure alongside stocks — an unusual dual decline that underscores investor anxiety about the economic fallout from a widening Middle East conflict. Rising crude prices threaten to feed through to consumer costs at a time when central banks have been working to bring inflation under control, complicating the outlook for monetary policy and economic growth.\n\nGold emerged as one of the few beneficiaries of the turmoil, extending its gains as investors sought traditional safe-haven assets amid the geopolitical uncertainty. The precious metal's advance reflects a broader shift toward defensive positioning, with market participants reassessing risk across portfolios in light of the deteriorating security situation in the region.\n\nThe conflict's impact on energy markets is particularly concerning for policymakers and investors alike. Iran's position as a major oil-producing nation and its strategic location near critical shipping lanes in the Persian Gulf mean that any sustained military engagement carries the potential to disrupt global energy supplies. Higher oil prices act as a de facto tax on consumers and businesses, threatening to slow economic activity while simultaneously pushing price levels higher — a stagflationary combination that equity markets are especially ill-equipped to absorb.\n\nMarket strategists are now closely watching for signs of further escalation or diplomatic efforts to de-escalate tensions. The breadth of the market response — spanning equities, fixed income, commodities, and currencies — suggests that investors are pricing in the possibility of a prolonged conflict rather than a short-lived flare-up. With Treasury yields rising on the bond sell-off, borrowing costs could climb further, adding another headwind for risk assets already contending with elevated geopolitical uncertainty.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Middle East conflict",
-        "oil prices",
-        "stock market sell-off",
-        "Iran",
-        "gold",
-        "inflation",
-        "bonds"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1628124307267-88985be41491?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8bWFya2V0c3xlbnwwfDB8fHwxNzcyNDIwNjAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/asia-poised-for-weak-open-after-treasuries-sink-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T05:32:52.860Z"
-    },
-    {
-      "id": "ps-1772515030491-mf6r",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
-      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
-      "subheadline": "CASCADE uses physics-based advection rather than pixel-level hallucination to sharpen coarse climate data for severe storm forecasting",
-      "body": "A new machine learning framework called CASCADE promises to improve the resolution of weather and climate data by treating the enhancement process as a physical transport problem rather than a conventional image sharpening task. The approach, introduced by researcher Alexander Kovalenko in a preprint published on arXiv, reframes spatiotemporal super-resolution through explicit advection — the movement of atmospheric properties by wind and flow — rather than relying on neural networks to invent fine-grained details pixel by pixel.\n\nThe core innovation of CASCADE, which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution, lies in how it reconstructs high-resolution weather fields from coarser data. Instead of generating plausible-looking but potentially fictitious small-scale features, the system iteratively moves coarse-resolution information along learned velocity fields using a technique called semi-Lagrangian warping. The architecture explicitly separates atmospheric motion into large-scale resolved components and smaller unresolved subgrid components — a decomposition that mirrors a fundamental challenge in numerical weather prediction known as the closure problem.\n\nTested on the SEVIR radar dataset for 4x super-resolution of severe convective storms, CASCADE outperformed existing baseline methods across a battery of standard metrics. These included continuous measures such as peak signal-to-noise ratio, structural similarity, and mean absolute error, as well as threshold-based skill scores commonly used in meteorology — critical success index, Heidke skill score, and probability of detection. Importantly, the framework also enforces consistency with the original low-resolution data through what Kovalenko describes as an \"assimilation-style innovation step,\" borrowing conceptually from data assimilation techniques used in operational weather forecasting.\n\nThe problem CASCADE addresses is particularly acute for extreme weather events, where localized, high-intensity features such as severe thunderstorms carry outsized consequences. Conventional super-resolution methods borrowed from computer vision can \"hallucinate\" fine-scale details that look realistic but misrepresent actual hazards — a potentially dangerous failure mode for forecasting applications. By encoding advection as the fundamental operator, CASCADE produces reconstructions that conserve mass and energy while remaining temporally coherent across successive time steps.\n\nThe framework's design also yields a practical transparency benefit: because the velocity and correction fields used during reconstruction can be visualized, forecasters can inspect and interpret the model's behavior rather than treating it as a black box. Kovalenko suggests the approach is broadly applicable to advection-dominated phenomena in both atmospheric and oceanic sciences, areas where the gap between the resolution of global models and the scale of impactful weather events remains a persistent challenge.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine learning",
-        "weather forecasting",
-        "climate downscaling",
-        "super-resolution",
-        "atmospheric physics",
-        "severe storms"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1748364540655-9fa99b2ddea4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWFjaGluZSUyMGxlYXJuaW5nJTIwd2VhdGhlciUyMGZvcmVjYXN0aW5nfGVufDB8MHx8fDE3NzI1MTUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T05:17:10.491Z"
     },
     {
       "id": "ps-1772514181978-6h6d",
