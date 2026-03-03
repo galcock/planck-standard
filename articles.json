@@ -1,27 +1,134 @@
 {
-  "lastUpdated": "2026-03-03T22:48:23.228Z",
+  "lastUpdated": "2026-03-03T23:03:26.805Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772578027706-nied",
+      "id": "ps-1772578930128-9dvv",
       "slug": "iran-holds-mass-funerals-after-school-strike-kills-over-160",
       "headline": "Iran Holds Mass Funerals After School Strike Kills Over 160",
-      "subheadline": "Child-sized coffins carried through Minab as US says it 'would not deliberately target a school' amid ongoing strikes",
-      "body": "Mass funerals were held in the southern Iranian city of Minab on Monday for more than 160 students and staff killed when a girls' school was struck during the US-Israeli military campaign against Iran, with child-sized coffins draped in Iranian flags carried through packed streets as state television broadcast the processions.\n\nIranian authorities said three missiles hit the school on Saturday morning, the first day of the country's working week, when the building would have been occupied. The school was located approximately 600 meters from an Islamic Revolutionary Guard Corps base, raising questions about whether it was caught in strikes aimed at nearby military infrastructure. The BBC has verified footage showing smoke rising from a damaged building as crowds gathered and screams could be heard, though the Iranian government's death toll has not been independently confirmed.\n\nThe incident has become an immediate flashpoint in the broader conflict. Iranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page\" in what he described as crimes committed by aggressors. Foreign Minister Seyed Abbas Araghchi posted an image on social media showing graves being dug for 160 people, directly taunting former President Trump by writing: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nWhen pressed by the BBC on Monday, US Secretary of State Marco Rubio denied any deliberate targeting of the school. \"The US would not deliberately target a school,\" Rubio said. \"We would have no interest, and frankly, no incentive to target civilian infrastructure.\" He acknowledged he did not have details on what led to the strike. US Central Command spokesman Tim Hawkins said separately that the military takes the reports seriously and that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the Minab area.\n\nThe school strike comes amid a wider US-Israeli military campaign targeting Iran's military sites and leadership, which has already sent global energy markets into turmoil and prompted European allies to bolster defenses in the region. International journalists are routinely denied visas to Iran, severely limiting independent verification of events on the ground. The inability to confirm the scale of civilian casualties adds a layer of uncertainty to what is already one of the most fraught episodes in the escalating conflict.",
+      "subheadline": "Coffins of students and staff carried through Minab as US says it would never deliberately target civilian infrastructure",
+      "body": "Iran held mass funerals on Monday for more than 160 people, many of them schoolgirls, killed when missiles struck a girls' school in the southern city of Minab during the US-Israeli military campaign against Iranian military sites and leadership over the weekend.\n\nIranian state television broadcast images of child-sized coffins draped in the national flag being carried through crowded streets, as a voiceover described the anguish of parents who lost their daughters. Iranian officials said three missiles hit the school on Saturday morning — a regular working day in Iran, where the week runs Saturday through Thursday — meaning the building was likely full of students and staff at the time of impact. The school was situated roughly 600 meters from an Islamic Revolutionary Guard Corps base.\n\nIranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page in the record of countless crimes committed by the aggressors.\" Foreign Minister Seyed Abbas Araghchi posted an image on social media showing graves being dug for 160 victims, writing: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The BBC has verified footage showing smoke rising from a building as crowds gathered nearby, though the organization has not been able to independently confirm the Iranian-reported death toll. International news outlets are frequently denied visas to operate inside Iran, severely limiting independent verification.\n\nWhen pressed by the BBC on Monday about whether an American missile struck the school, US Secretary of State Marco Rubio said the United States \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure.\" He added that he did not have details on what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, emphasizing that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the area around Minab.\n\nThe incident has intensified international scrutiny of the US-Israeli strikes on Iran, which targeted military installations and leadership sites across the country on Saturday. The broader conflict has already sent oil and gas prices surging and rattled global markets, while European allies have moved to bolster defenses in the region, including around the British military base in Cyprus. Whether the Minab school was struck intentionally, caught in collateral damage, or hit by debris from a nearby military target remains unclear, and calls for an independent investigation are likely to mount as the death toll — among the highest single-incident civilian casualties in the conflict — draws global attention.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
-        "US-Iran conflict",
-        "Minab school strike",
+        "US-Israel strikes",
+        "Minab school",
         "civilian casualties",
-        "Middle East war",
-        "Israel"
+        "Middle East conflict"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T22:47:07.706Z"
+      "publishedAt": "2026-03-03T23:02:10.128Z"
+    },
+    {
+      "id": "ps-1772578945922-xufp",
+      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
+      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks handle extrapolation far better, despite transformers' 7x speed advantage",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a new comparative study that carries important implications for AI-driven materials science.\n\nResearchers Petter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first systematic head-to-head comparison of the two dominant neural network architectures for modeling short fiber reinforced composites (SFRCs) — materials widely used in automotive, aerospace, and consumer products. Full-field simulations of these composites remain computationally expensive, making fast and accurate surrogate models a priority for engineers. The study, posted to the arXiv preprint server, trained both architectures on sequences representing the homogenized mechanical response of representative volume elements, tuning hyperparameters for each model using Bayesian optimization to ensure a fair comparison.\n\nThe headline finding is a stark split in capabilities. Transformer models proved competitive on accuracy when trained on large datasets and delivered inference speeds of 0.5 milliseconds per prediction — seven times faster than the recurrent neural network's 3.5 milliseconds. But when tasked with extrapolation, predicting material responses outside the range of their training data, the RNN remained accurate while the transformer's performance deteriorated sharply. The RNN also demonstrated superior accuracy when trained on smaller datasets, a common scenario in materials science where generating high-fidelity simulation data is costly.\n\nThe results challenge the prevailing momentum in machine learning toward transformer-based architectures, which have dominated natural language processing and increasingly infiltrated scientific computing. For path-dependent problems — where a material's current state depends on its entire loading history — the sequential inductive bias built into recurrent networks appears to provide a structural advantage that transformers' attention mechanisms cannot easily replicate, particularly when the model must generalize beyond familiar conditions.\n\nThe practical implications are significant for multiscale modeling workflows in engineering. Designers routinely need surrogate models that can reliably predict material behavior under novel loading conditions not represented in training sets. While the transformer's speed advantage could benefit real-time applications or large-scale screening tasks within known parameter ranges, the RNN's robustness in extrapolation makes it the safer choice for safety-critical design applications. The findings suggest that the optimal architecture depends heavily on the specific use case, and that the AI community's broad shift toward transformers may not uniformly benefit computational materials science.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "neural-networks",
+        "transformers",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1655624272430-4071d4f50ac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T23:02:25.922Z"
+    },
+    {
+      "id": "ps-1772578960986-ontj",
+      "slug": "jwst-discovers-most-distant-jellyfish-galaxy-ever-observed",
+      "headline": "JWST Discovers Most Distant Jellyfish Galaxy Ever Observed",
+      "subheadline": "The finding at 8.5 billion light-years suggests galaxy clusters were reshaping their members far earlier than theorized",
+      "body": "Astronomers at the University of Waterloo have identified the most distant jellyfish galaxy on record, a discovery that challenges prevailing models of how violent the universe was during its formative eras. The galaxy, observed using the James Webb Space Telescope at a redshift of z = 1.156, appears as it existed 8.5 billion years ago — when the cosmos was roughly a third of its current age.\n\nJellyfish galaxies earn their evocative name from long, trailing streams of gas that extend behind them like tentacles as they hurtle through dense galaxy clusters. The mechanism responsible, known as ram-pressure stripping, occurs when superheated intergalactic gas within a cluster acts like a fierce headwind, peeling away a galaxy's own gas reserves and stretching them into luminous filaments. In this case, bright blue knots of extremely young stars dot the trailing streams, indicating that new stars are forming not within the galaxy's main disk but in the stripped material itself — a hallmark signature of the process.\n\nThe discovery emerged from a systematic search of JWST data covering the COSMOS field, a patch of sky prized by astronomers for its minimal interference from Milky Way dust and foreground objects. \"Early on in our search of the JWST data, we spotted a distant, undocumented jellyfish galaxy that sparked immediate interest,\" said Dr. Ian Roberts, a Banting Postdoctoral Fellow at the Waterloo Centre for Astrophysics, who led the study.\n\nWhat makes the finding particularly significant is its implications for the timeline of galaxy evolution. Many astrophysicists had assumed that galaxy clusters 8.5 billion years ago were still in early stages of assembly — too loosely organized to generate the kind of extreme environmental pressures needed for ram-pressure stripping. The new observation suggests those clusters were already harsh enough to dramatically alter the galaxies passing through them. Roberts noted that this mechanism may have played a central role in building the large population of \"dead\" galaxies — those that have ceased forming stars — seen in galaxy clusters today.\n\nThe study, published in The Astrophysical Journal under the title \"JWST Reveals a Candidate Jellyfish Galaxy at z=1.156,\" was co-authored by researchers including Michael L. Balogh, Visal Sok, Adam Muzzin, Michael J. Hudson, and Pascale Jablonka. The team has applied for additional JWST observing time to study the galaxy in greater detail, with the goal of confirming whether ram-pressure stripping is indeed responsible and probing the physical conditions of the surrounding cluster. If validated, the results could force a significant revision of models describing how dense cosmic environments shaped galaxy populations across billions of years of cosmic history.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "JWST",
+        "jellyfish galaxy",
+        "ram-pressure stripping",
+        "galaxy evolution",
+        "early universe",
+        "astrophysics"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/jellyfish-galaxy-eso-137-001.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050635.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T23:02:40.986Z"
+    },
+    {
+      "id": "ps-1772578975102-szw3",
+      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-sp",
+      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Spending",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as AI consumed 90% of all venture capital last month",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies that together absorbed the vast majority of available funding.\n\nOpenAI led the surge with a $110 billion raise that valued the ChatGPT maker at $730 billion, making it one of the largest private funding rounds in history. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G at a $380 billion valuation. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion raise valuing it at $126 billion. Together, the three companies accounted for $156 billion, or 83 percent of all venture dollars deployed during the month, according to a new Crunchbase report published Monday.\n\nThe concentration of capital underscores a deepening winner-take-most dynamic in AI investing. Of the $189 billion raised globally in February, $171 billion — roughly 90 percent — went to AI startups. The figures suggest that venture capital is increasingly functioning less as a broad engine of startup formation and more as a funding mechanism for a handful of capital-intensive AI infrastructure plays. The $156 billion raised by just these three companies in a single month equals roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe record month raises questions about sustainability and market structure. OpenAI's $730 billion valuation places it among the most valuable private companies ever, rivaling some publicly traded technology giants. Anthropic's $380 billion price tag reflects investor conviction that the generative AI market can support multiple players at massive scale. Waymo's $126 billion valuation, meanwhile, signals renewed confidence in autonomous driving after years of skepticism about the sector's commercial viability.\n\nFor the broader startup ecosystem, the implications are mixed. While headline numbers suggest a thriving venture market, the extreme concentration means thousands of smaller companies are competing for a shrinking share of investor attention and capital. Whether this pattern holds through 2026 may depend on whether the AI companies burning through unprecedented sums can demonstrate revenue trajectories to match their stratospheric valuations.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "AI funding",
+        "startup investing"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T23:02:55.102Z"
+    },
+    {
+      "id": "ps-1772578990935-mrbf",
+      "slug": "oil-surges-most-in-four-years-as-iran-conflict-roils-markets",
+      "headline": "Oil Surges Most in Four Years as Iran Conflict Roils Markets",
+      "subheadline": "Strait of Hormuz tanker traffic stalls and Saudi refinery shutters as investors brace for prolonged military campaign",
+      "body": "Crude oil prices posted their largest single-session gain in four years on March 3 as the escalating military conflict between the United States and Iran sent shockwaves through global energy markets, disrupted critical shipping lanes, and reignited inflation fears across Wall Street.\n\nPresident Donald Trump warned that U.S. strikes on Iran could continue for weeks, urging Tehran to \"stand down\" even as the conflict's economic fallout widened rapidly. Tanker traffic through the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's oil supply passes daily — has stalled, while a key Saudi Arabian refinery was forced to shut down operations. The dual supply disruptions pushed crude sharply higher and injected deep uncertainty into energy markets already grappling with geopolitical risk.\n\nThe market turmoil extended well beyond oil. Inflation expectations, which had been gradually moderating, surged as investors priced in the prospect of sustained energy price increases feeding through to consumer costs. Minneapolis Federal Reserve President Neel Kashkari struck a cautious tone, telling reporters it was \"too soon to know\" the full inflationary impact of the Iran conflict — a signal that the central bank is watching developments closely but is not yet prepared to adjust its policy outlook. The remarks did little to calm markets already on edge from months of elevated uncertainty.\n\nThe geopolitical picture grew more complex as Israel launched strikes on Hezbollah targets in Beirut, raising the specter of a broader regional conflagration. Footage from Iran showed damaged buildings and vehicles in the wake of U.S. strikes, while the United Arab Emirates and Qatar reportedly urged allied nations to help the Trump administration find a diplomatic off-ramp. Meanwhile, Trump threatened to cut off trade with Spain over a dispute about U.S. access to an air base, adding another layer of tension to already strained transatlantic relations.\n\nAt Bloomberg's Invest conference in New York, panelists described a market environment defined by acute risk repricing. The conflict arrives at a moment when investors were already contending with signs of slowing global growth and persistent policy uncertainty. Blackstone, one of the world's largest alternative asset managers, disclosed record redemptions from its private credit fund — a potential indicator that institutional investors are moving to reduce exposure and raise cash. With no diplomatic resolution in sight and the military campaign potentially lasting weeks, analysts warned that volatility across equities, commodities, and fixed income could persist well into the spring.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "Iran war",
+        "oil prices",
+        "Strait of Hormuz",
+        "inflation",
+        "Federal Reserve",
+        "Middle East",
+        "geopolitics",
+        "energy markets"
+      ],
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/irQgr7IxPerk/v3/-1x-1.webp",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/how-the-investing-world-is-reacting-to-iran-war-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T23:03:10.935Z"
+    },
+    {
+      "id": "ps-1772579006713-3p7l",
+      "slug": "fatf-stablecoins-now-dominant-vehicle-for-illicit-crypto-act",
+      "headline": "FATF: Stablecoins Now Dominant Vehicle for Illicit Crypto Activity",
+      "subheadline": "Global watchdog says dollar-pegged tokens accounted for 84% of $154 billion in illicit crypto volume in 2025, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, warned in a report published Tuesday that stablecoins have become the primary instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on issuers before the problem grows further.\n\nThe 42-page report paints a stark picture of how dollar-pegged digital tokens, originally designed to bring stability to volatile crypto markets, have been co-opted by sanctions evaders, fraudsters, and state-level actors. Citing data from blockchain analytics firm Chainalysis, FATF noted that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis from TRM Labs, published in mid-February, found that illicit entities received $141 billion in stablecoins last year — the highest level in five years. FATF's own earlier estimate pegged illicit stablecoin activity related to fraud and scams at approximately $51 billion in 2024 alone.\n\nThe report specifically identified actors in North Korea and Iran as leveraging stablecoins such as Tether's USDT for proliferation financing and cross-border payments linked to sanctioned activity. Sanctions-related transactions accounted for a staggering 86% of illicit crypto flows, according to the TRM Labs data. The watchdog flagged peer-to-peer transfers conducted through unhosted wallets — crypto wallets not controlled by any regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the stablecoin market now exceeding $300 billion in total value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged countries to move quickly. Its recommendations include imposing formal anti-money laundering obligations on stablecoin issuers, requiring capabilities such as wallet freezing, and potentially restricting certain smart-contract functions that facilitate anonymous transfers. The task force stopped short of recommending blanket blacklisting of stablecoins but made clear that the current regulatory patchwork is inadequate.\n\nThe report lands amid a heated policy debate in the United States, where President Donald Trump recently urged passage of market structure legislation while criticizing banks for opposing stablecoin yield provisions in the GENIUS Act. JPMorgan CEO Jamie Dimon has separately argued that interest-bearing stablecoin issuers should face bank-level regulation. FATF's findings add international weight to the argument that the rapidly growing stablecoin sector requires comprehensive regulatory frameworks — and that the window for preemptive action may be closing.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT",
+        "illicit finance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T23:03:26.713Z"
     },
     {
       "id": "ps-1772578043975-ngc1",
@@ -65,90 +172,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-03-03T22:47:38.305Z"
-    },
-    {
-      "id": "ps-1772578072271-kyg7",
-      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
-      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as AI consumed 90% of all venture capital",
-      "body": "Venture capital investment shattered records in February, with a staggering $189 billion flowing to startups globally — and just three companies accounted for the vast majority of it. OpenAI, Anthropic, and Waymo together absorbed 83 percent of all venture dollars raised during the month, according to a new Crunchbase report, underscoring the extraordinary concentration of capital around artificial intelligence.\n\nOpenAI led the surge with a $110 billion raise — one of the largest private funding rounds in history — valuing the ChatGPT maker at $730 billion. Its chief rival Anthropic followed with a $30 billion Series G that pushed its valuation to $380 billion. Alphabet's autonomous driving subsidiary Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. Together, the three companies raised $156 billion in a single month, an amount equal to roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe broader numbers are equally striking. AI startups collectively raised $171 billion in February, representing 90 percent of all venture capital deployed. The month's total was more than triple the global VC spend recorded in January, marking an acceleration that even seasoned investors may find difficult to contextualize. The figures suggest that the AI investment boom, far from plateauing, is intensifying at a pace few predicted.\n\nThe concentration raises pointed questions about the health and structure of the venture ecosystem. With a handful of well-capitalized incumbents commanding the lion's share of available funding, early-stage startups outside the AI domain face an increasingly competitive landscape for investor attention and dollars. Critics have long warned that mega-rounds can distort valuations and crowd out smaller companies, while proponents argue that the scale of the AI opportunity justifies the capital allocation.\n\nFor now, the market's verdict is clear: investors are making historically large bets that a small number of AI companies will define the next era of technology. Whether those bets pay off at the valuations being assigned — OpenAI alone is now valued higher than all but a handful of publicly traded companies worldwide — remains the central question hanging over the venture industry in 2026.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "AI funding",
-        "Crunchbase"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T22:47:52.271Z"
-    },
-    {
-      "id": "ps-1772578088557-57c0",
-      "slug": "oil-surges-most-in-four-years-as-iran-conflict-disrupts-horm",
-      "headline": "Oil Surges Most in Four Years as Iran Conflict Disrupts Hormuz",
-      "subheadline": "Tanker traffic stalls in critical strait as Saudi refinery shutdowns and Trump's warning of weeks-long strikes rattle global markets",
-      "body": "Oil prices posted their largest single-session gain in four years as the escalating military conflict between the United States and Iran choked tanker traffic through the Strait of Hormuz and forced the shutdown of a key Saudi Arabian refinery, sending shockwaves through global financial markets.\n\nPresident Donald Trump warned on Monday that U.S. strikes on Iran could continue for weeks, urging Tehran to \"stand down\" as the confrontation intensified. The Strait of Hormuz, through which roughly one-fifth of the world's oil supply passes daily, saw shipping effectively grind to a halt — a scenario long feared by energy analysts as one of the most destabilizing possible disruptions to global crude flows. The closure of a major Saudi refinery compounded supply concerns, pushing crude benchmarks sharply higher and reviving inflation fears that markets had only recently begun to price out.\n\nThe confluence of supply disruptions and geopolitical uncertainty landed squarely on investors already navigating a fragile macro environment. At Bloomberg's Invest conference in New York, panelists reacted in real time to the rapidly developing situation, with discussion centering on the potential for sustained energy price inflation to complicate the Federal Reserve's rate path. Higher oil prices feed directly into transportation, manufacturing, and consumer costs — a transmission mechanism that could stall or reverse the disinflationary progress central banks have achieved over the past year.\n\nBroader equity markets came under significant pressure as traders moved into traditional safe-haven assets. The spike in crude prices acts as a de facto tax on consumers and businesses globally, raising recession risks at a moment when economic growth was already showing signs of moderation. Defense and energy stocks outperformed, while airlines, logistics firms, and consumer discretionary sectors bore the brunt of the selloff.\n\nThe duration and severity of the market impact will depend heavily on whether the Strait of Hormuz disruption proves temporary or extends into a prolonged blockade. Analysts noted that even a short interruption to Hormuz traffic historically produces outsized volatility, given the limited alternative pipeline capacity to reroute Persian Gulf crude. With Trump signaling that military operations could stretch over weeks rather than days, markets appear to be pricing in a sustained period of elevated energy costs and heightened geopolitical risk — a combination that poses the most serious test for global portfolios since the early stages of the Russia-Ukraine war in 2022.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Iran conflict",
-        "Strait of Hormuz",
-        "geopolitics",
-        "inflation",
-        "energy markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1665292275574-a9782ee1da0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzI1NDU2OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/how-the-investing-world-is-reacting-to-iran-war-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T22:48:08.557Z"
-    },
-    {
-      "id": "ps-1772578103124-w0ug",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges swift regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based global standard-setter for anti-money laundering rules, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, citing their widespread use by sanctioned actors in Iran and North Korea for proliferation financing and cross-border payments.\n\nIn a 42-page report, FATF said dollar-pegged tokens now account for the bulk of illegal crypto activity and pointed to analyses by blockchain surveillance firms Chainalysis and TRM Labs to underscore the scale of the problem. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. TRM Labs, in a separate February report, estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had previously estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe task force identified peer-to-peer transfers through unhosted wallets — cryptocurrency wallets not custodied by a regulated entity — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely. Sanctions-related activity accounted for 86% of illicit crypto flows according to TRM Labs data, with bad actors overwhelmingly relying on stablecoin platforms to move funds across borders.\n\nFATF stopped short of recommending blanket blacklisting of stablecoins but called on national regulators to impose anti-money laundering obligations directly on stablecoin issuers. The watchdog also urged governments to consider requiring technical enforcement tools, including wallet-freezing capabilities and restrictions or bans on certain smart-contract functions that facilitate anonymous transfers. With the total stablecoin market now exceeding $300 billion in capitalization and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF warned that compliance gaps are widening as adoption accelerates.\n\nThe report arrives amid intensifying political debate in Washington over stablecoin regulation. President Donald Trump recently urged passage of the U.S. Clarity Act while criticizing banks for opposing provisions in the GENIUS stablecoin legislation he signed into law. JPMorgan Chase CEO Jamie Dimon has separately argued that stablecoin issuers paying interest should face bank-level regulation. FATF's findings are likely to add momentum to global regulatory efforts, providing ammunition for policymakers who argue that the rapid growth of dollar-pegged digital assets demands oversight commensurate with the risks they pose to the international financial system.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T22:48:23.124Z"
-    },
-    {
-      "id": "ps-1772577144713-ad0y",
-      "slug": "rnns-outperform-transformers-on-composite-materials-modeling",
-      "headline": "RNNs Outperform Transformers on Composite Materials Modeling, Study Finds",
-      "subheadline": "Transformers offer 7x faster inference but struggle with extrapolation in simulating fiber-reinforced composites",
-      "body": "Recurrent neural networks hold a significant edge over transformer models when it comes to predicting the behavior of complex composite materials beyond their training data, according to a new comparative study by researchers at the University of Gothenburg.\n\nThe paper, authored by Petter Uvdal and Mohsen Mirkhalaf and published on the arXiv preprint server, systematically benchmarks the two dominant deep learning architectures on a task central to modern materials science: modeling the path-dependent mechanical response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, are notoriously expensive to simulate using traditional full-field computational methods, making neural network surrogates an attractive alternative.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized stress-strain responses generated from representative volume element simulations. Hyperparameters for both architectures — including hidden layer sizes, attention heads, learning rates, and batch sizes — were tuned using Bayesian optimization to ensure a fair comparison. The results revealed a nuanced picture: transformers performed competitively on large interpolation datasets, but RNNs demonstrated superior accuracy when trained on smaller datasets and, critically, when asked to extrapolate beyond the conditions seen during training. Under extrapolation, the performance gap was stark — RNNs maintained accuracy while transformer predictions deteriorated significantly.\n\nThe transformer architecture did claim one clear advantage: raw speed. At inference time, the transformer required just 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN, a sevenfold improvement. This speed advantage stems from the transformer's ability to process sequence elements in parallel rather than sequentially, a well-known architectural benefit that has driven its dominance in natural language processing and other domains.\n\nThe findings carry practical implications for the growing field of data-driven multiscale materials modeling. Engineers designing composite structures often need models that generalize reliably to loading conditions not represented in training data — precisely the regime where transformers falter. The study suggests that the transformer revolution sweeping other fields of machine learning may not translate straightforwardly to path-dependent physics problems, where the sequential, history-dependent nature of material deformation aligns naturally with the recurrent architecture's inductive biases. For applications where inference speed is paramount and abundant training data is available, transformers remain a viable choice, but robustness under novel conditions still favors the older architecture.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "materials-science",
-        "transformers",
-        "neural-networks",
-        "composite-materials",
-        "computational-physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1593062037896-764e9f52029e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtYWNoaW5lLWxlYXJuaW5nJTIwbWF0ZXJpYWxzLXNjaWVuY2V8ZW58MHwwfHx8MTc3MjU0ODM1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T22:32:24.713Z"
     },
     {
       "id": "ps-1772577172633-pmlu",
@@ -1056,27 +1079,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/core-scientific-sells-usd175-million-in-bitcoin-as-ai-pivot-accelerates",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T09:04:07.227Z"
-    },
-    {
-      "id": "ps-1772527734203-m8sy",
-      "slug": "bitcoin-nears-20-million-coins-mined-with-final-million-a-ce",
-      "headline": "Bitcoin Nears 20 Million Coins Mined, With Final Million a Century Away",
-      "subheadline": "More than 95% of bitcoin's fixed 21 million supply is now in circulation, sharpening the scarcity narrative",
-      "body": "Bitcoin is on the verge of a symbolic but significant milestone: the mining of its 20 millionth coin. According to data from the Clark Moody Dashboard, approximately 19,997,000 BTC have already been mined, leaving roughly 3,000 coins to go before the threshold is crossed — an event expected within about a week at current issuance rates. Once reached, more than 95% of bitcoin's hard-capped 21 million supply will be in circulation, with the remaining one million coins set to trickle out over the next 114 years.\n\nThe milestone underscores the radical design choice embedded in bitcoin's protocol by its pseudonymous creator, Satoshi Nakamoto. Unlike fiat currencies, which central banks can expand at will, bitcoin's supply follows a predetermined and immutable curve. Issuance has decelerated through a series of \"halvings\" — events occurring roughly every four years that cut miner block rewards in half. The most recent halving pushed bitcoin's annualized inflation rate below 1%, with approximately 450 new BTC entering circulation each day. At this pace, 99% of all bitcoin will have been mined by January 2035, according to CoinDesk's analysis.\n\nThe scarcity dynamic distinguishes bitcoin from traditional commodities like gold or oil, whose supply can respond to price signals through increased extraction or new discoveries. Bitcoin's emission schedule, by contrast, is entirely indifferent to market conditions. Whether the price sits at $10,000 or $100,000, the same number of coins are produced per block. The final whole bitcoin is projected to be mined around 2105, with fractional issuance continuing until approximately 2140, after which miners will depend entirely on transaction fees for revenue.\n\nFor the mining industry, the approaching milestone highlights a long-term structural shift. As block rewards diminish toward zero over the coming decades, transaction fees must eventually sustain the network's security infrastructure. That transition — from subsidy-driven to fee-driven economics — remains one of bitcoin's most debated open questions. Critics question whether fees alone can incentivize sufficient mining activity, while proponents argue that rising adoption and layer-two payment networks will generate adequate demand for block space.\n\nBitcoin was trading near $68,100 at the time of the milestone's approach, buoyed in part by strong institutional inflows into U.S. spot bitcoin ETFs, which drew approximately $458 million in a single recent session. The convergence of tightening supply and growing institutional demand continues to shape the investment thesis for bitcoin's most committed advocates.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "mining",
-        "scarcity",
-        "bitcoin supply",
-        "halving"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/c2cb23c7135176362d92ad128bcda036582b0102-3200x1800.png?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/01/23/bitcoin-supply-approaching-20-million-the-final-million-will-take-another-114-years-to-mine",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T08:48:54.203Z"
     }
   ]
 }
