@@ -1,70 +1,136 @@
 {
-  "lastUpdated": "2026-03-03T16:48:23.123Z",
+  "lastUpdated": "2026-03-03T17:03:33.788Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772556422299-r4xj",
-      "slug": "us-and-israel-strike-iran-killing-supreme-leader-khamenei",
-      "headline": "US and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury enters fourth day as Iran retaliates with drone and missile attacks across the region",
-      "body": "The United States and Israel launched large-scale military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapidly escalating conflict now entering its fourth day.\n\nThe joint offensive, dubbed Operation Epic Fury, has hit targets across multiple Iranian cities, with verified footage from social media and official U.S. military sources showing widespread explosions and destruction. Iranian state television confirmed the death of the 85-year-old Supreme Leader, who had ruled the Islamic Republic since 1989. President Donald Trump announced the commencement of \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports indicate Trump is seeking regime change in Tehran.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles were launched toward the country. In a separate incident, an Iranian drone was filmed crashing in flames in Kuwait, underscoring the widening geographic footprint of the conflict. Footage from Tehran showed chaotic scenes in residential neighborhoods struck during the bombardment, raising immediate concerns about civilian casualties.\n\nThe escalation has sparked significant domestic opposition in the United States, with protesters rallying in cities across the country on Saturday against the strikes, and additional demonstrations planned. The military action comes at a fraught geopolitical moment — the New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991, adding another layer of instability to an already volatile international landscape.\n\nAnalysts and diplomats are now grappling with the question of what comes next. The killing of Iran's Supreme Leader represents an unprecedented decapitation strike against the Islamic Republic's leadership structure, and the trajectory of the conflict — whether it remains a targeted campaign or broadens into a full-scale regional war — remains deeply uncertain. The BBC's chief international correspondent Lyse Doucet noted the immediate humanitarian and strategic impact of the strikes, while reporters in Washington described a public hungry for answers about the operation's scope and endgame.",
+      "id": "ps-1772557331882-23lp",
+      "slug": "us-and-israeli-strikes-kill-iran-s-supreme-leader-khamenei",
+      "headline": "US and Israeli Strikes Kill Iran's Supreme Leader Khamenei",
+      "subheadline": "Operation Epic Fury devastates multiple Iranian cities as Tehran retaliates with regional attacks, sparking wider Middle East conflict",
+      "body": "The United States and Israel launched a massive joint military operation against Iran on Saturday, killing Supreme Leader Ayatollah Ali Khamenei and striking targets across multiple cities in what President Donald Trump has called the start of \"major combat operations\" against the Islamic Republic.\n\nThe coordinated assault, designated Operation Epic Fury, produced large explosions visible across Iran, with footage verified by the BBC and international news agencies showing widespread destruction in Tehran and other cities. Iranian state television confirmed Khamenei's death, marking the elimination of the country's most powerful political and religious figure — a development with profound implications for the region's power dynamics. The U.S. military has released its own video purportedly showing military targets being struck.\n\nIran responded swiftly with a wave of retaliatory attacks across the region, including strikes directed at Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. At least one Iranian drone was filmed crash-landing in Kuwait, underscoring the breadth of Tehran's response. The conflict, now in its fourth day, represents the most significant direct military confrontation between the United States and Iran in the history of both nations.\n\nPresident Trump, directing operations from Palm Beach, Florida, accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States\" and signaled ambitions that may extend to regime change, according to BBC analysis. The strikes have triggered widespread protests across American cities, with demonstrators rallying against the military action on Saturday and additional protests planned in the days ahead.\n\nThe escalation comes at a particularly volatile moment in global security. The New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. BBC chief international correspondent Lyse Doucet warned that the immediate impact of the strikes is already reshaping the Middle East, though the full scope of what comes next — including Iran's capacity for sustained retaliation without its supreme leader — remains deeply uncertain.",
       "category": "breaking",
       "importance": 10,
       "tags": [
         "Iran",
-        "US military strikes",
-        "Khamenei killed",
-        "Operation Epic Fury",
-        "Middle East conflict",
+        "US military",
         "Israel",
+        "Khamenei",
+        "Middle East",
+        "Operation Epic Fury",
         "Trump"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T16:47:02.299Z"
+      "publishedAt": "2026-03-03T17:02:11.882Z"
     },
     {
-      "id": "ps-1772556440425-pqtc",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
-      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
-      "subheadline": "CASCADE replaces pixel-level guesswork with advection-based reconstruction for sharper, physically consistent storm imagery",
-      "body": "A new machine learning framework called CASCADE aims to solve one of meteorology's persistent computational headaches: generating high-resolution weather data from coarse model outputs without violating the laws of physics.\n\nIntroduced in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — rethinks the problem of spatial super-resolution for geophysical fields. Instead of treating the task like upscaling a photograph, where neural networks often fabricate plausible-looking but physically meaningless detail, the framework explicitly models the movement of atmospheric features using learned velocity fields. Fine-scale structures are reconstructed by iteratively advecting coarse information through semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The result is output that conserves mass and energy while remaining temporally coherent — properties that standard image super-resolution methods routinely violate.\n\nThe architecture mirrors a concept familiar to numerical weather prediction specialists: the closure problem. CASCADE decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, then enforces consistency with the original low-resolution data through what the paper describes as an \"assimilation-style innovation step,\" analogous to how operational weather models blend observations with forecasts. This design means the system doesn't just produce sharp images — it produces sharp images that a physicist could trust.\n\nTested on the Storm EVent ImagRy (SEVIR) radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed established baselines across a battery of metrics. These included standard image quality measures like peak signal-to-noise ratio and structural similarity, as well as meteorologically critical threshold-based skill scores such as the Critical Success Index, Heidke Skill Score, and Probability of Detection — metrics that capture whether the model correctly identifies the location and intensity of extreme precipitation features. The framework also offers interpretability advantages: its velocity and correction fields can be directly visualized, giving forecasters insight into what the model is doing rather than treating it as a black box.\n\nThe work addresses a growing tension in atmospheric science between the demand for high-resolution climate and weather data and the enormous computational cost of running fine-mesh simulations. Statistical and machine learning downscaling methods have proliferated in recent years, but many struggle with extreme events — precisely the scenarios where accurate detail matters most. By encoding advection as the fundamental operator rather than leaving the network to discover transport physics implicitly, CASCADE targets the regime where conventional approaches are weakest: fast-moving, high-intensity atmospheric phenomena like severe thunderstorms.\n\nThe preprint, posted to arXiv on February 18, suggests the approach could extend beyond radar imagery to other advection-dominated problems in atmospheric and oceanic science, though validation on additional datasets and real-time forecasting pipelines remains to be demonstrated.",
+      "id": "ps-1772557348475-789g",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
+      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
+      "subheadline": "CASCADE uses advection-based approach to enhance low-resolution climate data while conserving mass and energy",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent challenges in weather and climate modeling: generating high-resolution atmospheric data from coarse inputs without violating fundamental physical laws.\n\nIntroduced in a February 2026 preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — takes a fundamentally different approach to the problem of spatial super-resolution in geophysical fields. Rather than treating the task as analogous to sharpening a blurry photograph, the framework reframes it as an explicit transport process. Fine-scale atmospheric structures are reconstructed by iteratively moving coarse-resolution information along learned velocity fields using semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The key insight is that advection — the physical movement of atmospheric quantities by wind — should be the core operator, not an afterthought.\n\nThe distinction matters most for extreme weather events. Conventional super-resolution methods, including many deep learning approaches, can \"hallucinate\" fine-scale detail that looks plausible in a single snapshot but fails to conserve mass and energy or maintain temporal coherence across successive frames. For severe storms, where localized high-intensity features drive real-world impacts, such artifacts can misrepresent actual hazards. CASCADE addresses this by decomposing atmospheric motion into resolved large-scale and unresolved subgrid components — mirroring the closure problem that numerical weather prediction models have grappled with for decades — and enforcing consistency with the original low-resolution data through what the author describes as an assimilation-style innovation step.\n\nTested on the Storm Event Imagery dataset (SEVIR) for 4x super-resolution of severe convective storms, CASCADE outperformed established baselines across a comprehensive suite of metrics. These included continuous measures such as peak signal-to-noise ratio, structural similarity, and mean absolute error, as well as threshold-based skill scores commonly used in operational meteorology — critical success index, Heidke skill score, and probability of detection. An additional advantage cited in the paper is interpretability: the learned velocity and correction fields can be directly visualized, offering meteorologists insight into what the model is doing rather than treating it as a black box.\n\nThe work sits at the increasingly active intersection of physics-informed machine learning and atmospheric science, where researchers are seeking methods that can bridge the gap between coarse global climate models and the fine-resolution data needed for local impact assessment. By encoding physical transport as the fundamental operation, CASCADE represents a step toward downscaling methods that are not only accurate but physically trustworthy — a critical requirement if such tools are ever to support operational forecasting and climate adaptation planning.",
       "category": "physics",
       "importance": 5,
       "tags": [
         "machine learning",
-        "weather forecasting",
-        "atmospheric physics",
+        "climate modeling",
         "super-resolution",
-        "climate downscaling",
-        "numerical weather prediction"
+        "weather prediction",
+        "atmospheric physics",
+        "downscaling"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwZm9yZWNhc3Rpbmd8ZW58MHwwfHx8MTc3MjU0MTE1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1756751579863-49b26247e1fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bWFjaGluZSUyMGxlYXJuaW5nJTIwY2xpbWF0ZSUyMG1vZGVsaW5nfGVufDB8MHx8fDE3NzI1NDQ3NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T16:47:20.425Z"
+      "publishedAt": "2026-03-03T17:02:28.475Z"
     },
     {
-      "id": "ps-1772556455359-t88p",
+      "id": "ps-1772557365418-n2vl",
       "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
       "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
-      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times atmospheric, bolstering the case for interplanetary transfer of life",
-      "body": "A bacterium already famous for shrugging off extreme radiation has now demonstrated it can withstand the crushing forces of a simulated asteroid impact on Mars, according to a study published March 3 in PNAS Nexus. The finding lends significant experimental support to the hypothesis that microbial life could hitch a ride between planets aboard chunks of rock blasted into space by catastrophic collisions.\n\nResearchers Lily Zhao, K. T. Ramesh, and colleagues subjected samples of Deinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" for its extraordinary resilience — to pressures reaching 3 gigapascals, roughly 30,000 times the atmospheric pressure at sea level. To replicate the conditions a microbe might experience during ejection from a planetary surface, the team sandwiched the bacteria between two steel plates and struck the assembly with a third plate, generating the kind of shock waves produced when a large asteroid slams into Mars.\n\nThe results were striking. Even at 2.4 GPa, where cell membranes began to rupture, approximately 60 percent of the microbes survived. Gene expression analysis revealed that surviving bacteria rapidly activated damage-repair pathways, effectively triaging their own cellular injuries in the aftermath of the shock event. The researchers attribute this hardiness in part to the unusual architecture of the organism's cell envelope, which appears to provide structural reinforcement under extreme compression.\n\nThe study builds on a body of prior research showing that D. radiodurans can tolerate radiation doses 28,000 times the lethal threshold for humans, as well as prolonged desiccation — conditions it would also face during an interplanetary journey through the vacuum of space. Taken together, the findings suggest the bacterium could plausibly survive every major phase of lithopanspermia: launch from one planet, transit through space, and potentially entry into another planet's atmosphere.\n\nCrater records on the Moon and Mars attest to the frequency of major impacts throughout solar system history, meaning opportunities for such biological transfer have been plentiful over billions of years. While the study does not prove that life has traveled between planets, it removes one of the key physical objections to the idea. If microorganisms can endure forces far more extreme than previously assumed, the barrier between a living planet and a barren neighbor may be thinner than scientists once believed.",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering panspermia hypothesis",
+      "body": "A notoriously resilient microbe has survived simulated asteroid-impact pressures equivalent to being launched off the surface of Mars, according to new research published in PNAS Nexus on March 3. The finding lends significant experimental support to the long-debated idea that living organisms could hitch rides between planets aboard chunks of impact debris.\n\nResearchers Lily Zhao, K. T. Ramesh, and colleagues subjected the extremophile bacterium Deinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" for its extraordinary toughness — to pressures reaching 3 gigapascals, roughly 30,000 times atmospheric pressure at sea level. To replicate the shock of a massive asteroid strike, the team sandwiched bacterial cells between two steel plates and slammed them with a third. Even under these punishing conditions, approximately 60 percent of the microbes survived at pressures up to 2.4 GPa, the threshold at which cell membranes began to rupture.\n\nThe bacterium's remarkable endurance appears to stem from the unusual architecture of its cell envelope, which provides structural reinforcement against extreme mechanical stress. Gene expression analysis revealed that surviving cells rapidly activated DNA and cellular repair pathways in the aftermath of the simulated impact, essentially triaging their own damage. Deinococcus radiodurans was already known to withstand radiation doses 28,000 times the lethal threshold for humans, as well as prolonged desiccation — conditions it would also face during an interplanetary journey.\n\nThe implications extend well beyond microbiology. Crater records on the Moon and Mars attest to billions of years of bombardment across the inner solar system. Each major impact on a planet's surface can eject rocks at velocities sufficient to escape that world's gravity, and dozens of Martian meteorites have already been recovered on Earth. If microorganisms can survive the initial launch shock — the most mechanically violent phase of the journey — they would then need only endure radiation exposure and vacuum during transit, challenges Deinococcus radiodurans has already been shown to handle.\n\nThe study does not prove that life has traveled between Mars and Earth, but it narrows one of the most critical gaps in the panspermia hypothesis. As the authors note, microorganisms appear capable of surviving far more extreme conditions than previously assumed, meaning the transfer of life between neighboring planets is at least physically plausible. With NASA and the European Space Agency planning to return samples from Mars later this decade through the Mars Sample Return campaign, the question of whether microbial life ever existed — or still exists — on the Red Planet has never been more scientifically urgent.",
       "category": "science",
       "importance": 7,
       "tags": [
         "panspermia",
-        "astrobiology",
         "Deinococcus radiodurans",
         "Mars",
-        "asteroid impact",
-        "extremophiles"
+        "astrobiology",
+        "extremophiles",
+        "asteroid impact"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T16:47:35.359Z"
+      "publishedAt": "2026-03-03T17:02:45.418Z"
+    },
+    {
+      "id": "ps-1772557381468-ed5k",
+      "slug": "apple-launches-m5-pro-and-m5-max-with-dual-die-fusion-archit",
+      "headline": "Apple Launches M5 Pro and M5 Max With Dual-Die 'Fusion Architecture'",
+      "subheadline": "New chips pack 18-core CPUs, claim 4x AI compute gains over prior generation, and ship in updated MacBook Pros on March 11",
+      "body": "Apple on Tuesday unveiled its M5 Pro and M5 Max processors, the most powerful entries yet in the company's custom silicon lineup, built around what it calls Fusion Architecture — a dual-die design that integrates CPU, GPU, Neural Engine, media engine, and Thunderbolt 5 connectivity into a single system-on-chip package.\n\nBoth chips step up to an 18-core CPU, a notable jump from the 14-core M4 Pro and 16-core M4 Max they replace. The new CPU design introduces six \"super cores,\" Apple's designation for its highest-performance tier, paired with 12 redesigned efficiency-oriented performance cores. Apple claims the combination delivers up to 30 percent faster throughput on professional workloads. The GPU scales to as many as 40 cores and includes a dedicated Neural Accelerator in each core, a design choice squarely aimed at the accelerating demand for on-device AI inference. Apple says the result is more than four times the peak GPU compute for AI tasks compared with the M4 generation, alongside a 20 percent uplift in general graphics performance and up to 35 percent faster ray tracing.\n\nMemory specifications see meaningful gains as well. The M5 Pro now supports up to 64 gigabytes of unified memory — up from 48 GB on its predecessor — with bandwidth of 307 GB per second. The M5 Max retains its 128 GB ceiling but pushes bandwidth to 614 GB per second, a figure that positions it as a workstation-class part for data-intensive pipelines. Apple is targeting the M5 Pro at data modelers, audio post-production professionals, and researchers, while pitching the M5 Max at 3D animators, application developers, and AI researchers who need maximum GPU throughput and memory headroom.\n\nThe Fusion Architecture's dual-die approach marks an engineering milestone for Apple, which until now has relied on monolithic chip designs for its laptop silicon. Merging two dies into a unified package allows Apple to scale core counts and memory controllers without being constrained by the reticle limits of its manufacturing process, a strategy already employed by AMD and Intel in their server and desktop lines. Bringing the technique to a laptop form factor signals Apple's intent to compete more directly with high-end mobile workstation chips.\n\nUpdated MacBook Pro models powered by the new processors open for pre-order on March 4, with general availability set for March 11. Apple did not disclose pricing changes for the new configurations at the time of announcement.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Apple",
+        "M5 Pro",
+        "M5 Max",
+        "Fusion Architecture",
+        "MacBook Pro",
+        "semiconductors",
+        "AI"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/m5-chips.png?resize=1200,669",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T17:03:01.468Z"
+    },
+    {
+      "id": "ps-1772557397930-tf0u",
+      "slug": "gold-plunges-over-6-as-strong-dollar-and-fed-outlook-overwhe",
+      "headline": "Gold Plunges Over 6% as Strong Dollar and Fed Outlook Overwhelm War Premium",
+      "subheadline": "Safe-haven metal falls sharply despite Middle East escalation as forced selling and tighter monetary expectations dominate trading",
+      "body": "Gold suffered its steepest single-session decline in months, tumbling more than 6% as a surging U.S. dollar, shifting Federal Reserve rate expectations, and forced liquidations from a broader equities rout overwhelmed the traditional safe-haven bid typically triggered by geopolitical turmoil.\n\nThe sharp selloff caught many market participants off guard. Escalating conflict in the Middle East — which initially stoked demand for bullion — was ultimately no match for the convergence of bearish forces bearing down on the precious metal. A strengthening dollar made gold more expensive for holders of other currencies, while growing expectations that the Federal Reserve will hold interest rates higher for longer eroded the appeal of the non-yielding asset. Higher rates increase the opportunity cost of holding gold, which generates no income.\n\nCompounding the pressure was a wave of forced selling as equity markets cratered in response to the intensifying geopolitical crisis. When stock portfolios suffer steep losses, investors and funds are often compelled to liquidate profitable or liquid positions — including gold — to meet margin calls and cover losses elsewhere. This dynamic, familiar from past episodes of broad market stress, turned what might have been a rally in bullion into a rout.\n\nThe move underscores a recurring tension in commodity markets: geopolitical risk premiums can be swiftly negated when macroeconomic and liquidity forces align against an asset. Gold had been trading near elevated levels in recent weeks as tensions in the Middle East mounted, but the latest session demonstrated that the metal's safe-haven status has limits when the dollar is rallying and monetary policy expectations are tightening simultaneously.\n\nTraders and analysts will be watching closely to see whether the selloff represents a short-term dislocation driven by forced liquidation or the beginning of a more sustained repricing. If the conflict continues to escalate, renewed safe-haven demand could eventually reassert itself once the margin-call driven selling abates. For now, however, the message from markets is clear: in a world of competing forces, the dollar and the Fed still command gold's direction more than geopolitics alone.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "gold",
+        "commodities",
+        "US dollar",
+        "Federal Reserve",
+        "Middle East conflict",
+        "equities selloff",
+        "safe haven"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1632499354595-91768e9d0028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8Z29sZCUyMGNvbW1vZGl0aWVzfGVufDB8MHx8fDE3NzI1NTczOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/gold-rises-as-escalating-conflict-in-middle-east-stokes-demand",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T17:03:17.930Z"
+    },
+    {
+      "id": "ps-1772557413684-b2h1",
+      "slug": "bitcoin-holds-relative-ground-at-68k-as-iran-war-hammers-glo",
+      "headline": "Bitcoin Holds Relative Ground at $68K as Iran War Hammers Global Markets",
+      "subheadline": "Crypto shows unexpected resilience while equities, precious metals, and crypto-linked stocks suffer steep losses",
+      "body": "Bitcoin reclaimed the $68,000 level on Tuesday after briefly dipping near $66,000, showing unusual relative strength as a new Middle East conflict sent global equity and commodity markets into freefall.\n\nThe divergence was stark. The Nasdaq dropped 2.5% and the S&P 500 fell 2.3% during mid-morning U.S. trading, while European bourses fared far worse — Italy's IBEX 35 plunged 5.2% and Germany's DAX shed 4.1%. Precious metals, which had surged to historic highs in the weeks preceding the war with Iran, reversed sharply: gold fell 4.3%, silver tumbled 7.5%, and platinum cratered 11.3%. WTI crude oil surged another 8% to $77 per barrel as energy supply fears intensified.\n\nCrypto markets, by contrast, managed to avoid new lows despite having already endured roughly five months of relentless selling pressure. Bitcoin's 1% decline over 24 hours was modest compared to the carnage across other asset classes, and its intraday bounce of more than 2% from session lows suggested buyers were stepping in. Ether, Solana, and XRP followed a similar pattern — lower on the day but well off their worst levels. The resilience did not extend to crypto-linked equities, however. Robinhood shares dropped 7%, Coinbase fell 5%, and Strategy (formerly MicroStrategy) declined 4%.\n\nJames Butterfill, head of research at CoinShares, noted that bitcoin's weekend liquidity may have helped markets absorb the initial geopolitical shock more smoothly. \"The price development was constructive — bitcoin gained despite the increasing instability,\" Butterfill said, adding that the absence of significant liquidations despite rising yields and geopolitical tensions suggests market positioning has matured compared to prior episodes of crisis selling.\n\nThe crypto market's relative composure arrives at an unusual juncture. Bitcoin is trading nearly 50% below its all-time highs, and public mining companies are actively liquidating bitcoin holdings to fund pivots toward artificial intelligence infrastructure. Core Scientific, Bitdeer, Riot Platforms, and Bitfarms have collectively reduced peak holdings by more than 15,000 BTC. Whether bitcoin can sustain its role as a relative safe harbor — or whether its resilience merely reflects the extent of its prior decline — will likely depend on how quickly the conflict escalates and whether forced selling in traditional markets eventually spills into digital assets.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran war",
+        "stock market selloff",
+        "geopolitical risk",
+        "crypto markets",
+        "crude oil",
+        "precious metals"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T17:03:33.684Z"
     },
     {
       "id": "ps-1772556469709-oi4p",
@@ -109,27 +175,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/iran-war-critical-middle-east-energy-assets-come-under-fire",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T16:48:05.921Z"
-    },
-    {
-      "id": "ps-1772556502980-88ve",
-      "slug": "bitcoin-holds-relative-ground-as-iran-war-triggers-global-ma",
-      "headline": "Bitcoin Holds Relative Ground as Iran War Triggers Global Market Rout",
-      "subheadline": "Cryptocurrency shows unexpected resilience at $68,000 while equities, precious metals, and crypto stocks all face heavy selling",
-      "body": "Bitcoin reclaimed $68,000 on Tuesday after briefly dipping near $66,000, showing unusual relative strength as a new Middle East war sent global equity and commodity markets into a sharp tailspin.\n\nThe divergence was striking. The Nasdaq fell 2.5% and the S&P 500 dropped 2.3% in mid-morning U.S. trading, while European bourses suffered even steeper losses — Italy's IBEX 35 plunged 5.2% and Germany's DAX shed 4.1%. Precious metals, which had rallied to historic highs in the weeks preceding the conflict, reversed violently: gold tumbled 4.3%, silver fell 7.5%, and platinum cratered 11.3%. West Texas Intermediate crude surged another 8% to $77 per barrel as supply fears intensified. Against that backdrop, bitcoin's roughly 1% decline over the prior 24 hours looked almost placid, and its 2% bounce from session lows suggested buyers were stepping in. Ether, Solana, and XRP followed a similar pattern, recovering from their worst intraday levels.\n\nThe resilience is notable given that crypto markets had already endured a punishing five-month decline heading into the conflict, with bitcoin trading nearly 50% below its all-time highs. That prior drawdown may have cleared out the leveraged positioning that typically amplifies sell-offs during geopolitical shocks. \"The absence of significant liquidations despite rising yields and geopolitical tensions suggests that positioning is adjusted compared to previous episodes,\" said James Butterfill, head of research at CoinShares. He noted that bitcoin, as one of the few liquid assets trading around the clock including weekends, has historically absorbed forced selling during risk-off events — but this time the price action was \"constructive.\"\n\nCrypto-adjacent equities told a different story. Coinbase shares fell 5%, Robinhood dropped 7%, and Strategy — the bitcoin treasury company formerly known as MicroStrategy — declined 4%. Stablecoin issuer Circle held up better, slipping roughly 1%. The gap between the token's performance and that of listed crypto companies underscored the sector's split personality: the underlying digital asset finding a floor while its publicly traded proxies tracked the broader equity rout.\n\nThe coming days will test whether bitcoin's relative composure is a durable shift in market structure or merely a temporary lag before the gravitational pull of risk aversion catches up. With oil prices surging, yields climbing, and geopolitical uncertainty intensifying, traders will be watching closely for any signs that the cryptocurrency's tentative stand gives way to renewed selling pressure.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran war",
-        "stock market selloff",
-        "crypto markets",
-        "geopolitical risk",
-        "safe haven"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T16:48:22.980Z"
     },
     {
       "id": "ps-1772555564192-5rta",
@@ -277,28 +322,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00094",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T16:02:22.432Z"
-    },
-    {
-      "id": "ps-1772553774103-bbn5",
-      "slug": "apple-launches-m5-pro-and-m5-max-with-dual-die-fusion-archit",
-      "headline": "Apple Launches M5 Pro and M5 Max With Dual-Die 'Fusion Architecture'",
-      "subheadline": "New chips deliver 18-core CPUs, up to 4x AI compute gains, and power the latest MacBook Pro lineup arriving March 11",
-      "body": "Apple on Tuesday introduced its M5 Pro and M5 Max processors, the most powerful entries yet in the company's custom silicon lineup, built around what it calls \"Fusion Architecture\" — a dual-die design that consolidates CPU, GPU, Neural Engine, media engine, and Thunderbolt 5 connectivity into a single system on a chip.\n\nThe headline number is the 18-core CPU shared by both chips, a significant jump from the 14-core M4 Pro and 16-core M4 Max they replace. Apple has reorganized the core layout around six new \"super cores\" — its highest-performance tier — paired with 12 efficiency-oriented performance cores. The result, according to the company, is a 30 percent improvement in professional workloads. On the graphics side, the GPU scales up to 40 cores using what Apple describes as a next-generation architecture first introduced in the base M5 chip, now augmented with a dedicated Neural Accelerator in every GPU core. That combination delivers over four times the peak GPU compute for AI tasks compared to the prior generation, along with a 20 percent uplift in general graphics performance and up to 35 percent faster ray tracing.\n\nMemory specifications have also been pushed upward. The M5 Pro now supports up to 64 gigabytes of unified memory — up from 48 GB on the M4 Pro — with bandwidth of 307 GB/s. The M5 Max retains its 128 GB ceiling but increases bandwidth to 614 GB/s, a figure that positions it squarely at workloads involving large language models, 3D scene rendering, and high-resolution video pipelines.\n\nApple is drawing a clear line between the two chips' target audiences. The M5 Pro is pitched at data modelers, audio post-production professionals, and STEM students who need a balance of CPU and GPU horsepower with generous memory headroom. The M5 Max is aimed at 3D animators, application developers, and AI researchers whose workflows demand maximum GPU throughput and the fastest possible memory bandwidth.\n\nBoth chips will power updated MacBook Pro models available for pre-order on March 4, with units shipping beginning March 11. The launch extends Apple's strategy of using vertically integrated silicon to differentiate its hardware from competitors relying on off-the-shelf processors, and the aggressive AI performance claims signal the company's intent to keep pace with an industry rapidly reorienting around on-device machine learning.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Apple",
-        "M5 Pro",
-        "M5 Max",
-        "MacBook Pro",
-        "silicon",
-        "AI",
-        "Fusion Architecture"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/m5-chips.png?resize=1200,669",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T16:02:54.103Z"
     },
     {
       "id": "ps-1772553790252-dfj3",
@@ -1058,26 +1081,6 @@
       "sourceUrl": "https://www.coindesk.com/policy/2026/03/02/u-s-senate-housing-bill-includes-cbdc-ban",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T05:04:01.443Z"
-    },
-    {
-      "id": "ps-1772513231252-d9hq",
-      "slug": "unified-analytical-solution-derived-for-photoacoustic-wave-s",
-      "headline": "Unified Analytical Solution Derived for Photoacoustic Wave Sources",
-      "subheadline": "Researchers present a general mathematical framework covering arbitrary spherically symmetric pressure distributions in photoacoustic imaging",
-      "body": "A team of researchers has derived a comprehensive analytical solution for the acoustic pressure waves generated by spherically symmetric photoacoustic sources, providing what they describe as a unified framework applicable to any initial pressure distribution of this geometry. The work, posted to the arXiv preprint server on January 12, could streamline the design and signal analysis of photoacoustic imaging systems used in biomedical diagnostics and materials characterization.\n\nPhotoacoustic imaging — a hybrid technique that combines laser excitation with ultrasound detection — has become increasingly important in medical imaging, where it can visualize blood vessels, tumors, and other tissue structures with high contrast and resolution. When a short laser pulse strikes absorbing tissue, it generates a rapid thermal expansion that launches an acoustic pressure wave. Modeling how that wave propagates from a source of known shape is a fundamental computational problem in the field, and one that has typically been solved case by case for specific source geometries.\n\nShuang Li, Yibing Wang, Yu Zhang, and Changhui Li tackled this limitation by starting from the foundational photoacoustic wave equation and working through a full derivation that yields a single general expression for the spatiotemporal pressure field of any spherically symmetric source. From this master formula, the authors then extracted specific closed-form results for several distributions commonly encountered in practice: uniform spherical sources, Gaussian profiles, exponential distributions, and power-law distributions. They also developed far-field approximations suitable for detectors positioned at large distances relative to the source size.\n\nBeyond the theoretical contribution, the team has released open-source code on GitHub for what they call \"ultrafast forward simulation\" using their general analytical model. Such tools could prove valuable to experimentalists who need rapid, accurate predictions of photoacoustic signals without resorting to computationally expensive numerical solvers. Forward models of this kind are also essential building blocks for inverse problems — the reconstruction algorithms that turn raw acoustic measurements into images.\n\nThe paper, classified under optics and computer vision on arXiv, underscores a broader trend toward establishing rigorous analytical baselines in imaging physics. While numerical methods remain indispensable for complex, asymmetric geometries, closed-form solutions offer speed, transparency, and insight into how system parameters influence signal characteristics — advantages that are difficult to extract from simulation alone.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "photoacoustic imaging",
-        "analytical solutions",
-        "wave equation",
-        "optics",
-        "biomedical imaging"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1542324253-0cd254cee50c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8cGhvdG9hY291c3RpYyUyMGltYWdpbmclMjBhbmFseXRpY2FsJTIwc29sdXRpb25zfGVufDB8MHx8fDE3NzI0Mjc3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.23375",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T04:47:11.252Z"
     }
   ]
 }
