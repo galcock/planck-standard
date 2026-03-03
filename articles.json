@@ -1,34 +1,58 @@
 {
-  "lastUpdated": "2026-03-03T12:18:45.015Z",
+  "lastUpdated": "2026-03-03T12:34:11.727Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772540259891-e04b",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
-      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
-      "subheadline": "CASCADE uses physics-based advection rather than pixel-level guessing to sharpen coarse climate data for extreme weather events",
-      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in weather and climate modeling: how to add realistic fine-scale detail to coarse-resolution data without inventing features that violate the laws of physics.\n\nPresented in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — reframes the problem of spatial super-resolution as an explicit transport process. Rather than treating each pixel independently, as conventional image super-resolution methods do, the system reconstructs fine-grained atmospheric structure by moving coarse information along learned velocity fields using a technique called semi-Lagrangian warping. The approach mirrors a concept familiar to numerical weather prediction: the closure problem, in which atmospheric motion is decomposed into resolved large-scale flows and unresolved subgrid-scale components.\n\nThe distinction matters most for extreme weather events. Severe convective storms, for instance, feature rare, highly localized, and intense structures — the kind of features that standard AI upscaling methods tend to \"hallucinate,\" generating plausible-looking but physically impossible detail. CASCADE enforces mass and energy conservation and maintains temporal coherence, meaning its enhanced imagery evolves realistically from one time step to the next rather than producing frame-by-frame artifacts. An assimilation-style correction step ensures the high-resolution output remains consistent with the original low-resolution input, borrowing a page from data assimilation techniques used in operational forecasting.\n\nTested on the Storm Event Imagery for Deep Learning (SEVIR) radar dataset at 4x super-resolution of severe convective storms, CASCADE outperformed strong baselines across a suite of standard metrics, including peak signal-to-noise ratio, structural similarity, and critical success index — a threshold-based score particularly relevant for forecasting dangerous weather. The framework also produces interpretable diagnostic outputs, including visualizable velocity and correction fields, giving meteorologists insight into how the model arrives at its results.\n\nThe work addresses a growing need as climate models and weather forecasts increasingly rely on AI to bridge scale gaps. Global climate models typically operate at resolutions of tens of kilometers, far too coarse to capture the thunderstorms, atmospheric rivers, and ocean eddies that drive real-world impacts. By encoding the physics of advection directly into its architecture rather than hoping a neural network learns it implicitly, CASCADE offers a path toward downscaling that atmospheric scientists can trust — and, critically, verify.",
+      "id": "ps-1772541134335-6zwm",
+      "slug": "u-s-israel-strikes-kill-iran-s-supreme-leader-igniting-regio",
+      "headline": "U.S.-Israel Strikes Kill Iran's Supreme Leader, Igniting Regional War",
+      "subheadline": "Ayatollah Khamenei killed in Saturday offensive; Iran retaliates with missiles across Middle East as oil prices surge",
+      "body": "A sweeping U.S.-Israeli military campaign dubbed Operation Epic Fury has killed Iran's Supreme Leader Ayatollah Ali Khamenei and dozens of senior military and political figures, plunging the Middle East into its most dangerous escalation in decades. The conflict, which began Saturday with coordinated strikes on Tehran and military installations across Iran, has since expanded to involve Lebanon's Hezbollah and prompted retaliatory Iranian attacks on at least nine countries.\n\nKhamenei, who had led the Islamic Republic since 1989, was killed when his Tehran compound was destroyed in the opening wave of strikes. The Israel Defense Forces confirmed that Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh, and Islamic Revolutionary Guard Corps commander Gen Mohammad Pakpour were also among the dead. By Monday, the Iranian Red Crescent reported 555 people killed across 130 locations, including more than 150 — among them children — in a strike on a school in southern Iran near an IRGC base. The IRGC has named Ahmad Vahidi as its new commander-in-chief, and a transitional leadership council has been formed under President Masoud Pezeshkian.\n\nPresident Donald Trump framed the operation as a bid to permanently prevent Iran from obtaining nuclear weapons, warning Iranian armed forces to lay down their weapons or \"face certain death\" and urging the Iranian people to overthrow their government. Israeli Prime Minister Benjamin Netanyahu called the strikes an effort to \"remove the existential threat posed by the terrorist regime in Iran.\" By Monday, U.S. Central Command said it had sunk 11 Iranian naval vessels in the Gulf of Oman, effectively eliminating Iran's presence there, and had destroyed Iran's naval headquarters.\n\nIran's retaliation has been swift and far-reaching. The IRGC launched ballistic missiles and drones at Israel — killing nine people in a residential area of Beit Shemesh — and struck targets in Qatar, Bahrain, Kuwait, the United Arab Emirates, Jordan, Saudi Arabia, Oman, and a British military base in Cyprus. Civilian sites, including hotels in Dubai, were hit. Six U.S. service members have been killed and 18 seriously wounded, including two who died when an Iranian drone struck a tactical operations center in Kuwait. Three American jets were also downed over Kuwait in an apparent friendly-fire incident. Hezbollah opened a new front Monday by launching rockets into Israel from Lebanon, prompting IDF strikes on Beirut and southern Lebanon that killed dozens.\n\nThe economic fallout is accelerating. Qatar halted liquefied natural gas production after Iranian attacks, triggering a 50 percent spike in gas prices. Saudi Arabia's Ras Tanura refinery was partially shut down after a drone strike. Iran warned vessels to avoid the Strait of Hormuz, through which roughly 20 percent of the world's oil and gas transits, and Brent crude briefly surged to $82 per barrel after at least three ships were attacked near the strait over the weekend. The U.S. State Department urged all American nationals to immediately depart from 16 countries across the Middle East, as the region braces for what analysts warn could be a prolonged and widening conflict.",
+      "category": "breaking",
+      "importance": 10,
+      "tags": [
+        "Iran",
+        "Israel",
+        "United States",
+        "Middle East war",
+        "Khamenei",
+        "Operation Epic Fury",
+        "oil prices",
+        "Hezbollah",
+        "military conflict"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-03T12:32:14.335Z"
+    },
+    {
+      "id": "ps-1772541158995-6tpb",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
+      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
+      "subheadline": "CASCADE uses advection-based approach to generate high-resolution storm data without 'hallucinating' false details",
+      "body": "A new machine learning framework called CASCADE reimagines how scientists enhance the resolution of weather and climate data, treating the problem not as image sharpening but as a physical transport process — and early results suggest it outperforms existing methods on severe storm radar data.\n\nIntroduced in a February 2026 preprint by researcher Alexander Kovalenko, CASCADE — which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — tackles a persistent challenge in atmospheric science: generating fine-grained weather data from coarser model outputs without violating fundamental physical laws like conservation of mass and energy. Traditional super-resolution techniques borrowed from computer vision can \"hallucinate\" small-scale features that look realistic but are physically impossible, a particularly dangerous failure mode when tracking severe weather events where localized, high-intensity features drive real-world impacts.\n\nThe key innovation lies in how CASCADE constructs fine-scale detail. Rather than learning to fill in missing pixels independently, the system iteratively moves coarse-resolution information along learned velocity fields using a technique called semi-Lagrangian warping — essentially simulating the physical advection that governs how atmospheric structures actually evolve and propagate across scales. The architecture explicitly separates motion into large-scale resolved components and unresolved subgrid components, mirroring the mathematical closure problem that has long challenged numerical weather prediction. An assimilation-style correction step, inspired by data assimilation methods used in operational forecasting, ensures the high-resolution output remains consistent with the original low-resolution input.\n\nTested on the Storm Event Imagery dataset (SEVIR) for 4x super-resolution of severe convective storms, CASCADE beat strong baseline models across a comprehensive suite of metrics. It achieved superior scores on standard image quality measures including peak signal-to-noise ratio, structural similarity, and mean absolute error, while also excelling on meteorologically relevant threshold-based skill scores such as the Critical Success Index, Heidke Skill Score, and Probability of Detection — metrics that matter most for operational forecasting of hazardous weather. The framework also produces interpretable diagnostic outputs, including visualizable velocity and correction fields that allow scientists to understand what the model is doing rather than treating it as a black box.\n\nThe approach could have broad implications beyond radar data. Because CASCADE encodes advection as its fundamental operator, it is naturally suited to any geophysical application where fluid transport dominates — including ocean current modeling, pollution dispersion, and regional climate downscaling. As climate models increasingly need to bridge the gap between global-scale simulations and local impact assessments, physics-respecting downscaling tools may prove essential for translating coarse projections into actionable information.",
       "category": "physics",
       "importance": 5,
       "tags": [
         "machine learning",
-        "weather modeling",
+        "weather forecasting",
         "climate downscaling",
         "super-resolution",
         "atmospheric physics",
-        "extreme weather"
+        "severe storms"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1737911330147-461b33215deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwbW9kZWxpbmd8ZW58MHwwfHx8MTc3MjUzNjY0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1771012998159-749e638544cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwZm9yZWNhc3Rpbmd8ZW58MHwwfHx8MTc3MjU0MTE1OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T12:17:39.891Z"
+      "publishedAt": "2026-03-03T12:32:38.995Z"
     },
     {
-      "id": "ps-1772540279122-xxbx",
+      "id": "ps-1772541186548-8vhp",
       "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
       "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
       "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
-      "body": "Polyamines — natural molecules celebrated in the longevity supplement market for their ability to promote cellular cleanup and healthy aging — can also turbocharge cancer growth by activating a nearly identical but functionally distinct protein, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology: how spermidine and related polyamines can simultaneously appear to extend healthy lifespan while being consistently elevated in aggressive tumors. The answer, according to Associate Professor Kyohei Higashi and his team, lies in two proteins that share 84% of their amino acid sequence but carry out starkly different jobs. In normal tissues, polyamines activate a protein called eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and supports mitochondrial energy production. In cancerous tissues, however, polyamines instead boost production of a close cousin, eIF5A2, which hijacks the cell's translational machinery to accelerate tumor proliferation.\n\nThe researchers arrived at this conclusion through a large-scale proteomic analysis of human cancer cell lines, tracking changes across more than 6,700 proteins. After depleting polyamines from cancer cells and then restoring them with spermidine, the team found that the molecules primarily enhanced glycolysis — the rapid, oxygen-independent energy pathway favored by tumors — rather than the mitochondrial respiration associated with healthy aging. Polyamines also elevated levels of eIF5A2 and five ribosomal proteins linked to cancer severity, including RPS27A, RPL36AL, and RPL22L1. Crucially, the researchers identified the mechanism: a small regulatory RNA molecule called miR-6514-5p normally suppresses eIF5A2 production, but polyamines disrupt this molecular brake, allowing the cancer-associated protein to accumulate.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context is paramount — the same supplement molecule can yield protective or harmful effects depending on the state of the tissue it encounters.\n\nThe findings carry implications both for the booming polyamine supplement industry and for oncology. Higashi's team proposes that the interaction between eIF5A2 and ribosomes represents a selective therapeutic target: blocking eIF5A2 could theoretically slow cancer progression without undermining the beneficial anti-aging effects mediated by eIF5A1. For consumers of spermidine supplements, the results inject a note of caution, underscoring the need for further clinical investigation into the safety of polyamine supplementation, particularly in individuals with undetected or precancerous conditions. The study was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and the Cancer Research Institute at Kanazawa University.",
+      "body": "Polyamines — natural molecules celebrated in the longevity community for their ability to promote cellular cleanup and healthy aging — can also turbocharge cancer growth by activating a nearly identical but functionally distinct protein, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology: how the same class of compounds, particularly spermidine, can appear to extend lifespan in some contexts while consistently correlating with aggressive tumor growth in others. The answer, the researchers found, lies in two proteins that share 84% of their amino acid sequence but play dramatically different roles. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — a cellular recycling process that clears damaged components and supports mitochondrial energy production. In cancerous tissue, however, polyamines instead boost production of eIF5A2, a closely related protein that drives glycolysis and rapid cell proliferation.\n\nA team led by Associate Professor Kyohei Higashi used high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines to map these divergent pathways. By first depleting polyamine levels with a drug and then restoring them with spermidine, the researchers could directly measure their impact. The data showed that polyamines in cancer cells primarily enhance glycolysis — the quick-energy metabolic strategy favored by tumors — rather than the mitochondrial respiration associated with healthy aging. The team also identified five ribosomal proteins, including RPS 27A, RPL36AL, and RPL22L1, that polyamines upregulate in cancer cells, all of which are associated with disease severity.\n\nCritically, the researchers uncovered the mechanism that allows eIF5A2 to accumulate in cancer cells. Under normal conditions, a small regulatory RNA molecule called miR-6514-5p suppresses eIF5A2 production. Polyamines disrupt this molecular brake, unleashing the protein and enabling it to orchestrate a distinct cancer-promoting gene expression program at the translational level. \"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2 controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained.\n\nThe findings carry implications both for the booming market in polyamine-based anti-aging supplements and for oncology. The results suggest that individuals with undetected cancers or precancerous conditions could inadvertently fuel tumor growth by supplementing with spermidine. At the same time, eIF5A2 and its interaction with ribosomes emerge as a promising selective target for cancer therapy — one that could potentially be inhibited without disrupting the beneficial anti-aging functions of eIF5A1. The study was supported by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
       "category": "science",
       "importance": 7,
       "tags": [
@@ -37,12 +61,55 @@
         "cancer research",
         "anti-aging",
         "eIF5A2",
-        "longevity supplements"
+        "Tokyo University of Science"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T12:17:59.122Z"
+      "publishedAt": "2026-03-03T12:33:06.548Z"
+    },
+    {
+      "id": "ps-1772541222639-0k8x",
+      "slug": "cursor-hits-2-billion-in-annualized-revenue-as-ai-coding-rac",
+      "headline": "Cursor Hits $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The AI coding assistant doubled its revenue run rate in just three months, even as rivals chip away at individual users.",
+      "body": "Cursor, the AI-powered coding assistant, has crossed the $2 billion annualized revenue threshold, with its run rate doubling over the past three months, according to a report from Bloomberg. The milestone cements the four-year-old startup's position as one of the fastest-growing companies in the AI software development space — even as competitors mount increasingly aggressive challenges.\n\nThe revenue disclosure, first reported on March 2, appears strategically timed. In recent weeks, viral social media posts questioned whether Cursor's growth was losing steam, pointing to high-profile individual developers defecting to rival tools, most notably Anthropic's Claude Code. But the numbers tell a different story: Cursor has successfully pivoted its business model toward enterprise clients, which now represent roughly 60 percent of total revenue, according to Bloomberg's source. These large corporate buyers tend to be stickier and higher-spending than individual developers, providing a more durable revenue base.\n\nThe competitive landscape, however, is intensifying rapidly. Claude Code has gained traction among solo developers and smaller startups who find it more competitively priced, while OpenAI's Codex tool is also vying for market share. Other contenders — including Replit, Cognition, and Lovable — are staking out their own positions in what has become one of the hottest segments of the AI economy. The market for AI-assisted software development is expanding so quickly that multiple players can grow simultaneously, but the battle for developer loyalty is far from settled.\n\nCursor was founded in 2022 and last raised capital in November at a $29.3 billion valuation, securing a $2.3 billion funding round co-led by Accel and Coatue. At that valuation, the company trades at roughly 14.5 times its current annualized revenue — a premium multiple, but one that looks increasingly justified if its enterprise-driven growth trajectory holds. The company did not respond to requests for comment.\n\nThe broader narrative emerging from Cursor's numbers is one that investors are watching closely: in the AI tools market, the path to scale may run not through individual enthusiasts but through corporate procurement departments. If Cursor's enterprise pivot continues to pay off, the recent chatter about user defections may prove to be noise rather than signal.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "enterprise software",
+        "startup growth",
+        "Claude Code",
+        "vibe coding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T12:33:42.639Z"
+    },
+    {
+      "id": "ps-1772541240981-xcbn",
+      "slug": "global-bond-rally-unravels-as-middle-east-conflict-fuels-inf",
+      "headline": "Global Bond Rally Unravels as Middle East Conflict Fuels Inflation Fears",
+      "subheadline": "Investors flee fixed income as the US-Israeli military campaign against Iran threatens to reignite the price pressures markets thought were behind them",
+      "body": "A sharp selloff in global bond markets is underway as the escalating US-Israeli military conflict with Iran sends shockwaves through fixed-income portfolios, abruptly ending what had been the strongest start to a year for bonds since the pandemic era.\n\nThe reversal marks a dramatic shift in sentiment for investors who had spent early 2026 positioning for a benign inflation outlook and continued central bank easing. The military campaign against Iran — a major oil-producing nation and key player in Middle Eastern energy infrastructure — has revived fears that surging commodity prices could feed back into consumer inflation, undermining the case for further interest rate cuts by the Federal Reserve and other central banks. Oil markets have already priced in significant supply disruption risk, and bond traders are now recalibrating their expectations for how long elevated energy costs could persist.\n\nThe selloff has been broad-based, hitting sovereign debt across developed and emerging markets alike. Treasury yields have climbed as traders unwind bets on near-term rate reductions, while European government bonds have come under similar pressure amid concerns that the conflict could disrupt energy flows well beyond the Persian Gulf. For central bankers who had been cautiously guiding policy toward normalization, the geopolitical shock introduces a painful dilemma: tightening financial conditions risk slowing already fragile growth, while premature easing could entrench a new wave of inflation.\n\nThe bond market's vulnerability reflects the unusual concentration of risk that had built up during the early-year rally. With positioning heavily tilted toward duration — a bet that rates would continue falling — even a modest repricing of inflation expectations has amplified losses. Credit markets have also shown signs of stress, with spreads widening as investors reassess corporate earnings prospects in a higher-cost energy environment.\n\nAnalysts warn that the trajectory of the conflict will be the dominant driver of fixed-income markets in the weeks ahead. A prolonged campaign or further escalation involving Iran's energy infrastructure could push oil prices to levels that materially alter the inflation calculus for major economies. For now, the message from bond markets is clear: the geopolitical risk premium that had been largely absent from global fixed income is back, and investors are scrambling to adjust.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "bonds",
+        "inflation",
+        "Iran",
+        "Middle East",
+        "interest rates",
+        "oil prices",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1740645581653-068ad8fa2765?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxib25kcyUyMGluZmxhdGlvbnxlbnwwfDB8fHwxNzcyNTM1NzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-bonds-on-knife-edge-as-iran-war-revives-inflation-threat",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T12:34:00.981Z"
     },
     {
       "id": "ps-1772540324941-1c0m",
@@ -66,51 +133,6 @@
       "sourceUrl": "https://www.coindesk.com/daybook-us/2026/03/03/oil-shock-and-inflation-fears-drag-down-bitcoin",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T12:18:44.941Z"
-    },
-    {
-      "id": "ps-1772539331948-9459",
-      "slug": "u-s-israel-strikes-kill-iran-s-supreme-leader-igniting-regio",
-      "headline": "U.S.-Israel Strikes Kill Iran's Supreme Leader, Igniting Regional War",
-      "subheadline": "Operation Epic Fury has killed Ayatollah Khamenei and hundreds of others as Iran retaliates across the Middle East",
-      "body": "A massive joint U.S.-Israeli military operation launched Saturday has killed Iran's Supreme Leader Ayatollah Ali Khamenei and dozens of senior military and political figures, triggering a rapidly escalating regional conflict that has spread to at least a dozen countries and sent global energy markets into turmoil.\n\nThe operation, which Washington has dubbed \"Operation Epic Fury,\" targeted Iran's missile infrastructure, military installations, and leadership compounds. Khamenei, who had ruled Iran since 1989, was killed when strikes flattened his Tehran compound during the initial wave. The Israel Defense Forces confirmed that Defence Council secretary Ali Shamkhani, Defence Minister Brig Gen Aziz Nasirzadeh, and Islamic Revolutionary Guard Corps commander Gen Mohammad Pakpour were also among the dead. As of Monday, Iran's Red Crescent reported 555 fatalities across 130 locations, including more than 150 people killed in a strike on a school in southern Iran near an IRGC base. The IRGC has named Ahmad Vahidi as its new commander-in-chief, and a transitional leadership council — comprising President Masoud Pezeshkian, judiciary chief Gholamhossein Mohseni Ejei, and a senior cleric — has been formed to govern temporarily.\n\nIran responded with a broad retaliatory campaign, launching ballistic missiles and drones at Israel, Gulf states hosting U.S. military bases, and a British military installation in Cyprus. Nine people were killed in a strike on the Israeli city of Beit Shemesh. Qatar, Bahrain, Kuwait, the UAE, Jordan, Saudi Arabia, and Oman all came under fire, with civilian sites including hotels in Dubai struck alongside military targets. Six U.S. service members have been killed and 18 seriously wounded, including casualties from what the Pentagon described as a friendly fire incident over Kuwait in which three American jets were shot down. The U.S. State Department issued urgent departure orders for American nationals across 16 countries in the region. On Monday, Lebanon's Hezbollah opened a new front by launching rockets into Israel, prompting Israeli strikes on Beirut and southern Lebanon.\n\nPresident Donald Trump, who framed the operation as necessary to prevent Iran from acquiring nuclear weapons, called on the Iranian people to overthrow their government. \"When we are finished, take over your government. It will be yours to take,\" he said in a video posted to Truth Social. Israeli Prime Minister Benjamin Netanyahu described the strikes as an effort to \"remove the existential threat posed by the terrorist regime in Iran.\" U.S. Central Command reported sinking 11 Iranian ships in the Gulf of Oman on Monday, effectively eliminating Iran's naval presence in the area. Iran's internet connectivity has been almost entirely severed and its airspace closed.\n\nThe economic fallout has been immediate and severe. Qatar halted liquefied natural gas production following Iranian attacks, triggering a 50% spike in gas prices. An Iranian drone strike partially shut down Saudi Arabia's Ras Tanura refinery. Iran warned all vessels away from the Strait of Hormuz, through which roughly 20% of the world's oil and gas transits. Brent crude briefly surged to $82 per barrel on Monday after at least three ships were attacked near the strait. With no ceasefire in sight and the conflict drawing in new parties by the day, the trajectory of the war — and its toll on the global economy — remains deeply uncertain.",
-      "category": "breaking",
-      "importance": 10,
-      "tags": [
-        "Iran",
-        "US-Israel strikes",
-        "Khamenei",
-        "Middle East war",
-        "Operation Epic Fury",
-        "oil prices",
-        "Hezbollah",
-        "Gulf states"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/eb4d/live/57511b80-163f-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T12:02:11.948Z"
-    },
-    {
-      "id": "ps-1772539392621-0bac",
-      "slug": "cursor-hits-2-billion-in-annualized-revenue-as-ai-coding-rac",
-      "headline": "Cursor Hits $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
-      "subheadline": "The four-year-old startup doubled its revenue run rate in just three months, even as rivals chip away at its user base.",
-      "body": "Cursor, the AI-powered coding assistant, has crossed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores both the explosive growth of AI development tools and the intensifying competition to dominate the space.\n\nThe company's revenue run rate reportedly doubled over the past three months, a staggering pace of growth for a startup founded just four years ago. The disclosure, first reported on March 2, appears strategically timed to push back against a recent wave of skepticism on social media, where viral posts questioned whether Cursor was losing ground to rivals. Several prominent individual developers had publicly announced switching to competing products, most notably Anthropic's Claude Code.\n\nCursor's response to that narrative is embedded in the revenue numbers themselves — and in a notable strategic pivot. While the company initially built its business selling to individual software developers, it has over the past year shifted its focus toward enterprise customers. Large corporate buyers now account for roughly 60 percent of Cursor's revenue, according to Bloomberg. That transition may explain why high-profile defections by solo developers have had limited financial impact: enterprise clients tend to be stickier and spend significantly more per seat.\n\nStill, the competitive landscape is tightening. Anthropic's Claude Code has attracted developers seeking more aggressive pricing, while OpenAI's Codex tool is also vying for market share in AI-assisted software development. Other contenders include Replit, Cognition, and Lovable, each carving out niches in what has become one of the fastest-growing segments in enterprise software. The broader market for AI coding tools is widely expected to reach tens of billions of dollars in the coming years as software development workflows are fundamentally reshaped by generative AI.\n\nCursor was last valued at $29.3 billion following a $2.3 billion funding round in November, co-led by Accel and Coatue. At a $2 billion revenue run rate, the company is trading at roughly 15 times annualized revenue — a premium valuation, but one that looks more defensible given the pace of growth. The company did not comment on the latest revenue figures. Whether Cursor can sustain this trajectory will depend in large part on how well it deepens its enterprise relationships while fending off well-capitalized competitors backed by the two most powerful AI labs in the world.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "enterprise software",
-        "revenue growth",
-        "Anthropic",
-        "OpenAI",
-        "startups"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T12:03:12.621Z"
     },
     {
       "id": "ps-1772539426690-t7b1",
@@ -240,28 +262,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/03/03/tether-taps-deloitte-for-first-usat-reserve-report",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T11:18:23.490Z"
-    },
-    {
-      "id": "ps-1772535792701-j4oq",
-      "slug": "global-bond-rally-unravels-as-middle-east-conflict-fuels-inf",
-      "headline": "Global Bond Rally Unravels as Middle East Conflict Fuels Inflation Fears",
-      "subheadline": "Fixed-income markets surrender gains from their strongest start to a year since 2020 as the Iran conflict reshapes the inflation outlook",
-      "body": "Global bond markets are under significant pressure as the escalating military conflict between the United States and Israel on one side and Iran on the other reignites inflation fears that many investors had hoped were firmly in the rearview mirror.\n\nThe selloff marks a dramatic reversal for fixed-income assets, which had posted their best performance to start a year since the pandemic era. That rally, built on expectations of continued disinflation and eventual monetary easing, is now colliding with the geopolitical reality of a major conflict in one of the world's most critical energy-producing regions. The prospect of sustained disruption to oil supply chains and broader commodity markets has forced bond traders to reprice their assumptions about the path of consumer prices in the months ahead.\n\nThe Middle East conflict introduces a supply-side inflation shock that central banks are poorly equipped to address through conventional policy tools. Higher energy costs feed directly into transportation, manufacturing, and consumer goods prices, creating a dilemma for policymakers at the Federal Reserve, European Central Bank, and Bank of England who had been cautiously signaling that their inflation fights were nearing completion. A resurgence in price pressures would likely delay or reverse anticipated interest rate cuts, pushing bond yields higher and prices lower.\n\nFor investors who had positioned heavily in duration trades — betting that longer-dated bonds would rally as rates declined — the geopolitical escalation represents a painful unwinding. Sovereign debt across developed markets has come under selling pressure, with the repricing reflecting not only direct inflation risk from energy prices but also the fiscal implications of prolonged military engagement. Defense spending commitments and potential economic disruptions add further uncertainty to government borrowing trajectories.\n\nThe bond market turbulence underscores how quickly geopolitical risk can overwhelm macroeconomic fundamentals. Just weeks ago, the consensus view centered on a benign disinflationary glide path supporting fixed-income returns. Now, traders face a far more complex landscape in which conflict-driven commodity volatility, fiscal expansion, and central bank indecision could keep yields elevated well beyond what models suggested at the start of 2026.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bonds",
-        "inflation",
-        "Middle East conflict",
-        "Iran",
-        "interest rates",
-        "geopolitics",
-        "oil prices"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxib25kcyUyMGluZmxhdGlvbnxlbnwwfDB8fHwxNzcyNTM1NzkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-bonds-on-knife-edge-as-iran-war-revives-inflation-threat",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T11:03:12.701Z"
     },
     {
       "id": "ps-1772535807746-wrut",
