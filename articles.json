@@ -1,50 +1,135 @@
 {
-  "lastUpdated": "2026-03-03T16:33:37.435Z",
+  "lastUpdated": "2026-03-03T16:48:23.123Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772555533179-22n2",
-      "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
-      "headline": "U.S. and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury enters fourth day as Iran retaliates with attacks across the region and protests erupt in American cities",
-      "body": "The United States and Israel launched a devastating series of military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapid escalation that has plunged the Middle East into its most dangerous crisis in decades. The joint operation, dubbed Operation Epic Fury, has now entered its fourth day with no signs of abating.\n\nPresident Donald Trump, directing military operations from Palm Beach, Florida, announced the commencement of \"major combat operations\" against Iran, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from Washington indicate Trump is openly pursuing regime change in Tehran — a dramatic escalation that goes far beyond any previous U.S. military engagement with Iran. Video footage verified by the BBC and international news agencies shows massive explosions and widespread destruction across multiple Iranian cities, including the capital Tehran, where strikes hit residential neighborhoods and military installations alike.\n\nIran's state television confirmed the death of Khamenei, a moment that marks the elimination of the Islamic Republic's most powerful figure and commander-in-chief of its armed forces. The killing represents perhaps the most consequential targeted strike since the U.S. assassination of Iranian General Qasem Soleimani in January 2020 — but on an incomparably larger scale. Iran has responded with retaliatory attacks across the region, including strikes toward Israel that forced BBC journalists and civilians in Tel Aviv into bomb shelters.\n\nThe strikes have ignited fierce domestic opposition within the United States. Protesters rallied in cities across the country on Saturday, with additional demonstrations planned in the coming days. The public backlash echoes — and in some cases exceeds — the antiwar sentiment seen during previous Middle Eastern conflicts. The Pentagon has released its own video purporting to show precision strikes on military targets, though footage from Tehran neighborhoods suggests significant collateral damage.\n\nThe crisis unfolds against an already volatile geopolitical backdrop. The New START nuclear treaty between the United States and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. International analysts warn that the Iran conflict, combined with the collapse of nuclear arms control frameworks, represents a uniquely perilous moment in global security. The immediate question facing governments worldwide is whether the conflict can be contained or whether Iran's retaliatory strikes and the apparent U.S. pursuit of regime change will draw additional regional and global actors into a widening war.",
+      "id": "ps-1772556422299-r4xj",
+      "slug": "us-and-israel-strike-iran-killing-supreme-leader-khamenei",
+      "headline": "US and Israel Strike Iran, Killing Supreme Leader Khamenei",
+      "subheadline": "Operation Epic Fury enters fourth day as Iran retaliates with drone and missile attacks across the region",
+      "body": "The United States and Israel launched large-scale military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapidly escalating conflict now entering its fourth day.\n\nThe joint offensive, dubbed Operation Epic Fury, has hit targets across multiple Iranian cities, with verified footage from social media and official U.S. military sources showing widespread explosions and destruction. Iranian state television confirmed the death of the 85-year-old Supreme Leader, who had ruled the Islamic Republic since 1989. President Donald Trump announced the commencement of \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports indicate Trump is seeking regime change in Tehran.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian projectiles were launched toward the country. In a separate incident, an Iranian drone was filmed crashing in flames in Kuwait, underscoring the widening geographic footprint of the conflict. Footage from Tehran showed chaotic scenes in residential neighborhoods struck during the bombardment, raising immediate concerns about civilian casualties.\n\nThe escalation has sparked significant domestic opposition in the United States, with protesters rallying in cities across the country on Saturday against the strikes, and additional demonstrations planned. The military action comes at a fraught geopolitical moment — the New START nuclear treaty between the U.S. and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991, adding another layer of instability to an already volatile international landscape.\n\nAnalysts and diplomats are now grappling with the question of what comes next. The killing of Iran's Supreme Leader represents an unprecedented decapitation strike against the Islamic Republic's leadership structure, and the trajectory of the conflict — whether it remains a targeted campaign or broadens into a full-scale regional war — remains deeply uncertain. The BBC's chief international correspondent Lyse Doucet noted the immediate humanitarian and strategic impact of the strikes, while reporters in Washington described a public hungry for answers about the operation's scope and endgame.",
       "category": "breaking",
       "importance": 10,
       "tags": [
         "Iran",
-        "United States",
+        "US military strikes",
+        "Khamenei killed",
+        "Operation Epic Fury",
+        "Middle East conflict",
         "Israel",
-        "Khamenei",
-        "Middle East",
-        "Trump",
-        "military strikes",
-        "Operation Epic Fury"
+        "Trump"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T16:32:13.180Z"
+      "publishedAt": "2026-03-03T16:47:02.299Z"
     },
     {
-      "id": "ps-1772555549048-8wyq",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
-      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
-      "subheadline": "CASCADE uses advection-based approach to generate high-resolution weather data while conserving mass and energy",
-      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in climate and weather modeling: generating physically realistic high-resolution data from coarse-grained simulations without introducing artificial artifacts that could misrepresent extreme weather hazards.\n\nIntroduced in a paper posted to arXiv by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — takes a fundamentally different approach to the problem of spatial super-resolution in geophysical fields. Rather than using conventional neural networks that essentially guess at fine-scale details pixel by pixel, the framework treats downscaling as an explicit transport process. It reconstructs high-resolution structure by iteratively moving coarse information along learned velocity fields using semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The architecture separates motion into large-scale resolved components and unresolved subgrid components, directly mirroring the closure problem that has long challenged numerical weather prediction.\n\nThe distinction matters most for extreme events — severe storms, intense precipitation, rapid ocean dynamics — where conventional super-resolution methods can \"hallucinate\" fine-scale features that look plausible but violate physical constraints like conservation of mass and energy. Such phantom details could lead forecasters or automated systems to misjudge hazard severity. CASCADE addresses this by enforcing consistency with the original low-resolution data through what the authors describe as an assimilation-style innovation step, analogous to how operational weather centers blend observations with model forecasts.\n\nTested on the SEVIR radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed established baselines across a battery of standard metrics, including peak signal-to-noise ratio, structural similarity, and critical success index — a threshold-based skill score particularly relevant for detecting intense precipitation features. The framework also offers a practical advantage for operational use: its velocity and correction fields can be visualized directly, providing interpretable diagnostics that black-box deep learning models typically lack.\n\nThe work sits at the intersection of atmospheric physics and machine learning, fields that have seen explosive convergence in recent years as researchers seek alternatives to computationally expensive dynamical downscaling. By encoding advection as its fundamental operator rather than learning transport implicitly from data, CASCADE represents a physics-informed approach that could extend beyond weather to oceanographic and broader climate applications where advection-dominated dynamics govern fine-scale structure.",
+      "id": "ps-1772556440425-pqtc",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-a-physics-tra",
+      "headline": "New AI Framework Treats Weather Downscaling as a Physics Transport Problem",
+      "subheadline": "CASCADE replaces pixel-level guesswork with advection-based reconstruction for sharper, physically consistent storm imagery",
+      "body": "A new machine learning framework called CASCADE aims to solve one of meteorology's persistent computational headaches: generating high-resolution weather data from coarse model outputs without violating the laws of physics.\n\nIntroduced in a preprint by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — rethinks the problem of spatial super-resolution for geophysical fields. Instead of treating the task like upscaling a photograph, where neural networks often fabricate plausible-looking but physically meaningless detail, the framework explicitly models the movement of atmospheric features using learned velocity fields. Fine-scale structures are reconstructed by iteratively advecting coarse information through semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The result is output that conserves mass and energy while remaining temporally coherent — properties that standard image super-resolution methods routinely violate.\n\nThe architecture mirrors a concept familiar to numerical weather prediction specialists: the closure problem. CASCADE decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, then enforces consistency with the original low-resolution data through what the paper describes as an \"assimilation-style innovation step,\" analogous to how operational weather models blend observations with forecasts. This design means the system doesn't just produce sharp images — it produces sharp images that a physicist could trust.\n\nTested on the Storm EVent ImagRy (SEVIR) radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed established baselines across a battery of metrics. These included standard image quality measures like peak signal-to-noise ratio and structural similarity, as well as meteorologically critical threshold-based skill scores such as the Critical Success Index, Heidke Skill Score, and Probability of Detection — metrics that capture whether the model correctly identifies the location and intensity of extreme precipitation features. The framework also offers interpretability advantages: its velocity and correction fields can be directly visualized, giving forecasters insight into what the model is doing rather than treating it as a black box.\n\nThe work addresses a growing tension in atmospheric science between the demand for high-resolution climate and weather data and the enormous computational cost of running fine-mesh simulations. Statistical and machine learning downscaling methods have proliferated in recent years, but many struggle with extreme events — precisely the scenarios where accurate detail matters most. By encoding advection as the fundamental operator rather than leaving the network to discover transport physics implicitly, CASCADE targets the regime where conventional approaches are weakest: fast-moving, high-intensity atmospheric phenomena like severe thunderstorms.\n\nThe preprint, posted to arXiv on February 18, suggests the approach could extend beyond radar imagery to other advection-dominated problems in atmospheric and oceanic science, though validation on additional datasets and real-time forecasting pipelines remains to be demonstrated.",
       "category": "physics",
       "importance": 5,
       "tags": [
-        "machine-learning",
-        "climate-modeling",
-        "weather-forecasting",
+        "machine learning",
+        "weather forecasting",
+        "atmospheric physics",
         "super-resolution",
-        "atmospheric-physics",
-        "downscaling"
+        "climate downscaling",
+        "numerical weather prediction"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1651593266005-07d39ff920c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8bWFjaGluZS1sZWFybmluZyUyMGNsaW1hdGUtbW9kZWxpbmd8ZW58MHwwfHx8MTc3MjU1NTU0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705077296278-d82dd5c8662f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtYWNoaW5lJTIwbGVhcm5pbmclMjB3ZWF0aGVyJTIwZm9yZWNhc3Rpbmd8ZW58MHwwfHx8MTc3MjU0MTE1OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T16:32:29.048Z"
+      "publishedAt": "2026-03-03T16:47:20.425Z"
+    },
+    {
+      "id": "ps-1772556455359-t88p",
+      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
+      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times atmospheric, bolstering the case for interplanetary transfer of life",
+      "body": "A bacterium already famous for shrugging off extreme radiation has now demonstrated it can withstand the crushing forces of a simulated asteroid impact on Mars, according to a study published March 3 in PNAS Nexus. The finding lends significant experimental support to the hypothesis that microbial life could hitch a ride between planets aboard chunks of rock blasted into space by catastrophic collisions.\n\nResearchers Lily Zhao, K. T. Ramesh, and colleagues subjected samples of Deinococcus radiodurans — sometimes nicknamed \"Conan the Bacterium\" for its extraordinary resilience — to pressures reaching 3 gigapascals, roughly 30,000 times the atmospheric pressure at sea level. To replicate the conditions a microbe might experience during ejection from a planetary surface, the team sandwiched the bacteria between two steel plates and struck the assembly with a third plate, generating the kind of shock waves produced when a large asteroid slams into Mars.\n\nThe results were striking. Even at 2.4 GPa, where cell membranes began to rupture, approximately 60 percent of the microbes survived. Gene expression analysis revealed that surviving bacteria rapidly activated damage-repair pathways, effectively triaging their own cellular injuries in the aftermath of the shock event. The researchers attribute this hardiness in part to the unusual architecture of the organism's cell envelope, which appears to provide structural reinforcement under extreme compression.\n\nThe study builds on a body of prior research showing that D. radiodurans can tolerate radiation doses 28,000 times the lethal threshold for humans, as well as prolonged desiccation — conditions it would also face during an interplanetary journey through the vacuum of space. Taken together, the findings suggest the bacterium could plausibly survive every major phase of lithopanspermia: launch from one planet, transit through space, and potentially entry into another planet's atmosphere.\n\nCrater records on the Moon and Mars attest to the frequency of major impacts throughout solar system history, meaning opportunities for such biological transfer have been plentiful over billions of years. While the study does not prove that life has traveled between planets, it removes one of the key physical objections to the idea. If microorganisms can endure forces far more extreme than previously assumed, the barrier between a living planet and a barren neighbor may be thinner than scientists once believed.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "panspermia",
+        "astrobiology",
+        "Deinococcus radiodurans",
+        "Mars",
+        "asteroid impact",
+        "extremophiles"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T16:47:35.359Z"
+    },
+    {
+      "id": "ps-1772556469709-oi4p",
+      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
+      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The four-year-old startup's revenue run rate reportedly doubled in just three months, even as rivals chip away at its user base.",
+      "body": "Cursor, the AI-powered coding assistant, has surpassed $2 billion in annualized revenue, according to a report from Bloomberg citing a person familiar with the matter — a milestone that underscores the explosive growth of AI-assisted software development even as competition in the space intensifies.\n\nThe disclosure is particularly striking given the speed of Cursor's acceleration: the startup's revenue run rate reportedly doubled over the past three months alone. The timing of the leak appears deliberate, arriving on the heels of viral social media posts last week that questioned whether the company was losing momentum, pointing to high-profile individual developers defecting to rival tools such as Anthropic's Claude Code.\n\nFounded in 2022, Cursor initially built its business on individual developer subscriptions. But over the past year, the company has pivoted toward enterprise sales, with large corporate customers now accounting for roughly 60% of revenue, Bloomberg reported. That strategic shift may explain why anecdotal reports of user churn among solo developers and smaller startups have not materially dented the company's top line. Enterprise clients tend to be stickier and higher-spending, providing a more durable revenue base even as price-sensitive individual users explore alternatives.\n\nThe AI coding tools market is growing rapidly and attracting formidable competitors. Anthropic's Claude Code has gained traction among developers who view it as more competitively priced, while OpenAI's Codex is also vying for market share. Startups including Replit, Cognition, and Lovable round out an increasingly crowded field. The central question for all players is whether early adoption will translate into long-term retention as the tools converge in capability.\n\nCursor was last valued at $29.3 billion following a $2.3 billion funding round in November, co-led by Accel and Coatue. At a $2 billion revenue run rate, the company trades at roughly 15 times annualized revenue — a premium valuation, but one that looks more defensible if growth continues at its current pace. The company did not respond to requests for comment. For investors and the broader tech industry, Cursor's trajectory offers a real-time case study in how quickly AI-native products can scale — and how fierce the battle for developer wallets has become.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "annualized revenue",
+        "enterprise software",
+        "Anthropic",
+        "Claude Code",
+        "startup growth",
+        "vibe coding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T16:47:49.709Z"
+    },
+    {
+      "id": "ps-1772556485921-1ewp",
+      "slug": "middle-east-energy-infrastructure-hit-as-iran-conflict-enter",
+      "headline": "Middle East Energy Infrastructure Hit as Iran Conflict Enters Fourth Day",
+      "subheadline": "Escalating US-Israeli military campaign against Iran disrupts critical oil and gas flows across the Persian Gulf region",
+      "body": "Critical energy infrastructure across the Persian Gulf has sustained significant damage as the U.S.-Israeli military campaign against Iran stretched into its fourth day on Sunday, sending shockwaves through global energy markets and raising urgent questions about the security of the world's most important oil transit corridor.\n\nThe sprawling conflict, which has expanded well beyond initial strike targets, is now directly threatening the physical assets that underpin a substantial share of global crude supply. The Persian Gulf region accounts for roughly one-fifth of the world's oil production and is home to chokepoints — most notably the Strait of Hormuz — through which approximately 20 million barrels of oil pass daily. Any sustained disruption to these flows could trigger a supply crisis of a magnitude not seen in decades.\n\nDetails on the precise extent of infrastructure damage remain difficult to verify amid the fog of an active multifront conflict, but reports indicate that energy facilities, pipelines, and port operations across the region have been affected. The reverberations extend far beyond Iran's borders, with neighboring Gulf states facing collateral disruption to their own export capabilities. For oil-importing nations in Europe and Asia, the situation presents an immediate supply security challenge that strategic petroleum reserves were designed to address but may struggle to fully offset if hostilities persist.\n\nThe geopolitical calculus is equally fraught. Iran has long warned that any direct military confrontation would imperil energy shipments for the entire region — a threat that now appears to be materializing in real time. Allies and adversaries alike are watching closely to assess whether diplomatic offramps exist or whether the conflict is poised to deepen further, potentially drawing in additional state and non-state actors across the Middle East.\n\nGlobal crude benchmarks, which surged in the opening days of hostilities, are expected to face continued upward pressure when markets reopen. Analysts warn that even a partial and temporary closure of key export terminals could remove millions of barrels per day from the market, overwhelming existing spare capacity held by producers outside the conflict zone. Central banks and finance ministries in major economies are reportedly preparing contingency plans for an energy price shock that could reignite inflationary pressures worldwide.",
+      "category": "breaking",
+      "importance": 10,
+      "tags": [
+        "Iran war",
+        "Middle East conflict",
+        "oil prices",
+        "energy infrastructure",
+        "Persian Gulf",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1762945050745-2d1c4235e0a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxtaWRkbGUlMjBlYXN0JTIwZW5lcmd5fGVufDB8MHx8fDE3NzI1NTY0ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/iran-war-critical-middle-east-energy-assets-come-under-fire",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T16:48:05.921Z"
+    },
+    {
+      "id": "ps-1772556502980-88ve",
+      "slug": "bitcoin-holds-relative-ground-as-iran-war-triggers-global-ma",
+      "headline": "Bitcoin Holds Relative Ground as Iran War Triggers Global Market Rout",
+      "subheadline": "Cryptocurrency shows unexpected resilience at $68,000 while equities, precious metals, and crypto stocks all face heavy selling",
+      "body": "Bitcoin reclaimed $68,000 on Tuesday after briefly dipping near $66,000, showing unusual relative strength as a new Middle East war sent global equity and commodity markets into a sharp tailspin.\n\nThe divergence was striking. The Nasdaq fell 2.5% and the S&P 500 dropped 2.3% in mid-morning U.S. trading, while European bourses suffered even steeper losses — Italy's IBEX 35 plunged 5.2% and Germany's DAX shed 4.1%. Precious metals, which had rallied to historic highs in the weeks preceding the conflict, reversed violently: gold tumbled 4.3%, silver fell 7.5%, and platinum cratered 11.3%. West Texas Intermediate crude surged another 8% to $77 per barrel as supply fears intensified. Against that backdrop, bitcoin's roughly 1% decline over the prior 24 hours looked almost placid, and its 2% bounce from session lows suggested buyers were stepping in. Ether, Solana, and XRP followed a similar pattern, recovering from their worst intraday levels.\n\nThe resilience is notable given that crypto markets had already endured a punishing five-month decline heading into the conflict, with bitcoin trading nearly 50% below its all-time highs. That prior drawdown may have cleared out the leveraged positioning that typically amplifies sell-offs during geopolitical shocks. \"The absence of significant liquidations despite rising yields and geopolitical tensions suggests that positioning is adjusted compared to previous episodes,\" said James Butterfill, head of research at CoinShares. He noted that bitcoin, as one of the few liquid assets trading around the clock including weekends, has historically absorbed forced selling during risk-off events — but this time the price action was \"constructive.\"\n\nCrypto-adjacent equities told a different story. Coinbase shares fell 5%, Robinhood dropped 7%, and Strategy — the bitcoin treasury company formerly known as MicroStrategy — declined 4%. Stablecoin issuer Circle held up better, slipping roughly 1%. The gap between the token's performance and that of listed crypto companies underscored the sector's split personality: the underlying digital asset finding a floor while its publicly traded proxies tracked the broader equity rout.\n\nThe coming days will test whether bitcoin's relative composure is a durable shift in market structure or merely a temporary lag before the gravitational pull of risk aversion catches up. With oil prices surging, yields climbing, and geopolitical uncertainty intensifying, traders will be watching closely for any signs that the cryptocurrency's tentative stand gives way to renewed selling pressure.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran war",
+        "stock market selloff",
+        "crypto markets",
+        "geopolitical risk",
+        "safe haven"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T16:48:22.980Z"
     },
     {
       "id": "ps-1772555564192-5rta",
@@ -109,28 +194,6 @@
       "publishedAt": "2026-03-03T16:33:18.663Z"
     },
     {
-      "id": "ps-1772555617329-qf3g",
-      "slug": "bitcoin-holds-relative-ground-as-global-equities-crater-on-i",
-      "headline": "Bitcoin Holds Relative Ground as Global Equities Crater on Iran War",
-      "subheadline": "Crypto markets show surprising resilience even as the Nasdaq drops 2.5%, gold plunges 4.3%, and crude oil surges 8%",
-      "body": "Bitcoin reclaimed $68,000 on Tuesday after bouncing more than 2% off intraday lows, displaying unexpected resilience as a new Middle East war sent global equity and commodity markets into freefall. The largest cryptocurrency by market capitalization was down just 1% over 24 hours — a modest decline compared to the carnage across traditional asset classes.\n\nGlobal stock markets suffered steep losses as the reality of a widening Iran conflict set in, erasing Monday's tentative rally that now appears to have been a false signal. The Nasdaq Composite dropped 2.5% to session lows in midmorning U.S. trading, while the S&P 500 fell 2.3%. European bourses fared worse: Italy's IBEX 35 plummeted 5.2% and Germany's DAX shed 4.1%. Precious metals, which had surged to historic highs in anticipation of geopolitical instability, reversed sharply — gold fell 4.3%, silver 7.5%, and platinum 11.3%. West Texas Intermediate crude oil, by contrast, jumped another 8% to $77 per barrel as energy supply concerns intensified.\n\nCrypto's relative outperformance is notable given that bitcoin and other digital assets have already endured roughly five months of persistent declines, leaving them nearly 50% below all-time highs. Ether, Solana, and XRP all recovered meaningfully from their worst levels of the session, even as they remained in negative territory for the day. James Butterfill, head of research at CoinShares, pointed out that bitcoin's constructive price action during the weekend — when it is one of the few liquid assets still trading — suggests that investor positioning has already been substantially de-risked. \"The absence of significant liquidations despite rising yields and geopolitical tensions suggests that positioning is adjusted compared to previous episodes,\" Butterfill said.\n\nCrypto-adjacent equities, however, found no such footing. Robinhood shares dropped 7%, Coinbase fell 5%, and Michael Saylor's Strategy declined 4%. Stablecoin issuer Circle fared modestly better, slipping about 1%. The divergence between spot crypto and crypto stocks underscores a broader dynamic: tokens that trade around the clock had already priced in much of the geopolitical shock before U.S. equity markets opened, while publicly listed companies remain subject to the same indiscriminate selling pressure hitting the broader stock market.\n\nWhether bitcoin's relative stability marks the beginning of a genuine safe-haven narrative or simply reflects an already-depleted seller base remains an open question. Public bitcoin miners have been actively liquidating treasury holdings in recent weeks — with firms including Core Scientific, Riot Platforms, and Bitfarms accounting for the bulk of a 15,096 BTC reduction from peak holdings — as capital rotates toward AI infrastructure. That ongoing supply overhang, combined with the unpredictable trajectory of the Iran conflict, means crypto markets are far from out of the woods even as Tuesday's price action offers a glimmer of relative resilience.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran war",
-        "global markets",
-        "stock market selloff",
-        "crude oil",
-        "safe haven",
-        "geopolitical risk"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T16:33:37.329Z"
-    },
-    {
       "id": "ps-1772554642458-okwf",
       "slug": "rnns-outperform-transformers-for-composite-material-modeling",
       "headline": "RNNs Outperform Transformers for Composite Material Modeling, Study Finds",
@@ -171,28 +234,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-03-03T16:17:38.199Z"
-    },
-    {
-      "id": "ps-1772554672199-elfp",
-      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
-      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
-      "subheadline": "The AI coding assistant doubled its revenue run rate in just three months, even as rivals chip away at its developer base.",
-      "body": "Cursor, the AI-powered coding assistant built by four-year-old startup Anysphere, has surpassed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores the explosive commercial demand for tools that help software engineers write code faster with artificial intelligence.\n\nThe figure represents a doubling of Cursor's revenue run rate over the past three months alone, a pace of growth that would be remarkable even by the standards of the current AI boom. The timing of the disclosure appears deliberate: it follows a wave of social media skepticism last week, when viral posts questioned whether Cursor was losing momentum after several prominent individual developers publicly switched to competing tools, most notably Anthropic's Claude Code.\n\nThe company's response to that narrative is rooted in a strategic pivot that has reshaped its business. While Cursor originally built its user base among individual developers, it has spent the past year aggressively pursuing large enterprise customers. Corporate buyers now account for roughly 60 percent of the company's revenue, according to Bloomberg. Those accounts tend to be stickier and higher-spending than individual subscribers — meaning that even as some solo developers and smaller startups defect to Claude Code, which is perceived as more competitively priced, the financial impact may be muted by deepening enterprise relationships.\n\nThe AI-assisted coding market is growing rapidly and attracting formidable competition. Anthropic's Claude Code and OpenAI's Codex are both vying for market share, while startups such as Replit, Cognition, and Lovable are carving out their own niches. The sector has become a proving ground for whether generative AI can deliver measurable productivity gains in one of the economy's most valuable professional domains.\n\nCursor's revenue trajectory adds context to its last known valuation of $29.3 billion, set during a $2.3 billion funding round co-led by Accel and Coatue in November 2025. At a $2 billion annualized run rate, the company trades at roughly 15 times forward revenue — a premium multiple, but one that looks increasingly supported if the current growth pace holds. Cursor did not respond to requests for comment.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "Anysphere",
-        "annualized revenue",
-        "enterprise software",
-        "Claude Code",
-        "vibe coding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T16:17:52.199Z"
     },
     {
       "id": "ps-1772554687966-9xzm",
@@ -1037,48 +1078,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.23375",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T04:47:11.252Z"
-    },
-    {
-      "id": "ps-1772510577459-n4qy",
-      "slug": "strikes-on-iran-leave-damaged-buildings-in-tehran-as-trump-v",
-      "headline": "Strikes on Iran Leave Damaged Buildings in Tehran as Trump Vows Escalation",
-      "subheadline": "Footage from the Iranian capital shows destruction to structures and vehicles as rescue crews respond to latest attacks",
-      "body": "Footage emerging from Tehran reveals significant damage to buildings and vehicles in the Iranian capital following the latest round of strikes, as President Donald Trump pledged to do \"whatever it takes\" in the ongoing military conflict with Iran.\n\nRescue crews were seen operating on the ground in the aftermath, according to video reported by Bloomberg. The images underscore the escalating toll of the conflict on Iran's civilian infrastructure, with damaged structures visible across parts of the capital. The full extent of casualties and destruction from the most recent strikes remained unclear as emergency teams continued their response.\n\nTrump's open-ended commitment to the campaign marks a sharp rhetorical escalation, signaling that the United States is prepared to sustain or intensify military operations against Iranian targets for an indefinite period. The president's remarks offer no indication of a diplomatic off-ramp or conditions under which strikes might cease, raising concerns among international observers about the trajectory of the conflict.\n\nThe war with Iran represents one of the most consequential military engagements undertaken by the United States in the Middle East in years. The strikes on Tehran — a densely populated city of roughly nine million people — carry enormous geopolitical implications, potentially reshaping alliances across the region and rattling global energy markets given Iran's role as a major oil producer. Brent crude prices have remained elevated amid sustained uncertainty over the conflict's impact on supply routes through the Persian Gulf.\n\nAs the international community monitors the situation, questions mount over the conflict's broader humanitarian consequences and whether diplomatic channels might yet be activated to prevent further escalation. For now, the scenes from Tehran point to a war that shows no signs of abating.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "US military",
-        "Trump",
-        "Tehran",
-        "Middle East conflict",
-        "airstrikes"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1546373727-f803b7298d14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8SXJhbiUyMFVTJTIwbWlsaXRhcnl8ZW58MHwwfHx8MTc3MjUxMDU3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/damaged-buildings-vehicles-seen-after-strikes-on-iran-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T04:02:57.459Z"
-    },
-    {
-      "id": "ps-1772505144673-4wr1",
-      "slug": "physicists-achieve-record-light-intensities-by-taming-mirror",
-      "headline": "Physicists Achieve Record Light Intensities by Taming Mirror Vibrations",
-      "subheadline": "A UC Berkeley team surpasses 500 GW/cm² in a tabletop optical cavity, unlocking new possibilities for electron microscopy and molecular traps",
-      "body": "A team of physicists has demonstrated continuous-wave light intensities exceeding 500 gigawatts per square centimeter inside an open optical cavity — a record-setting achievement made possible by identifying and suppressing a fundamental instability that has long limited such systems.\n\nThe work, led by Lothar Maisenbacher, Amar Singh, I. M. Pope, and Holger Müller, addresses a persistent obstacle in high-numerical-aperture Fabry-Pérot cavities: the parametric oscillatory instability, in which vibrations within the cavity mirrors scatter photons from one optical mode into another, effectively capping the achievable intensity. The researchers traced the responsible mechanical modes to megahertz-frequency bulk acoustic vibrations inside the mirrors themselves and directly measured their quality factors — a quantity describing how long these vibrations ring before dissipating.\n\nArmed with that insight, the team pursued an elegantly direct solution: using mirrors with deliberately low mechanical quality factors, which damp the problematic acoustic modes before they can build up and destabilize the cavity. The approach allowed them to push past the 300 GW/cm² threshold that had defined the frontier for continuous-wave systems, reaching intensities above 500 GW/cm² in a free-space, open-access tabletop setup — no vacuum chamber or exotic infrastructure required.\n\nThe implications span multiple fields. Intensities at this scale are precisely what is needed to advance phase-contrast electron microscopy, a technique that could dramatically improve imaging of biological specimens and nanoscale materials by using intense standing light waves to modulate electron beams. The same capability opens the door to ultradeep optical dipole traps capable of confining molecules at microkelvin temperatures, a key requirement for precision measurements and quantum chemistry experiments. The fact that these intensities are achievable in a compact, open cavity rather than a sealed or cryogenic system significantly lowers the barrier to adoption.\n\nThe parametric oscillatory instability the team characterized is a cousin of phenomena well known in gravitational-wave detectors like LIGO, where similar radiation-pressure-driven instabilities threaten the stability of kilometer-scale interferometers. Observing and solving the problem in a centimeter-scale tabletop cavity represents a striking case of physics challenges recurring across vastly different scales.\n\nThe preprint, posted to arXiv on February 26, 2026, has not yet undergone peer review. The research sits at the intersection of optics and atomic physics, and the team's mirror-engineering strategy could prove broadly applicable to next-generation high-finesse cavity experiments worldwide.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "optical cavities",
-        "parametric instability",
-        "Fabry-Pérot",
-        "high-intensity optics",
-        "electron microscopy",
-        "atomic physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1632210381388-39309ba40dc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxvcHRpY2FsJTIwY2F2aXRpZXMlMjBwYXJhbWV0cmljJTIwaW5zdGFiaWxpdHl8ZW58MHwwfHx8MTc3MjUwNTE0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.23476",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T02:32:24.674Z"
     }
   ]
 }
