@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T16:03:27.457Z",
+  "lastUpdated": "2026-03-03T16:18:25.986Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772553725520-1wf7",
+      "id": "ps-1772554624784-w3e2",
       "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
       "headline": "U.S. and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury enters fourth day as Iran launches retaliatory attacks across the region and protests erupt in American cities",
-      "body": "The United States and Israel launched devastating strikes across Iran on Saturday that killed Supreme Leader Ayatollah Ali Khamenei, dramatically escalating a military confrontation now entering its fourth day. Footage verified by the BBC and international news agencies shows large explosions and widespread destruction in multiple Iranian cities, including Tehran, where chaotic scenes have unfolded in residential neighborhoods.\n\nPresident Donald Trump, directing operations from Palm Beach, Florida, announced the beginning of \"major combat operations\" against Iran, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" The campaign, designated Operation Epic Fury, represents the most significant U.S. military engagement in the Middle East in decades. Reports from the region indicate Trump is pursuing regime change as a strategic objective, a posture that marks a sharp departure from decades of American policy centered on containment and diplomacy.\n\nIran's state television confirmed Khamenei's death, a seismic development that removes the 85-year-old cleric who had served as the Islamic Republic's supreme authority since 1989. Iran has responded with a wave of retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a Tel Aviv bomb shelter as Iranian projectiles were launched toward the country, underscoring the expanding scope of the conflict.\n\nThe strikes have ignited fierce debate at home. Protesters rallied in cities across the United States on Saturday, with additional demonstrations planned in the coming days. Questions about the legal authority for the strikes, their strategic endgame, and the risk of a wider regional war dominated public discourse on the second day of the campaign. Veterans have also pushed back on some of the administration's characterizations of allied military contributions in past conflicts.\n\nThe crisis unfolds against an already volatile global security backdrop. The New START nuclear treaty between the United States and Russia has expired, leaving no limits on the two nations' nuclear arsenals for the first time since 1991. Analysts warn that a prolonged conflict with Iran could strain American military resources, roil global energy markets, and further destabilize a Middle East already fractured by years of proxy warfare. The immediate question facing Washington, Tehran, and capitals around the world is whether the conflict can be contained — or whether it will spiral into a broader war with consequences that extend far beyond the region.",
+      "subheadline": "Operation Epic Fury enters its fourth day as Iran retaliates with attacks across the region and protests erupt in U.S. cities",
+      "body": "The United States and Israel launched a devastating series of military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapidly escalating conflict now in its fourth day. The joint operation, dubbed \"Operation Epic Fury,\" has hit targets across multiple Iranian cities, with verified footage showing large explosions and widespread destruction throughout the country.\n\nPresident Donald Trump announced the commencement of \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from the White House indicate Trump is seeking regime change in Tehran, a dramatic escalation that marks the most significant U.S. military engagement in the Middle East in decades. Iran's state television confirmed the death of Khamenei, the 85-year-old cleric who had served as the country's supreme leader since 1989.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian missiles were launched toward Israeli territory, underscoring the direct threat to civilian populations on multiple fronts. Video from Tehran shows chaotic scenes in residential neighborhoods hit by strikes, raising immediate concerns about civilian casualties and the humanitarian toll of the expanding conflict.\n\nOn the home front, protests erupted across American cities on Saturday, with demonstrators rallying against the strikes and additional protests planned in the days ahead. The domestic opposition mirrors a divided public grappling with questions about the scope, legality, and endgame of the military campaign — questions the BBC reported Americans are increasingly raising as the operation enters its second full day of sustained bombardment.\n\nThe strikes represent a seismic shift in Middle East geopolitics, removing Iran's most powerful figure while leaving uncertain what governance structure might emerge in the aftermath. International observers and diplomatic analysts are warning that the conflict could draw in regional powers and reshape alliances across the Middle East, with no clear off-ramp yet visible. The situation remains fluid, with military operations continuing and the full scale of destruction still being assessed.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -16,14 +16,122 @@
         "Israel",
         "Khamenei",
         "Middle East",
-        "military strikes",
         "Trump",
-        "Operation Epic Fury"
+        "Operation Epic Fury",
+        "military strikes"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T16:02:05.520Z"
+      "publishedAt": "2026-03-03T16:17:04.784Z"
+    },
+    {
+      "id": "ps-1772554642458-okwf",
+      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
+      "headline": "RNNs Outperform Transformers for Composite Material Modeling, Study Finds",
+      "subheadline": "Transformers offer a 7x speed advantage at inference, but recurrent networks prove more accurate on small datasets and extrapolation tasks",
+      "body": "Recurrent neural networks maintain a significant accuracy edge over transformer models when predicting the behavior of complex composite materials, particularly in extrapolation scenarios and when training data is scarce, according to a new comparative study from researchers Petter Uvdal and Mohsen Mirkhalaf.\n\nThe study, published on the arXiv preprint server, systematically benchmarks the two dominant neural network architectures on the task of modeling short fiber reinforced composites (SFRCs) — materials widely used in automotive, aerospace, and consumer products. Full-field simulations of these composites are notoriously expensive because their mechanical response depends on loading history, a property known as path dependence. Both RNNs and transformers were trained to predict the homogenized response of representative volume elements (RVEs), essentially learning to approximate the bulk behavior of the composite from microscale simulations.\n\nThe researchers tuned both architectural hyperparameters — including the number of GRU layers, hidden size, attention heads, and encoder blocks — and training hyperparameters such as learning rate and batch size, all using Bayesian optimization to ensure a fair comparison. The results revealed a nuanced trade-off. On large datasets, transformer models remained competitive with RNNs in terms of prediction accuracy. But on smaller datasets, RNNs demonstrated clearly superior performance. The most striking divergence emerged in extrapolation tests, where models were asked to predict material behavior beyond the range of their training data. RNNs maintained their accuracy, while transformers performed poorly — a finding with significant implications for engineering applications where loading conditions may venture into untested regimes.\n\nTransformers did claim one decisive advantage: speed. At inference time, the transformer model completed predictions in approximately 0.5 milliseconds, compared to 3.5 milliseconds for the RNN — a sevenfold improvement. This speed advantage stems from the transformer's ability to process sequence elements in parallel rather than sequentially, a well-known architectural benefit that has driven the model's dominance in natural language processing and other domains.\n\nThe findings suggest that for multiscale materials modeling, the choice of neural network architecture should be guided by the specific constraints of the application. When abundant training data and fast inference are priorities, transformers present a compelling option. But when data is limited or the model must generalize beyond its training distribution — common scenarios in engineering practice — RNNs appear to be the more reliable surrogate. The study adds to a growing body of work questioning whether the transformer revolution that has swept fields like language modeling translates straightforwardly to all scientific computing domains.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1701522226776-030ffe5ed84d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T16:17:22.458Z"
+    },
+    {
+      "id": "ps-1772554658199-58gs",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers discover how polyamines activate different molecular pathways in healthy vs. cancerous cells",
+      "body": "Polyamines — natural molecules celebrated in the longevity supplement market for their ability to promote cellular cleanup and healthy aging — can also turbocharge tumor growth by activating a nearly identical but functionally distinct protein, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in cancer biology: how the same class of molecules, particularly spermidine, can appear to extend lifespan in some contexts while being consistently elevated in aggressive cancers. The answer, a team led by Associate Professor Kyohei Higashi found, lies in two proteins that share 84% of their amino acid sequence but serve radically different purposes. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and supports mitochondrial energy production. In cancerous tissue, however, polyamines instead boost production of eIF5A2, a closely related protein that drives rapid glycolysis and promotes the synthesis of ribosomal proteins linked to tumor severity.\n\nTo reach these conclusions, the researchers manipulated polyamine levels in human cancer cell lines, first depleting them with a drug and then restoring them with spermidine. Using high-resolution proteomic analysis spanning more than 6,700 proteins, they found that polyamines in cancer cells primarily enhanced glycolysis rather than mitochondrial respiration. The team also identified the molecular mechanism behind eIF5A2 overproduction: polyamines suppress a small regulatory RNA molecule called miR-6514-5p that normally acts as a brake on eIF5A2 synthesis. With that brake removed, cancer cells produce eIF5A2 in abundance, fueling proliferation.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context — whether tissue is healthy or malignant — fundamentally determines whether polyamines help or harm.\n\nThe findings carry implications both for cancer therapeutics and for the booming market in polyamine-based supplements. Targeting eIF5A2 specifically could theoretically slow tumor growth without disrupting the beneficial aging pathways mediated by eIF5A1, offering a selective approach to treatment. At the same time, the research raises cautionary questions about supplementing with spermidine or other polyamines in individuals who may harbor undetected cancers or precancerous tissue. The study was supported by the Japan Society for the Promotion of Science and the Cancer Research Institute at Kanazawa University.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "eIF5A2",
+        "longevity supplements"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T16:17:38.199Z"
+    },
+    {
+      "id": "ps-1772554672199-elfp",
+      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
+      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
+      "subheadline": "The AI coding assistant doubled its revenue run rate in just three months, even as rivals chip away at its developer base.",
+      "body": "Cursor, the AI-powered coding assistant built by four-year-old startup Anysphere, has surpassed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores the explosive commercial demand for tools that help software engineers write code faster with artificial intelligence.\n\nThe figure represents a doubling of Cursor's revenue run rate over the past three months alone, a pace of growth that would be remarkable even by the standards of the current AI boom. The timing of the disclosure appears deliberate: it follows a wave of social media skepticism last week, when viral posts questioned whether Cursor was losing momentum after several prominent individual developers publicly switched to competing tools, most notably Anthropic's Claude Code.\n\nThe company's response to that narrative is rooted in a strategic pivot that has reshaped its business. While Cursor originally built its user base among individual developers, it has spent the past year aggressively pursuing large enterprise customers. Corporate buyers now account for roughly 60 percent of the company's revenue, according to Bloomberg. Those accounts tend to be stickier and higher-spending than individual subscribers — meaning that even as some solo developers and smaller startups defect to Claude Code, which is perceived as more competitively priced, the financial impact may be muted by deepening enterprise relationships.\n\nThe AI-assisted coding market is growing rapidly and attracting formidable competition. Anthropic's Claude Code and OpenAI's Codex are both vying for market share, while startups such as Replit, Cognition, and Lovable are carving out their own niches. The sector has become a proving ground for whether generative AI can deliver measurable productivity gains in one of the economy's most valuable professional domains.\n\nCursor's revenue trajectory adds context to its last known valuation of $29.3 billion, set during a $2.3 billion funding round co-led by Accel and Coatue in November 2025. At a $2 billion annualized run rate, the company trades at roughly 15 times forward revenue — a premium multiple, but one that looks increasingly supported if the current growth pace holds. Cursor did not respond to requests for comment.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "Anysphere",
+        "annualized revenue",
+        "enterprise software",
+        "Claude Code",
+        "vibe coding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
+      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T16:17:52.199Z"
+    },
+    {
+      "id": "ps-1772554687966-9xzm",
+      "slug": "iraq-begins-shutting-major-oil-fields-as-hormuz-crisis-fills",
+      "headline": "Iraq Begins Shutting Major Oil Fields as Hormuz Crisis Fills Storage",
+      "subheadline": "Up to 3 million barrels per day of Iraqi output at risk of being shuttered if Strait of Hormuz blockage continues",
+      "body": "Iraq has begun curtailing oil production at its largest fields after storage capacity filled up amid the ongoing Strait of Hormuz crisis, a development that threatens to remove up to 3 million barrels per day from global supply if the disruption persists.\n\nThe shutdowns have started at Rumaila, Iraq's biggest producing field, according to people familiar with the operations. Rumaila alone typically produces more than 1.4 million barrels per day, making it one of the most significant single-field production centers in the world. With export routes through the Persian Gulf effectively choked off, crude has backed up into onshore storage facilities that are now approaching capacity, leaving Iraqi operators with little choice but to begin closing wells.\n\nThe potential loss of 3 million barrels per day — representing the vast majority of Iraq's total output of roughly 4.4 million barrels per day — would constitute one of the largest involuntary supply disruptions in modern oil market history. Iraq is OPEC's second-largest producer behind Saudi Arabia, and a prolonged shutdown of this magnitude would send shockwaves through global energy markets already rattled by the Hormuz standoff. The Strait of Hormuz, a narrow waterway between Iran and Oman, serves as the transit point for approximately 20 percent of the world's oil supply.\n\nUnlike Saudi Arabia, which has pipeline alternatives to bypass Hormuz through the Red Sea, Iraq's southern export infrastructure is almost entirely dependent on Gulf access through the Basra Oil Terminal and nearby facilities. Northern pipeline routes through Turkey have been largely offline due to separate disputes, leaving Baghdad with few viable alternatives for moving its crude to market.\n\nThe forced shutdowns underscore the cascading consequences of the Hormuz crisis beyond immediate shipping disruptions. Restarting large oil fields after extended shutdowns is a technically complex and time-consuming process, meaning the supply impact could linger well beyond any resolution of the maritime standoff. Energy analysts have warned that prolonged well shutdowns risk damaging reservoir pressure and long-term production capacity, potentially imposing lasting costs on Iraq's oil sector even after the crisis abates.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "Iraq",
+        "oil production",
+        "Strait of Hormuz",
+        "OPEC",
+        "energy crisis",
+        "Rumaila",
+        "oil supply"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1638215336407-65c507c8cb59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxJcmFxJTIwb2lsJTIwcHJvZHVjdGlvbnxlbnwwfDB8fHwxNzcyNTU0Njg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/iraq-starts-shutting-oil-output-at-rumaila-as-storage-fills-up",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T16:18:07.966Z"
+    },
+    {
+      "id": "ps-1772554705872-mwhn",
+      "slug": "bitcoin-holds-ground-near-68-000-as-global-markets-reel-from",
+      "headline": "Bitcoin Holds Ground Near $68,000 as Global Markets Reel From Iran War",
+      "subheadline": "Cryptocurrency shows rare relative strength while equities, precious metals, and crypto stocks all face heavy selling pressure",
+      "body": "Bitcoin climbed back to $68,000 on Tuesday after briefly dipping below $66,000, displaying unusual resilience as a new Middle East war sent global equity and commodity markets into a steep selloff. The cryptocurrency was down roughly 1% over 24 hours — a comparatively modest decline given the carnage across other asset classes.\n\nGlobal stock markets buckled under the weight of escalating conflict with Iran. The Nasdaq dropped 2.5% to session lows in midmorning U.S. trading, while the S&P 500 shed 2.3%. European bourses fared worse: Italy's IBEX 35 plunged 5.2% and Germany's DAX fell 4.1%. Monday's brief rally in equities, which initially greeted the weekend outbreak of hostilities, proved to be a false start. WTI crude oil surged another 8% to $77 per barrel, while precious metals — which had run to historic highs in the weeks preceding the conflict — reversed sharply. Gold fell 4.3%, silver dropped 7.5%, and platinum cratered 11.3%.\n\nCrypto markets, which had already suffered a punishing five-month decline, appeared to find a floor. Bitcoin recovered more than 2% from its intraday lows, and Ethereum, Solana, and XRP followed a similar pattern — each bouncing off session troughs despite remaining in negative territory for the day. The relative stability stood in contrast to crypto-related equities, which continued to hemorrhage value. Robinhood shares fell 7%, Coinbase dropped 5%, and Strategy (formerly MicroStrategy) and crypto platform Bullish each declined 4%. Stablecoin issuer Circle fared slightly better with a 1% dip.\n\nJames Butterfill, head of research at CoinShares, pointed to bitcoin's unique market structure as a possible explanation for the divergence. \"Historically, bitcoin, as the only liquid asset that also trades on weekends, has absorbed shocks during periods of forced risk reduction,\" Butterfill said. He noted that the absence of significant liquidations despite rising yields and geopolitical turmoil suggests that market positioning has been substantially adjusted compared to previous episodes of stress — a sign that leveraged excess may have already been wrung out during the preceding months of decline.\n\nThe picture remains precarious. Bitcoin is trading nearly 50% below its all-time highs, and public mining companies including Core Scientific, Riot Platforms, and Bitfarms have been actively selling treasury holdings to fund pivots toward artificial intelligence infrastructure. A strengthening U.S. dollar in the wake of the Iran escalation adds another headwind. Still, for a market that has spent months in retreat, Tuesday's price action offered a rare data point in favor of bitcoin's long-argued case as a non-correlated asset — or at least one whose worst selling may, for the moment, already be behind it.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran war",
+        "stock market selloff",
+        "crypto markets",
+        "geopolitical risk",
+        "crude oil",
+        "safe haven"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T16:18:25.872Z"
     },
     {
       "id": "ps-1772553742432-j2yr",
@@ -136,27 +244,6 @@
       "publishedAt": "2026-03-03T16:03:27.361Z"
     },
     {
-      "id": "ps-1772552841620-1t0q",
-      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
-      "headline": "RNNs Outperform Transformers for Composite Material Modeling Beyond Training Data",
-      "subheadline": "New study finds recurrent neural networks generalize better despite transformers' 7x speed advantage in simulating fiber-reinforced composites",
-      "body": "Transformer models may dominate natural language processing and image generation, but when it comes to predicting the behavior of advanced composite materials, older recurrent neural network architectures still hold a decisive edge — particularly when the models must extrapolate beyond their training data.\n\nA systematic comparison published on arXiv by Petter Uvdal and Mohsen Mirkhalaf pits transformer architectures against recurrent neural networks (RNNs) in the task of modeling short fiber reinforced composites (SFRCs), materials widely used in automotive and aerospace applications. The researchers trained both model types on sequences of homogenized stress-strain responses from representative volume elements — small simulated samples that capture the composite's microstructural behavior. Using Bayesian optimization to tune hyperparameters for both architectures, the study provides what the authors describe as the first systematic head-to-head evaluation of these approaches in path-dependent multiscale materials modeling.\n\nThe results reveal a nuanced tradeoff. Transformers proved competitive on accuracy when trained on large datasets and delivered inference speeds of 0.5 milliseconds per prediction — seven times faster than the RNN's 3.5 milliseconds. That speed advantage stems from transformers' inherent parallelism, a well-known architectural benefit. However, RNNs demonstrated superior accuracy on smaller datasets and, critically, maintained their predictive power in extrapolation regimes — scenarios where the loading conditions fall outside what the model encountered during training. The transformer model, by contrast, performed poorly under these same extrapolation conditions, a finding with significant practical implications.\n\nThe distinction matters because real-world engineering applications frequently require material models to make predictions in conditions that differ from their calibration data. A composite component in a vehicle crash simulation, for instance, may experience strain paths never seen during model training. The study suggests that for such safety-critical applications, the RNN's robustness to out-of-distribution inputs could outweigh the transformer's raw computational throughput.\n\nFull-field simulations of fiber-reinforced composites remain computationally expensive, making neural network surrogates an attractive alternative for multiscale modeling workflows. The findings offer materials scientists and engineers practical guidance: transformers may be preferable for high-throughput screening within well-characterized loading regimes, while RNNs — specifically gated recurrent unit variants — remain the safer choice when generalization to novel conditions is required. As data-driven methods become increasingly embedded in computational materials science, understanding these architectural tradeoffs will be essential for deploying surrogate models responsibly in engineering design.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1702664469080-ebd48fd8e9fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T15:47:21.620Z"
-    },
-    {
       "id": "ps-1772552871622-9id9",
       "slug": "apple-launches-m5-powered-macbook-air-and-pro-with-major-ai-",
       "headline": "Apple Launches M5-Powered MacBook Air and Pro With Major AI Focus",
@@ -218,27 +305,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-03T15:32:18.776Z"
-    },
-    {
-      "id": "ps-1772551972219-zcho",
-      "slug": "anti-aging-supplement-spermidine-may-fuel-cancer-growth-stud",
-      "headline": "Anti-Aging Supplement Spermidine May Fuel Cancer Growth, Study Finds",
-      "subheadline": "Japanese researchers reveal how polyamines activate different molecular pathways in healthy cells versus tumors",
-      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk: the same compounds that help healthy cells stay young appear to turbocharge cancer growth through a separate molecular pathway, according to new research from Tokyo University of Science.\n\nThe study, published in the Journal of Biological Chemistry, centers on polyamines — naturally occurring molecules found in every living cell, with spermidine being the most celebrated for its anti-aging potential. Polyamines have gained a devoted following in the wellness community for their ability to stimulate autophagy, the cellular housekeeping process that clears damaged components. But researchers have long been puzzled by an uncomfortable contradiction: tumors consistently show elevated polyamine levels, and those high concentrations correlate with aggressive cancer progression.\n\nA team led by Associate Professor Kyohei Higashi has now resolved that paradox. Using high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines, the researchers discovered that polyamines activate fundamentally different biological machinery depending on the cellular context. In healthy tissue, polyamines work through a protein called eIF5A1, which stimulates mitochondrial function via autophagy — the mechanism behind their anti-aging reputation. In cancer cells, however, polyamines instead boost production of a nearly identical protein called eIF5A2, which shares 84 percent of its amino acid sequence with eIF5A1 but drives glycolysis and rapid tumor proliferation. The team further identified that polyamines elevate eIF5A2 by suppressing a small regulatory RNA molecule, miR-6514-5p, which normally acts as a brake on eIF5A2 production.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The study also identified five ribosomal proteins — including RPS27A, RPL36AL, and RPL22L1 — that polyamines upregulate in cancer cells, all of which are associated with tumor severity.\n\nThe findings carry dual implications. For cancer therapeutics, eIF5A2 and its interaction with ribosomes represent a promising drug target that could potentially be inhibited without disrupting the beneficial eIF5A1 pathway. For the growing market of polyamine-based supplements, the results inject a note of serious caution. Individuals with undetected malignancies or elevated cancer risk could, in theory, be inadvertently feeding tumor growth. While the research does not establish that dietary spermidine supplementation causes cancer in humans, it provides a concrete molecular mechanism by which polyamines could promote malignancy — a finding that warrants further clinical investigation before these compounds are embraced as broadly safe longevity aids.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T15:32:52.219Z"
     },
     {
       "id": "ps-1772552002576-d1qt",
@@ -367,29 +433,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/uae-markets-to-resume-trading-march-4-after-iran-crisis-closure",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T14:48:21.414Z"
-    },
-    {
-      "id": "ps-1772548387463-xdqn",
-      "slug": "cursor-crosses-2-billion-in-annualized-revenue-as-ai-coding-",
-      "headline": "Cursor Crosses $2 Billion in Annualized Revenue as AI Coding Race Heats Up",
-      "subheadline": "The four-year-old startup's revenue run rate has doubled in just three months, even as rivals chip away at its user base.",
-      "body": "Cursor, the AI-powered coding assistant built by Anysphere, has surpassed $2 billion in annualized revenue, according to a report from Bloomberg — a milestone that underscores both the explosive demand for AI development tools and the intensifying competition to capture that market.\n\nThe figure is particularly striking given its trajectory: the startup's revenue run rate reportedly doubled over the past three months alone. The disclosure, sourced to a person familiar with the company's finances, appears strategically timed to push back against a wave of skepticism that swept social media last week. Viral posts from prominent developers questioned whether Cursor was losing momentum, pointing to high-profile defections to rival tools, most notably Anthropic's Claude Code.\n\nCursor's business model has undergone a significant shift since the company was founded in 2022. Originally built for individual developers, the product has increasingly targeted enterprise customers, who now account for roughly 60% of revenue. That pivot may explain the apparent contradiction between anecdotal reports of individual users switching away and the company's surging topline numbers. Corporate buyers tend to be stickier and higher-spending than solo developers, who are more price-sensitive and quicker to experiment with alternatives like Claude Code and OpenAI's Codex.\n\nThe AI-assisted software development market has become one of the most fiercely contested arenas in tech. Beyond the tools from Anthropic and OpenAI, startups including Replit, Cognition, and Lovable are all vying for developer mindshare. The category has attracted enormous venture capital interest, and Cursor sits at its apex in terms of valuation: the company was last valued at $29.3 billion following a $2.3 billion funding round co-led by Accel and Coatue in November 2025.\n\nAt a $2 billion revenue run rate, Cursor would rank among the fastest-growing software companies in history by this stage of its life, rivaling the early trajectories of generative AI peers like OpenAI itself. Whether the company can sustain that pace will depend on its ability to retain enterprise clients while fending off well-capitalized competitors — several of whom are backed by the same foundational AI models that Cursor relies on. The company did not respond to requests for comment.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Cursor",
-        "AI coding",
-        "Anysphere",
-        "enterprise software",
-        "startup revenue",
-        "vibe coding",
-        "Anthropic",
-        "OpenAI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/07/opengraph-image.png?w=1200",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/cursor-has-reportedly-surpassed-2b-in-annualized-revenue/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T14:33:07.463Z"
     },
     {
       "id": "ps-1772547487210-pjrx",
@@ -1037,51 +1080,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.23463",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T02:17:23.557Z"
-    },
-    {
-      "id": "ps-1772502468703-drh5",
-      "slug": "chatgpt-uninstalls-spike-295-as-users-revolt-over-pentagon-d",
-      "headline": "ChatGPT Uninstalls Spike 295% as Users Revolt Over Pentagon Deal",
-      "subheadline": "Anthropic's Claude surges to No. 1 on the App Store after refusing a similar defense partnership with the Trump administration",
-      "body": "OpenAI is facing a sharp consumer backlash over its partnership with the U.S. Department of Defense, with ChatGPT mobile app uninstalls surging 295% day-over-day on Saturday, February 28, according to data from market intelligence firm Sensor Tower.\n\nThe spike dwarfs the app's typical daily uninstall fluctuation of roughly 9% over the preceding 30 days. It came just hours after news broke that OpenAI had struck a deal with the defense department — now rebranded as the Department of War under the Trump administration. The fallout extended to ChatGPT's download numbers as well, which fell 13% day-over-day on Saturday and an additional 5% on Sunday, reversing a 14% growth trend observed on Friday before the partnership was announced. One-star reviews for ChatGPT on the App Store surged 775% on Saturday, with five-star reviews dropping by half during the same period.\n\nThe beneficiary of the exodus appears to be Anthropic, which publicly declined a similar defense department arrangement, citing concerns that its AI technology could be used to surveil American citizens or deployed in fully autonomous weapons systems. Downloads of Anthropic's Claude chatbot jumped 37% on Friday and 51% on Saturday, propelling the app to the No. 1 spot on the U.S. App Store — a leap of more than 20 positions in roughly a week. A separate analytics firm, Appfigures, confirmed that Claude's total daily U.S. downloads surpassed ChatGPT's for the first time on Saturday, estimating an even steeper 88% day-over-day increase. Claude has also claimed the top free iPhone app ranking in six countries outside the United States, including Canada, Germany, and Switzerland.\n\nA third data provider, Similarweb, noted that Claude's U.S. downloads over the past week were approximately 20 times their January levels, though it cautioned that factors beyond the defense controversy may have contributed to the surge. Still, the timing and magnitude of the shift across multiple independent trackers point to a clear pattern: a meaningful segment of consumers is voting with their phones on the question of AI's role in national defense.\n\nThe episode marks one of the most visible instances of consumer sentiment directly reshaping the competitive landscape in the AI chatbot market. For OpenAI, which has been aggressively pursuing government and enterprise contracts to diversify revenue, the backlash poses a reputational challenge at a moment when user loyalty is far from guaranteed. For Anthropic, the windfall underscores how positioning on ethical boundaries — once dismissed as a competitive disadvantage — can translate into tangible market gains.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "Anthropic",
-        "Claude",
-        "Department of Defense",
-        "AI ethics",
-        "app downloads"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/02/chatgpt-uninstalls-surged-by-295-after-dod-deal/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T01:47:48.703Z"
-    },
-    {
-      "id": "ps-1772501585724-w5vw",
-      "slug": "oil-markets-bet-on-short-iran-conflict-as-energy-crisis-loom",
-      "headline": "Oil Markets Bet on Short Iran Conflict as Energy Crisis Looms",
-      "subheadline": "Traders are pricing in a brief disruption from U.S.-Iran hostilities, but a prolonged conflict could roil global energy markets",
-      "body": "Oil markets have responded with surprising restraint to the escalating military confrontation between the United States and Iran, with traders largely pricing in expectations of a short-lived conflict. But energy analysts warn that a prolonged disruption to Iranian crude supplies could trigger turmoil across global commodity markets.\n\nThe relatively muted price surges suggest that market participants believe the hostilities launched by the Trump administration will remain contained in both scope and duration. Iran, an OPEC member that produces roughly 3 million barrels per day, represents a significant share of global oil supply. Any sustained interruption to those flows — or to shipping through the Strait of Hormuz, through which approximately one-fifth of the world's oil passes daily — would fundamentally alter the supply picture that has kept crude prices in check.\n\nThe stakes extend well beyond oil. Natural gas markets, petrochemical supply chains, and the broader macroeconomic outlook for energy-importing nations all hang in the balance. A drawn-out conflict could send shockwaves through equity and bond markets, reignite inflationary pressures that central banks have spent years trying to contain, and strain diplomatic relationships with allies who depend on stable Middle Eastern energy flows. European and Asian economies, which rely heavily on Gulf crude, would face the most acute exposure.\n\nFor now, the market's sanguine posture reflects a pattern familiar from past geopolitical flare-ups in the Middle East: an initial spike in risk premiums followed by a rapid normalization as traders bet that rational self-interest will prevent full-scale escalation. Spare production capacity held by Saudi Arabia and the United Arab Emirates provides some buffer, and U.S. shale producers could ramp up output over a period of months. But those cushions have limits, and they would be tested severely if Iranian barrels were removed from the market for an extended period.\n\nThe disconnect between the modest price reaction and the magnitude of the geopolitical risk has left some veteran energy traders uneasy. History suggests that markets tend to underprice tail risks in the early stages of military conflicts, only to reprice violently when supply disruptions materialize. Should the U.S.-Iran confrontation drag on or widen to involve proxy forces across the region, the current calm in energy markets could prove dangerously complacent.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil",
-        "Iran",
-        "energy markets",
-        "geopolitics",
-        "Trump",
-        "OPEC",
-        "crude oil",
-        "Middle East"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1661192422882-00ae1c92105f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxvaWwlMjBJcmFufGVufDB8MHx8fDE3NzI0NDY3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/features/2026-03-03/why-oil-price-surge-is-limited-after-trump-s-iran-strikes",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T01:33:05.724Z"
     }
   ]
 }
