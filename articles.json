@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-03T16:18:25.986Z",
+  "lastUpdated": "2026-03-03T16:33:37.435Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772554624784-w3e2",
+      "id": "ps-1772555533179-22n2",
       "slug": "u-s-and-israel-strike-iran-killing-supreme-leader-khamenei",
       "headline": "U.S. and Israel Strike Iran, Killing Supreme Leader Khamenei",
-      "subheadline": "Operation Epic Fury enters its fourth day as Iran retaliates with attacks across the region and protests erupt in U.S. cities",
-      "body": "The United States and Israel launched a devastating series of military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapidly escalating conflict now in its fourth day. The joint operation, dubbed \"Operation Epic Fury,\" has hit targets across multiple Iranian cities, with verified footage showing large explosions and widespread destruction throughout the country.\n\nPresident Donald Trump announced the commencement of \"major combat operations\" against Iran from his base in Palm Beach, Florida, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from the White House indicate Trump is seeking regime change in Tehran, a dramatic escalation that marks the most significant U.S. military engagement in the Middle East in decades. Iran's state television confirmed the death of Khamenei, the 85-year-old cleric who had served as the country's supreme leader since 1989.\n\nIran has responded with retaliatory strikes across the region, including attacks directed at Israel. BBC presenter Clive Myrie reported from inside a bomb shelter in Tel Aviv as Iranian missiles were launched toward Israeli territory, underscoring the direct threat to civilian populations on multiple fronts. Video from Tehran shows chaotic scenes in residential neighborhoods hit by strikes, raising immediate concerns about civilian casualties and the humanitarian toll of the expanding conflict.\n\nOn the home front, protests erupted across American cities on Saturday, with demonstrators rallying against the strikes and additional protests planned in the days ahead. The domestic opposition mirrors a divided public grappling with questions about the scope, legality, and endgame of the military campaign — questions the BBC reported Americans are increasingly raising as the operation enters its second full day of sustained bombardment.\n\nThe strikes represent a seismic shift in Middle East geopolitics, removing Iran's most powerful figure while leaving uncertain what governance structure might emerge in the aftermath. International observers and diplomatic analysts are warning that the conflict could draw in regional powers and reshape alliances across the Middle East, with no clear off-ramp yet visible. The situation remains fluid, with military operations continuing and the full scale of destruction still being assessed.",
+      "subheadline": "Operation Epic Fury enters fourth day as Iran retaliates with attacks across the region and protests erupt in American cities",
+      "body": "The United States and Israel launched a devastating series of military strikes against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and triggering a rapid escalation that has plunged the Middle East into its most dangerous crisis in decades. The joint operation, dubbed Operation Epic Fury, has now entered its fourth day with no signs of abating.\n\nPresident Donald Trump, directing military operations from Palm Beach, Florida, announced the commencement of \"major combat operations\" against Iran, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" Reports from Washington indicate Trump is openly pursuing regime change in Tehran — a dramatic escalation that goes far beyond any previous U.S. military engagement with Iran. Video footage verified by the BBC and international news agencies shows massive explosions and widespread destruction across multiple Iranian cities, including the capital Tehran, where strikes hit residential neighborhoods and military installations alike.\n\nIran's state television confirmed the death of Khamenei, a moment that marks the elimination of the Islamic Republic's most powerful figure and commander-in-chief of its armed forces. The killing represents perhaps the most consequential targeted strike since the U.S. assassination of Iranian General Qasem Soleimani in January 2020 — but on an incomparably larger scale. Iran has responded with retaliatory attacks across the region, including strikes toward Israel that forced BBC journalists and civilians in Tel Aviv into bomb shelters.\n\nThe strikes have ignited fierce domestic opposition within the United States. Protesters rallied in cities across the country on Saturday, with additional demonstrations planned in the coming days. The public backlash echoes — and in some cases exceeds — the antiwar sentiment seen during previous Middle Eastern conflicts. The Pentagon has released its own video purporting to show precision strikes on military targets, though footage from Tehran neighborhoods suggests significant collateral damage.\n\nThe crisis unfolds against an already volatile geopolitical backdrop. The New START nuclear treaty between the United States and Russia has expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. International analysts warn that the Iran conflict, combined with the collapse of nuclear arms control frameworks, represents a uniquely perilous moment in global security. The immediate question facing governments worldwide is whether the conflict can be contained or whether Iran's retaliatory strikes and the apparent U.S. pursuit of regime change will draw additional regional and global actors into a widening war.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -17,13 +17,118 @@
         "Khamenei",
         "Middle East",
         "Trump",
-        "Operation Epic Fury",
-        "military strikes"
+        "military strikes",
+        "Operation Epic Fury"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1480/live/ae113e70-170f-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-03T16:17:04.784Z"
+      "publishedAt": "2026-03-03T16:32:13.180Z"
+    },
+    {
+      "id": "ps-1772555549048-8wyq",
+      "slug": "new-ai-framework-treats-weather-downscaling-as-physical-tran",
+      "headline": "New AI Framework Treats Weather Downscaling as Physical Transport",
+      "subheadline": "CASCADE uses advection-based approach to generate high-resolution weather data while conserving mass and energy",
+      "body": "A new machine learning framework called CASCADE aims to solve one of the persistent headaches in climate and weather modeling: generating physically realistic high-resolution data from coarse-grained simulations without introducing artificial artifacts that could misrepresent extreme weather hazards.\n\nIntroduced in a paper posted to arXiv by researcher Alexander Kovalenko, CASCADE — short for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution — takes a fundamentally different approach to the problem of spatial super-resolution in geophysical fields. Rather than using conventional neural networks that essentially guess at fine-scale details pixel by pixel, the framework treats downscaling as an explicit transport process. It reconstructs high-resolution structure by iteratively moving coarse information along learned velocity fields using semi-Lagrangian warping, a technique borrowed from computational fluid dynamics. The architecture separates motion into large-scale resolved components and unresolved subgrid components, directly mirroring the closure problem that has long challenged numerical weather prediction.\n\nThe distinction matters most for extreme events — severe storms, intense precipitation, rapid ocean dynamics — where conventional super-resolution methods can \"hallucinate\" fine-scale features that look plausible but violate physical constraints like conservation of mass and energy. Such phantom details could lead forecasters or automated systems to misjudge hazard severity. CASCADE addresses this by enforcing consistency with the original low-resolution data through what the authors describe as an assimilation-style innovation step, analogous to how operational weather centers blend observations with model forecasts.\n\nTested on the SEVIR radar dataset at 4x super-resolution for severe convective storms, CASCADE outperformed established baselines across a battery of standard metrics, including peak signal-to-noise ratio, structural similarity, and critical success index — a threshold-based skill score particularly relevant for detecting intense precipitation features. The framework also offers a practical advantage for operational use: its velocity and correction fields can be visualized directly, providing interpretable diagnostics that black-box deep learning models typically lack.\n\nThe work sits at the intersection of atmospheric physics and machine learning, fields that have seen explosive convergence in recent years as researchers seek alternatives to computationally expensive dynamical downscaling. By encoding advection as its fundamental operator rather than learning transport implicitly from data, CASCADE represents a physics-informed approach that could extend beyond weather to oceanographic and broader climate applications where advection-dominated dynamics govern fine-scale structure.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "climate-modeling",
+        "weather-forecasting",
+        "super-resolution",
+        "atmospheric-physics",
+        "downscaling"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1651593266005-07d39ff920c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8bWFjaGluZS1sZWFybmluZyUyMGNsaW1hdGUtbW9kZWxpbmd8ZW58MHwwfHx8MTc3MjU1NTU0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00109",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-03T16:32:29.048Z"
+    },
+    {
+      "id": "ps-1772555564192-5rta",
+      "slug": "earth-may-harbor-three-times-more-vertebrate-species-than-kn",
+      "headline": "Earth May Harbor Three Times More Vertebrate Species Than Known",
+      "subheadline": "A sweeping meta-analysis of over 300 studies finds two genetically distinct 'cryptic' species hiding behind every recognized one",
+      "body": "Global vertebrate biodiversity could be roughly triple current estimates, according to a landmark study published in Proceedings of the Royal Society B that systematically quantified the prevalence of cryptic species — organisms that are genetically distinct but visually indistinguishable from known species.\n\nThe research, led by graduate student Yinpeng Zhang and senior author John Wiens at the University of Arizona's Department of Ecology and Evolutionary Biology, synthesized findings from more than 300 published studies worldwide. Their conclusion: for every formally recognized species of fish, bird, mammal, reptile, or amphibian, approximately two additional species have been overlooked because they cannot be told apart by physical appearance alone. Many of these hidden lineages have been evolving independently for a million years or more, their divergence detectable only through DNA sequencing.\n\nThe consistency of the finding across all major vertebrate groups was what most surprised the researchers. Whether the organisms in question were tropical frogs, deep-sea fishes, or temperate songbirds, the ratio of roughly two cryptic species per known species held remarkably steady. A vivid illustration comes from Arizona itself: the state's mountain kingsnake, long considered a single species based on its distinctive red, black, and yellow-white banding, was split in 2011 into two species — Lampropeltis pyromelana in the north and Lampropeltis knoblochi in the south — after molecular analysis revealed deep genetic divergence despite near-identical markings.\n\nThe implications for conservation are sobering. When a single widespread species is reclassified into several cryptic species, each newly delineated population inherits a smaller geographic range, which is one of the strongest predictors of extinction risk. Yet very few of the cryptic species uncovered in hundreds of molecular studies have been formally described or named — a prerequisite for legal protection under frameworks such as the Endangered Species Act. Without official recognition, these organisms exist in a regulatory blind spot. There are also practical dangers: captive breeding and translocation programs could inadvertently cross-breed distinct species if cryptic diversity goes unrecognized, potentially undermining the very conservation efforts meant to save them.\n\nThe study does not claim that all cryptic species have been found. Rather, it establishes a statistical baseline that underscores how much biodiversity remains hidden. With roughly 74,000 vertebrate species currently recognized, the findings imply that the true number could approach 220,000. \"If we don't know a species exists, then we can't protect it,\" Wiens said — a straightforward message that carries increasingly urgent weight as habitat loss and climate change accelerate worldwide.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "biodiversity",
+        "cryptic species",
+        "vertebrates",
+        "DNA sequencing",
+        "conservation",
+        "taxonomy",
+        "extinction"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/lampropeltis-pyromelana.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-03T16:32:44.192Z"
+    },
+    {
+      "id": "ps-1772555579309-vzzr",
+      "slug": "apple-launches-m5-powered-macbook-air-and-pro-with-major-ai-",
+      "headline": "Apple Launches M5-Powered MacBook Air and Pro With Major AI Push",
+      "subheadline": "New chips deliver up to 4x faster AI performance, while storage doubles across the lineup starting at $1,099",
+      "body": "Apple on Tuesday unveiled refreshed MacBook Air and MacBook Pro laptops built around its new M5 family of chips, marking the company's most aggressive bet yet that on-device artificial intelligence will define the next era of personal computing.\n\nThe updated lineup spans four models — 13-inch and 15-inch MacBook Air configurations alongside 14-inch and 16-inch MacBook Pro variants — all engineered around what Apple calls its most advanced CPU cores to date. The headline claim: AI workloads run up to four times faster than on the M4 generation across both Air and Pro lines. For the Pro models, which ship with the new M5 Pro and M5 Max chips, large language model prompt processing is up to 4x faster than the M4 Pro and M4 Max, while AI image generation is up to 8x faster than the M1 Pro and M1 Max. Apple says the performance gains are sufficient for researchers and developers to train custom machine learning models locally, without relying on cloud infrastructure.\n\nBeyond raw AI throughput, Apple has made meaningful improvements to everyday specifications. The MacBook Air now starts with 512 GB of storage — double the previous base — and delivers 18 hours of battery life, a six-hour gain over the last Intel-based MacBooks from 2020. It retains a 12-megapixel Center Stage camera, a three-microphone array, Spatial Audio with Dolby Atmos support, two Thunderbolt 4 ports, MagSafe charging, and a 3.5mm headphone jack. The Air starts at $1,099 for the 13-inch model and $1,299 for the 15-inch, available in sky blue, midnight, starlight, and silver.\n\nThe MacBook Pro pushes further with Thunderbolt 5 connectivity, up to 2x faster read/write speeds, a six-speaker sound system, and up to 24 hours of battery life with fast charging to 50 percent in 30 minutes. Base storage starts at 1 TB for the M5 Pro configuration and 2 TB for the M5 Max. Pricing begins at $2,199 for the 14-inch M5 Pro model and scales to $3,899 for the 16-inch M5 Max, with black and silver as the only color options.\n\nPreorders open Tuesday, March 4, with general availability beginning Wednesday, March 11. While casual users may notice only incremental refinements, the M5 generation signals Apple's strategic conviction that the laptop — not just the data center — will be a primary venue for AI development and deployment in the years ahead.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Apple",
+        "MacBook",
+        "M5",
+        "artificial intelligence",
+        "laptops"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Apple-MacBook-Air-hero-260303_big.jpg.medium_2x.jpg?resize=1200,801",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-03T16:32:59.309Z"
+    },
+    {
+      "id": "ps-1772555598663-p3o6",
+      "slug": "warsh-faces-growing-obstacles-to-rate-cuts-before-even-takin",
+      "headline": "Warsh Faces Growing Obstacles to Rate Cuts Before Even Taking Fed Chair",
+      "subheadline": "Economic conditions and hawkish Fed colleagues are complicating Trump's expectations for lower interest rates",
+      "body": "Kevin Warsh, President Donald Trump's nominee to lead the Federal Reserve, is confronting an increasingly difficult landscape for delivering the interest-rate reductions the White House has repeatedly called for — and he has not yet even assumed the chairmanship.\n\nWith Warsh still months from officially taking the helm at the central bank, both macroeconomic conditions and the evolving stance of current Fed policymakers are tilting against the prospect of near-term rate cuts. The federal funds rate remains elevated after the Fed's aggressive tightening cycle, and persistent inflation pressures have made sitting officials reluctant to ease monetary policy. Several Federal Open Market Committee members have signaled in recent weeks that they see little urgency to lower borrowing costs, with some indicating that rates may need to stay higher for longer than markets had anticipated.\n\nThe challenge is both economic and institutional. On the economic front, labor market resilience, sticky services inflation, and uncertainty around the fiscal and trade policy outlook — including the effects of Trump administration tariffs — have muddied the case for easing. On the institutional side, Warsh will inherit a committee populated by officials who have demonstrated independence from White House pressure and are unlikely to shift course simply because of a leadership transition. The Fed chair wields significant agenda-setting power but cannot unilaterally dictate rate decisions, which are determined by majority vote.\n\nTrump has made no secret of his desire for lower rates, viewing them as essential to sustaining economic growth and supporting asset prices. Warsh, a former Fed governor during the 2008 financial crisis who has cultivated a reputation as a monetary policy hawk in the years since, faces the delicate task of navigating between presidential expectations and the data-dependent framework that the Fed has long championed. His credibility with markets and within the institution will depend heavily on whether he is perceived as an independent steward of monetary policy or an extension of White House economic priorities.\n\nThe widening gap between Trump's rate-cut ambitions and the economic reality awaiting Warsh underscores the tension that has defined much of the relationship between this administration and the central bank. For investors and businesses alike, the signal is clear: regardless of who occupies the Fed chair, the path to meaningfully lower interest rates remains uncertain and fraught with obstacles.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Federal Reserve",
+        "Kevin Warsh",
+        "interest rates",
+        "monetary policy",
+        "Trump administration"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1739722066892-d56460e27374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHx3YXJzaCUyMGZhY2VzJTIwZ3Jvd2luZ3xlbnwwfDB8fHwxNzcyNTU1NTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/even-before-he-reaches-the-fed-warsh-s-path-to-rate-cuts-is-getting-tougher",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-03T16:33:18.663Z"
+    },
+    {
+      "id": "ps-1772555617329-qf3g",
+      "slug": "bitcoin-holds-relative-ground-as-global-equities-crater-on-i",
+      "headline": "Bitcoin Holds Relative Ground as Global Equities Crater on Iran War",
+      "subheadline": "Crypto markets show surprising resilience even as the Nasdaq drops 2.5%, gold plunges 4.3%, and crude oil surges 8%",
+      "body": "Bitcoin reclaimed $68,000 on Tuesday after bouncing more than 2% off intraday lows, displaying unexpected resilience as a new Middle East war sent global equity and commodity markets into freefall. The largest cryptocurrency by market capitalization was down just 1% over 24 hours — a modest decline compared to the carnage across traditional asset classes.\n\nGlobal stock markets suffered steep losses as the reality of a widening Iran conflict set in, erasing Monday's tentative rally that now appears to have been a false signal. The Nasdaq Composite dropped 2.5% to session lows in midmorning U.S. trading, while the S&P 500 fell 2.3%. European bourses fared worse: Italy's IBEX 35 plummeted 5.2% and Germany's DAX shed 4.1%. Precious metals, which had surged to historic highs in anticipation of geopolitical instability, reversed sharply — gold fell 4.3%, silver 7.5%, and platinum 11.3%. West Texas Intermediate crude oil, by contrast, jumped another 8% to $77 per barrel as energy supply concerns intensified.\n\nCrypto's relative outperformance is notable given that bitcoin and other digital assets have already endured roughly five months of persistent declines, leaving them nearly 50% below all-time highs. Ether, Solana, and XRP all recovered meaningfully from their worst levels of the session, even as they remained in negative territory for the day. James Butterfill, head of research at CoinShares, pointed out that bitcoin's constructive price action during the weekend — when it is one of the few liquid assets still trading — suggests that investor positioning has already been substantially de-risked. \"The absence of significant liquidations despite rising yields and geopolitical tensions suggests that positioning is adjusted compared to previous episodes,\" Butterfill said.\n\nCrypto-adjacent equities, however, found no such footing. Robinhood shares dropped 7%, Coinbase fell 5%, and Michael Saylor's Strategy declined 4%. Stablecoin issuer Circle fared modestly better, slipping about 1%. The divergence between spot crypto and crypto stocks underscores a broader dynamic: tokens that trade around the clock had already priced in much of the geopolitical shock before U.S. equity markets opened, while publicly listed companies remain subject to the same indiscriminate selling pressure hitting the broader stock market.\n\nWhether bitcoin's relative stability marks the beginning of a genuine safe-haven narrative or simply reflects an already-depleted seller base remains an open question. Public bitcoin miners have been actively liquidating treasury holdings in recent weeks — with firms including Core Scientific, Riot Platforms, and Bitfarms accounting for the bulk of a 15,096 BTC reduction from peak holdings — as capital rotates toward AI infrastructure. That ongoing supply overhang, combined with the unpredictable trajectory of the Iran conflict, means crypto markets are far from out of the woods even as Tuesday's price action offers a glimmer of relative resilience.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran war",
+        "global markets",
+        "stock market selloff",
+        "crude oil",
+        "safe haven",
+        "geopolitical risk"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-03T16:33:37.329Z"
     },
     {
       "id": "ps-1772554642458-okwf",
@@ -112,28 +217,6 @@
       "publishedAt": "2026-03-03T16:18:07.966Z"
     },
     {
-      "id": "ps-1772554705872-mwhn",
-      "slug": "bitcoin-holds-ground-near-68-000-as-global-markets-reel-from",
-      "headline": "Bitcoin Holds Ground Near $68,000 as Global Markets Reel From Iran War",
-      "subheadline": "Cryptocurrency shows rare relative strength while equities, precious metals, and crypto stocks all face heavy selling pressure",
-      "body": "Bitcoin climbed back to $68,000 on Tuesday after briefly dipping below $66,000, displaying unusual resilience as a new Middle East war sent global equity and commodity markets into a steep selloff. The cryptocurrency was down roughly 1% over 24 hours — a comparatively modest decline given the carnage across other asset classes.\n\nGlobal stock markets buckled under the weight of escalating conflict with Iran. The Nasdaq dropped 2.5% to session lows in midmorning U.S. trading, while the S&P 500 shed 2.3%. European bourses fared worse: Italy's IBEX 35 plunged 5.2% and Germany's DAX fell 4.1%. Monday's brief rally in equities, which initially greeted the weekend outbreak of hostilities, proved to be a false start. WTI crude oil surged another 8% to $77 per barrel, while precious metals — which had run to historic highs in the weeks preceding the conflict — reversed sharply. Gold fell 4.3%, silver dropped 7.5%, and platinum cratered 11.3%.\n\nCrypto markets, which had already suffered a punishing five-month decline, appeared to find a floor. Bitcoin recovered more than 2% from its intraday lows, and Ethereum, Solana, and XRP followed a similar pattern — each bouncing off session troughs despite remaining in negative territory for the day. The relative stability stood in contrast to crypto-related equities, which continued to hemorrhage value. Robinhood shares fell 7%, Coinbase dropped 5%, and Strategy (formerly MicroStrategy) and crypto platform Bullish each declined 4%. Stablecoin issuer Circle fared slightly better with a 1% dip.\n\nJames Butterfill, head of research at CoinShares, pointed to bitcoin's unique market structure as a possible explanation for the divergence. \"Historically, bitcoin, as the only liquid asset that also trades on weekends, has absorbed shocks during periods of forced risk reduction,\" Butterfill said. He noted that the absence of significant liquidations despite rising yields and geopolitical turmoil suggests that market positioning has been substantially adjusted compared to previous episodes of stress — a sign that leveraged excess may have already been wrung out during the preceding months of decline.\n\nThe picture remains precarious. Bitcoin is trading nearly 50% below its all-time highs, and public mining companies including Core Scientific, Riot Platforms, and Bitfarms have been actively selling treasury holdings to fund pivots toward artificial intelligence infrastructure. A strengthening U.S. dollar in the wake of the Iran escalation adds another headwind. Still, for a market that has spent months in retreat, Tuesday's price action offered a rare data point in favor of bitcoin's long-argued case as a non-correlated asset — or at least one whose worst selling may, for the moment, already be behind it.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran war",
-        "stock market selloff",
-        "crypto markets",
-        "geopolitical risk",
-        "crude oil",
-        "safe haven"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/f4abc03e3b22e6867a5d7ef4ca855e84f39bc71c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/bitcoin-attempting-to-make-a-stand-as-global-stock-markets-melt-down-on-iran-war",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T16:18:25.872Z"
-    },
-    {
       "id": "ps-1772553742432-j2yr",
       "slug": "new-seismic-technique-revisits-2020-alleged-chinese-nuclear-",
       "headline": "New Seismic Technique Revisits 2020 Alleged Chinese Nuclear Test",
@@ -153,28 +236,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00094",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T16:02:22.432Z"
-    },
-    {
-      "id": "ps-1772553758078-arzg",
-      "slug": "earth-may-harbor-triple-the-vertebrate-species-previously-co",
-      "headline": "Earth May Harbor Triple the Vertebrate Species Previously Counted",
-      "subheadline": "A meta-analysis of over 300 studies finds that every known fish, bird, reptile, amphibian, and mammal species may conceal two genetically distinct 'cryptic' cousins.",
-      "body": "Global vertebrate biodiversity could be roughly three times greater than current catalogs suggest, according to a sweeping new study published in Proceedings of the Royal Society B. Researchers at the University of Arizona found that for every recognized species of fish, bird, mammal, reptile, or amphibian, an average of two additional \"cryptic\" species — genetically distinct yet visually nearly indistinguishable — remain hidden in plain sight.\n\nLed by graduate student Yinpeng Zhang and senior author John Wiens, a professor in the Department of Ecology and Evolutionary Biology, the team synthesized findings from more than 300 published studies spanning vertebrate groups worldwide. The pattern proved remarkably consistent: across all major lineages, morphologically defined species tended to conceal about two additional genetic lineages that have been evolving independently, in many cases for over a million years. \"Each species that you and I can see and recognize as distinct may actually be hiding two different species, on average,\" Wiens said.\n\nThe Arizona mountain kingsnake offers a vivid illustration. For decades it was classified as a single species statewide, its members sporting the same red, black, and yellow-white banding. Molecular analysis in 2011 revealed that northern and southern populations were genetically distinct, leading to the southern snakes being reclassified as Lampropeltis knoblochi while the northern population retained the name Lampropeltis pyromelana. Such cases, once considered curiosities, now appear to be the norm rather than the exception, thanks to rapidly falling DNA sequencing costs that make large-scale genetic comparison practical.\n\nThe conservation implications are significant. When a single widespread species is split into multiple cryptic species, each newly recognized lineage occupies a smaller geographic range — a factor strongly correlated with elevated extinction risk. Yet the vast majority of cryptic species uncovered in molecular studies have never been formally described or named, leaving them without the legal standing needed for habitat protections or recovery plans. Breeding programs that fail to account for hidden species boundaries could inadvertently hybridize distinct lineages, undermining the genetic integrity they aim to preserve.\n\nWiens framed the challenge in stark terms: \"If we don't know a species exists, then we can't protect it.\" The study calls for accelerated efforts to formally catalog cryptic diversity, arguing that taxonomy — often dismissed as an old-fashioned discipline — remains a frontline tool in the fight against biodiversity loss. With scientists currently recognizing roughly 76,000 vertebrate species, the findings imply that the true count could approach 230,000, a prospect that would fundamentally reshape conservation priorities and resource allocation worldwide.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "biodiversity",
-        "cryptic species",
-        "vertebrates",
-        "DNA sequencing",
-        "conservation",
-        "taxonomy",
-        "extinction risk"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/lampropeltis-pyromelana.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T16:02:38.078Z"
     },
     {
       "id": "ps-1772553774103-bbn5",
@@ -242,26 +303,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/end-of-bitcoin-hodl-public-miners-going-all-in-on-ai-signaling-more-btc-selling",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T16:03:27.361Z"
-    },
-    {
-      "id": "ps-1772552871622-9id9",
-      "slug": "apple-launches-m5-powered-macbook-air-and-pro-with-major-ai-",
-      "headline": "Apple Launches M5-Powered MacBook Air and Pro With Major AI Focus",
-      "subheadline": "New laptops promise up to 4x faster AI performance over M4 predecessors, with preorders starting March 4",
-      "body": "Apple on Tuesday unveiled refreshed MacBook Air and MacBook Pro lineups powered by its new M5 family of chips, marking the company's most aggressive push yet to position its laptops as machines built for the artificial intelligence era.\n\nThe updated models — spanning both the consumer-oriented Air and the professional-grade Pro — deliver up to four times faster AI task performance compared with their M4 predecessors, according to Apple. The MacBook Pro models arrive with the new M5 Pro and M5 Max chips, which the company calls its most advanced CPU cores to date. At the high end, the M5 Pro and M5 Max are up to four times faster at large language model prompt processing than the prior generation, and up to eight times faster at AI image generation compared with the M1 Pro and M1 Max chips from 2021. Apple says these gains make it feasible for AI researchers and developers to train custom models locally on the device — a notable capability for a laptop.\n\nThe MacBook Air sees meaningful upgrades beyond raw processing power. Battery life now reaches 18 hours, a six-hour improvement over the last Intel-based Apple laptops from 2020. The Air also doubles its base storage to 512 GB, and features a 12-megapixel Center Stage camera, a three-microphone array, Spatial Audio and Dolby Atmos support, two Thunderbolt 4 ports, and MagSafe charging. The 13-inch model starts at $1,099, while the 15-inch version begins at $1,299, available in sky blue, midnight, starlight, and silver.\n\nThe MacBook Pro pushes further into professional territory with up to 24 hours of battery life, Thunderbolt 5 connectivity, a six-speaker sound system, and significantly faster storage — up to twice the read/write speeds of the previous generation. Base storage starts at 1 TB for the M5 Pro configuration and 2 TB for the M5 Max. Pricing reflects the premium positioning: the 14-inch and 16-inch M5 Pro models start at $2,199 and $2,699 respectively, while the M5 Max variants begin at $3,599 and $3,899. Color options are limited to black and silver.\n\nAll new models open for preorder on March 4 and ship beginning March 11. The release underscores Apple's broader strategic bet that on-device AI processing — rather than cloud-dependent computation — will be the defining feature of the next generation of personal computing hardware.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Apple",
-        "MacBook",
-        "M5",
-        "artificial intelligence",
-        "laptops"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Apple-MacBook-Air-hero-260303_big.jpg.medium_2x.jpg?resize=1200,801",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/apple-unveils-new-macbook-air-and-macbook-pro-with-m5/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-03T15:47:51.622Z"
     },
     {
       "id": "ps-1772552885600-77kc",
@@ -368,27 +409,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-03/israel-strikes-hezbollah-targets-in-beirut-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T15:18:06.455Z"
-    },
-    {
-      "id": "ps-1772550154607-znv4",
-      "slug": "new-ai-framework-treats-weather-downscaling-as-a-transport-p",
-      "headline": "New AI Framework Treats Weather Downscaling as a Transport Problem",
-      "subheadline": "CASCADE uses physics-based advection rather than pixel-level hallucination to sharpen coarse climate data by 4x",
-      "body": "A new machine learning framework called CASCADE promises to improve how scientists enhance the resolution of weather and climate data by treating the problem as a physical transport process rather than a conventional image-sharpening task. The work, published on the arXiv preprint server by researcher Alexander Kovalenko, addresses a persistent challenge in atmospheric science: generating fine-scale detail from coarse model outputs without violating fundamental physical laws.\n\nTraditional super-resolution techniques, borrowed from computer vision, can produce visually appealing results but often \"hallucinate\" small-scale features that violate conservation of mass and energy — a particularly dangerous failure mode when forecasting severe weather events like convective storms. CASCADE, which stands for Cross-scale Advective Super-resolution with Climate Assimilation and Downscaling Evolution, takes a fundamentally different approach. Instead of learning to fill in high-resolution pixels independently, the framework reconstructs fine structure by iteratively moving coarse-scale information along learned velocity fields using semi-Lagrangian warping, a technique rooted in computational fluid dynamics.\n\nThe architecture explicitly decomposes atmospheric motion into resolved large-scale components and unresolved subgrid components, directly mirroring the closure problem that has long vexed numerical weather prediction. An assimilation-style correction step — analogous to data assimilation in operational forecasting — ensures that the super-resolved output remains consistent with the original low-resolution input. This design choice means the system's internal workings can be inspected through visualizable velocity and correction fields, offering a degree of interpretability rare among deep learning approaches.\n\nTested on the SEVIR radar dataset for 4x super-resolution of severe convective storms, CASCADE outperformed strong baseline methods across a comprehensive suite of metrics. These included standard continuous measures like peak signal-to-noise ratio and structural similarity, as well as threshold-based skill scores critical to operational meteorology — the critical success index, Heidke skill score, and probability of detection. The threshold-based scores are particularly significant because they measure how well the model captures the sharp gradients and localized intensity that define hazardous weather.\n\nThe implications extend beyond radar imagery. Because the framework encodes advection as its fundamental operator, Kovalenko argues it is well suited to any geophysical application where fluid transport dominates — including ocean current modeling and pollutant dispersion. If the approach scales to global climate downscaling, it could help bridge the resolution gap between coarse general circulation models and the fine-scale projections needed for regional climate adaptation planning, all while preserving the physical consistency that policymakers and engineers require.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "climate modeling",
-        "machine learning",
-        "weather forecasting",
-        "super-resolution",
-        "atmospheric science",
-        "numerical weather prediction"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1748364540655-9fa99b2ddea4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxjbGltYXRlJTIwbW9kZWxpbmclMjBtYWNoaW5lJTIwbGVhcm5pbmd8ZW58MHwwfHx8MTc3MjUxODYzOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00109",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T15:02:34.607Z"
     },
     {
       "id": "ps-1772550199530-w0qx",
@@ -1059,27 +1079,6 @@
       "sourceUrl": "https://arxiv.org/abs/2602.23476",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-03T02:32:24.674Z"
-    },
-    {
-      "id": "ps-1772504243557-8al0",
-      "slug": "massive-collaboration-maps-synthetic-data-s-role-in-mr-spect",
-      "headline": "Massive Collaboration Maps Synthetic Data's Role in MR Spectroscopy",
-      "subheadline": "A 78-author working group under the ISMRM reviews how simulated data is transforming brain chemistry research and clinical applications",
-      "body": "A sweeping review authored by more than 78 researchers across the magnetic resonance spectroscopy community has catalogued and evaluated the growing use of synthetic data in the field, marking one of the largest collaborative efforts to standardize practices around simulated datasets in medical physics.\n\nThe paper, published on the arXiv preprint server on February 26, was produced by the MRS Synthetic Data Working Group operating under the Code and Data Sharing Committee of the MRS Study Group of the International Society for Magnetic Resonance in Medicine (ISMRM). Led by John T. LaMaster, Aaron T. Gudmundson, and senior author Antonia Kaiser, the 20,000-word manuscript draws on existing literature as well as the collective experience and in-house methodologies of dozens of laboratories worldwide.\n\nMagnetic resonance spectroscopy allows researchers and clinicians to measure the chemical composition of living tissue — most commonly the brain — without invasive procedures. However, the field faces persistent challenges around limited training data, particularly for clinical populations with rare conditions. Synthetic data — computationally generated spectra that mimic real-world MRS signals — has emerged as a critical workaround, enabling researchers to train deep learning algorithms, validate analysis software, optimize acquisition protocols, and investigate sources of unexplained variance in patient data, all without requiring additional human subjects.\n\nThe review evaluates current practices across four major application areas: acquisition optimization, where synthetic spectra help researchers test pulse sequences before scanning patients; software validation, which relies on ground-truth synthetic data to benchmark quantification tools; deep learning, where synthetic datasets overcome the scarcity of labeled clinical training examples; and reproducibility, where standardized simulated data allows independent groups to compare results on common benchmarks. The authors note that synthetic data offers particularly controlled conditions for studying uncertainties that are difficult to isolate in living subjects.\n\nThe breadth of the authorship — spanning institutions across North America, Europe, and Asia — reflects the field's recognition that consensus standards for synthetic data generation are overdue. As MRS increasingly incorporates machine learning into clinical workflows, the quality and consistency of training data become decisive factors in whether automated tools can be trusted for patient care. The working group's review is expected to serve as both a reference document and a roadmap for researchers entering the field, establishing shared terminology and best practices that could accelerate the transition of MRS-based diagnostics from laboratory research into routine clinical use.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "magnetic resonance spectroscopy",
-        "synthetic data",
-        "medical physics",
-        "ISMRM",
-        "deep learning",
-        "neuroimaging"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1629406690411-780cfd787036?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxtYWduZXRpYyUyMHJlc29uYW5jZSUyMHNwZWN0cm9zY29weSUyMHN5bnRoZXRpYyUyMGRhdGF8ZW58MHwwfHx8MTc3MjQzMzE1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2602.23463",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-03T02:17:23.557Z"
     }
   ]
 }
