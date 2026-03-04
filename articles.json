@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-03-04T00:48:26.293Z",
+  "lastUpdated": "2026-03-04T01:03:28.418Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772585227463-alx7",
-      "slug": "iran-holds-mass-funerals-after-school-strike-kills-over-160",
-      "headline": "Iran Holds Mass Funerals After School Strike Kills Over 160",
-      "subheadline": "US denies deliberately targeting civilians as mourners bury students killed near military base in southern Iran",
-      "body": "Hundreds of mourners filled the streets of Minab in southern Iran on Monday as funerals were held for more than 160 people — many of them schoolgirls — killed when a girls' school was struck during the US-Israeli military campaign against Iranian targets over the weekend.\n\nIranian authorities say three missiles hit the school on Saturday morning, the first day of Iran's working week, when the building would have been full of students and staff. The school was located approximately 600 meters from an Islamic Revolutionary Guard Corps base, one of the military installations targeted in the broader wave of strikes against Iran's military sites and leadership. Flag-draped coffins, some child-sized, were carried through packed streets in scenes broadcast on Iranian state television.\n\nThe incident has become a flashpoint in the escalating conflict. Iranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page\" of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted images of graves being prepared for the dead, writing on social media: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The BBC has verified footage showing smoke rising from a damaged building as crowds gathered nearby amid screams of panic, though the network has not been able to independently confirm Iran's reported death toll.\n\nWhen pressed by the BBC on Monday about whether an American missile struck the school, US Secretary of State Marco Rubio said Washington \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure.\" He acknowledged he did not have details on what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, adding that \"the protection of civilians is of utmost importance.\" Israel's military said separately that it was \"not aware\" of any operations in the area.\n\nThe strike on the Minab school threatens to complicate Washington's diplomatic position as the broader military campaign against Iran continues. International news organizations have been largely unable to independently investigate conditions on the ground, as Iran routinely denies journalist visas, limiting outside verification of casualties and damage. The incident comes as Gulf states weigh their own responses to the escalating conflict and US citizens across the Middle East scramble to return home amid the widening hostilities.",
+      "id": "ps-1772586132289-dj9p",
+      "slug": "funerals-held-for-over-160-killed-in-reported-strike-on-iran",
+      "headline": "Funerals Held for Over 160 Killed in Reported Strike on Iranian School",
+      "subheadline": "Iran blames US-Israeli military operation for hitting girls' school near IRGC base; Washington says it would not deliberately target civilians",
+      "body": "Hundreds of mourners filled the streets of Minab in southern Iran on Monday as funerals were held for students and staff killed in what Iranian authorities say was a US-Israeli missile strike on a girls' school over the weekend. Iranian officials have reported more than 160 dead, a toll that has not been independently verified.\n\nThe school, located roughly 600 meters from an Islamic Revolutionary Guard Corps base, was reportedly struck by three missiles on Saturday morning during a wave of US and Israeli strikes targeting Iranian military installations and leadership. Because Iran's six-day working week begins on Saturday, the school was likely in session at the time of impact. Footage verified by the BBC showed smoke billowing from a building as crowds gathered and screams could be heard.\n\nIranian state television broadcast the funeral procession, showing flag-draped coffins — some child-sized — carried through packed streets. President Masoud Pezeshkian condemned the incident as a \"barbaric act\" and \"another black page\" in what he described as a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi shared images of graves being dug for 160 people, writing on social media: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nThe United States has stopped short of confirming or denying responsibility for the specific strike. When pressed by the BBC on Monday, Secretary of State Marco Rubio said Washington \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure,\" though he acknowledged he did not have details about what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously and that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the area.\n\nThe incident has become a flashpoint in the rapidly escalating conflict, with Gulf states weighing their response to the broader Iranian strikes and President Trump briefing Congress that it remains \"too early to tell\" the full scope of the military operation against Iran. International media access inside Iran remains severely restricted, complicating independent verification of casualty figures and the precise circumstances of the strike.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "US-Iran conflict",
+        "Israel",
         "Minab school strike",
         "civilian casualties",
         "Middle East"
@@ -20,28 +21,113 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T00:47:07.463Z"
+      "publishedAt": "2026-03-04T01:02:12.289Z"
     },
     {
-      "id": "ps-1772585244536-vu04",
-      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
-      "headline": "RNNs Outperform Transformers for Composite Material Modeling Beyond Training Data",
-      "subheadline": "New study finds recurrent networks extrapolate better despite transformers' 7x speed advantage in simulating fiber-reinforced composites",
-      "body": "Transformer architectures may dominate natural language processing and image generation, but when it comes to predicting the behavior of complex composite materials outside familiar conditions, older recurrent neural networks still hold a decisive edge, according to a new comparative study from researchers at the University of Gothenburg.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first systematic head-to-head comparison of transformer models and recurrent neural networks (RNNs) for modeling short fiber reinforced composites (SFRCs) — lightweight, high-strength materials widely used in automotive and aerospace applications. Full-field simulations of these composites are notoriously expensive because their mechanical response depends on loading history, requiring models to capture path-dependent behavior across representative volume elements. The researchers trained both architectures on sequences of homogenized stress-strain data and tuned hyperparameters using Bayesian optimization to ensure a fair comparison.\n\nThe results, posted to the arXiv preprint server, reveal a nuanced picture. Transformer models matched RNN accuracy on large datasets and delivered inference speeds seven times faster — just 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN. That speed advantage matters for multiscale simulations where surrogate models must be called millions of times. However, when asked to extrapolate beyond training conditions — a critical requirement for engineering applications where materials encounter unexpected loads — the transformer's performance degraded sharply while the RNN maintained its accuracy. RNNs also proved superior on smaller datasets, an important practical consideration given that generating high-fidelity simulation data is itself computationally expensive.\n\nThe findings highlight a tension at the heart of scientific machine learning. Transformers' parallel architecture makes them inherently faster and more scalable, qualities that have fueled their dominance across AI. But the attention mechanism that gives transformers their power may also make them more prone to overfitting to patterns in training data rather than learning the underlying physics of sequential, history-dependent processes — precisely the kind of problem that gated recurrent units were designed to handle.\n\nFor engineers and computational physicists building data-driven surrogates for multiscale material modeling, the study suggests that architecture selection should be driven by application requirements. When speed and large training sets are available, transformers are competitive. But for safety-critical applications requiring reliable predictions under novel conditions, recurrent networks remain the more trustworthy choice — a reminder that in scientific computing, the newest tool is not always the best one.",
+      "id": "ps-1772586148410-om3d",
+      "slug": "rnns-outperform-transformers-for-predicting-composite-materi",
+      "headline": "RNNs Outperform Transformers for Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks hold a decisive edge in extrapolation accuracy despite transformers' speed advantage",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the growing assumption that transformer architectures — the technology underpinning large language models — are universally superior across machine learning domains.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first rigorous head-to-head evaluation of the two neural network architectures for modeling short fiber reinforced composites (SFRCs), a class of materials widely used in automotive and aerospace engineering. Full-field simulations of these materials remain computationally expensive because their mechanical response depends on the entire history of deformation — a property known as path dependence. Surrogate models built on neural networks have emerged as a promising shortcut, but the question of which architecture performs best has remained open.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized stress-strain responses generated from representative volume elements of SFRCs. Both architectures were tuned using Bayesian optimization across architectural hyperparameters — including hidden layer size, number of attention heads, and encoder blocks — as well as training parameters such as learning rate and batch size. The results revealed a nuanced picture. Transformer models matched RNN accuracy on large interpolation datasets and proved dramatically faster at inference, completing predictions in 0.5 milliseconds compared to 3.5 milliseconds for the RNN — a sevenfold speed advantage. However, when pushed into extrapolation regimes, where the models must generalize beyond their training distribution, the RNN maintained its accuracy while the transformer's performance deteriorated sharply.\n\nThe extrapolation gap carries particular significance for engineering applications, where materials routinely encounter loading conditions not captured in training data. RNNs also demonstrated superior performance on smaller datasets, a practical consideration given the computational cost of generating high-fidelity simulation data for training. The study suggests that for path-dependent multiscale modeling — where sequential history matters — the inductive biases built into recurrent architectures provide meaningful advantages that raw scale and parallelization cannot easily overcome.\n\nThe paper, posted to the arXiv preprint server, spans computational physics, materials science, and machine learning. Its conclusions may temper enthusiasm for wholesale adoption of transformer architectures in computational mechanics while highlighting that architecture selection should be guided by the specific demands of the physical problem at hand.",
       "category": "physics",
       "importance": 5,
       "tags": [
-        "machine-learning",
-        "composite-materials",
+        "neural networks",
         "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
+        "composite materials",
+        "machine learning",
+        "computational physics",
+        "materials science"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1669124806301-6dfcfcd9cca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1649937801620-d31db7fb3ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bmV1cmFsJTIwbmV0d29ya3MlMjB0cmFuc2Zvcm1lcnN8ZW58MHwwfHx8MTc3MjU4NjE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00092",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-04T00:47:24.536Z"
+      "publishedAt": "2026-03-04T01:02:28.410Z"
+    },
+    {
+      "id": "ps-1772586163650-hbvc",
+      "slug": "jwst-discovers-most-distant-jellyfish-galaxy-ever-observed",
+      "headline": "JWST Discovers Most Distant Jellyfish Galaxy Ever Observed",
+      "subheadline": "The record-setting find suggests galaxy clusters were reshaping their members far earlier than astronomers believed",
+      "body": "Astronomers at the University of Waterloo have identified the most distant jellyfish galaxy ever detected, a discovery that challenges prevailing models of how quickly dense cosmic environments began transforming the galaxies within them. The finding, published in The Astrophysical Journal, is based on deep observations from the James Webb Space Telescope.\n\nThe galaxy, designated at a redshift of z = 1.156, is seen as it appeared roughly 8.5 billion years ago — when the universe was barely a third of its current age. Jellyfish galaxies earn their vivid nickname from long, trailing streams of gas that resemble tentacles, produced when a galaxy hurtles through the superheated gas permeating a galaxy cluster. The resulting drag, known as ram-pressure stripping, peels away a galaxy's own gas reserves and can stretch them into luminous ribbons studded with newborn stars.\n\nDr. Ian Roberts, a Banting Postdoctoral Fellow at the Waterloo Centre for Astrophysics, led the team that spotted the object while surveying the COSMOS field, a patch of sky chosen for its minimal interference from Milky Way foreground stars and dust. \"Early on in our search of the JWST data, we spotted a distant, undocumented jellyfish galaxy that sparked immediate interest,\" Roberts said. The galaxy itself has an otherwise ordinary disk shape, but bright blue clumps along its trailing gas streams reveal extremely young stars that likely formed outside the galaxy's main body — a hallmark signature of ram-pressure stripping in action.\n\nThe discovery carries significant theoretical weight. Many astrophysicists had assumed that galaxy clusters 8.5 billion years ago were still in the process of assembling, with conditions too mild to produce the violent stripping seen in the nearby universe. The new observation suggests that cluster environments were already harsh enough to aggressively strip member galaxies, potentially much earlier than current models predict. \"Galaxy clusters may strongly alter galaxy properties earlier than expected,\" Roberts noted, adding that this mechanism could help explain the large population of quenched, or \"dead,\" galaxies found in present-day clusters — systems that long ago exhausted or lost their star-forming fuel.\n\nIf future observations confirm the result, it could force revisions to the timeline of galaxy evolution in dense environments. Roberts and his collaborators have already applied for additional JWST observing time to study the galaxy in finer detail, hoping to pin down the physical conditions driving the stripping and determine whether similar objects are common at high redshift. The study was co-authored by researchers including Michael L. Balogh, Visal Sok, Adam Muzzin, Michael J. Hudson, and Pascale Jablonka.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "JWST",
+        "jellyfish galaxy",
+        "ram-pressure stripping",
+        "galaxy evolution",
+        "galaxy clusters",
+        "University of Waterloo"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/jellyfish-galaxy-eso-137-001.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050635.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T01:02:43.650Z"
+    },
+    {
+      "id": "ps-1772586178465-879m",
+      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-fu",
+      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Funding",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion, underscoring venture capital's extraordinary concentration in artificial intelligence",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — according to a new report from Crunchbase. The vast majority of that capital went to just three companies: OpenAI, Anthropic, and Waymo, which together accounted for 83% of all venture dollars raised.\n\nOpenAI led the surge with a staggering $110 billion raise, one of the largest private funding rounds in history, valuing Sam Altman's company at $730 billion. Its chief rival Anthropic followed with a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. The combined $156 billion raised by these three firms alone equaled roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe concentration reflects a broader pattern of capital flooding into artificial intelligence at unprecedented scale. AI startups collectively raised $171 billion in February, representing 90% of all venture capital deployed during the month. The figures suggest that the AI investment boom, far from cooling, is accelerating into a phase dominated by a handful of well-capitalized incumbents capable of attracting nine- and ten-figure checks.\n\nThe numbers raise pointed questions about the health and diversity of the broader startup ecosystem. With such an overwhelming share of available capital flowing to three companies, early-stage founders in other sectors may find fundraising increasingly difficult. The dynamic also intensifies scrutiny on whether the astronomical valuations assigned to leading AI firms — OpenAI is now worth more than most publicly traded companies — can be justified by future revenue.\n\nFor venture capital as an asset class, February's record marks an inflection point. The industry's traditional model of spreading bets across a wide portfolio of startups appears to be giving way to a concentrated wager on artificial intelligence's transformative potential, with a small number of companies commanding capital at a scale previously reserved for sovereign wealth funds and public markets.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "artificial intelligence",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T01:02:58.465Z"
+    },
+    {
+      "id": "ps-1772586194200-nnis",
+      "slug": "stocks-recover-from-sharp-selloff-after-trump-pledges-to-sec",
+      "headline": "Stocks Recover From Sharp Selloff After Trump Pledges to Secure Strait of Hormuz",
+      "subheadline": "S&P 500 trims losses from 2.5% to under 1% as president vows to escort tankers through critical oil chokepoint",
+      "body": "U.S. equities staged a dramatic recovery on Tuesday after President Donald Trump pledged that American forces would escort and insure commercial vessels transiting the Strait of Hormuz, calming markets rattled by a spike in oil prices tied to the ongoing conflict with Iran.\n\nThe S&P 500, which had plunged as much as 2.5% earlier in the session, closed down less than 1% after Trump's assurances helped deflate what had been a punishing surge in crude prices. Oil had jumped more than 9% intraday before retreating sharply in post-settlement trading, with Brent crude settling back near $80 per barrel. The bond market, which had also come under pressure during the rout, similarly pared its losses as the threat of a prolonged disruption to global energy flows appeared to ease.\n\nThe Strait of Hormuz, a narrow waterway between Iran and Oman, is the world's most critical energy chokepoint, with roughly one-fifth of global oil consumption passing through its waters daily. Fears that the Iran conflict could choke off that supply had sent shockwaves through commodity and equity markets, triggering the kind of rapid, correlated selloff across asset classes that has become increasingly familiar in 2026's volatile trading environment.\n\nDon Calcagni, Chief Investment Officer at Mercer Advisors, speaking at the Bloomberg Invest conference in New York City, discussed the challenge of navigating investment strategy amid the geopolitical turbulence. The whiplash session underscored how sensitive global markets remain to any escalation — or de-escalation — in the Middle East conflict, with energy prices serving as the primary transmission mechanism into broader financial assets.\n\nWhile Trump's pledge provided immediate relief, analysts cautioned that the fundamental risk to oil supply chains remains elevated as long as hostilities with Iran continue. The episode highlighted the outsized role that presidential communications now play in real-time market pricing, with a single statement reversing billions of dollars in equity losses within hours. Investors will be watching closely for any follow-through on the escort plan and for signs of whether the conflict's trajectory could trigger further supply disruptions in the weeks ahead.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "oil prices",
+        "Strait of Hormuz",
+        "Iran conflict",
+        "S&P 500",
+        "Trump",
+        "geopolitical risk",
+        "Brent crude"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1662495998841-29772927bfd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8U3RvY2tzJTIwUmVjb3ZlciUyMEZyb20lMjBTaGFycCUyMFNlbGxvZmYlMjBBZnRlciUyMFRydW1wJTIwUGxlZGdlcyUyMFNlY3VyZSUyMFN0cmFpdHxlbnwwfDB8fHwxNzcyNTg2MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/stocks-pare-oil-fueled-rout-on-trump-s-assurances-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T01:03:14.200Z"
+    },
+    {
+      "id": "ps-1772586208313-vv97",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on their issuers.\n\nIn a 42-page report published March 3, FATF cited data from blockchain analytics firms Chainalysis and TRM Labs showing that stablecoins accounted for 84% of the estimated $154 billion in illicit virtual asset transaction volume in 2025. TRM Labs separately reported that illicit entities received $141 billion in stablecoins last year alone, the highest figure recorded in five years. FATF's own earlier analysis had pegged illicit stablecoin activity related to fraud and scams at approximately $51 billion in 2024.\n\nThe report singled out actors in North Korea and Iran as particularly active users of dollar-pegged tokens such as USDT for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers conducted through unhosted wallets — cryptocurrency wallets not controlled by a regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the total stablecoin market now exceeding $300 billion in value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged countries to move swiftly. Its recommendations include imposing anti-money laundering obligations on stablecoin issuers, requiring tools such as wallet freezing capabilities, and considering restrictions on certain smart-contract functions that facilitate anonymous transfers. The task force stopped short of recommending blanket blacklisting of stablecoin platforms but made clear that current regulatory frameworks are inadequate for the scale of the problem.\n\nThe FATF report lands amid an intensifying policy debate in Washington over stablecoin regulation. President Donald Trump recently attacked banks for attempting to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that stablecoin issuers offering interest should face bank-level regulation. The convergence of international pressure from FATF and domestic political maneuvering suggests that comprehensive stablecoin oversight — long debated but never fully enacted — may be approaching a tipping point.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T01:03:28.313Z"
     },
     {
       "id": "ps-1772585261513-natg",
@@ -65,27 +151,6 @@
       "publishedAt": "2026-03-04T00:47:41.513Z"
     },
     {
-      "id": "ps-1772585276239-feem",
-      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
-      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as artificial intelligence consumed 90% of global venture funding",
-      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies whose fundraising rounds now rival the market capitalizations of major public corporations.\n\nOpenAI led the surge with a $110 billion raise, one of the largest private funding rounds in history, valuing the ChatGPT maker at $730 billion. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. Together, the three companies accounted for $156 billion — or 83 percent — of all venture dollars deployed globally last month, according to a new Crunchbase report published Monday.\n\nThe concentration of capital underscores both the enormous appetite for AI infrastructure and the increasingly top-heavy nature of venture investing. AI startups collectively raised $171 billion in February, representing a staggering 90 percent of all venture funding for the month. The figures suggest that the AI sector's gravitational pull on private capital continues to intensify even as questions mount about eventual returns on these massive bets. For context, the amount raised by just OpenAI, Anthropic, and Waymo in a single month equaled roughly one-third of the $425 billion in total global venture spending across all of 2025.\n\nThe scale of these rounds reflects a new reality in private markets, where a handful of AI companies are raising capital at levels once reserved for sovereign wealth transactions or public market offerings. OpenAI's $730 billion valuation would make it more valuable than all but a small number of publicly traded companies worldwide, while Anthropic's $380 billion valuation represents a dramatic leap for a company founded just four years ago.\n\nThe record-breaking February also raises questions about whether the broader startup ecosystem is being starved of capital. With three companies absorbing the vast majority of available funding, early-stage ventures outside the AI sector may face an increasingly difficult fundraising environment. Whether this concentration proves to be a sign of transformative innovation or an unsustainable bubble will likely be one of the defining questions for venture capital in 2026.",
-      "category": "business",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "artificial intelligence",
-        "startup funding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T00:47:56.239Z"
-    },
-    {
       "id": "ps-1772585291787-ng2y",
       "slug": "asian-stocks-fall-for-third-straight-day-as-iran-war-fuels-i",
       "headline": "Asian Stocks Fall for Third Straight Day as Iran War Fuels Inflation Fears",
@@ -106,28 +171,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T00:48:11.787Z"
-    },
-    {
-      "id": "ps-1772585306218-m5ck",
-      "slug": "fatf-stablecoins-now-dominate-illicit-crypto-activity-global",
-      "headline": "FATF: Stablecoins Now Dominate Illicit Crypto Activity Globally",
-      "subheadline": "The global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, warned in a 42-page report published Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on issuers before the problem grows further.\n\nThe report paints a stark picture of a market that has ballooned past $300 billion in total capitalization while regulatory frameworks lag behind. FATF cited research from blockchain analytics firm Chainalysis showing that stablecoins accounted for 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis by TRM Labs, released in mid-February, found that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nOf particular concern to the watchdog are the roles played by state-linked actors. The report highlighted cases involving North Korean and Iranian entities using tokens such as Tether's USDT for proliferation financing and cross-border payments connected to sanctioned activities. Sanctions-related transactions accounted for 86% of illicit crypto flows, according to TRM Labs data cited in the report. The scale of the problem is amplified by the sheer volume of legitimate stablecoin commerce — overall stablecoin activity exceeded $1 trillion per month on multiple occasions in 2025.\n\nFATF identified peer-to-peer transfers conducted through unhosted wallets — cryptocurrency wallets not controlled by a regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely. While the organization stopped short of recommending blanket blacklisting of such wallets, it urged member countries to impose anti-money laundering obligations on stablecoin issuers and to consider requiring technical measures such as wallet freezing capabilities and restrictions on certain smart-contract functions.\n\nThe report arrives at a politically charged moment for stablecoin regulation, particularly in the United States. President Donald Trump recently urged passage of the U.S. Clarity Act and publicly criticized banks for attempting to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that interest-paying stablecoin issuers should face bank-level regulation. FATF's findings add an influential international voice to the debate, underscoring that what was once a niche corner of cryptocurrency markets now poses systemic risks to the global financial system's integrity.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "FATF",
-        "stablecoins",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT",
-        "illicit finance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T00:48:26.218Z"
     },
     {
       "id": "ps-1772584349084-s3uy",
@@ -169,28 +212,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-03-04T00:32:43.689Z"
-    },
-    {
-      "id": "ps-1772584393806-qz44",
-      "slug": "stocks-recover-from-sharp-selloff-after-trump-pledges-to-sec",
-      "headline": "Stocks Recover From Sharp Selloff After Trump Pledges to Secure Strait of Hormuz",
-      "subheadline": "S&P 500 trims losses from 2.5% to under 1% as presidential assurances on shipping escorts cool an oil price surge",
-      "body": "U.S. equities staged a notable recovery on Tuesday after President Donald Trump pledged that American forces would escort and insure tankers passing through the Strait of Hormuz, calming markets rattled by an oil price spike tied to the ongoing conflict with Iran.\n\nThe S&P 500, which had fallen as much as 2.5% during the session, pared its decline to less than 1% by the close as Trump's assurances eased fears of a prolonged disruption to global energy flows. Oil prices, which had surged more than 9% earlier in the day, retreated sharply in post-settlement trading, with Brent crude settling near $80 per barrel. The Strait of Hormuz, through which roughly one-fifth of the world's daily oil consumption passes, has become the focal point of market anxiety as hostilities between the U.S. and Iran threaten one of the planet's most critical energy chokepoints.\n\nThe president's commitment to secure passage through the strait — including a pledge to provide insurance coverage for vessels transiting the waterway — appeared calibrated to prevent the kind of supply shock that could send crude prices spiraling further. Bond markets, which had also sold off during the session, similarly trimmed losses as traders recalibrated risk assessments.\n\nDon Calcagni, chief investment officer at Mercer Advisors, speaking at the Bloomberg Invest conference in New York City, addressed the volatile backdrop and the challenges it poses for portfolio positioning. While specific details of his remarks were not immediately available, the broader investment community has been grappling with how to hedge against geopolitical tail risks that have grown more acute since the Iran conflict escalated.\n\nThe session underscored the degree to which energy markets remain a transmission mechanism for geopolitical shocks into broader financial assets. Despite the intraday recovery, analysts cautioned that sustained uncertainty around Hormuz shipping routes could keep volatility elevated in both oil and equity markets in the weeks ahead. With Brent now hovering near $80 — well above levels seen before the conflict intensified — the economic implications of higher energy costs, from consumer spending to corporate margins, remain a key concern for investors navigating an already uncertain landscape.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "S&P 500",
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran conflict",
-        "Trump",
-        "Brent crude",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1694194094284-83cde88cbc61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxTJTI2UCUyMDUwMCUyMG9pbCUyMHByaWNlc3xlbnwwfDB8fHwxNzcyNTg0MzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/stocks-pare-oil-fueled-rout-on-trump-s-assurances-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T00:33:13.806Z"
     },
     {
       "id": "ps-1772582594450-u4z8",
@@ -254,27 +275,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/wall-street-sees-no-trump-put-for-stocks-rattled-by-iran-war",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T23:18:33.696Z"
-    },
-    {
-      "id": "ps-1772578960986-ontj",
-      "slug": "jwst-discovers-most-distant-jellyfish-galaxy-ever-observed",
-      "headline": "JWST Discovers Most Distant Jellyfish Galaxy Ever Observed",
-      "subheadline": "The finding at 8.5 billion light-years suggests galaxy clusters were reshaping their members far earlier than theorized",
-      "body": "Astronomers at the University of Waterloo have identified the most distant jellyfish galaxy on record, a discovery that challenges prevailing models of how violent the universe was during its formative eras. The galaxy, observed using the James Webb Space Telescope at a redshift of z = 1.156, appears as it existed 8.5 billion years ago — when the cosmos was roughly a third of its current age.\n\nJellyfish galaxies earn their evocative name from long, trailing streams of gas that extend behind them like tentacles as they hurtle through dense galaxy clusters. The mechanism responsible, known as ram-pressure stripping, occurs when superheated intergalactic gas within a cluster acts like a fierce headwind, peeling away a galaxy's own gas reserves and stretching them into luminous filaments. In this case, bright blue knots of extremely young stars dot the trailing streams, indicating that new stars are forming not within the galaxy's main disk but in the stripped material itself — a hallmark signature of the process.\n\nThe discovery emerged from a systematic search of JWST data covering the COSMOS field, a patch of sky prized by astronomers for its minimal interference from Milky Way dust and foreground objects. \"Early on in our search of the JWST data, we spotted a distant, undocumented jellyfish galaxy that sparked immediate interest,\" said Dr. Ian Roberts, a Banting Postdoctoral Fellow at the Waterloo Centre for Astrophysics, who led the study.\n\nWhat makes the finding particularly significant is its implications for the timeline of galaxy evolution. Many astrophysicists had assumed that galaxy clusters 8.5 billion years ago were still in early stages of assembly — too loosely organized to generate the kind of extreme environmental pressures needed for ram-pressure stripping. The new observation suggests those clusters were already harsh enough to dramatically alter the galaxies passing through them. Roberts noted that this mechanism may have played a central role in building the large population of \"dead\" galaxies — those that have ceased forming stars — seen in galaxy clusters today.\n\nThe study, published in The Astrophysical Journal under the title \"JWST Reveals a Candidate Jellyfish Galaxy at z=1.156,\" was co-authored by researchers including Michael L. Balogh, Visal Sok, Adam Muzzin, Michael J. Hudson, and Pascale Jablonka. The team has applied for additional JWST observing time to study the galaxy in greater detail, with the goal of confirming whether ram-pressure stripping is indeed responsible and probing the physical conditions of the surrounding cluster. If validated, the results could force a significant revision of models describing how dense cosmic environments shaped galaxy populations across billions of years of cosmic history.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "JWST",
-        "jellyfish galaxy",
-        "ram-pressure stripping",
-        "galaxy evolution",
-        "early universe",
-        "astrophysics"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/jellyfish-galaxy-eso-137-001.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050635.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-03T23:02:40.986Z"
     },
     {
       "id": "ps-1772578990935-mrbf",
