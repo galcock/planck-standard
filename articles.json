@@ -1,26 +1,133 @@
 {
-  "lastUpdated": "2026-03-04T00:33:27.120Z",
+  "lastUpdated": "2026-03-04T00:48:26.293Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772584335276-vqje",
-      "slug": "iran-holds-mass-funerals-after-reported-strike-on-girls-scho",
-      "headline": "Iran Holds Mass Funerals After Reported Strike on Girls' School",
-      "subheadline": "Iranian officials say over 160 killed in Minab school hit during US-Israeli military campaign; Washington denies targeting civilians",
-      "body": "Hundreds of mourners filled the streets of the southern Iranian city of Minab on Monday as funerals were held for students and staff killed in what Tehran says was a US-Israeli missile strike on a girls' school over the weekend. Iranian state television broadcast scenes of flag-draped coffins — many child-sized — being carried through packed crowds.\n\nIranian authorities claim more than 160 people died when three missiles struck the school on Saturday morning, the first day of Iran's six-day working week, meaning the building was likely full of students and staff at the time of impact. The school was located approximately 600 meters from an Islamic Revolutionary Guard Corps base, which was among the military sites targeted during a broad US-Israeli campaign against Iran's military infrastructure and leadership.\n\nPresident Masoud Pezeshkian condemned the incident as a \"barbaric act\" and \"another black page in the record of countless crimes committed by the aggressors.\" Foreign Minister Seyed Abbas Araghchi shared an image on social media showing graves being prepared for 160 victims, directing pointed criticism at US President Donald Trump: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nThe United States has stopped short of confirming or denying responsibility for the specific strike. When pressed by the BBC on Monday, Secretary of State Marco Rubio said Washington \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure,\" though he acknowledged lacking details about what occurred. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, adding that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the Minab area.\n\nIndependent verification of the death toll remains elusive. The BBC has confirmed clips showing smoke rising from a damaged building surrounded by panicked crowds but noted that international news organizations are routinely denied visas to Iran, severely constraining on-the-ground reporting. The incident has already become a flashpoint in the information war surrounding the broader military conflict, with Gulf states now weighing their own responses to the escalating violence across the region.",
+      "id": "ps-1772585227463-alx7",
+      "slug": "iran-holds-mass-funerals-after-school-strike-kills-over-160",
+      "headline": "Iran Holds Mass Funerals After School Strike Kills Over 160",
+      "subheadline": "US denies deliberately targeting civilians as mourners bury students killed near military base in southern Iran",
+      "body": "Hundreds of mourners filled the streets of Minab in southern Iran on Monday as funerals were held for more than 160 people — many of them schoolgirls — killed when a girls' school was struck during the US-Israeli military campaign against Iranian targets over the weekend.\n\nIranian authorities say three missiles hit the school on Saturday morning, the first day of Iran's working week, when the building would have been full of students and staff. The school was located approximately 600 meters from an Islamic Revolutionary Guard Corps base, one of the military installations targeted in the broader wave of strikes against Iran's military sites and leadership. Flag-draped coffins, some child-sized, were carried through packed streets in scenes broadcast on Iranian state television.\n\nThe incident has become a flashpoint in the escalating conflict. Iranian President Masoud Pezeshkian condemned the strike as a \"barbaric act\" and \"another black page\" of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted images of graves being prepared for the dead, writing on social media: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The BBC has verified footage showing smoke rising from a damaged building as crowds gathered nearby amid screams of panic, though the network has not been able to independently confirm Iran's reported death toll.\n\nWhen pressed by the BBC on Monday about whether an American missile struck the school, US Secretary of State Marco Rubio said Washington \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure.\" He acknowledged he did not have details on what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously, adding that \"the protection of civilians is of utmost importance.\" Israel's military said separately that it was \"not aware\" of any operations in the area.\n\nThe strike on the Minab school threatens to complicate Washington's diplomatic position as the broader military campaign against Iran continues. International news organizations have been largely unable to independently investigate conditions on the ground, as Iran routinely denies journalist visas, limiting outside verification of casualties and damage. The incident comes as Gulf states weigh their own responses to the escalating conflict and US citizens across the Middle East scramble to return home amid the widening hostilities.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
-        "US-Israel strikes",
-        "Minab school",
+        "US-Iran conflict",
+        "Minab school strike",
         "civilian casualties",
-        "Middle East conflict"
+        "Middle East"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T00:32:15.276Z"
+      "publishedAt": "2026-03-04T00:47:07.463Z"
+    },
+    {
+      "id": "ps-1772585244536-vu04",
+      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
+      "headline": "RNNs Outperform Transformers for Composite Material Modeling Beyond Training Data",
+      "subheadline": "New study finds recurrent networks extrapolate better despite transformers' 7x speed advantage in simulating fiber-reinforced composites",
+      "body": "Transformer architectures may dominate natural language processing and image generation, but when it comes to predicting the behavior of complex composite materials outside familiar conditions, older recurrent neural networks still hold a decisive edge, according to a new comparative study from researchers at the University of Gothenburg.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first systematic head-to-head comparison of transformer models and recurrent neural networks (RNNs) for modeling short fiber reinforced composites (SFRCs) — lightweight, high-strength materials widely used in automotive and aerospace applications. Full-field simulations of these composites are notoriously expensive because their mechanical response depends on loading history, requiring models to capture path-dependent behavior across representative volume elements. The researchers trained both architectures on sequences of homogenized stress-strain data and tuned hyperparameters using Bayesian optimization to ensure a fair comparison.\n\nThe results, posted to the arXiv preprint server, reveal a nuanced picture. Transformer models matched RNN accuracy on large datasets and delivered inference speeds seven times faster — just 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN. That speed advantage matters for multiscale simulations where surrogate models must be called millions of times. However, when asked to extrapolate beyond training conditions — a critical requirement for engineering applications where materials encounter unexpected loads — the transformer's performance degraded sharply while the RNN maintained its accuracy. RNNs also proved superior on smaller datasets, an important practical consideration given that generating high-fidelity simulation data is itself computationally expensive.\n\nThe findings highlight a tension at the heart of scientific machine learning. Transformers' parallel architecture makes them inherently faster and more scalable, qualities that have fueled their dominance across AI. But the attention mechanism that gives transformers their power may also make them more prone to overfitting to patterns in training data rather than learning the underlying physics of sequential, history-dependent processes — precisely the kind of problem that gated recurrent units were designed to handle.\n\nFor engineers and computational physicists building data-driven surrogates for multiscale material modeling, the study suggests that architecture selection should be driven by application requirements. When speed and large training sets are available, transformers are competitive. But for safety-critical applications requiring reliable predictions under novel conditions, recurrent networks remain the more trustworthy choice — a reminder that in scientific computing, the newest tool is not always the best one.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "composite-materials",
+        "transformers",
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1669124806301-6dfcfcd9cca1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-04T00:47:24.536Z"
+    },
+    {
+      "id": "ps-1772585261513-natg",
+      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
+      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
+      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures 30,000 times Earth's atmosphere, bolstering lithopanspermia theory",
+      "body": "A famously indestructible microbe has passed yet another survival test — one that simulates being blasted off the surface of Mars by an asteroid strike. Researchers report in PNAS Nexus that the extremophile bacterium Deinococcus radiodurans withstood pressures up to 3 gigapascals, roughly 30,000 times Earth's atmospheric pressure, with 60 percent of the organisms remaining viable afterward.\n\nThe experiment, led by Lily Zhao and K. T. Ramesh, sandwiched bacterial samples between two steel plates and then slammed a third plate into the assembly to replicate the instantaneous shock pressures generated when a large asteroid plows into a planetary surface. Such impacts are known to eject chunks of rock into space — several Martian meteorites have been recovered on Earth — raising the long-standing question of whether living organisms could hitch a ride.\n\nDeinococcus radiodurans, sometimes called \"Conan the Bacterium,\" was already known to tolerate radiation doses thousands of times lethal to humans, as well as extreme desiccation and cold. The new study adds mechanical shock to the list. Gene-expression analysis revealed that bacteria subjected to lower pressures activated DNA-repair and membrane-integrity pathways almost immediately. At 2.4 GPa, cell membranes began to rupture, yet the organism's unusually robust, multilayered cell envelope appeared to shield a majority of individuals. Transcription profiles showed the survivors rapidly prioritizing damage repair — essentially triaging their own cellular injuries.\n\nThe findings lend experimental weight to the hypothesis known as lithopanspermia, the idea that microbial life could migrate between planets inside impact-launched rocks. Previous studies had demonstrated that certain organisms can endure the vacuum and radiation of interplanetary space; this work addresses a different bottleneck — the violent launch event itself. If a microbe can survive ejection, transit, and atmospheric entry, the pathway from one habitable world to another becomes at least theoretically open.\n\nThe implications extend beyond Mars. Crater records on the Moon and across the inner solar system attest to the frequency of large impacts, particularly during the solar system's early, more chaotic epochs. If organisms tougher than Deinococcus existed on early Mars — or early Earth — the exchange of biological material between neighboring worlds may have been not just possible but probable. The research does not prove that life has ever traveled between planets, but it narrows the list of physical barriers that would have stood in the way.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "astrobiology",
+        "lithopanspermia",
+        "Deinococcus radiodurans",
+        "Mars",
+        "extremophiles",
+        "asteroid impacts"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T00:47:41.513Z"
+    },
+    {
+      "id": "ps-1772585276239-feem",
+      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
+      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as artificial intelligence consumed 90% of global venture funding",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies whose fundraising rounds now rival the market capitalizations of major public corporations.\n\nOpenAI led the surge with a $110 billion raise, one of the largest private funding rounds in history, valuing the ChatGPT maker at $730 billion. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. Together, the three companies accounted for $156 billion — or 83 percent — of all venture dollars deployed globally last month, according to a new Crunchbase report published Monday.\n\nThe concentration of capital underscores both the enormous appetite for AI infrastructure and the increasingly top-heavy nature of venture investing. AI startups collectively raised $171 billion in February, representing a staggering 90 percent of all venture funding for the month. The figures suggest that the AI sector's gravitational pull on private capital continues to intensify even as questions mount about eventual returns on these massive bets. For context, the amount raised by just OpenAI, Anthropic, and Waymo in a single month equaled roughly one-third of the $425 billion in total global venture spending across all of 2025.\n\nThe scale of these rounds reflects a new reality in private markets, where a handful of AI companies are raising capital at levels once reserved for sovereign wealth transactions or public market offerings. OpenAI's $730 billion valuation would make it more valuable than all but a small number of publicly traded companies worldwide, while Anthropic's $380 billion valuation represents a dramatic leap for a company founded just four years ago.\n\nThe record-breaking February also raises questions about whether the broader startup ecosystem is being starved of capital. With three companies absorbing the vast majority of available funding, early-stage ventures outside the AI sector may face an increasingly difficult fundraising environment. Whether this concentration proves to be a sign of transformative innovation or an unsustainable bubble will likely be one of the defining questions for venture capital in 2026.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "artificial intelligence",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T00:47:56.239Z"
+    },
+    {
+      "id": "ps-1772585291787-ng2y",
+      "slug": "asian-stocks-fall-for-third-straight-day-as-iran-war-fuels-i",
+      "headline": "Asian Stocks Fall for Third Straight Day as Iran War Fuels Inflation Fears",
+      "subheadline": "Oil prices climb while traders scale back expectations for Federal Reserve rate cuts amid escalating Middle East conflict",
+      "body": "Asian equity markets extended their losing streak to a third consecutive session on Monday as the conflict in Iran intensified concerns over a potential wave of global inflation, prompting investors to reassess the trajectory of monetary policy in the world's largest economies.\n\nThe broad selloff across the region reflected growing unease that the war could disrupt energy supplies from the Middle East, a scenario already pushing oil prices higher. Crude edged up in early Asian trading as markets priced in the risk of sustained supply disruptions from a region that accounts for a significant share of global petroleum output. The combination of rising energy costs and persistent inflationary pressures has begun to reshape expectations for central bank policy, with traders paring back their bets on interest-rate cuts by the Federal Reserve.\n\nThe shift in rate expectations represents a significant recalibration for markets that had, until recently, been positioning for a more accommodative monetary stance from the Fed. Higher oil prices feed directly into consumer costs for fuel, transportation, and manufactured goods, making it harder for central bankers to justify easing policy even as economic growth faces headwinds from geopolitical uncertainty. The prospect of rates staying elevated for longer weighs particularly heavily on equity valuations in Asia, where many export-driven economies are sensitive to both energy import costs and dollar-denominated borrowing rates.\n\nThe three-day slide underscores how quickly geopolitical risk can ripple through interconnected global markets. Investors appear to be rotating toward safer assets as they assess the potential for the Iran conflict to escalate further, with bond markets and commodity prices reflecting a flight-to-quality mentality. The volatility comes at a precarious moment for the global economy, which had shown tentative signs of stabilization heading into 2026.\n\nMarket participants will be closely watching upcoming economic data releases and any signals from Federal Reserve officials on how the central bank plans to navigate the collision between geopolitical inflation risks and the need to support growth. For now, the prevailing mood across Asian trading desks remains decidedly cautious, with the conflict's trajectory likely to dictate sentiment in the sessions ahead.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Asian stocks",
+        "Iran war",
+        "oil prices",
+        "Federal Reserve",
+        "inflation",
+        "interest rates",
+        "geopolitical risk"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1667076549970-3c36e6d4095a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8QXNpYW4lMjBzdG9ja3MlMjBJcmFuJTIwd2FyfGVufDB8MHx8fDE3NzI1ODUyOTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T00:48:11.787Z"
+    },
+    {
+      "id": "ps-1772585306218-m5ck",
+      "slug": "fatf-stablecoins-now-dominate-illicit-crypto-activity-global",
+      "headline": "FATF: Stablecoins Now Dominate Illicit Crypto Activity Globally",
+      "subheadline": "The global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, warned in a 42-page report published Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on issuers before the problem grows further.\n\nThe report paints a stark picture of a market that has ballooned past $300 billion in total capitalization while regulatory frameworks lag behind. FATF cited research from blockchain analytics firm Chainalysis showing that stablecoins accounted for 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis by TRM Labs, released in mid-February, found that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nOf particular concern to the watchdog are the roles played by state-linked actors. The report highlighted cases involving North Korean and Iranian entities using tokens such as Tether's USDT for proliferation financing and cross-border payments connected to sanctioned activities. Sanctions-related transactions accounted for 86% of illicit crypto flows, according to TRM Labs data cited in the report. The scale of the problem is amplified by the sheer volume of legitimate stablecoin commerce — overall stablecoin activity exceeded $1 trillion per month on multiple occasions in 2025.\n\nFATF identified peer-to-peer transfers conducted through unhosted wallets — cryptocurrency wallets not controlled by a regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely. While the organization stopped short of recommending blanket blacklisting of such wallets, it urged member countries to impose anti-money laundering obligations on stablecoin issuers and to consider requiring technical measures such as wallet freezing capabilities and restrictions on certain smart-contract functions.\n\nThe report arrives at a politically charged moment for stablecoin regulation, particularly in the United States. President Donald Trump recently urged passage of the U.S. Clarity Act and publicly criticized banks for attempting to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that interest-paying stablecoin issuers should face bank-level regulation. FATF's findings add an influential international voice to the debate, underscoring that what was once a niche corner of cryptocurrency markets now poses systemic risks to the global financial system's integrity.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT",
+        "illicit finance"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T00:48:26.218Z"
     },
     {
       "id": "ps-1772584349084-s3uy",
@@ -64,27 +171,6 @@
       "publishedAt": "2026-03-04T00:32:43.689Z"
     },
     {
-      "id": "ps-1772584378131-tjo3",
-      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
-      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as AI consumed 90% of all venture funding",
-      "body": "Global venture capital investment shattered records in February, with $189 billion flowing into startups — more than triple January's total — according to a new Crunchbase report. The staggering figure was driven almost entirely by artificial intelligence, with three companies alone absorbing the vast majority of the capital.\n\nOpenAI led the surge with a $110 billion raise that valued the company at $730 billion, making it one of the largest private funding rounds in history. Anthropic followed with a $30 billion Series G at a $380 billion valuation, while Alphabet-backed autonomous vehicle company Waymo secured $16 billion at a $126 billion valuation. Together, the three companies accounted for $156 billion — roughly 83% of all venture dollars deployed during the month.\n\nThe concentration of capital reflects a broader pattern reshaping the venture landscape. AI startups collectively raised $171 billion in February, representing 90% of all venture funding. The figures suggest that the artificial intelligence sector is not merely a hot investment category but has become virtually synonymous with venture capital itself. The combined haul from OpenAI, Anthropic, and Waymo alone equaled one-third of the $425 billion in total global venture spending recorded across all of 2025, according to Crunchbase data.\n\nThe numbers raise pressing questions about the sustainability and structure of the current funding environment. A market in which three companies command such an outsized share of investment dollars represents an extraordinary level of concentration, even by the standards of previous tech booms. For the thousands of other startups competing for capital, the arithmetic is sobering: after subtracting the three mega-rounds, the remaining global venture ecosystem split roughly $33 billion in February — a figure that, while substantial, pales against the headline total.\n\nThe record also underscores the escalating capital requirements of frontier AI development. OpenAI's $110 billion round alone dwarfs the annual research budgets of most nation-states, signaling that the race to build and deploy advanced AI systems has entered a phase where only the most heavily capitalized players can compete at the highest level. Whether these enormous bets will generate commensurate returns remains one of the defining financial questions of the decade.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "artificial intelligence",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "startup funding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T00:32:58.132Z"
-    },
-    {
       "id": "ps-1772584393806-qz44",
       "slug": "stocks-recover-from-sharp-selloff-after-trump-pledges-to-sec",
       "headline": "Stocks Recover From Sharp Selloff After Trump Pledges to Secure Strait of Hormuz",
@@ -105,69 +191,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/stocks-pare-oil-fueled-rout-on-trump-s-assurances-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T00:33:13.806Z"
-    },
-    {
-      "id": "ps-1772584407042-46bz",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based international body that sets anti-money-laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors.\n\nIn a 42-page report, FATF said dollar-pegged digital tokens now account for the overwhelming majority of illicit crypto activity, citing data from blockchain analytics firms Chainalysis and TRM Labs. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. TRM Labs, in a separate February report, estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had previously estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report specifically flagged the use of Tether's USDT by North Korean and Iranian actors for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers via unhosted wallets — digital wallets not controlled by any regulated intermediary — as a \"key vulnerability\" because such transactions bypass standard anti-money-laundering controls entirely.\n\nWith the stablecoin market now exceeding $300 billion in total value and monthly transaction volumes surpassing $1 trillion on multiple occasions last year, FATF urged member countries to act swiftly. The watchdog called for imposing anti-money-laundering obligations directly on stablecoin issuers and recommended that regulators consider mandating tools such as wallet freezing capabilities and restrictions on certain smart-contract functions. The task force stopped short of recommending blanket blacklisting of specific tokens or platforms.\n\nThe report lands amid intensifying political debate in Washington over stablecoin regulation. President Donald Trump recently urged passage of the U.S. Clarity Act, criticizing banks for attempting to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that stablecoin issuers paying interest should face bank-level regulation. FATF's findings add international urgency to a domestic policy fight that will shape whether the fast-growing stablecoin sector operates under comprehensive oversight or continues to exploit regulatory gaps across jurisdictions.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T00:33:27.042Z"
-    },
-    {
-      "id": "ps-1772582548753-qkxr",
-      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
-      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks handle extrapolation far better, even as transformers offer a sevenfold speed advantage",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials under new, untested conditions, according to a systematic comparison published on arXiv by researchers Petter Uvdal and Mohsen Mirkhalaf.\n\nThe study, which examined data-driven surrogate models for short fiber reinforced composites (SFRCs), found that while transformers — the architecture underpinning large language models — delivered competitive accuracy on large interpolation datasets and ran seven times faster at inference (0.5 milliseconds per prediction versus 3.5 milliseconds for RNNs), they faltered badly when asked to extrapolate beyond their training data. RNNs, by contrast, maintained accuracy in extrapolation regimes and also performed better when trained on smaller datasets, a practical advantage given that generating high-fidelity simulation data for composite materials is computationally expensive.\n\nModeling the mechanical response of SFRCs is a notoriously demanding computational task. Full-field simulations of representative volume elements — the microscale building blocks used to predict how a composite will behave under load — can take hours or days for complex loading paths. Neural network surrogates promise to compress that computation into milliseconds, enabling real-time multiscale modeling. The key challenge is that these materials exhibit path-dependent behavior: their stress response depends not just on the current state of deformation but on the entire loading history, making sequential modeling architectures a natural fit.\n\nUvdal and Mirkhalaf tuned both architectural hyperparameters — including the number of GRU layers, hidden size, attention heads, and encoder blocks — and training hyperparameters such as learning rate and batch size using Bayesian optimization, ensuring a fair head-to-head comparison. They then analyzed scaling laws relating dataset size to inference accuracy across both interpolation and extrapolation conditions. The clear divergence in extrapolation performance suggests that the inductive biases built into recurrent architectures, which process sequences step by step, may better capture the path-dependent physics governing composite deformation.\n\nThe findings carry implications beyond materials science. Across engineering and physics, transformer architectures have been rapidly adopted as general-purpose sequence models, sometimes displacing RNNs without rigorous domain-specific benchmarking. This study offers a cautionary data point: for problems where generalization beyond training distributions matters — as it invariably does in physical modeling — architectural choice remains consequential, and the newest model is not always the best.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "surrogate-modeling"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1742729096780-600245031d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-04T00:02:28.754Z"
-    },
-    {
-      "id": "ps-1772582564784-leg0",
-      "slug": "hardy-bacterium-survives-mars-level-impact-forces-in-lab",
-      "headline": "Hardy Bacterium Survives Mars-Level Impact Forces in Lab",
-      "subheadline": "Sixty percent of Deinococcus radiodurans endured pressures of 30,000 atmospheres, bolstering the case for interplanetary life transfer",
-      "body": "A notoriously resilient microorganism has survived simulated asteroid-impact pressures equivalent to those that could launch rocks off the surface of Mars, according to new research published in PNAS Nexus on March 3. The finding lends significant experimental weight to the theory of lithopanspermia — the idea that life could hitch a ride between planets aboard debris flung into space by catastrophic collisions.\n\nResearchers Lily Zhao and K. T. Ramesh, along with their colleagues, subjected the extremophile bacterium Deinococcus radiodurans to pressures of up to 3 gigapascals — roughly 30,000 times Earth's atmospheric pressure — by sandwiching microbial samples between steel plates and slamming a third plate into the assembly. The setup was designed to replicate the shock conditions a microbe embedded in Martian rock would experience during a massive asteroid strike, the kind of event that has left visible craters across the surfaces of both Mars and the Moon.\n\nRemarkably, 60 percent of the bacteria survived pressures up to 2.4 GPa, the threshold at which researchers began observing ruptured cell membranes. The team attributed the microbes' resilience in part to the architecture of their cell envelopes, which appear to provide structural protection against extreme compressive forces. Gene expression analysis revealed that surviving bacteria rapidly activated damage-repair pathways in the aftermath of the simulated impact, effectively triaging their own cellular injuries.\n\nDeinococcus radiodurans — sometimes dubbed \"Conan the Bacterium\" — was already famous for withstanding radiation doses 28,000 times the lethal threshold for humans, as well as prolonged desiccation and vacuum conditions. The new study adds impact survival to its résumé, addressing what had been a critical gap in the lithopanspermia hypothesis. Previous research had demonstrated that certain organisms could endure the radiation and cold of interplanetary transit, but the initial launch event — the violent ejection from a planet's surface — remained a major question mark.\n\nThe implications extend well beyond a single bacterium. If microbial life can survive launch pressures of this magnitude, then the roughly 300 Martian meteorites already identified on Earth may not have arrived as sterile rocks. The authors concluded that microorganisms are capable of withstanding more extreme conditions than scientists had previously believed, raising the tantalizing — if still unproven — possibility that life on Earth and Mars could share a common origin, carried between worlds inside fragments of shattered stone.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "astrobiology",
-        "lithopanspermia",
-        "Deinococcus radiodurans",
-        "Mars",
-        "extremophiles",
-        "asteroid impact"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/asteroid-impacting-planet-mars.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303082606.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T00:02:44.784Z"
     },
     {
       "id": "ps-1772582594450-u4z8",
@@ -1055,27 +1078,6 @@
       "sourceUrl": "https://www.coindesk.com/business/2026/03/03/japan-prime-minister-sanae-takaichi-disavows-solana-meme-coin-after-it-crashes-by-75",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-03T11:03:27.746Z"
-    },
-    {
-      "id": "ps-1772533079661-n1oy",
-      "slug": "base-metals-plunge-as-iran-conflict-triggers-broad-market-se",
-      "headline": "Base Metals Plunge as Iran Conflict Triggers Broad Market Selloff",
-      "subheadline": "Copper drops more than 2% in London as widening war sends shockwaves through stocks, bonds, and currencies",
-      "body": "Base metals led a sweeping selloff across global markets on Monday as the escalating conflict in Iran rattled investor confidence and raised fears of prolonged supply disruptions.\n\nCopper, widely regarded as a barometer of global economic health, fell more than 2% on the London Metal Exchange as traders fled risk assets. The decline came alongside steep losses in equities, bonds, and currencies, underscoring the breadth of the market turmoil triggered by the widening war. The synchronized selloff across asset classes signals deep concern among investors that the conflict could metastasize into a broader regional crisis with lasting economic consequences.\n\nThe Middle East is a critical node in global commodity supply chains, and any sustained military escalation near major shipping lanes and energy infrastructure threatens to disrupt flows of both raw materials and finished goods. While base metals are not directly produced in significant quantities in Iran, the conflict's knock-on effects — including higher energy costs, disrupted trade routes, and a general flight from risk — are weighing heavily on industrial commodities. Aluminum had initially held onto gains driven by supply concerns before succumbing to the broader rout.\n\nThe selloff compounds an already uncertain outlook for the global economy, which has been grappling with uneven growth and persistent inflationary pressures. Higher energy prices resulting from Middle Eastern instability could further squeeze manufacturing margins and dampen demand for industrial metals at a time when key economies in Europe and Asia are struggling to build momentum. Central banks, already navigating a delicate balancing act between supporting growth and containing inflation, now face the added complication of a geopolitical shock that could push prices higher while simultaneously undermining output.\n\nMarket participants are closely watching for any signs of diplomatic engagement or further escalation that could define the trajectory of commodity prices in the weeks ahead. With volatility surging and safe-haven flows intensifying, analysts caution that base metals could face additional downside pressure if the conflict continues to widen without a clear path toward resolution.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "base metals",
-        "copper",
-        "Iran conflict",
-        "market selloff",
-        "commodities",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1768148826660-206ad544519a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8YmFzZSUyMG1ldGFscyUyMGNvcHBlcnxlbnwwfDB8fHwxNzcyNTMzMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/aluminum-holds-gain-as-iran-conflict-roils-global-supplies",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T10:17:59.661Z"
     }
   ]
 }
