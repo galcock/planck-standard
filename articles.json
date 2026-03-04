@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-04T18:18:45.481Z",
+  "lastUpdated": "2026-03-04T18:33:34.023Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772648247912-72rd",
+      "id": "ps-1772649133209-su1j",
       "slug": "pentagon-releases-video-of-us-torpedo-sinking-iranian-warshi",
       "headline": "Pentagon Releases Video of US Torpedo Sinking Iranian Warship",
-      "subheadline": "Around 140 crew members remain missing after IRIS Dena sunk in Indian Ocean as US-Iran conflict escalates rapidly",
-      "body": "The Pentagon has released footage showing a U.S. torpedo striking an Iranian warship in the Indian Ocean, as the military conflict between Washington and Tehran intensifies into its second day with mounting casualties on both sides.\n\nU.S. Secretary of Defense Pete Hegseth confirmed the sinking but declined to name the vessel. However, Sri Lanka's navy reported rescuing 32 survivors after receiving a distress call from the IRIS Dena, an Iranian naval ship. Approximately 140 crew members remain unaccounted for, raising the specter of a significant loss of life that could further inflame tensions in an already volatile theater of operations.\n\nThe warship strike is one element of a rapidly expanding confrontation that has seen dramatic escalations across the Middle East. Iran retaliated by targeting the U.S. naval base in Bahrain, sending smoke rising above the installation and exposing what analysts describe as concerning gaps in American air defenses in the region. In a separate incident, the U.S. military confirmed that six F-15 fighter jets were \"mistakenly shot down by Kuwaiti air defenses,\" though all crew members were reported in stable condition. Three U.S. service members have been killed in action during the operation, which President Donald Trump has dubbed \"Operation Epic Fury.\"\n\nThe conflict has already produced seismic political consequences. Iranian state media confirmed that Supreme Leader Ali Khamenei was killed in the strikes — a development that, if verified, would represent one of the most consequential targeted killings in modern military history and throw Iran's political and military command structure into uncertainty. Strikes have hit neighborhoods in Tehran, with social media footage showing chaotic scenes in the aftermath. Trump, directing operations from Palm Beach, Florida, announced \"major combat operations\" and accused Iran's regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States,\" while signaling that Washington is pursuing regime change.\n\nHegseth sought to temper concerns about a prolonged engagement, stating \"this is not Iraq, this is not endless,\" though he offered few specifics about the operation's scope or intended duration. Trump acknowledged that further American casualties are likely, posting a video statement to Truth Social warning \"there will likely be more\" U.S. deaths. Protests erupted across American cities on Saturday, with demonstrators rallying against the strikes and additional actions planned. The rapid escalation — encompassing naval warfare, airstrikes on a sovereign capital, the death of a head of state, and friendly-fire incidents — marks the most significant U.S. military engagement in the Middle East in over two decades, with its ultimate trajectory still deeply uncertain.",
+      "subheadline": "Around 140 crew members remain missing after IRIS Dena was struck in the Indian Ocean as US-Iran conflict escalates",
+      "body": "The Pentagon has released footage showing a US torpedo striking an Iranian warship in the Indian Ocean, as the military conflict between Washington and Tehran intensifies into its second day with mounting casualties on both sides.\n\nUS Secretary of Defense Pete Hegseth confirmed the sinking but did not identify the vessel by name. However, Sri Lanka's navy reported rescuing 32 people after receiving a distress call from the IRIS Dena, an Iranian naval ship. Approximately 140 crew members remain unaccounted for, raising the specter of significant Iranian military casualties in what has become the most direct confrontation between the two nations in decades.\n\nThe naval engagement is one thread in a rapidly widening conflict. President Donald Trump announced \"major combat operations\" against Iran under the banner of Operation Epic Fury, conducted jointly with Israel. Strikes have hit targets in Tehran, where videos circulating on social media show chaotic scenes in residential neighborhoods. Iran has retaliated by targeting the US Navy base in Bahrain, where smoke was observed rising from the installation — an attack that analysts say exposes concerning gaps in American air defenses in the region. Six US F-15 fighter jets were also shot down by Kuwaiti air defenses in what the Pentagon described as a mistake, though all crew members are reported in stable condition. Three US service members have been killed in action.\n\nThe conflict has produced seismic political consequences inside Iran. State media confirmed that Supreme Leader Ali Khamenei has been killed, a development that could fundamentally reshape the Islamic Republic's leadership structure and its capacity to sustain a prolonged military engagement. Trump, directing operations from Palm Beach, Florida, warned that \"there will likely be more\" American deaths but insisted the campaign would not become another open-ended Middle Eastern engagement. \"This is not Iraq, this is not endless,\" Hegseth said, though he offered few specifics about the operation's scope or timeline.\n\nThe escalation has drawn immediate domestic backlash in the United States, with protesters rallying across major American cities on Saturday and additional demonstrations planned. Internationally, the situation remains fluid, with Iran launching retaliatory strikes toward Israel that sent BBC journalists and Tel Aviv residents into bomb shelters. The killing of Khamenei, the strikes on Tehran, and the uncertain fate of more than a hundred Iranian sailors mark an extraordinarily dangerous inflection point, with no clear diplomatic off-ramp in sight.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -17,13 +17,121 @@
         "Middle East conflict",
         "IRIS Dena",
         "Operation Epic Fury",
-        "Pete Hegseth",
-        "Trump"
+        "Trump",
+        "Khamenei"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/83ed/live/fd575160-17df-11f1-801d-ed3cff6bf876.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd6zzg2g7vno?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T18:17:27.912Z"
+      "publishedAt": "2026-03-04T18:32:13.210Z"
+    },
+    {
+      "id": "ps-1772649149095-kt8x",
+      "slug": "data-driven-models-decode-turbulent-droplet-dynamics-at-frac",
+      "headline": "Data-Driven Models Decode Turbulent Droplet Dynamics at Fraction of Cost",
+      "subheadline": "Stochastic Langevin regression outperforms three rival methods in predicting binary fluid interface behavior",
+      "body": "A team of researchers has demonstrated that machine learning techniques can accurately capture the complex physics of turbulent two-phase fluid systems, potentially replacing computationally expensive direct numerical simulations used across industries from pharmaceutical manufacturing to biological cell membrane research.\n\nIn a study posted to the arXiv preprint server on March 2, Samuel Z. Khiangte, Triparna Sanyal, Sumantra Sarkar, and Nairita Pal investigated a model system consisting of a single droplet of one fluid phase moving through a background of a second phase under turbulent forcing. They ran extensive direct numerical simulations to generate ground-truth data on interfacial dynamics and droplet acceleration, then systematically compared four interpretable data-driven approaches: dynamic mode decomposition (DMD), Hankel DMD, sparse identification of nonlinear dynamics (SINDy), and Stochastic Langevin regression (SLR). All four methods employed proper orthogonal decomposition for dimensionality reduction before attempting to learn simplified governing equations.\n\nThe central finding is that SLR emerged as the clear winner on multiple fronts. It predicted the underlying dynamical equations of the binary-fluid system with the greatest accuracy across a wide range of interfacial tension values and droplet sizes — two key physical parameters that govern real-world multiphase flows. Crucially, SLR also required fewer terms than its closest competitor, SINDy, to capture the essential dynamics, making it the most computationally efficient of the four methods tested. Both DMD variants, while useful for linear modal analysis, proved less capable of handling the nonlinear richness of turbulent interfacial fluctuations.\n\nThe work addresses a practical bottleneck in fluid dynamics research: full direct numerical simulations of binary fluid systems are notoriously expensive, requiring fine spatial and temporal resolution to resolve the interplay between turbulence and surface tension forces at the interface. By learning compact dynamical equations from simulation data, the data-driven models could serve as fast surrogate models that generalize across different physical conditions without rerunning costly simulations from scratch.\n\nThe researchers noted that the learned models successfully encode physical properties such as surface tension and droplet size, suggesting these techniques could extend beyond idealized academic setups. Potential applications include modeling biological cell membrane dynamics, thin-film flows in industrial coating processes, and emulsion stability in food and chemical engineering. The 22-page study, which includes 15 figures detailing the comparative analysis, represents a growing trend in computational physics toward hybrid approaches that combine first-principles simulation with data-driven discovery to accelerate scientific understanding of complex multiphase systems.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "fluid dynamics",
+        "machine learning",
+        "turbulence",
+        "binary fluids",
+        "data-driven modeling",
+        "Stochastic Langevin regression"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1762279800961-80e6e92376b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8Zmx1aWQlMjBkeW5hbWljcyUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzcyNjQ5MTQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.02341",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-04T18:32:29.095Z"
+    },
+    {
+      "id": "ps-1772649163647-6px2",
+      "slug": "combined-neutrino-experiments-find-stronger-evidence-for-mat",
+      "headline": "Combined Neutrino Experiments Find Stronger Evidence for Matter-Antimatter Asymmetry",
+      "subheadline": "Joint analysis of U.S. and Japanese neutrino observatories suggests CP symmetry violation, offering clues to why the universe exists",
+      "body": "A landmark collaboration between two of the world's leading neutrino experiments has produced the strongest evidence yet that neutrinos and their antimatter counterparts behave differently — a subtle asymmetry that may help explain why the universe is filled with matter rather than empty void.\n\nThe findings, published March 3 in Nature, combine data from the NOvA experiment in the United States and the T2K experiment in Japan in an unprecedented joint analysis. NOvA fires neutrino beams 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends beams 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector buried beneath Mount Ikenoyama. By merging their complementary datasets — NOvA's longer baseline through Earth's crust and T2K's shorter but more intense beam — researchers achieved substantially greater precision in measuring how neutrinos oscillate between their three \"flavors\": electron, muon, and tau.\n\nThe central question at stake is one of the deepest in cosmology. The Big Bang should have produced equal quantities of matter and antimatter, which would have mutually annihilated and left behind nothing but energy. Instead, a slight imbalance somehow favored matter, giving rise to galaxies, stars, planets, and life. Physicists have long suspected that violations of CP symmetry — the principle that matter and antimatter should obey identical physical laws — could account for this imbalance. The combined NOvA-T2K results indicate that neutrinos and antineutrinos do indeed oscillate differently, pointing toward just such a violation. \"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics Department at Indiana University Bloomington, who has held leadership roles in the project since 2006.\n\nThe collaboration involves hundreds of scientists from more than a dozen countries across the United States, Europe, and Japan, with funding from the U.S. Department of Energy. Indiana University researchers have contributed to detector construction, data interpretation, and training the next generation of physicists, with six current Ph.D. students actively working on the joint study. The partnership also serves as a model for future large-scale particle physics projects, demonstrating that pooling resources across experiments and borders can unlock measurements neither team could achieve alone.\n\nWhile the results do not yet constitute definitive proof of CP violation in the neutrino sector, they significantly narrow the range of possible parameters governing neutrino behavior and set the stage for next-generation experiments designed to deliver a conclusive answer. As Messier noted, the enormity of the question — why anything exists at all — can be broken into tractable, step-by-step measurements. \"Instead of being dumbstruck by the enormity of it, we can actually make progress toward an answer about why we're here in the universe.\"",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "neutrinos",
+        "CP violation",
+        "matter-antimatter asymmetry",
+        "NOvA",
+        "T2K",
+        "particle physics",
+        "Big Bang"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T18:32:43.647Z"
+    },
+    {
+      "id": "ps-1772649179729-e9nq",
+      "slug": "anthropic-s-claude-caught-in-paradox-aiding-us-strikes-on-ir",
+      "headline": "Anthropic's Claude Caught in Paradox: Aiding US Strikes on Iran While Losing Defense Clients",
+      "subheadline": "Trump's directive to phase out Anthropic from military use collides with the reality of an active conflict relying on its AI models",
+      "body": "Anthropic finds itself in one of the most unusual positions in modern defense-technology history: its Claude AI models are actively being used to generate targeting decisions in the U.S.-led aerial campaign against Iran, even as defense contractors and their subcontractors rush to replace the company's products with rival systems.\n\nThe paradox stems from a collision of timelines. President Trump directed civilian agencies to discontinue use of Anthropic products and gave the Department of Defense six months to wind down its relationship with the company. But the very next day, the U.S. and Israel launched a surprise attack on Tehran, initiating a sustained conflict before the phaseout could take effect. Because Secretary of Defense Pete Hegseth has not yet formally designated Anthropic as a supply-chain risk — despite pledging to do so — there are currently no legal barriers preventing the military from continuing to rely on Claude.\n\nNew reporting from The Washington Post reveals the extent of that reliance. According to the Post, Anthropic's models, integrated with Palantir's Maven system, have \"suggested hundreds of targets, issued precise location coordinates, and prioritized those targets according to importance\" as Pentagon officials planned strikes. The system is functioning as a real-time targeting and prioritization tool in an active war zone — a role that would have been difficult to imagine for a company that once positioned itself as the safety-conscious alternative in the AI industry.\n\nMeanwhile, the commercial fallout is accelerating. Lockheed Martin and other major defense contractors began swapping out Anthropic's models this week, according to Reuters. The exodus extends deep into the supply chain: a managing partner at defense-focused venture firm J2 Ventures told CNBC that 10 of its portfolio companies have already stepped back from Claude for defense applications and are actively migrating to competitors. The shift suggests that regardless of formal government action, the market is treating Anthropic's defense business as effectively over.\n\nThe critical question now is whether Hegseth will follow through on the supply-chain risk designation, a move that would likely trigger significant legal battles and could force an abrupt severing of Claude from active military operations mid-conflict. Until that happens, Anthropic occupies a deeply contradictory space — simultaneously indispensable to the U.S. war effort and increasingly unwelcome in the broader defense ecosystem. For an AI lab that built its brand on careful, principled deployment, the situation represents a crisis with no clean resolution.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "defense technology",
+        "US military",
+        "Iran conflict",
+        "Palantir",
+        "artificial intelligence",
+        "Pentagon"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/iran-airstrike-2263722022.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T18:32:59.729Z"
+    },
+    {
+      "id": "ps-1772649197207-df4t",
+      "slug": "apollo-executive-warns-private-credit-stress-could-persist-1",
+      "headline": "Apollo Executive Warns Private Credit Stress Could Persist 18 Months",
+      "subheadline": "John Zito downplays fund withdrawal concerns but acknowledges prolonged turbulence ahead for the sector",
+      "body": "A senior executive at Apollo Global Management has cautioned that the current disruption roiling private credit markets may not ease for up to 18 months, offering one of the most concrete timelines yet from a major industry insider on how long the sector's troubles could last.\n\nJohn Zito, a key figure at the $700-billion-plus alternative asset manager, said the pain facing private credit could extend well into next year. At the same time, he sought to temper alarm over a recent surge of investor redemptions from certain private credit funds, arguing that the withdrawal activity does not constitute a systemic problem for the asset class.\n\nThe remarks come at a fraught moment for an industry that experienced explosive growth over the past several years as institutional investors and wealthy individuals poured capital into funds promising higher yields than traditional fixed-income markets. Private credit assets globally have swelled past $1.7 trillion, but rising defaults, valuation questions, and tightening liquidity conditions have begun to test the sector's resilience. A wave of redemption requests at some high-profile funds has stoked fears of a broader confidence crisis, drawing comparisons — however imperfect — to past episodes of stress in illiquid investment vehicles.\n\nZito's 18-month window suggests that even one of the largest and most diversified players in alternative assets sees no quick resolution. Apollo, which has built out a sprawling credit business spanning investment-grade lending to riskier direct loans, has positioned itself as a more conservative operator relative to some peers. Still, the firm is not immune to the headwinds buffeting the broader market, including elevated borrowing costs and a slowing economic backdrop that have squeezed some of the leveraged borrowers that private credit funds finance.\n\nThe acknowledgment from a firm of Apollo's stature is likely to intensify scrutiny from regulators and investors who have questioned whether the private credit boom adequately priced in downside risk. While Zito's dismissal of redemption fears may reassure some limited partners, the extended timeline for recovery underscores the reality that the sector's reckoning — long predicted by skeptics — is now firmly underway.",
+      "category": "business",
+      "importance": 6,
+      "tags": [
+        "Apollo Global Management",
+        "private credit",
+        "John Zito",
+        "alternative assets",
+        "fund redemptions"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1654574111854-be9994f3c265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8QXBvbGxvJTIwRXhlY3V0aXZlJTIwV2FybnMlMjBQcml2YXRlJTIwQ3JlZGl0JTIwU3RyZXNzJTIwQ291bGQlMjBQZXJzaXN0JTIwTW9udGhzfGVufDB8MHx8fDE3NzI2NDkxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-04/apollo-s-zito-sees-private-credit-pain-lasting-up-to-18-months",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T18:33:17.207Z"
+    },
+    {
+      "id": "ps-1772649213929-ljoo",
+      "slug": "trump-met-coinbase-ceo-armstrong-before-attacking-banks-on-c",
+      "headline": "Trump Met Coinbase CEO Armstrong Before Attacking Banks on Crypto Bill",
+      "subheadline": "The closed-door meeting preceded the president's public campaign to break a legislative impasse over stablecoin interest payments",
+      "body": "President Donald Trump held a private meeting with Coinbase chief executive Brian Armstrong shortly before launching a public broadside against the banking industry for stalling major cryptocurrency legislation, according to multiple reports confirmed by CoinDesk.\n\nThe meeting, first reported by Politico and sourced to two people with knowledge of the matter, took place just before Trump took to Truth Social on Tuesday to accuse banks of trying to \"undermine our powerful Crypto Agenda.\" In his post, the president urged swift passage of the Clarity Act and warned that failure to advance crypto-friendly regulation would drive the industry to China and other competitors. \"The Banks are hitting record profits, and we are not going to allow them to undermine our powerful Crypto Agenda,\" Trump wrote, adding that banks \"need to make a good deal with the Crypto Industry.\" Neither the White House nor Coinbase responded to requests for comment, and the substance of the Armstrong-Trump discussion remains unknown.\n\nThe intervention targets a specific policy dispute that has paralyzed the GENIUS Act, a market structure bill that had been headed for a Senate Banking Committee vote before stalling. At the heart of the impasse is whether stablecoin issuers should be permitted to pay interest on customer balances — a feature crypto firms say benefits consumers but banks warn could siphon deposits and weaken their lending capacity. JPMorgan CEO Jamie Dimon weighed in Tuesday, arguing that any stablecoin issuer paying interest should face bank-level regulation. Patrick Witt, executive director of the President's Council of Advisors for Digital Assets, fired back, calling Dimon's framing deceptive and noting that the GENIUS Act explicitly prohibits stablecoin issuers from lending or rehypothecating underlying dollar reserves. \"Stablecoins ≠ Deposits,\" Witt wrote.\n\nThe sequence of events — a private audience with the country's largest crypto exchange operator followed immediately by a presidential attack on that operator's chief adversaries — underscores the extraordinary access the digital asset industry has secured in Washington. Armstrong's Coinbase has been among the most vocal advocates for allowing interest-bearing stablecoins, and Trump's post effectively endorsed the company's position in the lobbying fight.\n\nMarkets responded favorably. Coinbase shares climbed above $200 on Wednesday, reaching their highest level since late January, as part of a broader crypto rally that pushed Bitcoin past $73,000. The price action suggests investors are betting that presidential pressure could break the legislative logjam, though the banking lobby remains formidable and the bill's path through Congress is far from certain.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Trump",
+        "Brian Armstrong",
+        "Coinbase",
+        "GENIUS Act",
+        "stablecoins",
+        "crypto regulation",
+        "banking lobby"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5533b845762561aae8717a69c1cd6477a1ae2648-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/04/brian-armstrong-met-with-trump-before-the-president-slammed-banks-over-the-crypto-bill",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T18:33:33.929Z"
     },
     {
       "id": "ps-1772648263064-9a7q",
@@ -47,50 +155,6 @@
       "publishedAt": "2026-03-04T18:17:43.064Z"
     },
     {
-      "id": "ps-1772648278198-ozrs",
-      "slug": "combined-neutrino-experiments-find-stronger-evidence-for-mat",
-      "headline": "Combined Neutrino Experiments Find Stronger Evidence for Matter-Antimatter Asymmetry",
-      "subheadline": "Joint analysis of U.S. and Japanese neutrino observatories suggests CP symmetry violation, offering clues to why the universe exists",
-      "body": "An unprecedented joint analysis of two of the world's leading neutrino experiments has produced the strongest evidence yet that neutrinos and their antimatter counterparts do not behave as perfect mirror images of each other — a subtle asymmetry that may help explain why the universe is filled with matter rather than nothing at all.\n\nThe findings, published March 3 in Nature, combine data from the NOvA experiment in the United States and the T2K experiment in Japan. NOvA fires neutrino beams 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends beams 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector beneath Mount Ikenoyama. By merging their complementary datasets — NOvA's longer baseline through Earth's crust and T2K's shorter but more intense beam — researchers achieved far greater precision in measuring how neutrinos oscillate between their three \"flavors\": electron, muon, and tau.\n\nThe central question at stake is one of cosmology's deepest puzzles. The Big Bang should have produced equal quantities of matter and antimatter, which upon contact annihilate each other completely. Had perfect symmetry held, the universe would have destroyed itself in its earliest moments. Instead, a slight imbalance allowed matter to survive, eventually forming galaxies, stars, planets, and life. Scientists have long theorized that a violation of CP symmetry — the principle that matter and antimatter should obey identical physical laws — could account for this imbalance. The combined NOvA-T2K results now indicate that neutrinos and antineutrinos do oscillate differently, pointing toward just such a violation. \"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics department at Indiana University Bloomington, who has held leadership roles in the NOvA collaboration since 2006.\n\nThe collaboration involves hundreds of scientists from more than a dozen countries across the United States, Europe, and Japan, with funding from the U.S. Department of Energy. Indiana University researchers have contributed to detector construction, data interpretation, and the training of a new generation of physicists. The joint analytical approach demonstrated in this study is expected to serve as a model for future large-scale particle physics projects, including next-generation neutrino observatories currently in development.\n\nWhile the results do not yet constitute a definitive discovery of CP violation in the neutrino sector — which would require higher statistical significance — they represent a meaningful step toward that threshold and set the stage for more precise measurements. \"Instead of being dumbstruck by the enormity of it, we can actually make progress toward an answer about why we're here in the universe,\" Messier said.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "neutrinos",
-        "CP violation",
-        "matter-antimatter asymmetry",
-        "NOvA",
-        "T2K",
-        "particle physics",
-        "Big Bang"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T18:17:58.198Z"
-    },
-    {
-      "id": "ps-1772648294386-jk22",
-      "slug": "anthropic-caught-in-paradox-powering-iran-strikes-while-losi",
-      "headline": "Anthropic Caught in Paradox: Powering Iran Strikes While Losing Defense Clients",
-      "subheadline": "Claude AI models actively used in U.S. targeting operations even as Lockheed Martin and defense contractors rush to replace them",
-      "body": "Anthropic finds itself in one of the most unusual positions in modern defense-technology history: its Claude AI is actively supporting U.S. military targeting operations in an ongoing conflict with Iran, even as the broader defense industry systematically purges the company's products from its supply chains.\n\nThe contradiction stems from overlapping and conflicting government directives. President Trump ordered civilian agencies to stop using Anthropic products, while granting the Department of Defense a six-month wind-down period. Before that timeline could play out, the U.S. and Israel launched a surprise attack on Tehran, effectively locking Anthropic's models into an active theater of war. According to a Washington Post report published Wednesday, Claude is being used in conjunction with Palantir's Maven system for real-time targeting and prioritization — suggesting hundreds of targets, generating precise coordinates, and ranking them by strategic importance during the aerial campaign against Iran.\n\nYet the commercial exodus is well underway. Lockheed Martin and other major defense contractors began replacing Anthropic's models this week, Reuters reported. The ripple effects extend deep into the defense-tech ecosystem: a managing partner at J2 Ventures told CNBC that 10 portfolio companies have already stepped back from using Claude for defense applications and are actively migrating to competitors. The departures reflect both political risk and practical uncertainty — Secretary of Defense Pete Hegseth has publicly pledged to designate Anthropic as a supply-chain risk, a move that would carry severe contractual and legal consequences for any company still relying on the firm's technology.\n\nNo formal supply-chain risk designation has been issued, however, meaning there are currently no legal barriers preventing the military from continuing to use Claude. This regulatory limbo has created a situation where one of the world's leading AI laboratories is simultaneously embedded in wartime operations and being methodically excised from the defense-industrial base that surrounds them. The designation, if it comes, would likely trigger significant litigation.\n\nThe episode underscores the fraught intersection of AI policy, national security, and corporate strategy. For Anthropic, a company that has built its public identity around AI safety and responsible deployment, the optics are particularly challenging — its technology is being used to select bombing targets in the Middle East while its commercial defense relationships collapse around it. For the broader AI industry, the situation serves as a cautionary tale about the risks of becoming entangled with military applications in an era of rapid policy shifts and geopolitical volatility.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "defense technology",
-        "Iran conflict",
-        "Pentagon",
-        "AI military applications",
-        "Palantir"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/iran-airstrike-2263722022.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T18:18:14.386Z"
-    },
-    {
       "id": "ps-1772648309113-1ht1",
       "slug": "stocks-rally-on-surprise-economic-strength-as-bitcoin-tops-7",
       "headline": "Stocks Rally on Surprise Economic Strength as Bitcoin Tops $73,000",
@@ -110,28 +174,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T18:18:29.113Z"
-    },
-    {
-      "id": "ps-1772648325391-gcab",
-      "slug": "coinbase-ceo-met-with-trump-before-president-attacked-banks-",
-      "headline": "Coinbase CEO Met With Trump Before President Attacked Banks Over Crypto Bill",
-      "subheadline": "Private meeting preceded Trump's Truth Social broadside against banks he accused of undermining stablecoin legislation",
-      "body": "Coinbase chief executive Brian Armstrong held a private meeting with President Donald Trump shortly before the president launched a public attack on the banking industry for allegedly obstructing major cryptocurrency legislation, according to reports confirmed by CoinDesk.\n\nThe closed-door session, first reported by Politico and sourced to two people with knowledge of the matter, took place just before Trump took to Truth Social on Tuesday to accuse banks of trying to \"undermine our powerful Crypto Agenda.\" In his post, the president urged swift passage of the Clarity Act and warned that failure to advance the legislation would drive the crypto industry to China and other countries. \"The Banks are hitting record profits, and we are not going to allow them to undermine our powerful Crypto Agenda,\" Trump wrote, adding that \"banks need to make a good deal with the Crypto Industry.\" Neither the White House nor Coinbase responded to requests for comment on the substance of the meeting.\n\nThe confrontation centers on the GENIUS Act, a stablecoin regulatory framework that has stalled in the Senate Banking Committee amid an escalating lobbying war between traditional financial institutions and the crypto industry. Banks, led by figures such as JPMorgan CEO Jamie Dimon, argue that allowing stablecoin issuers to pay interest on customer balances could siphon deposits away from the banking system and impair lending capacity. Dimon said Tuesday that any stablecoin issuer paying yield should face bank-level regulation. The crypto industry contends that consumers deserve the ability to earn returns on stablecoin holdings and that the GENIUS Act includes sufficient safeguards.\n\nPatrick Witt, executive director of the President's Council of Advisors for Digital Assets, publicly rebuked Dimon's position, arguing that the critical regulatory concern is not the payment of yield itself but the rehypothecation of underlying reserves — something he said the GENIUS Act explicitly prohibits. \"Stablecoins ≠ Deposits,\" Witt wrote, drawing a sharp distinction between the two financial instruments.\n\nMarkets responded favorably to the political signals. Coinbase shares climbed above $200 on Wednesday, reaching their highest level since late January, as part of a broader rally in crypto-linked equities. Bitcoin surged past $73,000, with Ethereum, XRP, and Solana all posting gains between 5.7% and nearly 8%. The rally underscored how tightly crypto asset prices remain tethered to the legislative and political environment in Washington, where the outcome of the stablecoin debate could reshape the competitive landscape between traditional banks and digital asset firms for years to come.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Coinbase",
-        "Brian Armstrong",
-        "Donald Trump",
-        "GENIUS Act",
-        "stablecoin regulation",
-        "crypto legislation",
-        "banking"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5533b845762561aae8717a69c1cd6477a1ae2648-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/04/brian-armstrong-met-with-trump-before-the-president-slammed-banks-over-the-crypto-bill",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T18:18:45.391Z"
     },
     {
       "id": "ps-1772647408159-d83s",
@@ -302,27 +344,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/latest-oil-market-news-and-analysis-for-march-4",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T16:03:16.965Z"
-    },
-    {
-      "id": "ps-1772638345895-61wk",
-      "slug": "data-driven-models-decode-turbulent-droplet-dynamics-at-frac",
-      "headline": "Data-Driven Models Decode Turbulent Droplet Dynamics at Fraction of Cost",
-      "subheadline": "Stochastic Langevin regression outperforms three rival methods in predicting binary fluid interface behavior",
-      "body": "A team of researchers has demonstrated that machine learning techniques can accurately capture the complex physics of turbulent binary fluids — systems where two immiscible phases interact under chaotic forcing — while dramatically reducing the computational burden of traditional simulations.\n\nIn a study posted to the arXiv preprint server on March 2, Samuel Z. Khiangte, Triparna Sanyal, Sumantra Sarkar, and Nairita Pal examined a model system consisting of a single droplet of one fluid phase moving through a second phase under turbulent conditions. They ran extensive direct numerical simulations, which are notoriously expensive for multiphase fluid systems, then used the resulting data to train and compare four interpretable data-driven models. The goal: extract simplified dynamical equations governing how the droplet interface fluctuates and how the droplet's center of mass accelerates.\n\nThe four methods tested — dynamic mode decomposition (DMD), Hankel DMD, sparse identification of nonlinear dynamics (SINDy), and Stochastic Langevin regression (SLR) — each employed proper orthogonal decomposition for dimensionality reduction. Among these, SLR emerged as the clear winner, predicting the underlying dynamical equations with the greatest accuracy across a wide range of interfacial tension values and droplet sizes. Crucially, SLR also required fewer terms than SINDy to capture the essential dynamics, making it the most computationally efficient of the four approaches.\n\nThe findings carry significance beyond fundamental fluid dynamics. Interfacial fluctuations in two-phase systems encode signatures of physical processes occurring across multiple spatial and temporal scales, and understanding them is central to applications ranging from biological cell membrane dynamics to industrial thin-film processes. The ability to replace costly direct numerical simulations with learned models that generalize across physical parameters — such as surface tension and droplet geometry — could accelerate research and engineering workflows in these domains.\n\nThe 22-page paper, which includes 15 figures, represents a growing trend in computational physics: leveraging data-driven frameworks not merely as black-box predictors but as tools for discovering interpretable physical laws. By showing that stochastic regression methods can outperform more established decomposition techniques in turbulent multiphase settings, the work offers a practical roadmap for researchers seeking to balance fidelity with computational economy in some of fluid mechanics' most challenging problems.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "fluid dynamics",
-        "machine learning",
-        "turbulence",
-        "binary fluids",
-        "data-driven modeling",
-        "computational physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1659092836003-95b01045b1e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxmbHVpZCUyMGR5bmFtaWNzJTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzI2MzgzNDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.02341",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-04T15:32:25.895Z"
     },
     {
       "id": "ps-1772638394356-sivd",
@@ -1051,26 +1072,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00109",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-04T04:32:47.515Z"
-    },
-    {
-      "id": "ps-1772597908258-k9e1",
-      "slug": "asian-markets-suffer-worst-selloff-in-nearly-a-year-as-south",
-      "headline": "Asian Markets Suffer Worst Selloff in Nearly a Year as South Korea Plunges",
-      "subheadline": "South Korean stocks experience their sharpest decline since the 2008 global financial crisis, dragging broader Asian indices lower",
-      "body": "Asian equity markets endured their steepest decline in nearly a year on Tuesday, with South Korean stocks leading the rout in a crash not seen since the depths of the 2008 global financial crisis.\n\nThe broad-based selloff swept across the region, with major indices from Tokyo to Sydney posting significant losses. South Korea bore the brunt of the downturn, with its benchmark index suffering a dramatic plunge that marked the worst single-session performance in roughly 17 years. The severity of the Korean decline underscored mounting investor anxiety over a confluence of economic and geopolitical pressures bearing down on the region's markets.\n\nWhile the specific catalysts driving the March 4 selloff were multi-faceted, the scale of the losses pointed to a sharp deterioration in risk sentiment across Asia-Pacific. The South Korean market, heavily weighted toward semiconductor and export-oriented firms, has been particularly vulnerable to shifting global trade dynamics and concerns over slowing demand in key partner economies. The magnitude of the crash — rivaling levels last seen during the worst of the global financial crisis — sent a stark signal to investors about the fragility of confidence in the region.\n\nThe regional rout added to a turbulent period for global markets, with investors recalibrating expectations around monetary policy, trade tensions, and economic growth trajectories. Asian markets have often served as a bellwether for global risk appetite, and the breadth of Tuesday's decline suggested the anxiety extended well beyond any single country or sector.\n\nMarket participants will be closely watching for any policy response from South Korean authorities, who have in the past intervened during periods of extreme volatility. Whether the selloff marks a temporary capitulation or the beginning of a more sustained downturn will depend in large part on incoming economic data and the trajectory of global trade negotiations in the weeks ahead.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Asian markets",
-        "South Korea",
-        "stock market crash",
-        "global selloff",
-        "risk sentiment"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1651558461943-64efafb8c786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxBc2lhbiUyMG1hcmtldHMlMjBTb3V0aCUyMEtvcmVhfGVufDB8MHx8fDE3NzI1OTc5MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/asian-markets-extend-losses-south-korean-stocks-plunge-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T04:18:28.259Z"
     }
   ]
 }
