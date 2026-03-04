@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-04T12:48:23.398Z",
+  "lastUpdated": "2026-03-04T13:03:36.085Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772628428373-zos3",
-      "slug": "us-and-israel-kill-iran-s-supreme-leader-in-massive-strikes",
-      "headline": "US and Israel Kill Iran's Supreme Leader in Massive Strikes",
-      "subheadline": "Ayatollah Khamenei confirmed dead as 'Operation Epic Fury' enters second day; Iran retaliates with regional attacks",
-      "body": "The United States and Israel launched a devastating series of strikes across Iran beginning Saturday, killing Supreme Leader Ayatollah Ali Khamenei and marking a dramatic escalation that has plunged the Middle East into its most dangerous crisis in decades. The operation, dubbed \"Epic Fury,\" has now entered its second day, with explosions reported across multiple Iranian cities and at least three U.S. service members killed in action.\n\nPresident Donald Trump, directing military operations from Palm Beach, Florida, announced that \"major combat operations\" had begun in Iran, accusing the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" In a video statement posted to Truth Social, Trump warned that \"there will likely be more\" American deaths as the conflict continues. The strikes have targeted military installations across the country, with the U.S. military releasing footage it says shows precision hits on Iranian defense infrastructure.\n\nIran's state television confirmed the death of Khamenei, the 85-year-old cleric who had served as Supreme Leader since 1989. The announcement sent shockwaves through the region. Tehran has already responded with retaliatory strikes, including attacks directed toward Israel that forced BBC presenter Clive Myrie to report from inside a Tel Aviv bomb shelter. At least one Iranian drone was filmed crash-landing in flames in Kuwait, underscoring the widening geographic scope of the conflict.\n\nVideo verified by the BBC and international news agencies shows large explosions and significant destruction in Tehran and other Iranian cities, with chaotic scenes on the ground in residential neighborhoods. Domestically, protests erupted across American cities on Saturday, with demonstrators rallying against the strikes and additional protests planned in the days ahead. The military action represents the most significant U.S. combat engagement in the Middle East since the 2003 invasion of Iraq.\n\nThe crisis unfolds against an already volatile geopolitical backdrop. The New START nuclear treaty between the United States and Russia recently expired, leaving no limits on nuclear arsenals between the two powers for the first time since 1991. Analysts and diplomats are now urgently assessing whether the Iranian strikes could spiral into a broader regional war, particularly as Trump has signaled interest in regime change — a goal that would require sustained military commitment and carries profound risks of further destabilization across the Middle East.",
+      "id": "ps-1772629338465-a8ww",
+      "slug": "us-and-israel-kill-iran-s-supreme-leader-in-massive-strike-c",
+      "headline": "US and Israel Kill Iran's Supreme Leader in Massive Strike Campaign",
+      "subheadline": "Ayatollah Ali Khamenei confirmed dead as Operation Epic Fury enters second day with retaliatory strikes across region",
+      "body": "The United States and Israel launched a devastating military campaign against Iran over the weekend, killing Supreme Leader Ayatollah Ali Khamenei and striking targets across multiple Iranian cities in what President Donald Trump has called \"major combat operations\" under the banner of Operation Epic Fury.\n\nIranian state television confirmed Khamenei's death, marking the most significant escalation in Middle East hostilities in decades. Footage verified by the BBC and international news agencies shows massive explosions and widespread destruction across Iran, including strikes hitting neighborhoods in Tehran. The U.S. military has released its own video purporting to show military targets being hit. Iran has responded with a wave of retaliatory attacks across the region, including drone strikes — one of which was captured on video crash-landing in Kuwait.\n\nThe conflict has already claimed American lives. Three U.S. service members were killed in action on the second day of the campaign, prompting Trump to warn in a video statement posted to Truth Social that \"there will likely be more\" casualties. Trump accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States\" and, according to BBC reporting from Jerusalem, appears to be pursuing regime change in Tehran. The president is directing operations from Palm Beach, Florida.\n\nThe strikes have triggered significant domestic and international reaction. Protesters rallied across American cities on Saturday, with additional demonstrations planned. BBC correspondent Clive Myrie reported from inside a Tel Aviv bomb shelter as Iranian retaliatory missiles targeted Israel, underscoring the regional scope of the escalating conflict. The crisis now enters a critical phase as analysts assess whether Iran's remaining leadership will seek further escalation or pursue diplomatic channels.\n\nThe operation represents the most direct U.S. military engagement with Iran in history, shattering decades of proxy warfare and covert operations that had defined the adversarial relationship between Washington and Tehran. With no clear off-ramp in sight and retaliatory strikes continuing in both directions, the conflict threatens to reshape the geopolitical landscape of the entire Middle East.",
       "category": "breaking",
       "importance": 10,
       "tags": [
@@ -22,7 +22,112 @@
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/cb4e/live/d5a532e0-17bc-11f1-9120-a910fc22c6ac.jpg",
       "sourceUrl": "https://www.bbc.com/news/videos/cd70zp0v3g4o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T12:47:08.373Z"
+      "publishedAt": "2026-03-04T13:02:18.465Z"
+    },
+    {
+      "id": "ps-1772629355163-14e4",
+      "slug": "new-framework-uses-evidence-theory-to-map-hidden-network-str",
+      "headline": "New Framework Uses Evidence Theory to Map Hidden Network Structures",
+      "subheadline": "Researchers apply Dempster-Shafer reasoning to reconstruct complex network topologies from time-series data alone",
+      "body": "A team of researchers has developed a novel computational framework that leverages an established mathematical theory of uncertainty to reverse-engineer the hidden structures of complex networks using only observational time-series data — a longstanding challenge in network science.\n\nThe method, detailed in a preprint by Yishu Xian, Zhaobo Zhang, Cai Zhang, Meizhu Li, and Qi Zhang, draws on Dempster-Shafer evidence theory, a framework originally developed for reasoning under uncertainty that generalizes Bayesian probability. Rather than relying on a single analytical signal to infer whether two nodes in a network are connected, the approach fuses multiple sources of information through an evidential reasoning scheme, allowing it to detect underlying interaction patterns even when individual data streams are noisy or incomplete.\n\nThe researchers validated their framework against three canonical network models that represent fundamentally different structural architectures: Barabási-Albert networks, which exhibit scale-free properties with highly connected hub nodes; Erdős-Rényi networks, where connections are distributed randomly; and Watts-Strogatz networks, which capture the \"small-world\" phenomenon seen in social and biological systems. Across all three types, the method achieved consistently high reconstruction accuracy and proved robust as network size and connection density increased — a critical requirement for real-world applicability where systems can contain thousands or millions of interacting components.\n\nNetwork reconstruction from observational data is a problem with broad practical implications, from mapping neural circuits in the brain to understanding financial contagion pathways and identifying disease transmission routes. Traditional approaches often struggle when confronted with limited, uncertain, or conflicting data from multiple measurement sources. The evidential reasoning approach addresses this directly by providing a principled mathematical framework for combining imperfect evidence without requiring the strong prior assumptions that Bayesian methods typically demand.\n\nThe team further tested the framework on real-world datasets spanning diverse domains, reporting stable performance that confirmed its general applicability beyond synthetic benchmarks. The results suggest that evidence theory — well established in fields like sensor fusion and decision-making but underutilized in network science — could offer a scalable new toolkit for uncovering the structural organization of complex systems. The work was posted to the arXiv preprint server and spans the fields of physics and society, classical physics, and data analysis.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "network science",
+        "Dempster-Shafer theory",
+        "complex systems",
+        "time series analysis",
+        "network reconstruction"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1664527184253-b09e897a81f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8TmV3JTIwRnJhbWV3b3JrJTIwVXNlcyUyMEV2aWRlbmNlJTIwVGhlb3J5JTIwTWFwJTIwSGlkZGVuJTIwTmV0d29yayUyMFN0cnVjdHVyZXN8ZW58MHwwfHx8MTc3MjYyOTM1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.02242",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-04T13:02:35.163Z"
+    },
+    {
+      "id": "ps-1772629371496-s2co",
+      "slug": "combined-neutrino-experiments-strengthen-case-for-matter-ant",
+      "headline": "Combined Neutrino Experiments Strengthen Case for Matter-Antimatter Asymmetry",
+      "subheadline": "Joint analysis of U.S. and Japanese neutrino data reveals stronger evidence of CP symmetry violation, published in Nature",
+      "body": "An unprecedented joint analysis of data from two of the world's leading neutrino experiments has produced the strongest evidence yet that neutrinos and their antimatter counterparts do not behave as perfect mirror images of each other — a finding that could help explain why the universe contains matter at all.\n\nThe results, published March 3 in Nature, combine observations from the NOvA experiment in the United States and the T2K experiment in Japan. NOvA fires neutrino beams 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends beams 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector beneath Mount Ikenoyama. By pooling data from these complementary setups — NOvA's longer baseline through Earth's crust and T2K's shorter but more intense beam — hundreds of scientists from more than a dozen countries achieved measurement precision neither experiment could reach alone.\n\nThe central question at stake is one of cosmology's deepest puzzles. The Big Bang should have produced equal quantities of matter and antimatter, which would have mutually annihilated and left behind nothing but energy. Instead, a slight imbalance allowed matter to survive, ultimately forming galaxies, stars, planets, and life. Physicists have long suspected that neutrinos — ghostly, nearly massless particles that exist in three \"flavors\" (electron, muon, and tau) and can oscillate between them as they travel — might hold the key. If neutrinos and antineutrinos oscillate at different rates, that asymmetry would constitute a violation of charge-parity (CP) symmetry, potentially pointing toward the mechanism that tipped the cosmic scales in favor of matter.\n\nThe combined analysis found suggestive evidence of exactly such a CP violation in neutrino oscillations. While the statistical significance has not yet reached the threshold physicists require to claim a definitive discovery, the joint result represents a meaningful step forward. \"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics Department at Indiana University Bloomington, who has held leadership roles in the NOvA collaboration since 2006. \"And, we've set the stage for future research programs that aim to use neutrinos to tackle other questions.\"\n\nThe collaboration, supported by the U.S. Department of Energy, also serves as a template for how next-generation particle physics projects may operate — merging datasets across continents to extract insights no single facility could achieve independently. Researchers at Indiana University, including physicists Jon Urheim and James Musser along with several current Ph.D. students, contributed to detector construction, data interpretation, and the joint statistical framework. The findings now set the stage for the upcoming DUNE experiment at Fermilab and Japan's Hyper-Kamiokande project, both designed to deliver the definitive measurement of CP violation in the neutrino sector within the next decade.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "neutrinos",
+        "CP violation",
+        "matter-antimatter asymmetry",
+        "NOvA",
+        "T2K",
+        "particle physics",
+        "Big Bang"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T13:02:51.496Z"
+    },
+    {
+      "id": "ps-1772629385868-8ea7",
+      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
+      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as artificial intelligence consumed 90% of global venture funding",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups worldwide — more than triple January's total — according to a new report from Crunchbase. The overwhelming majority of that capital landed at just three companies: OpenAI, Anthropic, and Waymo, which together absorbed 83% of all venture dollars raised during the month.\n\nOpenAI's staggering $110 billion round, one of the largest private fundraises in history, anchored the surge and pushed the ChatGPT maker's valuation to $730 billion. Close behind, rival Anthropic closed a $30 billion Series G that valued the Claude developer at $380 billion. Alphabet's autonomous driving subsidiary Waymo rounded out the trio with a $16 billion raise at a $126 billion valuation. The $156 billion captured by these three firms alone equaled roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe concentration of capital underscores how thoroughly artificial intelligence has reshaped the venture landscape. AI startups collectively raised $171 billion in February, accounting for approximately 90% of all venture funding during the month. The figures suggest that investors — from sovereign wealth funds to corporate balance sheets — are placing enormous, historically unprecedented bets that a small handful of frontier AI companies will define the next era of technology.\n\nThe numbers also raise questions about the health and diversity of the broader startup ecosystem. With such an outsized share of capital flowing to three mega-rounds, thousands of earlier-stage companies across sectors from climate technology to biotech are competing for a shrinking slice of the remaining pool. The trend toward capital concentration has been building for several quarters, but February's data represents a new extreme.\n\nWhether this pace of investment is sustainable remains an open question. OpenAI and Anthropic are burning through billions to train increasingly powerful AI models, and investors are effectively wagering that the revenue — and eventual profits — will justify valuations that now rival some of the world's largest public companies. For venture capital as an asset class, the era of AI has become an all-or-nothing proposition on a scale the industry has never seen.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "artificial intelligence",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T13:03:05.868Z"
+    },
+    {
+      "id": "ps-1772629400814-de7b",
+      "slug": "u-s-stocks-retreat-after-bessent-signals-15-global-tariff-im",
+      "headline": "U.S. Stocks Retreat After Bessent Signals 15% Global Tariff Imminent",
+      "subheadline": "Treasury Secretary's remarks on tariff timeline erase earlier market gains as trade uncertainty returns to center stage",
+      "body": "U.S. equity markets gave back earlier advances on Monday after Treasury Secretary Scott Bessent indicated that a proposed 15% global tariff could take effect as soon as this week, reigniting trade policy concerns that have periodically rattled investors throughout the year.\n\nThe remarks caught markets off guard, reversing what had been a modestly positive session. Stocks had opened higher as traders monitored developments in the Middle East, but Bessent's comments on the tariff timeline swiftly shifted attention back to the administration's trade agenda. The proposed levy — a blanket 15% duty applied broadly to imports — represents a significant escalation in the White House's protectionist posture and would mark one of the most sweeping tariff actions in recent U.S. history if implemented on the suggested timeline.\n\nThe abrupt market reaction underscores the fragile equilibrium investors have been navigating in 2026. While corporate earnings and economic data have provided intermittent support, the persistent threat of new trade barriers has kept volatility elevated. A 15% across-the-board tariff would carry substantial implications for multinational supply chains, consumer prices, and corporate profit margins — particularly in sectors heavily reliant on imported goods such as retail, technology hardware, and automotive manufacturing.\n\nTraders now face a compressed window to assess the potential fallout. The lack of specifics around exemptions, phase-in periods, or retaliatory measures from trading partners adds to the uncertainty. Previous rounds of U.S. tariff actions have prompted swift responses from major economies including the European Union and China, raising the specter of an escalating trade conflict that could weigh on global growth.\n\nMarket participants will be closely watching for further clarification from the Treasury Department and the White House in the coming days. With geopolitical risks in the Middle East already adding a layer of complexity to the macro backdrop, the prospect of imminent tariff implementation gives investors yet another variable to price in during what is shaping up to be a volatile week for global markets.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "tariffs",
+        "Scott Bessent",
+        "Treasury",
+        "stock market",
+        "trade policy",
+        "equities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1635301213490-1b819c7bb668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8dGFyaWZmcyUyMFNjb3R0JTIwQmVzc2VudHxlbnwwfDB8fHwxNzcyNjI5NDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T13:03:20.814Z"
+    },
+    {
+      "id": "ps-1772629416005-m8jd",
+      "slug": "kraken-becomes-first-crypto-firm-to-win-federal-reserve-mast",
+      "headline": "Kraken Becomes First Crypto Firm to Win Federal Reserve Master Account",
+      "subheadline": "The milestone grants the exchange direct access to Fedwire, though with key limitations that keep it short of full bank status.",
+      "body": "Cryptocurrency exchange Kraken has achieved what no digital asset company has before: direct access to the Federal Reserve's core payment infrastructure. The company's banking subsidiary, Kraken Financial, has been approved for a Fed master account, allowing it to settle U.S. dollar transactions through Fedwire — the interbank network that moves trillions of dollars daily — without relying on intermediary banks.\n\nThe approval, first reported by the Wall Street Journal on Tuesday, represents a significant regulatory milestone for the crypto industry. Kraken Financial, which operates under a Wyoming special-purpose depository institution charter, applied through the Federal Reserve Bank of Kansas City. Until now, every crypto exchange operating in the United States has depended on traditional banking partners to handle fiat currency transfers, a bottleneck that can slow deposits and withdrawals, particularly for institutional clients and high-volume traders.\n\nThe account comes with notable restrictions, however. Kraken will not earn interest on reserves held at the Fed, nor will it have access to the central bank's emergency lending facilities — privileges reserved for fully chartered depository institutions. The limited scope suggests regulators remain cautious about extending the full suite of central banking services to crypto-native firms, even as the broader policy environment has shifted toward accommodation.\n\nThe move fits neatly into Kraken's broader strategic trajectory. Founded in 2011, the San Francisco-based exchange has been assembling the building blocks of a diversified financial services operation as it positions itself for a potential initial public offering. Parent company Payward has spent aggressively on acquisitions in recent months, paying $1.5 billion for futures platform NinjaTrader and $100 million for derivatives venue Small Exchange last year, while more recently adding token management startup Magna and tokenized stock issuer Backed Finance to its portfolio.\n\nWith rivals Coinbase, Gemini, and Bullish already trading on public markets, Kraken's Fed access could serve as a powerful differentiator in the run-up to its own debut. Direct settlement capability reduces counterparty risk and transaction costs — advantages that matter most to the institutional clients whose participation is widely seen as essential to crypto's next phase of growth. Whether other digital asset firms will follow Kraken through the Fed's door remains an open question, but the precedent has now been set.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Kraken",
+        "Federal Reserve",
+        "crypto regulation",
+        "Fedwire",
+        "IPO",
+        "institutional crypto"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/1f55b5e22ec39461abe4fb859e8826de3ae5245a-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/04/kraken-becomes-first-crypto-company-to-secure-fed-master-account-access-wsj",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T13:03:36.005Z"
     },
     {
       "id": "ps-1772628442776-19nl",
@@ -44,91 +149,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.02362",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-04T12:47:22.776Z"
-    },
-    {
-      "id": "ps-1772628459316-et2s",
-      "slug": "combined-neutrino-experiments-strengthen-case-for-matter-ant",
-      "headline": "Combined Neutrino Experiments Strengthen Case for Matter-Antimatter Asymmetry",
-      "subheadline": "Joint analysis of U.S. and Japanese neutrino observatories finds mounting evidence of CP symmetry violation in Nature study",
-      "body": "An unprecedented joint analysis of data from two of the world's leading neutrino experiments has produced the strongest evidence yet that neutrinos and their antimatter counterparts do not behave as perfect mirror images — a subtle asymmetry that may help explain why the universe contains matter at all.\n\nThe findings, published March 3 in Nature, combine results from the NOvA experiment in the United States and the T2K experiment in Japan. NOvA fires neutrino beams 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends beams 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector buried beneath Mount Ikenoyama. By merging datasets from these complementary facilities — one offering a longer baseline through Earth's crust, the other a shorter but more intense beam — the international collaboration achieved measurements of neutrino oscillation parameters that neither experiment could attain alone.\n\nThe central question at stake is one of cosmology's deepest puzzles. The Big Bang should have produced equal quantities of matter and antimatter, which upon contact annihilate each other completely. Had that symmetry held perfectly, the universe would have destroyed itself in its infancy. Instead, a slight excess of matter survived, giving rise to galaxies, stars, planets, and life. Physicists have long suspected that violations of charge-parity (CP) symmetry — the principle that matter and antimatter should obey identical physical laws — could account for this imbalance. Neutrinos, which exist in three \"flavors\" (electron, muon, and tau) and oscillate between them as they travel, offer a uniquely sensitive probe of such violations.\n\nThe combined NOvA-T2K analysis found indications that neutrinos and antineutrinos oscillate differently, pointing toward CP symmetry violation in the neutrino sector. While the result does not yet reach the statistical threshold physicists require to claim a definitive discovery, it represents a meaningful step forward. \"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics Department at Indiana University Bloomington, who has held leadership roles in the NOvA collaboration since 2006.\n\nThe two collaborations together involve hundreds of scientists from more than a dozen countries across the United States, Europe, and Japan, with funding from the U.S. Department of Energy among other sources. Indiana University researchers — including physicists Jon Urheim and James Musser, astronomer Stuart Mufson, and chemist Jonathan Karty — have contributed to detector construction, data interpretation, and the training of a new generation of physicists. The partnership also serves as a template for future large-scale particle physics endeavors, including next-generation experiments designed to push CP violation measurements to definitive precision. For now, the results narrow the range of possible values for the oscillation parameters that govern neutrino behavior, setting a firmer foundation for the experiments that will follow.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "neutrinos",
-        "CP violation",
-        "matter-antimatter asymmetry",
-        "NOvA",
-        "T2K",
-        "particle physics",
-        "Big Bang"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T12:47:39.316Z"
-    },
-    {
-      "id": "ps-1772628473841-64r9",
-      "slug": "three-ai-giants-captured-83-of-record-189b-in-vc-funding",
-      "headline": "Three AI Giants Captured 83% of Record $189B in VC Funding",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion in February, underscoring extreme capital concentration in AI",
-      "body": "Venture capital investment hit a staggering $189 billion globally in February, more than tripling January's total and setting a new monthly record — but the overwhelming majority of that capital flowed to just three companies. OpenAI, Anthropic, and Waymo together accounted for 83% of all venture dollars raised during the month, according to a new Crunchbase report published Monday.\n\nOpenAI led the pack with a $110 billion raise — one of the largest private funding rounds in history — valuing the ChatGPT maker at $730 billion. Its chief rival Anthropic followed with a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. The combined $156 billion raised by these three firms alone equaled roughly one-third of the entire $425 billion in global venture spending throughout all of 2025.\n\nThe concentration underscores a broader pattern reshaping the venture landscape: artificial intelligence startups collectively raised $171 billion in February, representing approximately 90% of all capital deployed. The figures suggest that the AI investment boom, far from plateauing, is accelerating at a pace that dwarfs previous technology cycles. Even by the outsized standards of recent AI fundraising, February's totals mark a dramatic escalation.\n\nThe extreme top-heaviness of the funding environment raises questions about the health of the broader startup ecosystem. While headline numbers suggest a venture market flush with capital, the reality is that a handful of heavily capitalized AI companies are absorbing the vast majority of available dollars. Smaller startups across other sectors may find themselves competing for an increasingly narrow slice of investor attention and funding.\n\nThe record month also highlights how rapidly valuations in the AI sector are climbing. OpenAI's $730 billion valuation now exceeds the market capitalization of most publicly traded companies globally, while Anthropic's $380 billion figure would place it among the world's 20 most valuable companies if it were public. Whether these private-market valuations can be sustained — or justified by eventual revenue — remains one of the defining questions for the technology industry in 2026.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "AI funding",
-        "startup investment"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T12:47:53.841Z"
-    },
-    {
-      "id": "ps-1772628487781-gsch",
-      "slug": "u-s-stocks-surrender-gains-after-bessent-signals-15-global-t",
-      "headline": "U.S. Stocks Surrender Gains After Bessent Signals 15% Global Tariff",
-      "subheadline": "Treasury Secretary's remarks on imminent trade levy rattle markets already navigating Middle East uncertainty",
-      "body": "U.S. equity markets reversed course on Monday after Treasury Secretary Scott Bessent indicated that a proposed 15% global tariff could take effect as early as this week, injecting fresh trade uncertainty into a session already clouded by geopolitical developments in the Middle East.\n\nStocks had opened higher before Bessent's comments pulled the rug from under the rally. The remarks brought trade policy squarely back to the forefront for investors who had been cautiously optimistic about the market's near-term trajectory. A blanket 15% levy on imports would represent a significant escalation in the administration's trade posture, potentially affecting supply chains, corporate margins, and consumer prices across a broad swath of the economy.\n\nThe timing of the announcement added to the market's unease. Traders were already monitoring fast-moving developments in the Middle East, creating a two-front source of volatility that made risk management particularly challenging. The combination of geopolitical tension and trade policy uncertainty is a familiar headwind for markets, but one that has repeatedly demonstrated its ability to spark sharp intraday reversals.\n\nA 15% across-the-board tariff, if implemented, would mark a departure from the more targeted, sector-specific levies that have characterized recent U.S. trade actions. Economists have warned that broad-based tariffs tend to act as a tax on domestic consumers and businesses that rely on imported goods and components, potentially weighing on economic growth at a time when the Federal Reserve is carefully calibrating its interest rate path.\n\nMarket participants will be closely watching for further details on the scope and timeline of the proposed tariff in the coming days. Any formal announcement could set the stage for retaliatory measures from trading partners, raising the specter of a broader trade conflict that would add another layer of complexity to an already uncertain macroeconomic outlook.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "tariffs",
-        "Scott Bessent",
-        "trade policy",
-        "U.S. stocks",
-        "Treasury Department",
-        "market volatility"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1713859272766-76751031af78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHx0YXJpZmZzJTIwU2NvdHQlMjBCZXNzZW50fGVufDB8MHx8fDE3NzI2Mjg0ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T12:48:07.781Z"
-    },
-    {
-      "id": "ps-1772628503292-li07",
-      "slug": "kraken-becomes-first-crypto-firm-to-win-federal-reserve-mast",
-      "headline": "Kraken Becomes First Crypto Firm to Win Federal Reserve Master Account",
-      "subheadline": "The milestone grants the exchange's banking arm direct access to Fedwire, though with significant limitations",
-      "body": "Cryptocurrency exchange Kraken has crossed a threshold no digital asset company has reached before, securing a Federal Reserve master account that gives its banking subsidiary direct access to the central bank's core payment infrastructure.\n\nKraken Financial, which operates under a Wyoming special-purpose depository institution charter, received approval to connect directly to Fedwire — the interbank payment network that processes trillions of dollars in transfers daily. The Federal Reserve Bank of Kansas City oversaw the application. Until now, Kraken relied on intermediary banks to move U.S. dollars on behalf of its customers, a dependency that added time and cost to transactions. With direct settlement capability, the exchange can accelerate deposits and withdrawals, particularly for institutional clients and high-volume traders who are most sensitive to settlement delays.\n\nThe access comes with notable constraints. Kraken will not earn interest on reserves held at the Fed, nor will it be eligible for the central bank's emergency lending facilities — privileges that traditional banks enjoy. The limited scope reflects ongoing regulatory caution about integrating crypto-native firms into the banking system's deepest plumbing, even as the broader policy environment has grown more accommodating toward digital assets.\n\nThe milestone fits into Kraken's broader strategic push toward institutional credibility and, ultimately, a public listing. Founded in 2011, the San Francisco-based exchange has watched rivals including Coinbase and Gemini complete their own transitions to publicly traded companies. Kraken's parent company, Payward, has been aggressively building out its capabilities through acquisitions: a $1.5 billion purchase of futures trading platform NinjaTrader last year, a $100 million deal for derivatives venue Small Exchange, and more recent additions including token management platform Magna and tokenized stock specialist Backed Finance.\n\nThe Fed master account has been a contentious prize in financial regulation. Wyoming's crypto-friendly banking charter was designed precisely to enable firms like Kraken Financial to seek such access, but applications from digital asset companies had previously stalled amid concerns from regulators and traditional banking lobbies. Kraken's approval could open the door for other crypto firms to pursue similar arrangements, potentially reshaping how the industry interfaces with the traditional financial system. For now, however, the exchange stands alone at the intersection of decentralized finance and the Federal Reserve's century-old payments architecture.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "Kraken",
-        "Federal Reserve",
-        "crypto regulation",
-        "Fedwire",
-        "IPO",
-        "institutional crypto"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/1f55b5e22ec39461abe4fb859e8826de3ae5245a-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/03/04/kraken-becomes-first-crypto-company-to-secure-fed-master-account-access-wsj",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T12:48:23.292Z"
     },
     {
       "id": "ps-1772627594077-xq1i",
@@ -1052,28 +1072,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-diesel-prices-surge-higher-as-iran-war-disrupts-supplies",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T18:48:02.755Z"
-    },
-    {
-      "id": "ps-1772560994498-kwep",
-      "slug": "oil-prices-surge-as-escalating-u-s-israel-conflict-with-iran",
-      "headline": "Oil Prices Surge as Escalating U.S.-Israel Conflict With Iran Roils Energy Markets",
-      "subheadline": "Crude rallies for a second consecutive session as widening Middle East war threatens Persian Gulf energy infrastructure",
-      "body": "Oil prices climbed sharply for a second straight day on Monday as the expanding military conflict involving the United States, Israel, and Iran sent shockwaves through global energy markets, with traders scrambling to price in the growing risk to petroleum assets across the Persian Gulf.\n\nThe rally reflects deepening concern that the war — described by market observers as \"staggering\" in scope — is moving beyond its initial theaters and now poses a direct threat to the critical energy infrastructure concentrated in one of the world's most important oil-producing regions. The Persian Gulf accounts for roughly a fifth of global crude supply, and any sustained disruption to production or shipping routes through the Strait of Hormuz could have far-reaching consequences for energy prices worldwide.\n\nBenchmark crude contracts have been under intense upward pressure as the conflict between the U.S.-Israeli coalition and Iran has escalated. While precise price levels were not immediately available, the two-day surge marks one of the most significant geopolitically driven rallies in recent months. Energy analysts have warned that the situation remains highly fluid, with the potential for further price spikes if hostilities expand to target oil facilities, tanker routes, or refining capacity in the region.\n\nThe broader implications extend well beyond the oil market. Rising crude prices feed directly into gasoline costs, manufacturing inputs, and transportation expenses, adding inflationary pressure at a time when central banks globally have been working to stabilize price growth. For oil-importing economies in Europe and Asia, a sustained price shock could weigh on growth prospects and complicate monetary policy decisions.\n\nMarket participants are now closely watching for any signs of supply disruption or strategic responses from major producers. OPEC members in the Gulf region face the dual challenge of navigating physical security risks to their infrastructure while managing the economic and diplomatic fallout of a conflict that shows no signs of de-escalation. With geopolitical risk premiums rising rapidly, energy markets appear poised for a period of elevated volatility as the situation in the Middle East continues to unfold.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Middle East conflict",
-        "Iran",
-        "energy markets",
-        "Persian Gulf",
-        "geopolitical risk",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1763604434058-1610eb3e255b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8b2lsJTIwcHJpY2VzJTIwTWlkZGxlJTIwRWFzdCUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzI0NTQ3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-02/latest-oil-market-news-and-analysis-for-march-3",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-03T18:03:14.498Z"
     }
   ]
 }
