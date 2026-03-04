@@ -1,7 +1,138 @@
 {
-  "lastUpdated": "2026-03-04T19:03:41.767Z",
+  "lastUpdated": "2026-03-04T19:18:33.408Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772651833381-1cez",
+      "slug": "pentagon-releases-video-of-us-torpedo-striking-iranian-warsh",
+      "headline": "Pentagon Releases Video of US Torpedo Striking Iranian Warship",
+      "subheadline": "Around 140 crew members remain missing after the IRIS Dena was sunk in the Indian Ocean as US-Iran conflict escalates",
+      "body": "The Pentagon has released footage showing a U.S. torpedo striking an Iranian warship in the Indian Ocean, as the military conflict between the United States and Iran enters a dangerous new phase. U.S. Secretary of Defense Pete Hegseth confirmed the sinking but did not identify the vessel by name.\n\nThe ship is believed to be the IRIS Dena, after Sri Lanka's navy confirmed it had rescued 32 people following a distress call from the Iranian vessel. Approximately 140 crew members remain unaccounted for, raising the specter of significant Iranian military casualties that could further inflame tensions across the Middle East.\n\nThe naval engagement comes amid a broader U.S.-Israeli military campaign against Iran dubbed Operation Epic Fury. The conflict has already produced devastating consequences on multiple fronts: Iran has struck the U.S. Navy base in Bahrain, exposing what analysts describe as concerning gaps in American air defenses in the region. Six U.S. F-15 fighter jets were mistakenly shot down by Kuwaiti air defenses, though all crew members are reported in stable condition. Three U.S. service members have been killed in action, with President Donald Trump warning that \"there will likely be more\" American deaths.\n\nThe situation escalated dramatically when Iranian state media confirmed that Supreme Leader Ali Khamenei has been killed in the strikes, a development that could fundamentally reshape Iran's political and military command structure. Trump, directing operations from Palm Beach, Florida, has framed the campaign as targeting what he called Iran's \"unending campaign of bloodshed and mass murder targeting the United States,\" while explicitly stating his objective of regime change. Hegseth sought to distinguish the operation from past Middle Eastern conflicts, telling reporters, \"This is not Iraq, this is not endless,\" though he offered few specifics about the campaign's scope or intended duration.\n\nThe conflict's ripple effects are already spreading beyond Iran's borders. Footage has emerged of an Iranian drone crash-landing in flames in Kuwait, strikes have devastated neighborhoods in Tehran, and BBC correspondents have reported from bomb shelters in Tel Aviv as Iran launched retaliatory strikes toward Israel. Protests have erupted across American cities, with demonstrators opposing the military action and additional rallies planned. With no clear endgame articulated by the administration and casualties mounting on all sides, the crisis represents the most significant U.S. military engagement in the Middle East in over two decades.",
+      "category": "breaking",
+      "importance": 10,
+      "tags": [
+        "Iran",
+        "US military",
+        "Pentagon",
+        "Middle East conflict",
+        "IRIS Dena",
+        "Operation Epic Fury",
+        "Pete Hegseth",
+        "Donald Trump"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/83ed/live/fd575160-17df-11f1-801d-ed3cff6bf876.jpg",
+      "sourceUrl": "https://www.bbc.com/news/videos/cd6zzg2g7vno?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-04T19:17:13.381Z"
+    },
+    {
+      "id": "ps-1772651850967-mfn4",
+      "slug": "researchers-challenge-key-findings-on-implicit-particle-in-c",
+      "headline": "Researchers Challenge Key Findings on Implicit Particle-in-Cell Simulations",
+      "subheadline": "Los Alamos scientists argue that widely cited conclusions about plasma simulation methods stem from flawed diagnostic procedures",
+      "body": "A team of plasma physicists has published a pointed rebuttal to a 2025 study on particle-in-cell (PIC) simulation methods, arguing that the original paper's central conclusion — that implicit schemes require dramatically more computational particles when grid cells exceed the Debye length — does not hold up under independent scrutiny.\n\nLuis Chacón, Guangye Chen, and Lee Ricketson posted their comment on arXiv on March 2, taking direct aim at a paper by N. Savard and colleagues published in Physics of Plasmas (volume 32, 2025). The original study implemented a fully nonlinear, charge- and energy-conserving implicit particle-in-cell method, known as ECC-IPIC, and tested it across several benchmark problems including ion acoustic shockwave propagation and plasma sheath formation in bounded systems. Savard et al. concluded that reproducing highly resolved, convergent solutions required significantly higher particle counts per cell when the simulation grid spacing exceeded the plasma Debye length — a finding that, if correct, would undercut one of the chief practical advantages of implicit PIC methods over their explicit counterparts.\n\nImplicit PIC schemes have gained traction in the computational plasma physics community precisely because they promise the ability to use larger time steps and coarser spatial grids than the Debye length without sacrificing physical fidelity. This relaxation of resolution constraints can translate into orders-of-magnitude reductions in computational cost for multiscale plasma problems, from fusion energy research to space weather modeling. A requirement for vastly more particles to compensate for coarser grids would significantly erode those efficiency gains.\n\nChacón and his co-authors report that they identified multiple procedural issues in how Savard et al. conducted their diagnostics for the ion acoustic shockwave test case. When these issues were corrected, the authors state, the outcome of the study changed dramatically — effectively nullifying the original paper's headline finding. The comment does not appear to dispute the underlying numerical implementation of ECC-IPIC itself, but rather the methodology used to evaluate and compare simulation quality across different parameter regimes.\n\nThe exchange highlights an ongoing and consequential debate within computational plasma physics about the practical scalability of implicit, structure-preserving PIC algorithms. As these methods are increasingly adopted for large-scale simulations of magnetically confined fusion plasmas, laser-plasma interactions, and astrophysical phenomena, establishing reliable benchmarking practices is critical. The dispute also underscores the importance of reproducibility and rigorous diagnostic standards in computational physics, where subtle choices in post-processing can lead to markedly different scientific conclusions.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "plasma physics",
+        "particle-in-cell",
+        "computational physics",
+        "simulation methods",
+        "scientific debate"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1727434032792-c7ef921ae086?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxwbGFzbWElMjBwaHlzaWNzJTIwcGFydGljbGUtaW4tY2VsbHxlbnwwfDB8fHwxNzcyNjUxODUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.02299",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-04T19:17:30.967Z"
+    },
+    {
+      "id": "ps-1772651866287-h8b5",
+      "slug": "combined-neutrino-experiments-find-stronger-evidence-for-mat",
+      "headline": "Combined Neutrino Experiments Find Stronger Evidence for Matter-Antimatter Asymmetry",
+      "subheadline": "Joint analysis from NOvA and T2K suggests neutrinos may not behave like their antimatter counterparts, offering clues to the universe's existence",
+      "body": "An unprecedented joint analysis of data from two of the world's leading neutrino experiments has produced the strongest evidence yet that neutrinos and antineutrinos behave differently — a subtle asymmetry that could help explain why the universe is made of matter rather than nothing at all.\n\nThe findings, published March 3 in Nature, combine results from the NOvA experiment in the United States and the T2K experiment in Japan. NOvA fires a neutrino beam 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends its beam 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector buried beneath Mount Ikenoyama. By merging their complementary datasets — NOvA's longer baseline through Earth's crust and T2K's shorter but more intense beam — the international collaboration achieved measurements of neutrino behavior that neither experiment could have reached alone.\n\nAt the heart of the investigation is a concept known as CP symmetry, or charge-parity symmetry, which holds that matter and antimatter should obey identical physical laws. The Big Bang should have produced equal quantities of both, which would have annihilated each other and left behind an empty universe. Instead, a slight imbalance favored matter, giving rise to galaxies, stars, and life. Neutrinos, which exist in three \"flavors\" — electron, muon, and tau — and oscillate between them as they travel, offer a way to test whether this symmetry holds. The combined analysis suggests it may not: the data indicate a possible violation of CP symmetry, meaning neutrinos and their antimatter counterparts appear to oscillate at different rates.\n\n\"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics department at Indiana University Bloomington, who has held leadership roles in the NOvA collaboration since 2006. Indiana University researchers have contributed to detector construction, data interpretation, and the training of the next generation of physicists across both experiments. The joint effort involves hundreds of scientists from more than a dozen countries, supported by funding from the U.S. Department of Energy.\n\nWhile the results do not yet constitute a definitive discovery, they set the stage for next-generation experiments designed to push the measurement further. The Deep Underground Neutrino Experiment, currently under construction, aims to achieve the precision needed to confirm or rule out CP violation in the neutrino sector. If confirmed, the finding would represent one of the most significant advances in particle physics in decades, providing a concrete mechanism to explain why matter survived the earliest moments of the cosmos. As Messier noted, \"Instead of being dumbstruck by the enormity of it, we can actually make progress toward an answer about why we're here in the universe.\"",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "neutrinos",
+        "CP violation",
+        "matter-antimatter asymmetry",
+        "NOvA",
+        "T2K",
+        "particle physics",
+        "Big Bang"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T19:17:46.287Z"
+    },
+    {
+      "id": "ps-1772651883709-t4xn",
+      "slug": "anthropic-s-claude-powers-iran-strike-targeting-even-as-defe",
+      "headline": "Anthropic's Claude Powers Iran Strike Targeting Even as Defense Clients Flee",
+      "subheadline": "The AI company finds itself in a paradox: actively used in wartime operations while being systematically replaced across the defense sector",
+      "body": "Anthropic's flagship AI model Claude is being used to suggest and prioritize targets in the ongoing U.S.-led aerial campaign against Iran, even as defense contractors and their subcontractors rapidly move to replace the company's technology with competing systems — a paradox born from conflicting government directives and the chaotic timing of war.\n\nThe situation stems from a series of overlapping and contradictory policy decisions. President Trump ordered civilian agencies to stop using Anthropic products, while granting the Department of Defense a six-month wind-down period. Before that transition could begin in earnest, the U.S. and Israel launched a surprise attack on Tehran, freezing the status quo in place. According to reporting by The Washington Post, Anthropic's models working in conjunction with Palantir's Maven system have \"suggested hundreds of targets, issued precise location coordinates, and prioritized those targets according to importance\" as Pentagon officials plan strikes. The Post described the system's role as providing \"real-time targeting and target prioritization\" — placing Anthropic's technology at the operational heart of an active military campaign.\n\nYet the commercial consequences for Anthropic are already severe. Lockheed Martin and other major defense contractors have begun swapping out Claude for rival AI models, according to Reuters. The exodus extends well beyond prime contractors: a managing partner at defense-focused venture firm J2 Ventures told CNBC that 10 of his portfolio companies have stopped using Claude for defense applications and are actively migrating to alternatives. The flight appears driven less by legal mandate than by industry caution — Secretary of Defense Pete Hegseth has publicly pledged to designate Anthropic as a supply-chain risk, though no formal action has been taken.\n\nThe irony of Anthropic's position is difficult to overstate. The company, which has built its brand around AI safety and responsible deployment, now finds its technology embedded in lethal targeting decisions during wartime while simultaneously losing the broader defense market it never enthusiastically pursued. If Hegseth follows through on the supply-chain risk designation, Anthropic could face a legal battle with existential implications for its government business. But even without that formal step, the market is rendering its own verdict.\n\nFor the wider AI industry, the episode underscores how quickly geopolitical events can reshape commercial relationships. Competitors including OpenAI and Google, both of which have pursued defense contracts more aggressively, stand to absorb Anthropic's displaced clients. The question now is whether Anthropic's involuntary role in the Iran conflict — and its forced departure from the defense sector — will permanently alter its standing in one of AI's most lucrative markets.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "defense technology",
+        "Iran",
+        "Pentagon",
+        "AI military",
+        "Palantir"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/iran-airstrike-2263722022.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T19:18:03.709Z"
+    },
+    {
+      "id": "ps-1772651898224-u5qm",
+      "slug": "stocks-rally-on-strong-economic-data-as-bitcoin-tops-73-000",
+      "headline": "Stocks Rally on Strong Economic Data as Bitcoin Tops $73,000",
+      "subheadline": "Resilient growth figures and easing inflation lift equities, while oil swings on Middle East uncertainty",
+      "body": "U.S. equities advanced broadly after fresh economic data painted a picture of durable growth alongside moderating inflation, offering investors a welcome reprieve from mounting geopolitical concerns tied to the ongoing conflict in the Middle East.\n\nThe rally came as a surprise to some market participants who had expected deteriorating sentiment to weigh on risk assets. Instead, signs that the economy remains on solid footing — even as price pressures continue to cool — bolstered confidence that the Federal Reserve may be threading the needle of a soft landing. Bitcoin surged past $73,000, reflecting renewed appetite for risk across asset classes.\n\nOil markets told a more complicated story. Crude prices whipsawed throughout the session as traders weighed the conflicting forces of robust U.S. economic activity, which supports demand, against the persistent threat of supply disruptions stemming from the Middle East war. The volatile swings underscored the degree to which geopolitical risk remains a wild card for energy markets and, by extension, the broader inflation trajectory.\n\nThe session's gains suggest that, for now, investors are choosing to focus on hard economic data over headline risk. The combination of resilient output and easing price pressures is precisely the macro backdrop that equity bulls have been hoping for — one that could give the Fed room to ease monetary policy later this year without stoking a fresh inflationary impulse. Still, analysts cautioned that the geopolitical landscape remains fragile and could quickly shift the calculus if the conflict escalates further or begins to materially crimp global energy supplies.\n\nMarket strategists will be watching closely in the days ahead for any spillover from oil volatility into consumer prices and corporate earnings guidance, both of which could test the durability of the current risk-on mood.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "stocks",
+        "bitcoin",
+        "oil",
+        "inflation",
+        "Middle East",
+        "economic data",
+        "Federal Reserve"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1642782477613-5d6de8d24ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxzdG9ja3MlMjBiaXRjb2lufGVufDB8MHx8fDE3NzI2NDgzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T19:18:18.224Z"
+    },
+    {
+      "id": "ps-1772651913301-3wi5",
+      "slug": "coinbase-ceo-armstrong-met-trump-ahead-of-presidential-broad",
+      "headline": "Coinbase CEO Armstrong Met Trump Ahead of Presidential Broadside Against Banks",
+      "subheadline": "Private meeting preceded Trump's public attack on banks for stalling crypto legislation, as stablecoin fight intensifies",
+      "body": "Coinbase CEO Brian Armstrong held a private meeting with President Donald Trump shortly before the president launched a public attack on the banking industry for obstructing major cryptocurrency legislation, according to multiple reports confirmed by CoinDesk on Tuesday.\n\nThe closed-door meeting, first reported by Politico and cited to two people with knowledge of the matter, preceded a Truth Social post in which Trump accused banks of trying to \"undermine our powerful Crypto Agenda\" and demanded swift passage of the Clarity Act, a market structure bill that has stalled in the Senate. \"The Banks are hitting record profits, and we are not going to allow them to undermine our powerful Crypto Agenda that will end up going to China, and other Countries if we don't get The Clarity Act taken care of,\" Trump wrote. Neither the White House nor Coinbase responded to requests for comment, and the specific contents of the Armstrong-Trump conversation remain unknown.\n\nThe episode underscores the escalating lobbying war between the cryptocurrency industry and traditional banks over the GENIUS Act, a bipartisan stablecoin bill that has become the flashpoint in the broader fight over digital asset regulation. Banks, led by JPMorgan CEO Jamie Dimon, argue that allowing stablecoin issuers to pay interest on customer balances would drain bank deposits and undermine their lending capacity — effectively creating unregulated shadow banks. Dimon said Tuesday that any stablecoin issuer paying yield should face the same regulatory framework as traditional banks.\n\nThe crypto industry has pushed back forcefully. Patrick Witt, executive director of the President's Council of Advisors for Digital Assets, called Dimon's framing deceptive, arguing that the GENIUS Act explicitly prohibits stablecoin issuers from lending out or rehypothecating the dollars backing their tokens. \"Stablecoins ≠ Deposits,\" Witt wrote, drawing a sharp distinction between holding reserves and engaging in fractional-reserve banking.\n\nMarkets responded enthusiastically to the political signals. Bitcoin surged above $73,000 on Wednesday amid a broader rally in digital assets, while Coinbase shares climbed past $200 — their highest level since late January. The rally came alongside $1.7 billion in inflows to spot bitcoin ETFs, suggesting institutional investors were buying into the momentum. The convergence of presidential intervention, legislative maneuvering, and market action marks a new phase in Washington's crypto policy debate, with the world's largest cryptocurrency exchange now appearing to enjoy direct access to the Oval Office at a pivotal moment for the industry's regulatory future.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Brian Armstrong",
+        "Donald Trump",
+        "Coinbase",
+        "GENIUS Act",
+        "stablecoins",
+        "crypto regulation",
+        "banking"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5533b845762561aae8717a69c1cd6477a1ae2648-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/04/brian-armstrong-met-with-trump-before-the-president-slammed-banks-over-the-crypto-bill",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T19:18:33.301Z"
+    },
     {
       "id": "ps-1772650943064-q071",
       "slug": "us-submarine-sinks-iranian-warship-with-torpedo-in-indian-oc",
@@ -47,50 +178,6 @@
       "publishedAt": "2026-03-04T19:02:36.854Z"
     },
     {
-      "id": "ps-1772650972311-dzaw",
-      "slug": "combined-neutrino-experiments-strengthen-case-for-matter-ant",
-      "headline": "Combined Neutrino Experiments Strengthen Case for Matter-Antimatter Asymmetry",
-      "subheadline": "Joint analysis of U.S. and Japanese neutrino data published in Nature offers strongest hints yet of CP symmetry violation",
-      "body": "An unprecedented joint analysis of data from two of the world's leading neutrino experiments has produced the strongest evidence to date that neutrinos and their antimatter counterparts do not behave as perfect mirror images of each other — a subtle asymmetry that could help explain why the universe contains matter at all.\n\nThe findings, published March 3 in Nature, combine results from the NOvA experiment in the United States and the T2K experiment in Japan. NOvA fires neutrino beams 810 kilometers from Fermilab near Chicago to a 14,000-ton detector in Ash River, Minnesota, while T2K sends beams 295 kilometers from the J-PARC accelerator in Tokai to the Super-Kamiokande detector buried beneath Mount Ikenoyama. By merging datasets from these complementary setups — NOvA's longer baseline through Earth's crust and T2K's shorter but more intense beam — researchers achieved significantly improved precision in measuring how neutrinos oscillate between their three \"flavors\": electron, muon, and tau.\n\nThe central question at stake is one of cosmology's deepest puzzles. The Big Bang should have produced equal quantities of matter and antimatter, which would have annihilated each other completely, leaving behind nothing but energy. Instead, a slight imbalance allowed matter to survive, eventually forming galaxies, stars, planets, and life. Physicists have long suspected that violations of CP symmetry — the principle that matter and antimatter should obey identical physical laws — could account for this imbalance. The combined NOvA-T2K analysis found suggestive evidence that neutrinos and antineutrinos oscillate differently, pointing toward exactly this kind of CP violation. \"We've made progress on this really big, seemingly intractable question: why is there something instead of nothing?\" said Mark Messier, Distinguished Professor and Chair of the Physics department at Indiana University Bloomington, who has held leadership roles in the research since 2006.\n\nThe collaboration spans hundreds of scientists from more than a dozen countries across the United States, Europe, and Japan, with funding from the U.S. Department of Energy. Indiana University researchers have contributed to detector construction, data interpretation, and the training of graduate students, six of whom are currently involved in the joint study. The partnership between NOvA and T2K is seen as a model for how future large-scale particle physics projects may operate, pooling resources and complementary experimental designs to extract insights that neither facility could achieve alone.\n\nWhile the results do not yet constitute a definitive discovery of CP violation in the neutrino sector, they set the stage for next-generation experiments — including the Deep Underground Neutrino Experiment (DUNE) under construction in South Dakota and the Hyper-Kamiokande detector being built in Japan — that aim to settle the question with greater statistical certainty. If confirmed, the finding would represent a major step toward understanding not just the behavior of nature's most elusive particles, but the fundamental reason the universe exists in its present form.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "neutrinos",
-        "CP violation",
-        "matter-antimatter asymmetry",
-        "NOvA",
-        "T2K",
-        "particle physics",
-        "Big Bang"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/big-bang-expanding-universe.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303145703.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T19:02:52.311Z"
-    },
-    {
-      "id": "ps-1772650988689-56s0",
-      "slug": "anthropic-caught-in-paradox-powering-iran-strikes-while-losi",
-      "headline": "Anthropic Caught in Paradox: Powering Iran Strikes While Losing Defense Clients",
-      "subheadline": "Claude AI models are actively used in U.S. targeting operations against Iran even as contractors rush to replace Anthropic's technology",
-      "body": "Anthropic finds itself in one of the most contradictory positions in modern defense-technology history: its Claude AI is being used to help select targets in the ongoing U.S.-Israeli military campaign against Iran, even as defense contractors and their subcontractors race to sever ties with the company.\n\nThe situation stems from a clash between political directives and battlefield realities. President Trump ordered civilian agencies to stop using Anthropic products and gave the Department of Defense six months to wind down its relationship with the AI firm. But the very next day, the U.S. and Israel launched a surprise attack on Tehran, initiating a conflict that has made an immediate decoupling operationally impossible. According to a Washington Post investigation published Wednesday, Anthropic's models — integrated with Palantir's Maven platform — have been suggesting hundreds of targets, generating precise coordinates, and prioritizing strikes in what the report described as \"real-time targeting and target prioritization.\"\n\nDespite the active military reliance on Claude, the defense industry's commercial relationship with Anthropic is rapidly dissolving. Reuters reported this week that Lockheed Martin and other major defense contractors have begun replacing Anthropic's models with competitors. The exodus extends deep into the supply chain: a managing partner at J2 Ventures told CNBC that 10 of his portfolio companies have already stepped away from Claude for defense applications and are actively migrating to alternative AI services.\n\nThe legal picture remains murky. Secretary of Defense Pete Hegseth has publicly pledged to designate Anthropic as a supply-chain risk — a move that would formally bar the company from defense work and almost certainly trigger a significant legal battle. However, no official designation has been made, meaning there are currently no legal barriers preventing the military from continuing to use Claude in combat operations. The gap between political rhetoric and regulatory action has created a gray zone that both the Pentagon and Anthropic are navigating in real time.\n\nThe episode marks a pivotal moment for AI governance in national security. One of the world's leading AI laboratories is simultaneously powering active wartime operations and being systematically removed from the defense ecosystem that depends on it. For Anthropic, which has long positioned itself as the safety-focused alternative among frontier AI companies, the irony is acute — its technology is embedded in lethal military decisions even as its commercial defense relationships collapse around it. The coming weeks will likely be defined by whether Hegseth follows through on the supply-chain risk designation and how quickly the military can transition away from Claude without disrupting ongoing operations in the Middle East.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "Claude",
-        "defense technology",
-        "Iran conflict",
-        "Pentagon",
-        "Palantir",
-        "AI military"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/iran-airstrike-2263722022.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/04/the-us-military-is-still-using-claude-but-defense-tech-clients-are-fleeing/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T19:03:08.689Z"
-    },
-    {
       "id": "ps-1772651005693-q749",
       "slug": "putin-signals-russia-may-cut-off-most-natural-gas-sales-to-e",
       "headline": "Putin Signals Russia May Cut Off Most Natural Gas Sales to Europe",
@@ -110,50 +197,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-04/putin-says-russia-to-weigh-redirecting-gas-supplies-away-from-eu",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T19:03:25.693Z"
-    },
-    {
-      "id": "ps-1772651021655-ysjr",
-      "slug": "coinbase-ceo-met-trump-before-president-attacked-banks-over-",
-      "headline": "Coinbase CEO Met Trump Before President Attacked Banks Over Crypto Bill",
-      "subheadline": "Private meeting preceded Trump's Truth Social broadside against banks he accused of undermining the GENIUS Act",
-      "body": "Coinbase CEO Brian Armstrong held a private meeting with President Donald Trump shortly before the president launched a public attack on the banking industry for allegedly stalling pro-crypto legislation, according to multiple reports confirmed by CoinDesk on Tuesday.\n\nThe closed-door meeting, first reported by Politico and cited to two anonymous sources, took place just before Trump took to Truth Social to accuse banks of trying to \"undermine our powerful Crypto Agenda.\" In the post, Trump urged swift passage of the Clarity Act and declared that \"Americans should earn more money on their money,\" adding that banks \"are hitting record profits\" and warning that inaction could cede the crypto industry to China and other competitors. Neither the White House nor Coinbase has publicly commented on the substance of the discussions.\n\nThe confrontation centers on a fundamental dispute that has stalled the GENIUS Act in the Senate Banking Committee. Traditional banks, led vocally by JPMorgan CEO Jamie Dimon, argue that allowing stablecoin issuers to pay interest on customer balances would siphon deposits away from the banking system, eroding their lending capacity. Dimon said Tuesday that any stablecoin issuer paying yield should face bank-equivalent regulation. The crypto industry counters that consumers deserve the right to earn returns on their stablecoin holdings and that the legislation includes sufficient safeguards. Patrick Witt, executive director of the President's Council of Advisors for Digital Assets, pushed back directly against Dimon's framing, arguing that the GENIUS Act explicitly prohibits stablecoin issuers from lending out or rehypothecating underlying dollar reserves — the activity that actually necessitates bank-like oversight. \"Stablecoins ≠ Deposits,\" Witt wrote.\n\nThe political dynamics of the meeting raise questions about the growing proximity between the White House and the crypto industry at a pivotal legislative moment. Trump's intervention effectively aligned the presidency with Coinbase's lobbying position in a dispute that had threatened to derail what would be the most significant digital asset legislation to date. The timing also coincides with early results from the 2026 congressional primaries, where the crypto-backed Fairshake PAC notched several wins for pro-crypto candidates.\n\nMarkets responded favorably on Wednesday. Coinbase shares surged past $200, reaching their highest level since late January, while Bitcoin cleared $73,000 amid a broad rally in digital assets. Crypto-related equities rose across the board, with investors interpreting the presidential intervention as a signal that legislative momentum could soon resume.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Coinbase",
-        "Brian Armstrong",
-        "Donald Trump",
-        "GENIUS Act",
-        "stablecoins",
-        "crypto regulation",
-        "banking"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/5533b845762561aae8717a69c1cd6477a1ae2648-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/04/brian-armstrong-met-with-trump-before-the-president-slammed-banks-over-the-crypto-bill",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T19:03:41.655Z"
-    },
-    {
-      "id": "ps-1772650036433-bbnj",
-      "slug": "pentagon-releases-video-of-us-torpedo-sinking-iranian-warshi",
-      "headline": "Pentagon Releases Video of US Torpedo Sinking Iranian Warship",
-      "subheadline": "Around 140 crew members remain missing after the IRIS Dena was struck in the Indian Ocean amid widening US-Iran conflict",
-      "body": "The Pentagon has released footage showing a U.S. torpedo striking an Iranian warship in the Indian Ocean, as the military conflict between Washington and Tehran escalates into its second day with mounting casualties on both sides.\n\nU.S. Secretary of Defense Pete Hegseth confirmed that the American military sank what he described as \"an Iranian warship\" but declined to identify the vessel by name. Sri Lankan naval authorities, however, provided critical details: they reported rescuing 32 survivors after receiving a distress call from the IRIS Dena, an Iranian naval vessel. Approximately 140 crew members remain unaccounted for, raising the specter of significant Iranian military casualties in what appears to be the most direct naval engagement between the two nations.\n\nThe sinking comes amid a rapidly deteriorating situation across the Middle East. Iran has struck back at U.S. assets in the region, targeting the American naval base in Bahrain and exposing what analysts describe as gaps in U.S. air defense systems — a vulnerability that could alarm Washington's regional allies. In a separate incident, six U.S. F-15 fighter jets were shot down by Kuwaiti air defenses in what the Pentagon characterized as a tragic mistake, though all crew members are reported to be in stable condition. Three U.S. service members have been killed in action during the operation, which the Trump administration has dubbed Operation Epic Fury.\n\nPresident Donald Trump, directing military operations from Palm Beach, Florida, announced \"major combat operations\" against Iran and accused the Iranian regime of waging an \"unending campaign of bloodshed and mass murder targeting the United States.\" In a video statement posted to Truth Social, Trump warned that \"there will likely be more\" American deaths as the conflict continues. Secretary Hegseth sought to distinguish the campaign from past Middle Eastern entanglements, stating, \"This is not Iraq, this is not endless,\" though he offered few specifics about the operation's scope or intended duration.\n\nThe conflict has already produced seismic consequences. Iranian state media confirmed that Supreme Leader Ali Khamenei was killed in the U.S.-Israeli strikes, which have devastated parts of Tehran. Protests have erupted across American cities in opposition to the military action, with additional demonstrations planned. The joint U.S.-Israeli operation has drawn retaliatory Iranian drone and missile strikes, with footage emerging of an Iranian drone crash-landing in Kuwait. As the situation evolves by the hour, the international community faces the most significant military confrontation in the Middle East in decades, with no clear diplomatic off-ramp in sight.",
-      "category": "breaking",
-      "importance": 10,
-      "tags": [
-        "US-Iran conflict",
-        "Pentagon",
-        "IRIS Dena",
-        "Operation Epic Fury",
-        "Middle East",
-        "Pete Hegseth",
-        "Donald Trump"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/83ed/live/fd575160-17df-11f1-801d-ed3cff6bf876.jpg",
-      "sourceUrl": "https://www.bbc.com/news/videos/cd6zzg2g7vno?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T18:47:16.433Z"
     },
     {
       "id": "ps-1772650099181-1qkr",
@@ -217,27 +260,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-04/apollo-s-zito-sees-private-credit-pain-lasting-up-to-18-months",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T18:33:17.207Z"
-    },
-    {
-      "id": "ps-1772648309113-1ht1",
-      "slug": "stocks-rally-on-surprise-economic-strength-as-bitcoin-tops-7",
-      "headline": "Stocks Rally on Surprise Economic Strength as Bitcoin Tops $73,000",
-      "subheadline": "Encouraging data on growth and cooling inflation lift equities despite Middle East uncertainty; oil swings wildly",
-      "body": "U.S. equities climbed on Monday as fresh economic data painted a picture of resilient growth paired with easing inflationary pressures, offering investors a rare moment of optimism amid persistent geopolitical turbulence in the Middle East.\n\nThe rally came as a surprise to many market participants who had braced for weaker readings given the ongoing conflict in the region, which continues to cloud the global economic outlook. Instead, the data suggested the American economy is navigating headwinds more effectively than feared, bolstering the case that the Federal Reserve may be threading the needle on its dual mandate of stable prices and maximum employment. The S&P 500 and Dow Jones Industrial Average both posted gains in the session.\n\nBitcoin surged past the $73,000 mark, extending a powerful run that has pushed the world's largest cryptocurrency deeper into record territory. The move reflects broadening risk appetite across asset classes, as traders appear willing to chase momentum in both traditional equities and digital assets simultaneously. Crypto markets have benefited in recent months from growing institutional adoption and expectations of a more favorable regulatory environment.\n\nOil markets told a more complicated story. Crude prices whipsawed throughout the session, buffeted by competing forces — demand optimism from the strong economic data on one side and supply uncertainty driven by the Middle East conflict on the other. The volatile trading underscored how energy markets remain the most direct transmission mechanism for geopolitical risk, with traders struggling to price in scenarios that range from conflict de-escalation to a broader regional disruption of supply routes.\n\nThe session's overall tone suggested that investors are, for now, choosing to lean into the positive economic narrative rather than hedge aggressively against worst-case geopolitical outcomes. Whether that posture proves durable will likely depend on incoming data confirming that the disinflationary trend has legs — and on whether the Middle East situation deteriorates further. With central bank policy meetings on the horizon and corporate earnings season approaching, markets face no shortage of catalysts in the weeks ahead.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "stocks",
-        "bitcoin",
-        "oil",
-        "inflation",
-        "economic data",
-        "Middle East"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1642782477584-8bceec1bca01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxzdG9ja3MlMjBiaXRjb2lufGVufDB8MHx8fDE3NzI2NDgzMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/stock-market-today-dow-s-p-live-updates-",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T18:18:29.113Z"
     },
     {
       "id": "ps-1772647408159-d83s",
@@ -1052,27 +1074,6 @@
       "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-04T06:03:38.844Z"
-    },
-    {
-      "id": "ps-1772600602615-oskp",
-      "slug": "india-s-rupee-plunges-to-record-low-as-oil-surge-fuels-infla",
-      "headline": "India's Rupee Plunges to Record Low as Oil Surge Fuels Inflation Fears",
-      "subheadline": "Rising crude prices driven by Middle East conflict hammer Indian stocks, bonds, and currency in broad selloff",
-      "body": "India's rupee tumbled to an all-time low on Tuesday as surging crude oil prices — propelled by an escalating conflict in the Middle East — triggered a sweeping selloff across Indian financial markets. Stocks and bonds fell in tandem with the currency, reflecting deepening investor anxiety over the economic toll of sustained energy price increases on one of the world's largest oil importers.\n\nThe decline underscores India's acute vulnerability to global energy shocks. The country imports roughly 85 percent of its crude oil needs, meaning that every sustained rise in Brent prices widens the trade deficit, pressures the current account, and feeds directly into consumer inflation. With the Reserve Bank of India already navigating a delicate balance between supporting growth and containing prices, the oil-driven rupee weakness complicates the central bank's policy calculus at a critical juncture.\n\nThe selloff was not confined to India. Currencies across the broader Asian region came under pressure as investors recalibrated risk in light of the Middle East escalation, which has threatened supply routes and raised the specter of prolonged disruptions to global crude flows. For India, however, the impact is particularly acute given the size of its energy import bill and the downstream effects on fiscal policy, where fuel subsidies and import costs could strain government finances.\n\nBond markets mirrored the pessimism, with yields rising as traders priced in the possibility that higher oil prices could delay or reverse any anticipated easing by the RBI. Indian equities also retreated broadly, with energy-intensive sectors bearing the brunt of the downturn. Foreign institutional investors, who had already turned cautious on emerging market assets in recent weeks, appeared to accelerate outflows.\n\nAnalysts warn that if crude prices remain elevated, India could face a sustained period of current account deterioration and imported inflation — a combination that historically has weighed heavily on the rupee. The central bank holds substantial foreign exchange reserves that could be deployed to smooth volatility, but policymakers face the difficult choice of defending the currency at the expense of reserve drawdowns or allowing further depreciation that risks amplifying inflationary pressures.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Indian rupee",
-        "crude oil",
-        "Middle East conflict",
-        "inflation",
-        "emerging markets",
-        "Reserve Bank of India"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1530446611691-a3c37e62c56a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxJbmRpYSUyMFJ1cGVlJTIwUGx1bmdlc3xlbnwwfDB8fHwxNzcyNjAwNjAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-04/india-s-rupee-at-record-low-as-oil-spike-stokes-inflation-worry-mmbhinkt",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T05:03:22.615Z"
     }
   ]
 }
