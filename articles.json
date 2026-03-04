@@ -1,7 +1,138 @@
 {
-  "lastUpdated": "2026-03-04T02:03:52.811Z",
+  "lastUpdated": "2026-03-04T02:18:24.219Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772590626894-rm4l",
+      "slug": "u-s-and-israel-sustain-four-day-bombing-campaign-across-iran",
+      "headline": "U.S. and Israel Sustain Four-Day Bombing Campaign Across Iran",
+      "subheadline": "Trump declares Iran's defenses 'gone' as death toll surpasses 780 and conflict spreads to Gulf states",
+      "body": "The United States and Israel continued a massive joint aerial assault on Iran for a fourth consecutive day on Tuesday, striking the presidential office in Tehran, an alleged covert nuclear compound, and senior military commanders, as President Donald Trump declared that the Islamic Republic's air defenses, navy, and leadership had been effectively eliminated.\n\nThe campaign, which began Saturday with strikes that killed Supreme Leader Ayatollah Ali Khamenei and senior officials, has expanded to encompass more than 1,000 reported strikes across the country. The Iranian Red Crescent reported at least 787 fatalities over four days, while the U.S.-based Human Rights Activists News Agency documented 742 civilian deaths, including 176 children. Among the most devastating incidents was a strike on the Shajare Tayyebeh school in the southern town of Minab, which Iranian officials say killed at least 165 girls and staff — a claim both the U.S. and Israel have stopped short of confirming or denying, with Secretary of State Marco Rubio saying the Pentagon was investigating.\n\nThe scope of the operation is staggering. The Israel Defense Forces announced it had killed Daoud Alizadeh, identified as the temporary commander of the Quds Force's Lebanon Corps, in a Tehran airstrike. U.S. Central Command confirmed the destruction of IRGC command-and-control facilities, air defense systems, missile launch sites, and military airfields. Satellite imagery released by Vantor showed extensive damage to Tehran's presidential office, judiciary complex, intelligence ministry, and IRGC headquarters. In the holy city of Qom, the offices of the Assembly of Experts — the clerical body responsible for choosing the supreme leader's successor — were nearly leveled. Trump told reporters at the White House that 49 Iranian leaders had been \"taken out\" Saturday and that \"another hit today on the new leadership\" had occurred, adding cryptically when asked who should govern Iran next: \"Most of the people we had in mind are dead.\"\n\nIran has responded with a broadening counterattack that is drawing the wider region into the conflict. Hundreds of missiles and drones have been launched at Israel and Gulf states hosting American military installations. A drone struck near the U.S. consulate in Dubai on Tuesday evening, hours after two drones hit the U.S. embassy in Riyadh. Six U.S. service personnel have been killed in attacks on Kuwait, while additional fatalities have been reported in the United Arab Emirates, Bahrain, and aboard a tanker off Oman's coast. Tehran has also declared the Strait of Hormuz closed, threatening to destroy any vessel attempting passage through the waterway that carries roughly 20 percent of global oil and gas shipments. The International Atomic Energy Agency confirmed satellite imagery showing damage to entrance buildings at Iran's underground Natanz enrichment facility, though it reported no radiological release.\n\nThe conflict's ripple effects are now reaching European shores. An Iranian-made drone struck the runway at Britain's RAF Akrotiri base in Cyprus, prompting Prime Minister Keir Starmer to dispatch the air-defense destroyer HMS Dragon to the island. French President Emmanuel Macron ordered the Charles de Gaulle aircraft carrier group to the eastern Mediterranean. With Iran's IRGC warning that \"the gates of hell will open more and more,\" and no diplomatic off-ramp visible, the four-day-old war shows every sign of intensifying before it abates.",
+      "category": "breaking",
+      "importance": 10,
+      "tags": [
+        "Iran",
+        "Israel",
+        "United States",
+        "Middle East war",
+        "Trump",
+        "Strait of Hormuz",
+        "military strikes",
+        "Gulf states"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/e507/live/ccb9a2e0-174b-11f1-9120-a910fc22c6ac.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cn0ekjnkj54o?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-04T02:17:06.894Z"
+    },
+    {
+      "id": "ps-1772590640744-21jb",
+      "slug": "rnns-outperform-transformers-in-predicting-composite-materia",
+      "headline": "RNNs Outperform Transformers in Predicting Composite Material Behavior",
+      "subheadline": "New study finds recurrent neural networks hold key advantages over transformer models for simulating path-dependent materials",
+      "body": "Recurrent neural networks significantly outperform transformer models when predicting the mechanical behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the prevailing assumption that transformer architectures — the backbone of modern large language models — are universally superior for sequence-dependent tasks.\n\nPetter Uvdal and Mohsen Mirkhalaf compared the two dominant neural network architectures on a specific but industrially critical problem: modeling the homogenized stress-strain response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, exhibit path-dependent behavior, meaning their mechanical response depends not just on current loading conditions but on their entire deformation history. Full-field simulations of such materials using representative volume elements (RVEs) remain computationally expensive, driving interest in machine learning surrogates.\n\nThe researchers employed Bayesian optimization to tune both architectural hyperparameters — including the number of GRU layers, hidden size, attention heads, and encoder blocks — and training hyperparameters such as learning rate and batch size. This rigorous approach ensured a fair comparison between the two model families. The results revealed a nuanced picture: transformer models proved competitive in accuracy when trained on large datasets and offered a sevenfold speed advantage at inference time, requiring just 0.5 milliseconds per prediction compared to 3.5 milliseconds for the RNN. However, RNNs demonstrated clearly superior performance on smaller datasets and, critically, in extrapolation regimes — scenarios where the model must predict material behavior outside the range of its training data.\n\nThe extrapolation gap represents a significant practical concern. In engineering applications, materials routinely encounter loading conditions not fully represented in training datasets. A surrogate model that fails under such conditions could produce dangerously inaccurate predictions. The study found that while RNNs maintained their accuracy when pushed beyond training boundaries, transformer models degraded substantially.\n\nThe work, posted to the arXiv preprint server, spans computational physics, materials science, and machine learning. It suggests that for multiscale modeling of path-dependent materials, the choice of neural network architecture involves meaningful tradeoffs between inference speed, data efficiency, and generalization capability — and that the newest architecture is not always the best tool for the job.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "machine-learning",
+        "materials-science",
+        "neural-networks",
+        "transformers",
+        "composite-materials",
+        "computational-physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1678931884462-312c820d3e67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxtYWNoaW5lLWxlYXJuaW5nJTIwbWF0ZXJpYWxzLXNjaWVuY2V8ZW58MHwwfHx8MTc3MjU0ODM1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.00092",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-04T02:17:20.744Z"
+    },
+    {
+      "id": "ps-1772590657303-kg9o",
+      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
+      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy versus cancerous cells",
+      "body": "A class of natural molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that explains for the first time how polyamines can simultaneously support healthy aging and fuel tumor growth.\n\nThe study, published in the Journal of Biological Chemistry, resolves a long-standing paradox in biology: polyamines, particularly spermidine, have been celebrated as \"geroprotectors\" for their ability to stimulate autophagy — the cellular cleanup process that clears damaged components. Yet high polyamine levels are also a consistent hallmark of aggressive cancers. A team led by Associate Professor Kyohei Higashi used advanced proteomic analysis of more than 6,700 proteins to reveal that polyamines activate fundamentally different molecular pathways depending on whether they are operating in healthy or malignant tissue.\n\nThe key distinction lies in two nearly identical proteins that share 84% of their amino acid sequence: eIF5A1 and eIF5A2. In normal cells, polyamines activate eIF5A1, which enhances mitochondrial function through autophagy — the mechanism behind their anti-aging reputation. In cancer cells, however, polyamines instead boost production of eIF5A2, which drives aerobic glycolysis and promotes rapid proliferation. The researchers found that polyamines accomplish this by suppressing a small regulatory RNA molecule called miR-6514-5p, which normally acts as a brake on eIF5A2 production. When that brake is released, cancer cells gain a growth advantage. The team also identified five ribosomal proteins elevated by this pathway, all previously associated with cancer severity.\n\n\"The biological activity of polyamines via eIF5A differs between normal and cancer tissues,\" Higashi explained, noting that eIF5A2 controls a distinct set of downstream proteins compared to its near-twin eIF5A1. This finding opens a potential therapeutic avenue: drugs targeting the interaction between eIF5A2 and ribosomes could theoretically slow cancer progression without disrupting the beneficial aging effects mediated by eIF5A1.\n\nThe results carry implications beyond the laboratory. Spermidine supplements have surged in popularity among consumers seeking longevity benefits, with the global anti-aging supplement market valued at tens of billions of dollars. While the study does not directly demonstrate that dietary polyamine supplements cause cancer in humans, it provides a mechanistic basis for caution — particularly for individuals with existing malignancies or elevated cancer risk. Future research may aim to develop strategies that preserve polyamines' protective effects while neutralizing their tumor-promoting potential, but for now, the findings underscore that biological context matters profoundly when evaluating any compound's safety profile.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2",
+        "Tokyo University of Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T02:17:37.303Z"
+    },
+    {
+      "id": "ps-1772590673002-pbgu",
+      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-fu",
+      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Funding",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion, underscoring venture capital's extraordinary concentration in artificial intelligence",
+      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — driven almost entirely by three artificial intelligence companies that together absorbed the vast majority of available capital.\n\nOpenAI led the surge with a $110 billion raise that valued the ChatGPT maker at $730 billion, making it one of the largest private funding rounds in history. Anthropic, its chief rival in the large language model race, secured a $30 billion Series G at a $380 billion valuation. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round valuing it at $126 billion. Together, the three companies accounted for $156 billion — or 83 percent — of all venture dollars deployed globally last month, according to a new report from Crunchbase.\n\nThe concentration is remarkable even by the standards of an industry that has increasingly funneled capital toward a handful of perceived winners. AI startups broadly captured $171 billion of the month's total, meaning roughly 90 percent of all venture investment went to companies building or deploying artificial intelligence. The remaining 10 percent was split among every other sector in the startup ecosystem, from biotech and fintech to climate technology.\n\nThe February figures also put the scale of current AI investment in stark historical context. The combined capital raised by just OpenAI, Anthropic, and Waymo in a single month equaled roughly one-third of the $425 billion in total global venture spending recorded across all of 2025, per Crunchbase data. That comparison illustrates how dramatically the pace of AI-related fundraising has accelerated, even as questions mount about when these companies will generate returns commensurate with their valuations.\n\nThe record month raises pressing questions about the sustainability of such concentrated capital deployment. With OpenAI valued at nearly three-quarters of a trillion dollars and Anthropic approaching $400 billion, these companies now carry valuations that rival some of the world's largest public corporations — yet remain private, with business models still evolving. For the broader venture ecosystem, the risk is that a winner-take-most dynamic in AI fundraising starves other sectors of the capital and investor attention needed to nurture the next generation of startups outside the artificial intelligence boom.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "artificial intelligence",
+        "startup funding",
+        "Crunchbase"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T02:17:53.002Z"
+    },
+    {
+      "id": "ps-1772590689335-tz5x",
+      "slug": "saudi-oil-storage-filling-rapidly-as-strait-of-hormuz-remain",
+      "headline": "Saudi Oil Storage Filling Rapidly as Strait of Hormuz Remains Closed",
+      "subheadline": "Geospatial analytics firm Kayrros reports surging inventory levels as the world's most critical oil chokepoint stays shut to tankers",
+      "body": "Saudi Arabia's major oil storage facilities are accumulating crude at an accelerating pace as the Strait of Hormuz — the narrow waterway through which roughly one-fifth of global oil supply typically flows — remains effectively shut to commercial shipping, according to geospatial analytics firm Kayrros.\n\nThe finding, first reported by Bloomberg on March 4, underscores the severity of the ongoing disruption to the world's most strategically important maritime chokepoint. With tankers unable to transit the strait, Saudi crude that would normally be loaded onto vessels bound for refineries across Asia and beyond is instead backing up in onshore tanks. Kayrros, which uses satellite imagery and remote sensing to track global energy infrastructure in near-real time, identified the rapid buildup across multiple storage sites in the kingdom.\n\nThe Strait of Hormuz, situated between Iran and Oman, typically handles the transit of some 20 million barrels of oil per day, making it the single most consequential bottleneck in global energy logistics. Any sustained closure forces producers on the Persian Gulf — including Saudi Arabia, Iraq, Kuwait, and the United Arab Emirates — to either curtail production or find alternative export pathways, most of which lack the capacity to absorb significant rerouted volumes. Saudi Arabia does maintain the East-West pipeline to the Red Sea port of Yanbu, but its throughput capacity of roughly 5 million barrels per day falls well short of the kingdom's total export needs.\n\nRising storage levels carry both immediate and longer-term consequences. In the near term, filling tanks constrain the operational flexibility of Saudi Aramco, potentially forcing production cuts if capacity limits are approached. For global markets, the disruption threatens to tighten supply to major importing nations — particularly in Asia, where China, India, Japan, and South Korea depend heavily on Gulf crude. Oil prices have already reflected heightened geopolitical risk premiums in recent sessions.\n\nThe satellite-verified data from Kayrros adds a layer of independent, empirical confirmation to what traders and analysts have feared since the disruption began. How long the closure persists — and whether diplomatic or military developments alter the situation — will be decisive in determining whether the storage surge becomes a full-blown supply crisis for consuming nations worldwide.",
+      "category": "business",
+      "importance": 9,
+      "tags": [
+        "oil",
+        "Saudi Arabia",
+        "Strait of Hormuz",
+        "energy",
+        "geopolitics",
+        "crude storage",
+        "Kayrros"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1674387295262-27f4c96fd73c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8U2F1ZGklMjBPaWwlMjBTdG9yYWdlJTIwRmlsbGluZyUyMFJhcGlkbHklMjBTdHJhaXR8ZW58MHwwfHx8MTc3MjU5MDY4OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-04/saudi-oil-storage-fills-fast-on-hormuz-disruption-kayrros-says",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T02:18:09.335Z"
+    },
+    {
+      "id": "ps-1772590704122-5xdw",
+      "slug": "fatf-stablecoins-now-dominate-illicit-crypto-activity-global",
+      "headline": "FATF: Stablecoins Now Dominate Illicit Crypto Activity Globally",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based international body that sets anti-money laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, citing their use by sanctioned actors in Iran and North Korea for proliferation financing and cross-border payments.\n\nIn a 42-page report, FATF said dollar-pegged tokens now account for the vast majority of illegal crypto flows, pointing to data from blockchain analytics firm Chainalysis showing stablecoins comprised 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. A separate analysis by TRM Labs, published in mid-February, estimated that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself had previously estimated roughly $51 billion in illicit stablecoin activity related to fraud and scams in 2024 alone.\n\nThe report singled out peer-to-peer transfers conducted through unhosted wallets — cryptocurrency wallets not controlled by regulated intermediaries — as a \"key vulnerability\" in the current regulatory framework. Because these transactions can bypass anti-money laundering controls entirely, they offer a particularly attractive channel for sanctions evasion. Sanctions-related activity accounted for 86% of illicit crypto flows, according to the TRM Labs data, with bad actors overwhelmingly relying on stablecoin platforms.\n\nFATF stopped short of recommending blanket blacklisting of stablecoins but called on member nations to impose anti-money laundering obligations directly on stablecoin issuers. The watchdog also urged regulators to consider requiring technical enforcement tools, including wallet freezing capabilities and restrictions on certain smart-contract functions that could facilitate illicit transfers. With the total stablecoin market now exceeding $300 billion in value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, the task force warned that compliance gaps are widening as adoption accelerates.\n\nThe report lands at a politically charged moment for stablecoin regulation in the United States, where President Donald Trump has publicly pushed for passage of the U.S. Clarity Act and criticized banks for resisting provisions in the GENIUS Act stablecoin legislation. JPMorgan CEO Jamie Dimon separately argued this week that stablecoin issuers offering interest should face bank-level regulation. FATF's findings add international weight to the case that the rapid growth of stablecoins has outpaced the regulatory infrastructure designed to prevent their misuse, creating an urgent imperative for coordinated global action.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "FATF",
+        "stablecoins",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T02:18:24.122Z"
+    },
     {
       "id": "ps-1772589759597-i3z5",
       "slug": "iran-holds-mass-funerals-after-alleged-us-israeli-strike-on-",
@@ -43,49 +174,6 @@
       "publishedAt": "2026-03-04T02:02:55.820Z"
     },
     {
-      "id": "ps-1772589791390-pgw7",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy versus cancerous cells",
-      "body": "Polyamines — naturally occurring molecules celebrated in the longevity supplement market for their ability to promote cellular housekeeping — can also turbocharge tumor growth, according to a new study that finally explains the paradox that has puzzled researchers for years.\n\nA team led by Associate Professor Kyohei Higashi at the Tokyo University of Science's Faculty of Pharmaceutical Sciences has identified the molecular switch that determines whether polyamines, particularly spermidine, act as cellular protectors or cancer accelerants. The key lies in two nearly identical proteins — eIF5A1 and eIF5A2 — that share 84% of their amino acid sequence but trigger fundamentally different biological outcomes. In healthy tissue, polyamines activate eIF5A1, which stimulates autophagy, the cellular recycling process associated with healthy aging. In cancerous tissue, however, the same molecules boost production of eIF5A2, a protein linked to aggressive tumor proliferation. The findings were published in Volume 301, Issue 8 of the Journal of Biological Chemistry.\n\nUsing high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines, the researchers demonstrated that polyamines in cancer cells primarily enhance glycolysis — the rapid energy-production pathway favored by tumors — rather than mitochondrial respiration, which underpins the longevity benefits seen in healthy cells. The team also identified five ribosomal proteins, including RPS 27A, RPL36AL, and RPL22L1, that polyamines elevate alongside eIF5A2, all of which correlate with cancer severity. Crucially, the researchers discovered that a small regulatory RNA molecule called miR-6514-5p normally suppresses eIF5A2 production, but polyamines disrupt this molecular brake, allowing the cancer-associated protein to accumulate.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context — whether tissue is healthy or malignant — determines which side of the polyamine coin is flipped.\n\nThe findings carry significant implications both for the booming supplement industry, where spermidine products are marketed as geroprotectors, and for oncology. The study identifies the interaction between eIF5A2 and ribosomes as a potential selective target for cancer therapy, one that could theoretically slow tumor growth without undermining the anti-aging benefits mediated by eIF5A1. For consumers taking polyamine-based supplements, the research underscores a need for caution — particularly for individuals with undetected malignancies or elevated cancer risk — until further clinical studies clarify the safety boundaries of these widely available compounds.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2",
-        "Tokyo University of Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T02:03:11.390Z"
-    },
-    {
-      "id": "ps-1772589804511-u3qb",
-      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
-      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as AI consumed 90% of all venture funding",
-      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple the total from January — according to a new report from Crunchbase. The staggering sum was overwhelmingly concentrated in artificial intelligence, with just three companies accounting for 83 cents of every venture dollar raised.\n\nOpenAI led the surge with a $110 billion round, one of the largest private fundraises in history, valuing the ChatGPT maker at $730 billion. Anthropic, its chief rival in the foundation model race, closed a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion raise at a $126 billion valuation. Together, the three companies absorbed $156 billion — an amount equal to roughly one-third of the entire $425 billion global venture spend across all of 2025.\n\nThe broader numbers underscore just how thoroughly AI has reshaped the venture landscape. Of the $189 billion deployed in February, $171 billion — or 90 percent — went to AI startups. The concentration of capital in a handful of mega-rounds raises questions about whether the current funding environment resembles a healthy ecosystem or an arms race among a few deep-pocketed contenders vying for dominance in generative AI and autonomous systems.\n\nThe February figures also highlight the widening valuation gap between AI leaders and the rest of the startup world. OpenAI's $730 billion valuation now exceeds that of most publicly traded companies, while Anthropic's $380 billion price tag has roughly doubled in a matter of months. Waymo's $126 billion valuation cements its position as the most valuable autonomous driving company by a wide margin.\n\nFor the venture industry, the month serves as both a milestone and a warning. Record-breaking capital deployment signals deep investor conviction in AI's transformative potential, but the extreme concentration — three companies consuming the vast majority of funding — suggests that smaller startups may increasingly struggle to compete for attention and capital in a market dominated by generative AI incumbents.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "AI funding",
-        "startup funding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T02:03:24.511Z"
-    },
-    {
       "id": "ps-1772589819497-mv06",
       "slug": "oil-prices-surge-as-u-s-hormuz-escort-plan-fails-to-calm-mar",
       "headline": "Oil Prices Surge as U.S. Hormuz Escort Plan Fails to Calm Markets",
@@ -105,48 +193,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/latest-oil-market-news-and-analysis-for-march-4",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-04T02:03:39.497Z"
-    },
-    {
-      "id": "ps-1772589832734-wpr1",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based global standard-setter for anti-money laundering rules, warned on Tuesday that stablecoins have become the dominant vehicle for illicit cryptocurrency transactions, with sanctioned actors in Iran and North Korea increasingly relying on dollar-pegged tokens to move money across borders.\n\nIn a 42-page report, FATF cited findings from blockchain analytics firms Chainalysis and TRM Labs showing that stablecoins accounted for 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025. TRM Labs separately estimated that illicit entities received $141 billion in stablecoins last year — the highest level in five years — with sanctions-related activity comprising 86% of those illicit flows. FATF itself estimated approximately $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report singled out peer-to-peer transfers conducted through unhosted wallets as a \"key vulnerability,\" noting that such transactions can bypass anti-money laundering controls entirely. FATF highlighted specific cases involving North Korean and Iranian actors using tokens such as Tether's USDT for proliferation financing and cross-border payments linked to sanctioned entities. The task force stopped short of recommending blanket blacklisting of stablecoins but urged member countries to impose anti-money laundering obligations directly on stablecoin issuers.\n\nAmong the measures FATF recommended, regulators should consider requiring wallet-freezing capabilities and restricting or banning certain functions embedded in smart contracts that facilitate anonymous transfers. With the stablecoin market now exceeding $300 billion in total value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, the watchdog said the window for closing compliance gaps is narrowing as mainstream adoption accelerates.\n\nThe report lands amid intensifying debate in Washington over stablecoin regulation. President Donald Trump recently urged swift passage of the U.S. Clarity Act, accusing banks of undermining stablecoin legislation, while JPMorgan CEO Jamie Dimon argued that stablecoin issuers paying interest should face bank-level regulation. FATF's findings are likely to bolster the case for stricter oversight globally, adding urgency to legislative efforts in the United States, European Union, and other major jurisdictions grappling with how to regulate an asset class that increasingly straddles the line between traditional finance and decentralized technology.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "stablecoins",
-        "FATF",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T02:03:52.734Z"
-    },
-    {
-      "id": "ps-1772587948584-ucey",
-      "slug": "rnns-outperform-transformers-for-composite-material-modeling",
-      "headline": "RNNs Outperform Transformers for Composite Material Modeling Beyond Training Data",
-      "subheadline": "New study finds recurrent neural networks deliver superior extrapolation accuracy, though transformers offer 7x faster inference speeds",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials outside their training data, according to a systematic comparison published by researchers at the University of Gothenburg — a finding with important implications for the use of AI surrogates in materials engineering.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf and posted to the arXiv preprint server, benchmarks the two dominant neural network architectures on the task of modeling short fiber reinforced composites (SFRCs), which are widely used in automotive, aerospace, and consumer products. Full-field simulations of these materials are notoriously expensive because their mechanical response depends on loading history — a property known as path dependence. Data-driven surrogate models promise to slash that computational cost, but the question of which architecture best captures the underlying physics has remained open.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized stress-strain responses generated from representative volume element simulations. They tuned architectural and training hyperparameters — including the number of GRU layers, hidden size, attention heads, encoder blocks, learning rate, and batch size — using Bayesian optimization to ensure a fair comparison. The results revealed a clear divide. Transformers remained competitive on accuracy when large datasets were available, but RNNs proved markedly better in two critical regimes: small-data settings, where training samples are limited, and extrapolation, where models must predict material behavior beyond the conditions seen during training. Under extrapolation, the transformer's accuracy degraded substantially while the RNN maintained reliable predictions.\n\nThe transformer architecture did hold one notable advantage: inference speed. At 0.5 milliseconds per prediction, it was roughly seven times faster than the RNN's 3.5 milliseconds — a margin that could matter in applications requiring millions of rapid evaluations, such as optimization loops or real-time digital twins.\n\nThe findings suggest that materials scientists should not default to transformer architectures simply because of their dominance in natural language processing and other AI domains. For path-dependent multiscale modeling, where extrapolation reliability and data efficiency are paramount, RNNs appear to retain a meaningful edge. The study also underscores the importance of evaluating surrogate models not just on interpolation benchmarks but on their ability to generalize to unseen loading conditions — a more stringent and practically relevant test. As AI-driven materials modeling matures, such head-to-head comparisons will be essential for guiding architecture selection in engineering workflows.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "machine-learning",
-        "composite-materials",
-        "transformers",
-        "recurrent-neural-networks",
-        "computational-physics",
-        "materials-science"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1706461701012-01c99d443a63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxtYWNoaW5lLWxlYXJuaW5nJTIwY29tcG9zaXRlLW1hdGVyaWFsc3xlbnwwfDB8fHwxNzcyNTE5NTM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.00092",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-04T01:32:28.584Z"
     },
     {
       "id": "ps-1772587994340-hn3s",
@@ -1033,50 +1079,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-03/global-bonds-on-knife-edge-as-iran-war-revives-inflation-threat",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-03T12:34:00.981Z"
-    },
-    {
-      "id": "ps-1772539426690-t7b1",
-      "slug": "dollar-surges-to-two-month-high-on-iran-escalation-dragging-",
-      "headline": "Dollar Surges to Two-Month High on Iran Escalation, Dragging Crypto Lower",
-      "subheadline": "Bitcoin retreats from $70,000 to $66,500 as investors flee risk assets amid Israeli strikes on Tehran and drone attack on U.S. embassy",
-      "body": "A sharp escalation in the Middle East conflict sent the U.S. dollar surging on Tuesday, triggering broad selloffs across cryptocurrency, equities, and precious metals as investors scrambled for safety.\n\nThe dollar index (DXY) climbed 0.5% to its highest level since January 19 after Israel launched fresh military strikes on Tehran and Beirut, while two Iranian drones struck the U.S. embassy in Riyadh. The twin developments marked a significant intensification of hostilities, prompting a classic risk-off rotation across global markets. Bitcoin, which had rallied to $70,000 on Monday alongside a gold surge to $5,410, retreated sharply to approximately $66,500 — remaining trapped in the trading range it has occupied since early February. Gold similarly pulled back to $5,260 as the dollar reasserted its traditional safe-haven dominance over the yellow metal.\n\nThe altcoin market bore the brunt of the selling pressure. Cardano (ADA), Zcash (ZEC), and Dash (DASH) each fell more than 4% in the hours following the escalation. Over the past week, tokens including PEPE, Cosmos (ATOM), Shiba Inu (SHIB), and Bitcoin Cash (BCH) have posted double-digit losses despite Bitcoin's relative stability. Coinglass data revealed $392 million in liquidations over 24 hours, split evenly between long and short positions, with Bitcoin accounting for $163 million and Ethereum $96 million of the total.\n\nNot all corners of the crypto market suffered equally. NEAR Protocol surged 13.3% from oversold conditions, while DeFi tokens Jupiter (JUP) and Morpho (MORPHO) extended impressive weekly gains of 23% and 20%, respectively. CoinDesk's Memecoin and DeFi Select indices posted modest gains of 0.95% and 0.71%. Derivatives data painted a picture of cautious positioning: Bitcoin futures open interest stabilized at $15.3 billion, funding rates hovered between 0% and 10%, and options markets shifted from panic hedging toward sustained bullishness, with call volume reaching a 63-to-37 split over puts.\n\nThe broader backdrop, however, remains challenging. The implied volatility term structure has moved into contango — with short-dated premiums falling below the 49% to 50% levels seen in longer-dated contracts — suggesting traders have replaced immediate fear with more measured medium-term expectations. Analysts noted that $69,800 represents a key liquidation level on the upside, while the altcoin market broadly remains in a consolidation phase within a downtrend dating back to October. With geopolitical tensions showing no sign of easing, the dollar's renewed strength could continue to weigh on risk assets in the near term.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "cryptocurrency",
-        "dollar",
-        "Iran",
-        "geopolitics",
-        "risk-off",
-        "DXY",
-        "altcoins"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/4639ce873cb414355a63173614affb9983f2b11b-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/03/dollar-surge-pressures-crypto-and-gold-after-escalation-in-iran-conflict",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T12:03:46.690Z"
-    },
-    {
-      "id": "ps-1772537597384-ybqq",
-      "slug": "federal-judge-dismisses-scam-token-lawsuit-against-uniswap",
-      "headline": "Federal Judge Dismisses Scam Token Lawsuit Against Uniswap",
-      "subheadline": "Landmark ruling finds decentralized protocol developers cannot be held liable for third-party fraud on their platform",
-      "body": "A U.S. federal judge in New York has dismissed with prejudice a class action lawsuit against Uniswap Labs, its CEO Hayden Adams, and venture capital backers including Andreessen Horowitz, Paradigm, and Union Square Ventures, ruling that creators of a decentralized protocol cannot be held liable for fraudulent tokens traded on their platform.\n\nJudge Katherine Polk Failla of the Southern District of New York threw out all remaining state law claims in Risley v. Universal Navigation Inc. on Monday, after previously dismissing the plaintiffs' federal securities claims in an earlier phase of the case. The decision effectively ends the litigation at the district court level and stands as one of the first rulings to directly address the question of civil liability for developers and investors behind permissionless decentralized finance infrastructure. A group of investors had sued after losing money on dozens of tokens purchased through the Uniswap Protocol that they later characterized as \"rug pull\" scams — but because the actual token issuers were anonymous, the plaintiffs targeted the protocol's creators instead.\n\nFailla's reasoning centered on the structural realities of decentralization. \"Due to the Protocol's decentralized nature, the identities of the Scam Token issuers are basically unknown and unknowable, leaving Plaintiffs with an identifiable injury but no identifiable defendant,\" she wrote. The judge rejected the argument that Uniswap's developers bore responsibility simply for providing the marketplace infrastructure, finding that the plaintiffs' theories of liability failed as a matter of law. In her earlier ruling on the federal claims, Failla wrote that it \"defies logic\" to hold a smart contract drafter liable for a third party's misuse of the platform — language that has become a touchstone for DeFi advocates.\n\nLegal experts say the ruling could have far-reaching implications across crypto litigation. Irina Heaver, a UAE-based crypto attorney, told CoinDesk that the decision \"signals that courts are beginning to engage more seriously with the realities of decentralization.\" She noted that the court drew a critical distinction between permissionless protocols governed by autonomous smart contracts and centralized intermediaries that exercise discretionary control. The more consequential question, Heaver argued, is whether this reasoning extends to criminal proceedings — particularly the ongoing Tornado Cash case, where prosecutors would need to demonstrate intent and control rather than mere authorship of code.\n\nThe ruling arrives at a moment when regulatory and legal frameworks for decentralized finance remain deeply unsettled. Brian Nistler, Uniswap's head of policy, called the decision \"another precedent-setting ruling for DeFi.\" While the dismissal with prejudice prevents the plaintiffs from refiling the same claims, the broader legal debate over where responsibility lies when autonomous code facilitates harm is far from resolved. Courts in other jurisdictions and at the appellate level may yet chart a different course, but for now, protocol developers have their strongest judicial shield to date.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Uniswap",
-        "DeFi",
-        "cryptocurrency regulation",
-        "class action",
-        "decentralization",
-        "securities law"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/b454b7d48bc8816c9c5b8150cbbea6fe4175943a-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/scam-token-case-against-uniswap-dismissed-with-prejudice-by-u-s-district-judge-in-nyc",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-03T11:33:17.384Z"
     }
   ]
 }
