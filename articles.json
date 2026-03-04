@@ -1,48 +1,132 @@
 {
-  "lastUpdated": "2026-03-04T01:03:28.418Z",
+  "lastUpdated": "2026-03-04T01:18:18.116Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1772586132289-dj9p",
-      "slug": "funerals-held-for-over-160-killed-in-reported-strike-on-iran",
-      "headline": "Funerals Held for Over 160 Killed in Reported Strike on Iranian School",
-      "subheadline": "Iran blames US-Israeli military operation for hitting girls' school near IRGC base; Washington says it would not deliberately target civilians",
-      "body": "Hundreds of mourners filled the streets of Minab in southern Iran on Monday as funerals were held for students and staff killed in what Iranian authorities say was a US-Israeli missile strike on a girls' school over the weekend. Iranian officials have reported more than 160 dead, a toll that has not been independently verified.\n\nThe school, located roughly 600 meters from an Islamic Revolutionary Guard Corps base, was reportedly struck by three missiles on Saturday morning during a wave of US and Israeli strikes targeting Iranian military installations and leadership. Because Iran's six-day working week begins on Saturday, the school was likely in session at the time of impact. Footage verified by the BBC showed smoke billowing from a building as crowds gathered and screams could be heard.\n\nIranian state television broadcast the funeral procession, showing flag-draped coffins — some child-sized — carried through packed streets. President Masoud Pezeshkian condemned the incident as a \"barbaric act\" and \"another black page\" in what he described as a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi shared images of graves being dug for 160 people, writing on social media: \"This is how 'rescue' promised by Mr Trump looks in reality.\"\n\nThe United States has stopped short of confirming or denying responsibility for the specific strike. When pressed by the BBC on Monday, Secretary of State Marco Rubio said Washington \"would not deliberately target a school\" and had \"no interest, and frankly, no incentive to target civilian infrastructure,\" though he acknowledged he did not have details about what led to the incident. US Central Command spokesman Tim Hawkins said the military was taking the reports seriously and that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the area.\n\nThe incident has become a flashpoint in the rapidly escalating conflict, with Gulf states weighing their response to the broader Iranian strikes and President Trump briefing Congress that it remains \"too early to tell\" the full scope of the military operation against Iran. International media access inside Iran remains severely restricted, complicating independent verification of casualty figures and the precise circumstances of the strike.",
+      "id": "ps-1772587023563-hxys",
+      "slug": "iran-holds-mass-funerals-after-claimed-school-strike-kills-o",
+      "headline": "Iran Holds Mass Funerals After Claimed School Strike Kills Over 160",
+      "subheadline": "Iranian authorities blame US-Israeli military operation; Washington says it would never deliberately target a school",
+      "body": "Mass funerals were held in the southern Iranian city of Minab on Tuesday for more than 160 students and staff who Iranian authorities say were killed when missiles struck a girls' school during a wave of US-Israeli military operations on Saturday.\n\nHundreds of mourners lined the streets as flag-draped coffins — many child-sized — were carried through the crowds in scenes broadcast on Iranian state television. Iranian officials said three missiles hit the school, which was located roughly 600 meters from an Islamic Revolutionary Guard Corps base. Because Iran's working week runs Saturday through Thursday, the school would have been occupied at the time of the strike. The BBC has verified footage showing smoke rising from a damaged building as crowds gathered nearby, though it has not been able to independently confirm the death toll cited by Iranian authorities.\n\nIranian President Masoud Pezeshkian condemned the incident as a \"barbaric act\" and \"another black page\" in what he described as a record of crimes by the aggressors. Foreign Minister Seyed Abbas Araghchi posted images of graves being dug for 160 victims, writing on social media: \"This is how 'rescue' promised by Mr Trump looks in reality.\" The strike occurred as part of broader US and Israeli operations targeting Iran's military infrastructure and leadership.\n\nWhen pressed by the BBC on Monday, US Secretary of State Marco Rubio said Washington would have \"no interest, and frankly, no incentive to target civilian infrastructure.\" He acknowledged he did not have details on what led to the incident but insisted the United States would not deliberately strike a school. US Central Command spokesman Tim Hawkins said the military takes the reports seriously and that \"the protection of civilians is of utmost importance.\" Israel's military said it was \"not aware\" of any operations in the Minab area.\n\nThe incident has intensified international scrutiny of the ongoing military campaign against Iran, with Gulf states weighing their response and questions mounting over civilian casualties. Independent verification remains difficult, as international news organizations are routinely denied visas to report from inside Iran, severely limiting the ability to gather firsthand information about the strike and its aftermath.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
-        "US-Iran conflict",
-        "Israel",
-        "Minab school strike",
+        "US-Israel strikes",
+        "Minab school",
         "civilian casualties",
-        "Middle East"
+        "Middle East conflict"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/2dfd/live/577edf60-1749-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/c98qpz144nvo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-04T01:02:12.289Z"
+      "publishedAt": "2026-03-04T01:17:03.563Z"
     },
     {
-      "id": "ps-1772586148410-om3d",
-      "slug": "rnns-outperform-transformers-for-predicting-composite-materi",
-      "headline": "RNNs Outperform Transformers for Predicting Composite Material Behavior",
-      "subheadline": "New study finds recurrent neural networks hold a decisive edge in extrapolation accuracy despite transformers' speed advantage",
-      "body": "Recurrent neural networks significantly outperform transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg. The finding challenges the growing assumption that transformer architectures — the technology underpinning large language models — are universally superior across machine learning domains.\n\nPetter Uvdal and Mohsen Mirkhalaf conducted what they describe as the first rigorous head-to-head evaluation of the two neural network architectures for modeling short fiber reinforced composites (SFRCs), a class of materials widely used in automotive and aerospace engineering. Full-field simulations of these materials remain computationally expensive because their mechanical response depends on the entire history of deformation — a property known as path dependence. Surrogate models built on neural networks have emerged as a promising shortcut, but the question of which architecture performs best has remained open.\n\nThe researchers trained both RNN-based models using gated recurrent units (GRUs) and transformer models on sequences of homogenized stress-strain responses generated from representative volume elements of SFRCs. Both architectures were tuned using Bayesian optimization across architectural hyperparameters — including hidden layer size, number of attention heads, and encoder blocks — as well as training parameters such as learning rate and batch size. The results revealed a nuanced picture. Transformer models matched RNN accuracy on large interpolation datasets and proved dramatically faster at inference, completing predictions in 0.5 milliseconds compared to 3.5 milliseconds for the RNN — a sevenfold speed advantage. However, when pushed into extrapolation regimes, where the models must generalize beyond their training distribution, the RNN maintained its accuracy while the transformer's performance deteriorated sharply.\n\nThe extrapolation gap carries particular significance for engineering applications, where materials routinely encounter loading conditions not captured in training data. RNNs also demonstrated superior performance on smaller datasets, a practical consideration given the computational cost of generating high-fidelity simulation data for training. The study suggests that for path-dependent multiscale modeling — where sequential history matters — the inductive biases built into recurrent architectures provide meaningful advantages that raw scale and parallelization cannot easily overcome.\n\nThe paper, posted to the arXiv preprint server, spans computational physics, materials science, and machine learning. Its conclusions may temper enthusiasm for wholesale adoption of transformer architectures in computational mechanics while highlighting that architecture selection should be guided by the specific demands of the physical problem at hand.",
+      "id": "ps-1772587039265-jw2z",
+      "slug": "rnns-outperform-transformers-at-extrapolating-composite-mate",
+      "headline": "RNNs Outperform Transformers at Extrapolating Composite Material Behavior",
+      "subheadline": "New study finds transformer models are 7x faster but struggle outside training data for fiber-reinforced composites",
+      "body": "Recurrent neural networks hold a significant accuracy advantage over transformer models when predicting the behavior of composite materials beyond their training data, according to a systematic comparison published by researchers at the University of Gothenburg.\n\nThe study, authored by Petter Uvdal and Mohsen Mirkhalaf and posted to the arXiv preprint server, pits two dominant architectures in modern machine learning against each other in a domain where computational efficiency is urgently needed: simulating the mechanical response of short fiber reinforced composites (SFRCs). These materials, widely used in automotive and aerospace applications, exhibit path-dependent behavior — meaning their response depends not just on current loading conditions but on their entire deformation history. Full-field numerical simulations of these materials remain prohibitively expensive, making neural network surrogates an attractive alternative.\n\nThe researchers trained both recurrent neural networks using gated recurrent units (GRUs) and transformer models on sequences of homogenized stress-strain responses generated from representative volume element simulations. Both architectures had their hyperparameters — including learning rate, batch size, number of layers, and attention heads — tuned using Bayesian optimization to ensure a fair comparison. The team then evaluated performance across interpolation regimes, where test data falls within the training distribution, and extrapolation regimes, where models must generalize beyond what they have seen.\n\nThe results reveal a nuanced tradeoff. Transformer models proved competitive on large datasets for interpolation tasks and delivered inference speeds of 0.5 milliseconds per prediction — seven times faster than the RNN's 3.5 milliseconds. However, when tasked with extrapolation, the performance gap reversed dramatically: RNNs maintained their accuracy while transformers degraded significantly. RNNs also demonstrated superior performance when trained on smaller datasets, a practical consideration given that generating high-fidelity simulation data is itself computationally costly.\n\nThe findings carry implications for the growing field of data-driven multiscale modeling, where researchers are racing to replace expensive physics simulations with machine learning surrogates. While transformers have revolutionized natural language processing and are increasingly being adopted across scientific domains, this study suggests their well-known scaling advantages do not automatically translate to all physical modeling tasks. For engineers designing composite structures who need reliable predictions outside narrow operating conditions, the older recurrent architecture may remain the safer choice — at least until transformer-based approaches develop better strategies for out-of-distribution generalization.",
       "category": "physics",
       "importance": 5,
       "tags": [
-        "neural networks",
+        "machine-learning",
+        "composite-materials",
         "transformers",
-        "composite materials",
-        "machine learning",
-        "computational physics",
-        "materials science"
+        "recurrent-neural-networks",
+        "computational-physics",
+        "materials-science"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1649937801620-d31db7fb3ab3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bmV1cmFsJTIwbmV0d29ya3MlMjB0cmFuc2Zvcm1lcnN8ZW58MHwwfHx8MTc3MjU4NjE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1742729096780-600245031d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWFjaGluZS1sZWFybmluZyUyMGNvbXBvc2l0ZS1tYXRlcmlhbHN8ZW58MHwwfHx8MTc3MjU1Mjg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.00092",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-04T01:02:28.410Z"
+      "publishedAt": "2026-03-04T01:17:19.265Z"
+    },
+    {
+      "id": "ps-1772587054389-pats",
+      "slug": "anti-aging-supplement-spermidine-may-also-fuel-cancer-growth",
+      "headline": "Anti-Aging Supplement Spermidine May Also Fuel Cancer Growth",
+      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy cells versus tumors",
+      "body": "Polyamines — naturally occurring molecules widely sold as longevity supplements — can switch from protecting healthy cells to turbocharging cancer, according to new research that resolves a long-standing paradox in molecular biology.\n\nA team led by Associate Professor Kyohei Higashi at the Tokyo University of Science has identified the precise mechanism by which spermidine and related polyamines play this dual role. In healthy tissue, polyamines activate a protein called eIF5A1, which stimulates autophagy — the cellular housekeeping process that clears damaged components and supports mitochondrial energy production. But in cancerous tissue, the same molecules boost production of a nearly identical protein, eIF5A2, which instead drives aerobic glycolysis and rapid tumor proliferation. The two proteins share 84 percent of their amino acid sequence, yet their downstream effects diverge dramatically. The findings were published in the Journal of Biological Chemistry.\n\nThe researchers used human cancer cell lines and high-resolution proteomic analysis spanning more than 6,700 proteins to map polyamine activity. After depleting polyamine levels with a drug and then reintroducing spermidine, they found that the compound primarily enhanced glycolysis in cancer cells rather than the mitochondrial respiration associated with healthy aging. Polyamines also elevated levels of eIF5A2 and five ribosomal proteins — including RPS 27A, RPL36AL, and RPL22L1 — all previously linked to cancer severity. The team further discovered that a small regulatory RNA molecule, miR-6514-5p, normally suppresses eIF5A2 production, but polyamines disrupt this molecular brake, allowing the cancer-associated protein to accumulate.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that biological context — whether tissue is healthy or malignant — fundamentally determines whether polyamines help or harm.\n\nThe findings carry implications both for cancer therapeutics and for the booming supplements market, where spermidine products are marketed as geroprotectors. Targeting eIF5A2 specifically could theoretically slow tumor growth without undermining the anti-aging benefits linked to eIF5A1, offering a selective therapeutic strategy. However, the research also raises cautionary questions about polyamine supplementation in individuals with undetected cancers or precancerous conditions. As scientists work to design approaches that preserve polyamines' longevity benefits while neutralizing their cancer risk, the study underscores a recurring lesson in biology: molecules that sustain life can, under the wrong circumstances, accelerate its unraveling.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "polyamines",
+        "spermidine",
+        "cancer research",
+        "anti-aging",
+        "longevity supplements",
+        "eIF5A2"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-04T01:17:34.389Z"
+    },
+    {
+      "id": "ps-1772587068242-n4ld",
+      "slug": "three-ai-giants-captured-83-of-record-189b-vc-haul-in-februa",
+      "headline": "Three AI Giants Captured 83% of Record $189B VC Haul in February",
+      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion as artificial intelligence consumed 90% of global venture capital",
+      "body": "Venture capital investment hit a staggering $189 billion globally in February, more than tripling January's total and setting a new monthly record, according to a Crunchbase report published Monday. The overwhelming majority of that capital — 90%, or $171 billion — went to artificial intelligence startups, underscoring the sector's gravitational pull on private markets.\n\nThe record was driven almost entirely by three mega-rounds. OpenAI closed a $110 billion raise, one of the largest private funding rounds in history, pushing the ChatGPT maker's valuation to $730 billion. Anthropic, its chief rival in the foundation model race, secured a $30 billion Series G at a $380 billion valuation. And Waymo, Alphabet's autonomous driving subsidiary, pulled in $16 billion at a $126 billion valuation. Together, the three companies accounted for $156 billion, or 83 cents of every venture dollar deployed last month.\n\nThe scale of concentration is remarkable even by recent standards. The combined February haul from just these three firms equaled roughly one-third of the $425 billion in total global venture spending across all of 2025, according to Crunchbase data. The figures illustrate how a small cohort of AI leaders is absorbing capital at a pace that dwarfs the rest of the startup ecosystem, raising questions about whether smaller companies can compete for investor attention and dollars.\n\nThe fundraising surge reflects deepening investor conviction that generative AI and autonomous systems will reshape major sectors of the economy — but also mounting pressure on these companies to deliver returns commensurate with their extraordinary valuations. OpenAI's $730 billion valuation, for instance, places it among the most valuable private companies ever, exceeding the market capitalizations of all but a handful of publicly traded corporations.\n\nWhether this level of capital deployment is sustainable remains an open question. Critics have warned that the concentration of venture dollars in a few AI mega-rounds could starve funding for early-stage startups and other technology sectors. But for now, the trajectory shows no sign of reversing, with AI continuing to command a historically dominant share of private investment flows.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "venture capital",
+        "artificial intelligence",
+        "OpenAI",
+        "Anthropic",
+        "Waymo",
+        "startup funding"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-04T01:17:48.242Z"
+    },
+    {
+      "id": "ps-1772587083917-2ddk",
+      "slug": "wall-street-recovers-from-sharp-selloff-after-trump-pledges-",
+      "headline": "Wall Street Recovers From Sharp Selloff After Trump Pledges to Secure Strait of Hormuz",
+      "subheadline": "S&P 500 trims losses from 2.5% to under 1% as presidential assurances on shipping escorts cool an oil price surge",
+      "body": "U.S. equities staged a partial recovery on Tuesday after President Donald Trump pledged that American forces would escort and insure tanker traffic through the Strait of Hormuz, calming markets rattled by an oil price spike tied to the ongoing conflict with Iran.\n\nThe S&P 500, which had plunged as much as 2.5% during the session, pared its decline to less than 1% by the close as traders reassessed the risk of sustained energy supply disruptions. Oil markets, which had surged more than 9% earlier in the day, also retreated sharply, with Brent crude settling near $80 a barrel in post-settlement trading. The Strait of Hormuz, through which roughly one-fifth of the world's daily oil consumption passes, has become the focal point of market anxiety as military operations in the region threaten commercial shipping.\n\nTrump's commitment to safeguard the critical chokepoint — including providing naval escorts and insurance guarantees for vessels transiting the strait — appeared to offer the reassurance investors needed to step back from worst-case pricing scenarios. Bond markets, which had also sold off earlier in the session, similarly trimmed their losses as the geopolitical risk premium receded.\n\nDon Calcagni, Chief Investment Officer at Mercer Advisors, speaking at the Bloomberg Invest conference in New York City, addressed the challenge of navigating portfolios through a volatile backdrop shaped by geopolitical conflict and energy market uncertainty. The day's wild swings underscored how sensitive global markets remain to developments in the Iran conflict, with energy prices serving as the primary transmission mechanism to broader financial assets.\n\nDespite the late-session recovery, the episode highlighted the fragility of the current market environment. Analysts noted that while Trump's assurances provided short-term relief, the underlying risk of escalation in the Persian Gulf continues to loom over equity and commodity markets alike. Any disruption to tanker flows through the strait — even a temporary one — could reignite the kind of oil price shock that briefly gripped markets on Tuesday, sending ripple effects through inflation expectations, corporate earnings forecasts, and consumer confidence.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "Strait of Hormuz",
+        "oil prices",
+        "S&P 500",
+        "Iran conflict",
+        "Trump",
+        "geopolitical risk",
+        "Brent crude"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1701831737236-f365b205f578?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxXYWxsJTIwU3RyZWV0JTIwUmVjb3ZlcnMlMjBGcm9tJTIwU2hhcnAlMjBTZWxsb2ZmJTIwQWZ0ZXIlMjBUcnVtcCUyMFBsZWRnZXMlMjBTZWN1cmUlMjBTdHJhaXR8ZW58MHwwfHx8MTc3MjU4NzA4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/stocks-pare-oil-fueled-rout-on-trump-s-assurances-video",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-04T01:18:03.917Z"
+    },
+    {
+      "id": "ps-1772587098033-wbdn",
+      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
+      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
+      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges swift regulatory action",
+      "body": "The Financial Action Task Force, the Paris-based organization that sets global anti-money laundering standards, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions, including sanctions evasion by North Korean and Iranian actors.\n\nIn a 42-page report, FATF said dollar-pegged digital tokens now account for the overwhelming majority of illegal crypto activity and called on governments worldwide to impose anti-money laundering obligations on stablecoin issuers. The report draws on data from blockchain analytics firms Chainalysis and TRM Labs, which paint a consistent picture of surging illicit use. Chainalysis found that stablecoins represented 84% of the $154 billion in illicit virtual asset transaction volume recorded in 2025, while TRM Labs reported that illicit entities received $141 billion in stablecoins last year — the highest level observed in five years. FATF itself estimated roughly $51 billion in illicit stablecoin activity tied to fraud and scams in 2024 alone.\n\nThe report specifically flagged the use of Tether's USDT by state-linked actors in North Korea and Iran for proliferation financing and cross-border payments connected to sanctioned entities. Sanctions-related activity accounted for 86% of illicit crypto flows, according to TRM Labs data cited in the report. Peer-to-peer transfers through unhosted wallets — cryptocurrency wallets not controlled by regulated intermediaries — were identified as a \"key vulnerability\" because they can bypass anti-money laundering controls entirely.\n\nWhile stopping short of recommending blanket blacklisting of specific tokens or platforms, FATF urged member countries to consider requiring stablecoin issuers to implement wallet-freezing capabilities and to restrict or ban certain functions embedded in smart contracts that facilitate anonymous transfers. The recommendations come as the stablecoin market has surpassed $300 billion in total value, with monthly transaction volumes exceeding $1 trillion on multiple occasions in 2025.\n\nThe timing of the report adds pressure to an already contentious regulatory debate in the United States, where legislation governing stablecoins remains in flux. President Donald Trump recently called for swift passage of the U.S. Clarity Act, accusing banks of undermining stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that interest-bearing stablecoin issuers should face bank-level regulation. FATF's findings underscore the urgency regulators face in closing compliance gaps before the market's rapid growth further outpaces oversight.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "FATF",
+        "money laundering",
+        "sanctions evasion",
+        "crypto regulation",
+        "USDT"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-04T01:18:18.033Z"
     },
     {
       "id": "ps-1772586163650-hbvc",
@@ -64,70 +148,6 @@
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260303050635.htm",
       "sourceName": "Science Daily",
       "publishedAt": "2026-03-04T01:02:43.650Z"
-    },
-    {
-      "id": "ps-1772586178465-879m",
-      "slug": "three-ai-giants-captured-83-of-record-189b-in-february-vc-fu",
-      "headline": "Three AI Giants Captured 83% of Record $189B in February VC Funding",
-      "subheadline": "OpenAI, Anthropic, and Waymo raised a combined $156 billion, underscoring venture capital's extraordinary concentration in artificial intelligence",
-      "body": "Global venture capital investment shattered records in February, with $189 billion flowing to startups in a single month — more than triple January's total — according to a new report from Crunchbase. The vast majority of that capital went to just three companies: OpenAI, Anthropic, and Waymo, which together accounted for 83% of all venture dollars raised.\n\nOpenAI led the surge with a staggering $110 billion raise, one of the largest private funding rounds in history, valuing Sam Altman's company at $730 billion. Its chief rival Anthropic followed with a $30 billion Series G that pushed its valuation to $380 billion. Alphabet-backed autonomous vehicle company Waymo rounded out the trio with a $16 billion round at a $126 billion valuation. The combined $156 billion raised by these three firms alone equaled roughly one-third of the entire $425 billion in global venture spending recorded across all of 2025.\n\nThe concentration reflects a broader pattern of capital flooding into artificial intelligence at unprecedented scale. AI startups collectively raised $171 billion in February, representing 90% of all venture capital deployed during the month. The figures suggest that the AI investment boom, far from cooling, is accelerating into a phase dominated by a handful of well-capitalized incumbents capable of attracting nine- and ten-figure checks.\n\nThe numbers raise pointed questions about the health and diversity of the broader startup ecosystem. With such an overwhelming share of available capital flowing to three companies, early-stage founders in other sectors may find fundraising increasingly difficult. The dynamic also intensifies scrutiny on whether the astronomical valuations assigned to leading AI firms — OpenAI is now worth more than most publicly traded companies — can be justified by future revenue.\n\nFor venture capital as an asset class, February's record marks an inflection point. The industry's traditional model of spreading bets across a wide portfolio of startups appears to be giving way to a concentrated wager on artificial intelligence's transformative potential, with a small number of companies commanding capital at a scale previously reserved for sovereign wealth funds and public markets.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "venture capital",
-        "OpenAI",
-        "Anthropic",
-        "Waymo",
-        "artificial intelligence",
-        "startup funding"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1502217391.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/03/openai-anthropic-waymo-dominated-189-billion-vc-investments-february-crunchbase-report/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-04T01:02:58.465Z"
-    },
-    {
-      "id": "ps-1772586194200-nnis",
-      "slug": "stocks-recover-from-sharp-selloff-after-trump-pledges-to-sec",
-      "headline": "Stocks Recover From Sharp Selloff After Trump Pledges to Secure Strait of Hormuz",
-      "subheadline": "S&P 500 trims losses from 2.5% to under 1% as president vows to escort tankers through critical oil chokepoint",
-      "body": "U.S. equities staged a dramatic recovery on Tuesday after President Donald Trump pledged that American forces would escort and insure commercial vessels transiting the Strait of Hormuz, calming markets rattled by a spike in oil prices tied to the ongoing conflict with Iran.\n\nThe S&P 500, which had plunged as much as 2.5% earlier in the session, closed down less than 1% after Trump's assurances helped deflate what had been a punishing surge in crude prices. Oil had jumped more than 9% intraday before retreating sharply in post-settlement trading, with Brent crude settling back near $80 per barrel. The bond market, which had also come under pressure during the rout, similarly pared its losses as the threat of a prolonged disruption to global energy flows appeared to ease.\n\nThe Strait of Hormuz, a narrow waterway between Iran and Oman, is the world's most critical energy chokepoint, with roughly one-fifth of global oil consumption passing through its waters daily. Fears that the Iran conflict could choke off that supply had sent shockwaves through commodity and equity markets, triggering the kind of rapid, correlated selloff across asset classes that has become increasingly familiar in 2026's volatile trading environment.\n\nDon Calcagni, Chief Investment Officer at Mercer Advisors, speaking at the Bloomberg Invest conference in New York City, discussed the challenge of navigating investment strategy amid the geopolitical turbulence. The whiplash session underscored how sensitive global markets remain to any escalation — or de-escalation — in the Middle East conflict, with energy prices serving as the primary transmission mechanism into broader financial assets.\n\nWhile Trump's pledge provided immediate relief, analysts cautioned that the fundamental risk to oil supply chains remains elevated as long as hostilities with Iran continue. The episode highlighted the outsized role that presidential communications now play in real-time market pricing, with a single statement reversing billions of dollars in equity losses within hours. Investors will be watching closely for any follow-through on the escort plan and for signs of whether the conflict's trajectory could trigger further supply disruptions in the weeks ahead.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran conflict",
-        "S&P 500",
-        "Trump",
-        "geopolitical risk",
-        "Brent crude"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1662495998841-29772927bfd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8U3RvY2tzJTIwUmVjb3ZlciUyMEZyb20lMjBTaGFycCUyMFNlbGxvZmYlMjBBZnRlciUyMFRydW1wJTIwUGxlZGdlcyUyMFNlY3VyZSUyMFN0cmFpdHxlbnwwfDB8fHwxNzcyNTg2MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-04/stocks-pare-oil-fueled-rout-on-trump-s-assurances-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-04T01:03:14.200Z"
-    },
-    {
-      "id": "ps-1772586208313-vv97",
-      "slug": "fatf-warns-stablecoins-now-dominate-illicit-crypto-activity",
-      "headline": "FATF Warns Stablecoins Now Dominate Illicit Crypto Activity",
-      "subheadline": "Global financial watchdog says dollar-pegged tokens account for 84% of illicit crypto volume, urges urgent regulatory action",
-      "body": "The Financial Action Task Force, the Paris-based organization that sets global standards for combating money laundering and terrorist financing, issued a stark warning on Tuesday that stablecoins have become the dominant instrument for illicit cryptocurrency transactions — and called on governments worldwide to impose stricter oversight on their issuers.\n\nIn a 42-page report published March 3, FATF cited data from blockchain analytics firms Chainalysis and TRM Labs showing that stablecoins accounted for 84% of the estimated $154 billion in illicit virtual asset transaction volume in 2025. TRM Labs separately reported that illicit entities received $141 billion in stablecoins last year alone, the highest figure recorded in five years. FATF's own earlier analysis had pegged illicit stablecoin activity related to fraud and scams at approximately $51 billion in 2024.\n\nThe report singled out actors in North Korea and Iran as particularly active users of dollar-pegged tokens such as USDT for proliferation financing and cross-border payments linked to sanctioned entities. Sanctions-related activity accounted for a staggering 86% of illicit crypto flows, according to TRM Labs data cited in the report. FATF identified peer-to-peer transfers conducted through unhosted wallets — cryptocurrency wallets not controlled by a regulated intermediary — as a \"key vulnerability\" that allows transactions to bypass anti-money laundering controls entirely.\n\nWith the total stablecoin market now exceeding $300 billion in value and monthly transaction volumes surpassing $1 trillion on multiple occasions in 2025, FATF urged countries to move swiftly. Its recommendations include imposing anti-money laundering obligations on stablecoin issuers, requiring tools such as wallet freezing capabilities, and considering restrictions on certain smart-contract functions that facilitate anonymous transfers. The task force stopped short of recommending blanket blacklisting of stablecoin platforms but made clear that current regulatory frameworks are inadequate for the scale of the problem.\n\nThe FATF report lands amid an intensifying policy debate in Washington over stablecoin regulation. President Donald Trump recently attacked banks for attempting to undermine stablecoin legislation, while JPMorgan CEO Jamie Dimon has argued that stablecoin issuers offering interest should face bank-level regulation. The convergence of international pressure from FATF and domestic political maneuvering suggests that comprehensive stablecoin oversight — long debated but never fully enacted — may be approaching a tipping point.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "FATF",
-        "stablecoins",
-        "money laundering",
-        "sanctions evasion",
-        "crypto regulation",
-        "USDT"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/0e543beef5d76c7d0708e846fd62b72d9c795954-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/policy/2026/03/03/international-financial-watchdog-warns-stablecoins-are-increasingly-used-in-sanctions-evasion-and-money-laundering",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-04T01:03:28.313Z"
     },
     {
       "id": "ps-1772585261513-natg",
@@ -191,27 +211,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.00091",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-04T00:32:29.084Z"
-    },
-    {
-      "id": "ps-1772584363689-5x83",
-      "slug": "popular-anti-aging-compound-spermidine-may-also-drive-cancer",
-      "headline": "Popular Anti-Aging Compound Spermidine May Also Drive Cancer Growth",
-      "subheadline": "Japanese researchers uncover how polyamines activate different molecular pathways in healthy versus cancerous cells",
-      "body": "A class of molecules widely promoted as longevity supplements may carry a significant hidden risk, according to new research from Tokyo University of Science that reveals how polyamines can switch from protecting healthy cells to fueling tumor growth.\n\nThe study, led by Associate Professor Kyohei Higashi and published in the Journal of Biological Chemistry, resolves a long-standing paradox in molecular biology: how polyamines — particularly spermidine, a darling of the anti-aging supplement industry — can simultaneously support cellular health and appear in elevated concentrations in aggressive cancers. The answer lies in two nearly identical proteins that trigger radically different biological outcomes depending on cellular context.\n\nUsing high-resolution proteomic analysis of more than 6,700 proteins in human cancer cell lines, the researchers demonstrated that polyamines activate distinct molecular machinery in normal versus malignant tissue. In healthy cells, polyamines engage a protein called eIF5A1, which stimulates autophagy — the cellular recycling process that clears damaged components and is closely associated with longevity. In cancer cells, however, polyamines boost production of a closely related protein, eIF5A2, which shares 84 percent of its amino acid sequence with eIF5A1 but drives glycolysis and rapid cell proliferation instead. The team found that polyamines achieve this by suppressing a small regulatory RNA molecule, miR-6514-5p, that normally keeps eIF5A2 production in check. With that molecular brake removed, cancer cells ramp up eIF5A2 along with five ribosomal proteins linked to tumor severity.\n\n\"In normal tissues, eIF5A1, activated by polyamines, activates mitochondria via autophagy, whereas in cancer tissues, eIF5A2, whose synthesis is promoted by polyamines, controls gene expression at the translational level to facilitate the proliferation of cancer cells,\" Higashi explained. The distinction suggests that the biological context — whether tissue is healthy or precancerous — fundamentally determines whether polyamines act as protectors or accelerants.\n\nThe findings carry dual implications. For the supplement market, where spermidine products have surged in popularity among health-conscious consumers, the research raises cautionary flags about indiscriminate use, particularly for individuals with undetected malignancies or elevated cancer risk. For oncology, the work identifies eIF5A2 and its interaction with ribosomes as a promising therapeutic target that could potentially be inhibited without disrupting the beneficial anti-aging functions of eIF5A1. The study was supported by the Japan Society for the Promotion of Science, the Hamaguchi Foundation for the Advancement of Biochemistry, and Kanazawa University's Cancer Research Institute.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "polyamines",
-        "spermidine",
-        "cancer research",
-        "anti-aging",
-        "longevity supplements",
-        "eIF5A2"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/malignant-cancer-cell.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-04T00:32:43.689Z"
     },
     {
       "id": "ps-1772582594450-u4z8",
