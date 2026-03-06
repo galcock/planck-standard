@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-03-06T16:18:36.537Z",
+  "lastUpdated": "2026-03-06T16:33:31.152Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1772814729077-32vi",
+      "slug": "tehran-residents-report-heaviest-night-of-strikes-as-iran-wa",
+      "headline": "Tehran Residents Report Heaviest Night of Strikes as Iran War Intensifies",
+      "subheadline": "Civilians describe shaking buildings, sleepless nights, and a capital transformed into a 'ghost town' amid US-Israeli bombardment",
+      "body": "Residents of Tehran have described Thursday night as the most devastating round of airstrikes since the United States and Israel launched their military campaign against Iran six days ago, with continuous explosions shaking buildings across the capital and surrounding areas for hours.\n\nAccounts gathered by BBC Persian paint a picture of a city under siege. One man in his 30s reported that his house shook for five minutes without pause, calling it \"the worst night\" since strikes began. A woman in her 40s said explosions jolted her awake at 5:00 a.m. and made further sleep impossible. In Damavand, a city near Tehran where some families have fled for safety, a young man described seeing an explosion for the first time — a light shooting skyward as every window in his home rattled. His family packed two cars to evacuate. The US-based Human Rights Activists News Agency (HRANA) has reported 1,168 civilian deaths since the conflict began, including 194 children, though the BBC has been unable to independently verify casualty figures from inside Iran.\n\nPerhaps most striking is the divided mood among ordinary Iranians. Some residents told the BBC they sense a current of support for the strikes among citizens exhausted by decades of rule under the Islamic Republic. One young woman in Tehran said people climb onto rooftops to watch the bombardment, waving at passing fighter jets and whistling. \"The eighth and ninth of January were much scarier for them than this past week,\" she said, referencing dates when Iranian security forces violently suppressed anti-government protests. \"Back then, we ourselves were the targets of the bullets.\" She added that some residents openly say they want the strikes to continue \"until it's finished by Nowruz\" — the Persian New Year on March 20.\n\nNot all share that sentiment. Others expressed deep anxiety about what comes after the bombing stops. \"We mustn't end up like Iraq or Syria — honestly, we don't deserve that,\" one young man said, invoking the devastating civil wars that consumed both countries. He described Tehran as a ghost town reeking of gunpowder, with checkpoints at every few intersections and pro-government loyalists blasting slogans from cars with loudspeakers. Darkness and shuttered storefronts define the streetscape. \"I hope things change — people live on hope,\" he said. \"But if it doesn't happen this time, then it probably never will.\"\n\nThe intensifying strikes come as the broader conflict sends shockwaves through global markets and transportation networks. Jet fuel prices have surged more than 80 percent due to disruption of Gulf supplies, Qatar has warned that all Gulf oil production could halt, and airlines are scrambling to reroute flights as Iran-related airspace closures expand. International reporting from inside Iran remains severely constrained, with authorities routinely denying visas to foreign journalists and imposing internet blackouts that limit the flow of information from the country.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran",
+        "Israel",
+        "Tehran",
+        "Middle East war",
+        "US military",
+        "airstrikes",
+        "civilian casualties"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/660c/live/3773dc80-1964-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c4g88q764njo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-06T16:32:09.077Z"
+    },
+    {
+      "id": "ps-1772814745635-t7c9",
+      "slug": "new-method-makes-curvature-training-of-ml-potentials-24x-fas",
+      "headline": "New Method Makes Curvature Training of ML Potentials 24x Faster",
+      "subheadline": "Projected Hessian Learning sidesteps memory bottleneck plaguing second-order training of interatomic potentials",
+      "body": "A team of researchers from Los Alamos National Laboratory and Florida A&M University has developed a training framework that captures the rich curvature information encoded in second-derivative Hessian matrices — without the prohibitive computational cost that has long made such approaches impractical for machine-learning interatomic potentials.\n\nThe technique, called Projected Hessian Learning (PHL), was detailed in a preprint posted to arXiv on March 4 by Austin Rodriguez, Justin S. Smith, Sakib Matin, Nicholas Lubbers, Kipton Barros, and Jose L. Mendoza-Cortes. Instead of explicitly constructing and storing full Hessian matrices — which scale quadratically in both cost and memory with system size — PHL projects curvature information along stochastic probe directions using Hessian-vector products. The result is an unbiased, trace-based loss function that preserves nearly all the accuracy benefits of full Hessian supervision while scaling far more favorably.\n\nThe stakes are significant for computational chemistry and materials science, where machine-learning interatomic potentials (MLIPs) are rapidly replacing expensive quantum-mechanical calculations for simulating molecular dynamics, reaction pathways, and materials properties. Most MLIPs today are trained on energies and forces alone — first-order information that can miss critical features of the potential energy surface, particularly around transition states and reaction barriers. Full Hessian training captures this curvature but has been limited to small systems due to memory constraints.\n\nBenchmarking PHL on a chemically diverse dataset that included reactants, products, transition states, intrinsic reaction coordinates, and normal-mode sampled geometries computed at the ωB97XD/6-31G(d) level of theory, the researchers found that both Hessian-vector product schemes matched full Hessian training in energy, force, and Hessian accuracy while delivering greater than 24-fold speedups per training epoch for small molecular systems. In a fixed-probe regime using a single Hessian-vector product per molecule, randomized projections consistently outperformed one-column probing, with the advantage most pronounced for geometries far from equilibrium — precisely the challenging configurations where curvature information matters most.\n\nThe work addresses a practical bottleneck that has constrained the field. As MLIPs are increasingly deployed for drug discovery, catalyst design, and materials screening, the ability to incorporate second-order information without quadratic memory growth could meaningfully improve model reliability for reactive and non-equilibrium chemistry. By reducing curvature supervision to the same computational complexity as force training, PHL opens a path toward more accurate potentials for larger, more complex molecular systems that were previously out of reach for Hessian-informed methods.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "machine-learning interatomic potentials",
+        "Hessian matrix",
+        "computational chemistry",
+        "molecular dynamics",
+        "chemical physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1739631632571-37ef4ef292d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWFjaGluZS1sZWFybmluZyUyMGludGVyYXRvbWljJTIwcG90ZW50aWFscyUyMEhlc3NpYW4lMjBtYXRyaXh8ZW58MHwwfHx8MTc3MjgxNDc0NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.04523",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-06T16:32:25.635Z"
+    },
+    {
+      "id": "ps-1772814760442-cubv",
+      "slug": "two-genes-hold-the-key-to-reviving-exhausted-cancer-killing-",
+      "headline": "Two Genes Hold the Key to Reviving Exhausted Cancer-Killing T Cells",
+      "subheadline": "Salk Institute-led team builds a genetic atlas of immune cell fates, identifying molecular switches that restore tumor-fighting power",
+      "body": "A multi-institution team led by researchers at the Salk Institute for Biological Studies has identified two previously unknown genes whose deactivation can restore the cancer-killing capacity of worn-out immune cells — a finding that could reshape the landscape of immunotherapy for solid tumors and chronic infections. The study, published March 5 in Nature, represents one of the most detailed maps ever constructed of the genetic programs governing CD8 \"killer\" T cell behavior.\n\nCD8 T cells are the immune system's front-line assassins, trained to seek out and destroy virus-infected and cancerous cells. But in patients with persistent tumors or long-lasting infections, these cells often enter a debilitated state known as T cell exhaustion, progressively losing their ability to eliminate threats. Because protective and exhausted T cells can look nearly identical under conventional analysis, distinguishing — let alone reprogramming — them has been a stubborn challenge in oncology.\n\nTo crack the problem, scientists from the Salk Institute, UNC Lineberger Comprehensive Cancer Center, and UC San Diego constructed a comprehensive genetic atlas spanning nine distinct CD8 T cell states. Using advanced sequencing, genetic perturbation tools, mouse models, and computational analysis, they mapped how cells transition along a spectrum from highly protective to severely impaired. That atlas revealed a set of transcription factors — proteins that act as master regulators of gene activity — steering cells toward resilience or dysfunction. Among them, two transcription factors called ZSCAN20 and JDP2 stood out. When researchers disabled these genes in exhausted T cells, the cells regained their tumor-killing function while crucially preserving long-term immune memory. \"We found that it was indeed possible to separate these two outcomes,\" said co-corresponding author H. Kay Chung, an assistant professor at UNC Lineberger who began the work at Salk.\n\nThe result challenges a longstanding assumption that exhaustion is an irreversible consequence of sustained immune activation. Co-corresponding author Susan Kaech, a professor at the Salk Institute at the time of the study, said the atlas now provides \"clear recipes\" for engineering T cells that remain both durable and effective. The implications are particularly significant for adoptive cell transfer and CAR T cell therapy, treatments that have shown remarkable success against blood cancers but often falter against solid tumors, where the immunosuppressive microenvironment drives rapid T cell burnout.\n\nLooking ahead, the collaboration plans to integrate AI-driven computational modeling with experimental techniques to develop additional genetic recipes capable of programming T cells into precisely defined functional states. \"This study shows that we can begin to precisely manipulate immune cell fates and unlock new possibilities for enhancing immune therapies,\" said co-corresponding author Wei Wang of UC San Diego. The research was supported by the National Institutes of Health and the Damon Runyon Cancer Research Foundation.",
+      "category": "science",
+      "importance": 8,
+      "tags": [
+        "immunotherapy",
+        "T cells",
+        "cancer research",
+        "gene therapy",
+        "Salk Institute",
+        "CAR T cell therapy"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/cancer-target-detection.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260304184235.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-06T16:32:40.442Z"
+    },
+    {
+      "id": "ps-1772814776669-cud4",
+      "slug": "anthropic-to-fight-pentagon-supply-chain-risk-label-in-court",
+      "headline": "Anthropic to Fight Pentagon Supply-Chain Risk Label in Court",
+      "subheadline": "CEO Dario Amodei calls the DOD designation 'legally unsound' as the AI firm draws hard lines on surveillance and autonomous weapons",
+      "body": "Anthropic is preparing a legal challenge against the Department of Defense after the Pentagon officially designated the AI company a supply-chain risk on Thursday, a move that could bar it from working with the military and its contractors. CEO Dario Amodei called the designation \"legally unsound\" and signaled the company would contest it in federal court.\n\nThe dispute centers on a fundamental disagreement over the limits of military AI deployment. Anthropic has refused to allow its Claude AI system to be used for mass surveillance of American citizens or fully autonomous weapons systems. The Pentagon, by contrast, sought unrestricted access to the technology for \"all lawful purposes.\" The standoff escalated rapidly: a presidential Truth Social post announced Anthropic's removal from federal systems, Defense Secretary Pete Hegseth followed with the formal supply-chain risk designation, and the Pentagon announced a replacement deal with rival OpenAI — all in quick succession.\n\nAmodei attempted to narrow the impact of the designation in his Thursday statement, arguing it applies only to the use of Claude as a direct component of DOD contracts, not to all customers who happen to hold Pentagon contracts. He pointed to the legal requirement that the Secretary of Defense employ the \"least restrictive means necessary\" to protect supply chains, previewing what will likely become a central argument in court. The company faces a steep climb, however. The relevant law limits traditional procurement challenge mechanisms and grants the Pentagon wide latitude on national security determinations. Dean Ball, a former Trump-era White House AI adviser who has criticized Hegseth's handling of the situation, acknowledged that courts set \"a very high bar\" for overriding government national security judgments, though he noted it is \"not impossible.\"\n\nThe confrontation was further complicated by the leak of an internal Amodei memo in which he characterized OpenAI's military engagement as \"safety theater\" — language that reportedly derailed what he described as productive negotiations with the DOD. Amodei apologized for the tone, calling it a product of \"a difficult day for the company\" and saying the memo did not reflect his \"careful or considered views.\" OpenAI's decision to step in as Anthropic's replacement has reportedly triggered backlash among its own staff.\n\nDespite the legal fight, Anthropic said it would continue supporting ongoing U.S. military operations, including in Iran, providing its models to the DOD at \"nominal cost\" for as long as needed to facilitate a transition. The case, likely to be filed in a Washington federal court, could set significant precedent for the terms under which AI companies engage with the national security apparatus — and whether firms can impose ethical red lines on military customers without facing exclusion from government work entirely.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "Department of Defense",
+        "Dario Amodei",
+        "AI regulation",
+        "OpenAI",
+        "military AI",
+        "supply chain risk"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-06T16:32:56.669Z"
+    },
+    {
+      "id": "ps-1772814796220-lm48",
+      "slug": "qatar-puts-10-lng-tankers-up-for-lease-amid-prolonged-export",
+      "headline": "Qatar Puts 10 LNG Tankers Up for Lease Amid Prolonged Export Shutdown",
+      "subheadline": "The world's top LNG exporter seeks to redeploy idle fleet as Middle East conflict keeps key facility offline",
+      "body": "Qatar is offering 10 liquefied natural gas tankers under its control for lease to outside parties, a striking signal that the Gulf state sees no near-term resolution to the conflict that has shuttered its primary export facility in the Persian Gulf.\n\nThe move, reported by Bloomberg on Thursday, underscores the cascading economic consequences of the ongoing Middle East war on global energy infrastructure. Qatar, one of the world's largest LNG exporters, has been unable to operate its massive export terminal due to the hostilities, leaving a fleet of purpose-built carriers without cargo to haul. Rather than absorb the mounting costs of idle vessels, Doha is now seeking to lease them on the open market — a pragmatic but symbolically significant acknowledgment that its export operations face an extended interruption.\n\nThe availability of 10 additional tankers could provide a modest supply-side relief to the global LNG shipping market, where charter rates have fluctuated amid shifting trade flows caused by the war. However, the broader implication is less reassuring for energy markets: Qatar's decision to redeploy rather than hold its fleet in reserve suggests that planners in Doha do not expect a rapid restart of exports. Qatar's LNG output is a critical source of supply for buyers across Asia and Europe, and its prolonged absence from the market has forced importers to scramble for alternative cargoes, often at premium prices.\n\nThe conflict's disruption of Qatari exports has added a volatile dimension to an already tight global gas market. European nations, which accelerated their pivot to LNG following the severing of Russian pipeline supplies, have been particularly exposed. Asian buyers, many of whom hold long-term contracts with Qatar, face uncertainty over delivery timelines and potential force majeure claims.\n\nFor Qatar, the tanker leasing strategy represents a calculated effort to limit financial losses while preserving optionality. The vessels — highly specialized and expensive to maintain — generate no revenue sitting idle. By placing them into the charter market, Qatar can offset carrying costs while retaining the ability to recall ships when exports eventually resume. The question now facing global energy markets is how long that wait will be.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Qatar",
+        "LNG",
+        "natural gas",
+        "Middle East conflict",
+        "energy markets",
+        "shipping"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1642314739080-2a0ea923860c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8UWF0YXIlMjBMTkd8ZW58MHwwfHx8MTc3MjgxNDc5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-06/qatar-offers-to-lease-lng-tankers-as-top-export-plant-stays-shut",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-06T16:33:16.220Z"
+    },
+    {
+      "id": "ps-1772814811040-3han",
+      "slug": "u-s-economy-sheds-92-000-jobs-in-february-defying-forecasts",
+      "headline": "U.S. Economy Sheds 92,000 Jobs in February, Defying Forecasts",
+      "subheadline": "Surprise labor market contraction sends Treasury yields lower and revives speculation about Fed rate cuts in 2026",
+      "body": "The U.S. labor market delivered a jarring surprise on Friday, with the Bureau of Labor Statistics reporting a loss of 92,000 jobs in February — a stark reversal from the 59,000 new positions economists had expected and a dramatic swing from January's gain of 126,000. The unemployment rate ticked up to 4.4%, above the consensus forecast of 4.3%.\n\nThe data immediately rippled through global markets. The 10-year Treasury yield dropped four basis points to 4.11% as traders recalibrated expectations for Federal Reserve policy, with the weak employment picture potentially reopening the door to rate cuts in the first half of 2026. Prior to the report, markets had assigned a 95% probability that the Fed would hold rates steady at its March 18 meeting and an 85% chance of no action in April. Those odds may now shift meaningfully.\n\nEquity futures extended earlier losses on the news, with the Nasdaq falling 1% and the S&P 500 declining 0.8%. Precious metals reversed early weakness, with gold climbing 1% and silver gaining 2% as investors sought safety. Bitcoin, which had already been trading under pressure overnight, held near $70,000 and showed little reaction to the report, later slipping below $69,000 amid broader risk-off sentiment.\n\nComplicating the monetary policy outlook, oil prices surged on the same day, with WTI crude jumping 6.2% to $86 per barrel amid escalating tensions in the Middle East. Rising energy costs threaten to put upward pressure on inflation expectations — precisely the kind of stagflationary dynamic that makes the Fed's job exceedingly difficult. Higher gasoline and food prices could feed through to broader consumer inflation even as the labor market softens, potentially constraining the central bank's ability to cut rates even if employment deteriorates further.\n\nThe February jobs report marks the most significant downside miss in U.S. employment data in months and is likely to dominate market discussion heading into the Fed's next policy decision. If subsequent data confirm a weakening trend, the central bank may face growing pressure to ease monetary policy despite persistent inflation risks — a balancing act that could define the economic trajectory for the remainder of 2026.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "jobs report",
+        "unemployment",
+        "Federal Reserve",
+        "rate cuts",
+        "labor market",
+        "Treasury yields",
+        "oil prices"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e64587eedd581a6802ecc9cf754d7806274480aa-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/06/u-s-lost-92-000-jobs-in-february-unemployment-rate-rose-to-4-2",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-06T16:33:31.040Z"
+    },
     {
       "id": "ps-1772813842612-o1ou",
       "slug": "mandelson-s-bail-conditions-dropped-but-investigation-contin",
@@ -45,49 +173,6 @@
       "publishedAt": "2026-03-06T16:17:38.662Z"
     },
     {
-      "id": "ps-1772813872823-zkdk",
-      "slug": "two-gene-knockouts-restore-tumor-killing-power-of-exhausted-",
-      "headline": "Two Gene Knockouts Restore Tumor-Killing Power of Exhausted T Cells",
-      "subheadline": "A comprehensive genetic atlas of immune cell states reveals molecular switches that could transform cancer immunotherapy",
-      "body": "A multi-institution research team has identified two previously unknown genes whose deactivation can restore the cancer-fighting ability of worn-out immune cells, a discovery published in Nature that could reshape approaches to immunotherapy and chronic infection treatment.\n\nScientists from the Salk Institute for Biological Studies, UNC Lineberger Comprehensive Cancer Center, and UC San Diego constructed a detailed genetic atlas mapping the spectrum of states that CD8 \"killer\" T cells can occupy — from highly protective to severely impaired. These immune cells are the body's primary weapon against virus-infected and cancerous cells, but prolonged exposure to tumors or chronic infections drives them into a dysfunctional condition known as T cell exhaustion. The atlas allowed researchers to pinpoint transcription factors — proteins that regulate gene activity — acting as molecular switches that steer cells toward either resilience or decline. Among them, two transcription factors called ZSCAN20 and JDP2 emerged as critical and previously unrecognized drivers of exhaustion. When the team disabled these genes, exhausted T cells regained their ability to kill tumor cells while crucially retaining long-term immune memory.\n\n\"We found that it was indeed possible to separate these two outcomes,\" said H. Kay Chung, an assistant professor at UNC Lineberger and co-corresponding author of the study, referring to the ability to restore killing function without sacrificing durable immune protection. The result challenges a long-held assumption in immunology that exhaustion is an inevitable and irreversible consequence of sustained immune activation. Susan Kaech, a professor at the Salk Institute and co-corresponding author, described the atlas as providing \"clear recipes\" for designing T cells, identifying which molecular ingredients are uniquely active in protective versus dysfunctional states.\n\nThe implications are particularly significant for solid tumor treatment, where T cell exhaustion is a primary barrier to the success of therapies such as CAR T cell therapy and adoptive cell transfer. Current immunotherapies often falter because engineered immune cells lose potency after encountering the immunosuppressive tumor microenvironment. The new framework suggests that future therapies could preemptively program T cells to resist exhaustion pathways, potentially extending the duration and effectiveness of treatment.\n\nLooking ahead, the collaboration plans to integrate AI-guided computational modeling with experimental techniques to develop additional genetic recipes for programming T cells into specific functional states. \"This study shows that we can begin to precisely manipulate immune cell fates and unlock new possibilities for enhancing immune therapies,\" said Wei Wang, a professor at UC San Diego and co-corresponding author. The research, which examined nine distinct CD8 T cell conditions using advanced genetic tools, mouse models, and computational analysis, was supported by the National Institutes of Health and the Damon Runyon Cancer Research Foundation.",
-      "category": "science",
-      "importance": 8,
-      "tags": [
-        "immunotherapy",
-        "T cells",
-        "cancer research",
-        "gene therapy",
-        "immune exhaustion",
-        "Nature"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/cancer-target-detection.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260304184235.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-06T16:17:52.823Z"
-    },
-    {
-      "id": "ps-1772813888108-f1y6",
-      "slug": "anthropic-takes-pentagon-to-court-over-supply-chain-risk-lab",
-      "headline": "Anthropic Takes Pentagon to Court Over Supply-Chain Risk Label",
-      "subheadline": "CEO Dario Amodei calls the DOD designation 'legally unsound' as OpenAI moves in to replace Anthropic on military contracts",
-      "body": "Anthropic announced Thursday that it will mount a legal challenge against the Department of Defense's decision to designate the AI company a supply-chain risk — a label that effectively bars it from Pentagon contracts and could ripple through its relationships with military-adjacent customers.\n\nThe escalation follows weeks of deteriorating relations between the San Francisco-based AI firm and the DOD over a fundamental disagreement: Anthropic drew hard lines against its Claude models being used for mass surveillance of U.S. citizens or fully autonomous weapons systems, while the Pentagon insisted on unrestricted access for \"all lawful purposes.\" Defense Secretary Pete Hegseth formalized the supply-chain risk designation on Thursday, hours before CEO Dario Amodei issued his public response.\n\nAmodei sought to limit the fallout, arguing that the designation is narrow in scope and applies only to Claude's use as a direct component of DOD contracts — not to all business conducted by companies that happen to hold Pentagon agreements. He pointed to the legal requirement that the Secretary of Defense employ \"the least restrictive means necessary\" to protect supply-chain integrity. However, legal experts are skeptical about Anthropic's prospects in court. Dean Ball, a former Trump-era White House AI adviser who has criticized Hegseth's handling of the matter, noted that courts set a \"very high bar\" before overruling the government on national security determinations.\n\nThe dispute took on additional dimensions after an internal Amodei memo leaked in which he characterized rival OpenAI's military dealings as \"safety theater.\" OpenAI has since signed a deal to replace Anthropic on DOD work, a move that reportedly sparked backlash among OpenAI's own staff. Amodei apologized for the memo's tone, calling it a product of \"a difficult day for the company\" that no longer reflects his considered views. He said the memo was written within hours of a presidential Truth Social post announcing Anthropic's removal from federal systems, the formal supply-chain designation, and the OpenAI deal — a rapid succession of blows.\n\nDespite the legal battle, Amodei emphasized that Anthropic would continue supporting ongoing U.S. military operations, including in Iran, providing its models at \"nominal cost\" for as long as needed to ensure a smooth transition. The case, likely to be filed in federal court in Washington, will test the limits of Pentagon procurement authority at a moment when the U.S. government's relationship with its most capable AI developers is being fundamentally reshaped.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Anthropic",
-        "Department of Defense",
-        "Dario Amodei",
-        "OpenAI",
-        "AI regulation",
-        "military AI",
-        "Pete Hegseth"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-06T16:18:08.108Z"
-    },
-    {
       "id": "ps-1772813902401-xw82",
       "slug": "trump-demands-iran-s-unconditional-surrender-as-airstrikes-c",
       "headline": "Trump Demands Iran's 'Unconditional Surrender' as Airstrikes Continue",
@@ -107,50 +192,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-06/trump-wants-unconditional-surrender-from-iran-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-06T16:18:22.401Z"
-    },
-    {
-      "id": "ps-1772813916440-la0i",
-      "slug": "u-s-economy-sheds-92-000-jobs-in-february-defying-forecasts",
-      "headline": "U.S. Economy Sheds 92,000 Jobs in February, Defying Forecasts",
-      "subheadline": "Labor market contraction marks sharp reversal from January's gains as unemployment climbs to 4.4%",
-      "body": "The U.S. economy unexpectedly shed 92,000 jobs in February, a stark miss against economist forecasts calling for the addition of 59,000 positions, according to data released Friday by the Bureau of Labor Statistics. The report marks a dramatic reversal from January's gain of 126,000 jobs and represents one of the weakest monthly labor readings in recent years.\n\nThe unemployment rate ticked up to 4.4%, exceeding the consensus expectation of 4.3% and rising from the prior month's level. The deterioration in labor market conditions could reopen the door to Federal Reserve rate cuts in the first half of 2026, though markets had been pricing in a 95% probability that the central bank would hold rates steady at its March 18 meeting and an 85% chance of no action in April.\n\nFinancial markets reacted swiftly. U.S. stock index futures extended losses, with the Nasdaq falling 1% and the S&P 500 declining 0.8%. The 10-year Treasury yield dropped four basis points to 4.11%, reflecting a flight to safety and growing expectations that the Fed may need to ease monetary policy sooner than anticipated. Precious metals reversed early declines, with gold rising 1% and silver gaining 2%.\n\nComplicating the monetary policy outlook, oil prices surged alongside the weak jobs data. West Texas Intermediate crude climbed 6.2% to $86 per barrel amid rising tensions in the Middle East, raising the specter of renewed inflationary pressure through energy and food costs. The simultaneous weakening of the labor market and potential acceleration in inflation presents the Fed with a difficult balancing act — a scenario that could delay or complicate any pivot toward rate cuts.\n\nBitcoin, which had already been under pressure overnight, traded near $70,000 following the release and subsequently fell further toward $68,000. The cryptocurrency's decline came despite the ostensibly supportive signal of potential rate cuts, suggesting that broader risk-off sentiment and profit-taking among short-term holders were dominating price action. Digital asset markets saw significant selling pressure throughout the session, with major cryptocurrencies including Ethereum, Solana, and XRP all declining between 3% and 5%.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "jobs report",
-        "unemployment",
-        "Federal Reserve",
-        "labor market",
-        "Treasury yields",
-        "oil prices",
-        "bitcoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/e64587eedd581a6802ecc9cf754d7806274480aa-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/06/u-s-lost-92-000-jobs-in-february-unemployment-rate-rose-to-4-2",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-06T16:18:36.440Z"
-    },
-    {
-      "id": "ps-1772812934697-g2dk",
-      "slug": "tehran-residents-report-heaviest-night-of-strikes-as-iran-wa",
-      "headline": "Tehran Residents Report Heaviest Night of Strikes as Iran War Enters Second Week",
-      "subheadline": "Civilians describe shaking buildings, sleepless nights, and a capital transformed into a 'ghost town' amid divided public sentiment",
-      "body": "Residents of Tehran have described Thursday night as the most intense bombardment since Israel and the United States launched military operations against Iran six days ago, with one man telling the BBC his house shook for five minutes straight from constant explosions.\n\nThe accounts, gathered by BBC Persian from anonymous sources whose identities were withheld for safety, paint a picture of a capital city under siege. A woman in her 40s reported being jolted awake at 5:00 a.m. by blasts, while a young man near Tehran in the city of Damavand described witnessing an explosion firsthand — a light shooting into the sky as every window in his home rattled. Families have begun evacuating with whatever possessions they can carry, some requiring multiple vehicles to flee. The US-based Human Rights Activists News Agency (HRANA) has reported 1,168 civilian deaths since the conflict began, including 194 children, though the BBC has been unable to independently verify the figures. International journalists are largely barred from entering Iran, and rolling internet blackouts have further restricted the flow of information.\n\nPerhaps most striking in the testimony is the sharply divided sentiment among ordinary Iranians. Some residents described widespread public dissatisfaction with the war and growing fear that Iran could descend into the kind of prolonged civil conflict that devastated Iraq and Syria. One young man in Tehran said the city had become a ghost town — dark, shuttered, and reeking of gunpowder, with regime-loyal groups chanting slogans at checkpoints. Yet others reported a remarkably different atmosphere: citizens climbing to rooftops to watch the strikes, waving at passing fighter jets, and openly expressing hope that the bombardment would topple the Islamic Republic before Nowruz, the Persian New Year, on March 20. One woman told BBC Persian that the violent suppression of anti-government protests on January 8 and 9 had been far more terrifying, because \"we ourselves were the targets of the bullets.\"\n\nThe widening conflict has begun generating significant economic and logistical fallout well beyond Iran's borders. Oil prices have surged after Qatar warned that all Gulf production could halt within days. Jet fuel prices have spiked more than 80 percent due to supply disruptions, raising the prospect of higher air fares globally. Azerbaijan has expressed fury after the war spilled across its border in the form of a drone attack, and airlines have been forced to reroute flights as Iranian airspace closures squeeze available corridors. Emirates has only just resumed limited service to Dubai after days of stranded passengers.\n\nThe situation inside Iran remains exceptionally difficult to assess independently. With media access severely restricted and communications intermittent, the testimonies of residents willing to speak represent rare windows into a rapidly deteriorating humanitarian situation. As one young Tehran resident told the BBC: \"I hope things change — people live on hope. But if it doesn't happen this time, then it probably never will.\"",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "Israel",
-        "Tehran",
-        "Middle East conflict",
-        "US military",
-        "civilian casualties",
-        "oil prices"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/660c/live/3773dc80-1964-11f1-b048-c9424b2cf5fd.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c4g88q764njo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-06T16:02:14.697Z"
     },
     {
       "id": "ps-1772811194624-op9j",
@@ -1029,50 +1070,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-06/rate-cut-bets-are-unraveling-across-developing-asia-on-oil-surge",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-06T02:48:32.321Z"
-    },
-    {
-      "id": "ps-1772765325781-dz1f",
-      "slug": "crypto-sanctions-evasion-surged-700-in-2025-topping-104-bill",
-      "headline": "Crypto Sanctions Evasion Surged 700% in 2025, Topping $104 Billion",
-      "subheadline": "Russia, Iran, and North Korea leveraged stablecoins and state-linked exchanges to bypass Western financial restrictions, Chainalysis reports",
-      "body": "State actors from Russia, Iran, and North Korea funneled at least $104 billion in cryptocurrency through sanctions-evading channels in 2025, an almost eightfold increase from the prior year, according to a sweeping new report from blockchain analytics firm Chainalysis. The surge pushed total illicit onchain volume to a record $154 billion, underscoring how heavily sanctioned governments have embedded digital assets into their national financial strategies.\n\nAt the center of the findings is A7A5, a ruble-pegged stablecoin registered in Kyrgyzstan that processed $93.3 billion in transactions in less than a year. Chainalysis identified the token as a primary settlement rail for sanctioned Russian businesses conducting cross-border trade, linking it to exchanges Grinex and Meer — both subsequently sanctioned by the United States and European Union. An associated \"Instant Swapper\" service that converts A7A5 into mainstream dollar-pegged stablecoins with minimal or no know-your-customer checks has handled more than $2.2 billion, effectively bridging sanctioned entities into the broader crypto economy. Oleg Ogienko, A7A5's director for regulatory and overseas affairs, rejected the findings as \"politically motivated by Western countries,\" telling CoinDesk the platform provides legal payment infrastructure for Russian import and export operations with robust compliance controls.\n\nIran and North Korea also significantly expanded their crypto footprints. Addresses tied to Iran's Islamic Revolutionary Guard Corps — designated a terrorist organization by the U.S. and EU — accounted for more than half of value received by Iranian crypto services by late 2025, moving over $3 billion connected to proxy financing, oil trade, and procurement networks. North Korea, meanwhile, cemented its status as the world's most prolific state-sponsored cyber thief, stealing more than $2 billion in cryptocurrency, including the record $1.5 billion Bybit hack.\n\nThe report highlights a structural shift in how illicit finance moves onchain: stablecoins now represent roughly 84 percent of illicit crypto transaction volume, reflecting sanctioned actors' preference for liquid, dollar-denominated assets. A parallel study by TRM Labs, published in February, corroborated the trend, finding that illicit entities received $141 billion in stablecoins in 2025 — the highest level in five years — with sanctions-related activity comprising 86 percent of the total.\n\nThe findings are likely to intensify regulatory pressure on stablecoin issuers and decentralized exchange operators. With sanctioned states increasingly treating crypto infrastructure as a strategic national asset rather than a fringe financial tool, Western policymakers face mounting questions about whether existing enforcement mechanisms can keep pace with the scale and sophistication of onchain evasion.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "crypto sanctions",
-        "Chainalysis",
-        "stablecoins",
-        "Russia",
-        "North Korea",
-        "Iran",
-        "illicit finance",
-        "A7A5"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/09430b3b281253f2a40d2d28cbcba789d7cd82e0-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/03/05/sanctions-evasions-using-crypto-increased-by-700-in-2025-chainalysis",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-06T02:48:45.781Z"
-    },
-    {
-      "id": "ps-1772753550796-bxoz",
-      "slug": "half-of-amazon-insect-species-face-critical-heat-stress-as-c",
-      "headline": "Half of Amazon Insect Species Face Critical Heat Stress as Climate Warms",
-      "subheadline": "Landmark study of 2,000 species finds tropical lowland insects lack the biological capacity to adapt to rising temperatures",
-      "body": "Up to half of all insect species in the Amazon could experience dangerous levels of heat stress if global temperatures continue to rise unchecked, according to a sweeping new study published in Nature that examined more than 2,000 species across tropical regions in South America and East Africa.\n\nThe research, led by scientists at the University of Würzburg and the University of Bremen, reveals a stark divide in heat adaptability across insect populations. While species living at higher altitudes showed some capacity to temporarily boost their heat tolerance, insects in tropical lowlands — precisely the regions harboring the planet's richest biodiversity — largely lack this flexibility. The finding upends earlier hopes that insects might be more resilient to warming than feared.\n\n\"If global ecosystems continue to warm unabated, expected future temperatures will lead to critical heat stress for up to half of the insect species there,\" said Dr. Kim Holzmann, the study's lead author and a researcher at Würzburg's Chair of Animal Ecology and Tropical Biology. The team collected field data in 2022 and 2023 across a range of environments, from cool mountain forests to hot lowland savannas, measuring temperature tolerance limits and analyzing the genomes of numerous species to understand the biological mechanisms at play.\n\nA key discovery involves protein stability. The researchers found that differences in heat tolerance among insect groups are closely tied to the thermal stability of proteins within their bodies — properties that are deeply conserved in the evolutionary tree and cannot be quickly altered. \"The results suggest that fundamental characteristics of heat tolerance are deeply rooted in biology and cannot be quickly adapted to new climatic conditions,\" said co-author Dr. Marcell Peters, an animal ecologist at the University of Bremen.\n\nThe implications extend well beyond entomology. Insects constitute roughly 70 percent of all known animal species and serve as essential pollinators, decomposers, and predators that underpin ecosystem function worldwide. A collapse in tropical insect populations could cascade through food webs, threatening agricultural productivity and the integrity of some of Earth's most biodiverse habitats. The study, funded by the German Research Foundation, involved an international team of researchers and represents one of the most comprehensive assessments of insect thermal tolerance ever conducted.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "insects",
-        "Amazon",
-        "climate change",
-        "biodiversity",
-        "heat tolerance",
-        "tropical ecology"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/tropical-insect-dna-samples.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260304184224.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-05T23:32:30.796Z"
     }
   ]
 }
