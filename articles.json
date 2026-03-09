@@ -1,7 +1,137 @@
 {
-  "lastUpdated": "2026-03-09T15:18:52.849Z",
+  "lastUpdated": "2026-03-09T15:33:50.026Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1773070350283-4o0b",
+      "slug": "video-analysis-identifies-us-tomahawk-missile-in-strike-near",
+      "headline": "Video Analysis Identifies US Tomahawk Missile in Strike Near Iranian School",
+      "subheadline": "BBC Verify confirms footage showing cruise missile moments before impact at IRGC base adjacent to school where 168 died",
+      "body": "Video analysis by multiple weapons experts has identified a US Tomahawk cruise missile in footage captured moments before a strike on an Iranian Revolutionary Guard Corps base adjacent to a primary school in southern Iran, where authorities reported 168 people killed — including approximately 110 children.\n\nThe footage, originally published by Iran's semi-official Mehr news agency and authenticated by BBC Verify, shows the missile in its terminal phase approaching the IRGC naval medical clinic in Minab, located roughly 200 meters from the Shajareh Tayebeh primary school. Three independent experts confirmed the munition as a Tomahawk, with a senior analyst at Mackenzie Intelligence Services stating it bore \"all the hallmarks of a US Tomahawk in its terminal phase.\" Neither Israel nor Iran is known to possess Tomahawk missiles, effectively narrowing responsibility to the United States. A preliminary US assessment reported by CBS News acknowledged the strike was \"likely\" American in origin but maintained the school was not an intentional target and may have been hit in error.\n\nThe analysis deepens a growing controversy over civilian casualties in the US military campaign against Iran. Large smoke plumes visible near the school before the Tomahawk detonates at the military base suggest the school had already been struck by earlier munitions, consistent with previous satellite imagery analysis showing the area was hit by multiple strikes in rapid succession. Wes Bryant, a former US Air Force national security analyst, said the pattern of multiple strikes on the entire IRGC compound \"is indicative of a deliberate and precise\" US operation. Armament Research Services director N.R. Jenzen Jones noted that Iranian missiles carry relatively small warheads, making it improbable that a single errant Iranian munition caused the extensive blast damage observed at the school.\n\nPresident Donald Trump had attributed the school strike to Iran on Saturday, telling reporters aboard Air Force One that Iranian munitions \"have no accuracy whatsoever.\" Neither the US nor Israel has publicly accepted or denied responsibility for the incident. Israel has stated its military was not operating near the school. Iran has blamed both the US and Israel. The Pentagon's own illustrative map of strikes conducted during the first 100 hours of the conflict shows the Minab area as a target zone, and Gen. Dan Caine, the US military's most senior officer, confirmed on March 2 that Tomahawks were the first missiles fired at Iran by the US Navy along the \"southern flank.\"\n\nIndependent verification of the full scope of the Minab incident remains difficult due to an ongoing internet blackout across Iran and severe restrictions on international journalists' ability to report freely inside the country. The strike occurred on February 28 and has become one of the deadliest single incidents involving civilian casualties since the conflict began.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran",
+        "US military",
+        "Tomahawk missile",
+        "civilian casualties",
+        "BBC Verify",
+        "IRGC",
+        "Minab"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/69d5/live/f15d3960-1bc2-11f1-b048-c9424b2cf5fd.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-09T15:32:30.283Z"
+    },
+    {
+      "id": "ps-1773070367932-gi1g",
+      "slug": "new-method-claims-million-fold-speedup-in-molecular-sampling",
+      "headline": "New Method Claims Million-Fold Speedup in Molecular Sampling",
+      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow iterative methods",
+      "body": "A new computational technique promises to dramatically accelerate one of the most fundamental and time-consuming tasks in computational chemistry: sampling molecular conformations from the Boltzmann distribution. Researcher Pipi Hu, in a preprint posted to arXiv, introduces a force-guided approach to so-called Drifting Models that achieves what the paper describes as a million-fold speedup over traditional molecular dynamics simulations while maintaining distributional accuracy comparable to established multi-step methods.\n\nThe Boltzmann distribution describes the probability of finding a molecule in a particular geometric arrangement at thermal equilibrium — information critical to drug design, materials science, and understanding chemical reactions. Traditional molecular dynamics simulations compute this by evolving a system through tiny time steps, a process that can require enormous computational resources. More recent diffusion-based generative models improved on this but still require many iterative steps, making them slow for practical applications.\n\nHu's approach adapts Drifting Models — a class of generative models capable of producing samples in a single forward pass — to molecular conformation generation for the first time. The key theoretical contribution is the \"Drifting Score Identity,\" which establishes that for Gaussian kernels, the drifting field's attraction term corresponds to a kernel-weighted average of any target distribution's score function. By substituting molecular force labels, which directly encode the Boltzmann distribution's score, the method yields what the author terms the \"Drifting Force Identity\" — effectively decomposing the generative field into a standard drift component plus a correction term that steers samples toward the true Boltzmann distribution.\n\nA particularly notable finding is that the optimal strategy for incorporating force information depends on the mathematical representation used. In coordinate space, a technique called Force-Interpolated Drifting works best by blending physical force directions with data displacements. In distance feature space, however, a different approach — Force-Aligned Kernel — proves superior by modifying only kernel weights, which preserves the manifold of geometrically valid molecular structures. Both methods were benchmarked on the MD17 Ethanol dataset, achieving one-step generation with more than a 1,000-fold speedup over recent score-matching methods that use Boltzmann guidance, and a claimed million-fold acceleration over conventional molecular dynamics. Critically, the generated structures maintained perfect structural validity.\n\nIf the results hold up to peer review and extend to larger, more complex molecular systems, the method could significantly reduce the computational cost of exploring molecular energy landscapes — a bottleneck in fields ranging from pharmaceutical development to protein engineering. The preprint, submitted on February 26, 2026, has not yet undergone formal peer review.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "Boltzmann distribution",
+        "molecular dynamics",
+        "computational chemistry",
+        "generative models",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1659034638756-778a03d1e27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxCb2x0em1hbm4lMjBkaXN0cmlidXRpb24lMjBtb2xlY3VsYXIlMjBkeW5hbWljc3xlbnwwfDB8fHwxNzczMDMwNzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05527",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T15:32:47.932Z"
+    },
+    {
+      "id": "ps-1773070385885-eycd",
+      "slug": "tu-wien-physicists-derive-quantum-correction-to-einstein-s-g",
+      "headline": "TU Wien Physicists Derive Quantum Correction to Einstein's Geodesics",
+      "subheadline": "New 'q-desic equation' predicts particles deviate from classical spacetime paths, with surprisingly large effects at cosmic scales",
+      "body": "A team of physicists at TU Wien in Vienna has developed a new mathematical framework that modifies one of general relativity's most fundamental concepts — the paths that particles trace through curved spacetime — by incorporating quantum mechanics. The result, published in Physical Review D, yields surprising predictions: while quantum corrections are negligibly small at everyday scales, they become dramatic at cosmological distances, potentially offering the first experimentally testable bridge between quantum theory and gravity.\n\nIn Einstein's general relativity, massive objects curve the fabric of spacetime, and smaller objects follow the shortest available paths through that curvature, known as geodesics. These trajectories explain everything from planetary orbits to the bending of starlight. Benjamin Koch of TU Wien's Institute for Theoretical Physics, working with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, asked what happens when the spacetime metric itself — the mathematical object encoding curvature — is treated as a quantum quantity subject to uncertainty rather than a fixed classical value. By quantizing the metric for a spherically symmetric, time-independent gravitational field, the team derived what they call the \"q-desic equation,\" a quantum generalization of the classical geodesic equation.\n\nThe key finding is that particles moving through quantum spacetime do not precisely follow the shortest classical path. For ordinary gravitational fields like that of the Sun, the deviation amounts to roughly 10⁻³⁵ meters — far beyond any conceivable measurement. But when the researchers incorporated the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, the picture changed sharply. At distances on the order of 10²¹ meters — comparable to intergalactic scales — the quantum-corrected trajectories diverge significantly from classical predictions. At intermediate scales, such as Earth's orbit around the Sun, the two frameworks remain effectively indistinguishable.\n\n\"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said. He noted that the large-scale deviations appear precisely in the regime where general relativity faces its deepest unresolved puzzles, including the anomalous rotation speeds of spiral galaxies — a phenomenon typically attributed to dark matter. The team believes further development of the q-desic framework could yield predictions testable against astronomical observations, offering a rare empirical handle on quantum gravity.\n\nThe work addresses a longstanding impasse in theoretical physics. Competing approaches to quantum gravity — string theory, loop quantum gravity, asymptotic safety, and canonical quantum gravity among them — have struggled to produce distinct, measurable predictions that could differentiate one from another. Koch likened the situation to the Cinderella fairy tale: multiple candidate theories exist, but no observational \"glass slipper\" has emerged to identify which one nature actually employs. The q-desic equation, by generating scale-dependent and potentially observable deviations from classical geodesics, could serve as exactly that discriminating test. Whether the slipper fits any existing theory of quantum gravity remains the next critical question.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "geodesics",
+        "cosmological constant",
+        "TU Wien",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T15:33:05.885Z"
+    },
+    {
+      "id": "ps-1773070399022-t0v6",
+      "slug": "nscale-reaches-14-6b-valuation-with-record-european-series-c",
+      "headline": "Nscale Reaches $14.6B Valuation With Record European Series C",
+      "subheadline": "Nvidia-backed AI infrastructure firm adds Sheryl Sandberg and Nick Clegg to board as it eyes potential IPO",
+      "body": "British AI infrastructure company Nscale has closed a $2 billion Series C round — which it claims is the largest in European history — vaulting the startup to a $14.6 billion valuation and making it one of the continent's newest decacorns alongside Helsing and Mistral AI.\n\nThe round, co-led by Norwegian energy conglomerate Aker and New York-based 8090 Industries, includes a $433 million pre-Series C SAFE from October backed by Blue Owl, Dell, Nvidia, and Nokia. Goldman Sachs and JPMorgan supported the raise, fueling speculation that Nscale is positioning for an initial public offering. CEO Josh Payne told The New York Times the company might seek to go public \"as early as this year\" to generate additional capital. Other Series C participants include Astra Capital, Citadel, Jane Street, Lenovo, Linden Advisors, and Point72.\n\nAlongside the funding, Nscale announced three heavyweight board additions: former Meta COO Sheryl Sandberg, former Yahoo president Susan Decker, and former UK Deputy Prime Minister Nick Clegg. The appointments signal the company's ambitions to navigate both the corporate and regulatory dimensions of scaling AI infrastructure globally. Clegg, who most recently served as Meta's president of global affairs, brings particular expertise in European policy — a critical domain as the continent tightens oversight of AI systems and data center expansion.\n\nNscale's strategy centers on vertical integration spanning energy sourcing, data center construction, GPU compute, and orchestration software. Its flagship initiative, dubbed \"Stargate Norway,\" is a joint venture with Aker that will now be fully managed by Nscale. The project aims to run 100,000 Nvidia GPUs by the end of 2026, with OpenAI as an initial customer. Last October, the company also signed an expanded deal with Microsoft to deploy approximately 200,000 Nvidia GPUs across three European data centers and one in the United States, in collaboration with Dell.\n\nBeyond equity, Nscale raised $1.4 billion in debt last month through a GPU-backed delayed draw term loan to finance European cluster buildouts. The company plans to use the combined capital to expand across Europe, North America, and Asia while growing its engineering and operations teams. Nscale has pledged to leverage low-cost renewable energy, reuse waste heat, and invest in local skills development as part of its Norwegian operations — positioning itself at the intersection of surging enterprise AI demand and Europe's green energy ambitions.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Nscale",
+        "AI infrastructure",
+        "data centers",
+        "Nvidia",
+        "European startups",
+        "IPO",
+        "Sheryl Sandberg"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T15:33:19.022Z"
+    },
+    {
+      "id": "ps-1773070415966-xtiy",
+      "slug": "oil-surges-past-100-as-g7-rules-out-strategic-reserve-releas",
+      "headline": "Oil Surges Past $100 as G7 Rules Out Strategic Reserve Release",
+      "subheadline": "Strait of Hormuz shipping disruptions compound supply fears as major economies decline to tap emergency stockpiles",
+      "body": "Crude oil prices breached the $100-per-barrel threshold on March 8 after Group of Seven nations announced they would not pursue a coordinated release of strategic petroleum reserves in the near term, removing what many traders had considered the most likely mechanism for easing a rapidly tightening global supply picture.\n\nThe surge was driven by a convergence of factors, chief among them a standstill in tanker traffic through the Strait of Hormuz — the narrow waterway between Iran and Oman through which roughly one-fifth of the world's daily oil consumption passes. The chokepoint disruption has effectively severed a critical artery of global energy supply, stranding cargoes and forcing buyers to scramble for alternative sources. With the G7 now signaling it will not intervene by drawing down emergency stockpiles, the market is pricing in a sustained period of constrained supply with no clear relief valve.\n\nThe decision not to release strategic reserves marks a significant policy choice by the world's largest advanced economies. Coordinated stockpile releases have historically been deployed sparingly — most notably during the 2022 drawdown led by the United States in response to Russia's invasion of Ukraine — and carry political and logistical complexities. G7 leaders may be calculating that a premature release could deplete reserves needed for a more severe disruption, or that the current crisis may resolve before emergency measures become necessary. Regardless of the reasoning, the market interpreted the announcement as unambiguously bullish.\n\nThe $100 milestone carries both symbolic and practical weight. It is a psychological threshold that tends to accelerate inflationary pressures across the global economy, raising costs for transportation, manufacturing, and consumer goods. For oil-importing nations already managing fragile growth, sustained prices at or above this level could tip the balance toward recession. Energy-exporting countries, meanwhile, stand to reap windfall revenues, shifting geopolitical leverage in the process.\n\nTraders and analysts are now watching for any signs that the Strait of Hormuz disruption may ease, or that the G7 position could soften if prices continue to climb. Until either development materializes, the market appears poised to remain in crisis mode, with volatility likely to intensify in the days ahead.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "G7",
+        "Strait of Hormuz",
+        "strategic petroleum reserves",
+        "energy crisis",
+        "commodities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1754859308973-3a6d847a7a70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8T2lsJTIwU3VyZ2VzJTIwUGFzdCUyMFJ1bGVzJTIwT3V0JTIwU3RyYXRlZ2ljJTIwUmVzZXJ2ZSUyMFJlbGVhc2V8ZW58MHwwfHx8MTc3MzA2OTUxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T15:33:35.966Z"
+    },
+    {
+      "id": "ps-1773070429917-29ya",
+      "slug": "aon-tests-stablecoin-payments-for-insurance-premiums-in-indu",
+      "headline": "Aon Tests Stablecoin Payments for Insurance Premiums in Industry First",
+      "subheadline": "The $5 trillion insurance broker used USDC and PYUSD to settle premiums, signaling stablecoins' deepening reach into corporate finance",
+      "body": "Aon, one of the world's largest insurance brokers, has completed a proof-of-concept demonstrating the use of stablecoins to settle insurance premium payments — a transaction it described as the first of its kind by a major global broker.\n\nThe London-based firm, which advises on roughly $5 trillion in assets, worked with crypto exchange Coinbase and blockchain infrastructure provider Paxos to execute test settlements using Circle's USDC token on the Ethereum network and PayPal's PYUSD stablecoin on Solana. While the pilot was limited to a controlled demonstration rather than live client transactions, it represents a concrete step toward integrating blockchain-based payments into an industry where cross-border premium settlements can take days to clear through traditional banking channels.\n\nThe insurance sector's payment infrastructure has long been a source of friction. Premiums typically flow through multiple banking intermediaries, each adding time and cost to the settlement process. Stablecoin proponents argue that blockchain rails can compress that timeline to minutes while providing an immutable record of each transaction. For a global broker like Aon, which operates across dozens of jurisdictions, the potential efficiency gains in cross-border settlements are particularly compelling.\n\nAon's experiment arrives against the backdrop of a rapidly maturing regulatory environment. The U.S. Genius Act, enacted in 2025, established a federal framework governing stablecoin issuers, including requirements around reserve backing and regulatory oversight. That legislative clarity has emboldened a growing roster of traditional financial institutions to explore tokenized dollar payments. The stablecoin market now exceeds $300 billion in total assets, up substantially as institutional adoption accelerates.\n\n\"While broader adoption of stablecoins across corporate payments is still emerging, the long-term potential is significant,\" said John King, Aon's head of corporate portfolio strategy and treasurer. King framed the pilot as a learning exercise, noting the company intends to evaluate efficiency and cost-savings opportunities as the technology matures. The test adds Aon to a growing list of major financial firms — including Circle itself, which recently moved $68 million internally using its own stablecoin in under 30 minutes — that are actively probing how dollar-pegged tokens might slot into existing corporate treasury operations.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "stablecoins",
+        "Aon",
+        "insurance",
+        "USDC",
+        "Coinbase",
+        "Paxos",
+        "corporate payments",
+        "Genius Act"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/60a6fa85e80e77bb8e8f9152dfcdf27f972b24aa-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/09/global-insurance-broker-aon-tests-stablecoin-payments-with-coinbase-paxos",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T15:33:49.917Z"
+    },
     {
       "id": "ps-1773069452165-bava",
       "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
@@ -22,91 +152,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-09T15:17:32.165Z"
-    },
-    {
-      "id": "ps-1773069468369-ea4f",
-      "slug": "new-method-claims-million-fold-speedup-for-molecular-samplin",
-      "headline": "New Method Claims Million-Fold Speedup for Molecular Sampling",
-      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
-      "body": "A researcher has introduced a technique that could dramatically accelerate one of computational chemistry's most fundamental and time-consuming tasks: sampling molecular configurations from the Boltzmann distribution, the probability framework that governs how molecules arrange themselves at thermal equilibrium.\n\nIn a preprint posted to arXiv, Pipi Hu presents \"Drifting Models\" adapted for molecular conformation generation, reporting speedups exceeding a million-fold compared to traditional molecular dynamics simulations. The method also achieves more than a thousand-fold acceleration relative to recent score-matching approaches that use Boltzmann guidance — all while generating physically valid molecular structures in a single computational step rather than through costly iterative procedures.\n\nThe core innovation rests on what Hu calls the \"Drifting Score Identity\" and its molecular counterpart, the \"Drifting Force Identity.\" In standard generative modeling, diffusion-based methods produce molecular conformations through many sequential denoising steps, making them accurate but painfully slow. Drifting Models can generate samples in one step, but they typically reproduce the distribution present in training data rather than the true Boltzmann distribution — a critical distinction for scientific accuracy. Hu's theoretical framework bridges this gap by showing that molecular force labels, which directly encode the Boltzmann distribution's score function, can be incorporated into the drifting field as a correction term. This effectively steers the one-step generator toward thermodynamic correctness without sacrificing speed.\n\nPerhaps the most scientifically intriguing finding is what Hu describes as a \"reversal\" in the effectiveness of force incorporation depending on the mathematical representation used. In Cartesian coordinate space, a technique called Force-Interpolated Drifting dominates by blending physical force directions with data displacements. In distance feature space, however, a different approach — Force-Aligned Kernel — proves superior by modifying only kernel weights, which preserves the geometric manifold of valid molecular structures. Benchmarked on the MD17 Ethanol dataset, both methods achieve distributional accuracy that rivals multi-step generative approaches while maintaining perfect structural validity.\n\nIf the results hold up under broader scrutiny and extend to larger, more complex molecular systems, the implications could be substantial. Boltzmann sampling underpins drug discovery, materials design, and protein engineering, all domains where the computational cost of exploring molecular configuration space remains a persistent bottleneck. Reducing that cost by six orders of magnitude — even on relatively simple benchmark molecules — signals a potentially transformative shift in how researchers approach molecular simulation at scale.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "Boltzmann distribution",
-        "molecular dynamics",
-        "computational chemistry",
-        "generative models",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1657492995523-18bf689b9a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05527",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T15:17:48.369Z"
-    },
-    {
-      "id": "ps-1773069485598-2dem",
-      "slug": "tu-wien-physicists-derive-quantum-correction-to-einstein-s-g",
-      "headline": "TU Wien Physicists Derive Quantum Correction to Einstein's Geodesics",
-      "subheadline": "New 'q-desic equation' predicts particles deviate from classical spacetime paths, with potentially observable effects at cosmic scales",
-      "body": "Physicists at the Vienna University of Technology have derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at the largest cosmic scales, those trajectories may diverge significantly from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, was led by Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic. The team tackled a foundational element of general relativity: geodesics, the curved paths that objects follow through spacetime warped by massive bodies. By replacing the classical metric — the mathematical description of spacetime curvature — with a quantum version subject to uncertainty, the researchers derived what they call the \"q-desic equation.\" It shows that in a quantum spacetime, particles do not necessarily travel along the shortest path between two points, as classical geodesics require.\n\nFor ordinary gravitational systems, the deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment's sensitivity. But when the team incorporated the cosmological constant, the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe, the picture changed dramatically. At distances around 10²¹ meters — roughly the scale of galaxy clusters and large cosmic structures — the quantum-corrected trajectories diverged substantially from classical predictions. Crucially, at intermediate scales such as planetary orbits, the equations reproduce standard general relativity almost exactly.\n\nThe finding is significant because it may offer a rare experimental foothold in the notoriously intractable problem of quantum gravity. Koch likened the search to the Cinderella fairy tale: multiple candidate theories exist — string theory, loop quantum gravity, asymptotically safe gravity — but physicists have lacked a measurable observable to distinguish among them. The q-desic equation could serve as that discriminating test, since different quantum gravity frameworks would predict different deviations from classical geodesics. Koch noted the results give \"hope that by further developing this approach we can gain a new, and observationally well testable, insight into important cosmic phenomena,\" including the still-unexplained rotation speeds of spiral galaxies.\n\nThe research represents a methodological advance as well. Quantizing the metric for even the relatively simple case of a static, spherically symmetric gravitational field — such as the Sun's — required careful mathematical treatment. The team showed that naively replacing the metric operator with its expectation value, a kind of quantum average, can lead to errors, and they provided a rigorous framework for handling the calculation correctly. While substantial theoretical development and observational comparison remain ahead, the work opens a concrete new avenue for probing whether spacetime itself carries quantum signatures detectable at cosmological distances.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "cosmological constant",
-        "TU Wien",
-        "dark energy",
-        "spacetime"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T15:18:05.598Z"
-    },
-    {
-      "id": "ps-1773069500836-dfxo",
-      "slug": "nscale-hits-14-6b-valuation-with-record-european-series-c",
-      "headline": "Nscale Hits $14.6B Valuation With Record European Series C",
-      "subheadline": "Nvidia-backed AI infrastructure firm adds Sheryl Sandberg and Nick Clegg to board as it eyes potential IPO",
-      "body": "British AI infrastructure startup Nscale has reached a $14.6 billion valuation following what it describes as the largest Series C in European history, a $2 billion round that positions the company among the continent's elite decacorns alongside Helsing and Mistral AI.\n\nThe round, co-led by Norwegian energy conglomerate Aker and New York-based 8090 Industries, drew participation from an impressive roster including Dell, Nvidia, Citadel, Jane Street, Lenovo, Nokia, Point72, Astra Capital, and Linden Advisors. The $2 billion figure includes a $433 million pre-Series C SAFE from October backed by Blue Owl, Dell, Nvidia, and Nokia. Goldman Sachs and JPMorgan supported the raise — involvement widely interpreted as groundwork for an initial public offering. CEO Josh Payne told the New York Times his company might seek to go public \"as early as this year\" to generate additional capital.\n\nAlongside the funding, Nscale announced three high-profile board additions: former Meta COO Sheryl Sandberg, former Yahoo president Susan Decker, and former UK Deputy Prime Minister Nick Clegg. The appointments signal the company's ambitions to navigate both the corporate and regulatory landscapes as it scales globally. Clegg, who most recently served as Meta's president of global affairs, brings particular expertise in European policy — a critical domain as the continent tightens oversight of AI infrastructure.\n\nCentral to Nscale's strategy is its vertically integrated model spanning energy sourcing, data center construction, GPU compute, and orchestration software. Its flagship initiative, dubbed \"Stargate Norway,\" is a joint venture with Aker that aims to run on 100,000 Nvidia GPUs by year's end, with OpenAI as an initial customer. Under the new arrangement, Aker's joint venture with Nscale will be fully managed by the startup, consolidating delivery and governance. The company also signed an expanded deal with Microsoft last October to deploy approximately 200,000 Nvidia GPUs across three European data centers and one in the United States.\n\nNscale's fundraising momentum has been extraordinary even by AI infrastructure standards. The company raised a $1.1 billion Series B led by Aker in September 2025 and secured a $1.4 billion GPU-backed term loan last month to finance European cluster buildouts. The new capital will fund expansion across Europe, North America, and Asia while growing engineering and operations teams. The company has also pledged to leverage low-cost renewable energy, reuse waste heat, and invest in local skills development — commitments that may ease the political path for its ambitious data center plans across multiple jurisdictions.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Nscale",
-        "AI infrastructure",
-        "data centers",
-        "Nvidia",
-        "European startups",
-        "IPO",
-        "Sheryl Sandberg"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T15:18:20.836Z"
-    },
-    {
-      "id": "ps-1773069518943-cm6r",
-      "slug": "oil-surges-past-100-as-g7-rules-out-strategic-reserve-releas",
-      "headline": "Oil Surges Past $100 as G7 Rules Out Strategic Reserve Release",
-      "subheadline": "Strait of Hormuz tanker standstill compounds supply crisis as major economies decline coordinated stockpile intervention",
-      "body": "Crude oil prices blew past the $100-per-barrel threshold on Sunday after Group of Seven nations announced they would not pursue a near-term coordinated release of strategic petroleum reserves, removing what many traders had viewed as the last policy backstop against a worsening supply crisis.\n\nThe decision came as a halt in tanker traffic through the Strait of Hormuz — the narrow waterway connecting the Persian Gulf to global markets — continued to choke off a significant share of the world's crude supply. Roughly one-fifth of global oil consumption passes through the strait on any given day, making even a brief disruption capable of sending shockwaves through energy markets. The combination of the shipping standstill and the G7's refusal to tap reserves sent prices soaring in a move that analysts described as reflecting genuine physical scarcity rather than speculative froth.\n\nStrategic petroleum reserves have historically served as a tool of last resort for governments seeking to calm volatile energy markets. The United States, Japan, and European members of the G7 collectively hold hundreds of millions of barrels in underground caverns and storage facilities. A coordinated drawdown was widely expected by market participants, and the group's decision to hold off caught many off guard. Officials reportedly concluded that a release would provide only temporary relief and could leave member nations more exposed if the Hormuz disruption persists or escalates.\n\nThe $100 milestone carries both economic and psychological significance. For consumers, it portends higher gasoline and heating costs at a time when inflation remains a persistent concern across developed economies. For oil-importing nations in the developing world, the price surge threatens to widen trade deficits and strain government budgets. Central bankers, who have spent years wrestling with price stability, now face renewed pressure from an energy shock largely beyond their control.\n\nEnergy strategists warned that prices could climb further if the Strait of Hormuz remains effectively closed. Alternative shipping routes add significant transit time and cost, and spare production capacity outside the Gulf region is limited. With the G7 signaling that strategic reserves will remain untouched for now, the market's safety net has narrowed considerably — leaving traders, refiners, and governments bracing for what could be a prolonged period of triple-digit oil.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "G7",
-        "Strait of Hormuz",
-        "strategic petroleum reserves",
-        "energy crisis",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1537053303914-caa41e31185a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8T2lsJTIwU3VyZ2VzJTIwUGFzdCUyMFJ1bGVzJTIwT3V0JTIwU3RyYXRlZ2ljJTIwUmVzZXJ2ZSUyMFJlbGVhc2V8ZW58MHwwfHx8MTc3MzA2OTUxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T15:18:38.943Z"
     },
     {
       "id": "ps-1773069532713-jwnh",
@@ -1026,49 +1071,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/iraq-oil-output-plunges-about-60-as-iran-war-blocks-tankers",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-08T13:33:09.269Z"
-    },
-    {
-      "id": "ps-1772976803192-a33f",
-      "slug": "tokenized-real-world-assets-surge-past-25-billion-nearly-4x-",
-      "headline": "Tokenized Real-World Assets Surge Past $25 Billion, Nearly 4x in One Year",
-      "subheadline": "Treasuries, private credit, and commodities lead growth, but 88% of RWA-backed stablecoins remain locked out of DeFi",
-      "body": "The market for tokenized real-world assets has crossed $25 billion in on-chain value, roughly quadrupling from $6.4 billion a year ago, according to data from RWA.xyz. The rapid expansion marks a decisive shift from early blockchain experimentation toward institutional-scale deployment — though questions persist about whether the assets will ever meaningfully integrate with decentralized finance.\n\nSix distinct asset classes have now individually surpassed $1 billion in tokenized value: U.S. Treasuries, commodities, private credit, institutional alternative funds, corporate bonds, and non-U.S. government debt. Major asset managers including BlackRock, Fidelity, and WisdomTree have launched tokenized fund products over the past year, and the number of tokenized U.S. Treasury offerings alone has grown from 35 to more than 50, according to Nexus Data Labs.\n\nYet beneath the headline figures, the market's character remains more wholesale than liquid. On-chain transfer data reveals that the largest RWA transactions tend to cluster around $10 million per transfer — a pattern consistent with institutional allocation batches rather than continuous secondary trading. A February 2026 survey by tokenization platform Brickken underscored the point: 53.8% of issuers said their primary motivation for tokenizing was capital formation and fundraising efficiency, while only 15.4% cited improved liquidity.\n\nPerhaps the starkest illustration of the sector's integration challenge lies in its relationship with DeFi. Of the roughly $8.5 billion in stablecoins backed by real-world assets, only about $1 billion — approximately 12% — is actually deployed in decentralized lending and trading protocols. The remaining 88% sits behind compliance walls including KYC checks, transfer restrictions, and whitelisting requirements. By contrast, permissionless assets such as reUSD have achieved utilization rates above 96%, suggesting that composability, not supply, is the binding constraint.\n\nThe gap frames what may be the defining question for tokenized assets in 2026. Some projections place the market above $400 billion by year-end, but whether that growth translates into a genuinely new financial infrastructure — one where tokenized Treasuries serve as collateral in DeFi lending markets or trade seamlessly across chains — depends on whether issuers and regulators can reconcile compliance requirements with the open, composable architecture that gives blockchain-based finance its structural advantages. For now, tokenization is scaling impressively as a settlement and issuance layer for traditional finance, even as its potential to become something more transformative remains largely unrealized.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "tokenization",
-        "real-world assets",
-        "DeFi",
-        "BlackRock",
-        "stablecoins",
-        "U.S. Treasuries"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/800b8f8134e800ab18a5b02208876cfd35ec6f49-1920x1079.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/08/tokenized-assets-exceed-usd25-billion-after-nearly-quadrupling-in-a-year",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-08T13:33:23.192Z"
-    },
-    {
-      "id": "ps-1772973172463-pr8y",
-      "slug": "regional-alliances-tested-one-week-into-iran-military-confli",
-      "headline": "Regional Alliances Tested One Week Into Iran Military Conflict",
-      "subheadline": "Saudi Arabia, UAE, and the United States navigate complex diplomatic landscape as hostilities enter second week",
-      "body": "One week into a military conflict involving Iran, the geopolitical fault lines of the Middle East are shifting rapidly, with major regional and global powers reassessing their strategic positions amid escalating hostilities.\n\nThe conflict, now entering its second week, has placed intense pressure on the web of alliances and rivalries that define the region. Saudi Arabia, the United Arab Emirates, and the United States — each with distinct and sometimes competing interests — are navigating an increasingly volatile diplomatic landscape. Bloomberg Weekend Editor at Large Mishal Husain highlighted the complexity of these interlocking relationships in a March 8 analysis, noting that the conflict has forced uncomfortable calculations on capitals from Riyadh to Washington.\n\nThe stakes extend well beyond the immediate theater of operations. Saudi Arabia and the UAE, both Gulf states with deep economic ties to global energy markets, face the delicate task of managing their own security concerns while preserving years of diplomatic investment. Riyadh in particular has pursued a strategy of regional de-escalation in recent years, including a Chinese-brokered rapprochement with Tehran in 2023. That diplomatic progress now faces its most severe test. For the UAE, which has positioned itself as a business and logistics hub, prolonged regional instability threatens to undermine its economic model.\n\nThe United States, meanwhile, confronts familiar tensions between its security commitments in the Gulf and the political costs of deeper military entanglement in the Middle East. Washington's posture toward the conflict will likely shape not only the trajectory of hostilities but also the long-term alignment of regional partners who have increasingly diversified their diplomatic portfolios toward China and Russia in recent years.\n\nEnergy markets remain on alert as the conflict continues. Any sustained disruption to oil flows through the Strait of Hormuz — through which roughly one-fifth of the world's petroleum passes daily — could send shockwaves through global commodity prices at a time when major economies are already contending with persistent inflationary pressures. Analysts warn that the longer hostilities persist, the greater the risk of miscalculation drawing additional actors into the fray, potentially transforming a contained conflict into a broader regional conflagration.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran conflict",
-        "Middle East",
-        "Saudi Arabia",
-        "UAE",
-        "US foreign policy",
-        "geopolitics",
-        "energy markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1771090848226-d135eff12bff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxfHxJcmFuJTIwY29uZmxpY3QlMjBNaWRkbGUlMjBFYXN0fGVufDB8MHx8fDE3NzI5NzMxNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-08/regional-dynamics-one-week-into-iran-conflict-video",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-08T12:32:52.463Z"
     }
   ]
 }
