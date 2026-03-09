@@ -1,29 +1,138 @@
 {
-  "lastUpdated": "2026-03-09T23:03:32.117Z",
+  "lastUpdated": "2026-03-09T23:18:24.379Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773097330381-r3fo",
+      "id": "ps-1773098225235-rkmx",
       "slug": "video-analysis-links-us-tomahawk-missile-to-strike-near-iran",
       "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iranian School",
-      "subheadline": "BBC Verify and weapons experts identify cruise missile in footage from attack that killed 168 people, including 110 children",
-      "body": "Video analysis by BBC Verify and independent weapons experts has identified a US Tomahawk cruise missile in footage captured moments before it struck an Iranian Revolutionary Guard Corps base adjacent to a primary school in southern Iran, undermining President Donald Trump's claim that Iran itself was responsible for the deadly attack.\n\nThe strike on the IRGC compound next to the Shajareh Tayebeh primary school in Minab on February 28 killed 168 people, including approximately 110 children, according to Iranian authorities. Three separate weapons experts, including analysts from Mackenzie Intelligence Services and Armament Research Services, independently identified the munition visible in verified video published by Iran's semi-official Mehr news agency as a Tomahawk cruise missile in its terminal flight phase. Neither Israel nor Iran possesses Tomahawk missiles, which have been a mainstay of the US naval arsenal for decades and can be launched from submarines, ships, and aircraft.\n\nThe identification directly contradicts Trump's assertion on Saturday that Iran was to blame. \"We think it was done by Iran because they're very inaccurate, as you know, with their munitions,\" Trump told reporters aboard Air Force One. However, a preliminary US assessment reported by CBS News acknowledged it was \"likely\" that American forces were responsible, though the school was not an intentional target and may have been hit in error. An Israeli government source separately told CBS that Israel was not operating near the school. Neither Washington nor Jerusalem has formally accepted or denied responsibility.\n\nThe video evidence reveals smoke plumes already rising near the school before the Tomahawk visible in the footage detonates at a medical clinic within the IRGC base, approximately 200 meters from the school. This sequence indicates the school had already been struck before the filmed missile impact, consistent with earlier satellite imagery analysis showing the area was hit by multiple strikes. Wes Bryant, a former US Air Force national security analyst, characterized the pattern of multiple strikes across the IRGC compound as \"indicative of a deliberate and precise\" US operation. Gen. Dan Caine, the most senior US military officer, confirmed on March 2 that Tomahawk missiles were the first munitions fired at Iran by the US Navy as part of strikes along Iran's \"southern flank,\" and a Pentagon map of operations during the first 100 hours of conflict shows the Minab area was targeted.\n\nAn ongoing internet blackout across Iran and restrictions on international journalists have severely hampered independent verification of details on the ground. Armament Research Services director N.R. Jenzen Jones noted that Iranian missiles carry relatively small explosive warheads, making it highly improbable that a single errant Iranian munition could have caused the extensive blast damage documented at the school site.",
+      "subheadline": "BBC Verify confirms footage showing cruise missile moments before impact at IRGC base adjacent to school where 168 died",
+      "body": "Video analysis by multiple weapons experts and the BBC's verification unit has identified a US Tomahawk cruise missile striking a military base adjacent to a primary school in southern Iran where Iranian authorities say 168 people — including roughly 110 children — were killed on February 28.\n\nThe footage, published by Iran's semi-official Mehr news agency and authenticated by BBC Verify, captures a missile in its final moments before detonating at an Iranian Revolutionary Guard Corps (IRGC) naval medical clinic approximately 200 meters from the Shajareh Tayebeh primary school in Minab. Three independent weapons analysts confirmed the munition as a Tomahawk, a long-range cruise missile launched from ships or submarines that has been a staple of the US arsenal for decades. Neither Israel nor Iran is known to possess Tomahawks, effectively ruling out those nations as the source of the specific strike captured on video.\n\nThe identification contradicts statements made by President Donald Trump aboard Air Force One on Saturday, in which he blamed Iran for the school strike, citing the country's alleged inaccuracy with its own munitions. However, a preliminary US assessment reported by CBS News acknowledged that the United States was \"likely\" responsible for the deadly attack but did not intentionally target the school, suggesting it may have been hit in error. An Israeli government source separately told CBS that Israel was not operating near the school. Neither Washington nor Tel Aviv has formally accepted or denied responsibility.\n\nThe expert analysis paints a picture of a coordinated military operation rather than a single errant strike. Wes Bryant, a national security analyst and former US Air Force servicemember, said evidence of multiple impacts across the entire IRGC compound \"is indicative of a deliberate and precise\" US operation. Smoke plumes visible near the school before the Tomahawk detonates at the clinic suggest the school had already been struck by earlier munitions in the same sequence. The US military's most senior officer, General Dan Caine, confirmed on March 2 that Tomahawks were the first missiles fired by the US Navy at Iran as part of strikes across the country's \"southern flank,\" and a Pentagon map of the first 100 hours of operations showed Minab as a targeted area.\n\nIndependent verification of events on the ground remains severely constrained. An ongoing internet blackout across Iran and restrictions on international journalists' ability to report freely have made it difficult to confirm precise casualty figures or reconstruct a complete timeline of the Minab attack. Iran has blamed both the US and Israel. The BBC has requested comment from the US government on the experts' assessment of the newly verified video.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "US military",
         "Tomahawk missile",
-        "school strike",
-        "Minab",
+        "civilian casualties",
         "BBC Verify",
-        "Iran war",
-        "civilian casualties"
+        "IRGC",
+        "Minab"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/69d5/live/f15d3960-1bc2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T23:02:10.381Z"
+      "publishedAt": "2026-03-09T23:17:05.235Z"
+    },
+    {
+      "id": "ps-1773098239442-4zlu",
+      "slug": "new-method-claims-million-fold-speedup-in-molecular-boltzman",
+      "headline": "New Method Claims Million-Fold Speedup in Molecular Boltzmann Sampling",
+      "subheadline": "Force-guided 'Drifting Models' generate molecular conformations in a single step, bypassing slow iterative simulations",
+      "body": "A new computational technique promises to radically accelerate one of the most fundamental yet time-consuming tasks in computational chemistry: sampling molecular conformations from the Boltzmann distribution. The method, introduced by researcher Pipi Hu in a preprint posted to arXiv, claims speedups exceeding a million-fold compared to traditional molecular dynamics simulations while maintaining distributional accuracy.\n\nThe Boltzmann distribution describes the probability of finding a molecular system in a particular configuration at a given temperature, making it indispensable for predicting molecular behavior, drug design, and materials science. Conventional molecular dynamics simulations generate these samples by numerically evolving atomic trajectories over tiny time steps — a process that can require enormous computational resources. More recent diffusion-based generative models have offered improvements but still rely on slow, iterative multi-step procedures.\n\nHu's approach adapts so-called Drifting Models — a class of generative models capable of one-step sample generation — to molecular conformation generation for the first time. The key theoretical contribution is the \"Drifting Score Identity,\" which establishes that for Gaussian kernels, a drifting field's attraction component is mathematically equivalent to a kernel-weighted average of any distribution's score function. When molecular force labels, which directly encode the Boltzmann distribution's score, are substituted into this framework, the result is a \"Drifting Force Identity\" that decomposes the generative field into a standard drift term plus an explicit Boltzmann correction.\n\nThe paper reveals an unexpected finding: the effectiveness of incorporating physical forces reverses depending on how molecular geometry is represented. In coordinate space, a technique called Force-Interpolated Drifting performs best by blending physical force directions with data displacements. In distance feature space, an alternative approach — Force-Aligned Kernel — achieves superior accuracy by modifying only kernel weights, which preserves the manifold of geometrically valid molecular structures. Benchmarked on the MD17 Ethanol dataset, both methods achieve one-step generation with over 1,000-fold speedup relative to recent score-matching methods with Boltzmann guiding, and more than a million-fold acceleration over traditional molecular dynamics, while maintaining what the author describes as perfect structural validity.\n\nIf the results hold under broader scrutiny and generalize to larger, more complex molecular systems, the technique could substantially reduce the computational cost of drug discovery pipelines, protein modeling, and materials screening — domains where Boltzmann sampling currently represents a persistent bottleneck. The preprint has not yet undergone peer review.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "Boltzmann distribution",
+        "molecular dynamics",
+        "generative models",
+        "computational chemistry",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1645839072940-bb2a4f189ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05527",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T23:17:19.442Z"
+    },
+    {
+      "id": "ps-1773098256463-2u4t",
+      "slug": "new-q-desic-equation-suggests-particles-stray-from-einstein-",
+      "headline": "New 'Q-desic' Equation Suggests Particles Stray From Einstein's Predicted Paths",
+      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmic scales",
+      "body": "A team of physicists at the Vienna University of Technology (TU Wien) has derived a new equation describing how particles move through spacetime when gravity itself is subject to quantum uncertainty — and the results suggest that at cosmological distances, those paths may diverge dramatically from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the deepest open problems in modern physics: reconciling quantum mechanics with general relativity. While several candidate theories — including string theory, loop quantum gravity, and asymptotically safe gravity — have been proposed, physicists have long lacked a clear, measurable prediction that could distinguish among them. Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, approached the problem by rethinking geodesics, the curved spacetime paths that objects follow under gravity. By replacing the classical spacetime metric with a quantum version — treating curvature itself as subject to Heisenberg-like uncertainty — the team derived what they call the \"q-desic equation,\" a quantum generalization of the geodesic equation central to Einstein's theory.\n\nFor ordinary gravitational fields, the quantum corrections are vanishingly small, on the order of 10⁻³⁵ meters — far beyond any conceivable experiment. But when the researchers incorporated the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, the picture changed starkly. At distances around 10²¹ meters — roughly the scale of galaxy clusters and large-scale cosmic structure — the q-desic equation predicts particle trajectories that differ significantly from classical geodesics. Crucially, at intermediate scales such as planetary orbits, the two frameworks remain essentially indistinguishable.\n\n\"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said. He noted that the large-scale deviations arise precisely in the regime where general relativity faces its most stubborn puzzles, including the anomalous rotation speeds of spiral galaxies — a phenomenon typically attributed to dark matter. The implication is tantalizing: what astronomers interpret as evidence for unseen mass could, in principle, partly reflect quantum corrections to spacetime geometry itself.\n\nThe researchers emphasize that considerable theoretical work remains. The current derivation applies to a specific case — a spherically symmetric, time-independent gravitational field — and extending it to more realistic astrophysical scenarios will be mathematically demanding. Still, the framework offers something the field has desperately needed: a concrete, potentially observable signature that could serve as a discriminating test among rival quantum gravity theories. If confirmed by further analysis and eventually by observational data, the q-desic equation could provide the first empirical foothold in the long quest to unify the physics of the very small with the physics of the very large.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "geodesics",
+        "cosmological constant",
+        "TU Wien",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T23:17:36.463Z"
+    },
+    {
+      "id": "ps-1773098272183-bo5a",
+      "slug": "faa-greenlights-electric-air-taxi-testing-across-26-states",
+      "headline": "FAA Greenlights Electric Air Taxi Testing Across 26 States",
+      "subheadline": "Eight pilot programs will let Joby, Archer, Beta, and Wisk fly eVTOL aircraft before full certification, starting this summer",
+      "body": "The Federal Aviation Administration has approved eight pilot programs that will allow electric vertical takeoff and landing aircraft to begin testing across 26 states as early as this summer, marking the most significant regulatory step yet toward making air taxis a commercial reality in the United States.\n\nThe three-year initiative — formally titled the Advanced Air Mobility and Electric Vertical Takeoff and Landing Integration Pilot Program — will permit companies including Joby Aviation, Archer Aviation, Beta Technologies, and Wisk to fly their aircraft before receiving full FAA type certification, a process that typically takes years and costs hundreds of millions of dollars. Department of Transportation Secretary Sean Duffy said the program is designed to ensure American companies lead in next-generation aircraft for personal travel, regional transportation, cargo logistics, and emergency medicine. The FAA selected the eight projects from 30 proposals.\n\nThe scope of the approved projects is sweeping. The Port Authority of New York and New Jersey has partnered with Archer, Beta, Electra, and Joby to test a dozen operational concepts, including flights from a Manhattan heliport. The Texas Department of Transportation will work with four companies to establish regional air corridors connecting Dallas, Austin, San Antonio, and eventually Houston. A Utah-led project will span the Pacific Northwest, Rocky Mountains, and Oklahoma Plains, while Pennsylvania's transportation department is coordinating a 13-state effort to revitalize regional air service. Additional projects in Louisiana, Texas, and Mississippi will focus on cargo delivery to Gulf of America energy installations, and the city of Albuquerque is partnering with Reliable Robotics to test autonomous flight operations.\n\nMarkets responded enthusiastically. Beta Technologies saw its stock jump nearly 12 percent on the announcement, with CEO Kyle Clark saying the selection will allow the company to begin aircraft operations a full year ahead of schedule. Archer and Joby, both publicly traded, also posted gains. Archer, which is developing a four-passenger piloted aircraft called Midnight, said the program will help it prepare for planned air taxi service during the 2028 Los Angeles Olympic Games. The company compared the regulatory framework to the phased approach used for robotaxi testing — building public trust through incremental, supervised deployment.\n\nThe pilot program, which originated from a 2025 executive order by President Donald Trump aimed at accelerating eVTOL development, requires each company to partner with state, local, tribal, or territorial governments. FAA Deputy Administrator Chris Rocheleau said the operational data gathered will inform the safety standards needed to eventually integrate these aircraft into the National Airspace System at scale. For an industry that has spent years and billions of dollars in venture capital chasing the promise of urban air mobility, the program represents a tangible bridge between prototype demonstrations and the commercial flights that investors have long been waiting for.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "eVTOL",
+        "FAA",
+        "air taxis",
+        "Joby Aviation",
+        "Archer Aviation",
+        "Beta Technologies",
+        "electric aircraft",
+        "aviation regulation"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/joby-flight-2.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/electric-air-taxis-are-about-to-take-flight-in-26-states/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T23:17:52.183Z"
+    },
+    {
+      "id": "ps-1773098288171-t44u",
+      "slug": "oil-prices-plunge-as-trump-signals-iran-conflict-nearing-end",
+      "headline": "Oil Prices Plunge as Trump Signals Iran Conflict Nearing End",
+      "subheadline": "Crude markets drop sharply after president's remarks suggest diplomatic resolution to Middle East war that has roiled global energy supply",
+      "body": "Oil prices fell sharply on Monday after President Donald Trump indicated that the war involving Iran would conclude \"very soon,\" a signal that rattled energy markets that had been pricing in prolonged supply disruptions from the Middle East conflict.\n\nThe remarks, which came as the broader conflict continues to upend global energy flows, sent crude futures tumbling as traders reassessed the geopolitical risk premium that has been baked into oil prices for weeks. The Iran conflict has been a dominant driver of energy market volatility, pushing prices higher amid fears of supply disruptions from one of the world's most critical oil-producing regions. Trump's suggestion of an imminent resolution caught many market participants off guard, triggering a rapid unwinding of bullish positions.\n\nThe war's impact has extended well beyond energy markets, stoking fresh concerns about an inflation crisis that threatens to complicate central bank policy globally. Elevated oil prices have filtered through to gasoline, transportation, and manufacturing costs, squeezing consumers and businesses alike. A swift end to hostilities could ease some of that pressure, though analysts caution that the path from ceasefire to normalized oil flows is rarely straightforward.\n\nMarket watchers remain divided on whether Trump's comments reflect concrete diplomatic progress or aspirational rhetoric. The president has a well-documented history of making bold public declarations ahead of formal agreements, and the complexity of any resolution involving Iran — a major OPEC producer whose oil infrastructure and export capacity are central to global supply balances — means that even a ceasefire would not immediately restore pre-conflict market conditions. Sanctions architecture, damaged infrastructure, and shipping route security all remain open questions.\n\nFor now, the sell-off reflects a market recalibrating its expectations in real time. If the conflict does wind down in the near term, the deflationary impulse from lower energy prices could provide meaningful relief to a global economy already grappling with slowing growth. But energy traders, burned by false dawns before, are likely to wait for more substantive signals before fully pricing out the war premium that has defined crude markets in recent months.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "oil prices",
+        "Iran war",
+        "Trump",
+        "crude oil",
+        "Middle East",
+        "energy markets",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1772299399227-8840776aa3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwd2FyfGVufDB8MHx8fDE3NzMwOTgyODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-09/latest-oil-market-news-and-analysis-for-march-10",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T23:18:08.171Z"
+    },
+    {
+      "id": "ps-1773098304293-pmmt",
+      "slug": "crypto-and-equities-rally-as-trump-signals-iran-conflict-nea",
+      "headline": "Crypto and Equities Rally as Trump Signals Iran Conflict Nearing End",
+      "subheadline": "Bitcoin approaches $69,000 while crude oil swings wildly from $120 to $85 per barrel in historic 24-hour period",
+      "body": "Financial markets staged a dramatic reversal on Monday as President Donald Trump indicated the U.S. military campaign against Iran was progressing faster than anticipated, sending risk assets surging and crude oil tumbling from overnight highs.\n\nBitcoin climbed 2.4% over the prior 24 hours to trade just above $69,000, while the Nasdaq Composite gained 1.25% and the S&P 500 rose 0.8%, erasing steep early-session losses. The recovery came after Trump told reporters that military operations were \"very far ahead\" of an originally projected four-to-five-week timeline, with additional updates expected later Monday evening. The remarks injected a dose of optimism into markets that had been reeling since Sunday evening, when the outbreak of hostilities sent crude oil soaring as much as 30%.\n\nThe most extraordinary moves belonged to the oil market. West Texas Intermediate crude, which had spiked to roughly $120 per barrel overnight on fears of a prolonged conflict disrupting Middle Eastern energy supplies, collapsed back to approximately $85 — a swing of more than $35 in less than a day. At that level, WTI was actually down about 6% on the session, an astonishing reversal that underscored how sensitive commodity markets remain to geopolitical headlines.\n\nCrypto-related equities outperformed the broader market. Stablecoin issuer Circle, which went public under the ticker CRCL, surged 10% on the day and has now nearly doubled over the past month. Analysts pointed to a confluence of factors behind Circle's strength, including short covering after solid fourth-quarter earnings and the possibility that elevated oil prices could delay Federal Reserve rate cuts — a scenario that tends to benefit stablecoin issuers by keeping yields on reserve assets elevated. Strategy, the bitcoin treasury company formerly known as MicroStrategy, rose 5%, while Coinbase gained 2%.\n\nThe broader crypto market reflected the improved sentiment, with the CoinDesk 20 index advancing 3.14%. Ethereum traded near $2,002, up 3.3%, while Solana led major altcoins with a 4.8% gain to $85.54. Market observers noted that bitcoin's relative resilience throughout the crisis — even as traditional equities plunged Sunday evening — may reinforce its emerging narrative as a geopolitical hedge, particularly given the United States' reduced direct exposure to oil price shocks compared to prior decades.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "bitcoin",
+        "Iran conflict",
+        "crude oil",
+        "Trump",
+        "crypto markets",
+        "equities",
+        "Circle",
+        "geopolitics"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/634f0a8ae8c75cc7ff10e46bf748d51639385ecd-1920x1079.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/crypto-and-stocks-add-to-gains-as-trump-says-iran-war-could-be-over-soon",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T23:18:24.293Z"
     },
     {
       "id": "ps-1773097345981-as31",
@@ -48,28 +157,6 @@
       "publishedAt": "2026-03-09T23:02:25.981Z"
     },
     {
-      "id": "ps-1773097364263-sidb",
-      "slug": "new-q-desic-equation-suggests-particles-may-stray-from-einst",
-      "headline": "New 'Q-desic' Equation Suggests Particles May Stray from Einstein's Paths",
-      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could produce observable effects at cosmic scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when quantum effects are taken into account — and the results suggest that at cosmological distances, those trajectories may diverge significantly from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the most stubborn problems in fundamental physics: the incompatibility between quantum mechanics and general relativity. While quantum theory governs the subatomic world with extraordinary precision, and Einstein's framework accurately describes gravity at planetary and galactic scales, no one has successfully unified the two. Competing approaches — string theory, loop quantum gravity, and others — remain difficult to distinguish because no one has identified a measurable quantity where their predictions clearly differ. Benjamin Koch of TU Wien's Institute for Theoretical Physics likened the search to the Cinderella fairy tale: \"There are several candidates, but only one of them can be the princess we are looking for. Only when the prince finds the slipper can he identify the real Cinderella.\"\n\nKoch, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, focused on geodesics — the paths objects follow through curved spacetime, such as Earth's orbit around the Sun. In classical relativity, these paths are determined by a mathematical object called the metric, which encodes the curvature of spacetime. The researchers applied quantum principles to the metric itself for the specific case of a spherically symmetric, static gravitational field, replacing the classical quantity with a quantum operator subject to uncertainty. The resulting formalism yielded what the team calls the \"q-desic equation,\" a quantum-corrected version of the classical geodesic equation. Crucially, the team demonstrated that one cannot simply substitute the metric operator with its expectation value — a subtlety that, once handled rigorously, reveals genuine deviations from classical paths.\n\nFor ordinary gravitational fields like the Sun's, the predicted corrections are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment. But when the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, is incorporated, the picture changes dramatically. Deviations become substantial at distances around 10²¹ meters — precisely the cosmological scales where general relativity faces its deepest unresolved puzzles, including the anomalous rotation speeds of spiral galaxies. \"In between, for example when it comes to the Earth's orbit around the Sun, there is practically no difference,\" Koch said. \"But on very large cosmological scales, there is a clear difference.\"\n\nThe finding is theoretical, and Koch acknowledged that detailed analysis is still needed. But the framework offers something the field has long sought: a potential observable signature that could discriminate between rival quantum gravity theories. If future astronomical observations of large-scale structure or galactic dynamics match the q-desic predictions, it could provide the first empirical foothold in the quest to unify physics' two great pillars. The slipper, as Koch put it, may finally have been found — now comes the question of which theory it fits.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "TU Wien",
-        "cosmological constant",
-        "dark energy",
-        "spacetime"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T23:02:44.263Z"
-    },
-    {
       "id": "ps-1773097379053-85ck",
       "slug": "openai-and-google-employees-rally-behind-anthropic-in-pentag",
       "headline": "OpenAI and Google Employees Rally Behind Anthropic in Pentagon Lawsuit",
@@ -91,95 +178,6 @@
       "sourceUrl": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-03-09T23:02:59.053Z"
-    },
-    {
-      "id": "ps-1773097394481-7vdj",
-      "slug": "oil-prices-plunge-as-trump-signals-iran-conflict-nearing-end",
-      "headline": "Oil Prices Plunge as Trump Signals Iran Conflict Nearing End",
-      "subheadline": "Crude markets sell off sharply after the president suggests a resolution to the Middle East war that has roiled global energy supplies",
-      "body": "Oil prices fell sharply on Monday after President Donald Trump indicated that the U.S. conflict with Iran would conclude \"very soon,\" triggering a broad selloff in crude markets that had been elevated by months of wartime supply disruptions in the Middle East.\n\nThe decline marks a significant reversal for an energy market that has been under intense pressure since the escalation of hostilities in the region. The Iran conflict has upended global oil flows, constrained supply from one of OPEC's largest producers, and fueled mounting concerns about an inflation crisis rippling through the world economy. Rising energy costs have weighed on consumers and complicated central bank efforts to manage price stability, making any prospect of de-escalation a closely watched signal for traders and policymakers alike.\n\nTrump's remarks, though short on specific details about the terms or timeline of a potential resolution, were enough to prompt a swift market reaction. Traders moved to unwind risk premiums that had been built into crude prices over the course of the conflict, reflecting a bet that supply disruptions could ease if diplomatic or military developments lead to a ceasefire. The selloff underscores just how much geopolitical risk has been priced into the oil market in recent months.\n\nAnalysts cautioned that volatility is likely to persist. A definitive end to hostilities would need to be accompanied by the restoration of Iranian oil exports and the reopening of critical shipping lanes before markets could fully reprice the supply outlook. Any setback in negotiations or a resumption of military operations could quickly reverse the day's losses. The broader macroeconomic implications are also significant: sustained lower oil prices would ease inflationary pressures and provide relief to energy-importing nations, while lower revenues would challenge oil-dependent economies.\n\nThe situation remains fluid, and market participants said they would be watching closely for concrete steps toward a resolution rather than relying on presidential rhetoric alone. For now, the prospect of peace — however uncertain — has given global energy markets their most dramatic single-session move in weeks.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil",
-        "Iran",
-        "Trump",
-        "Middle East",
-        "energy markets",
-        "crude prices",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1661192422882-00ae1c92105f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxvaWwlMjBJcmFufGVufDB8MHx8fDE3NzMwOTczOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-09/latest-oil-market-news-and-analysis-for-march-10",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T23:03:14.481Z"
-    },
-    {
-      "id": "ps-1773097412017-hp92",
-      "slug": "markets-rally-as-trump-signals-rapid-progress-in-iran-confli",
-      "headline": "Markets Rally as Trump Signals Rapid Progress in Iran Conflict",
-      "subheadline": "Bitcoin climbs toward $69,000 and crude oil reverses a historic 30% spike as geopolitical tensions appear to ease",
-      "body": "Cryptocurrency and equity markets surged on Monday afternoon after President Donald Trump indicated that the U.S. military campaign against Iran was progressing far faster than anticipated, potentially nearing its conclusion within days rather than the originally projected four-to-five-week timeline.\n\nThe remarks capped a whiplash 24 hours across global markets. Crude oil, which had spiked as much as 30% to $120 per barrel on Sunday evening as the Iran conflict escalated, reversed course dramatically — plunging back below $86 by late Monday, a net decline of roughly 6% on the day. The swing represented one of the most volatile sessions in oil market history, with West Texas Intermediate crude tracing a range of nearly $40 per barrel in a single trading cycle.\n\nBitcoin responded by pushing above $69,000, gaining 2.4% over the prior 24 hours and flirting with the psychologically significant $70,000 level. The broader CoinDesk 20 index rose 3.1%. Crypto-linked equities fared even better: stablecoin issuer Circle surged 10%, extending a remarkable 86% rally over the past month that analysts have partly attributed to expectations that the Iran-driven oil shock could delay Federal Reserve interest rate cuts — a dynamic that favors dollar-denominated stablecoin demand. Strategy, the bitcoin treasury company formerly known as MicroStrategy, gained 5%, while Coinbase added 2%.\n\nTraditional equity benchmarks staged their own dramatic recovery. The Nasdaq Composite, which had opened sharply lower, finished the session up 1.25%, while the S&P 500 climbed 0.8%. Stock market volatility had earlier hit a one-year high, a signal some analysts flagged as a potential contrarian indicator for risk assets including bitcoin. The resilience of U.S. markets may also reflect the country's diminished direct exposure to oil price shocks relative to previous decades, thanks to its status as a net energy exporter.\n\nThe rapid market reversals underscore how tightly geopolitical risk is now coupled to asset prices across traditional and digital markets alike. With Trump expected to provide further updates on the military situation, traders remain on edge. Should the conflict indeed conclude quickly, the relief rally could extend — but any setback on the ground risks reigniting the kind of volatility that made the past day historic across crude oil, equities, and crypto simultaneously.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "bitcoin",
-        "Iran conflict",
-        "crude oil",
-        "Trump",
-        "crypto markets",
-        "equities",
-        "Circle",
-        "volatility"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/634f0a8ae8c75cc7ff10e46bf748d51639385ecd-1920x1079.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/crypto-and-stocks-add-to-gains-as-trump-says-iran-war-could-be-over-soon",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T23:03:32.017Z"
-    },
-    {
-      "id": "ps-1773096456374-0ou7",
-      "slug": "new-method-claims-million-fold-speedup-in-molecular-sampling",
-      "headline": "New Method Claims Million-Fold Speedup in Molecular Sampling",
-      "subheadline": "Force-guided 'drifting models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
-      "body": "A researcher has proposed a technique that could dramatically accelerate one of computational chemistry's most fundamental and time-consuming tasks: sampling the configurations that molecules adopt in thermal equilibrium. The method, described in a preprint posted to arXiv, claims speedups exceeding a million-fold compared to traditional molecular dynamics simulations while maintaining high distributional accuracy.\n\nThe work, authored by Pipi Hu and published on February 26, introduces \"force-guided drifting models\" to molecular conformation generation. At the heart of the approach is a mathematical result the author calls the Drifting Score Identity, which shows that for Gaussian kernels, a drifting model's attraction field is equivalent to a kernel-weighted average of any target distribution's score function. Because molecular forces directly encode the score of the Boltzmann distribution — the probability distribution governing how molecules populate different configurations at a given temperature — substituting force labels into the framework yields what Hu terms the Drifting Force Identity. This identity decomposes the generative field into a standard data-driven drift plus a correction term that steers the output toward the true Boltzmann distribution.\n\nSampling from the Boltzmann distribution is essential for predicting molecular properties, reaction rates, and thermodynamic quantities, but it has long been a computational bottleneck. Traditional molecular dynamics simulations require millions or billions of tiny time steps to adequately explore configuration space, while more recent diffusion-based generative models, though faster, still rely on iterative multi-step denoising procedures. Drifting models sidestep this by producing samples in a single generative step, but prior versions matched only their training distributions, which can deviate from the true Boltzmann target due to sampling bias in training data.\n\nOne of the paper's more unexpected findings concerns how force information should be incorporated depending on the molecular representation used. In Cartesian coordinate space, a strategy called Force-Interpolated Drifting — which blends physical force directions with data displacements — performs best. In distance-based feature space, however, a different approach called Force-Aligned Kernel dominates by modifying only kernel weights, preserving the manifold of geometrically valid molecules. Hu describes this representation-dependent reversal as \"a striking phenomenon unique to molecular systems.\"\n\nBenchmarked on the MD17 ethanol dataset, a standard testbed in the field, both methods achieve one-step generation with over 1,000-fold speedup relative to recent score-matching approaches that use Boltzmann guidance, and more than a million-fold acceleration over conventional molecular dynamics. The generated structures reportedly maintain perfect structural validity and distributional accuracy comparable to multi-step methods. If the results hold up under broader testing on larger and more complex molecular systems, the technique could significantly lower the computational cost of drug discovery, materials design, and other applications that depend on accurate thermodynamic sampling.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "Boltzmann distribution",
-        "molecular dynamics",
-        "computational chemistry",
-        "generative models",
-        "machine learning",
-        "molecular simulation"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1645839072940-bb2a4f189ed3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05527",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T22:47:36.374Z"
-    },
-    {
-      "id": "ps-1773096493400-lp4w",
-      "slug": "faa-greenlights-electric-air-taxi-testing-across-26-states",
-      "headline": "FAA Greenlights Electric Air Taxi Testing Across 26 States",
-      "subheadline": "Eight pilot programs will let Joby, Archer, Beta, and others fly eVTOL aircraft before full certification, starting this summer",
-      "body": "The Federal Aviation Administration has approved eight pilot programs that will allow electric vertical takeoff and landing aircraft to begin widespread testing across 26 states as early as this summer — a landmark step toward commercializing a technology that has long hovered between promise and regulatory limbo.\n\nThe three-year initiative, formally called the Advanced Air Mobility and Electric Vertical Takeoff and Landing Integration Pilot Program, opens the door for companies including Joby Aviation, Archer Aviation, Beta Technologies, and Wisk to operate their aircraft before receiving full FAA type certification — a process that typically takes years and hundreds of millions of dollars. Department of Transportation Secretary Sean Duffy framed the program as essential to ensuring American leadership in next-generation aviation, spanning applications from urban air taxis and regional transport to cargo logistics and emergency medicine. The program traces its origins to an executive order signed by President Donald Trump last year aimed at accelerating eVTOL development.\n\nMarkets responded immediately. Beta Technologies, whose CEO Kyle Clark said the selection would allow operations to begin a full year ahead of schedule, saw its stock jump nearly 12 percent on Monday. Archer and Joby, both publicly traded, also posted gains. The FAA said it received 30 proposals and selected eight, each requiring partnerships with state, local, tribal, or territorial governments. Among the most ambitious: the Port Authority of New York and New Jersey has teamed with Archer, Beta, Electra, and Joby to test a dozen operational concepts, including flights from a Manhattan heliport. The Texas Department of Transportation will work with four companies on regional routes connecting Dallas, Austin, San Antonio, and eventually Houston.\n\nSeveral projects carry broad geographic scope. Utah will lead testing of next-generation aircraft across the Pacific Northwest, Rocky Mountains, and Oklahoma plains. Pennsylvania's transportation department is spearheading a 13-state effort to revitalize regional air service. In the Gulf region, Beta and Elroy Air will test cargo and personnel flights serving energy industry sites in Louisiana, Texas, and Mississippi. The city of Albuquerque is partnering with Reliable Robotics on autonomous flight operations.\n\nArcher, which is developing a four-passenger piloted aircraft called Midnight, compared the program to the regulatory sandbox that enabled robotaxi testing and said it would help the company prepare for air taxi service in Los Angeles ahead of the 2028 Olympic Games. FAA Deputy Administrator Chris Rocheleau said the program will generate \"valuable operational experience\" to inform the safety standards needed for broader commercial deployment. For an industry that has spent years and billions of dollars chasing a vision of electric urban flight, the approval represents the most concrete federal commitment yet to turning that vision into scheduled service.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "eVTOL",
-        "FAA",
-        "electric aviation",
-        "Joby Aviation",
-        "Archer Aviation",
-        "Beta Technologies",
-        "air taxis",
-        "urban air mobility"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/joby-flight-2.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/09/electric-air-taxis-are-about-to-take-flight-in-26-states/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T22:48:13.401Z"
     },
     {
       "id": "ps-1773095575009-swmf",
