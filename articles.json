@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-03-09T03:33:12.461Z",
+  "lastUpdated": "2026-03-09T04:03:45.435Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1773028948562-2ssi",
+      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
+      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
+      "subheadline": "The 56-year-old, long rumored as a behind-the-scenes power broker, inherits a nation under military siege and economic crisis",
+      "body": "Iran's Assembly of Experts has selected Mojtaba Khamenei as the country's new supreme leader, elevating the 56-year-old son of Ayatollah Ali Khamenei — who was killed in recent US-Israeli strikes — to the most powerful position in the Islamic Republic. The appointment marks the first hereditary transfer of supreme leadership in the republic's history, a development that cuts against the founding ideology of a state born from the overthrow of monarchy in 1979.\n\nMojtaba Khamenei has never held government office, given a public speech, or sat for an interview. Yet US diplomatic cables published by WikiLeaks more than a decade ago described him as \"the power behind the robes,\" a figure widely regarded within the regime as \"capable and forceful.\" His name first surfaced publicly during the contested 2005 presidential election, when reformist candidate Mehdi Karroubi accused him of mobilizing elements of the Islamic Revolutionary Guard Corps and the Basij militia to secure victory for hardliner Mahmoud Ahmadinejad. Similar accusations followed after the disputed 2009 re-election that sparked the mass Green Movement protests, during which demonstrators chanted slogans opposing the idea of a Khamenei dynasty.\n\nThe new supreme leader's religious credentials present an immediate challenge to his legitimacy. A mid-ranking cleric who did not begin seminary studies in Qom until the age of 30, Mojtaba lacks the scholarly standing traditionally expected of the position. In recent days, media outlets and officials aligned with Iran's power centers have begun referring to him as \"Ayatollah\" — a senior clerical title — in what observers interpret as a deliberate effort to bolster his credentials. There is precedent for such expedience: Ali Khamenei himself was rapidly promoted to the Ayatollah rank upon becoming supreme leader in 1989.\n\nMojtaba inherits a nation in profound crisis. The ongoing US-Israeli military campaign has struck oil depots in Tehran and Karaj, and the broader conflict has engulfed much of the Middle East over the past nine days, with strikes across Iran and Lebanon. He has lost not only his father but reportedly his mother and wife in the strikes — personal losses that analysts say make any rapprochement with Western powers exceedingly unlikely. Israel's defense minister warned last week that whoever succeeds Ali Khamenei would be \"an unequivocal target for elimination.\"\n\nThe selection is expected to deepen tensions both domestically and internationally. Many Iranians already view the Islamic Republic as economically devastated and politically exhausted, and the perception of hereditary succession could further erode public trust in the system's legitimacy. Whether Mojtaba Khamenei can consolidate authority, manage the war footing, and hold the regime together represents one of the most consequential tests of leadership in Iran's modern history.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran",
+        "Mojtaba Khamenei",
+        "supreme leader",
+        "Middle East conflict",
+        "US-Israel strikes",
+        "Iran succession"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-09T04:02:28.562Z"
+    },
+    {
+      "id": "ps-1773028964128-sfxx",
+      "slug": "machine-learning-meets-quantum-chemistry-in-new-density-matr",
+      "headline": "Machine Learning Meets Quantum Chemistry in New Density Matrix Method",
+      "subheadline": "Researchers combine neural networks with semidefinite programming to solve a longstanding electron correlation problem",
+      "body": "A pair of researchers at the University of Chicago have developed a novel computational framework that merges machine learning with mathematical optimization to calculate the quantum properties of molecules more accurately and efficiently than conventional methods allow.\n\nLuis H. Delgado-Granados and David A. Mazziotti introduced what they call \"semidefinite machine learning\" in a preprint posted to arXiv, describing a technique that directly computes two-electron reduced density matrices (2-RDMs) — mathematical objects that encode all the information needed to determine a molecule's energy and electronic properties without tracking every individual electron. The central challenge in working with 2-RDMs has long been ensuring they correspond to physically realizable quantum states, a requirement known as N-representability. Traditional approaches enforce this constraint through hierarchies of linear matrix inequalities that become computationally prohibitive at higher orders. The new method sidesteps this bottleneck by using an input convex neural network trained on molecular data to learn the boundary of the allowed set of 2-RDMs, effectively capturing the constraints imposed by higher-order positivity conditions without explicitly constructing them.\n\nThe framework pairs this learned boundary information with semidefinite programming — a well-established class of convex optimization — to perform variational calculations at a computational cost comparable to standard two-positivity methods while delivering substantially improved accuracy. The team demonstrated the approach on the potential energy curves of three challenging molecular systems: the dianion C₂²⁻, molecular nitrogen N₂, and the dication O₂²⁺. In each case, the results showed close agreement with complete active space configuration interaction calculations, a gold-standard benchmark in quantum chemistry.\n\nThe work addresses a problem that has occupied theoretical chemists for decades. Direct variational 2-RDM methods have promised a more elegant route to molecular electronic structure than traditional wavefunction-based approaches, but their utility has been limited by the difficulty of enforcing N-representability. By replacing explicit higher-order constraints with data-driven approximations, Delgado-Granados and Mazziotti have demonstrated that machine learning can serve not merely as a black-box surrogate for quantum calculations but as a principled tool for reshaping the mathematical landscape of the optimization itself.\n\nThe approach could have significant implications for computational chemistry and materials science, where accurate treatment of electron correlation in large molecular systems remains a central bottleneck. If the method scales favorably to larger molecules and more complex electronic environments, it could open new possibilities for studying strongly correlated systems — from transition metal catalysts to high-temperature superconductors — where conventional methods struggle most.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "quantum chemistry",
+        "machine learning",
+        "reduced density matrices",
+        "semidefinite programming",
+        "electron correlation",
+        "computational physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1727721924948-854622f9b200?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8cXVhbnR1bSUyMGNoZW1pc3RyeSUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzczMDI4OTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05524",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T04:02:44.128Z"
+    },
+    {
+      "id": "ps-1773028980325-dr6i",
+      "slug": "physicists-discover-new-island-of-inversion-in-symmetric-nuc",
+      "headline": "Physicists Discover New 'Island of Inversion' in Symmetric Nucleus",
+      "subheadline": "Molybdenum-84, with equal protons and neutrons, defies decades of nuclear physics assumptions about exotic deformation",
+      "body": "An international team of physicists has identified an unprecedented type of nuclear anomaly in molybdenum-84, a nucleus containing exactly 42 protons and 42 neutrons. The discovery of what researchers call an \"Isospin-Symmetric Island of Inversion\" overturns the longstanding assumption that such exotic structural regions can only form in highly neutron-rich isotopes far from stability. The findings, published in Nature Communications, mark the first time an Island of Inversion has been observed in a proton-neutron symmetric system.\n\nIslands of Inversion are regions of the nuclear chart where atomic nuclei abandon their expected orderly configurations — the so-called magic numbers that ordinarily dictate shell structure break down, and nuclei warp into highly deformed shapes. Every previously known example, including beryllium-12, magnesium-32, and chromium-64, occurred in unstable isotopes loaded with excess neutrons. The notion that a perfectly balanced nucleus could exhibit the same behavior was not seriously considered.\n\nResearchers from the Institute for Basic Science's Center for Exotic Nuclear Studies, the University of Padova, Michigan State University, the University of Strasbourg, and other institutions conducted the study by accelerating molybdenum-92 ions into a beryllium target at Michigan State's rare isotope facility. Using an A1900 fragment separator, they isolated molybdenum-86 nuclei and directed them at a second target, where some lost two neutrons to become molybdenum-84. As the excited nuclei decayed, they emitted gamma rays that were captured by GRETINA, a high-resolution germanium detector array, and TRIPLEX, an instrument capable of measuring lifetimes on the scale of trillionths of a second.\n\nThe measurements revealed a dramatic structural difference between molybdenum-84 and molybdenum-86, despite the two isotopes differing by only two neutrons. Molybdenum-84 exhibited an unusually large degree of collective motion — an 8-particle-8-hole excitation in which many nucleons simultaneously jump across a major shell gap, producing severe deformation. Molybdenum-86, by contrast, showed a more modest 4-particle-4-hole excitation and remained far less distorted. Theoretical analysis showed that the interplay between proton-neutron symmetry and a narrowing shell gap at particle number 40 enables the massive coordinated rearrangement in molybdenum-84. Crucially, the team found that three-nucleon forces — interactions in which three particles influence one another simultaneously — were essential to reproducing the observed behavior; traditional two-body models failed entirely.\n\nThe result places molybdenum-84 squarely inside a newly mapped Island of Inversion while its near-neighbor molybdenum-86 falls outside it. Beyond reshaping the nuclear chart, the discovery provides fresh constraints on the fundamental forces binding atomic nuclei and suggests that theorists may need to revisit assumptions about nuclear structure across a broader swath of the periodic table than previously imagined.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "nuclear physics",
+        "island of inversion",
+        "molybdenum-84",
+        "nuclear structure",
+        "three-nucleon forces",
+        "Institute for Basic Science"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/atomic-nucleus-warping.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260307213241.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T04:03:00.325Z"
+    },
+    {
+      "id": "ps-1773028994696-poof",
+      "slug": "sundar-pichai-s-new-alphabet-pay-package-could-reach-692-mil",
+      "headline": "Sundar Pichai's New Alphabet Pay Package Could Reach $692 Million",
+      "subheadline": "The three-year deal ties most of the Google CEO's compensation to performance, including Waymo and Wing milestones",
+      "body": "Alphabet has awarded CEO Sundar Pichai a new compensation package valued at up to $692 million over three years, a sum that would place him among the highest-paid corporate executives in the world. The deal, disclosed in a regulatory filing first reported by the Financial Times on March 7, links the vast majority of the payout to performance targets — including stock incentives tied to the progress of Waymo, Alphabet's autonomous vehicle unit, and Wing, its drone delivery subsidiary.\n\nThe structure reflects Alphabet's increasing bet that its so-called \"Other Bets\" portfolio can generate returns commensurate with its core search and advertising business. By pegging a significant portion of Pichai's pay to Waymo and Wing specifically, the board appears to be signaling that commercialization of these moonshot ventures is now a top corporate priority. Should those milestones go unmet, the actual payout could fall well short of the headline figure.\n\nPichai has presided over a dramatic expansion of Alphabet's value since becoming Google CEO in 2015, with the company's market capitalization growing nearly sevenfold under his leadership. That run has made Pichai a billionaire in his own right. He and his wife currently hold Alphabet shares worth close to $500 million, and Bloomberg estimates he has sold an additional $650 million in stock as of last summer.\n\nThe pay package also draws an implicit contrast with Alphabet's co-founders, Larry Page and Sergey Brin, who have been making headlines of a different sort. Page, the world's second-richest person, recently spent more than $173 million on two mansions in Miami's Coconut Grove neighborhood, while Brin has acquired properties in the area totaling roughly $143 million. The purchases are widely interpreted as a hedge against California's proposed Billionaire Tax Act, a ballot initiative that would impose a one-time 5% levy on net worth exceeding $1 billion among the state's approximately 200 billionaires. Pichai, by contrast, is believed to still reside in Los Altos, California.\n\nThe scale of the compensation package will likely reignite the perennial debate over executive pay in the technology sector, particularly as Alphabet continues to navigate antitrust scrutiny, an intensifying AI arms race, and pressure to demonstrate that its capital-intensive bets beyond advertising can deliver meaningful shareholder value.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Sundar Pichai",
+        "Alphabet",
+        "Google",
+        "executive compensation",
+        "Waymo",
+        "Wing"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T04:03:14.696Z"
+    },
+    {
+      "id": "ps-1773029011068-48mf",
+      "slug": "oil-surges-toward-120-as-iran-conflict-disrupts-middle-east-",
+      "headline": "Oil Surges Toward $120 as Iran Conflict Disrupts Middle East Supply",
+      "subheadline": "Strait of Hormuz effectively shuttered as major producers cut output and U.S. threatens escalation",
+      "body": "Crude oil prices surged toward $120 per barrel on Sunday as the widening conflict involving Iran forced additional Middle East producers to curtail output, with the critical Strait of Hormuz — the world's most important oil chokepoint — remaining virtually closed to tanker traffic.\n\nThe price spike marks a dramatic escalation in energy market turmoil driven by the ongoing military conflict, which has now disrupted the narrow waterway through which roughly one-fifth of the world's daily petroleum consumption typically flows. Multiple major regional producers have been compelled to reduce production as the crisis deepens, compounding supply fears that have gripped global markets for weeks. The United States has signaled it may deepen its involvement in the conflict, a prospect that has further rattled traders and energy analysts.\n\nThe near-closure of the Strait of Hormuz represents one of the most severe supply disruptions in decades, eclipsing previous episodes of regional tension that briefly threatened but never fully interrupted passage through the strait. Saudi Arabia, the UAE, Kuwait, Iraq, and Qatar all rely on the waterway to export oil and liquefied natural gas to global markets. With tanker traffic effectively halted, the loss of available crude has sent shockwaves through commodity exchanges and raised the specter of sustained triple-digit oil prices not seen since the aftermath of Russia's invasion of Ukraine in 2022.\n\nThe implications extend well beyond energy markets. Sustained prices near $120 a barrel would sharply increase fuel costs for consumers and businesses worldwide, threatening to reignite inflationary pressures that central banks had only recently brought under control. Economists have warned that a prolonged disruption could shave significant points off global GDP growth, with particularly severe consequences for energy-importing nations in Europe and Asia.\n\nStrategic petroleum reserves in the United States, Europe, and Asia could provide a temporary buffer, but analysts caution that these stockpiles are not designed to offset a major supply disruption lasting more than a few months. The Biden administration faces mounting pressure to both manage the geopolitical crisis and shield American consumers from the economic fallout. How the conflict evolves in the coming days — and whether diplomatic channels can reopen the strait — will likely determine whether oil markets stabilize or push into even more extreme territory.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Iran conflict",
+        "Strait of Hormuz",
+        "energy markets",
+        "Middle East",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwY29uZmxpY3R8ZW58MHwwfHx8MTc3MzAyMzU4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T04:03:31.068Z"
+    },
+    {
+      "id": "ps-1773029025386-zwvf",
+      "slug": "oil-futures-spike-past-110-as-middle-east-crisis-roils-globa",
+      "headline": "Oil Futures Spike Past $110 as Middle East Crisis Roils Global Markets",
+      "subheadline": "Asian equities suffer steep losses while bitcoin holds near $67,000, suggesting crypto markets view the shock as energy-specific",
+      "body": "Crude oil futures surged past $110 a barrel on Monday as intensifying conflict in the Middle East raised the specter of supply disruptions through the Strait of Hormuz, triggering a violent selloff in Asian equities while cryptocurrency markets remained notably calm.\n\nWest Texas Intermediate crude climbed roughly 17 percent in just 24 hours, its sharpest move in years, driven by fears that escalating hostilities involving Iran could choke off the narrow waterway through which an estimated 20 percent of the world's daily crude supply transits. The energy shock landed hardest on import-dependent Asian economies: Japan's Nikkei 225 plunged more than 6 percent, while South Korea's Kospi fell approximately 8 percent as traders scrambled to reprice energy costs across supply chains. Every major market in the region opened sharply lower.\n\nBetting markets suggest the pain may not be over. Polymarket, the prediction platform, assigned a 76 percent probability that crude would reach $120 per barrel by the end of March. Yet not all traders are convinced the rally will hold. Funding rates on oil perpetual futures turned negative on the decentralized exchange Hyperliquid, a signal that a meaningful cohort of speculators is positioning for a reversal even as spot prices continue to climb.\n\nIn a striking divergence, bitcoin held steady near $67,000 with little evidence of panic selling, while ether and solana posted modest gains. The resilience suggests that crypto markets are, at least for now, interpreting the oil shock as a sector-specific disruption rather than a catalyst for broad-based risk aversion — a notable departure from previous geopolitical crises when digital assets sold off in tandem with equities.\n\nThe oil spike also carries implications for monetary policy. Sustained energy inflation would complicate the Federal Reserve's path toward rate cuts, and markets reflect that calculus clearly. Polymarket contracts show a 98 percent probability that the Fed will leave rates unchanged at its March 18 meeting, with only about a 12 percent chance of a 25-basis-point reduction by the end of April. A prolonged run above $100 crude would add fresh upward pressure on consumer prices, potentially delaying the easing cycle that equity and crypto bulls have been counting on for much of 2026.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "oil prices",
+        "Middle East conflict",
+        "Asian markets",
+        "bitcoin",
+        "Federal Reserve",
+        "Strait of Hormuz",
+        "geopolitical risk"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/9fe32883d14737dc48c2a02a94223802b8b87f0c-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/oil-futures-surge-20-past-usd110-as-war-fears-hammer-asian-stocks-bitcoin-steady-near-usd67k",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T04:03:45.386Z"
+    },
     {
       "id": "ps-1773027113594-8eum",
       "slug": "oil-prices-surge-past-110-as-iran-conflict-disrupts-strait-o",
@@ -45,91 +172,6 @@
       "publishedAt": "2026-03-09T03:32:09.328Z"
     },
     {
-      "id": "ps-1773027147232-slup",
-      "slug": "physicists-discover-new-island-of-inversion-in-symmetric-nuc",
-      "headline": "Physicists Discover New 'Island of Inversion' in Symmetric Nucleus",
-      "subheadline": "Molybdenum-84, with equal protons and neutrons, defies decades of nuclear physics assumptions about exotic deformation",
-      "body": "An international team of physicists has identified a never-before-seen type of structural anomaly in the atomic nucleus of molybdenum-84, a finding that upends a longstanding assumption in nuclear physics: that so-called Islands of Inversion occur only in neutron-rich isotopes far from stability. The discovery, published in Nature Communications, reveals that even perfectly symmetric nuclei — those with equal numbers of protons and neutrons — can undergo dramatic, unexpected deformations.\n\nIslands of Inversion are rare regions on the nuclear chart where atomic nuclei abandon their expected shell structure, with the familiar \"magic numbers\" that ordinarily dictate nuclear stability breaking down. Nucleons leap across energy gaps in coordinated fashion, warping the nucleus into highly distorted shapes. Every previously known example — in beryllium-12, magnesium-32, and chromium-64, among others — involved nuclei laden with excess neutrons. The new finding in molybdenum-84, which has 42 protons and 42 neutrons, marks the first Island of Inversion ever observed in a proton-neutron symmetric system.\n\nResearchers from the Institute for Basic Science (IBS) in South Korea, the University of Padova, Michigan State University, the University of Strasbourg, and other institutions used rare isotope beams at Michigan State to produce and study molybdenum-84 and its close neighbor molybdenum-86. By accelerating molybdenum-92 ions into a beryllium target and isolating the resulting fragments, the team created fast-moving nuclei whose excited states emitted gamma rays as they decayed. The gamma radiation was captured by GRETINA, a high-resolution germanium detector array, while an instrument called TRIPLEX measured nuclear lifetimes at the picosecond scale.\n\nThe contrast between the two isotopes proved stark. Despite differing by just two neutrons, molybdenum-84 exhibited massive collective motion consistent with an 8-particle-8-hole excitation — meaning eight nucleons simultaneously jumped across a major shell gap, producing extreme deformation. Molybdenum-86, by comparison, showed only modest 4-particle-4-hole excitations and remained far less distorted. Theoretical modeling revealed that this behavior arises from the interplay between proton-neutron symmetry and a narrowing of the shell gap at proton and neutron number 40. Crucially, the researchers found that standard two-body nuclear force models could not reproduce their observations; only calculations incorporating three-nucleon forces — in which three particles influence each other simultaneously — matched the experimental data.\n\nThe team has dubbed this newly mapped territory an \"Isospin-Symmetric Island of Inversion,\" a designation that signals a fundamentally new category of nuclear structural anomaly. The result challenges the prevailing framework that confined Islands of Inversion to the neutron-rich fringes of the chart of nuclides, and it offers fresh constraints on the three-body forces that govern how protons and neutrons organize themselves inside atomic nuclei. For nuclear theorists, the finding opens a new testing ground for models of nuclear structure in one of the chart's most symmetric — and least expected — regions.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "nuclear physics",
-        "island of inversion",
-        "molybdenum-84",
-        "nuclear structure",
-        "three-nucleon forces",
-        "Institute for Basic Science"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/atomic-nucleus-warping.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260307213241.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T03:32:27.232Z"
-    },
-    {
-      "id": "ps-1773027161227-av4j",
-      "slug": "sundar-pichai-s-new-alphabet-pay-package-could-reach-692-mil",
-      "headline": "Sundar Pichai's New Alphabet Pay Package Could Reach $692 Million",
-      "subheadline": "The three-year deal ties most of the Google CEO's compensation to performance targets, including Waymo and Wing milestones",
-      "body": "Alphabet has awarded Google CEO Sundar Pichai a new compensation package potentially worth $692 million over three years, a structure that would place him among the highest-paid corporate executives in the world. The deal, disclosed in a regulatory filing first reported by the Financial Times on March 7, links the bulk of the payout to performance benchmarks — including new stock incentives tied to the success of autonomous vehicle unit Waymo and drone delivery venture Wing.\n\nThe package marks a significant bet by Alphabet's board that Pichai can deliver on the company's most ambitious bets beyond its core search and advertising business. While the headline figure is eye-catching, the performance-contingent structure means the actual payout could fall well short of the maximum if targets are not met. The emphasis on Waymo and Wing signals that Alphabet's leadership views these subsidiaries as critical growth engines deserving of direct executive accountability.\n\nPichai has overseen a remarkable run since becoming Google's CEO in 2015. Alphabet's market capitalization has grown roughly sevenfold during his tenure, a surge that has made the executive a billionaire in his own right. According to Bloomberg calculations, Pichai and his wife hold approximately $500 million in Alphabet shares, while he has sold an estimated $650 million in stock through last summer.\n\nThe compensation news arrives against an intriguing backdrop involving Alphabet's co-founders. Larry Page and Sergey Brin — ranked as the second- and fourth-richest people globally — have been making headlines for acquiring high-end Miami real estate, moves widely interpreted as a hedge against California's proposed Billionaire Tax Act. That ballot initiative would impose a one-time 5% levy on net worth exceeding $1 billion, targeting roughly 200 of the state's wealthiest residents. Page has reportedly spent more than $173 million on two Coconut Grove mansions, while Brin has been linked to purchases totaling approximately $143 million in the area. Pichai, by contrast, is believed to remain in Los Altos, California.\n\nThe scale of the pay package will likely reignite debate over executive compensation at major technology companies, particularly as the industry navigates intense competition in artificial intelligence and autonomous systems. Whether Pichai ultimately collects anything close to the full $692 million will depend on how well Alphabet's next-generation businesses perform over the coming years.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Sundar Pichai",
-        "Alphabet",
-        "Google",
-        "executive compensation",
-        "Waymo",
-        "Wing"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T03:32:41.227Z"
-    },
-    {
-      "id": "ps-1773027177042-y6p3",
-      "slug": "oil-surges-toward-120-as-iran-conflict-chokes-strait-of-horm",
-      "headline": "Oil Surges Toward $120 as Iran Conflict Chokes Strait of Hormuz",
-      "subheadline": "Middle East producers cut output as critical shipping chokepoint remains effectively shut, roiling global energy markets",
-      "body": "Crude oil prices surged toward $120 per barrel on March 8 as the escalating military conflict involving Iran forced additional production cuts from major Middle East producers, with the Strait of Hormuz — the world's most critical oil transit chokepoint — remaining virtually closed to commercial shipping.\n\nThe price spike marks a dramatic escalation in the energy market turmoil that has accompanied the widening conflict in the Persian Gulf region. The Strait of Hormuz, through which roughly one-fifth of the world's daily oil consumption normally passes, has been effectively shut down, severing a crucial artery of global energy supply. Multiple major producers in the region have been compelled to curb output as the logistical and security realities of the conflict make normal operations untenable.\n\nCompounding the supply crisis, the United States has signaled its willingness to deepen its involvement in the conflict, a posture that has further rattled markets already reeling from weeks of disruption. The threat of expanded military action raises the prospect of even more severe and prolonged interruptions to the region's oil infrastructure, which supplies a substantial share of global crude. Traders and analysts have warned that a sustained closure of the strait could push prices well beyond current levels if alternative shipping routes and strategic reserve releases prove insufficient to bridge the gap.\n\nThe surge toward $120 represents one of the sharpest price moves in recent years and carries sweeping implications for the global economy. Consumer nations face the prospect of sharply higher fuel and energy costs at a time when central banks in the United States, Europe, and elsewhere are already navigating delicate inflation dynamics. For oil-importing developing economies, the price shock threatens to widen trade deficits and stoke social pressures. Energy-intensive industries, airlines, and shipping companies are among the sectors most immediately exposed to the disruption.\n\nMarket participants are now closely watching for coordinated responses from consuming nations, including potential releases from strategic petroleum reserves and diplomatic efforts to de-escalate the conflict. The International Energy Agency and OPEC have yet to issue formal emergency guidance, but pressure is mounting for action as the crisis shows no signs of abating.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Iran conflict",
-        "energy markets",
-        "Middle East",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1757916315213-b7254eea4f9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxPaWwlMjBTdXJnZXMlMjBUb3dhcmQlMjBJcmFuJTIwQ29uZmxpY3QlMjBDaG9rZXMlMjBTdHJhaXR8ZW58MHwwfHx8MTc3MzAyNzE3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T03:32:57.042Z"
-    },
-    {
-      "id": "ps-1773027192380-4be3",
-      "slug": "oil-futures-spike-past-110-as-middle-east-crisis-roils-globa",
-      "headline": "Oil Futures Spike Past $110 as Middle East Crisis Roils Global Markets",
-      "subheadline": "Asian equities suffer steep losses while bitcoin holds near $67,000, suggesting crypto treats the shock as energy-specific",
-      "body": "Crude oil futures vaulted above $110 a barrel on Monday as escalating military conflict in the Middle East raised the specter of disrupted flows through the Strait of Hormuz, the narrow waterway that carries roughly one-fifth of the world's daily oil supply. West Texas Intermediate crude surged approximately 17 percent in 24 hours, delivering one of the sharpest single-session moves in years and sending shockwaves through energy-dependent economies across Asia.\n\nThe damage to equity markets was immediate and severe. Japan's Nikkei 225 plunged more than 6 percent, while South Korea's Kospi fell roughly 8 percent as traders scrambled to reprice the cost of energy imports that underpin both nations' manufacturing sectors. Every major Asian market opened deep in negative territory, with the sell-off reflecting fears that sustained triple-digit oil prices could choke economic growth and reignite inflation globally.\n\nCryptocurrency markets, by contrast, exhibited striking calm. Bitcoin traded near $67,000 with no significant selling pressure, while ether and solana posted modest gains. The divergence suggests digital asset traders are, for now, interpreting the oil shock as a sector-specific event rather than a signal to flee risk assets broadly — a notable departure from previous geopolitical crises that triggered correlated sell-offs across asset classes.\n\nDerivatives and prediction markets painted a divided picture of what comes next. Polymarket contracts assigned a 76 percent probability that crude would reach $120 by the end of March, yet funding rates on oil perpetual futures on the decentralized exchange Hyperliquid turned negative — a sign that a meaningful cohort of speculators is betting the rally will reverse. The tension between those two signals underscores deep uncertainty about whether the supply threat will materialize or whether diplomatic efforts could defuse the crisis.\n\nThe Federal Reserve now faces an unwelcome complication. Polymarket data showed a 98 percent probability that policymakers will hold rates steady at the March 18 meeting, with only a 12 percent chance of a 25-basis-point cut by the end of April. A prolonged surge in energy costs would add upward pressure on headline inflation just as the central bank was weighing the timing of its next easing move, potentially delaying rate relief that equity and housing markets have been anticipating for months.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil prices",
-        "Middle East conflict",
-        "Asian stocks",
-        "bitcoin",
-        "Federal Reserve",
-        "Strait of Hormuz",
-        "crude oil"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/9fe32883d14737dc48c2a02a94223802b8b87f0c-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/oil-futures-surge-20-past-usd110-as-war-fears-hammer-asian-stocks-bitcoin-steady-near-usd67k",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T03:33:12.380Z"
-    },
-    {
       "id": "ps-1773026278882-ptor",
       "slug": "global-stocks-slide-as-oil-breaks-100-amid-us-israeli-war-wi",
       "headline": "Global Stocks Slide as Oil Breaks $100 Amid US-Israeli War With Iran",
@@ -171,27 +213,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/08/bitcoin-tumbles-below-usd66-000-as-oil-prices-explode-higher",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-09T03:18:15.355Z"
-    },
-    {
-      "id": "ps-1773023520900-wtjw",
-      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
-      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
-      "subheadline": "The 56-year-old cleric, long considered 'the power behind the robes,' faces questions of legitimacy and Israeli threats",
-      "body": "Iran's Assembly of Experts has selected Mojtaba Khamenei, the 56-year-old son of the late Ayatollah Ali Khamenei, as the Islamic Republic's new supreme leader — a succession that breaks with the regime's founding ideology and comes amid an escalating military conflict with Israel and the United States.\n\nThe elder Khamenei was killed in recent US-Israeli strikes that also reportedly took the lives of Mojtaba's mother and wife, a personal toll that observers say makes any rapprochement with Western powers exceedingly unlikely. The appointment marks only the third supreme leader in the Islamic Republic's 46-year history and the first instance of hereditary succession in a system explicitly built to reject monarchical rule. Iran's 1979 revolution overthrew the Pahlavi dynasty precisely on the principle that leadership should derive from religious authority, not bloodline.\n\nMojtaba Khamenei has never held government office, delivered a public speech, or granted an interview. Yet leaked US diplomatic cables published by WikiLeaks described him as \"the power behind the robes\" — a figure wielding significant informal influence over Iranian politics for more than two decades. His name first surfaced publicly during the contested 2005 presidential election, when reformist candidate Mehdi Karroubi accused him of mobilizing elements of the Islamic Revolutionary Guard Corps and Basij militia to secure Mahmoud Ahmadinejad's victory. Similar allegations resurfaced during the 2009 Green Movement protests, when millions took to the streets challenging Ahmadinejad's reelection. Former deputy interior minister Mostafa Tajzadeh, who was imprisoned for seven years, attributed his detention to \"the direct wish of Mojtaba Khamenei.\"\n\nThe new leader's religious credentials present another potential vulnerability. A mid-ranking cleric who did not enter seminary studies until age 30 — unusually late by traditional standards — Mojtaba lacks the scholarly standing typically expected of a supreme leader. In recent days, however, media outlets aligned with Iran's power centers have begun referring to him as \"Ayatollah,\" a senior clerical title that observers interpret as an effort to rapidly elevate his religious legitimacy. There is precedent: Ali Khamenei himself received a similar fast-tracked promotion upon assuming the supreme leadership in 1989.\n\nThe challenges facing the new supreme leader are formidable. Iran is enduring ongoing US-Israeli military strikes targeting oil infrastructure and strategic sites, with fuel depots in Tehran and Karaj hit overnight in attacks that witnesses described as turning \"night into day.\" Iranian drones have struck targets in Kuwait, widening the regional conflict. Domestically, years of economic sanctions, political repression, and public discontent over rigged elections have eroded the regime's legitimacy. Israel's defense minister warned last week that whoever succeeds Ali Khamenei would be \"an unequivocal target for elimination\" — a threat that underscores the perilous environment in which Mojtaba now governs. Whether a leader whose record is largely untested and whose ascent evokes the hereditary rule Iran was founded to reject can hold the Islamic Republic together remains the defining question of his tenure.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "Mojtaba Khamenei",
-        "supreme leader",
-        "Middle East conflict",
-        "Israel",
-        "succession"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T02:32:00.900Z"
     },
     {
       "id": "ps-1773020925123-28sx",
@@ -1046,27 +1067,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-07/this-weekend-global-oil-market-disruptions-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-07T13:48:22.016Z"
-    },
-    {
-      "id": "ps-1772886790642-i4rm",
-      "slug": "strait-of-hormuz-traffic-grinds-to-near-halt-for-sixth-day",
-      "headline": "Strait of Hormuz Traffic Grinds to Near Halt for Sixth Day",
-      "subheadline": "Only Iran-linked tankers are transiting the critical chokepoint as other shipping avoids the passage",
-      "body": "Commercial shipping through the Strait of Hormuz has remained at a near standstill for a sixth consecutive day, with only vessels linked to Iran making the passage through the world's most critical oil transit chokepoint, according to Bloomberg tracking data published March 7.\n\nOver the past 24 hours, Iran-linked tankers were the sole large vessels to transit the narrow waterway, which separates Iran from the Arabian Peninsula and serves as the gateway for roughly one-fifth of global oil supply. The prolonged disruption marks one of the most significant interruptions to Hormuz traffic in recent memory, raising serious questions about energy supply security and the potential for sustained price impacts across global crude and liquefied natural gas markets.\n\nThe strait, barely 21 miles wide at its narrowest navigable point, is the sole maritime route for oil exports from major Gulf producers including Saudi Arabia, Iraq, Kuwait, the United Arab Emirates, and Qatar. Under normal conditions, an estimated 20 million barrels of crude and condensate pass through the chokepoint daily, making any sustained disruption a first-order concern for energy markets and the global economy.\n\nThe fact that Iran-affiliated vessels continue to transit freely while other commercial shipping stays away suggests that geopolitical risk calculations — rather than physical obstructions — are driving the standoff. Shipping companies and their insurers have historically avoided the strait during periods of elevated tension, with war-risk premiums spiking to levels that make transit economically unviable for many operators.\n\nEnergy analysts warn that if the near-blockade persists, downstream effects could ripple through refined product markets, petrochemical supply chains, and LNG deliveries to Asia and Europe. Strategic petroleum reserves in consuming nations provide a buffer, but one measured in weeks rather than months. The situation underscores the fragility of global energy logistics and the outsized leverage that control of narrow maritime chokepoints can exert on the world economy.",
-      "category": "business",
-      "importance": 9,
-      "tags": [
-        "Strait of Hormuz",
-        "oil supply",
-        "shipping",
-        "Iran",
-        "energy security",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8YnVzaW5lc3N8ZW58MHwwfHx8MTc3Mjc3ODc5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-07/hormuz-tracker-iran-linked-ships-transit-as-others-stay-away",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-07T12:33:10.642Z"
     }
   ]
 }
