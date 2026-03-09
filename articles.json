@@ -1,7 +1,134 @@
 {
-  "lastUpdated": "2026-03-09T15:03:46.777Z",
+  "lastUpdated": "2026-03-09T15:18:52.849Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1773069452165-bava",
+      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
+      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
+      "subheadline": "The 56-year-old son of Ayatollah Ali Khamenei, largely unknown to the public, faces immediate legitimacy questions and Israeli threats",
+      "body": "Iran's Assembly of Experts has selected Mojtaba Khamenei, the 56-year-old son of the late Ayatollah Ali Khamenei, as the Islamic Republic's third supreme leader following his father's death in US-Israeli military strikes. The appointment marks a de facto hereditary succession in a theocratic system whose founding ideology explicitly rejects dynastic rule.\n\nMojtaba Khamenei has never held government office, never given a public speech or interview, and has been photographed only sparingly throughout his life. Yet US diplomatic cables published by WikiLeaks over a decade ago described him as \"the power behind the robes\" — a figure widely regarded within the regime as \"capable and forceful.\" His name first surfaced publicly during the contested 2005 presidential election, when reformist candidate Mehdi Karroubi accused him of orchestrating interference through the Islamic Revolutionary Guard Corps and the Basij militia to secure Mahmoud Ahmadinejad's victory. Similar accusations followed during the 2009 Green Movement protests, when millions took to Iran's streets partly to oppose the very prospect of a Khamenei dynasty.\n\nBorn in Mashhad on September 8, 1969, Mojtaba is the second of Ali Khamenei's six children. He briefly served in the military during the Iran-Iraq War at age 17 and did not begin formal seminary studies in the holy city of Qom until 1999, unusually late for the clerical track. He remains a mid-ranking cleric — a significant liability in a system that theoretically demands the supreme leader possess the highest religious credentials. In the weeks before his appointment, media outlets aligned with Iran's power centers began referring to him as \"Ayatollah,\" an apparent effort to inflate his scholarly standing. His father underwent a similar rapid clerical promotion upon assuming the supreme leadership in 1989.\n\nThe new leader inherits a country in acute crisis. Iran is under direct military assault from the United States and Israel, with strikes that killed not only his father but reportedly also his mother and wife. Oil prices surged past $100 per barrel on Monday as the conflict intensified, and Iranian infrastructure — including oil depots — has sustained significant damage over ten days of strikes across the Middle East. Israel's defense minister warned last week that whoever succeeded Ali Khamenei would be \"an unequivocal target for elimination.\"\n\nMojtaba Khamenei is widely expected to maintain his father's hardline posture, and analysts suggest a leader who lost multiple family members to Western-allied strikes is unlikely to pursue rapprochement. Yet he faces a legitimacy deficit on multiple fronts: an untested leadership record, a clerical rank below what tradition demands, and a public increasingly resentful of economic devastation and political repression. Whether the perception of dynastic succession deepens Iran's domestic discontent or is overshadowed by wartime solidarity may determine the early trajectory of his rule.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran",
+        "Mojtaba Khamenei",
+        "supreme leader",
+        "Middle East",
+        "US-Israel strikes",
+        "succession"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-09T15:17:32.165Z"
+    },
+    {
+      "id": "ps-1773069468369-ea4f",
+      "slug": "new-method-claims-million-fold-speedup-for-molecular-samplin",
+      "headline": "New Method Claims Million-Fold Speedup for Molecular Sampling",
+      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
+      "body": "A researcher has introduced a technique that could dramatically accelerate one of computational chemistry's most fundamental and time-consuming tasks: sampling molecular configurations from the Boltzmann distribution, the probability framework that governs how molecules arrange themselves at thermal equilibrium.\n\nIn a preprint posted to arXiv, Pipi Hu presents \"Drifting Models\" adapted for molecular conformation generation, reporting speedups exceeding a million-fold compared to traditional molecular dynamics simulations. The method also achieves more than a thousand-fold acceleration relative to recent score-matching approaches that use Boltzmann guidance — all while generating physically valid molecular structures in a single computational step rather than through costly iterative procedures.\n\nThe core innovation rests on what Hu calls the \"Drifting Score Identity\" and its molecular counterpart, the \"Drifting Force Identity.\" In standard generative modeling, diffusion-based methods produce molecular conformations through many sequential denoising steps, making them accurate but painfully slow. Drifting Models can generate samples in one step, but they typically reproduce the distribution present in training data rather than the true Boltzmann distribution — a critical distinction for scientific accuracy. Hu's theoretical framework bridges this gap by showing that molecular force labels, which directly encode the Boltzmann distribution's score function, can be incorporated into the drifting field as a correction term. This effectively steers the one-step generator toward thermodynamic correctness without sacrificing speed.\n\nPerhaps the most scientifically intriguing finding is what Hu describes as a \"reversal\" in the effectiveness of force incorporation depending on the mathematical representation used. In Cartesian coordinate space, a technique called Force-Interpolated Drifting dominates by blending physical force directions with data displacements. In distance feature space, however, a different approach — Force-Aligned Kernel — proves superior by modifying only kernel weights, which preserves the geometric manifold of valid molecular structures. Benchmarked on the MD17 Ethanol dataset, both methods achieve distributional accuracy that rivals multi-step generative approaches while maintaining perfect structural validity.\n\nIf the results hold up under broader scrutiny and extend to larger, more complex molecular systems, the implications could be substantial. Boltzmann sampling underpins drug discovery, materials design, and protein engineering, all domains where the computational cost of exploring molecular configuration space remains a persistent bottleneck. Reducing that cost by six orders of magnitude — even on relatively simple benchmark molecules — signals a potentially transformative shift in how researchers approach molecular simulation at scale.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "Boltzmann distribution",
+        "molecular dynamics",
+        "computational chemistry",
+        "generative models",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1657492995523-18bf689b9a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05527",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T15:17:48.369Z"
+    },
+    {
+      "id": "ps-1773069485598-2dem",
+      "slug": "tu-wien-physicists-derive-quantum-correction-to-einstein-s-g",
+      "headline": "TU Wien Physicists Derive Quantum Correction to Einstein's Geodesics",
+      "subheadline": "New 'q-desic equation' predicts particles deviate from classical spacetime paths, with potentially observable effects at cosmic scales",
+      "body": "Physicists at the Vienna University of Technology have derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at the largest cosmic scales, those trajectories may diverge significantly from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, was led by Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic. The team tackled a foundational element of general relativity: geodesics, the curved paths that objects follow through spacetime warped by massive bodies. By replacing the classical metric — the mathematical description of spacetime curvature — with a quantum version subject to uncertainty, the researchers derived what they call the \"q-desic equation.\" It shows that in a quantum spacetime, particles do not necessarily travel along the shortest path between two points, as classical geodesics require.\n\nFor ordinary gravitational systems, the deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment's sensitivity. But when the team incorporated the cosmological constant, the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe, the picture changed dramatically. At distances around 10²¹ meters — roughly the scale of galaxy clusters and large cosmic structures — the quantum-corrected trajectories diverged substantially from classical predictions. Crucially, at intermediate scales such as planetary orbits, the equations reproduce standard general relativity almost exactly.\n\nThe finding is significant because it may offer a rare experimental foothold in the notoriously intractable problem of quantum gravity. Koch likened the search to the Cinderella fairy tale: multiple candidate theories exist — string theory, loop quantum gravity, asymptotically safe gravity — but physicists have lacked a measurable observable to distinguish among them. The q-desic equation could serve as that discriminating test, since different quantum gravity frameworks would predict different deviations from classical geodesics. Koch noted the results give \"hope that by further developing this approach we can gain a new, and observationally well testable, insight into important cosmic phenomena,\" including the still-unexplained rotation speeds of spiral galaxies.\n\nThe research represents a methodological advance as well. Quantizing the metric for even the relatively simple case of a static, spherically symmetric gravitational field — such as the Sun's — required careful mathematical treatment. The team showed that naively replacing the metric operator with its expectation value, a kind of quantum average, can lead to errors, and they provided a rigorous framework for handling the calculation correctly. While substantial theoretical development and observational comparison remain ahead, the work opens a concrete new avenue for probing whether spacetime itself carries quantum signatures detectable at cosmological distances.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "geodesics",
+        "cosmological constant",
+        "TU Wien",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T15:18:05.598Z"
+    },
+    {
+      "id": "ps-1773069500836-dfxo",
+      "slug": "nscale-hits-14-6b-valuation-with-record-european-series-c",
+      "headline": "Nscale Hits $14.6B Valuation With Record European Series C",
+      "subheadline": "Nvidia-backed AI infrastructure firm adds Sheryl Sandberg and Nick Clegg to board as it eyes potential IPO",
+      "body": "British AI infrastructure startup Nscale has reached a $14.6 billion valuation following what it describes as the largest Series C in European history, a $2 billion round that positions the company among the continent's elite decacorns alongside Helsing and Mistral AI.\n\nThe round, co-led by Norwegian energy conglomerate Aker and New York-based 8090 Industries, drew participation from an impressive roster including Dell, Nvidia, Citadel, Jane Street, Lenovo, Nokia, Point72, Astra Capital, and Linden Advisors. The $2 billion figure includes a $433 million pre-Series C SAFE from October backed by Blue Owl, Dell, Nvidia, and Nokia. Goldman Sachs and JPMorgan supported the raise — involvement widely interpreted as groundwork for an initial public offering. CEO Josh Payne told the New York Times his company might seek to go public \"as early as this year\" to generate additional capital.\n\nAlongside the funding, Nscale announced three high-profile board additions: former Meta COO Sheryl Sandberg, former Yahoo president Susan Decker, and former UK Deputy Prime Minister Nick Clegg. The appointments signal the company's ambitions to navigate both the corporate and regulatory landscapes as it scales globally. Clegg, who most recently served as Meta's president of global affairs, brings particular expertise in European policy — a critical domain as the continent tightens oversight of AI infrastructure.\n\nCentral to Nscale's strategy is its vertically integrated model spanning energy sourcing, data center construction, GPU compute, and orchestration software. Its flagship initiative, dubbed \"Stargate Norway,\" is a joint venture with Aker that aims to run on 100,000 Nvidia GPUs by year's end, with OpenAI as an initial customer. Under the new arrangement, Aker's joint venture with Nscale will be fully managed by the startup, consolidating delivery and governance. The company also signed an expanded deal with Microsoft last October to deploy approximately 200,000 Nvidia GPUs across three European data centers and one in the United States.\n\nNscale's fundraising momentum has been extraordinary even by AI infrastructure standards. The company raised a $1.1 billion Series B led by Aker in September 2025 and secured a $1.4 billion GPU-backed term loan last month to finance European cluster buildouts. The new capital will fund expansion across Europe, North America, and Asia while growing engineering and operations teams. The company has also pledged to leverage low-cost renewable energy, reuse waste heat, and invest in local skills development — commitments that may ease the political path for its ambitious data center plans across multiple jurisdictions.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Nscale",
+        "AI infrastructure",
+        "data centers",
+        "Nvidia",
+        "European startups",
+        "IPO",
+        "Sheryl Sandberg"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T15:18:20.836Z"
+    },
+    {
+      "id": "ps-1773069518943-cm6r",
+      "slug": "oil-surges-past-100-as-g7-rules-out-strategic-reserve-releas",
+      "headline": "Oil Surges Past $100 as G7 Rules Out Strategic Reserve Release",
+      "subheadline": "Strait of Hormuz tanker standstill compounds supply crisis as major economies decline coordinated stockpile intervention",
+      "body": "Crude oil prices blew past the $100-per-barrel threshold on Sunday after Group of Seven nations announced they would not pursue a near-term coordinated release of strategic petroleum reserves, removing what many traders had viewed as the last policy backstop against a worsening supply crisis.\n\nThe decision came as a halt in tanker traffic through the Strait of Hormuz — the narrow waterway connecting the Persian Gulf to global markets — continued to choke off a significant share of the world's crude supply. Roughly one-fifth of global oil consumption passes through the strait on any given day, making even a brief disruption capable of sending shockwaves through energy markets. The combination of the shipping standstill and the G7's refusal to tap reserves sent prices soaring in a move that analysts described as reflecting genuine physical scarcity rather than speculative froth.\n\nStrategic petroleum reserves have historically served as a tool of last resort for governments seeking to calm volatile energy markets. The United States, Japan, and European members of the G7 collectively hold hundreds of millions of barrels in underground caverns and storage facilities. A coordinated drawdown was widely expected by market participants, and the group's decision to hold off caught many off guard. Officials reportedly concluded that a release would provide only temporary relief and could leave member nations more exposed if the Hormuz disruption persists or escalates.\n\nThe $100 milestone carries both economic and psychological significance. For consumers, it portends higher gasoline and heating costs at a time when inflation remains a persistent concern across developed economies. For oil-importing nations in the developing world, the price surge threatens to widen trade deficits and strain government budgets. Central bankers, who have spent years wrestling with price stability, now face renewed pressure from an energy shock largely beyond their control.\n\nEnergy strategists warned that prices could climb further if the Strait of Hormuz remains effectively closed. Alternative shipping routes add significant transit time and cost, and spare production capacity outside the Gulf region is limited. With the G7 signaling that strategic reserves will remain untouched for now, the market's safety net has narrowed considerably — leaving traders, refiners, and governments bracing for what could be a prolonged period of triple-digit oil.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "G7",
+        "Strait of Hormuz",
+        "strategic petroleum reserves",
+        "energy crisis",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1537053303914-caa41e31185a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8T2lsJTIwU3VyZ2VzJTIwUGFzdCUyMFJ1bGVzJTIwT3V0JTIwU3RyYXRlZ2ljJTIwUmVzZXJ2ZSUyMFJlbGVhc2V8ZW58MHwwfHx8MTc3MzA2OTUxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T15:18:38.943Z"
+    },
+    {
+      "id": "ps-1773069532713-jwnh",
+      "slug": "stablecoin-payments-startup-kast-raises-80m-at-600m-valuatio",
+      "headline": "Stablecoin Payments Startup KAST Raises $80M at $600M Valuation",
+      "subheadline": "Cross-border payments platform targets a massive untapped market where just 1% of stablecoin volume goes to real-world transactions",
+      "body": "KAST, a stablecoin-powered cross-border payments company, has closed an $80 million Series A round at a $600 million valuation, signaling strong investor appetite for infrastructure that bridges digital currencies with everyday financial transactions.\n\nThe round was co-led by QED Investors and Left Lane Capital, with participation from Peak XV Partners, HSG, and DST Global Partners. The company said it will deploy the capital toward product development, regulatory licensing and compliance, team expansion, and geographic growth across North America, Latin America, and the Middle East. KAST also plans to launch a business-focused product called KAST Business, targeting payroll, payouts, and cross-border corporate spending.\n\nFounded by CEO Raagulan Pathy, KAST has grown quickly since its launch roughly 18 months ago. The platform now claims more than one million users and approximately $5 billion in annualized transaction volume. Revenue has doubled since September 2025, according to the company, though it did not disclose specific figures. The platform works by connecting stablecoin-denominated digital dollars to local payout systems, aiming to reduce the cost, time, and complexity of sending money internationally.\n\nThe fundraise underscores a broader thesis gaining traction among venture investors: that stablecoins, despite surging to more than $35 trillion in total transaction volume last year, remain dramatically underutilized for real-world payments. Research from McKinsey and Artemis Analytics estimates that only about 1% of stablecoin activity currently represents actual economic transactions such as remittances or payroll — leaving an enormous addressable market for platforms like KAST. \"Stablecoin technology holds the potential to reshape the future of finance,\" said Nigel Morris, co-founder and managing partner at QED Investors, in a statement accompanying the announcement.\n\nThe $600 million valuation places KAST among a growing cohort of well-capitalized stablecoin infrastructure companies vying to capture market share as regulatory frameworks mature and institutional adoption accelerates. Whether the company can convert its early traction into sustainable scale will depend on its ability to navigate a fragmented regulatory landscape across multiple jurisdictions while competing with both traditional remittance providers and a growing field of crypto-native rivals.",
+      "category": "markets",
+      "importance": 6,
+      "tags": [
+        "stablecoins",
+        "KAST",
+        "venture capital",
+        "cross-border payments",
+        "fintech",
+        "QED Investors"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/636979d4c5c0499dfc9fc9a2d68ab32cd8c4db2c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/09/kast-raises-usd80-million-at-usd600-million-valuation-to-expand-stablecoin-payments-platform",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T15:18:52.714Z"
+    },
     {
       "id": "ps-1773068547978-q3ri",
       "slug": "oil-surges-past-100-as-u-s-israeli-war-on-iran-disrupts-glob",
@@ -46,28 +173,6 @@
       "publishedAt": "2026-03-09T15:02:43.007Z"
     },
     {
-      "id": "ps-1773068582692-lnwa",
-      "slug": "new-q-desic-equation-suggests-particles-stray-from-einstein-",
-      "headline": "New 'Q-Desic' Equation Suggests Particles Stray From Einstein's Paths",
-      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmic scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at cosmological distances, those trajectories deviate significantly from the paths predicted by Einstein's general relativity.\n\nThe work, published in Physical Review D, introduces what the researchers call the \"q-desic equation,\" a quantum generalization of the geodesic equation that has underpinned general relativity for more than a century. In Einstein's framework, massive objects curve the fabric of spacetime, and smaller bodies follow the shortest available paths — geodesics — through that curvature. The Earth orbits the Sun not because of a force pulling it inward, but because the Sun's mass warps spacetime into a geometry that makes an elliptical orbit the natural trajectory. Benjamin Koch, Angel Rincón, and PhD student Ali Riahinia tackled the notoriously difficult problem of quantizing the metric — the mathematical object that encodes spacetime curvature — for the specific case of a static, spherically symmetric gravitational field, such as the one produced by a star. They then calculated how a test particle would move when that metric is no longer a fixed classical quantity but instead a quantum operator subject to uncertainty. The resulting q-desic equation reveals that particles in quantum spacetime do not always follow the classical shortest path.\n\nUnder ordinary gravitational conditions, the predicted deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment. But when the team incorporated the cosmological constant, the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe, the picture changed dramatically. At distances around 10²¹ meters — roughly the scale of galaxy clusters — the quantum corrections grow large enough to potentially be observable. \"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said. Crucially, at intermediate scales such as planetary orbits, the equation reproduces standard general relativity almost exactly.\n\nThe finding is significant because one of the central obstacles in quantum gravity research has been the absence of measurable predictions that could distinguish among competing theoretical frameworks, including string theory, loop quantum gravity, and asymptotically safe gravity. Koch likened the search to the Cinderella fairy tale: multiple candidate theories exist, but without an empirical \"glass slipper\" — a concrete observable — physicists have had no way to determine which one nature actually favors. The q-desic framework could serve as precisely that discriminator, offering predictions that different quantum gravity proposals would fill in differently.\n\nPerhaps most intriguingly, the large-scale deviations predicted by the q-desic equation emerge in the same cosmological regime where general relativity already faces unresolved puzzles, including the anomalous rotation speeds of spiral galaxies — a phenomenon conventionally attributed to dark matter. Koch indicated that the team's next step is a more detailed analysis of whether the new equation can shed light on such phenomena, potentially offering a testable alternative to or complement for dark matter models. If the framework holds up under further scrutiny, it would represent a rare bridge between the abstract mathematics of quantum gravity and the domain of astronomical observation.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "cosmological constant",
-        "TU Wien",
-        "dark energy",
-        "spacetime"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T15:03:02.692Z"
-    },
-    {
       "id": "ps-1773068597245-f5ez",
       "slug": "flipkart-completes-move-back-to-india-as-walmart-backed-gian",
       "headline": "Flipkart Completes Move Back to India as Walmart-Backed Giant Eyes IPO",
@@ -109,48 +214,6 @@
       "publishedAt": "2026-03-09T15:03:31.956Z"
     },
     {
-      "id": "ps-1773068626618-wjrs",
-      "slug": "stablecoin-payments-startup-kast-raises-80m-at-600m-valuatio",
-      "headline": "Stablecoin Payments Startup KAST Raises $80M at $600M Valuation",
-      "subheadline": "Cross-border payments platform backed by QED Investors and Left Lane Capital aims to capture untapped real-world stablecoin market",
-      "body": "KAST, a stablecoin-powered cross-border payments platform, has closed an $80 million Series A funding round at a $600 million valuation, signaling growing investor appetite for infrastructure that bridges digital dollar rails with traditional payment networks.\n\nThe round, announced Monday, was led by QED Investors and Left Lane Capital, with participation from Peak XV Partners, HSG, and DST Global Partners. KAST said it will deploy the capital toward product development, regulatory licensing and compliance, and team expansion as it scales operations across North America, Latin America, and the Middle East. The company also plans to launch KAST Business, a new offering targeting enterprise use cases including payroll, payouts, and cross-border corporate spending.\n\nFounded by CEO Raagulan Pathy, KAST has grown rapidly since its launch roughly 18 months ago, reaching more than one million users and approximately $5 billion in annualized transaction volume. The company said its revenue has doubled since the end of September 2025. The platform works by connecting stablecoins — digital tokens pegged to the U.S. dollar — with local payout systems, allowing users to earn, hold, and spend funds across borders through a single interface while reducing the cost and friction typically associated with international money transfers.\n\nThe fundraise arrives at a moment of striking contrast in the stablecoin market. Total stablecoin transaction volume exceeded $35 trillion last year, yet only about 1% of that activity represented real-world payments such as remittances or payroll, according to estimates from McKinsey and Artemis Analytics. That gap between speculative trading volume and everyday commercial use represents the core opportunity KAST is targeting. \"The latest funding reflects the confidence of leading investors in the stablecoin thesis and in KAST's ability to execute it at global scale,\" Pathy said.\n\nQED Investors co-founder Nigel Morris, whose firm has backed fintech companies including Nubank and Credit Karma, called stablecoin technology a potentially transformative force in finance. The investment from QED — a firm known for disciplined bets on payments and lending infrastructure — lends particular credibility to KAST's ambitions in a sector where many startups have struggled to move beyond crypto-native audiences into mainstream commerce. Whether KAST can convert its early traction into durable market share will depend on navigating an increasingly complex regulatory landscape while competing with entrenched remittance providers and a growing field of stablecoin-focused rivals.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "stablecoins",
-        "KAST",
-        "fintech",
-        "cross-border payments",
-        "Series A",
-        "QED Investors"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/636979d4c5c0499dfc9fc9a2d68ab32cd8c4db2c-1920x1080.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/business/2026/03/09/kast-raises-usd80-million-at-usd600-million-valuation-to-expand-stablecoin-payments-platform",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T15:03:46.618Z"
-    },
-    {
-      "id": "ps-1773067656732-w4s6",
-      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
-      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
-      "subheadline": "The reclusive 56-year-old cleric, never tested in public office, inherits a nation reeling from US-Israeli strikes",
-      "body": "Mojtaba Khamenei, a mid-ranking cleric who has never held government office or delivered a public speech, has been selected as Iran's new supreme leader following the killing of his father, Ayatollah Ali Khamenei, in US-Israeli military strikes. The appointment marks the first hereditary transfer of supreme leadership in the 46-year history of the Islamic Republic — a transition that strikes at the ideological foundations of a state built on the rejection of monarchy.\n\nThe 56-year-old was chosen by Iran's Assembly of Experts, the clerical body constitutionally charged with selecting the supreme leader. For more than two decades, Mojtaba had been rumored to wield significant behind-the-scenes power in Tehran. US diplomatic cables published by WikiLeaks described him as \"the power behind the robes\" and a \"capable and forceful\" figure within the regime. He was publicly accused of manipulating both the 2005 and 2009 presidential elections through the Islamic Revolutionary Guard Corps and Basij militia, allegations that fueled mass protests known as the Green Movement.\n\nBorn in Mashhad in 1969, Mojtaba did not begin formal seminary studies in Qom until age 30 — unusually late for an aspiring cleric. He remains a mid-ranking religious scholar, a credential gap that could undermine his legitimacy. In the weeks before his selection, media outlets aligned with Iran's power centers had begun referring to him as \"Ayatollah,\" a senior title he had not formally earned — a pattern that mirrors his father's own rapid clerical promotion upon becoming supreme leader in 1989.\n\nThe new leader inherits a country in acute crisis. Iran is under active military assault, its oil infrastructure has been targeted, and crude prices have surged past $100 per barrel amid the escalating conflict. Mojtaba has also suffered devastating personal losses: his father, mother, and wife were all reportedly killed in the strikes. Analysts widely expect him to maintain or intensify his father's hardline posture toward the West, with some arguing that a leader shaped by such losses will be resistant to diplomatic pressure.\n\nHis tenure begins under an extraordinary threat. Israel's defense minister stated last week that whoever succeeded Ali Khamenei would become \"an unequivocal target for elimination.\" Mojtaba now faces the dual challenge of projecting strength against foreign adversaries while managing deepening domestic discontent over economic devastation and the perception that the Islamic Republic has become a dynasty in all but name.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "Mojtaba Khamenei",
-        "supreme leader",
-        "Middle East",
-        "US-Israel strikes",
-        "succession"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T14:47:36.732Z"
-    },
-    {
       "id": "ps-1773067719295-nf75",
       "slug": "ed-morse-warns-u-s-gas-prices-could-hit-4-amid-iran-crisis",
       "headline": "Ed Morse Warns U.S. Gas Prices Could Hit $4 Amid Iran Crisis",
@@ -172,26 +235,6 @@
       "publishedAt": "2026-03-09T14:48:39.295Z"
     },
     {
-      "id": "ps-1773066772664-3lxb",
-      "slug": "new-method-claims-million-fold-speedup-in-molecular-sampling",
-      "headline": "New Method Claims Million-Fold Speedup in Molecular Sampling",
-      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
-      "body": "A researcher has proposed a novel computational technique that could accelerate the sampling of molecular conformations by more than a million-fold compared to traditional molecular dynamics, potentially transforming how chemists and drug designers explore the behavior of molecules at the atomic scale.\n\nPipi Hu, in a preprint posted to arXiv, introduces a method called Force-Guided Drifting that generates molecular conformations from the Boltzmann distribution — the probability distribution governing how molecules arrange themselves at thermal equilibrium — in a single computational step. Traditional molecular dynamics simulations must painstakingly track a molecule's evolution over millions of tiny time steps to produce statistically valid ensembles, while more recent diffusion-based machine learning methods, though faster, still require many iterative steps and remain too slow for large-scale applications.\n\nThe key theoretical innovation is what Hu terms the \"Drifting Score Identity,\" which establishes a mathematical connection between so-called Drifting Models — a class of one-step generative models — and the Boltzmann distribution that governs molecular physics. The insight is that molecular forces, which are readily computed from established energy models, directly encode the \"score\" of the Boltzmann distribution. By incorporating these force labels into the drifting framework, the method decomposes the generative process into a standard drift component plus a Boltzmann correction term, ensuring that sampled configurations faithfully reflect true equilibrium statistics rather than merely reproducing biases from training data.\n\nA surprising finding emerged from the work: the effectiveness of force incorporation reverses depending on the mathematical representation used. In coordinate space, an approach called Force-Interpolated Drifting performs best by blending physical force directions with data-driven displacements. In distance feature space, a different variant — Force-Aligned Kernel — achieves superior accuracy by adjusting only statistical weights while preserving the manifold of geometrically valid molecular structures. Both methods maintain perfect structural validity of generated molecules.\n\nBenchmarked on the MD17 ethanol dataset, a standard test in the field, both approaches achieved over 1,000-fold speedup relative to recent score-matching methods with Boltzmann guidance, and more than a million-fold acceleration over conventional molecular dynamics — all while matching the distributional accuracy of multi-step generative techniques. If these results generalize to larger, more complex molecular systems, the method could significantly reduce the computational cost of drug discovery, materials design, and protein modeling, where exhaustive conformational sampling remains a persistent bottleneck. The work, currently under peer review, was posted on February 26, 2026.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "Boltzmann distribution",
-        "molecular dynamics",
-        "generative models",
-        "computational chemistry",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1636969350238-a678edbbbb67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05527",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T14:32:52.664Z"
-    },
-    {
       "id": "ps-1773066821365-v4g4",
       "slug": "global-stocks-and-bonds-sell-off-as-oil-surges-past-100-a-ba",
       "headline": "Global Stocks and Bonds Sell Off as Oil Surges Past $100 a Barrel",
@@ -211,28 +254,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-09T14:33:41.365Z"
-    },
-    {
-      "id": "ps-1773065925969-vfjt",
-      "slug": "oil-surges-past-100-as-strait-of-hormuz-disruption-chokes-gl",
-      "headline": "Oil Surges Past $100 as Strait of Hormuz Disruption Chokes Global Supply",
-      "subheadline": "Saudi Arabia and other major Middle East producers cut output as tanker traffic through key shipping lane grinds to a halt",
-      "body": "Crude oil prices broke decisively above $100 per barrel on Sunday as escalating conflict involving Iran brought tanker traffic through the Strait of Hormuz to a standstill, triggering production cuts from Saudi Arabia and other major Middle Eastern exporters.\n\nThe Strait of Hormuz, a narrow waterway between Iran and Oman through which roughly one-fifth of the world's daily oil consumption flows, has effectively become impassable amid the ongoing hostilities. The disruption represents one of the most severe supply shocks to global energy markets in decades, surpassing even the brief price spikes seen during previous Gulf tensions. Saudi Arabia's decision to curtail production — joining other regional producers already forced to scale back — signals that the supply crisis could deepen if the conflict is not quickly contained.\n\nThe price surge carries immediate consequences for consumers and central banks worldwide. Gasoline and diesel prices are expected to climb sharply in the coming days, adding inflationary pressure at a time when many economies remain sensitive to energy costs. For oil-importing nations across Asia and Europe, the disruption threatens to widen trade deficits and slow economic growth. The International Energy Agency and the U.S. Strategic Petroleum Reserve will face mounting pressure to coordinate emergency releases to stabilize markets.\n\nEnergy analysts warn that the duration of the disruption will be the critical variable. A prolonged closure of the Strait of Hormuz — even a partial one — could push prices significantly higher, with some forecasters suggesting $120 or more per barrel is possible if the blockage persists for weeks. Alternative pipeline routes from the Gulf exist but lack the capacity to fully compensate for the lost tanker volumes, which in normal times amount to roughly 17 to 18 million barrels per day.\n\nThe crisis marks a dramatic reversal for oil markets, which had spent much of the past year grappling with concerns about oversupply and tepid demand growth. Attention now turns to diplomatic efforts to de-escalate the conflict and to whether major consuming nations will mount a coordinated strategic reserve response to blunt the impact on the global economy.",
-      "category": "markets",
-      "importance": 10,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "Saudi Arabia",
-        "Iran",
-        "energy markets",
-        "crude oil",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1739223523529-3a103c253c8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxPaWwlMjBTdXJnZXMlMjBQYXN0JTIwU3RyYWl0fGVufDB8MHx8fDE3NzMwMTA5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T14:18:45.969Z"
     },
     {
       "id": "ps-1773063202600-jjgz",
@@ -1048,28 +1069,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/videos/2026-03-08/regional-dynamics-one-week-into-iran-conflict-video",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-08T12:32:52.463Z"
-    },
-    {
-      "id": "ps-1772971324532-grd1",
-      "slug": "trump-publicly-rebukes-starmer-says-us-doesn-t-need-uk-carri",
-      "headline": "Trump Publicly Rebukes Starmer, Says US Doesn't Need UK Carriers",
-      "subheadline": "US president escalates criticism of British PM as transatlantic tensions deepen over Iran military campaign",
-      "body": "President Donald Trump has delivered his sharpest public rebuke yet of British Prime Minister Keir Starmer, declaring the United States does not need the UK's aircraft carriers and accusing Britain of trying to \"join wars after we've already won\" — a striking deterioration in the so-called special relationship as US and Israeli strikes on Iran enter their ninth day.\n\nWriting on Truth Social on Saturday, Trump called the UK \"our once Great Ally, maybe the Greatest of them all\" before dismissing reports that Britain was considering deploying two aircraft carriers to the Middle East. \"That's OK, Prime Minister Starmer, we don't need them any longer — But we will remember,\" Trump wrote. Speaking aboard Air Force One, he added: \"It's not the right time. It would have been nice to have them two weeks ago.\" The remarks follow Trump's earlier comparison of Starmer unfavorably to Winston Churchill and his public displeasure that Britain initially refused to allow US forces to use UK bases for offensive strikes against Iran.\n\nThe dispute traces back to the opening days of the US-Israeli military campaign, when Starmer declined to permit American warplanes to launch from British installations. The prime minister later authorized what Downing Street characterized as \"defensive\" operations from RAF Fairford in Gloucestershire and Diego Garcia in the Indian Ocean, after Iran's retaliatory strikes were judged to pose a direct threat to British personnel and interests. Starmer told Parliament this week that while Trump had expressed disagreement, \"it is my duty to judge what is in Britain's national interest.\" He has also insisted the intelligence-sharing relationship between the two countries remains fully operational on a round-the-clock basis.\n\nBritain's Ministry of Defence confirmed Saturday that HMS Prince of Wales, one of the Royal Navy's two aircraft carriers, has been placed on advanced readiness with its crew told to prepare for departure within five days. HMS Dragon, an air-defense destroyer, is also being dispatched to the Mediterranean after drones targeted RAF Akrotiri in Cyprus. However, officials inside Starmer's government are downplaying the prospect of direct British involvement in the wider offensive campaign. The UK's other carrier, HMS Queen Elizabeth, remains out of service for the foreseeable future.\n\nThe public rift has opened domestic political fissures as well. Conservative leader Kemi Badenoch accused Starmer of being \"too afraid\" to act, declaring at the party's spring conference that \"we are in this war whether Keir Starmer likes it or not.\" Former Prime Minister Tony Blair, speaking at a private event, argued that allies should \"show up\" for the United States regardless of who occupies the White House. Foreign Secretary Yvette Cooper pushed back against Trump's criticism, stating that the UK does not \"agree with Trump on every issue.\" For Starmer, who until recently cited his rapport with Trump as a signature diplomatic achievement, the confrontation marks a painful reversal — and raises difficult questions about Britain's strategic positioning as the Middle East conflict widens.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Trump",
-        "Starmer",
-        "UK-US relations",
-        "Iran strikes",
-        "Middle East",
-        "special relationship",
-        "HMS Prince of Wales"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/abe7/live/8b13fc20-1a73-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c9dn3j04lydo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-08T12:02:04.532Z"
     }
   ]
 }
