@@ -1,91 +1,134 @@
 {
-  "lastUpdated": "2026-03-09T16:18:48.264Z",
+  "lastUpdated": "2026-03-09T16:33:37.674Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773073047928-kx4r",
-      "slug": "bbc-analysis-identifies-us-tomahawk-missile-in-strike-near-i",
-      "headline": "BBC Analysis Identifies US Tomahawk Missile in Strike Near Iranian School",
-      "subheadline": "Video evidence and expert assessments point to a US military operation that killed 168 people, including 110 children",
-      "body": "A verified video showing a US-made Tomahawk cruise missile moments before impact at an Iranian military base adjacent to a primary school has significantly undermined Washington's attempts to deflect responsibility for one of the deadliest incidents in the ongoing conflict, according to analysis published by BBC Verify.\n\nThe footage, originally released by Iran's semi-official Mehr news agency, captures a Tomahawk missile in its terminal flight phase striking an Iranian Revolutionary Guard Corps (IRGC) naval medical clinic approximately 200 meters from the Shajareh Tayebeh primary school in the southern city of Minab. Iranian authorities have reported 168 deaths at the site, including roughly 110 children. Three independent weapons experts confirmed the munition's identity, with a senior analyst at Mackenzie Intelligence Services stating it bore \"all the hallmarks of a US Tomahawk in its terminal phase.\" Neither Israel nor Iran possesses Tomahawk missiles, effectively narrowing attribution to the United States.\n\nThe finding directly contradicts President Donald Trump's claim on Saturday that Iran itself was responsible for the school strike due to the supposed inaccuracy of its own munitions. \"They have no accuracy whatsoever,\" Trump told reporters aboard Air Force One. However, a preliminary US assessment reported by CBS News has already acknowledged the strike was \"likely\" American in origin, though officials maintained the school was not an intentional target. An Israeli government source separately told CBS that Israel's military was not operating near the school.\n\nThe BBC's broader investigation, incorporating satellite imagery and multiple verified videos, indicates the school was struck by a series of hits roughly concurrent with attacks on other buildings in the adjacent IRGC compound. Wes Bryant, a national security analyst and former US Air Force member, told BBC Verify that evidence of multiple strikes across the entire compound \"is indicative of a deliberate and precise\" US operation. Armament Research Services director N.R. Jenzen Jones added that an Iranian missile was an unlikely cause of the school's extensive blast damage given that such weapons carry \"relatively small explosive warheads.\"\n\nCorroborating evidence extends to official US military communications. Gen. Dan Caine, the Pentagon's most senior officer, stated on March 2 that Tomahawks were the first missiles fired by the US Navy at Iran as part of strikes along the country's \"southern flank.\" A Department of Defense map presented on March 4, illustrating operations during the first 100 hours of the conflict, shows the Minab area among targeted zones. An ongoing internet blackout across Iran and restrictions on international journalists continue to hamper independent verification of the full scope of the incident, which occurred on February 28. Neither the US nor Israel has publicly accepted or denied responsibility for the school strike, and the BBC has requested comment from the US government on the latest expert assessments.",
+      "id": "ps-1773073935366-340p",
+      "slug": "video-analysis-links-us-tomahawk-missile-to-strike-near-iran",
+      "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iranian School",
+      "subheadline": "BBC Verify confirms footage showing American cruise missile hitting military base 200 meters from school where 168 people died",
+      "body": "Expert analysis of verified video footage has identified a U.S. Tomahawk cruise missile striking an Iranian Revolutionary Guard Corps base adjacent to a primary school in southern Iran where authorities report 168 people were killed, including approximately 110 children.\n\nThe footage, originally published by Iran's semi-official Mehr news agency and authenticated by BBC Verify, captures a missile in its final moments before impact at the IRGC compound next to the Shajareh Tayebeh primary school in Minab on February 28. Three independent weapons experts, including analysts from Mackenzie Intelligence Services and Armament Research Services, identified the munition as a Tomahawk — a long-range cruise missile exclusive to the U.S. military arsenal, launched from submarines, ships, or aircraft. Neither Israel nor Iran possesses the weapon system, effectively narrowing responsibility.\n\nThe findings directly contradict statements by President Donald Trump, who on Saturday blamed Iran for the school strike, telling reporters aboard Air Force One that Iranian munitions are \"very inaccurate\" and have \"no accuracy whatsoever.\" However, a preliminary U.S. assessment reported by CBS News suggests Washington was \"likely\" responsible for the deadly attack but did not intentionally target the school and may have struck it in error. An Israeli government source separately told CBS that Israel's military was not operating near the school. Neither government has formally accepted or denied responsibility.\n\nThe video evidence reveals large smoke plumes already rising near the school before the Tomahawk visible in the footage detonates at a medical clinic within the IRGC base, approximately 200 meters from the school. This suggests the school had already been hit by earlier strikes — consistent with satellite imagery analysis showing the area sustained multiple impacts. Wes Bryant, a former U.S. Air Force national security analyst, said evidence of multiple strikes across the entire IRGC compound \"is indicative of a deliberate and precise\" American operation. U.S. Joint Chiefs Chairman Gen. Dan Caine confirmed on March 2 that Tomahawks were the first missiles fired at Iran by the Navy as part of \"strikes across the southern flank,\" and a Pentagon map from March 4 showed the Minab area among targeted locations.\n\nAn ongoing internet blackout across Iran and restrictions on international journalists have severely hampered independent verification of the full scope of the incident. Iran has blamed both the United States and Israel for the attack. The BBC has requested comment from the U.S. government on the expert assessment of the new video but has not yet received a response.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "US military",
         "Tomahawk missile",
-        "Minab school strike",
-        "BBC Verify",
         "civilian casualties",
+        "BBC Verify",
+        "Minab",
         "IRGC"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/69d5/live/f15d3960-1bc2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T16:17:27.928Z"
+      "publishedAt": "2026-03-09T16:32:15.366Z"
     },
     {
-      "id": "ps-1773073064062-qy1m",
-      "slug": "new-method-claims-million-fold-speedup-for-molecular-boltzma",
-      "headline": "New Method Claims Million-Fold Speedup for Molecular Boltzmann Sampling",
-      "subheadline": "Force-guided 'Drifting Models' generate molecular conformations in a single step, bypassing slow iterative simulations",
-      "body": "A new computational technique promises to accelerate one of chemistry's most fundamental but time-consuming tasks — sampling molecular shapes from the Boltzmann distribution — by a factor of more than one million compared to traditional molecular dynamics simulations.\n\nThe method, described in a preprint posted to arXiv by researcher Pipi Hu, adapts so-called Drifting Models to molecular conformation generation for the first time. These models can produce molecular structures in a single computational step, avoiding the iterative process that makes conventional diffusion-based methods prohibitively slow. The key theoretical innovation is what Hu terms the \"Drifting Score Identity,\" which mathematically connects the model's generative field to the score function of any target distribution when Gaussian kernels are used. Because molecular forces directly encode the Boltzmann score — the gradient of the probability distribution governing how molecules arrange themselves at thermal equilibrium — the forces can be substituted directly into the framework, yielding what the paper calls the \"Drifting Force Identity.\"\n\nThe approach comes in two variants tailored to different mathematical representations of molecular geometry. In coordinate space, Force-Interpolated Drifting blends physical force directions with data displacements. In distance feature space, a Force-Aligned Kernel method modifies only kernel weights, preserving the manifold of geometrically valid molecules. The paper reports that both variants achieve over 1,000-fold speedup relative to recent score-matching methods that use Boltzmann guiding, and more than a million-fold acceleration over traditional molecular dynamics — all while maintaining what Hu describes as perfect structural validity and distributional accuracy comparable to multi-step methods.\n\nThe benchmarks were conducted on ethanol conformations from the MD17 dataset, a standard testbed in the machine learning for molecular science community. A notable finding is that the effectiveness of force incorporation reverses depending on the representation used — a phenomenon Hu identifies as unique to molecular systems. This suggests that the interplay between physical forces and geometric constraints is more nuanced than previously understood, and that different molecular representations may require fundamentally different strategies for achieving accurate Boltzmann sampling.\n\nIf the claims withstand peer review and generalize beyond small molecules like ethanol to larger, more complex systems, the technique could significantly reshape computational chemistry workflows. Boltzmann sampling underpins drug design, materials discovery, and protein modeling, and the computational cost of generating statistically representative molecular ensembles remains a major bottleneck in these fields. The work builds on growing momentum at the intersection of generative machine learning and physical simulation, where researchers are increasingly finding ways to embed known physics directly into neural network architectures rather than learning it from data alone.",
+      "id": "ps-1773073952045-z3ae",
+      "slug": "new-method-claims-million-fold-speedup-for-molecular-samplin",
+      "headline": "New Method Claims Million-Fold Speedup for Molecular Sampling",
+      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing costly simulations",
+      "body": "A researcher has proposed a technique that could dramatically accelerate one of computational chemistry's most fundamental and time-consuming tasks: sampling the configurations that molecules adopt in thermal equilibrium. The method, described in a preprint posted to arXiv, claims speedups exceeding a millionfold over traditional molecular dynamics simulations while maintaining distributional accuracy.\n\nThe work, authored by Pipi Hu and published under the chemical physics category, introduces \"Drifting Models\" to the problem of molecular conformation generation for the first time. The Boltzmann distribution — the statistical law governing how molecules populate different energy states at a given temperature — underpins virtually all of computational chemistry, from drug design to materials discovery. But sampling from it faithfully has long been a bottleneck. Traditional molecular dynamics simulations must step through enormous numbers of timesteps to adequately explore a molecule's conformational landscape, while more recent diffusion-based generative models, though faster, still require many iterative steps to produce each sample.\n\nThe key theoretical contribution is what Hu calls the \"Drifting Score Identity,\" which establishes that for Gaussian kernels, a drifting model's attraction field is mathematically equivalent to a kernel-weighted average of any distribution's score function. Because molecular forces directly encode the score of the Boltzmann distribution — a deep but underexploited connection — substituting force labels into the framework yields a \"Drifting Force Identity\" that decomposes the generative field into a standard drift term plus an explicit Boltzmann correction. This allows the model to generate physically accurate conformations in a single forward pass rather than through hundreds or thousands of iterative denoising steps.\n\nThe paper reports a surprising finding: the effectiveness of force incorporation reverses depending on how molecular geometry is represented. In Cartesian coordinate space, a method called Force-Interpolated Drifting performs best by blending physical force directions with learned data displacements. In distance-based feature space, however, a Force-Aligned Kernel approach proves superior by adjusting only kernel weights, which preserves the manifold of geometrically valid molecules. Benchmarked on the MD17 ethanol dataset — a standard test system in the field — both variants achieved one-step generation with more than a thousandfold speedup over recent score-matching methods that use Boltzmann guidance, and over a millionfold acceleration compared to conventional molecular dynamics, all while maintaining perfect structural validity.\n\nIf the claims hold up under broader scrutiny and on more complex molecular systems, the approach could have significant implications for drug discovery pipelines and materials science workflows, where Boltzmann sampling of large biomolecules and polymers remains a persistent computational bottleneck. The work has not yet undergone peer review.",
       "category": "physics",
       "importance": 6,
       "tags": [
-        "Boltzmann sampling",
+        "Boltzmann distribution",
         "molecular dynamics",
         "computational chemistry",
         "generative models",
-        "machine learning"
+        "machine learning",
+        "conformation sampling"
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1655891709782-15c1303a2a25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxCb2x0em1hbm4lMjBzYW1wbGluZyUyMG1vbGVjdWxhciUyMGR5bmFtaWNzfGVufDB8MHx8fDE3NzMwNDA2Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1636969350238-a678edbbbb67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "sourceUrl": "https://arxiv.org/abs/2603.05527",
       "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T16:17:44.062Z"
+      "publishedAt": "2026-03-09T16:32:32.045Z"
     },
     {
-      "id": "ps-1773073079871-psds",
+      "id": "ps-1773073969586-hf4t",
       "slug": "new-q-desic-equation-suggests-particles-stray-from-einstein-",
-      "headline": "New 'Q-Desic' Equation Suggests Particles Stray From Einstein's Paths",
-      "subheadline": "TU Wien physicists show quantum corrections to spacetime could produce measurable deviations at cosmic scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at the largest cosmic scales, those trajectories deviate significantly from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the most stubborn problems in fundamental physics: the incompatibility between quantum mechanics and general relativity. Led by Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, the team focused on geodesics — the curved paths that objects follow through spacetime under the influence of gravity. By applying quantum rules to the spacetime metric, which encodes how strongly spacetime is curved, the researchers derived what they call the \"q-desic equation,\" a quantum generalization of the classical geodesic equation. Their key finding: particles moving through a quantum spacetime do not always follow the shortest path between two points as classical relativity demands.\n\nFor ordinary gravitational systems, the deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment. But the picture changes dramatically when the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, is included. At distances around 10²¹ meters — roughly the scale of galaxy clusters and large cosmic structures — the quantum corrections become substantial. Crucially, at intermediate scales such as planetary orbits, the equation reproduces standard general relativity with virtually no difference, preserving its well-tested predictions.\n\nThe implications could extend to some of the most persistent puzzles in cosmology. Koch noted that the large-scale deviations revealed by the q-desic framework might offer new insight into the anomalous rotation speeds of spiral galaxies, a phenomenon typically attributed to dark matter. \"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said, adding that the approach could eventually yield observationally testable predictions — something that has eluded quantum gravity research for decades.\n\nThe study also introduces a potential discriminator between competing theories of quantum gravity, including string theory, loop quantum gravity, and asymptotically safe gravity. Each of these frameworks could, in principle, produce different versions of the q-desic equation, and comparing those predictions against astronomical observations might finally narrow the field. While substantial theoretical and observational work remains, the TU Wien result represents a rare case in quantum gravity research where a concrete, potentially measurable signature has emerged from the mathematics.",
+      "headline": "New 'Q-desic' Equation Suggests Particles Stray From Einstein's Paths",
+      "subheadline": "TU Wien physicists show quantum corrections to spacetime could produce measurable deviations at cosmological scales",
+      "body": "A team of physicists at the Vienna University of Technology (TU Wien) has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at the largest cosmic scales, those trajectories diverge significantly from the paths predicted by Einstein's general relativity.\n\nThe work, published in Physical Review D, tackles one of the most stubborn problems in fundamental physics: reconciling quantum mechanics with general relativity. While multiple candidate theories — string theory, loop quantum gravity, asymptotically safe gravity — have been proposed, physicists have long struggled to identify a concrete, observable signature that could distinguish among them. Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, approached the problem by revisiting one of relativity's foundational concepts: geodesics, the curved paths that objects follow through spacetime warped by massive bodies like stars and galaxies.\n\nThe researchers quantized the spacetime metric — the mathematical object encoding how spacetime curves — for the specific case of a spherically symmetric, static gravitational field, such as that surrounding the Sun. From this quantum metric they derived what they call the \"q-desic equation,\" a quantum generalization of the classical geodesic equation. The key finding: particles traveling through quantum spacetime do not necessarily follow the shortest path between two points, as classical relativity demands. When only ordinary gravity is considered, the deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any experiment's reach. But when the cosmological constant, the term associated with dark energy and the universe's accelerating expansion, is included, the picture changes dramatically. At distances around 10²¹ meters — roughly cosmological scales — the quantum-corrected trajectories depart substantially from their classical counterparts.\n\nCritically, the equation produces virtually no observable difference at intermediate scales, such as Earth's orbit around the Sun, preserving the extraordinary precision of general relativity where it has already been tested. The deviations emerge precisely in the regime where some of cosmology's deepest puzzles persist, including the anomalous rotation speeds of spiral galaxies — a phenomenon typically attributed to dark matter. Koch acknowledged surprise at the magnitude of the large-scale corrections, noting that the team now plans to analyze whether the q-desic framework can offer \"observationally well testable\" predictions for these cosmic phenomena.\n\nThe work does not claim to have identified the correct theory of quantum gravity, but it may provide something the field has desperately needed: a measurable signature against which competing frameworks can be compared. If the predicted deviations at cosmological scales can be matched against astronomical observations, physicists could begin narrowing the field of candidates — turning a decades-old theoretical impasse into an empirical question.",
       "category": "physics",
-      "importance": 8,
+      "importance": 7,
       "tags": [
         "quantum gravity",
         "general relativity",
-        "geodesics",
         "TU Wien",
         "cosmological constant",
-        "dark energy",
-        "spacetime"
+        "geodesics",
+        "dark energy"
       ],
       "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
       "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
       "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T16:17:59.871Z"
+      "publishedAt": "2026-03-09T16:32:49.586Z"
     },
     {
-      "id": "ps-1773073097288-a35x",
-      "slug": "salt-typhoon-has-breached-over-200-organizations-across-six-",
-      "headline": "Salt Typhoon Has Breached Over 200 Organizations Across Six Continents",
-      "subheadline": "China-linked hacking group has compromised major telecoms, government networks, and critical infrastructure in a campaign the FBI calls unprecedented",
-      "body": "A Chinese state-linked hacking group known as Salt Typhoon has compromised at least 200 organizations worldwide, penetrating the networks of some of the largest telecommunications companies on the planet and stealing tens of millions of phone records belonging to senior government officials, according to FBI officials and multiple cybersecurity firms tracking the campaign.\n\nThe scope of the intrusions, which span the United States, Canada, the United Kingdom, Australia, New Zealand, and dozens of other nations, represents one of the most extensive cyber-espionage operations in recent memory. In the U.S. alone, confirmed victims include AT&T, Verizon, Lumen (formerly CenturyLink), Charter Communications, Windstream, Consolidated Communications, and satellite provider Viasat. T-Mobile acknowledged it was targeted but said hackers did not access customer communications. Perhaps most alarmingly, the attackers breached a U.S. state National Guard network, reportedly gaining pathways into networks across every other state and several territories.\n\nSalt Typhoon's primary method of entry has been exploiting Cisco routers positioned at the perimeter of corporate networks. Once inside, the hackers have seized control of lawful intercept systems — surveillance infrastructure that U.S. telecom companies are legally required to maintain for law enforcement wiretapping. That access gave Chinese operatives the ability to harvest call records, text messages, and even captured audio from phone conversations of senior American officials deemed intelligence targets. The revelations prompted the FBI to take the extraordinary step of urging all Americans to adopt end-to-end encrypted messaging applications.\n\nThe campaign extends far beyond American borders. Canada confirmed its top telecom firms were breached. The United Kingdom acknowledged a \"cluster of activity\" linked to Salt Typhoon, with reports suggesting senior government officials' communications were intercepted. Norway, the Netherlands, Italy, Finland, and Poland have all reported incidents. In the Asia-Pacific region, targets include telecom providers in Myanmar, South Africa, and Japan, along with university networks in Bangladesh, Indonesia, Malaysia, and Thailand. Security firm Trend Micro identified at least 20 compromised organizations spanning telecoms, government agencies, chemical firms, and nonprofits in countries including India, Taiwan, Afghanistan, and the Philippines.\n\nResearchers say Salt Typhoon is part of a broader constellation of Chinese hacking units — alongside Volt Typhoon, which focuses on prepositioning for destructive cyberattacks on critical infrastructure, and Flax Typhoon, which operates botnets of hijacked devices. Together, these groups are believed to be preparing China's cyber capabilities for a potential conflict over Taiwan, which U.S. officials have described as an \"epoch-defining threat.\" The sheer geographic breadth of Salt Typhoon's operations suggests Beijing's intelligence apparatus is building a global surveillance capability that rivals — and in some cases subverts — those of Western governments themselves.",
+      "id": "ps-1773073986895-2ksa",
+      "slug": "salt-typhoon-has-breached-200-organizations-across-six-conti",
+      "headline": "Salt Typhoon Has Breached 200+ Organizations Across Six Continents",
+      "subheadline": "China-linked hacking group has compromised major telecom firms, universities, and government networks in a sweeping espionage campaign",
+      "body": "A China-linked hacking group known as Salt Typhoon has penetrated at least 200 organizations worldwide, including some of the largest telecommunications companies on the planet, in what U.S. officials describe as one of the most extensive cyber-espionage campaigns in recent history.\n\nThe group's victims span six continents and include American telecom giants AT&T, Verizon, and Lumen (formerly CenturyLink), as well as satellite communications firm Viasat and internet providers Charter Communications and Windstream. T-Mobile acknowledged it was targeted but said hackers did not access customer communications. Beyond the private sector, Salt Typhoon reportedly compromised a U.S. state National Guard network, using it as a springboard to reach networks in every other state and several territories. The breach enabled Chinese operatives to harvest call records, text messages, and audio from senior U.S. government officials — a revelation so alarming that the FBI took the unusual step of urging Americans to adopt end-to-end encrypted messaging apps.\n\nThe campaign extends well beyond U.S. borders. Canada confirmed that its top telecom firms were hacked, with Cisco routers at one major provider compromised for data exfiltration. Ottawa warned the targeting reached beyond telecommunications into other sectors. Security firms Recorded Future and Trend Micro have identified Salt Typhoon activity in Brazil, Argentina, Mexico, Myanmar, South Africa, Bangladesh, Indonesia, Malaysia, Thailand, India, Taiwan, the Philippines, and Afghanistan, among others. In the Asia-Pacific region, both Australia and New Zealand confirmed intrusions into their telecom and critical infrastructure sectors, with New Zealand reporting activity across government, transportation, lodging, and military networks. Japan has issued its own warnings about the threat.\n\nIn Europe, the United Kingdom acknowledged a \"cluster of activity\" from Salt Typhoon, with reports suggesting senior government staff may have had their communications intercepted. Norway confirmed multiple organizations were breached, while the Netherlands said smaller internet providers had routers compromised. Italy and Finland have also been affected, according to Recorded Future and Czech cybersecurity officials respectively.\n\nSalt Typhoon's primary method of entry has been exploiting Cisco routers at the perimeter of corporate networks, then seizing control of legally mandated surveillance infrastructure that U.S. telecom companies maintain for law enforcement wiretapping. Researchers say the group is part of a broader constellation of Chinese cyber units — alongside Volt Typhoon, which prepares destructive attacks on critical infrastructure, and Flax Typhoon, which operates botnets to mask malicious traffic — all oriented toward what U.S. officials have characterized as preparation for a potential conflict over Taiwan. Trend Micro has identified at least 20 compromised organizations across the telecom, consulting, chemical, and transportation industries, as well as government agencies and nonprofits, underscoring the campaign's breadth far beyond traditional intelligence targets.",
       "category": "tech",
       "importance": 9,
       "tags": [
         "Salt Typhoon",
         "cybersecurity",
         "China",
-        "telecom hacking",
+        "telecommunications",
         "espionage",
-        "critical infrastructure"
+        "hacking"
       ],
       "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-591881449.jpg?resize=1200,799",
       "sourceUrl": "https://techcrunch.com/2026/03/09/salt-typhoon-china-who-has-been-hacked-global-telecom-giants/",
       "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T16:18:17.288Z"
+      "publishedAt": "2026-03-09T16:33:06.895Z"
+    },
+    {
+      "id": "ps-1773074002264-jups",
+      "slug": "oil-retreats-below-100-as-g7-weighs-coordinated-stockpile-re",
+      "headline": "Oil Retreats Below $100 as G7 Weighs Coordinated Stockpile Release",
+      "subheadline": "Major economies consider tapping emergency reserves as Strait of Hormuz disruption chokes global crude supply lines",
+      "body": "Crude oil prices pulled back below the $100-per-barrel threshold on March 8 after the Group of Seven nations signaled they are weighing a coordinated release of strategic petroleum reserves, a move aimed at easing a supply crisis triggered by the effective shutdown of tanker traffic through the Strait of Hormuz.\n\nThe benchmark had surged past the psychologically significant $100 mark as the blockage of one of the world's most critical oil chokepoints — through which roughly a fifth of global petroleum consumption typically flows — sent shockwaves through energy markets. The Strait of Hormuz, a narrow waterway between Iran and Oman connecting the Persian Gulf to the open ocean, is the transit route for crude shipments from Saudi Arabia, Iraq, the United Arab Emirates, Kuwait, and Qatar. A standstill in tanker traffic through the passage represents one of the most severe supply disruptions the market has faced in years.\n\nThe prospect of a synchronized stockpile drawdown by G7 members — the United States, Japan, Germany, the United Kingdom, France, Italy, and Canada — helped temper the price spike, though markets remain on edge. Previous coordinated releases, such as the one orchestrated in 2022 when the U.S. alone authorized the sale of 180 million barrels from the Strategic Petroleum Reserve, have shown mixed results in durably lowering prices. Analysts note that the effectiveness of any release depends heavily on its scale and on how quickly physical flows through the strait can resume.\n\nThe disruption underscores the fragility of global energy infrastructure and the outsized influence that a single maritime corridor can exert on commodity markets worldwide. Refiners in Asia, which depend heavily on Gulf crude, are among the most exposed. Higher sustained prices would ripple through transportation, manufacturing, and consumer goods, adding to inflationary pressures that central banks in major economies have been working to contain.\n\nTraders and energy strategists are now watching for concrete details on the size and timing of any G7 reserve release, as well as for signals on when normal shipping operations through the strait might resume. Until both questions are resolved, volatility in crude markets is expected to remain elevated.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Strait of Hormuz",
+        "G7",
+        "strategic petroleum reserve",
+        "energy markets",
+        "crude oil"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1758129949419-c296cead04c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxPaWwlMjBSZXRyZWF0cyUyMEJlbG93JTIwV2VpZ2hzJTIwQ29vcmRpbmF0ZWQlMjBTdG9ja3BpbGUlMjBSZWxlYXNlfGVufDB8MHx8fDE3NzMwNzIyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T16:33:22.264Z"
+    },
+    {
+      "id": "ps-1773074017592-ukg6",
+      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreats-from-120-sp",
+      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreats From $120 Spike",
+      "subheadline": "Crypto markets show resilience amid Middle East conflict fears, with analysts pointing to digital assets as defensive plays",
+      "body": "Bitcoin surged back to nearly $69,000 on Monday after briefly dipping below $65,500 overnight, as a dramatic reversal in crude oil prices eased panic across global risk assets. The recovery marked a 5% bounce from the session's worst levels, with the broader crypto market following suit.\n\nThe volatility was triggered by a sharp spike in West Texas Intermediate crude oil, which soared nearly 30% to $120 per barrel overnight amid escalating concerns about the ongoing war in Iran. But oil prices retreated sharply during U.S. trading hours, falling back to roughly $95 per barrel — a gain of just 5% on the day. The pullback allowed equity markets to recover as well, with the Nasdaq erasing a 2% deficit to trade roughly flat by midday.\n\nEther reclaimed the $2,000 level with a 4% gain over 24 hours, while among crypto-linked equities, stablecoin issuer Circle led the pack with an 8% jump. The catalyst was news that Aon, the global insurance giant, had made its first-ever insurance premium payment using stablecoins, including Circle's USDC — a milestone for institutional adoption of digital dollar assets. Strategy, formerly MicroStrategy, added 3% following its disclosure of a $1.28 billion bitcoin purchase last week.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation, noting that a sustained push above $70,000 would be a key bullish signal. Morrison suggested digital assets may be attracting \"defensive capital from investors seeking alternatives to oil-sensitive assets\" as Middle East supply chain disruptions threaten traditional markets.\n\nThe broader macro picture may also favor bitcoin over a longer horizon. Macro strategist Mark Connors argued that a prolonged U.S.-Iran conflict could ultimately boost the cryptocurrency, as war-driven deficit spending expands liquidity, weakens the dollar, and forces the Federal Reserve to keep Treasury markets functioning — conditions that have historically supported bitcoin prices. Ram Ahluwalia, CEO of Lumida Wealth, offered a more cautious near-term equity outlook, predicting a tactical bounce this week but warning the S&P 500 would struggle to reclaim record highs \"anytime soon.\" For now, bitcoin's ability to hold above $65,000 during peak panic — and recover swiftly — has reinforced its narrative as a portfolio diversifier in times of geopolitical stress.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "crude oil",
+        "crypto markets",
+        "Iran conflict",
+        "Circle",
+        "stablecoins",
+        "market volatility"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T16:33:37.592Z"
     },
     {
       "id": "ps-1773073113692-yget",
@@ -109,28 +152,6 @@
       "publishedAt": "2026-03-09T16:18:33.692Z"
     },
     {
-      "id": "ps-1773073128157-9j5r",
-      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreat-eases-market",
-      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreat Eases Market Panic",
-      "subheadline": "Crypto assets recover from sharp overnight losses as WTI crude pulls back from $120 to $95 per barrel amid Middle East conflict",
-      "body": "Bitcoin staged a sharp recovery on Monday, climbing back to nearly $69,000 after plunging to $65,000 overnight, as a dramatic reversal in crude oil prices relieved pressure on risk assets across global markets.\n\nThe cryptocurrency rose roughly 5% from its worst levels of the session, trading at approximately $68,800 at midday in New York. Ether reclaimed the $2,000 mark with a 4% gain over 24 hours, while the broader crypto market posted gains across the board. The rebound came as West Texas Intermediate crude oil, which had surged nearly 30% to $120 per barrel overnight on fears surrounding the ongoing war in Iran, retreated sharply to $95 — trimming its gain to just 5% on the session. The Nasdaq, which had opened down 2%, swung back to flat as the oil pullback eased stagflation fears.\n\nAmong crypto-related equities, stablecoin issuer Circle led the charge with an 8% jump after global insurance giant Aon disclosed it had paid insurance premiums in stablecoins — including Circle's USDC — for the first time. Michael Saylor's Strategy rose 3% following its announcement of a $1.28 billion bitcoin acquisition last week. Coinbase was modestly lower.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation, noting that a sustained push above $70,000 would be a key bullish signal. Morrison suggested digital assets may be attracting \"defensive capital from investors seeking alternatives to oil-sensitive assets\" as Middle East disruptions threaten global supply chains.\n\nThe session highlighted an emerging narrative around bitcoin's potential role as a hedge during prolonged geopolitical conflict. Macro strategist Mark Connors argued that a drawn-out U.S.-Iran confrontation could ultimately benefit bitcoin, as war-driven deficit spending expands liquidity, weakens the dollar, and forces the Federal Reserve to maintain accommodative conditions to keep Treasury markets functioning. Still, not all analysts were bullish on the broader outlook. Ram Ahluwalia, CEO of wealth management platform Lumida Wealth, predicted a near-term tactical bounce for equities but cautioned that the S&P 500 would struggle to reclaim record highs \"anytime soon\" as geopolitical uncertainty persists.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "crude oil",
-        "Middle East conflict",
-        "crypto markets",
-        "Circle",
-        "stablecoins",
-        "risk assets"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T16:18:48.157Z"
-    },
-    {
       "id": "ps-1773072156431-slzl",
       "slug": "new-ultrasonic-microfluidic-tool-delivers-molecules-into-cel",
       "headline": "New Ultrasonic Microfluidic Tool Delivers Molecules Into Cells Without Chemicals",
@@ -150,27 +171,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.05536",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-09T16:02:36.431Z"
-    },
-    {
-      "id": "ps-1773072206622-x19l",
-      "slug": "oil-retreats-below-100-as-g7-weighs-coordinated-stockpile-re",
-      "headline": "Oil Retreats Below $100 as G7 Weighs Coordinated Stockpile Release",
-      "subheadline": "Major economies signal willingness to tap emergency reserves amid Strait of Hormuz shipping disruption",
-      "body": "Crude oil prices pulled back below the $100-per-barrel threshold on Sunday after the Group of Seven nations signaled they are actively considering a coordinated release of strategic petroleum reserves to calm markets roiled by a standstill in tanker traffic through the Strait of Hormuz.\n\nThe brief surge past $100 — a psychologically significant level that oil had not breached in years — was triggered by a near-total disruption of shipping through the narrow waterway that connects the Persian Gulf to the open ocean. Roughly one-fifth of the world's daily oil consumption passes through the Strait of Hormuz, making any interruption there an immediate threat to global energy supply chains. The halt in tanker traffic has effectively choked off crude shipments from several of the world's largest producers, including Saudi Arabia, Iraq, and the United Arab Emirates, sending prices sharply higher before the G7 announcement tempered the rally.\n\nThe prospect of a synchronized drawdown from emergency stockpiles — reserves that the United States, Japan, Germany, and other major economies maintain precisely for supply crises of this magnitude — provided enough reassurance to traders to push prices modestly lower. The U.S. Strategic Petroleum Reserve, the world's largest government-controlled stockpile, currently holds hundreds of millions of barrels and has been tapped in previous geopolitical emergencies, most recently during supply disruptions related to the Russia-Ukraine conflict.\n\nAnalysts cautioned that a stockpile release, while effective at moderating short-term price spikes, does not address the underlying cause of the disruption. If the Strait of Hormuz remains closed for an extended period, even a substantial coordinated release could be overwhelmed by the sheer volume of supply taken offline. Energy economists estimate that a prolonged closure could remove approximately 17 to 20 million barrels per day from the global market, a deficit no combination of reserves could sustainably cover.\n\nThe situation remains highly fluid, with diplomatic efforts reportedly underway to restore safe passage through the strait. Oil markets are expected to open Monday under significant volatility, with traders closely watching both the physical shipping situation and any formal G7 announcement on reserve releases. The episode underscores the fragility of global energy infrastructure and the outsized influence that a single maritime chokepoint continues to exert on the world economy.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Strait of Hormuz",
-        "G7",
-        "strategic petroleum reserve",
-        "energy markets",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1682677337002-c7f6e1cc201e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxPaWwlMjBSZXRyZWF0cyUyMEJlbG93JTIwV2VpZ2hzJTIwQ29vcmRpbmF0ZWQlMjBTdG9ja3BpbGUlMjBSZWxlYXNlfGVufDB8MHx8fDE3NzMwNzIyMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T16:03:26.622Z"
     },
     {
       "id": "ps-1773072221504-ijz9",
