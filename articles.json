@@ -1,28 +1,134 @@
 {
-  "lastUpdated": "2026-03-09T19:33:31.476Z",
+  "lastUpdated": "2026-03-09T19:48:31.616Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773084730645-47y4",
+      "id": "ps-1773085628711-6p95",
       "slug": "video-analysis-links-us-tomahawk-missile-to-strike-near-iran",
-      "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iranian School",
-      "subheadline": "BBC Verify and weapons experts identify cruise missile in footage, contradicting Trump's claim that Iran was responsible for 168 deaths",
-      "body": "Video analysis by BBC Verify and multiple weapons experts has identified a US Tomahawk cruise missile striking a military base adjacent to a primary school in southern Iran where authorities say 168 people — including approximately 110 children — were killed on February 28.\n\nThe footage, published by Iran's semi-official Mehr news agency and authenticated by BBC investigators, captures a missile moments before impact at an Iranian Revolutionary Guard Corps (IRGC) base next to the Shajareh Tayebeh primary school in the city of Minab. Three independent weapons experts, including a senior analyst at Mackenzie Intelligence Services and former US Air Force national security analyst Wes Bryant, confirmed the munition displayed \"all the hallmarks of a US Tomahawk in its terminal phase.\" Neither Israel nor Iran possesses Tomahawk missiles, the experts noted, pointing squarely at a US operation.\n\nThe finding directly contradicts President Donald Trump's assertion on Saturday that Iran itself was to blame for the school strike. \"We think it was done by Iran because they're very inaccurate, as you know, with their munitions,\" Trump told reporters aboard Air Force One. However, a preliminary US assessment reported by CBS News acknowledged that the United States was \"likely\" responsible for the deadly attack but did not intentionally target the school and may have struck it in error. An Israeli government source separately told CBS that Israel was not operating near the school.\n\nThe video evidence reveals large smoke plumes already rising near the school before the identified Tomahawk detonates at an IRGC naval medical clinic roughly 200 meters away, suggesting the school had already been hit by earlier ordnance. Bryant told BBC Verify that evidence of multiple strikes across the entire IRGC compound \"is indicative of a deliberate and precise\" US military operation. This assessment aligns with statements from Gen. Dan Caine, the US military's most senior officer, who confirmed on March 2 that Tomahawks were the first missiles fired at Iran by the US Navy as part of \"strikes across the southern flank.\" A Pentagon map released March 4 showing strikes during the first 100 hours of conflict confirms the Minab area was targeted.\n\nNeither the United States nor Israel has publicly accepted or denied responsibility for the school deaths. An ongoing internet blackout across Iran and severe restrictions on international journalists have made independent verification of the full scale of the incident extremely difficult. The strike has intensified international scrutiny of US targeting protocols and the civilian toll of the military campaign, with the G7 now weighing broader measures related to the conflict's escalation.",
+      "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iran School",
+      "subheadline": "BBC Verify and weapons experts identify cruise missile in footage from site where 168 people, including 110 children, reportedly died",
+      "body": "Video analysis by BBC Verify and multiple weapons experts has identified a U.S. Tomahawk cruise missile moments before it struck a military base adjacent to a primary school in southern Iran, undermining the Trump administration's claim that Iran itself was responsible for the deadly incident.\n\nThe footage, published by Iran's semi-official Mehr news agency and authenticated by BBC Verify, captures the missile in its final moments before impact on an Iranian Revolutionary Guard Corps (IRGC) base next to the Shajareh Tayebeh primary school in Minab. Iranian authorities say 168 people were killed in the Feb. 28 strike, including approximately 110 children. Three independent experts confirmed the munition was a Tomahawk — a long-range cruise missile launched from ships, submarines, or aircraft that has been a mainstay of the U.S. arsenal for decades. Neither Israel nor Iran is known to possess the weapon.\n\nA senior analyst at Mackenzie Intelligence Services said the munition bore \"all the hallmarks of a US Tomahawk in its terminal phase,\" while Wes Bryant, a national security analyst and former U.S. Air Force member, said evidence of multiple strikes on the IRGC compound was \"indicative of a deliberate and precise\" American operation. The missile visible in the video appears to have struck a medical clinic belonging to the IRGC navy approximately 200 meters from the school. Smoke plumes near the school were already visible before the Tomahawk detonated, suggesting the school had been hit moments earlier during what satellite imagery confirms was a series of strikes on the compound.\n\nPresident Donald Trump told reporters aboard Air Force One on Saturday that Iran was to blame, asserting that Iranian munitions are \"very inaccurate.\" However, a preliminary U.S. assessment reported by CBS News suggests the U.S. military was \"likely\" responsible and may have hit the school in error rather than deliberately targeting it. An Israeli government source told CBS that Israel was not behind the attack and its forces were not operating near the school. Neither the United States nor Israel has formally accepted or denied responsibility.\n\nThe findings carry significant implications for accountability and international law. Gen. Dan Caine, the most senior U.S. military officer, stated on March 2 that Tomahawks were the first missiles fired at Iran by the U.S. Navy as part of \"strikes across the southern flank,\" and a Pentagon map from a March 4 briefing showed the Minab area among targeted locations. An ongoing internet blackout in Iran and restrictions on international journalists have made independent verification of casualty figures and ground conditions extremely difficult, but the convergence of satellite imagery, verified video, and expert weapons analysis presents an increasingly detailed — and troubling — picture of what happened that day.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "US military",
         "Tomahawk missile",
-        "civilian casualties",
+        "school strike",
         "BBC Verify",
-        "IRGC",
-        "Trump"
+        "civilian casualties",
+        "IRGC"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/69d5/live/f15d3960-1bc2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T19:32:10.645Z"
+      "publishedAt": "2026-03-09T19:47:08.711Z"
+    },
+    {
+      "id": "ps-1773085644695-iofa",
+      "slug": "new-method-claims-million-fold-speedup-in-molecular-boltzman",
+      "headline": "New Method Claims Million-Fold Speedup in Molecular Boltzmann Sampling",
+      "subheadline": "Force-guided 'drifting models' generate molecular conformations in a single step, bypassing slow iterative simulations",
+      "body": "A new computational technique promises to dramatically accelerate one of the most fundamental — and time-consuming — tasks in computational chemistry: sampling molecular configurations from the Boltzmann distribution. Published on the arXiv preprint server, the method claims speedups exceeding a millionfold over traditional molecular dynamics simulations while maintaining distributional accuracy comparable to far more expensive multi-step approaches.\n\nResearcher Pipi Hu introduces what are called \"drifting models\" to the domain of molecular conformation generation for the first time. The core innovation hinges on a mathematical result dubbed the Drifting Score Identity, which shows that for Gaussian kernels, the drifting field's attraction term is equivalent to a kernel-weighted average of a distribution's score function. By substituting molecular force labels — which directly encode the gradient of the Boltzmann distribution — the method decomposes the generative model's field into a standard drift component plus an explicit Boltzmann correction term. This theoretical bridge allows single-step generation of molecular conformations that faithfully reflect equilibrium thermodynamics, sidestepping the iterative denoising steps required by diffusion-based methods.\n\nThe paper reveals an unexpected finding: the effectiveness of incorporating physical forces reverses depending on the mathematical representation used. In Cartesian coordinate space, a technique called Force-Interpolated Drifting dominates by blending physical force directions with data displacements. In distance feature space, however, a different variant — Force-Aligned Kernel — achieves better accuracy by modifying only kernel weights, which preserves the manifold of geometrically valid molecular structures. This representation-dependent reversal highlights the subtle interplay between physics-based priors and the geometry of molecular configuration spaces.\n\nBenchmarked on the MD17 ethanol dataset, a widely used testbed in machine learning for molecular science, both approaches achieved one-step conformation generation with over 1,000-fold speedup relative to recent score-matching methods that employ Boltzmann guidance, and more than a million-fold acceleration compared to conventional molecular dynamics. Critically, the generated structures maintained perfect structural validity — every output corresponded to a chemically reasonable molecule — while matching the distributional accuracy of iterative methods that require many sequential sampling steps.\n\nIf the results hold under broader scrutiny and generalize to larger, more complex molecular systems, the approach could significantly impact drug discovery, materials design, and protein modeling, where sampling Boltzmann-distributed conformations is a persistent computational bottleneck. The work remains a preprint and has not yet undergone formal peer review.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "Boltzmann distribution",
+        "molecular dynamics",
+        "generative models",
+        "computational chemistry",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1657492995523-18bf689b9a97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8Qm9sdHptYW5uJTIwZGlzdHJpYnV0aW9uJTIwbW9sZWN1bGFyJTIwZHluYW1pY3N8ZW58MHwwfHx8MTc3MzAzODg0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05527",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T19:47:24.695Z"
+    },
+    {
+      "id": "ps-1773085662270-flbb",
+      "slug": "new-q-desic-equation-suggests-particles-deviate-from-einstei",
+      "headline": "New 'Q-desic' Equation Suggests Particles Deviate from Einstein's Predicted Paths",
+      "subheadline": "TU Wien physicists show quantum corrections to spacetime could produce measurable effects at cosmic scales, offering a potential test for quantum gravity",
+      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when quantum effects are taken into account — and the results suggest that at cosmological distances, those trajectories diverge significantly from what Einstein's general relativity predicts. The finding, published in Physical Review D, could offer the long-sought experimental foothold needed to distinguish between rival theories of quantum gravity.\n\nThe work, led by Benjamin Koch of TU Wien's Institute for Theoretical Physics along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, centers on geodesics — the curves that describe the shortest paths objects follow through curved spacetime. In classical general relativity, a planet orbiting a star or an apple falling through space traces a geodesic determined by the curvature of spacetime around massive bodies. The TU Wien team asked a deceptively simple question: what happens to those paths when the spacetime metric itself — the mathematical object encoding curvature — is treated as a quantum quantity subject to uncertainty?\n\nThe answer required overcoming formidable mathematical obstacles. The researchers managed to quantize the metric for a specific but physically important case: a spherically symmetric, time-independent gravitational field, such as that surrounding the Sun. From this, they derived what they call the \"q-desic equation,\" a quantum-corrected version of the classical geodesic equation. Crucially, they showed that one cannot simply substitute the metric operator with its expectation value — a subtlety that, when handled rigorously, reveals genuine deviations from classical paths.\n\nFor ordinary gravitational fields, these deviations are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable measurement. But when the cosmological constant, the term associated with dark energy and the accelerating expansion of the universe, is incorporated into the equation, the picture changes dramatically. At distances of roughly 10²¹ meters and beyond — cosmic scales where some of general relativity's deepest puzzles persist — the quantum-corrected trajectories diverge markedly from classical predictions. At intermediate scales, such as Earth's orbit around the Sun, the differences are effectively zero.\n\nKoch likened the search for quantum gravity to the Cinderella fairy tale: multiple candidate theories exist, including string theory, loop quantum gravity, and asymptotically safe gravity, but physicists have lacked a measurable observable — a \"glass slipper\" — to determine which one matches reality. The q-desic framework could provide exactly that. Koch noted that the large-scale deviations give hope for \"observationally well testable\" insights into unresolved cosmic phenomena, including the anomalous rotation speeds of spiral galaxies, a mystery traditionally attributed to dark matter. Whether the slipper fits any existing theory remains to be seen, but for the first time, there may be a concrete way to check.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "TU Wien",
+        "cosmological constant",
+        "geodesics",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T19:47:42.270Z"
+    },
+    {
+      "id": "ps-1773085678810-9qkf",
+      "slug": "bluesky-ceo-jay-graber-steps-down-shifts-to-innovation-role",
+      "headline": "Bluesky CEO Jay Graber Steps Down, Shifts to Innovation Role",
+      "subheadline": "Former Automattic CEO Toni Schneider takes interim helm as the decentralized social network seeks a permanent leader",
+      "body": "Jay Graber, the founding chief executive who steered Bluesky from a small experimental project into a 43-million-user social network, is stepping aside. The company announced Monday that Graber will transition to a newly created chief innovation officer role, handing day-to-day leadership to interim CEO Toni Schneider while the board conducts a search for a permanent replacement.\n\nSchneider brings a resume tailor-made for Bluesky's current crossroads. As the former CEO of Automattic — the company that turned the open-source WordPress project into a commercial juggernaut through WordPress.com — he has direct experience monetizing open protocols without alienating developer communities. He is also a partner at True Ventures, which, along with Automattic, is an investor in Bluesky. Schneider will continue his role at True Ventures during the transition.\n\nGraber framed the move as a recognition that Bluesky has outgrown its startup phase. \"As a more mature company, Bluesky needs a seasoned operator focused on scaling and execution,\" she wrote in a blog post, adding that she is \"most energized by exploring new ideas\" and building technology — a disposition better suited to her new role overseeing the AT Protocol that underpins the platform. Under her leadership, Bluesky surged in popularity each time Elon Musk's stewardship of X alienated portions of its user base, though the platform also drew criticism for its relatively hands-off approach to content moderation.\n\nThe leadership change comes as Bluesky confronts an increasingly complex regulatory landscape. A wave of state-level age-assurance laws has forced the company into difficult compliance decisions: it blocked access entirely in Mississippi rather than implement one state's requirements, while rolling out age-verification systems to satisfy legislation in Ohio, South Dakota, and Wyoming. For a founder whose passion lies in protocol design, such regulatory battles represent a growing distraction from the technical work that originally defined the company.\n\nSchneider struck an optimistic tone in his own announcement, highlighting an ecosystem of more than 500 active third-party applications built on the AT Protocol. He signaled that his immediate priority would be enabling outside developers to build on the network — a strategy that echoes the open-platform playbook he executed at Automattic. \"Bluesky has cracked a case that stumped the industry for years,\" he wrote, describing the balance between open-network principles and the polished experience users demand from modern social platforms. Whether the company can convert that architectural achievement into a sustainable business will be the central test of its next chapter.",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Bluesky",
+        "Jay Graber",
+        "Toni Schneider",
+        "social media",
+        "decentralized social",
+        "AT Protocol",
+        "leadership change"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/02/bluesky-2024.jpg?resize=1200,675",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/bluesky-ceo-jay-graber-steps-down/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T19:47:58.810Z"
+    },
+    {
+      "id": "ps-1773085695125-sf1m",
+      "slug": "s-p-500-stages-sharp-reversal-erasing-1-5-drop-on-iran-war-s",
+      "headline": "S&P 500 Stages Sharp Reversal, Erasing 1.5% Drop on Iran War Signals",
+      "subheadline": "Wall Street rallied after Trump remarks suggested the 10-day-old conflict with Iran may be approaching its end",
+      "body": "U.S. stocks mounted a dramatic intraday reversal on Monday, with the S&P 500 clawing back a 1.5% decline after remarks from President Donald Trump signaled that the military conflict with Iran could be nearing a conclusion. Bonds also recovered alongside equities as investors recalibrated their expectations for the trajectory of the now 10-day-old war.\n\nThe session had opened sharply lower, with oil prices topping $100 per barrel and risk assets under broad pressure as the ongoing hostilities weighed on sentiment. But the mood shifted decisively after Trump's comments reached trading desks, prompting a swift rotation back into stocks and out of safe-haven assets. The reversal underscored how acutely markets are tracking every diplomatic and military development for signs that the conflict may be contained.\n\nThe war with Iran, which began roughly ten days ago, has injected extraordinary volatility into global markets, disrupting energy supply expectations and forcing investors to price in geopolitical risk premiums not seen in years. Oil's breach of the $100 threshold earlier in the session served as a stark reminder of the conflict's economic stakes, with energy costs rippling through inflation expectations and complicating the Federal Reserve's policy outlook.\n\nThe speed of Monday's turnaround — from deep losses to a full recovery within a single trading day — reflects a market that remains fundamentally positioned for a resolution rather than an extended conflict. Traders appear willing to aggressively buy dips on any indication that hostilities could wind down, even as the situation on the ground remains fluid and uncertain.\n\nStill, analysts cautioned that the rally may prove fragile if concrete steps toward a ceasefire fail to materialize in the coming days. With oil still elevated and geopolitical uncertainty far from resolved, the risk of further sharp swings in both directions remains high. For now, Wall Street is betting that the worst-case scenario — a prolonged and escalating war — can still be avoided.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "S&P 500",
+        "Iran war",
+        "oil prices",
+        "market volatility",
+        "Trump",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1627862931460-1560a4896cba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8bWFya2V0c3xlbnwwfDB8fHwxNzczMDg1Njk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T19:48:15.125Z"
+    },
+    {
+      "id": "ps-1773085711521-rf0w",
+      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreats-from-120-sp",
+      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreats From $120 Spike",
+      "subheadline": "Crypto and equities recover from sharp overnight selloff as Middle East oil shock fades during U.S. trading hours",
+      "body": "Bitcoin clawed back to nearly $69,000 on Monday after plunging below $65,000 overnight, as a dramatic reversal in crude oil prices relieved pressure across global risk assets. The recovery came as WTI crude, which had surged as much as 30% to $120 per barrel on fears surrounding the ongoing U.S.-Iran conflict, retreated sharply to $95 — trimming its gain to roughly 5% on the session.\n\nThe pullback in oil prices triggered a broad relief rally. The Nasdaq, which had opened down 2%, swung back to flat, while bitcoin gained approximately 5% from its worst levels. Ether reclaimed the $2,000 mark, rising 4% over 24 hours, and the broader crypto market traded higher across the board during U.S. hours. Among crypto-linked equities, stablecoin issuer Circle surged 8% after global insurance giant Aon disclosed it had paid insurance premiums using stablecoins — including Circle's USDC — for the first time. Strategy, the bitcoin treasury company formerly known as MicroStrategy, added 3% following its announcement of a $1.28 billion bitcoin purchase last week.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation. He noted that a sustained push above $70,000 would encourage bulls, while the broader dynamic of Middle East supply-chain disruptions appeared to be driving some defensive capital into digital assets. Macro strategist Mark Connors offered a longer-term thesis, arguing that a prolonged U.S.-Iran conflict could ultimately benefit bitcoin through war-driven deficit spending, expanded liquidity, and dollar weakness.\n\nNot all analysts were sanguine about the broader outlook. Ram Ahluwalia, CEO of wealth management platform Lumida Wealth, said he expected a near-term bottom and a tactical rally this week but warned that the S&P 500 would struggle to reclaim its record highs \"anytime soon\" given persistent macroeconomic headwinds. Stock market volatility hit a one-year high on Monday, a signal some crypto analysts interpret as a potential bottoming indicator for bitcoin.\n\nThe session underscored an evolving narrative around bitcoin's role during geopolitical crises. While the cryptocurrency remains highly volatile in absolute terms, its ability to recover quickly from the oil-driven selloff — even as traditional energy-sensitive assets remained under stress — lent credibility to the argument that digital assets are increasingly viewed as a partial hedge against commodity-driven market shocks.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "crude oil",
+        "Iran conflict",
+        "Circle",
+        "crypto markets",
+        "risk assets"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T19:48:31.521Z"
     },
     {
       "id": "ps-1773084747777-69mw",
@@ -46,28 +152,6 @@
       "publishedAt": "2026-03-09T19:32:27.777Z"
     },
     {
-      "id": "ps-1773084765467-bjp4",
-      "slug": "new-q-desic-equation-suggests-particles-stray-from-einstein-",
-      "headline": "New 'Q-desic' Equation Suggests Particles Stray From Einstein's Paths",
-      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmological scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at cosmological distances, those trajectories diverge significantly from what Einstein's general relativity alone predicts.\n\nThe work, published in Physical Review D, tackles one of the most stubborn problems in fundamental physics: the incompatibility between quantum mechanics, which governs subatomic particles, and general relativity, which describes gravity and the large-scale structure of the cosmos. Led by Benjamin Koch of TU Wien's Institute for Theoretical Physics, alongside PhD student Ali Riahinia and Angel Rincón based in the Czech Republic, the team focused on geodesics — the curved paths that objects follow through spacetime warped by massive bodies like stars and galaxies. By applying quantum rules to the spacetime metric, the mathematical object that encodes gravitational curvature, they produced what they call the \"q-desic equation,\" a quantum-corrected version of the classical geodesic formula.\n\nThe key innovation was carefully quantizing the metric for a spherically symmetric, static gravitational field — a setup that can model systems such as the Sun's gravitational influence — and then rigorously determining whether replacing the metric with its quantum expectation value remains mathematically valid. The team found that it does not always hold, meaning particles in a quantum spacetime need not travel along the shortest classical path between two points. Under ordinary gravitational conditions, the deviation is vanishingly small, on the order of 10⁻³⁵ meters, far beyond any experiment's reach.\n\nBut when the researchers incorporated the cosmological constant — the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe — the picture changed dramatically. At distances around 10²¹ meters, roughly the scale of galaxy clusters and large-scale cosmic structure, the quantum-corrected trajectories diverged substantially from classical predictions. At intermediate scales, such as planetary orbits, the difference remains negligible. \"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said, noting that the large-scale deviations coincide precisely with regimes where general relativity faces unresolved puzzles, including the anomalous rotation speeds of spiral galaxies.\n\nThe finding is significant less for settling any debate than for offering what the field has long lacked: a potentially observable signature that could distinguish between competing approaches to quantum gravity, from string theory to loop quantum gravity. Koch compared the situation to the Cinderella fairy tale — multiple candidate theories exist, but without a measurable \"glass slipper,\" physicists have had no way to identify which one nature actually wears. The q-desic framework, if its large-scale predictions can be tested against astronomical observations, could provide exactly that discriminating tool. Further analysis is needed, but the work opens a concrete path toward connecting quantum gravity theory with empirical cosmology.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "cosmological constant",
-        "TU Wien",
-        "dark energy",
-        "spacetime"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T19:32:45.467Z"
-    },
-    {
       "id": "ps-1773084780477-6f7m",
       "slug": "anthropic-files-dual-lawsuits-against-pentagon-over-supply-c",
       "headline": "Anthropic Files Dual Lawsuits Against Pentagon Over Supply Chain Ban",
@@ -89,69 +173,6 @@
       "sourceUrl": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
       "sourceName": "TechCrunch",
       "publishedAt": "2026-03-09T19:33:00.477Z"
-    },
-    {
-      "id": "ps-1773084796473-dy1c",
-      "slug": "s-p-500-stages-dramatic-reversal-after-trump-remarks-calm-ma",
-      "headline": "S&P 500 Stages Dramatic Reversal After Trump Remarks Calm Markets",
-      "subheadline": "Oil briefly topped $100 as Middle East conflict rattled global markets before equities erased a 1.5% decline",
-      "body": "U.S. equities staged a dramatic intraday reversal on Monday, with the S&P 500 wiping out a 1.5% decline after remarks from President Donald Trump helped ease investor anxiety over an escalating conflict in the Middle East. The recovery came as oil prices retreated from a brief spike above $100 per barrel, while bonds pared their earlier selloff and Bitcoin rallied.\n\nThe session began with heavy selling pressure as the intensifying Middle East war sent shockwaves through global markets. Crude oil surged past the psychologically significant $100 mark for the first time in months, triggering a broad risk-off move that hammered equity benchmarks and drove investors into safe-haven assets. Energy stocks initially surged on the commodity spike, but the rally proved fleeting as prices pulled back from their highs.\n\nTrump's comments — which appeared to signal a potential diplomatic pathway or de-escalation effort — proved to be the catalyst that turned sentiment around. The S&P 500 clawed back the entirety of its losses in a move that underscored both the fragility of market confidence and the outsized role geopolitical developments are playing in price action. The reversal marked one of the more notable intraday swings in recent months, with the index traveling roughly three percentage points from its session low to its recovery.\n\nThe bond market also reflected the shifting mood. Treasury yields, which had fallen sharply in the initial flight to safety, reversed course as selling pressure in the fixed-income market subsided. Meanwhile, Bitcoin jumped, continuing its pattern of reacting to macro uncertainty with sharp moves that sometimes defy traditional risk-asset correlations.\n\nThe volatile session highlighted the precarious position markets find themselves in as geopolitical risk overlays an already complex macro environment. With oil prices remaining elevated even after retreating from their intraday peak, investors face the prospect of renewed inflationary pressure that could complicate central bank policy. Traders will be closely watching developments in the Middle East and any further policy signals from Washington in the days ahead, with energy markets likely to remain the primary transmission mechanism for geopolitical risk into broader asset prices.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "S&P 500",
-        "Middle East conflict",
-        "oil prices",
-        "market volatility",
-        "Trump",
-        "Bitcoin"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1664138481334-12626f0e8708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxTdGFnZXMlMjBEcmFtYXRpYyUyMFJldmVyc2FsJTIwQWZ0ZXIlMjBUcnVtcCUyMFJlbWFya3MlMjBDYWxtJTIwTWFya2V0c3xlbnwwfDB8fHwxNzczMDg0Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T19:33:16.473Z"
-    },
-    {
-      "id": "ps-1773084811361-zbsj",
-      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreat-eases-market",
-      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreat Eases Market Panic",
-      "subheadline": "Crypto assets recover from sharp overnight selloff as WTI crude pulls back from $120 to $95 amid ongoing U.S.-Iran conflict",
-      "body": "Bitcoin staged a sharp recovery on Monday, climbing back above $69,000 after touching lows near $65,000 overnight, as a dramatic reversal in crude oil prices relieved pressure on risk assets across global markets.\n\nThe cryptocurrency gained roughly 5% from its worst levels of the session, trading at approximately $68,400 by midday in New York. Ether reclaimed the $2,000 mark with a 4% advance, while broader crypto markets posted gains across the board. The recovery mirrored a bounce in equities, with the Nasdaq swinging from a 2% deficit to roughly flat on the day. The catalyst appeared to be crude oil's retreat — WTI futures, which had spiked nearly 30% to $120 per barrel overnight on fears surrounding the ongoing war in Iran, fell back to $95, trimming the session's gain to about 5%.\n\nAmong crypto-linked equities, stablecoin issuer Circle surged 8% after global insurance broker Aon disclosed it had paid an insurance premium using stablecoins — including Circle's USDC — for the first time. Michael Saylor's Strategy rose 3% following its announcement of a $1.28 billion bitcoin acquisition last week. Coinbase traded slightly lower.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation, noting that a sustained push above $70,000 would be a key bullish signal. Morrison suggested digital assets may be attracting \"defensive capital from investors seeking alternatives to oil-sensitive assets\" as Middle East disruptions threaten supply chains.\n\nThe broader macro backdrop remains uncertain. Ram Ahluwalia, CEO of wealth management platform Lumida Wealth, predicted a near-term market bottom could form Monday with a rally through the week, but cautioned it may prove to be a tactical bounce rather than a sustained recovery, with the S&P 500 unlikely to reclaim record highs \"anytime soon.\" Macro strategist Mark Connors offered a more structurally bullish case for bitcoin, arguing that a prolonged U.S.-Iran conflict could expand deficit spending, weaken the dollar, and create the looser liquidity conditions that have historically supported crypto prices. With oil volatility unlikely to abate and geopolitical uncertainty elevated, bitcoin's role as an alternative store of value faces a meaningful real-world test in the weeks ahead.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "crude oil",
-        "crypto markets",
-        "Iran conflict",
-        "Circle",
-        "stablecoins",
-        "market volatility"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T19:33:31.361Z"
-    },
-    {
-      "id": "ps-1773083850037-1e1y",
-      "slug": "new-method-claims-million-fold-speedup-for-molecular-samplin",
-      "headline": "New Method Claims Million-Fold Speedup for Molecular Sampling",
-      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
-      "body": "A new computational technique claims to accelerate the sampling of molecular conformations by more than a million-fold compared to traditional molecular dynamics, potentially transforming how chemists and drug designers explore the behavior of molecules at thermal equilibrium.\n\nThe method, described in a preprint posted to arXiv by researcher Pipi Hu, introduces what the paper calls \"Force-Guided Drifting\" — a framework that generates physically accurate molecular configurations in a single computational step rather than the thousands or millions of iterations required by conventional approaches. At the heart of the advance is the application of so-called Drifting Models to molecular conformation generation for the first time. While standard diffusion-based generative methods have gained traction in computational chemistry, they remain painfully slow due to their iterative nature. Drifting Models can produce samples in one step, but until now their equilibrium distribution matched only the training data, which can deviate from the true Boltzmann distribution that governs molecular behavior at a given temperature.\n\nHu's key theoretical contribution is the \"Drifting Score Identity,\" which establishes a mathematical bridge showing that for Gaussian kernels, a drifting field's attraction term equals a kernel-weighted average of any distribution's score function. By substituting molecular force labels — which directly encode the gradient of the Boltzmann distribution's energy landscape — the framework derives a \"Drifting Force Identity\" that decomposes the generative field into a standard drift component plus a correction term that steers outputs toward true thermodynamic equilibrium. The paper introduces two variants: Force-Interpolated Drifting (FI), which blends physical force directions with learned data displacements and works best in coordinate space, and Force-Aligned Kernel (FK), which modifies only kernel weights to preserve geometrically valid molecular structures in distance feature space.\n\nBenchmarked on the MD17 Ethanol dataset — a standard testbed in machine-learning molecular dynamics — both approaches achieved one-step generation with more than a 1,000-fold speedup over recent score-matching methods that use Boltzmann guidance, and over a million-fold acceleration compared to brute-force molecular dynamics simulations. Crucially, the authors report that the generated conformations maintain perfect structural validity and distributional accuracy comparable to multi-step methods, suggesting little is sacrificed for the dramatic gains in speed.\n\nIf the results hold up to broader scrutiny and generalize beyond small molecules like ethanol, the implications could be significant for fields ranging from drug discovery to materials science, where sampling the full conformational landscape of complex molecules remains one of the most persistent computational bottlenecks. The work is currently available as a preprint and has not yet undergone peer review.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "Boltzmann distribution",
-        "molecular dynamics",
-        "computational chemistry",
-        "generative models",
-        "machine learning"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1745922968123-1573f7f0d8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwyfHxCb2x0em1hbm4lMjBkaXN0cmlidXRpb24lMjBtb2xlY3VsYXIlMjBkeW5hbWljc3xlbnwwfDB8fHwxNzczMDMwNzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05527",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T19:17:30.037Z"
     },
     {
       "id": "ps-1773083008873-v1ju",
@@ -1054,28 +1075,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-market-chaos-set-to-deepen-as-more-gulf-giants-cut-output",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-08T22:02:55.696Z"
-    },
-    {
-      "id": "ps-1773006419816-bkh2",
-      "slug": "israeli-strikes-on-iranian-oil-depots-turn-tehran-skies-dark",
-      "headline": "Israeli Strikes on Iranian Oil Depots Turn Tehran Skies Dark with Smoke",
-      "subheadline": "Residents describe explosions that 'turned night into day' as US-Israeli campaign enters second week with over 1,300 reported dead",
-      "body": "Israeli airstrikes struck fuel depots in Tehran and the nearby city of Karaj overnight, sending massive fireballs into the sky and blanketing Iran's capital in thick, acrid smoke as the US-Israeli military campaign against the country entered its second week.\n\nResidents described scenes of devastation to BBC Persian, with one saying \"it was as if night had turned into day\" when the strikes hit. A man in his 30s from Karaj recounted a sequence that began with \"a red light that lit up everything followed by a wave that jolted the door,\" after which \"a huge red cloud appeared.\" Video footage showed a Tehran street engulfed in flames near one of the targeted depots, with witnesses reporting that shops and homes had caught fire. Iranian authorities urged residents to stay indoors and said they were monitoring air quality, while foreign ministry spokesman Esmaeil Baqaei warned that the strikes were \"releasing hazardous materials and toxic substances into the air\" on a massive scale.\n\nThe strikes are part of a broader US-Israeli offensive that began with the assassination of Iran's Supreme Leader Ayatollah Ali Khamenei. President Donald Trump has cited Iran's nuclear program as an imminent threat to the United States — a justification Tehran rejects, maintaining its nuclear activities are entirely peaceful. Iran's Assembly of Experts has reportedly reached consensus on a successor to Khamenei, though no name has been publicly announced. Iran has responded to the attacks by launching strikes against US allies and assets across the region, escalating what has become a widening Middle Eastern conflict. Iran's UN ambassador, Amir Saeid Iravani, said the campaign has killed at least 1,332 Iranian civilians and wounded thousands more.\n\nPerhaps most striking are the sharply divided sentiments among ordinary Iranians. Some expressed terror at the bombardment, with one Tehran woman describing the war as \"terrifying\" and worrying about the aftermath. But others voiced support for the strikes as the only viable path to removing the Islamic Republic's government. \"We the people have taken refuge in our homes and are eagerly awaiting the destruction of the government so we can take to the streets,\" a man in his 20s from Tehran told the BBC. State television has reportedly warned that anyone expressing support for the US, Israel, or Reza Pahlavi — the exiled son of Iran's last shah — \"will be killed.\"\n\nAnother woman captured the agonizing calculus facing many Iranians: \"Iranians aren't warmongers or foolish — they've just suffered so much that they've reached their limit, and all they want is a normal life.\" Others feared that if the regime survives the war, reprisals against the population could make conditions even worse than before. The conflict, now nine days old, shows no signs of abating, with fuel infrastructure increasingly becoming a focal point of the aerial campaign.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "Israel",
-        "US-Iran conflict",
-        "Middle East",
-        "oil infrastructure",
-        "Tehran",
-        "military strikes"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/98ca/live/5edeb9b0-1b04-11f1-ab07-5d250ad452fb.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/clygpxq41l3o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-08T21:46:59.816Z"
     }
   ]
 }
