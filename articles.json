@@ -1,28 +1,137 @@
 {
-  "lastUpdated": "2026-03-09T19:18:29.008Z",
+  "lastUpdated": "2026-03-09T19:33:31.476Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773083833633-lt09",
+      "id": "ps-1773084730645-47y4",
       "slug": "video-analysis-links-us-tomahawk-missile-to-strike-near-iran",
-      "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iran School",
-      "subheadline": "BBC Verify and weapons experts identify American cruise missile in footage from site where 168 people, including 110 children, reportedly died",
-      "body": "Video analysis by BBC Verify and multiple weapons experts has identified a US Tomahawk cruise missile striking a military base adjacent to a primary school in southern Iran where Iranian authorities say 168 people were killed, including approximately 110 children.\n\nThe footage, published by Iran's semi-official Mehr news agency and authenticated by BBC Verify, captures a missile moments before impact at an Iranian Revolutionary Guard Corps (IRGC) base next to the Shajareh Tayebeh primary school in Minab. Three independent weapons experts identified the munition as a US Tomahawk, with a senior analyst at Mackenzie Intelligence Services stating it bore \"all the hallmarks of a US Tomahawk in its terminal phase.\" Neither Israel nor Iran is known to possess the long-range cruise missile, which has been a mainstay of the US Navy arsenal for decades.\n\nThe findings directly contradict President Donald Trump's assertion on Saturday that Iran was responsible for the school strike due to the inaccuracy of its own munitions. \"They have no accuracy whatsoever,\" Trump told reporters aboard Air Force One. However, a preliminary US assessment reported by CBS News acknowledged it was \"likely\" that American forces were responsible, though the school was not intentionally targeted and may have been hit in error. An Israeli government source separately told CBS that Israel was not operating near the school.\n\nThe verified video reveals large smoke plumes already rising near the school before the Tomahawk visible in the footage detonates at a nearby IRGC medical clinic approximately 200 meters away, suggesting the school had already been struck by earlier ordnance. Wes Bryant, a national security analyst and former US Air Force member, said evidence of multiple strikes across the IRGC compound \"is indicative of a deliberate and precise\" US operation. Armament Research Services director N.R. Jenzen Jones noted that an Iranian missile was an unlikely cause of the school damage because such weapons carry \"relatively small explosive warheads\" insufficient to produce the observed blast patterns.\n\nCorroborating evidence places American military operations squarely in the area. Gen. Dan Caine, the US military's most senior officer, confirmed on March 2 that Tomahawks were the first missiles fired at Iran by the US Navy as part of \"strikes across the southern flank.\" A Pentagon map released two days later showing operations during the first 100 hours of the conflict indicated the Minab area was targeted. Neither the US nor Israel has publicly accepted or denied responsibility for the school strike. An ongoing internet blackout in Iran, combined with restrictions on international journalists, has severely hampered independent verification of the full scope of the February 28 incident.",
+      "headline": "Video Analysis Links US Tomahawk Missile to Strike Near Iranian School",
+      "subheadline": "BBC Verify and weapons experts identify cruise missile in footage, contradicting Trump's claim that Iran was responsible for 168 deaths",
+      "body": "Video analysis by BBC Verify and multiple weapons experts has identified a US Tomahawk cruise missile striking a military base adjacent to a primary school in southern Iran where authorities say 168 people — including approximately 110 children — were killed on February 28.\n\nThe footage, published by Iran's semi-official Mehr news agency and authenticated by BBC investigators, captures a missile moments before impact at an Iranian Revolutionary Guard Corps (IRGC) base next to the Shajareh Tayebeh primary school in the city of Minab. Three independent weapons experts, including a senior analyst at Mackenzie Intelligence Services and former US Air Force national security analyst Wes Bryant, confirmed the munition displayed \"all the hallmarks of a US Tomahawk in its terminal phase.\" Neither Israel nor Iran possesses Tomahawk missiles, the experts noted, pointing squarely at a US operation.\n\nThe finding directly contradicts President Donald Trump's assertion on Saturday that Iran itself was to blame for the school strike. \"We think it was done by Iran because they're very inaccurate, as you know, with their munitions,\" Trump told reporters aboard Air Force One. However, a preliminary US assessment reported by CBS News acknowledged that the United States was \"likely\" responsible for the deadly attack but did not intentionally target the school and may have struck it in error. An Israeli government source separately told CBS that Israel was not operating near the school.\n\nThe video evidence reveals large smoke plumes already rising near the school before the identified Tomahawk detonates at an IRGC naval medical clinic roughly 200 meters away, suggesting the school had already been hit by earlier ordnance. Bryant told BBC Verify that evidence of multiple strikes across the entire IRGC compound \"is indicative of a deliberate and precise\" US military operation. This assessment aligns with statements from Gen. Dan Caine, the US military's most senior officer, who confirmed on March 2 that Tomahawks were the first missiles fired at Iran by the US Navy as part of \"strikes across the southern flank.\" A Pentagon map released March 4 showing strikes during the first 100 hours of conflict confirms the Minab area was targeted.\n\nNeither the United States nor Israel has publicly accepted or denied responsibility for the school deaths. An ongoing internet blackout across Iran and severe restrictions on international journalists have made independent verification of the full scale of the incident extremely difficult. The strike has intensified international scrutiny of US targeting protocols and the civilian toll of the military campaign, with the G7 now weighing broader measures related to the conflict's escalation.",
       "category": "breaking",
       "importance": 9,
       "tags": [
         "Iran",
         "US military",
         "Tomahawk missile",
-        "Minab school strike",
+        "civilian casualties",
         "BBC Verify",
         "IRGC",
-        "civilian casualties"
+        "Trump"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/69d5/live/f15d3960-1bc2-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cvg548lyjnyo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T19:17:13.633Z"
+      "publishedAt": "2026-03-09T19:32:10.645Z"
+    },
+    {
+      "id": "ps-1773084747777-69mw",
+      "slug": "machine-learning-meets-quantum-chemistry-in-new-density-matr",
+      "headline": "Machine Learning Meets Quantum Chemistry in New Density Matrix Method",
+      "subheadline": "Researchers combine neural networks with semidefinite programming to solve a decades-old computational bottleneck in electronic structure theory",
+      "body": "A pair of researchers at the University of Chicago have developed a hybrid approach that fuses machine learning with mathematical optimization to calculate the electronic properties of molecules more accurately — without the steep computational costs traditionally required.\n\nLuis H. Delgado-Granados and David A. Mazziotti introduced what they call \"semidefinite machine learning,\" a framework that learns the boundary of the mathematically allowed set of two-electron reduced density matrices (2-RDMs) directly from molecular data. The 2-RDM encodes all the information needed to compute a molecule's energy and properties, but determining which 2-RDMs correspond to physically realizable quantum states — a challenge known as the N-representability problem — has been one of quantum chemistry's most stubborn obstacles for more than six decades. Their work, posted to the arXiv preprint server in February, offers a novel path around this barrier.\n\nTraditional variational 2-RDM methods enforce physicality through hierarchies of positivity constraints expressed as linear matrix inequalities. Lower-order constraints are computationally cheap but inaccurate, while higher-order conditions deliver precision at prohibitive cost. The new approach sidesteps this tradeoff by training an input convex neural network on molecular data to approximate the geometry of the allowed 2-RDM set. That learned boundary information is then folded into a semidefinite programming optimization, effectively tightening the low-order constraints without ever constructing the expensive higher-order conditions explicitly.\n\nThe researchers validated their method on the potential energy curves of three isoelectronic 14-electron systems: the carbon dianion C₂²⁻, molecular nitrogen N₂, and the oxygen dication O₂²⁺. These molecules feature complex electronic correlation that challenges conventional methods. The semidefinite machine learning results showed systematic improvements over standard two-positivity calculations and closely matched complete active space configuration interaction benchmarks — a gold-standard method in quantum chemistry — while maintaining comparable computational cost to the cheaper approach.\n\nThe work sits at a fertile intersection of data-driven science and rigorous mathematical physics. By learning structural features of the N-representable set from data rather than deriving them analytically, the method could scale to larger molecular systems where explicit higher-order constraints become intractable. If the approach generalizes broadly, it could accelerate electronic structure calculations across drug design, catalysis, and materials discovery, domains where accurate treatment of electron correlation remains a critical bottleneck. The research also highlights a growing trend in computational physics: using machine learning not as a black-box substitute for theory, but as a tool that works in concert with established mathematical frameworks to push beyond their individual limitations.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "quantum chemistry",
+        "machine learning",
+        "density matrix",
+        "semidefinite programming",
+        "electronic structure",
+        "computational physics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1719085202281-688805459948?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxM3x8cXVhbnR1bSUyMGNoZW1pc3RyeSUyMG1hY2hpbmUlMjBsZWFybmluZ3xlbnwwfDB8fHwxNzczMDI4OTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05524",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T19:32:27.777Z"
+    },
+    {
+      "id": "ps-1773084765467-bjp4",
+      "slug": "new-q-desic-equation-suggests-particles-stray-from-einstein-",
+      "headline": "New 'Q-desic' Equation Suggests Particles Stray From Einstein's Paths",
+      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmological scales",
+      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at cosmological distances, those trajectories diverge significantly from what Einstein's general relativity alone predicts.\n\nThe work, published in Physical Review D, tackles one of the most stubborn problems in fundamental physics: the incompatibility between quantum mechanics, which governs subatomic particles, and general relativity, which describes gravity and the large-scale structure of the cosmos. Led by Benjamin Koch of TU Wien's Institute for Theoretical Physics, alongside PhD student Ali Riahinia and Angel Rincón based in the Czech Republic, the team focused on geodesics — the curved paths that objects follow through spacetime warped by massive bodies like stars and galaxies. By applying quantum rules to the spacetime metric, the mathematical object that encodes gravitational curvature, they produced what they call the \"q-desic equation,\" a quantum-corrected version of the classical geodesic formula.\n\nThe key innovation was carefully quantizing the metric for a spherically symmetric, static gravitational field — a setup that can model systems such as the Sun's gravitational influence — and then rigorously determining whether replacing the metric with its quantum expectation value remains mathematically valid. The team found that it does not always hold, meaning particles in a quantum spacetime need not travel along the shortest classical path between two points. Under ordinary gravitational conditions, the deviation is vanishingly small, on the order of 10⁻³⁵ meters, far beyond any experiment's reach.\n\nBut when the researchers incorporated the cosmological constant — the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe — the picture changed dramatically. At distances around 10²¹ meters, roughly the scale of galaxy clusters and large-scale cosmic structure, the quantum-corrected trajectories diverged substantially from classical predictions. At intermediate scales, such as planetary orbits, the difference remains negligible. \"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said, noting that the large-scale deviations coincide precisely with regimes where general relativity faces unresolved puzzles, including the anomalous rotation speeds of spiral galaxies.\n\nThe finding is significant less for settling any debate than for offering what the field has long lacked: a potentially observable signature that could distinguish between competing approaches to quantum gravity, from string theory to loop quantum gravity. Koch compared the situation to the Cinderella fairy tale — multiple candidate theories exist, but without a measurable \"glass slipper,\" physicists have had no way to identify which one nature actually wears. The q-desic framework, if its large-scale predictions can be tested against astronomical observations, could provide exactly that discriminating tool. Further analysis is needed, but the work opens a concrete path toward connecting quantum gravity theory with empirical cosmology.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "geodesics",
+        "cosmological constant",
+        "TU Wien",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T19:32:45.467Z"
+    },
+    {
+      "id": "ps-1773084780477-6f7m",
+      "slug": "anthropic-files-dual-lawsuits-against-pentagon-over-supply-c",
+      "headline": "Anthropic Files Dual Lawsuits Against Pentagon Over Supply Chain Ban",
+      "subheadline": "The AI company calls the Defense Department's risk designation 'unprecedented and unlawful,' alleging government retaliation over safety stance",
+      "body": "Anthropic has escalated its standoff with the U.S. Department of Defense into a full legal battle, filing twin lawsuits on Monday challenging the Pentagon's decision to designate the AI company as a supply chain risk — a classification typically reserved for foreign adversaries like Chinese telecom firms.\n\nThe Claude developer filed one complaint in San Francisco federal court and a separate petition in the D.C. Circuit Court of Appeals, arguing that the Defense Department's action was retaliatory, procedurally improper, and unconstitutional. At the heart of the dispute are two positions Anthropic refused to abandon: that its AI technology should not be used for mass surveillance of Americans, and that it should not power fully autonomous weapons systems without human oversight of targeting and firing decisions. Defense Secretary Pete Hegseth countered that the Pentagon should have access to AI tools for \"any lawful purpose\" without restrictions imposed by private contractors.\n\nThe consequences for Anthropic have been swift and severe. Following the supply chain risk designation, the General Services Administration terminated the company's \"OneGov\" contract, cutting off Anthropic's services to all three branches of the federal government. Any company or agency working with the Pentagon must now certify it does not use Anthropic's models, threatening to erode the firm's government-adjacent business even as several private-sector clients have maintained their relationships.\n\nIn its California filing, Anthropic frames the dispute as a First Amendment case, arguing that the government is punishing the company for expressing views on AI safety limitations. \"The Constitution does not allow the government to wield its enormous power to punish a company for its protected speech,\" the complaint states. Both President Trump and Secretary Hegseth have publicly criticized Anthropic CEO Dario Amodei as \"woke\" and \"radical\" for advocating stronger AI safety and transparency measures. Anthropic contends in the lawsuit that while the government is free to disagree with its views or decline to use its products, it cannot deploy state power to suppress that expression. The company also alleges the Pentagon failed to follow legally mandated procedures — including conducting a proper risk assessment, notifying the company, allowing a response, and informing Congress — before issuing the designation.\n\nAnthopic is seeking an immediate judicial pause on the designation while litigation proceeds, and ultimately wants the courts to permanently block its enforcement. \"Defendants are seeking to destroy the economic value created by one of the world's fastest-growing private companies,\" the lawsuit reads, warning of a chilling effect on broader industry speech about AI risks. The case is poised to become a landmark test of how far the executive branch can go in leveraging procurement power against companies that publicly disagree with administration policy on emerging technology.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Anthropic",
+        "Department of Defense",
+        "AI safety",
+        "Pete Hegseth",
+        "Dario Amodei",
+        "supply chain risk",
+        "government contracts",
+        "First Amendment"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-anthropic-2.webp?w=1024",
+      "sourceUrl": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T19:33:00.477Z"
+    },
+    {
+      "id": "ps-1773084796473-dy1c",
+      "slug": "s-p-500-stages-dramatic-reversal-after-trump-remarks-calm-ma",
+      "headline": "S&P 500 Stages Dramatic Reversal After Trump Remarks Calm Markets",
+      "subheadline": "Oil briefly topped $100 as Middle East conflict rattled global markets before equities erased a 1.5% decline",
+      "body": "U.S. equities staged a dramatic intraday reversal on Monday, with the S&P 500 wiping out a 1.5% decline after remarks from President Donald Trump helped ease investor anxiety over an escalating conflict in the Middle East. The recovery came as oil prices retreated from a brief spike above $100 per barrel, while bonds pared their earlier selloff and Bitcoin rallied.\n\nThe session began with heavy selling pressure as the intensifying Middle East war sent shockwaves through global markets. Crude oil surged past the psychologically significant $100 mark for the first time in months, triggering a broad risk-off move that hammered equity benchmarks and drove investors into safe-haven assets. Energy stocks initially surged on the commodity spike, but the rally proved fleeting as prices pulled back from their highs.\n\nTrump's comments — which appeared to signal a potential diplomatic pathway or de-escalation effort — proved to be the catalyst that turned sentiment around. The S&P 500 clawed back the entirety of its losses in a move that underscored both the fragility of market confidence and the outsized role geopolitical developments are playing in price action. The reversal marked one of the more notable intraday swings in recent months, with the index traveling roughly three percentage points from its session low to its recovery.\n\nThe bond market also reflected the shifting mood. Treasury yields, which had fallen sharply in the initial flight to safety, reversed course as selling pressure in the fixed-income market subsided. Meanwhile, Bitcoin jumped, continuing its pattern of reacting to macro uncertainty with sharp moves that sometimes defy traditional risk-asset correlations.\n\nThe volatile session highlighted the precarious position markets find themselves in as geopolitical risk overlays an already complex macro environment. With oil prices remaining elevated even after retreating from their intraday peak, investors face the prospect of renewed inflationary pressure that could complicate central bank policy. Traders will be closely watching developments in the Middle East and any further policy signals from Washington in the days ahead, with energy markets likely to remain the primary transmission mechanism for geopolitical risk into broader asset prices.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "S&P 500",
+        "Middle East conflict",
+        "oil prices",
+        "market volatility",
+        "Trump",
+        "Bitcoin"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1664138481334-12626f0e8708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxTdGFnZXMlMjBEcmFtYXRpYyUyMFJldmVyc2FsJTIwQWZ0ZXIlMjBUcnVtcCUyMFJlbWFya3MlMjBDYWxtJTIwTWFya2V0c3xlbnwwfDB8fHwxNzczMDg0Nzk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T19:33:16.473Z"
+    },
+    {
+      "id": "ps-1773084811361-zbsj",
+      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreat-eases-market",
+      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreat Eases Market Panic",
+      "subheadline": "Crypto assets recover from sharp overnight selloff as WTI crude pulls back from $120 to $95 amid ongoing U.S.-Iran conflict",
+      "body": "Bitcoin staged a sharp recovery on Monday, climbing back above $69,000 after touching lows near $65,000 overnight, as a dramatic reversal in crude oil prices relieved pressure on risk assets across global markets.\n\nThe cryptocurrency gained roughly 5% from its worst levels of the session, trading at approximately $68,400 by midday in New York. Ether reclaimed the $2,000 mark with a 4% advance, while broader crypto markets posted gains across the board. The recovery mirrored a bounce in equities, with the Nasdaq swinging from a 2% deficit to roughly flat on the day. The catalyst appeared to be crude oil's retreat — WTI futures, which had spiked nearly 30% to $120 per barrel overnight on fears surrounding the ongoing war in Iran, fell back to $95, trimming the session's gain to about 5%.\n\nAmong crypto-linked equities, stablecoin issuer Circle surged 8% after global insurance broker Aon disclosed it had paid an insurance premium using stablecoins — including Circle's USDC — for the first time. Michael Saylor's Strategy rose 3% following its announcement of a $1.28 billion bitcoin acquisition last week. Coinbase traded slightly lower.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation, noting that a sustained push above $70,000 would be a key bullish signal. Morrison suggested digital assets may be attracting \"defensive capital from investors seeking alternatives to oil-sensitive assets\" as Middle East disruptions threaten supply chains.\n\nThe broader macro backdrop remains uncertain. Ram Ahluwalia, CEO of wealth management platform Lumida Wealth, predicted a near-term market bottom could form Monday with a rally through the week, but cautioned it may prove to be a tactical bounce rather than a sustained recovery, with the S&P 500 unlikely to reclaim record highs \"anytime soon.\" Macro strategist Mark Connors offered a more structurally bullish case for bitcoin, arguing that a prolonged U.S.-Iran conflict could expand deficit spending, weaken the dollar, and create the looser liquidity conditions that have historically supported crypto prices. With oil volatility unlikely to abate and geopolitical uncertainty elevated, bitcoin's role as an alternative store of value faces a meaningful real-world test in the weeks ahead.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "crude oil",
+        "crypto markets",
+        "Iran conflict",
+        "Circle",
+        "stablecoins",
+        "market volatility"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T19:33:31.361Z"
     },
     {
       "id": "ps-1773083850037-1e1y",
@@ -43,95 +152,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.05527",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-09T19:17:30.037Z"
-    },
-    {
-      "id": "ps-1773083865044-lhjw",
-      "slug": "new-q-desic-equation-suggests-particles-deviate-from-einstei",
-      "headline": "New 'Q-Desic' Equation Suggests Particles Deviate from Einstein's Paths",
-      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmic scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when quantum effects are taken into account — and the results suggest that at cosmological distances, those trajectories may diverge dramatically from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the deepest open problems in physics: reconciling quantum mechanics with gravity. Lead researcher Benjamin Koch, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, focused on geodesics — the curved paths that objects follow through spacetime bent by massive bodies like stars and galaxies. By replacing the classical spacetime metric with a quantum version, the team derived what they call the \"q-desic equation,\" a quantum generalization of the geodesic equation that has underpinned gravitational physics for over a century.\n\nFor ordinary gravitational fields, the quantum corrections are vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experiment. But when the researchers incorporated the cosmological constant, the term in Einstein's equations linked to dark energy and the accelerating expansion of the universe, the picture changed sharply. At distances of roughly 10²¹ meters — well within the realm of galactic and intergalactic scales — the q-desic predictions diverge significantly from classical geodesics. Crucially, at intermediate scales like Earth's orbit around the Sun, there is virtually no difference, preserving the extraordinary precision of general relativity where it has already been tested.\n\n\"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" Koch said. He noted that the deviations appear precisely at the cosmological scales where general relativity faces its most stubborn puzzles, including the anomalous rotation speeds of spiral galaxies — a phenomenon typically attributed to dark matter. The framework could eventually provide an observationally testable way to probe quantum gravity, something the field has long lacked.\n\nThe result does not yet favor any particular approach to quantum gravity — whether string theory, loop quantum gravity, or other candidates — but it may provide what Koch likened to a \"glass slipper\" from the Cinderella story: a measurable observable against which competing theories can be checked. The team plans further analysis to determine whether the large-scale deviations can be connected to specific astrophysical observations, potentially opening a new empirical window into the quantum structure of spacetime itself.",
-      "category": "physics",
-      "importance": 8,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "cosmological constant",
-        "TU Wien",
-        "dark energy",
-        "spacetime"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T19:17:45.044Z"
-    },
-    {
-      "id": "ps-1773083879522-3t3b",
-      "slug": "anthropic-files-dual-lawsuits-against-pentagon-over-supply-c",
-      "headline": "Anthropic Files Dual Lawsuits Against Pentagon Over Supply Chain Blacklist",
-      "subheadline": "The AI company calls the Defense Department's risk designation 'unprecedented and unlawful,' alleging retaliation for its stance on AI safety",
-      "body": "Anthropic escalated its standoff with the U.S. Department of Defense on Monday, filing lawsuits in both a California federal court and the D.C. Circuit Court of Appeals challenging the Pentagon's decision to label the company a supply chain security risk — a designation typically reserved for foreign adversaries.\n\nThe legal action follows weeks of intensifying conflict between the Claude developer and Defense Secretary Pete Hegseth over whether the military should have unrestricted access to Anthropic's AI models. Anthropic had drawn two firm boundaries: it would not allow its technology to be used for mass surveillance of American citizens, and it would not permit its systems to power fully autonomous weapons without human oversight of targeting and firing decisions. Hegseth countered that the Pentagon should be able to deploy AI tools for \"any lawful purpose\" without restrictions imposed by private contractors.\n\nThe supply chain risk designation carries severe commercial consequences. Any company or agency working with the Pentagon must now certify it does not use Anthropic's models. The General Services Administration has already terminated Anthropic's \"OneGov\" contract, cutting off the company's services across all three branches of the federal government. In its San Francisco filing, Anthropic alleges the government's actions violate the First Amendment, arguing that the Constitution \"does not allow the government to wield its enormous power to punish a company for its protected speech\" — referring to CEO Dario Amodei's public advocacy for AI safety guardrails. Both President Trump and Secretary Hegseth have criticized Amodei as \"woke\" and \"radical.\"\n\nBeyond the constitutional claims, Anthropic argues the designation was procedurally deficient. Federal procurement law generally requires agencies to conduct a formal risk assessment, notify the targeted company, allow it to respond, issue a written national security determination, and notify Congress before excluding a vendor — steps Anthropic says were not followed. The company's separate D.C. Circuit petition seeks to overturn the designation under those federal procurement statutes.\n\nAnthopic has asked the California court for an immediate injunction pausing the designation while litigation proceeds, warning that the action threatens to \"destroy the economic value created by one of the world's fastest-growing private companies.\" An Anthropic spokesperson said the company remains committed to supporting national security applications of AI and would continue seeking dialogue with the government even as the cases move forward. The outcome could set significant precedent for how the federal government wields procurement power over the rapidly growing AI industry — and whether companies' public positions on safety can be used against them in contracting decisions.",
-      "category": "tech",
-      "importance": 9,
-      "tags": [
-        "Anthropic",
-        "Department of Defense",
-        "AI safety",
-        "Pete Hegseth",
-        "supply chain risk",
-        "Dario Amodei",
-        "government contracts",
-        "First Amendment"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-anthropic-2.webp?w=1024",
-      "sourceUrl": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T19:17:59.522Z"
-    },
-    {
-      "id": "ps-1773083894615-wzej",
-      "slug": "global-markets-recover-from-early-war-driven-sell-off-as-oil",
-      "headline": "Global Markets Recover From Early War-Driven Sell-Off as Oil Retreats From $100",
-      "subheadline": "Equities pare steep losses and bond selling eases after crude's brief breach of triple digits amid Middle East conflict",
-      "body": "Global equity markets staged a partial recovery on Monday after an early rout driven by escalating conflict in the Middle East, with stocks clawing back losses as oil prices retreated from a psychologically significant breach of $100 per barrel.\n\nCrude oil briefly topped the triple-digit mark for the first time in months as the intensifying war stoked fears of prolonged supply disruptions across one of the world's most critical energy-producing regions. The spike rippled through asset classes, sending stocks sharply lower at the open and triggering a sell-off in government bonds as investors recalibrated inflation expectations. However, the moves proved short-lived — oil pulled back from its highs as the session progressed, allowing equity benchmarks to recover a significant portion of their early declines.\n\nThe bond market followed a similar arc. Yields, which had surged on concerns that elevated energy costs could reignite inflationary pressures and complicate central bank policy, settled as crude's rally lost momentum. Bitcoin, meanwhile, moved in the opposite direction, jumping as some investors appeared to treat the cryptocurrency as a hedge against geopolitical uncertainty — a role it has intermittently played during periods of global instability.\n\nThe whiplash session underscored the fragility of market sentiment as the Middle East conflict continues to defy hopes of containment. Traders and strategists noted that the speed of the intraday reversal reflected less a resolution of underlying risks than a market reluctant to price in worst-case scenarios without further confirmation. Energy stocks outperformed on the day, while rate-sensitive sectors bore the brunt of the volatility.\n\nAnalysts warned that oil remaining anywhere near $100 would have significant consequences for global growth forecasts and monetary policy trajectories, particularly for the Federal Reserve and European Central Bank, both of which have been navigating a delicate path toward easing. With geopolitical risk unlikely to dissipate quickly, investors should expect elevated volatility to persist across commodities, equities, and fixed income markets in the weeks ahead.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil prices",
-        "Middle East conflict",
-        "market volatility",
-        "equities",
-        "bonds",
-        "bitcoin",
-        "geopolitical risk"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1663651905052-e3083b78c06a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNnx8b2lsJTIwcHJpY2VzJTIwTWlkZGxlJTIwRWFzdCUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzMwNzMxMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/oil-tops-100-as-war-rages-stocks-set-to-fall-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T19:18:14.615Z"
-    },
-    {
-      "id": "ps-1773083908884-q8re",
-      "slug": "bitcoin-rebounds-to-69-000-as-crude-oil-retreat-eases-market",
-      "headline": "Bitcoin Rebounds to $69,000 as Crude Oil Retreat Eases Market Panic",
-      "subheadline": "Crypto assets recover from sharp overnight selloff as WTI crude pulls back from $120 to $95 amid Iran conflict volatility",
-      "body": "Bitcoin recovered sharply on Monday, climbing back to nearly $69,000 after tumbling to $65,000 overnight, as a dramatic reversal in crude oil prices relieved pressure on risk assets across global markets.\n\nThe cryptocurrency rallied roughly 5% from its worst levels as West Texas Intermediate crude oil, which had surged nearly 30% to $120 per barrel overnight on fears surrounding the ongoing war in Iran, retreated to $95 — trimming its gain to approximately 5% on the session. The oil pullback triggered a broader risk-asset recovery, with the Nasdaq swinging from a 2% deficit to roughly flat by midday. Ether reclaimed the $2,000 level, rising 4% over 24 hours, while the broader CoinDesk 20 index gained just over 2%.\n\nAmong crypto-linked equities, stablecoin issuer Circle surged 8% after global insurance giant Aon disclosed it had paid an insurance premium using stablecoins — including Circle's USDC — for the first time. Michael Saylor's Strategy rose 3%, buoyed by news of a $1.28 billion bitcoin acquisition completed the prior week. Coinbase, by contrast, traded modestly lower.\n\n\"Bitcoin has displayed surprising resilience despite the extreme volatility exhibited across traditional assets,\" said David Morrison, senior market analyst at Trade Nation, noting that a sustained push above $70,000 would be a key bullish signal. Morrison suggested digital assets may be attracting defensive capital from investors looking to reduce exposure to oil-sensitive positions amid Middle East supply-chain disruptions.\n\nThe session underscored a growing narrative that bitcoin could benefit from prolonged geopolitical instability. Macro strategist Mark Connors argued that an extended U.S.-Iran conflict would drive war-related deficit spending, expand liquidity, and weaken the dollar — conditions historically favorable for bitcoin. Ram Ahluwalia, CEO of wealth management platform Lumida Wealth, offered a more cautious view on equities, predicting a near-term tactical bounce but warning that the S&P 500 would struggle to reclaim record highs \"anytime soon.\" With stock market volatility hitting a one-year high, crypto markets appear to be carving out a distinct role as an alternative store of value during periods of acute geopolitical stress.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "crude oil",
-        "Iran conflict",
-        "crypto markets",
-        "Circle",
-        "volatility",
-        "stablecoins"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3ac88042e38f03c85b8fd0117c230c2b8673d5ad-1920x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/bitcoin-rises-to-usd69-000-stocks-reverse-big-early-losses-as-crude-oil-sinks-back-below-usd100",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T19:18:28.884Z"
     },
     {
       "id": "ps-1773083008873-v1ju",
@@ -821,26 +841,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/oil-shorts-on-hyperliquid-get-wiped-out-as-crude-surges-30-on-iran-escalation-triggering-usd40-million-in-liquidations",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-09T07:33:32.055Z"
-    },
-    {
-      "id": "ps-1773036215904-k6df",
-      "slug": "machine-learning-meets-quantum-chemistry-in-new-density-matr",
-      "headline": "Machine Learning Meets Quantum Chemistry in New Density Matrix Method",
-      "subheadline": "Researchers combine neural networks with semidefinite programming to calculate molecular electronic structures more accurately",
-      "body": "A pair of researchers at the University of Chicago have developed a novel computational framework that fuses machine learning with established quantum chemistry techniques, potentially offering a more efficient route to accurate molecular electronic structure calculations.\n\nLuis H. Delgado-Granados and David A. Mazziotti describe their \"semidefinite machine learning\" approach in a preprint posted to arXiv, detailing how an input convex neural network can be paired with semidefinite programming to directly compute two-electron reduced density matrices (2-RDMs) — mathematical objects that encode the essential quantum mechanical information about how electrons interact in molecules. The 2-RDM approach has long attracted interest because it bypasses the need to solve for a full many-electron wavefunction, but its practical accuracy has been limited by the difficulty of enforcing so-called N-representability conditions, which ensure the density matrix corresponds to a physically valid quantum state.\n\nTraditionally, enforcing these conditions requires constructing linear matrix inequalities of increasing order, with higher-order constraints improving accuracy but dramatically escalating computational cost. The new method sidesteps this scaling problem by training a neural network on molecular data to learn a vertex-based approximation of the boundary of the allowed 2-RDM set. This data-driven boundary information is then woven into a semidefinite optimization that achieves accuracy beyond what standard low-order positivity constraints alone can deliver — without ever explicitly constructing the expensive higher-order conditions.\n\nThe researchers demonstrated their approach on the potential energy curves of three isoelectronic molecular species: the carbon dianion C₂²⁻, molecular nitrogen N₂, and the oxygen dication O₂²⁺. In each case, the semidefinite machine learning results showed systematic improvements over conventional two-positivity calculations and closely matched results from complete active space configuration interaction, a well-established high-accuracy benchmark method. Critically, the computational cost remained comparable to the simpler two-positivity approach.\n\nThe work sits at a productive intersection of quantum physics and artificial intelligence that has seen growing activity in recent years. By learning the geometric structure of the allowed density matrix space from data rather than deriving it analytically, the method suggests a broader paradigm in which machine learning could help circumvent longstanding computational bottlenecks in quantum chemistry. If the approach generalizes to larger and more complex molecular systems, it could accelerate the study of strongly correlated electron systems — a domain relevant to catalysis, materials design, and high-temperature superconductivity — where traditional methods often struggle.",
-      "category": "physics",
-      "importance": 5,
-      "tags": [
-        "quantum chemistry",
-        "machine learning",
-        "density matrix",
-        "semidefinite programming",
-        "computational physics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1585909695546-032f24b95d41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw1fHxxdWFudHVtJTIwY2hlbWlzdHJ5JTIwbWFjaGluZSUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzMwMzYyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05524",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T06:03:35.904Z"
     },
     {
       "id": "ps-1773032534872-igzs",
