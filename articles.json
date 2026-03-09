@@ -1,7 +1,135 @@
 {
-  "lastUpdated": "2026-03-09T05:03:33.186Z",
+  "lastUpdated": "2026-03-09T05:18:11.248Z",
   "count": 50,
   "articles": [
+    {
+      "id": "ps-1773033412689-v4lt",
+      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
+      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
+      "subheadline": "The 56-year-old cleric, long rumored to wield power behind the scenes, faces questions of legitimacy and an Israeli threat",
+      "body": "Iran's Assembly of Experts has selected Mojtaba Khamenei, the 56-year-old son of the late Ayatollah Ali Khamenei, as the Islamic Republic's new supreme leader — a choice that marks the first hereditary succession in the regime's history and one that could deepen public discontent in a nation already reeling from war and economic crisis.\n\nThe elder Khamenei was killed in recent US-Israeli military strikes that also claimed the lives of Mojtaba's mother and wife. The appointment comes amid an intensifying regional conflict, with Israeli strikes continuing across Iran and Lebanon, hitting fuel depots in Tehran and Karaj and triggering massive fires visible across the capital. Israel's defense minister warned last week that any successor to Ali Khamenei would be \"an unequivocal target for elimination,\" making Mojtaba a marked man from the moment of his selection.\n\nMojtaba Khamenei has never held government office, delivered public speeches, or given interviews. Born in Mashhad in 1969, he served brief stints in the military during the Iran-Iraq War as a teenager before pursuing religious studies in the holy city of Qom beginning in 1999 — unusually late for a seminary student. He remains a mid-ranking cleric, though in recent days media outlets aligned with Iran's power centers have begun referring to him as \"Ayatollah,\" a senior title that observers see as an effort to bolster his religious credentials. A similar rapid promotion occurred when his father assumed the supreme leadership in 1989.\n\nDespite his low public profile, leaked US diplomatic cables published by WikiLeaks described Mojtaba as \"the power behind the robes\" and a \"capable and forceful\" figure within the regime. His name first surfaced publicly during the contested 2005 presidential election, when reformist candidate Mehdi Karroubi accused him of using the Islamic Revolutionary Guard Corps and Basij militia to swing the vote in favor of hardliner Mahmoud Ahmadinejad. Similar allegations resurfaced during the 2009 Green Movement protests, and former deputy interior minister Mostafa Tajzadeh attributed his own seven-year imprisonment to \"the direct wish of Mojtaba Khamenei.\"\n\nThe selection poses a profound ideological contradiction for the Islamic Republic, which was founded in 1979 on the overthrow of a monarchy and the explicit rejection of hereditary rule. Although one Assembly of Experts member stated two years ago that Ali Khamenei opposed his son's candidacy, the elder leader never publicly addressed the speculation. Analysts widely expect Mojtaba to maintain his father's hardline stance, and some suggest a leader who lost close family members to Western-backed strikes will be even less inclined toward diplomatic engagement. Yet he faces the immense challenge of steering a war-battered country through political and economic devastation with no tested leadership record and a legitimacy deficit that could fuel further unrest.",
+      "category": "breaking",
+      "importance": 9,
+      "tags": [
+        "Iran",
+        "Mojtaba Khamenei",
+        "supreme leader",
+        "Middle East",
+        "Israel",
+        "succession"
+      ],
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
+      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
+      "sourceName": "BBC News",
+      "publishedAt": "2026-03-09T05:16:52.689Z"
+    },
+    {
+      "id": "ps-1773033427583-yxze",
+      "slug": "new-method-claims-million-fold-speedup-for-molecular-samplin",
+      "headline": "New Method Claims Million-Fold Speedup for Molecular Sampling",
+      "subheadline": "Force-guided 'Drifting Models' generate Boltzmann-distributed molecular conformations in a single step, bypassing slow simulations",
+      "body": "A researcher has proposed a technique that could accelerate one of computational chemistry's most fundamental tasks — sampling molecular conformations from the Boltzmann distribution — by a factor of more than one million compared to traditional molecular dynamics simulations.\n\nThe method, described in a preprint posted to arXiv by Pipi Hu, introduces so-called Drifting Models to molecular conformation generation for the first time. These models produce molecular structures in a single generative step, circumventing the iterative procedures required by diffusion-based methods that have gained traction in recent years. The key theoretical innovation is the \"Drifting Score Identity,\" which establishes that for Gaussian kernels, the drifting field's attraction term is mathematically equivalent to a kernel-weighted average of any distribution's score function. Because molecular forces directly encode the score of the Boltzmann distribution, substituting force labels into this framework yields what Hu calls the \"Drifting Force Identity\" — effectively decomposing the generative field into a standard drift component plus a correction that steers samples toward thermodynamic equilibrium.\n\nOne of the paper's more surprising findings concerns how force information interacts with different molecular representations. In Cartesian coordinate space, a technique called Force-Interpolated Drifting works best by blending physical force directions with data displacements. But in distance feature space — where molecules are described by interatomic distances rather than 3D coordinates — a different approach called Force-Aligned Kernel proves superior, modifying only the weighting of kernels to preserve the geometric validity of generated structures. This representation-dependent reversal of effectiveness is described as a phenomenon unique to molecular systems.\n\nBenchmarked on the MD17 ethanol dataset, a standard test case in the field, both approaches achieved one-step generation with more than 1,000-fold speedup over recent score-matching methods that use Boltzmann guidance, and more than a million-fold acceleration over conventional molecular dynamics. Critically, the generated conformations maintained perfect structural validity and distributional accuracy comparable to multi-step generative methods.\n\nIf the results hold up under broader testing across larger and more complex molecular systems, the technique could substantially reduce the computational cost of tasks ranging from drug design to materials discovery, where exhaustive sampling of molecular configurations remains a persistent bottleneck. The work bridges generative machine learning with statistical mechanics in a way that could reshape how researchers explore chemical configuration space.",
+      "category": "physics",
+      "importance": 6,
+      "tags": [
+        "Boltzmann distribution",
+        "molecular dynamics",
+        "computational chemistry",
+        "generative models",
+        "machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1638258581353-0ab658542e73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxCb2x0em1hbm4lMjBkaXN0cmlidXRpb24lMjBtb2xlY3VsYXIlMjBkeW5hbWljc3xlbnwwfDB8fHwxNzczMDMwNzQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.05527",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-09T05:17:07.583Z"
+    },
+    {
+      "id": "ps-1773033444604-5g8g",
+      "slug": "new-q-desic-equation-suggests-particles-deviate-from-einstei",
+      "headline": "New 'Q-desic' Equation Suggests Particles Deviate from Einstein's Paths",
+      "subheadline": "TU Wien physicists derive quantum corrections to spacetime geodesics that could become measurable at cosmic scales",
+      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at cosmological distances, those trajectories diverge significantly from what Einstein's general relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the deepest open problems in fundamental physics: the reconciliation of quantum mechanics with general relativity. While several candidate frameworks exist — string theory, loop quantum gravity, and asymptotically safe gravity among them — physicists have long struggled to identify observable consequences that could distinguish between them. Benjamin Koch of TU Wien's Institute for Theoretical Physics, along with PhD student Ali Riahinia and collaborator Ángel Rincón based in the Czech Republic, approached the problem by rethinking geodesics, the paths objects follow through curved spacetime. They developed a method to quantize the spacetime metric — the mathematical object encoding how spacetime curves — for a spherically symmetric, static gravitational field, such as that produced by the Sun. From this quantized metric, they derived what they call the \"q-desic equation,\" a quantum-corrected version of the classical geodesic equation.\n\nThe central finding is that particles traveling through quantum spacetime do not necessarily follow the shortest path between two points, as classical general relativity demands. When the team considered only ordinary gravitational effects, the deviations from classical trajectories were vanishingly small — on the order of 10⁻³⁵ meters, far beyond any conceivable experimental reach. But when they incorporated the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, the picture changed dramatically. At distances of roughly 10²¹ meters — cosmic scales where some of general relativity's most stubborn puzzles persist — the quantum corrections became substantial.\n\nKoch described the result as unexpected. \"At first I would not have expected quantum corrections on large scales to produce such dramatic changes,\" he said. Crucially, the deviations vanish at intermediate scales, meaning familiar physics such as Earth's orbit around the Sun remains essentially unchanged. But at the largest distances, where astronomers observe anomalies like the unexplained rotation speeds of spiral galaxies, the q-desic framework predicts trajectories that differ meaningfully from those of standard unquantized relativity.\n\nThe research does not yet claim to resolve the quantum gravity problem, but it offers something the field has badly needed: a potentially testable observable. If the q-desic equation's predictions can be compared against astrophysical data — particularly large-scale structure and galactic dynamics — it could provide a concrete criterion for evaluating which, if any, of the competing quantum gravity theories correctly describes nature. The team plans further analysis to refine the predictions and assess their observational implications, raising the prospect that the long search for empirical signatures of quantum gravity may finally have a viable target.",
+      "category": "physics",
+      "importance": 8,
+      "tags": [
+        "quantum gravity",
+        "general relativity",
+        "geodesics",
+        "cosmological constant",
+        "TU Wien",
+        "dark energy",
+        "spacetime"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-09T05:17:24.604Z"
+    },
+    {
+      "id": "ps-1773033459780-5d0z",
+      "slug": "alphabet-grants-sundar-pichai-a-692-million-pay-package-over",
+      "headline": "Alphabet Grants Sundar Pichai a $692 Million Pay Package Over Three Years",
+      "subheadline": "Most of the Google CEO's compensation is performance-based, with new stock incentives tied to Waymo and Wing",
+      "body": "Alphabet has awarded Google CEO Sundar Pichai a compensation package potentially worth $692 million over three years, a deal that could place him among the highest-paid corporate executives in the world. The structure, disclosed in a regulatory filing first reported by the Financial Times, ties the vast majority of the payout to performance milestones — including novel stock incentives linked to the company's autonomous vehicle unit Waymo and its drone delivery subsidiary Wing.\n\nThe package reflects Alphabet's growing bet on its non-search business lines at a time when the company is racing to defend its core advertising empire against AI-driven competition while simultaneously commercializing its sprawling portfolio of ventures. By anchoring Pichai's compensation to Waymo and Wing, the board appears to be signaling that these units are central to Alphabet's long-term strategy — and that the CEO's fortunes should rise or fall with their success.\n\nPichai has presided over a period of extraordinary value creation since becoming Google's CEO in 2015. Alphabet's market capitalization has grown nearly sevenfold under his leadership, and his personal wealth has swelled accordingly. He and his wife currently hold Alphabet shares worth approximately $500 million, with an estimated $650 million in additional stock sold as of last summer, according to Bloomberg calculations. That trajectory makes the new package less a departure than an extension of Alphabet's longstanding practice of compensating its chief executive primarily through equity.\n\nThe announcement arrives against a backdrop of broader scrutiny of tech billionaire behavior in California. Alphabet co-founders Larry Page and Sergey Brin — ranked among the five wealthiest people on the planet — have recently made headlines for purchasing high-end real estate in Miami, a move widely interpreted as a hedge against California's proposed Billionaire Tax Act. That ballot initiative would impose a one-time 5% levy on net worth exceeding $1 billion for the state's roughly 200 billionaires. Page reportedly spent more than $173 million on two Coconut Grove mansions, while Brin has been linked to purchases totaling $143 million across multiple Miami-area properties. Pichai, by contrast, is understood to remain based in Los Altos, California.\n\nThe scale of Pichai's new deal underscores a widening gap in executive compensation across the tech industry, even as companies face mounting pressure from shareholders, regulators, and the public to justify outsized pay. Whether the performance-linked structure proves to be a meaningful constraint or a formality will depend on targets that Alphabet has not yet fully disclosed.",
+      "category": "business",
+      "importance": 7,
+      "tags": [
+        "Alphabet",
+        "Sundar Pichai",
+        "executive compensation",
+        "Google",
+        "Waymo",
+        "Wing"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
+      "sourceUrl": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-09T05:17:39.780Z"
+    },
+    {
+      "id": "ps-1773033475491-kw9g",
+      "slug": "oil-prices-surge-toward-120-as-iran-conflict-disrupts-middle",
+      "headline": "Oil Prices Surge Toward $120 as Iran Conflict Disrupts Middle East Output",
+      "subheadline": "Strait of Hormuz near-closure and deepening U.S. involvement force major producers to cut production, roiling energy markets",
+      "body": "Crude oil prices rocketed toward $120 per barrel on March 8, as escalating conflict involving Iran choked off critical Middle East production routes and threatened to plunge global energy markets into their most severe supply crisis in years.\n\nThe surge was driven by a confluence of factors: additional production cuts by major Middle East producers, the near-total closure of the Strait of Hormuz — the narrow waterway through which roughly one-fifth of the world's daily oil consumption passes — and signals from Washington that the United States may deepen its involvement in the conflict. The combination has effectively removed millions of barrels of daily supply from global markets at a time when inventories were already under pressure.\n\nThe Strait of Hormuz has long been considered the single most important chokepoint in global energy infrastructure. Its near-closure forces tankers carrying crude from Saudi Arabia, the United Arab Emirates, Kuwait, and Iraq to either halt shipments or seek far longer alternative routes, dramatically increasing transport costs and delivery times. For producers physically located on the Persian Gulf, the disruption has compelled outright production cuts, as storage capacity fills and export options narrow.\n\nThe price spike carries immediate consequences for consumers and central banks worldwide. Energy costs at these levels threaten to reignite inflationary pressures that monetary policymakers have spent years working to contain. Industries reliant on petrochemical feedstocks, transportation fuel, and heating oil face margin compression, while governments in import-dependent nations may be forced to tap strategic reserves or accelerate subsidy spending.\n\nMarket analysts warn that the trajectory could steepen further if the conflict widens. The U.S. threat to escalate its role introduces the possibility of a prolonged disruption rather than a short-lived supply shock. With OPEC+ spare capacity limited and non-Middle East producers unable to quickly compensate for lost barrels, traders are pricing in a risk premium that could keep crude elevated well above $100 for the foreseeable future. The situation marks the most significant geopolitical disruption to oil markets since the supply upheavals of 2022, and its resolution remains deeply uncertain.",
+      "category": "markets",
+      "importance": 9,
+      "tags": [
+        "oil prices",
+        "Iran conflict",
+        "Strait of Hormuz",
+        "energy markets",
+        "Middle East",
+        "crude oil",
+        "geopolitics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1562248370-47eb3262527b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNXx8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzMwMDkxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-09T05:17:55.491Z"
+    },
+    {
+      "id": "ps-1773033491147-rggu",
+      "slug": "crude-oil-s-30-surge-triggers-37m-in-crypto-liquidations",
+      "headline": "Crude Oil's 30% Surge Triggers $37M in Crypto Liquidations",
+      "subheadline": "Tokenized oil contracts on Hyperliquid saw their largest-ever liquidation event as Iran conflict engulfed Gulf oil producers",
+      "body": "A historic crude oil rally driven by a catastrophic escalation of the Iran-Israel conflict wiped out nearly $37 million in short positions on decentralized trading platform Hyperliquid over the weekend, marking the largest single-asset liquidation event for a tokenized commodity product in crypto history.\n\nHyperliquid's CL-USDC contract — a tokenized perpetual future tracking crude oil — surged to $114.77, climbing roughly 20% in 24 hours. A separate USOIL-USDH pair hit $135. Of the approximately $40 million in total oil liquidations recorded by data provider CoinGlass, $36.9 million came from traders who had bet on falling prices. The carnage unfolded over a weekend when traditional commodity exchanges were closed, leaving crypto-native venues as one of the only global platforms offering leveraged crude exposure.\n\nThe catalyst was a rapid deterioration of the Middle East conflict. Iran appointed Mojtaba Khamenei as its new supreme leader after his father was killed in the opening wave of Israeli strikes. Israel followed with fresh attacks on Iranian and Hezbollah infrastructure, while Iranian missiles and drones expanded their target set to Saudi Arabia and Bahrain, striking near Riyadh and hitting energy facilities. Iraq's oil output plummeted roughly 60%, and tanker traffic through the Strait of Hormuz — the chokepoint for roughly one-fifth of the world's oil supply — collapsed. Kuwait and the UAE also curtailed production. Brent and WTI crude reached levels not seen since Russia's invasion of Ukraine in 2022, with the single-day percentage gain on track to be the largest in modern oil market history.\n\nThe oil shock rippled across the broader crypto market, triggering a risk-off selloff that liquidated more than 94,000 traders across all assets. Total crypto liquidations reached $364.4 million in 24 hours, with bitcoin accounting for $156.7 million and ether contributing $70.9 million. Long positions bore the brunt at $215 million versus $149 million in shorts, reflecting a broad retreat from risk assets. Bitcoin fell below $67,000 while the largest single liquidation was a $6.88 million BTC-USD position on Hyperliquid.\n\nThe episode underscores the growing role of crypto perpetual markets as venues for macro trading. Open interest on Hyperliquid's CL-USDC contract stood at $195 million with $570 million in 24-hour volume — figures that would have been inconceivable for a tokenized commodity instrument a year ago. Traders are increasingly drawn to these platforms for their round-the-clock access and lower margin requirements, particularly during weekends when geopolitical events can move markets violently while Chicago and London exchanges remain shuttered. The question now is whether the infrastructure can absorb even larger shocks as adoption accelerates.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "crude oil",
+        "Hyperliquid",
+        "liquidations",
+        "Iran conflict",
+        "crypto markets",
+        "commodities",
+        "bitcoin"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/cc5bfb6aeace73b1720768094851a17bdcd6e462-1500x1000.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/oil-shorts-on-hyperliquid-get-wiped-out-as-crude-surges-30-on-iran-escalation-triggering-usd40-million-in-liquidations",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-09T05:18:11.147Z"
+    },
     {
       "id": "ps-1773032534872-igzs",
       "slug": "oil-surges-past-110-as-iran-conflict-chokes-strait-of-hormuz",
@@ -46,48 +174,6 @@
       "publishedAt": "2026-03-09T05:02:31.299Z"
     },
     {
-      "id": "ps-1773032567901-spzd",
-      "slug": "physicists-derive-quantum-correction-to-einstein-s-geodesics",
-      "headline": "Physicists Derive Quantum Correction to Einstein's Geodesics",
-      "subheadline": "TU Wien team's 'q-desic equation' predicts measurable deviations from general relativity at cosmological scales",
-      "body": "A team of physicists at TU Wien in Vienna has derived a new equation describing how particles move through spacetime when gravity itself is treated as a quantum phenomenon — and the results suggest that at cosmological distances, those paths may diverge significantly from what Einstein's general theory of relativity predicts.\n\nThe work, published in Physical Review D, tackles one of the deepest problems in theoretical physics: the incompatibility between quantum mechanics and general relativity. Lead researcher Benjamin Koch, along with PhD student Ali Riahinia and collaborator Angel Rincón based in the Czech Republic, focused on geodesics — the curved spacetime paths that objects follow under gravity's influence. By replacing the classical metric, which encodes spacetime curvature, with a quantum operator subject to uncertainty principles, the team derived what they call the \"q-desic equation.\" The formulation shows that in a quantum spacetime, particles do not necessarily trace the shortest path between two points as classical geodesics demand.\n\nThe magnitude of the deviation depends critically on what physics is included. For ordinary gravitational fields alone, the corrections amount to roughly 10⁻³⁵ meters — vanishingly small and far beyond experimental reach. But when the researchers incorporated the cosmological constant, the term in Einstein's equations associated with dark energy and the accelerating expansion of the universe, the picture changed dramatically. At distances on the order of 10²¹ meters — comparable to intergalactic scales — the quantum-corrected trajectories diverge substantially from their classical counterparts. At intermediate scales, such as planetary orbits, the two predictions remain effectively identical.\n\nThe finding is significant because the search for quantum gravity has long been hampered by the absence of observable signatures that could distinguish between competing frameworks, including string theory, loop quantum gravity, and asymptotically safe gravity. Koch likened the challenge to the Cinderella fairy tale: multiple candidates exist, but no measurable \"glass slipper\" has emerged to identify the correct one. The q-desic equation could provide exactly that kind of discriminating test, particularly if its predictions can be compared against cosmological observations where general relativity already faces unresolved puzzles, such as the anomalous rotation speeds of spiral galaxies.\n\nThe researchers quantized the metric for a specific but physically important case — a spherically symmetric, time-independent gravitational field, akin to the Sun's gravity — and carefully addressed the mathematical subtlety of whether replacing a quantum metric operator with its expectation value is valid. Their conclusion: it is not always permissible, and the resulting corrections are physically meaningful. Koch noted that the large-scale deviations were unexpected and that further analysis is needed, but expressed optimism that the framework could yield observationally testable insights into some of cosmology's most persistent mysteries.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "quantum gravity",
-        "general relativity",
-        "geodesics",
-        "cosmological constant",
-        "TU Wien",
-        "dark energy"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/quantum-geodesics.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260308201613.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-09T05:02:47.901Z"
-    },
-    {
-      "id": "ps-1773032582075-matu",
-      "slug": "alphabet-awards-sundar-pichai-a-692-million-pay-package-over",
-      "headline": "Alphabet Awards Sundar Pichai a $692 Million Pay Package Over Three Years",
-      "subheadline": "Most of the Google CEO's compensation is performance-based, with new stock incentives tied to Waymo and Wing",
-      "body": "Alphabet has structured a three-year compensation package for Google CEO Sundar Pichai potentially worth $692 million, a deal that would place him among the highest-paid corporate executives in the world. The arrangement, disclosed in a regulatory filing first reported by the Financial Times on March 7, ties the bulk of the payout to performance targets — including new stock-based incentives linked to the company's autonomous driving unit Waymo and its drone delivery venture Wing.\n\nThe package reflects Alphabet's growing confidence in its bets beyond search and advertising, while also underscoring the enormous wealth generation that has accompanied the company's expansion under Pichai's leadership. Since he assumed the CEO role in 2015, Google's parent company has seen its market capitalization grow nearly sevenfold. Pichai and his wife currently hold Alphabet shares worth approximately $500 million, with an estimated $650 million in additional stock sold as of last summer, according to Bloomberg calculations.\n\nThe compensation deal arrives at an interesting moment for Alphabet's leadership class. While Pichai remains based in Los Altos, California, the company's co-founders Larry Page and Sergey Brin — ranked as the second- and fourth-wealthiest people globally — have been making headlines for high-profile real estate purchases in Miami. Page reportedly spent more than $173 million on two Coconut Grove mansions, while Brin has been linked to a $51 million property in addition to two earlier acquisitions totaling $92 million. The buying spree is widely interpreted as a strategic response to California's proposed Billionaire Tax Act, a ballot initiative that would impose a one-time 5% levy on net worth exceeding $1 billion, targeting roughly 200 of the state's wealthiest residents.\n\nPichai's package is notable not just for its size but for its structure. By connecting a significant portion of the CEO's compensation to the performance of Waymo and Wing, Alphabet's board is signaling that these subsidiaries are central to the company's long-term strategy — and that Pichai is being held personally accountable for their success. Waymo has been expanding its robotaxi operations in several U.S. cities, while Wing has been scaling commercial drone deliveries internationally.\n\nThe deal places Pichai in rare corporate air, though performance-linked CEO packages of this magnitude have become more common among tech giants competing for top talent. Whether the full value materializes will depend on Alphabet's stock performance and the trajectory of its most ambitious subsidiaries over the next three years.",
-      "category": "business",
-      "importance": 7,
-      "tags": [
-        "Sundar Pichai",
-        "Alphabet",
-        "Google",
-        "executive compensation",
-        "Waymo",
-        "Wing"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?resize=1200,800",
-      "sourceUrl": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-09T05:03:02.075Z"
-    },
-    {
       "id": "ps-1773032597737-hyfm",
       "slug": "global-bond-markets-slide-as-surging-oil-prices-revive-stagf",
       "headline": "Global Bond Markets Slide as Surging Oil Prices Revive Stagflation Fears",
@@ -107,48 +193,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-09/global-bond-selloff-deepens-as-oil-jump-stokes-stagflation-fear",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-09T05:03:17.737Z"
-    },
-    {
-      "id": "ps-1773032613089-fs1f",
-      "slug": "crude-oil-surges-30-triggering-37m-in-crypto-liquidations",
-      "headline": "Crude Oil Surges 30%, Triggering $37M in Crypto Liquidations",
-      "subheadline": "Tokenized oil shorts on Hyperliquid were obliterated as Iran-Israel conflict expanded to Saudi Arabia and Gulf oil infrastructure",
-      "body": "A historic surge in crude oil prices, fueled by a dramatic escalation of the Iran-Israel conflict over the weekend, wiped out nearly $37 million in short positions on the crypto trading platform Hyperliquid, underscoring the growing role of tokenized commodity markets in global macro trading.\n\nCrude oil jumped roughly 30% — on track for the largest single-day percentage gain in the history of the oil market — after a weekend of rapidly deteriorating geopolitical conditions. Iran's supreme leader was killed in an opening wave of Israeli strikes, prompting the appointment of his son Mojtaba Khamenei as successor. Israel followed with fresh attacks on Iranian and Hezbollah infrastructure, while Iranian missiles and drones struck targets in Saudi Arabia and Bahrain, killing two people near Riyadh and hitting energy installations. Iraq's oil output plunged approximately 60%, and Kuwait and the UAE cut production as tanker traffic through the Strait of Hormuz collapsed. Brent and WTI reached levels not seen since Russia's 2022 invasion of Ukraine.\n\nOn Hyperliquid, the CL-USDC tokenized oil contract spiked to $114.77, up nearly 20% in 24 hours, while the USOIL-USDH pair reached $135. Of the roughly $40 million in total liquidations on Hyperliquid's oil contracts, $36.9 million came from short positions — making it one of the platform's largest single-asset liquidation events outside of bitcoin and ether. Open interest on the CL-USDC contract stood at $195 million with $570 million in daily volume, figures that would have been nearly inconceivable for a tokenized commodity product a year ago.\n\nThe broader crypto market suffered its own wave of pain. According to CoinGlass data, more than 94,000 traders were liquidated across crypto venues over 24 hours, with total losses reaching $364.4 million. Bitcoin, which fell below $66,000, accounted for $156.7 million in liquidations, while ether contributed $70.9 million and solana added $19.8 million. Unlike the oil market, where shorts bore the brunt, crypto liquidations skewed toward long positions — $215 million versus $149 million — reflecting a broad risk-off move as investors fled speculative assets. The single largest liquidation was a $6.88 million bitcoin position on Hyperliquid.\n\nThe episode highlights a structural shift in how traders express macro views. Crypto perpetual markets now offer 24/7 access to commodities like oil and metals with lower margin requirements than traditional futures exchanges. When geopolitical events unfold on weekends — when the CME and ICE are closed — platforms like Hyperliquid become among the only venues in the world offering leveraged crude exposure. That accessibility cuts both ways: it provides opportunity for the nimble and destruction for the overleveraged.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "crude oil",
-        "Hyperliquid",
-        "liquidations",
-        "Iran-Israel conflict",
-        "tokenized commodities",
-        "crypto markets",
-        "bitcoin"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/cc5bfb6aeace73b1720768094851a17bdcd6e462-1500x1000.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/09/oil-shorts-on-hyperliquid-get-wiped-out-as-crude-surges-30-on-iran-escalation-triggering-usd40-million-in-liquidations",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-09T05:03:33.089Z"
-    },
-    {
-      "id": "ps-1773031638219-ak71",
-      "slug": "new-method-claims-million-fold-speedup-in-molecular-boltzman",
-      "headline": "New Method Claims Million-Fold Speedup in Molecular Boltzmann Sampling",
-      "subheadline": "Force-guided 'drifting models' generate molecular conformations in a single step, bypassing slow iterative simulations",
-      "body": "A new computational technique promises to dramatically accelerate one of the most fundamental tasks in computational chemistry — sampling molecular conformations from the Boltzmann distribution — achieving what its author describes as a million-fold speedup over traditional molecular dynamics simulations.\n\nThe method, introduced by researcher Pipi Hu in a preprint posted to arXiv on February 26, adapts so-called \"drifting models\" to molecular conformation generation for the first time. Unlike conventional diffusion-based approaches that require many iterative steps to generate physically realistic molecular structures, drifting models can produce results in a single step. The key innovation lies in a theoretical framework the paper calls the \"Drifting Score Identity,\" which establishes a mathematical bridge between the model's generative process and the true Boltzmann distribution that governs molecular behavior at thermal equilibrium. By incorporating molecular force labels — which directly encode information about the Boltzmann distribution — the method corrects for biases that would otherwise cause the generated samples to deviate from physical reality.\n\nOne of the paper's more unexpected findings involves what Hu describes as a \"striking phenomenon\" in which the effectiveness of force incorporation reverses depending on the mathematical representation used. In coordinate space, an approach called Force-Interpolated Drifting works best by blending physical force directions with data displacements. In distance feature space, however, a different technique — Force-Aligned Kernel — proves superior by modifying only kernel weights while preserving the geometric validity of generated molecules. The complementary nature of these two regimes suggests that the underlying physics imposes representation-dependent constraints on how machine learning models can most effectively leverage force information.\n\nBenchmarked on the MD17 Ethanol dataset, a standard testbed in the field, both approaches achieved one-step generation with more than a thousand-fold speedup relative to recent score-matching methods that use Boltzmann guiding, and more than a million-fold acceleration compared to brute-force molecular dynamics. Critically, the generated structures maintained perfect structural validity and distributional accuracy comparable to more expensive multi-step methods.\n\nIf the results hold up under broader scrutiny and generalize to larger, more complex molecular systems, the technique could have significant implications for drug discovery, materials science, and any field where rapid exploration of molecular configuration space is essential. Boltzmann sampling underpins calculations of thermodynamic properties, binding affinities, and reaction pathways, all of which currently demand enormous computational resources. Reducing that cost by orders of magnitude could open new avenues for molecular design that are currently intractable even on modern supercomputers.",
-      "category": "physics",
-      "importance": 6,
-      "tags": [
-        "Boltzmann sampling",
-        "molecular dynamics",
-        "computational chemistry",
-        "machine learning",
-        "generative models"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1711410498845-ee110120e788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8Qm9sdHptYW5uJTIwc2FtcGxpbmclMjBtb2xlY3VsYXIlMjBkeW5hbWljc3xlbnwwfDB8fHwxNzczMDMxNjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.05527",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-09T04:47:18.219Z"
     },
     {
       "id": "ps-1773031699815-nm3r",
@@ -216,27 +260,6 @@
       "publishedAt": "2026-03-09T04:17:32.999Z"
     },
     {
-      "id": "ps-1773028948562-2ssi",
-      "slug": "mojtaba-khamenei-named-iran-s-new-supreme-leader-after-fathe",
-      "headline": "Mojtaba Khamenei Named Iran's New Supreme Leader After Father's Death",
-      "subheadline": "The 56-year-old, long rumored as a behind-the-scenes power broker, inherits a nation under military siege and economic crisis",
-      "body": "Iran's Assembly of Experts has selected Mojtaba Khamenei as the country's new supreme leader, elevating the 56-year-old son of Ayatollah Ali Khamenei — who was killed in recent US-Israeli strikes — to the most powerful position in the Islamic Republic. The appointment marks the first hereditary transfer of supreme leadership in the republic's history, a development that cuts against the founding ideology of a state born from the overthrow of monarchy in 1979.\n\nMojtaba Khamenei has never held government office, given a public speech, or sat for an interview. Yet US diplomatic cables published by WikiLeaks more than a decade ago described him as \"the power behind the robes,\" a figure widely regarded within the regime as \"capable and forceful.\" His name first surfaced publicly during the contested 2005 presidential election, when reformist candidate Mehdi Karroubi accused him of mobilizing elements of the Islamic Revolutionary Guard Corps and the Basij militia to secure victory for hardliner Mahmoud Ahmadinejad. Similar accusations followed after the disputed 2009 re-election that sparked the mass Green Movement protests, during which demonstrators chanted slogans opposing the idea of a Khamenei dynasty.\n\nThe new supreme leader's religious credentials present an immediate challenge to his legitimacy. A mid-ranking cleric who did not begin seminary studies in Qom until the age of 30, Mojtaba lacks the scholarly standing traditionally expected of the position. In recent days, media outlets and officials aligned with Iran's power centers have begun referring to him as \"Ayatollah\" — a senior clerical title — in what observers interpret as a deliberate effort to bolster his credentials. There is precedent for such expedience: Ali Khamenei himself was rapidly promoted to the Ayatollah rank upon becoming supreme leader in 1989.\n\nMojtaba inherits a nation in profound crisis. The ongoing US-Israeli military campaign has struck oil depots in Tehran and Karaj, and the broader conflict has engulfed much of the Middle East over the past nine days, with strikes across Iran and Lebanon. He has lost not only his father but reportedly his mother and wife in the strikes — personal losses that analysts say make any rapprochement with Western powers exceedingly unlikely. Israel's defense minister warned last week that whoever succeeds Ali Khamenei would be \"an unequivocal target for elimination.\"\n\nThe selection is expected to deepen tensions both domestically and internationally. Many Iranians already view the Islamic Republic as economically devastated and politically exhausted, and the perception of hereditary succession could further erode public trust in the system's legitimacy. Whether Mojtaba Khamenei can consolidate authority, manage the war footing, and hold the regime together represents one of the most consequential tests of leadership in Iran's modern history.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran",
-        "Mojtaba Khamenei",
-        "supreme leader",
-        "Middle East conflict",
-        "US-Israel strikes",
-        "Iran succession"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/7ae4/live/262c84f0-1878-11f1-8f1d-d7bdb1ea156f.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-09T04:02:28.562Z"
-    },
-    {
       "id": "ps-1773028964128-sfxx",
       "slug": "machine-learning-meets-quantum-chemistry-in-new-density-matr",
       "headline": "Machine Learning Meets Quantum Chemistry in New Density Matrix Method",
@@ -256,27 +279,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.05524",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-09T04:02:44.128Z"
-    },
-    {
-      "id": "ps-1773029011068-48mf",
-      "slug": "oil-surges-toward-120-as-iran-conflict-disrupts-middle-east-",
-      "headline": "Oil Surges Toward $120 as Iran Conflict Disrupts Middle East Supply",
-      "subheadline": "Strait of Hormuz effectively shuttered as major producers cut output and U.S. threatens escalation",
-      "body": "Crude oil prices surged toward $120 per barrel on Sunday as the widening conflict involving Iran forced additional Middle East producers to curtail output, with the critical Strait of Hormuz — the world's most important oil chokepoint — remaining virtually closed to tanker traffic.\n\nThe price spike marks a dramatic escalation in energy market turmoil driven by the ongoing military conflict, which has now disrupted the narrow waterway through which roughly one-fifth of the world's daily petroleum consumption typically flows. Multiple major regional producers have been compelled to reduce production as the crisis deepens, compounding supply fears that have gripped global markets for weeks. The United States has signaled it may deepen its involvement in the conflict, a prospect that has further rattled traders and energy analysts.\n\nThe near-closure of the Strait of Hormuz represents one of the most severe supply disruptions in decades, eclipsing previous episodes of regional tension that briefly threatened but never fully interrupted passage through the strait. Saudi Arabia, the UAE, Kuwait, Iraq, and Qatar all rely on the waterway to export oil and liquefied natural gas to global markets. With tanker traffic effectively halted, the loss of available crude has sent shockwaves through commodity exchanges and raised the specter of sustained triple-digit oil prices not seen since the aftermath of Russia's invasion of Ukraine in 2022.\n\nThe implications extend well beyond energy markets. Sustained prices near $120 a barrel would sharply increase fuel costs for consumers and businesses worldwide, threatening to reignite inflationary pressures that central banks had only recently brought under control. Economists have warned that a prolonged disruption could shave significant points off global GDP growth, with particularly severe consequences for energy-importing nations in Europe and Asia.\n\nStrategic petroleum reserves in the United States, Europe, and Asia could provide a temporary buffer, but analysts caution that these stockpiles are not designed to offset a major supply disruption lasting more than a few months. The Biden administration faces mounting pressure to both manage the geopolitical crisis and shield American consumers from the economic fallout. How the conflict evolves in the coming days — and whether diplomatic channels can reopen the strait — will likely determine whether oil markets stabilize or push into even more extreme territory.",
-      "category": "markets",
-      "importance": 9,
-      "tags": [
-        "oil prices",
-        "Iran conflict",
-        "Strait of Hormuz",
-        "energy markets",
-        "Middle East",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1693139062697-f5f8663217fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwzfHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwY29uZmxpY3R8ZW58MHwwfHx8MTc3MzAyMzU4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-08/latest-oil-market-news-and-analysis-for-march-9",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-09T04:03:31.068Z"
     },
     {
       "id": "ps-1773027129328-v7m9",
