@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-12T11:48:09.180Z",
+  "lastUpdated": "2026-03-12T12:03:14.982Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773316013027-gphc",
-      "slug": "police-scotland-fined-66-000-for-sharing-rape-accuser-s-data",
-      "headline": "Police Scotland Fined £66,000 for Sharing Rape Accuser's Data With Suspect",
+      "id": "ps-1773316918396-vob4",
+      "slug": "police-scotland-fined-66-000-for-sharing-rape-accuser-s-phon",
+      "headline": "Police Scotland Fined £66,000 for Sharing Rape Accuser's Phone Data With Suspect",
       "subheadline": "UK data watchdog found the force handed intimate images and medical records to the officer accused of sexual assault",
-      "body": "Police Scotland has been fined £66,000 by the United Kingdom's Information Commissioner's Office after the force shared the complete contents of a detective's phone — including intimate images and medical records — with the colleague she had accused of rape.\n\nDetective Constable Lianne Gilbert, 34, reported domestic abuse allegations including serious sexual assault against a fellow officer in 2020. As part of the investigation, police extracted data from her phone. But when a misconduct inquiry was conducted two years later, the full unredacted contents were included in a disclosure bundle and handed to the accused officer, his lawyer, and his Scottish Police Federation representative. The ICO found that much of the data collected had \"no bearing on the investigation\" and that the force failed to put safeguards in place to prevent access to irrelevant material. Police Scotland also failed to report the breach to the ICO within the legally required 72-hour window — and Gilbert later discovered the force had never formally notified the watchdog at all.\n\nGilbert, who waived her right to anonymity, described the experience as devastating. She had a five-month-old baby when the breach occurred and has since been diagnosed with post-traumatic stress disorder. \"I felt completely violated,\" she told BBC Scotland News, adding that she was distressed at the thought of her alleged rapist having unrestricted access to intimate images on any device. The officer she accused has not been charged, and the case remains active.\n\nSally-Anne Poole, the ICO's head of investigations, said Police Scotland \"failed in its obligation to safeguard the personal information of someone who had reached out to them for help\" and instead \"exposed them to further risk and distress.\" The watchdog said it considered the severity of the breach, the sensitivity of the data, and the impact on Gilbert when calculating the penalty, while also reducing the fine to avoid disproportionate harm to public services.\n\nDeputy Chief Constable Alan Speirs said the force has apologized and taken \"substantive steps\" to strengthen data-handling processes, improve staff training, and increase oversight. Gilbert said she has not accepted the apology. \"I don't think it's good enough,\" she said. The case raises broader questions about how police forces handle sensitive digital evidence, particularly in complaints brought by officers against their own colleagues, and whether existing safeguards adequately protect accusers from secondary victimization through data mishandling.",
+      "body": "Police Scotland has been fined £66,000 by the UK's Information Commissioner's Office after the force shared the complete contents of a detective's phone — including intimate images and medical records — with a colleague she had accused of rape.\n\nDet. Con. Lianne Gilbert, 34, who has waived her right to anonymity, reported domestic abuse allegations including serious sexual assault against a fellow officer in 2020. During the extraction of data from her phone as part of the investigation, Police Scotland collected what the ICO described as \"a substantial volume of highly sensitive information, much of which had no bearing on the investigation.\" That data was then included, entirely unredacted, in a misconduct disclosure bundle and handed to the accused officer, his lawyer, and his Scottish Police Federation representative — without Gilbert's knowledge.\n\nGilbert, who had a five-month-old baby at the time of the breach, said she only learned of it in June 2022 when an SPF representative called to offer support, unaware that Police Scotland had never informed her. \"I felt completely violated,\" she told BBC Scotland News, noting that the accused officer was given access to the data on physical discs with no restrictions on how or where he could view them. Gilbert, who has since been diagnosed with PTSD, called the force's subsequent apology inadequate. The officer she accused has not been charged, and the case remains open.\n\nThe ICO's investigation uncovered multiple failures. Police Scotland did not implement sufficient safeguards to filter out irrelevant personal information during the data extraction process. It then disclosed the full unredacted dataset to parties who should never have received it. Perhaps most damning, the force failed to report the data breach to the ICO within the legally mandated 72-hour window — and Gilbert later discovered that Police Scotland had never reported it at all, despite leading her to believe otherwise.\n\nSally-Anne Poole, ICO head of investigations, said the force \"failed in its obligation to safeguard the personal information of someone who had reached out to them for help,\" exposing the victim to \"further risk and distress.\" The ICO noted it reduced the fine from what might otherwise have been assessed, taking into account Police Scotland's status as a public body and the potential impact on public services. Deputy Chief Constable Alan Speirs said the force has taken \"organisational learning\" from the incident and has strengthened its data-handling processes, training, and oversight. Gilbert, however, remains unconvinced. \"I don't think it's good enough,\" she said.",
       "category": "breaking",
       "importance": 7,
       "tags": [
@@ -16,12 +16,119 @@
         "ICO",
         "sexual assault",
         "privacy breach",
-        "law enforcement accountability"
+        "UK policing"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/1250/live/559d3ab0-1d76-11f1-a77a-39b849d4606b.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cq8g9e812z3o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-12T11:46:53.027Z"
+      "publishedAt": "2026-03-12T12:01:58.396Z"
+    },
+    {
+      "id": "ps-1773316933134-o4f1",
+      "slug": "deep-neural-networks-tackle-decades-old-nmr-measurement-prob",
+      "headline": "Deep Neural Networks Tackle Decades-Old NMR Measurement Problem",
+      "subheadline": "Researchers demonstrate first application of machine learning to polarized target NMR, reducing noise and improving precision in nuclear and particle physics experiments",
+      "body": "A team of physicists has for the first time applied deep neural network architectures to continuous-wave nuclear magnetic resonance (CW-NMR) polarization measurements, addressing long-standing challenges with noise, signal drift, and systematic uncertainties that have plagued scattering experiments for decades.\n\nThe work, published on arXiv by Devin Seay, Ishara P. Fernando, and Dustin Keller, targets a critical bottleneck in experiments that use dynamically polarized solid-state targets — a staple of nuclear and high-energy physics research. These experiments rely on CW-NMR operated in constant-current mode to measure target polarization in real time, but conventional Q-meter-based detection systems have long struggled with elevated noise levels and baseline drift that degrade the precision of results. The fitting uncertainties introduced during signal isolation and analysis compound the problem, ultimately reducing the overall figure of merit — the key performance metric — for entire scattering campaigns.\n\nBy deploying advanced machine learning techniques for signal extraction and denoising, the researchers report a substantial reduction in fitting uncertainties across both realistic simulated conditions and actual experimental data. The improvements apply to both real-time (online) polarization monitoring during active beam runs and to the more careful offline analyses performed after data collection. This dual benefit is significant because online measurements guide experimental decisions in real time, while offline precision determines the final quality of published physics results.\n\nThe methodology could have broad implications for facilities that rely on polarized targets, including Jefferson Lab and other major accelerator complexes where dynamically polarized targets are used to probe the internal structure of protons and neutrons. Polarization measurement accuracy directly affects the extracted physics observables in these experiments, making any improvement in the figure of merit consequential for the field. The authors frame their approach as establishing a new class of tools for NMR-based polarimetry, suggesting the technique could become a standard part of the experimental toolkit.\n\nWhile the paper represents a proof of concept, the demonstrated gains in both precision and robustness position neural network-enhanced NMR as a practical upgrade path for existing and planned polarized target programs in nuclear and particle physics.",
+      "category": "physics",
+      "importance": 5,
+      "tags": [
+        "nuclear magnetic resonance",
+        "deep learning",
+        "polarized targets",
+        "nuclear physics",
+        "instrumentation"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1754535307429-464f6b46cf5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMnx8bnVjbGVhciUyMG1hZ25ldGljJTIwcmVzb25hbmNlJTIwZGVlcCUyMGxlYXJuaW5nfGVufDB8MHx8fDE3NzMzMTY5MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.10146",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-12T12:02:13.134Z"
+    },
+    {
+      "id": "ps-1773316948076-odl6",
+      "slug": "new-blood-test-detects-alzheimer-s-by-reading-protein-shape-",
+      "headline": "New Blood Test Detects Alzheimer's by Reading Protein Shape, Not Quantity",
+      "subheadline": "Scripps Research team achieves 93% accuracy distinguishing healthy individuals from those with mild cognitive impairment",
+      "body": "A team at Scripps Research has developed a novel blood test that detects Alzheimer's disease not by measuring protein levels — the standard approach — but by analyzing how blood proteins are physically folded. The method, published February 27 in Nature Aging, distinguished healthy individuals from those with mild cognitive impairment with greater than 93% accuracy in a study of 520 participants.\n\nConventional Alzheimer's blood tests quantify amyloid beta and phosphorylated tau, proteins long associated with the disease's hallmark brain plaques and tangles. The new approach takes a fundamentally different tack. Using mass spectrometry and machine learning, researchers led by senior author John Yates, a professor at Scripps Research, mapped structural changes — how exposed or buried specific amino acid sites were — across proteins circulating in participants' plasma. The underlying hypothesis: if the brain's protein-maintenance system, known as proteostasis, is breaking down in Alzheimer's patients, those structural disruptions should leave detectable signatures in the bloodstream.\n\nThe data confirmed the idea. Three proteins emerged as especially powerful markers: C1QA, involved in immune signaling; clusterin, which assists in protein folding and amyloid clearance; and apolipoprotein B, a fat-transport molecule linked to vascular health. Changes at specific lysine sites on these three proteins enabled researchers to classify participants as cognitively normal, mildly impaired, or diagnosed with Alzheimer's at roughly 83% overall accuracy. In head-to-head comparisons between two groups, accuracy exceeded 93%. \"The correlation was amazing,\" said co-author Casimir Bamberger, a senior scientist at Scripps Research. \"It was very surprising to find three lysine sites on three different proteins that correlate so highly with disease state.\"\n\nCritically, the test proved reliable over time. When researchers re-analyzed blood samples collected months after the initial draw, the three-protein panel identified disease status at about 86% accuracy and tracked shifts in diagnosis. The structural score also correlated strongly with cognitive test performance and moderately with MRI-measured brain shrinkage, suggesting it captures biologically meaningful disease progression rather than a statistical artifact.\n\nThe findings carry significant clinical implications for the estimated 7.2 million Americans aged 65 and older living with Alzheimer's. \"Detecting markers of Alzheimer's early is absolutely critical to developing effective therapeutics,\" Yates said. \"If treatment can start before significant damage has been done, it may be possible to better preserve long-term memory.\" Larger, longer-term validation studies are needed before the test reaches clinical use, but the team is already exploring whether the same structural profiling technique could extend to Parkinson's disease and cancer. The study, supported by National Institutes of Health grants, included collaborators at the University of Kansas Medical Center and the University of California San Diego.",
+      "category": "science",
+      "importance": 7,
+      "tags": [
+        "Alzheimer's disease",
+        "blood test",
+        "protein folding",
+        "biomarkers",
+        "Scripps Research",
+        "early diagnosis",
+        "Nature Aging"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/protein-shapes-track-alzheimers-progression.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260312020104.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-12T12:02:28.076Z"
+    },
+    {
+      "id": "ps-1773316962469-jd38",
+      "slug": "google-taps-gemini-ai-and-millions-of-news-articles-to-forec",
+      "headline": "Google Taps Gemini AI and Millions of News Articles to Forecast Flash Floods",
+      "subheadline": "A novel dataset called 'Groundsource' mines 5 million news reports to fill critical gaps in flood prediction for 150 countries",
+      "body": "Google has developed a novel approach to one of meteorology's most stubborn challenges — predicting flash floods — by using its Gemini large language model to extract structured data from millions of news articles spanning the globe.\n\nFlash floods kill more than 5,000 people annually and have long defied accurate forecasting because they are too brief and localized to be captured by conventional weather monitoring networks. That data scarcity has left deep learning models, which have made impressive strides in broader weather prediction, largely blind to flash flood risk. To close the gap, Google researchers directed Gemini to comb through 5 million news reports worldwide, identifying 2.6 million distinct flood events and converting them into a geo-tagged time series called Groundsource — the first dataset of its kind built by a language model, according to Gila Loike, a Google Research product manager. Both the research and the dataset were released publicly on Thursday.\n\nWith Groundsource serving as ground truth, the team trained a Long Short-Term Memory (LSTM) neural network that ingests global weather forecasts and outputs flash flood probability estimates for specific areas. The model is now operational on Google's Flood Hub platform, flagging risks for urban zones across 150 countries and sharing alerts with emergency response agencies. António José Beleza, an emergency official at the Southern African Development Community, said the tool helped his organization mobilize faster during recent flooding events.\n\nThe system has clear limitations. Its spatial resolution is relatively coarse, covering 20-square-kilometer zones, and it lacks the precision of the U.S. National Weather Service's alert system, which benefits from local radar data for real-time precipitation tracking. But Google's researchers say those trade-offs are intentional: the model was designed for regions where governments cannot afford sophisticated sensing infrastructure or lack deep meteorological archives. \"Because we're aggregating millions of reports, the Groundsource dataset actually helps rebalance the map,\" said Juliet Rothenberg, a program manager on Google's Resilience team. \"It enables us to extrapolate to other regions where there isn't as much information.\"\n\nThe broader significance may lie in the methodology itself. Rothenberg said the team envisions applying the same technique — using LLMs to build quantitative datasets from qualitative written sources — to other hard-to-forecast phenomena such as heat waves and mudslides. Marshall Moutenot, CEO of Upstream Tech and co-founder of dynamical.org, a nonprofit curating machine-learning-ready weather data, called the work a creative solution to a fundamental bottleneck. \"Data scarcity is one of the most difficult challenges in geophysics,\" Moutenot said. \"There's too much Earth data, and then when you want to evaluate against truth, there's not enough.\"",
+      "category": "tech",
+      "importance": 7,
+      "tags": [
+        "Google",
+        "AI",
+        "flash floods",
+        "Gemini",
+        "climate resilience",
+        "deep learning",
+        "weather forecasting"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-7.14.04-PM.png?resize=1200,757",
+      "sourceUrl": "https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-12T12:02:42.469Z"
+    },
+    {
+      "id": "ps-1773316980596-ncnz",
+      "slug": "saudi-arabia-s-top-oil-shipper-amasses-tanker-fleet-to-bypas",
+      "headline": "Saudi Arabia's Top Oil Shipper Amasses Tanker Fleet to Bypass Hormuz Strait",
+      "subheadline": "Bahri and other carriers are booking vessels at surging rates as crude shipments reroute through the Red Sea",
+      "body": "Saudi Arabia's national shipping company has been securing oil tankers at sharply elevated charter rates as the kingdom mobilizes a large-scale fleet to load crude from Red Sea ports, circumventing the paralyzed Strait of Hormuz chokepoint, according to a Bloomberg report published Wednesday.\n\nThe move by Bahri, Saudi Arabia's largest oil shipping firm, underscores the severity of the disruption at Hormuz, the narrow waterway between Oman and Iran through which roughly one-fifth of the world's daily petroleum consumption normally transits. With passage through the strait at a standstill, Riyadh is leveraging its east-west pipeline infrastructure — particularly the 746-mile East-West Pipeline, which connects oil fields in the Eastern Province to the Yanbu terminal on the Red Sea coast — to keep barrels flowing to global markets. The pipeline has a capacity of approximately five million barrels per day, though it has historically operated well below that level.\n\nThe scramble for tanker capacity has sent charter rates soaring as Bahri and other carriers compete to lock in vessels capable of loading at Red Sea terminals. The emerging armada represents one of the most significant logistical pivots in recent oil market history, effectively rerouting Saudi crude exports away from the Persian Gulf and toward Mediterranean and European buyers via the Suez Canal, while also maintaining access to Asian markets via the Bab el-Mandeb strait at the Red Sea's southern entrance.\n\nThe bypass strategy carries its own risks. Red Sea shipping has faced intermittent security threats in recent years, and funneling a substantially larger volume of tanker traffic through the corridor could create congestion at key ports and canal transit points. Longer voyage distances for Asia-bound cargoes — Saudi Arabia's largest export market — would also add transit time and cost, potentially widening crude price differentials between grades.\n\nFor global oil markets, the Hormuz workaround provides a partial pressure valve but falls short of fully replacing the strait's massive throughput capacity, which serves not only Saudi Arabia but also Iraq, Kuwait, the United Arab Emirates, and Qatar. Analysts will be watching whether the rerouting effort stabilizes supply expectations or whether the prolonged closure of Hormuz continues to inject volatility into crude benchmarks already trading at elevated levels.",
+      "category": "business",
+      "importance": 8,
+      "tags": [
+        "Saudi Arabia",
+        "oil shipping",
+        "Strait of Hormuz",
+        "Bahri",
+        "tanker rates",
+        "Red Sea",
+        "energy logistics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1694018359679-49465b4c0d61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw4fHxTYXVkaSUyMEFyYWJpYSUyMG9pbCUyMHNoaXBwaW5nfGVufDB8MHx8fDE3NzMzMTY5ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/saudi-oil-tanker-giant-snaps-up-ships-for-hormuz-workaround",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-12T12:03:00.596Z"
+    },
+    {
+      "id": "ps-1773316994909-3usm",
+      "slug": "across-protocol-proposes-dissolving-dao-to-form-u-s-corporat",
+      "headline": "Across Protocol Proposes Dissolving DAO to Form U.S. Corporation",
+      "subheadline": "ACX token surges 80% as bridging protocol offers holders equity swap or USDC buyout at 25% premium",
+      "body": "In what may be one of the most significant reversals of the decentralized governance model, cross-chain bridging protocol Across has proposed dissolving its token and DAO structure to reorganize as a traditional U.S. C-corporation — sending its ACX token soaring roughly 80% on Wednesday.\n\nThe proposal, published as a non-binding \"temp check\" on March 12, would create a new entity called AcrossCo to hold all protocol intellectual property and manage development. Token holders would face two options: convert their ACX into equity in the new corporation at a 1:1 token-to-share ratio, or accept a USDC buyout at $0.04375 per token — a 25% premium over the previous 30-day average trading price. ACX had been trading near $0.033 before the announcement, then spiked to $0.07 before settling around $0.06, well above the proposed buyout floor.\n\nRisk Labs, the team behind Across, cited institutional friction as the primary motivation. \"The token and DAO structure has materially impacted our ability to close partnerships and integrations,\" the proposal stated, arguing that a traditional legal entity would make it far easier to enter enforceable contracts and structure revenue agreements. The team also described ACX as \"significantly undervalued\" at current levels, framing the restructuring as an opportunity to unlock growth that the decentralized governance model has been suppressing.\n\nThe mechanics offer tiered access to equity. Holders with more than 5 million ACX can convert directly to shares, while smaller holders can participate through a no-fee special purpose vehicle with a minimum threshold of 250,000 tokens — roughly $10,000 at current prices. Those opting for the USDC buyout would have a six-month window beginning within three months of the proposal's passage, funded by the protocol's liquid reserves. A community call is scheduled for March 18, with formal discussion running through March 25 and a binding Snapshot vote set for March 26.\n\nThe market response was extraordinary: 24-hour trading volume hit $149 million, approximately 3.5 times ACX's entire market capitalization. The fact that the token now trades significantly above the proposed buyout price suggests traders are betting either on a sweetened offer or that the equity conversion path carries substantially more upside. The proposal strikes at a foundational assumption of the DeFi movement — that decentralized autonomous organizations represent a superior governance model. If the vote passes and conversion begins in early April as planned, Across would become one of the first major protocols to formally abandon the DAO experiment in favor of the corporate structures that crypto was originally built to circumvent.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Across Protocol",
+        "ACX",
+        "DAO",
+        "DeFi",
+        "corporate restructuring",
+        "cryptocurrency"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/977de5c14b6e977260eb26a7b9ac2fbc8e865914-1919x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/12/across-s-acx-rockets-80-massively-beating-bitcoin-on-plans-to-dump-its-dao-structure",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-12T12:03:14.909Z"
     },
     {
       "id": "ps-1773316028495-lmgk",
@@ -44,50 +151,6 @@
       "publishedAt": "2026-03-12T11:47:08.495Z"
     },
     {
-      "id": "ps-1773316043661-qfxx",
-      "slug": "new-blood-test-detects-alzheimer-s-by-reading-protein-shapes",
-      "headline": "New Blood Test Detects Alzheimer's by Reading Protein Shapes, Not Levels",
-      "subheadline": "Scripps Research team achieves 93% accuracy distinguishing healthy individuals from those with cognitive impairment",
-      "body": "A research team at Scripps Research has developed a novel blood test that detects Alzheimer's disease not by measuring protein concentrations—the standard approach—but by analyzing how blood proteins are physically folded. The method, published February 27 in Nature Aging, achieved up to 93% accuracy in distinguishing healthy individuals from those with mild cognitive impairment and could reshape early detection of a disease that affects 7.2 million Americans over age 65.\n\nThe study, led by senior author John Yates, a professor at Scripps Research, examined plasma samples from 520 participants divided into three groups: cognitively normal adults, individuals with mild cognitive impairment (MCI), and patients with diagnosed Alzheimer's. Using mass spectrometry and machine learning, the team mapped structural changes in circulating blood proteins, measuring how exposed or buried specific amino acid sites were rather than simply counting molecules. The premise rests on growing scientific evidence that Alzheimer's involves a systemic breakdown in proteostasis—the body's machinery for keeping proteins correctly folded—and that this dysfunction may leave detectable signatures beyond the brain.\n\nThree proteins emerged as particularly powerful markers: C1QA, an immune signaling protein; clusterin, which is involved in protein folding and amyloid clearance; and apolipoprotein B, a fat-transport molecule linked to vascular health. Changes at specific lysine sites on these three proteins enabled researchers to classify participants across all three disease stages with roughly 83% overall accuracy. In head-to-head comparisons between two groups—such as healthy individuals versus those with MCI—accuracy exceeded 93%. \"The correlation was amazing,\" said co-author Casimir Bamberger, a senior scientist at Scripps Research. \"It was very surprising to find three lysine sites on three different proteins that correlate so highly with disease state.\"\n\nCritically, the three-protein model held up in independent validation groups and in repeat blood draws taken months apart, where it identified disease status with approximately 86% accuracy and tracked changes in diagnosis over time. The structural score also correlated strongly with cognitive test results and moderately with MRI measurements of brain atrophy, suggesting it captures biologically meaningful disease progression.\n\nCurrent Alzheimer's blood tests focus on levels of amyloid beta and phosphorylated tau, biomarkers that are widely used but may not reflect the earliest biological disruptions. The Scripps approach could complement those tests by providing a window into the structural biology of neurodegeneration. \"Detecting markers of Alzheimer's early is absolutely critical to developing effective therapeutics,\" Yates said. \"If treatment can start before significant damage has been done, it may be possible to better preserve long-term memory.\" The team cautioned that larger, longer-term studies are needed before clinical deployment, and noted they are exploring whether the same structural profiling technique could be applied to Parkinson's disease and cancer. The study was supported by four National Institutes of Health grants and involved collaborators at the University of Kansas Medical Center and the University of California San Diego.",
-      "category": "science",
-      "importance": 7,
-      "tags": [
-        "Alzheimer's disease",
-        "blood test",
-        "protein folding",
-        "biomarkers",
-        "Scripps Research",
-        "early diagnosis",
-        "neurodegeneration"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/protein-shapes-track-alzheimers-progression.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260312020104.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-12T11:47:23.661Z"
-    },
-    {
-      "id": "ps-1773316058969-vaw6",
-      "slug": "google-trains-ai-on-5-million-news-articles-to-forecast-flas",
-      "headline": "Google Trains AI on 5 Million News Articles to Forecast Flash Floods",
-      "subheadline": "A new dataset called Groundsource uses Gemini to extract flood records from global media, filling critical data gaps in 150 countries",
-      "body": "Google has developed a novel approach to predicting flash floods — one of the world's deadliest and most elusive weather phenomena — by deploying its Gemini large language model to mine millions of news articles for historical flood data.\n\nThe technique, detailed in research published Thursday, addresses a fundamental challenge in disaster forecasting: flash floods are so brief and localized that traditional weather monitoring systems fail to capture them comprehensively. Without robust historical data, even the most advanced deep learning weather models have been unable to predict them reliably. Flash floods kill more than 5,000 people annually worldwide.\n\nTo close this gap, Google researchers fed roughly 5 million news reports from around the globe into Gemini, which identified and geo-tagged 2.6 million distinct flood events. The resulting dataset, called Groundsource, represents the first time Google has used language models to convert qualitative news reporting into structured, quantitative geophysical data. Researchers then used Groundsource as a training baseline for a Long Short-Term Memory neural network that ingests global weather forecasts and outputs flash flood probability estimates for specific areas. The forecasting system is now operational on Google's Flood Hub platform, covering urban areas across 150 countries and sharing alerts with emergency response agencies.\n\nThe model carries notable limitations. Its spatial resolution covers 20-square-kilometer areas — far coarser than the U.S. National Weather Service's flood alert system, which benefits from local radar data for real-time precipitation tracking. But Google's team says the trade-off is intentional. \"Because we're aggregating millions of reports, the Groundsource dataset actually helps rebalance the map,\" said Juliet Rothenberg, a program manager on Google's Resilience team, noting that the system is designed for regions where governments lack the resources for sophisticated weather-sensing infrastructure. António José Beleza, an emergency response official at the Southern African Development Community, said trialing the model helped his organization respond to floods more rapidly.\n\nThe broader implications extend well beyond flood prediction. Rothenberg indicated that the methodology — extracting machine-learning-ready datasets from written sources — could be applied to other hard-to-forecast events such as heat waves and mudslides. Marshall Moutenot, CEO of Upstream Tech and co-founder of dynamical.org, a repository of machine learning weather data, called Google's work a creative solution to a persistent problem. \"Data scarcity is one of the most difficult challenges in geophysics,\" Moutenot said. \"This was a really creative approach to get that data.\" The research and the Groundsource dataset have been made publicly available, potentially enabling other researchers and startups to build on the approach.",
-      "category": "tech",
-      "importance": 7,
-      "tags": [
-        "Google",
-        "AI",
-        "flash floods",
-        "Gemini",
-        "weather forecasting",
-        "climate resilience",
-        "deep learning"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/03/Screenshot-2026-03-11-at-7.14.04-PM.png?resize=1200,757",
-      "sourceUrl": "https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-12T11:47:38.969Z"
-    },
-    {
       "id": "ps-1773316074145-78zf",
       "slug": "global-bond-rally-unravels-as-war-driven-oil-prices-stoke-in",
       "headline": "Global Bond Rally Unravels as War-Driven Oil Prices Stoke Inflation Fears",
@@ -107,27 +170,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/global-bonds-erase-2026-gains-as-war-fuels-inflation-angst",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-12T11:47:54.145Z"
-    },
-    {
-      "id": "ps-1773316089080-fjzm",
-      "slug": "across-protocol-proposes-dissolving-dao-to-form-u-s-corporat",
-      "headline": "Across Protocol Proposes Dissolving DAO to Form U.S. Corporation",
-      "subheadline": "ACX token surges 80% as bridging protocol offers holders equity swap or USDC buyout at 25% premium",
-      "body": "In what may mark a pivotal moment for decentralized finance, cross-chain bridging protocol Across has proposed dismantling its decentralized autonomous organization and token structure in favor of a traditional U.S. C-corporation — sending its ACX token soaring roughly 80 percent on Wednesday.\n\nThe proposal, published as a non-binding \"temp-check\" gauge of community sentiment, would create a new entity called AcrossCo to hold all protocol intellectual property and manage ongoing development. Token holders would face a choice: convert their ACX into equity in the new corporation at a 1:1 token-to-share ratio, or accept a cash buyout in USDC at $0.04375 per token — a 25 percent premium over the prior 30-day average trading price. Before the announcement, ACX traded at approximately $0.033; it spiked as high as $0.07 before settling near $0.06, already well above the proposed buyout floor.\n\nRisk Labs, the team behind Across, argued that the DAO and token structure has become a liability rather than an asset. \"The token and DAO structure has materially impacted our ability to close partnerships and integrations,\" the proposal stated, noting that a traditional legal entity would improve the protocol's capacity to enter enforceable contracts and structure revenue agreements with institutional partners. The team also contended that ACX is \"significantly undervalued\" at current levels. Holders of more than 5 million ACX could convert directly to equity, while smaller holders could access shares through a no-fee special purpose vehicle with a minimum threshold of 250,000 ACX — roughly $10,000 at current prices.\n\nThe market response was dramatic. Trading volume hit approximately $149 million in 24 hours, roughly 3.5 times ACX's entire market capitalization, reflecting intense speculative interest. That the token now trades well above the proposed buyout price suggests many traders are betting either on a sweetened offer or that the equity conversion represents greater long-term value. A community call is scheduled for March 18, with formal discussion running through March 25 and a governance vote via Snapshot on March 26. If approved, the conversion process would begin in early April, with the buyout window opening within three months and remaining available for six months.\n\nThe proposal represents one of the first high-profile reversals from a token-based governance model to a conventional corporate structure, challenging years of crypto-native arguments that DAOs and tokens offered a superior framework for building decentralized infrastructure. Whether other protocols follow Across's lead — particularly those struggling to secure enterprise partnerships — could depend heavily on how this experiment plays out in the weeks ahead.",
-      "category": "markets",
-      "importance": 6,
-      "tags": [
-        "Across Protocol",
-        "ACX",
-        "DAO",
-        "DeFi",
-        "corporate restructuring",
-        "crypto governance"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/977de5c14b6e977260eb26a7b9ac2fbc8e865914-1919x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/12/across-s-acx-rockets-80-massively-beating-bitcoin-on-plans-to-dump-its-dao-structure",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-12T11:48:09.080Z"
     },
     {
       "id": "ps-1773314235142-ludn",
@@ -1026,49 +1068,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/c15x1wnd7yqo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-11T18:46:52.991Z"
-    },
-    {
-      "id": "ps-1773252131046-vk81",
-      "slug": "uk-mortgage-market-faces-worst-turmoil-since-2022-mini-budge",
-      "headline": "UK Mortgage Market Faces Worst Turmoil Since 2022 Mini-Budget",
-      "subheadline": "Nearly 500 mortgage products pulled in two days as Iran conflict drives rate expectations higher and oil prices surge",
-      "body": "The United Kingdom's mortgage market is experiencing its most severe disruption since the Liz Truss mini-Budget crisis of September 2022, with average two-year fixed rates breaching the 5% threshold and hundreds of products yanked from the market as the US-Israel war with Iran reshapes global economic expectations.\n\nData from financial information service Moneyfacts shows that the average two-year fixed mortgage rate climbed to 5.01% on Wednesday, up sharply from 4.84% just days earlier on Friday. Five-year fixed deals followed a similar trajectory, rising from 4.96% to 5.09% over the same period — the highest level since June. Some 472 residential mortgage products were withdrawn over the past two days, representing roughly 6.5% of available deals and leaving 7,164 options on the market. While the pullback is significant, it remains well short of the record single-day withdrawal of 935 products on September 27, 2022, when more than a quarter of the market evaporated following Truss and Chancellor Kwasi Kwarteng's announcement of £45 billion in unfunded tax cuts.\n\n\"Recent days have been some of the most turbulent in the UK mortgage market since the aftermath of the September 2022 mini-Budget,\" said Adam French, head of consumer finance at Moneyfacts. He warned that the trajectory of rates now depends heavily on how global markets and inflation expectations evolve as the Middle East conflict unfolds. Before hostilities began, financial markets had been pricing in Bank of England rate cuts later this year — expectations that have since largely evaporated as surging oil prices raise the specter of renewed inflation.\n\nThe energy picture underscores the broader economic pressure. Brent crude is trading at $89.44 per barrel, more than 20% above pre-war levels despite retreating from a recent spike near $120. At the pump, UK unleaded petrol has risen 6.81 pence to 139.64p per litre since the conflict began, while diesel has surged 14.81p to 157.19p — its highest price since May 2024. Analysts suggest that if oil stabilizes around $90 per barrel, drivers could see petrol averaging 140p per litre and diesel reaching approximately 167p. The G7 nations have agreed to a record release of emergency oil reserves in response to the price surge, while British Prime Minister Keir Starmer indicated that planned changes to the fuel duty freeze from September would be \"kept under review\" given the crisis.\n\nFor homeowners and prospective buyers, brokers offered a note of pragmatism amid the turbulence. Aaron Strutt of Trinity Financial noted that most lenders still allow existing customers to lock in a rate switch up to four months before their current deal expires, and that some banks and building societies continue to offer sub-4% fixed rates. However, with further rate increases widely expected in coming days, the window for securing favorable terms may be narrowing rapidly.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "UK mortgages",
-        "interest rates",
-        "Iran conflict",
-        "oil prices",
-        "Bank of England",
-        "housing market"
-      ],
-      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/b258/live/d27b4710-1d36-11f1-9120-a910fc22c6ac.jpg",
-      "sourceUrl": "https://www.bbc.com/news/articles/c24dm9vgrz7o?at_medium=RSS&at_campaign=rss",
-      "sourceName": "BBC News",
-      "publishedAt": "2026-03-11T18:02:11.046Z"
-    },
-    {
-      "id": "ps-1773251282119-621l",
-      "slug": "oil-prices-rise-as-trump-s-iran-threats-overshadow-reserve-r",
-      "headline": "Oil Prices Rise as Trump's Iran Threats Overshadow Reserve Release",
-      "subheadline": "Escalating U.S. rhetoric toward Tehran drives crude higher despite coordinated emergency stockpile drawdown by wealthy nations",
-      "body": "Crude oil prices advanced on Tuesday amid heightened geopolitical tensions, as President Donald Trump's intensifying language regarding military action against Iran proved a more powerful market force than a coordinated emergency release of strategic petroleum reserves by major economies.\n\nThe session marked another day of sharp volatility in global energy markets, which have been whipsawed in recent weeks by the dual pressures of supply-side interventions and escalating conflict risk in the Middle East. Trump's rhetoric around what he has characterized as a war footing with Iran has stoked fears of potential disruptions to crude flows through the Strait of Hormuz, a critical chokepoint through which roughly one-fifth of the world's oil supply passes daily.\n\nThe reserve release — a tool typically deployed to calm markets during acute supply crises — appears to have had limited effect in the face of mounting geopolitical uncertainty. Wealthy nations have periodically tapped strategic stockpiles to temper price spikes, most notably during the early stages of Russia's invasion of Ukraine in 2022. However, traders seem to be pricing in the possibility that any supply cushion could be quickly overwhelmed if hostilities between Washington and Tehran escalate further, potentially taking Iranian barrels off the market or disrupting broader Gulf production.\n\nThe price action underscores a broader challenge facing policymakers attempting to manage energy costs while simultaneously pursuing an aggressive posture in the Middle East. Analysts have noted that the credibility of reserve releases as a price-stabilization mechanism diminishes when the underlying source of market anxiety — in this case, a potential widening of conflict — remains unresolved. With the Trump administration showing no signs of softening its stance, oil markets are likely to remain on edge.\n\nEnergy traders and geopolitical strategists will be closely monitoring any further developments in U.S.-Iran tensions in the coming days, particularly any signals regarding military operations or diplomatic off-ramps. For now, fear appears to be winning the tug-of-war against policy intervention, keeping crude prices elevated despite efforts to flood the market with additional supply.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "oil",
-        "crude",
-        "Iran",
-        "Trump",
-        "strategic petroleum reserve",
-        "geopolitics",
-        "energy markets"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1666093848885-0bff4091bae6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxOHx8b2lsJTIwY3J1ZGV8ZW58MHwwfHx8MTc3MzE4NjU2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-10/latest-oil-market-news-and-analysis-for-march-11",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-11T17:48:02.119Z"
     }
   ]
 }
