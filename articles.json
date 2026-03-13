@@ -1,27 +1,134 @@
 {
-  "lastUpdated": "2026-03-13T19:33:54.801Z",
+  "lastUpdated": "2026-03-13T19:49:26.042Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773430351822-k7ty",
-      "slug": "formula-1-to-cancel-bahrain-and-saudi-arabia-gps-over-middle",
-      "headline": "Formula 1 to Cancel Bahrain and Saudi Arabia GPs Over Middle East War",
-      "subheadline": "The sport faces a commercial hit exceeding £100 million as conflict between US/Israel and Iran makes racing too dangerous",
-      "body": "Formula 1 is set to cancel next month's Bahrain and Saudi Arabia Grands Prix due to the ongoing war between the US/Israel coalition and Iran, a decision that will shrink the 2024 season to 22 races and cost the sport more than £100 million in lost revenue.\n\nWhile a formal announcement has not yet been issued, a decision is expected before the end of the weekend, according to the BBC's F1 correspondent Andrew Benson. The logistical deadline is imminent: freight shipments to the Middle East would need to begin within days to stage the events. The Bahrain Grand Prix was scheduled for April 12, with the Saudi Arabian Grand Prix in Jeddah the following weekend. With missiles already striking the Bahraini capital and Jeddah deemed too dangerous for a major sporting event, organizers concluded that the safety risk to personnel was simply too great.\n\nF1 explored alternatives, considering replacement races at Portimão in Portugal, Imola in Italy, and Istanbul Park in Turkey. However, the compressed timeline made it logistically impractical to organize a Grand Prix at any of those venues, and there was little prospect of securing a hosting fee to offset the financial blow. Neither cancelled race will be replaced, leaving a five-week gap between the Japanese Grand Prix on March 29 and the Miami Grand Prix on May 3.\n\nThe financial consequences are significant. Bahrain and Saudi Arabia pay among the highest hosting fees on the F1 calendar, and their combined cancellation translates to losses exceeding £100 million. Those funds, which are typically split between the ten competing teams and Liberty Media-owned Formula 1 as commercial rights holder, will leave each party absorbing tens of millions of pounds in shortfall depending on how prize money distribution is structured.\n\nDespite the disruption, the remainder of the 2024 season is expected to proceed as planned. The cancellation underscores how the escalating Middle East conflict is rippling far beyond the region, disrupting global sporting calendars and the multibillion-dollar commercial interests tied to them. For Formula 1, which has aggressively expanded into Middle Eastern markets in recent years, the episode is a stark reminder that geopolitical risk remains an unavoidable cost of doing business in volatile regions.",
+      "id": "ps-1773431285839-dbo8",
+      "slug": "f1-cancels-bahrain-and-saudi-arabia-races-over-middle-east-w",
+      "headline": "F1 Cancels Bahrain and Saudi Arabia Races Over Middle East War",
+      "subheadline": "Formula 1 faces a commercial hit exceeding £100 million as conflict between US/Israel and Iran makes hosting events too dangerous",
+      "body": "Formula 1 is set to cancel next month's Bahrain and Saudi Arabia Grands Prix due to the ongoing war in the Middle East, reducing the 2024 season to 22 races and costing the sport more than £100 million in lost hosting fees.\n\nWhile a formal announcement has not yet been issued, a decision is expected before the end of the weekend, according to BBC F1 correspondent Andrew Benson. Logistical deadlines are the driving factor — freight shipments to the region would need to begin in the coming days, and with no sign of the conflict between the US/Israel coalition and Iran abating, organizers concluded that sending thousands of personnel into the region posed unacceptable risk. The Bahraini capital has already been struck by missiles, and Jeddah, the host city for the Saudi race, has also been deemed too dangerous for a major international sporting event.\n\nThe Bahrain Grand Prix had been scheduled for April 12, with the Saudi Arabia Grand Prix in Jeddah slated for the following weekend. F1 explored replacement venues including Portugal's Portimão circuit, Italy's Imola, and Turkey's Istanbul Park, but ultimately determined that the timeline was too compressed to organize a race at any of those tracks. The difficulty of securing a hosting fee on short notice also weighed against the alternatives.\n\nThe financial impact will be substantial. Bahrain and Saudi Arabia pay among the highest hosting fees on the F1 calendar, and the combined loss of more than £100 million will be felt across the sport. Those revenues are typically split between the ten competing teams and Liberty Media's Formula 1 Group, the commercial rights holder, meaning each party stands to lose tens of millions of pounds depending on how prize money allocations are structured.\n\nThe cancellations will create a five-week gap in the calendar between the Japanese Grand Prix on March 29 and the Miami Grand Prix on May 3. After that, the season is expected to proceed as planned. Neither race will be rescheduled or replaced, marking the first time since the COVID-disrupted 2020 and 2021 seasons that geopolitical events have forced the removal of races from the F1 schedule.",
       "category": "breaking",
       "importance": 7,
       "tags": [
         "Formula 1",
-        "Middle East conflict",
+        "Middle East",
+        "Iran war",
         "Bahrain Grand Prix",
         "Saudi Arabia Grand Prix",
-        "Iran war",
         "motorsport"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1583/live/811badb0-1efd-11f1-ba8d-c985cd7dd7c1.jpg",
       "sourceUrl": "https://www.bbc.com/sport/formula1/articles/c875vw1lwjzo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-13T19:32:31.822Z"
+      "publishedAt": "2026-03-13T19:48:05.839Z"
+    },
+    {
+      "id": "ps-1773431299725-m2po",
+      "slug": "hybrid-quantum-classical-framework-targets-protein-pka-predi",
+      "headline": "Hybrid Quantum-Classical Framework Targets Protein pKa Prediction",
+      "subheadline": "Researchers combine quantum-inspired feature mapping with deep neural networks to improve protein electrostatics modeling",
+      "body": "A new computational framework blending quantum-inspired mathematics with classical biochemistry aims to solve one of the persistent challenges in protein science: accurately predicting the acidity constants of individual amino acid residues. The approach, detailed in a preprint posted to arXiv on March 9 by researchers Van Le and Tan Le, introduces what the authors call a Deep Quantum Neural Network (DQNN) that outperforms purely classical models in generalizing across diverse biochemical contexts.\n\nPredicting residue-level pKa values — a measure of how readily specific amino acids in a protein donate or accept protons — is critical for understanding protein folding, enzymatic activity, drug binding, and molecular stability. Existing computational methods rely on classical descriptors drawn from databases such as DeepKaDB and datasets generated by constant-pH molecular dynamics simulations. However, these approaches often falter when applied to protein environments that differ significantly from their training data.\n\nThe new framework addresses this limitation by augmenting traditional structural descriptors with a Gaussian kernel-based quantum-inspired feature mapping. This mathematical transformation projects residue-level information into a higher-dimensional space, enabling the neural network to capture nonlinear relationships in the microenvironments surrounding individual residues — relationships that classical encodings alone struggle to represent. The quantum-enhanced descriptors are then merged with normalized structural features to create a unified hybrid input for the DQNN architecture.\n\nBenchmarking results reported in the paper indicate that the DQNN achieves stronger cross-context generalization compared to classical baselines across multiple curated descriptor sets. External validation on the PKAD-R experimental benchmark and a case study involving the amyloid-beta 40 peptide — a molecule central to Alzheimer's disease research — further demonstrated the model's robustness and transferability to real experimental data.\n\nNotably, the framework is described as \"quantum-inspired\" rather than requiring actual quantum hardware, making it immediately deployable on classical computing infrastructure. The authors frame their contribution as a scalable approach applicable not only to pKa prediction but to broader problems in protein electrostatics, potentially accelerating drug design and enzyme engineering workflows. The work sits at the intersection of chemical physics, artificial intelligence, and neural computing, reflecting a growing trend of borrowing mathematical formalisms from quantum mechanics to enhance machine learning architectures even in the absence of quantum processors.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "quantum-classical hybrid",
+        "protein pKa prediction",
+        "deep learning",
+        "computational chemistry",
+        "protein electrostatics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1667909429428-d7435409529c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxxdWFudHVtLWNsYXNzaWNhbCUyMGh5YnJpZCUyMHByb3RlaW4lMjBwS2ElMjBwcmVkaWN0aW9ufGVufDB8MHx8fDE3NzM0MzEyOTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.11061",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-13T19:48:19.725Z"
+    },
+    {
+      "id": "ps-1773431316593-hgj4",
+      "slug": "physicists-solve-20-year-nuclear-mystery-in-the-cosmic-origi",
+      "headline": "Physicists Solve 20-Year Nuclear Mystery in the Cosmic Origin of Gold",
+      "subheadline": "University of Tennessee team achieves first-ever measurement of beta-delayed two-neutron emission energies along the r-process pathway",
+      "body": "Nuclear physicists at the University of Tennessee at Knoxville have made three breakthrough discoveries in a single study that illuminate how violent cosmic events forge gold and other heavy elements — resolving a mystery that had eluded researchers for two decades.\n\nThe findings, published in Physical Review Letters, center on the rapid neutron-capture process, or r-process, the chain reaction that occurs when stars collapse, explode, or collide. During this process, atomic nuclei absorb neutrons in rapid succession, growing increasingly unstable before decaying into lighter, more stable forms. The precise nuclear steps along this pathway have long been poorly understood because the nuclei involved are extraordinarily rare and short-lived, making direct experimental study nearly impossible.\n\nWorking at CERN's ISOLDE facility in Geneva, the team — led by Professor Robert Grzywacz and first author Peter Dyszel, a graduate student — started with large quantities of the rare isotope indium-134 and used advanced laser separation techniques to ensure sample purity. Using a custom neutron detector built at UT with National Science Foundation funding, they achieved the first-ever measurement of neutron energies associated with beta-delayed two-neutron emission. \"The two-neutron emission is the biggest deal,\" Grzywacz said, noting that previous attempts had never successfully measured the energies involved. \"This opens a completely new field.\" The result marks the first detailed spectroscopy of two-neutron emission from a nucleus lying directly along the r-process pathway, offering critical data for improving models of stellar nucleosynthesis.\n\nThe team's second discovery was the first observation of a single-particle neutron state in tin-133 that theorists had predicted but no one had detected for 20 years. Conventional wisdom held that the tin nucleus simply shed neutrons to stabilize, retaining no trace of its parent nucleus — behaving, in Grzywacz's words, like an \"amnesiac nucleus.\" Instead, the researchers found that a structural \"shadow\" of the parent indium persists. \"We say the tin doesn't forget,\" Grzywacz said. \"The memory is not erased.\" This intermediate state helps complete the nuclear structure picture of tin-133 and suggests that existing theoretical frameworks are incomplete. A third finding — that the newly identified state is populated in a non-statistical manner during decay — further challenges standard models, suggesting that as physicists probe more exotic, unstable nuclei farther from stability, entirely new theoretical approaches may be required.\n\nThe discoveries carry broad implications for astrophysics and nuclear science. More accurate descriptions of how unstable nuclei decay along the r-process pathway will enable researchers to build better simulations of neutron star mergers and supernovae — the cosmic furnaces responsible for producing roughly half of all elements heavier than iron, including gold and platinum. The work also provides a testing ground for nuclear theories that underpin studies of exotic elements such as tennessine. With the experimental techniques now validated, the team has effectively opened a new avenue for probing some of the most extreme and fleeting states of matter in the universe.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "nuclear physics",
+        "r-process",
+        "gold",
+        "neutron emission",
+        "CERN",
+        "nucleosynthesis",
+        "heavy elements"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nuclear-physics-atomic-element.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260313002633.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-13T19:48:36.593Z"
+    },
+    {
+      "id": "ps-1773431332437-8nvm",
+      "slug": "google-s-32b-wiz-acquisition-closes-as-largest-vc-backed-dea",
+      "headline": "Google's $32B Wiz Acquisition Closes as Largest VC-Backed Deal Ever",
+      "subheadline": "Index Ventures partner calls the cybersecurity mega-deal the 'Deal of the Decade,' citing convergence of AI, cloud, and security spending",
+      "body": "Google has finalized its $32 billion acquisition of cybersecurity startup Wiz, completing what now stands as the largest venture-backed acquisition in history — a deal that one prominent investor is calling the \"Deal of the Decade.\"\n\nThe transaction, which closed after clearing antitrust reviews on both sides of the Atlantic, represents a dramatic turnaround from 2024, when Wiz declined an earlier offer from Google. To seal the agreement, Google added roughly $9 billion to its original bid, underscoring how fiercely competitive the cloud security market has become. Shardul Shah, a partner at Index Ventures, told TechCrunch's Equity podcast that Wiz sits \"at the center of three tailwinds: AI, cloud, and security spend\" — a trifecta that justified the staggering price tag.\n\nThe deal gives Google a commanding asset in the fast-growing cloud security sector at a time when enterprises are racing to protect increasingly complex AI-driven infrastructure. Wiz, which built its reputation on agentless cloud security scanning, had already become one of the fastest-growing enterprise software companies before the acquisition. For Google Cloud, which has trailed Amazon Web Services and Microsoft Azure in market share, integrating Wiz's platform could prove a significant competitive differentiator as corporate customers weigh security capabilities alongside raw computing power.\n\nThe acquisition also sends a signal about the broader dealmaking climate in tech. After a prolonged drought in large-scale M&A driven by elevated interest rates and regulatory scrutiny, the Wiz deal suggests that mega-acquisitions are back on the table — at least for strategic targets at the intersection of the industry's hottest spending categories. The fact that the deal survived antitrust review in both the United States and Europe may further embolden other large tech companies eyeing transformative purchases.\n\nBeyond the Wiz headline, the week saw other notable moves across the tech landscape, including Meta's acquisition of Moltbook, a viral AI agent social network, and a growing coalition of tech workers at OpenAI, Google, and Microsoft signing a legal brief in support of Anthropic in its ongoing dispute with the Department of Defense. Taken together, the flurry of activity suggests a tech sector increasingly willing to make bold bets as AI reshapes competitive dynamics across the industry.",
+      "category": "tech",
+      "importance": 8,
+      "tags": [
+        "Google",
+        "Wiz",
+        "cybersecurity",
+        "acquisition",
+        "cloud security",
+        "AI",
+        "M&A"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2161842016.jpg?w=1024",
+      "sourceUrl": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-13T19:48:52.437Z"
+    },
+    {
+      "id": "ps-1773431349231-4nif",
+      "slug": "global-stocks-slide-as-brent-crude-surges-past-100-amid-iran",
+      "headline": "Global Stocks Slide as Brent Crude Surges Past $100 Amid Iran War",
+      "subheadline": "Oil hits three-year high as escalating conflict stokes inflation fears, sending bonds and equities lower",
+      "body": "Global equity markets sold off sharply on Wednesday as the ongoing war in Iran pushed Brent crude above $100 a barrel for the first time in more than three years, reigniting fears that surging energy costs will feed a new wave of inflation across major economies.\n\nThe spike in oil prices reverberated across asset classes on March 12, hammering stocks on Wall Street and overwhelming an earlier rally in government bonds. Investors who had initially sought safety in Treasuries reversed course as the implications of persistently elevated crude became clear: higher energy costs threaten to keep inflation sticky, potentially constraining central banks from easing monetary policy even as economic growth comes under pressure from geopolitical uncertainty.\n\nThe conflict in Iran, which has intensified in recent weeks, sits at the heart of the market turmoil. Iran is a major oil-producing nation and a critical player in Middle Eastern energy infrastructure. Disruptions to its output — or the mere threat of sustained supply constraints — have historically been enough to jolt global commodity markets. With Brent now trading above the psychologically significant $100 threshold, analysts warn that consumer energy prices in the United States and Europe could climb further in the weeks ahead, squeezing household budgets and corporate margins alike.\n\nVolatility indicators surged as traders scrambled to reprice risk. The combination of falling equities and rising commodity prices presents a particularly difficult environment for portfolio managers, many of whom had positioned for a benign inflation trajectory heading into the second quarter of 2026. The bond market's inability to sustain its initial flight-to-safety bid underscored the tension between recession hedging and inflation protection — a dynamic that has not dominated fixed-income trading to this degree since the energy shocks of 2022.\n\nMarket participants will be closely watching diplomatic developments around the Iran conflict as well as upcoming economic data releases for signals on whether central banks might adjust their policy stances. For now, the message from markets is unambiguous: geopolitical risk has reasserted itself as the dominant force driving global asset prices, and investors are bracing for further turbulence.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "oil prices",
+        "Brent crude",
+        "Iran war",
+        "stock market selloff",
+        "inflation",
+        "geopolitical risk",
+        "bonds"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1559225592-c6d3fceedd04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw3fHxtYXJrZXRzfGVufDB8MHx8fDE3NzMzMjIzOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/asian-stocks-bonds-to-echo-us-drop-as-crude-rises-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-13T19:49:09.231Z"
+    },
+    {
+      "id": "ps-1773431365959-m1ng",
+      "slug": "druckenmiller-stablecoins-will-power-global-payments-within-",
+      "headline": "Druckenmiller: Stablecoins Will Power Global Payments Within 15 Years",
+      "subheadline": "The billionaire investor praised blockchain-based tokens as faster and cheaper, while dismissing most of crypto as 'a solution looking for a problem'",
+      "body": "Legendary hedge fund manager Stanley Druckenmiller predicted that stablecoins will become the backbone of global payment systems within the next 10 to 15 years, calling the blockchain-based tokens a clear improvement over existing financial infrastructure — even as he dismissed the vast majority of the cryptocurrency market as irrelevant.\n\nIn an interview published Thursday by Morgan Stanley, the 72-year-old billionaire said fiat-pegged tokens like Tether's USDT and Circle's USDC are \"efficient, quicker and cheaper\" than traditional payment rails, and that blockchain technology underlying them offers genuine productivity gains. \"I assume our whole payment systems will be stablecoins in 10 or 15 years,\" Druckenmiller said. His assessment echoes recent analysis from Macquarie, the Australian investment bank, which noted that stablecoins are rapidly evolving from a niche crypto trading tool into a potential layer of global financial infrastructure.\n\nYet Druckenmiller drew a sharp line between stablecoins and the broader digital asset ecosystem. Repeating a critique he has made for years, he characterized most cryptocurrency projects as \"a solution looking for a problem.\" The comment underscores a growing divide among institutional investors who see clear utility in tokenized dollars while remaining skeptical of the speculative altcoin market. Bitcoin, however, earned a qualified endorsement. \"I'm actually disappointed it ended up becoming a store of value because it wasn't originally needed for that,\" Druckenmiller said. \"But it's become a brand, and people love it. So it's probably going to be a store of value.\"\n\nPerhaps most provocatively, Druckenmiller questioned the longevity of the U.S. dollar's reign as the world's reserve currency — a position he has staked out since at least 2021. \"I doubt it'll be the reserve currency in 50 years, but I don't have a clue what would be,\" he said, adding with characteristic bluntness: \"Maybe some crypto thing I hate.\" He acknowledged that his age makes it a moot point personally — \"We're doing everything we can to destroy it. But I'm 72, it'll probably outlive me\" — but the remarks carry weight from an investor whose track record at Duquesne Capital Management, where he delivered average annual returns above 30 percent over three decades, made him one of the most respected macro traders in history.\n\nDruckenmiller's comments arrive at a moment of accelerating institutional engagement with stablecoins. Circle, the issuer of USDC, recently surpassed BlackRock in the tokenized Treasuries market, which has reached a record $11 billion. With stablecoin legislation advancing in Congress and major banks exploring token-based settlement, the infrastructure Druckenmiller envisions may be taking shape faster than even his 15-year timeline suggests. Bitcoin traded near $71,162 on Thursday, while Ethereum hovered around $2,104.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "Stanley Druckenmiller",
+        "stablecoins",
+        "bitcoin",
+        "US dollar",
+        "reserve currency",
+        "payments"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/852f38f36f97ac4b27a91a57b69877ae3ce2fc0c-1919x1080.jpg?auto=format",
+      "sourceUrl": "https://www.coindesk.com/business/2026/03/13/stablecoins-bitcoin-could-reshape-finance-stanley-druckenmiller-says",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-13T19:49:25.959Z"
     },
     {
       "id": "ps-1773430368968-9lrt",
@@ -43,50 +150,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.11108",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-13T19:32:48.968Z"
-    },
-    {
-      "id": "ps-1773430386092-64cs",
-      "slug": "physicists-solve-20-year-nuclear-mystery-in-the-cosmic-origi",
-      "headline": "Physicists Solve 20-Year Nuclear Mystery in the Cosmic Origins of Gold",
-      "subheadline": "University of Tennessee team achieves first-ever measurement of two-neutron emission energies along the r-process pathway",
-      "body": "Nuclear physicists at the University of Tennessee at Knoxville have resolved a two-decade-old puzzle about how unstable atomic nuclei decay during the rapid neutron-capture process — the violent chain reaction responsible for forging gold, platinum, and other heavy elements in stellar explosions and collisions. The findings, published in Physical Review Letters, report three discoveries in a single study that could reshape theoretical models of cosmic element formation.\n\nThe most consequential result is the first-ever measurement of neutron energies associated with beta-delayed two-neutron emission, a decay mode that occurs only in extremely short-lived exotic nuclei. Working at CERN's ISOLDE facility in Geneva, the team produced large quantities of indium-134, a rare and unstable isotope, and tracked what happened as it decayed into excited forms of tin-134, tin-133, and tin-132. Using a custom neutron detector built at UT with National Science Foundation funding, the researchers were able to distinguish between one- and two-neutron emissions — a notoriously difficult task because, as principal investigator Robert Grzywacz put it, \"neutrons like to bounce around.\" Previous attempts had never successfully measured the energies involved, making this work what Grzywacz called the opening of \"a completely new field.\"\n\nThe team's second breakthrough was the first observation of a single-particle neutron state in tin-133 that theorists had predicted but no one had detected for 20 years. Conventional wisdom held that when a tin nucleus shed neutrons to stabilize, it effectively erased all information about the preceding beta decay — behaving, in Grzywacz's words, like an \"amnesiac nucleus.\" Instead, the data showed that a structural imprint of the parent indium nucleus persisted. \"We say the tin doesn't forget,\" Grzywacz said. \"This 'shadow' of indium doesn't completely disappear.\" The newly observed state represents an intermediate step in the two-neutron emission sequence and fills in a missing piece of tin-133's nuclear structure.\n\nA third discovery further challenges existing frameworks: the researchers found that the way the newly identified state is populated during decay does not follow expected statistical patterns. This deviation suggests that as experiments probe increasingly exotic nuclei — far from the valley of nuclear stability — current theoretical models may break down entirely, demanding fundamentally new approaches. Grzywacz noted the implications extend to superheavy elements such as Tennessine, where conventional descriptions of nuclear behavior could prove inadequate.\n\nThe study was led by graduate student Peter Dyszel, who served as first author and played an extensive hands-on role — from constructing detector frames and electronics to developing data acquisition software and analyzing results. The collaboration spanned multiple institutions and drew on laser separation techniques at CERN to ensure isotopic purity. Together, the three findings offer the most detailed picture yet of nuclear transformations along the r-process pathway, giving astrophysicists sharper tools to model the extreme environments where the universe's heaviest elements are born.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "nuclear physics",
-        "r-process",
-        "gold formation",
-        "neutron emission",
-        "CERN ISOLDE",
-        "heavy elements",
-        "nucleosynthesis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nuclear-physics-atomic-element.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260313002633.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-13T19:33:06.092Z"
-    },
-    {
-      "id": "ps-1773430401620-pz0g",
-      "slug": "google-s-32b-wiz-acquisition-closes-as-largest-vc-backed-dea",
-      "headline": "Google's $32B Wiz Acquisition Closes as Largest VC-Backed Deal Ever",
-      "subheadline": "Index Ventures partner calls the cybersecurity megadeal the 'Deal of the Decade,' citing convergence of AI, cloud, and security spending",
-      "body": "Google has finalized its $32 billion acquisition of cybersecurity startup Wiz, sealing the largest venture-backed acquisition in history after a protracted courtship that included a rejected 2024 offer, antitrust scrutiny on both sides of the Atlantic, and an additional $9 billion added to clinch the deal.\n\nThe landmark transaction underscores the soaring value of cloud security in an era defined by artificial intelligence and escalating cyber threats. Shardul Shah, a partner at Index Ventures and an investor in Wiz, described the company as sitting \"at the center of three tailwinds: AI, cloud, and security spend\" — a confluence that made it an irresistible target for Alphabet's cloud ambitions. Shah went so far as to call the deal the \"Deal of the Decade\" in a conversation on TechCrunch's Equity podcast, aired March 13.\n\nThe path to closing was far from smooth. Google initially approached Wiz in 2024 with a lower offer that the startup's leadership declined, opting instead to continue building independently. The decision proved prescient: the final price tag of $32 billion represents a roughly $9 billion premium over that earlier bid, reflecting both Wiz's rapid growth and the intensifying competition for best-in-class security platforms. Regulatory reviews by authorities in the United States and European Union added further complexity, though the deal ultimately cleared both hurdles.\n\nFor Google, the acquisition represents a major strategic bet on bolstering its cloud division, Google Cloud, which has been locked in fierce competition with Amazon Web Services and Microsoft Azure. Wiz's technology, which scans cloud environments for vulnerabilities and misconfigurations, gives Google a powerful tool to attract enterprise customers increasingly anxious about securing sprawling multi-cloud deployments — especially as AI workloads introduce new attack surfaces.\n\nThe deal also signals a broader resurgence in tech M&A after a prolonged slowdown driven by high interest rates and regulatory uncertainty. With enterprise security spending projected to continue climbing and AI adoption accelerating across industries, the Wiz acquisition may set a new benchmark for how the market values startups positioned at the intersection of multiple secular growth trends. For the venture capital ecosystem, it validates the strategy of holding out for higher valuations rather than accepting early exit offers — a calculus that netted Wiz's backers billions in additional returns.",
-      "category": "tech",
-      "importance": 8,
-      "tags": [
-        "Google",
-        "Wiz",
-        "cybersecurity",
-        "M&A",
-        "cloud computing",
-        "venture capital",
-        "AI"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2161842016.jpg?w=1024",
-      "sourceUrl": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-13T19:33:21.620Z"
     },
     {
       "id": "ps-1773430417984-nm6c",
@@ -132,27 +195,6 @@
       "publishedAt": "2026-03-13T19:33:54.727Z"
     },
     {
-      "id": "ps-1773429523916-hrs7",
-      "slug": "druckenmiller-predicts-stablecoins-will-power-global-payment",
-      "headline": "Druckenmiller Predicts Stablecoins Will Power Global Payments Within 15 Years",
-      "subheadline": "The billionaire investor sees blockchain-based tokens replacing traditional infrastructure while dismissing most crypto as pointless",
-      "body": "Billionaire investor Stanley Druckenmiller has predicted that stablecoins will become the backbone of global payment systems within the next 10 to 15 years, offering one of his most bullish assessments yet of the blockchain-based tokens even as he dismissed the vast majority of the cryptocurrency market as irrelevant.\n\nIn an interview published Thursday by Morgan Stanley, the legendary hedge fund manager — who famously helped George Soros break the Bank of England in 1992 — called stablecoins like Tether's USDT and Circle's USDC \"efficient, quicker and cheaper\" than existing payment infrastructure. \"I assume our whole payment systems will be stablecoins in 10 or 15 years,\" Druckenmiller said, describing blockchain-based stablecoins as \"incredibly useful in terms of productivity.\" His comments echo a recent assessment from Australian investment bank Macquarie, which noted that stablecoins are rapidly evolving from a niche crypto trading tool into a potential layer of global financial infrastructure.\n\nDruckenmiller's enthusiasm for stablecoins stands in sharp contrast to his view of the broader digital asset ecosystem, which he has long characterized as \"a solution looking for a problem.\" The 72-year-old investor, whose Duquesne Capital Management delivered average annual returns of roughly 30 percent over three decades before converting to a family office, made clear he sees little utility in most cryptocurrencies beyond bitcoin and dollar-pegged tokens.\n\nOn bitcoin specifically, Druckenmiller offered a nuanced and somewhat reluctant endorsement. \"I'm actually disappointed it ended up becoming a store of value because it wasn't originally needed for that,\" he said. \"But it's become a brand, and people love it. So it's probably going to be a store of value.\" Bitcoin was trading near $71,266 at the time of publication.\n\nPerhaps most provocatively, Druckenmiller reiterated a longstanding concern about the U.S. dollar's future as the world's reserve currency — a position he has held since at least 2021, when he warned the greenback was losing its global reputation. \"I doubt it'll be the reserve currency in 50 years, but I don't have a clue what would be,\" he said, adding with characteristic bluntness: \"Maybe some crypto thing I hate.\" The remarks carry particular weight at a moment when stablecoin legislation is advancing in Congress and major financial institutions are increasingly integrating digital dollar tokens into their operations, lending institutional credibility to assets that were once confined to the fringes of crypto trading.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "Stanley Druckenmiller",
-        "stablecoins",
-        "bitcoin",
-        "cryptocurrency",
-        "US dollar",
-        "global payments"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/852f38f36f97ac4b27a91a57b69877ae3ce2fc0c-1919x1080.jpg?auto=format",
-      "sourceUrl": "https://www.coindesk.com/business/2026/03/13/stablecoins-bitcoin-could-reshape-finance-stanley-druckenmiller-says",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-13T19:18:43.916Z"
-    },
-    {
       "id": "ps-1773427679021-haqm",
       "slug": "first-photo-of-prince-andrew-mandelson-and-epstein-together-",
       "headline": "First Photo of Prince Andrew, Mandelson, and Epstein Together Surfaces in DOJ Files",
@@ -172,28 +214,6 @@
       "sourceUrl": "https://www.bbc.com/news/articles/clyxezdv335o?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
       "publishedAt": "2026-03-13T18:47:59.021Z"
-    },
-    {
-      "id": "ps-1773426784523-mhcj",
-      "slug": "global-stocks-slide-as-brent-crude-surges-past-100-amid-iran",
-      "headline": "Global Stocks Slide as Brent Crude Surges Past $100 Amid Iran War",
-      "subheadline": "Rising energy prices rekindle inflation fears, reversing early bond gains as markets grapple with geopolitical uncertainty",
-      "body": "Wall Street endured a volatile session on Wednesday as escalating conflict in Iran pushed Brent crude above the $100-per-barrel threshold, triggering a broad sell-off in equities and reigniting concerns about inflation's staying power.\n\nThe surge in oil prices sent shockwaves through financial markets, with stocks declining across major indices as investors recalibrated their expectations for energy costs and their downstream effects on the global economy. Brent crude's return to triple digits — a level that carries deep psychological significance for traders and policymakers alike — underscored the growing economic toll of the Iran conflict, which shows no signs of de-escalation.\n\nBonds initially rallied as investors sought safety amid the geopolitical turbulence, but the advance faded as market participants absorbed the inflationary implications of sustained high energy prices. Higher crude costs feed directly into transportation, manufacturing, and consumer goods, threatening to complicate central banks' efforts to bring inflation under control. The reversal in fixed-income markets suggested that traders see the oil shock as a stagflationary risk — one that simultaneously slows growth and accelerates price pressures — rather than a purely deflationary demand shock.\n\nThe conflict in Iran has emerged as the dominant force shaping global markets in recent weeks, displacing trade policy and monetary policy speculation as the primary driver of asset prices. Energy-dependent economies in Europe and Asia face particular exposure, and analysts warn that a prolonged period of $100-plus oil could shave meaningful points off global GDP growth while adding upward pressure to headline inflation readings worldwide.\n\nFor central banks already navigating a delicate balancing act between supporting growth and containing prices, the oil spike presents an unwelcome complication. The Federal Reserve and its peers may find their room for rate cuts — previously anticipated by markets — constrained if energy-driven inflation proves persistent. Market volatility is likely to remain elevated as long as the geopolitical situation in Iran continues to deteriorate without a clear path toward resolution.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil prices",
-        "Brent crude",
-        "Iran conflict",
-        "inflation",
-        "stock market",
-        "bonds",
-        "geopolitics"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1627862931663-43edc649f7d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8bWFya2V0c3xlbnwwfDB8fHwxNzczNDI2Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/asian-stocks-bonds-to-echo-us-drop-as-crude-rises-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-13T18:33:04.523Z"
     },
     {
       "id": "ps-1773425815716-3qfd",
@@ -303,26 +323,6 @@
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/latest-oil-market-news-and-analysis-for-march-13",
       "sourceName": "Bloomberg",
       "publishedAt": "2026-03-13T17:03:15.657Z"
-    },
-    {
-      "id": "ps-1773420435151-nij6",
-      "slug": "hybrid-quantum-classical-framework-targets-protein-pka-predi",
-      "headline": "Hybrid Quantum-Classical Framework Targets Protein pKa Prediction",
-      "subheadline": "Researchers combine quantum-inspired feature mapping with deep neural networks to improve protein electrostatics modeling",
-      "body": "A new computational framework blending quantum-inspired mathematics with classical biochemistry aims to solve one of the persistent challenges in protein science: accurately predicting the acidity constants of individual amino acid residues within complex protein structures.\n\nVan Le and Tan Le, in a preprint posted to arXiv on March 9, describe what they call a Deep Quantum Neural Network (DQNN) that enriches traditional molecular descriptors with a Gaussian kernel-based quantum-inspired feature mapping. The approach layers these quantum-enhanced representations on top of normalized structural features to create a unified hybrid encoding, which the neural network then processes to predict residue-level pKa values — a quantity central to understanding how proteins fold, function, and interact with drugs.\n\nPredicting pKa at the residue level matters because the charge state of individual amino acids governs protein stability, enzymatic reactivity, and ligand binding. Existing computational tools, including those trained on databases like DeepKaDB and datasets derived from constant-pH molecular dynamics simulations, rely on classical descriptors that often fail to generalize across the wide variety of biochemical microenvironments found in nature. The authors argue that their quantum-inspired feature transformation captures nonlinear relationships in these microenvironments that purely classical models miss.\n\nBenchmarking results presented in the paper suggest the DQNN architecture achieves improved cross-context generalization compared to classical baselines when evaluated across multiple curated descriptor sets. The researchers validated their approach externally against the PKAD-R experimental benchmark — a dataset of experimentally measured pKa values — and through a case study on amyloid-beta 40 (Aβ40), the peptide implicated in Alzheimer's disease pathology. Both evaluations reportedly demonstrated the robustness and transferability of the hybrid representation.\n\nImportantly, the framework is described as \"quantum-inspired\" rather than requiring actual quantum hardware, meaning it employs mathematical techniques borrowed from quantum computing — specifically kernel-based feature mappings — running on conventional processors. This distinction makes the approach immediately deployable without waiting for advances in quantum computing infrastructure, while still leveraging the representational advantages that quantum-mathematical formalisms can provide.\n\nThe work sits at the intersection of chemical physics, artificial intelligence, and computational biology, and the authors frame it as a scalable foundation for broader applications in protein electrostatics. If the generalization claims hold under independent scrutiny, the method could find utility in drug design pipelines where accurate charge-state prediction remains a bottleneck.",
-      "category": "physics",
-      "importance": 4,
-      "tags": [
-        "quantum-classical hybrid",
-        "protein science",
-        "pKa prediction",
-        "deep learning",
-        "computational chemistry"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1707863080066-bf2a5c660c5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxN3x8cXVhbnR1bS1jbGFzc2ljYWwlMjBoeWJyaWQlMjBwcm90ZWluJTIwc2NpZW5jZXxlbnwwfDB8fHwxNzczNDIwNDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://arxiv.org/abs/2603.11061",
-      "sourceName": "arXiv Physics",
-      "publishedAt": "2026-03-13T16:47:15.151Z"
     },
     {
       "id": "ps-1773418668859-n41y",
