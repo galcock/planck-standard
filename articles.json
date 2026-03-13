@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-03-13T08:34:34.279Z",
+  "lastUpdated": "2026-03-13T08:49:28.333Z",
   "count": 50,
   "articles": [
     {
-      "id": "ps-1773390790843-29ug",
-      "slug": "us-military-kc-135-refueling-plane-crashes-in-western-iraq",
-      "headline": "US Military KC-135 Refueling Plane Crashes in Western Iraq",
-      "subheadline": "Rescue operations are under way with six crew members aboard; Pentagon rules out hostile and friendly fire",
-      "body": "A U.S. Air Force KC-135 Stratotanker aerial refueling aircraft crashed in western Iraq during ongoing military operations against Iran, with rescue efforts now under way for the six service members believed to have been on board.\n\nU.S. Central Command said the crash did not involve hostile or friendly fire and occurred over what it described as friendly airspace. The KC-135 was one of two aircraft involved in the incident; the second landed safely. The condition of the crew — typically comprising a pilot, co-pilot, and boom operator, though six personnel were reportedly aboard — remains unknown. Iran's military claimed on state television that an allied group had struck the plane with a missile, a claim that directly contradicts the Pentagon's initial assessment.\n\nThe crash site lies in a region of western Iraq where pro-Iranian militias maintain an active presence, adding a layer of complexity to both the rescue operation and the investigation into the aircraft's loss. Democratic Congressman Jim Himes, a member of the \"Gang of Eight\" congressional leaders who receive classified intelligence briefings, told BBC Newsnight it was too early to determine the specific cause. \"This is part of the inevitable cost of a conflict,\" Himes said. \"Even the best military doesn't operate without accidents, and that's what appeared to have occurred here.\"\n\nThe incident marks the fourth U.S. aircraft lost since the current conflict with Iran began. Earlier this month, three F-15 fighter jets were downed in what officials described as an apparent friendly fire incident over Kuwait, though all six crew members in that episode ejected safely. Seven U.S. soldiers have been confirmed killed in the broader conflict to date.\n\nThe KC-135 Stratotanker, manufactured by Boeing in the late 1950s and early 1960s, has long served as the backbone of the U.S. military's aerial refueling capability, enabling combat aircraft to extend their range and conduct prolonged missions without landing. The aircraft played a critical role during the first Gulf War and remains central to American power projection across the Middle East. An investigation into the cause of the crash is expected to follow once rescue operations conclude.",
+      "id": "ps-1773391688212-l1ob",
+      "slug": "us-kc-135-refueling-plane-crashes-in-western-iraq-during-ira",
+      "headline": "US KC-135 Refueling Plane Crashes in Western Iraq During Iran Operations",
+      "subheadline": "Rescue operations under way with fate of six crew members unknown; Centcom rules out hostile and friendly fire",
+      "body": "A U.S. Air Force KC-135 Stratotanker aerial refueling aircraft crashed in western Iraq during ongoing military operations against Iran, U.S. Central Command confirmed, with rescue efforts now under way to reach as many as six service members believed to have been on board.\n\nCentcom stated that neither hostile nor friendly fire was involved in the crash, which occurred over what the military described as friendly airspace. The KC-135 was one of two aircraft involved in the incident; the second landed safely. The status of the crew — which typically includes a pilot, co-pilot, and boom operator, though six personnel were reportedly aboard — remains unknown, according to CBS News.\n\nThe crash site lies in a region of western Iraq where pro-Iranian militias are known to operate, adding a layer of complexity to the rescue mission. Iranian state television aired claims from an allied group asserting it had struck the aircraft with a missile, directly contradicting the Pentagon's account. Democratic Congressman Jim Himes, a member of the \"Gang of Eight\" congressional leaders briefed on sensitive military matters, said on BBC Newsnight that it was \"too early to tell\" what caused the crash but characterized it as the \"inevitable cost of a conflict,\" adding that \"even the best military doesn't operate without accidents.\"\n\nThe incident marks the fourth U.S. aircraft lost since the outbreak of the current U.S.-Israel conflict with Iran. Earlier this month, three F-15 fighter jets were downed in what officials described as an apparent friendly fire incident over Kuwait, though all six crew members ejected safely. Seven U.S. soldiers have been confirmed killed in the conflict to date.\n\nThe KC-135 Stratotanker, manufactured by Boeing in the late 1950s and early 1960s, has served as the backbone of the U.S. military's aerial refueling fleet for decades. The aircraft enables combat jets and bombers to extend their range without landing, a capability that proved critical during the first Gulf War and remains essential to sustained air campaigns. Its loss represents both a human and operational concern as the U.S. military continues large-scale operations across the Middle East theater.",
       "category": "breaking",
       "importance": 9,
       "tags": [
@@ -15,13 +15,118 @@
         "Iraq",
         "KC-135",
         "Iran conflict",
-        "CENTCOM",
+        "Centcom",
         "aerial refueling"
       ],
       "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/53d7/live/a0e799b0-1e6c-11f1-b048-c9424b2cf5fd.jpg",
       "sourceUrl": "https://www.bbc.com/news/articles/cy0dz5ql17vo?at_medium=RSS&at_campaign=rss",
       "sourceName": "BBC News",
-      "publishedAt": "2026-03-13T08:33:10.843Z"
+      "publishedAt": "2026-03-13T08:48:08.212Z"
+    },
+    {
+      "id": "ps-1773391704168-25dm",
+      "slug": "hybrid-quantum-classical-framework-targets-protein-pka-predi",
+      "headline": "Hybrid Quantum-Classical Framework Targets Protein pKa Prediction",
+      "subheadline": "Researchers combine quantum-inspired feature mapping with deep neural networks to improve protein electrostatics modeling",
+      "body": "A new computational framework that merges quantum-inspired mathematical techniques with classical biochemical data is showing promise in predicting the acid-base properties of individual amino acid residues within proteins — a long-standing challenge in structural biology and drug design.\n\nResearchers Van Le and Tan Le, in a preprint posted to arXiv on March 9, describe what they call a Deep Quantum Neural Network (DQNN) architecture that uses Gaussian kernel-based quantum-inspired feature mapping to enrich the molecular descriptors traditionally used to predict residue-level pKa values. These values, which quantify how readily specific amino acids donate or accept protons, are critical for understanding protein folding, enzymatic catalysis, and molecular interactions that underpin pharmaceutical development. Despite their importance, accurate pKa prediction has proven difficult because the local chemical environment around each residue varies enormously across different proteins and conditions.\n\nThe approach builds on existing classical datasets, including DeepKaDB and constant-pH molecular dynamics (CpHMD) simulations, but augments their descriptors with quantum-inspired transformations designed to capture nonlinear relationships in residue microenvironments that conventional models miss. The quantum-enhanced descriptors are combined with normalized structural features into a unified hybrid encoding that feeds into the deep learning architecture. Crucially, the framework does not require an actual quantum computer — it employs mathematical operations inspired by quantum mechanics that can run on standard hardware, making it immediately scalable.\n\nBenchmarking results reported in the paper indicate that the DQNN achieves improved cross-context generalization compared to classical baseline models when tested across multiple curated descriptor sets. The researchers further validated their approach against the PKAD-R experimental benchmark and through a case study on the amyloid-beta 40 peptide (Aβ40), a molecule central to Alzheimer's disease research. Both evaluations demonstrated what the authors describe as robust transferability of their quantum-inspired representations to real experimental data.\n\nThe work sits at the intersection of quantum computing concepts and computational biochemistry, an area attracting growing attention as researchers seek new mathematical frameworks to tackle problems where classical machine learning plateaus. While the \"quantum-inspired\" label has drawn scrutiny in some quarters — since no quantum hardware is involved — proponents argue that the mathematical structures borrowed from quantum theory can genuinely expand the expressivity of feature representations. Whether this particular framework delivers meaningful advantages over state-of-the-art classical approaches at production scale remains to be validated through independent benchmarking and peer review. The preprint has not yet undergone formal peer review.",
+      "category": "physics",
+      "importance": 4,
+      "tags": [
+        "quantum-inspired computing",
+        "protein electrostatics",
+        "pKa prediction",
+        "deep learning",
+        "computational biochemistry"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1762264644285-aedb3344804e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw0fHxxdWFudHVtLWluc3BpcmVkJTIwY29tcHV0aW5nJTIwcHJvdGVpbiUyMGVsZWN0cm9zdGF0aWNzfGVufDB8MHx8fDE3NzMzOTE3MDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://arxiv.org/abs/2603.11061",
+      "sourceName": "arXiv Physics",
+      "publishedAt": "2026-03-13T08:48:24.168Z"
+    },
+    {
+      "id": "ps-1773391722306-u5l1",
+      "slug": "physicists-solve-20-year-nuclear-mystery-in-the-cosmic-origi",
+      "headline": "Physicists Solve 20-Year Nuclear Mystery in the Cosmic Origin of Gold",
+      "subheadline": "University of Tennessee team achieves first-ever measurement of two-neutron emission energies along the r-process pathway",
+      "body": "Nuclear physicists have cracked open a two-decade-old mystery about how the universe forges gold, platinum, and other heavy elements, reporting three landmark discoveries in a single study that could reshape theoretical models of stellar nucleosynthesis.\n\nThe research, led by a team at the University of Tennessee at Knoxville and published in Physical Review Letters, centers on the rapid neutron-capture process, or r-process — the chain of nuclear reactions that occurs during cataclysmic cosmic events such as neutron star collisions and supernovae. During the r-process, atomic nuclei absorb neutrons in rapid succession, becoming progressively heavier and more unstable before decaying into lighter, stable elements. But the precise nuclear steps governing this transformation have remained stubbornly opaque, largely because the nuclei involved are extraordinarily rare and short-lived.\n\nWorking at CERN's ISOLDE facility, the team produced large quantities of the rare isotope indium-134 using advanced laser separation techniques, then tracked its decay products — excited forms of tin-134, tin-133, and tin-132 — with a custom neutron detector built at UT and funded by the National Science Foundation. Their most consequential result was the first-ever measurement of neutron energies associated with beta-delayed two-neutron emission, a process that occurs only in exotic, fleeting nuclei. \"The two-neutron emission is the biggest deal,\" said Professor Robert Grzywacz, a senior member of the research team. \"No one measured energies\" in earlier attempts, he noted, calling the achievement the opening of \"a completely new field.\" The measurement represents the first detailed study of two-neutron emission from a nucleus situated directly on the r-process pathway.\n\nThe team's second breakthrough was the first observation of a single-particle neutron state in tin-133 that theorists had predicted but experimentalists had sought for 20 years. Contrary to prevailing assumptions that nuclei act as \"amnesiacs\" — losing all trace of their formation history when shedding neutrons — the researchers found that the tin nucleus retains a \"shadow\" of its indium parent. \"We say the tin doesn't forget,\" Grzywacz said. The discovery suggests that existing theoretical frameworks are incomplete. A third finding compounded that challenge: the newly identified state is populated in a non-statistical manner during decay, defying standard expectations and indicating that conventional models may break down for exotic nuclei far from stability.\n\nThe implications extend well beyond a single isotope. Accurate models of the r-process are essential for interpreting observations from neutron star mergers — events now detectable through gravitational wave astronomy — and for understanding the cosmic abundance of heavy elements. The study's lead author, graduate student Peter Dyszel, who joined the project in 2022 after earning his undergraduate degree at the University of North Florida, played a hands-on role building detectors, assembling electronics, and analyzing data. The collaborative effort involved researchers from multiple institutions across several countries, underscoring the scale of experimental nuclear physics required to probe the origins of the periodic table's heaviest residents.",
+      "category": "physics",
+      "importance": 7,
+      "tags": [
+        "nuclear physics",
+        "r-process",
+        "gold",
+        "neutron capture",
+        "CERN",
+        "nucleosynthesis",
+        "heavy elements"
+      ],
+      "imageUrl": "https://www.sciencedaily.com/images/1920/nuclear-physics-atomic-element.webp",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260313002633.htm",
+      "sourceName": "Science Daily",
+      "publishedAt": "2026-03-13T08:48:42.306Z"
+    },
+    {
+      "id": "ps-1773391736126-lbvz",
+      "slug": "rox-ai-reaches-1-2-billion-valuation-with-new-funding-round",
+      "headline": "Rox AI Reaches $1.2 Billion Valuation With New Funding Round",
+      "subheadline": "The sales automation startup deploys autonomous AI agents to overhaul how companies manage revenue and customer relationships",
+      "body": "Rox, a startup building autonomous AI agents for sales teams, has crossed the unicorn threshold with a new funding round that values the company at $1.2 billion, according to multiple people familiar with the matter. General Catalyst, a returning investor, led the round, which closed in 2025.\n\nAt the time the deal was finalized, Rox was projected to finish 2025 with approximately $8 million in annual recurring revenue — a figure that reflects both the company's early-stage commercial traction and the premium valuation investors are placing on AI-native enterprise software. The company had previously disclosed $50 million in total funding through November 2024, encompassing a Sequoia-led seed round and a General Catalyst-led Series A with participation from GV. Neither Rox nor General Catalyst commented on the latest round.\n\nFounded in 2024 by Ishan Mukherjee, the former chief growth officer of New Relic, Rox positions itself as an intelligent revenue operating system. The platform integrates with existing enterprise tools — Salesforce, Zendesk, and others — and deploys fleets of AI agents that monitor customer accounts, research prospects, update CRM records, and surface recommended actions. The ambition is to consolidate a patchwork of fragmented sales tools into a single AI-driven layer. Mukherjee's background includes co-founding Pixie, a software monitoring company acquired by New Relic in 2020. Rox counts Ramp, MongoDB, and New Relic among its customers.\n\nThe valuation underscores how aggressively venture capital is flowing into AI-powered sales infrastructure, even as the competitive landscape grows crowded. Rox faces established revenue intelligence incumbents like Gong and Clari, AI sales development platforms such as 11x and Artisan, and a new wave of AI-native CRM challengers. Among the latest entrants is Monaco, founded by former Brex president Sam Blond, which emerged from stealth in February.\n\nA $1.2 billion valuation on roughly $8 million in ARR implies a revenue multiple north of 100x — a ratio that signals investor conviction in the company's growth trajectory but also carries the expectations that come with such lofty pricing. Whether Rox can scale fast enough to justify that bet will depend on how quickly enterprises move to replace legacy sales workflows with autonomous AI agents, a transition that remains in its earliest innings.",
+      "category": "tech",
+      "importance": 6,
+      "tags": [
+        "Rox AI",
+        "artificial intelligence",
+        "sales automation",
+        "unicorn",
+        "General Catalyst",
+        "venture capital",
+        "enterprise software"
+      ],
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/04/GettyImages-1422739420.jpg?resize=1200,702",
+      "sourceUrl": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "sourceName": "TechCrunch",
+      "publishedAt": "2026-03-13T08:48:56.126Z"
+    },
+    {
+      "id": "ps-1773391750841-8eje",
+      "slug": "global-stocks-slide-as-oil-holds-above-100-amid-iran-war-fea",
+      "headline": "Global Stocks Slide as Oil Holds Above $100 Amid Iran War Fears",
+      "subheadline": "Investors shed risk assets heading into the weekend as crude prices and a strengthening dollar weigh on equities",
+      "body": "Global equity markets extended their losses on Friday as investors pulled back from risk assets, with crude oil prices sustaining levels above $100 per barrel amid escalating concerns over the conflict involving Iran.\n\nThe selloff, which began earlier in the week, deepened as market participants sought safer positions ahead of the weekend, wary that geopolitical developments could accelerate while trading desks are closed. The U.S. dollar gained against a basket of major currencies, reflecting a broad flight to safety that has become a defining feature of recent sessions. Rising energy costs have compounded fears of economic disruption, with triple-digit oil prices threatening to stoke inflation and squeeze corporate margins across industries reliant on petroleum inputs.\n\nThe Iran conflict has emerged as the dominant force shaping market sentiment, overshadowing economic data and corporate earnings. Oil's breach of the $100 threshold — a psychologically significant level that markets had not contended with for an extended period — has rattled energy-importing economies and raised the specter of stagflationary pressures. Central banks, already navigating a delicate balance between growth support and inflation control, now face an additional variable that could complicate monetary policy decisions in the weeks ahead.\n\nFor investors, the convergence of falling equities, surging energy prices, and a strengthening dollar presents a challenging environment with few obvious havens beyond traditional safe assets like U.S. Treasuries and the greenback itself. Analysts note that the risk premium embedded in oil prices reflects not just current supply disruptions but also uncertainty about the conflict's trajectory and its potential to affect shipping routes and production infrastructure across the broader Middle East region.\n\nMarket strategists will be closely watching weekend developments for any signs of diplomatic progress or further escalation, with Monday's open likely to be shaped by the geopolitical landscape that emerges. Until there is greater clarity on the conflict's scope and duration, volatility across asset classes is expected to remain elevated.",
+      "category": "markets",
+      "importance": 8,
+      "tags": [
+        "oil prices",
+        "Iran conflict",
+        "equities selloff",
+        "dollar strength",
+        "geopolitical risk"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1689450271446-f011cc7f994a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxMXx8b2lsJTIwcHJpY2VzJTIwSXJhbiUyMGNvbmZsaWN0fGVufDB8MHx8fDE3NzMzOTE3NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/asian-stocks-bonds-to-echo-us-drop-as-crude-rises-markets-wrap",
+      "sourceName": "Bloomberg",
+      "publishedAt": "2026-03-13T08:49:10.841Z"
+    },
+    {
+      "id": "ps-1773391768237-g0ef",
+      "slug": "bitcoin-s-plunge-to-60k-foreshadowed-the-global-stock-sellof",
+      "headline": "Bitcoin's Plunge to $60K Foreshadowed the Global Stock Selloff",
+      "subheadline": "The cryptocurrency's sharp decline months before equities crumbled reinforces its growing reputation as a leading market indicator",
+      "body": "Bitcoin's steep fall from above $126,000 to roughly $60,000 earlier this year now appears to have been a reliable early warning signal for the broader risk-asset selloff currently sweeping global equity markets, reinforcing a pattern that market technicians have tracked across multiple cycles.\n\nThe cryptocurrency peaked above $126,000 in early October 2025 and spent the following months sliding lower, accompanied by significant outflows from U.S.-listed spot bitcoin ETFs — even in the absence of any obvious crypto-specific catalyst. By early February, bitcoin had bottomed near $60,000, a decline of more than 50%. At the time, some analysts flagged the unusual ETF redemptions as a possible signal of an approaching macroeconomic shock. That concern has now been validated. Global stock markets have come under heavy selling pressure in recent weeks, driven by geopolitical turmoil including the Iran conflict and a sharp spike in oil prices. The S&P 500, the Nasdaq Composite, India's Nifty index, and the SPDR Financial Select Sector ETF (XLF) have all deteriorated, with chart patterns that closely mirror bitcoin's pre-crash trading structure — a prolonged period of volatile, range-bound activity followed by a decisive breakdown.\n\nMeanwhile, bitcoin itself has stabilized around $70,000 to $71,000, appearing to have already absorbed the risk repricing that traditional markets are only now experiencing. The divergence underscores what some currency traders have long argued: that bitcoin, by virtue of its 24/7 global liquidity and speculative sensitivity, tends to price in shifts in risk appetite before equities do.\n\nThe pattern is not new. Todd Stankiewicz, president and chief investment officer of SYKON Capital, identified at least three prior instances — late 2017, the weeks before the COVID-19 crash, and late 2021 — in which bitcoin either peaked or failed to make new highs while the S&P 500 continued to advance, only for equities to reverse shortly after. In the most notable case, bitcoin topped near $60,000 in November 2021 and began its bear market roughly two months before the Nasdaq and S&P 500 peaked in January 2022 ahead of the Federal Reserve's aggressive rate-hiking campaign.\n\n\"Bitcoin either rolled over or failed to make new highs while the S&P 500 pushed ahead. In each case, the equity rally eventually stalled and reversed,\" Stankiewicz wrote in a post on the Chartered Market Technician Association website. For equity investors, the implication is increasingly difficult to ignore: bitcoin's price action may deserve a permanent place on the macro dashboard, not as a safe haven in the traditional sense, but as a high-frequency barometer of global risk sentiment.",
+      "category": "markets",
+      "importance": 7,
+      "tags": [
+        "bitcoin",
+        "stock market",
+        "leading indicator",
+        "S&P 500",
+        "risk assets",
+        "market selloff"
+      ],
+      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/576973e26f777769f2843f1bb0c79e294db00fa0-5849x2868.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+      "sourceUrl": "https://www.coindesk.com/markets/2026/03/13/bitcoin-crashed-first-now-stocks-follow-cementing-btc-s-lead-indicator-cred",
+      "sourceName": "CoinDesk",
+      "publishedAt": "2026-03-13T08:49:28.237Z"
     },
     {
       "id": "ps-1773390808630-2w4g",
@@ -44,92 +149,6 @@
       "sourceUrl": "https://arxiv.org/abs/2603.11108",
       "sourceName": "arXiv Physics",
       "publishedAt": "2026-03-13T08:33:28.630Z"
-    },
-    {
-      "id": "ps-1773390827210-fjik",
-      "slug": "physicists-solve-20-year-nuclear-mystery-in-the-cosmic-origi",
-      "headline": "Physicists Solve 20-Year Nuclear Mystery in the Cosmic Origin of Gold",
-      "subheadline": "University of Tennessee team achieves first measurement of beta-delayed two-neutron emission energies along the r-process pathway",
-      "body": "Nuclear physicists have cracked open a two-decade-old mystery about how the universe forges gold, platinum, and other heavy elements, reporting three breakthrough discoveries in a single study published in Physical Review Letters.\n\nA team led by researchers at the University of Tennessee at Knoxville, working at CERN's ISOLDE facility in Geneva, achieved the first-ever measurement of neutron energies associated with beta-delayed two-neutron emission — a fleeting nuclear process that occurs along the rapid neutron-capture pathway, known as the r-process. This chain reaction, triggered during cataclysmic stellar events such as supernovae and neutron star mergers, is responsible for creating roughly half of all elements heavier than iron, including gold and platinum. The measurement had eluded experimentalists for years because the nuclei involved are extraordinarily unstable and the neutrons produced are notoriously difficult to distinguish individually. \"The reason this is hard is because neutrons like to bounce around. It's hard to tell if it's one or two,\" said Robert Grzywacz, a UT professor and senior member of the research team.\n\nThe experiments began with large quantities of indium-134, a rare isotope produced and purified using advanced laser separation techniques at CERN's ISOLDE Decay Station. When indium-134 decays, it generates excited forms of tin isotopes — tin-134, tin-133, and tin-132 — which then shed neutrons to reach stability. Using a custom neutron detector built at UT with National Science Foundation funding, the team made two additional discoveries alongside the landmark two-neutron measurement. They observed, for the first time, a single-particle neutron state in tin-133 that theorists had predicted but no one had found in 20 years of searching. Crucially, the observation revealed that the decaying tin nucleus retains a \"memory\" of its parent indium nucleus — contradicting the prevailing assumption that neutron emission erases all traces of the prior decay. \"We say the tin doesn't forget,\" Grzywacz said. \"This 'shadow' of indium doesn't completely disappear.\"\n\nThe third finding may prove the most disruptive to existing theory: the newly identified nuclear state is populated in a non-statistical manner during decay, meaning the process does not follow the probabilistic patterns that standard models predict. Grzywacz suggested that as physicists probe increasingly exotic regions of the nuclear landscape — including superheavy elements like tennessine — current theoretical frameworks may break down entirely and require replacement.\n\nThe study's first author, UT graduate student Peter Dyszel, played a central role in constructing detectors, developing data acquisition software, and analyzing results. The collaboration spanned numerous international institutions and drew on data analysis methods developed by UT research assistant professor Zhengyu Xu. Together, the three discoveries provide essential new constraints for astrophysical models that simulate how stellar explosions and collisions manufacture the heavy elements found across the cosmos — and, ultimately, in everything from jewelry to electronics on Earth.",
-      "category": "physics",
-      "importance": 7,
-      "tags": [
-        "nuclear physics",
-        "r-process",
-        "gold",
-        "neutron emission",
-        "CERN",
-        "ISOLDE",
-        "heavy elements",
-        "nucleosynthesis"
-      ],
-      "imageUrl": "https://www.sciencedaily.com/images/1920/nuclear-physics-atomic-element.webp",
-      "sourceUrl": "https://www.sciencedaily.com/releases/2026/03/260313002633.htm",
-      "sourceName": "Science Daily",
-      "publishedAt": "2026-03-13T08:33:47.210Z"
-    },
-    {
-      "id": "ps-1773390842471-tbhd",
-      "slug": "rox-ai-reaches-1-2-billion-valuation-with-new-funding-round",
-      "headline": "Rox AI Reaches $1.2 Billion Valuation With New Funding Round",
-      "subheadline": "The sales automation startup, backed by General Catalyst and Sequoia, deploys AI agents to overhaul how companies manage revenue",
-      "body": "Rox AI, a startup building autonomous AI agents for sales teams, has crossed the unicorn threshold with a new funding round that values the company at $1.2 billion, according to multiple people familiar with the matter. General Catalyst, a returning investor, led the round, which reportedly closed in late 2024 or early 2025.\n\nThe valuation marks a rapid ascent for a company founded just in 2024 by Ishan Mukherjee, previously chief growth officer at observability platform New Relic. Mukherjee came to New Relic through its 2020 acquisition of Pixie, a software monitoring startup he co-founded. At the time of the fundraise, Rox was projected to finish 2025 with approximately $8 million in annual recurring revenue — a modest figure relative to its billion-dollar-plus valuation, but one that reflects investor appetite for AI-native enterprise software plays. The company had previously disclosed $50 million in total funding across a Sequoia-led seed round and a General Catalyst-led Series A, with GV also participating.\n\nRox positions itself as an \"intelligent revenue operating system\" that integrates with existing enterprise tools — Salesforce, Zendesk, and others — and deploys hundreds of AI agents to handle tasks traditionally scattered across multiple software products. These agents continuously monitor customer accounts, research prospects, update CRM records, and surface recommended actions for sales representatives. The pitch is consolidation: rather than layering dozens of point solutions, companies can route much of their sales operations through a single AI-driven platform. Customers listed on the company's website include fintech firm Ramp, database provider MongoDB, and New Relic.\n\nThe competitive landscape is crowded and intensifying. Rox faces established revenue intelligence incumbents like Gong and Clari, AI-powered sales development startups such as 11x and Artisan, and a growing cohort of AI-native CRM challengers. Among the latest entrants is Monaco, founded by former Brex president Sam Blond, which emerged from stealth in February. The proliferation of competitors underscores a broader conviction across the venture capital ecosystem that AI agents will fundamentally reshape enterprise sales workflows — and a willingness to pay steep premiums for early-stage companies racing to define the category.\n\nNeither Rox nor General Catalyst has publicly commented on the new round. The deal's valuation, roughly 150 times projected ARR, illustrates the aggressive multiples investors continue to assign to AI startups with strong founding teams and fast-growing, if still early, revenue bases.",
-      "category": "tech",
-      "importance": 6,
-      "tags": [
-        "Rox AI",
-        "artificial intelligence",
-        "sales automation",
-        "General Catalyst",
-        "unicorn",
-        "venture capital",
-        "enterprise software"
-      ],
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/04/GettyImages-1422739420.jpg?resize=1200,702",
-      "sourceUrl": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
-      "sourceName": "TechCrunch",
-      "publishedAt": "2026-03-13T08:34:02.471Z"
-    },
-    {
-      "id": "ps-1773390857410-jhpf",
-      "slug": "global-stocks-slide-as-iran-conflict-keeps-oil-above-100-a-b",
-      "headline": "Global Stocks Slide as Iran Conflict Keeps Oil Above $100 a Barrel",
-      "subheadline": "Investors reduce risk exposure heading into the weekend amid persistent geopolitical uncertainty and surging crude prices",
-      "body": "Global equity markets extended their losing streak on Friday as the escalating conflict involving Iran continued to rattle investors, with crude oil prices sustaining levels above $100 per barrel and fueling fears of broader economic disruption.\n\nThe sell-off, which deepened as traders moved to shed risk ahead of the weekend, reflects mounting anxiety over the geopolitical crisis and its implications for energy markets, inflation, and global growth. With oil holding firmly in triple-digit territory, market participants are pricing in the possibility that supply disruptions could persist, raising costs for businesses and consumers worldwide. The combination of elevated energy prices and military uncertainty has created a toxic mix for risk assets, prompting a broad retreat across major indices.\n\nThe Iran conflict has emerged as the dominant force shaping market sentiment in recent sessions, overshadowing corporate earnings and economic data releases. Crude oil's return above the $100 threshold — a psychologically significant level — has revived concerns about stagflationary pressures that central banks would struggle to address through conventional monetary policy tools. Higher energy costs act as both an inflation accelerant and a drag on economic activity, complicating the outlook for policymakers already navigating a delicate balance.\n\nInvestors appear particularly reluctant to carry significant equity exposure over the weekend, when the risk of unexpected military escalation or diplomatic developments remains elevated. Weekend gaps in trading have historically punished those caught on the wrong side of geopolitical surprises, and the current environment has amplified that caution. Safe-haven assets, including government bonds and gold, have seen increased demand as capital rotates out of equities.\n\nThe broader implications of sustained $100-plus oil extend well beyond trading floors. Energy-importing economies face deteriorating terms of trade, while sectors from airlines to manufacturing confront margin compression. How long crude remains at these levels — and whether the conflict widens or moves toward resolution — will likely determine whether the current market downturn deepens into something more severe or proves to be a temporary repricing of geopolitical risk.",
-      "category": "markets",
-      "importance": 8,
-      "tags": [
-        "oil prices",
-        "Iran conflict",
-        "stock market selloff",
-        "geopolitical risk",
-        "crude oil"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1656436075877-a20103919f4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHw2fHxvaWwlMjBwcmljZXMlMjBJcmFuJTIwY29uZmxpY3R8ZW58MHwwfHx8MTc3MzMzNDA5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/asian-stocks-bonds-to-echo-us-drop-as-crude-rises-markets-wrap",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-13T08:34:17.410Z"
-    },
-    {
-      "id": "ps-1773390874190-va7v",
-      "slug": "bitcoin-s-plunge-to-60k-foreshadowed-the-global-stock-sellof",
-      "headline": "Bitcoin's Plunge to $60K Foreshadowed the Global Stock Selloff",
-      "subheadline": "The cryptocurrency's sharp decline from $126,000 preceded equity drops by weeks, reinforcing its role as a leading risk indicator.",
-      "body": "Bitcoin's dramatic fall from above $126,000 in early October to lows near $60,000 last month now appears to have been a canary in the coal mine for global equity markets, which have since entered their own sharp decline amid geopolitical turmoil and surging oil prices.\n\nThe cryptocurrency began its descent months before major stock indices followed suit. While bitcoin was plunging through the fall and into early 2026 — accompanied by rapid outflows from U.S.-listed spot ETFs with no obvious crypto-specific catalyst — the S&P 500, Nasdaq, India's Nifty index, and the SPDR Financial Select Sector ETF (XLF) continued trading in volatile but elevated ranges. Those equity benchmarks have now broken lower, pressured by the Iran conflict, an oil price spike, and deteriorating sentiment across Asian and European markets. Bitcoin, meanwhile, has stabilized around $70,000 to $71,000, its selloff largely complete.\n\nTechnical analysts note that the pattern is strikingly similar to late 2021, when bitcoin peaked near $60,000 in November and quickly shed more than $10,000 within weeks. The Nasdaq and S&P 500 did not top out until January 2022, roughly two months later, before embarking on prolonged declines as the Federal Reserve began its aggressive rate-hiking cycle. Todd Stankiewicz, president and chief investment officer of SYKON Capital, has identified at least three prior instances — late 2017, the weeks preceding the COVID crash, and late 2021 — in which bitcoin either rolled over or failed to make new highs while equities pushed ahead, only for stocks to eventually stall and reverse.\n\nThe mechanism behind bitcoin's apparent predictive power remains debated. Some analysts attribute it to the cryptocurrency market's 24/7 trading and its sensitivity to global liquidity conditions, which can make it faster to price in macroeconomic stress than equity markets constrained by trading hours and institutional inertia. Others point to the speculative, high-beta nature of crypto assets, arguing that the most risk-sensitive instruments tend to crack first when monetary or geopolitical conditions tighten.\n\nFor equity investors, the implication is straightforward: bitcoin's price action may warrant closer attention as a real-time gauge of risk appetite. With the cryptocurrency now trading steadily above $71,000 — up roughly 2.5% in recent sessions even as stocks struggle — the signal from the crypto market appears, for now, to be one of cautious stabilization rather than further panic.",
-      "category": "markets",
-      "importance": 7,
-      "tags": [
-        "bitcoin",
-        "stock market",
-        "leading indicator",
-        "risk assets",
-        "S&P 500",
-        "market selloff"
-      ],
-      "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/576973e26f777769f2843f1bb0c79e294db00fa0-5849x2868.jpg?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
-      "sourceUrl": "https://www.coindesk.com/markets/2026/03/13/bitcoin-crashed-first-now-stocks-follow-cementing-btc-s-lead-indicator-cred",
-      "sourceName": "CoinDesk",
-      "publishedAt": "2026-03-13T08:34:34.190Z"
     },
     {
       "id": "ps-1773389909430-r5ll",
@@ -1047,27 +1066,6 @@
       "sourceUrl": "https://www.coindesk.com/markets/2026/03/12/bitcoin-selling-intensifies-across-all-wallet-sizes-despite-price-holding-near-usd70-000",
       "sourceName": "CoinDesk",
       "publishedAt": "2026-03-12T15:18:22.465Z"
-    },
-    {
-      "id": "ps-1773327790507-zkj5",
-      "slug": "pentagon-puts-11-3-billion-price-tag-on-first-week-of-iran-w",
-      "headline": "Pentagon Puts $11.3 Billion Price Tag on First Week of Iran War",
-      "subheadline": "U.S. officials brief lawmakers on staggering costs of Trump's military campaign as spending debates intensify",
-      "body": "The United States spent more than $11.3 billion during the first six days of its military campaign against Iran, according to figures shared with lawmakers, offering the most granular accounting yet of the financial toll of the conflict.\n\nU.S. officials provided the cost estimate to members of Congress in what represents the first detailed fiscal assessment since hostilities began, Bloomberg reported on Wednesday, citing a person familiar with the briefing. The figure — averaging roughly $1.9 billion per day — underscores the extraordinary pace of military expenditure involved in sustained operations against a near-peer adversary with significant air defense, naval, and missile capabilities.\n\nThe disclosure arrives as Washington grapples with the broader economic and strategic implications of the campaign ordered by President Donald Trump. At the current burn rate, a month of operations would cost taxpayers upward of $56 billion, a sum that would rival the peak annual spending levels seen during the wars in Iraq and Afghanistan. Defense analysts have noted that operations against Iran — which possesses a far more sophisticated military infrastructure than either Iraq or Afghanistan did — are likely to demand sustained expenditures on precision munitions, carrier strike group deployments, aerial refueling, and missile defense intercepts, all among the most expensive line items in the Pentagon's operational budget.\n\nThe briefing to lawmakers is likely to intensify congressional debate over funding mechanisms and the scope of presidential war authority. Members of both parties have signaled interest in understanding how the administration plans to finance the campaign, whether through supplemental appropriations, reallocation of existing defense funds, or emergency spending measures that bypass standard budgetary constraints. The $11.3 billion figure does not appear to account for longer-term costs such as equipment replacement, veteran care, or economic disruptions stemming from the conflict.\n\nDefense stocks have surged since the onset of hostilities, with major contractors benefiting from expectations of accelerated procurement. But economists warn that the fiscal burden, layered on top of an already elevated national debt exceeding $36 trillion, could exert upward pressure on interest rates and complicate the administration's broader economic agenda. How quickly costs escalate — or whether diplomatic channels emerge to contain them — will be among the most consequential variables shaping both the conflict and the domestic political landscape in the months ahead.",
-      "category": "breaking",
-      "importance": 9,
-      "tags": [
-        "Iran war",
-        "Pentagon spending",
-        "military costs",
-        "Trump administration",
-        "defense budget",
-        "Congress"
-      ],
-      "imageUrl": "https://images.unsplash.com/photo-1731393792092-f26f8a30e56b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4Nzg4ODZ8MHwxfHNlYXJjaHwxNHx8UGVudGFnb24lMjBQdXRzJTIwQmlsbGlvbiUyMFByaWNlJTIwVGFnfGVufDB8MHx8fDE3NzMzMjc3OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-03-12/us-puts-11-3-billion-pricetag-on-the-first-week-of-iran-war",
-      "sourceName": "Bloomberg",
-      "publishedAt": "2026-03-12T15:03:10.507Z"
     }
   ]
 }
